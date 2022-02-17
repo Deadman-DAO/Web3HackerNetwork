@@ -8,7 +8,19 @@ Create a decentralized network analytics data pipeline for discovering Web3 hack
 
 ## Description of the project and what problem it is solving
 
+Finding Web3 developers to work with on bounties and hackathons is challenging. You can go to Discord and post, but your message reach will be limited. You can search on LinkedIn, but that data is often stale and only tells you that someone put Web3 terms on their portfolio, not whether they have actually executed. And when you find someone, it is easier to make the connection if you know someone in common to make the introduction.
+
+Developers in Web3 are doing a great job taking an active role in building their networks, but they typically lack the office environment where networking has traditionally been done.
+
+Web3 Hacker Network will provide analytics about the network of active Web3 developers, designers, and managers. 
+
 ## Grant Deliverables
+
+* Raw dataset showing Gitcoin user participation in bounties, hackathons, and grants.
+* User-User sparse matrix datasets showing strength of relationship along [TBK number of] skill dimensions.
+* NetworkX model of the multi-layer network representing the user-user edges in multiple dimensions.
+* Sample charts showing [TBK] and [TBK], metrics that express [TBK] and [TBK].
+* User experience that takes a Gitcoin ID and a skill and finds the network path to near or strongly connected hackers with that skill.
 
 ## Project Category: *Unleash Data*
 
@@ -56,19 +68,19 @@ option 4: Adding value to the overall community - how well does the outcome of t
 
 * Role: Project Manager, Developer
 * Relevant Credentials:
-  * LinkedIn: [TBK]
+    * LinkedIn: [TBK]
 * Background / Experience:
-  * L6 SDE / L6 SDM at Amazon (big data & data science)
-  * Big Data Architect at Choice Hotels
-  * Senior Engineer at Apple
+    * L6 SDE / L6 SDM at Amazon (big data & data science)
+    * Big Data Architect at Choice Hotels
+    * Senior Engineer at Apple
 
 ### Matt Enke
 
 * Role: Developer
 * Relevant Credentials
-  * [TBK]
+    * [TBK]
 * Background / Experience
-  * System Architect and Engineer: US DoD Warehouse Automation
+    * System Architect and Engineer: US DoD Warehouse Automation
 
 ## Part 2.2 Advisors
 
@@ -76,24 +88,22 @@ option 4: Adding value to the overall community - how well does the outcome of t
 
 * Role: Network Theory Advisor
 * Relevant Credentials
-  * [TBK]
+    * [TBK]
 * Background / Experience
-  * [TBK: Senior Scientist? at Apple]
-  * [TBK: Social Network and Contagion Model Analyst at Sandia Labs]
+    * [TBK: Senior Scientist? at Apple]
+    * [TBK: Social Network and Contagion Model Analyst at Sandia Labs]
 
 # Part 3 - Proposal Details
 
 ## 3.1 Details
 
-Details of the proposal - 1 or more paragraphs
+We propose building an initial iteration of a network analytics data pipeline on Ocean Protocol. It will act as both a demonstration of network analytics using NetworkX and as a jumping off point for a richer hacker discovery system going forward. Three engineers will be involved during the first iteration. Future iterations will expand the project based on demand, feedback, and developer engagement.
 
 ## 3.4 Which Ocean-powered data market will data be published on?
 
-[TBK: Ummm, which what? :) - I think: Ocean Market with plans to investigate the RoI of forking our own market]
+Initial deployment will be on Ocean Market. In subsequent rounds we will explore the RoI of forking our own market. We have system administration experience, so it's just a question of where we want to allocate our time during each iteration.
 
 ## 3.7.a. Are there any mockups or designs to date?
-
-[TBK: we should have a basic pipeline diagram, at least]
 
 [TBK: we should have a primitive user interface mockup]
 
@@ -101,23 +111,29 @@ Details of the proposal - 1 or more paragraphs
 
 ## 3.7.b. Please give an overview of the technology stack.
 
-[TBK: Gitcoin API -> raw data -> sparse matrices -> NewtorkX -> UX ]
+[TBK: basic pipeline diagram, at least: Gitcoin API -> raw data -> sparse matrices -> NewtorkX -> UX ]
 
 ## 3.9 Project Deliverables - Roadmap
 
 ### Any prior work completed thus far? Details?
 
-Y or N; Details
+No. We are doing initial exploration but no significant work in progress yet.
 
 ### What is the project roadmap?
 
-That is: what are key milestones, and the target date for each milestone. Please make sure that one milestone is about publishing your results, e.g. as a medium blog post.
+1. Milestone 1 (End of Week 1): Gitcoin API calls capable of pulling user, bounty, and grant history.
+1. Milestone 2 (End of Week 2): Store the raw data from Milestone 1 in Ocean Protocol space.
+1. Milestone 3 (End of Week 3): Generate sparse matrices from the raw data and store in Ocean Protocol space.
+1. Milestone 4 (End of Week 4): Generate NetworkX models in Ocean Protocol space.
+1. Milestone 5 (End of Week 5): Generate analytical charts and metrics.
+1. Milestone 6 (End of Week 6): Expose the UX for querying the network.
+1. Milestone 7 (End of week 7): Refine wiki documentation for public consumption and announce.
+1. Milestone 8 (End of week 8): Write the grant for Ocean Round 17.
 
 ### What is the team's future plans and intentions?
 
-Is there maintenance? Possible extensions to the work?
+We intend to continue extending the work as long as we still need a tool for finding hackers to work with and as long as others find the work valuable.
 
 ## 3.10 Additional Information
 
-Custom fields or images? Other grans or fundrasing to date?
-
+I intend to submit a grant to Gitcoin at the same time that I submit this one to Ocean Protocol. We are way under our market rate, which we see as an acceptable investment in our professional development. But the more we can close that gap the easier it will be to continue the work and the easier it will be to attract more of our associates away from Web2.
