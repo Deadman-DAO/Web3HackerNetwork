@@ -4,23 +4,21 @@
 
 ## Proposal in one sentence
 
-Create a decentralized network analytics data pipeline for discovering Web3 hackers and understanding the developer-developer multinetwork.
+Create a decentralized network analytics data pipeline for discovering Web3 hackers and understanding the developer-developer multilevel network.
 
 ## Description of the project and what problem it is solving
 
-Finding Web3 developers to work with on bounties and hackathons is challenging. You can go to Discord and post, but your message reach will be limited. You can search on LinkedIn, but that data is often stale and only tells you that someone put Web3 terms on their portfolio, not whether they have actually executed. And when you find someone, it is easier to make the connection if you know someone in common to make the introduction.
+Finding Web3 developers to work with on bounties, hackathons, and grants is challenging. You can go to Discord and post, but your reach will be limited. You can search on LinkedIn, but that data is often stale or aspirational.
 
-Developers in Web3 are doing a great job taking an active role in building their networks, but they typically lack the office environment where networking has traditionally been done.
-
-Web3 Hacker Network will provide analytics about the network of active Web3 developers, designers, and managers. 
+Web3 Hacker Network will provide analytics about the network of people who are building Web3. Developers in Web3 are doing a great job taking an active role in building their networks, but without the costly HR departments in Web2 it can be challenging to scale a team for a project. This project is a first step toward facilitating decentralized talent mobility.
 
 ## Grant Deliverables
 
 * Raw dataset showing Gitcoin user participation in bounties, hackathons, and grants.
-* User-User sparse matrix datasets showing strength of relationship along [TBK number of] skill dimensions.
-* NetworkX model of the multi-layer network representing the user-user edges in multiple dimensions.
-* Sample charts showing [TBK] and [TBK], metrics that express [TBK] and [TBK].
-* User experience that takes a Gitcoin ID and a skill and finds the network path to near or strongly connected hackers with that skill.
+* User-User sparse matrix datasets showing strength of association between Web3 hackers.
+* NetworkX model of the network representing the user-user edges.
+* Initial set of metrics that express connectedness of the network.
+* User experience that takes a Gitcoin ID and finds the network path to nearby or strongly connected hackers.
 
 ## Project Category: *Unleash Data*
 
@@ -28,35 +26,48 @@ Web3 Hacker Network will provide analytics about the network of active Web3 deve
 
 ## What is the final product?
 
-The first iteration final product will include two user experiences. First, people who have worked on Gitcoin projects will be able to enter their login and the skill they are seeking, and will be shown the optimal graph paths to neighbors who have that skill. Second, there will be a periodically updated set of analytical charts and statistics about the Web3 Hacker Network, showing things like [TBK], [TBK], and [TBK].
+Web3 Hacker Network is the initial network layer of a system for increasing tech talent mobility in Web3. The final product is a decentralized autonomous opportunity discovery engine for hackers, backers, projects, and teams. It will provide some of the services of hiring managers and HR departments from Web2, but in a fashion that is more aligned with the changes happening in the transition to Web3.
 
-This will be backed by a decentralized data pipeline. Stage 1 will have raw data about developer history and projects pulled from Gitcoin. Stage 2 will process that data to create a set of developer-developer sparse matrices with the edge weight representing number of shared projects and each matrix representing a particular skill set. Stage 3 will incorporate that data into a NetworkX model representing the multinetwork of Web3 hackers. The UX will use the NetworkX model as its backend.
+Web2 notions of long employement with a single firm are breaking down. In Web3 hackers are working across more projects in a shorter period of time, resulting in greater innovation through increased cross-pollination of ideas. Opportunity discovery and resource placement in this more dynamic environment will have to move faster and cost less than Web2 HR-driven hiring pipelines.
 
-The longer term final product will evolve organically based on feedback, demand, and developer engagement. Potential features include incorporating data from other Web3 connection services like Discord, richer analytics metrics and charts, more complex querying of the multinetwork model, actively marketing the datasets, enabling users to attach metadata to their node, and partnership outreach to connection services. We will also be considering the economics of running a forked marketplace.
+Network theory, machine learning, and the open data about work history in Web3 allows for automated opportunity discovery. Web3 Hacker Network is breaking ground on a long-term project that will serve hackers, backers, projects, and teams. The final product will present users with a menu of opportunities that match their needs and preferred path forward.
 
 ## Which value add criteria are we focusing on? Why do we believe we will do well?
 
-option 1: Usage of Ocean - how well might the project drive usage of Ocean. Measure with e.g. Data Consume Volume, # assets published, TVL (total value locked), Network Revenue, # active users, # funded projects.
+### option 1: Usage of Ocean
+- how well might the project drive usage of Ocean. Measure with e.g. Data Consume Volume, # assets published, TVL (total value locked), Network Revenue, # active users, # funded projects.
 
-option 2: Viability - what is the chance of success of the project
+Network Revenue: [TBD: trim this way down, make sure Tom and Matt are on board] This could be large, because there will be a very large number of users and the value of technology bounties is high and climbing. We could capture some share of each successful placement that flows through the network. But is that the direction we want to go? Do we want to maximize RoI, or do we want to maximize velocity of talent? Don't get me wrong, money is nice and we have bills to pay. But there is something important going on here. If we had the option of doubling the size of the network or making twice as much money - and the half-price option was enough to pay the bills - we would rather expand the positive influence. This is the age of opportunity for technologists and we are good at what we do. If we make the hacker marketplace stronger, we can go do a high pay bounty if we need to boost our income. This product can be long on pro-social and self-fulfillment and still have sufficient cashflow to keep growing.
 
-option 3: community active-ness - how active is the team in the community
+Number of Active Users: Considering that our focus is on network growth and positive impact over money, I believe the number of active users will be large. Web3 is a place of high project churn. There are a lot of Web3 hackers and team builders that need better tools to make placements as simple and effective as possible.
 
-option 4: Adding value to the overall community - how well does the outcome of the project add value to the Ocean community / ecosystem
+### option 2: Viability
+- what is the chance of success of the project
 
-## Funding Requested: *$USD* (new team: max $3000)
+Our network theory advisor was a research scientist at Sandia Laboratories developing network models to understand ebola outbreaks and the impact of social network influence on probability to smoke cigarettes. Our data engineering and data science person built Spark-based DE and ML systems at Amazon on terabyte datasets, then managed a team doing the same through several deliveries on time and on budget. Our React engineer designed and delivered US DoD warehouse automation systems on strict timelines and budgets.
+
+Over the coming months we will need to expand the team to deliver the larger vision. Our lead grew a team at Amazon from 3 people to 12 people in one year while delivering on an aggressive project schedule. His ability to find the right people, build team spirit, and motivate enthusiastic engagement were the core of his success.
+
+There is always risk, and this is a highly exploratory project. Nothing is guaranteed, but our team is strong and the data we need is available.
+
+### option 4: Adding value to the overall community
+- how well does the outcome of the project add value to the Ocean community / ecosystem
+
+The long-term project will be integral to the work cycle of a significant portion of Web3 producers. This product will expose a large number of active Web3 hackers and team builders to Ocean Protocol.
+
+## Funding Requested: *$3000*
 
 ## Proposal Wallet Address: *[TBK, will my Coinbase-hosted wallet work?]* (must have 500 OCEAN in wallet, must be an Ethereum wallet)
 
 ## Have you previously received an OceanDAO Grant?: *No*
 
-## Team Website: [www.DeadmanDAO.com](https://www.deadmandao.com/)
+## Team Website: [wiki.DeadmanDAO.com](https://wiki.deadmandao.com/)
 
 ## Discord Handle: *DeadmanBob#7342*
 
 ## Project lead full name: *Robert Bushman*
 
-## Project lead email: *[TBK: need to finish setting up deadmandao.com email]*
+## Project lead email: *[TBK: pick a way to obfuscate this]*
 
 ## Country of Residence: United States of America
 
@@ -68,17 +79,17 @@ option 4: Adding value to the overall community - how well does the outcome of t
 
 * Role: Project Manager, Developer
 * Relevant Credentials:
-    * LinkedIn: [TBK]
+    * LinkedIn: https://www.linkedin.com/in/robert-bushman-9316412/
 * Background / Experience:
-    * L6 SDE / L6 SDM at Amazon (big data & data science)
+    * L6 SDE / L6 SDM at Amazon (data engineering & data science)
     * Big Data Architect at Choice Hotels
-    * Senior Engineer at Apple
+    * Senior Software Engineer at Apple
 
 ### Matt Enke
 
 * Role: Developer
 * Relevant Credentials
-    * [TBK]
+    * LinkedIn: https://www.linkedin.com/in/matt-enke-b234ba51/
 * Background / Experience
     * System Architect and Engineer: US DoD Warehouse Automation
 
@@ -88,10 +99,10 @@ option 4: Adding value to the overall community - how well does the outcome of t
 
 * Role: Network Theory Advisor
 * Relevant Credentials
-    * [TBK]
+    * LinkedIn: https://www.linkedin.com/in/thomas-moore-90a7597/
 * Background / Experience
-    * [TBK: Senior Scientist? at Apple]
-    * [TBK: Social Network and Contagion Model Analyst at Sandia Labs]
+    * Engineering Manager at Apple
+    * Research Scientist at Sandia Labs
 
 # Part 3 - Proposal Details
 
