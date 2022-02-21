@@ -1,0 +1,145 @@
+{
+  "status": 200,
+  "grants": {
+    "id": 4677,
+    "active": true,
+    "logo_url": "https://c.gitcoin.co/grants/cc57bb1c720d080b6dc4182b2754dada/Logo_Tokenomics_DAO.png",
+    "details_url": "/grants/4677/tokenomics-dao",
+    "title": "Tokenomics DAO",
+    "description": "Problem\r\nMost web3 applications and blockchains have tokens requiring them to think about tokenomics. Expertise about tokenomics is scattered with no standards and no place to discuss and ideate.\r\n\r\nSolution\r\nProvide services, educational content and create a community focussing on tokenomics.\r\nTokenomics DAO.",
+    "description_rich": "{\"ops\":[{\"attributes\":{\"background\":\"transparent\",\"color\":\"#737373\",\"bold\":true},\"insert\":\"Problem\"},{\"insert\":\"\\n\"},{\"attributes\":{\"background\":\"transparent\",\"color\":\"#737373\"},\"insert\":\"Most web3 applications and blockchains have tokens requiring them to think about tokenomics. Expertise about tokenomics is scattered with no standards and no place to discuss and ideate.\"},{\"insert\":\"\\n\\n\"},{\"attributes\":{\"background\":\"transparent\",\"color\":\"#737373\",\"bold\":true},\"insert\":\"Solution\"},{\"insert\":\"\\nProvide services, educational content and create a community focussing on tokenomics.\\nTokenomics DAO.\\n\\n\"}]}",
+    "last_update": "2022-02-17T04:28:04Z",
+    "last_update_natural": "3 days, 16 hours ago",
+    "sybil_score": "-1.0000",
+    "weighted_risk_score": "0.0000",
+    "is_clr_active": false,
+    "clr_round_num": "",
+    "admin_profile": {
+      "url": "https://gitcoin.co/fstrauf",
+      "handle": "fstrauf",
+      "avatar_url": "https://gitcoin.co/dynamic/avatar/fstrauf"
+    },
+    "favorite": false,
+    "is_on_team": false,
+    "clr_prediction_curve": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "last_clr_calc_date": null,
+    "safe_next_clr_calc_date": null,
+    "amount_received_in_round": "0.0000",
+    "amount_received": "0.0000",
+    "positive_round_contributor_count": 0,
+    "monthly_amount_subscribed": "0.0000",
+    "is_clr_eligible": true,
+    "slug": "tokenomics-dao",
+    "url": "/grants/4677/tokenomics-dao",
+    "contract_version": "2",
+    "contract_address": "0x0",
+    "token_symbol": "Any Token",
+    "admin_address": "0xcBb40dA782c3404aaFfa4E88531ABB99A13e02C8",
+    "zcash_payout_address": "0x0",
+    "celo_payout_address": "0x0",
+    "zil_payout_address": "0x0",
+    "polkadot_payout_address": "0x0",
+    "kusama_payout_address": "0x0",
+    "harmony_payout_address": "0x0",
+    "binance_payout_address": "0x0",
+    "rsk_payout_address": "0x0",
+    "algorand_payout_address": "0x0",
+    "token_address": "0x0",
+    "image_css": "",
+    "verified": false,
+    "tenants": [
+      "ETH"
+    ],
+    "team_members": [
+      {
+        "model": "dashboard.profile",
+        "pk": 244203,
+        "fields": {
+          "handle": "fstrauf"
+        }
+      }
+    ],
+    "metadata": {
+      "gem": -101200000,
+      "upcoming": -100004000,
+      "wall_of_love": [],
+      "last_calc_time_contributor_counts": 1645389857.230318,
+      "last_calc_time_sybil_and_contrib_amounts": 1645389857.2329938
+    },
+    "grant_type": [
+      {
+        "model": "grants.granttype",
+        "pk": 17,
+        "fields": {
+          "name": "gr12",
+          "label": "Grants Round 12"
+        }
+      }
+    ],
+    "grant_tags": [
+      {
+        "model": "grants.granttag",
+        "pk": 7,
+        "fields": {
+          "name": "Blog"
+        }
+      },
+      {
+        "model": "grants.granttag",
+        "pk": 3,
+        "fields": {
+          "name": "Education"
+        }
+      }
+    ],
+    "twitter_handle_1": "tokenomicsdao",
+    "twitter_handle_2": "ffstrauf",
+    "reference_url": "https://tokenomicsdao.com/",
+    "github_project_url": "",
+    "funding_info": null,
+    "admin_message": "",
+    "link_to_new_grant": null,
+    "region": {
+      "name": "oceania",
+      "label": "Oceania"
+    },
+    "has_external_funding": "no",
+    "active_round_names": [],
+    "is_idle": false,
+    "is_hidden": false,
+    "has_pending_claim": false,
+    "has_claims_in_review": false,
+    "has_claim_history": false
+  }
+}
