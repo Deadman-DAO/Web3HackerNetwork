@@ -4,7 +4,7 @@
 
 ## Proposal in one sentence
 
-Create a decentralized network analytics data pipeline for discovering Web3 hackers and understanding the developer-developer multilevel network.
+Create a decentralized network analytics data pipeline for team-builders to find Web3 hackers and to understand the developer-developer multilevel network.
 
 ## Description of the project and what problem it is solving
 
@@ -15,7 +15,7 @@ Web3 Hacker Network will provide analytics about the network of people who are b
 ## Grant Deliverables
 
 * Raw dataset showing Gitcoin user participation in bounties, hackathons, and grants.
-* User-User sparse matrix datasets showing strength of association between Web3 hackers.
+* User-User sparse matrix dataset showing strength of association between Web3 hackers.
 * NetworkX model of the network representing the user-user edges.
 * Initial set of metrics that express connectedness of the network.
 * User experience that takes a Gitcoin ID and finds the network path to nearby or strongly connected hackers.
@@ -26,11 +26,11 @@ Web3 Hacker Network will provide analytics about the network of people who are b
 
 ## What is the final product?
 
-Web3 Hacker Network is the initial network layer of a system for increasing tech talent mobility in Web3. The final product is a decentralized autonomous opportunity discovery engine for hackers, backers, projects, and teams. It will provide some of the services of hiring managers and HR departments from Web2, but in a fashion that is more aligned with the changes happening in the transition to Web3.
+Web3 Hacker Network is the first layer in a multi-layer network model that will be used to increase tech talent mobility in Web3. The final product is a decentralized autonomous opportunity discovery engine for hackers, backers, projects, and teams. It will provide some of the services of hiring managers and HR departments from Web2, but in a fashion that is more aligned with the changes happening in the transition to Web3.
 
-Web2 notions of long employement with a single firm are breaking down. In Web3 hackers are working across more projects in a shorter period of time, resulting in greater innovation through increased cross-pollination of ideas. Opportunity discovery and resource placement in this more dynamic environment will have to move faster and cost less than Web2 HR-driven hiring pipelines.
+Web2 notions of long employement with a single firm are breaking down. In Web3 hackers are working across more projects for shorter periods of time, resulting in greater innovation through increased cross-pollination of ideas. Opportunity discovery and resource placement in this more dynamic environment will have to move faster and cost less than Web2 HR-driven hiring pipelines.
 
-Network theory, machine learning, and the open data about work history in Web3 allows for automated opportunity discovery. Web3 Hacker Network is breaking ground on a long-term project that will serve hackers, backers, projects, and teams. The final product will present users with a menu of opportunities that match their needs and preferred path forward.
+Network theory, machine learning, and the open data about work history in Web3 allows for automated opportunity discovery. Web3 Hacker Network is breaking ground on a long-term project that will serve hackers, backers, projects, and teams. The final product will present users with a menu of opportunities that match their role in the ecosystem and preferences for developing their career.
 
 ## Which value add criteria are we focusing on? Why do we believe we will do well?
 
@@ -101,7 +101,6 @@ The long-term project will be integral to the work cycle of a significant portio
 * Relevant Credentials
     * LinkedIn: https://www.linkedin.com/in/thomas-moore-90a7597/
 * Background / Experience
-    * Engineering Manager at Apple
     * Research Scientist at Sandia Labs
 
 # Part 3 - Proposal Details
@@ -147,4 +146,4 @@ We intend to continue extending the work as long as we still need a tool for fin
 
 ## 3.10 Additional Information
 
-I intend to submit a grant to Gitcoin at the same time that I submit this one to Ocean Protocol. We are way under our market rate, which we see as an acceptable investment in our professional development. But the more we can close that gap the easier it will be to continue the work and the easier it will be to attract more of our associates away from Web2.
+I intend to submit a grant to Gitcoin at the same time that I submit to Ocean Protocol.
