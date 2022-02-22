@@ -30,7 +30,7 @@ Web3 Hacker Network is the first layer in a multi-layer network model that will 
 
 Web2 notions of long employement with a single firm are breaking down. In Web3 hackers are working across more projects for shorter periods of time, resulting in greater innovation through increased cross-pollination of ideas. Opportunity discovery and resource placement in this more dynamic environment will have to move faster and cost less than Web2 HR-driven hiring pipelines.
 
-Network theory, machine learning, and the open data about work history in Web3 allows for automated opportunity discovery. Web3 Hacker Network is breaking ground on a long-term project that will serve hackers, backers, projects, and teams. The final product will present users with a menu of opportunities that match their role in the ecosystem and preferences for developing their career.
+Network theory, machine learning, and the open data about work history in Web3 allows for automated opportunity discovery. Web3 Hacker Network is breaking ground on a long-term project that will serve hackers, backers, projects, and teams. The final product will present users with a menu of opportunities that match their role in the ecosystem and preferences for developing their professional life.
 
 ## Which value add criteria are we focusing on? Why do we believe we will do well?
 
