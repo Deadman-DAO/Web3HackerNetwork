@@ -4,13 +4,13 @@
 
 ## Proposal in one sentence
 
-Create a decentralized network analytics data pipeline for team-builders to find Web3 hackers and to understand the developer-developer multilevel network.
+Create a decentralized data science system to help hackers, teams, and projects to find each other.
 
 ## Description of the project and what problem it is solving
 
 Finding Web3 developers to work with on bounties, hackathons, and grants is challenging. You can go to Discord and post, but your reach will be limited. You can search on LinkedIn, but that data is often stale or aspirational. Web3 Hacker Network will provide analytics about the network of people who are building Web3.
 
-It can be challenging to scale a team for a project without the costly HR departments in Web2. This project is a first iteration toward facilitating decentralized talent mobility.
+It can be challenging to scale a team for a project without the costly HR departments used to grow engineering departments in Web2. DeadmanDAO is beginning down the road toward facilitating decentralized talent mobility.
 
 ## Grant Deliverables
 
@@ -26,7 +26,7 @@ It can be challenging to scale a team for a project without the costly HR depart
 
 ## What is the final product?
 
-Web3 Hacker Network is the first layer in a multi-layer network model that will be used to increase tech talent mobility in Web3. The final product is a decentralized autonomous opportunity discovery engine for hackers, backers, projects, and teams. It will provide some of the services of hiring managers and HR departments from Web2, but in a fashion that is more aligned with the changes happening in the transition to Web3.
+Web3 Hacker Network is a data science system incorporating network, regression, clustering, and classification models to increase tech talent mobility in Web3. The final product is a decentralized autonomous opportunity discovery engine for hackers, backers, projects, and teams. It will provide some of the services of hiring managers and HR departments from Web2, but in a fashion that is more aligned with the decentralized and self-service nature of Web3.
 
 Web2 notions of long employment with a single firm are breaking down. In Web3 hackers are working across more projects for shorter periods of time, resulting in greater innovation through increased cross-pollination of ideas. Opportunity discovery and resource placement in this more dynamic environment will have to move faster and cost less than Web2 HR-driven hiring pipelines.
 
@@ -37,11 +37,13 @@ Network theory, machine learning, and the open data about work history in Web3 a
 ### option 1: Usage of Ocean
 - how well might the project drive usage of Ocean. Measure with e.g. Data Consume Volume, # assets published, TVL (total value locked), Network Revenue, # active users, # funded projects.
 
-Network Revenue: The first iteration will focus on Gitcoin data. In the past 2.5 years, Gitcoin grants have totaled over $10m. Bounties have totaled more than $7m in the past 12 months. A reasonable estimate of expected Gitcoin funding is $500k/month. The value of improved talent mobility based on the Gitcoin dataset is a function of that revenue. A conservative estimate of 5% value increase would be $25,000 value created per month. For comparison, headhunters charge 20% - 25%.
+Network Revenue: Our first iteration focused on Gitcoin data, we are now adding GitHub data. Gitcoin grants and bounties have totalled more than $10m in the past 12 months, with a steady baseline around $500k/month. For many years GitHub has been the center of orders of magnitude more value creation across Web2 and Web3. Our dataset and compute will have an influence on total productivity in the millions to tens of millions per month.
 
-We are starting with Gitcoin because it is a highly diverse and volatile gathering point for Web3 hackers. This makes it a particularly rich dataset for initial development of the network model. Future iterations will pull in project and team data from an increasingly broad array of sources. These will include MolochDAO, Harmony, Genesis DAO, and A16Z - cashflow that dwarfs Gitcoin.
+The value of improved talent mobility can be estimated by headhunter service fees, which range from 20 - 25%. Our automated system will not provide all the services of HR departments or headhunters, but they will act more objectively. If it provides one quarter of the value of a headhunter, that suggests it will improve productivity by 5% of millions to tens of millions. That puts it in the vicinity of $500k per month of value creation.
 
-And this is only the beginning. We expect Web3 to surpass Web2 in the long run, and for dynamic team composition to be the new normal. There will be hundreds of millions of dollars worth of resource assignments happening every month. Tools like this one will be responsible for millions of dollars in increased talent placement efficiency per month.
+Gitcoin provides core data on active hackers in Web3, GitHub will add more data about their work history and expose more information about early and potential Web3 hackers. The road ahead includes adding data from blockchain analytics providers and grant funders like MolochDAO, Harmony, and Genesis DAO.
+
+And this is only the beginning. We expect Web3 to surpass Web2 in the long run, and for dynamic team composition to be the new normal. There will be hundreds of millions of dollars worth of human resource assignments happening every month. Tools like this one will be responsible for millions of dollars in increased talent placement efficiency per month.
 
 ### option 2: Viability
 - what is the chance of success of the project
@@ -59,17 +61,17 @@ The long-term project will be integral to the work cycle of a significant portio
 
 ## Funding Requested: *$3000*
 
-## Proposal Wallet Address: *0xAE6A3d5F73cDA0180eeDBAa5aA801D68b3491931* (500 OCEAN purchase TBD)
+## Proposal Wallet Address: *0xAE6A3d5F73cDA0180eeDBAa5aA801D68b3491931*
 
 ## Have you previously received an OceanDAO Grant?: *No*
 
-## Team Website: [wiki.DeadmanDAO.com](https://wiki.deadmandao.com/)
+## Team Website: [www.DeadmanDAO.com](https://www.deadmandao.com/)
 
 ## Discord Handle: *DeadmanBob#7342*
 
 ## Project lead full name: *Robert Bushman*
 
-## Project lead email: *[TBK: pick a way to obfuscate this]*
+## Project lead email: *oceanprotocol at traxel dot com*
 
 ## Country of Residence: United States of America
 
@@ -82,20 +84,30 @@ The long-term project will be integral to the work cycle of a significant portio
 * Role: Project Manager, Developer
 * Relevant Credentials:
     * LinkedIn: https://www.linkedin.com/in/robert-bushman-9316412/
+    * GitCoin: https://gitcoin.co/rbb36
+    * GitHub: https://github.com/rbb36
 * Background / Experience:
     * L6 SDE / L6 SDM at Amazon (data engineering & data science)
     * Big Data Architect at Choice Hotels
     * Senior Software Engineer at Apple
+    * Successful first Bounty attempt (rbb36)
+        * Bounty Submission: https://gitcoin.co/hackathon/schellingpoint/projects/13517/new2web3/summary?
+        * Victory Transaction: https://etherscan.io/tx/0x191ca45381225eff6693b04ddb720d43f62d2006d14e0f345ac1dd8b77c58f06
 
 ### Matt Enke
 
 * Role: Developer
 * Relevant Credentials
     * LinkedIn: https://www.linkedin.com/in/matt-enke-b234ba51/
+    * GitCoin: https://gitcoin.co/enigmatt
+    * GitHub: https://github.com/enigmatt
 * Background / Experience
     * System Architect and Engineer: US DoD Warehouse Automation
+    * Successful first Bounty attempt (enigmatt)
+        * Bounty Submission: https://gitcoin.co/hackathon/schellingpoint/projects/13517/new2web3/summary?
+        * Victory Transaction: https://etherscan.io/tx/0x191ca45381225eff6693b04ddb720d43f62d2006d14e0f345ac1dd8b77c58f06
 
-# Part 3 - Proposal Details
+# Part 3 - Proposal Details [revision TBD]
 
 ## 3.1 Details
 
