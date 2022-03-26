@@ -121,23 +121,11 @@ Initial deployment will be on Ocean Market. In subsequent rounds we will explore
 
 ### Any prior work completed thus far? Details?
 
-We have begun pulling the data from Gitcoin's REST API and writing it to a database to facilitate initial dataset analysis.
+We pulled the data from Gitcoin and created a relational database schema. We did some initial network analysis using NetworkX which led us to shift our priorities toward regression and clustering as the shortest path to making placement recommendations.
 
-#### ERD 1: Gitcoin Bounty ERD
+#### 3.9.1: Gitcoin Bounty ERD
 
 ![Gitcoin Bounty ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.3.png "Gitcoin Bounty ERD")
-
-asdf
-
-![Gitcoin Bounty ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.3.png)
-
-asdfasdf
-
-[Gitcoin Bounty ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.3.png)
-
-asdfasdfsdfas
-
-[Gitcoin Bounty ERD][https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.3.png]
 
 ### What is the project roadmap?
 
