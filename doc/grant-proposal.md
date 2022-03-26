@@ -123,6 +123,22 @@ Initial deployment will be on Ocean Market. In subsequent rounds we will explore
 
 We have begun pulling the data from Gitcoin's REST API and writing it to a database to facilitate initial dataset analysis.
 
+#### ERD 1: Gitcoin Bounty ERD
+
+![Gitcoin Bounty ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.3.png "Gitcoin Bounty ERD")
+
+asdf
+
+![Gitcoin Bounty ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.3.png)
+
+asdfasdf
+
+[Gitcoin Bounty ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.3.png)
+
+asdfasdfsdfas
+
+[Gitcoin Bounty ERD][https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.3.png]
+
 ### What is the project roadmap?
 
 1. Milestone 1 (End of Week 1): Gitcoin API calls capable of pulling user, bounty, and grant history.
