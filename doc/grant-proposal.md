@@ -128,9 +128,9 @@ Network density measures showed a strongly connected subnetwork in the Gitcoin d
 
 GitHub data includes project participation, commits, bug reports, project creation, and other substantial measures of a person's productive work. We will start with a transformer to provide an embedding that expresses the meaning of a commit. This will be the first foundation block for a transfer learning model that will combine embeddings for key behaviors on GitHub to build a multi-label classification or embedding for a person that expresses all the dimensions of their work.
 
-#### 3.9.1: Gitcoin Bounty ERD
+#### 3.9.1: Gitcoin ERD
 
-![Gitcoin Bounty ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.4.png "Gitcoin Bounty ERD")
+![Gitcoin ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.4.png "Gitcoin ERD")
 
 ### What is the project roadmap?
 
