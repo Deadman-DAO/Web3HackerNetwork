@@ -130,7 +130,7 @@ GitHub data includes project participation, commits, bug reports, project creati
 
 #### 3.9.1: Gitcoin Bounty ERD
 
-![Gitcoin Bounty ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.3.png "Gitcoin Bounty ERD")
+![Gitcoin Bounty ERD](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/deadmandao-gitcoin-erd-0.0.4.png "Gitcoin Bounty ERD")
 
 ### What is the project roadmap?
 
