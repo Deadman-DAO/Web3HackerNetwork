@@ -56,6 +56,8 @@ Over the coming months and iterations we will need to expand the team to deliver
 
 There is always risk, and this is a highly exploratory project. Nothing is guaranteed, but our core team is strong and the data we need is available.
 
+### option 3 intentionally removed
+
 ### option 4: Adding value to the overall community
 - how well does the outcome of the project add value to the Ocean community / ecosystem
 
@@ -115,9 +117,13 @@ The long-term project will be integral to the work cycle of a significant portio
 
 We propose extending our data pipeline to include GitHub data in addition to our existing Gitcoin data, and to publish an example dataset of commit classifications on Ocean Market. To produce that dataset, we will do an initial iteration on feature and target engineering toward clustering and regression models. Two engineers will be involved during this iteration. Future iterations will expand the project based on discovery, demand, feedback, and developer engagement.
 
+## 3.2 and 3.3 intentionally removed
+
 ## 3.4 Which Ocean-powered data market will data be published on?
 
 Initial deployment will be on Ocean Market. In subsequent rounds we will explore the RoI of forking our own market. We have system administration experience, so it's just a question of where we want to allocate our time during each iteration.
+
+## 3.4 through 3.8 intentionally removed
 
 ## 3.9 Project Deliverables - Roadmap
 
