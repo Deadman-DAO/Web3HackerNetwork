@@ -20,7 +20,7 @@ It can be challenging to scale a team for a project without the costly HR depart
 * Initial manual labeling of some example commits.
 * Baseline F1 score for a simple regression model.
 * Analysis of the dataset and model to assess fitness to task and gaps to be filled.
-* Publish a dataset on Ocean Market with classified commit histories for an initial test set of hackers.
+* Publish a dataset on Ocean Market with commit history embeddings for an initial test set of hackers.
 
 ## Project Category: *Unleash Data*
 
@@ -41,7 +41,7 @@ Network theory, machine learning, and the open data about work history in Web3 a
 
 Network Revenue: Our first iteration focused on Gitcoin data, we are now adding GitHub data. Gitcoin grants and bounties have totalled more than $10m in the past 12 months, with a steady baseline around $500k/month. For many years GitHub has been the center of orders of magnitude more value creation across Web2 and Web3. Our dataset and compute will have an influence on total productivity in the millions to tens of millions per month.
 
-The value of improved talent mobility can be estimated by headhunter service fees, which range from 20 - 25%. Our automated system will not provide all the services of HR departments or headhunters, but they will act more objectively. If it provides one quarter of the value of a headhunter, that suggests it will improve productivity by 5% of millions to tens of millions. That puts it in the vicinity of $500k per month of value creation.
+The value of improved talent mobility can be estimated by headhunter service fees, which range from 20 - 25%. Our automated system will not provide all the services of HR departments or headhunters, but it will act more objectively. If it provides one quarter of the value of a headhunter, that suggests it will improve productivity by 5% of millions to tens of millions. That puts it in the vicinity of $500k per month of value creation.
 
 Gitcoin provides core data on active hackers in Web3, GitHub will add more data about their work history and expose more information about early and potential Web3 hackers. The road ahead includes adding data from blockchain analytics providers and grant funders like MolochDAO, Harmony, and Genesis DAO.
 
@@ -121,7 +121,7 @@ We propose extending our data pipeline to include GitHub data in addition to our
 
 ## 3.4 Which Ocean-powered data market will data be published on?
 
-Initial deployment will be on Ocean Market. In subsequent rounds we will explore the RoI of forking our own market. We have system administration experience, so it's just a question of where we want to allocate our time during each iteration.
+Initial deployment will be on Ocean Market. In subsequent rounds we will explore the RoI of forking our own market. We have system administration experience; if and when we deploy our own market is a question of when the value exceeds the value of competing priorities.
 
 ## 3.4 through 3.8 intentionally removed
 
@@ -129,7 +129,7 @@ Initial deployment will be on Ocean Market. In subsequent rounds we will explore
 
 ### Any prior work completed thus far? Details?
 
-We pulled grant, bounty, and hackathon data from Gitcoin, created a relational database schema, and stored the data. We did initial network analysis using NetworkX which led us to shift our priorities for this iteration toward regression and clustering as the shortest path to making a useful compute-to-data service for providing talent placement recommendations.
+We pulled grant, bounty, and hackathon data from Gitcoin, created a relational database schema, and stored the data. We did initial network analysis using NetworkX which led us to shift our priorities for the next iteration. We will investigate regression and clustering on GitHub data selected using the Gitcoin data.
 
 Network density measures showed a strongly connected subnetwork in the Gitcoin data that was based on trivial bounties like Proof of Attendance Protocal bounties for attending a video lecture. Connections based on such bounties are limited in their ability to show significant similarity between the participants. Removing that subnetwork left us with a very sparse network that holds some promise for future work, but is a bit thin for getting traction quickly.
 
@@ -172,4 +172,6 @@ We intend to continue extending the work as long as we are gaining traction and 
 
 ## 3.10 Additional Information
 
-We submitted a grant to Gitcoin at the same time as we submitted for Ocean Round 15. Due to our new entry to Web3 and limited social media history, we were indistinguishable from a Sybil and were denied participation. We have been building up our image to make it more clear that we are actual humans who are actively working on the project. We will submit to Gitcoin again for their next round.
+We submitted a grant proposal to Ocean in Round 15. OCEAN was, along with all cryptocurrencies, reeling from Russia's invasion of Ukraine. There were a few more than usual New Entrant proposals, and they were all quite interesting. The currency limited the number of funded grants to 3.5 and the stiff competition prevented us from securing a grant.
+
+We submitted a grant proposal to Gitcoin at the same time as we submitted for Ocean Round 15. We are new to Web3 and have limited social media histories (for my part, I am a privacy advocate and have intentionally eschewed it). Due to this, we were difficult to distinguish from a Sybil and were denied participation. We have been building up our image to make it more clear that we are actual humans who are actively working on the project. We will submit to Gitcoin again for their next round.
