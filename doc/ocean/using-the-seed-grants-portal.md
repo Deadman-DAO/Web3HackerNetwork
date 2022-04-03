@@ -48,11 +48,15 @@ If you don't have an existing project, you can create a new one by clicking on "
 
 Be sure to have your cell phone handy with your WalletConnect app open and connected to the Seed Grants portal. When you click "Create Project" on the second page of the New Project form, it will send an authorization request to your wallet app that you will need to sign.
 
+![Portal Home Page](https://github.com/Deadman-DAO/Web3HackerNetwork/doc/ocean/portal-home-page.png "Portal Home Page")
+
 ## Updating Your Project
 
 Once your project is created, you can edit it any time by clicking on "View" under the project name on the [seed.oceandao.org](https://seed.oceandao.org) home page. This will walk you through the same steps as creating a new project, but with the exiting content already filled in.
 
 As with all the tasks you complete in the portal, when you submit your update, you will have to check your wallet app for the authorization request.
+
+![Portal Projects Page](https://github.com/Deadman-DAO/Web3HackerNetwork/doc/ocean/portal-projects-page.png "Portal Projects Page")
 
 ## Creating a Proposal
 
@@ -61,6 +65,8 @@ Once you have a project created, you can attach a proposal to it. You can only h
 Starting from the [seed.oceandao.org](https://seed.oceandao.org) home page, click "View" on the project to which you will add a new proposal. Under the Proposals section, you can click "Create Proposal" to start a new proposal for the upcoming grant round. The app will show you a one-page form to fill out, with a "Submit Proposal" button at the bottom.
 
 When you submit, you will recieve a signing request in your wallet app. Keep your phone handy and sign it when it comes through.
+
+![Portal Existing Project Page](https://github.com/Deadman-DAO/Web3HackerNetwork/doc/ocean/portal-project-create-proposal-page.png "Portal Existing Project")
 
 ## Updating a Proposal
 
@@ -72,6 +78,8 @@ Second, you can Update your proposal. This will walk you through the same form y
 
 Finally, you can submit deliverables for your proposal. Deliverables are covered in the next section.
 
+![Portal View Proposal Page](https://github.com/Deadman-DAO/Web3HackerNetwork/doc/ocean/portal-view-proposal-page.png "Portal View Proposal Page")
+
 ## Submitting Deliverables
 
 Starting from the [seed.oceandao.org](https://seed.oceandao.org) home page, click "View" on the project for which you are submitting deliverables. On the project page, find the proposal you have been working on and click "View" on it. That will take you to the proposal page where you can click on "Submit Deliverables."
@@ -81,3 +89,5 @@ The submit deliverables form will present you with the list of deliverables from
 Once you submit the deliverables they will go to review, so please complete all the bullet points before you click Submit. This will allow your reviewer(s) to complete your review quickly and without having to redo their work.
 
 As with the other tasks above, when you click Submit, you will have to check your wallet app and sign the authorization request.
+
+![Portal Deliverables Page](https://github.com/Deadman-DAO/Web3HackerNetwork/doc/ocean/portal-submit-deliverables.png "Portal Deliverables Page")
