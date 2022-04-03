@@ -46,5 +46,38 @@ If you're familiar with the grant process from R15 and earlier, you might be sur
 
 If you don't have an existing project, you can create a new one by clicking on "Create Project" on the [seed.oceandao.org](https://seed.oceandao.org) home page. The app will guide you through the process.
 
-Be sure to have your cell phone handy with your WalletConnect app open and connected to the Seed Grants portal. When you click "Create Project" on the second page of the New Project form, it will send an authorization request to your wallet that you will need to sign in your wallet app.
+Be sure to have your cell phone handy with your WalletConnect app open and connected to the Seed Grants portal. When you click "Create Project" on the second page of the New Project form, it will send an authorization request to your wallet app that you will need to sign.
 
+## Updating Your Project
+
+Once your project is created, you can edit it any time by clicking on "View" under the project name on the [seed.oceandao.org](https://seed.oceandao.org) home page. This will walk you through the same steps as creating a new project, but with the exiting content already filled in.
+
+As with all the tasks you complete in the portal, when you submit your update, you will have to check your wallet app for the authorization request.
+
+## Creating a Proposal
+
+Once you have a project created, you can attach a proposal to it. You can only have one proposal for each grant round, and you must submit your deliverables for prior rounds (see Submitting Deliverables, below) before creating a new grant proposal.
+
+Starting from the [seed.oceandao.org](https://seed.oceandao.org) home page, click "View" on the project to which you will add a new proposal. Under the Proposals section, you can click "Create Proposal" to start a new proposal for the upcoming grant round. The app will show you a one-page form to fill out, with a "Submit Proposal" button at the bottom.
+
+When you submit, you will recieve a signing request in your wallet app. Keep your phone handy and sign it when it comes through.
+
+## Updating a Proposal
+
+Just like projects, you can use the Seed Grants portal to update your grant proposals after you create them. Starting from the [seed.oceandao.org](https://seed.oceandao.org) home page, click "View" on the project to which you will add a new proposal. Scroll down to the Proposals section, find the grant you want to update, and click "View". From the proposal screen you have several options for updates.
+
+First, you can Withdraw your proposal. Please be careful with this one. Once a proposal is withdrawn, it cannot be restored. As with all actions, you will need to sign an authorization request to complete the withdrawal.
+
+Second, you can Update your proposal. This will walk you through the same form you used to create your proposal, but it will have the existing information filled in on the form. When you complete the update form and submit it, check your wallet app for the authorization request.
+
+Finally, you can submit deliverables for your proposal. Deliverables are covered in the next section.
+
+## Submitting Deliverables
+
+Starting from the [seed.oceandao.org](https://seed.oceandao.org) home page, click "View" on the project for which you are submitting deliverables. On the project page, find the proposal you have been working on and click "View" on it. That will take you to the proposal page where you can click on "Submit Deliverables."
+
+The submit deliverables form will present you with the list of deliverables from your grant proposal. Under each bullet point, add brief notes or links that explain the work that you have completed. If you keep things brief, with links to drill down to more detail, it will make it easier for your reviewer(s) to confirm your deliverables.
+
+Once you submit the deliverables they will go to review, so please complete all the bullet points before you click Submit. This will allow your reviewer(s) to complete your review quickly and without having to redo their work.
+
+As with the other tasks above, when you click Submit, you will have to check your wallet app and sign the authorization request.
