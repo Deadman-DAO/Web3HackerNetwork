@@ -12,7 +12,7 @@ This guide will walk you through creating a project and grant proposal.
 
 You will need a wallet to fulfill two purposes for your project. One will act as the identity of the project manager, allowing you to create projects and grant proposals, and to submit deliverables for review. The other will handle your crypto tokens, holding the 500 OCEAN required to be a grant participant and receiving grant funding in the event that your proposal is selected.
 
-For increased security and organizational flexibility, consider using two different wallets. This provides "segregation of duties" which limits the blast radius of security breaches, and allows you to delegate financial and project management to different people as your organization grows.
+You can use one wallet for both tasks, but for increased security and organizational flexibility, you may want to consider using two different wallets. This provides "segregation of duties" which limits the blast radius of security breaches, and allows you to delegate financial and project management to different people as your organization grows.
 
 #### Project Management Wallet
 
