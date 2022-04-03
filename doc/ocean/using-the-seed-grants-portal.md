@@ -2,7 +2,7 @@
 
 ## Overview
 
-Before Grant Round 16, OceanDao grant proposals were posted to the Ocean Protocol Discourse forum. OceanDao has now developed a portal that is more supportive of long-term management for projects and grants. Wallet-based authorization keeps your projects and grants secure, and projects are now managed independently of grant proposals. If you will be working with Ocean Protocal for the long haul, this will make your returning visits much easier.
+Before Grant Round 16, OceanDao grant proposals were posted to the Ocean Protocol Discourse forum. OceanDao has now developed a portal that is more supportive of long-term management for projects and grants. Wallet-based authorization keeps your projects and grants secure, and projects are now managed independently of grant proposals. If you will be working with Ocean Protocol for the long haul, this will make your returning visits much easier.
 
 This guide will walk you through creating a project and grant proposal.
 
@@ -10,7 +10,7 @@ This guide will walk you through creating a project and grant proposal.
 
 ### Wallet(s)
 
-You will need wallet(s) to fulfill two purposes for your project. One will act as the identity of the project manager, allowing you to create projects and grant proposals, and to submit deliverables for review. The other will handle your crypto tokens, holding the 500 OCEAN required to be a grant participant and receiving grant funding in the event that your proposal is selected.
+You will need a wallet to fulfill two purposes for your project. One will act as the identity of the project manager, allowing you to create projects and grant proposals, and to submit deliverables for review. The other will handle your crypto tokens, holding the 500 OCEAN required to be a grant participant and receiving grant funding in the event that your proposal is selected.
 
 For increased security and organizational flexibility, consider using two different wallets. This provides "segregation of duties" which limits the blast radius of security breaches, and allows you to delegate financial and project management to different people as your organization grows.
 
