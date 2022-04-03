@@ -2,7 +2,7 @@
 
 ## Overview
 
-Until Grant Round 15, OceanDao grant proposals were posted to the Ocean Protocol Discourse forum. While Discourse is a fine product, OceanDao has developed a portal that is more supportive in long-term management of projects and grants. The most significant new feature is that projects are managed independently of grant proposals. If you will be working with Ocean Protocal for the long haul, this will make your returning visits much easier.
+Before Grant Round 16, OceanDao grant proposals were posted to the Ocean Protocol Discourse forum. While Discourse is a fine product, OceanDao has developed a portal that is more supportive in long-term management of projects and grants. The most significant new feature is that projects are managed independently of grant proposals. If you will be working with Ocean Protocal for the long haul, this will make your returning visits much easier.
 
 This guide will walk you through creating a project and grant proposal.
 
