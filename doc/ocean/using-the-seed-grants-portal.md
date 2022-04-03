@@ -48,7 +48,7 @@ If you don't have an existing project, you can create a new one by clicking on "
 
 Be sure to have your cell phone handy with your WalletConnect app open and connected to the Seed Grants portal. When you click "Create Project" on the second page of the New Project form, it will send an authorization request to your wallet app that you will need to sign.
 
-![Portal Home Page](https://github.com/Deadman-DAO/Web3HackerNetwork/main/doc/ocean/portal-home-page.png "Portal Home Page")
+![Portal Home Page](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/ocean/portal-home-page.png "Portal Home Page")
 
 ## Updating Your Project
 
@@ -56,7 +56,7 @@ Once your project is created, you can edit it any time by clicking on "View" und
 
 As with all the tasks you complete in the portal, when you submit your update, you will have to check your wallet app for the authorization request.
 
-![Portal Projects Page](https://github.com/Deadman-DAO/Web3HackerNetwork/main/doc/ocean/portal-projects-page.png "Portal Projects Page")
+![Portal Projects Page](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/ocean/portal-projects-page.png "Portal Projects Page")
 
 ## Creating a Proposal
 
@@ -66,7 +66,7 @@ Starting from the [seed.oceandao.org](https://seed.oceandao.org) home page, clic
 
 When you submit, you will recieve a signing request in your wallet app. Keep your phone handy and sign it when it comes through.
 
-![Portal Existing Project Page](https://github.com/Deadman-DAO/Web3HackerNetwork/main/doc/ocean/portal-project-create-proposal-page.png "Portal Existing Project")
+![Portal Existing Project Page](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/ocean/portal-project-create-proposal-page.png "Portal Existing Project")
 
 ## Updating a Proposal
 
@@ -78,7 +78,7 @@ Second, you can Update your proposal. This will walk you through the same form y
 
 Finally, you can submit deliverables for your proposal. Deliverables are covered in the next section.
 
-![Portal View Proposal Page](https://github.com/Deadman-DAO/Web3HackerNetwork/main/doc/ocean/portal-view-proposal-page.png "Portal View Proposal Page")
+![Portal View Proposal Page](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/ocean/portal-view-proposal-page.png "Portal View Proposal Page")
 
 ## Submitting Deliverables
 
@@ -90,4 +90,4 @@ Once you submit the deliverables they will go to review, so please complete all 
 
 As with the other tasks above, when you click Submit, you will have to check your wallet app and sign the authorization request.
 
-![Portal Deliverables Page](https://github.com/Deadman-DAO/Web3HackerNetwork/main/doc/ocean/portal-submit-deliverables.png "Portal Deliverables Page")
+![Portal Deliverables Page](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/ocean/portal-submit-deliverables.png "Portal Deliverables Page")
