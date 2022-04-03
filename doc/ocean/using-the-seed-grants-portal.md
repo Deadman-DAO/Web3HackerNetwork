@@ -78,7 +78,7 @@ Second, you can Update your proposal. This will walk you through the same form y
 
 Finally, you can submit deliverables for your proposal. Deliverables are covered in the next section.
 
-![Portal View Proposal Page](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/ocean/portal-view-proposal-page.png "Portal View Proposal Page")
+![Portal View Proposal Page](https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/ocean/portal-view-proposal.png "Portal View Proposal Page")
 
 ## Submitting Deliverables
 
