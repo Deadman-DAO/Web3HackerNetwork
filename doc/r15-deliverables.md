@@ -1,4 +1,4 @@
-Please note that we were edged out by some very compelling competition in Round 15. While we did not receive a grant, we did continue working toward our long-term goals. Our effort was not directly focused on these deliverables and we narrowed our scope a bit, but our output was still largely aligned with the R15 grant proposal.
+Please note that we were edged out by some compelling competition in Round 15. While we did not receive a grant, we continued working toward our long-term goals. Our effort was not focused on these deliverables and we narrowed our scope, but our output was still aligned with the R15 grant proposal.
 
 * Raw dataset showing Gitcoin user participation in bounties, hackathons, and grants.
     * MariaDB Database Dump: https://public-webdump.s3.us-west-2.amazonaws.com/deadmandao/dump-deadmandao-gitcoin-202203301611.sql.bz2
