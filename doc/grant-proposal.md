@@ -56,7 +56,8 @@ Over the coming months and iterations we will need to expand the team to deliver
 
 There is always risk, and this is a highly exploratory project. Nothing is guaranteed, but our core team is strong and the data we need is available.
 
-### option 3 intentionally removed
+### option 3: Community engagement
+- how active is the team in the community?
 
 ### option 4: Adding value to the overall community
 - how well does the outcome of the project add value to the Ocean community / ecosystem
@@ -175,3 +176,4 @@ We intend to continue extending the work as long as we are gaining traction and 
 We submitted a grant proposal to Ocean in Round 15. OCEAN was, along with all cryptocurrencies, reeling from Russia's invasion of Ukraine. There were a few more than usual New Entrant proposals, and they were all quite interesting. The currency limited the number of funded grants to 3.5 and the stiff competition prevented us from securing a grant.
 
 We submitted a grant proposal to Gitcoin at the same time as we submitted for Ocean Round 15. We are new to Web3 and have limited social media histories (for my part, I am a privacy advocate and have intentionally eschewed it). Due to this, we were difficult to distinguish from a Sybil and were denied participation. We have been building up our image to make it more clear that we are actual humans who are actively working on the project. We will submit to Gitcoin again for their next round.
+
