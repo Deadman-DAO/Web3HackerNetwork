@@ -1,0 +1,52 @@
+Propsal Title:
+Iteration 2: Commit Classifier
+
+
+Earmark:
+General
+
+
+Proposal in one sentence:
+Create a multi-label Github commit classifier to produce embeddings for an ML model to characterize Web3 developers.
+
+
+Proposal Description:
+We propose extending our data pipeline to include GitHub data in addition to our existing Gitcoin data, and to publish an example dataset of commit classifications on Ocean Market. To produce that dataset, we will do an iteration on feature and target engineering toward clustering and regression models. Two engineers will be involved during this iteration. Future iterations will expand the project based on discovery, demand, feedback, and developer engagement.
+
+
+Grant Deliverables:
+* Raw dataset from GitHub with data regarding some initial Web3 projects for analysis.
+* Metrics from the cloned repository for each of the initial projects regarding commits, committers, and file types.
+* Data exploration showing potential features for inclusion in an initial multi-label classification model for commits.
+* Manual labeling of some example commits.
+* Baseline score for a simple multi-label classifier.
+* Analysis of the dataset and model to assess fitness to task and gaps to be filled.
+* Publish a dataset on Ocean Market with commit history embeddings for an initial test set of hackers.
+
+
+Value Add Criteria:
+Web3 Hacker Network will expose Web3 hackers to Ocean when they are looking for a new project. When they are talking about how they found their new gig, they'll tell other engineers about using Ocean compute-to-data.
+
+Revenue potential is strong. Headhunters in Web2 charge 20 - 25% of first year compensation. Millions of dollars of work happen every month in Web3 and the numbers are skyrocketing. Improving the speed and quality of gig matches will generate a large and sustained revenue stream.
+
+Our founders have experience building large-scale systems for Amazon, Apple, and the Department of Defense. We have worked in data engineering and data science since before those names existed, and we have completed a first iteration(*) in this project. We are new to the Web3, increasing our image in the community, and will continue our consistent record of success.
+
+Most importantly, our goal is to improve Web3. We started in Web1, building a new world of free information. Web3 is the renaissance of that, after the long dark age of Web2 walled gardens. Contributing to a decentralized information ecosystem in Ocean, while helping engineers to migrate to the new economy, is our mission.
+
+* First Iteration Deliverables: https://github.com/Deadman-DAO/Web3HackerNetwork/blob/main/doc/r15-deliverables.md
+
+
+Funding Requested:
+3000
+
+Minimum Funding Requested:
+500
+
+Proposal Wallet Address:
+0xAE6A3d5F73cDA0180eeDBAa5aA801D68b3491931
+
+seed.oceandao.org Address:
+0x0F82D72f66220D00A6348B7e6CE521FdD6B5EB50
+
+MetaMask Wallet Dollar Network Address:
+0xD8ABFA52E657C42583ED6C09c84CAd47aDDeAb30
