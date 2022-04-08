@@ -1,0 +1,244 @@
+commit d510bb3cfac08fdd870124f9e1a2387948983eb0
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 28 18:40:35 2022 -0500
+
+    add deployment manifest , bump version
+    
+    * add deployment cfg json
+    
+    * update deployment config, version
+
+ Cargo.toml                  |  2 +-
+ configs/deployment_cfg.json | 11 +++++++++++
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+
+commit f10e85cc989420d557505c1df354481a532d0a04
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Dec 19 00:16:15 2021 -0600
+
+    bump marine dependencies
+
+ Cargo.toml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit c281c8d1ba070201175ab6a3fd1c2daa334a6021
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Oct 24 17:43:58 2021 -0500
+
+    bump version
+
+ Cargo.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 06ea87853171dadebe24add7dfe7bfe6f31cf2f8
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Oct 12 23:09:16 2021 -0500
+
+    bump version
+
+ Cargo.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit dabb923cddf56314458fc30251529bf7074a8031
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 15:54:04 2021 -0500
+
+    update test sdk version
+
+ Cargo.toml  |  4 ++--
+ src/main.rs | 16 +++++++---------
+ 2 files changed, 9 insertions(+), 11 deletions(-)
+
+commit 090627f00b31bc385f03ba8149b1fd2b2526c58e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Jul 14 22:58:22 2021 -0500
+
+    bump version
+
+ Cargo.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit db0d78bd2ba444f0bf3d09abc24ea8e022e9b487
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 5 14:14:44 2021 -0500
+
+    add cargo update
+
+ scripts/build.sh | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 33826c7f7a3e9ab618f28f14336151db65bf7ff3
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Jun 17 15:34:37 2021 -0500
+
+    update crate refs, bumo versions
+
+ Cargo.toml  | 4 ++--
+ src/main.rs | 6 +++---
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+commit aa8290ebe8c0cc8a89c44b5fc1cbdc01a2eff113
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 6 19:38:58 2021 -0500
+
+    add test namespace info
+
+ src/main.rs | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 209e72a37d601c43ebd93f1604ab8281fe776063
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Jun 3 06:53:03 2021 -0500
+
+    update test
+
+ src/main.rs | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 621b4766f42286f9adaaaca6bbd7ed27c1f065d8
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Jun 2 16:31:29 2021 -0500
+
+    Update main.rs
+
+ src/main.rs | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 5eae9d9f645f067180c893ae427bfa842028eed7
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Jun 1 16:47:54 2021 -0500
+
+    Update Config.toml
+    
+    add mem_pages
+
+ Config.toml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit ee1bd2cf24c38db29f1f4f97d75301715fb4afea
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon May 31 10:04:29 2021 -0500
+
+    update marine
+
+ scripts/build.sh | 2 +-
+ src/main.rs      | 5 +++--
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 2201eb953d60221550653b98ca5c11a367b462d9
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon May 31 01:24:01 2021 -0500
+
+    fluence bump version
+
+ Cargo.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8d4156e09c94f75bea20f14421485cb8b017a057
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon May 31 01:19:14 2021 -0500
+
+    update name change, test
+
+ Cargo.toml | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 60178ab04f14655de0bbd6388188e30cd272b205
+Merge: f82176a eb0154e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon May 31 01:10:00 2021 -0500
+
+    merge main branch
+
+commit f82176a6f1722e28a700e729a2e36a7e9a756de1
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon May 31 01:08:51 2021 -0500
+
+    update tests
+
+ src/main.rs | 16 ++++++++++++++--
+ 1 file changed, 14 insertions(+), 2 deletions(-)
+
+commit eb0154e1d04f4a8654e5db7d145f63975a8b7609
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat May 29 21:21:34 2021 -0500
+
+    update dependencies
+
+ Cargo.toml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit a9766526ffc48ef72a413405402712699759f90e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun May 9 18:50:44 2021 -0500
+
+    Add fluence-test dependency
+
+ Cargo.toml | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit ae38187f07d662e666e054532936c7a909a1f74b
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Apr 28 15:30:16 2021 -0500
+
+    bump version
+
+ Cargo.toml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 9b866ed94bb06fd621e73a2fab668f0381cb66d1
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Apr 10 20:01:10 2021 -0500
+
+    add Config file
+
+ Config.toml | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit bd7f2887921ede9cf58c2ce18c797be5cb73030f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Apr 10 19:57:49 2021 -0500
+
+    update build script
+
+ scripts/build.sh | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit e190bc9dcda78b5688b25154c1eb6e2e1febfd1c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Apr 10 19:51:07 2021 -0500
+
+    exec build.sh
+
+ scripts/build.sh | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ee57dda18d93a1875fc4dd706f199a90898284fc
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Apr 10 19:45:34 2021 -0500
+
+    update templates
+
+ Cargo.toml       | 5 ++++-
+ scripts/build.sh | 5 +++++
+ 2 files changed, 9 insertions(+), 1 deletion(-)
+
+commit 66fc07d278a6c20f6479335e5edbee4a011461ce
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Apr 10 19:16:23 2021 -0500
+
+    update template
+
+ Cargo.toml  | 10 ++++++----
+ src/main.rs | 28 ++++++++++++++++++++++++++++
+ 2 files changed, 34 insertions(+), 4 deletions(-)
+
+commit ab5914936e2fd8cea80deece4261b5d6df5a3888
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Apr 10 18:42:41 2021 -0500
+
+    init template
+
+ .gitignore |  5 +++++
+ Cargo.toml | 13 +++++++++++++
+ 2 files changed, 18 insertions(+)

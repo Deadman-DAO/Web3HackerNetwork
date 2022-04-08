@@ -1,0 +1,4606 @@
+commit 7924cb248be8ec57f280e524cc462ada7ef593e5
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Nov 2 22:45:25 2021 +0300
+
+    Deduplicate SecurityTetraplet (#70)
+
+ Cargo.lock                          | 82 +++++++++++++++++++++++++++++--------
+ Cargo.toml                          |  9 ++--
+ crates/main/Cargo.toml              |  4 +-
+ crates/main/src/lib.rs              |  2 +-
+ crates/marine-macro-impl/Cargo.toml |  2 +-
+ crates/marine-macro-impl/src/lib.rs |  2 +-
+ crates/marine-macro/Cargo.toml      |  5 ++-
+ crates/marine-macro/src/lib.rs      |  2 +-
+ crates/timestamp-macro/Cargo.toml   |  2 +-
+ src/call_parameters.rs              | 11 +----
+ src/lib.rs                          |  2 +-
+ 11 files changed, 80 insertions(+), 43 deletions(-)
+
+commit 2bd0c63a932756f32423a4815fb2dce485abe67a
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Thu Oct 7 20:04:54 2021 +0300
+
+    Remove test sdk (#67)
+
+ .circleci/config.yml                               |    7 +-
+ Cargo.lock                                         | 1683 ++------------------
+ Cargo.toml                                         |   50 +-
+ README.md                                          |    2 +-
+ crates/marine-test-macro-impl/Cargo.toml           |   29 -
+ crates/marine-test-macro-impl/src/attributes.rs    |   56 -
+ crates/marine-test-macro-impl/src/errors.rs        |   68 -
+ crates/marine-test-macro-impl/src/lib.rs           |   36 -
+ .../src/marine_test/config_utils.rs                |  110 --
+ .../src/marine_test/glue_code_generator.rs         |  245 ---
+ .../src/marine_test/marine_test_impl.rs            |   40 -
+ .../marine-test-macro-impl/src/marine_test/mod.rs  |   24 -
+ .../src/marine_test/modules_linker.rs              |  195 ---
+ .../src/marine_test/token_stream_generator.rs      |  125 --
+ .../token_stream_generator/methods_generator.rs    |   71 -
+ .../methods_generator_utils.rs                     |  245 ---
+ .../record_type_generator.rs                       |   71 -
+ .../service_generation_utils.rs                    |  204 ---
+ .../token_stream_generator/service_generator.rs    |  110 --
+ .../src/marine_test/utils.rs                       |   62 -
+ .../tests/generation_tests/empty_func/Config.toml  |    6 -
+ .../empty_func/artifacts/greeting.wasm             |  Bin 56806 -> 0 bytes
+ .../tests/generation_tests/empty_func/expanded.rs  |  128 --
+ .../generation_tests/empty_func/marine_test.rs     |    1 -
+ .../generation_tests/mounted_binary/Config.toml    |    8 -
+ .../mounted_binary/artifacts/greeting.wasm         |  Bin 64072 -> 0 bytes
+ .../generation_tests/mounted_binary/expanded.rs    |  167 --
+ .../generation_tests/mounted_binary/marine_test.rs |    3 -
+ .../multi-service-multiple/empty_func/Config.toml  |    6 -
+ .../empty_func/artifacts/greeting.wasm             |  Bin 56806 -> 0 bytes
+ .../multi-service-multiple/expanded.rs             |  504 ------
+ .../multi-service-multiple/marine_test.rs          |    4 -
+ .../mounted_binary/Config.toml                     |    8 -
+ .../mounted_binary/artifacts/greeting.wasm         |  Bin 64072 -> 0 bytes
+ .../multi-service-single/empty_func/Config.toml    |    6 -
+ .../empty_func/artifacts/greeting.wasm             |  Bin 56806 -> 0 bytes
+ .../multi-service-single/expanded.rs               |  242 ---
+ .../multi-service-single/marine_test.rs            |    1 -
+ .../generation_tests/multiple_modules/Config.toml  |   10 -
+ .../artifacts/call_parameters.wasm                 |  Bin 81051 -> 0 bytes
+ .../multiple_modules/artifacts/greeting.wasm       |  Bin 69525 -> 0 bytes
+ .../generation_tests/multiple_modules/expanded.rs  |  321 ----
+ .../multiple_modules/marine_test.rs                |   29 -
+ .../tests/generation_tests_runner.rs               |   86 -
+ crates/marine-test-macro-impl/tests/utils.rs       |   97 --
+ crates/marine-test-macro/Cargo.toml                |   26 -
+ crates/marine-test-macro/src/lib.rs                |   74 -
+ sdk-test/CHANGELOG.md                              |    9 -
+ sdk-test/Cargo.toml                                |   29 -
+ sdk-test/src/lib.rs                                |   45 -
+ sdk/Cargo.toml                                     |   35 -
+ {sdk/src => src}/call_parameters.rs                |    0
+ {sdk/src => src}/lib.rs                            |    0
+ {sdk/src => src}/mounted_binary.rs                 |    0
+ .../export_functions/array_inner_refs.rs           |    0
+ .../export_functions/array_inner_refs.stderr       |    0
+ .../compilation_tests/export_functions/arrays.rs   |    0
+ .../export_functions/basic_types.rs                |    0
+ .../export_functions/improper_types.rs             |    0
+ .../export_functions/improper_types.stderr         |    0
+ .../export_functions/inner_vec_refs.rs             |    0
+ .../export_functions/inner_vec_refs.stderr         |    0
+ .../export_functions/ref_arrays.rs                 |    0
+ .../export_functions/ref_basic_types.rs            |    0
+ .../compilation_tests/import_functions/arrays.rs   |    0
+ .../import_functions/arrays_out_inner_refs.rs      |    0
+ .../import_functions/arrays_out_inner_refs.stderr  |    0
+ .../import_functions/basic_ref_types.rs            |    0
+ .../import_functions/basic_types.rs                |    0
+ .../import_functions/improper_types.rs             |    0
+ .../import_functions/improper_types.stderr         |    0
+ .../import_functions/ref_arrays.rs                 |    0
+ .../import_functions/ref_basic_types.rs            |    0
+ .../compilation_tests/records/basic_structs.rs     |    0
+ .../compilation_tests/records/empty_struct.rs      |    0
+ .../records/struct_with_improper_types.rs          |    0
+ .../records/struct_with_improper_types.stderr      |    0
+ .../records/struct_with_private_fields.rs          |    0
+ .../compilation_tests/records/unnamed_structs.rs   |    0
+ .../records/unnamed_structs.stderr                 |    0
+ {sdk/tests => tests}/compilation_tests_runner.rs   |    0
+ 81 files changed, 187 insertions(+), 5091 deletions(-)
+
+commit 13c0f59d8978fe1fa67d73ccef9f1a5d0eeb6525
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Oct 7 13:13:25 2021 +0300
+
+    Allow non pub fields in structs (#68)
+    
+    * allow non-pub fields in a struct
+    
+    * bump crate versions
+
+ Cargo.lock                                         | 150 ++++++++++-----------
+ crates/main/Cargo.toml                             |   4 +-
+ crates/main/src/lib.rs                             |   2 +-
+ crates/marine-macro-impl/Cargo.toml                |   2 +-
+ crates/marine-macro-impl/src/lib.rs                |   2 +-
+ .../src/parse_macro_input/item_record.rs           |  15 +--
+ crates/marine-macro/Cargo.toml                     |   4 +-
+ crates/marine-macro/src/lib.rs                     |   2 +-
+ crates/timestamp-macro/Cargo.toml                  |   2 +-
+ sdk/Cargo.toml                                     |   8 +-
+ sdk/src/lib.rs                                     |   2 +-
+ .../records/struct_with_private_fields.rs          |   9 ++
+ .../records/struct_with_private_fields.stderr      |   5 -
+ sdk/tests/compilation_tests_runner.rs              |   2 +-
+ 14 files changed, 98 insertions(+), 111 deletions(-)
+
+commit 60cc4fbd9f550bcd7ebd4769b19ea27b409ed7e7
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Tue Oct 5 16:17:53 2021 +0300
+
+    Bump crate versions and add changelog for sdk-test (#66)
+
+ Cargo.lock                                                       | 6 +++---
+ crates/marine-test-macro-impl/Cargo.toml                         | 2 +-
+ .../src/marine_test/glue_code_generator.rs                       | 4 ++--
+ crates/marine-test-macro/Cargo.toml                              | 4 ++--
+ crates/marine-test-macro/src/lib.rs                              | 2 +-
+ sdk-test/CHANGELOG.md                                            | 9 +++++++++
+ sdk-test/Cargo.toml                                              | 4 ++--
+ sdk-test/src/lib.rs                                              | 2 +-
+ 8 files changed, 21 insertions(+), 12 deletions(-)
+
+commit 631c6d98857b1e402d5d409094fc84b40aa98c58
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Mon Oct 4 19:06:58 2021 +0300
+
+    Implement marine_test for services integration (first part) (#61)
+
+ crates/marine-test-macro-impl/src/attributes.rs    |  30 +-
+ crates/marine-test-macro-impl/src/errors.rs        |   3 +
+ .../src/marine_test/config_utils.rs                |  46 +-
+ .../src/marine_test/glue_code_generator.rs         | 128 +++---
+ .../marine-test-macro-impl/src/marine_test/mod.rs  |   2 +-
+ .../src/marine_test/modules_linker.rs              |  19 +-
+ ...dule_generator.rs => token_stream_generator.rs} |  68 ++-
+ .../methods_generator.rs                           |  23 +
+ .../methods_generator_utils.rs                     |  81 +++-
+ .../record_type_generator.rs                       |  13 +-
+ .../service_generation_utils.rs                    | 204 +++++++++
+ .../token_stream_generator/service_generator.rs    | 110 +++++
+ .../multi-service-multiple/empty_func/Config.toml  |   6 +
+ .../empty_func/artifacts/greeting.wasm             | Bin 0 -> 56806 bytes
+ .../multi-service-multiple/expanded.rs             | 504 +++++++++++++++++++++
+ .../multi-service-multiple/marine_test.rs          |   4 +
+ .../mounted_binary/Config.toml                     |   8 +
+ .../mounted_binary/artifacts/greeting.wasm         | Bin 0 -> 64072 bytes
+ .../multi-service-single/empty_func/Config.toml    |   6 +
+ .../empty_func/artifacts/greeting.wasm             | Bin 0 -> 56806 bytes
+ .../multi-service-single/expanded.rs               | 242 ++++++++++
+ .../multi-service-single/marine_test.rs            |   1 +
+ .../tests/generation_tests_runner.rs               |  37 ++
+ crates/marine-test-macro-impl/tests/utils.rs       |  51 ++-
+ 24 files changed, 1443 insertions(+), 143 deletions(-)
+
+commit 715e2f0e7e70399e34bf71250d35f76716da2fab
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Mon Oct 4 17:31:58 2021 +0300
+
+    make publish only manual (#64)
+
+ .github/workflows/publish_release.yml | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit 17eb14aa48ce36619bc6f8eedc897446304122ca
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Tue Sep 28 15:44:12 2021 +0300
+
+    use doc(hidden) on internal api (#62)
+
+ Cargo.lock                          | 20 ++++++++++----------
+ crates/main/Cargo.toml              |  4 ++--
+ crates/main/src/lib.rs              |  2 +-
+ crates/marine-macro-impl/Cargo.toml |  2 +-
+ crates/marine-macro-impl/src/lib.rs |  2 +-
+ crates/marine-macro/Cargo.toml      |  4 ++--
+ crates/marine-macro/src/lib.rs      |  2 +-
+ crates/timestamp-macro/Cargo.toml   |  2 +-
+ sdk/Cargo.toml                      |  8 ++++----
+ sdk/src/lib.rs                      |  3 ++-
+ 10 files changed, 25 insertions(+), 24 deletions(-)
+
+commit 7cad957fe7413ad8aa68ca60970f5ce74e4458ce
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Wed Sep 15 18:18:53 2021 +0300
+
+    fix compilation for rustc 1.57.0-nightly (#60)
+
+ crates/marine-macro-impl/src/ast_types.rs          | 35 +++++++++++-----------
+ .../src/parse_macro_input/item_foreign_mod.rs      |  6 +---
+ 2 files changed, 18 insertions(+), 23 deletions(-)
+
+commit 6d045429dc9dc5beb353d62581ee0da13f2c2322
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Wed Sep 15 16:28:01 2021 +0300
+
+    Remove serde version lock on 1.0.118 (#59)
+
+ Cargo.lock                          | 34 +++++++++++++++++-----------------
+ crates/main/Cargo.toml              |  6 +++---
+ crates/main/src/lib.rs              |  2 +-
+ crates/marine-macro-impl/Cargo.toml |  4 ++--
+ crates/marine-macro-impl/src/lib.rs |  2 +-
+ crates/marine-macro/Cargo.toml      |  4 ++--
+ crates/marine-macro/src/lib.rs      |  2 +-
+ crates/timestamp-macro/Cargo.toml   |  2 +-
+ sdk/Cargo.toml                      |  8 ++++----
+ sdk/src/lib.rs                      |  2 +-
+ 10 files changed, 33 insertions(+), 33 deletions(-)
+
+commit 2ee2cf3a2cd7988ef686944dde7c2c8af7cb4809
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Wed Sep 1 20:34:35 2021 +0300
+
+    Pass module interfaces as args in marine-test macro (#54)
+
+ Cargo.lock                                         | 130 ++++-----
+ crates/macro-testing-utils/Cargo.toml              |  21 ++
+ crates/macro-testing-utils/src/lib.rs              |  44 +++
+ crates/marine-macro-impl/Cargo.toml                |   1 +
+ crates/marine-macro-impl/tests/utils.rs            |  29 +-
+ crates/marine-test-macro-impl/Cargo.toml           |  10 +-
+ crates/marine-test-macro-impl/src/errors.rs        |   6 +
+ .../src/marine_test/config_utils.rs                |  12 +-
+ .../src/marine_test/glue_code_generator.rs         |  75 +++--
+ .../marine-test-macro-impl/src/marine_test/mod.rs  |   1 +
+ .../src/marine_test/module_generator.rs            |  44 +--
+ .../module_generator/methods_generator.rs          |  33 ++-
+ .../module_generator/methods_generator_utils.rs    |  22 +-
+ .../module_generator/record_type_generator.rs      |  48 +--
+ .../src/marine_test/modules_linker.rs              | 198 +++++++++++++
+ .../src/marine_test/utils.rs                       |  26 +-
+ .../tests/generation_tests/empty_func/Config.toml  |   6 +
+ .../empty_func/artifacts/greeting.wasm             | Bin 0 -> 56806 bytes
+ .../tests/generation_tests/empty_func/expanded.rs  | 128 ++++++++
+ .../generation_tests/empty_func/marine_test.rs     |   1 +
+ .../generation_tests/mounted_binary/Config.toml    |   8 +
+ .../mounted_binary/artifacts/greeting.wasm         | Bin 0 -> 64072 bytes
+ .../generation_tests/mounted_binary/expanded.rs    | 167 +++++++++++
+ .../generation_tests/mounted_binary/marine_test.rs |   3 +
+ .../generation_tests/multiple_modules/Config.toml  |  10 +
+ .../artifacts/call_parameters.wasm                 | Bin 0 -> 81051 bytes
+ .../multiple_modules/artifacts/greeting.wasm       | Bin 0 -> 69525 bytes
+ .../generation_tests/multiple_modules/expanded.rs  | 321 +++++++++++++++++++++
+ .../multiple_modules/marine_test.rs                |  29 ++
+ .../tests/generation_tests_runner.rs               |  49 ++++
+ crates/marine-test-macro-impl/tests/utils.rs       |  48 +++
+ crates/marine-test-macro/Cargo.toml                |   4 +-
+ crates/marine-test-macro/src/lib.rs                |   4 +-
+ sdk-test/Cargo.toml                                |   7 +-
+ sdk-test/src/lib.rs                                |   2 +-
+ 35 files changed, 1262 insertions(+), 225 deletions(-)
+
+commit 84d5c2af66c0258765e4a6e18b062dd481ae5a99
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Fri Aug 13 21:27:26 2021 +0300
+
+    Add unsafe wrapper for imports for not wasm target (#52)
+
+ Cargo.lock                                         |  52 +++----
+ crates/main/Cargo.toml                             |   4 +-
+ crates/main/src/lib.rs                             |   2 +-
+ crates/marine-macro-impl/Cargo.toml                |   2 +-
+ crates/marine-macro-impl/src/lib.rs                |   2 +-
+ .../marine-macro-impl/src/parsed_type/fn_epilog.rs |   9 ++
+ .../foreign_mod_generator.rs                       |  87 +++++++++---
+ crates/marine-macro-impl/src/utils.rs              |   2 +-
+ .../generation_tests/imports/arrays/expanded.rs    | 150 +++++++++++++++++++++
+ .../generation_tests/imports/arrays/marine.rs      |   4 +
+ .../imports/basic_types/expanded.rs                | 118 ++++++++++++++++
+ .../generation_tests/imports/basic_types/marine.rs |  17 +++
+ .../tests/generation_tests_runner.rs               |  16 +++
+ crates/marine-macro-impl/tests/utils.rs            |   4 -
+ crates/marine-macro/Cargo.toml                     |   4 +-
+ crates/marine-macro/src/lib.rs                     |   2 +-
+ crates/timestamp-macro/Cargo.toml                  |   2 +-
+ sdk/Cargo.toml                                     |   6 +-
+ 18 files changed, 420 insertions(+), 63 deletions(-)
+
+commit 6460362f921ec59400af8c2cf98b7f0c58b61c76
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Fri Aug 13 19:17:50 2021 +0300
+
+    clarify doc string for CallParameters::host_id (#53)
+
+ .../tests/generation_tests/records/call_parameters/expanded.rs          | 2 +-
+ .../tests/generation_tests/records/call_parameters/marine.rs            | 2 +-
+ sdk/src/call_parameters.rs                                              | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit bdac45d7e6977dc7051a62f07698b0366da73997
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Aug 11 10:22:52 2021 +0300
+
+    move to app-serivce 0.9.0 (#49)
+
+ Cargo.lock                               | 44 ++++++++++++++++----------------
+ crates/marine-test-macro-impl/Cargo.toml |  2 +-
+ sdk-test/Cargo.toml                      |  2 +-
+ 3 files changed, 24 insertions(+), 24 deletions(-)
+
+commit 94857a5b698db47a293da03becc5d04c48f84dfe
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Wed Jul 14 15:55:54 2021 +0300
+
+    update marine-module-info-parser (#45)
+
+ Cargo.lock | 47 ++++++++++++++++++-----------------------------
+ 1 file changed, 18 insertions(+), 29 deletions(-)
+
+commit 3b3ca569d10af96006461bb8bce51d8ca2e5ff07
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Tue Jul 13 19:17:23 2021 +0300
+
+    Fix handling of mounted binary exit codes  (#44)
+
+ Cargo.lock                | 119 +++++++++++++++++++++++-----------------------
+ sdk/Cargo.toml            |   2 +-
+ sdk/src/lib.rs            |   2 +-
+ sdk/src/mounted_binary.rs |   8 ++--
+ 4 files changed, 65 insertions(+), 66 deletions(-)
+
+commit 7264f2aa4e92add8e77f2806a74c8aa5e08add70
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jun 30 18:28:32 2021 +0300
+
+    CI: fix publishing (#40)
+
+ .github/workflows/publish_release.yml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit ab6ed43f39b4ff5570012be8053178c4b8317262
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Jun 17 14:41:44 2021 +0300
+
+    Bump test crates vesion (#39)
+
+ Cargo.lock                               | 166 ++++++++++++++++++++-----------
+ crates/marine-test-macro-impl/Cargo.toml |   4 +-
+ crates/marine-test-macro/Cargo.toml      |   4 +-
+ crates/marine-test-macro/src/lib.rs      |   2 +-
+ sdk-test/Cargo.toml                      |   6 +-
+ sdk-test/src/lib.rs                      |   2 +-
+ 6 files changed, 115 insertions(+), 69 deletions(-)
+
+commit d5e8426e5ce74a96af6f9cd6b2eb0871d19e1bdc
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 15 20:42:05 2021 +0300
+
+    bump crate versions
+
+ Cargo.lock                               | 24 ++++++++++++------------
+ crates/main/Cargo.toml                   |  4 ++--
+ crates/main/src/lib.rs                   |  2 +-
+ crates/marine-macro-impl/Cargo.toml      |  4 ++--
+ crates/marine-macro-impl/src/lib.rs      |  2 +-
+ crates/marine-macro/Cargo.toml           |  4 ++--
+ crates/marine-macro/src/lib.rs           |  2 +-
+ crates/marine-test-macro-impl/Cargo.toml |  2 +-
+ crates/marine-test-macro/Cargo.toml      |  4 ++--
+ crates/timestamp-macro/Cargo.toml        |  2 +-
+ sdk-test/Cargo.toml                      |  4 ++--
+ sdk/Cargo.toml                           |  8 ++++----
+ sdk/src/lib.rs                           |  2 +-
+ 13 files changed, 32 insertions(+), 32 deletions(-)
+
+commit 7c8f65fb64e64ba7e068b124449e745ef28c742d
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Jun 15 10:25:58 2021 +0300
+
+    Rename fluence sdk to marine-rs-sdk (#38)
+
+ .circleci/config.yml                               |  6 +-
+ .github/workflows/publish_release.yml              |  6 +-
+ Cargo.lock                                         | 74 +++++++++++-----------
+ Cargo.toml                                         |  4 +-
+ README.md                                          |  4 +-
+ crates/main/Cargo.toml                             | 10 +--
+ crates/main/src/lib.rs                             |  2 +-
+ crates/main/src/logger.rs                          |  4 +-
+ crates/main/src/module_manifest.rs                 |  2 +-
+ crates/marine-macro-impl/Cargo.toml                |  4 +-
+ .../marine-macro-impl/src/parsed_type/fn_epilog.rs | 14 ++--
+ .../src/parsed_type/foreign_mod_epilog.rs          | 12 ++--
+ crates/marine-macro-impl/src/parsed_type/utils.rs  | 21 +++---
+ .../src/parsed_type/vector_ser_der.rs              |  2 +-
+ .../src/parsed_type/vector_ser_der/ser.rs          |  6 +-
+ .../src/token_stream_generator/record_generator.rs |  2 +-
+ .../generation_tests/exports/arrays/expanded.rs    | 12 ++--
+ .../exports/basic_types/expanded.rs                |  6 +-
+ .../generation_tests/exports/refs/expanded.rs      | 14 ++--
+ .../records/call_parameters/expanded.rs            |  6 +-
+ .../records/use_as_type/expanded.rs                | 14 ++--
+ crates/marine-macro/Cargo.toml                     |  4 +-
+ crates/marine-macro/src/lib.rs                     |  2 +-
+ crates/marine-test-macro-impl/Cargo.toml           |  4 +-
+ .../src/marine_test/glue_code_generator.rs         | 20 +++---
+ .../src/marine_test/module_generator.rs            | 12 ++--
+ .../module_generator/methods_generator_utils.rs    |  7 +-
+ .../module_generator/record_type_generator.rs      |  4 +-
+ crates/marine-test-macro/Cargo.toml                |  4 +-
+ crates/marine-test-macro/src/lib.rs                |  2 +-
+ crates/timestamp-macro/Cargo.toml                  |  4 +-
+ {fluence-test => sdk-test}/Cargo.toml              | 10 +--
+ {fluence-test => sdk-test}/src/lib.rs              |  2 +-
+ {fluence => sdk}/Cargo.toml                        | 12 ++--
+ {fluence => sdk}/src/call_parameters.rs            |  0
+ {fluence => sdk}/src/lib.rs                        | 28 ++++----
+ {fluence => sdk}/src/mounted_binary.rs             |  0
+ .../export_functions/array_inner_refs.rs           |  2 +-
+ .../export_functions/array_inner_refs.stderr       |  0
+ .../compilation_tests/export_functions/arrays.rs   |  2 +-
+ .../export_functions/basic_types.rs                |  2 +-
+ .../export_functions/improper_types.rs             |  2 +-
+ .../export_functions/improper_types.stderr         |  0
+ .../export_functions/inner_vec_refs.rs             |  2 +-
+ .../export_functions/inner_vec_refs.stderr         |  0
+ .../export_functions/ref_arrays.rs                 |  2 +-
+ .../export_functions/ref_basic_types.rs            |  2 +-
+ .../compilation_tests/import_functions/arrays.rs   |  2 +-
+ .../import_functions/arrays_out_inner_refs.rs      |  2 +-
+ .../import_functions/arrays_out_inner_refs.stderr  |  0
+ .../import_functions/basic_ref_types.rs            |  2 +-
+ .../import_functions/basic_types.rs                |  2 +-
+ .../import_functions/improper_types.rs             |  2 +-
+ .../import_functions/improper_types.stderr         |  0
+ .../import_functions/ref_arrays.rs                 |  2 +-
+ .../import_functions/ref_basic_types.rs            |  2 +-
+ .../compilation_tests/records/basic_structs.rs     |  2 +-
+ .../compilation_tests/records/empty_struct.rs      |  2 +-
+ .../records/struct_with_improper_types.rs          |  2 +-
+ .../records/struct_with_improper_types.stderr      |  0
+ .../records/struct_with_private_fields.rs          |  2 +-
+ .../records/struct_with_private_fields.stderr      |  0
+ .../compilation_tests/records/unnamed_structs.rs   |  2 +-
+ .../records/unnamed_structs.stderr                 |  0
+ {fluence => sdk}/tests/compilation_tests_runner.rs |  0
+ 65 files changed, 188 insertions(+), 190 deletions(-)
+
+commit 9e383237aa20d6b92b2468eb559cf82080ec4369
+Author: vms <michail.vms@gmail.com>
+Date:   Wed May 19 16:17:58 2021 +0300
+
+    reexport PassingStyle
+
+ Cargo.lock                          | 62 ++++++++++++++++++-------------------
+ crates/main/Cargo.toml              |  4 +--
+ crates/main/src/lib.rs              |  2 +-
+ crates/marine-macro-impl/Cargo.toml |  2 +-
+ crates/marine-macro-impl/src/lib.rs |  3 +-
+ crates/marine-macro/Cargo.toml      |  4 +--
+ crates/marine-macro/src/lib.rs      |  2 +-
+ crates/timestamp-macro/Cargo.toml   |  2 +-
+ fluence/Cargo.toml                  |  8 ++---
+ fluence/src/lib.rs                  |  2 +-
+ 10 files changed, 46 insertions(+), 45 deletions(-)
+
+commit 2ac0699905a53d6cb51a42cff68b39e1a65dca8c
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon May 17 14:58:00 2021 +0300
+
+    Generate structs in a separate mod (#36)
+
+ Cargo.lock                                         | 70 +++++++++++-----------
+ crates/marine-test-macro-impl/Cargo.toml           |  2 +-
+ .../src/marine_test/glue_code_generator.rs         |  2 +-
+ .../src/marine_test/module_generator.rs            | 33 ++++++----
+ .../module_generator/record_type_generator.rs      |  2 +-
+ .../src/marine_test/utils.rs                       | 11 +++-
+ crates/marine-test-macro/Cargo.toml                |  4 +-
+ fluence-test/Cargo.toml                            |  4 +-
+ 8 files changed, 70 insertions(+), 58 deletions(-)
+
+commit 3de1d949e4698a3b6bb1e8e3457b93047738b468
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri May 14 18:07:40 2021 +0300
+
+    Publish crates from repo as is (without version increment) (#35)
+
+ .github/workflows/publish_release.yml    |   60 +-
+ .gitignore                               |    7 +-
+ Cargo.lock                               | 1775 ++++++++++++++++++++++++++++++
+ crates/main/Cargo.toml                   |    8 +-
+ crates/main/src/lib.rs                   |    2 +-
+ crates/marine-macro-impl/Cargo.toml      |    6 +-
+ crates/marine-macro-impl/src/lib.rs      |    2 +-
+ crates/marine-macro/Cargo.toml           |    6 +-
+ crates/marine-macro/src/lib.rs           |    2 +-
+ crates/marine-test-macro-impl/Cargo.toml |    7 +-
+ crates/marine-test-macro/Cargo.toml      |    9 +-
+ crates/marine-test-macro/src/lib.rs      |    2 +-
+ crates/timestamp-macro/Cargo.toml        |    5 +-
+ fluence-test/Cargo.toml                  |   13 +-
+ fluence-test/src/lib.rs                  |    2 +-
+ fluence/Cargo.toml                       |   11 +-
+ fluence/src/lib.rs                       |    2 +-
+ 17 files changed, 1838 insertions(+), 81 deletions(-)
+
+commit f89113f3e33ccad46d098f5929b929bef0503365
+Author: vms <michail.vms@gmail.com>
+Date:   Wed May 12 16:09:15 2021 +0300
+
+    reexport __fce_generated_section__
+
+ crates/main/Cargo.toml              | 4 ++--
+ crates/marine-macro-impl/Cargo.toml | 2 +-
+ crates/marine-macro-impl/src/lib.rs | 2 ++
+ crates/marine-macro/Cargo.toml      | 4 ++--
+ fluence/Cargo.toml                  | 6 +++---
+ 5 files changed, 10 insertions(+), 8 deletions(-)
+
+commit cf01bffdf28072d9afc4784007e50ef1625adac5
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 23:36:53 2021 +0300
+
+    bump versions
+
+ crates/main/Cargo.toml         | 4 ++--
+ crates/marine-macro/Cargo.toml | 2 +-
+ fluence/Cargo.toml             | 4 ++--
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 4f75d3d26e52052e9c31ed6b1a60908aa9d06706
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 23:26:37 2021 +0300
+
+    add Debug for SDKAst types
+
+ crates/marine-macro-impl/Cargo.toml              |  2 +-
+ crates/marine-macro-impl/src/export_ast_types.rs | 18 +++++++++---------
+ crates/marine-macro/Cargo.toml                   |  2 +-
+ fluence-test/src/lib.rs                          |  2 ++
+ fluence/Cargo.toml                               |  2 +-
+ 5 files changed, 14 insertions(+), 12 deletions(-)
+
+commit 859da3627bd5ee4594e73a1fd638cf7abe565c84
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 20:12:02 2021 +0300
+
+    allow using of deprecated fce_test
+
+ crates/marine-test-macro/Cargo.toml |  2 +-
+ crates/marine-test-macro/src/lib.rs | 17 +++++++++++++++++
+ fluence-test/Cargo.toml             |  4 ++--
+ 3 files changed, 20 insertions(+), 3 deletions(-)
+
+commit dea1e2182a2f1c8e82c76db9f91988a34682fbe3
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 17:37:41 2021 +0300
+
+    bump version
+
+ fluence-test/Cargo.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0fa9064a2cda76991cb8993dcb2343e38cfe3812
+Merge: 8bc484d 75805fa
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon May 10 15:33:51 2021 +0300
+
+    Merge pull request #34 from fluencelabs/wit_to_it
+    
+    Rename fce to marine
+
+commit 75805fac0dd49705ac26e8130a2e57a88b8918bf
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 14:34:49 2021 +0300
+
+    fix tests
+
+ .../export_functions/inner_vec_refs.rs             |  4 ++++
+ .../export_functions/inner_vec_refs.stderr         | 28 +++++++---------------
+ 2 files changed, 12 insertions(+), 20 deletions(-)
+
+commit cbefd747d7be4d0a78bc6d2cd0a7477cb6923463
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 14:02:10 2021 +0300
+
+    add crate::
+
+ crates/marine-macro-impl/src/lib.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7f45bfadba6516ba2b80dd76e06c09e27fb1c4ee
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 13:57:10 2021 +0300
+
+    fix imports
+
+ crates/marine-macro/src/lib.rs                                | 2 +-
+ crates/marine-test-macro-impl/src/errors.rs                   | 4 ++--
+ crates/marine-test-macro-impl/src/marine_test/config_utils.rs | 6 +++---
+ fluence/src/lib.rs                                            | 2 +-
+ 4 files changed, 7 insertions(+), 7 deletions(-)
+
+commit 164d40fa81e57b762783414a7f84cb16f096103a
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 13:52:16 2021 +0300
+
+    fmt
+
+ crates/marine-macro/src/lib.rs                                   | 9 +++------
+ .../src/marine_test/glue_code_generator.rs                       | 3 ++-
+ 2 files changed, 5 insertions(+), 7 deletions(-)
+
+commit 4c99af774f00f41e8e6af3ebfe775c60b4402290
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 13:50:52 2021 +0300
+
+    renaming
+
+ .circleci/config.yml                               |  2 +-
+ crates/main/src/module_manifest.rs                 | 52 ++++++++---------
+ crates/main/src/sdk_version_embedder.rs            |  2 +-
+ crates/marine-macro-impl/src/ast_types.rs          |  2 +-
+ crates/marine-macro-impl/src/lib.rs                |  6 +-
+ .../{fce_macro_impl.rs => marine_macro_impl.rs}    |  4 +-
+ crates/marine-macro-impl/src/parse_macro_input.rs  |  8 +--
+ .../src/parse_macro_input/item_fn.rs               | 18 +++---
+ .../src/parse_macro_input/item_foreign_mod.rs      |  8 +--
+ .../src/parse_macro_input/item_record.rs           | 10 ++--
+ .../marine-macro-impl/src/parsed_type/fn_epilog.rs |  4 +-
+ .../marine-macro-impl/src/parsed_type/fn_prolog.rs |  4 +-
+ .../src/parsed_type/foreign_mod_arg.rs             |  2 +-
+ .../src/parsed_type/foreign_mod_epilog.rs          |  4 +-
+ .../src/parsed_type/foreign_mod_prolog.rs          |  2 +-
+ .../src/parsed_type/vector_ser_der/der.rs          |  2 +-
+ .../src/parsed_type/vector_ser_der/ser.rs          |  2 +-
+ .../src/token_stream_generator.rs                  | 16 +++---
+ .../src/token_stream_generator/record_generator.rs |  6 +-
+ .../record_generator/field_values_builder.rs       |  4 +-
+ .../record_generator/record_serializer.rs          |  4 +-
+ crates/marine-macro-impl/src/utils.rs              |  6 +-
+ .../generation_tests/exports/arrays/expanded.rs    | 38 ++++++-------
+ .../exports/arrays/{fce.rs => marine.rs}           |  0
+ .../exports/basic_types/expanded.rs                | 14 ++---
+ .../exports/basic_types/{fce.rs => marine.rs}      |  0
+ .../generation_tests/exports/refs/expanded.rs      | 30 +++++-----
+ .../exports/refs/{fce.rs => marine.rs}             |  0
+ .../records/call_parameters/expanded.rs            | 28 ++++-----
+ .../records/call_parameters/{fce.rs => marine.rs}  |  0
+ .../records/use_as_type/expanded.rs                | 42 +++++++-------
+ .../records/use_as_type/{fce.rs => marine.rs}      |  0
+ .../tests/generation_tests_runner.rs               | 22 ++++----
+ crates/marine-macro-impl/tests/utils.rs            | 16 +++---
+ crates/marine-macro/src/lib.rs                     | 12 ++--
+ crates/marine-test-macro-impl/Cargo.toml           |  4 +-
+ crates/marine-test-macro-impl/src/attributes.rs    |  4 +-
+ crates/marine-test-macro-impl/src/errors.rs        |  4 +-
+ crates/marine-test-macro-impl/src/lib.rs           |  4 +-
+ .../src/{fce_test => marine_test}/config_utils.rs  |  4 +-
+ .../glue_code_generator.rs                         | 66 +++++++++++-----------
+ .../marine_test_impl.rs}                           |  8 +--
+ .../src/{fce_test => marine_test}/mod.rs           |  4 +-
+ .../{fce_test => marine_test}/module_generator.rs  | 26 ++++-----
+ .../module_generator/methods_generator.rs          |  8 +--
+ .../module_generator/methods_generator_utils.rs    | 34 +++++------
+ .../module_generator/record_type_generator.rs      | 10 ++--
+ .../src/{fce_test => marine_test}/utils.rs         | 10 ++--
+ crates/marine-test-macro/src/lib.rs                |  8 +--
+ crates/timestamp-macro/src/lib.rs                  |  2 +-
+ fluence-test/Cargo.toml                            |  2 +-
+ fluence-test/src/lib.rs                            |  4 +-
+ fluence/src/call_parameters.rs                     |  2 +-
+ fluence/src/lib.rs                                 | 20 +++----
+ .../export_functions/array_inner_refs.rs           | 14 ++---
+ .../compilation_tests/export_functions/arrays.rs   | 28 ++++-----
+ .../export_functions/basic_types.rs                | 26 ++++-----
+ .../export_functions/improper_types.rs             | 12 ++--
+ .../export_functions/inner_vec_refs.rs             |  4 +-
+ .../export_functions/inner_vec_refs.stderr         | 10 ++--
+ .../export_functions/ref_arrays.rs                 | 28 ++++-----
+ .../export_functions/ref_basic_types.rs            | 24 ++++----
+ .../compilation_tests/import_functions/arrays.rs   |  6 +-
+ .../import_functions/arrays_out_inner_refs.rs      | 16 +++---
+ .../import_functions/arrays_out_inner_refs.stderr  |  2 +-
+ .../import_functions/basic_ref_types.rs            |  4 +-
+ .../import_functions/basic_types.rs                |  4 +-
+ .../import_functions/improper_types.rs             | 14 ++---
+ .../import_functions/ref_arrays.rs                 |  6 +-
+ .../import_functions/ref_basic_types.rs            |  4 +-
+ .../compilation_tests/records/basic_structs.rs     | 18 +++---
+ .../compilation_tests/records/empty_struct.rs      |  4 +-
+ .../records/struct_with_improper_types.rs          |  8 +--
+ .../records/struct_with_private_fields.rs          |  4 +-
+ .../records/struct_with_private_fields.stderr      |  2 +-
+ .../compilation_tests/records/unnamed_structs.rs   |  4 +-
+ fluence/tests/compilation_tests_runner.rs          |  2 +-
+ 77 files changed, 418 insertions(+), 420 deletions(-)
+
+commit 7e786f47a74ec9ecd148033e48ddc3b7a722c139
+Author: vms <michail.vms@gmail.com>
+Date:   Mon May 10 12:23:26 2021 +0300
+
+    rename fce to marine
+
+ Cargo.toml                                         |  8 +++----
+ crates/main/Cargo.toml                             |  6 +++---
+ crates/{wit => marine-macro-impl}/Cargo.toml       | 10 ++++-----
+ crates/{wit => marine-macro-impl}/src/ast_types.rs |  0
+ .../src/export_ast_types.rs                        |  0
+ .../src/fce_macro_impl.rs                          |  2 +-
+ crates/{wit => marine-macro-impl}/src/lib.rs       |  2 +-
+ .../src/parse_macro_input.rs                       |  0
+ .../src/parse_macro_input/item_fn.rs               |  0
+ .../src/parse_macro_input/item_foreign_mod.rs      |  0
+ .../src/parse_macro_input/item_record.rs           |  0
+ .../src/parse_macro_input/utils.rs                 |  0
+ .../{wit => marine-macro-impl}/src/parsed_type.rs  |  0
+ .../src/parsed_type/fn_arg.rs                      |  0
+ .../src/parsed_type/fn_epilog.rs                   |  0
+ .../src/parsed_type/fn_prolog.rs                   |  0
+ .../src/parsed_type/foreign_mod_arg.rs             |  0
+ .../src/parsed_type/foreign_mod_epilog.rs          |  0
+ .../src/parsed_type/foreign_mod_prolog.rs          |  0
+ .../src/parsed_type/traits.rs                      |  0
+ .../src/parsed_type/utils.rs                       |  0
+ .../src/parsed_type/vector_ser_der.rs              |  0
+ .../src/parsed_type/vector_ser_der/der.rs          |  0
+ .../src/parsed_type/vector_ser_der/ser.rs          |  0
+ .../src/token_stream_generator.rs                  |  0
+ .../src/token_stream_generator/fn_generator.rs     |  0
+ .../foreign_mod_generator.rs                       |  0
+ .../src/token_stream_generator/record_generator.rs |  0
+ .../record_generator/field_values_builder.rs       |  0
+ .../record_generator/record_deserializer.rs        |  0
+ .../record_generator/record_serializer.rs          |  0
+ crates/{wit => marine-macro-impl}/src/utils.rs     |  0
+ crates/{wit => marine-macro-impl}/src/wasm_type.rs |  0
+ .../generation_tests/exports/arrays/expanded.rs    |  0
+ .../tests/generation_tests/exports/arrays/fce.rs   |  0
+ .../exports/basic_types/expanded.rs                |  0
+ .../generation_tests/exports/basic_types/fce.rs    |  0
+ .../generation_tests/exports/refs/expanded.rs      |  0
+ .../tests/generation_tests/exports/refs/fce.rs     |  0
+ .../records/call_parameters/expanded.rs            |  0
+ .../records/call_parameters/fce.rs                 |  0
+ .../records/use_as_type/expanded.rs                |  0
+ .../generation_tests/records/use_as_type/fce.rs    |  0
+ .../tests/generation_tests_runner.rs               |  0
+ crates/{wit => marine-macro-impl}/tests/utils.rs   |  4 ++--
+ crates/{fce-macro => marine-macro}/Cargo.toml      | 10 ++++-----
+ crates/{fce-macro => marine-macro}/src/lib.rs      | 25 ++++++++++++++++++----
+ .../Cargo.toml                                     |  6 +++---
+ .../src/attributes.rs                              |  0
+ .../src/errors.rs                                  |  0
+ .../src/fce_test/config_utils.rs                   |  0
+ .../src/fce_test/fce_test_impl.rs                  |  0
+ .../src/fce_test/glue_code_generator.rs            |  0
+ .../src/fce_test/mod.rs                            |  0
+ .../src/fce_test/module_generator.rs               |  0
+ .../fce_test/module_generator/methods_generator.rs |  0
+ .../module_generator/methods_generator_utils.rs    |  0
+ .../module_generator/record_type_generator.rs      |  0
+ .../src/fce_test/utils.rs                          |  0
+ .../src/lib.rs                                     |  0
+ .../Cargo.toml                                     |  6 +++---
+ .../src/lib.rs                                     |  0
+ crates/timestamp-macro/Cargo.toml                  |  4 ++--
+ fluence-test/Cargo.toml                            |  4 ++--
+ fluence/Cargo.toml                                 |  8 +++----
+ fluence/src/call_parameters.rs                     |  6 +++---
+ fluence/src/lib.rs                                 |  5 +++--
+ fluence/src/mounted_binary.rs                      |  6 +++---
+ 68 files changed, 65 insertions(+), 47 deletions(-)
+
+commit 8bc484d2be19e7e4eff723abd01611b880ac04bc
+Merge: 18c0a39 db03faa
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Sun May 9 22:10:58 2021 +0300
+
+    Merge pull request #33 from fluencelabs/fce_test_tetraplets
+    
+    Support CallParameters in generated by fce_test functions
+
+commit db03faaca97ae255709ef6599039b23db006bd97
+Author: vms <michail.vms@gmail.com>
+Date:   Sun May 9 22:00:52 2021 +0300
+
+    bump versions
+
+ crates/fce-test-macro-impl/Cargo.toml | 2 +-
+ crates/fce-test-macro/Cargo.toml      | 4 ++--
+ fluence-test/Cargo.toml               | 4 ++--
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+commit f3fcd8b4ca5640e42b26c142e1c9d676debc3b22
+Author: vms <michail.vms@gmail.com>
+Date:   Sun May 9 22:00:13 2021 +0300
+
+    delete excess directive
+
+ .../src/fce_test/module_generator/methods_generator_utils.rs             | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 0a83fd10d214bf45166f9aa09379d86608c78066
+Author: vms <michail.vms@gmail.com>
+Date:   Fri May 7 14:57:35 2021 +0300
+
+    update
+
+ .../module_generator/methods_generator_utils.rs    | 38 +++++++++++++++-------
+ fluence-test/src/lib.rs                            |  4 +--
+ 2 files changed, 28 insertions(+), 14 deletions(-)
+
+commit 1d2e2ffe844cf2964facd9773d97593d64bd24c3
+Author: vms <michail.vms@gmail.com>
+Date:   Fri May 7 13:22:02 2021 +0300
+
+    initial version
+
+ .../src/fce_test/module_generator.rs               |   1 +
+ .../fce_test/module_generator/methods_generator.rs | 155 ++----------------
+ .../module_generator/methods_generator_utils.rs    | 182 +++++++++++++++++++++
+ fluence-test/src/lib.rs                            |   2 +
+ 4 files changed, 203 insertions(+), 137 deletions(-)
+
+commit 18c0a39efe37137d18de952f0e33bb6ca227ea66
+Merge: fa08316 b653b1f
+Author: vms <mikhail@fluence.one>
+Date:   Thu May 6 11:42:35 2021 +0300
+
+    Merge pull request #32 from fluencelabs/fixup_branch
+    
+    Allow fce_test to work with relative paths
+
+commit b653b1f77234b15a7699c39a8141b7f33dbbd3cb
+Author: vms <michail.vms@gmail.com>
+Date:   Thu May 6 11:10:38 2021 +0300
+
+    delete excess backtrace dep
+
+ fluence-test/Cargo.toml | 1 -
+ fluence-test/src/lib.rs | 2 --
+ 2 files changed, 3 deletions(-)
+
+commit 8c401a0b3f979bb551e4b1f5325cc3c3c05b5e94
+Author: vms <michail.vms@gmail.com>
+Date:   Wed May 5 17:54:14 2021 +0300
+
+    use env and path
+
+ .../src/fce_test/glue_code_generator.rs            | 39 ++++++++++++++++------
+ 1 file changed, 29 insertions(+), 10 deletions(-)
+
+commit 40fdbb7bb68c2773825a089b6d408c5a15cd64a2
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 29 10:35:00 2021 +0300
+
+    rename full_path to file_path
+
+ crates/fce-test-macro-impl/src/fce_test/fce_test_impl.rs       | 4 ++--
+ crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs | 6 +++---
+ crates/fce-test-macro/src/lib.rs                               | 7 ++++---
+ 3 files changed, 9 insertions(+), 8 deletions(-)
+
+commit a237bf442d194953e8fdc8c9eec91e2ce3e69c50
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 29 10:30:50 2021 +0300
+
+    delete dead code
+
+ crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 4297da044c28cfdd9064a96450e7ba2aa1385590
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 29 10:29:34 2021 +0300
+
+    refactor
+
+ crates/fce-test-macro-impl/Cargo.toml              |  1 -
+ crates/fce-test-macro-impl/src/errors.rs           |  5 +++
+ .../src/fce_test/fce_test_impl.rs                  |  6 ++-
+ .../src/fce_test/glue_code_generator.rs            | 44 +++++++++++++++-------
+ crates/fce-test-macro/Cargo.toml                   |  1 -
+ crates/fce-test-macro/src/lib.rs                   |  9 +----
+ fluence-test/Cargo.toml                            |  1 +
+ fluence-test/src/lib.rs                            |  2 +
+ 8 files changed, 45 insertions(+), 24 deletions(-)
+
+commit 17e2dd1cc09b6d1fb220e1c75929041c3faf571d
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 28 22:47:22 2021 +0300
+
+    make paths relative
+
+ crates/fce-test-macro-impl/Cargo.toml                      |  5 +++--
+ crates/fce-test-macro-impl/src/fce_test/fce_test_impl.rs   |  5 +++--
+ .../src/fce_test/glue_code_generator.rs                    | 14 ++++++++++----
+ crates/fce-test-macro/Cargo.toml                           |  5 +++--
+ crates/fce-test-macro/src/lib.rs                           | 12 ++++++++++--
+ fluence-test/Cargo.toml                                    |  4 ++--
+ 6 files changed, 31 insertions(+), 14 deletions(-)
+
+commit fa08316c5e44d603fc6772c68c980c0dc29272a2
+Merge: 3d884e5 4ec204c
+Author: vms <mikhail@fluence.one>
+Date:   Wed Apr 28 16:31:06 2021 +0300
+
+    Merge pull request #31 from fluencelabs/fix_test_macro
+    
+    Fix test macro
+
+commit 4ec204ce811f78967702bcf174e7ddb28dee9a9d
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 28 16:27:09 2021 +0300
+
+    uncomment autopublishing
+
+ .github/workflows/publish_release.yml | 196 +++++++++++++++++-----------------
+ crates/fce-test-macro-impl/Cargo.toml |   2 +-
+ crates/fce-test-macro/Cargo.toml      |   4 +-
+ fluence-test/Cargo.toml               |   4 +-
+ fluence/Cargo.toml                    |   2 +-
+ fluence/src/call_parameters.rs        |   4 +-
+ 6 files changed, 105 insertions(+), 107 deletions(-)
+
+commit fd1bd13ee624336c10a2e6f7d8fe3f777087bf8e
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 28 14:17:09 2021 +0300
+
+    delete excess fce_test reexport
+
+ fluence/src/lib.rs | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit ff084839e983dd903f7e20c04d5cd851ab3b73c0
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 28 14:15:23 2021 +0300
+
+    export call_parameters even in native
+
+ fluence/src/lib.rs | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 0cef5899fef02652817ba66538f04bf644ded32b
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 28 14:14:08 2021 +0300
+
+    return default CallParamenters for native
+
+ fluence/src/call_parameters.rs | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit 455ab159309b5bd9845bc8bb65c81a0e23a1c2aa
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 28 13:51:55 2021 +0300
+
+    fix some issues
+
+ .../src/fce_test/module_generator/record_type_generator.rs             | 2 +-
+ crates/fce-test-macro-impl/src/fce_test/utils.rs                       | 3 ++-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 3d884e5791ce76feb00d5ff2bfb170a93d4136c4
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 28 00:02:22 2021 +0300
+
+    fix serde behaviour in fce_test
+
+ crates/fce-test-macro-impl/Cargo.toml                               | 2 +-
+ crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs      | 4 ++--
+ crates/fce-test-macro-impl/src/fce_test/module_generator.rs         | 4 ++--
+ .../src/fce_test/module_generator/methods_generator.rs              | 6 +++---
+ .../src/fce_test/module_generator/record_type_generator.rs          | 3 ++-
+ crates/fce-test-macro/Cargo.toml                                    | 4 ++--
+ fluence-test/Cargo.toml                                             | 4 ++--
+ fluence-test/src/lib.rs                                             | 5 ++---
+ 8 files changed, 16 insertions(+), 16 deletions(-)
+
+commit 5fc6cf07d712e44ad231a7b46f0d678932438d78
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 27 18:00:23 2021 +0300
+
+    prepare before publish
+
+ crates/fce-macro/Cargo.toml                           |  4 ++--
+ crates/fce-test-macro-impl/Cargo.toml                 |  6 +++---
+ crates/fce-test-macro-impl/src/fce_test/utils.rs      |  5 ++---
+ crates/fce-test-macro/Cargo.toml                      |  4 ++--
+ crates/main/Cargo.toml                                |  4 ++--
+ crates/timestamp-macro/Cargo.toml                     |  2 +-
+ crates/wit/Cargo.toml                                 |  2 +-
+ crates/wit/src/token_stream_generator/fn_generator.rs |  3 +--
+ fluence-test/Cargo.toml                               |  8 ++++----
+ fluence/Cargo.toml                                    | 10 +++++-----
+ 10 files changed, 23 insertions(+), 25 deletions(-)
+
+commit e8bc1db0dff8550b97675d4835cf17e0f27848ef
+Merge: 1755202 43c3908
+Author: vms <mikhail@fluence.one>
+Date:   Mon Apr 26 00:41:11 2021 +0300
+
+    Merge pull request #29 from fluencelabs/optimizations
+    
+    Arrays/Record passing scheme refactoring
+
+commit 43c3908409b20cd875f2a42ae5563672453129a0
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 25 01:08:38 2021 +0300
+
+    disable logs
+
+ crates/main/src/export_allocator.rs | 5 -----
+ 1 file changed, 5 deletions(-)
+
+commit 85a93763c150b6f8f0f3d1e6a52dae78527f678a
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 25 01:05:48 2021 +0300
+
+    add temp logs
+
+ crates/main/src/export_allocator.rs | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 3482fb76825737091c22a9dc9c3c11fae2daffc3
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 25 00:53:25 2021 +0300
+
+    fix one more bug
+
+ crates/wit/src/parsed_type/vector_ser_der.rs | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit f1cfca6f15f656fcc78e78b3dcc4c4e04428c2a5
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 25 00:52:14 2021 +0300
+
+    fix bool vec
+
+ crates/wit/src/parsed_type/vector_ser_der.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ba7af66ca834fbaa9e708029d950caf4b0729ba8
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 22 17:57:47 2021 +0300
+
+    renaming
+
+ crates/main/src/lib.rs                             |  2 +-
+ crates/wit/src/ast_types.rs                        | 16 ++++----
+ crates/wit/src/export_ast_types.rs                 | 48 +++++++++++-----------
+ crates/wit/src/parse_macro_input/item_fn.rs        |  4 +-
+ .../wit/src/parse_macro_input/item_foreign_mod.rs  | 10 ++---
+ crates/wit/src/parse_macro_input/item_record.rs    |  2 +-
+ .../wit/src/token_stream_generator/fn_generator.rs |  2 +-
+ .../foreign_mod_generator.rs                       |  6 +--
+ .../src/token_stream_generator/record_generator.rs |  8 ++--
+ .../record_generator/record_deserializer.rs        |  2 +-
+ .../record_generator/record_serializer.rs          |  4 +-
+ 11 files changed, 52 insertions(+), 52 deletions(-)
+
+commit 17115b696a55defa7a579c4d635e788ab909b911
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 22 17:45:06 2021 +0300
+
+    pr fixes
+
+ crates/main/src/export_allocator.rs          | 49 +++++++++++++---------------
+ crates/main/src/lib.rs                       | 20 +++++++-----
+ crates/main/src/result.rs                    | 15 +++------
+ crates/wit/src/ast_types.rs                  | 11 ++++---
+ crates/wit/src/parsed_type/vector_ser_der.rs |  2 +-
+ 5 files changed, 46 insertions(+), 51 deletions(-)
+
+commit 766da0bf0f7c1590d9954400cfb5afd6d336cfde
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 22 17:24:07 2021 +0300
+
+    fix boolean vec ser scheme
+
+ crates/wit/src/parsed_type/vector_ser_der.rs | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 77397bb87d9779128c20038c8422cfc9ef763610
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 22 17:05:12 2021 +0300
+
+    fix tests
+
+ crates/wit/tests/generation_tests/exports/arrays/expanded.rs      | 4 ++--
+ crates/wit/tests/generation_tests/exports/basic_types/expanded.rs | 4 ++--
+ crates/wit/tests/generation_tests/exports/refs/expanded.rs        | 4 ++--
+ crates/wit/tests/generation_tests/records/use_as_type/expanded.rs | 4 ++--
+ 4 files changed, 8 insertions(+), 8 deletions(-)
+
+commit 1cf369e0e4c6e2314ad7ac02548d917aae02a5a5
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 22 16:59:13 2021 +0300
+
+    delete comments
+
+ crates/wit/src/token_stream_generator/fn_generator.rs | 19 -------------------
+ 1 file changed, 19 deletions(-)
+
+commit 15707608793264db1d39eb8727d4f4cbcb29f10c
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 22 16:57:34 2021 +0300
+
+    rename output_type to output_types
+
+ crates/wit/src/export_ast_types.rs                    |  6 ++----
+ crates/wit/src/token_stream_generator/fn_generator.rs | 19 +++++++++++++++++++
+ 2 files changed, 21 insertions(+), 4 deletions(-)
+
+commit 1cbe8c3bfaf6bfd0a46b5a25c923405616ee48e7
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 22 13:34:36 2021 +0300
+
+    turn Option to Vec for output_type
+
+ crates/wit/src/export_ast_types.rs | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+commit 53299c7c5aa034417b73ca2ffe0d8c0659d0253f
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 22 12:32:19 2021 +0300
+
+    delete excess logs
+
+ crates/main/src/export_allocator.rs | 8 ++------
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+
+commit 4b6f6d9111e22f5d575282b1e1dc6de9ace5cb32
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 21 18:49:13 2021 +0300
+
+    housekeeping
+
+ crates/main/src/export_allocator.rs                |  10 +-
+ crates/wit/src/parsed_type.rs                      |   4 +-
+ crates/wit/src/parsed_type/fn_epilog.rs            |   9 +-
+ crates/wit/src/parsed_type/fn_prolog.rs            |   2 +-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs   |   2 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   |  13 +-
+ crates/wit/src/parsed_type/vector_ser_der.rs       |  88 ++++++++++
+ crates/wit/src/parsed_type/vector_ser_der/der.rs   |  78 +++++++++
+ crates/wit/src/parsed_type/vector_ser_der/ser.rs   |  77 +++++++++
+ crates/wit/src/parsed_type/vector_utils.rs         | 191 ---------------------
+ .../record_generator/field_values_builder.rs       |  27 ++-
+ .../record_generator/record_serializer.rs          |  17 +-
+ .../generation_tests/exports/arrays/expanded.rs    |   6 +-
+ .../generation_tests/exports/refs/expanded.rs      |   8 +-
+ .../records/call_parameters/expanded.rs            |   2 +-
+ .../records/use_as_type/expanded.rs                |   6 +-
+ 16 files changed, 294 insertions(+), 246 deletions(-)
+
+commit a448f03ed42b76ab1b9985addb71605201800843
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 21 15:09:09 2021 +0300
+
+    fix comment
+
+ crates/main/src/export_allocator.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit df30974e06959202da742a131d156efa5c1e7433
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 21 15:08:30 2021 +0300
+
+    fix build
+
+ crates/main/src/export_allocator.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 47f0443397a5075efe7d03e0fc9028e89dd1f375
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 21 14:56:21 2021 +0300
+
+    pr fixes
+
+ crates/main/src/export_allocator.rs                | 33 ++++++++++++++--------
+ crates/wit/src/parsed_type/vector_utils.rs         |  6 ++--
+ .../record_generator/field_values_builder.rs       |  4 +--
+ .../generation_tests/exports/arrays/expanded.rs    |  9 ++++--
+ .../generation_tests/exports/refs/expanded.rs      |  6 ++--
+ .../records/call_parameters/expanded.rs            |  3 +-
+ .../records/use_as_type/expanded.rs                |  9 ++++--
+ 7 files changed, 45 insertions(+), 25 deletions(-)
+
+commit d5a6503842e93635c642bcd374e0532fd97e2029
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 21 04:29:12 2021 +0300
+
+    uncomment
+
+ fluence/src/call_parameters.rs | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 6afa67890589969192fa7f10899a674846f53658
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 20 23:44:04 2021 +0300
+
+    fix a comment
+
+ crates/main/src/export_allocator.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b6d0ecc11c90c598bd8781451c3499e9a80dde2f
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 20 23:35:25 2021 +0300
+
+    fix tests
+
+ crates/main/src/export_allocator.rs                |  59 ++++----
+ crates/wit/src/parsed_type/vector_utils.rs         |   4 +-
+ .../record_generator/record_serializer.rs          |   4 +-
+ .../generation_tests/exports/arrays/expanded.rs    |  25 ++--
+ .../exports/basic_types/expanded.rs                |   8 +-
+ .../generation_tests/exports/refs/expanded.rs      |  15 +-
+ .../records/call_parameters/expanded.rs            | 163 ++++++++++++++-------
+ .../records/use_as_type/expanded.rs                |  24 ++-
+ fluence/src/call_parameters.rs                     |   8 +-
+ .../compilation_tests/export_functions/arrays.rs   |   5 +
+ .../export_functions/ref_arrays.rs                 |   5 +
+ .../compilation_tests/import_functions/arrays.rs   |   2 +
+ .../import_functions/ref_arrays.rs                 |   2 +
+ 13 files changed, 183 insertions(+), 141 deletions(-)
+
+commit cbd2cf7c4a5648526d80cebf2002cd0f0b430348
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 20 13:36:20 2021 +0300
+
+    update
+
+ .../src/token_stream_generator/record_generator/record_serializer.rs   | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit e826e6cee9760613a28abbed765f09c7f15c23e0
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 20 00:46:41 2021 +0300
+
+    update
+
+ crates/wit/src/parsed_type/vector_utils.rs         | 45 +++++-----------------
+ .../src/token_stream_generator/record_generator.rs |  2 +-
+ .../record_generator/record_serializer.rs          | 14 ++++---
+ 3 files changed, 18 insertions(+), 43 deletions(-)
+
+commit eb8ed94125d72b0b10f1e4976a69b55e1fae55e9
+Merge: 92072f4 1755202
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 20 00:37:08 2021 +0300
+
+    Merge branch 'master' into optimizations
+
+commit 92072f4b051009bf81ed13f5e4e80bd1b6c0561c
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 19 20:18:37 2021 +0300
+
+    update record ser
+
+ .../wit/src/token_stream_generator/record_generator.rs |  3 ++-
+ .../record_generator/record_serializer.rs              | 18 +++++++-----------
+ 2 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6a34327b315e387049fa5814f59dfbb1aa016d20
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 19 19:55:46 2021 +0300
+
+    update record der
+
+ .../record_generator/field_values_builder.rs       | 94 ++++++++++++++++++----
+ 1 file changed, 78 insertions(+), 16 deletions(-)
+
+commit 5b26474d4942a34c702c16427f6831e4230c150f
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 19 19:50:01 2021 +0300
+
+    update record der
+
+ .../src/token_stream_generator/record_generator.rs |   4 +-
+ .../record_generator/field_values_builder.rs       | 257 +++++++++++++++++++++
+ .../record_generator/record_deserializer.rs        | 128 +---------
+ crates/wit/src/utils.rs                            |  13 +-
+ 4 files changed, 273 insertions(+), 129 deletions(-)
+
+commit 913317c78ead211779ace99703b0dbaec17c69cd
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 18 14:29:52 2021 +0300
+
+    refactor export_types
+
+ crates/wit/src/ast_types.rs                        | 24 +++++---
+ crates/wit/src/export_ast_types.rs                 | 43 +++++++++++----
+ crates/wit/src/parse_macro_input/item_record.rs    |  2 +
+ .../src/token_stream_generator/record_generator.rs | 24 +++++---
+ .../record_generator/record_deserializer.rs        | 64 +++++++++++-----------
+ .../record_generator/record_serializer.rs          | 18 ++++--
+ 6 files changed, 114 insertions(+), 61 deletions(-)
+
+commit 8ea8e219ef8b2f4d830eac6859166d901bbe63b9
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 18 13:29:49 2021 +0300
+
+    improve interface
+
+ crates/main/src/export_allocator.rs                |   2 +
+ crates/main/src/lib.rs                             |  14 +-
+ crates/wit/src/{fce_ast_types.rs => ast_types.rs}  |  56 +++----
+ crates/wit/src/export_ast_types.rs                 | 171 +++++++++++++++++++++
+ crates/wit/src/lib.rs                              |   5 +-
+ crates/wit/src/parse_macro_input.rs                |   2 +-
+ crates/wit/src/parse_macro_input/item_fn.rs        |  16 +-
+ .../wit/src/parse_macro_input/item_foreign_mod.rs  |  16 +-
+ crates/wit/src/parse_macro_input/item_record.rs    |  10 +-
+ crates/wit/src/parsed_type/fn_arg.rs               |   2 +-
+ crates/wit/src/parsed_type/fn_epilog.rs            |   2 +-
+ crates/wit/src/parsed_type/fn_prolog.rs            |   2 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   |   2 +-
+ crates/wit/src/token_stream_generator.rs           |   2 +-
+ .../wit/src/token_stream_generator/fn_generator.rs |   4 +-
+ .../foreign_mod_generator.rs                       |  10 +-
+ .../src/token_stream_generator/record_generator.rs |   8 +-
+ .../record_generator/record_deserializer.rs        |  14 +-
+ .../record_generator/record_serializer.rs          |   6 +-
+ crates/wit/src/utils.rs                            |   2 +-
+ 20 files changed, 250 insertions(+), 96 deletions(-)
+
+commit 12f06f806f1f1491d2214b49d329ee5f41176928
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Apr 16 18:03:25 2021 +0300
+
+    intermediate
+
+ crates/main/src/export_allocator.rs        | 23 ++++++++++-
+ crates/main/src/result.rs                  |  5 +++
+ crates/wit/src/parsed_type/vector_utils.rs | 62 +++++++-----------------------
+ 3 files changed, 40 insertions(+), 50 deletions(-)
+
+commit 1755202195c1e2a86c962219ac1420664afe3d49
+Merge: 339dd4d d23267e
+Author: vms <mikhail@fluence.one>
+Date:   Thu Apr 15 22:58:43 2021 +0300
+
+    Merge pull request #28 from fluencelabs/safe_imports
+    
+    Make imports safe
+
+commit d23267e415d833430598397acda7f6f61d07728a
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 13 14:10:56 2021 +0300
+
+    make unsafe func
+
+ crates/wit/src/token_stream_generator/foreign_mod_generator.rs | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 9a05fd250cb53938c9b854bc85ff33cdb84b533b
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 13 14:02:20 2021 +0300
+
+    make import function safe
+
+ crates/wit/src/token_stream_generator/foreign_mod_generator.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b2002b0279d01548e489a236a792c64784af1357
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 13 13:55:39 2021 +0300
+
+    intermediate
+
+ crates/wit/src/parsed_type/vector_utils.rs | 30 ++++++++++++------------------
+ 1 file changed, 12 insertions(+), 18 deletions(-)
+
+commit 80f083cdcf7e3da9234b27a82c4e8f8081cda2d9
+Merge: 7e19dfb 339dd4d
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 13 01:07:40 2021 +0300
+
+    Merge branch 'master' into optimizations
+
+commit 339dd4d58a9e7481ad4cc9e73e19a8ebe96b46fe
+Merge: 7ca3aff e8f4b15
+Author: vms <mikhail@fluence.one>
+Date:   Mon Apr 12 22:31:58 2021 +0300
+
+    Merge pull request #27 from fluencelabs/fix_ref_bools
+    
+    Fix bool refs
+
+commit e8f4b15df2f913261b0b6cec38a1ff9dd51247a9
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 12 22:25:08 2021 +0300
+
+    change comment
+
+ crates/wit/src/parsed_type/foreign_mod_arg.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 71b84799bb6169e85e9bda51e50472df7aed24f8
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 12 22:23:50 2021 +0300
+
+    fix a typo
+
+ crates/wit/src/parsed_type/foreign_mod_arg.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c5347cf1c1d73617605577f300e355268a31ad96
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 12 22:21:58 2021 +0300
+
+    fmt
+
+ crates/wit/src/parsed_type/foreign_mod_arg.rs | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit bac2d22bea0000daa5de2bbae1dc4df412a888f1
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 12 22:18:36 2021 +0300
+
+    fix bool refs
+
+ crates/wit/src/parsed_type/foreign_mod_arg.rs | 18 +++++++++++++-----
+ 1 file changed, 13 insertions(+), 5 deletions(-)
+
+commit 7ca3affd12122c9a1ed8420db4175a985cfa3db2
+Merge: e2a1e66 9ae4910
+Author: vms <mikhail@fluence.one>
+Date:   Mon Apr 12 20:52:06 2021 +0300
+
+    Merge pull request #26 from fluencelabs/fix_imports
+    
+    fix imports with basic types passed by references
+
+commit 9ae4910c11e70e5bf37dd1ba2ab578c52dc7980a
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 12 20:41:04 2021 +0300
+
+    fix imports with basic types passed by references
+
+ crates/wit/src/parsed_type/foreign_mod_arg.rs      | 13 ++++++-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   | 39 ++++++++++++-------
+ .../import_functions/basic_ref_types.rs            | 44 ++++++++++++++++++++++
+ .../compilation_tests/records/basic_structs.rs     |  2 -
+ .../compilation_tests/records/empty_struct.rs      |  2 -
+ .../records/struct_with_improper_types.rs          |  2 -
+ .../records/struct_with_improper_types.stderr      | 12 +++---
+ fluence/tests/compilation_tests_runner.rs          |  1 +
+ 8 files changed, 88 insertions(+), 27 deletions(-)
+
+commit 7e19dfb4fb39b74b1a1a61c2c7fdbead55775fce
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 12 18:02:22 2021 +0300
+
+    refactoring
+
+ .../src/token_stream_generator/record_generator.rs |  8 ++--
+ .../record_generator/record_deserializer.rs        | 47 ++++++++++++++--------
+ 2 files changed, 34 insertions(+), 21 deletions(-)
+
+commit 7314000623abed0e0cd406d04066e806d9298f81
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Apr 9 21:55:02 2021 +0300
+
+    refactor record serializer
+
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs   |  12 +-
+ .../src/token_stream_generator/record_generator.rs |   8 +-
+ .../record_generator/record_deserializer.rs        | 300 +++++++++++----------
+ 3 files changed, 171 insertions(+), 149 deletions(-)
+
+commit e2a1e66e170abd992ee5b1a1bd21347494fcf91c
+Merge: 950f3ab bed5a85
+Author: vms <mikhail@fluence.one>
+Date:   Fri Apr 9 16:23:00 2021 +0300
+
+    Merge pull request #17 from fluencelabs/support_references
+    
+    Support references
+
+commit bed5a8505be7188ac57cd3285775f7a12be49355
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Apr 9 16:16:42 2021 +0300
+
+    fix merge
+
+ crates/timestamp-macro/Cargo.toml                     |  2 +-
+ crates/wit/src/parsed_type/fn_prolog.rs               | 19 ++++++++-----------
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs      |  9 +++++----
+ crates/wit/src/parsed_type/vector_utils.rs            | 18 ++++++++----------
+ .../record_generator/record_deserializer.rs           |  8 ++++----
+ crates/wit/src/utils.rs                               | 11 +++++++++++
+ 6 files changed, 37 insertions(+), 30 deletions(-)
+
+commit 16d0210531b260be5d58cac7057a5aee590b43c3
+Merge: d48ff22 950f3ab
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Apr 9 15:57:54 2021 +0300
+
+    Merge branch 'master' into support_references
+
+commit d48ff2242837504d8db14236d6ac129dbac30d61
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Apr 9 15:52:44 2021 +0300
+
+    comment out publish file
+
+ .github/workflows/publish_release.yml | 196 +++++++++++++++++-----------------
+ 1 file changed, 98 insertions(+), 98 deletions(-)
+
+commit 950f3ab226fdbfa475825f024ea85f26c27058e5
+Merge: 4a59f83 23aae3c
+Author: vms <mikhail@fluence.one>
+Date:   Fri Apr 9 11:58:42 2021 +0300
+
+    Merge pull request #25 from fluencelabs/build_time
+    
+    Introduce build time
+
+commit 23aae3cae628efd9505132edf50114641a0f82cf
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Apr 9 11:53:29 2021 +0300
+
+    update
+
+ crates/fce-macro/Cargo.toml      | 2 +-
+ crates/fce-test-macro/Cargo.toml | 2 +-
+ fluence-test/Cargo.toml          | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 22c493b8fd119d9b85e47b0784f5dec4c956663a
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 8 13:36:45 2021 +0300
+
+    fmt
+
+ crates/timestamp-macro/src/lib.rs | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 1a5e28957d5e5a15f9598860bfb9bebfb79f17be
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 8 13:22:51 2021 +0300
+
+    finalize
+
+ Cargo.toml                             |  1 -
+ crates/main/Cargo.toml                 |  1 -
+ crates/main/src/module_manifest.rs     |  2 +-
+ crates/timestamp-macro-impl/Cargo.toml | 18 ---------------
+ crates/timestamp-macro-impl/src/lib.rs | 40 ----------------------------------
+ crates/timestamp-macro/Cargo.toml      |  3 ++-
+ crates/timestamp-macro/src/lib.rs      |  7 +++++-
+ fluence/Cargo.toml                     |  6 +++--
+ fluence/src/lib.rs                     |  1 +
+ 9 files changed, 14 insertions(+), 65 deletions(-)
+
+commit 176b71b4a15af8b36dca68d720c8e1bd986566a1
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 8 12:49:53 2021 +0300
+
+    split on two crates
+
+ Cargo.toml                             |  1 +
+ crates/timestamp-macro-impl/Cargo.toml | 18 +++++++++++++++
+ crates/timestamp-macro-impl/src/lib.rs | 40 ++++++++++++++++++++++++++++++++++
+ crates/timestamp-macro/Cargo.toml      |  5 ++---
+ crates/timestamp-macro/src/lib.rs      |  9 +-------
+ 5 files changed, 62 insertions(+), 11 deletions(-)
+
+commit 3580e429c320cee0e59d581b2c08eb177d898ce1
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 8 12:38:24 2021 +0300
+
+    initial version of build time support
+
+ Cargo.toml                         |  1 +
+ crates/main/Cargo.toml             |  3 ++-
+ crates/main/src/module_manifest.rs |  9 +++++++--
+ crates/timestamp-macro/Cargo.toml  | 18 +++++++++++++++++
+ crates/timestamp-macro/src/lib.rs  | 41 ++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 69 insertions(+), 3 deletions(-)
+
+commit 9f8d558f461f3bc54c417c146ec6b50ca566b2e8
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 7 23:33:20 2021 +0300
+
+    fix tests
+
+ .circleci/config.yml                               |  1 +
+ .../export_functions/array_inner_refs.stderr       | 10 +++++-----
+ .../export_functions/inner_vec_refs.rs             | 11 +++++++++++
+ .../export_functions/inner_vec_refs.stderr         | 23 ++++++++++++++++++++++
+ .../export_functions/ref_arrays.rs                 | 10 ----------
+ fluence/tests/compilation_tests_runner.rs          |  1 +
+ 6 files changed, 41 insertions(+), 15 deletions(-)
+
+commit 3f93e75c10bde3ec8c20277f5805e3ef03da9396
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 7 23:25:43 2021 +0300
+
+    uncomment
+
+ fluence/src/call_parameters.rs | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit d81efab0b82c337fd7e3dd06eb27ac38bbcdc4a9
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 7 23:20:37 2021 +0300
+
+    update
+
+ .../src/fce_test/config_utils.rs                   |   4 +-
+ .../src/fce_test/glue_code_generator.rs            |   4 +-
+ crates/fce-test-macro-impl/src/fce_test/utils.rs   |   2 +-
+ crates/wit/src/parse_macro_input/item_fn.rs        |  26 +++-
+ crates/wit/src/parsed_type/fn_epilog.rs            |  25 ++--
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   |   4 +-
+ crates/wit/src/parsed_type/vector_utils.rs         |  30 ++++-
+ .../wit/src/token_stream_generator/fn_generator.rs |   6 +-
+ .../src/token_stream_generator/record_generator.rs |   7 +-
+ .../generation_tests/exports/arrays/expanded.rs    | 129 +++++++++++++++++++
+ .../tests/generation_tests/exports/arrays/fce.rs   |   3 +
+ .../basic_types/expanded.rs                        |   8 +-
+ .../basic_types/fce.rs                             |   0
+ .../generation_tests/exports/refs/expanded.rs      | 104 +++++++++++++++
+ .../wit/tests/generation_tests/exports/refs/fce.rs |   3 +
+ .../records/call_parameters/expanded.rs            |  18 ++-
+ .../records/use_as_type/expanded.rs                | 140 +++++++++++++++++++++
+ .../generation_tests/records/use_as_type/fce.rs    |   3 +
+ crates/wit/tests/generation_tests_runner.rs        |  41 ++++--
+ crates/wit/tests/utils.rs                          |   6 +-
+ fluence/src/call_parameters.rs                     |   8 +-
+ fluence/tests/compilation_tests_runner.rs          |   2 +-
+ 22 files changed, 520 insertions(+), 53 deletions(-)
+
+commit a4fa69e5278b813ceaece04b8dfa138798fe7ed3
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 6 13:14:10 2021 +0300
+
+    add tests for generated glue code
+
+ crates/fce-macro/Cargo.toml                        |   4 +-
+ crates/fce-test-macro-impl/Cargo.toml              |   2 +-
+ crates/fce-test-macro/Cargo.toml                   |   4 +-
+ crates/main/Cargo.toml                             |   4 +-
+ crates/wit/Cargo.toml                              |   7 +-
+ crates/wit/src/parsed_type/fn_epilog.rs            |   2 +-
+ crates/wit/src/parsed_type/vector_utils.rs         |   6 +-
+ .../src/token_stream_generator/record_generator.rs |   2 +-
+ .../record_generator/record_serializer.rs          |   3 +-
+ .../export_functions/basic_types/expanded.rs       |  87 ++++++++++++
+ .../export_functions/basic_types/fce.rs            |  16 +++
+ .../records/call_parameters/expanded.rs            | 150 +++++++++++++++++++++
+ .../records/call_parameters/fce.rs                 |  19 +++
+ crates/wit/tests/generation_tests_runner.rs        |  16 +++
+ crates/wit/tests/utils.rs                          |  64 +++++++++
+ fluence-test/Cargo.toml                            |   4 +-
+ fluence/Cargo.toml                                 |   6 +-
+ .../export_functions/array_inner_refs.rs           |   0
+ .../export_functions/array_inner_refs.stderr       |   0
+ .../export_functions/arrays.rs                     |   0
+ .../export_functions/basic_types.rs                |   0
+ .../export_functions/improper_types.rs             |   0
+ .../export_functions/improper_types.stderr         |   0
+ .../export_functions/ref_arrays.rs                 |   0
+ .../export_functions/ref_basic_types.rs            |   0
+ .../import_functions/arrays.rs                     |   0
+ .../import_functions/arrays_out_inner_refs.rs      |   0
+ .../import_functions/arrays_out_inner_refs.stderr  |   0
+ .../import_functions/basic_types.rs                |   0
+ .../import_functions/improper_types.rs             |   0
+ .../import_functions/improper_types.stderr         |   0
+ .../import_functions/ref_arrays.rs                 |   0
+ .../import_functions/ref_basic_types.rs            |   0
+ .../records/basic_structs.rs                       |   0
+ .../records/empty_struct.rs                        |   0
+ .../records/struct_with_improper_types.rs          |   0
+ .../records/struct_with_improper_types.stderr      |   0
+ .../records/struct_with_private_fields.rs          |   0
+ .../records/struct_with_private_fields.stderr      |   0
+ .../records/unnamed_structs.rs                     |   0
+ .../records/unnamed_structs.stderr                 |   0
+ fluence/tests/compilation_tests_runner.rs          |  23 ++++
+ fluence/tests/test_runner.rs                       |  23 ----
+ 43 files changed, 398 insertions(+), 44 deletions(-)
+
+commit ea5baec462a76294169d6de2c6c22a34b7089b09
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 5 12:38:28 2021 +0300
+
+    some minor improvements
+
+ crates/main/src/export_allocator.rs | 17 -----------------
+ crates/main/src/lib.rs              |  1 -
+ fluence/src/lib.rs                  |  4 ++--
+ fluence/src/mounted_binary.rs       | 12 ++++++------
+ 4 files changed, 8 insertions(+), 26 deletions(-)
+
+commit 55cfb1e84453b26a450f4e6b79344a917561ef51
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 5 01:36:14 2021 +0300
+
+    ranaming
+
+ crates/wit/src/fce_ast_types.rs                       | 14 +++++++-------
+ crates/wit/src/parse_macro_input/item_fn.rs           | 14 +++++++-------
+ crates/wit/src/parsed_type/fn_arg.rs                  |  4 ++--
+ crates/wit/src/parsed_type/fn_epilog.rs               |  6 +++---
+ crates/wit/src/parsed_type/fn_prolog.rs               |  4 ++--
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs      |  4 ++--
+ crates/wit/src/token_stream_generator/fn_generator.rs |  2 +-
+ 7 files changed, 24 insertions(+), 24 deletions(-)
+
+commit 7b8d72e84c633996832a301b1f9082be1775d1fd
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 5 01:09:55 2021 +0300
+
+    some improvements
+
+ crates/wit/src/parse_macro_input.rs                |   1 +
+ crates/wit/src/parse_macro_input/item_fn.rs        |  18 +--
+ .../wit/src/parse_macro_input/item_foreign_mod.rs  | 148 +++++++++++++--------
+ crates/wit/src/parse_macro_input/utils.rs          |  33 +++++
+ crates/wit/src/parsed_type.rs                      |   2 +-
+ crates/wit/src/parsed_type/fn_epilog.rs            |   9 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   |   4 +-
+ crates/wit/src/parsed_type/vector_utils.rs         |  21 +--
+ .../record_generator/record_serializer.rs          |   3 +-
+ .../import_functions/arrays_out_inner_refs.rs      |  27 ++++
+ .../import_functions/arrays_out_inner_refs.stderr  |   6 +
+ fluence/tests/test_runner.rs                       |   1 +
+ 12 files changed, 182 insertions(+), 91 deletions(-)
+
+commit 440c5992c132b893d2207156bf001d51f19f4196
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 4 23:46:35 2021 +0300
+
+    fix tests
+
+ .circleci/config.yml                               |  2 +-
+ crates/wit/src/parse_macro_input/item_fn.rs        |  2 +-
+ .../tests/export_functions/array_inner_refs.stderr | 29 ++++++++++++++++++++++
+ 3 files changed, 31 insertions(+), 2 deletions(-)
+
+commit af0f503ca6ae9ebd1e1a3e042c659df5719f82c5
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 4 23:40:52 2021 +0300
+
+    another update
+
+ crates/wit/src/parse_macro_input/item_fn.rs        | 28 ++++++++++++----------
+ fluence/tests/export_functions/array_inner_refs.rs |  5 ++++
+ fluence/tests/test_runner.rs                       |  2 +-
+ 3 files changed, 22 insertions(+), 13 deletions(-)
+
+commit 35bdcc353a3d7fa762994b1817506cdb3ef789a5
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 4 23:25:42 2021 +0300
+
+    update
+
+ crates/wit/src/parse_macro_input/item_fn.rs        | 48 +++++++++++++++++++++-
+ fluence/src/lib.rs                                 |  4 +-
+ fluence/tests/export_functions/array_inner_refs.rs | 30 ++++++++++++++
+ fluence/tests/test_runner.rs                       |  1 +
+ 4 files changed, 81 insertions(+), 2 deletions(-)
+
+commit d1d52e8b692de07beccaa83c418283858305f5bb
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Apr 2 21:07:11 2021 +0300
+
+    add tests
+
+ .../src/fce_test/glue_code_generator.rs            |  6 +-
+ crates/wit/src/parsed_type/fn_prolog.rs            |  5 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   |  8 +--
+ crates/wit/src/parsed_type/vector_utils.rs         | 10 ++-
+ .../record_generator/record_deserializer.rs        |  5 +-
+ fluence/tests/export_functions/arrays.rs           |  2 +-
+ fluence/tests/export_functions/basic_types.rs      |  5 ++
+ fluence/tests/export_functions/ref_arrays.rs       | 77 ++++++++++++++++++++++
+ fluence/tests/export_functions/ref_basic_types.rs  | 73 ++++++++++++++++++++
+ fluence/tests/import_functions/ref_arrays.rs       | 58 ++++++++++++++++
+ fluence/tests/import_functions/ref_basic_types.rs  | 38 +++++++++++
+ fluence/tests/test_runner.rs                       |  4 ++
+ 12 files changed, 278 insertions(+), 13 deletions(-)
+
+commit 12685c59fca259c6d7b1ff7e4c330a6a00e58688
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Apr 2 18:31:19 2021 +0300
+
+    little refactoring
+
+ crates/fce-test-macro/src/lib.rs                   |  2 +-
+ crates/wit/src/fce_ast_types.rs                    |  8 ++-
+ crates/wit/src/parse_macro_input/item_fn.rs        | 59 ++++++++-----------
+ .../wit/src/parse_macro_input/item_foreign_mod.rs  | 26 ++++-----
+ crates/wit/src/parse_macro_input/item_record.rs    | 67 ++++++++++++----------
+ crates/wit/src/parsed_type/fn_arg.rs               |  5 +-
+ crates/wit/src/parsed_type/fn_epilog.rs            | 50 ++++++++--------
+ crates/wit/src/parsed_type/fn_prolog.rs            |  7 ++-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs   |  4 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   | 12 ++--
+ .../wit/src/token_stream_generator/fn_generator.rs | 15 +++--
+ .../foreign_mod_generator.rs                       | 23 ++++----
+ .../record_generator/record_serializer.rs          |  1 +
+ crates/wit/src/utils.rs                            |  7 +++
+ .../tests/export_functions/improper_types.stderr   |  2 +-
+ fluence/tests/records/unnamed_structs.rs           |  8 +++
+ fluence/tests/records/unnamed_structs.stderr       |  5 ++
+ fluence/tests/test_runner.rs                       |  1 +
+ 18 files changed, 164 insertions(+), 138 deletions(-)
+
+commit ea11a617cdead5f735f047521e476be2e64d7c79
+Merge: 9e7d085 4a59f83
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 19:44:08 2021 +0300
+
+    Merge branch 'master' into support_references
+
+commit 4a59f8343f8feaf68c3bd3ec4de9165fa60ea4f5
+Merge: 9b3462f a44e9aa
+Author: vms <mikhail@fluence.one>
+Date:   Thu Apr 1 19:15:11 2021 +0300
+
+    Merge pull request #24 from fluencelabs/tests
+    
+    Add trybuild tests
+
+commit a44e9aa7006262c8c01defc0eeef67f51ffb8374
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 18:38:16 2021 +0300
+
+    fix error message
+
+ crates/wit/src/parsed_type.rs                           | 2 +-
+ fluence/tests/export_functions/improper_types.stderr    | 8 ++++----
+ fluence/tests/import_functions/improper_types.stderr    | 2 +-
+ fluence/tests/records/struct_with_improper_types.stderr | 6 +++---
+ 4 files changed, 9 insertions(+), 9 deletions(-)
+
+commit fc320fe50d291c17b7a26d97bbef14ce87a6bf3b
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 18:36:25 2021 +0300
+
+    add trybuild tests
+
+ crates/fce-macro/Cargo.toml                        |   1 +
+ crates/fce-test-macro/Cargo.toml                   |   1 +
+ crates/main/Cargo.toml                             |   1 +
+ fluence-test/Cargo.toml                            |   1 +
+ fluence/Cargo.toml                                 |   4 +
+ fluence/tests/export_functions/arrays.rs           |  67 ++++++++
+ fluence/tests/export_functions/basic_types.rs      |  73 +++++++++
+ fluence/tests/export_functions/improper_types.rs   |  24 +++
+ .../tests/export_functions/improper_types.stderr   |  29 ++++
+ fluence/tests/import_functions/arrays.rs           |  40 +++++
+ fluence/tests/import_functions/basic_types.rs      |  40 +++++
+ fluence/tests/import_functions/improper_types.rs   |  24 +++
+ .../tests/import_functions/improper_types.stderr   |   5 +
+ fluence/tests/records/basic_structs.rs             |  82 ++++++++++
+ fluence/tests/records/empty_struct.rs              |   8 +
+ .../tests/records/struct_with_improper_types.rs    |  20 +++
+ .../records/struct_with_improper_types.stderr      |  17 ++
+ .../tests/records/struct_with_private_fields.rs    |  11 ++
+ .../records/struct_with_private_fields.stderr      |   5 +
+ fluence/tests/test_runner.rs                       |  16 ++
+ tests/test_files/arrays_passing.rs                 | 175 ---------------------
+ tests/test_files/basic_argument_passing.rs         | 153 ------------------
+ tests/test_files/records.rs                        |   0
+ 23 files changed, 469 insertions(+), 328 deletions(-)
+
+commit ae3c6e1e987edab8019975566ed80288eb489ea4
+Merge: bff0b7b 9b3462f
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 14:53:33 2021 +0300
+
+    Merge branch 'master' into tests
+
+commit 9b3462fde08ebccfcae18319c42745f797767e68
+Merge: c2fec59 6abd3e0
+Author: vms <mikhail@fluence.one>
+Date:   Thu Apr 1 14:50:38 2021 +0300
+
+    Merge pull request #23 from fluencelabs/fce_test
+    
+    Introduce fce test
+
+commit 6abd3e0907152362e83f5339723a6a15fa4d8828
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 14:46:33 2021 +0300
+
+    delete # https://docs.rs/about
+
+ crates/fce-macro/Cargo.toml           | 2 +-
+ crates/fce-test-macro-impl/Cargo.toml | 2 +-
+ crates/fce-test-macro/Cargo.toml      | 2 +-
+ crates/main/Cargo.toml                | 2 +-
+ crates/wit/Cargo.toml                 | 2 +-
+ fluence-test/Cargo.toml               | 2 +-
+ fluence/Cargo.toml                    | 2 +-
+ 7 files changed, 7 insertions(+), 7 deletions(-)
+
+commit a0fd5b2bc63aa1866b2a56a0c7477fa58471f222
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 14:42:23 2021 +0300
+
+    fix get_output_type
+
+ crates/fce-test-macro-impl/src/errors.rs                    |  3 +++
+ .../src/fce_test/module_generator/methods_generator.rs      | 13 +++++++------
+ 2 files changed, 10 insertions(+), 6 deletions(-)
+
+commit a4908f37cd604dcde705c1555d12c46bb444ab67
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 14:37:32 2021 +0300
+
+    pr fixes
+
+ .../src/fce_test/glue_code_generator.rs            | 22 +++++++++++++++++++++-
+ 1 file changed, 21 insertions(+), 1 deletion(-)
+
+commit e040a172535aea63fe85ecf96fd2a9c3ef4cb23a
+Author: vms <mikhail@fluence.one>
+Date:   Thu Apr 1 14:29:40 2021 +0300
+
+    Update crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs
+    
+    Co-authored-by: folex <0xdxdy@gmail.com>
+
+ crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+commit 26c93581610c1d122427a6c8dcabcdf430bb466c
+Author: vms <mikhail@fluence.one>
+Date:   Thu Apr 1 14:29:34 2021 +0300
+
+    Update crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs
+    
+    Co-authored-by: folex <0xdxdy@gmail.com>
+
+ crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+commit b010fe93df8d867d01557cdda00b20e69462d235
+Author: vms <mikhail@fluence.one>
+Date:   Thu Apr 1 14:29:01 2021 +0300
+
+    Update crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs
+    
+    Co-authored-by: folex <0xdxdy@gmail.com>
+
+ crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit bff0b7b5d3424be5383eba1a1937b634fd5f79d0
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 13:55:16 2021 +0300
+
+    add initial tests version
+
+ tests/test_files/arrays_passing.rs         | 175 +++++++++++++++++++++++++++++
+ tests/test_files/basic_argument_passing.rs | 153 +++++++++++++++++++++++++
+ tests/test_files/records.rs                |   0
+ 3 files changed, 328 insertions(+)
+
+commit 773dedcd792ad35133d67b82dba0c149a33a0ad3
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 12:56:23 2021 +0300
+
+    improve result converting
+
+ crates/fce-test-macro-impl/src/fce_test/module_generator.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b57c3687a232eb286f0f5834593bf103be62b469
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 12:49:34 2021 +0300
+
+    one more fix
+
+ crates/fce-test-macro-impl/src/fce_test/config_utils.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c2a7cc874abf5186db3dae54586239d0c6c319f2
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 12:48:32 2021 +0300
+
+    fix a typo
+
+ crates/fce-test-macro-impl/src/fce_test/config_utils.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b34a9fc90b9e4acd1c17a9813fcb60da8687d618
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 12:20:52 2021 +0300
+
+    code cleaning
+
+ .../src/fce_test/glue_code_generator.rs            | 35 ++++++++++------------
+ .../fce_test/module_generator/methods_generator.rs | 21 +++++++------
+ .../module_generator/record_type_generator.rs      |  8 ++---
+ crates/fce-test-macro-impl/src/lib.rs              |  1 -
+ fluence-test/src/lib.rs                            |  2 +-
+ 5 files changed, 31 insertions(+), 36 deletions(-)
+
+commit 8e2318dc779ef45d00fd13765327498cd84ea13b
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 12:11:31 2021 +0300
+
+    housekeeping
+
+ .../fce_test/{config_worker.rs => config_utils.rs} |  8 +++-
+ .../src/fce_test/glue_code_generator.rs            | 24 ++++++-----
+ crates/fce-test-macro-impl/src/fce_test/mod.rs     |  2 +-
+ .../src/fce_test/module_generator.rs               | 30 +++++---------
+ .../fce_test/module_generator/methods_generator.rs | 48 ++++++++++------------
+ .../module_generator/record_type_generator.rs      | 31 +++++++-------
+ 6 files changed, 67 insertions(+), 76 deletions(-)
+
+commit 6fca2485ebec418d61325f5042cef9653d919a90
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 05:34:16 2021 +0300
+
+    improcve comment
+
+ crates/fce-test-macro-impl/src/fce_test/glue_code_generator.rs | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit 305ca68c102b137063af297d042bdd3b19592111
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 05:29:54 2021 +0300
+
+    add comments
+
+ crates/fce-test-macro-impl/src/attributes.rs       |  4 ++
+ .../src/fce_test/glue_code_generator.rs            | 59 ++++++++++++++++++++++
+ .../src/fce_test/module_generator.rs               | 29 +++++++++++
+ crates/fce-test-macro/src/lib.rs                   | 15 +-----
+ 4 files changed, 94 insertions(+), 13 deletions(-)
+
+commit e03476316c0c8b0ed2985a554d3a2f0edebaaa22
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 05:10:49 2021 +0300
+
+    remove ToTokens impl
+
+ crates/fce-test-macro-impl/src/errors.rs | 11 +----------
+ 1 file changed, 1 insertion(+), 10 deletions(-)
+
+commit 6911e72ecc1dddbdb2fd84f813b4a0540993ed5f
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 05:08:41 2021 +0300
+
+    more houskeeping
+
+ .../src/fce_test/glue_code_generator.rs            |  3 +-
+ .../src/fce_test/module_generator.rs               |  8 ++++-
+ crates/fce-test-macro-impl/src/fce_test_.rs        | 41 ----------------------
+ 3 files changed, 9 insertions(+), 43 deletions(-)
+
+commit de2e61e60b3fcee0d44903a68af81da7165cd43e
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 04:26:36 2021 +0300
+
+    houskeeping
+
+ crates/fce-test-macro-impl/src/errors.rs           |   4 +-
+ crates/fce-test-macro-impl/src/fce_test.rs         | 451 ---------------------
+ .../src/fce_test/config_worker.rs                  |  82 ++++
+ .../src/fce_test/fce_test_impl.rs                  |  35 ++
+ .../src/fce_test/glue_code_generator.rs            | 109 +++++
+ crates/fce-test-macro-impl/src/fce_test/mod.rs     |  23 ++
+ .../src/fce_test/module_generator.rs               |  72 ++++
+ .../fce_test/module_generator/methods_generator.rs | 168 ++++++++
+ .../module_generator/record_type_generator.rs      |  62 +++
+ crates/fce-test-macro-impl/src/fce_test/utils.rs   |  77 ++++
+ crates/fce-test-macro-impl/src/fce_test_.rs        |  41 ++
+ crates/fce-test-macro-impl/src/lib.rs              |   2 +-
+ fluence-test/Cargo.toml                            |   1 -
+ fluence-test/src/lib.rs                            |   1 -
+ 14 files changed, 672 insertions(+), 456 deletions(-)
+
+commit 0574adb39a38ebc29a8f16c0387541002bc75c6d
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 03:49:44 2021 +0300
+
+    it works
+
+ Cargo.toml                                         |   1 +
+ crates/fce-test-macro-impl/Cargo.toml              |  24 +++++
+ .../src/attributes.rs                              |   2 +
+ .../src/errors.rs                                  |   9 +-
+ .../src/fce_test.rs                                | 107 +++++++++++++--------
+ crates/fce-test-macro-impl/src/lib.rs              |  37 +++++++
+ crates/fce-test-macro/Cargo.toml                   |   6 +-
+ crates/fce-test-macro/src/lib.rs                   |  21 ++--
+ fluence-test/Cargo.toml                            |   5 +
+ fluence-test/src/lib.rs                            |   7 ++
+ 10 files changed, 160 insertions(+), 59 deletions(-)
+
+commit ca75ef5eadea4fed639c1f842983beb00113c577
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 1 02:15:24 2021 +0300
+
+    progress
+
+ crates/fce-test-macro/Cargo.toml      |   1 +
+ crates/fce-test-macro/src/errors.rs   |  17 ++++++
+ crates/fce-test-macro/src/fce_test.rs | 110 +++++++++++++++++++++++++++-------
+ crates/fce-test-macro/src/lib.rs      |   7 ++-
+ 4 files changed, 112 insertions(+), 23 deletions(-)
+
+commit c571cc1628aceaef947610d75ac5ff4db14dfd54
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Mar 31 12:38:10 2021 +0300
+
+    implement module glue code generation
+
+ crates/fce-test-macro/src/fce_test.rs | 85 +++++++++++++++++++++++++++++++----
+ 1 file changed, 76 insertions(+), 9 deletions(-)
+
+commit 3ffe392e146bc268b9bc0bb27805c65d3aa57785
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Mar 31 11:36:54 2021 +0300
+
+    progress
+
+ crates/fce-test-macro/Cargo.toml      |   6 +-
+ crates/fce-test-macro/src/errors.rs   |  38 ++++++
+ crates/fce-test-macro/src/fce_test.rs | 220 ++++++++++++++++++++++++++++++++++
+ crates/fce-test-macro/src/lib.rs      |   5 +-
+ fluence-test/Cargo.toml               |   2 +-
+ 5 files changed, 268 insertions(+), 3 deletions(-)
+
+commit 04c2fb51d7e1903ffdac5bdae0911dfcdb621e8b
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Mar 28 23:22:12 2021 +0300
+
+    fix CI
+
+ .circleci/config.yml                             | 10 +++++++---
+ crates/fce-macro/src/lib.rs                      |  4 ++--
+ crates/fce-test-macro/src/lib.rs                 |  4 ++--
+ crates/wit/src/parsed_type/fn_epilog.rs          |  2 +-
+ crates/wit/src/parsed_type/fn_prolog.rs          |  2 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs |  4 ++--
+ 6 files changed, 15 insertions(+), 11 deletions(-)
+
+commit e4c7ed319bd9200d85215ef5032a4fe7fe9742dd
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Mar 28 22:51:50 2021 +0300
+
+    cleanup
+
+ Cargo.toml                              | 38 ++---------------------------
+ crates/fce-test-macro/Cargo.toml        |  3 +--
+ crates/fce-test-macro/src/attributes.rs | 43 ++-------------------------------
+ crates/fce-test-macro/src/fce_test.rs   | 43 +++++++++++++++++----------------
+ crates/fce-test-macro/src/lib.rs        |  7 ++----
+ crates/main/src/module_manifest.rs      | 10 ++++----
+ fluence-test/Cargo.toml                 | 22 +++++++++++++++++
+ fluence-test/src/lib.rs                 | 36 +++++++++++++++++++++++++++
+ fluence/Cargo.toml                      | 29 ++++++++++++++++++++++
+ {src => fluence/src}/lib.rs             |  6 -----
+ 10 files changed, 121 insertions(+), 116 deletions(-)
+
+commit 287090ae5a8ebc27f9a4d919fc196d3bb370bcef
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Mar 28 19:11:29 2021 +0300
+
+    adjust crate versions
+
+ crates/fce-test-macro/Cargo.toml | 2 +-
+ crates/wit/Cargo.toml            | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 0ed7b3e6b8ce1150543bec3ddd371f6da405274a
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Mar 28 18:02:36 2021 +0300
+
+    misc improvements
+
+ Cargo.toml                                              | 12 +++++++++---
+ crates/{macro => fce-macro}/Cargo.toml                  |  0
+ crates/{macro => fce-macro}/src/lib.rs                  |  0
+ crates/{macro-test => fce-test-macro}/Cargo.toml        | 10 +++-------
+ crates/{macro-test => fce-test-macro}/src/attributes.rs |  0
+ crates/{macro-test => fce-test-macro}/src/fce_test.rs   |  4 ++--
+ crates/{macro-test => fce-test-macro}/src/lib.rs        |  1 -
+ crates/main/Cargo.toml                                  |  2 +-
+ src/lib.rs                                              |  8 ++++++++
+ 9 files changed, 23 insertions(+), 14 deletions(-)
+
+commit fbd021e3e235d147f8139f8ae252e722ff8d09c6
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Mar 28 17:05:35 2021 +0300
+
+    intermediate
+
+ crates/macro-test/Cargo.toml        |  9 +++++-
+ crates/macro-test/src/attributes.rs | 61 +++++++++++++++++++++++++++++++++++++
+ crates/macro-test/src/fce_test.rs   | 54 ++++++++++++++++++++++++++++++++
+ crates/macro-test/src/lib.rs        | 38 +++++++++++++++++------
+ crates/wit/Cargo.toml               |  8 ++---
+ 5 files changed, 156 insertions(+), 14 deletions(-)
+
+commit 9811e476ed75c0b38328c5d3289e58ed3e428290
+Merge: cd21f80 c2fec59
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Mar 28 15:42:02 2021 +0300
+
+    Merge branch 'master' into fce_test
+
+commit c2fec5939fc17dcc227a78c7c8030549a6ff193f
+Merge: 947d204 d3e1b6d
+Author: vms <mikhail@fluence.one>
+Date:   Fri Mar 12 10:44:21 2021 +0300
+
+    Merge pull request #22 from fluencelabs/versioning
+    
+    Introduce versioning
+
+commit d3e1b6d3b53509a45388c331c75dfd4b5b38cee6
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Mar 12 10:29:26 2021 +0300
+
+    review fixes
+
+ crates/main/src/module_manifest.rs | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+commit 6c477059abc1730f36d838e370610ad621786285
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 19:59:55 2021 +0300
+
+    rename __FCE_SDK_WASM_MODULE_MANIFEST to __FCE_WASM_MODULE_MANIFEST
+
+ crates/main/src/module_manifest.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 42262b7e80603dcf52e31060b23321b3df43d3d2
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 19:46:43 2021 +0300
+
+    delete excess dep
+
+ Cargo.toml | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit 00c72c6438a2afc8e24cd77f8d52bd79c58562b2
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 19:01:16 2021 +0300
+
+    rearrange consts
+
+ crates/main/src/lib.rs                           | 4 ++++
+ crates/main/src/module_manifest.rs               | 3 +++
+ {src => crates/main/src}/sdk_version_embedder.rs | 3 +++
+ src/lib.rs                                       | 2 --
+ 4 files changed, 10 insertions(+), 2 deletions(-)
+
+commit 3d72d5885e565adbcb21194088efd8ed6a8825bf
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 14:43:47 2021 +0300
+
+    simplify the code
+
+ crates/main/src/module_manifest.rs | 13 ++++---------
+ 1 file changed, 4 insertions(+), 9 deletions(-)
+
+commit eab7d746ef489a02cc21a96f11b8ecb375fe456a
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 14:36:01 2021 +0300
+
+    change doc root link
+
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 38d8e6536801780c4dd1066bc38deda3f10bfd98
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 14:35:03 2021 +0300
+
+    update rust compiler in circleci; bump crate versions
+
+ .circleci/config.yml    | 6 +++---
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/main/Cargo.toml  | 4 ++--
+ crates/wit/Cargo.toml   | 2 +-
+ 5 files changed, 11 insertions(+), 11 deletions(-)
+
+commit 56a4d0a668644d73936a07847a9d4726b415e9c1
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 14:32:46 2021 +0300
+
+    hard names
+
+ crates/main/src/module_manifest.rs | 36 ++++++++++++++++++------------------
+ src/sdk_version_embedder.rs        |  2 +-
+ 2 files changed, 19 insertions(+), 19 deletions(-)
+
+commit 66a57c59188dcb772f3ea1e6fe4a2564641d9937
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 14:28:46 2021 +0300
+
+    fmt
+
+ crates/main/src/module_manifest.rs | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+
+commit 695c870964cf51ee2d59171ef57bc89db1b20971
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 13:58:29 2021 +0300
+
+    add module_manifest macro
+
+ crates/main/src/lib.rs             |  1 +
+ crates/main/src/module_manifest.rs | 85 ++++++++++++++++++++++++++++++++++++++
+ src/lib.rs                         | 25 ++---------
+ src/sdk_version_embedder.rs        | 38 +++++++++++++++++
+ 4 files changed, 128 insertions(+), 21 deletions(-)
+
+commit d6521af102077f03644888ea8c92290e9e952caa
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 00:07:06 2021 +0300
+
+    simplify the code
+
+ src/lib.rs | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+commit 549b1d4a87b3ad399909205a03a5af0b191a5596
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 11 00:02:25 2021 +0300
+
+    add sdk version
+
+ Cargo.toml |  2 ++
+ src/lib.rs | 20 ++++++++++++++++++++
+ 2 files changed, 22 insertions(+)
+
+commit 9e7d08511a7bfc85e7b0d7d319ddf28d71174480
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Mar 10 15:28:44 2021 +0300
+
+    temporary
+
+ crates/wit/src/parsed_type/vector_utils.rs | 21 +++++++++++----------
+ 1 file changed, 11 insertions(+), 10 deletions(-)
+
+commit a8fbe2ca6e36a0469caf2139f2316b8687f2e64e
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Mar 9 15:45:05 2021 +0300
+
+    progress
+
+ Cargo.toml                                              |  2 ++
+ crates/main/src/lib.rs                                  |  7 -------
+ crates/wit/src/parse_macro_input/item_record.rs         |  2 +-
+ crates/wit/src/parsed_type/fn_epilog.rs                 |  4 +++-
+ .../wit/src/token_stream_generator/record_generator.rs  |  2 +-
+ {crates/main/src => src}/call_parameters.rs             |  2 +-
+ src/lib.rs                                              | 17 +++++++++++------
+ {crates/main/src => src}/mounted_binary.rs              |  0
+ 8 files changed, 19 insertions(+), 17 deletions(-)
+
+commit e671e835a84fd92f774bc5c315986f5ab6bd552c
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Mar 9 12:57:11 2021 +0300
+
+    use Any instead of Drop
+
+ crates/main/src/result.rs               | 5 +++--
+ crates/wit/src/parsed_type/fn_epilog.rs | 2 +-
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 37cfd15543cb022c17b710687986aaff35dcc1e9
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Mar 9 01:01:04 2021 +0300
+
+    add explicit deletion of forgetting objects
+
+ crates/main/src/lib.rs                  |  2 ++
+ crates/main/src/result.rs               | 20 ++++++++++++++++++++
+ crates/wit/src/parsed_type/fn_arg.rs    | 20 ++++++++++----------
+ crates/wit/src/parsed_type/fn_epilog.rs | 20 ++++++++------------
+ src/lib.rs                              |  1 +
+ 5 files changed, 41 insertions(+), 22 deletions(-)
+
+commit cd21f80c59c89df344fd652b1e2ae4520c077e01
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Mar 2 11:38:03 2021 +0300
+
+    initial version
+
+ Cargo.toml                        |  3 ++-
+ crates/macro-test/Cargo.toml      | 21 +++++++++++++++++++
+ crates/macro-test/src/fce_test.rs | 16 +++++++++++++++
+ crates/macro-test/src/lib.rs      | 43 +++++++++++++++++++++++++++++++++++++++
+ crates/macro/Cargo.toml           |  2 +-
+ crates/macro/src/lib.rs           | 14 +++++--------
+ 6 files changed, 88 insertions(+), 11 deletions(-)
+
+commit e577d6b0c88847a4ca41743ac0368bf94b016021
+Merge: 131d555 947d204
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Mar 1 15:32:58 2021 +0300
+
+    Merge branch 'master' into support_references
+
+commit 131d555d75203abfc7f84cf650c76d9202add7f3
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Mar 1 14:43:33 2021 +0300
+
+    bump crates
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 4e3c2fdf3eda212c8eee965d5bb9d6480bea3243
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Mar 1 14:38:48 2021 +0300
+
+    various fixes
+
+ crates/wit/src/parsed_type.rs                      |  6 ++---
+ crates/wit/src/parsed_type/fn_epilog.rs            | 28 ++++++++++++++++------
+ crates/wit/src/parsed_type/fn_prolog.rs            |  2 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   |  1 +
+ .../wit/src/token_stream_generator/fn_generator.rs |  7 +++++-
+ .../foreign_mod_generator.rs                       |  3 ++-
+ crates/wit/src/wasm_type.rs                        | 16 +++++++++++++
+ 7 files changed, 50 insertions(+), 13 deletions(-)
+
+commit 7f6075b52a384e1196dbfc821a4a82c58d0b640d
+Author: vms <mikhail@fluence.one>
+Date:   Mon Mar 1 13:50:03 2021 +0300
+
+    Apply suggestions from code review
+    
+    Co-authored-by: folex <0xdxdy@gmail.com>
+
+ crates/wit/src/parsed_type/vector_utils.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 947d2047fb4cb5ebc176675c67126efd03f2fc24
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Feb 28 19:02:30 2021 +0300
+
+    use directives instead of map
+
+ Cargo.toml                |  6 +--
+ crates/macro/Cargo.toml   |  4 +-
+ crates/macro/src/lib.rs   |  2 +-
+ crates/main/Cargo.toml    |  5 +--
+ crates/main/src/lib.rs    |  2 +-
+ crates/main/src/logger.rs | 97 ++++++++++++++++++++++++++++++++++-------------
+ crates/wit/Cargo.toml     |  2 +-
+ crates/wit/src/lib.rs     |  2 +-
+ src/lib.rs                |  2 +-
+ 9 files changed, 83 insertions(+), 39 deletions(-)
+
+commit 4cf32913235c15b0330fc51b627235348b820d0b
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 26 12:56:25 2021 +0300
+
+    bump version
+
+ Cargo.toml                | 6 +++---
+ crates/macro/Cargo.toml   | 4 ++--
+ crates/macro/src/lib.rs   | 2 +-
+ crates/main/Cargo.toml    | 4 ++--
+ crates/main/src/lib.rs    | 2 +-
+ crates/main/src/logger.rs | 2 --
+ crates/wit/Cargo.toml     | 2 +-
+ crates/wit/src/lib.rs     | 2 +-
+ src/lib.rs                | 2 +-
+ 9 files changed, 12 insertions(+), 14 deletions(-)
+
+commit 152aef12c29479ab39e94aec464bdd18e7c9431e
+Merge: bb8511f d7d17e1
+Author: vms <mikhail@fluence.one>
+Date:   Fri Feb 26 12:30:25 2021 +0300
+
+    Merge pull request #21 from fluencelabs/set_max_level
+
+commit d7d17e19ee44f13909b72280ccc9808d0041de48
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 26 12:29:18 2021 +0300
+
+    bump versions
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/main/Cargo.toml  | 4 ++--
+ crates/wit/Cargo.toml   | 2 +-
+ 4 files changed, 8 insertions(+), 8 deletions(-)
+
+commit 4bdb18fad5f8388463b50381a378bc9858ba9171
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 26 12:24:10 2021 +0300
+
+    setting_max_level
+
+ crates/main/src/logger.rs | 51 ++++++++++++++++++++++++++++++++---------------
+ 1 file changed, 35 insertions(+), 16 deletions(-)
+
+commit bb8511f4dc42a1d068c31852cc293b14fe1f643d
+Merge: e242ddb db580be
+Author: vms <mikhail@fluence.one>
+Date:   Thu Feb 25 23:03:46 2021 +0300
+
+    Merge pull request #20 from fluencelabs/mb_stringify
+
+commit db580be7db6e6e4d9d8451797b7b1d847682dee5
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Feb 25 23:00:15 2021 +0300
+
+    fix as_std
+
+ Cargo.toml                        | 6 +++---
+ crates/macro/Cargo.toml           | 4 ++--
+ crates/main/Cargo.toml            | 4 ++--
+ crates/main/src/mounted_binary.rs | 2 +-
+ crates/wit/Cargo.toml             | 2 +-
+ 5 files changed, 9 insertions(+), 9 deletions(-)
+
+commit 40a308946e2ac1686efd3bee256c9f51c79e42a0
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Feb 25 22:56:25 2021 +0300
+
+    introduce stringify
+
+ crates/main/src/mounted_binary.rs | 33 ++++++++++++++++++++++++++++++++-
+ src/lib.rs                        |  1 +
+ 2 files changed, 33 insertions(+), 1 deletion(-)
+
+commit e242ddbfab5ed73eddb859c778dfd1eb5c8454bc
+Merge: 008470a 25b9fd0
+Author: vms <mikhail@fluence.one>
+Date:   Thu Feb 25 14:09:21 2021 +0300
+
+    Merge pull request #19 from fluencelabs/logger_filter
+
+commit 25b9fd0ef0bd0bae6cf24c76f85c060b8f078273
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Feb 25 13:46:02 2021 +0300
+
+    bump versions
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 929a5f21d95abefeae3dbaabfbf6115d788de06c
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Feb 25 13:44:10 2021 +0300
+
+    add filter logic
+
+ crates/main/Cargo.toml            |   1 +
+ crates/main/src/logger.rs         | 119 ++++++++++++++++++++++++++++++++------
+ crates/main/src/mounted_binary.rs |   2 +-
+ 3 files changed, 102 insertions(+), 20 deletions(-)
+
+commit 008470a757d6bab50fa52c64473a8cd65f140361
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Feb 24 11:46:07 2021 +0300
+
+    fix a typo
+
+ crates/main/src/mounted_binary.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit eb882bc2a9abcebdab3d9a29130d3a3e24ff6508
+Merge: 8d427c0 fb4ffef
+Author: vms <mikhail@fluence.one>
+Date:   Wed Feb 24 11:44:41 2021 +0300
+
+    Merge pull request #18 from fluencelabs/mounted_binary_result
+
+commit fb4ffefab470a84d536a17ed38e098dab7e41f08
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Feb 24 11:22:21 2021 +0300
+
+    review fixes
+
+ crates/main/src/mounted_binary.rs | 35 ++++++++++++++++++++++++++++-------
+ 1 file changed, 28 insertions(+), 7 deletions(-)
+
+commit 156bcf527d70d85793a8bf400599301d54264bf0
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Feb 24 08:58:13 2021 +0300
+
+    pr fixes
+
+ crates/main/expand.rs              | 404 -------------------------------------
+ crates/main/src/call_parameters.rs |   8 +-
+ 2 files changed, 4 insertions(+), 408 deletions(-)
+
+commit 06f686fc6288847815da4a7cc721754dc80329a8
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Feb 24 08:51:29 2021 +0300
+
+    bump versions
+
+ Cargo.toml                        | 6 +++---
+ crates/macro/Cargo.toml           | 4 ++--
+ crates/macro/src/lib.rs           | 2 +-
+ crates/main/Cargo.toml            | 4 ++--
+ crates/main/src/lib.rs            | 2 +-
+ crates/main/src/mounted_binary.rs | 2 +-
+ crates/wit/Cargo.toml             | 2 +-
+ crates/wit/src/lib.rs             | 2 +-
+ src/lib.rs                        | 2 +-
+ 9 files changed, 13 insertions(+), 13 deletions(-)
+
+commit 292bdc73ead48644705c9feea9c3948e44621c66
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Feb 24 08:31:56 2021 +0300
+
+    add into_std
+
+ crates/main/src/mounted_binary.rs | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit 210fd72b892ca30078354d27ef06505ef468f0e8
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Feb 22 19:00:29 2021 +0300
+
+    rename reexport
+
+ src/lib.rs | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+commit 3492f400575f194c305eee22d782d1d0b673e3fd
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Feb 22 18:30:45 2021 +0300
+
+    module renaming
+
+ crates/main/src/lib.rs                                          | 5 +----
+ crates/main/src/{mounted_binary_result.rs => mounted_binary.rs} | 4 ++--
+ src/lib.rs                                                      | 6 ++++--
+ 3 files changed, 7 insertions(+), 8 deletions(-)
+
+commit feb7517126edafcdf7c86f7e753c9d731e6a2205
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 19 22:50:38 2021 +0300
+
+    add error
+
+ crates/main/src/mounted_binary_result.rs | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit 0943e59ee78c3f80780adba83241fffdeb0049f4
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 19 18:31:16 2021 +0300
+
+    add stdout/stderr fields
+
+ crates/main/src/mounted_binary_result.rs | 34 +++++++++-----------------------
+ 1 file changed, 9 insertions(+), 25 deletions(-)
+
+commit 517b13e1ac15e4d277bb531e0dd605d348c9e8c3
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 19 17:45:27 2021 +0300
+
+    add two constructors
+
+ crates/main/src/mounted_binary_result.rs | 26 ++++++++++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+
+commit b7274974f7804f588ca2b079162cd15f18cd2ced
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 19 17:19:19 2021 +0300
+
+    reexport SUCCESS_CODE
+
+ crates/main/src/lib.rs | 1 +
+ src/lib.rs             | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit a04f4ce4ba365749c059c5b28bb1e62c2e31de75
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 19 17:14:50 2021 +0300
+
+    add MountedBinaryResult
+
+ crates/main/src/lib.rs                   |  3 +++
+ crates/main/src/mounted_binary_result.rs | 37 ++++++++++++++++++++++++++++++++
+ src/lib.rs                               |  2 ++
+ 3 files changed, 42 insertions(+)
+
+commit 9a524f13351d4af3177aada8dbdb77b46bdedd41
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 19 14:09:37 2021 +0300
+
+    update
+
+ crates/wit/src/parse_macro_input/item_fn.rs        |  2 +-
+ crates/wit/src/parsed_type.rs                      | 10 +--
+ crates/wit/src/parsed_type/fn_arg.rs               | 20 +++---
+ crates/wit/src/parsed_type/fn_epilog.rs            | 59 ++++++++++++++---
+ crates/wit/src/parsed_type/fn_prolog.rs            | 76 ++++++++++++----------
+ crates/wit/src/parsed_type/utils.rs                | 40 ++++++++++++
+ .../wit/src/token_stream_generator/fn_generator.rs |  7 +-
+ .../foreign_mod_generator.rs                       |  4 +-
+ 8 files changed, 153 insertions(+), 65 deletions(-)
+
+commit 849042d4db937ecff8210bd716a625396d5ae95a
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Feb 8 12:06:36 2021 +0300
+
+    fmt
+
+ crates/main/expand.rs                              | 404 +++++++++++++++++++++
+ crates/main/src/call_parameters.rs                 |   8 +-
+ crates/wit/src/parsed_type.rs                      |   5 +-
+ crates/wit/src/parsed_type/fn_arg.rs               |  28 +-
+ crates/wit/src/parsed_type/fn_epilog.rs            |  35 +-
+ crates/wit/src/parsed_type/fn_prolog.rs            |  44 ++-
+ crates/wit/src/parsed_type/foreign_mod_arg.rs      |   8 +-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs   |   8 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   |   5 +-
+ crates/wit/src/parsed_type/traits.rs               |   4 +-
+ crates/wit/src/parsed_type/vector_utils.rs         |  32 +-
+ .../record_generator/record_deserializer.rs        |  28 +-
+ .../record_generator/record_serializer.rs          |   8 +-
+ crates/wit/src/utils.rs                            |   2 +-
+ 14 files changed, 526 insertions(+), 93 deletions(-)
+
+commit ba2c5a80fd73d364915a35e56dcd5aeb29c1f527
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 5 16:07:31 2021 +0300
+
+    add ref types
+
+ crates/wit/src/parsed_type.rs        | 233 +++++++++++++++--------------------
+ crates/wit/src/parsed_type/traits.rs | 152 +++++++++++++++++++++++
+ 2 files changed, 252 insertions(+), 133 deletions(-)
+
+commit 5e3c8812502a79a2650a7da5e503e45fbd17b834
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Feb 4 14:42:45 2021 +0300
+
+    initial
+
+ crates/wit/src/parsed_type.rs | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit 8d427c0e72e978922abbd1da0157b58c6a16a42f
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jan 12 11:26:39 2021 +0300
+
+    catch up crates.io version
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit bf564e63d5b75dfbea44a12600e948c51999c4e8
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jan 12 11:16:02 2021 +0300
+
+    fix serde version
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 4 ++--
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 13 insertions(+), 13 deletions(-)
+
+commit 96aa2331099b4036f7fbae2c38331e68b8f47c45
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jan 6 18:50:11 2021 +0300
+
+    Fix crate version gathering
+
+ .github/workflows/publish_release.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4e68c43ad4be41544c58b152d559e4bca9767903
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jan 6 16:57:35 2021 +0300
+
+    Fix release name
+
+ .github/workflows/publish_release.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4979c1e1dbdcdeb7ebe1a14b41794d4a971f7bcf
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Dec 31 10:49:36 2020 +0300
+
+    crates.io badge
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 5338d6fb9a734803f9db1dd352a32b89a252a060
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Dec 31 10:48:35 2020 +0300
+
+    Add release automation (#16)
+
+ .github/workflows/publish_release.yml | 98 +++++++++++++++++++++++++++++++++++
+ Cargo.toml                            |  2 +-
+ README.md                             |  2 +
+ 3 files changed, 101 insertions(+), 1 deletion(-)
+
+commit 71591f412cb65879d74e8c38838e827ab74d8802
+Merge: a555291 3331763
+Author: vms <mikhail@fluence.one>
+Date:   Tue Dec 22 15:29:42 2020 +0300
+
+    Merge pull request #15 from fluencelabs/call_parameters_v3
+    
+    Update CallParameters
+
+commit 3331763e2686f5a6a94af4221bb53e9184385434
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Dec 22 15:14:41 2020 +0300
+
+    bump versions
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 94a721abf43444526af9f29f63e2222e6e94834c
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Dec 22 15:09:39 2020 +0300
+
+    update CallParameters
+
+ crates/main/src/call_parameters.rs | 40 +++++++++++++++-----------------------
+ 1 file changed, 16 insertions(+), 24 deletions(-)
+
+commit a555291c1ceca0b9c959240e1d311d0e3309eda3
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Dec 21 19:15:58 2020 +0300
+
+    bump crate versions
+
+ Cargo.toml                                                     | 6 +++---
+ crates/macro/Cargo.toml                                        | 4 ++--
+ crates/macro/src/lib.rs                                        | 2 +-
+ crates/main/Cargo.toml                                         | 4 ++--
+ crates/main/src/lib.rs                                         | 2 +-
+ crates/wit/Cargo.toml                                          | 2 +-
+ crates/wit/src/lib.rs                                          | 2 +-
+ crates/wit/src/token_stream_generator/foreign_mod_generator.rs | 2 +-
+ src/lib.rs                                                     | 2 +-
+ 9 files changed, 13 insertions(+), 13 deletions(-)
+
+commit aad0739cddca0356106e0039dae9b951e01ef227
+Merge: 31dc0a3 7bd2341
+Author: vms <mikhail@fluence.one>
+Date:   Mon Dec 21 19:04:09 2020 +0300
+
+    Merge pull request #14 from fluencelabs/tetraplets
+    
+    Extend CallParameters with security tetraplets
+
+commit 7bd2341ded949f161a13a05eecac5aa3b0284c71
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Dec 18 11:47:14 2020 +0300
+
+    add security tetraplets to CallParameters
+
+ crates/main/Cargo.toml             |  5 +++--
+ crates/main/src/call_parameters.rs | 24 ++++++++++++++++++++++--
+ crates/main/src/lib.rs             |  1 +
+ src/lib.rs                         |  1 +
+ 4 files changed, 27 insertions(+), 4 deletions(-)
+
+commit 31dc0a30dfd05144439c63d3fc3aae93636de06c
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Dec 17 12:47:43 2020 +0300
+
+    Change 'target' from i64 to i32 in log_utf8_string (#13)
+
+ crates/main/src/lib.rs    |  2 +-
+ crates/main/src/logger.rs | 13 +++++++++----
+ 2 files changed, 10 insertions(+), 5 deletions(-)
+
+commit 8a2570bbc630b2a519aee146ac6c5a52d5afe6cd
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Dec 10 19:19:52 2020 +0300
+
+    update doc url
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 3aab224c9778f6eb8f9750779982f33976bee630
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Dec 9 12:22:52 2020 +0300
+
+    bump versions
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit b5b9dcb47d264f48179c96896595a734bfebd29b
+Merge: ebf3e63 26c806f
+Author: vms <mikhail@fluence.one>
+Date:   Wed Dec 9 12:11:55 2020 +0300
+
+    Merge pull request #12 from fluencelabs/logger_env
+    
+    Initialize logger based on the WASM_LOG env variable
+
+commit 26c806fd6c35ed7c72fe60b46d8e54c30a2b0a24
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Dec 9 12:11:25 2020 +0300
+
+    pr fixes
+
+ crates/main/src/logger.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 014d724ea4f7029e345a23c0bd94be7e732d697e
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Dec 9 12:09:26 2020 +0300
+
+    fix comment
+
+ crates/main/src/logger.rs | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit b631dab17f475dc15cab7de1ef996b8ef27e7729
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Dec 9 11:34:39 2020 +0300
+
+    reexport WASM_LOG_ENV_NAME
+
+ Cargo.toml                |  2 +-
+ crates/main/src/lib.rs    |  2 ++
+ crates/main/src/logger.rs | 19 ++++++++++---------
+ src/lib.rs                |  2 +-
+ 4 files changed, 14 insertions(+), 11 deletions(-)
+
+commit c90b6852382d64a9223d08c1387ce601aa5fcbaa
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Dec 8 18:19:06 2020 +0300
+
+    change wasm log name
+
+ crates/main/src/logger.rs | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit be250f9c1f75309b1d96d78dbfd380a8fae7fd3f
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Dec 8 14:38:53 2020 +0300
+
+    set log level from RUST_LOG
+
+ crates/main/src/logger.rs | 22 ++++++++++++++++++----
+ 1 file changed, 18 insertions(+), 4 deletions(-)
+
+commit ebf3e63aef8d4aafda41180eeb299c4138628174
+Merge: fd96726 1ffcd49
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Dec 7 17:11:44 2020 +0300
+
+    Merge pull request #11 from fluencelabs/logger
+    
+    use log::max_level() to check log level
+
+commit 1ffcd49190f51ece3f2d88812a9865e4fee150b2
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Dec 7 16:54:33 2020 +0300
+
+    fix comments
+
+ crates/main/src/logger.rs | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+commit 81979910f9f5a0bd1f84969d06e8f9328410c451
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Dec 7 16:30:03 2020 +0300
+
+    reexport WasmLoggerBuilder
+
+ crates/main/src/lib.rs | 2 +-
+ src/lib.rs             | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit e6e7daa1d340356a96cb5ab7f698854951062158
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Dec 7 16:26:45 2020 +0300
+
+    use log::max_level() to check log level
+
+ Cargo.toml                |  4 ++--
+ crates/macro/Cargo.toml   |  4 ++--
+ crates/macro/src/lib.rs   |  2 +-
+ crates/main/Cargo.toml    |  4 ++--
+ crates/main/src/lib.rs    |  2 +-
+ crates/main/src/logger.rs | 25 +++++++++++++++++--------
+ crates/wit/Cargo.toml     |  2 +-
+ crates/wit/src/lib.rs     |  2 +-
+ 8 files changed, 27 insertions(+), 18 deletions(-)
+
+commit fd9672636e8d7a91275e5e0b8b88a34494336e5a
+Merge: a6c587d 57c6248
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Nov 8 18:17:28 2020 +0300
+
+    Merge pull request #10 from fluencelabs/improve_logger
+    
+    bump verions
+
+commit 57c624814cfece073ef1619ecca8619d8db27aad
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Nov 8 18:15:26 2020 +0300
+
+    bump verion
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit a6c587db0b6f22c3d3af81f10b187f148f8e9d30
+Merge: 8c0a029 dc28513
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 29 23:56:06 2020 +0300
+
+    Merge pull request #9 from fluencelabs/improve_logger
+    
+    Introduce builder pattern for logger initialization
+
+commit dc2851379ec475356110d41366a9fc6cbc143fd0
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 29 14:13:28 2020 +0300
+
+    replace map with target_map
+
+ crates/main/src/logger.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c9cd2ad4d37ce607eec79e498231bf8223618839
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 29 14:10:50 2020 +0300
+
+    reexport TargetMap
+
+ crates/main/src/lib.rs | 5 +++++
+ src/lib.rs             | 4 ++++
+ 2 files changed, 9 insertions(+)
+
+commit e4c1c43c42c531239da1c9aeb2af5fa1b2d5b235
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 29 14:08:16 2020 +0300
+
+    improve logger
+
+ crates/main/src/logger.rs | 122 ++++++++++++++++++----------------------------
+ 1 file changed, 48 insertions(+), 74 deletions(-)
+
+commit 8c0a02916519872c3d6073de16c950d10da0b2f4
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Oct 26 13:06:55 2020 +0300
+
+    Pass log level & target to host log_utf8_string (#8)
+
+ crates/main/src/lib.rs    |  4 +++-
+ crates/main/src/logger.rs | 53 ++++++++++++++++++++++++++++++++++-------------
+ 2 files changed, 42 insertions(+), 15 deletions(-)
+
+commit 4d6c4f6b862c22ebd8db7244daac0adf3f1bd2fd
+Merge: de9259b c1ecd7e
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Oct 6 13:07:24 2020 +0300
+
+    Merge pull request #7 from fluencelabs/logging
+    
+    Allow building for x86_64 target with logging enabled
+
+commit c1ecd7e2849a612549d2f040e0cf1d5dd85d937b
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Oct 6 12:34:11 2020 +0300
+
+    add use
+
+ crates/main/src/logger.rs | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit c53f03ad06c844388d6f4ce845a67333b8340ee1
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Oct 6 12:32:15 2020 +0300
+
+    update
+
+ crates/main/src/lib.rs    |  9 ++-------
+ crates/main/src/logger.rs | 21 ++++++++++++++-------
+ 2 files changed, 16 insertions(+), 14 deletions(-)
+
+commit ab438b33d010d816823201959071d46a214fd8fc
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Oct 6 12:09:50 2020 +0300
+
+    fix building
+
+ crates/main/src/lib.rs | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 742ff0e2df836377bbc3e96cfb85391013971c8c
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Oct 6 12:03:32 2020 +0300
+
+    better wrapping
+
+ crates/main/src/lib.rs    | 7 ++++++-
+ crates/main/src/logger.rs | 2 +-
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+
+commit 39b76413738ea568d8658a7e6095c3842751baa4
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Oct 6 11:52:17 2020 +0300
+
+    allow building sdk for x86_64
+
+ crates/main/src/logger.rs | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+commit de9259b842302fca53fe705040e18e3b1904f46c
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 1 12:27:37 2020 +0300
+
+    bump versions
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit e5d564d4a61e203798383b01505ba23e54e71912
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 29 20:53:24 2020 +0300
+
+    use get_result_ptr instead of stack result
+
+ crates/main/src/call_parameters.rs | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+commit c593202ec96cd276d7bbc27b85e660b8fae36bf8
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 29 20:35:37 2020 +0300
+
+    add #[fce] for CallParameters
+
+ crates/main/src/call_parameters.rs | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 23f74d3170c6de7331d94c298f20c0006b709dea
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 29 20:31:48 2020 +0300
+
+    transfer CallParameters as a struct
+
+ crates/main/src/call_parameters.rs | 7 ++-----
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+
+commit d63c6e87404348331629ddd4c6fa67d56ddc5924
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 28 15:35:56 2020 +0300
+
+    remove debug output
+
+ crates/wit/src/parsed_type/vector_utils.rs | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 598080005d419b854172eda0168983854ad58b84
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 22 18:07:19 2020 +0300
+
+    improve vector deallocation scheme
+
+ Cargo.toml                                       | 6 +++---
+ crates/macro/Cargo.toml                          | 4 ++--
+ crates/macro/src/lib.rs                          | 2 +-
+ crates/main/Cargo.toml                           | 4 ++--
+ crates/main/src/lib.rs                           | 2 +-
+ crates/wit/Cargo.toml                            | 2 +-
+ crates/wit/src/lib.rs                            | 2 +-
+ crates/wit/src/parsed_type/fn_epilog.rs          | 2 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs | 2 --
+ crates/wit/src/parsed_type/vector_utils.rs       | 1 +
+ src/lib.rs                                       | 2 +-
+ 11 files changed, 14 insertions(+), 15 deletions(-)
+
+commit 5c993493f95729811dbba917adde4ea6eca152bf
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 22 14:39:50 2020 +0300
+
+    bump versions
+
+ Cargo.toml                                 | 6 +++---
+ crates/macro/Cargo.toml                    | 4 ++--
+ crates/macro/src/lib.rs                    | 2 +-
+ crates/main/Cargo.toml                     | 4 ++--
+ crates/main/src/lib.rs                     | 2 +-
+ crates/wit/Cargo.toml                      | 2 +-
+ crates/wit/src/lib.rs                      | 2 +-
+ crates/wit/src/parsed_type/vector_utils.rs | 1 -
+ src/lib.rs                                 | 2 +-
+ 9 files changed, 12 insertions(+), 13 deletions(-)
+
+commit 56368c71f3179409ac089c6aeb9159c457a99a1d
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 22 14:33:15 2020 +0300
+
+    fix vec size passing
+
+ Cargo.toml                                 |  6 +++---
+ crates/macro/Cargo.toml                    |  4 ++--
+ crates/main/Cargo.toml                     |  4 ++--
+ crates/main/src/lib.rs                     |  2 +-
+ crates/wit/Cargo.toml                      |  2 +-
+ crates/wit/src/lib.rs                      |  2 +-
+ crates/wit/src/parsed_type/vector_utils.rs | 30 +++++++++++++++++++++---------
+ src/lib.rs                                 |  2 +-
+ 8 files changed, 32 insertions(+), 20 deletions(-)
+
+commit f247a84f6d4df96616ad3224b2b7b713a06777b6
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 22 13:29:23 2020 +0300
+
+    update
+
+ Cargo.toml                                         |  1 -
+ crates/wit/src/parsed_type/fn_epilog.rs            |  4 +-
+ crates/wit/src/parsed_type/foreign_mod_arg.rs      |  5 +-
+ crates/wit/src/parsed_type/vector_utils.rs         | 78 +++++++++++++---------
+ .../record_generator/record_deserializer.rs        | 10 +--
+ .../record_generator/record_serializer.rs          |  5 +-
+ src/lib.rs                                         |  1 -
+ 7 files changed, 61 insertions(+), 43 deletions(-)
+
+commit 75f4baaa905255b240d191880aeeed3e7ec1ad4f
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 21 13:42:55 2020 +0300
+
+    bump versions
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 5ac0c45507def97dfc6d3aed34a796a1e1725cdb
+Merge: 04e2538 c810e08
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 21 13:34:53 2020 +0300
+
+    Merge pull request #6 from fluencelabs/array_support
+    
+    Array support
+
+commit c810e0831f20f8aad40517204d9c79bdcee11f6f
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 21 13:30:24 2020 +0300
+
+    fixup
+
+ crates/wit/src/parsed_type.rs                      | 24 ++++++
+ crates/wit/src/parsed_type/fn_prolog.rs            |  2 +-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs   |  2 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   |  6 +-
+ crates/wit/src/parsed_type/vector_utils.rs         | 95 +++++++++++-----------
+ .../record_generator/record_deserializer.rs        |  2 +-
+ .../record_generator/record_serializer.rs          |  9 +-
+ 7 files changed, 83 insertions(+), 57 deletions(-)
+
+commit c8db3e784c586861d88f3ae96bc45a94edd21e7e
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 21 10:36:00 2020 +0300
+
+    move to edition 2018
+
+ Cargo.toml                                 |  1 +
+ crates/wit/src/parsed_type/vector_utils.rs | 26 +++++++++++++-------------
+ src/lib.rs                                 |  3 ---
+ 3 files changed, 14 insertions(+), 16 deletions(-)
+
+commit fe78083ecc37a9d8b4ea5a73f1610854b7e90e5d
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 21 01:52:09 2020 +0300
+
+    initial
+
+ Cargo.toml                                         |   1 +
+ crates/wit/src/parsed_type.rs                      | 103 ++++------
+ crates/wit/src/parsed_type/fn_arg.rs               |   2 +-
+ crates/wit/src/parsed_type/fn_epilog.rs            |  25 ++-
+ crates/wit/src/parsed_type/fn_prolog.rs            |  17 +-
+ crates/wit/src/parsed_type/foreign_mod_arg.rs      |  10 +-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs   |  25 ++-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   |  21 +-
+ crates/wit/src/parsed_type/vector_utils.rs         | 212 +++++++++++++++++++++
+ .../record_generator/record_deserializer.rs        |  13 +-
+ .../record_generator/record_serializer.rs          |  22 ++-
+ crates/wit/src/utils.rs                            |   2 +-
+ src/lib.rs                                         |   1 +
+ 13 files changed, 362 insertions(+), 92 deletions(-)
+
+commit 04e2538661bab57110a288a3c7d21a2905c377e4
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 16 00:30:05 2020 +0300
+
+    bump versions
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 7 ++-----
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 7 files changed, 11 insertions(+), 14 deletions(-)
+
+commit 0f8638c594290eac6fd3a292fd8e9e2188dc55e7
+Merge: dcb6cfd 9201a82
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 16 00:25:02 2020 +0300
+
+    Merge pull request #5 from fluencelabs/record_support
+    
+    Record refactoring
+
+commit 9201a824f2ecc4f2668449ea956d9b10a39091e5
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 14 12:37:19 2020 +0300
+
+    fixing up complex types
+
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+commit 83183ec20afb4d92105ff9c3b44c2de83872b0b3
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 10 20:55:17 2020 +0300
+
+    fmt
+
+ crates/wit/src/parsed_type/fn_arg.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2c461b43503c93d82985d24d2f20a55fe0eef3dd
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 10 20:39:11 2020 +0300
+
+    replace WasmTYpe with RustType
+
+ crates/wit/src/lib.rs                            |  2 +-
+ crates/wit/src/parsed_type/fn_arg.rs             | 31 ++++++++++++------------
+ crates/wit/src/parsed_type/fn_epilog.rs          | 20 +++++++--------
+ crates/wit/src/parsed_type/fn_prolog.rs          |  4 +--
+ crates/wit/src/parsed_type/foreign_mod_arg.rs    |  1 +
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs |  6 ++---
+ crates/wit/src/wasm_type.rs                      | 24 +++++++++++++-----
+ 7 files changed, 50 insertions(+), 38 deletions(-)
+
+commit 5db70ea665843f8de8cf0e3aa37e149a5abc67fe
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 10 19:16:29 2020 +0300
+
+    fix arg
+
+ crates/wit/src/parsed_type/foreign_mod_arg.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 1808f9f7bbba0f2aae1abd20c16de1d3b429653f
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 10 19:09:58 2020 +0300
+
+    fix boolean
+
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit d98014bf8e9ef92b28b885c5e08846e62e96233d
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 10 13:17:37 2020 +0300
+
+    fmt
+
+ crates/wit/src/parsed_type/fn_prolog.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d63039a3875d504095eec9fd204a5a1cb8016468
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 10 13:15:50 2020 +0300
+
+    fix boolean passing
+
+ crates/wit/src/parsed_type/fn_prolog.rs | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 886156d253b9976f05b8fa2e600c3bc099fb41b3
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 10 11:07:10 2020 +0300
+
+    return error instead of unimplemented
+
+ crates/wit/src/parse_macro_input/item_fn.rs | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+commit 8474e89e466b5bf9580cb9b2f9342f0ef6980874
+Merge: a4bdf78 dcb6cfd
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 10 11:00:09 2020 +0300
+
+    update
+
+commit dcb6cfddf95978e777a8a53710bda88aec7d4baf
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 8 23:44:39 2020 +0300
+
+    make args mut
+
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 00a2a1928912a842fc2877c9016f697085d5baef
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 8 23:09:03 2020 +0300
+
+    add ManuallyDrop for all foreign parameters in extern blocks
+
+ crates/wit/src/parse_macro_input/item_record.rs     |  6 ++++--
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs    | 21 ++++++++++++++++++---
+ .../token_stream_generator/foreign_mod_generator.rs |  8 ++++++++
+ 3 files changed, 30 insertions(+), 5 deletions(-)
+
+commit ff447a32586b3f088a57fe51b1e5baf3e17b5c12
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 8 12:30:21 2020 +0300
+
+    allow doc attrs on record fields
+
+ crates/wit/src/parse_macro_input/item_record.rs | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+
+commit 4b80f3645460d76e6c6eafeb50272e17fef11e8b
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 7 22:47:56 2020 +0300
+
+    fix issue with Vec<u8> ident
+
+ crates/wit/src/parsed_type.rs                    | 36 +++++++++++++-----------
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs |  2 +-
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs |  3 +-
+ 3 files changed, 22 insertions(+), 19 deletions(-)
+
+commit 413df1277619ecc9e3520e368198f026aa5bab99
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 3 02:46:38 2020 +0300
+
+    bump versions
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit a4bdf780377573f407a6836d205cf17bd516104e
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 3 02:15:18 2020 +0300
+
+    bump versions
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 4 ++--
+ crates/main/src/lib.rs  | 2 +-
+ crates/wit/Cargo.toml   | 2 +-
+ crates/wit/src/lib.rs   | 2 +-
+ src/lib.rs              | 2 +-
+ 8 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 5dc60f01e42abdd58ec63c5b8532953baa29b303
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Aug 26 22:01:44 2020 +0300
+
+    update
+
+ crates/wit/src/parse_macro_input/item_fn.rs | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+commit f22fcbf95fe6dbddd678db036d8b6c4099728883
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Aug 26 19:28:02 2020 +0300
+
+    parsing mut types
+
+ crates/wit/src/parse_macro_input/item_record.rs |  9 ++++++++-
+ crates/wit/src/parsed_type.rs                   | 16 ++++------------
+ 2 files changed, 12 insertions(+), 13 deletions(-)
+
+commit 0d28f77bdc56787148dcdbbe3a3670267b1c2418
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Aug 26 18:44:27 2020 +0300
+
+    strip prefix name
+
+ crates/wit/src/parsed_type.rs | 17 +++++++++++++++--
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+
+commit c953d385e83573f925fe5cccb0918d678589c1da
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Aug 26 18:23:17 2020 +0300
+
+    change type parsing scheme
+
+ crates/wit/src/parse_macro_input/item_fn.rs | 14 +++++++-------
+ crates/wit/src/parsed_type.rs               |  6 +++---
+ 2 files changed, 10 insertions(+), 10 deletions(-)
+
+commit c385a1f0ffc96d656e1e55282db01100ef202a59
+Merge: b2a46e0 d0db9a3
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Aug 26 15:51:02 2020 +0300
+
+    Merge branch 'master' into record_support
+
+commit d0db9a365f68046e3fe8d2ae19badb988c68ea3f
+Merge: 55f965f 1eaf814
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Aug 25 18:47:48 2020 +0300
+
+    Merge pull request #3 from fluencelabs/call_parameters
+    
+    Introduce call parameters
+
+commit 1eaf81441d69ec4211accffef4b5aea6d8206692
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Aug 25 18:36:03 2020 +0300
+
+    remove some overhead
+
+ crates/macro/Cargo.toml                                 |  6 +-----
+ crates/main/Cargo.toml                                  |  2 +-
+ crates/main/src/call_parameters.rs                      | 17 ++++++++++++++---
+ crates/wit/Cargo.toml                                   |  4 ----
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs        |  7 +------
+ .../wit/src/token_stream_generator/record_generator.rs  |  2 +-
+ 6 files changed, 18 insertions(+), 20 deletions(-)
+
+commit b90feb4221043a8461651a6194e683276cbb39e1
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 20:50:03 2020 +0300
+
+    change wasm to wasm32
+
+ crates/main/src/call_parameters.rs | 2 +-
+ crates/main/src/lib.rs             | 2 +-
+ src/lib.rs                         | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 6a21c007a2ae2e60ccba37488fea4671540b46b6
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 20:40:52 2020 +0300
+
+    add new line
+
+ crates/main/Cargo.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d1f092e6eb793bde7c726b60cba1c2d8217f1db0
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 19:10:27 2020 +0300
+
+    introduce used_in_fce feature
+
+ crates/macro/Cargo.toml                                  |  2 +-
+ crates/main/Cargo.toml                                   |  3 ++-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs         | 16 +++++-----------
+ .../wit/src/token_stream_generator/record_generator.rs   |  4 +++-
+ 4 files changed, 11 insertions(+), 14 deletions(-)
+
+commit 1a6d536e72d1953adc2027a2ef8916655b8de618
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 15:46:29 2020 +0300
+
+    replace fce with cfg
+
+ src/lib.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4a77da52dbb096ccbe4aba1a413311961ab010cc
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 15:43:35 2020 +0300
+
+    update
+
+ crates/main/src/lib.rs                                    | 2 +-
+ crates/wit/src/token_stream_generator/record_generator.rs | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit a0e5438417b8a674ddd6e4b52374dda2ac305fb0
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 15:26:21 2020 +0300
+
+    update
+
+ crates/main/Cargo.toml                                         | 2 ++
+ crates/main/src/call_parameters.rs                             | 2 +-
+ crates/wit/src/token_stream_generator/foreign_mod_generator.rs | 2 +-
+ src/lib.rs                                                     | 1 +
+ 4 files changed, 5 insertions(+), 2 deletions(-)
+
+commit 300318cc72f4b3214c58772279281bd748c16264
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 15:21:17 2020 +0300
+
+    delete excess trait import
+
+ crates/wit/src/token_stream_generator/foreign_mod_generator.rs | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit 34a27890cbbe80827659427bb99732e087d5e440
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 15:10:57 2020 +0300
+
+    add application_id
+
+ crates/main/src/call_parameters.rs                                   | 5 ++++-
+ .../src/token_stream_generator/record_generator/record_serializer.rs | 1 +
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+commit 5c36e62367f2718ec866f122ec1c34d50c515107
+Merge: 73b34b7 55f965f
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 15:06:25 2020 +0300
+
+    Merge branch 'master' into call_parameters
+
+commit 55f965f9b88b1a8bbceaee3fc9fb6b1e5f3aa63f
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 01:33:12 2020 +0300
+
+    don't use repr with extern
+
+ crates/wit/src/token_stream_generator/foreign_mod_generator.rs | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit a6e8d326c23d9f4f88c9c2d44d6a7d7369b8c52c
+Merge: cdb92e4 34e5dc9
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 23 04:30:59 2020 +0300
+
+    Merge pull request #4 from fluencelabs/foreign_mod_impr
+    
+    Foreign mod improvements
+
+commit cdb92e44c9bb5b66cf1c4fbfe55d554833e97ee0
+Merge: 8418111 89da1d5
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 23 04:27:34 2020 +0300
+
+    Merge pull request #2 from fluencelabs/remove_forgot
+    
+    Remove mem::forgot
+
+commit 73b34b7e63506cef266aa95762c40b90d2cabae0
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 23 03:18:24 2020 +0300
+
+    rename feature
+
+ crates/macro/Cargo.toml                                   | 2 +-
+ crates/main/Cargo.toml                                    | 5 +----
+ crates/main/src/call_parameters.rs                        | 2 +-
+ crates/main/src/lib.rs                                    | 2 +-
+ crates/wit/Cargo.toml                                     | 2 +-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs          | 4 ++--
+ crates/wit/src/token_stream_generator/record_generator.rs | 2 +-
+ 7 files changed, 8 insertions(+), 11 deletions(-)
+
+commit 03042d4568dfbf5357767e22383c38e7cffe4312
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 23 03:14:37 2020 +0300
+
+    fix
+
+ crates/main/Cargo.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4370fc7cf57f026f1992977760b44922a0c86b73
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 23 03:01:10 2020 +0300
+
+    fix
+
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 34e5dc958a6d12adfe9c2e28936ba6766185c8de
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 23 02:48:04 2020 +0300
+
+    msic
+
+ .../wit/src/token_stream_generator/foreign_mod_generator.rs | 13 ++++++-------
+ 1 file changed, 6 insertions(+), 7 deletions(-)
+
+commit 39affc0b283f8f830815d013c8f9dd334ddda9d7
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 22 13:56:27 2020 +0300
+
+    add serde
+
+ crates/main/Cargo.toml             | 1 +
+ crates/main/src/call_parameters.rs | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit 52a59d2eb8d88b53c2ae271ae6fcd2cde896526a
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 22 13:50:18 2020 +0300
+
+    fix
+
+ crates/wit/src/token_stream_generator/record_generator.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit fbd3f53628cd25495ce37e20a506282a17326f4c
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 22 13:49:08 2020 +0300
+
+    make se/de funcs public
+
+ crates/wit/src/token_stream_generator/record_generator.rs | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit f312b09fec864898f9671f63f3810714c2ccf66c
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 22 13:40:05 2020 +0300
+
+    get rid of trait
+
+ crates/main/src/lib.rs                                     | 13 -------------
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs           | 14 +++++++++++++-
+ crates/wit/src/token_stream_generator/fn_generator.rs      |  4 ----
+ .../src/token_stream_generator/foreign_mod_generator.rs    |  4 ----
+ crates/wit/src/token_stream_generator/record_generator.rs  | 14 +-------------
+ src/lib.rs                                                 |  2 --
+ 6 files changed, 14 insertions(+), 37 deletions(-)
+
+commit b3a8f3cc31ba8a87270e85d9f5026d784f01942e
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 22 12:04:47 2020 +0300
+
+    make fce_generated_serialize work wirh self ref
+
+ crates/main/src/lib.rs                                    | 2 +-
+ crates/wit/src/token_stream_generator/record_generator.rs | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 48bc0e52e2e261d7992f3070c8fabe689f8d555e
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 22 00:07:57 2020 +0300
+
+    introduce CallParameters
+
+ crates/macro/Cargo.toml                            |  4 ++
+ crates/main/Cargo.toml                             |  4 ++
+ crates/main/src/call_parameters.rs                 | 47 ++++++++++++++++++++++
+ crates/main/src/lib.rs                             |  4 ++
+ crates/wit/Cargo.toml                              |  4 ++
+ .../src/token_stream_generator/record_generator.rs | 16 +++++++-
+ src/lib.rs                                         |  2 +
+ 7 files changed, 79 insertions(+), 2 deletions(-)
+
+commit 89da1d52854af1c1d557ccbb2ff1ad819ba37267
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Aug 20 22:07:41 2020 +0300
+
+    Delete strings and arrays by refcount instead of from a interface-type side
+
+ .../wit/src/token_stream_generator/record_generator/record_serializer.rs | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit b2a46e023823f3812e74c11407f0416d130031b1
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Aug 18 07:27:04 2020 +0300
+
+    initial
+
+ crates/wit/src/fce_ast_types.rs                        |  2 +-
+ crates/wit/src/parse_macro_input/item_fn.rs            | 18 ++++++++++++++----
+ crates/wit/src/parsed_type/fn_arg.rs                   |  4 ++--
+ crates/wit/src/parsed_type/fn_prolog.rs                |  8 ++++----
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs       |  6 +++---
+ crates/wit/src/token_stream_generator/fn_generator.rs  |  2 +-
+ .../token_stream_generator/foreign_mod_generator.rs    |  4 ++--
+ 7 files changed, 27 insertions(+), 17 deletions(-)
+
+commit 8418111074644a1bc197315060facd34778099de
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 2 14:42:29 2020 +0300
+
+    add some docs
+
+ crates/wit/Cargo.toml                                    |  2 +-
+ crates/wit/src/parsed_type.rs                            |  3 ++-
+ crates/wit/src/token_stream_generator.rs                 |  4 +---
+ crates/wit/src/token_stream_generator/fn_generator.rs    |  7 +++++--
+ .../src/token_stream_generator/foreign_mod_generator.rs  |  4 ++--
+ crates/wit/src/utils.rs                                  | 16 +++++++++++-----
+ 6 files changed, 22 insertions(+), 14 deletions(-)
+
+commit 7018a64c29278a673e543867e691f74b3d652288
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 19:35:36 2020 +0300
+
+    add license
+
+ LICENSE    | 201 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/lib.rs |   4 +-
+ 2 files changed, 203 insertions(+), 2 deletions(-)
+
+commit f800a0430bef3e51756d97bac76103785921d681
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 18:44:24 2020 +0300
+
+    fix doc
+
+ src/lib.rs | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 678cbc14d5581289d218d020ab359f1938dabbf7
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 17:50:04 2020 +0300
+
+    add docs
+
+ src/lib.rs | 44 ++++++++++++++++++++++++++++++++++++++++----
+ 1 file changed, 40 insertions(+), 4 deletions(-)
+
+commit 4683526e16d6db8c93ce95dda724652dc657d35f
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 17:05:17 2020 +0300
+
+    misc
+
+ crates/wit/src/token_stream_generator/fn_generator.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit af08870cd5e9249e3ef1374f9fbfad66a821b680
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 17:00:16 2020 +0300
+
+    allow compilation to non-wasm targets
+
+ crates/wit/src/token_stream_generator/fn_generator.rs | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+commit 3db740a7609584385925554159262c2ec60829a7
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 16:49:46 2020 +0300
+
+    allow non-public records
+
+ crates/wit/src/parse_macro_input/item_record.rs | 10 ----------
+ 1 file changed, 10 deletions(-)
+
+commit 141807945eb0f356b22d82e3aee509886d127cee
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 16:49:10 2020 +0300
+
+    introduce trait FCERecordSerializer
+
+ crates/main/src/lib.rs                             | 13 +++++++++
+ crates/wit/src/lib.rs                              |  1 +
+ crates/wit/src/parsed_type/fn_epilog.rs            |  7 ++---
+ crates/wit/src/parsed_type/fn_prolog.rs            |  7 ++---
+ crates/wit/src/parsed_type/foreign_mod_arg.rs      |  8 ++----
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs   |  7 ++---
+ crates/wit/src/token_stream_generator.rs           |  2 --
+ .../wit/src/token_stream_generator/fn_generator.rs |  4 +++
+ .../foreign_mod_generator.rs                       |  4 +++
+ .../src/token_stream_generator/record_generator.rs | 33 +++++++---------------
+ .../record_generator/record_deserializer.rs        | 19 ++++---------
+ .../record_generator/record_serializer.rs          | 26 +++++------------
+ src/lib.rs                                         |  2 ++
+ 13 files changed, 55 insertions(+), 78 deletions(-)
+
+commit 88afe8feaa6119ebeb2032281c26f6b74f2f8fd1
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 01:02:17 2020 +0300
+
+    delete excess mem::forget
+
+ crates/main/src/result.rs                                 | 10 ++++++++--
+ crates/wit/src/token_stream_generator/record_generator.rs |  2 --
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+
+commit a898493202928664e1958aa22ef2b86036f80bcb
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jul 27 23:05:36 2020 +0300
+
+    better result api logging
+
+ crates/main/src/result.rs | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 039082a9385f7609594b0c7879808473439f3d89
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jul 27 23:03:31 2020 +0300
+
+    allow struct to be defined in a separate mod
+
+ crates/wit/src/parsed_type/fn_epilog.rs                             | 4 ++--
+ crates/wit/src/parsed_type/fn_prolog.rs                             | 4 ++--
+ crates/wit/src/parsed_type/foreign_mod_arg.rs                       | 4 ++--
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs                    | 2 +-
+ crates/wit/src/token_stream_generator/record_generator.rs           | 6 ++++--
+ .../token_stream_generator/record_generator/record_deserializer.rs  | 2 +-
+ .../token_stream_generator/record_generator/record_serializer.rs    | 3 ++-
+ 7 files changed, 14 insertions(+), 11 deletions(-)
+
+commit 689c389cc7f71945a0cd34528b4d75e63f9ab01e
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jul 27 00:02:33 2020 +0300
+
+    fix bug with f32 mapping, allow dead code in the logger
+
+ crates/main/src/logger.rs                                             | 1 +
+ crates/wit/src/parsed_type.rs                                         | 2 +-
+ .../token_stream_generator/record_generator/record_deserializer.rs    | 4 ++--
+ 3 files changed, 4 insertions(+), 3 deletions(-)
+
+commit a38d88a094c27f68136bc52d61e53e6ee850184e
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jul 26 21:42:39 2020 +0300
+
+    pass records with only pointer without size
+
+ crates/wit/src/parsed_type/fn_arg.rs                  |  7 +++----
+ crates/wit/src/parsed_type/fn_prolog.rs               |  2 +-
+ crates/wit/src/parsed_type/foreign_mod_arg.rs         | 11 ++++++++++-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs      |  5 +----
+ .../src/token_stream_generator/record_generator.rs    |  7 +++++--
+ .../record_generator/record_deserializer.rs           |  4 +---
+ crates/wit/src/utils.rs                               | 19 +++++++++++++++++++
+ 7 files changed, 40 insertions(+), 15 deletions(-)
+
+commit 7e1197b49bbace2c63a7b591885fb26e34f38e16
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jul 26 14:19:16 2020 +0300
+
+    add support of complex types to a foreign items
+
+ crates/wit/src/parsed_type/foreign_mod_arg.rs               |  2 +-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs            | 13 ++++++++++++-
+ .../record_generator/record_deserializer.rs                 |  4 ++--
+ .../record_generator/record_serializer.rs                   |  4 ++--
+ 4 files changed, 17 insertions(+), 6 deletions(-)
+
+commit 057be9a9b705d028e79c9967c06549590189a891
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jul 26 14:10:13 2020 +0300
+
+    rename is_integral_type to a is_complex_type
+
+ crates/wit/src/parsed_type.rs                    | 2 +-
+ crates/wit/src/parsed_type/fn_epilog.rs          | 4 ++--
+ crates/wit/src/parsed_type/fn_prolog.rs          | 2 +-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs | 2 +-
+ 4 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 0c09b32bb77a5534a033474fe67523707ed6dd03
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jul 26 14:09:35 2020 +0300
+
+    move record logic to a separate module
+
+ .../src/token_stream_generator/record_generator.rs | 210 +++------------------
+ .../record_generator/record_deserializer.rs        | 169 +++++++++++++++++
+ .../record_generator/record_serializer.rs          |  86 +++++++++
+ 3 files changed, 284 insertions(+), 181 deletions(-)
+
+commit e589d52c7247462f194800f50595029d224a5e43
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jul 26 13:15:09 2020 +0300
+
+    support records
+
+ crates/wit/src/fce_ast_types.rs                    |   4 +-
+ crates/wit/src/lib.rs                              |   2 +-
+ crates/wit/src/parse_macro_input/item_record.rs    |   4 +-
+ crates/wit/src/parsed_type.rs                      |  13 +-
+ crates/wit/src/parsed_type/fn_epilog.rs            |  11 +-
+ crates/wit/src/parsed_type/fn_prolog.rs            |  12 +-
+ crates/wit/src/token_stream_generator.rs           |   4 +-
+ .../wit/src/token_stream_generator/fn_generator.rs |   2 +-
+ .../foreign_mod_generator.rs                       |   4 +-
+ .../src/token_stream_generator/record_generator.rs | 219 +++++++++++++++++++++
+ 10 files changed, 254 insertions(+), 21 deletions(-)
+
+commit 79a5896015659ddb1c20526c4aa142b8afae35ad
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jul 19 19:14:38 2020 +0300
+
+    add possbility to be applied to non-pub functions
+
+ Cargo.toml                                         |  2 +-
+ crates/main/Cargo.toml                             |  2 +-
+ crates/wit/src/fce_ast_types.rs                    |  7 +++--
+ crates/wit/src/parse_macro_input/item_fn.rs        | 32 +++++++++-------------
+ .../wit/src/parse_macro_input/item_foreign_mod.rs  |  2 +-
+ .../foreign_mod_generator.rs                       |  4 +--
+ 6 files changed, 23 insertions(+), 26 deletions(-)
+
+commit be47b96ce8e067296c37680c4083130c2ce9c859
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 14 19:01:17 2020 +0300
+
+    improve feature selection
+
+ crates/main/src/lib.rs | 4 ++--
+ src/lib.rs             | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 124673a4df0f8214ff6f85d2b40ca2345de8f902
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 14 18:43:08 2020 +0300
+
+    use all instead of any
+
+ crates/main/src/lib.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit fc5a0d81cb4c64b88edb1a7f1494edab0d7bcbf1
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 14 12:29:30 2020 +0300
+
+    improve foreign block generation
+
+ crates/wit/src/fce_ast_types.rs                           |  6 +++++-
+ crates/wit/src/parse_macro_input/item_foreign_mod.rs      | 15 ++++++++++-----
+ .../src/token_stream_generator/foreign_mod_generator.rs   |  4 ++++
+ crates/wit/src/token_stream_generator/record_generator.rs |  2 +-
+ 4 files changed, 20 insertions(+), 7 deletions(-)
+
+commit 40774a1107573fc85f49fef6267721fbe32f599a
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 14 00:50:13 2020 +0300
+
+    enable logger if either logger or debug feature is enabled
+
+ crates/main/src/lib.rs | 6 +++---
+ src/lib.rs             | 2 +-
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 043af06af65a29b0df548f6d65ab7f026a20aab7
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 14 00:36:23 2020 +0300
+
+    add logger feature
+
+ Cargo.toml                                                     | 3 +++
+ crates/macro/Cargo.toml                                        | 2 +-
+ crates/main/Cargo.toml                                         | 3 +++
+ crates/main/src/lib.rs                                         | 2 ++
+ crates/wit/src/token_stream_generator/fn_generator.rs          | 3 ++-
+ crates/wit/src/token_stream_generator/foreign_mod_generator.rs | 6 +++---
+ crates/wit/src/token_stream_generator/record_generator.rs      | 1 -
+ src/lib.rs                                                     | 1 +
+ 8 files changed, 15 insertions(+), 6 deletions(-)
+
+commit 5c5287f572bf80228478aaa1aef6c36dae8d4ca7
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Jul 11 22:13:24 2020 +0300
+
+    delete excess use
+
+ crates/wit/src/parsed_type.rs | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit 9775ca6144b67b96aa70ad8020336cd264063316
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Jul 11 22:02:11 2020 +0300
+
+    fix usage of the debug feature
+
+ crates/main/src/lib.rs               |  2 +-
+ crates/wit/src/parsed_type.rs        | 18 ------------------
+ crates/wit/src/parsed_type/fn_arg.rs | 16 +++++++++++++++-
+ 3 files changed, 16 insertions(+), 20 deletions(-)
+
+commit 5dc680c0460018b89a8bc76909b386d40b89aa22
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jul 10 10:52:24 2020 +0300
+
+    introduce internal mod to improve sdk API
+
+ crates/wit/src/parsed_type/fn_epilog.rs          |  4 ++--
+ crates/wit/src/parsed_type/foreign_mod_arg.rs    |  2 +-
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs | 14 +++++++-------
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs |  2 +-
+ src/lib.rs                                       | 16 +++++++++++-----
+ 5 files changed, 22 insertions(+), 16 deletions(-)
+
+commit d33872aa5e7d01e84e0d788b40b4e34274b197c5
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jul 10 00:21:53 2020 +0300
+
+    reexport to_raw_args
+
+ crates/wit/src/lib.rs                           |  1 +
+ crates/wit/src/parse_macro_input/item_record.rs |  1 +
+ crates/wit/src/parsed_type.rs                   | 20 +++++++++++++++
+ crates/wit/src/parsed_type/fn_arg.rs            | 33 +++++++++++++------------
+ crates/wit/src/wasm_type.rs                     |  2 +-
+ 5 files changed, 40 insertions(+), 17 deletions(-)
+
+commit cc2b8249fc43d9667a4ec82a2e767f27df100c55
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 9 17:18:46 2020 +0300
+
+    fix error with returl value for complex types
+
+ crates/wit/src/parsed_type/fn_epilog.rs | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+commit d5d1207a3db623876bdd6697ca9b1171b46f0813
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 9 14:52:02 2020 +0300
+
+    fix clippy warnings
+
+ crates/wit/src/parse_macro_input/item_fn.rs          | 2 +-
+ crates/wit/src/parse_macro_input/item_foreign_mod.rs | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit bee1983d97da6acc53fecf8b6695810410502b8d
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 9 06:22:21 2020 +0300
+
+    getting rid of excess dep
+
+ crates/wit/Cargo.toml | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit d3f5a15730f97f642f07d64f50efab061218cc9f
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 9 00:58:21 2020 +0300
+
+    introduce macro prepare_global_data
+
+ crates/wit/Cargo.toml                              |  2 ++
+ crates/wit/src/fce_ast_types.rs                    | 14 ++++++++++-
+ crates/wit/src/parse_macro_input/item_record.rs    | 22 ++++++++++++-----
+ .../wit/src/token_stream_generator/fn_generator.rs | 23 ++++++++----------
+ .../foreign_mod_generator.rs                       | 20 +++++++---------
+ .../src/token_stream_generator/record_generator.rs | 28 ++++++++++++++++++----
+ crates/wit/src/utils.rs                            | 18 ++++++++++++++
+ 7 files changed, 92 insertions(+), 35 deletions(-)
+
+commit 589daaea45fa1caafa9f1b973a1b4d24b7642d72
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jul 8 21:03:44 2020 +0300
+
+    code cleaning
+
+ Cargo.toml                                         |   3 +-
+ crates/macro/Cargo.toml                            |   2 +-
+ crates/macro/src/lib.rs                            |   2 +-
+ crates/wit-support/Cargo.toml                      |  22 --
+ .../src/parsed_type/fn_glue_code_generator.rs      | 299 ---------------------
+ .../parsed_type/foreign_mod_glue_code_generator.rs | 122 ---------
+ .../src/token_stream_generator/fn_generator.rs     | 111 --------
+ crates/wit-support/src/wasm_type.rs                |  27 --
+ crates/wit/Cargo.toml                              |  23 +-
+ crates/{wit-support => wit}/src/fce_ast_types.rs   |   2 +-
+ crates/{wit-support => wit}/src/fce_macro_impl.rs  |  10 +-
+ crates/wit/src/lib.rs                              | 154 ++++-------
+ .../{wit-support => wit}/src/parse_macro_input.rs  |   0
+ .../src/parse_macro_input/item_fn.rs               |   0
+ .../src/parse_macro_input/item_foreign_mod.rs      |   0
+ .../src/parse_macro_input/item_record.rs           |   0
+ crates/{wit-support => wit}/src/parsed_type.rs     |  42 ++-
+ crates/wit/src/parsed_type/fn_arg.rs               |  28 ++
+ crates/wit/src/parsed_type/fn_epilog.rs            | 111 ++++++++
+ crates/wit/src/parsed_type/fn_prolog.rs            | 116 ++++++++
+ crates/wit/src/parsed_type/foreign_mod_arg.rs      |  37 +++
+ crates/wit/src/parsed_type/foreign_mod_epilog.rs   |  67 +++++
+ crates/wit/src/parsed_type/foreign_mod_prolog.rs   | 104 +++++++
+ .../src/token_stream_generator.rs                  |  20 +-
+ .../wit/src/token_stream_generator/fn_generator.rs |  92 +++++++
+ .../foreign_mod_generator.rs                       | 111 +++-----
+ .../src/token_stream_generator/record_generator.rs |   5 +-
+ .../{wit-support/src/lib.rs => wit/src/utils.rs}   |  30 +--
+ crates/wit/src/wasm_ast_extractor.rs               |  28 --
+ crates/wit/src/wasm_type.rs                        |  21 ++
+ crates/wit/src/wit_generator.rs                    |  36 ---
+ crates/wit/src/wit_generator/fn_wit_generator.rs   | 136 ----------
+ .../src/wit_generator/foreign_mod_wit_generator.rs | 146 ----------
+ .../wit/src/wit_generator/record_wit_generator.rs  |  10 -
+ crates/wit/src/wit_generator/utils.rs              |  22 --
+ 35 files changed, 739 insertions(+), 1200 deletions(-)
+
+commit 5f26af7990397589ecb6a7e1c287576c9d3af514
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jul 8 12:38:56 2020 +0300
+
+    add docs for public crates
+
+ Cargo.toml                                         |  3 +-
+ crates/greeting/Cargo.toml                         |  8 -----
+ crates/greeting/src/main.rs                        | 18 ----------
+ crates/macro/src/lib.rs                            | 40 ++++++++++++++++++++++
+ crates/main/Cargo.toml                             |  4 +--
+ .../mod.rs => export_allocator.rs}                 |  8 ++---
+ crates/main/src/lib.rs                             | 12 +++++--
+ crates/main/src/{logger/mod.rs => logger.rs}       | 13 ++-----
+ crates/main/src/{result/mod.rs => result.rs}       | 18 +++++-----
+ crates/wit/Cargo.toml                              |  2 +-
+ src/lib.rs                                         |  5 +--
+ 11 files changed, 69 insertions(+), 62 deletions(-)
+
+commit be0451accb93a6b6c1dea1c2b43012182afd1ddb
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 7 23:10:45 2020 +0300
+
+    refactor wit generation
+
+ crates/wit-support/src/fce_ast_types.rs            |   1 +
+ crates/wit-support/src/token_stream_generator.rs   |   2 +-
+ .../src/token_stream_generator/fn_generator.rs     |   9 +-
+ .../foreign_mod_generator.rs                       |   6 +-
+ crates/wit/Cargo.toml                              |   3 +
+ crates/wit/src/lib.rs                              | 105 ++++++++++++++++++++-
+ crates/wit/src/wasm_ast_extractor.rs               |  27 ++++--
+ crates/wit/src/wit_generator.rs                    |   2 +-
+ .../src/wit_generator/foreign_mod_wit_generator.rs |   4 +-
+ src/lib.rs                                         |   1 -
+ 10 files changed, 140 insertions(+), 20 deletions(-)
+
+commit 8b2c6145fddb3b46f9613a712240a2e32cbe4e94
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 7 10:27:05 2020 +0300
+
+    move logic to a separate crate
+
+ Cargo.toml                                         |  11 +-
+ crates/greeting/Cargo.toml                         |   2 +-
+ crates/greeting/src/main.rs                        |   6 +-
+ crates/macro/Cargo.toml                            |  12 +-
+ crates/macro/src/lib.rs                            |  13 +-
+ crates/main/Cargo.toml                             |   3 +-
+ crates/main/src/lib.rs                             |   2 +-
+ crates/wit-support/Cargo.toml                      |  22 ++++
+ crates/{macro => wit-support}/src/fce_ast_types.rs |  32 ++---
+ .../src/fce_macro_impl.rs}                         |   6 +-
+ crates/wit-support/src/lib.rs                      |  39 ++++++
+ .../src/parse_macro_input.rs                       |   0
+ .../src/parse_macro_input/item_fn.rs               |   0
+ .../src/parse_macro_input/item_foreign_mod.rs      |   0
+ .../src/parse_macro_input/item_record.rs           |   0
+ crates/{macro => wit-support}/src/parsed_type.rs   |   2 +-
+ .../src/parsed_type/fn_glue_code_generator.rs      |   0
+ .../parsed_type/foreign_mod_glue_code_generator.rs |   0
+ .../src/token_stream_generator.rs                  |   4 +-
+ .../src/token_stream_generator/fn_generator.rs     |   2 +-
+ .../foreign_mod_generator.rs                       |   6 +-
+ .../src/token_stream_generator/record_generator.rs |   0
+ crates/{macro => wit-support}/src/wasm_type.rs     |   0
+ crates/wit/Cargo.toml                              |  10 ++
+ crates/wit/src/lib.rs                              |   6 +
+ crates/wit/src/wasm_ast_extractor.rs               |  19 +++
+ crates/wit/src/wit_generator.rs                    |  36 +++++
+ crates/wit/src/wit_generator/fn_wit_generator.rs   | 136 +++++++++++++++++++
+ .../src/wit_generator/foreign_mod_wit_generator.rs | 146 +++++++++++++++++++++
+ .../wit/src/wit_generator/record_wit_generator.rs  |  10 ++
+ crates/wit/src/wit_generator/utils.rs              |  22 ++++
+ src/lib.rs                                         |   3 +-
+ 32 files changed, 488 insertions(+), 62 deletions(-)
+
+commit 68cea490d9de6cdad9c32f8f780f9289929c08a5
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jul 5 22:46:23 2020 +0300
+
+    code cleaning
+
+ Cargo.toml                                         |   1 +
+ crates/greeting/Cargo.toml                         |   8 +
+ crates/greeting/src/main.rs                        |  18 ++
+ crates/macro/src/fce_ast_types.rs                  |  20 +-
+ crates/macro/src/macro_impl.rs                     |   6 +-
+ crates/macro/src/parse_macro_input/item_fn.rs      |  15 +-
+ .../src/parse_macro_input/item_foreign_mod.rs      |  12 +-
+ crates/macro/src/parsed_type.rs                    |  27 +-
+ .../src/parsed_type/fn_glue_code_generator.rs      | 299 +++++++++++++++++++++
+ .../parsed_type/foreign_mod_glue_code_generator.rs | 122 +++++++++
+ .../macro/src/parsed_type/glue_code_generator.rs   | 207 --------------
+ crates/macro/src/token_stream_generator.rs         |   2 +-
+ .../src/token_stream_generator/fn_generator.rs     |  67 +++--
+ .../foreign_mod_generator.rs                       | 145 ++++++++--
+ crates/macro/src/wasm_type.rs                      |  16 +-
+ crates/main/src/export_allocator/mod.rs            |   4 +-
+ src/lib.rs                                         |   2 +-
+ 17 files changed, 688 insertions(+), 283 deletions(-)
+
+commit 1b76203c913728def2624b604b8d69149adf1219
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jul 3 13:04:51 2020 +0300
+
+    improve foreign item parsing
+
+ crates/macro/src/fce_ast_types.rs                  |  11 +-
+ crates/macro/src/parse_macro_input/item_fn.rs      |   2 +-
+ .../src/parse_macro_input/item_foreign_mod.rs      |  16 +-
+ crates/macro/src/parsed_type.rs                    | 192 +------------------
+ .../macro/src/parsed_type/glue_code_generator.rs   | 207 +++++++++++++++++++++
+ .../src/token_stream_generator/fn_generator.rs     |  12 +-
+ .../foreign_mod_generator.rs                       |  54 +++++-
+ 7 files changed, 287 insertions(+), 207 deletions(-)
+
+commit 06dc49e6e31e4118d2bcfff5192e6c4a2f0e6342
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 2 23:56:59 2020 +0300
+
+    improve function parsing
+
+ crates/macro/Cargo.toml                            |  1 +
+ crates/macro/src/parsed_type.rs                    | 69 +++++++++++++++-------
+ crates/macro/src/token_stream_generator.rs         |  2 +
+ .../src/token_stream_generator/fn_generator.rs     | 45 +++++++++++---
+ crates/macro/src/wasm_type.rs                      |  8 ++-
+ 5 files changed, 95 insertions(+), 30 deletions(-)
+
+commit 2c68bb7a2c7d20dcdd3b1e669e3861f9dd2313d7
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 2 22:46:54 2020 +0300
+
+    update function generation
+
+ crates/macro/Cargo.toml                            |   2 +
+ crates/macro/src/fce_ast_types.rs                  |   7 +
+ crates/macro/src/lib.rs                            |   1 +
+ crates/macro/src/macro_impl.rs                     |  48 +------
+ crates/macro/src/parse_macro_input/item_record.rs  |  66 ++++++++-
+ crates/macro/src/parsed_type.rs                    | 160 ++++++++++++++++++---
+ crates/macro/src/token_stream_generator.rs         |   2 +
+ .../src/token_stream_generator/fn_generator.rs     |  32 ++++-
+ crates/macro/src/wasm_type.rs                      |  15 ++
+ 9 files changed, 262 insertions(+), 71 deletions(-)
+
+commit 9839e54383cf715a5a0185db90997434ff3ee7fe
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 2 11:38:20 2020 +0300
+
+    get rid of unwrap
+
+ crates/macro/src/parse_macro_input/item_foreign_mod.rs | 15 ++++++++++-----
+ 1 file changed, 10 insertions(+), 5 deletions(-)
+
+commit 79d7e181ee766704322483c737cd3bcd54bf286b
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jul 1 22:47:21 2020 +0300
+
+    update macro crate
+
+ crates/macro/Cargo.toml                            |   1 +
+ crates/macro/src/fce_ast_types.rs                  |  41 ++++
+ crates/macro/src/lib.rs                            | 189 ++-----------------
+ crates/macro/src/macro_attr_parser.rs              | 208 ---------------------
+ crates/macro/src/macro_impl.rs                     |  77 ++++++++
+ crates/macro/src/parse_macro_input.rs              |  41 ++++
+ crates/macro/src/parse_macro_input/item_fn.rs      | 109 +++++++++++
+ .../src/parse_macro_input/item_foreign_mod.rs      | 117 ++++++++++++
+ crates/macro/src/parse_macro_input/item_record.rs  |  25 +++
+ .../src/{macro_input_parser.rs => parsed_type.rs}  |  44 ++++-
+ crates/macro/src/token_stream_generator.rs         |  37 ++++
+ .../src/token_stream_generator/fn_generator.rs     |  26 +++
+ .../foreign_mod_generator.rs                       |  26 +++
+ .../src/token_stream_generator/record_generator.rs |  26 +++
+ 14 files changed, 573 insertions(+), 394 deletions(-)
+
+commit aa73411663c439d0d0633e1ac4eca14726699f04
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jul 1 00:50:56 2020 +0300
+
+    update the main part to the new sdk
+
+ Cargo.toml                              |  11 +-
+ crates/macro/src/lib.rs                 |   2 +-
+ crates/main/Cargo.toml                  |  14 +--
+ crates/main/src/eth/mod.rs              |  24 ----
+ crates/main/src/export_allocator/mod.rs |  52 +++++----
+ crates/main/src/lib.rs                  |  28 ++---
+ crates/main/src/logger/mod.rs           |  16 ++-
+ crates/main/src/memory/errors.rs        |  77 -------------
+ crates/main/src/memory/mod.rs           | 187 --------------------------------
+ crates/main/src/result/mod.rs           |  54 +++++++++
+ crates/main/src/side_module/mod.rs      |  33 ------
+ rustfmt.toml                            |   6 +-
+ src/lib.rs                              |  23 +---
+ 13 files changed, 120 insertions(+), 407 deletions(-)
+
+commit d596f5034df1263d905d7f2793468a65407c81e7
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 30 23:42:26 2020 +0300
+
+    move to new crates versions
+
+ crates/macro/Cargo.toml                |  6 ++--
+ crates/macro/src/lib.rs                | 63 +++++++++-------------------------
+ crates/macro/src/macro_input_parser.rs |  9 ++---
+ 3 files changed, 23 insertions(+), 55 deletions(-)
+
+commit 7100cb94759f783f198dd9d732aa6eb9e7f2d3cb
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 29 00:54:11 2020 +0300
+
+    bump to 0.1.11
+
+ .circleci/config.yml    | 6 +++---
+ Cargo.toml              | 9 ++++++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 2 +-
+ crates/main/src/lib.rs  | 2 +-
+ src/lib.rs              | 2 +-
+ 7 files changed, 15 insertions(+), 12 deletions(-)
+
+commit b89a9878d296b2b6c45cc8bd3fcd10337e474a7a
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 29 00:15:05 2020 +0300
+
+    get rid of excess exports for module
+    since https://github.com/rust-lang/rust/issues/63562 fixed
+
+ crates/macro/src/macro_attr_parser.rs | 11 +----------
+ crates/main/src/logger/mod.rs         |  6 +++---
+ 2 files changed, 4 insertions(+), 13 deletions(-)
+
+commit 3ae49e9a379a0f845f79eef80ef081b04346e76b
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 28 23:34:37 2020 +0300
+
+    bump to 0.1.10 version
+
+ Cargo.toml              | 6 +++---
+ crates/macro/Cargo.toml | 4 ++--
+ crates/macro/src/lib.rs | 2 +-
+ crates/main/Cargo.toml  | 2 +-
+ crates/main/src/lib.rs  | 2 +-
+ src/lib.rs              | 2 +-
+ 6 files changed, 9 insertions(+), 9 deletions(-)
+
+commit ac00542974fffa56a3f62adad94585916b79c26d
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 28 23:31:31 2020 +0300
+
+    move to new alloc features, apply rust 2018 idioms
+
+ .gitignore                            | 2 ++
+ crates/macro/src/lib.rs               | 2 +-
+ crates/macro/src/macro_attr_parser.rs | 8 ++++----
+ crates/main/Cargo.toml                | 8 ++++----
+ crates/main/src/lib.rs                | 3 +--
+ crates/main/src/memory/errors.rs      | 2 +-
+ crates/main/src/memory/mod.rs         | 6 +++---
+ src/lib.rs                            | 1 +
+ 8 files changed, 17 insertions(+), 15 deletions(-)
+
+commit 8ca4b17ff9fad7925bd2c56082b3e70a1316a3c3
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Oct 7 21:26:07 2019 +0300
+
+    adjust caching
+
+ .circleci/config.yml | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit e819139537d07054e47bd7b03b55f5a9957eb281
+Merge: 36b9558 5c13830
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Oct 7 21:22:42 2019 +0300
+
+    Merge pull request #1 from fluencelabs/circleci
+
+commit 5c13830be3c1c966cba1a278e52e1bb8599426f7
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Oct 7 21:13:41 2019 +0300
+
+    add CircleCI config
+
+ .circleci/config.yml | 36 ++++++++++++++++++++++++++++++++++++
+ 1 file changed, 36 insertions(+)
+
+commit 36b95584667e3e03f11641bba83a753f02ee18a7
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Oct 7 14:01:20 2019 +0300
+
+    add sdk 0.1.9 version
+
+ .gitignore                              |   9 ++
+ Cargo.toml                              |  36 +++++
+ README.md                               |   3 +
+ crates/macro/Cargo.toml                 |  24 ++++
+ crates/macro/src/lib.rs                 | 242 ++++++++++++++++++++++++++++++++
+ crates/macro/src/macro_attr_parser.rs   | 217 ++++++++++++++++++++++++++++
+ crates/macro/src/macro_input_parser.rs  | 186 ++++++++++++++++++++++++
+ crates/main/Cargo.toml                  |  40 ++++++
+ crates/main/src/eth/mod.rs              |  24 ++++
+ crates/main/src/export_allocator/mod.rs |  45 ++++++
+ crates/main/src/lib.rs                  |  47 +++++++
+ crates/main/src/logger/mod.rs           | 170 ++++++++++++++++++++++
+ crates/main/src/memory/errors.rs        |  77 ++++++++++
+ crates/main/src/memory/mod.rs           | 187 ++++++++++++++++++++++++
+ crates/main/src/side_module/mod.rs      |  33 +++++
+ rustfmt.toml                            |   2 +
+ src/lib.rs                              |  56 ++++++++
+ 17 files changed, 1398 insertions(+)

@@ -1,0 +1,1100 @@
+commit 2f6d124de15c450d002331af6c2faaee8a0fec97
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Mon Sep 27 16:36:04 2021 +0300
+
+    add missing line
+
+ aqua/trust-graph-api.aqua | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a2172746744c6c119c6b75b745b7eb967dbbc17a
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Mon Sep 27 16:35:34 2021 +0300
+
+    add aqua api for revocations
+
+ aqua/trust-graph-api.aqua | 16 ++++++++++++++++
+ example/aqua/export.aqua  |  4 ++--
+ 2 files changed, 18 insertions(+), 2 deletions(-)
+
+commit 201f65571cf728f9b86c5a60362a74589e710e22
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Mon Sep 27 16:04:59 2021 +0300
+
+    service: expose revoke api
+
+ aqua/trust-graph.aqua       | 24 +++++++++++++
+ service/src/dto.rs          | 86 +++++++++++++++++++++++++++++++++++++++------
+ service/src/results.rs      | 71 ++++++++++++++++++++++++++++++++++++-
+ service/src/service_api.rs  | 38 +++++++++++++++++---
+ service/src/service_impl.rs | 41 ++++++++++++++++++++-
+ service/src/tests.rs        |  7 ++--
+ src/revoke.rs               | 22 ++++++------
+ 7 files changed, 256 insertions(+), 33 deletions(-)
+
+commit 0978b2520d11950223f2e0bd476b1d9479397ca8
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Sep 24 16:32:19 2021 +0300
+
+    add_trust: check trust issued_at timestamp
+
+ service/src/service_api.rs  | 1 -
+ service/src/service_impl.rs | 7 +++++++
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit fc635c0ef54e0a2492e7ae0084d9685f2ade348b
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Sep 23 19:00:24 2021 +0300
+
+    return only valid trusts, couple renamings
+
+ aqua/trust-graph-api.aqua   |  24 +++++++---
+ aqua/trust-graph.aqua       |   8 ++--
+ example/aqua/export.aqua    |   4 +-
+ example/index.ts            |   5 +-
+ service/src/results.rs      |   8 ++--
+ service/src/service_api.rs  |  24 +++++-----
+ service/src/service_impl.rs |  14 +++---
+ src/trust_graph.rs          | 112 ++++++++++++++++++++++++++++++++++----------
+ 8 files changed, 137 insertions(+), 62 deletions(-)
+
+commit e50b2474179bbcd2b761e70dcc2955c393af9bc7
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Wed Sep 22 02:59:50 2021 +0300
+
+    :
+
+ aqua/trust-graph-api.aqua  | 17 +++++++++++++++++
+ example/aqua/export.aqua   |  4 ++--
+ example/index.ts           | 29 +++++++++++++++++++++--------
+ service/src/service_api.rs |  5 +++--
+ 4 files changed, 43 insertions(+), 12 deletions(-)
+
+commit c999fbc0ef1c29a81eafcce0477f5abe0f608d90
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Mon Sep 20 19:38:19 2021 +0300
+
+    add example README
+
+ example/README.md | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 3e064e557034334339f8b333d266b52c468e4427
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Mon Sep 20 19:35:10 2021 +0300
+
+    add missing files
+
+ aqua/trust-graph-api.aqua |   18 +
+ example/package-lock.json | 4040 +++++++++++++++++++++++++++++++++++++++++++++
+ example/package.json      |   26 +
+ 3 files changed, 4084 insertions(+)
+
+commit 83055549df821e3151858ca14ab3e3b097cae07c
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Mon Sep 20 19:34:46 2021 +0300
+
+    add demo example with sign, issue and verify trust
+
+ example/aqua/export.aqua         |  4 ++--
+ example/index.ts                 | 49 ++++++++++++++++++++++++++++++++++++++++
+ local-network/docker-compose.yml |  4 ++--
+ 3 files changed, 53 insertions(+), 4 deletions(-)
+
+commit 07ce474ab54f4824f9c191bc6b36ba9f937be703
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Sep 17 14:37:02 2021 +0300
+
+    ci: fix typos
+
+ .github/workflows/release.yml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 5ed8ca0a34b6187e056c30a7f3f87362601b277b
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Sep 17 14:20:17 2021 +0300
+
+    setup gh, local-network and add blank example
+
+ .github/download_marine.sh              |  14 +++
+ .github/workflows/changelog_config.json |   5 +
+ .github/workflows/release.yml           | 165 ++++++++++++++++++++++++++++++++
+ .github/workflows/tag.yml               |  17 ++++
+ example/aqua/export.aqua                |   3 +
+ example/index.ts                        |  15 +++
+ example/tsconfig.json                   |  69 +++++++++++++
+ local-network/docker-compose.yml        |  76 +++++++++++++++
+ 8 files changed, 364 insertions(+)
+
+commit e5c0cc3a8f96144f300234bdb9611c94d0c27639
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Sep 17 13:28:15 2021 +0300
+
+    remove outdated files
+
+ js/.eslintrc.js                |   23 -
+ js/.gitignore                  |   17 -
+ js/.npmignore                  |   12 -
+ js/.prettierrc.js              |    8 -
+ js/jest.config.js              |    4 -
+ js/package-lock.json           | 7295 ----------------------------------------
+ js/package.json                |   35 -
+ js/src/__test__/client.spec.ts |   63 -
+ js/src/certificate.ts          |  107 -
+ js/src/index.ts                |   20 -
+ js/src/misc.ts                 |   36 -
+ js/src/trust.ts                |   90 -
+ js/src/trust_graph.ts          |   75 -
+ js/tsconfig.json               |   35 -
+ 14 files changed, 7820 deletions(-)
+
+commit 6e114ca7af44cfe40b106a43a3f4140f1770d659
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Sep 16 16:24:46 2021 +0300
+
+    minor fixes
+
+ builtin-package/blueprint.json |  2 +-
+ keypair/src/lib.rs             | 24 ++++++++---------
+ service/.repl_history          |  3 ---
+ service/Cargo.toml             |  2 +-
+ service/src/service_api.rs     |  5 ++--
+ service/trust-graph.aqua       | 58 ------------------------------------------
+ 6 files changed, 16 insertions(+), 78 deletions(-)
+
+commit 83dea9f8d6b5c58802b3c22bda03a4801cfe16da
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Sep 16 16:16:20 2021 +0300
+
+    setup ci, update repo structure
+
+ .gitignore                              | 17 ++++++++--
+ aqua/package-lock.json                  | 48 ++++++++++++++++++++++++++
+ aqua/package.json                       | 36 ++++++++++++++++++++
+ aqua/trust-graph.aqua                   | 60 +++++++++++++++++++++++++++++++++
+ builtin-package/blueprint.json          |  7 ++++
+ builtin-package/package.sh              | 22 ++++++++++++
+ builtin-package/sqlite3_config.json     |  4 +++
+ builtin-package/trust-graph_config.json | 10 ++++++
+ service/build.sh                        |  2 +-
+ 9 files changed, 202 insertions(+), 4 deletions(-)
+
+commit 1bd2cbc9c5cb15836bd8ba4364da8bfeb55a676f
+Merge: aa762d4 e15cfa9
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Sep 16 15:58:47 2021 +0300
+
+    Merge remote-tracking branch 'origin/master' into service
+
+commit aa762d413686200165e816fdca33e4524ce3b25c
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Wed Sep 15 15:22:32 2021 +0300
+
+    add timestamp_sec to get_weight and get_all_certs api
+
+ Cargo.lock                  | 62 ++++++++++++++++++++++-----------------------
+ service/src/service_api.rs  |  8 +++---
+ service/src/service_impl.rs | 15 +++++------
+ service/src/storage_impl.rs |  1 +
+ service/trust-graph.aqua    |  8 +++---
+ 5 files changed, 47 insertions(+), 47 deletions(-)
+
+commit f00a861918144e0e6bc4abb462487a00e39baea6
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Tue Sep 14 23:52:59 2021 +0300
+
+    fix revoke and revoke tests
+
+ src/trust_graph.rs | 49 +++++++++++++++++++++++++++++++++++++++++--------
+ 1 file changed, 41 insertions(+), 8 deletions(-)
+
+commit ba71cd3f1a24f53b13257400c451af7e0308e430
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Tue Sep 14 19:34:32 2021 +0300
+
+    fix tests, except revoked
+
+ service/src/service_impl.rs |  2 +-
+ src/trust_graph.rs          | 56 ++++++++++++++-------------------------------
+ 2 files changed, 18 insertions(+), 40 deletions(-)
+
+commit 0541946a1f7799ac34253198f0dd8beda17ad256
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Tue Sep 14 17:55:26 2021 +0300
+
+    change api to weight, use weight_factor internally
+
+ service/src/results.rs      |  13 +--
+ service/src/service_api.rs  |  70 ++++----------
+ service/src/service_impl.rs |  38 ++++----
+ service/src/storage_impl.rs |  19 ++--
+ service/src/tests.rs        |  91 ++++++------------
+ service/trust-graph.aqua    |  63 +++----------
+ src/lib.rs                  |   6 +-
+ src/trust_graph.rs          | 223 ++++++++++++++++++++++++++++++--------------
+ src/trust_graph_storage.rs  |  31 +++---
+ 9 files changed, 267 insertions(+), 287 deletions(-)
+
+commit 02406c64260f1d05c4ecf50712351cd0ea1df899
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Tue Sep 14 14:21:26 2021 +0300
+
+    wip
+
+ service/src/results.rs      | 20 ++++++-----
+ service/src/service_api.rs  | 83 ++++++++++++++++++++++++++++++---------------
+ service/src/service_impl.rs | 83 +++++++++++++++++++++++++--------------------
+ service/trust-graph.aqua    | 53 ++++++++++++++++++++++++-----
+ src/trust_graph.rs          | 66 ++++++++++++++++++++++++++++-------
+ src/trust_graph_storage.rs  |  3 +-
+ 6 files changed, 212 insertions(+), 96 deletions(-)
+
+commit db4165e6638782de106dbed4ec41c013d5a5e9b9
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Mon Sep 6 18:13:08 2021 +0300
+
+    add tests
+
+ Cargo.lock                     | 230 +++++++++++++++++++++--------------------
+ keypair/src/public_key.rs      |  51 ++++++---
+ keypair/src/signature.rs       |  12 ++-
+ service/Cargo.toml             |   2 +-
+ service/Config.toml            |   2 +-
+ service/artifacts/sqlite3.wasm | Bin 907683 -> 907701 bytes
+ service/build.sh               |   3 +-
+ service/src/dto.rs             |   2 +-
+ service/src/main.rs            |   2 +-
+ service/src/results.rs         |  49 ++++++++-
+ service/src/service_api.rs     |  65 ++++++++++--
+ service/src/service_impl.rs    |  99 +++++++++++++++---
+ service/src/storage_impl.rs    |  13 ++-
+ service/src/tests.rs           | 135 +++++++++++++++++++-----
+ service/trust-graph.aqua       |  20 +++-
+ src/certificate.rs             |  43 +++++++-
+ src/lib.rs                     |   2 +-
+ 17 files changed, 534 insertions(+), 196 deletions(-)
+
+commit 05db49c7571c6d8ac05868ce10dd7a49cd1cf10f
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Aug 26 17:27:05 2021 +0300
+
+    WIP: peer_id gen, secret key, tg service with peer_id api
+    
+    TODO:
+    - issue certificates (two step with signing outside) in wasm service
+    - more tests
+
+ .circleci/config.yml        | 39 ++++++++++++++++++++++++
+ Cargo.lock                  |  4 +--
+ Cargo.toml                  |  8 ++---
+ keypair/Cargo.toml          |  4 +--
+ keypair/src/ed25519.rs      |  2 +-
+ keypair/src/error.rs        |  2 ++
+ keypair/src/key_pair.rs     | 15 +++++++++
+ keypair/src/lib.rs          | 23 ++++++++++++++
+ keypair/src/peer_id.rs      |  0
+ keypair/src/public_key.rs   | 18 +++++++++++
+ keypair/src/signature.rs    | 33 ++++++++++++++++++--
+ service/Cargo.toml          |  2 +-
+ service/build.sh            |  2 +-
+ service/src/dto.rs          | 23 +++++++++++---
+ service/src/results.rs      | 74 +++++++++++++++++++++++++++++++++++++--------
+ service/src/service_api.rs  | 18 ++++++++---
+ service/src/service_impl.rs | 15 ++++++++-
+ service/trust-graph.aqua    | 19 ++++++++----
+ src/trust.rs                |  5 +--
+ 19 files changed, 258 insertions(+), 48 deletions(-)
+
+commit e15cfa9ceb7da4893d281bdbc620c578f319ed9f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Aug 13 02:11:57 2021 -0500
+
+    README: remove dead link (#9)
+
+ README.md | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit c67579c0bd74a85275bb2911fdb1b1170807a0e0
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Aug 12 16:16:58 2021 +0300
+
+    move trust-graph service api from pks to peer ids
+
+ Cargo.lock                  | 18 ++++++++++++++++++
+ keypair/Cargo.toml          |  1 +
+ keypair/src/public_key.rs   |  4 ++++
+ service/Cargo.toml          |  2 ++
+ service/src/service_api.rs  |  8 ++++----
+ service/src/service_impl.rs | 26 ++++++++++++++++++++------
+ 6 files changed, 49 insertions(+), 10 deletions(-)
+
+commit 968b9a95e4864dc2b53a376c38dcdd31e8546043
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Aug 12 15:49:03 2021 +0300
+
+    rename fluence-identity to fluence-keypair
+
+ .gitignore                                  |   1 +
+ Cargo.lock                                  | 112 ++++++++--------------------
+ Cargo.toml                                  |   4 +-
+ {identity => keypair}/Cargo.lock            |   0
+ {identity => keypair}/Cargo.toml            |   2 +-
+ {identity => keypair}/src/ed25519.rs        |   0
+ {identity => keypair}/src/error.rs          |   0
+ {identity => keypair}/src/key_pair.rs       |   0
+ {identity => keypair}/src/lib.rs            |   0
+ {identity => keypair}/src/peer_id.rs        |   0
+ {identity => keypair}/src/public_key.rs     |   0
+ {identity => keypair}/src/rsa.rs            |   0
+ {identity => keypair}/src/secp256k1.rs      |   0
+ {identity => keypair}/src/signature.rs      |   0
+ {identity => keypair}/src/test/rsa-2048.pk8 | Bin
+ {identity => keypair}/src/test/rsa-3072.pk8 | Bin
+ {identity => keypair}/src/test/rsa-4096.pk8 | Bin
+ service/Cargo.toml                          |   2 +-
+ service/artifacts/trust-graph.wasm          | Bin 1778862 -> 0 bytes
+ service/src/dto.rs                          |   4 +-
+ service/src/service_impl.rs                 |   4 +-
+ service/src/storage_impl.rs                 |   2 +-
+ service/src/tests.rs                        |  50 ++++++-------
+ src/certificate.rs                          |   6 +-
+ src/public_key_hashable.rs                  |   5 +-
+ src/revoke.rs                               |   8 +-
+ src/trust.rs                                |  12 +--
+ src/trust_graph.rs                          |   4 +-
+ src/trust_graph_storage.rs                  |   2 +-
+ src/trust_node.rs                           |   4 +-
+ 30 files changed, 85 insertions(+), 137 deletions(-)
+
+commit d99683233df7c88fb560f98cd20b4be9b606356e
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Mon Aug 9 16:53:18 2021 +0300
+
+    wip: build service
+
+ Cargo.lock                         | 1237 ++++++++++++++++++++++++++++++++++--
+ identity/src/peer_id.rs            |    0
+ service/.repl_history              |    3 +
+ service/Cargo.toml                 |    3 +
+ service/artifacts/sqlite3.wasm     |  Bin 0 -> 907683 bytes
+ service/artifacts/trust-graph.wasm |  Bin 0 -> 1778862 bytes
+ service/build.sh                   |    6 +
+ service/run-repl.sh                |    2 +-
+ service/rust-toolchain             |    1 +
+ service/src/main.rs                |    9 +-
+ service/src/service_api.rs         |   29 -
+ service/src/storage_impl.rs        |    6 +-
+ service/src/tests.rs               |   47 ++
+ service/trust-graph.aqua           |   33 +
+ 14 files changed, 1289 insertions(+), 87 deletions(-)
+
+commit 190fcc16e771967d0fa9a09ae239cd2e9f877537
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Sun Aug 1 16:31:13 2021 +0300
+
+    wip
+
+ Cargo.lock                            | 525 +++++++++++++++++++++++-----------
+ Cargo.toml                            |   7 +-
+ identity/Cargo.toml                   |   4 +-
+ {wasm => service}/Cargo.lock          |   0
+ {wasm => service}/Cargo.toml          |   9 +-
+ {wasm => service}/Config.toml         |   0
+ service/build.sh                      |  14 +
+ service/run-repl.sh                   |   5 +
+ {wasm => service}/src/dto.rs          |  23 +-
+ {wasm => service}/src/main.rs         |   4 +-
+ {wasm => service}/src/results.rs      |  10 +-
+ {wasm => service}/src/service_api.rs  |  18 +-
+ {wasm => service}/src/service_impl.rs |   4 +-
+ {wasm => service}/src/storage_impl.rs |  10 +-
+ wasm/run-repl.sh                      |   8 -
+ 15 files changed, 423 insertions(+), 218 deletions(-)
+
+commit cbcca205666dea1ee0194502183d9002ff93a669
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Apr 15 21:23:03 2021 +0300
+
+    fluence-identity 0.3.0, trust-graph 0.2.7 (#7)
+
+ Cargo.lock          | 63 ++++++++++++++++++++++++++++-------------------------
+ Cargo.toml          |  6 ++---
+ identity/Cargo.toml |  4 ++--
+ 3 files changed, 38 insertions(+), 35 deletions(-)
+
+commit 1d451379b5a98b386dd1e720bd149fa075a90cbc
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Thu Apr 15 14:00:27 2021 +0300
+
+    Identity rework (#6)
+
+ Cargo.lock                     | 187 +++++++++++++++---------
+ Cargo.toml                     |  11 +-
+ identity/Cargo.toml            |  14 +-
+ identity/src/ed25519.rs        | 239 +++++++++++++++++++++++++++++++
+ identity/src/error.rs          |  69 +++++++++
+ identity/src/key_pair.rs       | 316 ++++++++++++++++++++++++-----------------
+ identity/src/lib.rs            |  12 +-
+ identity/src/public_key.rs     | 142 ++++++++++++------
+ identity/src/rsa.rs            | 278 ++++++++++++++++++++++++++++++++++++
+ identity/src/secp256k1.rs      | 230 ++++++++++++++++++++++++++++++
+ identity/src/secret_key.rs     |  35 -----
+ identity/src/signature.rs      | 100 +++++++++----
+ identity/src/test/rsa-2048.pk8 | Bin 0 -> 1218 bytes
+ identity/src/test/rsa-3072.pk8 | Bin 0 -> 1792 bytes
+ identity/src/test/rsa-4096.pk8 | Bin 0 -> 2376 bytes
+ src/certificate.rs             | 166 +++++++++++-----------
+ src/public_key_hashable.rs     |  14 +-
+ src/revoke.rs                  |  44 +++---
+ src/trust.rs                   | 140 +++++++++---------
+ src/trust_graph.rs             |  94 ++++++------
+ src/trust_graph_storage.rs     |   2 +-
+ src/trust_node.rs              |  26 ++--
+ 22 files changed, 1575 insertions(+), 544 deletions(-)
+
+commit 443e9af78444b743ff1e75d2fd7573976ed6ccb9
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Mar 11 14:48:58 2021 +0300
+
+    Fix LibP2P (#5)
+
+ .gitignore                 |   2 +
+ Cargo.lock                 | 354 ++++++++++++++++++++++-----------------------
+ Cargo.toml                 |   7 +-
+ identity/Cargo.lock        | 320 ++++++++++++++++++++--------------------
+ identity/Cargo.toml        |   5 +-
+ identity/src/key_pair.rs   |  13 ++
+ identity/src/public_key.rs |  12 ++
+ src/lib.rs                 |   2 +-
+ src/public_key_hashable.rs |   6 +-
+ src/trust_graph.rs         |  50 +++----
+ wasm/Cargo.lock            |  61 ++++----
+ wasm/Cargo.toml            |   4 +-
+ wasm/src/storage_impl.rs   |   2 +-
+ 13 files changed, 432 insertions(+), 406 deletions(-)
+
+commit 011c72e3abedde8ed0e71cabaa5f0195c56cb0a8
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Mar 11 14:38:56 2021 +0300
+
+    readme, usage example (#3)
+
+ README.md | 69 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 69 insertions(+)
+
+commit 87332f0f4ca5e2ca1627ed772ea51e58db3cb774
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Feb 17 18:10:57 2021 +0300
+
+    add trust-graph-js project (#4)
+
+ js/.eslintrc.js                |   23 +
+ js/.gitignore                  |   17 +
+ js/.npmignore                  |   12 +
+ js/.prettierrc.js              |    8 +
+ js/jest.config.js              |    4 +
+ js/package-lock.json           | 7295 ++++++++++++++++++++++++++++++++++++++++
+ js/package.json                |   35 +
+ js/src/__test__/client.spec.ts |   63 +
+ js/src/certificate.ts          |  107 +
+ js/src/index.ts                |   20 +
+ js/src/misc.ts                 |   36 +
+ js/src/trust.ts                |   90 +
+ js/src/trust_graph.ts          |   75 +
+ js/tsconfig.json               |   35 +
+ 14 files changed, 7820 insertions(+)
+
+commit 2dc5df28ccc86eb846577f8333c4accc6d3534b4
+Merge: 88b6f5f 8a15bf7
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Feb 15 13:04:00 2021 +0300
+
+    Merge pull request #2 from fluencelabs/error-handling
+    
+    Error handling
+
+commit 8a15bf7e2a622a0acec7fa04916f08321a0da487
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Feb 15 13:01:22 2021 +0300
+
+    source
+
+ identity/src/public_key.rs |  4 ++--
+ identity/src/signature.rs  |  8 ++++++--
+ src/certificate.rs         |  8 ++++----
+ src/revoke.rs              |  2 +-
+ src/trust.rs               | 22 +++++++++++++++-------
+ src/trust_graph.rs         | 26 +++++++++++---------------
+ wasm/src/dto.rs            | 18 +++++++++++++++---
+ wasm/src/service_impl.rs   | 32 ++++++++++++++++++++++++--------
+ wasm/src/storage_impl.rs   | 46 ++++++++++++++++++++--------------------------
+ 9 files changed, 98 insertions(+), 68 deletions(-)
+
+commit 5ff8d2f8d0f6a0241083616b29687a42e3d0964f
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Feb 15 12:44:41 2021 +0300
+
+    transparent, PublicKeyHashable -> PK
+
+ identity/src/signature.rs |  2 +-
+ src/trust.rs              |  4 ++--
+ src/trust_graph.rs        | 16 ++++++----------
+ wasm/src/service_impl.rs  |  8 ++++----
+ wasm/src/storage_impl.rs  | 29 ++++++++++++-----------------
+ 5 files changed, 25 insertions(+), 34 deletions(-)
+
+commit 953e0b6f0a8dfa113e9155f5b6dfe4a289957023
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Fri Feb 12 14:54:38 2021 +0300
+
+    fix compilation
+
+ wasm/src/service_api.rs  | 2 +-
+ wasm/src/service_impl.rs | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 3bcc928a724d8610f86b8528232193d35fa9e676
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Fri Feb 12 14:54:08 2021 +0300
+
+    add_root function
+
+ wasm/src/results.rs      | 21 +++++++++++++++++++++
+ wasm/src/service_api.rs  | 21 ++++++++++++++++++---
+ wasm/src/service_impl.rs |  9 ++++++++-
+ 3 files changed, 47 insertions(+), 4 deletions(-)
+
+commit a9d1e72653efc5d7465995f46f96747c066f6922
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Fri Feb 12 14:42:51 2021 +0300
+
+    refactoring
+
+ wasm/src/main.rs         |   1 +
+ wasm/src/results.rs      |   2 +-
+ wasm/src/service_api.rs  | 125 ++++++++++++-----------------------------------
+ wasm/src/service_impl.rs |  63 ++++++++++++++++++++++++
+ 4 files changed, 97 insertions(+), 94 deletions(-)
+
+commit 816b3754a4fa5ae367c7a633f674fb1c71ce126b
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Fri Feb 12 14:34:23 2021 +0300
+
+    add cert as string and as json
+
+ wasm/src/service_api.rs | 35 ++++++++++++++++++++++++++++-------
+ 1 file changed, 28 insertions(+), 7 deletions(-)
+
+commit 66ace9d3df6866d2161485f6f914e851c90d490f
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Fri Feb 12 14:27:22 2021 +0300
+
+    dto conversion, more errors
+
+ identity/src/signature.rs |  9 ++++++++-
+ src/trust.rs              | 17 ++++++++---------
+ wasm/src/dto.rs           | 48 +++++++++++++++++++++++++++++++++++++++++++++++
+ wasm/src/service_api.rs   |  9 +++++----
+ 4 files changed, 69 insertions(+), 14 deletions(-)
+
+commit fb13bc1cdf41afd43356538c7bd9c0744e12ceff
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Feb 11 18:14:14 2021 +0300
+
+    structurize errors
+
+ src/trust.rs            | 40 +++++++++++++++++++---------------------
+ wasm/src/service_api.rs | 17 ++++++++---------
+ 2 files changed, 27 insertions(+), 30 deletions(-)
+
+commit 1e9b8ba33b86567db4d27da287cad5bcdfb214f6
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Feb 11 17:57:09 2021 +0300
+
+    structurize errors
+
+ Cargo.lock                 |  1 +
+ identity/Cargo.lock        |  1 +
+ identity/Cargo.toml        |  1 +
+ identity/src/key_pair.rs   |  3 +--
+ identity/src/public_key.rs | 18 ++++++++++++++++--
+ identity/src/signature.rs  |  5 +++--
+ src/lib.rs                 |  4 ++--
+ src/public_key_hashable.rs | 21 +++------------------
+ src/trust.rs               | 33 ++++++++++++++++++++-------------
+ wasm/Cargo.lock            |  1 +
+ wasm/src/results.rs        | 19 ++++++++++---------
+ wasm/src/service_api.rs    | 38 ++++++++++++++++++++++++--------------
+ 12 files changed, 83 insertions(+), 62 deletions(-)
+
+commit feac5dadf60a146f57b19f03696abc4ec1b59ff8
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Feb 11 15:16:40 2021 +0300
+
+    clippy
+
+ identity/src/key_pair.rs   |  4 ++--
+ src/certificate.rs         | 10 +++-------
+ src/revoke.rs              |  2 +-
+ src/trust.rs               | 12 +++++-------
+ src/trust_graph.rs         |  8 ++++----
+ src/trust_graph_storage.rs | 14 +++++++-------
+ 6 files changed, 22 insertions(+), 28 deletions(-)
+
+commit b10726032e2e8a3401c8aba16d839947032ad648
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Feb 11 15:10:18 2021 +0300
+
+    rename dir, restruct all errors
+
+ src/certificate.rs                          | 52 ++++++++---------
+ src/public_key_hashable.rs                  | 18 ++++--
+ src/trust.rs                                |  4 +-
+ src/trust_graph.rs                          | 78 +++++++++-----------------
+ src/trust_graph_storage.rs                  | 50 +++++++----------
+ {bin => wasm}/Cargo.lock                    |  0
+ {bin => wasm}/Cargo.toml                    |  0
+ {bin => wasm}/Config.toml                   |  0
+ {bin => wasm}/run-repl.sh                   |  0
+ bin/src/proxy_structs.rs => wasm/src/dto.rs | 11 ++--
+ {bin => wasm}/src/main.rs                   |  2 +-
+ {bin => wasm}/src/results.rs                |  2 +-
+ {bin => wasm}/src/service_api.rs            | 21 ++++---
+ {bin => wasm}/src/storage_impl.rs           | 87 ++++++++++++++---------------
+ 14 files changed, 145 insertions(+), 180 deletions(-)
+
+commit 61fd3cb312bc13daee714f7f6434abfec7f5bb41
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Feb 10 15:30:10 2021 +0300
+
+    clippy
+
+ src/lib.rs | 18 +++++++++---------
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+
+commit 5889ad77a33fb9f5b289118be0f4d60f7fcbe9e4
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Feb 10 15:26:26 2021 +0300
+
+    fmt
+
+ bin/src/main.rs          |  4 ++--
+ bin/src/proxy_structs.rs | 14 +++++---------
+ bin/src/results.rs       |  8 ++++----
+ bin/src/service_api.rs   |  9 +++++----
+ 4 files changed, 16 insertions(+), 19 deletions(-)
+
+commit 3a9530b92d647fd8f8196105301a610cd43ce753
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Feb 10 15:23:51 2021 +0300
+
+    proxy structs, get_all_certs and insert functions
+
+ bin/src/main.rs          |  2 ++
+ bin/src/proxy_structs.rs | 46 +++++++++++++++++++++++++++++
+ bin/src/results.rs       | 71 +++++++++++++++++++++++++++++++++++++++++++++
+ bin/src/service_api.rs   | 75 ++++++++++++++++++++++++++++++------------------
+ 4 files changed, 166 insertions(+), 28 deletions(-)
+
+commit e89452c0b0ac82ec4556e8b12eb3b5f41bc6540d
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Tue Feb 9 15:50:21 2021 +0300
+
+    first fce method with result, it works i guess
+
+ bin/Cargo.lock          | 37 ---------------------------
+ bin/Cargo.toml          |  1 -
+ bin/src/service_api.rs  | 34 ++++++++++++++++++-------
+ bin/src/storage_impl.rs | 68 +++++++++++++++++++++++++++++--------------------
+ src/certificate.rs      | 18 ++++++++-----
+ src/revoke.rs           |  4 ++-
+ src/trust_graph.rs      | 30 ++++++++++++++++------
+ 7 files changed, 102 insertions(+), 90 deletions(-)
+
+commit 7ae745c3c3af732efbf9abf61311a469013909d8
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Tue Feb 9 14:31:41 2021 +0300
+
+    wasm with error handling compiles
+
+ bin/Cargo.lock             |   1 +
+ bin/Cargo.toml             |   1 +
+ bin/src/service_api.rs     |  13 ----
+ bin/src/storage_impl.rs    | 147 +++++++++++++++++++++++++++++----------------
+ src/certificate.rs         |   2 +-
+ src/lib.rs                 |   2 +-
+ src/trust_graph_storage.rs |   2 +-
+ 7 files changed, 99 insertions(+), 69 deletions(-)
+
+commit e2183b4180b42db0bf6023cfbb6f19f128a347a4
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Tue Feb 9 13:26:44 2021 +0300
+
+    huge mess with errors, but it works!
+
+ src/certificate.rs         |  64 +++++++++++++++++--------
+ src/revoke.rs              |   6 +--
+ src/trust.rs               |  33 ++++++++-----
+ src/trust_graph.rs         | 116 +++++++++++++++++++++++++++++++++------------
+ src/trust_graph_storage.rs |  39 +++++++++------
+ 5 files changed, 177 insertions(+), 81 deletions(-)
+
+commit f359dc50902622603aa0eddbd4c907b4322f9ad0
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Feb 8 17:35:56 2021 +0300
+
+    still wip..
+
+ src/certificate.rs |   3 +-
+ src/revoke.rs      |  11 ++++-
+ src/trust_graph.rs | 127 ++++++++++++++++++++++++++++++-----------------------
+ 3 files changed, 82 insertions(+), 59 deletions(-)
+
+commit 0e7f22b6e0b12981302743f2f6244a6f4932c2a4
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Jan 28 11:57:43 2021 +0300
+
+    broken wip wip wip
+
+ Cargo.lock                 |  1 +
+ Cargo.toml                 |  1 +
+ bin/Cargo.lock             | 38 +++++++++++++++++++++++++++++
+ bin/Cargo.toml             |  1 +
+ bin/run-repl.sh            |  7 ++++--
+ bin/src/service_api.rs     |  4 ++++
+ src/certificate.rs         | 17 ++++++++++---
+ src/lib.rs                 | 18 +++++++-------
+ src/trust.rs               | 52 +++++++++++++++++++++++++++-------------
+ src/trust_graph.rs         | 60 +++++++++++++++++++++++++++++-----------------
+ src/trust_graph_storage.rs | 58 ++++++++++++++++++++++++++++++--------------
+ 11 files changed, 187 insertions(+), 70 deletions(-)
+
+commit 88b6f5f3fef5ddc1dc3530645be218b3f4ca6ec2
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Jan 27 14:24:34 2021 +0300
+
+    more logs
+
+ bin/src/storage_impl.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 29f15f2b4e404816ea805b610c7ad3432127fdad
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Jan 27 12:57:19 2021 +0300
+
+    sh script, several deps about serialization
+
+ bin/Cargo.lock          | 22 ++++++++++++++++++++++
+ bin/Cargo.toml          |  2 ++
+ bin/run-repl.sh         |  5 +++++
+ bin/src/service_api.rs  | 30 ++++++++++++++++++++++++++++++
+ bin/src/storage_impl.rs | 16 ++++++++++++----
+ 5 files changed, 71 insertions(+), 4 deletions(-)
+
+commit c9196bc11d523d45cada263da5fab7eeb1c88eff
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jan 25 15:33:40 2021 +0300
+
+    fixes
+
+ bin/src/storage_impl.rs | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 802e294ba194ef2cc24454998bd199fb29c5b6cc
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jan 25 15:32:43 2021 +0300
+
+    fixes
+
+ bin/Cargo.lock          | 42 +++++++++++++++++++++++++++++++-----------
+ bin/Cargo.toml          |  2 +-
+ bin/src/main.rs         |  8 ++++++++
+ bin/src/service_api.rs  |  3 +--
+ bin/src/storage_impl.rs | 41 +++++++++++++++++++++++++++--------------
+ 5 files changed, 68 insertions(+), 28 deletions(-)
+
+commit b821984e78c655a99cc0eab76508570e9179cc1f
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Jan 21 20:35:00 2021 +0300
+
+    implement get_weight
+
+ bin/src/service_api.rs     |  2 +-
+ bin/src/storage_impl.rs    | 21 +++++++++++++++++++--
+ src/trust_graph.rs         |  4 ++--
+ src/trust_graph_storage.rs |  6 +++---
+ 4 files changed, 25 insertions(+), 8 deletions(-)
+
+commit 467391a8f1721af4b796aeb212ea768cad9a3223
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Jan 21 20:26:17 2021 +0300
+
+    serialize\deserialize all primitives and store it to db
+
+ Cargo.lock                 |  1 +
+ bin/Cargo.lock             | 13 +++++++++
+ bin/Cargo.toml             |  2 ++
+ bin/Config.toml            | 15 ++++++++++
+ bin/src/service_api.rs     |  2 ++
+ bin/src/storage_impl.rs    | 73 +++++++++++++++++++++++++++++++++++++++-------
+ identity/Cargo.lock        | 70 ++++++++++++++++++++++++++++++++++++++++++++
+ identity/Cargo.toml        |  1 +
+ src/public_key_hashable.rs | 15 ++++++++++
+ 9 files changed, 181 insertions(+), 11 deletions(-)
+
+commit afab376cccb109c85fbabd839ad607905c24662d
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Jan 20 17:21:02 2021 +0300
+
+    API changes, test function, sqlite requests
+
+ bin/src/service_api.rs     | 25 +++++++++++++++++++++--
+ bin/src/storage_impl.rs    | 50 ++++++++++++++++++++++++++++++++--------------
+ src/trust_graph.rs         |  2 +-
+ src/trust_graph_storage.rs |  6 +++---
+ src/trust_node.rs          |  2 +-
+ 5 files changed, 63 insertions(+), 22 deletions(-)
+
+commit 3249aa376cc079f3f7caedd7f27933e1e6416f75
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Jan 20 16:14:20 2021 +0300
+
+    fmt
+
+ identity/src/public_key.rs | 2 +-
+ identity/src/secret_key.rs | 2 +-
+ identity/src/signature.rs  | 2 +-
+ src/lib.rs                 | 4 ++--
+ src/public_key_hashable.rs | 7 ++++---
+ src/revoke.rs              | 2 +-
+ src/trust.rs               | 2 +-
+ src/trust_node.rs          | 4 ++--
+ 8 files changed, 13 insertions(+), 12 deletions(-)
+
+commit 0e2590d8944ba60bc39a3243cd1f61180e8b3ae3
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Jan 20 16:14:01 2021 +0300
+
+    push it till it compiles, WIP
+    serde to structs, wip implementing sqlite requests
+
+ Cargo.lock                 | 81 +++++++++++++++++++++++++++++++++++++++++++++
+ Cargo.toml                 |  4 ++-
+ bin/Cargo.lock             | 82 ++++++++++++++++++++++++++++++++++++++++++++++
+ bin/Cargo.toml             |  3 +-
+ bin/src/main.rs            |  2 +-
+ bin/src/service_api.rs     |  2 +-
+ bin/src/storage_impl.rs    | 40 +++++++++++++++-------
+ identity/Cargo.lock        | 11 +++++++
+ identity/Cargo.toml        |  2 +-
+ identity/src/public_key.rs |  3 +-
+ identity/src/secret_key.rs |  2 ++
+ identity/src/signature.rs  |  3 +-
+ src/public_key_hashable.rs |  9 +++++
+ src/revoke.rs              |  3 +-
+ src/trust.rs               |  3 +-
+ src/trust_node.rs          | 10 ++++--
+ 16 files changed, 236 insertions(+), 24 deletions(-)
+
+commit 0b1b0a82a7ecc7bf840d727dcb5a593b151f5591
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Jan 20 00:17:24 2021 +0300
+
+    init storage for wasm, add sqlite to project WIP
+
+ bin/Cargo.lock          | 21 ++++++++++++++++
+ bin/Cargo.toml          |  8 +++++-
+ bin/src/main.rs         |  3 +++
+ bin/src/service_api.rs  |  6 +++++
+ bin/src/storage_impl.rs | 66 ++++++++++++++++++++++++++++++++++++++++++++++++-
+ src/lib.rs              |  5 +++-
+ src/trust_graph.rs      |  4 +--
+ 7 files changed, 108 insertions(+), 5 deletions(-)
+
+commit d3a03248b252bba21365dd6a19b7b83249e7f6c8
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Tue Jan 19 21:55:28 2021 +0300
+
+    split PublicKey and SecretKey to different packages
+
+ identity/src/key_pair.rs   | 47 ++-------------------------------------------
+ identity/src/lib.rs        |  4 ++++
+ identity/src/public_key.rs | 48 ++++++++++++++++++++++++++++++++++++++++++++++
+ identity/src/secret_key.rs | 33 +++++++++++++++++++++++++++++++
+ src/certificate.rs         |  2 +-
+ src/public_key_hashable.rs |  2 +-
+ src/revoke.rs              |  2 +-
+ src/trust.rs               |  2 +-
+ src/trust_graph.rs         |  2 +-
+ src/trust_graph_storage.rs |  2 +-
+ src/trust_node.rs          |  2 +-
+ 11 files changed, 94 insertions(+), 52 deletions(-)
+
+commit a4de8f25a96f2bfe1f8da52ea4f9d27565838b65
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Tue Jan 19 18:28:13 2021 +0300
+
+    add abstractions over ed25519: KP, PK, SK, Sig
+
+ Cargo.lock                 |    5 +-
+ bin/Cargo.lock             |    5 +-
+ identity/Cargo.lock        | 1421 ++++++++++++++++++++++++++++++++++++++++++++
+ identity/Cargo.toml        |    5 +-
+ identity/src/key_pair.rs   |   72 ++-
+ identity/src/lib.rs        |    4 +-
+ identity/src/signature.rs  |   39 ++
+ src/certificate.rs         |   32 +-
+ src/public_key_hashable.rs |    2 +-
+ src/revoke.rs              |    4 +-
+ src/trust.rs               |   13 +-
+ src/trust_graph.rs         |    4 +-
+ src/trust_graph_storage.rs |    2 +-
+ src/trust_node.rs          |    2 +-
+ 14 files changed, 1556 insertions(+), 54 deletions(-)
+
+commit e922f7bf97afd3081e811bba3f6a2badc0c37ae3
+Merge: f2afc13 37de2ff
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Tue Jan 19 17:26:17 2021 +0300
+
+    Merge pull request #1 from fluencelabs/storage
+    
+    Dump changes
+
+commit 37de2ff3364e6dbaefe1181f4fbad8990492edbf
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Tue Jan 19 17:25:28 2021 +0300
+
+    fmt, bin sub project for wasm
+
+ bin/Cargo.lock                |  1 +
+ bin/Cargo.toml                |  1 +
+ bin/{ => src}/main.rs         |  4 +---
+ bin/{ => src}/service_api.rs  |  0
+ bin/{ => src}/storage_impl.rs |  0
+ identity/src/key_pair.rs      | 20 ++++++++++----------
+ src/certificate.rs            |  4 ++--
+ src/public_key_hashable.rs    | 21 ++++++++++++---------
+ src/revoke.rs                 |  2 +-
+ src/trust.rs                  | 11 +++++++----
+ src/trust_graph.rs            |  4 ++--
+ src/trust_node.rs             |  2 +-
+ 12 files changed, 38 insertions(+), 32 deletions(-)
+
+commit dd761dd61c454d7ceb74d3634d14a540eafb681e
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Tue Jan 19 17:20:44 2021 +0300
+
+    move identity to separate package
+
+ Cargo.lock                        | 18 ++++++++++++++++++
+ Cargo.toml                        |  1 +
+ bin/Cargo.lock                    | 18 ++++++++++++++++++
+ identity/Cargo.toml               | 20 ++++++++++++++++++++
+ {src => identity/src}/key_pair.rs |  0
+ identity/src/lib.rs               | 33 +++++++++++++++++++++++++++++++++
+ src/certificate.rs                |  4 ++--
+ src/lib.rs                        |  4 ----
+ src/revoke.rs                     |  4 ++--
+ src/trust.rs                      |  2 +-
+ src/trust_graph.rs                |  2 +-
+ src/trust_node.rs                 |  2 +-
+ 12 files changed, 97 insertions(+), 11 deletions(-)
+
+commit e8c109df992228a2116fdafd611f14a9d3f7a521
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jan 18 20:27:47 2021 +0300
+
+    tests work!
+
+ src/certificate.rs | 31 ++++++++++++++++---------------
+ src/key_pair.rs    | 13 ++++++++++++-
+ src/trust_graph.rs |  2 +-
+ 3 files changed, 29 insertions(+), 17 deletions(-)
+
+commit 256cf964366959e4c93f412673bb1f7c825c9865
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jan 18 20:14:40 2021 +0300
+
+    non-test code compiles
+
+ src/key_pair.rs            | 10 +++-------
+ src/public_key_hashable.rs |  2 +-
+ src/trust_graph.rs         |  3 ++-
+ 3 files changed, 6 insertions(+), 9 deletions(-)
+
+commit a0261bc3314c1e55e78c3512083a465c8337b083
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jan 18 20:08:05 2021 +0300
+
+    WIP
+
+ Cargo.lock                 |  1 +
+ Cargo.toml                 |  5 ++---
+ bin/Cargo.lock             |  2 ++
+ src/certificate.rs         |  2 +-
+ src/key_pair.rs            | 48 +++++++++++++++++++++++++++---------------
+ src/public_key_hashable.rs | 52 ++++++++++++++++++++++++++++++++++++++++------
+ src/revoke.rs              | 14 +++++--------
+ src/trust.rs               | 30 ++++++++++++++------------
+ src/trust_graph.rs         |  2 +-
+ src/trust_graph_storage.rs |  2 +-
+ src/trust_node.rs          |  2 +-
+ 11 files changed, 108 insertions(+), 52 deletions(-)
+
+commit 9e74777fe56560978c7366016cf3863365ac232b
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jan 18 18:26:17 2021 +0300
+
+    fmt
+
+ src/lib.rs                 |  2 +-
+ src/trust_graph.rs         | 30 ++++++++++++++++--------------
+ src/trust_graph_storage.rs | 29 +++++++++++++++++++++--------
+ 3 files changed, 38 insertions(+), 23 deletions(-)
+
+commit 2ec1114ec2891e4a97b2210a395fec01e819316e
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jan 18 04:29:16 2021 +0300
+
+    make an abstract Storage for trust_graph
+
+ src/trust_graph.rs         | 38 +++++++++++++++++++++-----------------
+ src/trust_graph_storage.rs | 18 +++++++++---------
+ 2 files changed, 30 insertions(+), 26 deletions(-)
+
+commit a294c42dec14291aca5869cd1afeeb7deae72569
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jan 18 03:57:10 2021 +0300
+
+    abstract storage
+
+ bin/Cargo.lock             | 1593 ++++++++++++++++++++++++++++++++++++++++++++
+ bin/Cargo.toml             |   15 +
+ bin/main.rs                |   10 +
+ bin/service_api.rs         |    0
+ bin/storage_impl.rs        |    3 +
+ src/lib.rs                 |    1 +
+ src/trust_graph.rs         |  105 ++-
+ src/trust_graph_storage.rs |   90 +++
+ 8 files changed, 1754 insertions(+), 63 deletions(-)
+
+commit f2afc13ea29569a8fe34e6d598f1f43f750ea961
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Fri Jan 15 19:37:06 2021 +0300
+
+    INIT
+
+ Cargo.lock                 | 1533 ++++++++++++++++++++++++++++++++++++++++++++
+ Cargo.toml                 |   21 +
+ src/certificate.rs         |  532 +++++++++++++++
+ src/certificate_serde.rs   |   71 ++
+ src/key_pair.rs            |  126 ++++
+ src/lib.rs                 |   46 ++
+ src/misc/mod.rs            |   10 +
+ src/public_key_hashable.rs |   80 +++
+ src/revoke.rs              |  121 ++++
+ src/trust.rs               |  277 ++++++++
+ src/trust_graph.rs         |  618 ++++++++++++++++++
+ src/trust_node.rs          |  202 ++++++
+ 12 files changed, 3637 insertions(+)

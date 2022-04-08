@@ -1,0 +1,591 @@
+commit 22dcaba0702c9cdd5929d1def042a5233e11c598
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 22:08:18 2021 +0100
+
+    Delete unused directory
+
+ .github/download_marine.sh         | 14 ---------
+ .github/workflows/check-deploy.yml | 63 --------------------------------------
+ 2 files changed, 77 deletions(-)
+
+commit 280462e9fd5fe5519f428ece167bce7a1f041ee9
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 21:36:58 2021 +0100
+
+    Add instructions for running the tutorial code
+
+ Readme.md | 18 ++++++++++++++++--
+ 1 file changed, 16 insertions(+), 2 deletions(-)
+
+commit d9957785b7661937fc956d3a410e9246175f11f7
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 21:06:23 2021 +0100
+
+    Add code snippet for message send
+
+ Readme.md | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 6a82d00ce1b527186fbe8e2ad78af6b21bb9fb36
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 20:50:44 2021 +0100
+
+    Update Readme.md
+
+ Readme.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 1ed8bee50794e2285688ccd7f7bd527c4747f45e
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 20:49:57 2021 +0100
+
+    Update Readme.md
+
+ Readme.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 87b6795e0668ad19923cdc24020e6bc3b4c9b265
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 20:46:43 2021 +0100
+
+    Update Readme.md
+
+ Readme.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 53c6743f883deeb6e611a11c6c39b8a5bc2892f8
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 20:44:26 2021 +0100
+
+    Update Readme.md
+
+ Readme.md | 15 ++++++++++++---
+ 1 file changed, 12 insertions(+), 3 deletions(-)
+
+commit a51783ce3eb87ed77c1975834a18bc7554192193
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 20:42:10 2021 +0100
+
+    Update Readme.md
+
+ Readme.md | 18 +++++++++++++++---
+ 1 file changed, 15 insertions(+), 3 deletions(-)
+
+commit d63a4158ec26aefcd27426254c71c8e26ee89428
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 20:37:25 2021 +0100
+
+    Add screenshots
+
+ img/1-app-start.png                    | Bin 0 -> 82795 bytes
+ img/2-peer-selected.png                | Bin 0 -> 93482 bytes
+ img/3-second-peer-selected.png         | Bin 0 -> 93217 bytes
+ img/4-pre-message-send.png             | Bin 0 -> 105010 bytes
+ img/5-character-count-displayed.png    | Bin 0 -> 112845 bytes
+ img/6-message-send-to-other-client.png | Bin 0 -> 97637 bytes
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 5ec221bef4ad4edd99e848671ddd2820cd6f6e42
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 20:33:37 2021 +0100
+
+    Update Readme.md
+
+ Readme.md | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+commit b7e1d7f000715a2860d453280d1d0dfdd843f1b4
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 20:29:26 2021 +0100
+
+    Update Readme.md
+
+ Readme.md | 30 ++++++++++++++++--------------
+ 1 file changed, 16 insertions(+), 14 deletions(-)
+
+commit 83dbe787997d94b0ee6d1815e48026302dae2062
+Author: Ben Razor <76076649+ben-razor@users.noreply.github.com>
+Date:   Fri Sep 10 20:14:18 2021 +0100
+
+    Update Readme.md
+
+ Readme.md | 181 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 176 insertions(+), 5 deletions(-)
+
+commit 5319ffc33aba5c775e2d2e5725f50e9f5d089394
+Author: Ben Razor <chrisbenwar1@googlemail.com>
+Date:   Fri Sep 10 18:59:09 2021 +0000
+
+    Update names to remove references to hello and hello world
+
+ quickstart/3-browser-to-service/src/App.tsx | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+commit 17822a1e3de27c6fa9a9a895b061a23ced9c30e5
+Author: Ben Razor <chrisbenwar1@googlemail.com>
+Date:   Fri Sep 10 18:43:47 2021 +0000
+
+    Front end updated to display sent message
+
+ .../3-browser-to-service/aqua/getting-started.aqua | 24 ++++++++---------
+ quickstart/3-browser-to-service/src/App.tsx        | 22 +++++++++++-----
+ .../src/_aqua/getting-started.ts                   | 30 ++++++++++++----------
+ 3 files changed, 44 insertions(+), 32 deletions(-)
+
+commit 2045a8c2931b106746b896d32614ddd816023181
+Author: Ben Razor <chrisbenwar1@googlemail.com>
+Date:   Fri Sep 10 17:44:38 2021 +0000
+
+    Refactoring references to hello world to char count
+
+ quickstart/2-hosted-services/Cargo.toml                    |  8 ++++----
+ quickstart/2-hosted-services/configs/Config.toml           |  2 +-
+ quickstart/2-hosted-services/configs/app_config.json       |  8 ++++----
+ quickstart/2-hosted-services/configs/app_config_res.json   |  8 ++++----
+ .../configs/{hello_world_cfg.json => char_count_cfg.json}  |  2 +-
+ quickstart/2-hosted-services/scripts/build.sh              |  2 +-
+ quickstart/2-hosted-services/src/main.rs                   | 14 +++++++-------
+ 7 files changed, 22 insertions(+), 22 deletions(-)
+
+commit 14d6bfcec042ae8e952588e4e0da6ef89e5fc0b3
+Author: Ben Razor <chrisbenwar1@googlemail.com>
+Date:   Fri Sep 10 17:26:08 2021 +0000
+
+    Add license
+
+ LICENSE | 201 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 201 insertions(+)
+
+commit 65b5acf90f7ece1c9ade4dc0d165232f719d5324
+Author: Ben Razor <chrisbenwar1@googlemail.com>
+Date:   Fri Sep 10 17:25:43 2021 +0000
+
+    Change hello world to return character count
+
+ quickstart/2-hosted-services/src/main.rs | 26 ++++++++++++++++++++------
+ 1 file changed, 20 insertions(+), 6 deletions(-)
+
+commit 0730644dc859d5395f1ab8f614bbc83903a5d6e0
+Author: Ben Razor <chrisbenwar1@googlemail.com>
+Date:   Fri Sep 10 16:39:40 2021 +0000
+
+    Initial commit
+
+ .github/download_marine.sh                         |    14 +
+ .github/workflows/check-deploy.yml                 |    63 +
+ .gitignore                                         |    14 +
+ Readme.md                                          |    11 +
+ aqua-examples/aqua-ipfs-integration/.gitignore     |    16 +
+ aqua-examples/aqua-ipfs-integration/README.md      |    30 +
+ .../aqua-ipfs-integration/aqua/aqua/process.aqua   |    78 +
+ .../aqua/aqua/process_files.aqua                   |    13 +
+ .../aqua-ipfs-integration/aqua/package-lock.json   |  3157 ++
+ .../aqua-ipfs-integration/aqua/package.json        |    37 +
+ .../aqua-ipfs-integration/aqua/src/index.ts        |     1 +
+ .../aqua-ipfs-integration/aqua/src/process.ts      |   520 +
+ .../aqua/src/process_files.ts                      |    26 +
+ .../aqua-ipfs-integration/aqua/tsconfig.json       |    62 +
+ .../local-network/docker-compose.yml               |    85 +
+ aqua-examples/aqua-ipfs-integration/nodejs/demo.ts |   110 +
+ .../aqua-ipfs-integration/nodejs/package-lock.json |  6790 +++
+ .../aqua-ipfs-integration/nodejs/package.json      |    41 +
+ .../aqua-ipfs-integration/nodejs/provider.ts       |    45 +
+ .../aqua-ipfs-integration/nodejs/tsconfig.json     |    62 +
+ .../aqua-ipfs-integration/service/.gitignore       |     4 +
+ .../aqua-ipfs-integration/service/Cargo.toml       |    22 +
+ .../aqua-ipfs-integration/service/Config.toml      |     6 +
+ .../aqua-ipfs-integration/service/scripts/build.sh |    11 +
+ .../aqua-ipfs-integration/service/src/main.rs      |    85 +
+ aqua-examples/aqua-ipfs-integration/web/.gitignore |    23 +
+ aqua-examples/aqua-ipfs-integration/web/README.md  |    26 +
+ .../web/images/ipfs_comp_web_1.png                 |   Bin 0 -> 633452 bytes
+ .../web/images/ipfs_comp_web_2.png                 |   Bin 0 -> 697173 bytes
+ .../web/images/ipfs_comp_web_3.png                 |   Bin 0 -> 730053 bytes
+ .../web/images/ipfs_comp_web_4.png                 |   Bin 0 -> 791778 bytes
+ .../aqua-ipfs-integration/web/package-lock.json    | 23836 ++++++++++
+ .../aqua-ipfs-integration/web/package.json         |    55 +
+ .../aqua-ipfs-integration/web/public/favicon.ico   |   Bin 0 -> 15406 bytes
+ .../aqua-ipfs-integration/web/public/index.html    |    39 +
+ .../aqua-ipfs-integration/web/public/logo192.png   |   Bin 0 -> 5044 bytes
+ .../aqua-ipfs-integration/web/public/logo512.png   |   Bin 0 -> 14442 bytes
+ .../aqua-ipfs-integration/web/public/manifest.json |    25 +
+ .../aqua-ipfs-integration/web/public/robots.txt    |     3 +
+ .../aqua-ipfs-integration/web/src/App.scss         |   155 +
+ .../aqua-ipfs-integration/web/src/App.tsx          |    54 +
+ .../web/src/Components/ConnectedInfo.tsx           |    18 +
+ .../web/src/Components/ConnectionForm.tsx          |    22 +
+ .../web/src/Components/IpfsDeploymentInfo.tsx      |    23 +
+ .../web/src/Components/IpfsForm.tsx                |    40 +
+ .../web/src/Components/SizeCalcForm.tsx            |    37 +
+ .../web/src/Components/SizeCalcResult.tsx          |    23 +
+ .../web/src/Components/TextInput.tsx               |    32 +
+ .../aqua-ipfs-integration/web/src/appLogic.ts      |   133 +
+ .../aqua-ipfs-integration/web/src/appState.ts      |    74 +
+ .../aqua-ipfs-integration/web/src/index.css        |    13 +
+ .../aqua-ipfs-integration/web/src/index.tsx        |    14 +
+ .../aqua-ipfs-integration/web/src/logo.svg         |    17 +
+ .../web/src/react-app-env.d.ts                     |     1 +
+ .../aqua-ipfs-integration/web/src/util.ts          |    22 +
+ .../aqua-ipfs-integration/web/tsconfig.json        |    26 +
+ aqua-examples/echo-greeter/Readme.md               |   720 +
+ aqua-examples/echo-greeter/aqua-compiled/.gitkeep  |     0
+ .../echo-greeter/aqua-scripts/echo_greeter.aqua    |   113 +
+ .../client-peer/dist/aqua-compiled/echo_greeter.js |   178 +
+ .../client-peer/dist/aqua/echo_greeter.js          |   178 +
+ .../client-peer/dist/client-peer/src/index.js      |    84 +
+ .../echo-greeter/client-peer/dist/echo_greeter.js  |   178 +
+ .../client-peer/dist/src/echo_greeter.js           |   372 +
+ .../echo-greeter/client-peer/dist/src/index.js     |   144 +
+ .../echo-greeter/client-peer/package-lock.json     |  2115 +
+ .../echo-greeter/client-peer/package.json          |    49 +
+ .../echo-greeter/client-peer/src/index.ts          |   170 +
+ .../echo-greeter/client-peer/tsconfig.json         |    62 +
+ aqua-examples/echo-greeter/configs/Config.toml     |     9 +
+ .../echo-greeter/configs/echo_service_cfg.json     |     5 +
+ .../echo-greeter/configs/greeting_cfg.json         |     5 +
+ .../echo-greeter/configs/utilities_cfg.json        |     5 +
+ aqua-examples/echo-greeter/data/service_info.txt   |   112 +
+ aqua-examples/echo-greeter/echo-service/.gitignore |     7 +
+ aqua-examples/echo-greeter/echo-service/Cargo.toml |    15 +
+ .../echo-greeter/echo-service/Config.toml          |     6 +
+ aqua-examples/echo-greeter/echo-service/build.sh   |    10 +
+ .../echo-greeter/echo-service/src/main.rs          |    21 +
+ aqua-examples/echo-greeter/greeting/.gitignore     |     7 +
+ aqua-examples/echo-greeter/greeting/Cargo.toml     |    17 +
+ aqua-examples/echo-greeter/greeting/Config.toml    |     6 +
+ aqua-examples/echo-greeter/greeting/build.sh       |    11 +
+ aqua-examples/echo-greeter/greeting/src/main.rs    |    30 +
+ aqua-examples/echo-greeter/scripts/build_all.sh    |    14 +
+ .../echo-greeter/secure-greeter/.gitignore         |     7 +
+ .../echo-greeter/secure-greeter/Cargo.toml         |    13 +
+ .../echo-greeter/secure-greeter/Config.toml        |     6 +
+ .../secure-greeter/air-scripts/air_greet.clj       |    16 +
+ aqua-examples/echo-greeter/secure-greeter/build.sh |     9 +
+ .../secure-greeter/configs/secure_greeter_cfg.json |     3 +
+ .../echo-greeter/secure-greeter/src/auth.rs        |    31 +
+ .../echo-greeter/secure-greeter/src/main.rs        |    46 +
+ aqua-examples/echo-greeter/utilities/.gitignore    |     5 +
+ aqua-examples/echo-greeter/utilities/Cargo.toml    |    22 +
+ aqua-examples/echo-greeter/utilities/Config.toml   |     6 +
+ .../aqua-compiled/utilities.increment_u32.air      |    46 +
+ .../aqua-compiled/utilities.increment_u64.air      |    46 +
+ .../utilities/aqua-compiled/utilities.splitter.air |    43 +
+ .../aqua-compiled/utilities.splitter_u32.air       |    43 +
+ .../aqua-compiled/utilities.splitter_u64.air       |    43 +
+ .../utilities/aqua-scripts/utilities.aqua          |    42 +
+ .../echo-greeter/utilities/scripts/build.sh        |     6 +
+ aqua-examples/echo-greeter/utilities/src/main.rs   |   163 +
+ aqua-examples/getting-started-browser/.gitignore   |    23 +
+ aqua-examples/getting-started-browser/README.md    |   147 +
+ .../aqua/getting-started.aqua                      |     6 +
+ .../getting-started-browser/package-lock.json      | 45517 +++++++++++++++++++
+ aqua-examples/getting-started-browser/package.json |    53 +
+ .../getting-started-browser/public/favicon.ico     |   Bin 0 -> 15406 bytes
+ .../getting-started-browser/public/index.html      |    42 +
+ .../getting-started-browser/public/logo192.png     |   Bin 0 -> 5044 bytes
+ .../getting-started-browser/public/logo512.png     |   Bin 0 -> 14442 bytes
+ .../getting-started-browser/public/manifest.json   |    25 +
+ .../getting-started-browser/public/robots.txt      |     3 +
+ aqua-examples/getting-started-browser/src/App.scss |    63 +
+ aqua-examples/getting-started-browser/src/App.tsx  |    54 +
+ .../src/_aqua/getting-started.ts                   |    81 +
+ .../getting-started-browser/src/index.css          |    13 +
+ .../getting-started-browser/src/index.tsx          |    12 +
+ aqua-examples/getting-started-browser/src/logo.svg |    17 +
+ .../getting-started-browser/src/react-app-env.d.ts |     1 +
+ .../getting-started-browser/tsconfig.json          |    26 +
+ aqua-examples/price-oracle/README.md               |   245 +
+ .../air-scripts/get_crypto_prices.get_price.air    |    61 +
+ .../get_crypto_prices.get_price_par.air            |    75 +
+ .../price-oracle/aqua-scripts/builtin.aqua         |   217 +
+ .../aqua-scripts/get_crypto_prices.aqua            |    66 +
+ .../client-peer/dist/get_crypto_prices.js          |   133 +
+ .../client-peer/dist/src/get_crypto_prices.js      |   133 +
+ .../price-oracle/client-peer/dist/src/index.js     |    90 +
+ .../price-oracle/client-peer/get_crypto_prices.ts  |   237 +
+ .../price-oracle/client-peer/package-lock.json     |  6925 +++
+ .../price-oracle/client-peer/package.json          |    49 +
+ .../client-peer/src/get_crypto_prices.ts           |   230 +
+ .../price-oracle/client-peer/src/index.ts          |    54 +
+ .../price-oracle/client-peer/tsconfig.json         |    62 +
+ aqua-examples/price-oracle/configs/Config.toml     |    19 +
+ .../price-oracle/configs/curl_adapter_cfg.json     |     8 +
+ .../price-oracle/configs/mean_service_cfg.json     |     5 +
+ .../configs/price_getter_service_cfg.json          |     5 +
+ aqua-examples/price-oracle/curl_adapter/Cargo.toml |    14 +
+ .../price-oracle/curl_adapter/src/main.rs          |    37 +
+ .../price-oracle/data/deployed_services.json       |    22 +
+ aqua-examples/price-oracle/images/browser_demo.png |   Bin 0 -> 153351 bytes
+ aqua-examples/price-oracle/images/figure_1.png     |   Bin 0 -> 95492 bytes
+ aqua-examples/price-oracle/images/figure_2.png     |   Bin 0 -> 58908 bytes
+ aqua-examples/price-oracle/mean_service/Cargo.toml |    19 +
+ .../price-oracle/mean_service/src/main.rs          |    53 +
+ .../price-oracle/price_getter_service/Cargo.toml   |    22 +
+ .../price-oracle/price_getter_service/src/main.rs  |    94 +
+ aqua-examples/price-oracle/scripts/build.sh        |    24 +
+ aqua-examples/price-oracle/web/.gitignore          |    23 +
+ aqua-examples/price-oracle/web/README.md           |    20 +
+ aqua-examples/price-oracle/web/package-lock.json   | 19085 ++++++++
+ aqua-examples/price-oracle/web/package.json        |    52 +
+ aqua-examples/price-oracle/web/public/favicon.ico  |   Bin 0 -> 15406 bytes
+ aqua-examples/price-oracle/web/public/index.html   |    39 +
+ aqua-examples/price-oracle/web/public/logo192.png  |   Bin 0 -> 5044 bytes
+ aqua-examples/price-oracle/web/public/logo512.png  |   Bin 0 -> 14442 bytes
+ .../price-oracle/web/public/manifest.json          |    25 +
+ aqua-examples/price-oracle/web/public/robots.txt   |     3 +
+ aqua-examples/price-oracle/web/src/App.scss        |   134 +
+ aqua-examples/price-oracle/web/src/App.tsx         |   116 +
+ .../web/src/_aqua/get_crypto_prices.ts             |   266 +
+ aqua-examples/price-oracle/web/src/index.css       |    13 +
+ aqua-examples/price-oracle/web/src/index.tsx       |    11 +
+ aqua-examples/price-oracle/web/src/logo.svg        |    17 +
+ .../price-oracle/web/src/react-app-env.d.ts        |     1 +
+ aqua-examples/price-oracle/web/tsconfig.json       |    26 +
+ aqua-examples/ts-oracle/Cargo.toml                 |    22 +
+ aqua-examples/ts-oracle/Config.toml                |     6 +
+ aqua-examples/ts-oracle/Readme.md                  |   191 +
+ aqua-examples/ts-oracle/aqua-scripts/builtin.aqua  |   233 +
+ .../ts-oracle/aqua-scripts/timestamp_getter.aqua   |    28 +
+ .../ts-oracle/aqua-scripts/ts_getter.aqua          |    37 +
+ aqua-examples/ts-oracle/scripts/build.sh           |     6 +
+ aqua-examples/ts-oracle/src/main.rs                |   129 +
+ aqua-examples/ts-oracle/src/stats.rs               |    27 +
+ archived/curl_template/.gitignore                  |     6 +
+ archived/curl_template/README.md                   |    40 +
+ archived/curl_template/backend/BackendConfig.json  |     7 +
+ archived/curl_template/backend/Cargo.toml          |     9 +
+ archived/curl_template/backend/src/main.rs         |    22 +
+ archived/curl_template/deploy.sh                   |    27 +
+ archived/curl_template/frontend/.gitignore         |    24 +
+ archived/curl_template/frontend/.prettierrc.js     |     8 +
+ archived/curl_template/frontend/README.md          |    15 +
+ archived/curl_template/frontend/package-lock.json  | 19626 ++++++++
+ archived/curl_template/frontend/package.json       |    52 +
+ archived/curl_template/frontend/public/favicon.ico |   Bin 0 -> 3870 bytes
+ archived/curl_template/frontend/public/index.html  |    45 +
+ archived/curl_template/frontend/public/logo192.png |   Bin 0 -> 5347 bytes
+ archived/curl_template/frontend/public/logo512.png |   Bin 0 -> 9664 bytes
+ .../curl_template/frontend/public/manifest.json    |    25 +
+ archived/curl_template/frontend/public/robots.txt  |     3 +
+ .../curl_template/frontend/src/components/App.scss |   199 +
+ .../curl_template/frontend/src/components/App.tsx  |    94 +
+ archived/curl_template/frontend/src/fluence.ts     |    34 +
+ archived/curl_template/frontend/src/index.scss     |   144 +
+ archived/curl_template/frontend/src/index.tsx      |    14 +
+ .../curl_template/frontend/src/react-app-env.d.ts  |     1 +
+ archived/curl_template/frontend/src/setupTests.ts  |     5 +
+ archived/curl_template/frontend/tsconfig.json      |    30 +
+ archived/curl_template/repl_config.toml            |     8 +
+ archived/curl_template/request.air                 |     7 +
+ archived/curl_template/script.air                  |     7 +
+ archived/ether-price-getter/.gitignore             |     7 +
+ archived/ether-price-getter/Config.toml            |    12 +
+ archived/ether-price-getter/Readme.md              |   127 +
+ .../air-scripts/get_eth_price.clj                  |    10 +
+ archived/ether-price-getter/build.sh               |    14 +
+ .../ether-price-getter/curl_adapter/.gitignore     |     6 +
+ .../ether-price-getter/curl_adapter/Cargo.toml     |    14 +
+ .../ether-price-getter/curl_adapter/src/main.rs    |    40 +
+ archived/ether-price-getter/curl_cfg.json          |     6 +
+ .../ether_price_getter/.gitignore                  |     6 +
+ .../ether_price_getter/Cargo.toml                  |    15 +
+ .../ether_price_getter/src/eth_price_getter.rs     |    30 +
+ .../ether_price_getter/src/fce_results.rs          |    82 +
+ .../ether_price_getter/src/main.rs                 |    47 +
+ .../ether-price-getter/ether_price_getter_cfg.json |     3 +
+ archived/fluence-cuckoo/Readme.md                  |   224 +
+ archived/fluence-cuckoo/cuckoo-filter/.gitignore   |     7 +
+ archived/fluence-cuckoo/cuckoo-filter/Cargo.toml   |    17 +
+ archived/fluence-cuckoo/cuckoo-filter/Config.toml  |     6 +
+ .../cuckoo-filter/air-scripts/cuckoo_create_cf.clj |    10 +
+ .../air-scripts/cuckoo_service_info.clj            |     4 +
+ archived/fluence-cuckoo/cuckoo-filter/build.sh     |     9 +
+ .../fluence-cuckoo/cuckoo-filter/cuckoo_cfg.json   |     3 +
+ archived/fluence-cuckoo/cuckoo-filter/src/main.rs  |   142 +
+ archived/fluence-cuckoo/cuckoo-filter/test.sh      |     2 +
+ archived/multi-service/Block-Getter-Config.toml    |    11 +
+ .../Block-Getter-with-Converter-Config.toml        |    14 +
+ archived/multi-service/Config.toml                 |    17 +
+ .../air-scripts/add_stored_service.clj             |    10 +
+ archived/multi-service/air-scripts/am_i_owner.clj  |    16 +
+ archived/multi-service/air-scripts/curl_req.clj    |    18 +
+ .../air-scripts/ethqlite_block_committer.clj       |    52 +
+ .../multi-service/air-scripts/ethqlite_init.clj    |    16 +
+ .../multi-service/air-scripts/ethqlite_owner.clj   |    17 +
+ .../multi-service/air-scripts/ethqlite_reset.clj   |    16 +
+ .../air-scripts/ethqlite_roundtrip.clj             |    88 +
+ archived/multi-service/air-scripts/get_address.clj |    16 +
+ .../multi-service/air-scripts/get_block_simple.clj |    16 +
+ .../multi-service/air-scripts/get_latest_block.clj |    13 +
+ .../air-scripts/get_latest_block_simple.clj        |    16 +
+ archived/multi-service/air-scripts/hex2int.clj     |    16 +
+ .../air-scripts/latest_reward_block.clj            |    41 +
+ .../air-scripts/list_stored_services.clj           |    10 +
+ .../air-scripts/multi_block_processor.clj          |    44 +
+ .../air-scripts/remove_stored_service.clj          |    10 +
+ .../multi-service/air-scripts/sqlite_tester.clj    |    88 +
+ archived/multi-service/air-scripts/test_air.clj    |    10 +
+ archived/multi-service/block_getter/.gitignore     |     6 +
+ archived/multi-service/block_getter/Cargo.toml     |    13 +
+ .../block_getter/src/eth_block_getters.rs          |    49 +
+ archived/multi-service/block_getter/src/main.rs    |    35 +
+ .../multi-service/config/block_getter_cfg.json     |    10 +
+ archived/multi-service/config/curl_cfg.json        |     9 +
+ .../config/extract_miner_address_cfg.json          |     3 +
+ .../multi-service/config/hex_converter_cfg.json    |     5 +
+ archived/multi-service/config/my_keypair.json      |     6 +
+ archived/multi-service/curl_adapter/.gitignore     |     6 +
+ archived/multi-service/curl_adapter/Cargo.toml     |    15 +
+ archived/multi-service/curl_adapter/src/main.rs    |    40 +
+ archived/multi-service/ethqlite/.gitignore         |     6 +
+ archived/multi-service/ethqlite/Cargo.toml         |    20 +
+ archived/multi-service/ethqlite/Config.toml        |    21 +
+ archived/multi-service/ethqlite/build.sh           |    11 +
+ archived/multi-service/ethqlite/ethqlite_cfg.json  |    10 +
+ archived/multi-service/ethqlite/sqlite3_cfg.json   |     4 +
+ archived/multi-service/ethqlite/src/auth.rs        |    32 +
+ archived/multi-service/ethqlite/src/crud.rs        |   215 +
+ archived/multi-service/ethqlite/src/main.rs        |   103 +
+ .../multi-service/extract_miner_address/Cargo.toml |    12 +
+ .../extract_miner_address/src/main.rs              |    19 +
+ archived/multi-service/hex_converter/.gitignore    |     1 +
+ archived/multi-service/hex_converter/Cargo.toml    |    10 +
+ archived/multi-service/hex_converter/src/main.rs   |    48 +
+ archived/multi-service/scripts/build.sh            |    23 +
+ archived/multi-service/scripts/deploy.sh           |    20 +
+ .../multi-service/simple_range_func/.gitignore     |     6 +
+ .../multi-service/simple_range_func/Cargo.toml     |     9 +
+ .../multi-service/simple_range_func/src/main.rs    |    16 +
+ archived/web3-examples/web-frontend/.gitignore     |    24 +
+ archived/web3-examples/web-frontend/.prettierrc.js |     8 +
+ archived/web3-examples/web-frontend/README.md      |    15 +
+ .../web3-examples/web-frontend/package-lock.json   | 18497 ++++++++
+ archived/web3-examples/web-frontend/package.json   |    51 +
+ .../web3-examples/web-frontend/public/favicon.ico  |   Bin 0 -> 3870 bytes
+ .../web3-examples/web-frontend/public/index.html   |    45 +
+ .../web3-examples/web-frontend/public/logo192.png  |   Bin 0 -> 5347 bytes
+ .../web3-examples/web-frontend/public/logo512.png  |   Bin 0 -> 9664 bytes
+ .../web-frontend/public/manifest.json              |    25 +
+ .../web3-examples/web-frontend/public/robots.txt   |     3 +
+ .../web-frontend/src/components/App.scss           |   199 +
+ .../web-frontend/src/components/App.tsx            |   141 +
+ archived/web3-examples/web-frontend/src/fluence.ts |   179 +
+ archived/web3-examples/web-frontend/src/index.scss |   144 +
+ archived/web3-examples/web-frontend/src/index.tsx  |    14 +
+ .../web-frontend/src/react-app-env.d.ts            |     1 +
+ .../web3-examples/web-frontend/src/setupTests.ts   |     5 +
+ archived/web3-examples/web-frontend/tsconfig.json  |    30 +
+ archived/web3-examples/web3-examples/.gitignore    |     6 +
+ archived/web3-examples/web3-examples/Config.toml   |    12 +
+ archived/web3-examples/web3-examples/Readme.md     |   417 +
+ archived/web3-examples/web3-examples/build.sh      |    17 +
+ .../web3-examples/curl_adapter/.gitignore          |     5 +
+ .../web3-examples/curl_adapter/Cargo.toml          |    14 +
+ .../web3-examples/curl_adapter/Config.json         |     7 +
+ .../web3-examples/curl_adapter/src/main.rs         |    41 +
+ .../web3-examples/web3-examples/docs/Frontend.md   |    11 +
+ .../web3-examples/web3-examples/facade/.gitignore  |     5 +
+ .../web3-examples/web3-examples/facade/Cargo.toml  |    23 +
+ .../web3-examples/facade/src/data_processing.rs    |   199 +
+ .../facade/src/data_processing_tests.rs            |    74 +
+ .../web3-examples/facade/src/eth_calls.rs          |   173 +
+ .../web3-examples/facade/src/eth_calls_tests.rs    |    75 +
+ .../web3-examples/facade/src/eth_filter_test.rs    |    75 +
+ .../web3-examples/facade/src/eth_filters.rs        |   140 +
+ .../web3-examples/facade/src/eth_hashers.rs        |    43 +
+ .../web3-examples/facade/src/eth_type_test.rs      |   124 +
+ .../web3-examples/facade/src/eth_utils.rs          |    26 +
+ .../web3-examples/facade/src/fce_results.rs        |    82 +
+ .../web3-examples/facade/src/jsonrpc_helpers.rs    |    84 +
+ .../web3-examples/web3-examples/facade/src/main.rs |    52 +
+ marine-examples/README.md                          |   564 +
+ marine-examples/call_parameters/.gitignore         |     7 +
+ marine-examples/call_parameters/Cargo.toml         |    16 +
+ marine-examples/call_parameters/Config.toml        |     6 +
+ marine-examples/call_parameters/build.sh           |     9 +
+ marine-examples/call_parameters/config.json        |     3 +
+ marine-examples/call_parameters/deploy.sh          |    19 +
+ marine-examples/call_parameters/src/main.rs        |    77 +
+ marine-examples/greeting/.gitignore                |     7 +
+ marine-examples/greeting/Cargo.toml                |    18 +
+ marine-examples/greeting/Config.toml               |     6 +
+ marine-examples/greeting/build.sh                  |    10 +
+ marine-examples/greeting/configs/greeting_cfg.json |     5 +
+ marine-examples/greeting/src/main.rs               |    44 +
+ marine-examples/records/.gitignore                 |     7 +
+ marine-examples/records/Config.toml                |    11 +
+ marine-examples/records/build.sh                   |    18 +
+ marine-examples/records/effector/Cargo.toml        |    14 +
+ marine-examples/records/effector/src/main.rs       |    43 +
+ marine-examples/records/pure/Cargo.toml            |    14 +
+ marine-examples/records/pure/src/main.rs           |    53 +
+ marine-examples/records/test-record/Cargo.toml     |    13 +
+ .../records/test-record/src/test_record.rs         |    34 +
+ marine-examples/sqlite/.gitignore                  |     7 +
+ marine-examples/sqlite/Cargo.toml                  |    17 +
+ marine-examples/sqlite/Config.toml                 |    19 +
+ marine-examples/sqlite/build.sh                    |    12 +
+ marine-examples/sqlite/src/main.rs                 |   151 +
+ marine-examples/url-downloader/Config.toml         |    21 +
+ marine-examples/url-downloader/README.md           |    15 +
+ .../url-downloader/artifacts/curl_adapter.json     |     7 +
+ .../url-downloader/artifacts/facade.json           |     1 +
+ .../url-downloader/artifacts/local_storage.json    |    12 +
+ marine-examples/url-downloader/build.sh            |    26 +
+ marine-examples/url-downloader/compose.air         |    13 +
+ .../url-downloader/curl_adapter/Cargo.toml         |    14 +
+ .../url-downloader/curl_adapter/src/main.rs        |    46 +
+ marine-examples/url-downloader/deploy.sh           |    13 +
+ marine-examples/url-downloader/deploy_separate.sh  |    16 +
+ marine-examples/url-downloader/download.air        |    10 +
+ marine-examples/url-downloader/facade/Cargo.toml   |    15 +
+ marine-examples/url-downloader/facade/src/main.rs  |    56 +
+ .../url-downloader/local_storage/Cargo.toml        |    15 +
+ .../url-downloader/local_storage/src/main.rs       |    54 +
+ marine-examples/url-downloader/repl_config.toml    |    21 +
+ quickstart/1-browser-to-browser/.gitignore         |    23 +
+ .../1-browser-to-browser/aqua/getting-started.aqua |    10 +
+ quickstart/1-browser-to-browser/package-lock.json  | 18863 ++++++++
+ quickstart/1-browser-to-browser/package.json       |    53 +
+ quickstart/1-browser-to-browser/public/favicon.ico |   Bin 0 -> 15406 bytes
+ quickstart/1-browser-to-browser/public/index.html  |    39 +
+ quickstart/1-browser-to-browser/public/logo192.png |   Bin 0 -> 5044 bytes
+ quickstart/1-browser-to-browser/public/logo512.png |   Bin 0 -> 14442 bytes
+ .../1-browser-to-browser/public/manifest.json      |    25 +
+ quickstart/1-browser-to-browser/public/robots.txt  |     3 +
+ quickstart/1-browser-to-browser/src/App.scss       |   160 +
+ quickstart/1-browser-to-browser/src/App.tsx        |   146 +
+ .../src/_aqua/getting-started.ts                   |   108 +
+ quickstart/1-browser-to-browser/src/index.css      |    13 +
+ quickstart/1-browser-to-browser/src/index.tsx      |    12 +
+ quickstart/1-browser-to-browser/src/logo.svg       |    17 +
+ .../1-browser-to-browser/src/react-app-env.d.ts    |     1 +
+ quickstart/1-browser-to-browser/tsconfig.json      |    26 +
+ quickstart/2-hosted-services/.gitignore            |     7 +
+ quickstart/2-hosted-services/Cargo.toml            |    17 +
+ quickstart/2-hosted-services/configs/Config.toml   |     6 +
+ .../2-hosted-services/configs/app_config.json      |    18 +
+ .../2-hosted-services/configs/app_config_res.json  |    26 +
+ .../2-hosted-services/configs/hello_world_cfg.json |     5 +
+ quickstart/2-hosted-services/scripts/build.sh      |    10 +
+ quickstart/2-hosted-services/src/main.rs           |    53 +
+ quickstart/3-browser-to-service/.gitignore         |    23 +
+ .../3-browser-to-service/aqua/getting-started.aqua |    29 +
+ quickstart/3-browser-to-service/package-lock.json  | 18863 ++++++++
+ quickstart/3-browser-to-service/package.json       |    53 +
+ quickstart/3-browser-to-service/public/favicon.ico |   Bin 0 -> 15406 bytes
+ quickstart/3-browser-to-service/public/index.html  |    39 +
+ quickstart/3-browser-to-service/public/logo192.png |   Bin 0 -> 5044 bytes
+ quickstart/3-browser-to-service/public/logo512.png |   Bin 0 -> 14442 bytes
+ .../3-browser-to-service/public/manifest.json      |    25 +
+ quickstart/3-browser-to-service/public/robots.txt  |     3 +
+ quickstart/3-browser-to-service/src/App.scss       |   160 +
+ quickstart/3-browser-to-service/src/App.tsx        |   146 +
+ .../src/_aqua/getting-started.ts                   |   126 +
+ quickstart/3-browser-to-service/src/index.css      |    13 +
+ quickstart/3-browser-to-service/src/index.tsx      |    12 +
+ quickstart/3-browser-to-service/src/logo.svg       |    17 +
+ .../3-browser-to-service/src/react-app-env.d.ts    |     1 +
+ quickstart/3-browser-to-service/tsconfig.json      |    26 +
+ quickstart/Readme.md                               |     4 +
+ 417 files changed, 201204 insertions(+)

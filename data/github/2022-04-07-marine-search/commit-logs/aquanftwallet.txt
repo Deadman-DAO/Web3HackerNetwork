@@ -1,0 +1,486 @@
+commit 7d938dddbec2e8c40e79dd3891394e1f5697db83
+Author: Siphamandla brian Mjoli <g14m1190@campus.ru.ac.za>
+Date:   Wed Feb 23 17:28:19 2022 +0200
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit fede3148d5faefaf46bcb5ad544371c62cb48f05
+Author: Siphamandla brian Mjoli <g14m1190@campus.ru.ac.za>
+Date:   Wed Feb 23 17:23:22 2022 +0200
+
+    Delete .env
+
+ .env | 8 --------
+ 1 file changed, 8 deletions(-)
+
+commit 193472362881d9dd8a7a7d0d505f9c9679711e90
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Wed Feb 23 17:22:41 2022 +0200
+
+    update
+    
+    Abandoned project due to WASM error on vue
+
+ aqua-services/aquanftapdef.aqua     |   2 +-
+ package.json                        |   5 +-
+ public/index.html                   |   1 +
+ src/App.vue                         |  20 +++-
+ src/_aqua/aquanftapdef.js           | 186 ++++++++++++++++++++++++++++++++
+ src/_aqua/aquanftapdef.ts           |   6 +-
+ src/services/aquanftwallet.js       |  61 ++++++-----
+ src/views/OpenseaCollectionView.vue |  13 ++-
+ tsconfig.json                       |  27 +++++
+ yarn.lock                           | 206 ++++++++++++++++++++++++++++++++++--
+ 10 files changed, 485 insertions(+), 42 deletions(-)
+
+commit f8bc559ce5f94d2e9783b5c44e2d0717abb9a23f
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Sun Feb 6 05:45:50 2022 +0200
+
+    update
+
+ aqua-services/aquanftapdef.aqua                    |    27 +
+ deployaqua.sh                                      |     6 +
+ fluence-services/.repl_history                     |    10 +
+ fluence-services/Config.toml                       |     8 +
+ .../aqua_nft_wallet_api_service/Cargo.lock         |   275 +
+ .../aqua_nft_wallet_api_service/Cargo.toml         |    16 +
+ .../aqua_nft_wallet_api_service/config.json        |     6 +
+ .../aqua_nft_wallet_api_service/src/main.rs        |    61 +
+ .../target/.rustc_info.json                        |     1 +
+ .../target/CACHEDIR.TAG                            |     3 +
+ .../target/release/.cargo-lock                     |     0
+ .../autocfg-66b1cdde7758320c/dep-lib-autocfg       |   Bin 0 -> 8 bytes
+ .../autocfg-66b1cdde7758320c/invoked.timestamp     |     1 +
+ .../autocfg-66b1cdde7758320c/lib-autocfg           |     1 +
+ .../autocfg-66b1cdde7758320c/lib-autocfg.json      |     1 +
+ .../cfg-if-e45b275d0e310807/dep-lib-cfg-if         |   Bin 0 -> 8 bytes
+ .../cfg-if-e45b275d0e310807/invoked.timestamp      |     1 +
+ .../cfg-if-e45b275d0e310807/lib-cfg-if             |     1 +
+ .../cfg-if-e45b275d0e310807/lib-cfg-if.json        |     1 +
+ .../chrono-c877db7bfa9446bc/dep-lib-chrono         |   Bin 0 -> 8 bytes
+ .../chrono-c877db7bfa9446bc/invoked.timestamp      |     1 +
+ .../chrono-c877db7bfa9446bc/lib-chrono             |     1 +
+ .../chrono-c877db7bfa9446bc/lib-chrono.json        |     1 +
+ .../getrandom-a92adf606c8dead1/dep-lib-getrandom   |   Bin 0 -> 8 bytes
+ .../getrandom-a92adf606c8dead1/invoked.timestamp   |     1 +
+ .../getrandom-a92adf606c8dead1/lib-getrandom       |     1 +
+ .../getrandom-a92adf606c8dead1/lib-getrandom.json  |     1 +
+ .../itoa-0caf4c95dbc39592/dep-lib-itoa             |   Bin 0 -> 8 bytes
+ .../itoa-0caf4c95dbc39592/invoked.timestamp        |     1 +
+ .../.fingerprint/itoa-0caf4c95dbc39592/lib-itoa    |     1 +
+ .../itoa-0caf4c95dbc39592/lib-itoa.json            |     1 +
+ .../libc-215cecc92eb9556c/dep-lib-libc             |   Bin 0 -> 8 bytes
+ .../libc-215cecc92eb9556c/invoked.timestamp        |     1 +
+ .../.fingerprint/libc-215cecc92eb9556c/lib-libc    |     1 +
+ .../libc-215cecc92eb9556c/lib-libc.json            |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../libc-2b932af2827fa6c9/invoked.timestamp        |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../.fingerprint/log-2b79450441533f7f/dep-lib-log  |   Bin 0 -> 8 bytes
+ .../log-2b79450441533f7f/invoked.timestamp         |     1 +
+ .../.fingerprint/log-2b79450441533f7f/lib-log      |     1 +
+ .../.fingerprint/log-2b79450441533f7f/lib-log.json |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../log-5faad6f132e7c111/invoked.timestamp         |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../dep-lib-marine-macro                           |   Bin 0 -> 8 bytes
+ .../invoked.timestamp                              |     1 +
+ .../marine-macro-dcc7d33c2edf502c/lib-marine-macro |     1 +
+ .../lib-marine-macro.json                          |     1 +
+ .../dep-lib-marine-macro-impl                      |   Bin 0 -> 8 bytes
+ .../invoked.timestamp                              |     1 +
+ .../lib-marine-macro-impl                          |     1 +
+ .../lib-marine-macro-impl.json                     |     1 +
+ .../dep-lib-marine-rs-sdk-main                     |   Bin 0 -> 8 bytes
+ .../invoked.timestamp                              |     1 +
+ .../lib-marine-rs-sdk-main                         |     1 +
+ .../lib-marine-rs-sdk-main.json                    |     1 +
+ .../dep-lib-marine-timestamp-macro                 |   Bin 0 -> 8 bytes
+ .../invoked.timestamp                              |     1 +
+ .../lib-marine-timestamp-macro                     |     1 +
+ .../lib-marine-timestamp-macro.json                |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../dep-lib-num-integer                            |   Bin 0 -> 8 bytes
+ .../num-integer-9239e72aeac54819/invoked.timestamp |     1 +
+ .../num-integer-9239e72aeac54819/lib-num-integer   |     1 +
+ .../lib-num-integer.json                           |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../num-integer-a75e0e63abf52372/invoked.timestamp |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../num-traits-aade6d43314a8bbd/invoked.timestamp  |     1 +
+ .../num-traits-f02526f0f7fd35cf/dep-lib-num-traits |   Bin 0 -> 8 bytes
+ .../num-traits-f02526f0f7fd35cf/invoked.timestamp  |     1 +
+ .../num-traits-f02526f0f7fd35cf/lib-num-traits     |     1 +
+ .../lib-num-traits.json                            |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../proc-macro2-9b524fcc2402c86a/invoked.timestamp |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../dep-lib-proc-macro2                            |   Bin 0 -> 8 bytes
+ .../proc-macro2-fd0bd4fc3fd09610/invoked.timestamp |     1 +
+ .../proc-macro2-fd0bd4fc3fd09610/lib-proc-macro2   |     1 +
+ .../lib-proc-macro2.json                           |     1 +
+ .../quote-52580f92ab8e1bd0/dep-lib-quote           |   Bin 0 -> 8 bytes
+ .../quote-52580f92ab8e1bd0/invoked.timestamp       |     1 +
+ .../.fingerprint/quote-52580f92ab8e1bd0/lib-quote  |     1 +
+ .../quote-52580f92ab8e1bd0/lib-quote.json          |     1 +
+ .../.fingerprint/ryu-4d0b2d499bc614b4/dep-lib-ryu  |   Bin 0 -> 8 bytes
+ .../ryu-4d0b2d499bc614b4/invoked.timestamp         |     1 +
+ .../.fingerprint/ryu-4d0b2d499bc614b4/lib-ryu      |     1 +
+ .../.fingerprint/ryu-4d0b2d499bc614b4/lib-ryu.json |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../serde-a8f7f27fd0cdf024/invoked.timestamp       |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../serde-ea42e13880df2b4c/invoked.timestamp       |     1 +
+ .../serde-fd0debe8d92a3df0/dep-lib-serde           |   Bin 0 -> 8 bytes
+ .../serde-fd0debe8d92a3df0/invoked.timestamp       |     1 +
+ .../.fingerprint/serde-fd0debe8d92a3df0/lib-serde  |     1 +
+ .../serde-fd0debe8d92a3df0/lib-serde.json          |     1 +
+ .../dep-lib-serde_derive                           |   Bin 0 -> 8 bytes
+ .../invoked.timestamp                              |     1 +
+ .../serde_derive-403abe6fe18502dc/lib-serde_derive |     1 +
+ .../lib-serde_derive.json                          |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../invoked.timestamp                              |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../serde_json-db3e7afcb6561635/invoked.timestamp  |     1 +
+ .../serde_json-de773cdf9bebbc4f/dep-lib-serde_json |   Bin 0 -> 8 bytes
+ .../serde_json-de773cdf9bebbc4f/invoked.timestamp  |     1 +
+ .../serde_json-de773cdf9bebbc4f/lib-serde_json     |     1 +
+ .../lib-serde_json.json                            |     1 +
+ .../build-script-build-script-build                |     1 +
+ .../build-script-build-script-build.json           |     1 +
+ .../dep-build-script-build-script-build            |   Bin 0 -> 8 bytes
+ .../syn-121707674f78d188/invoked.timestamp         |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../.fingerprint/syn-979d8430661e8869/dep-lib-syn  |   Bin 0 -> 8 bytes
+ .../syn-979d8430661e8869/invoked.timestamp         |     1 +
+ .../.fingerprint/syn-979d8430661e8869/lib-syn      |     1 +
+ .../.fingerprint/syn-979d8430661e8869/lib-syn.json |     1 +
+ .../time-47840f61acd3d2b8/dep-lib-time             |   Bin 0 -> 8 bytes
+ .../time-47840f61acd3d2b8/invoked.timestamp        |     1 +
+ .../.fingerprint/time-47840f61acd3d2b8/lib-time    |     1 +
+ .../time-47840f61acd3d2b8/lib-time.json            |     1 +
+ .../dep-lib-unicode-xid                            |   Bin 0 -> 8 bytes
+ .../unicode-xid-41b6b66d1fb0ad00/invoked.timestamp |     1 +
+ .../unicode-xid-41b6b66d1fb0ad00/lib-unicode-xid   |     1 +
+ .../lib-unicode-xid.json                           |     1 +
+ .../uuid-d9b1f845937e21af/dep-lib-uuid             |   Bin 0 -> 8 bytes
+ .../uuid-d9b1f845937e21af/invoked.timestamp        |     1 +
+ .../.fingerprint/uuid-d9b1f845937e21af/lib-uuid    |     1 +
+ .../uuid-d9b1f845937e21af/lib-uuid.json            |     1 +
+ .../build/libc-2b932af2827fa6c9/build-script-build |   Bin 0 -> 591688 bytes
+ .../build_script_build-2b932af2827fa6c9            |   Bin 0 -> 591688 bytes
+ .../build_script_build-2b932af2827fa6c9.d          |     5 +
+ .../build/libc-d4df462e6b863347/invoked.timestamp  |     1 +
+ .../release/build/libc-d4df462e6b863347/output     |    11 +
+ .../build/libc-d4df462e6b863347/root-output        |     1 +
+ .../release/build/libc-d4df462e6b863347/stderr     |     0
+ .../build/log-5faad6f132e7c111/build-script-build  |   Bin 0 -> 467688 bytes
+ .../build_script_build-5faad6f132e7c111            |   Bin 0 -> 467688 bytes
+ .../build_script_build-5faad6f132e7c111.d          |     5 +
+ .../build/log-d0aedb795cea96fd/invoked.timestamp   |     1 +
+ .../release/build/log-d0aedb795cea96fd/output      |     3 +
+ .../release/build/log-d0aedb795cea96fd/root-output |     1 +
+ .../release/build/log-d0aedb795cea96fd/stderr      |     0
+ .../num-integer-1e4fc2fa128b067a/invoked.timestamp |     1 +
+ .../num-integer-1e4fc2fa128b067a/out/probe0.ll     |     8 +
+ .../num-integer-1e4fc2fa128b067a/out/probe1.ll     |     8 +
+ .../build/num-integer-1e4fc2fa128b067a/output      |     2 +
+ .../build/num-integer-1e4fc2fa128b067a/root-output |     1 +
+ .../build/num-integer-1e4fc2fa128b067a/stderr      |     0
+ .../build-script-build                             |   Bin 0 -> 718552 bytes
+ .../build_script_build-a75e0e63abf52372            |   Bin 0 -> 718552 bytes
+ .../build_script_build-a75e0e63abf52372.d          |     5 +
+ .../num-traits-406faa1307a0ba5c/invoked.timestamp  |     1 +
+ .../num-traits-406faa1307a0ba5c/out/probe0.ll      |     8 +
+ .../num-traits-406faa1307a0ba5c/out/probe1.ll      |     8 +
+ .../num-traits-406faa1307a0ba5c/out/probe2.ll      |    49 +
+ .../build/num-traits-406faa1307a0ba5c/output       |     3 +
+ .../build/num-traits-406faa1307a0ba5c/root-output  |     1 +
+ .../build/num-traits-406faa1307a0ba5c/stderr       |     0
+ .../num-traits-aade6d43314a8bbd/build-script-build |   Bin 0 -> 718824 bytes
+ .../build_script_build-aade6d43314a8bbd            |   Bin 0 -> 718824 bytes
+ .../build_script_build-aade6d43314a8bbd.d          |     5 +
+ .../build-script-build                             |   Bin 0 -> 616696 bytes
+ .../build_script_build-9b524fcc2402c86a            |   Bin 0 -> 616696 bytes
+ .../build_script_build-9b524fcc2402c86a.d          |     5 +
+ .../proc-macro2-e9cf9161383f7d45/invoked.timestamp |     1 +
+ .../build/proc-macro2-e9cf9161383f7d45/output      |     3 +
+ .../build/proc-macro2-e9cf9161383f7d45/root-output |     1 +
+ .../build/proc-macro2-e9cf9161383f7d45/stderr      |     0
+ .../build/serde-78c20042da83524f/invoked.timestamp |     1 +
+ .../release/build/serde-78c20042da83524f/output    |     0
+ .../build/serde-78c20042da83524f/root-output       |     1 +
+ .../release/build/serde-78c20042da83524f/stderr    |     0
+ .../serde-a8f7f27fd0cdf024/build-script-build      |   Bin 0 -> 585000 bytes
+ .../build_script_build-a8f7f27fd0cdf024            |   Bin 0 -> 585000 bytes
+ .../build_script_build-a8f7f27fd0cdf024.d          |     5 +
+ .../serde-ea42e13880df2b4c/build-script-build      |   Bin 0 -> 584984 bytes
+ .../build_script_build-ea42e13880df2b4c            |   Bin 0 -> 584984 bytes
+ .../build_script_build-ea42e13880df2b4c.d          |     5 +
+ .../build-script-build                             |   Bin 0 -> 565952 bytes
+ .../build_script_build-995e7c2cd7c5a7e4            |   Bin 0 -> 565952 bytes
+ .../build_script_build-995e7c2cd7c5a7e4.d          |     5 +
+ .../invoked.timestamp                              |     1 +
+ .../build/serde_derive-a828a171f0ae4408/output     |     2 +
+ .../serde_derive-a828a171f0ae4408/root-output      |     1 +
+ .../build/serde_derive-a828a171f0ae4408/stderr     |     0
+ .../serde_json-38a77b69f4f6709e/invoked.timestamp  |     1 +
+ .../build/serde_json-38a77b69f4f6709e/output       |     1 +
+ .../build/serde_json-38a77b69f4f6709e/root-output  |     1 +
+ .../build/serde_json-38a77b69f4f6709e/stderr       |     0
+ .../serde_json-db3e7afcb6561635/build-script-build |   Bin 0 -> 584576 bytes
+ .../build_script_build-db3e7afcb6561635            |   Bin 0 -> 584576 bytes
+ .../build_script_build-db3e7afcb6561635.d          |     5 +
+ .../build/syn-121707674f78d188/build-script-build  |   Bin 0 -> 589640 bytes
+ .../build_script_build-121707674f78d188            |   Bin 0 -> 589640 bytes
+ .../build_script_build-121707674f78d188.d          |     5 +
+ .../build/syn-4806c8d99ff3536e/invoked.timestamp   |     1 +
+ .../release/build/syn-4806c8d99ff3536e/output      |     1 +
+ .../release/build/syn-4806c8d99ff3536e/root-output |     1 +
+ .../release/build/syn-4806c8d99ff3536e/stderr      |     0
+ .../target/release/deps/autocfg-66b1cdde7758320c.d |     9 +
+ .../target/release/deps/cfg_if-e45b275d0e310807.d  |     7 +
+ .../target/release/deps/chrono-c877db7bfa9446bc.d  |    27 +
+ .../release/deps/getrandom-a92adf606c8dead1.d      |    12 +
+ .../target/release/deps/itoa-0caf4c95dbc39592.d    |     8 +
+ .../release/deps/libautocfg-66b1cdde7758320c.rlib  |   Bin 0 -> 513896 bytes
+ .../release/deps/libautocfg-66b1cdde7758320c.rmeta |   Bin 0 -> 79559 bytes
+ .../target/release/deps/libc-215cecc92eb9556c.d    |    16 +
+ .../release/deps/libcfg_if-e45b275d0e310807.rlib   |   Bin 0 -> 6864 bytes
+ .../release/deps/libcfg_if-e45b275d0e310807.rmeta  |   Bin 0 -> 6167 bytes
+ .../release/deps/libchrono-c877db7bfa9446bc.rlib   |   Bin 0 -> 2050384 bytes
+ .../release/deps/libchrono-c877db7bfa9446bc.rmeta  |   Bin 0 -> 1472952 bytes
+ .../deps/libgetrandom-a92adf606c8dead1.rlib        |   Bin 0 -> 134160 bytes
+ .../deps/libgetrandom-a92adf606c8dead1.rmeta       |   Bin 0 -> 67293 bytes
+ .../release/deps/libitoa-0caf4c95dbc39592.rlib     |   Bin 0 -> 116056 bytes
+ .../release/deps/libitoa-0caf4c95dbc39592.rmeta    |   Bin 0 -> 115358 bytes
+ .../release/deps/liblibc-215cecc92eb9556c.rlib     |   Bin 0 -> 1726832 bytes
+ .../release/deps/liblibc-215cecc92eb9556c.rmeta    |   Bin 0 -> 1666226 bytes
+ .../release/deps/liblog-2b79450441533f7f.rlib      |   Bin 0 -> 297736 bytes
+ .../release/deps/liblog-2b79450441533f7f.rmeta     |   Bin 0 -> 193001 bytes
+ .../deps/libmarine_macro-dcc7d33c2edf502c.dylib    |   Bin 0 -> 7730256 bytes
+ .../libmarine_macro_impl-423c5f553cd16de7.rlib     |   Bin 0 -> 2603456 bytes
+ .../libmarine_macro_impl-423c5f553cd16de7.rmeta    |   Bin 0 -> 1138932 bytes
+ .../libmarine_rs_sdk_main-5ad40cecc7106d6d.rlib    |   Bin 0 -> 242456 bytes
+ .../libmarine_rs_sdk_main-5ad40cecc7106d6d.rmeta   |   Bin 0 -> 34484 bytes
+ ...ibmarine_timestamp_macro-4eec37e2ca9fb9a1.dylib |   Bin 0 -> 3258272 bytes
+ .../deps/libnum_integer-9239e72aeac54819.rlib      |   Bin 0 -> 486184 bytes
+ .../deps/libnum_integer-9239e72aeac54819.rmeta     |   Bin 0 -> 396770 bytes
+ .../deps/libnum_traits-f02526f0f7fd35cf.rlib       |   Bin 0 -> 1862000 bytes
+ .../deps/libnum_traits-f02526f0f7fd35cf.rmeta      |   Bin 0 -> 1807007 bytes
+ .../deps/libproc_macro2-fd0bd4fc3fd09610.rlib      |   Bin 0 -> 1033584 bytes
+ .../deps/libproc_macro2-fd0bd4fc3fd09610.rmeta     |   Bin 0 -> 354150 bytes
+ .../release/deps/libquote-52580f92ab8e1bd0.rlib    |   Bin 0 -> 523640 bytes
+ .../release/deps/libquote-52580f92ab8e1bd0.rmeta   |   Bin 0 -> 257414 bytes
+ .../release/deps/libryu-4d0b2d499bc614b4.rlib      |   Bin 0 -> 187352 bytes
+ .../release/deps/libryu-4d0b2d499bc614b4.rmeta     |   Bin 0 -> 133810 bytes
+ .../release/deps/libserde-fd0debe8d92a3df0.rlib    |   Bin 0 -> 6082760 bytes
+ .../release/deps/libserde-fd0debe8d92a3df0.rmeta   |   Bin 0 -> 5884256 bytes
+ .../deps/libserde_derive-403abe6fe18502dc.dylib    |   Bin 0 -> 8162272 bytes
+ .../deps/libserde_json-de773cdf9bebbc4f.rlib       |   Bin 0 -> 2418576 bytes
+ .../deps/libserde_json-de773cdf9bebbc4f.rmeta      |   Bin 0 -> 1519370 bytes
+ .../release/deps/libsyn-979d8430661e8869.rlib      |   Bin 0 -> 10707120 bytes
+ .../release/deps/libsyn-979d8430661e8869.rmeta     |   Bin 0 -> 4101217 bytes
+ .../release/deps/libtime-47840f61acd3d2b8.rlib     |   Bin 0 -> 518248 bytes
+ .../release/deps/libtime-47840f61acd3d2b8.rmeta    |   Bin 0 -> 221165 bytes
+ .../deps/libunicode_xid-41b6b66d1fb0ad00.rlib      |   Bin 0 -> 200352 bytes
+ .../deps/libunicode_xid-41b6b66d1fb0ad00.rmeta     |   Bin 0 -> 179229 bytes
+ .../release/deps/libuuid-d9b1f845937e21af.rlib     |   Bin 0 -> 490032 bytes
+ .../release/deps/libuuid-d9b1f845937e21af.rmeta    |   Bin 0 -> 338720 bytes
+ .../target/release/deps/log-2b79450441533f7f.d     |     9 +
+ .../release/deps/marine_macro-dcc7d33c2edf502c.d   |     5 +
+ .../deps/marine_macro_impl-423c5f553cd16de7.d      |    36 +
+ .../deps/marine_rs_sdk_main-5ad40cecc7106d6d.d     |    13 +
+ .../deps/marine_timestamp_macro-4eec37e2ca9fb9a1.d |     5 +
+ .../release/deps/num_integer-9239e72aeac54819.d    |     9 +
+ .../release/deps/num_traits-f02526f0f7fd35cf.d     |    23 +
+ .../release/deps/proc_macro2-fd0bd4fc3fd09610.d    |    12 +
+ .../target/release/deps/quote-52580f92ab8e1bd0.d   |    13 +
+ .../target/release/deps/ryu-4d0b2d499bc614b4.d     |    18 +
+ .../target/release/deps/serde-fd0debe8d92a3df0.d   |    25 +
+ .../release/deps/serde_derive-403abe6fe18502dc.d   |    21 +
+ .../release/deps/serde_json-de773cdf9bebbc4f.d     |    23 +
+ .../target/release/deps/syn-979d8430661e8869.d     |    54 +
+ .../target/release/deps/time-47840f61acd3d2b8.d    |    11 +
+ .../release/deps/unicode_xid-41b6b66d1fb0ad00.d    |     8 +
+ .../target/release/deps/uuid-d9b1f845937e21af.d    |    15 +
+ .../target/wasm32-wasi/CACHEDIR.TAG                |     3 +
+ .../target/wasm32-wasi/release/.cargo-lock         |     0
+ .../bin-aqua_nft_wallet_api_service                |     1 +
+ .../bin-aqua_nft_wallet_api_service.json           |     1 +
+ .../dep-bin-aqua_nft_wallet_api_service            |   Bin 0 -> 24 bytes
+ .../invoked.timestamp                              |     1 +
+ .../cfg-if-4165e00705e99fd2/dep-lib-cfg-if         |   Bin 0 -> 8 bytes
+ .../cfg-if-4165e00705e99fd2/invoked.timestamp      |     1 +
+ .../cfg-if-4165e00705e99fd2/lib-cfg-if             |     1 +
+ .../cfg-if-4165e00705e99fd2/lib-cfg-if.json        |     1 +
+ .../.fingerprint/log-5dbf662b78e52fe7/dep-lib-log  |   Bin 0 -> 8 bytes
+ .../log-5dbf662b78e52fe7/invoked.timestamp         |     1 +
+ .../.fingerprint/log-5dbf662b78e52fe7/lib-log      |     1 +
+ .../.fingerprint/log-5dbf662b78e52fe7/lib-log.json |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../dep-lib-marine-rs-sdk                          |   Bin 0 -> 8 bytes
+ .../invoked.timestamp                              |     1 +
+ .../lib-marine-rs-sdk                              |     1 +
+ .../lib-marine-rs-sdk.json                         |     1 +
+ .../dep-lib-marine-rs-sdk-main                     |   Bin 0 -> 8 bytes
+ .../invoked.timestamp                              |     1 +
+ .../lib-marine-rs-sdk-main                         |     1 +
+ .../lib-marine-rs-sdk-main.json                    |     1 +
+ .../polyplets-297c60e230e48562/dep-lib-polyplets   |   Bin 0 -> 8 bytes
+ .../polyplets-297c60e230e48562/invoked.timestamp   |     1 +
+ .../polyplets-297c60e230e48562/lib-polyplets       |     1 +
+ .../polyplets-297c60e230e48562/lib-polyplets.json  |     1 +
+ .../run-build-script-build-script-build            |     1 +
+ .../run-build-script-build-script-build.json       |     1 +
+ .../serde-dec4b0f83314305b/dep-lib-serde           |   Bin 0 -> 8 bytes
+ .../serde-dec4b0f83314305b/invoked.timestamp       |     1 +
+ .../.fingerprint/serde-dec4b0f83314305b/lib-serde  |     1 +
+ .../serde-dec4b0f83314305b/lib-serde.json          |     1 +
+ .../release/aqua_nft_wallet_api_service.d          |     1 +
+ .../release/aqua_nft_wallet_api_service.wasm       |   Bin 0 -> 100847 bytes
+ .../build/log-847b17d38805bf77/invoked.timestamp   |     1 +
+ .../release/build/log-847b17d38805bf77/output      |     3 +
+ .../release/build/log-847b17d38805bf77/root-output |     1 +
+ .../release/build/log-847b17d38805bf77/stderr      |     0
+ .../build/serde-5ce3279b4059cb49/invoked.timestamp |     1 +
+ .../release/build/serde-5ce3279b4059cb49/output    |     2 +
+ .../build/serde-5ce3279b4059cb49/root-output       |     1 +
+ .../release/build/serde-5ce3279b4059cb49/stderr    |     0
+ .../aqua_nft_wallet_api_service-123b9775db98ebc5.d |    10 +
+ ...ua_nft_wallet_api_service-123b9775db98ebc5.wasm |   Bin 0 -> 100847 bytes
+ .../release/deps/cfg_if-4165e00705e99fd2.d         |     7 +
+ .../release/deps/libcfg_if-4165e00705e99fd2.rlib   |   Bin 0 -> 6522 bytes
+ .../release/deps/libcfg_if-4165e00705e99fd2.rmeta  |   Bin 0 -> 6158 bytes
+ .../release/deps/liblog-5dbf662b78e52fe7.rlib      |   Bin 0 -> 227270 bytes
+ .../release/deps/liblog-5dbf662b78e52fe7.rmeta     |   Bin 0 -> 200745 bytes
+ .../deps/libmarine_rs_sdk-830f38dff295257b.rlib    |   Bin 0 -> 444100 bytes
+ .../deps/libmarine_rs_sdk-830f38dff295257b.rmeta   |   Bin 0 -> 400802 bytes
+ .../libmarine_rs_sdk_main-4b6f44f8b2554572.rlib    |   Bin 0 -> 102688 bytes
+ .../libmarine_rs_sdk_main-4b6f44f8b2554572.rmeta   |   Bin 0 -> 56734 bytes
+ .../deps/libpolyplets-297c60e230e48562.rlib        |   Bin 0 -> 231730 bytes
+ .../deps/libpolyplets-297c60e230e48562.rmeta       |   Bin 0 -> 215205 bytes
+ .../release/deps/libserde-dec4b0f83314305b.rlib    |   Bin 0 -> 6335578 bytes
+ .../release/deps/libserde-dec4b0f83314305b.rmeta   |   Bin 0 -> 6234772 bytes
+ .../release/deps/log-5dbf662b78e52fe7.d            |     9 +
+ .../release/deps/marine_rs_sdk-830f38dff295257b.d  |     9 +
+ .../deps/marine_rs_sdk_main-4b6f44f8b2554572.d     |    14 +
+ .../release/deps/polyplets-297c60e230e48562.d      |     9 +
+ .../release/deps/serde-dec4b0f83314305b.d          |    25 +
+ .../artifacts/aqua_nft_wallet_api_service.wasm     |   Bin 0 -> 100847 bytes
+ fluence-services/artifacts/deploy.json             |    16 +
+ fluence-services/build.sh                          |    13 +
+ .../configs/aqua_nft_wallet_api_service_cfg.json   |     5 +
+ fluence-services/configs/curl_adapter_cfg.json     |     8 +
+ package-lock.json                                  | 22575 ++++++++++++----
+ package.json                                       |    11 +-
+ public/avm.wasm                                    |   Bin 819436 -> 810512 bytes
+ public/runnerScript.web.js                         |     2 +-
+ src/_aqua/aquanftapdef.ts                          |   352 +
+ src/data/opensea.json                              | 26514 +++++++++++++++++--
+ src/services/aquanftwallet.js                      |    29 +
+ src/store/index.js                                 |    40 +-
+ src/views/OpenseaCollectionView.vue                |   182 +-
+ test.js                                            |     3 +
+ yarn.lock                                          |  1991 +-
+ 378 files changed, 45180 insertions(+), 7766 deletions(-)
+
+commit 051250cff155ca414c9c8d66926facc54822b7e5
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Tue Feb 1 02:28:24 2022 +0200
+
+    update
+
+ .env                                   |     8 +
+ .eslintrc.js                           |    20 +
+ package-lock.json                      | 11397 +++++++++++---------------
+ package.json                           |    54 +-
+ public/avm.wasm                        |   Bin 0 -> 819436 bytes
+ public/images/noimage.jpeg             |   Bin 0 -> 4689 bytes
+ public/runnerScript.web.js             |     1 +
+ src/App.vue                            |    23 +-
+ src/data/opensea.json                  |  1552 ++++
+ src/modals/OpeanSeaNFTDetailsModal.vue |    92 +
+ src/router/index.js                    |    16 +
+ src/store/index.js                     |   107 +-
+ src/views/Home.vue                     |    86 +-
+ src/views/OpenseaCollectionView.vue    |    88 +
+ yarn.lock                              | 13609 +++++++++++++++++++++++++++++++
+ 15 files changed, 20471 insertions(+), 6582 deletions(-)
+
+commit eec7c9024f0d98f331e7f5260e3bd700d76c2c22
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Fri Jan 28 02:17:32 2022 +0200
+
+    init
+
+ package-lock.json             | 25735 +++++++++++++++++++++++++++-------------
+ package.json                  |    32 +-
+ public/index.html             |     4 +-
+ src/App.vue                   |    67 +-
+ src/assets/logo.svg           |     1 +
+ src/components/HelloWorld.vue |   197 +-
+ src/main.js                   |     8 +-
+ src/plugins/vuetify.js        |     7 +
+ src/router/index.js           |    27 +
+ src/store/index.js            |    14 +
+ src/views/About.vue           |     5 +
+ src/views/Home.vue            |    15 +
+ vue.config.js                 |     5 +
+ 13 files changed, 17800 insertions(+), 8317 deletions(-)
+
+commit 0e13d25d92caea6716f961ff52eb87972c9ccbb5
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Wed Jan 26 03:15:15 2022 +0200
+
+    init
+
+ .gitignore                    |    23 +
+ README.md                     |    24 +
+ babel.config.js               |     5 +
+ package-lock.json             | 27422 ++++++++++++++++++++++++++++++++++++++++
+ package.json                  |    42 +
+ public/favicon.ico            |   Bin 0 -> 4286 bytes
+ public/index.html             |    17 +
+ src/App.vue                   |    28 +
+ src/assets/logo.png           |   Bin 0 -> 6849 bytes
+ src/components/HelloWorld.vue |    58 +
+ src/main.js                   |     8 +
+ 11 files changed, 27627 insertions(+)

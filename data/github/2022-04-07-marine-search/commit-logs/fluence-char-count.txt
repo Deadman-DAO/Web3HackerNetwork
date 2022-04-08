@@ -1,0 +1,112 @@
+commit c16e758aec3755c73e1530e454298b011c068337
+Author: anhnt18 <anhnt18@vng.com.vn>
+Date:   Sat Sep 11 16:48:03 2021 +0700
+
+    move build to docs
+
+ {build => docs}/asset-manifest.json                       |   0
+ {build => docs}/favicon.ico                               | Bin
+ {build => docs}/index.html                                |   0
+ {build => docs}/logo192.png                               | Bin
+ {build => docs}/logo512.png                               | Bin
+ {build => docs}/manifest.json                             |   0
+ {build => docs}/robots.txt                                |   0
+ {build => docs}/static/css/main.02618c15.chunk.css        |   0
+ {build => docs}/static/css/main.02618c15.chunk.css.map    |   0
+ {build => docs}/static/js/2.0bf61998.chunk.js             |   0
+ {build => docs}/static/js/2.0bf61998.chunk.js.LICENSE.txt |   0
+ {build => docs}/static/js/2.0bf61998.chunk.js.map         |   0
+ {build => docs}/static/js/main.167e6fa4.chunk.js          |   0
+ {build => docs}/static/js/main.167e6fa4.chunk.js.map      |   0
+ {build => docs}/static/js/runtime-main.e9514bee.js        |   0
+ {build => docs}/static/js/runtime-main.e9514bee.js.map    |   0
+ {build => docs}/static/media/logo.7959c40c.svg            |   0
+ 17 files changed, 0 insertions(+), 0 deletions(-)
+
+commit e680d729c7b7e9e9bf8d8e8a647c821c218c420d
+Author: anhnt18 <anhnt18@vng.com.vn>
+Date:   Sat Sep 11 16:46:08 2021 +0700
+
+    up build
+
+ build/asset-manifest.json                       |  21 +++++++++
+ build/favicon.ico                               | Bin 0 -> 15406 bytes
+ build/index.html                                |   1 +
+ build/logo192.png                               | Bin 0 -> 5044 bytes
+ build/logo512.png                               | Bin 0 -> 14442 bytes
+ build/manifest.json                             |  25 ++++++++++
+ build/robots.txt                                |   3 ++
+ build/static/css/main.02618c15.chunk.css        |   2 +
+ build/static/css/main.02618c15.chunk.css.map    |   1 +
+ build/static/js/2.0bf61998.chunk.js             |   3 ++
+ build/static/js/2.0bf61998.chunk.js.LICENSE.txt |  59 ++++++++++++++++++++++++
+ build/static/js/2.0bf61998.chunk.js.map         |   1 +
+ build/static/js/main.167e6fa4.chunk.js          |   2 +
+ build/static/js/main.167e6fa4.chunk.js.map      |   1 +
+ build/static/js/runtime-main.e9514bee.js        |   2 +
+ build/static/js/runtime-main.e9514bee.js.map    |   1 +
+ build/static/media/logo.7959c40c.svg            |  17 +++++++
+ 17 files changed, 139 insertions(+)
+
+commit 48c98d35d98ce2e48439e52ead00fcefe9c1fdad
+Author: anhnt4288 <anh.nt4288@gmail.com>
+Date:   Sat Sep 11 16:19:11 2021 +0700
+
+    Update README.md
+
+ README.md | 5 -----
+ 1 file changed, 5 deletions(-)
+
+commit 8c43026efd8cf3036a8b4310267a7d911262aefe
+Author: anhnt4288 <anh.nt4288@gmail.com>
+Date:   Sat Sep 11 13:56:12 2021 +0700
+
+    Update README.md
+
+ README.md | 163 ++++++++++++++++++++++++--------------------------------------
+ 1 file changed, 63 insertions(+), 100 deletions(-)
+
+commit 900abb28d8c4d795cbcf7f83d690471a38324550
+Author: anhnt18 <anhnt18@vng.com.vn>
+Date:   Sat Sep 11 13:39:44 2021 +0700
+
+    up
+
+ .gitignore                   |     3 +
+ .repl_history                |     4 +
+ Cargo.lock                   |  1650 ++++
+ README.md                    |   224 +
+ aqua/character_count.aqua    |    29 +
+ artifacts/char_count.wasm    |   Bin 0 -> 84501 bytes
+ package-lock.json            | 18731 +++++++++++++++++++++++++++++++++++++++++
+ package.json                 |    53 +
+ public/favicon.ico           |   Bin 0 -> 15406 bytes
+ public/index.html            |    39 +
+ public/logo192.png           |   Bin 0 -> 5044 bytes
+ public/logo512.png           |   Bin 0 -> 14442 bytes
+ public/manifest.json         |    25 +
+ public/robots.txt            |     3 +
+ src/App.scss                 |   160 +
+ src/App.tsx                  |   154 +
+ src/_aqua/character_count.ts |   130 +
+ src/index.css                |    13 +
+ src/index.tsx                |    12 +
+ src/logo.svg                 |    17 +
+ src/main.rs                  |    97 +-
+ src/react-app-env.d.ts       |     1 +
+ tsconfig.json                |    26 +
+ 23 files changed, 21326 insertions(+), 45 deletions(-)
+
+commit 5358eeb571c5d430662e4466621aaff27187e144
+Author: anhnt18 <anhnt18@vng.com.vn>
+Date:   Fri Sep 10 14:35:58 2021 +0700
+
+    init
+
+ Cargo.toml                  | 17 +++++++++++++
+ README.md                   |  0
+ configs/Config.toml         |  6 +++++
+ configs/char_count_cfg.json |  5 ++++
+ scripts/build.sh            | 10 ++++++++
+ src/main.rs                 | 61 +++++++++++++++++++++++++++++++++++++++++++++
+ 6 files changed, 99 insertions(+)

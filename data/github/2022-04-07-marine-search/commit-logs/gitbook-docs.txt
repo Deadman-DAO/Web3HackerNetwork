@@ -1,0 +1,1881 @@
+commit b9da48627bd7b7e4e015eee4ecc6e55e8bc97542
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Tue Mar 29 14:48:36 2022 +0000
+
+    GitBook: [#252] Fix small issues with tutorial's deploy section
+
+ .gitbook/assets/air_call_execution_1 (1).png       | Bin 0 -> 170876 bytes
+ .gitbook/assets/air_call_execution_1.png           | Bin 0 -> 170876 bytes
+ ...(1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (1).png | Bin 0 -> 44449 bytes
+ ...(1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (2).png | Bin 0 -> 44449 bytes
+ ...(1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (3).png | Bin 0 -> 44449 bytes
+ ...d_4 (1) (2) (2) (3) (3) (3) (3) (3) (3) (3).png | Bin 0 -> 44449 bytes
+ ...(3) (3) (3) (3) (3) (3) (3) (3) (3) (1) (1).png | Bin 0 -> 42431 bytes
+ ...(3) (3) (3) (3) (3) (3) (3) (3) (3) (1) (2).png | Bin 0 -> 42431 bytes
+ ...(3) (3) (3) (3) (3) (3) (3) (3) (3) (1) (3).png | Bin 0 -> 42431 bytes
+ ...(3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (1).png | Bin 0 -> 42431 bytes
+ .gitbook/assets/air_par_3.png                      | Bin 0 -> 81597 bytes
+ ...(1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (1).png | Bin 0 -> 88135 bytes
+ ...(1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (2).png | Bin 0 -> 88135 bytes
+ ...(1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (3).png | Bin 0 -> 88135 bytes
+ ...(1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (4).png | Bin 0 -> 88135 bytes
+ ...(1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (5).png | Bin 0 -> 88135 bytes
+ ...l_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4).png | Bin 0 -> 88135 bytes
+ .gitbook/assets/air_xor_5.png                      | Bin 0 -> 63099 bytes
+ .gitbook/assets/image (1).png                      | Bin 0 -> 63480 bytes
+ .gitbook/assets/image (10).png                     | Bin 0 -> 54961 bytes
+ .gitbook/assets/image (11).png                     | Bin 0 -> 56302 bytes
+ .gitbook/assets/image (12).png                     | Bin 0 -> 721044 bytes
+ .gitbook/assets/image (13).png                     | Bin 0 -> 256702 bytes
+ .gitbook/assets/image (14).png                     | Bin 0 -> 378137 bytes
+ .gitbook/assets/image (15).png                     | Bin 0 -> 714631 bytes
+ .gitbook/assets/image (16).png                     | Bin 0 -> 562052 bytes
+ .gitbook/assets/image (17).png                     | Bin 0 -> 112264 bytes
+ .gitbook/assets/image (18) (1) (1) (2) (2) (1).png | Bin 0 -> 363607 bytes
+ .gitbook/assets/image (18) (1) (1) (2) (2).png     | Bin 0 -> 363607 bytes
+ .gitbook/assets/image (18) (1) (1).png             | Bin 0 -> 363607 bytes
+ .gitbook/assets/image (18).png                     | Bin 0 -> 135390 bytes
+ .gitbook/assets/image (19) (1).png                 | Bin 0 -> 712687 bytes
+ .gitbook/assets/image (19).png                     | Bin 0 -> 712687 bytes
+ .gitbook/assets/image (2).png                      | Bin 0 -> 41376 bytes
+ .gitbook/assets/image (20).png                     | Bin 0 -> 591757 bytes
+ .gitbook/assets/image (21).png                     | Bin 0 -> 195548 bytes
+ .gitbook/assets/image (22).png                     | Bin 0 -> 103724 bytes
+ .gitbook/assets/image (23).png                     | Bin 0 -> 448598 bytes
+ .gitbook/assets/image (24) (1) (1).png             | Bin 0 -> 394245 bytes
+ .gitbook/assets/image (24) (1).png                 | Bin 0 -> 394245 bytes
+ .gitbook/assets/image (24).png                     | Bin 0 -> 428091 bytes
+ .gitbook/assets/image (25).png                     | Bin 0 -> 562076 bytes
+ .gitbook/assets/image (26).png                     | Bin 0 -> 494164 bytes
+ .gitbook/assets/image (27) (1).png                 | Bin 0 -> 153666 bytes
+ .gitbook/assets/image (27).png                     | Bin 0 -> 418732 bytes
+ .gitbook/assets/image (28) (1) (1).png             | Bin 0 -> 398192 bytes
+ .gitbook/assets/image (28) (1).png                 | Bin 0 -> 398192 bytes
+ .gitbook/assets/image (28).png                     | Bin 0 -> 473553 bytes
+ .gitbook/assets/image (29).png                     | Bin 0 -> 153138 bytes
+ .gitbook/assets/image (3).png                      | Bin 0 -> 32230 bytes
+ .gitbook/assets/image (30).png                     | Bin 0 -> 57282 bytes
+ .gitbook/assets/image (31) (1).png                 | Bin 0 -> 497297 bytes
+ .gitbook/assets/image (31).png                     | Bin 0 -> 497297 bytes
+ .gitbook/assets/image (32).png                     | Bin 0 -> 153666 bytes
+ .gitbook/assets/image (33).png                     | Bin 0 -> 342117 bytes
+ .gitbook/assets/image (34).png                     | Bin 0 -> 418732 bytes
+ .gitbook/assets/image (35).png                     | Bin 0 -> 199222 bytes
+ .gitbook/assets/image (36).png                     | Bin 0 -> 154112 bytes
+ .gitbook/assets/image (37).png                     | Bin 0 -> 592209 bytes
+ .gitbook/assets/image (38) (1).png                 | Bin 0 -> 609195 bytes
+ .gitbook/assets/image (38) (2) (2) (2) (1).png     | Bin 0 -> 609195 bytes
+ .gitbook/assets/image (38) (2) (2) (2).png         | Bin 0 -> 609195 bytes
+ .gitbook/assets/image (38).png                     | Bin 0 -> 200008 bytes
+ .gitbook/assets/image (39) (1) (1).png             | Bin 0 -> 514115 bytes
+ .gitbook/assets/image (39) (1).png                 | Bin 0 -> 514115 bytes
+ .gitbook/assets/image (39).png                     | Bin 0 -> 303407 bytes
+ .gitbook/assets/image (4).png                      | Bin 0 -> 41800 bytes
+ .gitbook/assets/image (40).png                     | Bin 0 -> 442907 bytes
+ .gitbook/assets/image (41).png                     | Bin 0 -> 60400 bytes
+ .gitbook/assets/image (42).png                     | Bin 0 -> 83114 bytes
+ .gitbook/assets/image (43).png                     | Bin 0 -> 221097 bytes
+ .gitbook/assets/image (44).png                     | Bin 0 -> 60524 bytes
+ .gitbook/assets/image (45).png                     | Bin 0 -> 36536 bytes
+ .gitbook/assets/image (46).png                     | Bin 0 -> 242548 bytes
+ .gitbook/assets/image (47).png                     | Bin 0 -> 247387 bytes
+ .gitbook/assets/image (48).png                     | Bin 0 -> 226198 bytes
+ .gitbook/assets/image (49).png                     | Bin 0 -> 226005 bytes
+ .gitbook/assets/image (5).png                      | Bin 0 -> 47521 bytes
+ .gitbook/assets/image (50).png                     | Bin 0 -> 226005 bytes
+ .gitbook/assets/image (51).png                     | Bin 0 -> 160292 bytes
+ .gitbook/assets/image (6) (1) (1).png              | Bin 0 -> 68908 bytes
+ .gitbook/assets/image (6) (1).png                  | Bin 0 -> 68908 bytes
+ .gitbook/assets/image (6).png                      | Bin 0 -> 63269 bytes
+ .gitbook/assets/image (7).png                      | Bin 0 -> 58144 bytes
+ .gitbook/assets/image (8).png                      | Bin 0 -> 76389 bytes
+ .gitbook/assets/image (9).png                      | Bin 0 -> 73042 bytes
+ .gitbook/assets/image.png                          | Bin 0 -> 84102 bytes
+ README.md                                          |   9 +-
+ SUMMARY.md                                         |  34 +
+ concepts.md                                        | 143 ++++
+ fluence-js/1_concepts.md                           |  43 ++
+ fluence-js/2_basics.md                             | 194 +++++
+ fluence-js/3_in_depth.md                           | 529 ++++++++++++++
+ fluence-js/4_run_in_browser-1.md                   |  28 +
+ fluence-js/5_run_in_node.md                        | 124 ++++
+ fluence-js/6-reference.md                          |   3 +
+ fluence-js/README.md                               |  13 +
+ fluence-js/changelog.md                            | 137 ++++
+ knowledge_aquamarine/README.md                     |   6 +
+ knowledge_aquamarine/hll.md                        |   5 +
+ knowledge_aquamarine/marine/README.md              |  12 +
+ knowledge_aquamarine/marine/marine-cli.md          |  33 +
+ knowledge_aquamarine/marine/marine-repl.md         |  33 +
+ knowledge_aquamarine/marine/marine-rs-sdk.md       | 810 +++++++++++++++++++++
+ knowledge_security.md                              | 158 ++++
+ knowledge_tools.md                                 |  13 +
+ node.md                                            |  36 +
+ p2p.md                                             |  73 ++
+ quick-start/1.-browser-to-browser-1.md             |  62 ++
+ quick-start/2.-hosted-services.md                  | 205 ++++++
+ quick-start/3.-browser-to-service.md               |  45 ++
+ .../4.-service-composition-and-reuse-with-aqua.md  | 249 +++++++
+ ...-decentralized-oracles-with-fluence-and-aqua.md | 361 +++++++++
+ quick-start/README.md                              |  19 +
+ research-papers-and-references.md                  |   4 +
+ tutorials_tutorials/README.md                      |   2 +
+ tutorials_tutorials/add-your-own-builtin.md        | 136 ++++
+ tutorials_tutorials/curl-as-a-service.md           | 106 +++
+ tutorials_tutorials/recipes_setting_up.md          |  80 ++
+ tutorials_tutorials/tutorial_run_local_node.md     | 245 +++++++
+ 120 files changed, 3945 insertions(+), 5 deletions(-)
+
+commit a58dcbdd92d74246e4db9d128c1a32c915745612
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Mar 29 09:44:23 2022 -0500
+
+    clean-salte main
+
+ .gitbook/assets/air_call_execution_1 (1).png           | Bin 170876 -> 0 bytes
+ .gitbook/assets/air_call_execution_1.png               | Bin 170876 -> 0 bytes
+ ...d_4 (1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (1).png | Bin 44449 -> 0 bytes
+ ...d_4 (1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (2).png | Bin 44449 -> 0 bytes
+ ...d_4 (1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (3).png | Bin 44449 -> 0 bytes
+ ..._fold_4 (1) (2) (2) (3) (3) (3) (3) (3) (3) (3).png | Bin 44449 -> 0 bytes
+ ...(2) (2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (1).png | Bin 42431 -> 0 bytes
+ ...(2) (2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (2).png | Bin 42431 -> 0 bytes
+ ...(2) (2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3).png | Bin 42431 -> 0 bytes
+ ...(1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (3) (3).png | Bin 42431 -> 0 bytes
+ .gitbook/assets/air_par_3.png                          | Bin 81597 -> 0 bytes
+ ...l_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (1).png | Bin 88135 -> 0 bytes
+ ...l_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (2).png | Bin 88135 -> 0 bytes
+ ...l_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (3).png | Bin 88135 -> 0 bytes
+ ...l_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (4).png | Bin 88135 -> 0 bytes
+ ...l_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (5).png | Bin 88135 -> 0 bytes
+ ...ntial_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4).png | Bin 88135 -> 0 bytes
+ .gitbook/assets/air_xor_5.png                          | Bin 63099 -> 0 bytes
+ .gitbook/assets/image (1).png                          | Bin 41376 -> 0 bytes
+ .gitbook/assets/image (10).png                         | Bin 56302 -> 0 bytes
+ .gitbook/assets/image (11).png                         | Bin 73042 -> 0 bytes
+ .gitbook/assets/image (2).png                          | Bin 84102 -> 0 bytes
+ .gitbook/assets/image (3).png                          | Bin 41800 -> 0 bytes
+ .gitbook/assets/image (4).png                          | Bin 32230 -> 0 bytes
+ .gitbook/assets/image (5).png                          | Bin 63269 -> 0 bytes
+ .gitbook/assets/image (6) (1) (1).png                  | Bin 68908 -> 0 bytes
+ .gitbook/assets/image (6) (1).png                      | Bin 68908 -> 0 bytes
+ .gitbook/assets/image (6).png                          | Bin 47521 -> 0 bytes
+ .gitbook/assets/image (7).png                          | Bin 58144 -> 0 bytes
+ .gitbook/assets/image (8).png                          | Bin 76389 -> 0 bytes
+ .gitbook/assets/image (9).png                          | Bin 54961 -> 0 bytes
+ .gitbook/assets/image.png                              | Bin 63480 -> 0 bytes
+ 32 files changed, 0 insertions(+), 0 deletions(-)
+
+commit e5a0050252cc8aa4972ec1de38fdb8a24cce96fe
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Mar 29 09:43:25 2022 -0500
+
+    clean-salte main
+
+ SUMMARY.md                                         |  23 -
+ building-a-frontend-with-js-sdk.md                 | 244 ----------
+ concepts.md                                        | 142 ------
+ development_development/README.md                  |   2 -
+ development_development/development_overview.md    |   6 -
+ .../development_reward_block_app/README.md         |  19 -
+ .../development_additional_concepts.md             | 255 ----------
+ .../development_eth_calls.md                       | 345 -------------
+ .../development_more_air.md                        |  10 -
+ .../development_persisting_blocks.md               | 251 ----------
+ .../development_sqlite.md                          | 397 ---------------
+ .../development_reward_block_app/recap.md          |   2 -
+ .../developmet_build_modules.md                    | 320 ------------
+ development_development/summary.md                 |  10 -
+ knowledge_aquamarine/README.md                     |   8 -
+ knowledge_aquamarine/hll.md                        |   6 -
+ knowledge_aquamarine/hll/README.md                 |   6 -
+ .../hll/knowledge_aquamarine_air.md                |  55 ---
+ knowledge_aquamarine/hll/vm.md                     |   2 -
+ knowledge_aquamarine/marine/README.md              |  14 -
+ knowledge_aquamarine/marine/marine-cli.md          |  35 --
+ knowledge_aquamarine/marine/marine-repl.md         |  35 --
+ knowledge_aquamarine/marine/marine-rs-sdk.md       | 531 --------------------
+ knowledge_knowledge/knowledge_aquamarine/README.md |  22 -
+ knowledge_knowledge/knowledge_aquamarine/hll.md    |   6 -
+ .../knowledge_aquamarine/hll/README.md             |   6 -
+ .../hll/knowledge_aquamarine_air.md                |  55 ---
+ knowledge_knowledge/knowledge_aquamarine/hll/vm.md |   2 -
+ .../knowledge_aquamarine_air.md                    |  55 ---
+ knowledge_knowledge/knowledge_aquamarine/marine.md |  16 -
+ .../knowledge_aquamarine/marine/README.md          |  16 -
+ .../knowledge_aquamarine/marine/marine-cli.md      |  35 --
+ .../knowledge_aquamarine/marine/marine-repl.md     |  35 --
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 537 ---------------------
+ knowledge_knowledge/knowledge_aquamarine/vm.md     |   2 -
+ knowledge_knowledge/knowledge_tools.md             |  78 ---
+ knowledge_node_services.md                         | 403 ----------------
+ knowledge_security.md                              | 159 ------
+ knowledge_tools.md                                 |  49 --
+ node.md                                            |  13 -
+ node/README.md                                     |  11 -
+ node/knowledge_node_services.md                    | 403 ----------------
+ p2p.md                                             |  75 ---
+ quick-start.md                                     |   2 -
+ quick_start/README.md                              | 112 -----
+ quick_start/quick_start_add_persistence/README.md  |  10 -
+ .../quick_start_persistence_crud.md                | 299 ------------
+ .../quick_start_persistence_setup.md               | 161 ------
+ .../quick_start_building_from_multiple_services.md | 340 -------------
+ quick_start/quick_start_setup.md                   |  41 --
+ quick_start/quick_start_summary.md                 |  10 -
+ quick_start/quick_start_using_a_service.md         |  88 ----
+ recipes_recipes/README.md                          |   2 -
+ recipes_recipes/data-replication.md                |   4 -
+ .../error-management-and-testing-of-services.md    |   4 -
+ recipes_recipes/ipfs.md                            |   4 -
+ recipes_recipes/local-filesystem.md                |   4 -
+ recipes_recipes/recipes_curl.md                    | 105 ----
+ recipes_recipes/recipes_setting_up.md              |  51 --
+ recipes_recipes/redis.md                           |   4 -
+ recipes_recipes/sqlite.md                          |   4 -
+ recipes_recipes/untitled.md                        |   2 -
+ research-papers-and-references.md                  |   5 -
+ tutorials_tutorials/README.md                      |   2 -
+ tutorials_tutorials/add-your-own-builtin.md        | 137 ------
+ .../building-a-chat-appplication.md                |   4 -
+ .../building-a-collaborative-editor.md             |   4 -
+ .../building-a-frontend-with-js-sdk.md             | 238 ---------
+ tutorials_tutorials/curl-as-a-service.md           | 105 ----
+ ...eveloping-a-frontend-application-with-js-sdk.md |   4 -
+ tutorials_tutorials/recipes_setting_up.md          |  51 --
+ tutorials_tutorials/running-a-fluence-network.md   |   4 -
+ tutorials_tutorials/securing-services.md           |   4 -
+ tutorials_tutorials/tutorial_run_local_node.md     | 153 ------
+ tutorials_tutorials/tutorial_trustgraph.md         |   4 -
+ 75 files changed, 6658 deletions(-)
+
+commit 8aa1cbf658f2f29a751a134de15fc4ef48bb263f
+Merge: 0912df3 16daed6
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Sep 8 13:54:25 2021 +0300
+
+    Merge pull request #20 from fluencelabs/aqua-cli_to_aqua
+
+commit 16daed6eb16cf170067b30808a7f1e87d449adca
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Sep 8 13:31:23 2021 +0300
+
+    aqua-cli to aqua
+
+ building-a-frontend-with-js-sdk.md                     | 4 ++--
+ tutorials_tutorials/building-a-frontend-with-js-sdk.md | 8 ++------
+ 2 files changed, 4 insertions(+), 8 deletions(-)
+
+commit 0912df3a9e6b0f9a82f4c4c6b497577588327211
+Merge: 30708d7 85c8706
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jul 4 20:33:33 2021 -0500
+
+    Merge pull request #18 from fluencelabs/2.0.0
+    
+    2.0.0
+
+commit 85c8706a13f537be6bafe9b98a1990022ba84f7c
+Merge: a2660db 30708d7
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jul 4 20:30:49 2021 -0500
+
+    Merge branch 'main' into 2.0.0
+
+commit 30708d75031cdc3e92c6b684138869eaad23019d
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 01:28:14 2021 +0000
+
+    GitBook: [main] 58 pages modified
+
+commit a2660db70439c4fb11b2fedb35400af19c2a9852
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 01:28:13 2021 +0000
+
+    GitBook: [2.0.0] 20 pages modified
+
+ knowledge_tools.md | 41 ++++++-----------------------------------
+ 1 file changed, 6 insertions(+), 35 deletions(-)
+
+commit e0eec8e40fc97c46c19aeb864b2a026bf1b16493
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 01:24:24 2021 +0000
+
+    GitBook: [2.0.0] one page modified
+
+ p2p.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 75b219ac07ad3e35c160afa119c9f6a54c6b2998
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 01:24:23 2021 +0000
+
+    GitBook: [main] 3 pages modified
+
+ concepts.md           | 27 +++++++++++----------------
+ p2p.md                | 29 +++++++++++++----------------
+ quick_start/README.md |  4 ----
+ 3 files changed, 24 insertions(+), 36 deletions(-)
+
+commit 7ac39321b6dfedd292897a715bbaae6dfa75e08d
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 01:21:41 2021 +0000
+
+    GitBook: [2.0.0] 21 pages modified
+
+ SUMMARY.md                                  |   9 +--
+ node.md                                     |  13 ++++
+ tutorials_tutorials/add-your-own-builtin.md |   2 +-
+ tutorials_tutorials/curl-as-a-service.md    | 105 ++++++++++++++++++++++++++++
+ tutorials_tutorials/recipes_setting_up.md   |  51 ++++++++++++++
+ 5 files changed, 173 insertions(+), 7 deletions(-)
+
+commit 1c3560ee55a06836606865ea4ae6b5d133564c6c
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 01:21:40 2021 +0000
+
+    GitBook: [main] 58 pages modified
+
+ concepts.md           | 27 ++++++++++++++++-----------
+ p2p.md                | 29 ++++++++++++++++-------------
+ quick_start/README.md |  4 ++++
+ 3 files changed, 36 insertions(+), 24 deletions(-)
+
+commit 82d2cec7f225162976eac7dbb9fa8730d33cd8b7
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 01:13:59 2021 +0000
+
+    GitBook: [main] 58 pages modified
+
+commit 75f9932716ec1591abbad69dd3fe2a3cfef32d13
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 01:13:58 2021 +0000
+
+    GitBook: [2.0.0] 23 pages modified
+
+ node/knowledge_node_services.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 911d4cf3f52bd18153c1979d8c7af796a3119a8d
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 00:51:07 2021 +0000
+
+    GitBook: [main] 58 pages modified
+
+commit 08814236c77d03fdb850193324f2b80c3d92dafa
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 00:51:04 2021 +0000
+
+    GitBook: [2.0.0] 24 pages modified
+
+ SUMMARY.md                                  |   3 +-
+ knowledge_aquamarine/README.md              |  18 +-
+ knowledge_aquamarine/marine/README.md       |   2 -
+ node/README.md                              |  11 +
+ node/knowledge_node_services.md             | 403 ++++++++++++++++++++++++++++
+ tutorials_tutorials/add-your-own-builtin.md |   2 +-
+ 6 files changed, 419 insertions(+), 20 deletions(-)
+
+commit b3b5a11d0515b7e998ccac1c0c8187f263ccbc4e
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 00:37:55 2021 +0000
+
+    GitBook: [main] 58 pages modified
+
+commit 68d1d8a3fd4666c8d6bf748aa37ae28a647a6d6c
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 00:37:54 2021 +0000
+
+    GitBook: [2.0.0] 23 pages modified
+
+ SUMMARY.md                                         |  18 +-
+ knowledge_aquamarine/hll.md                        |   6 +
+ knowledge_aquamarine/marine/marine-rs-sdk.md       |   8 +-
+ recipes_recipes/untitled.md                        |   2 +
+ .../building-a-frontend-with-js-sdk.md             | 242 +++++++++++++++++++++
+ 5 files changed, 254 insertions(+), 22 deletions(-)
+
+commit d5847ed7164bf82e41348e0d9d00440082b7cf3c
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 00:20:28 2021 +0000
+
+    GitBook: [2.0.0] 13 pages modified
+
+ SUMMARY.md                                         | 11 +-----
+ faq_faq.md                                         | 20 ----------
+ knowledge_knowledge/README.md                      |  2 -
+ knowledge_knowledge/knowledge_concepts.md          | 44 ----------------------
+ knowledge_knowledge/knowledge_overview.md          |  4 --
+ knowledge_knowledge/node/README.md                 |  2 -
+ knowledge_knowledge/node/overview.md               |  2 -
+ knowledge_knowledge/trustgraph.md                  |  4 --
+ ..._node_services.md => knowledge_node_services.md |  4 +-
+ .../knowledge_security.md => knowledge_security.md |  0
+ tutorials_tutorials/add-your-own-builtin.md        |  2 +-
+ 11 files changed, 5 insertions(+), 90 deletions(-)
+
+commit 6781f58fe1c00e8ee64fd279b1196fe3132e3ad3
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 00:18:52 2021 +0000
+
+    GitBook: [main] 58 pages and 6 assets modified
+
+ ...2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (1).png} | Bin
+ ...2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (2).png} | Bin
+ ...2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3).png} | Bin
+ concepts.md                                        |  27 ++++++++-----------
+ p2p.md                                             |  29 +++++++++------------
+ quick_start/README.md                              |   4 ---
+ 6 files changed, 24 insertions(+), 36 deletions(-)
+
+commit 2066a70608d234b1cb7a2c5fa94a9e8648f901aa
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 00:18:51 2021 +0000
+
+    GitBook: [2.0.0] 42 pages and 6 assets modified
+
+ ...2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (1).png} | Bin
+ ...2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (2).png} | Bin
+ ...2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3).png} | Bin
+ SUMMARY.md                                         |  35 +-
+ concepts.md                                        |   4 +
+ knowledge_aquamarine/README.md                     |  22 +
+ knowledge_aquamarine/hll/README.md                 |   6 +
+ .../hll/knowledge_aquamarine_air.md                |  55 +++
+ knowledge_aquamarine/hll/vm.md                     |   2 +
+ knowledge_aquamarine/marine/README.md              |  16 +
+ knowledge_aquamarine/marine/marine-cli.md          |  35 ++
+ knowledge_aquamarine/marine/marine-repl.md         |  35 ++
+ knowledge_aquamarine/marine/marine-rs-sdk.md       | 537 +++++++++++++++++++++
+ .../node/knowledge_node_services.md                |   2 +-
+ knowledge_tools.md                                 |  78 +++
+ tutorials_tutorials/add-your-own-builtin.md        |   4 +-
+ 16 files changed, 802 insertions(+), 29 deletions(-)
+
+commit d052588c4cf9662ccbfd22b26400e70a7b63c2fa
+Merge: ac1ffa5 106d958
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jul 4 19:14:14 2021 -0500
+
+    Merge pull request #17 from fluencelabs/1.0.5
+    
+    GitBook: [1.0.5] 59 pages modified
+
+commit ac1ffa57e8eb5237192ddc094b2e31af0c69824e
+Merge: f253834 a8219a8
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jul 4 19:11:39 2021 -0500
+
+    Merge pull request #16 from fluencelabs/2.0.0
+    
+    GitBook: [2.0.0] 59 pages modified
+
+commit 106d958c7ca4bf979f53f8fa22c916232896d4df
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 00:08:26 2021 +0000
+
+    GitBook: [1.0.5] 59 pages modified
+
+ README.md             |  4 +---
+ SUMMARY.md            |  2 +-
+ concepts.md           | 57 +++++++++++++++++++++++++++++++++-----------
+ p2p.md                | 65 ++++++++++++++++++++++++++++++++++++++++++++-------
+ quick_start/README.md |  4 ++++
+ 5 files changed, 107 insertions(+), 25 deletions(-)
+
+commit a8219a87b207a8455414b3123d564e9041905f8f
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jul 5 00:08:25 2021 +0000
+
+    GitBook: [2.0.0] 59 pages modified
+
+ README.md             |  4 +---
+ SUMMARY.md            |  2 +-
+ concepts.md           | 57 +++++++++++++++++++++++++++++++++-----------
+ p2p.md                | 65 ++++++++++++++++++++++++++++++++++++++++++++-------
+ quick_start/README.md |  4 ++++
+ 5 files changed, 107 insertions(+), 25 deletions(-)
+
+commit f25383402efdde2d944906759930c379393afc30
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jul 2 00:46:04 2021 +0000
+
+    GitBook: [main] 58 pages and 9 assets modified
+
+ ...(1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (3) (1).png} | Bin
+ ...(1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (3) (2).png} | Bin
+ ...(1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (3) (3).png} | Bin
+ .gitbook/assets/image (10).png                          | Bin 0 -> 56302 bytes
+ .gitbook/assets/image (11).png                          | Bin 0 -> 73042 bytes
+ .gitbook/assets/image (9).png                           | Bin 0 -> 54961 bytes
+ concepts.md                                             |   4 ----
+ p2p.md                                                  |   4 ++--
+ quick_start/README.md                                   |   4 ----
+ 9 files changed, 2 insertions(+), 10 deletions(-)
+
+commit e9e38da81c516ad6c0474eefb5147da5bbc2012c
+Merge: 1a81932 9eaa7b3
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Jul 1 19:39:32 2021 -0500
+
+    Merge pull request #14 from fluencelabs/2.0
+    
+    2.0
+
+commit 9eaa7b3f283db15fdd3a2c4f920060b20b6fe1c6
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jul 2 00:38:42 2021 +0000
+
+    GitBook: [2.0] 2 pages modified
+
+ SUMMARY.md     | 1 +
+ quick-start.md | 2 ++
+ 2 files changed, 3 insertions(+)
+
+commit 1a81932c9bac849bbfd3322c4f1df14f74cfe12a
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jul 2 00:33:35 2021 +0000
+
+    GitBook: [main] no pages and 4 assets modified
+
+ .gitbook/assets/image (5).png | Bin 0 -> 63269 bytes
+ .gitbook/assets/image (6).png | Bin 0 -> 47521 bytes
+ .gitbook/assets/image (7).png | Bin 0 -> 58144 bytes
+ .gitbook/assets/image (8).png | Bin 0 -> 76389 bytes
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 0f456050bcbed3c2ee8065cbcbd7281eb0f2654e
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jul 2 00:33:34 2021 +0000
+
+    GitBook: [2.0] 3 pages and 4 assets modified
+
+ .gitbook/assets/image (5).png | Bin 0 -> 63269 bytes
+ .gitbook/assets/image (6).png | Bin 0 -> 47521 bytes
+ .gitbook/assets/image (7).png | Bin 0 -> 58144 bytes
+ .gitbook/assets/image (8).png | Bin 0 -> 76389 bytes
+ SUMMARY.md                    |   1 +
+ concepts.md                   | 116 ++++++++++++++++++++++++++++++++++++++++++
+ quick_start/README.md         | 114 ++++++++++++++++++++++++++++++++++++++++-
+ 7 files changed, 229 insertions(+), 2 deletions(-)
+
+commit 05cc8b0519a3c0258e34c246ad5b1523620f94d3
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jul 2 00:23:10 2021 +0000
+
+    GitBook: [2.0] 56 pages and 2 assets modified
+
+ ...1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (4).png} | Bin
+ README.md                                          |  16 +++++++++----
+ .../hll/knowledge_aquamarine_air.md                |   2 +-
+ p2p.md                                             |  26 +++++++++++++++------
+ 4 files changed, 32 insertions(+), 12 deletions(-)
+
+commit 898f2c8ddaa02bb7fc777f9ac86b08dfb07a7253
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jul 2 00:23:08 2021 +0000
+
+    GitBook: [main] 56 pages and 2 assets modified
+
+ ...ntial_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (4).png} | Bin
+ .../knowledge_aquamarine/hll/knowledge_aquamarine_air.md    |   2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+commit 81442ad6c2eaea7b43365f6e99415e60b918ca02
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jun 21 22:53:50 2021 +0000
+
+    GitBook: [main] 56 pages modified
+
+commit fd8993bb1c63a7ab2a15154baf70f6dbbfbf6f65
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jun 21 22:53:23 2021 +0000
+
+    GitBook: [main] 56 pages and 22 assets modified
+
+ ...d_4 (1) (2) (2) (3) (3) (3) (3) (3) (3) (2).png | Bin 44449 -> 0 bytes
+ ...1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (1).png} | Bin
+ ...1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (2).png} | Bin
+ ...1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (3).png} | Bin
+ ..._fold_4 (1) (2) (2) (3) (3) (3) (3) (3) (3).png | Bin 44449 -> 0 bytes
+ ...l_6 (1) (2) (2) (3) (3) (3) (3) (3) (3) (2).png | Bin 42431 -> 0 bytes
+ ...1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (1).png} | Bin
+ ...1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (2).png} | Bin
+ ...1) (2) (2) (3) (3) (3) (3) (3) (3) (3) (3).png} | Bin
+ ..._null_6 (1) (2) (2) (3) (3) (3) (3) (3) (3).png | Bin 42431 -> 0 bytes
+ ...l_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (3).png | Bin 88135 -> 0 bytes
+ ...1) (1) (1) (1) (2) (3) (4) (4) (4) (2) (1).png} | Bin
+ ...(1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (4).png | Bin 88135 -> 0 bytes
+ ...1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (5).png} | Bin
+ tutorials_tutorials/add-your-own-builtin.md        |  34 ++++++++++-----------
+ 15 files changed, 17 insertions(+), 17 deletions(-)
+
+commit 2e2d2d008bbbadd96861d4701846bef0b868cf4f
+Merge: 0e688bf bab83ce
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jun 21 16:43:08 2021 -0500
+
+    Merge pull request #13 from fluencelabs/builtins
+    
+    Add Builtins Tutorial
+
+commit bab83cebf04aefd62f6ef557b85d30b1ca1cfab1
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jun 21 21:42:32 2021 +0000
+
+    GitBook: [builtins] 56 pages modified
+
+ tutorials_tutorials/add-your-own-builtin.md | 21 ++++++++++-----------
+ 1 file changed, 10 insertions(+), 11 deletions(-)
+
+commit 9d79d18843dfba6585b9cb040dc371ee912fb92c
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jun 21 21:30:42 2021 +0000
+
+    GitBook: [builtins] 56 pages modified
+
+ tutorials_tutorials/add-your-own-builtin.md | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
+
+commit 774d8a7b36a9a98635fa71bd36531d960aafa314
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Jun 21 21:24:43 2021 +0000
+
+    GitBook: [builtins] 56 pages modified
+
+ tutorials_tutorials/add-your-own-builtin.md | 129 +++++++++-------------------
+ 1 file changed, 42 insertions(+), 87 deletions(-)
+
+commit 4d4b12e118872c73bfa8e16beac9166ec32e5389
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 18 23:12:19 2021 +0000
+
+    GitBook: [builtins] 56 pages modified
+
+ tutorials_tutorials/add-your-own-builtin.md | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+commit 7f12495ca2362aa3a543846690af23af4748e73d
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 18 23:11:36 2021 +0000
+
+    GitBook: [builtins] 56 pages modified
+
+ tutorials_tutorials/add-your-own-builtin.md | 65 +++++++++++++++++++++++++++--
+ 1 file changed, 61 insertions(+), 4 deletions(-)
+
+commit 293f71344727a24aaff0a41c4abae76cdbe1744d
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 18 23:07:46 2021 +0000
+
+    GitBook: [builtins] 56 pages modified
+
+ tutorials_tutorials/add-your-own-builtin.md | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+commit af4920806ea2676f6568c96516cc7b46d9fba79e
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 18 22:21:42 2021 +0000
+
+    GitBook: [builtins] 57 pages modified
+
+ SUMMARY.md                                  |  2 +-
+ tutorials_tutorials/add-your-own-builtin.md | 91 +++++++++++++++++++----------
+ 2 files changed, 60 insertions(+), 33 deletions(-)
+
+commit 762dd70143624bedf43d008559936e1fb10fdb33
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 18 18:29:00 2021 +0000
+
+    GitBook: [builtins] 57 pages and 20 assets modified
+
+ ..._4 (1) (2) (2) (3) (3) (3) (3) (3) (3) (1).png} | Bin
+ ..._4 (1) (2) (2) (3) (3) (3) (3) (3) (3) (2).png} | Bin
+ ..._4 (1) (2) (2) (3) (3) (3) (3) (3) (3) (3).png} | Bin
+ ..._6 (1) (2) (2) (3) (3) (3) (3) (3) (3) (1).png} | Bin
+ ..._6 (1) (2) (2) (3) (3) (3) (3) (3) (3) (2).png} | Bin
+ ..._6 (1) (2) (2) (3) (3) (3) (3) (3) (3) (3).png} | Bin
+ ...1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (1).png} | Bin
+ ...1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (2).png} | Bin
+ ...1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (3).png} | Bin
+ ...1) (1) (1) (1) (1) (2) (3) (4) (4) (4) (4).png} | Bin
+ SUMMARY.md                                         |   2 +-
+ .../hll/knowledge_aquamarine_air.md                |   2 +-
+ tutorials_tutorials/add-your-own-builtin.md        |  44 ++++++++++++++++++---
+ 13 files changed, 41 insertions(+), 7 deletions(-)
+
+commit 0e688bf8420f0ce3c756fb8849418c04e5b27a46
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Jun 18 10:28:10 2021 -0500
+
+    move to builtins variant
+
+ tutorials_tutorials/deploy-builtins.md | 64 ----------------------------------
+ 1 file changed, 64 deletions(-)
+
+commit 240de99f24e98596aff453211f6578292bb2c77a
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 18 15:26:43 2021 +0000
+
+    GitBook: [builtins] 2 pages modified
+
+ .../hll/knowledge_aquamarine_air.md                |  2 +-
+ tutorials_tutorials/add-your-own-builtin.md        | 63 ++++++++++++++++++++++
+ 2 files changed, 64 insertions(+), 1 deletion(-)
+
+commit b693e205f4aa91a502a21f247c3a0050c48e3fc9
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 18 15:26:42 2021 +0000
+
+    GitBook: [main] one page modified
+
+ .../knowledge_aquamarine/hll/knowledge_aquamarine_air.md                | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 442ef20eb32c29a909339ad4d7e9d20933a304a5
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 18 15:26:28 2021 +0000
+
+    GitBook: [builtins] 57 pages and 20 assets modified
+
+ ...g => air_fold_4 (1) (2) (2) (3) (3) (3) (3) (3) (1).png} | Bin
+ ...g => air_fold_4 (1) (2) (2) (3) (3) (3) (3) (3) (2).png} | Bin
+ ...g => air_fold_4 (1) (2) (2) (3) (3) (3) (3) (3) (3).png} | Bin
+ ...g => air_null_6 (1) (2) (2) (3) (3) (3) (3) (3) (1).png} | Bin
+ ...g => air_null_6 (1) (2) (2) (3) (3) (3) (3) (3) (2).png} | Bin
+ ...g => air_null_6 (1) (2) (2) (3) (3) (3) (3) (3) (3).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (1).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (2).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (3).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4).png} | Bin
+ SUMMARY.md                                                  |   1 +
+ .../knowledge_aquamarine/hll/knowledge_aquamarine_air.md    |   2 +-
+ tutorials_tutorials/add-your-own-builtin.md                 |   2 ++
+ 13 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 043c7a5e8a78d75f18a224bfc36e84ff89472768
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 18 15:26:27 2021 +0000
+
+    GitBook: [main] 55 pages and 20 assets modified
+
+ ...g => air_fold_4 (1) (2) (2) (3) (3) (3) (3) (3) (1).png} | Bin
+ ...g => air_fold_4 (1) (2) (2) (3) (3) (3) (3) (3) (2).png} | Bin
+ ...g => air_fold_4 (1) (2) (2) (3) (3) (3) (3) (3) (3).png} | Bin
+ ...g => air_null_6 (1) (2) (2) (3) (3) (3) (3) (3) (1).png} | Bin
+ ...g => air_null_6 (1) (2) (2) (3) (3) (3) (3) (3) (2).png} | Bin
+ ...g => air_null_6 (1) (2) (2) (3) (3) (3) (3) (3) (3).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (1).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (2).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (3).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (4) (4).png} | Bin
+ .../knowledge_aquamarine/hll/knowledge_aquamarine_air.md    |   2 +-
+ 11 files changed, 1 insertion(+), 1 deletion(-)
+
+commit 73402c2a2d5d3577d0bb5ee3b9f689503f5e5396
+Merge: 7c656a4 7e0ba3b
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Jun 18 10:18:20 2021 -0500
+
+    Merge pull request #12 from fluencelabs/builtins_deployment
+    
+    wip: add builtins deployment tutorial
+
+commit 7e0ba3b5f1a75cd759260f754e31ad32947594d0
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Jun 17 19:32:48 2021 +0300
+
+    wip: add builtins deployment tutorial
+
+ tutorials_tutorials/deploy-builtins.md | 64 ++++++++++++++++++++++++++++++++++
+ 1 file changed, 64 insertions(+)
+
+commit 7c656a45c17486e0ed9f5f804ac6ed8dd52934b3
+Merge: f10cc10 aebd29a
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Jun 11 18:47:47 2021 -0500
+
+    Merge pull request #11 from fluencelabs/marine
+    
+    Marine updates
+
+commit aebd29a3cfc925b07b96fa00d6183de5abf5330a
+Merge: 1de5294 f10cc10
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Jun 11 18:47:20 2021 -0500
+
+    Merge branch 'main' into marine
+
+commit f10cc106e7d16687a06702d7f3396d3070537ff1
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 23:15:29 2021 +0000
+
+    GitBook: [main] 56 pages modified
+
+ SUMMARY.md                                         | 10 ++--
+ .../knowledge_aquamarine/hll/README.md             |  6 +++
+ .../hll/knowledge_aquamarine_air.md                | 55 ++++++++++++++++++++++
+ knowledge_knowledge/knowledge_aquamarine/hll/vm.md |  2 +
+ .../knowledge_aquamarine/marine/marine-cli.md      | 35 ++++++++++++++
+ .../knowledge_aquamarine/marine/marine-repl.md     | 35 ++++++++++++++
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 46 ++++++++++++++----
+ knowledge_knowledge/knowledge_tools.md             | 21 ++++++---
+ .../quick_start_building_from_multiple_services.md |  2 +-
+ 9 files changed, 192 insertions(+), 20 deletions(-)
+
+commit 1de5294799b8fc99a0ea25d1017ae60179703d13
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 22:51:35 2021 +0000
+
+    GitBook: [marine] 55 pages modified
+
+ knowledge_knowledge/knowledge_aquamarine/marine/marine-cli.md  | 6 +++++-
+ knowledge_knowledge/knowledge_aquamarine/marine/marine-repl.md | 2 +-
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+commit f7cabea83cc8ea9b9be73a288b44d74ba4b399d5
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 22:18:33 2021 +0000
+
+    GitBook: [marine] one page modified
+
+ knowledge_knowledge/knowledge_aquamarine/marine/marine-rs-sdk.md | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit 3d93e61cb389545e197ae05388a8f9670cbcac12
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 22:18:02 2021 +0000
+
+    GitBook: [marine] 56 pages and 30 assets modified
+
+ ...air_fold_4 (1) (2) (2) (3) (3) (3) (3) (1).png} | Bin
+ ...air_fold_4 (1) (2) (2) (3) (3) (3) (3) (2).png} | Bin
+ ...air_fold_4 (1) (2) (2) (3) (3) (3) (3) (3).png} | Bin
+ ... => air_fold_4 (1) (2) (2) (3) (3) (3) (3).png} | Bin
+ ...air_null_6 (1) (2) (2) (3) (3) (3) (3) (1).png} | Bin
+ ...air_null_6 (1) (2) (2) (3) (3) (3) (3) (2).png} | Bin
+ ...air_null_6 (1) (2) (2) (3) (3) (3) (3) (3).png} | Bin
+ ... => air_null_6 (1) (2) (2) (3) (3) (3) (3).png} | Bin
+ ...tial_2 (1) (1) (1) (1) (1) (2) (3) (4) (1).png} | Bin
+ ...tial_2 (1) (1) (1) (1) (1) (2) (3) (4) (2).png} | Bin
+ ...tial_2 (1) (1) (1) (1) (1) (2) (3) (4) (3).png} | Bin
+ ...tial_2 (1) (1) (1) (1) (1) (2) (3) (4) (4).png} | Bin
+ ...quential_2 (1) (1) (1) (1) (1) (2) (3) (4).png} | Bin
+ .../{image (5).png => image (6) (1) (1).png}       | Bin
+ .../assets/{image (6).png => image (6) (1).png}    | Bin
+ README.md                                          |   2 +-
+ SUMMARY.md                                         |  12 +-
+ .../knowledge_aquamarine/hll/README.md             |   6 +
+ .../hll/knowledge_aquamarine_air.md                |  55 +++
+ knowledge_knowledge/knowledge_aquamarine/hll/vm.md |   2 +
+ .../knowledge_aquamarine/marine/README.md          |  16 +
+ .../knowledge_aquamarine/marine/marine-cli.md      |  31 ++
+ .../knowledge_aquamarine/marine/marine-repl.md     |  35 ++
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 541 +++++++++++++++++++++
+ knowledge_knowledge/knowledge_concepts.md          |   2 +-
+ knowledge_knowledge/knowledge_tools.md             |  21 +-
+ .../quick_start_building_from_multiple_services.md |   2 +-
+ quick_start/quick_start_setup.md                   |   8 +-
+ 28 files changed, 715 insertions(+), 18 deletions(-)
+
+commit fbb42a97fa0edab96abee6a3233d6a16654378dd
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 18:04:41 2021 +0000
+
+    GitBook: [main] one page modified
+
+ knowledge_knowledge/knowledge_aquamarine/marine/marine-rs-sdk.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit aa575ab9a75c940ad46af6132ca6c323dbc3eb7f
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 18:00:45 2021 +0000
+
+    GitBook: [main] one page modified
+
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 29 +++++++++++++++++++++-
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+
+commit 832dfd4c712934592e65febb39e557824f2b0b14
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 17:24:38 2021 +0000
+
+    GitBook: [main] 53 pages modified
+
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md       | 18 +++++++++++++++---
+ 1 file changed, 15 insertions(+), 3 deletions(-)
+
+commit 170d601cf44045ebfc3996aaebd36a342bada977
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 07:33:09 2021 +0000
+
+    GitBook: [main] 53 pages modified
+
+ knowledge_knowledge/knowledge_aquamarine/marine/marine-rs-sdk.md | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit f7b0e7a703442760c0908d5f9bcc6737d182aab0
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 07:31:57 2021 +0000
+
+    GitBook: [main] 53 pages modified
+
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 48 ++++++++++++++++++----
+ 1 file changed, 39 insertions(+), 9 deletions(-)
+
+commit 0c270c551d580d8a55a106b5a925569dcb95f051
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 07:21:09 2021 +0000
+
+    GitBook: [main] 53 pages modified
+
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 35 +++++++++++++++++++++-
+ 1 file changed, 34 insertions(+), 1 deletion(-)
+
+commit 2eaab3679631016555f82c44107c3a5846e88403
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 06:52:29 2021 +0000
+
+    GitBook: [main] 2 pages modified
+
+ SUMMARY.md                                    | 1 -
+ knowledge_knowledge/fluence-compute-engine.md | 6 ------
+ 2 files changed, 7 deletions(-)
+
+commit 3c2360eade742c1ea754dbeb36fbf85aad20b150
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 01:48:13 2021 +0000
+
+    GitBook: [main] 54 pages modified
+
+ knowledge_knowledge/knowledge_aquamarine/hll.md                      | 2 +-
+ knowledge_knowledge/knowledge_aquamarine/knowledge_aquamarine_air.md | 2 +-
+ knowledge_knowledge/knowledge_aquamarine/marine/marine-rs-sdk.md     | 4 +---
+ knowledge_knowledge/knowledge_aquamarine/vm.md                       | 2 +-
+ 4 files changed, 4 insertions(+), 6 deletions(-)
+
+commit 0e966ac367e10ef03f8530693dc6934b84e370cb
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 01:17:20 2021 +0000
+
+    GitBook: [main] 54 pages modified
+
+ knowledge_knowledge/knowledge_aquamarine/hll.md    |  2 +-
+ .../knowledge_aquamarine_air.md                    |  2 +-
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 64 ++++++++++++++++++++++
+ knowledge_knowledge/knowledge_aquamarine/vm.md     |  2 +-
+ 4 files changed, 67 insertions(+), 3 deletions(-)
+
+commit ccf7c7d19fc24deaf1ba3dc0f40f97599e441816
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri Jun 11 00:42:32 2021 +0000
+
+    GitBook: [main] 54 pages modified
+
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 36 ++++++++++++++++++++++
+ 1 file changed, 36 insertions(+)
+
+commit 6d83f7883770c23291d3e3ba3cb298c78f2edc7b
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Jun 10 19:39:23 2021 +0000
+
+    GitBook: [main] 54 pages modified
+
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 220 ++++++++++++++++++++-
+ 1 file changed, 218 insertions(+), 2 deletions(-)
+
+commit a1c432d5029549f0bb91c7fa3f920759a26874b1
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Jun 10 18:40:38 2021 +0000
+
+    GitBook: [main] one page modified
+
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md               | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+commit 85c51c7d34d1b4e52f436142938baf3e2425d247
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Jun 10 18:39:02 2021 +0000
+
+    GitBook: [main] 54 pages modified
+
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 25 ++++++++++++++++++++++
+ 1 file changed, 25 insertions(+)
+
+commit e40e42e326581a03856bf93b6709d40a92c66733
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Jun 10 18:21:19 2021 +0000
+
+    GitBook: [main] 54 pages modified
+
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 33 ++++++++++++++++++++++
+ 1 file changed, 33 insertions(+)
+
+commit 65e54c22202b9bfc4011c77f81653862de8548da
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Jun 10 18:10:40 2021 +0000
+
+    GitBook: [main] 55 pages modified
+
+ SUMMARY.md                                         |  3 ++-
+ .../knowledge_aquamarine/marine/README.md          | 16 +++++++++++++
+ .../knowledge_aquamarine/marine/marine-rs-sdk.md   | 26 ++++++++++++++++++++++
+ 3 files changed, 44 insertions(+), 1 deletion(-)
+
+commit 9e12bbc50035255af08bf1f44a8a63f0fca5c3c6
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Jun 10 17:50:12 2021 +0000
+
+    GitBook: [main] 54 pages and 22 assets modified
+
+ ...g => air_fold_4 (1) (2) (2) (3) (3) (3) (3) (1).png} | Bin
+ ...g => air_fold_4 (1) (2) (2) (3) (3) (3) (3) (2).png} | Bin
+ ...g => air_fold_4 (1) (2) (2) (3) (3) (3) (3) (3).png} | Bin
+ ...g => air_null_6 (1) (2) (2) (3) (3) (3) (3) (1).png} | Bin
+ ...g => air_null_6 (1) (2) (2) (3) (3) (3) (3) (2).png} | Bin
+ ...g => air_null_6 (1) (2) (2) (3) (3) (3) (3) (3).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (1).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (2).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (3).png} | Bin
+ ...equential_2 (1) (1) (1) (1) (1) (2) (3) (4) (4).png} | Bin
+ .../assets/{image (6).png => image (6) (1) (1).png}     | Bin
+ SUMMARY.md                                              |   5 +++--
+ knowledge_knowledge/knowledge_aquamarine/hll.md         |   2 +-
+ .../knowledge_aquamarine/knowledge_aquamarine_air.md    |   2 +-
+ knowledge_knowledge/knowledge_aquamarine/marine.md      |  16 ++++++++++++++++
+ knowledge_knowledge/knowledge_aquamarine/vm.md          |   2 +-
+ 16 files changed, 22 insertions(+), 5 deletions(-)
+
+commit 6c0f19e332d9d64f48bfdd99e69ae3bbfd2a4125
+Merge: 9419236 7965c12
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Jun 3 06:41:39 2021 -0500
+
+    Merge pull request #10 from auser/patch-1
+    
+    Update knowledge_concepts.md
+
+commit 9419236becea47e7828e05e34775c9d671f3cde0
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Sat May 29 15:03:26 2021 +0000
+
+    GitBook: [main] 2 pages and 22 assets modified
+
+ ...) (1).png => air_fold_4 (1) (2) (2) (3) (3) (3) (1).png} | Bin
+ ...) (2).png => air_fold_4 (1) (2) (2) (3) (3) (3) (2).png} | Bin
+ ...) (3).png => air_fold_4 (1) (2) (2) (3) (3) (3) (3).png} | Bin
+ ...) (1).png => air_null_6 (1) (2) (2) (3) (3) (3) (1).png} | Bin
+ ...) (2).png => air_null_6 (1) (2) (2) (3) (3) (3) (2).png} | Bin
+ ...) (3).png => air_null_6 (1) (2) (2) (3) (3) (3) (3).png} | Bin
+ ...=> air_sequential_2 (1) (1) (1) (1) (1) (2) (3) (1).png} | Bin
+ ...=> air_sequential_2 (1) (1) (1) (1) (1) (2) (3) (2).png} | Bin
+ ...=> air_sequential_2 (1) (1) (1) (1) (1) (2) (3) (3).png} | Bin
+ ...=> air_sequential_2 (1) (1) (1) (1) (1) (2) (3) (4).png} | Bin
+ .gitbook/assets/{image (5).png => image (6) (1).png}        | Bin
+ README.md                                                   |   2 +-
+ .../knowledge_aquamarine/knowledge_aquamarine_air.md        |   2 +-
+ 13 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 771b3ad66727135c4dd64f05b2be9fa2cc62f45b
+Merge: 972dd5c 22ab511
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat May 29 10:01:46 2021 -0500
+
+    Merge pull request #6 from dzmitry-lahoda/patch-3
+    
+    fce -> marine 2
+
+commit 972dd5cbf8782959cc2032898934b1bf5d58216e
+Merge: c8871bd 26508d8
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat May 29 09:59:49 2021 -0500
+
+    Merge pull request #5 from dzmitry-lahoda/patch-2
+    
+    fce -> marine
+
+commit 22ab51165d62ab6cff42e8318c252b62b67cb7ac
+Author: Dzmitry Lahoda <dzmitry@lahoda.pro>
+Date:   Sat May 29 17:56:00 2021 +0300
+
+    Update quick_start_setup.md
+
+ quick_start/quick_start_setup.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 09dde89d1db0d572d249f8709e72339c02096495
+Author: Dzmitry Lahoda <dzmitry@lahoda.pro>
+Date:   Sat May 29 17:51:47 2021 +0300
+
+    fce -> marine 2
+
+ quick_start/quick_start_setup.md | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 26508d859cc2bbcf4be7ba90db105812f12f6fef
+Author: Dzmitry Lahoda <dzmitry@lahoda.pro>
+Date:   Sat May 29 17:28:07 2021 +0300
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d5854f2f314c0fa1db5144312587903ccc9f1798
+Author: Dzmitry Lahoda <dzmitry@lahoda.pro>
+Date:   Sat May 29 17:26:36 2021 +0300
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7965c129bdf705a280f63d17f8ad90020420234d
+Author: Ari <me@ari.io>
+Date:   Fri May 28 09:59:42 2021 -0400
+
+    Update knowledge_concepts.md
+    
+    Fixed mispelling
+
+ knowledge_knowledge/knowledge_concepts.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d587d1b9d8776d543fac3c4befeb09c4d9d29fd7
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed May 19 23:53:42 2021 +0000
+
+    GitBook: [js-sdk] 53 pages modified
+
+commit c8871bd0fb4a1366077238983769d294824ba95d
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed May 19 23:53:40 2021 +0000
+
+    GitBook: [main] 52 pages modified
+
+commit fa7b23672ac711cc1691799affc7d632051607af
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed May 19 21:45:37 2021 +0000
+
+    GitBook: [js-sdk] 53 pages modified
+
+commit 7c73f75f2f99d5a30fe45f98170a2968fa693ed8
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed May 19 21:45:36 2021 +0000
+
+    GitBook: [main] 52 pages modified
+
+commit d1df8dccd592705146c8a174583122976b6b04a8
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed May 19 20:10:50 2021 +0000
+
+    GitBook: [js-sdk] 53 pages modified
+
+commit ae794f481a688b27e18a3ca9ea0c42287eb7077a
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed May 19 20:10:49 2021 +0000
+
+    GitBook: [main] 52 pages modified
+
+commit cb6fe56ec5e7a2d7beb9666ce6a1a82379179504
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed May 19 19:20:13 2021 +0000
+
+    GitBook: [js-sdk] 53 pages modified
+
+commit 7171d3debbe6d6fc8097fe5078164f9e56b7a423
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed May 19 19:20:11 2021 +0000
+
+    GitBook: [main] 52 pages modified
+
+commit e001eda98828d857593e62e0def830090f8426bf
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 14 08:53:13 2021 +0000
+
+    GitBook: [main] 52 pages modified
+
+commit e34af005478380d12e069e218fe9a212df3422f1
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 14 08:53:12 2021 +0000
+
+    GitBook: [js-sdk] 53 pages modified
+
+commit 86249bed8d4cc5db12cbad49a823fc348173bf56
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 14 06:28:12 2021 +0000
+
+    GitBook: [main] 52 pages modified
+
+commit 4a091b551a4c9d79d56b62c10dee8ff1254ad0c7
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 14 06:28:11 2021 +0000
+
+    GitBook: [js-sdk] 53 pages modified
+
+commit 2a07589c988863b59508acbdbbab3f792d385f28
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 14 05:28:12 2021 +0000
+
+    GitBook: [js-sdk] 53 pages modified
+
+commit 52beb8a8eed4661bf6ee5cbc9a833f810c4ec3ae
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 14 05:28:11 2021 +0000
+
+    GitBook: [main] 52 pages modified
+
+commit 7740af72e9b830d9e463d1f7c99ba2f8af6918e4
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 14 00:18:00 2021 +0000
+
+    GitBook: [main] 52 pages and 2 assets modified
+
+ .gitbook/assets/image (5).png | Bin 0 -> 68908 bytes
+ .gitbook/assets/image (6).png | Bin 0 -> 68908 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 007086e4357ae43c1a992f7028fb24446af09d08
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 14 00:17:59 2021 +0000
+
+    GitBook: [js-sdk] 53 pages and 2 assets modified
+
+ .gitbook/assets/image (5).png | Bin 0 -> 68908 bytes
+ .gitbook/assets/image (6).png | Bin 0 -> 68908 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f68ecb475faaba7000d615bd0301ac0eaced3568
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon May 10 00:11:43 2021 +0000
+
+    GitBook: [js-sdk] 53 pages modified
+
+commit 9001aa511f338de1f46b0c9d0d9305a2bec89b36
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon May 10 00:11:42 2021 +0000
+
+    GitBook: [main] 53 pages modified
+
+ SUMMARY.md | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit c901c6318330e211710a535b3750bda243bd8f73
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon May 10 00:11:11 2021 +0000
+
+    GitBook: [js-sdk] 53 pages and 17 assets modified
+
+ ...(1).png => air_fold_4 (1) (2) (2) (3) (3) (1).png} | Bin
+ ...(2).png => air_fold_4 (1) (2) (2) (3) (3) (2).png} | Bin
+ ...(3).png => air_fold_4 (1) (2) (2) (3) (3) (3).png} | Bin
+ ...(1).png => air_null_6 (1) (2) (2) (3) (3) (1).png} | Bin
+ ...(2).png => air_null_6 (1) (2) (2) (3) (3) (2).png} | Bin
+ ...(3).png => air_null_6 (1) (2) (2) (3) (3) (3).png} | Bin
+ ... air_sequential_2 (1) (1) (1) (1) (1) (2) (1).png} | Bin
+ ... air_sequential_2 (1) (1) (1) (1) (1) (2) (2).png} | Bin
+ .../air_sequential_2 (1) (1) (1) (1) (1) (2) (3).png  | Bin 0 -> 88135 bytes
+ building-a-frontend-with-js-sdk.md                    |  18 ++++++++++--------
+ 10 files changed, 10 insertions(+), 8 deletions(-)
+
+commit 83a0ab26847de6ce86fa422733bd662a651a79df
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon May 10 00:11:10 2021 +0000
+
+    GitBook: [main] 53 pages and 17 assets modified
+
+ ...(1).png => air_fold_4 (1) (2) (2) (3) (3) (1).png} | Bin
+ ...(2).png => air_fold_4 (1) (2) (2) (3) (3) (2).png} | Bin
+ ...(3).png => air_fold_4 (1) (2) (2) (3) (3) (3).png} | Bin
+ ...(1).png => air_null_6 (1) (2) (2) (3) (3) (1).png} | Bin
+ ...(2).png => air_null_6 (1) (2) (2) (3) (3) (2).png} | Bin
+ ...(3).png => air_null_6 (1) (2) (2) (3) (3) (3).png} | Bin
+ ... air_sequential_2 (1) (1) (1) (1) (1) (2) (1).png} | Bin
+ ... air_sequential_2 (1) (1) (1) (1) (1) (2) (2).png} | Bin
+ .../air_sequential_2 (1) (1) (1) (1) (1) (2) (3).png  | Bin 0 -> 88135 bytes
+ building-a-frontend-with-js-sdk.md                    |  18 ++++++++++--------
+ 10 files changed, 10 insertions(+), 8 deletions(-)
+
+commit c1123908a48b76279fb56232bac52b73aa5ac8c1
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Sat May 8 00:47:49 2021 +0000
+
+    GitBook: [main] 53 pages modified
+
+commit b383a8a319b1e69901ff54dce6466c4f0eb748a9
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Sat May 8 00:47:34 2021 +0000
+
+    GitBook: [main] 53 pages and 14 assets modified
+
+ ... (1).png => air_fold_4 (1) (2) (2) (3) (1).png} | Bin
+ ... (2).png => air_fold_4 (1) (2) (2) (3) (2).png} | Bin
+ ... (2).png => air_fold_4 (1) (2) (2) (3) (3).png} | Bin
+ ... (1).png => air_null_6 (1) (2) (2) (3) (1).png} | Bin
+ ... (2).png => air_null_6 (1) (2) (2) (3) (2).png} | Bin
+ ... (2).png => air_null_6 (1) (2) (2) (3) (3).png} | Bin
+ .../air_sequential_2 (1) (1) (1) (1) (1) (1).png   | Bin 0 -> 88135 bytes
+ .../air_sequential_2 (1) (1) (1) (1) (1) (2).png   | Bin 0 -> 88135 bytes
+ building-a-frontend-with-js-sdk.md                 |  63 +++++++++------------
+ development_development/development_overview.md    |   2 -
+ .../development_additional_concepts.md             |   7 +--
+ .../development_eth_calls.md                       |   3 -
+ .../development_persisting_blocks.md               |   1 -
+ .../development_sqlite.md                          |   3 -
+ .../developmet_build_modules.md                    |   5 --
+ development_development/summary.md                 |   2 -
+ knowledge_knowledge/knowledge_aquamarine/README.md |   1 -
+ knowledge_knowledge/knowledge_aquamarine/hll.md    |   2 +-
+ .../knowledge_aquamarine_air.md                    |   5 +-
+ knowledge_knowledge/knowledge_tools.md             |   3 +-
+ .../node/knowledge_node_services.md                |   9 +--
+ p2p.md                                             |   4 +-
+ quick_start/quick_start_add_persistence/README.md  |   3 +-
+ .../quick_start_persistence_crud.md                |   1 -
+ .../quick_start_building_from_multiple_services.md |   2 +-
+ quick_start/quick_start_using_a_service.md         |   2 +-
+ recipes_recipes/recipes_curl.md                    |   2 -
+ research-papers-and-references.md                  |   1 -
+ tutorials_tutorials/README.md                      |   1 +
+ 29 files changed, 40 insertions(+), 82 deletions(-)
+
+commit 84e814d02d9299034c9c031adf7f081bb59898b9
+Merge: 96022bd 90e84a9
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri May 7 19:43:07 2021 -0500
+
+    Merge pull request #3 from fluencelabs/docs
+    
+    Docs
+
+commit 90e84a9772b54306ea74a6c672db5eb6b5e044ad
+Merge: e824ad2 96022bd
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri May 7 19:41:39 2021 -0500
+
+    Merge branch 'main' into docs
+
+commit e824ad2e2f92a6540c0d8ab8f56386198f9c771d
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 7 23:44:25 2021 +0000
+
+    GitBook: [docs] 2 pages modified
+
+ building-a-frontend-with-js-sdk.md                 | 49 ++++++++++++----------
+ .../knowledge_aquamarine_air.md                    |  6 +--
+ 2 files changed, 31 insertions(+), 24 deletions(-)
+
+commit 4d6f33b6f398447817e03e0e04eb1e83a6d8d61b
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 7 23:41:07 2021 +0000
+
+    GitBook: [docs] 53 pages and 12 assets modified
+
+ ... (2) (1).png => air_fold_4 (1) (2) (2) (1).png} | Bin
+ ... (1) (2).png => air_fold_4 (1) (2) (2) (2).png} | Bin
+ .gitbook/assets/air_fold_4 (1) (2) (2) (3).png     | Bin 0 -> 44449 bytes
+ ... (2) (1).png => air_null_6 (1) (2) (2) (1).png} | Bin
+ ... (1) (2).png => air_null_6 (1) (2) (2) (2).png} | Bin
+ .gitbook/assets/air_null_6 (1) (2) (2) (3).png     | Bin 0 -> 42431 bytes
+ ...ng => air_sequential_2 (1) (1) (1) (1) (1).png} | Bin
+ building-a-frontend-with-js-sdk.md                 |  49 +++++++++------------
+ .../knowledge_aquamarine_air.md                    |   6 +--
+ 9 files changed, 24 insertions(+), 31 deletions(-)
+
+commit 96022bd593e3440f6152d27f7991a9c29a58a365
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Fri May 7 23:41:06 2021 +0000
+
+    GitBook: [main] 54 pages and 18 assets modified
+
+ ... (1) (1).png => air_fold_4 (1) (2) (2) (1).png} | Bin
+ ... (1) (2).png => air_fold_4 (1) (2) (2) (2).png} | Bin
+ ...ld_4 (1).png => air_fold_4 (1) (2) (2) (3).png} | Bin
+ .gitbook/assets/air_fold_4 (1) (2) (2).png         | Bin 0 -> 44449 bytes
+ ... (1) (1).png => air_null_6 (1) (2) (2) (1).png} | Bin
+ ... (1) (2).png => air_null_6 (1) (2) (2) (2).png} | Bin
+ ...ll_6 (1).png => air_null_6 (1) (2) (2) (3).png} | Bin
+ .gitbook/assets/air_null_6 (1) (2) (2).png         | Bin 0 -> 42431 bytes
+ ...ng => air_sequential_2 (1) (1) (1) (1) (1).png} | Bin
+ ...1).png => air_sequential_2 (1) (1) (1) (1).png} | Bin
+ .../knowledge_aquamarine_air.md                    |   6 +++---
+ .../node/knowledge_node_services.md                |  24 ++++++++++-----------
+ 12 files changed, 15 insertions(+), 15 deletions(-)
+
+commit 73b969b08dde9c3ac77272e3e3a72ee1f731abf1
+Merge: b7116da 4719c09
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Fri May 7 19:11:05 2021 +0300
+
+    Merge pull request #2 from fluencelabs/js-docs-docs
+    
+    Tutorial on building frontend apps with JS SDK
+
+commit 4719c09ff4bcc93f266b5503a4b7aee11a0e5fdf
+Author: Pavel Murygin <pavel.murygin@gmail.com>
+Date:   Fri May 7 19:09:05 2021 +0300
+
+    Tutorial on building frontend apps with JS SDK
+
+ building-a-frontend-with-js-sdk.md | 247 ++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 246 insertions(+), 1 deletion(-)
+
+commit 0a5a7f62c8af86c15c2c39a3a6620b4aa3fc39d2
+Author: Pavel Murygin <pavel.murygin@gmail.com>
+Date:   Fri May 7 18:58:14 2021 +0300
+
+    Revert "Merge pull request #1 from fluencelabs/js-sdk-docs"
+    
+    This reverts commit 6b65c5b07927c4741e3a70ff945b1087e0337bb9, reversing
+    changes made to 7cd577abd55e59ceb68070f699ee1bd21327f7f7.
+
+ building-a-frontend-with-js-sdk.md | 247 +------------------------------------
+ 1 file changed, 1 insertion(+), 246 deletions(-)
+
+commit 6b65c5b07927c4741e3a70ff945b1087e0337bb9
+Merge: 7cd577a 3c58c11
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Fri May 7 18:21:59 2021 +0300
+
+    Merge pull request #1 from fluencelabs/js-sdk-docs
+    
+    Tutorial on building frontend apps with JS SDK
+
+commit 3c58c11cdb732d96aaab33d24732db253e4d867d
+Author: Pavel Murygin <pavel.murygin@gmail.com>
+Date:   Thu Apr 29 22:59:48 2021 +0300
+
+    Tutorial on building frontend apps with JS SDK
+
+ building-a-frontend-with-js-sdk.md | 252 ++++++++++++++++++++++++++++++++++---
+ 1 file changed, 235 insertions(+), 17 deletions(-)
+
+commit 66553b4c0da5de9cc9fe89fe85f74e4f67718be9
+Author: Pavel Murygin <pavel.murygin@gmail.com>
+Date:   Wed Apr 28 19:41:50 2021 +0300
+
+    wrote some text (100% WIP)
+
+ building-a-frontend-with-js-sdk.md | 29 ++++++++++++++++++++++++++++-
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+
+commit b7116da34d119373adf283d5a006e54e4d846ddc
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Apr 22 14:38:20 2021 +0000
+
+    GitBook: [docs] one page modified
+
+ development_development/developmet_build_modules.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 3dd50fbe0bc41d293addf72ecf9d5c5e49970990
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Apr 22 14:30:12 2021 +0000
+
+    GitBook: [docs] 53 pages modified
+
+ development_development/developmet_build_modules.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 90ecffeb9cce271ff3d83f197e434c2ffedf8e75
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Apr 22 14:24:47 2021 +0000
+
+    GitBook: [docs] 6 pages and 10 assets modified
+
+ ...ld_4 (1) (1).png => air_fold_4 (1) (2) (1).png} | Bin
+ ...r_fold_4 (1).png => air_fold_4 (1) (2) (2).png} | Bin
+ ...ll_6 (1) (1).png => air_null_6 (1) (2) (1).png} | Bin
+ ...r_null_6 (1).png => air_null_6 (1) (2) (2).png} | Bin
+ ...1).png => air_sequential_2 (1) (1) (1) (1).png} | Bin
+ .../development_additional_concepts.md             |   6 +-
+ .../developmet_build_modules.md                    |   2 +-
+ .../knowledge_aquamarine_air.md                    |   6 +-
+ .../node/knowledge_node_services.md                |  97 ++++++++++-----------
+ quick_start/quick_start_using_a_service.md         |  17 ++--
+ research-papers-and-references.md                  |   5 +-
+ 11 files changed, 71 insertions(+), 62 deletions(-)
+
+commit 6a4bfeef82bee78a06da1127a850bfc230236b5f
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Apr 21 14:40:23 2021 +0300
+
+    clojure => scheme
+
+ .../node/knowledge_node_services.md                | 44 +++++++++++-----------
+ 1 file changed, 22 insertions(+), 22 deletions(-)
+
+commit d6d8971695140adcacf333b9189af8c4a52af1b7
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Apr 21 14:36:43 2021 +0300
+
+    fix syntax highlighting
+
+ .../node/knowledge_node_services.md                | 67 +++++++++++-----------
+ 1 file changed, 32 insertions(+), 35 deletions(-)
+
+commit 9f2ce45f32fd88a800dabc4958f6bd0c9aa28622
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Apr 21 14:34:49 2021 +0300
+
+    move headers up by one level
+
+ .../node/knowledge_node_services.md                | 48 +++++++++++-----------
+ 1 file changed, 23 insertions(+), 25 deletions(-)
+
+commit 9e882f020f0535b80b6fa255d615ef46013920f9
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Apr 21 14:31:46 2021 +0300
+
+    fix headers in node services
+
+ .../node/knowledge_node_services.md                | 44 +++++++++++-----------
+ 1 file changed, 22 insertions(+), 22 deletions(-)
+
+commit 7cd577abd55e59ceb68070f699ee1bd21327f7f7
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Apr 21 14:26:34 2021 +0300
+
+    Fix headers in node services
+
+ .../node/knowledge_node_services.md                | 44 +++++++++++-----------
+ 1 file changed, 22 insertions(+), 22 deletions(-)
+
+commit 6188fd8bcee4166ce54ad5bee010c42c65158879
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Tue Apr 13 14:40:49 2021 +0000
+
+    GitBook: [docs] 53 pages modified
+
+ .../knowledge_aquamarine_air.md                    | 32 +++++++++++-----------
+ 1 file changed, 16 insertions(+), 16 deletions(-)
+
+commit 07020f5ef05d2f180da57d4abbe9211a97cdb10d
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Tue Apr 13 13:55:56 2021 +0000
+
+    GitBook: [docs] one page modified
+
+ knowledge_knowledge/knowledge_security.md | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit 1fd532ec38928b616dd8f7316ab9266e6ac3e097
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed Apr 7 20:37:43 2021 +0000
+
+    GitBook: [docs] 53 pages modified
+
+ knowledge_knowledge/knowledge_aquamarine/README.md | 10 ++--------
+ 1 file changed, 2 insertions(+), 8 deletions(-)
+
+commit 6496709248c55416aeae17e78618e6131b991981
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed Apr 7 20:06:29 2021 +0000
+
+    GitBook: [docs] one page modified
+
+ knowledge_knowledge/knowledge_aquamarine/README.md | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit 639a68321dcca0979ef81bbd42fc5afa82db7920
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed Apr 7 01:58:42 2021 +0000
+
+    GitBook: [docs] one page modified
+
+ tutorials_tutorials/README.md | 6 ------
+ 1 file changed, 6 deletions(-)
+
+commit c26e6d39233976d793ab14e915eb912335ccf5f9
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Thu Apr 1 01:28:58 2021 +0000
+
+    GitBook: [docs] one page modified
+
+ .../quick_start_add_persistence/quick_start_persistence_crud.md   | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 127c10adc01bbd65a843531ab45918a7c6e8c5f4
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed Mar 31 21:03:42 2021 +0000
+
+    GitBook: [docs] one page modified
+
+ recipes_recipes/recipes_curl.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit a7ce30f085d5f1c9139c2bda271eac754887688b
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed Mar 31 21:01:58 2021 +0000
+
+    GitBook: [main] one page modified
+
+ .../knowledge_aquamarine/knowledge_aquamarine_air.md                | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit b2370610e3d811aaf489b65c92dd052b462539dc
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed Mar 31 21:01:56 2021 +0000
+
+    GitBook: [docs] 6 pages modified
+
+ SUMMARY.md                                              |  2 +-
+ .../development_additional_concepts.md                  |  6 +++---
+ .../knowledge_aquamarine/knowledge_aquamarine_air.md    |  4 ++--
+ quick_start/quick_start_using_a_service.md              | 17 +++++------------
+ recipes_recipes/recipes_curl.md                         |  2 +-
+ research-papers-and-references.md                       |  5 +----
+ 6 files changed, 13 insertions(+), 23 deletions(-)
+
+commit 2e7ec5a020da71ae9a0dd181aefdc2d35ef535a1
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed Mar 31 20:58:54 2021 +0000
+
+    GitBook: [main] 54 pages and 6 assets modified
+
+ .../{air_fold_4.png => air_fold_4 (1) (2).png}     | Bin
+ .../{air_null_6.png => air_null_6 (1) (2).png}     | Bin
+ ..._2 (1).png => air_sequential_2 (1) (1) (1).png} | Bin
+ README.md                                          |  24 +++++++++++++++++++++
+ .../knowledge_aquamarine_air.md                    |   6 +++---
+ 5 files changed, 27 insertions(+), 3 deletions(-)
+
+commit d48b8508f5f45a8a64973304cbd36784f98b3c97
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed Mar 31 20:58:53 2021 +0000
+
+    GitBook: [docs] 54 pages modified
+
+ SUMMARY.md                         |  2 +-
+ development_development/summary.md | 12 ++++++++++++
+ research-papers-and-references.md  |  5 ++++-
+ 3 files changed, 17 insertions(+), 2 deletions(-)
+
+commit f4814439c674324a81bffac66a28d4850e53996a
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Wed Mar 31 20:21:34 2021 +0000
+
+    GitBook: [docs] 54 pages and 6 assets modified
+
+ .../assets/{air_fold_4.png => air_fold_4 (1) (2).png}  | Bin
+ .../assets/{air_null_6.png => air_null_6 (1) (2).png}  | Bin
+ ...tial_2 (1).png => air_sequential_2 (1) (1) (1).png} | Bin
+ SUMMARY.md                                             |   1 -
+ .../development_additional_concepts.md                 |   6 +++---
+ .../knowledge_aquamarine/knowledge_aquamarine_air.md   |   4 ++--
+ quick_start/quick_start_using_a_service.md             |  17 ++++++++++++-----
+ 7 files changed, 17 insertions(+), 11 deletions(-)
+
+commit 8788229521b57ee003000d7a3b7b0fc5b97e2cb5
+Author: Anna Lekanova <33582851+lekanova@users.noreply.github.com>
+Date:   Wed Mar 31 22:09:28 2021 +0300
+
+    changed the discord link to non expiry
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ae8f93dba0d448f122145c24bedee52de09b92f0
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Mar 29 19:41:01 2021 +0000
+
+    GitBook: [docs] 54 pages modified
+
+ .../quick_start_building_from_multiple_services.md     | 18 +++++++++---------
+ quick_start/quick_start_using_a_service.md             | 17 +++++------------
+ 2 files changed, 14 insertions(+), 21 deletions(-)
+
+commit 271edda449de4ada9b8f56d7dbddc372d2832c09
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Mar 29 19:33:37 2021 +0000
+
+    GitBook: [docs] 54 pages modified
+
+ README.md                                  | 24 ++++++++++++++++++++++++
+ quick_start/quick_start_using_a_service.md | 10 ++++++----
+ 2 files changed, 30 insertions(+), 4 deletions(-)
+
+commit ff28425ff243fa3cc412769b2a61e7f2d9237dea
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Mar 29 19:24:04 2021 +0000
+
+    GitBook: [docs] one page modified
+
+ quick_start/quick_start_using_a_service.md | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit d7e515dd7a234ddf1b879b25708dd72d611a9d06
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Mar 29 19:19:42 2021 +0000
+
+    GitBook: [docs] one page modified
+
+ quick_start/quick_start_using_a_service.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 36ddf505324139e93db0518fcaa6b8fc4d7e38b0
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Mar 29 02:17:53 2021 +0000
+
+    GitBook: [main] 54 pages and 17 assets modified
+
+ .gitbook/assets/air_call_execution_1 (1).png       | Bin 0 -> 170876 bytes
+ .gitbook/assets/air_call_execution_1.png           | Bin 0 -> 170876 bytes
+ .gitbook/assets/air_fold_4 (1) (1).png             | Bin 0 -> 44449 bytes
+ .gitbook/assets/air_fold_4 (1).png                 | Bin 0 -> 44449 bytes
+ .gitbook/assets/air_fold_4.png                     | Bin 0 -> 44449 bytes
+ .gitbook/assets/air_null_6 (1) (1).png             | Bin 0 -> 42431 bytes
+ .gitbook/assets/air_null_6 (1).png                 | Bin 0 -> 42431 bytes
+ .gitbook/assets/air_null_6.png                     | Bin 0 -> 42431 bytes
+ .gitbook/assets/air_par_3.png                      | Bin 0 -> 81597 bytes
+ .gitbook/assets/air_sequential_2 (1) (1).png       | Bin 0 -> 88135 bytes
+ .gitbook/assets/air_sequential_2 (1).png           | Bin 0 -> 88135 bytes
+ .gitbook/assets/air_xor_5.png                      | Bin 0 -> 63099 bytes
+ .gitbook/assets/image (1).png                      | Bin 0 -> 41376 bytes
+ .gitbook/assets/image (2).png                      | Bin 0 -> 84102 bytes
+ .gitbook/assets/image (3).png                      | Bin 0 -> 41800 bytes
+ .gitbook/assets/image (4).png                      | Bin 0 -> 32230 bytes
+ .gitbook/assets/image.png                          | Bin 0 -> 63480 bytes
+ SUMMARY.md                                         |  57 +++
+ building-a-frontend-with-js-sdk.md                 |   2 +
+ development_development/README.md                  |   2 +
+ development_development/development_overview.md    |   6 +
+ .../development_reward_block_app/README.md         |  19 +
+ .../development_additional_concepts.md             | 255 +++++++++++++
+ .../development_eth_calls.md                       | 345 +++++++++++++++++
+ .../development_more_air.md                        |  10 +
+ .../development_persisting_blocks.md               | 251 +++++++++++++
+ .../development_sqlite.md                          | 397 ++++++++++++++++++++
+ .../development_reward_block_app/recap.md          |   2 +
+ .../developmet_build_modules.md                    | 318 ++++++++++++++++
+ faq_faq.md                                         |  20 +
+ knowledge_knowledge/README.md                      |   2 +
+ knowledge_knowledge/fluence-compute-engine.md      |   6 +
+ knowledge_knowledge/knowledge_aquamarine/README.md |  30 ++
+ knowledge_knowledge/knowledge_aquamarine/hll.md    |   8 +
+ .../knowledge_aquamarine_air.md                    |  55 +++
+ knowledge_knowledge/knowledge_aquamarine/vm.md     |   2 +
+ knowledge_knowledge/knowledge_concepts.md          |  44 +++
+ knowledge_knowledge/knowledge_overview.md          |   4 +
+ knowledge_knowledge/knowledge_security.md          | 161 ++++++++
+ knowledge_knowledge/knowledge_tools.md             |  69 ++++
+ knowledge_knowledge/node/README.md                 |   2 +
+ .../node/knowledge_node_services.md                | 407 +++++++++++++++++++++
+ knowledge_knowledge/node/overview.md               |   2 +
+ knowledge_knowledge/trustgraph.md                  |   4 +
+ p2p.md                                             |  16 +
+ quick_start/README.md                              |   6 +
+ quick_start/quick_start_add_persistence/README.md  |  10 +
+ .../quick_start_persistence_crud.md                | 299 +++++++++++++++
+ .../quick_start_persistence_setup.md               | 161 ++++++++
+ .../quick_start_building_from_multiple_services.md | 340 +++++++++++++++++
+ quick_start/quick_start_setup.md                   |  41 +++
+ quick_start/quick_start_summary.md                 |  10 +
+ quick_start/quick_start_using_a_service.md         |  81 ++++
+ recipes_recipes/README.md                          |   2 +
+ recipes_recipes/data-replication.md                |   4 +
+ .../error-management-and-testing-of-services.md    |   4 +
+ recipes_recipes/ipfs.md                            |   4 +
+ recipes_recipes/local-filesystem.md                |   4 +
+ recipes_recipes/recipes_curl.md                    | 104 ++++++
+ recipes_recipes/recipes_setting_up.md              |  51 +++
+ recipes_recipes/redis.md                           |   4 +
+ recipes_recipes/sqlite.md                          |   4 +
+ research-papers-and-references.md                  |   4 +
+ tutorials_tutorials/README.md                      |   8 +
+ .../building-a-chat-appplication.md                |   4 +
+ .../building-a-collaborative-editor.md             |   4 +
+ ...eveloping-a-frontend-application-with-js-sdk.md |   4 +
+ tutorials_tutorials/running-a-fluence-network.md   |   4 +
+ tutorials_tutorials/securing-services.md           |   4 +
+ tutorials_tutorials/tutorial_run_local_node.md     | 153 ++++++++
+ tutorials_tutorials/tutorial_trustgraph.md         |   4 +
+ 71 files changed, 3814 insertions(+)
+
+commit 818e9f625379452daaf43162f44a272a9351aa8f
+Author: boneyard93501 <boneyard93501@gmail.com>
+Date:   Mon Mar 29 02:17:52 2021 +0000
+
+    GitBook: [docs] 54 pages and 17 assets modified
+
+ .gitbook/assets/air_call_execution_1 (1).png       | Bin 0 -> 170876 bytes
+ .gitbook/assets/air_call_execution_1.png           | Bin 0 -> 170876 bytes
+ .gitbook/assets/air_fold_4 (1) (1).png             | Bin 0 -> 44449 bytes
+ .gitbook/assets/air_fold_4 (1).png                 | Bin 0 -> 44449 bytes
+ .gitbook/assets/air_fold_4.png                     | Bin 0 -> 44449 bytes
+ .gitbook/assets/air_null_6 (1) (1).png             | Bin 0 -> 42431 bytes
+ .gitbook/assets/air_null_6 (1).png                 | Bin 0 -> 42431 bytes
+ .gitbook/assets/air_null_6.png                     | Bin 0 -> 42431 bytes
+ .gitbook/assets/air_par_3.png                      | Bin 0 -> 81597 bytes
+ .gitbook/assets/air_sequential_2 (1) (1).png       | Bin 0 -> 88135 bytes
+ .gitbook/assets/air_sequential_2 (1).png           | Bin 0 -> 88135 bytes
+ .gitbook/assets/air_xor_5.png                      | Bin 0 -> 63099 bytes
+ .gitbook/assets/image (1).png                      | Bin 0 -> 41376 bytes
+ .gitbook/assets/image (2).png                      | Bin 0 -> 84102 bytes
+ .gitbook/assets/image (3).png                      | Bin 0 -> 41800 bytes
+ .gitbook/assets/image (4).png                      | Bin 0 -> 32230 bytes
+ .gitbook/assets/image.png                          | Bin 0 -> 63480 bytes
+ SUMMARY.md                                         |  57 +++
+ building-a-frontend-with-js-sdk.md                 |   2 +
+ development_development/README.md                  |   2 +
+ development_development/development_overview.md    |   6 +
+ .../development_reward_block_app/README.md         |  19 +
+ .../development_additional_concepts.md             | 257 +++++++++++++
+ .../development_eth_calls.md                       | 345 +++++++++++++++++
+ .../development_more_air.md                        |  10 +
+ .../development_persisting_blocks.md               | 252 +++++++++++++
+ .../development_sqlite.md                          | 397 ++++++++++++++++++++
+ .../development_reward_block_app/recap.md          |   2 +
+ .../developmet_build_modules.md                    | 323 ++++++++++++++++
+ faq_faq.md                                         |  20 +
+ knowledge_knowledge/README.md                      |   2 +
+ knowledge_knowledge/fluence-compute-engine.md      |   6 +
+ knowledge_knowledge/knowledge_aquamarine/README.md |  30 ++
+ knowledge_knowledge/knowledge_aquamarine/hll.md    |  10 +
+ .../knowledge_aquamarine_air.md                    |  55 +++
+ knowledge_knowledge/knowledge_aquamarine/vm.md     |   2 +
+ knowledge_knowledge/knowledge_concepts.md          |  44 +++
+ knowledge_knowledge/knowledge_overview.md          |   4 +
+ knowledge_knowledge/knowledge_security.md          | 161 ++++++++
+ knowledge_knowledge/knowledge_tools.md             |  71 ++++
+ knowledge_knowledge/node/README.md                 |   2 +
+ .../node/knowledge_node_services.md                | 411 +++++++++++++++++++++
+ knowledge_knowledge/node/overview.md               |   2 +
+ knowledge_knowledge/trustgraph.md                  |   4 +
+ p2p.md                                             |  16 +
+ quick_start/README.md                              |   6 +
+ quick_start/quick_start_add_persistence/README.md  |  10 +
+ .../quick_start_persistence_crud.md                | 299 +++++++++++++++
+ .../quick_start_persistence_setup.md               | 161 ++++++++
+ .../quick_start_building_from_multiple_services.md | 340 +++++++++++++++++
+ quick_start/quick_start_setup.md                   |  41 ++
+ quick_start/quick_start_summary.md                 |  10 +
+ quick_start/quick_start_using_a_service.md         |  81 ++++
+ recipes_recipes/README.md                          |   2 +
+ recipes_recipes/data-replication.md                |   4 +
+ .../error-management-and-testing-of-services.md    |   4 +
+ recipes_recipes/ipfs.md                            |   4 +
+ recipes_recipes/local-filesystem.md                |   4 +
+ recipes_recipes/recipes_curl.md                    | 104 ++++++
+ recipes_recipes/recipes_setting_up.md              |  51 +++
+ recipes_recipes/redis.md                           |   4 +
+ recipes_recipes/sqlite.md                          |   4 +
+ research-papers-and-references.md                  |   4 +
+ tutorials_tutorials/README.md                      |   8 +
+ .../building-a-chat-appplication.md                |   4 +
+ .../building-a-collaborative-editor.md             |   4 +
+ ...eveloping-a-frontend-application-with-js-sdk.md |   4 +
+ tutorials_tutorials/running-a-fluence-network.md   |   4 +
+ tutorials_tutorials/securing-services.md           |   4 +
+ tutorials_tutorials/tutorial_run_local_node.md     | 153 ++++++++
+ tutorials_tutorials/tutorial_trustgraph.md         |   4 +
+ 71 files changed, 3830 insertions(+)
+
+commit c6a1b1204a10e793f34d6fdb24e50734cd765f86
+Author: gitbook-bot <ghost@gitbook.com>
+Date:   Sun Mar 28 21:16:13 2021 -0500
+
+    Initialize repository
+
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)

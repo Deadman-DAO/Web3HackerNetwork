@@ -1,0 +1,112 @@
+commit cb10307912cecceef68c19f62c4dedf926999b20
+Author: Nishay Madhani <madhani.n@northeastern.edu>
+Date:   Thu Feb 10 13:34:09 2022 -0500
+
+    Added Readme.md
+
+ README.md    | 149 ++++++-----------------------------------------------------
+ package.json |   2 +-
+ 2 files changed, 16 insertions(+), 135 deletions(-)
+
+commit 0548b44ba1a6a2c4fbb2c0263a8b335d097a88f8
+Author: Nishay Madhani <madhani.n@northeastern.edu>
+Date:   Thu Feb 10 13:13:14 2022 -0500
+
+    Done
+
+ aqua/opensea.aqua                      |   4 ++--
+ aqua/rarible.aqua                      |   4 ++--
+ services/artifacts/rarible.wasm        | Bin 98591 -> 98595 bytes
+ services/{config.json => opensea.json} |   2 +-
+ services/opensea/config.json           |  15 ---------------
+ services/opensea/src/main.rs           |   4 ++--
+ services/rarible.json                  |  16 ++++++++++++++++
+ services/rarible/src/main.rs           |   4 ++--
+ src/api/index.js                       |  18 ++++++++++--------
+ src/components/Home.js                 |   2 ++
+ 10 files changed, 37 insertions(+), 32 deletions(-)
+
+commit a91521059eeac8bfaa6b81a0333413b0015c8863
+Author: Nishay Madhani <madhani.n@northeastern.edu>
+Date:   Wed Feb 9 23:54:35 2022 -0500
+
+    Merging with Fluence Example
+
+ .gitignore                        |    10 +
+ LICENSE                           |    21 -
+ README.md                         |   153 +-
+ aqua/getting-started.aqua         |     6 +
+ aqua/opensea.aqua                 |    21 +
+ aqua/rarible.aqua                 |    21 +
+ package-lock.json                 | 51783 +++++++++++++++++++++++++-----------
+ package.json                      |    33 +-
+ public/favicon.ico                |   Bin 3870 -> 15406 bytes
+ public/index.html                 |    43 +-
+ public/logo192.png                |   Bin 5347 -> 5044 bytes
+ public/logo512.png                |   Bin 9664 -> 14442 bytes
+ services/artifacts/opensea.wasm   |   Bin 0 -> 99725 bytes
+ services/artifacts/rarible.wasm   |   Bin 0 -> 98591 bytes
+ services/config.json              |    16 +
+ services/opensea/Cargo.lock       |   275 +
+ services/opensea/Cargo.toml       |    15 +
+ services/opensea/config.json      |    15 +
+ services/opensea/src/main.rs      |    58 +
+ services/rarible/Cargo.lock       |   275 +
+ services/rarible/Cargo.toml       |    15 +
+ services/rarible/src/main.rs      |    53 +
+ src/App.css                       |    38 -
+ src/App.js                        |    11 -
+ src/App.scss                      |    63 +
+ src/App.test.js                   |     8 -
+ src/App.tsx                       |    30 +
+ src/api/index.js                  |   122 +
+ src/components/AssetCollection.js |    50 +
+ src/components/Header.js          |    17 +
+ src/components/Home.js            |    53 +
+ src/components/SearchBar.js       |    37 +
+ src/index.css                     |    16 +-
+ src/index.js                      |    17 -
+ src/index.tsx                     |    10 +
+ src/logo.svg                      |     1 -
+ src/react-app-env.d.ts            |     1 +
+ src/reportWebVitals.js            |    13 -
+ src/setupTests.js                 |     5 -
+ tailwind.config.js                |     9 -
+ tsconfig.json                     |    27 +
+ 41 files changed, 36976 insertions(+), 16365 deletions(-)
+
+commit c8fdf56b928653fe1563857b5f12ff5975ad99c4
+Author: Nishay Madhani <madhani.n@northeastern.edu>
+Date:   Wed Feb 9 14:51:33 2022 -0500
+
+    CRA Setup
+
+ .gitignore             |    23 +
+ README.md              |    70 +
+ package-lock.json      | 27398 +++++++++++++++++++++++++++++++++++++++++++++++
+ package.json           |    43 +
+ public/favicon.ico     |   Bin 0 -> 3870 bytes
+ public/index.html      |    43 +
+ public/logo192.png     |   Bin 0 -> 5347 bytes
+ public/logo512.png     |   Bin 0 -> 9664 bytes
+ public/manifest.json   |    25 +
+ public/robots.txt      |     3 +
+ src/App.css            |    38 +
+ src/App.js             |    11 +
+ src/App.test.js        |     8 +
+ src/index.css          |     3 +
+ src/index.js           |    17 +
+ src/logo.svg           |     1 +
+ src/reportWebVitals.js |    13 +
+ src/setupTests.js      |     5 +
+ tailwind.config.js     |     9 +
+ 19 files changed, 27710 insertions(+)
+
+commit 207dc55a69cafaa16df1d9185f465bd87298519e
+Author: Nishay Madhani <nshmadhani@gmail.com>
+Date:   Wed Feb 9 14:45:38 2022 -0500
+
+    Initial commit
+
+ LICENSE | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)

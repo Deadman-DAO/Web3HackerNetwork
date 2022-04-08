@@ -1,0 +1,627 @@
+commit 9fa046f13b74d24ec49c0eb5a626769f3ca126e8
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 17:50:09 2022 -0500
+
+    Update README.md
+
+ README.md | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit cb89dbae01a54055660e4b88e90c352b57fa9c55
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 17:49:39 2022 -0500
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 28c4bc0a23e84b84910376a3b1b6942608141928
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 17:47:48 2022 -0500
+
+    Fluence client
+
+ client/tsconfig.json | 26 ++++++++++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+
+commit a1ec159c713132648083fa34005ad61930f52cd4
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 17:46:32 2022 -0500
+
+    Update README.md
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit bf01b2a67e59fdaff4ef348e902f310b986fa9b9
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 17:46:08 2022 -0500
+
+    Update README.md
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit e3b155c53bbddf8e02188306a66732785fbdbfcb
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 17:45:31 2022 -0500
+
+    Update README.md
+
+ README.md | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 476618f54ce70605d6c4eeb8ee44f9321c68524b
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 17:42:23 2022 -0500
+
+    Fluence client
+
+ client/aqua/getting-started.aqua    |  50 +++++
+ client/package.json                 |  54 +++++
+ client/public/avm.wasm              | Bin 0 -> 819436 bytes
+ client/public/favicon.ico           | Bin 0 -> 15406 bytes
+ client/public/index.html            |  39 ++++
+ client/public/logo192.png           | Bin 0 -> 5044 bytes
+ client/public/logo512.png           | Bin 0 -> 14442 bytes
+ client/public/manifest.json         |  25 +++
+ client/public/robots.txt            |   3 +
+ client/public/runnerScript.web.js   |   1 +
+ client/src/App.scss                 | 160 +++++++++++++++
+ client/src/App.tsx                  | 160 +++++++++++++++
+ client/src/_aqua/getting-started.ts | 380 ++++++++++++++++++++++++++++++++++++
+ client/src/index.css                |  13 ++
+ client/src/index.tsx                |  12 ++
+ client/src/logo.svg                 |  17 ++
+ client/src/react-app-env.d.ts       |   1 +
+ 17 files changed, 915 insertions(+)
+
+commit 4b1f396c0e66d02dc354084becbf8edba6087bf5
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 17:40:15 2022 -0500
+
+    Create ignore
+
+ client/ignore | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit d7988363a381b1874543b043dc7896b0df6245f8
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:55:33 2022 -0500
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 48cefa5fa073046593a31c65d97bde031e49c5ff
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:54:51 2022 -0500
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8a9e78ca599a3364f3bddcef0c85f40edb16cef5
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:49:34 2022 -0500
+
+    Delete assets directory
+
+ assets/.ignore                   |   1 -
+ assets/Local Fluence Peer ID.png | Bin 391584 -> 0 bytes
+ 2 files changed, 1 deletion(-)
+
+commit 784034271b0ea0942a4fd237b8d487c6733b881d
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:48:56 2022 -0500
+
+    Update README.md
+
+ README.md | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 469e91c72349a8e49a8f9155d81170f48ec5e528
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:45:27 2022 -0500
+
+    Update README.md
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 0197035bcc523b17d852358f6a4760aebcaec77d
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:38:38 2022 -0500
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 51f7fa71c9cda23eca818affb35f626d3147be71
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:35:47 2022 -0500
+
+    Update README.md
+
+ README.md | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+commit f7b8ad7efb87503b942b7d3b95b77f584ea41732
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:28:04 2022 -0500
+
+    Update README.md
+
+ README.md | 11 +++--------
+ 1 file changed, 3 insertions(+), 8 deletions(-)
+
+commit aa8ace73d36fb5ce2a81f793cbdc485d36b21086
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:25:18 2022 -0500
+
+    Delete fetch-nfts.ts
+
+ fetch-nfts.ts | 681 ----------------------------------------------------------
+ 1 file changed, 681 deletions(-)
+
+commit 128efa4ca3c9c3dc901b2a68c6c1c631fe35aa63
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:25:07 2022 -0500
+
+    Delete fetch-nfts.aqua
+
+ fetch-nfts.aqua | 90 ---------------------------------------------------------
+ 1 file changed, 90 deletions(-)
+
+commit ed747e249e34035013fb2b4c78a51e961c0ea3c5
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:24:53 2022 -0500
+
+    Delete Fluence Node.md
+
+ Fluence Node.md | 24 ------------------------
+ 1 file changed, 24 deletions(-)
+
+commit d3841993423ac43acf9de491f3f28e883338f45f
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:23:31 2022 -0500
+
+    Add files via upload
+
+ service/Cargo.lock                         | 265 +++++++++++++++++++++++++++++
+ service/Cargo.toml                         |  13 ++
+ service/artifacts/deploy.json              |  24 +++
+ service/artifacts/marketplace-service.wasm | Bin 0 -> 83867 bytes
+ service/configs/Config.toml                |   8 +
+ service/deployed.txt                       | 133 +++++++++++++++
+ service/marketplace.aqua                   |  12 ++
+ service/scripts/build.sh                   |  15 ++
+ service/scripts/deploy.sh                  |   3 +
+ service/src/main.rs                        |  65 +++++++
+ 10 files changed, 538 insertions(+)
+
+commit 32ba7794b4c0289ec9ae416025e1a8f1cd935d78
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:22:05 2022 -0500
+
+    Create ignore
+
+ service/ignore | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 1be7f49e21f3f4745ce59ff8cf54c8fac19eb87d
+Merge: 50aa2ec 027d59c
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Feb 10 15:18:20 2022 -0500
+
+    Merge pull request #2 from shynemari/mobile-app-updates
+    
+    Update UI and connect wallet to P2P network
+
+commit 027d59cd7ae4db053468f531fa8f89fab2ac23cd
+Author: Shyn Tanghal <smktanghal@gmail.com>
+Date:   Fri Feb 11 04:10:44 2022 +0800
+
+    Update UI and connect wallet to P2P network
+
+ mobile_app/README.md                               |  12 +-
+ mobile_app/assets/collections/axie-237181.png      | Bin 0 -> 8292 bytes
+ mobile_app/assets/collections/axie-237196.png      | Bin 0 -> 7174 bytes
+ mobile_app/assets/collections/poap-1.png           | Bin 24935 -> 15672 bytes
+ mobile_app/assets/collections/poap-2.png           | Bin 21882 -> 13442 bytes
+ mobile_app/assets/collections/poap-3.png           | Bin 13833 -> 4805 bytes
+ mobile_app/assets/common/eth-ico.png               | Bin 0 -> 820 bytes
+ mobile_app/assets/common/matic-ico.png             | Bin 0 -> 1942 bytes
+ mobile_app/assets/common/nft-placeholder.png       | Bin 0 -> 4203 bytes
+ mobile_app/assets/common/open-sea.png              | Bin 0 -> 1013 bytes
+ mobile_app/assets/common/opensea-logo.png          | Bin 0 -> 5310 bytes
+ mobile_app/assets/common/profile-photo.png         | Bin 0 -> 316518 bytes
+ mobile_app/assets/common/rarible-logo.png          | Bin 0 -> 2466 bytes
+ mobile_app/assets/common/rarible.png               | Bin 0 -> 769 bytes
+ mobile_app/assets/common/usdc-ico.png              | Bin 0 -> 3155 bytes
+ mobile_app/assets/common/warning-ico.png           | Bin 0 -> 570 bytes
+ mobile_app/assets/data/coins.json                  |  23 +
+ mobile_app/assets/data/rarible-test.json           |   1 +
+ mobile_app/assets/logo-v2.png                      | Bin 0 -> 4104 bytes
+ mobile_app/assets/logo.png                         | Bin 3168 -> 0 bytes
+ mobile_app/assets/watermark.png                    | Bin 0 -> 2630 bytes
+ mobile_app/ios/Flutter/Debug.xcconfig              |   1 +
+ mobile_app/ios/Flutter/Release.xcconfig            |   1 +
+ mobile_app/ios/Podfile                             |  41 +
+ mobile_app/ios/Runner.xcodeproj/project.pbxproj    |  50 ++
+ .../Runner.xcworkspace/contents.xcworkspacedata    |   3 +
+ mobile_app/lib/core/models/os_asset_model.g.dart   |   2 +-
+ mobile_app/lib/core/models/os_collections.dart     |  20 +-
+ mobile_app/lib/core/models/os_collections.g.dart   |   2 +-
+ mobile_app/lib/core/models/rr_collections.dart     |  31 +
+ mobile_app/lib/core/models/rr_collections.g.dart   |  22 +
+ .../lib/core/models/rr_collections_list.dart       |  14 +
+ mobile_app/lib/core/services/opensea_svc.dart      |  19 +-
+ mobile_app/lib/core/services/rarible_svc.dart      |  27 +
+ mobile_app/lib/main.dart                           |  24 +-
+ .../lib/ui/pages/accounts/accounts_screen.dart     |  76 ++
+ .../lib/ui/pages/accounts/copyseed_screen.dart     | 460 ++++++++++
+ .../lib/ui/pages/accounts/pwdsecurity_screen.dart  | 155 ++++
+ mobile_app/lib/ui/pages/addnewitem_screen.dart     | 111 +++
+ mobile_app/lib/ui/pages/addtrade_screen.dart       |  64 ++
+ mobile_app/lib/ui/pages/coins_screen.dart          | 282 ++++++
+ .../collections/collectiondetails_screen.dart      | 476 ++++++++++
+ .../pages/collections/collectionsumm_screen.dart   | 290 ++++++
+ mobile_app/lib/ui/pages/connectwallet_screen.dart  |   8 +-
+ mobile_app/lib/ui/pages/home_screen.dart           | 296 +++++--
+ mobile_app/lib/ui/pages/loadcollection_screen.dart | 461 ++++++++--
+ .../ui/pages/marketplace/assetdetails_screen.dart  | 968 +++++++++++++++++++++
+ .../create_wallet}/createwalletconfirm_screen.dart |   3 +-
+ .../create_wallet}/createwalletns_screen.dart      |   0
+ .../create_wallet}/createwalletsp_screen.dart      |   0
+ .../import_wallet}/importwalletns_screen.dart      |   0
+ .../import_wallet}/importwalletsp_screen.dart      |   3 +-
+ mobile_app/lib/ui/pages/sell/listitems_screen.dart | 141 +++
+ mobile_app/lib/ui/pages/send/sendnft_screen.dart   | 165 ++++
+ .../lib/ui/pages/send/transfernft_screen.dart      | 210 +++++
+ mobile_app/lib/ui/shared/widgets/accordion.dart    |  62 +-
+ mobile_app/lib/ui/shared/widgets/add_listtile.dart |  47 +
+ .../lib/ui/shared/widgets/animated_route.dart      |  18 +
+ mobile_app/lib/ui/shared/widgets/blue_appbar.dart  |  63 ++
+ .../lib/ui/shared/widgets/button_outlined.dart     |  31 +-
+ mobile_app/lib/ui/shared/widgets/button_solid.dart |  35 +-
+ .../lib/ui/shared/widgets/collection_card.dart     | 116 ++-
+ mobile_app/lib/ui/shared/widgets/home_appbar.dart  | 109 +--
+ mobile_app/lib/ui/shared/widgets/item_card.dart    |  44 +
+ .../lib/ui/shared/widgets/marketplace_appbar.dart  |  79 ++
+ mobile_app/lib/ui/shared/widgets/white_appbar.dart |  32 +
+ mobile_app/lib/utils/constants.dart                |   5 +
+ mobile_app/pubspec.yaml                            |   5 +-
+ 68 files changed, 4834 insertions(+), 274 deletions(-)
+
+commit 50aa2ec193124f22ca7bd3e563c2bc9975bb3df4
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 9 17:09:30 2022 -0500
+
+    Update fetch-nfts.ts
+
+ fetch-nfts.ts | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit f5b836347bad67dbf236544e1e647cf11b2b1214
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 9 17:06:23 2022 -0500
+
+    Update fetch-nfts.aqua
+
+ fetch-nfts.aqua | 6 +-----
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+
+commit 928b90dddd3d66da0bfb2f9458415f172571c046
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 9 17:05:50 2022 -0500
+
+    Update README.md
+
+ README.md | 26 ++++++++++++++++----------
+ 1 file changed, 16 insertions(+), 10 deletions(-)
+
+commit c79edbd8da5e84177352cb61a5281d29c7a6f938
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 9 16:46:21 2022 -0500
+
+    Update fetch-nfts.aqua
+
+ fetch-nfts.aqua | 26 ++++++++++++++------------
+ 1 file changed, 14 insertions(+), 12 deletions(-)
+
+commit e76b2c887979d01e7753f18d042cd70921471fa0
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 9 16:37:39 2022 -0500
+
+    Update fetch-nfts.ts
+
+ fetch-nfts.ts | 92 +++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 46 insertions(+), 46 deletions(-)
+
+commit 3fdcba84e32ab11b863f472855cb8a01f2bc110f
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 9 16:37:01 2022 -0500
+
+    Update fetch-nfts.aqua
+
+ fetch-nfts.aqua | 14 ++++++++------
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+
+commit 3205390be8e9e21bebe25a853df5edb0c4a28826
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 9 16:29:04 2022 -0500
+
+    Update fetch-nfts.aqua
+
+ fetch-nfts.aqua | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 1e230714acd9906500809dcb6a7309ec8d9f00e1
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 9 16:01:12 2022 -0500
+
+    Update fetch-nfts.ts
+
+ fetch-nfts.ts | 569 +++++++++++++++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 543 insertions(+), 26 deletions(-)
+
+commit 0263cc758cdbf1bb7ab62fc46b3a9048b060dff6
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 9 15:59:28 2022 -0500
+
+    Update fetch-nfts.aqua
+
+ fetch-nfts.aqua | 89 ++++++++++++++++++++++++++++++++++++++++++++++++---------
+ 1 file changed, 76 insertions(+), 13 deletions(-)
+
+commit 1b3357c2a8880cb888bae8a7082d9d10e170c571
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Fri Feb 4 11:27:53 2022 -0500
+
+    Update Fluence Node.md
+
+ Fluence Node.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 1d1cb916c44e259711c691cffbb4e1a750ff22c0
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Fri Feb 4 10:47:10 2022 -0500
+
+    Update Fluence Node.md
+
+ Fluence Node.md | 24 ++++++++++++++++++++++--
+ 1 file changed, 22 insertions(+), 2 deletions(-)
+
+commit d99b748760f446e558754393b72e7d307456e510
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Fri Feb 4 10:14:30 2022 -0500
+
+    Add files via upload
+
+ assets/Local Fluence Peer ID.png | Bin 0 -> 391584 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 1db57c6c1fcd848c89f784d9c09576ab362992c7
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Fri Feb 4 10:13:00 2022 -0500
+
+    Create .ignore
+
+ assets/.ignore | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit bc9418af184459b92edaf9ccd19fa73a617016b6
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Fri Feb 4 10:08:15 2022 -0500
+
+    Create Fluence Node.md
+
+ Fluence Node.md | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 1b008da8a539e0d3e38d3125067edcdfcfaf4311
+Merge: 2597222 02ba112
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Feb 2 22:01:42 2022 -0500
+
+    Merge pull request #1 from shynemari/Mobile-app-initial-commit
+    
+    Initial commit for mobile app
+
+commit 02ba112899b0201709fc25dcd98d8ae62a0b11e2
+Author: Shyn Tanghal <smktanghal@gmail.com>
+Date:   Thu Feb 3 01:40:58 2022 +0800
+
+    Initial commit for mobile app
+
+ mobile_app/.gitignore                              | 119 +++++
+ mobile_app/.metadata                               |  10 +
+ mobile_app/README.md                               |   6 +
+ mobile_app/analysis_options.yaml                   |  29 ++
+ mobile_app/android/.gitignore                      |  13 +
+ mobile_app/android/app/build.gradle                |  68 +++
+ .../android/app/src/debug/AndroidManifest.xml      |   7 +
+ .../android/app/src/main/AndroidManifest.xml       |  34 ++
+ .../kotlin/com/example/poliwallet/MainActivity.kt  |   6 +
+ .../main/res/drawable-v21/launch_background.xml    |  12 +
+ .../src/main/res/drawable/launch_background.xml    |  12 +
+ .../app/src/main/res/mipmap-hdpi/ic_launcher.png   | Bin 0 -> 5979 bytes
+ .../app/src/main/res/mipmap-mdpi/ic_launcher.png   | Bin 0 -> 3602 bytes
+ .../app/src/main/res/mipmap-xhdpi/ic_launcher.png  | Bin 0 -> 8594 bytes
+ .../app/src/main/res/mipmap-xxhdpi/ic_launcher.png | Bin 0 -> 13839 bytes
+ .../src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 19270 bytes
+ .../app/src/main/res/values-night/styles.xml       |  18 +
+ .../android/app/src/main/res/values/styles.xml     |  18 +
+ .../android/app/src/profile/AndroidManifest.xml    |   7 +
+ mobile_app/android/build.gradle                    |  31 ++
+ mobile_app/android/gradle.properties               |   3 +
+ .../gradle/wrapper/gradle-wrapper.properties       |   6 +
+ mobile_app/android/settings.gradle                 |  11 +
+ mobile_app/assets/badges/gamex-ico.png             | Bin 0 -> 2158 bytes
+ mobile_app/assets/badges/poap-1.png                | Bin 0 -> 24935 bytes
+ mobile_app/assets/badges/poap-2.png                | Bin 0 -> 21882 bytes
+ mobile_app/assets/badges/poap-3.png                | Bin 0 -> 13833 bytes
+ mobile_app/assets/banner-bg.png                    | Bin 0 -> 22250 bytes
+ mobile_app/assets/collections/assets-1.png         | Bin 0 -> 6437 bytes
+ mobile_app/assets/collections/assets-2.png         | Bin 0 -> 8042 bytes
+ mobile_app/assets/collections/collections-1.png    | Bin 0 -> 7335 bytes
+ mobile_app/assets/collections/collections-2.png    | Bin 0 -> 1407 bytes
+ mobile_app/assets/collections/collections-3.png    | Bin 0 -> 3383 bytes
+ mobile_app/assets/collections/collections-4.png    | Bin 0 -> 5696 bytes
+ mobile_app/assets/collections/collections-5.png    | Bin 0 -> 1930 bytes
+ mobile_app/assets/collections/collections-6.png    | Bin 0 -> 6673 bytes
+ mobile_app/assets/collections/poap-1.png           | Bin 0 -> 24935 bytes
+ mobile_app/assets/collections/poap-2.png           | Bin 0 -> 21882 bytes
+ mobile_app/assets/collections/poap-3.png           | Bin 0 -> 13833 bytes
+ mobile_app/assets/collections/profile-photo.png    | Bin 0 -> 23758 bytes
+ mobile_app/assets/common/logo.png                  | Bin 0 -> 3168 bytes
+ mobile_app/assets/logo.png                         | Bin 0 -> 3168 bytes
+ mobile_app/ios/.gitignore                          |  34 ++
+ mobile_app/ios/Flutter/AppFrameworkInfo.plist      |  26 ++
+ mobile_app/ios/Flutter/Debug.xcconfig              |   1 +
+ mobile_app/ios/Flutter/Release.xcconfig            |   1 +
+ mobile_app/ios/Runner.xcodeproj/project.pbxproj    | 481 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +
+ .../xcshareddata/WorkspaceSettings.xcsettings      |   8 +
+ .../xcshareddata/xcschemes/Runner.xcscheme         |  87 ++++
+ .../Runner.xcworkspace/contents.xcworkspacedata    |   7 +
+ mobile_app/ios/Runner/AppDelegate.swift            |  13 +
+ .../Assets.xcassets/AppIcon.appiconset/100.png     | Bin 0 -> 8459 bytes
+ .../Assets.xcassets/AppIcon.appiconset/1024.png    | Bin 0 -> 138141 bytes
+ .../Assets.xcassets/AppIcon.appiconset/114.png     | Bin 0 -> 10029 bytes
+ .../Assets.xcassets/AppIcon.appiconset/120.png     | Bin 0 -> 10556 bytes
+ .../Assets.xcassets/AppIcon.appiconset/128.png     | Bin 0 -> 11458 bytes
+ .../Assets.xcassets/AppIcon.appiconset/144.png     | Bin 0 -> 12887 bytes
+ .../Assets.xcassets/AppIcon.appiconset/152.png     | Bin 0 -> 13924 bytes
+ .../Assets.xcassets/AppIcon.appiconset/16.png      | Bin 0 -> 753 bytes
+ .../Assets.xcassets/AppIcon.appiconset/167.png     | Bin 0 -> 15394 bytes
+ .../Assets.xcassets/AppIcon.appiconset/172.png     | Bin 0 -> 15844 bytes
+ .../Assets.xcassets/AppIcon.appiconset/180.png     | Bin 0 -> 16692 bytes
+ .../Assets.xcassets/AppIcon.appiconset/196.png     | Bin 0 -> 18248 bytes
+ .../Assets.xcassets/AppIcon.appiconset/20.png      | Bin 0 -> 1155 bytes
+ .../Assets.xcassets/AppIcon.appiconset/216.png     | Bin 0 -> 20739 bytes
+ .../Assets.xcassets/AppIcon.appiconset/256.png     | Bin 0 -> 25070 bytes
+ .../Assets.xcassets/AppIcon.appiconset/29.png      | Bin 0 -> 1811 bytes
+ .../Assets.xcassets/AppIcon.appiconset/32.png      | Bin 0 -> 2025 bytes
+ .../Assets.xcassets/AppIcon.appiconset/40.png      | Bin 0 -> 2740 bytes
+ .../Assets.xcassets/AppIcon.appiconset/48.png      | Bin 0 -> 3438 bytes
+ .../Assets.xcassets/AppIcon.appiconset/50.png      | Bin 0 -> 3610 bytes
+ .../Assets.xcassets/AppIcon.appiconset/512.png     | Bin 0 -> 58037 bytes
+ .../Assets.xcassets/AppIcon.appiconset/55.png      | Bin 0 -> 4101 bytes
+ .../Assets.xcassets/AppIcon.appiconset/57.png      | Bin 0 -> 4231 bytes
+ .../Assets.xcassets/AppIcon.appiconset/58.png      | Bin 0 -> 4274 bytes
+ .../Assets.xcassets/AppIcon.appiconset/60.png      | Bin 0 -> 4501 bytes
+ .../Assets.xcassets/AppIcon.appiconset/64.png      | Bin 0 -> 4907 bytes
+ .../Assets.xcassets/AppIcon.appiconset/72.png      | Bin 0 -> 5646 bytes
+ .../Assets.xcassets/AppIcon.appiconset/76.png      | Bin 0 -> 6049 bytes
+ .../Assets.xcassets/AppIcon.appiconset/80.png      | Bin 0 -> 6447 bytes
+ .../Assets.xcassets/AppIcon.appiconset/87.png      | Bin 0 -> 7047 bytes
+ .../Assets.xcassets/AppIcon.appiconset/88.png      | Bin 0 -> 7150 bytes
+ .../AppIcon.appiconset/Contents.json               |   1 +
+ .../LaunchImage.imageset/Contents.json             |  23 +
+ .../LaunchImage.imageset/LaunchImage.png           | Bin 0 -> 68 bytes
+ .../LaunchImage.imageset/LaunchImage@2x.png        | Bin 0 -> 68 bytes
+ .../LaunchImage.imageset/LaunchImage@3x.png        | Bin 0 -> 68 bytes
+ .../Assets.xcassets/LaunchImage.imageset/README.md |   5 +
+ .../ios/Runner/Base.lproj/LaunchScreen.storyboard  |  37 ++
+ mobile_app/ios/Runner/Base.lproj/Main.storyboard   |  26 ++
+ mobile_app/ios/Runner/Info.plist                   |  47 ++
+ mobile_app/ios/Runner/Runner-Bridging-Header.h     |   1 +
+ .../lib/core/models/os_asset_contract_model.dart   |  59 +++
+ .../lib/core/models/os_asset_contract_model.g.dart |  61 +++
+ .../lib/core/models/os_asset_list_model.dart       |  12 +
+ mobile_app/lib/core/models/os_asset_model.dart     |  77 ++++
+ mobile_app/lib/core/models/os_asset_model.g.dart   |  62 +++
+ mobile_app/lib/core/models/os_collections.dart     |  31 ++
+ mobile_app/lib/core/models/os_collections.g.dart   |  30 ++
+ .../lib/core/models/os_collections_list.dart       |  14 +
+ mobile_app/lib/core/services/networking.dart       |  20 +
+ mobile_app/lib/core/services/opensea_svc.dart      |  99 +++++
+ mobile_app/lib/main.dart                           |  54 +++
+ mobile_app/lib/ui/pages/connectwallet_screen.dart  |  75 ++++
+ .../lib/ui/pages/createwalletconfirm_screen.dart   | 187 ++++++++
+ mobile_app/lib/ui/pages/createwalletns_screen.dart | 136 ++++++
+ mobile_app/lib/ui/pages/createwalletsp_screen.dart | 434 +++++++++++++++++++
+ mobile_app/lib/ui/pages/home_screen.dart           | 282 ++++++++++++
+ mobile_app/lib/ui/pages/importwalletns_screen.dart | 134 ++++++
+ mobile_app/lib/ui/pages/importwalletsp_screen.dart | 124 ++++++
+ mobile_app/lib/ui/pages/loadcollection_screen.dart | 142 ++++++
+ mobile_app/lib/ui/shared/widgets/accordion.dart    |  57 +++
+ .../lib/ui/shared/widgets/button_outlined.dart     |  40 ++
+ mobile_app/lib/ui/shared/widgets/button_solid.dart |  36 ++
+ .../lib/ui/shared/widgets/collection_card.dart     |  68 +++
+ mobile_app/lib/ui/shared/widgets/home_appbar.dart  | 206 +++++++++
+ mobile_app/lib/ui/shared/widgets/poap_badge.dart   |  24 +
+ .../lib/ui/shared/widgets/utitlity_card.dart       |  59 +++
+ mobile_app/lib/utils/constants.dart                |  67 +++
+ mobile_app/pubspec.yaml                            |  31 ++
+ mobile_app/test/widget_test.dart                   |  30 ++
+ mobile_app/web/favicon.png                         | Bin 0 -> 917 bytes
+ mobile_app/web/icons/Icon-192.png                  | Bin 0 -> 5292 bytes
+ mobile_app/web/icons/Icon-512.png                  | Bin 0 -> 8252 bytes
+ mobile_app/web/icons/Icon-maskable-192.png         | Bin 0 -> 5594 bytes
+ mobile_app/web/icons/Icon-maskable-512.png         | Bin 0 -> 20998 bytes
+ mobile_app/web/index.html                          | 104 +++++
+ mobile_app/web/manifest.json                       |  35 ++
+ 130 files changed, 4013 insertions(+)
+
+commit 259722288b56777b946d81a739f7dcf54972c253
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Jan 27 15:58:07 2022 -0500
+
+    Typescript client starter
+
+ fetch-nfts.ts | 164 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 164 insertions(+)
+
+commit a106c7c5f50739891fec2eed99fdb1c4a27733d6
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Jan 27 15:57:18 2022 -0500
+
+    Aqua script starter for client implementation
+
+ fetch-nfts.aqua | 25 +++++++++++++++++++++++++
+ 1 file changed, 25 insertions(+)
+
+commit 16c0e8442bd9cda95e7525a4c43c610b4e34b9b2
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Jan 27 12:36:57 2022 -0500
+
+    Update README.md
+
+ README.md | 22 +++++++++++++++-------
+ 1 file changed, 15 insertions(+), 7 deletions(-)
+
+commit 241ae2e2ed1a4bee826653db6da582c4f21c36d2
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Thu Jan 27 12:28:02 2022 -0500
+
+    Update README.md
+
+ README.md | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+
+commit 1631c90aea11b0d10ab54c6b1bb7e8552eb21995
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Jan 19 15:25:03 2022 -0500
+
+    Update README.md
+
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit deae9477f6c2d83bd265a3dd09264a36dce4fef0
+Author: Daniel Maly <daniel.maly@gmail.com>
+Date:   Wed Jan 19 15:20:18 2022 -0500
+
+    Initial commit
+
+ LICENSE   | 21 +++++++++++++++++++++
+ README.md |  2 ++
+ 2 files changed, 23 insertions(+)

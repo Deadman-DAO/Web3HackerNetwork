@@ -1,0 +1,199 @@
+commit 6a0e253d45cfaaa038e2451141604c16fa2826b1
+Author: Chris Buonocore <chrisdistrict@gmail.com>
+Date:   Thu Aug 19 14:25:15 2021 -0400
+
+    challenges
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit b1fa96128fe2af5cdfe1edecb1bc7af1be8dde2e
+Author: Chris Buonocore <chrisdistrict@gmail.com>
+Date:   Wed Aug 18 22:26:57 2021 -0400
+
+    readme and gitignore
+
+ .gitignore | 28 ++++++++++++++++++++++++++++
+ README.md  | 17 ++++++++++++++++-
+ 2 files changed, 44 insertions(+), 1 deletion(-)
+
+commit 74f17724cddacff48decffff6c0a4967e412409b
+Author: Chris Buonocore <chrisdistrict@gmail.com>
+Date:   Wed Aug 18 21:47:42 2021 -0400
+
+    base project
+
+ LICENSE                                            |     21 +
+ README.md                                          |    123 +
+ aqua/Cargo.lock                                    |   1702 +
+ aqua/Cargo.toml                                    |     25 +
+ aqua/Config.toml                                   |      6 +
+ aqua/Readme.md                                     |    171 +
+ aqua/aqua-output/get_price.js                      |    118 +
+ aqua/aqua-scripts/builtin.aqua                     |    217 +
+ aqua/aqua-scripts/get_price.aqua                   |     47 +
+ aqua/configs/Config.toml                           |     19 +
+ aqua/configs/curl_adapter_cfg.json                 |      8 +
+ aqua/configs/ipns_oracle_cfg.json                  |      3 +
+ aqua/curl_adapter/Cargo.toml                       |     14 +
+ aqua/curl_adapter/src/main.rs                      |     37 +
+ aqua/scripts/build.sh                              |      6 +
+ aqua/src/main.rs                                   |     94 +
+ img/complete.png                                   |    Bin 0 -> 104430 bytes
+ img/home.png                                       |    Bin 0 -> 126548 bytes
+ img/ipns_generation.png                            |    Bin 0 -> 346363 bytes
+ img/logo.png                                       |    Bin 0 -> 15888 bytes
+ img/logo_sq.png                                    |    Bin 0 -> 12925 bytes
+ img/music.png                                      |    Bin 0 -> 532540 bytes
+ img/pillar.png                                     |    Bin 0 -> 141242 bytes
+ img/products/p1.jpg                                |    Bin 0 -> 240575 bytes
+ img/products/p2.jpg                                |    Bin 0 -> 553802 bytes
+ img/products/p3.jpg                                |    Bin 0 -> 809144 bytes
+ img/products/p4.jpg                                |    Bin 0 -> 429395 bytes
+ img/qr.png                                         |    Bin 0 -> 75215 bytes
+ img/step1.png                                      |    Bin 0 -> 92679 bytes
+ img/store.png                                      |    Bin 0 -> 83057 bytes
+ img/validation.png                                 |    Bin 0 -> 89983 bytes
+ package.json                                       |     67 +
+ packages/hardhat/.eslintrc.js                      |     23 +
+ .../0x0e661e3a61ea38fe973ed0a87ef064705f7734c4.txt |      1 +
+ .../75008c2266512c6f02c63ca2edb38012.json          | 113206 ++++++++++++++++++
+ .../YourContract.sol/YourContract.dbg.json         |      4 +
+ .../contracts/YourContract.sol/YourContract.json   |     42 +
+ .../artifacts/hardhat/console.sol/console.dbg.json |      4 +
+ .../artifacts/hardhat/console.sol/console.json     |     10 +
+ packages/hardhat/contracts/YourContract.sol        |     22 +
+ packages/hardhat/deploy/00_deploy_your_contract.js |     47 +
+ packages/hardhat/deployments/rinkeby/.chainId      |      1 +
+ .../hardhat/deployments/rinkeby/YourContract.json  |     86 +
+ .../bde710c76ccbf6ff9094644faafca7ca.json          |     38 +
+ packages/hardhat/hardhat.config.js                 |    498 +
+ packages/hardhat/mnemonic.txt                      |      1 +
+ packages/hardhat/package.json                      |     44 +
+ packages/hardhat/scripts/deploy.js                 |    213 +
+ packages/hardhat/scripts/publish.js                |     84 +
+ packages/hardhat/scripts/watch.js                  |     18 +
+ packages/hardhat/test/myTest.js                    |     26 +
+ packages/react-app/.eslintignore                   |     10 +
+ packages/react-app/.eslintrc.js                    |     30 +
+ packages/react-app/.prettierrc                     |      8 +
+ packages/react-app/.sample.env                     |      1 +
+ packages/react-app/gulpfile.js                     |     28 +
+ packages/react-app/package.json                    |    117 +
+ packages/react-app/public/dark-theme.css           |      1 +
+ packages/react-app/public/favicon.ico              |    Bin 0 -> 4731 bytes
+ packages/react-app/public/index.html               |     69 +
+ packages/react-app/public/light-theme.css          |      1 +
+ packages/react-app/public/logo192.png              |    Bin 0 -> 44324 bytes
+ packages/react-app/public/logo512.png              |    Bin 0 -> 44324 bytes
+ packages/react-app/public/manifest.json            |     26 +
+ packages/react-app/public/robots.txt               |      2 +
+ packages/react-app/public/scaffold-eth.png         |    Bin 0 -> 44324 bytes
+ packages/react-app/scripts/create_contracts.js     |     11 +
+ packages/react-app/scripts/ipfs.js                 |     89 +
+ packages/react-app/scripts/s3.js                   |     93 +
+ packages/react-app/scripts/watch.js                |     18 +
+ packages/react-app/src/App.css                     |     64 +
+ packages/react-app/src/App.jsx                     |    461 +
+ packages/react-app/src/App.test.js                 |      9 +
+ packages/react-app/src/assets/h1.png               |    Bin 0 -> 43531 bytes
+ packages/react-app/src/assets/h2.png               |    Bin 0 -> 72399 bytes
+ packages/react-app/src/assets/logo.png             |    Bin 0 -> 15888 bytes
+ packages/react-app/src/assets/logo_sq.png          |    Bin 0 -> 12925 bytes
+ packages/react-app/src/components/About.jsx        |     59 +
+ packages/react-app/src/components/Account.jsx      |    113 +
+ packages/react-app/src/components/Address.jsx      |    117 +
+ packages/react-app/src/components/AddressInput.jsx |    136 +
+ packages/react-app/src/components/Balance.jsx      |     79 +
+ packages/react-app/src/components/Blockie.jsx      |     12 +
+ .../react-app/src/components/BytesStringInput.jsx  |    107 +
+ packages/react-app/src/components/CheckoutPage.jsx |    126 +
+ .../src/components/Contract/DisplayVariable.jsx    |     52 +
+ .../src/components/Contract/FunctionForm.jsx       |    244 +
+ .../react-app/src/components/Contract/index.jsx    |    137 +
+ .../react-app/src/components/Contract/utils.js     |     27 +
+ packages/react-app/src/components/CreateWallet.jsx |     68 +
+ packages/react-app/src/components/EtherInput.jsx   |    110 +
+ packages/react-app/src/components/Faucet.jsx       |    121 +
+ packages/react-app/src/components/FileDropzone.jsx |    115 +
+ packages/react-app/src/components/GasGauge.jsx     |     39 +
+ packages/react-app/src/components/Generate.jsx     |     62 +
+ packages/react-app/src/components/Header.jsx       |     20 +
+ packages/react-app/src/components/L2Bridge.jsx     |    424 +
+ packages/react-app/src/components/MusicPage.jsx    |    107 +
+ packages/react-app/src/components/Provider.jsx     |     97 +
+ packages/react-app/src/components/Ramp.jsx         |    151 +
+ packages/react-app/src/components/SearchMusic.jsx  |     38 +
+ packages/react-app/src/components/Swap.jsx         |    692 +
+ packages/react-app/src/components/ThemeSwitch.jsx  |     30 +
+ packages/react-app/src/components/Timeline.jsx     |    118 +
+ packages/react-app/src/components/TokenBalance.jsx |     47 +
+ packages/react-app/src/components/Upload.jsx       |    207 +
+ packages/react-app/src/components/Wallet.jsx       |    349 +
+ packages/react-app/src/components/index.js         |     19 +
+ packages/react-app/src/constants.js                |    158 +
+ .../react-app/src/contracts/external_contracts.js  |    801 +
+ .../react-app/src/contracts/hardhat_contracts.json |     46 +
+ packages/react-app/src/ethereumLogo.png            |    Bin 0 -> 215981 bytes
+ packages/react-app/src/helpers/Transactor.js       |    151 +
+ packages/react-app/src/helpers/index.js            |      1 +
+ packages/react-app/src/hooks/Balance.js            |     63 +
+ packages/react-app/src/hooks/BurnerSigner.js       |     41 +
+ .../react-app/src/hooks/ContractExistsAtAddress.js |     38 +
+ packages/react-app/src/hooks/ContractLoader.js     |    126 +
+ packages/react-app/src/hooks/ContractReader.js     |     93 +
+ packages/react-app/src/hooks/Debounce.js           |     17 +
+ packages/react-app/src/hooks/EventListener.js      |     44 +
+ packages/react-app/src/hooks/ExchangePrice.js      |     30 +
+ packages/react-app/src/hooks/GasPrice.js           |     27 +
+ packages/react-app/src/hooks/LocalStorage.js       |     60 +
+ packages/react-app/src/hooks/LookupAddress.js      |     70 +
+ packages/react-app/src/hooks/Nonce.js              |     14 +
+ packages/react-app/src/hooks/OnBlock.js            |     33 +
+ packages/react-app/src/hooks/Poller.js             |     26 +
+ packages/react-app/src/hooks/ResolveName.js        |     31 +
+ packages/react-app/src/hooks/TokenList.js          |     51 +
+ packages/react-app/src/hooks/UserSigner.js         |     55 +
+ packages/react-app/src/hooks/index.js              |     17 +
+ packages/react-app/src/index.css                   |      8 +
+ packages/react-app/src/index.jsx                   |     29 +
+ packages/react-app/src/setupTests.js               |      5 +
+ packages/react-app/src/themes/dark-theme.less      |     22 +
+ packages/react-app/src/themes/light-theme.less     |     11 +
+ packages/react-app/src/util/audius.js              |     15 +
+ packages/react-app/src/util/ceramic.js             |     55 +
+ packages/react-app/src/util/checkout.js            |    125 +
+ packages/react-app/src/util/fluence.js             |    100 +
+ packages/react-app/src/util/get_price.js           |    125 +
+ packages/react-app/src/util/index.js               |     19 +
+ packages/react-app/src/util/pillar.js              |     23 +
+ packages/react-app/src/util/qr.js                  |     16 +
+ packages/react-app/src/util/stor.js                |     32 +
+ packages/react-app/src/views/ExampleUI.jsx         |    228 +
+ packages/react-app/src/views/Hints.jsx             |    270 +
+ packages/react-app/src/views/Subgraph.jsx          |    190 +
+ packages/react-app/src/views/index.js              |      3 +
+ packages/services/graph-node/Dockerfile            |     75 +
+ packages/services/graph-node/README.md             |     78 +
+ packages/services/graph-node/bin/create            |     11 +
+ packages/services/graph-node/bin/debug             |      9 +
+ packages/services/graph-node/bin/deploy            |     12 +
+ packages/services/graph-node/bin/reassign          |     12 +
+ packages/services/graph-node/bin/remove            |     11 +
+ packages/services/graph-node/build.sh              |     26 +
+ packages/services/graph-node/cloudbuild.yaml       |     53 +
+ packages/services/graph-node/docker-compose.yml    |     38 +
+ packages/services/graph-node/hooks/post_checkout   |      8 +
+ packages/services/graph-node/setup.sh              |     42 +
+ packages/services/graph-node/start                 |    105 +
+ packages/services/graph-node/tag.sh                |     28 +
+ packages/services/graph-node/wait_for              |     83 +
+ packages/services/package.json                     |     18 +
+ packages/subgraph/abis/rinkeby_YourContract.json   |     33 +
+ packages/subgraph/config/config.json               |      3 +
+ packages/subgraph/package.json                     |     20 +
+ packages/subgraph/src/mapping.ts                   |     34 +
+ packages/subgraph/src/schema.graphql               |     15 +
+ packages/subgraph/src/subgraph.template.yaml       |     25 +
+ yarn.lock                                          |  27641 +++++
+ 173 files changed, 153756 insertions(+)

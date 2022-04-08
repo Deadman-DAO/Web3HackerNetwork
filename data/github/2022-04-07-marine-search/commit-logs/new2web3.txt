@@ -1,0 +1,206 @@
+commit 5aa7c6d33710ff1132cdd390fe8b71de26ba5dd0
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 14:26:02 2022 -0700
+
+    Adding Rust build instructions to the primary README page
+
+ README.md | 22 ----------------------
+ 1 file changed, 22 deletions(-)
+
+commit e2f1f182841ceaead7ed572e9e4d598bc0e12bec
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 14:23:29 2022 -0700
+
+    Adding Rust build instructions to the primary README page
+
+ README.md     | 2 +-
+ web/README.md | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit c685a429f964a153986782630a1503eb413918c5
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 14:22:33 2022 -0700
+
+    Adding Rust build instructions to the primary README page
+
+ README.md | 57 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 57 insertions(+)
+
+commit 0ce040649e35d9c8210ebbd1427ba907e69c9d13
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 14:14:27 2022 -0700
+
+    Adding ewetube video link to README page
+
+ web/README.md | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+commit 668800cff7714ef795d156dcb08d240549d2b645
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 13:01:25 2022 -0700
+
+    Adding links to the Rarible images
+
+ web/public/logo192.png   | Bin 2055 -> 0 bytes
+ web/public/manifest.json |   5 -----
+ web/src/App.tsx          |  36 ++++++++++++++++++++++--------------
+ 3 files changed, 22 insertions(+), 19 deletions(-)
+
+commit ce896fbb67ce561a0458821a6474afb437b05434
+Author: DeadmanBob <me@example.com>
+Date:   Thu Feb 10 12:35:48 2022 -0700
+
+    Code cleanup, commentary, and demo video script tweaks
+
+ doc/demo_video_script.txt |  4 +--
+ nft-service/src/main.rs   | 86 ++++++++++++++++++++++++++---------------------
+ 2 files changed, 48 insertions(+), 42 deletions(-)
+
+commit c9da7ab8f3a1ce77095d88d3ce2425f94d62c55a
+Author: DeadmanBob <me@example.com>
+Date:   Thu Feb 10 12:23:56 2022 -0700
+
+    editing the Aqua commentary
+
+ nft-service/configs/deadmandao-nft-service.aqua | 34 ++++++++++++++-----------
+ 1 file changed, 19 insertions(+), 15 deletions(-)
+
+commit 3a8eecf5cd0a5b451b5d4742dbe4b1485c72858c
+Author: DeadmanBob <me@example.com>
+Date:   Thu Feb 10 12:15:09 2022 -0700
+
+    Add commentary to the Aqua script
+
+ nft-service/configs/deadmandao-nft-service.aqua | 62 +++++++++++++++++++------
+ 1 file changed, 48 insertions(+), 14 deletions(-)
+
+commit 7edae7bab6a138fd11e8e87ce1f41b16eff07d5c
+Merge: 9f63ad8 fcc61ff
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 12:05:28 2022 -0700
+
+    Merge branch 'main' of https://github.com/enigmatt/new2web3 into main
+
+commit 9f63ad8a1d26d1ef199390b41daac0af1891f55c
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 12:04:39 2022 -0700
+
+    Adding comments
+
+ web/src/App.tsx | 42 +++++++++++++++++++++++-------------------
+ 1 file changed, 23 insertions(+), 19 deletions(-)
+
+commit fcc61fffe629e2b82de0c294d8f996164f0018fb
+Merge: 5049715 448e747
+Author: DeadmanBob <me@example.com>
+Date:   Thu Feb 10 11:47:14 2022 -0700
+
+    Merge branch 'main' of https://github.com/enigmatt/new2web3 into main
+
+commit 5049715afa373711eceb4c00d56cc4ad7def5f6a
+Author: DeadmanBob <me@example.com>
+Date:   Thu Feb 10 11:46:21 2022 -0700
+
+    Add commentary to the Rust structs and functions
+
+ nft-service/src/main.rs | 107 +++++++++++++++++++++++++++++++++++-------------
+ 1 file changed, 78 insertions(+), 29 deletions(-)
+
+commit 448e74711292cce58f0d055403917af684514221
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 11:30:46 2022 -0700
+
+    Adding links to the Rarible and OpenSea logos.  Adding comments
+
+ web/README.md   |  4 ++++
+ web/src/App.tsx | 13 +++++--------
+ 2 files changed, 9 insertions(+), 8 deletions(-)
+
+commit ed3e735e280a30c7a4ed9ab1274060bfbb399add
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 10:57:20 2022 -0700
+
+    Updating README.md instructions
+
+ web/README.md | 17 ++++++++++++++---
+ 1 file changed, 14 insertions(+), 3 deletions(-)
+
+commit 4306ed4d1b374ab2626f760812f392b56fb9011c
+Author: enigmatt649 <Br@in69)>
+Date:   Thu Feb 10 10:39:29 2022 -0700
+
+    Adding browser-side Aqua client for New2Web3 presentation page
+
+ web/.gitignore                   |  23 ++++
+ web/README.md                    |  20 ++++
+ web/aqua/deadmandao.aqua         |  62 +++++++++++
+ web/favicon.ico                  | Bin 0 -> 2438 bytes
+ web/package.json                 |  52 +++++++++
+ web/public/avm.wasm              | Bin 0 -> 819436 bytes
+ web/public/favicon.ico           | Bin 0 -> 2438 bytes
+ web/public/index.html            |  39 +++++++
+ web/public/logo192.png           | Bin 0 -> 2055 bytes
+ web/public/manifest.json         |  20 ++++
+ web/public/robots.txt            |   3 +
+ web/public/runnerScript.web.js   |   1 +
+ web/src/App.scss                 | 153 +++++++++++++++++++++++++++
+ web/src/App.tsx                  | 221 +++++++++++++++++++++++++++++++++++++++
+ web/src/OpenSeaLogo.png          | Bin 0 -> 1875 bytes
+ web/src/RaribleLogo.png          | Bin 0 -> 1186 bytes
+ web/src/deadmandao-loaded.png    | Bin 0 -> 5054 bytes
+ web/src/deadmandao-wiki-logo.png | Bin 0 -> 2055 bytes
+ web/src/index.css                |  13 +++
+ web/src/index.tsx                |  11 ++
+ web/src/react-app-env.d.ts       |   1 +
+ web/tsconfig.json                |  26 +++++
+ 22 files changed, 645 insertions(+)
+
+commit c2a83f308eabe3558136c4da40065cf421c04fa9
+Author: DeadmanBob <me@example.com>
+Date:   Wed Feb 9 20:04:07 2022 -0700
+
+    Aqua for version 0.5.1 and the outline for the demo video.
+
+ doc/demo_video_script.txt                       | 30 ++++++++++
+ nft-service/configs/deadmandao-nft-service.aqua | 76 +++++++++++++++++++++++++
+ 2 files changed, 106 insertions(+)
+
+commit 036a8f72857d5a83b2c65c68a3e38eb8790d27ab
+Author: DeadmanBob <me@example.com>
+Date:   Wed Feb 9 16:28:52 2022 -0700
+
+    add .gitignore for the build artifacts
+
+ nft-service/.gitignore | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit d96bea6397e4178eacade929b6f5885aa877adf3
+Author: DeadmanBob <me@example.com>
+Date:   Wed Feb 9 16:21:40 2022 -0700
+
+    beginning to commit Marine service module
+
+ nft-service/Config.toml                            |    8 +
+ nft-service/configs/deadmandao-service-config.json |   15 +
+ nft-service/src/main.rs                            |  213 ++
+ nft-service/src/opensea_list.json                  | 2604 ++++++++++++++++++++
+ nft-service/src/rarible_list.json                  | 1984 +++++++++++++++
+ 5 files changed, 4824 insertions(+)
+
+commit f4dcbe8d34feacec7317aac8e43950bac7a4cefe
+Author: DeadmanBob <me@example.com>
+Date:   Wed Feb 9 16:08:16 2022 -0700
+
+    beginning to commit Marine service module
+
+ nft-service/Cargo.toml | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+commit 48d6cfe73c72b4317a455dd4f609426fcfd79958
+Author: enigmatt <commerce@theenkes.com>
+Date:   Thu Feb 3 11:38:45 2022 -0700
+
+    Initial commit
+
+ LICENSE | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)

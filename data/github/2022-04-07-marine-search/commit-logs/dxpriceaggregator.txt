@@ -1,0 +1,369 @@
+commit 54e61a6d2fde735ace1414d67fe6bd63f2292111
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Mon Aug 30 21:04:59 2021 +0000
+
+    Restyle demo
+
+ schema/create_stream.sh                            |   6 +-
+ .../aggregator_service.process_data.air            |  15 ++-
+ .../air-scripts/aggregator_service.ts              |  18 ++--
+ .../aqua-scripts/aggregator_service.aqua           |   8 +-
+ service_interface/build_interface.sh               |   4 +-
+ services/aggregator_service/src/main.rs            |   2 +-
+ services/ceramic_adapter/Cargo.lock                |  24 ++---
+ web/src/App.scss                                   |  11 +-
+ web/src/App.tsx                                    |  89 ++++++++++------
+ web/src/_aqua/aggregator_service.ts                |  18 ++--
+ web/src/_aqua/get_crypto_prices.ts                 | 118 ---------------------
+ web/src/_aqua/run_get_stream_price.ts              |  92 ----------------
+ 12 files changed, 106 insertions(+), 299 deletions(-)
+
+commit 3cb8a1f4f1aeb8e7f9afe87abd88f65277fbdf01
+Merge: c07ee68 e5c4d38
+Author: Juan Obligado <juan.obligado@gmail.com>
+Date:   Thu Aug 26 18:52:15 2021 -0300
+
+    Merge branch 'main' of https://github.com/juanobligado/dxpriceaggregator
+    
+    # Conflicts:
+    #       web/src/_aqua/aggregator_service.ts
+
+commit e5c4d389f0d336385c65e89f50b34ab347e7bbd5
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Thu Aug 26 14:14:15 2021 -0300
+
+    Fix Merge issue, add -m to aqua cmd line script
+
+ service_interface/build_interface.sh | 4 ++--
+ web/src/_aqua/aggregator_service.ts  | 9 ---------
+ 2 files changed, 2 insertions(+), 11 deletions(-)
+
+commit c07ee68716958fbaedfb1ce9df551abc97422c4c
+Author: Juan Obligado <juan.obligado@gmail.com>
+Date:   Thu Aug 26 13:48:49 2021 -0300
+
+    Reverted Broken ts file in merge
+
+ web/src/_aqua/aggregator_service.ts | 6 ------
+ 1 file changed, 6 deletions(-)
+
+commit 02666aa7a8edecbf47518f1e65c75ce8fb5e4c77
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Thu Aug 26 12:18:58 2021 -0300
+
+    Update README.md
+    
+    Add \ linebreaks
+
+ README.md | 43 +++++++++++++++++++++----------------------
+ 1 file changed, 21 insertions(+), 22 deletions(-)
+
+commit 275c0b69aafc8da2f175550cb9fa6844bbdef476
+Merge: 9e083cd 97cbeef
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Mon Aug 23 02:00:38 2021 +0000
+
+    merge
+
+commit 9e083cd88cfbc3c0ac32cb72ec2e2f6f574727aa
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Mon Aug 23 01:58:26 2021 +0000
+
+    Modify Readme@
+
+ README.md                           |  30 ++++++-
+ web/src/_aqua/aggregator_service.ts | 168 ++++++++++++++++++++++++++++++++++++
+ 2 files changed, 196 insertions(+), 2 deletions(-)
+
+commit 97cbeefef2ce1089523760caa8965f8a77cf44ad
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Fri Aug 20 21:49:11 2021 -0300
+
+    -fix deploy script to use ceramic daemon location in local node
+    -Add button to update price
+
+ services/configs/ceramic_adapter_cfg.unix.json |  2 +-
+ services/deploy_service.sh                     |  2 +-
+ web/public/index.html                          |  2 +-
+ web/src/App.scss                               |  5 +--
+ web/src/App.tsx                                | 48 +++++++++++++++++++++-----
+ 5 files changed, 46 insertions(+), 13 deletions(-)
+
+commit d9653957eb512352c8242eadc0f253586ef55683
+Merge: 768edfc 63678fe
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Fri Aug 20 00:46:21 2021 -0300
+
+    Merge remote-tracking branch 'origin/main' into main
+
+commit 63678fe54355df5fd4e3646e906d25dbeacdfdc9
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Fri Aug 20 03:15:40 2021 +0000
+
+    include missing fields and add time management
+
+ .../air-scripts/aggregator_service.ping.air        |  34 +++
+ .../aggregator_service.process_data.air            |  46 ++++
+ .../aggregator_service.read_last_price.air         |   0
+ .../air-scripts/aggregator_service.ts              | 260 +++++++++++++++++++++
+ .../aqua-scripts/aggregator_service.aqua           |  40 ++++
+ .../aqua-scripts/builtin.aqua                      |   0
+ .../build_interface copy.sh                        |   0
+ service_interface/build_interface.sh               |   4 +
+ services/aggregator_service/src/main.rs            |  53 ++++-
+ services/air-scripts/read_last_price.ts            |  92 --------
+ services/aqua-scripts/read_last_price.aqua         |  23 --
+ services/build.Unix.sh                             |  18 ++
+ services/build.sh                                  |   2 +-
+ services/ceramic_adapter/Cargo.lock                |   8 +-
+ 14 files changed, 451 insertions(+), 129 deletions(-)
+
+commit 768edfc7eb1bd020830f211265da9848de339b3d
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Thu Aug 19 23:36:37 2021 -0300
+
+    Add ping service demo and changed icons
+
+ .gitignore                                         |    4 +-
+ ceramic_wrapper/ceramic.js                         |    6 +
+ ceramic_wrapper/package-lock.json                  | 8524 ++++++++++++++++++++
+ ceramic_wrapper/package.json                       |   19 +
+ .../air-scripts/aggregator_service.ping.air        |   34 +
+ .../aggregator_service.process_data.air            |   46 +
+ .../aggregator_service.read_last_price.air         |   37 +
+ .../air-scripts/aggregator_service.ts              |  260 +
+ services/aggregatorservice/Cargo.lock              | 1665 ++++
+ services/build.sh.txt                              |    0
+ services/configs/ceramic_adapter_cfg.json          |    2 +-
+ services/configs/ceramic_adapter_cfg.unix.json     |    6 +
+ web/public/favicon.ico                             |  Bin 15406 -> 13794 bytes
+ web/public/logo192.png                             |  Bin 5044 -> 0 bytes
+ web/public/logo512.png                             |  Bin 14442 -> 0 bytes
+ web/src/App.tsx                                    |   49 +-
+ web/src/_aqua/aggregator_service.ts                |  260 +
+ 17 files changed, 10897 insertions(+), 15 deletions(-)
+
+commit 7255ba3a7c23b9c683c96f6c93745e8e0a0d1626
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Sun Aug 15 21:53:20 2021 +0000
+
+    fix test
+
+ services/aggregator_service/src/main.rs | 80 +++++----------------------------
+ 1 file changed, 10 insertions(+), 70 deletions(-)
+
+commit a2dd30197e517eaa752bbd06ff565b710200ec33
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Sun Aug 15 17:13:55 2021 +0000
+
+    enhaced update to retrieve Result
+
+ schema/create_stream.sh                            |   4 +-
+ services/aggregator_service/src/main.rs            | 125 +++++++++++++++------
+ .../read_last_price.read_last_price.air            |  30 ++++-
+ services/air-scripts/read_last_price.ts            |  35 ++++--
+ services/air-scripts/test.sh                       |   2 +-
+ services/aqua-scripts/read_last_price.aqua         |   3 +-
+ services/deploy_service.sh                         |   2 +-
+ 7 files changed, 148 insertions(+), 53 deletions(-)
+
+commit db4f00d3982b78540e53bdb8f220db62b7aa360a
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Sun Aug 15 05:01:04 2021 +0000
+
+    Demo
+
+ .repl_history                                      |    8 +
+ schema/create_stream.sh                            |   30 +
+ services/.repl_history                             |    5 +
+ services/Config.toml                               |    2 +-
+ .../.gitignore                                     |    0
+ .../Cargo.toml                                     |    6 +-
+ .../build.sh                                       |    0
+ services/aggregator_service/src/barprice.rs        |   12 +
+ .../src/main.rs                                    |   79 +-
+ .../src/numeric_utils.rs                           |    0
+ services/aggregator_service/src/price_dao.rs       |    0
+ .../aggregator_service/src/price_processing.rs     |   44 +
+ .../read_last_price.read_last_price.air            |   19 +
+ services/air-scripts/read_last_price.ts            |   73 +
+ services/air-scripts/test.sh                       |    5 +
+ services/aqua-scripts/builtin.aqua                 |  217 +++
+ services/aqua-scripts/read_last_price.aqua         |   22 +
+ services/build.sh                                  |    4 +-
+ services/ceramic_adapter/Cargo.lock                | 1694 ++++++++++++++++++++
+ services/ceramic_adapter/src/main.rs               |    8 +-
+ services/configs/aggregator_service_cfg.json       |    4 +
+ services/configs/ceramic_adapter_cfg.json          |    6 +
+ services/deploy_service.sh                         |    1 +
+ web/src/App.scss                                   |    2 +-
+ web/src/App.tsx                                    |   58 +-
+ web/src/_aqua/run_get_stream_price.ts              |   92 ++
+ web/src/logo.svg                                   |   17 -
+ 27 files changed, 2320 insertions(+), 88 deletions(-)
+
+commit b6e25fc493a91efd73900b03d40d0bc0f88a37ee
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Sat Aug 14 23:38:34 2021 -0300
+
+    Add icon
+
+ web/public/dx_icon.png | Bin 0 -> 17909 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 279002f80f80234380cd6e3f8662a08c5ece6f40
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Sat Aug 14 04:04:40 2021 +0000
+
+    Created methods to both read and write data into ceramic
+
+ README.md                              |  34 ++++++++
+ services/Config.toml                   |   6 +-
+ services/aggregatorservice/Cargo.toml  |   1 +
+ services/aggregatorservice/Config.toml |   6 --
+ services/aggregatorservice/src/main.rs | 141 +++++++++++++++++++++++----------
+ services/build.sh                      |   6 +-
+ services/ceramic_adapter/src/main.rs   |   9 ++-
+ 7 files changed, 148 insertions(+), 55 deletions(-)
+
+commit 651e0e9563ca0945e4b16e697c67f3038967005d
+Merge: 253f7b8 0a8d2e9
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Fri Aug 13 14:54:50 2021 +0000
+
+    Merge branch 'main' of https://github.com/juanobligado/dxpriceaggregator into main
+
+commit 253f7b8dff73d1a6bd4860e13f0790e866942630
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Fri Aug 13 14:53:26 2021 +0000
+
+    -Create Demo Web Project
+    -Create Ceramic Adapter
+
+ .gitignore                           |     3 +-
+ services/Config.toml                 |     8 +
+ services/build.sh                    |    14 +
+ services/ceramic_adapter/Cargo.toml  |     4 +
+ services/ceramic_adapter/Config.json |     4 +-
+ services/ceramic_adapter/src/main.rs |    72 +-
+ web/.gitignore                       |    23 +
+ web/README.md                        |    20 +
+ web/package-lock.json                | 19829 +++++++++++++++++++++++++++++++++
+ web/package.json                     |    52 +
+ web/public/favicon.ico               |   Bin 0 -> 15406 bytes
+ web/public/index.html                |    39 +
+ web/public/logo192.png               |   Bin 0 -> 5044 bytes
+ web/public/logo512.png               |   Bin 0 -> 14442 bytes
+ web/public/manifest.json             |    25 +
+ web/public/robots.txt                |     3 +
+ web/src/App.scss                     |   134 +
+ web/src/App.tsx                      |   139 +
+ web/src/_aqua/get_crypto_prices.ts   |   118 +
+ web/src/index.css                    |    13 +
+ web/src/index.tsx                    |    11 +
+ web/src/logo.svg                     |    17 +
+ web/src/react-app-env.d.ts           |     1 +
+ web/tsconfig.json                    |    26 +
+ 24 files changed, 20532 insertions(+), 23 deletions(-)
+
+commit 0a8d2e9d39b39b7b17e58195d10a977ac98c48cd
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Thu Aug 12 22:11:33 2021 -0300
+
+    Update README.md
+
+ README.md | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 3663264efa81da0793bc9b0345fa43c3a219c3b1
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Thu Aug 12 02:14:54 2021 +0000
+
+    Separate modules and create container for ceramic Cli
+
+ services/aggregatorservice/Cargo.toml           |  2 ++
+ services/aggregatorservice/src/main.rs          | 24 +++++++++++++--
+ services/aggregatorservice/src/numeric_utils.rs |  6 ++++
+ services/ceramic_adapter/.gitignore             |  5 +++
+ services/ceramic_adapter/Cargo.toml             | 14 +++++++++
+ services/ceramic_adapter/Config.json            |  7 +++++
+ services/ceramic_adapter/src/main.rs            | 41 +++++++++++++++++++++++++
+ 7 files changed, 96 insertions(+), 3 deletions(-)
+
+commit 0b6965394ef5cca741b2e00ba6c38073f10e1ec8
+Merge: 50b2793 f1c1146
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Tue Aug 10 02:50:50 2021 +0000
+
+    Merge branch 'main' of https://github.com/juanobligado/dxpriceaggregator into main
+
+commit 50b27933f29da5a3cb92a52883d60b0070749e23
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Tue Aug 10 02:50:15 2021 +0000
+
+    modified yml
+
+ .github/workflows/rust.yml | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f1c114614f0ab51bab9ed1babad2d2becf3eb0ae
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Mon Aug 9 23:49:38 2021 -0300
+
+    Update rust.yml
+
+ .github/workflows/rust.yml | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+commit 3957f1181a26ec7a0502ec2628bb4ea563869722
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Tue Aug 10 02:40:54 2021 +0000
+
+    Create mean function and tests
+
+ services/aggregatorservice/src/main.rs | 44 +++++++++++++++++++++++++++++-----
+ 1 file changed, 38 insertions(+), 6 deletions(-)
+
+commit 8f27e767fe3b7c0a76ce288ce56e2fac2b95e2e0
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Tue Aug 10 00:31:14 2021 +0000
+
+    Change Build.sh to support unix lf
+
+ .gitignore                                        | 62 +----------------------
+ services/aggregatorservice/{scripts => }/build.sh |  4 +-
+ services/aggregatorservice/src/main.rs            |  2 +-
+ 3 files changed, 6 insertions(+), 62 deletions(-)
+
+commit 34d2730ea708aa615058ef8516d0fd5113647fa0
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Mon Aug 9 20:32:55 2021 -0300
+
+    Create rust.yml
+
+ .github/workflows/rust.yml | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+
+commit 9ac0f46104c5bb70b0efb36715ec34c2eadbeb7e
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Wed Aug 4 22:30:05 2021 -0300
+
+    Create aggregator service template
+
+ services/aggregatorservice/.gitignore       |  5 +++
+ services/aggregatorservice/Cargo.toml       | 22 ++++++++++++
+ services/aggregatorservice/Config.toml      |  6 ++++
+ services/aggregatorservice/scripts/build.sh |  7 ++++
+ services/aggregatorservice/src/main.rs      | 53 +++++++++++++++++++++++++++++
+ 5 files changed, 93 insertions(+)
+
+commit 1928105a2aac2051459bc8d447337d44841bbcb0
+Author: juanobligado <juan.obligado@gmail.com>
+Date:   Wed Aug 4 14:42:42 2021 -0300
+
+    Initial commit
+
+ .gitignore | 104 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ LICENSE    |  21 +++++++++++++
+ README.md  |   2 ++
+ 3 files changed, 127 insertions(+)

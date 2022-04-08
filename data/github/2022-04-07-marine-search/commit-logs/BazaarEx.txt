@@ -1,0 +1,479 @@
+commit bbd675d1b4ca95affe17946eb4f2ba13e0efea61
+Author: Tejas Kothari <tejas23682320@gmail.com>
+Date:   Sat Oct 2 20:29:57 2021 +0800
+
+    Include gitbook and medium article links
+
+ README.md | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 14a4bf02c2ddec96545a4f5fbdc9bb52c3543fc0
+Author: Tejas Kothari <tejas23682320@gmail.com>
+Date:   Sun Aug 29 02:17:51 2021 +0800
+
+    deployment edits and files
+
+ air-scripts/init_service.air |  7 ++++++
+ air-scripts/test.air         |  7 ++++++
+ app-local.config.json        | 35 +++++++++++++++++++++++++++++
+ deploy-output.json           | 53 ++++++++++++++++++++++++++++++++++++++++++++
+ deploy.sh                    |  3 +++
+ src/nft_contract_adapter.rs  |  2 +-
+ 6 files changed, 106 insertions(+), 1 deletion(-)
+
+commit a052dea7e6de1f838635e2ccd99d24edd2b54a3b
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Sun Aug 8 01:35:04 2021 +0800
+
+    changes to test and main net deployment
+
+ nft_contract/package-lock.json | 2735 +++++++++++++++++++++++++++++++++++++---
+ nft_contract/package.json      |    3 +-
+ nft_contract/truffle-config.js |   39 +-
+ 3 files changed, 2579 insertions(+), 198 deletions(-)
+
+commit eb3a282d549eca7551e6db9bcf5e215ee1d53f10
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Wed Aug 4 23:26:55 2021 +0800
+
+    interface name edit
+
+ src/main.rs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a1442ad0be959b75e25a97e0eada30c5351c7612
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Thu Jul 22 18:34:18 2021 +0800
+
+    Readme update
+
+ README.md | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit e1fee04be2d88cd03ca9b9ae1b18b97884035d14
+Author: Tejas Kothari <tejask@Tejass-MacBook-Pro.local>
+Date:   Wed Jul 21 19:01:12 2021 +0800
+
+    ERC721 Solidity files
+
+ README.md                                          |   2 +-
+ nft_contract/contracts/ERC721.sol                  | 497 +++++++++++++++++++++
+ .../contracts/ERC721PresetMinterPauserAutoId.sol   | 145 ++++++
+ nft_contract/contracts/IERC721.sol                 | 160 +++++++
+ nft_contract/contracts/IERC721Receiver.sol         |  26 ++
+ nft_contract/contracts/access/AccessControl.sol    | 250 +++++++++++
+ .../contracts/access/AccessControlEnumerable.sol   |  87 ++++
+ .../contracts/extensions/ERC721Burnable.sol        |  28 ++
+ .../contracts/extensions/ERC721Enumerable.sol      | 162 +++++++
+ .../contracts/extensions/ERC721Pausable.sol        |  32 ++
+ .../contracts/extensions/IERC721Enumerable.sol     |  28 ++
+ .../contracts/extensions/IERC721Metadata.sol       |  26 ++
+ nft_contract/contracts/security/Pausable.sol       |  90 ++++
+ nft_contract/contracts/utils/Address.sol           | 210 +++++++++
+ nft_contract/contracts/utils/Context.sol           |  23 +
+ nft_contract/contracts/utils/Counters.sol          |  42 ++
+ nft_contract/contracts/utils/Strings.sol           |  66 +++
+ .../contracts/utils/introspection/ERC165.sol       |  28 ++
+ .../contracts/utils/introspection/IERC165.sol      |  24 +
+ .../contracts/utils/structs/EnumerableSet.sol      | 294 ++++++++++++
+ nft_contract/truffle-config.js                     |   8 +-
+ 21 files changed, 2223 insertions(+), 5 deletions(-)
+
+commit 2cd109defc0f89a4e0e587f111e3df141badfe16
+Author: Tejas Kothari <tejask@Tejass-MacBook-Pro.local>
+Date:   Wed Jul 21 18:13:15 2021 +0800
+
+    Update readme
+
+ README.md | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+commit f79aca7eba6da2c22270ef5fde36500ce79ca729
+Author: Tejas Kothari <tejask@Tejass-MacBook-Pro.local>
+Date:   Wed Jul 21 18:00:58 2021 +0800
+
+    Readme
+
+ README.md | 23 +++++++++++++++++++++++
+ 1 file changed, 23 insertions(+)
+
+commit 90145149ec35821e94631acab5ac0123effa1df5
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Wed Jul 21 15:07:22 2021 +0800
+
+    Authetication cleanup
+
+ src/main.rs | 43 ++++++++++++++++++-------------------------
+ 1 file changed, 18 insertions(+), 25 deletions(-)
+
+commit 2c7ab0e424b4a310ed00bf4b692f771fb543dea8
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Wed Jul 21 12:13:01 2021 +0800
+
+    Return user obj when registering
+
+ src/db.rs   | 36 +++++++++++++++++++++++++++++++++---
+ src/main.rs |  4 ++--
+ 2 files changed, 35 insertions(+), 5 deletions(-)
+
+commit b8ebfae024d8050bcc69a704fd541b1a5d277fe6
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Wed Jul 21 11:32:27 2021 +0800
+
+    Added authentication to init and reset service
+
+ src/main.rs | 30 ++++++++++++++++++++++++------
+ 1 file changed, 24 insertions(+), 6 deletions(-)
+
+commit b1aca90c3225cf954246663722b390814bdf6700
+Author: Tejas Kothari <tejask@Tejass-MacBook-Pro.local>
+Date:   Wed Jul 21 02:39:30 2021 +0800
+
+    Fund each acct with 1 ETH (For demo only)
+
+ src/main.rs                 |  8 ++++++--
+ src/nft_contract_adapter.rs | 25 +++++++++++++++++++++++++
+ 2 files changed, 31 insertions(+), 2 deletions(-)
+
+commit 07a0e0ad63f9838c644f968db2263d93f1516b9d
+Author: Tejas Kothari <tejask@Tejass-MacBook-Pro.local>
+Date:   Wed Jul 21 02:17:45 2021 +0800
+
+    Sign raw trans w libsecp256k1 + Fix transfer NFT
+
+ Cargo.lock                                  | 348 +++++++++++++-----
+ Cargo.toml                                  |   3 +-
+ ethereum-tx-sign/Cargo.lock                 | 527 ++++++++++++++++++++++++++++
+ ethereum-tx-sign/Cargo.toml                 |  17 +
+ ethereum-tx-sign/src/lib.rs                 | 152 ++++++++
+ ethereum-tx-sign/test/test_txs.json         |  44 +++
+ ethereum-tx-sign/test/test_txs_ropsten.json |  44 +++
+ src/db.rs                                   |  42 ++-
+ src/main.rs                                 |  42 ++-
+ src/nft_contract_adapter.rs                 |  35 +-
+ web3/Cargo.toml                             |   4 +-
+ web3/src/eth_calls.rs                       |  29 ++
+ web3/src/eth_utils.rs                       |  17 +-
+ web3/src/lib.rs                             |   1 +
+ 14 files changed, 1171 insertions(+), 134 deletions(-)
+
+commit e6c925beda40adb2f3bdb38d51637cc990b31447
+Author: Tejas Kothari <tejask@Tejass-MacBook-Pro.local>
+Date:   Mon Jul 19 14:43:42 2021 +0800
+
+    Added transfer + moved pk2add function to web3 lib
+
+ Cargo.lock                  |  6 ++---
+ Cargo.toml                  |  1 -
+ src/main.rs                 | 51 ++++++++++++++++++++++++++++++---------
+ src/nft_contract_adapter.rs | 58 +++++++++++++++++++++++++++++++++++++++++++++
+ web3/Cargo.toml             |  3 ++-
+ web3/src/eth_utils.rs       | 14 +++++++++++
+ web3/src/lib.rs             |  2 +-
+ 7 files changed, 118 insertions(+), 17 deletions(-)
+
+commit 13e6dacf90dbb23ee884ea9aca7db4c6dce7584b
+Author: Tejas Kothari <tejask@Tejass-MacBook-Pro.local>
+Date:   Sun Jul 18 16:24:53 2021 +0800
+
+    mint when post new item
+
+ Cargo.lock  |  1 +
+ Cargo.toml  |  1 +
+ src/db.rs   | 25 ++++++++++++++++++++++---
+ src/main.rs | 17 +++++++++++++++++
+ 4 files changed, 41 insertions(+), 3 deletions(-)
+
+commit 98e5f089e8aaca6412ad8e813d39c8e8576c7f8d
+Author: Tejas Kothari <tejask@Tejass-MacBook-Pro.local>
+Date:   Sun Jul 18 01:38:23 2021 +0800
+
+    Added contract function calls
+
+ Cargo.lock                  |  2 ++
+ Cargo.toml                  |  2 ++
+ src/nft_contract_adapter.rs | 78 +++++++++++++++++++++++++++++++++++++++++++++
+ web3/src/eth_calls.rs       | 32 +++++++++++++++++--
+ web3/src/eth_utils.rs       |  8 ++---
+ web3/src/fce_results.rs     | 21 ++++++++----
+ 6 files changed, 130 insertions(+), 13 deletions(-)
+
+commit a192c7cb086c1a374026d485a8c5ba7ed70c02eb
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Fri Jul 16 18:21:02 2021 +0800
+
+    Added custom web3 library
+
+ Cargo.lock                  | 511 +++++++++++++++++++++++++++++++++++++++++++-
+ Cargo.toml                  |   2 +
+ curl_adapter/Cargo.lock     |   1 -
+ curl_adapter/Cargo.toml     |   1 -
+ curl_adapter/src/main.rs    |   5 +-
+ src/main.rs                 |   6 -
+ web3/Cargo.toml             |  18 ++
+ web3/src/bytes_type.rs      |  20 ++
+ web3/src/eth_calls.rs       |  50 +++++
+ web3/src/eth_utils.rs       |  26 +++
+ web3/src/fce_results.rs     |  85 ++++++++
+ web3/src/jsonrpc_helpers.rs | 109 ++++++++++
+ web3/src/lib.rs             |  20 ++
+ 13 files changed, 836 insertions(+), 18 deletions(-)
+
+commit 1549e455ba545212488b50036135a19788d3d6f5
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Tue Jul 6 15:40:33 2021 +0800
+
+    Using passed peer_id temporarily + Added curl
+
+ .gitignore               |   3 +-
+ Config.toml              |  16 ++-
+ build.sh                 |   7 +-
+ curl_adapter/Cargo.lock  | 262 +++++++++++++++++++++++++++++++++++++++++++++++
+ curl_adapter/Cargo.toml  |  16 +++
+ curl_adapter/src/main.rs |  24 +++++
+ src/main.rs              |  21 ++--
+ 7 files changed, 330 insertions(+), 19 deletions(-)
+
+commit d0ef3a1ea39c432c6c8233427cebd3c1b2a949c7
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Tue Jul 6 13:26:39 2021 +0800
+
+    Solidity contract with Truffle
+
+ .gitignore                                     |     4 +-
+ nft_contract/contracts/Migrations.sol          |    19 +
+ nft_contract/migrations/1_initial_migration.js |     5 +
+ nft_contract/migrations/2_deploy.js            |    14 +
+ nft_contract/package-lock.json                 | 33379 +++++++++++++++++++++++
+ nft_contract/package.json                      |    18 +
+ nft_contract/test/.gitkeep                     |     0
+ nft_contract/truffle-config.js                 |   106 +
+ stellar_setup/accounts.json                    |     1 -
+ stellar_setup/create_accounts.py               |    34 -
+ 10 files changed, 33544 insertions(+), 36 deletions(-)
+
+commit 70067085b3399fef5cf433a6b08ffdef473a37c9
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Sun Jul 4 01:24:01 2021 +0800
+
+    init_peer_id as uuid, add gen user keys to DB
+
+ Cargo.lock  |  7 +++++++
+ Cargo.toml  |  1 +
+ src/auth.rs | 10 ++++++++--
+ src/db.rs   | 18 +++++++++++++-----
+ src/main.rs | 21 ++++++++++++---------
+ 5 files changed, 41 insertions(+), 16 deletions(-)
+
+commit 19075976797b87970a8d3c729866bd793b8fa607
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Sat Jul 3 13:59:14 2021 +0800
+
+    Update to marine sdk
+
+ Cargo.lock  | 205 ++++++++++++++++++++++++++++++++++++------------------------
+ Cargo.toml  |   4 +-
+ build.sh    |   6 +-
+ src/auth.rs |   6 +-
+ src/db.rs   |   6 +-
+ src/main.rs |  28 ++++-----
+ 6 files changed, 147 insertions(+), 108 deletions(-)
+
+commit f509739fa0c17ecb45bf4acaacaf63208dbd131b
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Mon Jun 28 23:04:18 2021 +0800
+
+    Added CPRNG
+
+ Cargo.lock  | 225 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ Cargo.toml  |   2 +
+ src/main.rs |   6 ++
+ 3 files changed, 231 insertions(+), 2 deletions(-)
+
+commit a9c53edbee40d02d60496f434a05c5fef48df1ee
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Fri Jun 18 23:50:21 2021 +0800
+
+    Major cleanup
+
+ Cargo.lock  |  18 ++---
+ Cargo.toml  |   4 +-
+ Config.toml |   2 +-
+ build.sh    |   6 +-
+ src/auth.rs |  14 ++++
+ src/db.rs   | 246 +++++++++++++++++++++++++++++++++++-------------------------
+ src/main.rs | 112 +++++++++++++--------------
+ 7 files changed, 229 insertions(+), 173 deletions(-)
+
+commit dec7a218f3a5193528916102d484f0d2fc180c85
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Sun May 2 22:01:11 2021 +0800
+
+    buy product air script
+
+ air-scripts/buy_product.clj | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+
+commit db1c5ab292802cedf06399bb1aeda4b1007a0896
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Sun May 2 21:00:54 2021 +0800
+
+    post product air script
+
+ air-scripts/post_product.clj | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+
+commit 4963ae78833c3f68149dcc298faa2e48788ce19f
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Sun May 2 20:50:58 2021 +0800
+
+    Regiser user air_script
+
+ air-scripts/register_dummy_users.clj | 48 ++++++++++++++++++++++++++++++++++++
+ 1 file changed, 48 insertions(+)
+
+commit a171e7762d4064ecf10540c081c0a21c2732ab2f
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Sun May 2 20:44:43 2021 +0800
+
+    Comments
+
+ src/main.rs | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+commit 825b6e334a7b917b96ee2d2e3e89325e50edd2f3
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Sat May 1 17:22:33 2021 +0800
+
+    Add other data to Item struct
+
+ src/db.rs | 21 ++++++++++++++++++---
+ 1 file changed, 18 insertions(+), 3 deletions(-)
+
+commit 3d3058ae35c2c43094dd6466d1331e4a82527341
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Sat May 1 12:50:08 2021 +0800
+
+    Pickup item
+
+ src/db.rs   | 16 ++++++++++++++++
+ src/main.rs | 11 +++++++++++
+ 2 files changed, 27 insertions(+)
+
+commit 423cc92f14a803b85a0b5b0044ec218a5d0890bc
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Sat May 1 12:31:04 2021 +0800
+
+    Add buying data to item table
+
+ src/db.rs   | 36 +++++++++++++++---------------------
+ src/main.rs |  4 ++--
+ 2 files changed, 17 insertions(+), 23 deletions(-)
+
+commit 3b9871c0a010e2303f918c9255c7a1116c42ce97
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Sat May 1 10:56:30 2021 +0800
+
+    Buy item
+
+ src/db.rs   | 35 +++++++++++++++++++++++++++++++++--
+ src/main.rs | 11 +++++++++++
+ 2 files changed, 44 insertions(+), 2 deletions(-)
+
+commit e70e75fdefd35fcf8acd60acb0647d667017001a
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Fri Apr 30 21:40:19 2021 +0800
+
+    Add uuid to get_items return
+
+ src/db.rs | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+commit 572a44c56c39a924d8bff547d9aae03bb50143e8
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Fri Apr 30 21:27:53 2021 +0800
+
+    List items
+
+ src/db.rs   | 27 ++++++++++++++++++++++++++-
+ src/main.rs | 11 ++++++++++-
+ 2 files changed, 36 insertions(+), 2 deletions(-)
+
+commit 921eff222d910dc7504b0975547c46e803449cde
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Fri Apr 30 20:09:29 2021 +0800
+
+    Post item to db
+
+ src/db.rs   | 28 ++++++++++++++++++++++++++++
+ src/main.rs | 35 +++++++++++++++++++++++++++++------
+ 2 files changed, 57 insertions(+), 6 deletions(-)
+
+commit a67416c97f6baf8e1a3f8b6b3cf8865bfd3a89df
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Fri Apr 30 15:19:14 2021 +0800
+
+    List users
+
+ src/db.rs   | 15 +++++++++++++++
+ src/main.rs | 10 +++++++++-
+ 2 files changed, 24 insertions(+), 1 deletion(-)
+
+commit 61d40631fd9f3ebf640dc07930cee33748d24644
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Wed Apr 28 22:23:17 2021 +0800
+
+    Add user to db
+
+ src/db.rs   | 40 +++++++++++++++++-----------------------
+ src/main.rs | 32 ++++++++++++++++++++++++++++++++
+ 2 files changed, 49 insertions(+), 23 deletions(-)
+
+commit b572a0619949b444d4df51127ead81b108b028ef
+Author: Tejas Kothari <tejask@Tejass-MBP.lan>
+Date:   Wed Apr 28 22:22:57 2021 +0800
+
+    Account generation Python script
+
+ stellar_setup/accounts.json      |  1 +
+ stellar_setup/create_accounts.py | 34 ++++++++++++++++++++++++++++++++++
+ 2 files changed, 35 insertions(+)
+
+commit d8a3f9867926ae25e1e0735d9d9370db1306cb24
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Wed Apr 28 14:06:03 2021 +0800
+
+    Added SQLite module
+
+ Cargo.lock  | 64 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ Cargo.toml  |  1 +
+ Config.toml | 17 +++++++++++++++-
+ build.sh    |  5 ++++-
+ src/db.rs   | 57 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/main.rs |  2 ++
+ 6 files changed, 139 insertions(+), 7 deletions(-)
+
+commit c0dd23b6207e7f267a17d38d164cc979c3676574
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Wed Apr 28 13:10:25 2021 +0800
+
+    Remove irrelevant comments
+
+ Config.toml |  1 -
+ build.sh    |  7 +++----
+ src/main.rs | 10 +++++-----
+ 3 files changed, 8 insertions(+), 10 deletions(-)
+
+commit 3831f7685da502132ab343ce86d0de1148c1f866
+Author: Tejas Kothari <tejask@Tejass-MBP.COMFAST>
+Date:   Wed Apr 28 02:24:27 2021 +0800
+
+    Initial commit
+
+ .gitignore  |   3 +
+ Cargo.lock  | 178 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Cargo.toml  |  14 +++++
+ Config.toml |   5 ++
+ build.sh    |   8 +++
+ src/main.rs |  11 ++++
+ 6 files changed, 219 insertions(+)

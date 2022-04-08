@@ -1,0 +1,3128 @@
+commit bbe6d52cdc6f5f175fc508196cbfaa681d9cb2b6
+Author: Gabriel Parlea <g_p-h@hotmail.com>
+Date:   Sat Sep 11 22:03:50 2021 +0300
+
+    Update Submission to Follow The Fluence Quickstart Guide
+
+ Submission to Follow The Fluence Quickstart Guide | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 15e3675c9a48e5619793bf3f3169cec33ae588f9
+Author: Gabriel Parlea <g_p-h@hotmail.com>
+Date:   Sat Sep 11 22:02:21 2021 +0300
+
+    Update Submission to Follow The Fluence Quickstart Guide
+
+ Submission to Follow The Fluence Quickstart Guide | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 0907d64493c9766dfd0fd7dd378356a431769460
+Author: Gabriel Parlea <g_p-h@hotmail.com>
+Date:   Fri Sep 10 21:17:12 2021 +0300
+
+    Create Submission to Follow The Fluence Quickstart Guide
+
+ Submission to Follow The Fluence Quickstart Guide | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 3aa5e9151e8446f553a5dba85f18101a1922a61f
+Author: Gabriel Parlea <g_p-h@hotmail.com>
+Date:   Fri Sep 10 20:58:26 2021 +0300
+
+    Update getting-started.aqua
+
+ quickstart/3-browser-to-service/aqua/getting-started.aqua | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 7b2ecb5686896d3cb95348e409d1709ad2e73794
+Author: Gabriel Parlea <g_p-h@hotmail.com>
+Date:   Fri Sep 10 20:57:27 2021 +0300
+
+    Update main.rs
+
+ quickstart/2-hosted-services/src/main.rs | 22 ++++++++++++++++++----
+ 1 file changed, 18 insertions(+), 4 deletions(-)
+
+commit 43a5e307f4294e4f44860a9c56537b6e6370dc5b
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Sep 8 13:54:09 2021 +0300
+
+    Aqua cli to aqua (#18)
+
+ .../aqua-ipfs-integration/nodejs/package-lock.json | 12808 ++++-----
+ aqua-examples/echo-greeter/Readme.md               |     3 +-
+ aqua-examples/getting-started-browser/README.md    |     4 +-
+ .../getting-started-browser/package-lock.json      | 25901 ++++++++++++++++++-
+ aqua-examples/getting-started-browser/package.json |     4 +-
+ .../price-oracle/client-peer/package-lock.json     |  3899 ++-
+ .../price-oracle/client-peer/package.json          |     4 +-
+ 7 files changed, 34815 insertions(+), 7808 deletions(-)
+
+commit 2c2139bf1f2fb4b8525f77263011ab024b48a3e1
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Sep 6 09:42:02 2021 -0500
+
+    add dir
+
+ aqua-examples/echo-greeter/aqua-compiled/.gitkeep | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 89035ccc80daa63e7a5a58abac49aa1a78849a55
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Sep 5 15:30:27 2021 -0500
+
+    update versions, aqua
+
+ aqua-examples/ts-oracle/Readme.md                  | 44 ++++++++++++++------
+ .../air-scripts/timestamp_getter.ts_getter.air     | 48 ----------------------
+ 2 files changed, 32 insertions(+), 60 deletions(-)
+
+commit 23ab413a1441a185d7e52177fa942e699b5702c2
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Sep 5 15:08:41 2021 -0500
+
+    update aqua, versions
+
+ aqua-examples/price-oracle/README.md               |    8 +-
+ aqua-examples/price-oracle/web/README.md           |    2 +-
+ aqua-examples/price-oracle/web/package-lock.json   | 1742 ++++++--------------
+ aqua-examples/price-oracle/web/package.json        |    8 +-
+ .../web/src/_aqua/get_crypto_prices.ts             |  156 +-
+ 5 files changed, 660 insertions(+), 1256 deletions(-)
+
+commit 78e61c90057ef393244da53afdb60a66fbd306b9
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Sep 5 14:51:30 2021 -0500
+
+    remove output file
+
+ .../echo-greeter/client-peer/src/echo_greeter.ts   | 746 ---------------------
+ 1 file changed, 746 deletions(-)
+
+commit d958c9cfa50a5d72efcee9d1a02f2eb5bd80b21d
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Sep 5 14:48:53 2021 -0500
+
+    update version, examples, aqua
+
+ aqua-examples/echo-greeter/Readme.md               |  373 ++--
+ .../echo_greeter.echo_greeting_par.air             |   71 -
+ .../echo_greeter.echo_greeting_par_greet.air       |   68 -
+ .../echo_greeter.echo_greeting_par_inverse.air     |   71 -
+ ...cho_greeter.echo_greeting_par_inverse_greet.air |   68 -
+ .../echo_greeter.echo_greeting_seq.air             |   51 -
+ .../echo_greeter.echo_greeting_seq_2.air           |   57 -
+ .../echo-greeter/aqua-scripts/echo_greeter.aqua    |   68 +-
+ .../client-peer/dist/src/echo_greeter.js           |  129 +-
+ .../echo-greeter/client-peer/dist/src/index.js     |   44 +-
+ .../echo-greeter/client-peer/package-lock.json     | 1969 +++++---------------
+ .../echo-greeter/client-peer/package.json          |    8 +-
+ .../echo-greeter/client-peer/src/echo_greeter.ts   |  405 ++--
+ .../echo-greeter/client-peer/src/index.ts          |   62 +-
+ 14 files changed, 1109 insertions(+), 2335 deletions(-)
+
+commit 50cf3010bdca58ebe3f7ae40e32ab5dc3d89962f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Sep 4 18:21:33 2021 -0500
+
+    remove readme/imgaes
+
+ readme/ipfs_comp_web_1.png | Bin 633452 -> 0 bytes
+ readme/ipfs_comp_web_2.png | Bin 697173 -> 0 bytes
+ readme/ipfs_comp_web_3.png | Bin 730053 -> 0 bytes
+ readme/ipfs_comp_web_4.png | Bin 791778 -> 0 bytes
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+
+commit ca729c5e9393ed16a505c17f567e6f5c5560e60a
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Sep 4 18:20:01 2021 -0500
+
+    update img references
+
+ aqua-examples/aqua-ipfs-integration/web/README.md      |   8 ++++----
+ .../web/images/ipfs_comp_web_1.png                     | Bin 0 -> 633452 bytes
+ .../web/images/ipfs_comp_web_2.png                     | Bin 0 -> 697173 bytes
+ .../web/images/ipfs_comp_web_3.png                     | Bin 0 -> 730053 bytes
+ .../web/images/ipfs_comp_web_4.png                     | Bin 0 -> 791778 bytes
+ 5 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 59bce630581578ed9b1c303d34ee349d0ec0be2d
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Sep 4 18:06:36 2021 -0500
+
+    add compiled aqua file
+
+ .../aqua/src/process_files.ts                      | 26 ++++++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+
+commit ad5dd43694892fbce050d2dc8dad8436e36e0dc8
+Merge: 669f2f1 04614a8
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Sep 4 18:02:26 2021 -0500
+
+    Merge branch 'main' of https://github.com/fluencelabs/examples
+
+commit 669f2f125328e1c1421e5d726edba773a279840d
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Sep 4 18:01:18 2021 -0500
+
+    update versions, aqua
+
+ .../aqua-ipfs-integration/aqua/package-lock.json   | 10381 ++------
+ .../aqua-ipfs-integration/aqua/package.json        |    10 +-
+ .../aqua-ipfs-integration/aqua/src/process.ts      |    21 +-
+ .../aqua-ipfs-integration/nodejs/package.json      |     6 +-
+ .../aqua-ipfs-integration/web/package-lock.json    | 23771 +++++++++----------
+ .../aqua-ipfs-integration/web/package.json         |     6 +-
+ 6 files changed, 12414 insertions(+), 21781 deletions(-)
+
+commit e8e033de75164a99af30c3ab997fb6b028a6ab75
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Sep 4 17:41:01 2021 -0500
+
+    update aqua, versions
+
+ quickstart/1-browser-to-browser/package-lock.json  | 6595 +++++++++-----------
+ quickstart/1-browser-to-browser/package.json       |    8 +-
+ .../src/_aqua/getting-started.ts                   |   19 +-
+ quickstart/3-browser-to-service/package-lock.json  | 6593 +++++++++----------
+ quickstart/3-browser-to-service/package.json       |    8 +-
+ .../src/_aqua/getting-started.ts                   |   28 +-
+ 6 files changed, 5670 insertions(+), 7581 deletions(-)
+
+commit 04614a856aee4b68c304f67d25ffbffbbc320781
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Sep 4 14:34:28 2021 -0500
+
+    update sqlite version
+
+ archived/multi-service/ethqlite/Cargo.toml             | 8 ++++----
+ archived/multi-service/ethqlite/build.sh               | 2 +-
+ archived/web3-examples/web3-examples/facade/Cargo.toml | 8 ++++----
+ marine-examples/README.md                              | 2 +-
+ marine-examples/sqlite/Cargo.toml                      | 4 ++--
+ marine-examples/sqlite/build.sh                        | 2 +-
+ 6 files changed, 13 insertions(+), 13 deletions(-)
+
+commit 0eafaa67ec127b6175865f5559d21ed76c0154c7
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Sep 3 18:53:50 2021 -0500
+
+    update aqua cmmand
+
+ aqua-examples/ts-oracle/Readme.md | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 48301f96bc22de28aef338a372387c7300d3eaf8
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 18:44:48 2021 -0500
+
+    update tests, bump version
+
+ aqua-examples/echo-greeter/utilities/Cargo.toml  |  4 ++--
+ aqua-examples/echo-greeter/utilities/src/main.rs | 15 +++++----------
+ 2 files changed, 7 insertions(+), 12 deletions(-)
+
+commit 4eae93272ed3b8cc3ed053df539d74db5f64332d
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 18:32:57 2021 -0500
+
+    bump version
+
+ .../aqua-ipfs-integration/service/Cargo.toml       |  4 +--
+ .../aqua-ipfs-integration/service/src/main.rs      | 34 ++++++++++++++++------
+ 2 files changed, 27 insertions(+), 11 deletions(-)
+
+commit 07c07d9c40cc0e658fac1314841f3e54af0168ca
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 17:14:03 2021 -0500
+
+    update tests, bump version
+
+ quickstart/2-hosted-services/Cargo.toml  | 4 ++--
+ quickstart/2-hosted-services/src/main.rs | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit ac82f6f60cf1ac9c3d792ea1f2966264ac0a6c16
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 17:06:23 2021 -0500
+
+    update tests
+
+ aqua-examples/price-oracle/mean_service/Cargo.toml         | 3 ---
+ aqua-examples/price-oracle/price_getter_service/Cargo.toml | 3 ---
+ 2 files changed, 6 deletions(-)
+
+commit 125e838ba597b40534f13cce181d8ce28bf7c6b6
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 17:01:12 2021 -0500
+
+    update tests, bump version
+
+ aqua-examples/ts-oracle/Cargo.toml                   |  5 ++---
+ aqua-examples/ts-oracle/artifacts/service_info.txt   |  6 ------
+ aqua-examples/ts-oracle/artifacts/ts_oracle_cfg.json |  3 ---
+ aqua-examples/ts-oracle/src/main.rs                  | 12 +++++++-----
+ 4 files changed, 9 insertions(+), 17 deletions(-)
+
+commit 5add429180b8a9df30a66a5bb1fb9253f1874370
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 16:46:26 2021 -0500
+
+    update readme with new tests
+
+ marine-examples/README.md                  | 16 ++++++----------
+ marine-examples/call_parameters/Cargo.toml |  2 +-
+ 2 files changed, 7 insertions(+), 11 deletions(-)
+
+commit 6299475935f28bb58c1e5a29d52274291cc8fcf0
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 16:37:14 2021 -0500
+
+    bump sdk version
+
+ marine-examples/records/effector/Cargo.toml    | 4 ++--
+ marine-examples/records/pure/Cargo.toml        | 4 ++--
+ marine-examples/records/test-record/Cargo.toml | 2 +-
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+commit dc051830ead1415a8561cee955ee9bc08e40e878
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 16:30:56 2021 -0500
+
+    update tests
+
+ marine-examples/sqlite/Cargo.toml  | 2 +-
+ marine-examples/sqlite/src/main.rs | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 3c7055e2d8405f492846f2d59c0ceb30369555f6
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 16:24:37 2021 -0500
+
+    update tests
+
+ marine-examples/greeting/Cargo.toml  | 2 +-
+ marine-examples/greeting/src/main.rs | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 247aa9c854df760e42773bd52221a264440a708e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 1 16:24:13 2021 -0500
+
+    update tests
+
+ marine-examples/call_parameters/Cargo.toml  | 2 +-
+ marine-examples/call_parameters/src/main.rs | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 289a9c8a5eeb37c69543a8b28dd94e7553fc767c
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Aug 18 11:37:09 2021 +0300
+
+    separate ts and aqua files
+
+ aqua-examples/aqua-ipfs-integration/README.md      |    2 +-
+ .../aqua/{src => aqua}/process.aqua                |    0
+ .../aqua/{src => aqua}/process_files.aqua          |    0
+ .../aqua-ipfs-integration/aqua/package-lock.json   | 5713 +++++++++++++++++++-
+ .../aqua-ipfs-integration/aqua/package.json        |    4 +-
+ .../aqua-ipfs-integration/aqua/src/process.ts      |   24 +-
+ .../aqua-ipfs-integration/service/scripts/build.sh |    2 +-
+ 7 files changed, 5713 insertions(+), 32 deletions(-)
+
+commit c958dbb8e14edd56477f155e487802db37e3f400
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Aug 14 21:00:37 2021 -0500
+
+    update aqua, fix typos
+
+ aqua-examples/ts-oracle/Readme.md                  |   4 +-
+ .../air-scripts/timestamp_getter.ts_getter.air     |   2 +-
+ aqua-examples/ts-oracle/air-scripts/ts_getter.ts   | 206 ---------------------
+ .../ts-oracle/air-scripts/ts_getter.ts_getter.air  |  48 -----
+ .../ts-oracle/air-scripts/ts_getter.ts_oracle.air  |  66 -------
+ aqua-examples/ts-oracle/aqua-scripts/builtin.aqua  | 121 ++++++++----
+ .../ts-oracle/aqua-scripts/timestamp_getter.aqua   |   2 +-
+ .../ts-oracle/aqua-scripts/ts_getter.aqua          |   2 +-
+ 8 files changed, 91 insertions(+), 360 deletions(-)
+
+commit ae3b23c99e5a23f7da99a22bf5a6877109ae7982
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Aug 12 18:17:31 2021 +0300
+
+    IPFS Integration: move README images to root
+
+ {aqua-examples/readme => readme}/ipfs_comp_web_1.png | Bin
+ {aqua-examples/readme => readme}/ipfs_comp_web_2.png | Bin
+ {aqua-examples/readme => readme}/ipfs_comp_web_3.png | Bin
+ {aqua-examples/readme => readme}/ipfs_comp_web_4.png | Bin
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+
+commit a4788513130057eda86ecd169f24c5d6a4b49d1b
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Aug 12 18:15:57 2021 +0300
+
+    IPFS Integration: add images to README
+
+ .../{aqua-ipfs-integration => }/readme/ipfs_comp_web_1.png  | Bin
+ .../{aqua-ipfs-integration => }/readme/ipfs_comp_web_2.png  | Bin
+ .../{aqua-ipfs-integration => }/readme/ipfs_comp_web_3.png  | Bin
+ .../{aqua-ipfs-integration => }/readme/ipfs_comp_web_4.png  | Bin
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 8968a9b1cacef5a9f4f945d1db13d8eee3c59b7c
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Aug 12 18:13:53 2021 +0300
+
+    IPFS Integration: add README to web
+
+ .../readme/ipfs_comp_web_1.png                     | Bin 0 -> 633452 bytes
+ .../readme/ipfs_comp_web_2.png                     | Bin 0 -> 697173 bytes
+ .../readme/ipfs_comp_web_3.png                     | Bin 0 -> 730053 bytes
+ .../readme/ipfs_comp_web_4.png                     | Bin 0 -> 791778 bytes
+ aqua-examples/aqua-ipfs-integration/web/README.md  |  26 ++++++++++++++++++++-
+ 5 files changed, 25 insertions(+), 1 deletion(-)
+
+commit 93e7a340e67df836320af0f243cc095a2aa3402b
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Aug 12 18:03:19 2021 +0300
+
+    README: Add link to Aqua Book, mention NodeJS example
+
+ aqua-examples/aqua-ipfs-integration/README.md | 18 ++++++++++++++----
+ 1 file changed, 14 insertions(+), 4 deletions(-)
+
+commit 176d026a7c02430d28ee3c133e42f9969b0d8e7f
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Aug 12 17:55:33 2021 +0300
+
+    Fix web demo
+
+ aqua-examples/aqua-ipfs-integration/web/package-lock.json | 11 ++++++++---
+ aqua-examples/aqua-ipfs-integration/web/package.json      |  3 ++-
+ aqua-examples/aqua-ipfs-integration/web/src/appLogic.ts   |  4 ++--
+ 3 files changed, 12 insertions(+), 6 deletions(-)
+
+commit b0e726cc92037e30f7cb99b4dfdd7c2f3b5e673c
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Aug 12 17:48:50 2021 +0300
+
+    Separate NodeJS demo, switch to Krasnodar
+
+ .../aqua-ipfs-integration/aqua/package.json        |   11 +-
+ .../aqua-ipfs-integration/aqua/src/index.ts        |    1 -
+ .../{aqua/src => nodejs}/demo.ts                   |   12 +-
+ .../aqua-ipfs-integration/nodejs/package-lock.json | 9330 ++++++++++++++++++++
+ .../aqua-ipfs-integration/nodejs/package.json      |   41 +
+ .../{aqua/src => nodejs}/provider.ts               |   12 +-
+ .../aqua-ipfs-integration/nodejs/tsconfig.json     |   62 +
+ .../aqua-ipfs-integration/service/scripts/build.sh |    7 +-
+ .../aqua-ipfs-integration/web/package-lock.json    |  527 +-
+ .../aqua-ipfs-integration/web/package.json         |    5 +-
+ .../aqua-ipfs-integration/web/src/appLogic.ts      |    4 +-
+ 11 files changed, 9726 insertions(+), 286 deletions(-)
+
+commit fcfe06768dab9d40e5fe17831a6b70bd8c0d38cb
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Aug 9 19:23:05 2021 -0500
+
+    Update Cargo.toml
+
+ marine-examples/greeting/Cargo.toml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 1d1635c62ae2bbc5fc86246e89aaf2cf90c71889
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Aug 7 16:32:56 2021 -0500
+
+    Update Readme.md
+
+ Readme.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7e2fe56565338d4ffc06f1f37613ad80ef073a9c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Aug 6 22:57:20 2021 -0500
+
+    Update README.md
+
+ aqua-examples/price-oracle/README.md | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit d9bb1ab04e18c45a32f661801c75901476792e6c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Aug 6 18:58:17 2021 -0500
+
+    Update Readme.md
+
+ quickstart/Readme.md | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 2d125f5225250a64706d389b17db7c340fde03e4
+Author: Pavel Murygin <pavel.murygin@gmail.com>
+Date:   Fri Aug 6 12:40:28 2021 +0300
+
+    Fix service names
+
+ quickstart/3-browser-to-service/src/App.tsx | 14 +++++---------
+ 1 file changed, 5 insertions(+), 9 deletions(-)
+
+commit 99f5dd91e79945f15561fc64b1cb32acff2e2727
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Aug 5 17:43:01 2021 -0500
+
+    update project name
+
+ hello-world/1-browser-to-browser/README.md         | 109 ---------------------
+ .../1-browser-to-browser/.gitignore                |   0
+ .../1-browser-to-browser/aqua/getting-started.aqua |   0
+ .../1-browser-to-browser/package-lock.json         |   0
+ .../1-browser-to-browser/package.json              |   0
+ .../1-browser-to-browser/public/favicon.ico        | Bin
+ .../1-browser-to-browser/public/index.html         |   0
+ .../1-browser-to-browser/public/logo192.png        | Bin
+ .../1-browser-to-browser/public/logo512.png        | Bin
+ .../1-browser-to-browser/public/manifest.json      |   0
+ .../1-browser-to-browser/public/robots.txt         |   0
+ .../1-browser-to-browser/src/App.scss              |   0
+ .../1-browser-to-browser/src/App.tsx               |   0
+ .../src/_aqua/getting-started.ts                   |   0
+ .../1-browser-to-browser/src/index.css             |   0
+ .../1-browser-to-browser/src/index.tsx             |   0
+ .../1-browser-to-browser/src/logo.svg              |   0
+ .../1-browser-to-browser/src/react-app-env.d.ts    |   0
+ .../1-browser-to-browser/tsconfig.json             |   0
+ .../2-hosted-services/.gitignore                   |   0
+ .../2-hosted-services/Cargo.toml                   |   0
+ .../2-hosted-services/configs/Config.toml          |   0
+ .../2-hosted-services/configs/app_config.json      |   0
+ .../2-hosted-services/configs/app_config_res.json  |   0
+ .../2-hosted-services/configs/hello_world_cfg.json |   0
+ .../2-hosted-services/scripts/build.sh             |   0
+ .../2-hosted-services/src/main.rs                  |   0
+ .../3-browser-to-service/.gitignore                |   0
+ .../3-browser-to-service/aqua/getting-started.aqua |  10 +-
+ .../3-browser-to-service/package-lock.json         |   0
+ .../3-browser-to-service/package.json              |   0
+ .../3-browser-to-service/public/favicon.ico        | Bin
+ .../3-browser-to-service/public/index.html         |   0
+ .../3-browser-to-service/public/logo192.png        | Bin
+ .../3-browser-to-service/public/logo512.png        | Bin
+ .../3-browser-to-service/public/manifest.json      |   0
+ .../3-browser-to-service/public/robots.txt         |   0
+ .../3-browser-to-service/src/App.scss              |   0
+ .../3-browser-to-service/src/App.tsx               |   0
+ .../src/_aqua/getting-started.ts                   |  18 ++--
+ .../3-browser-to-service/src/index.css             |   0
+ .../3-browser-to-service/src/index.tsx             |   0
+ .../3-browser-to-service/src/logo.svg              |   0
+ .../3-browser-to-service/src/react-app-env.d.ts    |   0
+ .../3-browser-to-service/tsconfig.json             |   0
+ {hello-world => quickstart}/Readme.md              |   0
+ 46 files changed, 14 insertions(+), 123 deletions(-)
+
+commit 994349c8087e467fd696375b1b256b39cc945cb9
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Aug 4 23:13:47 2021 -0500
+
+    update constants
+
+ hello-world/3-browser-to-service/aqua/getting-started.aqua | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 45df30757197b7e4c5df1d3ae1a5444c0f766777
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Aug 4 22:15:13 2021 -0500
+
+    fix tests
+
+ hello-world/2-hosted-services/src/main.rs | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+commit 8f4e4dc6db237298f7f8b0255e10f04060856776
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Aug 4 21:55:46 2021 -0500
+
+    update tests
+
+ hello-world/2-hosted-services/src/main.rs | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit ba10a3ad747eb0b6a27dc25422d02a48b4da0539
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Aug 4 20:45:56 2021 -0500
+
+    update config location
+
+ hello-world/2-hosted-services/Cargo.toml                   |  4 ++--
+ hello-world/2-hosted-services/{ => configs}/Config.toml    |  2 +-
+ hello-world/2-hosted-services/configs/app_config.json      |  4 ++--
+ hello-world/2-hosted-services/configs/app_config_res.json  |  4 ++--
+ hello-world/2-hosted-services/configs/hello_world_cfg.json |  5 +++++
+ hello-world/2-hosted-services/scripts/build.sh             |  2 +-
+ hello-world/2-hosted-services/src/main.rs                  | 10 +++++-----
+ 7 files changed, 18 insertions(+), 13 deletions(-)
+
+commit 704f81bb156b90f16acd8b7808e15c97f9c2f8cb
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Aug 4 18:40:23 2021 -0500
+
+    remove dir
+
+ .../air/getting-started.sayHello.air               | 43 ----------------------
+ 1 file changed, 43 deletions(-)
+
+commit eb2bfd78188fcee4633f182478d809d3a88be910
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Aug 4 17:51:54 2021 -0500
+
+    update configs
+
+ hello-world/2-hosted-services/Cargo.toml          |  4 ++--
+ hello-world/2-hosted-services/Config.toml         |  2 +-
+ hello-world/2-hosted-services/app_config.json     | 18 ----------------
+ hello-world/2-hosted-services/app_config_res.json | 26 -----------------------
+ hello-world/2-hosted-services/build.sh            | 10 ---------
+ hello-world/2-hosted-services/src/main.rs         | 16 +++++++-------
+ 6 files changed, 11 insertions(+), 65 deletions(-)
+
+commit af5cb52442d2288336cf707a5eda190df31a7595
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Aug 4 16:15:32 2021 -0500
+
+    update marine example
+
+ .../air/getting-started.sayHello.air               | 43 ++++++++++++++++++++++
+ .../2-hosted-services/configs/app_config.json      | 18 +++++++++
+ .../2-hosted-services/configs/app_config_res.json  | 26 +++++++++++++
+ hello-world/2-hosted-services/scripts/build.sh     | 10 +++++
+ 4 files changed, 97 insertions(+)
+
+commit b7b099d3a288d475c050e338122878a923764857
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Aug 1 17:19:28 2021 -0500
+
+    add, update readme
+
+ hello-world/1-browser-to-browser/README.md | 2 +-
+ hello-world/Readme.md                      | 3 +++
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+commit 9c8f2fc664706a05b745d825b304097f3eb1b48c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Aug 1 17:06:43 2021 -0500
+
+    update dir names, rm readme
+
+ .../1-browser-to-browser}/.gitignore               |   0
+ .../1-browser-to-browser}/README.md                |   0
+ .../aqua/getting-started.aqua                      |   0
+ .../1-browser-to-browser}/package-lock.json        |   0
+ .../1-browser-to-browser}/package.json             |   0
+ .../1-browser-to-browser}/public/favicon.ico       | Bin
+ .../1-browser-to-browser}/public/index.html        |   0
+ .../1-browser-to-browser}/public/logo192.png       | Bin
+ .../1-browser-to-browser}/public/logo512.png       | Bin
+ .../1-browser-to-browser}/public/manifest.json     |   0
+ .../1-browser-to-browser}/public/robots.txt        |   0
+ .../1-browser-to-browser}/src/App.scss             |   0
+ .../1-browser-to-browser}/src/App.tsx              |   0
+ .../src/_aqua/getting-started.ts                   |   0
+ .../1-browser-to-browser}/src/index.css            |   0
+ .../1-browser-to-browser}/src/index.tsx            |   0
+ .../1-browser-to-browser}/src/logo.svg             |   0
+ .../1-browser-to-browser}/src/react-app-env.d.ts   |   0
+ .../1-browser-to-browser}/tsconfig.json            |   0
+ .../2-hosted-services}/.gitignore                  |   0
+ .../2-hosted-services}/Cargo.toml                  |   0
+ .../2-hosted-services}/Config.toml                 |   0
+ .../2-hosted-services}/app_config.json             |   0
+ .../2-hosted-services}/app_config_res.json         |   0
+ .../2-hosted-services}/build.sh                    |   0
+ .../2-hosted-services}/src/main.rs                 |   0
+ .../3-browser-to-service}/.gitignore               |   0
+ .../aqua/getting-started.aqua                      |   0
+ .../3-browser-to-service}/package-lock.json        |   0
+ .../3-browser-to-service}/package.json             |   0
+ .../3-browser-to-service}/public/favicon.ico       | Bin
+ .../3-browser-to-service}/public/index.html        |   0
+ .../3-browser-to-service}/public/logo192.png       | Bin
+ .../3-browser-to-service}/public/logo512.png       | Bin
+ .../3-browser-to-service}/public/manifest.json     |   0
+ .../3-browser-to-service}/public/robots.txt        |   0
+ .../3-browser-to-service}/src/App.scss             |   0
+ .../3-browser-to-service}/src/App.tsx              |   0
+ .../src/_aqua/getting-started.ts                   |   0
+ .../3-browser-to-service}/src/index.css            |   0
+ .../3-browser-to-service}/src/index.tsx            |   0
+ .../3-browser-to-service}/src/logo.svg             |   0
+ .../3-browser-to-service}/src/react-app-env.d.ts   |   0
+ .../3-browser-to-service}/tsconfig.json            |   0
+ intro/3-hello-world-web3/README.md                 | 109 ---------------------
+ 45 files changed, 109 deletions(-)
+
+commit 12074a45bc9b22dfffbf433bb73dde6aad88e2be
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Aug 1 17:03:35 2021 -0500
+
+    move ipfs example
+
+ .../aqua-ipfs-integration}/.gitignore                       |   0
+ .../aqua-ipfs-integration}/README.md                        |   0
+ .../aqua-ipfs-integration}/aqua/package-lock.json           |   0
+ .../aqua-ipfs-integration}/aqua/package.json                |   0
+ .../aqua-ipfs-integration}/aqua/src/demo.ts                 |   0
+ .../aqua-ipfs-integration}/aqua/src/index.ts                |   0
+ .../aqua-ipfs-integration}/aqua/src/process.aqua            |   0
+ .../aqua-ipfs-integration}/aqua/src/process.ts              |   0
+ .../aqua-ipfs-integration}/aqua/src/process_files.aqua      |   0
+ .../aqua-ipfs-integration}/aqua/src/provider.ts             |   0
+ .../aqua-ipfs-integration}/aqua/tsconfig.json               |   0
+ .../aqua-ipfs-integration}/local-network/docker-compose.yml |   0
+ .../aqua-ipfs-integration}/service/.gitignore               |   0
+ .../aqua-ipfs-integration}/service/Cargo.toml               |   0
+ .../aqua-ipfs-integration}/service/Config.toml              |   0
+ .../aqua-ipfs-integration}/service/scripts/build.sh         |   0
+ .../aqua-ipfs-integration}/service/src/main.rs              |   0
+ .../aqua-ipfs-integration}/web/.gitignore                   |   0
+ .../aqua-ipfs-integration}/web/README.md                    |   0
+ .../aqua-ipfs-integration}/web/package-lock.json            |   0
+ .../aqua-ipfs-integration}/web/package.json                 |   0
+ .../aqua-ipfs-integration}/web/public/favicon.ico           | Bin
+ .../aqua-ipfs-integration}/web/public/index.html            |   0
+ .../aqua-ipfs-integration}/web/public/logo192.png           | Bin
+ .../aqua-ipfs-integration}/web/public/logo512.png           | Bin
+ .../aqua-ipfs-integration}/web/public/manifest.json         |   0
+ .../aqua-ipfs-integration}/web/public/robots.txt            |   0
+ .../aqua-ipfs-integration}/web/src/App.scss                 |   0
+ .../aqua-ipfs-integration}/web/src/App.tsx                  |   0
+ .../web/src/Components/ConnectedInfo.tsx                    |   0
+ .../web/src/Components/ConnectionForm.tsx                   |   0
+ .../web/src/Components/IpfsDeploymentInfo.tsx               |   0
+ .../aqua-ipfs-integration}/web/src/Components/IpfsForm.tsx  |   0
+ .../web/src/Components/SizeCalcForm.tsx                     |   0
+ .../web/src/Components/SizeCalcResult.tsx                   |   0
+ .../aqua-ipfs-integration}/web/src/Components/TextInput.tsx |   0
+ .../aqua-ipfs-integration}/web/src/appLogic.ts              |   0
+ .../aqua-ipfs-integration}/web/src/appState.ts              |   0
+ .../aqua-ipfs-integration}/web/src/index.css                |   0
+ .../aqua-ipfs-integration}/web/src/index.tsx                |   0
+ .../aqua-ipfs-integration}/web/src/logo.svg                 |   0
+ .../aqua-ipfs-integration}/web/src/react-app-env.d.ts       |   0
+ .../aqua-ipfs-integration}/web/src/util.ts                  |   0
+ .../aqua-ipfs-integration}/web/tsconfig.json                |   0
+ 44 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 79a8073960d788230a51bc2c0e6cfac402b8e887
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jul 25 18:47:29 2021 -0500
+
+    fix typo, missing identity func
+
+ aqua-examples/price-oracle/README.md               |  2 +-
+ .../get_crypto_prices.get_price_par.air            | 50 ++++++++++++----------
+ .../aqua-scripts/get_crypto_prices.aqua            |  1 +
+ .../client-peer/dist/get_crypto_prices.js          |  2 +-
+ .../price-oracle/client-peer/dist/src/index.js     |  2 +-
+ .../price-oracle/client-peer/get_crypto_prices.ts  | 50 ++++++++++++----------
+ .../price-oracle/client-peer/src/index.ts          |  2 +-
+ 7 files changed, 61 insertions(+), 48 deletions(-)
+
+commit 90a25bedfeb738a9c16ea6508be733c91758ecd1
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jul 25 13:31:03 2021 -0500
+
+    update Readme, examples
+
+ aqua-examples/echo-greeter/Readme.md               |  855 +++++-
+ .../aqua-compiled/echo_greeter.echo.air            |   40 -
+ .../echo_greeter.echo_greeting_par.air             |   65 +-
+ .../echo_greeter.echo_greeting_par_greet.air       |   68 +
+ .../echo_greeter.echo_greeting_par_inverse.air     |   71 +
+ ...cho_greeter.echo_greeting_par_inverse_greet.air |   68 +
+ .../echo_greeter.echo_greeting_seq.air             |   21 +-
+ .../echo_greeter.echo_greeting_seq_2.air           |   57 +
+ .../aqua-compiled/echo_greeter.greeting.air        |   43 -
+ .../echo-greeter/aqua-compiled/echo_greeter.ts     |  300 --
+ .../client-peer/dist/aqua-compiled/echo_greeter.js |  178 ++
+ .../client-peer/dist/aqua/echo_greeter.js          |  178 ++
+ .../client-peer/dist/client-peer/src/index.js      |   84 +
+ .../echo-greeter/client-peer/dist/echo_greeter.js  |  178 ++
+ .../client-peer/dist/src/echo_greeter.js           |  311 ++
+ .../echo-greeter/client-peer/dist/src/index.js     |  140 +
+ .../echo-greeter/client-peer/package-lock.json     | 3060 ++++++++++++++++++++
+ .../echo-greeter/client-peer/package.json          |   49 +
+ .../echo-greeter/client-peer/src/echo_greeter.ts   |  657 +++++
+ .../echo-greeter/client-peer/src/index.ts          |  158 +
+ .../echo-greeter/client-peer/tsconfig.json         |   62 +
+ aqua-examples/echo-greeter/data/service_info.txt   |  112 +
+ aqua-examples/echo-greeter/greeting/build.sh       |    5 +-
+ 23 files changed, 6262 insertions(+), 498 deletions(-)
+
+commit 65d8c6d8ed2fb6667623f59eaee551034f17cd8a
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 22 19:47:06 2021 +0300
+
+    Update ipfs-aqua
+
+ intro/4-ipfs-code-execution/web/package-lock.json | 22 +++++++++++-----------
+ intro/4-ipfs-code-execution/web/package.json      |  4 ++--
+ 2 files changed, 13 insertions(+), 13 deletions(-)
+
+commit 2f4679ad01ca64f2863a55389df034120d65d131
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 22 19:39:56 2021 +0300
+
+    Intro 4: remove NewDist from process.aqua
+
+ intro/4-ipfs-code-execution/aqua/package-lock.json |  6 +++---
+ intro/4-ipfs-code-execution/aqua/package.json      |  2 +-
+ intro/4-ipfs-code-execution/aqua/src/process.aqua  | 16 ++++++----------
+ 3 files changed, 10 insertions(+), 14 deletions(-)
+
+commit 2658b5918d45ef91115b93d3c95957187b82a5e1
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 22 19:23:59 2021 +0300
+
+    Intro 3: Computing on the network
+
+ intro/3-hello-world-web3/src/App.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7c0eb90ec91a66fea0f148b721f5d65c63688293
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 22 19:20:26 2021 +0300
+
+    Add titles to the first screen
+
+ intro/1-hello-world/src/App.tsx                                   | 3 ++-
+ intro/3-hello-world-web3/src/App.tsx                              | 3 ++-
+ intro/4-ipfs-code-execution/web/src/Components/ConnectionForm.tsx | 3 ++-
+ 3 files changed, 6 insertions(+), 3 deletions(-)
+
+commit 0f454e146cc089e74c88b0262411e429b4afa324
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 22 17:06:41 2021 +0300
+
+    Add testnet option to demo.ts
+
+ intro/4-ipfs-code-execution/aqua/src/demo.ts | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 41733278acc6c5503335a377e58b01358fe7b668
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 22 14:55:19 2021 +0300
+
+    Intro: improve IPFS demo frontend (#16)
+
+ intro/4-ipfs-code-execution/aqua/package-lock.json |   8 +-
+ intro/4-ipfs-code-execution/aqua/package.json      |   4 +-
+ .../4-ipfs-code-execution/aqua/process_files.aqua  |   7 -
+ intro/4-ipfs-code-execution/aqua/src/demo.ts       |  35 +-
+ intro/4-ipfs-code-execution/aqua/src/process.aqua  |  71 +-
+ intro/4-ipfs-code-execution/aqua/src/process.ts    | 345 ++++++++--
+ .../aqua/src/process_files.aqua                    |   6 +
+ intro/4-ipfs-code-execution/service/Cargo.toml     |   1 +
+ .../4-ipfs-code-execution/service/scripts/build.sh |   2 +-
+ intro/4-ipfs-code-execution/service/src/main.rs    |  34 +-
+ intro/4-ipfs-code-execution/web/package-lock.json  | 723 +++++++++++++++++++--
+ intro/4-ipfs-code-execution/web/package.json       |   6 +-
+ intro/4-ipfs-code-execution/web/src/App.scss       | 141 ++--
+ intro/4-ipfs-code-execution/web/src/App.tsx        | 340 ++--------
+ .../web/src/Components/ConnectedInfo.tsx           |  18 +
+ .../web/src/Components/ConnectionForm.tsx          |  21 +
+ .../web/src/Components/IpfsDeploymentInfo.tsx      |  23 +
+ .../web/src/Components/IpfsForm.tsx                |  40 ++
+ .../web/src/Components/SizeCalcForm.tsx            |  37 ++
+ .../web/src/Components/SizeCalcResult.tsx          |  23 +
+ .../web/src/Components/TextInput.tsx               |  32 +
+ intro/4-ipfs-code-execution/web/src/appLogic.ts    | 133 ++++
+ intro/4-ipfs-code-execution/web/src/appState.ts    |  74 +++
+ intro/4-ipfs-code-execution/web/src/index.tsx      |  16 +-
+ intro/4-ipfs-code-execution/web/src/util.ts        |  22 +
+ 25 files changed, 1612 insertions(+), 550 deletions(-)
+
+commit e5e0d59835a849eb9c43b2cd20b25046e1ddab3e
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jul 21 11:37:25 2021 +0300
+
+    intro: 4-ipfs-code-execution (#15)
+
+ intro/4-ipfs-code-execution/.gitignore             |    16 +
+ intro/4-ipfs-code-execution/README.md              |    20 +
+ intro/4-ipfs-code-execution/aqua/package-lock.json |  4613 ++++
+ intro/4-ipfs-code-execution/aqua/package.json      |    42 +
+ .../4-ipfs-code-execution/aqua/process_files.aqua  |     7 +
+ intro/4-ipfs-code-execution/aqua/src/demo.ts       |    84 +
+ intro/4-ipfs-code-execution/aqua/src/index.ts      |     2 +
+ intro/4-ipfs-code-execution/aqua/src/process.aqua  |    45 +
+ intro/4-ipfs-code-execution/aqua/src/process.ts    |   274 +
+ .../aqua/src/process_files.aqua                    |     7 +
+ intro/4-ipfs-code-execution/aqua/src/provider.ts   |    43 +
+ intro/4-ipfs-code-execution/aqua/tsconfig.json     |    62 +
+ .../local-network/docker-compose.yml               |    85 +
+ intro/4-ipfs-code-execution/service/.gitignore     |     4 +
+ intro/4-ipfs-code-execution/service/Cargo.toml     |    21 +
+ intro/4-ipfs-code-execution/service/Config.toml    |     6 +
+ .../4-ipfs-code-execution/service/scripts/build.sh |     8 +
+ intro/4-ipfs-code-execution/service/src/main.rs    |    37 +
+ intro/4-ipfs-code-execution/web/.gitignore         |    23 +
+ intro/4-ipfs-code-execution/web/README.md          |     2 +
+ intro/4-ipfs-code-execution/web/package-lock.json  | 25458 +++++++++++++++++++
+ intro/4-ipfs-code-execution/web/package.json       |    53 +
+ intro/4-ipfs-code-execution/web/public/favicon.ico |   Bin 0 -> 15406 bytes
+ intro/4-ipfs-code-execution/web/public/index.html  |    39 +
+ intro/4-ipfs-code-execution/web/public/logo192.png |   Bin 0 -> 5044 bytes
+ intro/4-ipfs-code-execution/web/public/logo512.png |   Bin 0 -> 14442 bytes
+ .../4-ipfs-code-execution/web/public/manifest.json |    25 +
+ intro/4-ipfs-code-execution/web/public/robots.txt  |     3 +
+ intro/4-ipfs-code-execution/web/src/App.scss       |   202 +
+ intro/4-ipfs-code-execution/web/src/App.tsx        |   304 +
+ intro/4-ipfs-code-execution/web/src/index.css      |    13 +
+ intro/4-ipfs-code-execution/web/src/index.tsx      |    12 +
+ intro/4-ipfs-code-execution/web/src/logo.svg       |    17 +
+ .../web/src/react-app-env.d.ts                     |     1 +
+ intro/4-ipfs-code-execution/web/tsconfig.json      |    26 +
+ 35 files changed, 31554 insertions(+)
+
+commit 5ecce263a6075278d19297cb9b7b90dfd8bc6956
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Tue Jul 20 17:49:58 2021 +0300
+
+    Minor fixes to the getting started examples (#14)
+
+ intro/1-hello-world/aqua/getting-started.aqua      | 11 +--
+ intro/1-hello-world/src/App.scss                   |  2 +-
+ intro/1-hello-world/src/App.tsx                    | 87 +++++++++++-----------
+ intro/1-hello-world/src/_aqua/getting-started.ts   | 18 ++---
+ intro/3-hello-world-web3/aqua/getting-started.aqua | 31 ++++----
+ intro/3-hello-world-web3/src/App.scss              |  2 +-
+ intro/3-hello-world-web3/src/App.tsx               | 84 +++++++++++----------
+ 7 files changed, 124 insertions(+), 111 deletions(-)
+
+commit 09b4472df9adbd5446641f3416e388b990de1850
+Author: Pavel Murygin <pavel.murygin@gmail.com>
+Date:   Tue Jul 20 15:49:56 2021 +0300
+
+    fix word casing in aqua
+
+ intro/3-hello-world-web3/aqua/getting-started.aqua | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 4d75823232e302db5573c053debb182c21ad7cf9
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Tue Jul 20 14:00:26 2021 +0300
+
+    Getting started intro examples (#13)
+
+ aqua-examples/getting-started-browser/.gitignore   |    23 +
+ aqua-examples/getting-started-browser/README.md    |   147 +
+ .../aqua/getting-started.aqua                      |     6 +
+ .../getting-started-browser/package-lock.json      | 19834 +++++++++++++++++++
+ aqua-examples/getting-started-browser/package.json |    53 +
+ .../getting-started-browser/public/favicon.ico     |   Bin 0 -> 15406 bytes
+ .../getting-started-browser/public/index.html      |    42 +
+ .../getting-started-browser/public/logo192.png     |   Bin 0 -> 5044 bytes
+ .../getting-started-browser/public/logo512.png     |   Bin 0 -> 14442 bytes
+ .../getting-started-browser/public/manifest.json   |    25 +
+ .../getting-started-browser/public/robots.txt      |     3 +
+ aqua-examples/getting-started-browser/src/App.scss |    63 +
+ aqua-examples/getting-started-browser/src/App.tsx  |    54 +
+ .../src/_aqua/getting-started.ts                   |    81 +
+ .../getting-started-browser/src/index.css          |    13 +
+ .../getting-started-browser/src/index.tsx          |    12 +
+ aqua-examples/getting-started-browser/src/logo.svg |    17 +
+ .../getting-started-browser/src/react-app-env.d.ts |     1 +
+ .../getting-started-browser/tsconfig.json          |    26 +
+ intro/1-hello-world/.gitignore                     |    23 +
+ intro/1-hello-world/README.md                      |   109 +
+ intro/1-hello-world/aqua/getting-started.aqua      |     9 +
+ intro/1-hello-world/package-lock.json              | 19834 +++++++++++++++++++
+ intro/1-hello-world/package.json                   |    53 +
+ intro/1-hello-world/public/favicon.ico             |   Bin 0 -> 15406 bytes
+ intro/1-hello-world/public/index.html              |    39 +
+ intro/1-hello-world/public/logo192.png             |   Bin 0 -> 5044 bytes
+ intro/1-hello-world/public/logo512.png             |   Bin 0 -> 14442 bytes
+ intro/1-hello-world/public/manifest.json           |    25 +
+ intro/1-hello-world/public/robots.txt              |     3 +
+ intro/1-hello-world/src/App.scss                   |   160 +
+ intro/1-hello-world/src/App.tsx                    |   142 +
+ intro/1-hello-world/src/_aqua/getting-started.ts   |    97 +
+ intro/1-hello-world/src/index.css                  |    13 +
+ intro/1-hello-world/src/index.tsx                  |    12 +
+ intro/1-hello-world/src/logo.svg                   |    17 +
+ intro/1-hello-world/src/react-app-env.d.ts         |     1 +
+ intro/1-hello-world/tsconfig.json                  |    26 +
+ intro/2-marine/.gitignore                          |     7 +
+ intro/2-marine/Cargo.toml                          |    17 +
+ intro/2-marine/Config.toml                         |     6 +
+ intro/2-marine/app_config.json                     |    18 +
+ intro/2-marine/app_config_res.json                 |    26 +
+ intro/2-marine/build.sh                            |    10 +
+ intro/2-marine/src/main.rs                         |    53 +
+ intro/3-hello-world-web3/.gitignore                |    23 +
+ intro/3-hello-world-web3/README.md                 |   109 +
+ intro/3-hello-world-web3/aqua/getting-started.aqua |    24 +
+ intro/3-hello-world-web3/package-lock.json         | 19834 +++++++++++++++++++
+ intro/3-hello-world-web3/package.json              |    53 +
+ intro/3-hello-world-web3/public/favicon.ico        |   Bin 0 -> 15406 bytes
+ intro/3-hello-world-web3/public/index.html         |    39 +
+ intro/3-hello-world-web3/public/logo192.png        |   Bin 0 -> 5044 bytes
+ intro/3-hello-world-web3/public/logo512.png        |   Bin 0 -> 14442 bytes
+ intro/3-hello-world-web3/public/manifest.json      |    25 +
+ intro/3-hello-world-web3/public/robots.txt         |     3 +
+ intro/3-hello-world-web3/src/App.scss              |   160 +
+ intro/3-hello-world-web3/src/App.tsx               |   145 +
+ .../src/_aqua/getting-started.ts                   |   106 +
+ intro/3-hello-world-web3/src/index.css             |    13 +
+ intro/3-hello-world-web3/src/index.tsx             |    12 +
+ intro/3-hello-world-web3/src/logo.svg              |    17 +
+ intro/3-hello-world-web3/src/react-app-env.d.ts    |     1 +
+ intro/3-hello-world-web3/tsconfig.json             |    26 +
+ 64 files changed, 61690 insertions(+)
+
+commit 1fce5ecaed2c6883c9fcf6bc5cf30084eedfd4e8
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 23:03:44 2021 -0500
+
+    update readme
+
+ aqua-examples/price-oracle/README.md | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 6c5397539882294dffb62eacd265a303b0c33873
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 22:50:25 2021 -0500
+
+    add client peer code
+
+ aqua-examples/price-oracle/README.md               |   67 +
+ .../client-peer/dist/get_crypto_prices.js          |  133 +
+ .../client-peer/dist/src/get_crypto_prices.js      |  133 +
+ .../price-oracle/client-peer/dist/src/index.js     |   90 +
+ .../price-oracle/client-peer/get_crypto_prices.ts  |  231 ++
+ .../price-oracle/client-peer/package-lock.json     | 3060 ++++++++++++++++++++
+ .../price-oracle/client-peer/package.json          |   49 +
+ .../client-peer/src/get_crypto_prices.ts           |  230 ++
+ .../price-oracle/client-peer/src/index.ts          |   54 +
+ .../price-oracle/client-peer/tsconfig.json         |   62 +
+ 10 files changed, 4109 insertions(+)
+
+commit 55bf0b0025a12c61d55dcf9a75467a42807f5e80
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 21:03:04 2021 -0500
+
+    update Readme
+
+ aqua-examples/price-oracle/README.md | 86 ++++++++++++++++++++++++++++++++----
+ 1 file changed, 77 insertions(+), 9 deletions(-)
+
+commit 87e56de10a390bcf2fce286b0d53b66f3c254895
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 20:17:16 2021 -0500
+
+    clean up
+
+ .../get_crypto_prices.get_prices_par.air           | 47 ----------------
+ .../get_crypto_prices.get_prices_par_2.air         | 39 --------------
+ .../get_crypto_prices.get_prices_seq.air           | 47 ----------------
+ .../price-oracle/data/deployed_services.json       | 52 ++++++++----------
+ aqua-examples/price-oracle/package.json            | 49 -----------------
+ aqua-examples/price-oracle/tsconfig.json           | 62 ----------------------
+ 6 files changed, 22 insertions(+), 274 deletions(-)
+
+commit 4a5c5270592cb60ba7272ae0ee4e8f6497747b7a
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 19:08:27 2021 -0500
+
+    add client, add aqua par function
+
+ aqua-examples/price-oracle/README.md               |  20 +++++-
+ .../get_crypto_prices.get_price_par.air            |  69 +++++++++++++++++++++
+ .../aqua-scripts/get_crypto_prices.aqua            |  18 +++++-
+ aqua-examples/price-oracle/images/browser_demo.png | Bin 0 -> 153351 bytes
+ aqua-examples/price-oracle/package.json            |  49 +++++++++++++++
+ aqua-examples/price-oracle/tsconfig.json           |  62 ++++++++++++++++++
+ 6 files changed, 214 insertions(+), 4 deletions(-)
+
+commit 8fd1832ea77c388d0978b47ddcbeaeb65c05a9b9
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 17:47:21 2021 -0500
+
+    add images
+
+ aqua-examples/price-oracle/images/figure_1.png | Bin 0 -> 95492 bytes
+ aqua-examples/price-oracle/images/figure_2.png | Bin 0 -> 58908 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 4af3c13d8db35a8486d9c46aec1d7a9c4a550490
+Merge: 8614742 f815a47
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 17:45:53 2021 -0500
+
+    Merge branch 'main' of github.com:fluencelabs/examples
+
+commit 86147422f9cdf8fb5dc0d7b0eaaf060994fc70c8
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 17:45:13 2021 -0500
+
+    update image references
+
+ aqua-examples/price-oracle/README.md | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+commit f815a4764ab1946106baea984a20fa423e79a8f3
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Tue Jul 20 01:36:54 2021 +0300
+
+    Web ui for price oracle (#12)
+    
+    * Web ui for price oracle
+    
+    * fix gitignored svg logo
+
+ .gitignore                                         |     2 +-
+ aqua-examples/price-oracle/web/.gitignore          |    23 +
+ aqua-examples/price-oracle/web/README.md           |    20 +
+ aqua-examples/price-oracle/web/package-lock.json   | 19829 +++++++++++++++++++
+ aqua-examples/price-oracle/web/package.json        |    52 +
+ aqua-examples/price-oracle/web/public/favicon.ico  |   Bin 0 -> 15406 bytes
+ aqua-examples/price-oracle/web/public/index.html   |    39 +
+ aqua-examples/price-oracle/web/public/logo192.png  |   Bin 0 -> 5044 bytes
+ aqua-examples/price-oracle/web/public/logo512.png  |   Bin 0 -> 14442 bytes
+ .../price-oracle/web/public/manifest.json          |    25 +
+ aqua-examples/price-oracle/web/public/robots.txt   |     3 +
+ aqua-examples/price-oracle/web/src/App.scss        |   134 +
+ aqua-examples/price-oracle/web/src/App.tsx         |   116 +
+ .../web/src/_aqua/get_crypto_prices.ts             |   118 +
+ aqua-examples/price-oracle/web/src/index.css       |    13 +
+ aqua-examples/price-oracle/web/src/index.tsx       |    11 +
+ aqua-examples/price-oracle/web/src/logo.svg        |    17 +
+ .../price-oracle/web/src/react-app-env.d.ts        |     1 +
+ aqua-examples/price-oracle/web/tsconfig.json       |    26 +
+ 19 files changed, 20428 insertions(+), 1 deletion(-)
+
+commit f2389cc2f786d86893092284200925f30c7e7869
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 15:43:35 2021 -0500
+
+    replace mermaid scripts with images
+
+ aqua-examples/price-oracle/README.md | 28 ++++------------------------
+ 1 file changed, 4 insertions(+), 24 deletions(-)
+
+commit 361fc780a18554f9c62c7670a77682aedf53464e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 15:32:31 2021 -0500
+
+    add Readme, update dependencies
+
+ aqua-examples/price-oracle/README.md               | 113 +++++++++++++++++++++
+ .../price-oracle/data/deployed_services.json       |  14 +++
+ .../price-oracle/price_getter_service/Cargo.toml   |   1 -
+ .../price-oracle/price_getter_service/src/main.rs  |   1 -
+ 4 files changed, 127 insertions(+), 2 deletions(-)
+
+commit 10b9cad438104ff4c27b5ac4ec154fb1a1b17e63
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jul 19 12:08:38 2021 -0500
+
+    Price oracle (#11)
+    
+    * update services
+
+ .../air-scripts/get_crypto_prices.get_price.air    |  61 ++++++
+ .../get_crypto_prices.get_prices_par.air           |  47 +++++
+ .../get_crypto_prices.get_prices_par_2.air         |  39 ++++
+ .../get_crypto_prices.get_prices_seq.air           |  47 +++++
+ .../price-oracle/aqua-scripts/builtin.aqua         | 217 +++++++++++++++++++++
+ .../aqua-scripts/get_crypto_prices.aqua            |  49 +++++
+ aqua-examples/price-oracle/configs/Config.toml     |  19 ++
+ .../price-oracle/configs/curl_adapter_cfg.json     |   8 +
+ .../price-oracle/configs/mean_service_cfg.json     |   5 +
+ .../configs/price_getter_service_cfg.json          |   5 +
+ aqua-examples/price-oracle/curl_adapter/Cargo.toml |  14 ++
+ .../price-oracle/curl_adapter/src/main.rs          |  37 ++++
+ .../price-oracle/data/deployed_services.json       |  16 ++
+ aqua-examples/price-oracle/mean_service/Cargo.toml |  22 +++
+ .../price-oracle/mean_service/src/main.rs          |  53 +++++
+ .../price-oracle/price_getter_service/Cargo.toml   |  26 +++
+ .../price-oracle/price_getter_service/src/main.rs  |  95 +++++++++
+ aqua-examples/price-oracle/scripts/build.sh        |  24 +++
+ 18 files changed, 784 insertions(+)
+
+commit 6381411ed9919dc09a38203a71aa708e47050acb
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Jul 16 02:04:18 2021 -0500
+
+    Reorg (#10)
+    
+    * init reorg
+    
+    * updated readme
+    
+    * fix CI
+    
+    * remove outdated ipfs-node example
+    
+    * add Readme
+    
+    * update readme, add config file
+    
+    Co-authored-by: folex <0xdxdy@gmail.com>
+
+ .github/workflows/check-deploy.yml                 |  16 +-
+ Readme.md                                          |   7 +-
+ .../echo-greeter}/Readme.md                        |   0
+ .../aqua-compiled/echo_greeter.echo.air            |   0
+ .../echo_greeter.echo_greeting_par.air             |   0
+ .../echo_greeter.echo_greeting_seq.air             |   0
+ .../aqua-compiled/echo_greeter.greeting.air        |   0
+ .../echo-greeter}/aqua-compiled/echo_greeter.ts    |   0
+ .../echo-greeter}/aqua-scripts/echo_greeter.aqua   |   0
+ .../echo-greeter}/configs/Config.toml              |   0
+ .../echo-greeter}/configs/echo_service_cfg.json    |   0
+ .../echo-greeter}/configs/greeting_cfg.json        |   0
+ .../echo-greeter}/configs/utilities_cfg.json       |   0
+ .../echo-greeter/echo-service}/.gitignore          |   0
+ .../echo-greeter}/echo-service/Cargo.toml          |   0
+ .../echo-greeter}/echo-service/Config.toml         |   0
+ .../echo-greeter}/echo-service/build.sh            |   0
+ .../echo-greeter}/echo-service/src/main.rs         |   0
+ .../echo-greeter/greeting}/.gitignore              |   0
+ .../echo-greeter}/greeting/Cargo.toml              |   0
+ .../echo-greeter}/greeting/Config.toml             |   0
+ .../echo-greeter}/greeting/build.sh                |   0
+ .../echo-greeter}/greeting/src/main.rs             |   0
+ .../echo-greeter}/scripts/build_all.sh             |   0
+ .../echo-greeter/secure-greeter}/.gitignore        |   0
+ .../echo-greeter}/secure-greeter/Cargo.toml        |   0
+ .../echo-greeter}/secure-greeter/Config.toml       |   0
+ .../secure-greeter/air-scripts/air_greet.clj       |   0
+ .../echo-greeter}/secure-greeter/build.sh          |   0
+ .../secure-greeter/configs/secure_greeter_cfg.json |   0
+ .../echo-greeter}/secure-greeter/src/auth.rs       |   0
+ .../echo-greeter}/secure-greeter/src/main.rs       |   0
+ .../echo-greeter}/utilities/.gitignore             |   0
+ .../echo-greeter}/utilities/Cargo.toml             |   0
+ .../echo-greeter}/utilities/Config.toml            |   0
+ .../aqua-compiled/utilities.increment_u32.air      |   0
+ .../aqua-compiled/utilities.increment_u64.air      |   0
+ .../utilities/aqua-compiled/utilities.splitter.air |   0
+ .../aqua-compiled/utilities.splitter_u32.air       |   0
+ .../aqua-compiled/utilities.splitter_u64.air       |   0
+ .../utilities/aqua-scripts/utilities.aqua          |   0
+ .../echo-greeter}/utilities/scripts/build.sh       |   0
+ .../echo-greeter}/utilities/src/main.rs            |   0
+ {ts-oracle => aqua-examples/ts-oracle}/Cargo.toml  |   0
+ {ts-oracle => aqua-examples/ts-oracle}/Config.toml |   0
+ {ts-oracle => aqua-examples/ts-oracle}/Readme.md   |   0
+ .../air-scripts/timestamp_getter.ts_getter.air     |   0
+ .../ts-oracle}/air-scripts/ts_getter.ts            |   0
+ .../ts-oracle}/air-scripts/ts_getter.ts_getter.air |   0
+ .../ts-oracle}/air-scripts/ts_getter.ts_oracle.air |   0
+ .../ts-oracle}/aqua-scripts/builtin.aqua           |   0
+ .../ts-oracle}/aqua-scripts/timestamp_getter.aqua  |   0
+ .../ts-oracle}/aqua-scripts/ts_getter.aqua         |   0
+ .../ts-oracle}/artifacts/service_info.txt          |   0
+ .../ts-oracle}/artifacts/ts_oracle_cfg.json        |   0
+ .../ts-oracle}/scripts/build.sh                    |   0
+ {ts-oracle => aqua-examples/ts-oracle}/src/main.rs |   0
+ .../ts-oracle}/src/stats.rs                        |   0
+ .../curl_template}/.gitignore                      |   0
+ .../curl_template}/README.md                       |   0
+ .../curl_template}/backend/BackendConfig.json      |   0
+ .../curl_template}/backend/Cargo.toml              |   0
+ .../curl_template}/backend/src/main.rs             |   0
+ .../curl_template}/deploy.sh                       |   0
+ .../curl_template}/frontend/.gitignore             |   0
+ .../curl_template}/frontend/.prettierrc.js         |   0
+ .../curl_template}/frontend/README.md              |   0
+ .../curl_template}/frontend/package-lock.json      |   0
+ .../curl_template}/frontend/package.json           |   0
+ .../curl_template}/frontend/public/favicon.ico     | Bin
+ .../curl_template}/frontend/public/index.html      |   0
+ .../curl_template}/frontend/public/logo192.png     | Bin
+ .../curl_template}/frontend/public/logo512.png     | Bin
+ .../curl_template}/frontend/public/manifest.json   |   0
+ .../curl_template}/frontend/public/robots.txt      |   0
+ .../frontend/src/components/App.scss               |   0
+ .../curl_template}/frontend/src/components/App.tsx |   0
+ .../curl_template}/frontend/src/fluence.ts         |   0
+ .../curl_template}/frontend/src/index.scss         |   0
+ .../curl_template}/frontend/src/index.tsx          |   0
+ .../curl_template}/frontend/src/react-app-env.d.ts |   0
+ .../curl_template}/frontend/src/setupTests.ts      |   0
+ .../curl_template}/frontend/tsconfig.json          |   0
+ .../curl_template}/repl_config.toml                |   0
+ .../curl_template}/request.air                     |   0
+ .../curl_template}/script.air                      |   0
+ .../ether-price-getter}/.gitignore                 |   0
+ .../ether-price-getter}/Config.toml                |   0
+ .../ether-price-getter}/Readme.md                  |   0
+ .../air-scripts/get_eth_price.clj                  |   0
+ .../ether-price-getter}/build.sh                   |   0
+ .../ether-price-getter}/curl_adapter/.gitignore    |   0
+ .../ether-price-getter}/curl_adapter/Cargo.toml    |   0
+ .../ether-price-getter}/curl_adapter/src/main.rs   |   0
+ .../ether-price-getter}/curl_cfg.json              |   0
+ .../ether_price_getter/.gitignore                  |   0
+ .../ether_price_getter/Cargo.toml                  |   0
+ .../ether_price_getter/src/eth_price_getter.rs     |   0
+ .../ether_price_getter/src/fce_results.rs          |   0
+ .../ether_price_getter/src/main.rs                 |   0
+ .../ether_price_getter_cfg.json                    |   0
+ .../fluence-cuckoo}/Readme.md                      |   0
+ .../fluence-cuckoo/cuckoo-filter}/.gitignore       |   0
+ .../fluence-cuckoo}/cuckoo-filter/Cargo.toml       |   0
+ .../fluence-cuckoo}/cuckoo-filter/Config.toml      |   0
+ .../cuckoo-filter/air-scripts/cuckoo_create_cf.clj |   0
+ .../air-scripts/cuckoo_service_info.clj            |   0
+ .../fluence-cuckoo}/cuckoo-filter/build.sh         |   0
+ .../fluence-cuckoo}/cuckoo-filter/cuckoo_cfg.json  |   0
+ .../fluence-cuckoo}/cuckoo-filter/src/main.rs      |   0
+ .../fluence-cuckoo}/cuckoo-filter/test.sh          |   0
+ .../multi-service}/Block-Getter-Config.toml        |   0
+ .../Block-Getter-with-Converter-Config.toml        |   0
+ .../multi-service}/Config.toml                     |   0
+ .../air-scripts/add_stored_service.clj             |   0
+ .../multi-service}/air-scripts/am_i_owner.clj      |   0
+ .../multi-service}/air-scripts/curl_req.clj        |   0
+ .../air-scripts/ethqlite_block_committer.clj       |   0
+ .../multi-service}/air-scripts/ethqlite_init.clj   |   0
+ .../multi-service}/air-scripts/ethqlite_owner.clj  |   0
+ .../multi-service}/air-scripts/ethqlite_reset.clj  |   0
+ .../air-scripts/ethqlite_roundtrip.clj             |   0
+ .../multi-service}/air-scripts/get_address.clj     |   0
+ .../air-scripts/get_block_simple.clj               |   0
+ .../air-scripts/get_latest_block.clj               |   0
+ .../air-scripts/get_latest_block_simple.clj        |   0
+ .../multi-service}/air-scripts/hex2int.clj         |   0
+ .../air-scripts/latest_reward_block.clj            |   0
+ .../air-scripts/list_stored_services.clj           |   0
+ .../air-scripts/multi_block_processor.clj          |   0
+ .../air-scripts/remove_stored_service.clj          |   0
+ .../multi-service}/air-scripts/sqlite_tester.clj   |   0
+ .../multi-service}/air-scripts/test_air.clj        |   0
+ .../multi-service}/block_getter/.gitignore         |   0
+ .../multi-service}/block_getter/Cargo.toml         |   0
+ .../block_getter/src/eth_block_getters.rs          |   0
+ .../multi-service}/block_getter/src/main.rs        |   0
+ .../multi-service}/config/block_getter_cfg.json    |   0
+ .../multi-service}/config/curl_cfg.json            |   0
+ .../config/extract_miner_address_cfg.json          |   0
+ .../multi-service}/config/hex_converter_cfg.json   |   0
+ .../multi-service}/config/my_keypair.json          |   0
+ .../multi-service}/curl_adapter/.gitignore         |   0
+ .../multi-service}/curl_adapter/Cargo.toml         |   0
+ .../multi-service}/curl_adapter/src/main.rs        |   0
+ .../multi-service}/ethqlite/.gitignore             |   0
+ .../multi-service}/ethqlite/Cargo.toml             |   0
+ .../multi-service}/ethqlite/Config.toml            |   0
+ .../multi-service}/ethqlite/build.sh               |   0
+ .../multi-service}/ethqlite/ethqlite_cfg.json      |   0
+ .../multi-service}/ethqlite/sqlite3_cfg.json       |   0
+ .../multi-service}/ethqlite/src/auth.rs            |   0
+ .../multi-service}/ethqlite/src/crud.rs            |   0
+ .../multi-service}/ethqlite/src/main.rs            |   0
+ .../extract_miner_address/Cargo.toml               |   0
+ .../extract_miner_address/src/main.rs              |   0
+ .../multi-service}/hex_converter/.gitignore        |   0
+ .../multi-service}/hex_converter/Cargo.toml        |   0
+ .../multi-service}/hex_converter/src/main.rs       |   0
+ .../multi-service}/scripts/build.sh                |   0
+ .../multi-service}/scripts/deploy.sh               |   0
+ .../multi-service}/simple_range_func/.gitignore    |   0
+ .../multi-service}/simple_range_func/Cargo.toml    |   0
+ .../multi-service}/simple_range_func/src/main.rs   |   0
+ .../web3-examples}/web-frontend/.gitignore         |   0
+ .../web3-examples}/web-frontend/.prettierrc.js     |   0
+ .../web3-examples}/web-frontend/README.md          |   0
+ .../web3-examples}/web-frontend/package-lock.json  |   0
+ .../web3-examples}/web-frontend/package.json       |   0
+ .../web3-examples}/web-frontend/public/favicon.ico | Bin
+ .../web3-examples}/web-frontend/public/index.html  |   0
+ .../web3-examples}/web-frontend/public/logo192.png | Bin
+ .../web3-examples}/web-frontend/public/logo512.png | Bin
+ .../web-frontend/public/manifest.json              |   0
+ .../web3-examples}/web-frontend/public/robots.txt  |   0
+ .../web-frontend/src/components/App.scss           |   0
+ .../web-frontend/src/components/App.tsx            |   0
+ .../web3-examples}/web-frontend/src/fluence.ts     |   0
+ .../web3-examples}/web-frontend/src/index.scss     |   0
+ .../web3-examples}/web-frontend/src/index.tsx      |   0
+ .../web-frontend/src/react-app-env.d.ts            |   0
+ .../web3-examples}/web-frontend/src/setupTests.ts  |   0
+ .../web3-examples}/web-frontend/tsconfig.json      |   0
+ .../web3-examples}/web3-examples/.gitignore        |   0
+ .../web3-examples}/web3-examples/Config.toml       |   0
+ .../web3-examples}/web3-examples/Readme.md         |   0
+ .../web3-examples}/web3-examples/build.sh          |   0
+ .../web3-examples/curl_adapter/.gitignore          |   0
+ .../web3-examples/curl_adapter/Cargo.toml          |   0
+ .../web3-examples/curl_adapter/Config.json         |   0
+ .../web3-examples/curl_adapter/src/main.rs         |   0
+ .../web3-examples}/web3-examples/docs/Frontend.md  |   0
+ .../web3-examples}/web3-examples/facade/.gitignore |   0
+ .../web3-examples}/web3-examples/facade/Cargo.toml |   0
+ .../web3-examples/facade/src/data_processing.rs    |   0
+ .../facade/src/data_processing_tests.rs            |   0
+ .../web3-examples/facade/src/eth_calls.rs          |   0
+ .../web3-examples/facade/src/eth_calls_tests.rs    |   0
+ .../web3-examples/facade/src/eth_filter_test.rs    |   0
+ .../web3-examples/facade/src/eth_filters.rs        |   0
+ .../web3-examples/facade/src/eth_hashers.rs        |   0
+ .../web3-examples/facade/src/eth_type_test.rs      |   0
+ .../web3-examples/facade/src/eth_utils.rs          |   0
+ .../web3-examples/facade/src/fce_results.rs        |   0
+ .../web3-examples/facade/src/jsonrpc_helpers.rs    |   0
+ .../web3-examples/facade/src/main.rs               |   0
+ curl_template/backend/Cargo.lock                   | 262 ----------
+ echo-greeter/echo-service/Cargo.lock               | 261 ----------
+ echo-greeter/secure-greeter/Cargo.lock             | 261 ----------
+ ipfs-node/Config.toml                              |  17 -
+ ipfs-node/build.sh                                 |  17 -
+ ipfs-node/effector/Cargo.toml                      |  14 -
+ ipfs-node/effector/src/main.rs                     | 101 ----
+ ipfs-node/effector/src/path.rs                     |  52 --
+ ipfs-node/pure/Cargo.toml                          |  14 -
+ ipfs-node/pure/src/main.rs                         |  74 ---
+ marine-examples/README.md                          | 568 +++++++++++++++++++++
+ .../call_parameters}/.gitignore                    |   0
+ .../call_parameters}/Cargo.toml                    |   0
+ .../call_parameters}/Config.toml                   |   0
+ .../call_parameters}/build.sh                      |   0
+ .../call_parameters}/config.json                   |   0
+ .../call_parameters}/deploy.sh                     |   0
+ .../call_parameters}/src/main.rs                   |   0
+ {greeting => marine-examples/greeting}/.gitignore  |   0
+ {greeting => marine-examples/greeting}/Cargo.toml  |   0
+ {greeting => marine-examples/greeting}/Config.toml |   0
+ {greeting => marine-examples/greeting}/build.sh    |   2 +-
+ marine-examples/greeting/configs/greeting_cfg.json |   5 +
+ {greeting => marine-examples/greeting}/src/main.rs |   0
+ {ipfs-node => marine-examples/records}/.gitignore  |   0
+ {records => marine-examples/records}/Config.toml   |   0
+ {records => marine-examples/records}/build.sh      |   0
+ .../records}/effector/Cargo.toml                   |   0
+ .../records}/effector/src/main.rs                  |   0
+ .../records}/pure/Cargo.toml                       |   0
+ .../records}/pure/src/main.rs                      |   0
+ .../records}/test-record/Cargo.toml                |   0
+ .../records}/test-record/src/test_record.rs        |   0
+ {records => marine-examples/sqlite}/.gitignore     |   0
+ {sqlite => marine-examples/sqlite}/Cargo.toml      |   0
+ {sqlite => marine-examples/sqlite}/Config.toml     |   0
+ {sqlite => marine-examples/sqlite}/build.sh        |   0
+ {sqlite => marine-examples/sqlite}/src/main.rs     |   0
+ .../url-downloader}/Config.toml                    |   0
+ .../url-downloader}/README.md                      |   0
+ .../url-downloader}/artifacts/curl_adapter.json    |   0
+ .../url-downloader}/artifacts/facade.json          |   0
+ .../url-downloader}/artifacts/local_storage.json   |   0
+ .../url-downloader}/build.sh                       |   0
+ .../url-downloader}/compose.air                    |   0
+ .../url-downloader}/curl_adapter/Cargo.toml        |   0
+ .../url-downloader}/curl_adapter/src/main.rs       |   0
+ .../url-downloader}/deploy.sh                      |   0
+ .../url-downloader}/deploy_separate.sh             |   0
+ .../url-downloader}/download.air                   |   0
+ .../url-downloader}/facade/Cargo.toml              |   0
+ .../url-downloader}/facade/src/main.rs             |   0
+ .../url-downloader}/local_storage/Cargo.toml       |   0
+ .../url-downloader}/local_storage/src/main.rs      |   0
+ .../url-downloader}/repl_config.toml               |   0
+ multi-service/simple_range_func/Cargo.lock         | 261 ----------
+ sqlite/.gitignore                                  |   7 -
+ url-downloader/curl_adapter/Cargo.lock             | 261 ----------
+ url-downloader/facade/Cargo.lock                   | 268 ----------
+ url-downloader/local_storage/Cargo.lock            | 337 ------------
+ web3-examples/web-frontend/.vscode/settings.json   |   9 -
+ .../web3-examples/artifacts/curl_adapter.wasm      | Bin 103788 -> 0 bytes
+ web3-examples/web3-examples/artifacts/facade.wasm  | Bin 341222 -> 0 bytes
+ .../web3-examples/curl_adapter/Cargo.lock          | 261 ----------
+ web3-examples/web3-examples/facade/Cargo.lock      | 519 -------------------
+ 271 files changed, 581 insertions(+), 3013 deletions(-)
+
+commit c98c838a2d04ccc02b80ed74620c0d1b0ce4e150
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Jun 29 19:27:09 2021 -0500
+
+    update readmes
+
+ Readme.md                |  58 ++-----------------------
+ echo-greeter/Readme.md   | 111 ++++++++++++++++++++++++++++++++++++++++++++++-
+ ts-oracle/Readme.md      |  13 +++---
+ url-downloader/README.md |   4 +-
+ 4 files changed, 123 insertions(+), 63 deletions(-)
+
+commit e5f96c9948e9aa0cc5f35ca766d07056d8e9fd48
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jun 28 21:24:09 2021 -0500
+
+    fix iter
+
+ ts-oracle/src/stats.rs | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit a3b3050e8b222979e745fae545cd6a0f1020dbb9
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Jun 28 21:21:02 2021 -0500
+
+    add annotated Aqua example
+
+ .../air-scripts/timestamp_getter.ts_getter.air     | 48 ++++++++++++++++++++++
+ ts-oracle/aqua-scripts/timestamp_getter.aqua       | 28 +++++++++++++
+ 2 files changed, 76 insertions(+)
+
+commit cac82e8a8acc00bc55d220abcc2cce44e02ab62f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 27 18:14:46 2021 -0500
+
+    Timestamp Oracle (#9)
+    
+    * init timestamp oracle
+    
+    * Update Readme.md
+    
+    * update stats, tests
+    
+    * update aqua script and readme
+
+ ts-oracle/Cargo.toml                          |  23 +++
+ ts-oracle/Config.toml                         |   6 +
+ ts-oracle/Readme.md                           | 170 +++++++++++++++++++++
+ ts-oracle/air-scripts/ts_getter.ts            | 206 ++++++++++++++++++++++++++
+ ts-oracle/air-scripts/ts_getter.ts_getter.air |  48 ++++++
+ ts-oracle/air-scripts/ts_getter.ts_oracle.air |  66 +++++++++
+ ts-oracle/aqua-scripts/builtin.aqua           | 182 +++++++++++++++++++++++
+ ts-oracle/aqua-scripts/ts_getter.aqua         |  37 +++++
+ ts-oracle/artifacts/service_info.txt          |   6 +
+ ts-oracle/artifacts/ts_oracle_cfg.json        |   3 +
+ ts-oracle/scripts/build.sh                    |   6 +
+ ts-oracle/src/main.rs                         | 127 ++++++++++++++++
+ ts-oracle/src/stats.rs                        |  28 ++++
+ 13 files changed, 908 insertions(+)
+
+commit e85dae2a6b674499099159920be5cf74be05c143
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Jun 18 19:47:05 2021 -0500
+
+    add aqua scripts
+
+ .../aqua-compiled/utilities.increment_u32.air      | 46 ++++++++++++++++++++++
+ .../aqua-compiled/utilities.increment_u64.air      | 46 ++++++++++++++++++++++
+ .../utilities/aqua-compiled/utilities.splitter.air | 43 ++++++++++++++++++++
+ .../aqua-compiled/utilities.splitter_u32.air       | 43 ++++++++++++++++++++
+ .../aqua-compiled/utilities.splitter_u64.air       | 43 ++++++++++++++++++++
+ echo-greeter/utilities/aqua-scripts/utilities.aqua | 42 ++++++++++++++++++++
+ 6 files changed, 263 insertions(+)
+
+commit 4cf8ddad3f611bbb98b71e5fc14613b070853a04
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Jun 18 19:15:43 2021 -0500
+
+    add scripts
+
+ .../aqua-compiled/echo_greeter.echo_greeting_par.air   | 18 +++++++++---------
+ echo-greeter/aqua-scripts/echo_greeter.aqua            |  4 ++--
+ echo-greeter/configs/utilities_cfg.json                |  5 +++++
+ 3 files changed, 16 insertions(+), 11 deletions(-)
+
+commit 9c176e5b2d7817bfdf166b64fe4f1bc5b20b188a
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Jun 17 20:16:14 2021 -0500
+
+    add tests
+
+ echo-greeter/utilities/src/main.rs | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+commit b6248ae332a8aa5d5cf095773e2d9ee10be0bf91
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Jun 17 19:56:02 2021 -0500
+
+    init utilities
+
+ echo-greeter/utilities/.gitignore       |   5 ++
+ echo-greeter/utilities/Cargo.toml       |  22 +++++
+ echo-greeter/utilities/Config.toml      |   6 ++
+ echo-greeter/utilities/scripts/build.sh |   6 ++
+ echo-greeter/utilities/src/main.rs      | 151 ++++++++++++++++++++++++++++++++
+ 5 files changed, 190 insertions(+)
+
+commit b759aa746c3bbf2c3a3cf0d5be2883254dd35e12
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jun 17 16:48:24 2021 +0300
+
+    SQLite: add test for last_insert_rowid (#8)
+
+ sqlite/Cargo.toml  |  2 ++
+ sqlite/src/main.rs | 46 +++++++++++++++++++++++++++++++++++++++++++++-
+ 2 files changed, 47 insertions(+), 1 deletion(-)
+
+commit a66ccd6514c0447ad8a0a77fa5b333263984a14e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Jun 16 18:35:08 2021 -0500
+
+    add compiled aqua, remove air-scripts
+
+ echo-greeter/air-scripts/air_echo.clj              |  17 --
+ .../air-scripts/air_echo_greeting_fold_par.clj     |  27 --
+ .../air-scripts/air_echo_greeting_fold_seq.clj     |  37 ---
+ echo-greeter/air-scripts/air_echo_greeting_seq.clj |  40 ---
+ echo-greeter/air-scripts/air_greeting.clj          |   7 -
+ echo-greeter/aqua-compiled/echo_greeter.echo.air   |  40 +++
+ .../echo_greeter.echo_greeting_par.air             |  68 +++++
+ .../echo_greeter.echo_greeting_seq.air             |  54 ++++
+ .../aqua-compiled/echo_greeter.greeting.air        |  43 +++
+ echo-greeter/aqua-compiled/echo_greeter.ts         | 300 +++++++++++++++++++++
+ 10 files changed, 505 insertions(+), 128 deletions(-)
+
+commit 6131577ab0795642dd102b4a3e7aeb9aaa3c9d32
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Jun 16 18:27:49 2021 -0500
+
+    update aqua
+
+ echo-greeter/aqua-compiled/air/echo.echo.air       | 13 -----
+ .../aqua-compiled/air/greeter.greeting.air         | 16 -----
+ echo-greeter/aqua-compiled/ts/echo.ts              | 64 --------------------
+ echo-greeter/aqua-compiled/ts/greeter.ts           | 68 ----------------------
+ echo-greeter/aqua-scripts/echo.aqua                |  6 --
+ echo-greeter/aqua-scripts/echo_greeter.aqua        | 67 +++++++++++++++++++++
+ echo-greeter/aqua-scripts/greeter.aqua             |  7 ---
+ echo-greeter/configs/greeting_cfg.json             |  4 +-
+ echo-greeter/echo-service/src/main.rs              |  3 +
+ echo-greeter/greeting/Cargo.toml                   |  2 +-
+ echo-greeter/greeting/build.sh                     |  4 +-
+ echo-greeter/greeting/src/main.rs                  |  2 +-
+ echo-greeter/secure-greeter/Cargo.lock             | 20 +++----
+ echo-greeter/secure-greeter/src/auth.rs            |  1 +
+ 14 files changed, 88 insertions(+), 189 deletions(-)
+
+commit 61b1ba39920b5248f16d20a7106725a9838fda19
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Jun 16 17:06:49 2021 -0500
+
+    updates marine, marine-sqlite
+
+ greeting/Cargo.toml                           |  2 +-
+ multi-service/ethqlite/Cargo.toml             |  2 +-
+ multi-service/ethqlite/src/crud.rs            |  6 +--
+ multi-service/ethqlite/src/main.rs            |  4 +-
+ multi-service/scripts/deploy.sh               |  4 +-
+ sqlite/Cargo.toml                             |  2 +-
+ web3-examples/web3-examples/facade/Cargo.lock | 66 +++++++++++++--------------
+ web3-examples/web3-examples/facade/Cargo.toml |  2 +-
+ 8 files changed, 44 insertions(+), 44 deletions(-)
+
+commit 23874922ba57788da44ceee8b85496b94b2e587e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Jun 15 18:46:52 2021 -0500
+
+    fix typo
+
+ echo-greeter/secure-greeter/src/auth.rs | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 842a1bd9757345a8c476491ef11fc81c29068abc
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Jun 15 18:41:17 2021 -0500
+
+    update to marine sdk
+
+ call_parameters/src/main.rs             |  2 +-
+ echo-greeter/echo-service/Cargo.lock    | 60 ++++++++++++++++-----------------
+ echo-greeter/secure-greeter/Cargo.lock  | 60 ++++++++++++++++-----------------
+ echo-greeter/secure-greeter/src/auth.rs |  2 +-
+ multi-service/ethqlite/src/auth.rs      |  2 +-
+ 5 files changed, 63 insertions(+), 63 deletions(-)
+
+commit 5d34d1e0167174093a312d235834470a3a1c81e1
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Jun 15 13:08:11 2021 -0500
+
+    update crate references, bump version
+
+ call_parameters/Cargo.toml                                     |  4 ++--
+ call_parameters/src/main.rs                                    | 10 +++++-----
+ curl_template/backend/Cargo.toml                               |  2 +-
+ curl_template/backend/src/main.rs                              |  8 ++++----
+ echo-greeter/Readme.md                                         |  4 ++++
+ echo-greeter/echo-service/Cargo.toml                           |  2 +-
+ echo-greeter/echo-service/src/main.rs                          |  2 +-
+ echo-greeter/greeting/Cargo.toml                               |  2 +-
+ echo-greeter/greeting/src/main.rs                              |  4 ++--
+ echo-greeter/secure-greeter/Cargo.toml                         |  2 +-
+ echo-greeter/secure-greeter/src/auth.rs                        |  2 +-
+ echo-greeter/secure-greeter/src/main.rs                        |  4 ++--
+ ether-price-getter/curl_adapter/Cargo.toml                     |  2 +-
+ ether-price-getter/curl_adapter/src/main.rs                    |  8 ++++----
+ ether-price-getter/ether_price_getter/Cargo.toml               |  2 +-
+ ether-price-getter/ether_price_getter/src/eth_price_getter.rs  |  2 +-
+ ether-price-getter/ether_price_getter/src/fce_results.rs       |  2 +-
+ ether-price-getter/ether_price_getter/src/main.rs              |  8 ++++----
+ fluence-cuckoo/cuckoo-filter/Cargo.toml                        |  2 +-
+ fluence-cuckoo/cuckoo-filter/src/main.rs                       |  2 +-
+ greeting/Cargo.toml                                            |  4 ++--
+ greeting/src/main.rs                                           |  6 +++---
+ ipfs-node/effector/Cargo.toml                                  |  2 +-
+ ipfs-node/effector/src/main.rs                                 |  8 ++++----
+ ipfs-node/pure/Cargo.toml                                      |  2 +-
+ ipfs-node/pure/src/main.rs                                     |  6 +++---
+ multi-service/block_getter/Cargo.toml                          |  2 +-
+ multi-service/block_getter/src/eth_block_getters.rs            |  4 ++--
+ multi-service/block_getter/src/main.rs                         |  6 +++---
+ multi-service/curl_adapter/Cargo.toml                          |  2 +-
+ multi-service/curl_adapter/src/main.rs                         |  8 ++++----
+ multi-service/ethqlite/Cargo.toml                              |  2 +-
+ multi-service/ethqlite/src/auth.rs                             |  2 +-
+ multi-service/ethqlite/src/crud.rs                             |  2 +-
+ multi-service/ethqlite/src/main.rs                             |  4 ++--
+ multi-service/extract_miner_address/Cargo.toml                 |  2 +-
+ multi-service/extract_miner_address/src/main.rs                |  4 ++--
+ multi-service/hex_converter/Cargo.toml                         |  2 +-
+ multi-service/hex_converter/src/main.rs                        |  4 ++--
+ multi-service/simple_range_func/Cargo.toml                     |  2 +-
+ multi-service/simple_range_func/src/main.rs                    |  4 ++--
+ records/effector/Cargo.toml                                    |  2 +-
+ records/effector/src/main.rs                                   |  4 ++--
+ records/pure/Cargo.toml                                        |  2 +-
+ records/pure/src/main.rs                                       |  4 ++--
+ records/test-record/Cargo.toml                                 |  2 +-
+ records/test-record/src/test_record.rs                         |  2 +-
+ sqlite/Cargo.toml                                              |  2 +-
+ sqlite/src/main.rs                                             |  4 ++--
+ url-downloader/curl_adapter/Cargo.toml                         |  2 +-
+ url-downloader/curl_adapter/src/main.rs                        |  8 ++++----
+ url-downloader/facade/Cargo.toml                               |  2 +-
+ url-downloader/facade/src/main.rs                              |  6 +++---
+ url-downloader/local_storage/Cargo.toml                        |  2 +-
+ url-downloader/local_storage/src/main.rs                       |  6 +++---
+ web3-examples/web3-examples/Readme.md                          |  2 +-
+ web3-examples/web3-examples/curl_adapter/Cargo.toml            |  2 +-
+ web3-examples/web3-examples/curl_adapter/src/main.rs           |  8 ++++----
+ web3-examples/web3-examples/facade/Cargo.toml                  |  2 +-
+ web3-examples/web3-examples/facade/src/data_processing.rs      |  2 +-
+ .../web3-examples/facade/src/data_processing_tests.rs          |  2 +-
+ web3-examples/web3-examples/facade/src/eth_calls.rs            |  2 +-
+ web3-examples/web3-examples/facade/src/eth_calls_tests.rs      |  2 +-
+ web3-examples/web3-examples/facade/src/eth_filter_test.rs      |  2 +-
+ web3-examples/web3-examples/facade/src/eth_filters.rs          |  2 +-
+ web3-examples/web3-examples/facade/src/eth_hashers.rs          |  2 +-
+ web3-examples/web3-examples/facade/src/eth_type_test.rs        |  2 +-
+ web3-examples/web3-examples/facade/src/fce_results.rs          |  2 +-
+ web3-examples/web3-examples/facade/src/main.rs                 |  8 ++++----
+ 69 files changed, 122 insertions(+), 118 deletions(-)
+
+commit 4b8f88c9b2b5a19b488bb50d0e5f2f7bb001a9eb
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Jun 14 00:49:32 2021 +0300
+
+    curl_template: update service id in frontend
+
+ curl_template/frontend/package-lock.json | 1911 ++++++++++++++++++++++++------
+ curl_template/frontend/package.json      |    8 +-
+ curl_template/frontend/src/fluence.ts    |    6 +-
+ 3 files changed, 1523 insertions(+), 402 deletions(-)
+
+commit 82790ca7091ff5d63095f35f968d1d046ed450d6
+Merge: 38e8d13 256aae9
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 16:13:10 2021 -0500
+
+    Merge branch 'main' of https://github.com/fluencelabs/examples
+
+commit 38e8d13b318a9e07ee83548671c6c31b35c86ec6
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 16:12:46 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ ether-price-getter/ether_price_getter/src/fce_results.rs | 4 ++--
+ multi-service/ethqlite/src/main.rs                       | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 0f1425c6506d0f830eef204056669f3e8440fabf
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 16:09:54 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ .../web3-examples/artifacts/curl_adapter.wasm      | Bin 92655 -> 103788 bytes
+ web3-examples/web3-examples/artifacts/facade.wasm  | Bin 327130 -> 341222 bytes
+ web3-examples/web3-examples/build.sh               |  26 ++--
+ .../web3-examples/curl_adapter/Cargo.lock          | 104 ++++++++--------
+ .../web3-examples/curl_adapter/Cargo.toml          |   2 +-
+ .../web3-examples/curl_adapter/src/main.rs         |  24 +---
+ web3-examples/web3-examples/facade/Cargo.lock      | 138 +++++++++++----------
+ web3-examples/web3-examples/facade/Cargo.toml      |   5 +-
+ .../web3-examples/facade/src/data_processing.rs    |  75 ++++++-----
+ .../facade/src/data_processing_tests.rs            |  15 +--
+ .../web3-examples/facade/src/eth_calls.rs          |  12 +-
+ .../web3-examples/facade/src/eth_calls_tests.rs    |   8 +-
+ .../web3-examples/facade/src/eth_filter_test.rs    |   6 +-
+ .../web3-examples/facade/src/eth_filters.rs        |  12 +-
+ .../web3-examples/facade/src/eth_hashers.rs        |   6 +-
+ .../web3-examples/facade/src/eth_type_test.rs      |   4 +-
+ .../web3-examples/facade/src/fce_results.rs        |   6 +-
+ web3-examples/web3-examples/facade/src/main.rs     |   4 +-
+ 18 files changed, 217 insertions(+), 230 deletions(-)
+
+commit 256aae9c0f657cf9bee452eeddd2c3a7d7b3b88c
+Author: folex <0xdxdy@gmail.com>
+Date:   Sun Jun 13 23:54:37 2021 +0300
+
+    Add curl_template to CI (#7)
+
+ .github/workflows/check-deploy.yml |  15 +++-
+ curl_template/backend/Cargo.lock   | 151 +++++++++++++++++++++++++++++--------
+ curl_template/backend/Cargo.toml   |   2 +-
+ curl_template/backend/src/main.rs  |  19 +++--
+ curl_template/deploy.sh            |  13 +++-
+ 5 files changed, 154 insertions(+), 46 deletions(-)
+
+commit 7f33ee4b4f2527823e93410667dfabb63d0a9ccc
+Merge: 2d68a8e 62faa2f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 15:47:50 2021 -0500
+
+    Merge branch 'main' of https://github.com/fluencelabs/examples
+
+commit 2d68a8eebddc9752ab710eed428a604b95fc38be
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 15:46:35 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ multi-service/block_getter/Cargo.toml              |   2 +-
+ .../block_getter/src/eth_block_getters.rs          |   6 +-
+ multi-service/block_getter/src/main.rs             |   4 +-
+ multi-service/curl_adapter/Cargo.toml              |   2 +-
+ multi-service/curl_adapter/src/main.rs             |   6 +-
+ multi-service/ethqlite/Cargo.toml                  |   2 +-
+ multi-service/ethqlite/build.sh                    |   6 +-
+ multi-service/ethqlite/src/auth.rs                 |   8 +-
+ multi-service/ethqlite/src/crud.rs                 | 116 ++++++++++++---------
+ multi-service/ethqlite/src/main.rs                 |  48 +++++----
+ multi-service/extract_miner_address/Cargo.toml     |   2 +-
+ multi-service/extract_miner_address/src/main.rs    |   4 +-
+ multi-service/hex_converter/Cargo.toml             |   4 +-
+ multi-service/hex_converter/src/main.rs            |   4 +-
+ multi-service/scripts/build.sh                     |  20 ++--
+ multi-service/simple_range_func/src/main.rs        |   4 +-
+ 16 files changed, 128 insertions(+), 110 deletions(-)
+
+commit 62faa2fe452487dea8adbd73ed3d2ae8f431db56
+Author: folex <0xdxdy@gmail.com>
+Date:   Sun Jun 13 23:26:30 2021 +0300
+
+    Check deployment of call_parameters (#6)
+
+ .github/download_marine.sh         | 14 +++++++++
+ .github/workflows/check-deploy.yml | 62 ++++++++++++++++++++++++++++++++++++++
+ call_parameters/config.json        |  3 ++
+ call_parameters/deploy.sh          | 19 ++++++++++++
+ curl_template/deploy.sh            |  4 +--
+ 5 files changed, 100 insertions(+), 2 deletions(-)
+
+commit 3a6be62bde75a68337bb1ae944c9ddc08352164a
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 15:25:55 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ .../{fce-cuckoo => cuckoo-filter}/.gitignore       |   0
+ fluence-cuckoo/cuckoo-filter/Cargo.toml            |  17 +
+ .../{fce-cuckoo => cuckoo-filter}/Config.toml      |   2 +-
+ .../air-scripts/cuckoo_create_cf.clj               |   0
+ .../air-scripts/cuckoo_service_info.clj            |   0
+ fluence-cuckoo/cuckoo-filter/build.sh              |   9 +
+ fluence-cuckoo/cuckoo-filter/cuckoo_cfg.json       |   3 +
+ .../{fce-cuckoo => cuckoo-filter}/src/main.rs      |  22 +-
+ .../{fce-cuckoo => cuckoo-filter}/test.sh          |   0
+ fluence-cuckoo/fce-cuckoo/Cargo.lock               | 401 ---------------------
+ fluence-cuckoo/fce-cuckoo/Cargo.toml               |  15 -
+ fluence-cuckoo/fce-cuckoo/build.sh                 |  13 -
+ fluence-cuckoo/fce-cuckoo/cuckoo_cfg.json          |   3 -
+ fluence-cuckoo/fce-cuckoo/fce-cuckoo.toml          |   6 -
+ fluence-cuckoo/fce-cuckoo/fce_cuckoo.toml          |   6 -
+ 15 files changed, 41 insertions(+), 456 deletions(-)
+
+commit 15a811484f48b3b43b1e40e801b1f542bfbf763f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 15:14:18 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ ether-price-getter/Config.toml                                |  4 ++--
+ ether-price-getter/build.sh                                   | 10 ++++------
+ ether-price-getter/curl_adapter/Cargo.toml                    |  2 +-
+ ether-price-getter/curl_adapter/src/main.rs                   |  6 +++---
+ ether-price-getter/ether_price_getter/Cargo.toml              |  2 +-
+ ether-price-getter/ether_price_getter/src/eth_price_getter.rs |  4 ++--
+ ether-price-getter/ether_price_getter/src/fce_results.rs      |  2 +-
+ ether-price-getter/ether_price_getter/src/main.rs             |  4 ++--
+ 8 files changed, 16 insertions(+), 18 deletions(-)
+
+commit 460fb44e3e0113d492c183d4050dc2201d513f9f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 15:06:43 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ echo-greeter/configs/Config.toml        |  2 +-
+ echo-greeter/echo-service/Cargo.lock    | 80 ++++++++++++++++-----------------
+ echo-greeter/echo-service/Cargo.toml    |  2 +-
+ echo-greeter/echo-service/build.sh      |  4 +-
+ echo-greeter/echo-service/src/main.rs   |  6 +--
+ echo-greeter/greeting/src/main.rs       |  4 +-
+ echo-greeter/scripts/build_all.sh       |  8 ++--
+ echo-greeter/scripts/deploy_all.sh      |  8 ----
+ echo-greeter/secure-greeter/Cargo.lock  | 80 ++++++++++++++++-----------------
+ echo-greeter/secure-greeter/Cargo.toml  |  2 +-
+ echo-greeter/secure-greeter/build.sh    |  7 ++-
+ echo-greeter/secure-greeter/deploy.sh   |  4 --
+ echo-greeter/secure-greeter/src/auth.rs |  4 +-
+ echo-greeter/secure-greeter/src/main.rs | 20 ++++-----
+ 14 files changed, 109 insertions(+), 122 deletions(-)
+
+commit 1fc1cfffd7bf1832072964bca9b082d45e85d57b
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 14:36:04 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ ipfs-node/build.sh             | 16 +++++++++-------
+ ipfs-node/effector/Cargo.toml  |  4 ++--
+ ipfs-node/effector/src/main.rs | 16 ++++++++--------
+ ipfs-node/effector/src/path.rs |  2 +-
+ ipfs-node/pure/Cargo.toml      |  4 ++--
+ ipfs-node/pure/src/main.rs     | 14 +++++++-------
+ 6 files changed, 29 insertions(+), 27 deletions(-)
+
+commit 70a32bc46f67943da9f271f56ff774ee4dacc232
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 14:26:54 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ records/build.sh                       | 19 +++++++++++--------
+ records/effector/Cargo.toml            |  4 ++--
+ records/effector/src/main.rs           |  4 ++--
+ records/pure/Cargo.toml                |  4 ++--
+ records/pure/src/main.rs               |  8 ++++----
+ records/test-record/Cargo.toml         |  2 +-
+ records/test-record/src/test_record.rs |  4 +++-
+ 7 files changed, 25 insertions(+), 20 deletions(-)
+
+commit 3d056435eeb962f4a4c7ec7472d950f4610ee865
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 14:12:09 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ url-downloader/build.sh                  |  13 +--
+ url-downloader/curl_adapter/Cargo.lock   | 100 +++++++++---------
+ url-downloader/curl_adapter/Cargo.toml   |   2 +-
+ url-downloader/curl_adapter/src/main.rs  |   6 +-
+ url-downloader/facade/Cargo.lock         | 111 +++++++++----------
+ url-downloader/facade/Cargo.toml         |   7 +-
+ url-downloader/facade/src/main.rs        |   8 +-
+ url-downloader/local_storage/Cargo.lock  | 176 ++++++++++++++++++++++---------
+ url-downloader/local_storage/Cargo.toml  |   3 +-
+ url-downloader/local_storage/src/main.rs |   6 +-
+ 10 files changed, 251 insertions(+), 181 deletions(-)
+
+commit 9ba8c4989814d80ff1d90c6cac6929bc18b9b0c3
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 14:00:21 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ sqlite/Cargo.toml  |  5 +++--
+ sqlite/build.sh    | 11 ++++++-----
+ sqlite/src/main.rs | 22 +++++++++++-----------
+ 3 files changed, 20 insertions(+), 18 deletions(-)
+
+commit e17fab988e3abb16ee5b5ebf018b4f89918693f6
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 13:47:07 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ greeting/Cargo.toml  |  5 ++++-
+ greeting/build.sh    |  5 +++--
+ greeting/src/main.rs | 23 ++++++++++++++++++++---
+ 3 files changed, 27 insertions(+), 6 deletions(-)
+
+commit ccddb4613eedb0b0ed42ac9f0659efd409b40a12
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Jun 13 13:33:26 2021 -0500
+
+    update to marine, marine-test, bump versions
+
+ call_parameters/Cargo.toml  |  5 ++++-
+ call_parameters/build.sh    |  9 +++++----
+ call_parameters/src/main.rs | 46 +++++++++++++++++++++++++++++++++++++++++++--
+ 3 files changed, 53 insertions(+), 7 deletions(-)
+
+commit c7dd850cec337679f6bdfc0e7c01e7defbad9d83
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon May 10 18:32:48 2021 +0300
+
+    Move set from shebang to a new line (#4)
+
+ call_parameters/build.sh             | 3 ++-
+ echo-greeter/echo-service/build.sh   | 3 ++-
+ echo-greeter/greeting/build.sh       | 3 ++-
+ echo-greeter/secure-greeter/build.sh | 3 ++-
+ ether-price-getter/build.sh          | 3 ++-
+ fluence-cuckoo/Readme.md             | 3 ++-
+ fluence-cuckoo/fce-cuckoo/build.sh   | 3 ++-
+ greeting/build.sh                    | 3 ++-
+ ipfs-node/build.sh                   | 3 ++-
+ multi-service/ethqlite/build.sh      | 3 ++-
+ multi-service/scripts/build.sh       | 3 ++-
+ records/build.sh                     | 3 ++-
+ sqlite/build.sh                      | 3 ++-
+ url-downloader/build.sh              | 3 ++-
+ url-downloader/deploy.sh             | 3 ++-
+ url-downloader/deploy_separate.sh    | 3 ++-
+ web3-examples/web3-examples/build.sh | 3 ++-
+ 17 files changed, 34 insertions(+), 17 deletions(-)
+
+commit e82fadf678f1c8eefe929e7682f8f772853a62f0
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat May 1 18:27:19 2021 -0500
+
+    update sqlite3 to 0.14.0
+
+ multi-service/ethqlite/build.sh | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 3d267b09062d5e3c27ab78b7cfaeae923d67bf95
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Apr 30 02:57:54 2021 -0500
+
+    update to marine 0.6.2, remove unsafe
+
+ url-downloader/curl_adapter/Cargo.lock   | 103 ++++++++++++++++++++++++++---
+ url-downloader/curl_adapter/Cargo.toml   |   2 +-
+ url-downloader/curl_adapter/src/main.rs  |  22 +++----
+ url-downloader/facade/Cargo.lock         | 107 +++++++++++++++++++++++++++----
+ url-downloader/facade/Cargo.toml         |   4 +-
+ url-downloader/facade/src/main.rs        |  28 +++-----
+ url-downloader/local_storage/Cargo.lock  | 103 ++++++++++++++++++++++++++---
+ url-downloader/local_storage/Cargo.toml  |   2 +-
+ url-downloader/local_storage/src/main.rs |  27 ++++----
+ 9 files changed, 319 insertions(+), 79 deletions(-)
+
+commit 9552aaab92b7b24e56edac3385df91a3e7f6588a
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 29 20:54:43 2021 -0500
+
+    update to marine 0.6.2., remove unsafe
+
+ greeting/Cargo.toml                                |   2 +-
+ web3-examples/web3-examples/Readme.md              |   2 +-
+ .../web3-examples/curl_adapter/Cargo.lock          | 111 ++++++++++++++++++---
+ .../web3-examples/curl_adapter/Cargo.toml          |   2 +-
+ .../web3-examples/curl_adapter/src/main.rs         |  22 ++--
+ web3-examples/web3-examples/facade/Cargo.lock      |  44 +++++---
+ web3-examples/web3-examples/facade/Cargo.toml      |   8 +-
+ .../web3-examples/facade/src/eth_calls.rs          |  46 +++++----
+ .../web3-examples/facade/src/eth_filters.rs        |  26 +++--
+ web3-examples/web3-examples/facade/src/main.rs     |  14 ++-
+ 10 files changed, 199 insertions(+), 78 deletions(-)
+
+commit 9387249eefb1822451da42ceeec79a85ecc1cc2c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 29 20:16:57 2021 -0500
+
+    update to marine 0.6.2, remove unsafe
+
+ ether-price-getter/build.sh                        |   2 +-
+ ether-price-getter/curl_adapter/Cargo.toml         |   2 +-
+ ether-price-getter/curl_adapter/src/main.rs        |  19 ++--
+ ether-price-getter/ether_price_getter/Cargo.toml   |   2 +-
+ .../ether_price_getter/src/eth_price_getter.rs     |  15 +--
+ ether-price-getter/ether_price_getter/src/main.rs  |  15 ++-
+ fluence-cuckoo/fce-cuckoo/Cargo.lock               | 107 ++++++++++++++++++---
+ fluence-cuckoo/fce-cuckoo/Cargo.toml               |   2 +-
+ fluence-cuckoo/fce-cuckoo/src/main.rs              |  10 +-
+ 9 files changed, 133 insertions(+), 41 deletions(-)
+
+commit 1946f8f544f2707c658d7c65c2c3878459d3bf89
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 29 19:44:07 2021 -0500
+
+    update to fce 0.6.2, remove unsafe
+
+ .../block_getter/src/eth_block_getters.rs          |  14 +--
+ multi-service/block_getter/src/main.rs             |   8 +-
+ multi-service/extract_miner_address/Cargo.toml     |   2 +-
+ multi-service/extract_miner_address/src/main.rs    |   8 +-
+ multi-service/hex_converter/Cargo.toml             |   2 +-
+ multi-service/hex_converter/src/main.rs            |  11 ++-
+ multi-service/scripts/build.sh                     |   3 +-
+ multi-service/simple_range_func/Cargo.lock         | 107 ++++++++++++++++++---
+ multi-service/simple_range_func/Cargo.toml         |   2 +-
+ multi-service/simple_range_func/src/main.rs        |   3 +
+ 10 files changed, 128 insertions(+), 32 deletions(-)
+
+commit 96d9cd42dbb82460be2d5ba7a655b6432278cbda
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 29 19:11:44 2021 -0500
+
+    update to fluence 0.6.2, remove unsafe
+
+ multi-service/curl_adapter/Cargo.toml  |  4 ++--
+ multi-service/curl_adapter/src/main.rs | 20 ++++++++++++--------
+ 2 files changed, 14 insertions(+), 10 deletions(-)
+
+commit e8cf1d87a7bb05ad23930ecbb787174de848960e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 29 18:41:10 2021 -0500
+
+    update to fluence 0.6.2
+
+ multi-service/block_getter/Cargo.toml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 99e612d84c56ef968398095f656960dfea4de0e1
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 29 16:58:48 2021 -0500
+
+    update fluence to 0.6.2, fce-sqlite to 0.4.0
+
+ multi-service/ethqlite/Cargo.toml | 4 ++--
+ multi-service/ethqlite/build.sh   | 6 +++---
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 97f9298016017bc6dcc7fa4751bfa71e0d00483e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 29 16:19:06 2021 -0500
+
+    update fluence to 0.6.2
+
+ echo-greeter/echo-service/Cargo.lock | 103 +++++++++++++++++++++++++++++++----
+ echo-greeter/echo-service/Cargo.toml |   2 +-
+ echo-greeter/greeting/Cargo.toml     |   2 +-
+ 3 files changed, 95 insertions(+), 12 deletions(-)
+
+commit 7922f1aefd19800f8651c524d2db55cd2017bd1b
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 29 16:05:49 2021 -0500
+
+    update to 0.6.2
+
+ echo-greeter/secure-greeter/Cargo.lock             | 103 +++++++++++++++++++--
+ echo-greeter/secure-greeter/Cargo.toml             |   2 +-
+ echo-greeter/secure-greeter/local_service_info.txt |  12 ---
+ echo-greeter/secure-greeter/src/auth.rs            |   2 +-
+ 4 files changed, 95 insertions(+), 24 deletions(-)
+
+commit 988d964a0ae51f007c5b4352be401d7402246131
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 29 15:56:22 2021 -0500
+
+    update scripts
+
+ echo-greeter/air-scripts/air_echo_greeting_seq.clj   |  1 -
+ echo-greeter/aqua-scripts/echo_greeter.aqua          | 20 --------------------
+ echo-greeter/aqua-scripts/greeter.aqua               |  2 +-
+ .../secure-greeter/air-scripts/air_greet.clj         |  3 +--
+ 4 files changed, 2 insertions(+), 24 deletions(-)
+
+commit faf2656ab23ee9c9ff2a32d6316a8c9350e6410e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Apr 26 00:54:59 2021 -0500
+
+    update scripts
+
+ .../air-scripts/air_echo+greeting_fold_par.clj     | 43 ----------------------
+ 1 file changed, 43 deletions(-)
+
+commit 4b9a37cffc396e8952e84730990bbd488978a358
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Apr 26 00:45:12 2021 -0500
+
+    update air scripts
+
+ .../air-scripts/air_echo+greeting_fold_par.clj     | 43 ++++++++++++++++++++++
+ .../air-scripts/air_echo_greeting_fold_par.clj     | 27 ++++++++++++++
+ .../air-scripts/air_echo_greeting_fold_seq.clj     | 37 +++++++++++++++++++
+ echo-greeter/air-scripts/air_echo_greeting_seq.clj | 41 +++++++++++++++++++++
+ 4 files changed, 148 insertions(+)
+
+commit b54fef466cc552114c1193abd84291b26e80293c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Apr 25 21:04:21 2021 -0500
+
+    add auqa scripts and compile targets
+
+ echo-greeter/aqua-compiled/air/echo.echo.air       | 13 +++++
+ .../aqua-compiled/air/greeter.greeting.air         | 16 +++++
+ echo-greeter/aqua-compiled/ts/echo.ts              | 64 ++++++++++++++++++++
+ echo-greeter/aqua-compiled/ts/greeter.ts           | 68 ++++++++++++++++++++++
+ echo-greeter/aqua-scripts/echo.aqua                |  6 ++
+ echo-greeter/aqua-scripts/echo_greeter.aqua        | 20 +++++++
+ echo-greeter/aqua-scripts/greeter.aqua             |  7 +++
+ 7 files changed, 194 insertions(+)
+
+commit 77a5732c1672fac303de6a0219348897468be4c9
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Apr 25 21:02:53 2021 -0500
+
+    update air scripts
+
+ echo-greeter/air-scripts/air_echo.clj         |  8 ++---
+ echo-greeter/air-scripts/air_echo_greeter.clj | 41 -----------------------
+ echo-greeter/air-scripts/air_fold.clj         | 30 -----------------
+ echo-greeter/air-scripts/air_fold_par_bad.clj | 43 ------------------------
+ echo-greeter/air-scripts/air_fold_seq.clj     | 48 ---------------------------
+ echo-greeter/air-scripts/air_greeting.clj     |  2 +-
+ 6 files changed, 5 insertions(+), 167 deletions(-)
+
+commit 7823c295014bc4eb8395774c3e1f2328044009ca
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Apr 18 15:38:49 2021 -0500
+
+    rename par-greeter
+
+ {par-greeter => echo-greeter}/air-scripts/air_echo.clj                    | 0
+ {par-greeter => echo-greeter}/air-scripts/air_echo_greeter.clj            | 0
+ {par-greeter => echo-greeter}/air-scripts/air_fold.clj                    | 0
+ {par-greeter => echo-greeter}/air-scripts/air_fold_par_bad.clj            | 0
+ {par-greeter => echo-greeter}/air-scripts/air_fold_seq.clj                | 0
+ {par-greeter => echo-greeter}/air-scripts/air_greeting.clj                | 0
+ {par-greeter => echo-greeter}/configs/Config.toml                         | 0
+ {par-greeter => echo-greeter}/configs/echo_service_cfg.json               | 0
+ {par-greeter => echo-greeter}/configs/greeting_cfg.json                   | 0
+ {par-greeter => echo-greeter}/echo-service/.gitignore                     | 0
+ {par-greeter => echo-greeter}/echo-service/Cargo.lock                     | 0
+ {par-greeter => echo-greeter}/echo-service/Cargo.toml                     | 0
+ {par-greeter => echo-greeter}/echo-service/Config.toml                    | 0
+ {par-greeter => echo-greeter}/echo-service/build.sh                       | 0
+ {par-greeter => echo-greeter}/echo-service/src/main.rs                    | 0
+ {par-greeter => echo-greeter}/greeting/.gitignore                         | 0
+ {par-greeter => echo-greeter}/greeting/Cargo.toml                         | 0
+ {par-greeter => echo-greeter}/greeting/Config.toml                        | 0
+ {par-greeter => echo-greeter}/greeting/build.sh                           | 0
+ {par-greeter => echo-greeter}/greeting/src/main.rs                        | 0
+ {par-greeter => echo-greeter}/scripts/build_all.sh                        | 0
+ {par-greeter => echo-greeter}/scripts/deploy_all.sh                       | 0
+ {par-greeter => echo-greeter}/secure-greeter/.gitignore                   | 0
+ {par-greeter => echo-greeter}/secure-greeter/Cargo.lock                   | 0
+ {par-greeter => echo-greeter}/secure-greeter/Cargo.toml                   | 0
+ {par-greeter => echo-greeter}/secure-greeter/Config.toml                  | 0
+ {par-greeter => echo-greeter}/secure-greeter/air-scripts/air_greet.clj    | 0
+ {par-greeter => echo-greeter}/secure-greeter/build.sh                     | 0
+ .../secure-greeter/configs/secure_greeter_cfg.json                        | 0
+ {par-greeter => echo-greeter}/secure-greeter/deploy.sh                    | 0
+ {par-greeter => echo-greeter}/secure-greeter/local_service_info.txt       | 0
+ {par-greeter => echo-greeter}/secure-greeter/src/auth.rs                  | 0
+ {par-greeter => echo-greeter}/secure-greeter/src/main.rs                  | 0
+ 33 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 819ac68c5325bb8a1555218c9662e9c36adef24a
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Apr 18 15:35:02 2021 -0500
+
+    update projec
+
+ .gitignore                               |   1 +
+ par-greeter/air-scripts/air_greeting.clj |   7 +-
+ par-greeter/greeting/Cargo.lock          | 177 -------------------------------
+ 3 files changed, 3 insertions(+), 182 deletions(-)
+
+commit 8950cd36d07d3a92fc247e7a9ca329f1aad1d69e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Apr 11 13:15:51 2021 -0500
+
+    update greeting with bool
+
+ par-greeter/greeting/Config.toml | 2 +-
+ par-greeter/greeting/build.sh    | 2 +-
+ par-greeter/greeting/src/main.rs | 7 +++++--
+ 3 files changed, 7 insertions(+), 4 deletions(-)
+
+commit 2333ded73b1cb13613218debc2b235baa8e8781f
+Merge: d36ea09 bff6358
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Apr 9 23:32:37 2021 -0500
+
+    merge par-greeter branch
+
+commit bff6358cc7b5581b98814fec1ae65ebadae9df91
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Apr 9 22:50:07 2021 -0500
+
+    init secure greeter
+
+ par-greeter/secure-greeter/.gitignore              |   7 +
+ par-greeter/secure-greeter/Cargo.lock              | 178 +++++++++++++++++++++
+ par-greeter/secure-greeter/Cargo.toml              |  13 ++
+ par-greeter/secure-greeter/Config.toml             |   6 +
+ .../secure-greeter/air-scripts/air_greet.clj       |  17 ++
+ par-greeter/secure-greeter/build.sh                |   9 ++
+ .../secure-greeter/configs/secure_greeter_cfg.json |   3 +
+ par-greeter/secure-greeter/deploy.sh               |   4 +
+ par-greeter/secure-greeter/local_service_info.txt  |  12 ++
+ par-greeter/secure-greeter/src/auth.rs             |  31 ++++
+ par-greeter/secure-greeter/src/main.rs             |  46 ++++++
+ 11 files changed, 326 insertions(+)
+
+commit f4350547d7f290d43778c3347c3ba13f9edd184d
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Apr 9 19:21:32 2021 -0500
+
+    update air scripts
+
+ par-greeter/air-scripts/air_echo.clj         |  1 -
+ par-greeter/air-scripts/air_echo_greeter.clj | 41 ++++++++++++++++++++++++
+ par-greeter/air-scripts/air_fold.clj         | 40 +++++++----------------
+ par-greeter/air-scripts/air_fold_par_bad.clj | 43 +++++++++++++++++++++++++
+ par-greeter/air-scripts/air_fold_seq.clj     | 48 ++++++++++++++++++++++++++++
+ 5 files changed, 143 insertions(+), 30 deletions(-)
+
+commit ee7572c36ad46d3b6881ec70a64388108b7b8d57
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Apr 9 11:50:53 2021 -0500
+
+    update parameters
+
+ par-greeter/air-scripts/air_fold.clj | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 8b90973de0e8b3c29ac9669a8cb85cf04964f0f1
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Apr 9 11:45:48 2021 -0500
+
+    add config and  AIR scripts
+
+ par-greeter/air-scripts/air_echo.clj      | 18 ++++++++++++
+ par-greeter/air-scripts/air_fold.clj      | 48 +++++++++++++++++++++++++++++++
+ par-greeter/air-scripts/air_greeting.clj  | 10 +++++++
+ par-greeter/configs/Config.toml           |  9 ++++++
+ par-greeter/configs/echo_service_cfg.json |  5 ++++
+ par-greeter/configs/greeting_cfg.json     |  3 ++
+ par-greeter/scripts/build_all.sh          | 14 +++++++++
+ par-greeter/scripts/deploy_all.sh         |  8 ++++++
+ 8 files changed, 115 insertions(+)
+
+commit ff3cd98cf4c19e784a76c98eb891dd9cdfe74a47
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 8 00:39:58 2021 -0500
+
+    update main
+
+ par-greeter/echo-service/src/main.rs | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+
+commit 76dff0e24f1008512b8d3a33138ef67d3058790f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Apr 8 00:08:22 2021 -0500
+
+    init par greeter
+
+ par-greeter/echo-service/.gitignore  |   7 ++
+ par-greeter/echo-service/Cargo.lock  | 178 +++++++++++++++++++++++++++++++++++
+ par-greeter/echo-service/Cargo.toml  |  15 +++
+ par-greeter/echo-service/Config.toml |   6 ++
+ par-greeter/echo-service/build.sh    |   9 ++
+ par-greeter/greeting/.gitignore      |   7 ++
+ par-greeter/greeting/Cargo.lock      | 177 ++++++++++++++++++++++++++++++++++
+ par-greeter/greeting/Cargo.toml      |  17 ++++
+ par-greeter/greeting/Config.toml     |   6 ++
+ par-greeter/greeting/build.sh        |   9 ++
+ par-greeter/greeting/src/main.rs     |  27 ++++++
+ 11 files changed, 458 insertions(+)
+
+commit d36ea090eadb49ed98b17e30e2f5795b3524d353
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Mar 24 12:40:12 2021 +0300
+
+    #!/usr/bin/env bash -o errexit -o nounset -o pipefail (#3)
+
+ call_parameters/build.sh                |   2 +-
+ curl_template/script.air                |   7 ++
+ ether-price-getter/build.sh             |   2 +-
+ fluence-cuckoo/Readme.md                |   2 +-
+ fluence-cuckoo/fce-cuckoo/build.sh      |   4 +-
+ greeting/build.sh                       |   2 +-
+ ipfs-node/build.sh                      |   2 +-
+ multi-service/ethqlite/build.sh         |   2 +-
+ multi-service/scripts/build.sh          |   2 +-
+ records/build.sh                        |   2 +-
+ sqlite/build.sh                         |   2 +-
+ url-downloader/build.sh                 |   2 +-
+ url-downloader/curl_adapter/Cargo.lock  | 178 ++++++++++++++++++++++++++++++++
+ url-downloader/deploy.sh                |   2 +-
+ url-downloader/deploy_separate.sh       |   2 +-
+ url-downloader/local_storage/Cargo.lock | 178 ++++++++++++++++++++++++++++++++
+ web3-examples/web3-examples/build.sh    |   4 +-
+ 17 files changed, 379 insertions(+), 16 deletions(-)
+
+commit a560fab1af19a55e64820d5603e9c34adfa89a66
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Mar 18 15:31:42 2021 -0500
+
+    add script storage  scripts
+
+ multi-service/air-scripts/add_stored_service.clj   | 10 +++++
+ .../air-scripts/ethqlite_block_committer.clj       | 52 ++++++++++++++++++++++
+ multi-service/air-scripts/list_stored_services.clj | 10 +++++
+ .../air-scripts/remove_stored_service.clj          | 10 +++++
+ 4 files changed, 82 insertions(+)
+
+commit c508d096e712b7b22aa94641cd6bb7c2fdb67200
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Mar 17 21:03:40 2021 -0500
+
+    add AIR scripts
+
+ multi-service/air-scripts/am_i_owner.clj          | 16 +++++++++
+ multi-service/air-scripts/ethqlite_init.clj       |  2 +-
+ multi-service/air-scripts/latest_reward_block.clj | 41 +++++++++++++++++++++++
+ 3 files changed, 58 insertions(+), 1 deletion(-)
+
+commit 817479e7606f36f2725ac5ede78c1e73e6637d99
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Mar 17 19:00:34 2021 -0500
+
+    update config
+
+ ether-price-getter/curl_adapter/src/main.rs        |  18 --
+ .../Block-Getter-with-Converter-Config.toml        |  14 +
+ multi-service/ethqlite/src/main.rs.bk2             | 295 ---------------------
+ 3 files changed, 14 insertions(+), 313 deletions(-)
+
+commit 8b103e4c2c1cec758cdb64ecef800ebc70eb582a
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Mar 18 00:02:36 2021 +0300
+
+    Update url downloader for workshop (#2)
+
+ url-downloader/README.md                    |  13 ++
+ url-downloader/artifacts/curl_adapter.json  |   7 +
+ url-downloader/artifacts/facade.json        |   1 +
+ url-downloader/artifacts/local_storage.json |  12 ++
+ url-downloader/build.sh                     |  36 +++---
+ url-downloader/compose.air                  |  13 ++
+ url-downloader/curl_adapter/src/main.rs     |  21 +--
+ url-downloader/deploy.sh                    |  12 ++
+ url-downloader/deploy_separate.sh           |  15 +++
+ url-downloader/download.air                 |  10 ++
+ url-downloader/facade/Cargo.lock            | 192 ++++++++++++++++++++++++++++
+ url-downloader/facade/Cargo.toml            |   1 +
+ url-downloader/facade/src/main.rs           |  22 +++-
+ url-downloader/local_storage/src/main.rs    |  22 ++--
+ url-downloader/repl_config.toml             |  21 +++
+ 15 files changed, 356 insertions(+), 42 deletions(-)
+
+commit 8cffdea6d9d3df77905bd911ee6fbc8871a77964
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Mar 17 00:38:37 2021 -0500
+
+    ufix path, add config file
+
+ greeting/build.sh                      |  2 +-
+ multi-service/Block-Getter-Config.toml | 11 +++++++++++
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+
+commit c2e4e5e4cbab81ec745061b199ed36759b4b5399
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 15 18:58:49 2021 -0500
+
+    update fce examples
+
+ call_parameters/Cargo.toml                  |   2 +-
+ greeting/Cargo.toml                         |   4 +-
+ greeting/src/main.rs                        |   3 +
+ ipfs-node/effector/Cargo.toml               |   4 +-
+ ipfs-node/effector/src/main.rs              |   5 +-
+ ipfs-node/pure/Cargo.toml                   |   4 +-
+ ipfs-node/pure/src/main.rs                  |   5 +-
+ records/effector/Cargo.toml                 |   2 +-
+ records/effector/src/main.rs                |   4 +
+ records/pure/Cargo.toml                     |   2 +-
+ records/pure/src/main.rs                    |   4 +
+ records/test-record/Cargo.toml              |   2 +-
+ sqlite/Cargo.toml                           |   4 +-
+ sqlite/Config.toml                          |  12 +-
+ sqlite/build.sh                             |   2 +-
+ sqlite/src/main.rs                          |  25 ++--
+ url-downloader/README.md                    |  14 ---
+ url-downloader/artifacts/curl_adapter.json  |   7 --
+ url-downloader/artifacts/facade.json        |   1 -
+ url-downloader/artifacts/local_storage.json |  12 --
+ url-downloader/build.sh                     |  36 +++---
+ url-downloader/compose.air                  |  13 --
+ url-downloader/curl_adapter/Cargo.lock      | 178 --------------------------
+ url-downloader/curl_adapter/Cargo.toml      |   2 +-
+ url-downloader/curl_adapter/src/main.rs     |  21 ++--
+ url-downloader/deploy.sh                    |  12 --
+ url-downloader/deploy_separate.sh           |  15 ---
+ url-downloader/download.air                 |  10 --
+ url-downloader/facade/Cargo.lock            | 185 ----------------------------
+ url-downloader/facade/Cargo.toml            |   4 +-
+ url-downloader/facade/src/main.rs           |  25 ++--
+ url-downloader/local_storage/Cargo.lock     | 178 --------------------------
+ url-downloader/local_storage/Cargo.toml     |   2 +-
+ url-downloader/local_storage/src/main.rs    |  22 ++--
+ url-downloader/repl_config.toml             |  21 ----
+ 35 files changed, 106 insertions(+), 736 deletions(-)
+
+commit 3dd0c531eacd91684a2cf68c83b1f5fc732af52e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Mar 9 13:54:56 2021 -0600
+
+    remove paywall parameters
+
+ multi-service/air-scripts/ethqlite_init.clj | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2e5a95c8fd59bfe212490966bc7340243c3e05aa
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Tue Mar 9 13:34:20 2021 -0600
+
+    cleanup
+
+ multi-service/ethqlite/Config.toml       | 11 ++++--
+ multi-service/ethqlite/ethqlite_cfg.json |  6 ++--
+ multi-service/ethqlite/src/crud.rs       | 35 +------------------
+ multi-service/ethqlite/src/main.rs       | 59 ++++++--------------------------
+ 4 files changed, 24 insertions(+), 87 deletions(-)
+
+commit fbaf9143ee432b28c871b654d102ad24ead9fc30
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 8 22:06:34 2021 -0600
+
+    update to accomodate empty reward block string
+
+ multi-service/ethqlite/src/crud.rs | 40 ++++++++++++++++++--------------------
+ multi-service/ethqlite/src/main.rs |  2 +-
+ 2 files changed, 20 insertions(+), 22 deletions(-)
+
+commit 9124648719be39ade9aec406200f02dbd4cbb41c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 8 17:38:52 2021 -0600
+
+    rmm paywall
+
+ multi-service/air-scripts/ethqlite_init.clj |  2 +-
+ multi-service/ethqlite/src/crud.rs          |  2 +-
+ multi-service/ethqlite/src/main.rs          | 27 ----------
+ multi-service/ethqlite/src/paywall.rs       | 80 -----------------------------
+ 4 files changed, 2 insertions(+), 109 deletions(-)
+
+commit e9777ba7721fd2ed87451eff8e18ef0af982c07e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 8 17:35:11 2021 -0600
+
+    update init, add reset, fix create table
+
+ multi-service/ethqlite/src/crud.rs    |  40 +++++++---
+ multi-service/ethqlite/src/main.rs    | 134 ++++++++++++++++++++++------------
+ multi-service/ethqlite/src/paywall.rs |  29 ++++++--
+ 3 files changed, 139 insertions(+), 64 deletions(-)
+
+commit 0569b82717da03ca2786c5bdd78d06b478124ffd
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 8 17:34:27 2021 -0600
+
+    add AIR scripts
+
+ multi-service/air-scripts/ethqlite_init.clj      | 16 +++++
+ multi-service/air-scripts/ethqlite_owner.clj     | 17 +++++
+ multi-service/air-scripts/ethqlite_reset.clj     | 16 +++++
+ multi-service/air-scripts/ethqlite_roundtrip.clj | 88 ++++++++++++++++++++++++
+ 4 files changed, 137 insertions(+)
+
+commit 9d86c66583994906e262ec09d3a2b0270e7e5f2f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 8 17:33:45 2021 -0600
+
+    rename, reorg
+
+ multi-service/docs/block_getter_params.txt | 64 ------------------------------
+ multi-service/ethqlite/Cargo.toml          |  5 ++-
+ multi-service/ethqlite/Config.toml         |  2 +-
+ multi-service/ethqlite/build.sh            |  2 +-
+ multi-service/ethqlite/ethqlite_cfg.json   |  2 +-
+ 5 files changed, 6 insertions(+), 69 deletions(-)
+
+commit 074afe2a5dca3318617bf61e94b5ae75631cc9a5
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 8 11:57:30 2021 -0600
+
+    update cfg files
+
+ multi-service/config/block_getter_cfg.json  |   9 +-
+ multi-service/config/curl_cfg.json          |   5 +-
+ multi-service/config/hex_converter_cfg.json |   4 +-
+ multi-service/ethqlite/Cargo.lock           | 416 ----------------------------
+ 4 files changed, 15 insertions(+), 419 deletions(-)
+
+commit dbbcd3932672c0e343932fd675bfa5e5593ba2e6
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 8 11:56:34 2021 -0600
+
+    rm lock files
+
+ multi-service/block_getter/Cargo.lock          | 208 -------------------------
+ multi-service/extract_miner_address/Cargo.lock | 179 ---------------------
+ multi-service/hex_converter/Cargo.lock         | 179 ---------------------
+ 3 files changed, 566 deletions(-)
+
+commit 6ebae54c5c1048e11ac8830039bba8fc53f539a3
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 8 11:54:47 2021 -0600
+
+    update gitignore
+
+ multi-service/block_getter/.gitignore      | 5 +++++
+ multi-service/ethqlite/.gitignore          | 6 ++++++
+ multi-service/simple_range_func/.gitignore | 6 ++++++
+ 3 files changed, 17 insertions(+)
+
+commit 60a64a3bbe532205202e27fc3c391ad038d40577
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 8 11:49:48 2021 -0600
+
+    rename ethqlite
+
+ multi-service/air-scripts/block_tripper.clj        |  53 ---
+ multi-service/ethqlite/Cargo.lock                  | 416 +++++++++++++++++++++
+ multi-service/{sqlite => ethqlite}/Cargo.toml      |   9 +-
+ multi-service/{sqlite => ethqlite}/Config.toml     |   0
+ multi-service/{sqlite => ethqlite}/build.sh        |   0
+ .../ethqlite_cfg.json}                             |   0
+ .../{sqlite => ethqlite}/sqlite3_cfg.json          |   0
+ multi-service/ethqlite/src/auth.rs                 |  32 ++
+ multi-service/ethqlite/src/crud.rs                 | 212 +++++++++++
+ multi-service/ethqlite/src/main.rs                 | 123 ++++++
+ .../src/main.rs => ethqlite/src/main.rs.bk2}       |   0
+ multi-service/ethqlite/src/paywall.rs              |  63 ++++
+ multi-service/sqlite/Cargo.lock                    | 241 ------------
+ 13 files changed, 851 insertions(+), 298 deletions(-)
+
+commit 050c96111f3da4ac74a580644ff7f1e29e10c2ef
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Mar 5 17:04:49 2021 -0600
+
+    fix string conversion
+
+ multi-service/sqlite/src/main.rs | 12 ++++++++----
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+
+commit 0b40bbe6dd114ad4f956c426c78bbeb874570002
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Mar 5 16:46:00 2021 -0600
+
+    update sqlite and sqlite_runner
+
+ multi-service/air-scripts/sqlite_tester.clj    |  88 ++++++++++++
+ multi-service/docs/block_getter_params.txt.old |  60 --------
+ multi-service/sqlite/Cargo.toml                |   3 +-
+ multi-service/sqlite/sqlite3_cfg.json          |   4 +
+ multi-service/sqlite/sqlite_cfg.json           |   3 -
+ multi-service/sqlite/sqlite_runner_cfg.json    |  10 ++
+ multi-service/sqlite/src/main.rs               | 189 ++++++++++++++++++-------
+ 7 files changed, 243 insertions(+), 114 deletions(-)
+
+commit 52acea7ea37262d42252c5ec0b98d73083aee5a4
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Mar 4 18:38:00 2021 -0600
+
+    init sqlite service
+
+ multi-service/sqlite/Cargo.lock      | 241 +++++++++++++++++++++++++++++++++++
+ multi-service/sqlite/Cargo.toml      |  17 +++
+ multi-service/sqlite/Config.toml     |  14 ++
+ multi-service/sqlite/build.sh        |  10 ++
+ multi-service/sqlite/sqlite_cfg.json |   3 +
+ multi-service/sqlite/src/main.rs     | 202 +++++++++++++++++++++++++++++
+ 6 files changed, 487 insertions(+)
+
+commit 9c948c79e68ed5dc45e02ead2947db38c86a10e0
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Mar 4 01:57:19 2021 -0600
+
+    add more AIR scripts
+
+ multi-service/air-scripts/block_tripper.clj    | 53 ++++++++++++++++++++++++++
+ multi-service/air-scripts/curl_req.clj         | 18 +++++++++
+ multi-service/air-scripts/get_address.clj      | 16 ++++++++
+ multi-service/air-scripts/get_block_simple.clj | 16 ++++++++
+ multi-service/air-scripts/hex2int.clj          | 16 ++++++++
+ multi-service/air-scripts/test_air.clj         | 10 +++++
+ 6 files changed, 129 insertions(+)
+
+commit e2b1d73c94cca6e136ec425e32e2ac3a9d4e2af8
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Mar 4 01:55:21 2021 -0600
+
+    update latest block  return
+
+ multi-service/air-scripts/get_latest_block_simple.clj | 10 ++++++++--
+ multi-service/block_getter/src/eth_block_getters.rs   | 14 +++-----------
+ multi-service/extract_miner_address/Cargo.toml        |  2 +-
+ 3 files changed, 12 insertions(+), 14 deletions(-)
+
+commit ae66e0e3505e7eb130a3cd0ac8bbc2cfc28fcc49
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Mar 3 14:34:14 2021 -0600
+
+    update hex converter
+
+ multi-service/hex_converter/Cargo.toml  | 2 +-
+ multi-service/hex_converter/src/main.rs | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 19659799c48889476c98824d09e269d184e90aa3
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Mar 3 14:33:26 2021 -0600
+
+    update block_geter
+
+ multi-service/block_getter/Cargo.toml              |  2 +-
+ .../block_getter/src/eth_block_getters.rs          | 37 +++++++++++++++++-----
+ multi-service/block_getter/src/main.rs             |  4 ++-
+ 3 files changed, 33 insertions(+), 10 deletions(-)
+
+commit 61c9d5eaf42e79e15536d762c4041a75fd6fe524
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Mar 3 14:32:23 2021 -0600
+
+    update curl adapter
+
+ multi-service/curl_adapter/Cargo.toml  |  2 +-
+ multi-service/curl_adapter/src/main.rs | 41 +++++++++-------------------------
+ 2 files changed, 12 insertions(+), 31 deletions(-)
+
+commit b3b47fc930ff5efe3b90350a93e936c23baada7d
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Mar 2 23:32:03 2021 +0300
+
+    Fix curl_template
+
+ curl_template/README.md                       |  2 +-
+ curl_template/frontend/package-lock.json      | 62 +++++++++++++++------------
+ curl_template/frontend/package.json           |  2 +-
+ curl_template/frontend/src/components/App.tsx |  3 +-
+ curl_template/frontend/src/fluence.ts         |  4 +-
+ 5 files changed, 41 insertions(+), 32 deletions(-)
+
+commit 9ef4755d819b0767feea4a99068bacb68cc31529
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 1 20:36:45 2021 -0600
+
+    Update Readme.md
+    
+    fix typo
+
+ ether-price-getter/Readme.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 773fd2d42c07cbf8bc9c3c696ff12cc0eba7df5b
+Merge: 5f10fb3 6496dd5
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 1 17:04:25 2021 -0600
+
+    Merge branch 'main' of https://github.com/fluencelabs/examples
+
+commit 5f10fb3559a19c8c94dbd3863b9df7fca42e487f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Mar 1 17:03:57 2021 -0600
+
+    init multi services
+
+ multi-service/Config.toml                          |  17 ++
+ multi-service/air-scripts/get_latest_block.clj     |  13 ++
+ .../air-scripts/get_latest_block_simple.clj        |  10 +
+ .../air-scripts/multi_block_processor.clj          |  44 +++++
+ multi-service/block_getter/.gitignore              |   1 +
+ multi-service/block_getter/Cargo.lock              | 208 +++++++++++++++++++++
+ multi-service/block_getter/Cargo.toml              |  13 ++
+ .../block_getter/src/eth_block_getters.rs          |  36 ++++
+ multi-service/block_getter/src/main.rs             |  31 +++
+ multi-service/config/block_getter_cfg.json         |   3 +
+ multi-service/config/curl_cfg.json                 |   6 +
+ .../config/extract_miner_address_cfg.json          |   3 +
+ multi-service/config/hex_converter_cfg.json        |   3 +
+ multi-service/config/my_keypair.json               |   6 +
+ multi-service/curl_adapter/.gitignore              |   6 +
+ multi-service/curl_adapter/Cargo.toml              |  15 ++
+ multi-service/curl_adapter/src/main.rs             |  55 ++++++
+ multi-service/docs/block_getter_params.txt         |  64 +++++++
+ multi-service/docs/block_getter_params.txt.old     |  60 ++++++
+ multi-service/extract_miner_address/Cargo.lock     | 179 ++++++++++++++++++
+ multi-service/extract_miner_address/Cargo.toml     |  12 ++
+ multi-service/extract_miner_address/src/main.rs    |  17 ++
+ multi-service/hex_converter/.gitignore             |   1 +
+ multi-service/hex_converter/Cargo.lock             | 179 ++++++++++++++++++
+ multi-service/hex_converter/Cargo.toml             |  12 ++
+ multi-service/hex_converter/src/main.rs            |  43 +++++
+ multi-service/scripts/build.sh                     |  25 +++
+ multi-service/scripts/deploy.sh                    |  20 ++
+ multi-service/simple_range_func/Cargo.lock         | 178 ++++++++++++++++++
+ multi-service/simple_range_func/Cargo.toml         |   9 +
+ multi-service/simple_range_func/src/main.rs        |  13 ++
+ 31 files changed, 1282 insertions(+)
+
+commit 6496dd533191dc7c370546ad52dd49b22a2cd8ef
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Feb 26 12:46:20 2021 +0300
+
+    add compose.air
+
+ url-downloader/compose.air        | 13 +++++++++++++
+ url-downloader/deploy_separate.sh | 15 +++++++++++++++
+ 2 files changed, 28 insertions(+)
+
+commit 4104c35427c2ca2b59bb4a16cf39203f6ec578e3
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Feb 26 03:33:20 2021 +0300
+
+    update readmes
+
+ .gitignore               |  1 +
+ curl_template/README.md  |  2 +-
+ url-downloader/README.md | 14 ++++++++++++++
+ url-downloader/deploy.sh |  2 +-
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+
+commit 575fff38a31885d92e831b68bee7954c06ecc2fd
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Feb 26 02:57:17 2021 +0300
+
+    upload & download works
+
+ curl_template/README.md                     |  2 +-
+ curl_template/{air.clj => request.air}      |  0
+ url-downloader/artifacts/local_storage.json | 13 ++++++++++++-
+ url-downloader/deploy.sh                    |  4 ++--
+ url-downloader/download.air                 | 10 ++++++++++
+ url-downloader/download.clj                 |  7 -------
+ url-downloader/facade/src/main.rs           | 10 +++++-----
+ url-downloader/local_storage/src/main.rs    | 16 ++++++++--------
+ url-downloader/repl_config.toml             | 21 +++++++++++++++++++++
+ 9 files changed, 59 insertions(+), 24 deletions(-)
+
+commit 19d5fd4db6c4ff8ff7274e7570698b770a6c62c3
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 16:40:14 2021 -0600
+
+    update readme
+
+ Readme.md | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit 55e25df7bbe453c783fb3b27d451e59f4fd9d6ba
+Merge: d99d41d 2814b0e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 16:29:13 2021 -0600
+
+    merge upstream
+
+commit d99d41ddb55b6429fd4c758837b58e38ded41d3c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 16:28:09 2021 -0600
+
+    update gitignore
+
+ .gitignore | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 45012cd0932e7ed685d08922c7bb83f62f58c3bb
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 16:26:05 2021 -0600
+
+    add web3 examples and tutorial
+
+ web3-examples/web-frontend/.gitignore              |    24 +
+ web3-examples/web-frontend/.prettierrc.js          |     8 +
+ web3-examples/web-frontend/.vscode/settings.json   |     9 +
+ web3-examples/web-frontend/README.md               |    15 +
+ web3-examples/web-frontend/package-lock.json       | 18497 +++++++++++++++++++
+ web3-examples/web-frontend/package.json            |    51 +
+ web3-examples/web-frontend/public/favicon.ico      |   Bin 0 -> 3870 bytes
+ web3-examples/web-frontend/public/index.html       |    45 +
+ web3-examples/web-frontend/public/logo192.png      |   Bin 0 -> 5347 bytes
+ web3-examples/web-frontend/public/logo512.png      |   Bin 0 -> 9664 bytes
+ web3-examples/web-frontend/public/manifest.json    |    25 +
+ web3-examples/web-frontend/public/robots.txt       |     3 +
+ web3-examples/web-frontend/src/components/App.scss |   199 +
+ web3-examples/web-frontend/src/components/App.tsx  |   141 +
+ web3-examples/web-frontend/src/fluence.ts          |   179 +
+ web3-examples/web-frontend/src/index.scss          |   144 +
+ web3-examples/web-frontend/src/index.tsx           |    14 +
+ web3-examples/web-frontend/src/react-app-env.d.ts  |     1 +
+ web3-examples/web-frontend/src/setupTests.ts       |     5 +
+ web3-examples/web-frontend/tsconfig.json           |    30 +
+ web3-examples/web3-examples/.gitignore             |     6 +
+ web3-examples/web3-examples/Config.toml            |    12 +
+ web3-examples/web3-examples/Readme.md              |   417 +
+ .../web3-examples/artifacts/curl_adapter.wasm      |   Bin 0 -> 92655 bytes
+ web3-examples/web3-examples/artifacts/facade.wasm  |   Bin 0 -> 327130 bytes
+ web3-examples/web3-examples/build.sh               |    26 +
+ .../web3-examples/curl_adapter/.gitignore          |     5 +
+ .../web3-examples/curl_adapter/Cargo.lock          |   178 +
+ .../web3-examples/curl_adapter/Cargo.toml          |    14 +
+ .../web3-examples/curl_adapter/Config.json         |     7 +
+ .../web3-examples/curl_adapter/src/main.rs         |    55 +
+ web3-examples/web3-examples/docs/Frontend.md       |    11 +
+ web3-examples/web3-examples/facade/.gitignore      |     5 +
+ web3-examples/web3-examples/facade/Cargo.lock      |   497 +
+ web3-examples/web3-examples/facade/Cargo.toml      |    22 +
+ .../web3-examples/facade/src/data_processing.rs    |   188 +
+ .../facade/src/data_processing_tests.rs            |    81 +
+ .../web3-examples/facade/src/eth_calls.rs          |   167 +
+ .../web3-examples/facade/src/eth_calls_tests.rs    |    75 +
+ .../web3-examples/facade/src/eth_filter_test.rs    |    75 +
+ .../web3-examples/facade/src/eth_filters.rs        |   134 +
+ .../web3-examples/facade/src/eth_hashers.rs        |    43 +
+ .../web3-examples/facade/src/eth_type_test.rs      |   124 +
+ .../web3-examples/facade/src/eth_utils.rs          |    26 +
+ .../web3-examples/facade/src/fce_results.rs        |    82 +
+ .../web3-examples/facade/src/jsonrpc_helpers.rs    |    84 +
+ web3-examples/web3-examples/facade/src/main.rs     |    42 +
+ 47 files changed, 21766 insertions(+)
+
+commit 2814b0e190fa68c7099a55aac7bcfa64b50bcb43
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Feb 26 01:13:05 2021 +0300
+
+    replace url-downloader with a new one
+
+ url-downloader-new/Config.toml                     | 21 --------
+ url-downloader-new/build.sh                        | 24 ---------
+ url-downloader-new/curl_adapter/Cargo.toml         | 14 -----
+ url-downloader-new/curl_adapter/src/main.rs        | 48 -----------------
+ url-downloader-new/facade/Cargo.toml               | 15 ------
+ url-downloader-new/facade/src/main.rs              | 63 ----------------------
+ url-downloader-new/local_storage/Cargo.toml        | 14 -----
+ url-downloader-new/local_storage/src/main.rs       | 51 ------------------
+ .../artifacts/curl_adapter.json                    |  0
+ .../artifacts/facade.json                          |  0
+ .../artifacts/local_storage.json                   |  0
+ url-downloader/build.sh                            | 36 +++++++------
+ .../curl_adapter/Cargo.lock                        |  0
+ url-downloader/curl_adapter/Cargo.toml             |  2 +-
+ url-downloader/curl_adapter/src/main.rs            | 18 ++++---
+ {url-downloader-new => url-downloader}/deploy.sh   |  0
+ .../download.clj                                   |  0
+ .../facade/Cargo.lock                              |  0
+ url-downloader/facade/Cargo.toml                   |  4 +-
+ url-downloader/facade/src/main.rs                  | 24 ++++++---
+ .../local_storage/Cargo.lock                       |  0
+ url-downloader/local_storage/Cargo.toml            |  2 +-
+ 22 files changed, 55 insertions(+), 281 deletions(-)
+
+commit 4ba0c8cfdca335a9cdcc7403adf3a00bae8b5a10
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Feb 26 01:09:39 2021 +0300
+
+    add url-downloader-new
+
+ .gitignore                                      |   6 +-
+ url-downloader-new/Config.toml                  |  21 +++
+ url-downloader-new/artifacts/curl_adapter.json  |   7 +
+ url-downloader-new/artifacts/facade.json        |   1 +
+ url-downloader-new/artifacts/local_storage.json |   1 +
+ url-downloader-new/build.sh                     |  24 +++
+ url-downloader-new/curl_adapter/Cargo.lock      | 178 +++++++++++++++++++++++
+ url-downloader-new/curl_adapter/Cargo.toml      |  14 ++
+ url-downloader-new/curl_adapter/src/main.rs     |  48 ++++++
+ url-downloader-new/deploy.sh                    |  12 ++
+ url-downloader-new/download.clj                 |   7 +
+ url-downloader-new/facade/Cargo.lock            | 185 ++++++++++++++++++++++++
+ url-downloader-new/facade/Cargo.toml            |  15 ++
+ url-downloader-new/facade/src/main.rs           |  63 ++++++++
+ url-downloader-new/local_storage/Cargo.lock     | 178 +++++++++++++++++++++++
+ url-downloader-new/local_storage/Cargo.toml     |  14 ++
+ url-downloader-new/local_storage/src/main.rs    |  51 +++++++
+ 17 files changed, 824 insertions(+), 1 deletion(-)
+
+commit da0b83d3ddce6e9cad8fabccdb1af94be66caafa
+Merge: ba4a62b cf3c184
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 15:54:44 2021 -0600
+
+    merge curl_template
+
+commit ba4a62bd72aceb196a0ea3f46b6d28b772a4bd97
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 15:48:56 2021 -0600
+
+    add FCE examples
+
+ .gitignore                               |   7 +++
+ Readme.md                                |  44 ++++++++++++-
+ call_parameters/.gitignore               |   7 +++
+ call_parameters/Cargo.toml               |  13 ++++
+ call_parameters/Config.toml              |   6 ++
+ call_parameters/build.sh                 |   7 +++
+ call_parameters/src/main.rs              |  35 +++++++++++
+ greeting/.gitignore                      |   7 +++
+ greeting/Cargo.toml                      |  13 ++++
+ greeting/Config.toml                     |   6 ++
+ greeting/build.sh                        |   8 +++
+ greeting/src/main.rs                     |  24 ++++++++
+ ipfs-node/.gitignore                     |   7 +++
+ ipfs-node/Config.toml                    |  17 ++++++
+ ipfs-node/build.sh                       |  14 +++++
+ ipfs-node/effector/Cargo.toml            |  14 +++++
+ ipfs-node/effector/src/main.rs           |  98 +++++++++++++++++++++++++++++
+ ipfs-node/effector/src/path.rs           |  52 ++++++++++++++++
+ ipfs-node/pure/Cargo.toml                |  14 +++++
+ ipfs-node/pure/src/main.rs               |  71 +++++++++++++++++++++
+ records/.gitignore                       |   7 +++
+ records/Config.toml                      |  11 ++++
+ records/build.sh                         |  14 +++++
+ records/effector/Cargo.toml              |  14 +++++
+ records/effector/src/main.rs             |  39 ++++++++++++
+ records/pure/Cargo.toml                  |  14 +++++
+ records/pure/src/main.rs                 |  49 +++++++++++++++
+ records/test-record/Cargo.toml           |  13 ++++
+ records/test-record/src/test_record.rs   |  32 ++++++++++
+ sqlite/.gitignore                        |   7 +++
+ sqlite/Cargo.toml                        |  14 +++++
+ sqlite/Config.toml                       |  13 ++++
+ sqlite/build.sh                          |  10 +++
+ sqlite/src/main.rs                       | 102 +++++++++++++++++++++++++++++++
+ url-downloader/Config.toml               |  21 +++++++
+ url-downloader/build.sh                  |  18 ++++++
+ url-downloader/curl_adapter/Cargo.toml   |  14 +++++
+ url-downloader/curl_adapter/src/main.rs  |  42 +++++++++++++
+ url-downloader/facade/Cargo.toml         |  15 +++++
+ url-downloader/facade/src/main.rs        |  51 ++++++++++++++++
+ url-downloader/local_storage/Cargo.toml  |  14 +++++
+ url-downloader/local_storage/src/main.rs |  51 ++++++++++++++++
+ 42 files changed, 1028 insertions(+), 1 deletion(-)
+
+commit cf3c18490aaee04cdee75a3d22d67e8877b8abe7
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Feb 26 00:18:07 2021 +0300
+
+    Add curl_template
+
+ .gitignore                                     |     6 +
+ curl_template/README.md                        |    40 +
+ curl_template/air.clj                          |     7 +
+ curl_template/backend/BackendConfig.json       |     7 +
+ curl_template/backend/Cargo.lock               |   177 +
+ curl_template/backend/Cargo.toml               |     9 +
+ curl_template/backend/src/main.rs              |    19 +
+ curl_template/deploy.sh                        |    20 +
+ curl_template/frontend/.gitignore              |    24 +
+ curl_template/frontend/.prettierrc.js          |     8 +
+ curl_template/frontend/README.md               |    15 +
+ curl_template/frontend/package-lock.json       | 18497 +++++++++++++++++++++++
+ curl_template/frontend/package.json            |    52 +
+ curl_template/frontend/public/favicon.ico      |   Bin 0 -> 3870 bytes
+ curl_template/frontend/public/index.html       |    45 +
+ curl_template/frontend/public/logo192.png      |   Bin 0 -> 5347 bytes
+ curl_template/frontend/public/logo512.png      |   Bin 0 -> 9664 bytes
+ curl_template/frontend/public/manifest.json    |    25 +
+ curl_template/frontend/public/robots.txt       |     3 +
+ curl_template/frontend/src/components/App.scss |   199 +
+ curl_template/frontend/src/components/App.tsx  |    93 +
+ curl_template/frontend/src/fluence.ts          |    34 +
+ curl_template/frontend/src/index.scss          |   144 +
+ curl_template/frontend/src/index.tsx           |    14 +
+ curl_template/frontend/src/react-app-env.d.ts  |     1 +
+ curl_template/frontend/src/setupTests.ts       |     5 +
+ curl_template/frontend/tsconfig.json           |    30 +
+ curl_template/repl_config.toml                 |     8 +
+ 28 files changed, 19482 insertions(+)
+
+commit e489bf1673eb6c95d107ba4d0659c1b4dd45e837
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 13:41:11 2021 -0600
+
+    update gitignores
+
+ ether-price-getter/.gitignore        |   7 +++++++
+ fluence-cuckoo/fce-cuckoo/.DS_Store  | Bin 6148 -> 0 bytes
+ fluence-cuckoo/fce-cuckoo/.gitignore |   2 +-
+ 3 files changed, 8 insertions(+), 1 deletion(-)
+
+commit fbe45c9e496777d894ccddd6071bd6027c2ee733
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 13:37:23 2021 -0600
+
+    cleanup
+
+ ether-price-getter/.DS_Store                       | Bin 10244 -> 0 bytes
+ ether-price-getter/.repl_history                   |  19 ---
+ ether-price-getter/Readme.md.bk                    | 166 ---------------------
+ .../air-scripts/get_eth_price.clj.bk               |  10 --
+ ether-price-getter/curl_adapter/.DS_Store          | Bin 6148 -> 0 bytes
+ ether-price-getter/ether_price_getter/.DS_Store    | Bin 6148 -> 0 bytes
+ 6 files changed, 195 deletions(-)
+
+commit 7fea5d32630203b34b3f6023b1b89ec938963525
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 13:33:01 2021 -0600
+
+    add ETH price getter
+
+ ether-price-getter/.DS_Store                       | Bin 0 -> 10244 bytes
+ ether-price-getter/.repl_history                   |  19 +++
+ ether-price-getter/Config.toml                     |  12 ++
+ ether-price-getter/Readme.md                       | 127 ++++++++++++++++
+ ether-price-getter/Readme.md.bk                    | 166 +++++++++++++++++++++
+ ether-price-getter/air-scripts/get_eth_price.clj   |  10 ++
+ .../air-scripts/get_eth_price.clj.bk               |  10 ++
+ ether-price-getter/build.sh                        |  15 ++
+ ether-price-getter/curl_adapter/.DS_Store          | Bin 0 -> 6148 bytes
+ ether-price-getter/curl_adapter/.gitignore         |   6 +
+ ether-price-getter/curl_adapter/Cargo.toml         |  14 ++
+ ether-price-getter/curl_adapter/src/main.rs        |  55 +++++++
+ ether-price-getter/curl_cfg.json                   |   6 +
+ ether-price-getter/ether_price_getter/.DS_Store    | Bin 0 -> 6148 bytes
+ ether-price-getter/ether_price_getter/.gitignore   |   6 +
+ ether-price-getter/ether_price_getter/Cargo.toml   |  15 ++
+ .../ether_price_getter/src/eth_price_getter.rs     |  29 ++++
+ .../ether_price_getter/src/fce_results.rs          |  82 ++++++++++
+ ether-price-getter/ether_price_getter/src/main.rs  |  36 +++++
+ ether-price-getter/ether_price_getter_cfg.json     |   3 +
+ 20 files changed, 611 insertions(+)
+
+commit 3c95cfb81563b1be81bdd12377044c673a763b1f
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 13:24:28 2021 -0600
+
+    add cuckoo filter example
+
+ Readme.md                                          |   9 +
+ fluence-cuckoo/Readme.md                           | 223 ++++++++++++++
+ fluence-cuckoo/fce-cuckoo/.DS_Store                | Bin 0 -> 6148 bytes
+ fluence-cuckoo/fce-cuckoo/.gitignore               |   7 +
+ fluence-cuckoo/fce-cuckoo/Cargo.lock               | 324 +++++++++++++++++++++
+ fluence-cuckoo/fce-cuckoo/Cargo.toml               |  15 +
+ fluence-cuckoo/fce-cuckoo/Config.toml              |   6 +
+ .../fce-cuckoo/air-scripts/cuckoo_create_cf.clj    |  10 +
+ .../fce-cuckoo/air-scripts/cuckoo_service_info.clj |   4 +
+ fluence-cuckoo/fce-cuckoo/build.sh                 |  12 +
+ fluence-cuckoo/fce-cuckoo/cuckoo_cfg.json          |   3 +
+ fluence-cuckoo/fce-cuckoo/fce-cuckoo.toml          |   6 +
+ fluence-cuckoo/fce-cuckoo/fce_cuckoo.toml          |   6 +
+ fluence-cuckoo/fce-cuckoo/src/main.rs              | 142 +++++++++
+ fluence-cuckoo/fce-cuckoo/test.sh                  |   2 +
+ 15 files changed, 769 insertions(+)
+
+commit d9eaa1fbbbcdc5d9f618649be55c0bd16c6c9480
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Feb 25 11:50:20 2021 -0600
+
+    init examples
+
+ Readme.md | 1 +
+ 1 file changed, 1 insertion(+)
