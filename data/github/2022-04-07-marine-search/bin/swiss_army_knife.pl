@@ -9,12 +9,17 @@ my $cmd_locs = 'find path/to/repo/ -type f ! -path \'*/.*\' | xargs file | egrep
 my $cmd_num_rust_files = 'find path/to/repo/ -type f ! -path \'*/.*\' | egrep \'.rs$\' | wc -l | awk \'{print "num_rust_files\t"$1}\'';
 #'
 my $cmd_num_react_files = 'find path/to/repo/ -type f ! -path \'*/.*\' | egrep \'.[tj]sx?$\' | wc -l | awk \'{print "num_react_files\t"$1}\'';
+#'
 my $cmd_num_markdown_files = 'find path/to/repo/ -type f -path \'*.md\' ! -path \'*/.*\' | wc -l | awk \'{print "num_markdown_files\t"$1}\'';
+#'
 my $cmd_num_binary_files = 'find path/to/repo/ -type f ! -path \'*/.*\' | xargs file | egrep -v \' .*(ASCII|JSON|source|Unicode|text|perl)\' | awk \'{print $1}\' | sed \'s/:$//\' | wc -l | awk \'{print "num_binary_files\t"$1}\'';
+#'
 my $cmd_rust_locs = 'find path/to/repo/ -type f ! -path \'*/.*\' | egrep \'.rs$\' | xargs wc -l | perl -e \'$a=0;while(<>){chomp;$a+=$_;}print$a."\n";\' | awk \'{print "num_rust_locs\t"$1}\'';
 #'
 my $cmd_react_locs = 'find path/to/repo/ -type f ! -path \'*/.*\' | egrep \'.[tj]sx?$\' | xargs wc -l | perl -e \'$a=0;while(<>){chomp;$a+=$_;}print$a."\n";\' | awk \'{print "num_react_locs\t"$1}\'';
+#'
 my $cmd_markdown_locs = 'find path/to/repo/ -type f -path \'*.md\' ! -path \'*/.*\' | xargs wc -l | perl -e \'$a=0;while(<>){chomp;$a+=$_;}print$a."\n";\' | awk \'{print "num_markdown_locs\t"$1}\'';
+#'
 my $cmd_binary_bytes = 'find path/to/repo/ -type f ! -path \'*/.*\' | xargs file | egrep -v \' .*(ASCII|JSON|source|Unicode|text|perl)\' | awk \'{print $1}\' | sed \'s/:$//\' | xargs wc -c | egrep -v \' total$\' | awk \'{print $1}\' | perl -e \'$a=0;while(<>){chomp;$a+=$_;}print$a."\n";\' | awk \'{print "num_binary_bytes\t"$1}\'';
 #'
 
