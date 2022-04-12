@@ -1,1 +1,862 @@
-[{"commit": "923b7bcfd8c3f5f75fa841e8f2af872ef684a07d\n", "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n", "Date": "   Thu Mar 24 21", "gitignore": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "wasm": {"textLineCount": 0, "binByteCount": 819436, "inserts": 0, "deletes": 0, "occurrences": 1}, "ts": {"textLineCount": 933, "binByteCount": 0, "inserts": 89, "deletes": 0, "occurrences": 2}, "lock": {"textLineCount": 5, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "files": "5", "insertions(+)": "935", "deletions(-)\n": "7"}, {"commit": "0669a6b6ecfefcae6f671eaf64ae3c932b00d9a9\n", "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n", "Date": "   Fri Feb 4 01", "md": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "file": "1", "insertion(+)\n": "1"}, {"commit": "0dfcde116e0e09011561e83540d296c90baef5f9\n", "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n", "Date": "   Fri Feb 4 01", "gitignore": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "json": {"textLineCount": 14378, "binByteCount": 0, "inserts": 51, "deletes": 1, "occurrences": 1}, "lock": {"textLineCount": 472, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "3", "insertions(+)": "14780", "deletions(-)\n": "74"}, {"commit": "7dc6a28eed0459acb9e89540780ea684e4a97a74\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 21", "md": {"textLineCount": 18, "binByteCount": 0, "inserts": 14, "deletes": 4, "occurrences": 1}, "file": "1", "insertions(+)": "14", "deletions(-)\n": "4"}, {"commit": "91258c252b797920eb4acda08292784fb979f195\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 20", "json": {"textLineCount": 374, "binByteCount": 0, "inserts": 21, "deletes": 2, "occurrences": 2}, "tsx": {"textLineCount": 95, "binByteCount": 0, "inserts": 6, "deletes": 6, "occurrences": 6}, "ts": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "9", "insertions(+)": "437", "deletions(-)\n": "34"}, {"commit": "a0044b94f3d5f1fe13a70b7045b69c09dd50c89d\n", "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n", "Date": "   Thu Feb 3 19", "example": {"textLineCount": 2, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "md": {"textLineCount": 4, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 1}, "files": "2", "insertions(+)": "4", "deletions(-)\n": "2"}, {"commit": "404d9da81febe6cd0753d306929b15f20d2d8e6d\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 17", "tsx": {"textLineCount": 15, "binByteCount": 0, "inserts": 15, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)\n": "15"}, {"commit": "5010f0ea90325e18ad5cb41513caf45efb072023\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 17", "gitignore": {"textLineCount": 4, "binByteCount": 0, "inserts": 0, "deletes": 2, "occurrences": 1}, "json": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "js": {"textLineCount": 2, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "tsx": {"textLineCount": 163, "binByteCount": 0, "inserts": 44, "deletes": 10, "occurrences": 9}, "tsx}": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "ts": {"textLineCount": 3, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 2}, "files": "16", "insertions(+)": "141", "deletions(-)\n": "33"}, {"commit": "c4c63f1805a6b6183cddc4ac70a360d55b096128\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 15", "tsx": {"textLineCount": 91, "binByteCount": 0, "inserts": 9, "deletes": 26, "occurrences": 8}, "files": "8", "insertions(+)": "22", "deletions(-)\n": "69"}, {"commit": "d40bb936f71e9510b736f3dfc63134fe4bbfc90b\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 15", "tsx": {"textLineCount": 40, "binByteCount": 0, "inserts": 6, "deletes": 34, "occurrences": 3}, "files": "3", "insertions(+)": "6", "deletions(-)\n": "34"}, {"commit": "98f9ca80baefbad87bfec1bc595fcb145320bedf\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 15", "tsx": {"textLineCount": 131, "binByteCount": 0, "inserts": 43, "deletes": 13, "occurrences": 4}, "files": "4", "insertions(+)": "104", "deletions(-)\n": "27"}, {"commit": "32f972d021d2e3eef61d6489274ee39c87673da3\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 15", "tsx": {"textLineCount": 216, "binByteCount": 0, "inserts": 31, "deletes": 26, "occurrences": 5}, "ts": {"textLineCount": 10, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 2}, "files": "7", "insertions(+)": "124", "deletions(-)\n": "102"}, {"commit": "855cc10f2dd8eca618001c2dd9fd00424c5cdc19\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 13", "gitignore": {"textLineCount": 7, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "json": {"textLineCount": 5, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "tsx": {"textLineCount": 500, "binByteCount": 0, "inserts": 25, "deletes": 30, "occurrences": 6}, "tsx}": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "ts": {"textLineCount": 66, "binByteCount": 0, "inserts": 4, "deletes": 3, "occurrences": 2}, "files": "11", "insertions(+)": "287", "deletions(-)\n": "292"}, {"commit": "dfa6050f57bb7c7dc13d4d803502d5dcccac590f\n", "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n", "Date": "   Thu Feb 3 13", "md": {"textLineCount": 57, "binByteCount": 0, "inserts": 35, "deletes": 22, "occurrences": 1}, "file": "1", "insertions(+)": "35", "deletions(-)\n": "22"}, {"commit": "0f4fa635cee76c0d7dcbad8c8f55dad8587063ea\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Thu Feb 3 12", "tsx": {"textLineCount": 97, "binByteCount": 0, "inserts": 52, "deletes": 36, "occurrences": 3}, "files": "3", "insertions(+)": "58", "deletions(-)\n": "39"}, {"commit": "350b4d3352aaec6e2ad9004cbc5a95403c2dfecd\n", "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n", "Date": "   Thu Feb 3 12", "aqua": {"textLineCount": 12, "binByteCount": 0, "inserts": 6, "deletes": 6, "occurrences": 1}, "file": "1", "insertions(+)": "6", "deletions(-)\n": "6"}, {"commit": "e304524f46e164b7ab0535ff60736b0956c400ca\n", "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n", "Date": "   Thu Feb 3 12", "rs": {"textLineCount": 4, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 1}, "tsx": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "ts": {"textLineCount": 4, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 1}, "files": "3", "insertions(+)": "5", "deletions(-)\n": "4"}, {"commit": "11a5aabb6bc558c5ebdf4068329821c0636510ac\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Wed Feb 2 17", "gitignore": {"textLineCount": 18, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "aqua": {"textLineCount": 68, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "toml": {"textLineCount": 45, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 3}, "sh": {"textLineCount": 20, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 3797, "binByteCount": 0, "inserts": 12, "deletes": 2, "occurrences": 6}, "rs": {"textLineCount": 148, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "png": {"textLineCount": 0, "binByteCount": 50823, "inserts": 0, "deletes": 0, "occurrences": 3}, "tsx": {"textLineCount": 265, "binByteCount": 0, "inserts": 6, "deletes": 5, "occurrences": 8}, "ts": {"textLineCount": 71, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "lock": {"textLineCount": 9777, "binByteCount": 0, "inserts": 18, "deletes": 4, "occurrences": 1}, "files": "29", "insertions(+)": "12199", "deletions(-)\n": "2010"}, {"commit": "f16d07d34491a48ddb4a521a2dbde8d9c707e2c9\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Wed Feb 2 16", "tsx": {"textLineCount": 303, "binByteCount": 0, "inserts": 55, "deletes": 3, "occurrences": 9}, "files": "9", "insertions(+)": "291", "deletions(-)\n": "12"}, {"commit": "e1729ddaebba8f34b76b47ee2aed9abaf75f951c\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Sun Jan 30 14", "tsx": {"textLineCount": 67, "binByteCount": 0, "inserts": 14, "deletes": 37, "occurrences": 3}, "files": "3", "insertions(+)": "18", "deletions(-)\n": "49"}, {"commit": "e7b8e4e9c9e80fc1ddebe3eb74cc36584b5ea135\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Sun Jan 30 14", "js": {"textLineCount": 31, "binByteCount": 0, "inserts": 4, "deletes": 8, "occurrences": 1}, "ts": {"textLineCount": 6, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 1}, "tsx": {"textLineCount": 217, "binByteCount": 0, "inserts": 61, "deletes": 21, "occurrences": 4}, "files": "6", "insertions(+)": "178", "deletions(-)\n": "76"}, {"commit": "a31b59834eeab65d3ae7ba73e91fd1eede7c6696\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Sun Jan 30 12", "js": {"textLineCount": 10, "binByteCount": 0, "inserts": 3, "deletes": 1, "occurrences": 1}, "json": {"textLineCount": 26, "binByteCount": 0, "inserts": 5, "deletes": 6, "occurrences": 2}, "tsx": {"textLineCount": 163, "binByteCount": 0, "inserts": 33, "deletes": 29, "occurrences": 6}, "files": "9", "insertions(+)": "108", "deletions(-)\n": "91"}, {"commit": "bb0f200f120e7af620708d26f6060b2925e94697\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Sat Jan 29 12", "tsx": {"textLineCount": 48, "binByteCount": 0, "inserts": 39, "deletes": 6, "occurrences": 1}, "file": "1", "insertions(+)": "42", "deletions(-)\n": "6"}, {"commit": "052aaae080ce079e6a5156e51374a15c5416a189\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Tue Jan 25 14", "json": {"textLineCount": 86, "binByteCount": 0, "inserts": 31, "deletes": 1, "occurrences": 3}, "ts": {"textLineCount": 122, "binByteCount": 0, "inserts": 48, "deletes": 0, "occurrences": 8}, "tsx": {"textLineCount": 124, "binByteCount": 0, "inserts": 37, "deletes": 9, "occurrences": 3}, "files": "14", "insertions(+)": "308", "deletions(-)\n": "24"}, {"commit": "7c083ca14a74a25fa5f8c7ada5f8e74767751072\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Tue Jan 25 13", "json": {"textLineCount": 2549, "binByteCount": 0, "inserts": 24, "deletes": 2, "occurrences": 3}, "js": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "svg": {"textLineCount": 14, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "png": {"textLineCount": 0, "binByteCount": 1157, "inserts": 0, "deletes": 0, "occurrences": 1}, "tsx": {"textLineCount": 325, "binByteCount": 0, "inserts": 8, "deletes": 1, "occurrences": 8}, "files": "14", "insertions(+)": "2884", "deletions(-)\n": "6"}, {"commit": "b32e40057a6b05f524632d395cf5fb9e3ae4b965\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Tue Jan 25 10", "js": {"textLineCount": 1078, "binByteCount": 0, "inserts": 9, "deletes": 1, "occurrences": 4}, "json": {"textLineCount": 7319, "binByteCount": 0, "inserts": 39, "deletes": 2, "occurrences": 3}, "tsx": {"textLineCount": 146, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 5}, "ts": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "css": {"textLineCount": 304, "binByteCount": 0, "inserts": 1, "deletes": 2, "occurrences": 3}, "files": "16", "insertions(+)": "8626", "deletions(-)\n": "221"}, {"commit": "103002210a98c3850c964ddcffc4a9bef1998183\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Mon Jan 24 23", "json": {"textLineCount": 45, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 3}, "gitignore": {"textLineCount": 37, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "md": {"textLineCount": 34, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "ts": {"textLineCount": 18, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "js": {"textLineCount": 6, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "tsx": {"textLineCount": 80, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 2}, "ico": {"textLineCount": 0, "binByteCount": 25931, "inserts": 0, "deletes": 0, "occurrences": 1}, "svg": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "css": {"textLineCount": 132, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 2}, "html": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 1838, "binByteCount": 0, "inserts": 48, "deletes": 0, "occurrences": 1}, "files": "16", "insertions(+)\n": "2194"}, {"commit": "eb95afc24cc0e7eb7e3a31ccf02766d6b5988a2d\n", "Author": " Nico <nicosiput@gmail.com>\n", "Date": "   Mon Jan 24 23", "html": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)": "0", "deletions(-)\n": "0"}, {"commit": "aaf7732ef257b0b9d35ce29da6992c421298c213\n", "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n", "Date": "   Sun Jan 23 05", "null": {"textLineCount": 21, "binByteCount": 0, "inserts": 21, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)\n": "21"}]
+[
+  {
+    "commit": "923b7bcfd8c3f5f75fa841e8f2af872ef684a07d\n",
+    "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n",
+    "Date": "   Thu Mar 24 21",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 819436,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 933,
+        "binByteCount": 0,
+        "inserts": 89,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "lock": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "5",
+    "insertions(+)": "935",
+    "deletions(-)\n": "7"
+  },
+  {
+    "commit": "0669a6b6ecfefcae6f671eaf64ae3c932b00d9a9\n",
+    "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n",
+    "Date": "   Fri Feb 4 01",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)\n": "1"
+  },
+  {
+    "commit": "0dfcde116e0e09011561e83540d296c90baef5f9\n",
+    "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n",
+    "Date": "   Fri Feb 4 01",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 14378,
+        "binByteCount": 0,
+        "inserts": 51,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 472,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "3",
+    "insertions(+)": "14780",
+    "deletions(-)\n": "74"
+  },
+  {
+    "commit": "7dc6a28eed0459acb9e89540780ea684e4a97a74\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 21",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 18,
+        "binByteCount": 0,
+        "inserts": 14,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "14",
+    "deletions(-)\n": "4"
+  },
+  {
+    "commit": "91258c252b797920eb4acda08292784fb979f195\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 20",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 374,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "tsx": {
+        "textLineCount": 95,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 6
+      },
+      "ts": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "9",
+    "insertions(+)": "437",
+    "deletions(-)\n": "34"
+  },
+  {
+    "commit": "a0044b94f3d5f1fe13a70b7045b69c09dd50c89d\n",
+    "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n",
+    "Date": "   Thu Feb 3 19",
+    "fileTypes": {
+      "example": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "4",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "404d9da81febe6cd0753d306929b15f20d2d8e6d\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 17",
+    "fileTypes": {
+      "tsx": {
+        "textLineCount": 15,
+        "binByteCount": 0,
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)\n": "15"
+  },
+  {
+    "commit": "5010f0ea90325e18ad5cb41513caf45efb072023\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 17",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "tsx": {
+        "textLineCount": 163,
+        "binByteCount": 0,
+        "inserts": 44,
+        "deletes": 10,
+        "occurrences": 9
+      },
+      "tsx}": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "files": "16",
+    "insertions(+)": "141",
+    "deletions(-)\n": "33"
+  },
+  {
+    "commit": "c4c63f1805a6b6183cddc4ac70a360d55b096128\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 15",
+    "fileTypes": {
+      "tsx": {
+        "textLineCount": 91,
+        "binByteCount": 0,
+        "inserts": 9,
+        "deletes": 26,
+        "occurrences": 8
+      }
+    },
+    "files": "8",
+    "insertions(+)": "22",
+    "deletions(-)\n": "69"
+  },
+  {
+    "commit": "d40bb936f71e9510b736f3dfc63134fe4bbfc90b\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 15",
+    "fileTypes": {
+      "tsx": {
+        "textLineCount": 40,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 34,
+        "occurrences": 3
+      }
+    },
+    "files": "3",
+    "insertions(+)": "6",
+    "deletions(-)\n": "34"
+  },
+  {
+    "commit": "98f9ca80baefbad87bfec1bc595fcb145320bedf\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 15",
+    "fileTypes": {
+      "tsx": {
+        "textLineCount": 131,
+        "binByteCount": 0,
+        "inserts": 43,
+        "deletes": 13,
+        "occurrences": 4
+      }
+    },
+    "files": "4",
+    "insertions(+)": "104",
+    "deletions(-)\n": "27"
+  },
+  {
+    "commit": "32f972d021d2e3eef61d6489274ee39c87673da3\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 15",
+    "fileTypes": {
+      "tsx": {
+        "textLineCount": 216,
+        "binByteCount": 0,
+        "inserts": 31,
+        "deletes": 26,
+        "occurrences": 5
+      },
+      "ts": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "files": "7",
+    "insertions(+)": "124",
+    "deletions(-)\n": "102"
+  },
+  {
+    "commit": "855cc10f2dd8eca618001c2dd9fd00424c5cdc19\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 13",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 7,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "textLineCount": 500,
+        "binByteCount": 0,
+        "inserts": 25,
+        "deletes": 30,
+        "occurrences": 6
+      },
+      "tsx}": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 66,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "files": "11",
+    "insertions(+)": "287",
+    "deletions(-)\n": "292"
+  },
+  {
+    "commit": "dfa6050f57bb7c7dc13d4d803502d5dcccac590f\n",
+    "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n",
+    "Date": "   Thu Feb 3 13",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 57,
+        "binByteCount": 0,
+        "inserts": 35,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "35",
+    "deletions(-)\n": "22"
+  },
+  {
+    "commit": "0f4fa635cee76c0d7dcbad8c8f55dad8587063ea\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Thu Feb 3 12",
+    "fileTypes": {
+      "tsx": {
+        "textLineCount": 97,
+        "binByteCount": 0,
+        "inserts": 52,
+        "deletes": 36,
+        "occurrences": 3
+      }
+    },
+    "files": "3",
+    "insertions(+)": "58",
+    "deletions(-)\n": "39"
+  },
+  {
+    "commit": "350b4d3352aaec6e2ad9004cbc5a95403c2dfecd\n",
+    "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n",
+    "Date": "   Thu Feb 3 12",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 12,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "6",
+    "deletions(-)\n": "6"
+  },
+  {
+    "commit": "e304524f46e164b7ab0535ff60736b0956c400ca\n",
+    "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n",
+    "Date": "   Thu Feb 3 12",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "tsx": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "files": "3",
+    "insertions(+)": "5",
+    "deletions(-)\n": "4"
+  },
+  {
+    "commit": "11a5aabb6bc558c5ebdf4068329821c0636510ac\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Wed Feb 2 17",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 18,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 68,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 45,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "sh": {
+        "textLineCount": 20,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 3797,
+        "binByteCount": 0,
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 6
+      },
+      "rs": {
+        "textLineCount": 148,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 50823,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "tsx": {
+        "textLineCount": 265,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 8
+      },
+      "ts": {
+        "textLineCount": 71,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "lock": {
+        "textLineCount": 9777,
+        "binByteCount": 0,
+        "inserts": 18,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "files": "29",
+    "insertions(+)": "12199",
+    "deletions(-)\n": "2010"
+  },
+  {
+    "commit": "f16d07d34491a48ddb4a521a2dbde8d9c707e2c9\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Wed Feb 2 16",
+    "fileTypes": {
+      "tsx": {
+        "textLineCount": 303,
+        "binByteCount": 0,
+        "inserts": 55,
+        "deletes": 3,
+        "occurrences": 9
+      }
+    },
+    "files": "9",
+    "insertions(+)": "291",
+    "deletions(-)\n": "12"
+  },
+  {
+    "commit": "e1729ddaebba8f34b76b47ee2aed9abaf75f951c\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Sun Jan 30 14",
+    "fileTypes": {
+      "tsx": {
+        "textLineCount": 67,
+        "binByteCount": 0,
+        "inserts": 14,
+        "deletes": 37,
+        "occurrences": 3
+      }
+    },
+    "files": "3",
+    "insertions(+)": "18",
+    "deletions(-)\n": "49"
+  },
+  {
+    "commit": "e7b8e4e9c9e80fc1ddebe3eb74cc36584b5ea135\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Sun Jan 30 14",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 31,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "textLineCount": 217,
+        "binByteCount": 0,
+        "inserts": 61,
+        "deletes": 21,
+        "occurrences": 4
+      }
+    },
+    "files": "6",
+    "insertions(+)": "178",
+    "deletions(-)\n": "76"
+  },
+  {
+    "commit": "a31b59834eeab65d3ae7ba73e91fd1eede7c6696\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Sun Jan 30 12",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 26,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "tsx": {
+        "textLineCount": 163,
+        "binByteCount": 0,
+        "inserts": 33,
+        "deletes": 29,
+        "occurrences": 6
+      }
+    },
+    "files": "9",
+    "insertions(+)": "108",
+    "deletions(-)\n": "91"
+  },
+  {
+    "commit": "bb0f200f120e7af620708d26f6060b2925e94697\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Sat Jan 29 12",
+    "fileTypes": {
+      "tsx": {
+        "textLineCount": 48,
+        "binByteCount": 0,
+        "inserts": 39,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "42",
+    "deletions(-)\n": "6"
+  },
+  {
+    "commit": "052aaae080ce079e6a5156e51374a15c5416a189\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Tue Jan 25 14",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 86,
+        "binByteCount": 0,
+        "inserts": 31,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "ts": {
+        "textLineCount": 122,
+        "binByteCount": 0,
+        "inserts": 48,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "tsx": {
+        "textLineCount": 124,
+        "binByteCount": 0,
+        "inserts": 37,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    },
+    "files": "14",
+    "insertions(+)": "308",
+    "deletions(-)\n": "24"
+  },
+  {
+    "commit": "7c083ca14a74a25fa5f8c7ada5f8e74767751072\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Tue Jan 25 13",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 2549,
+        "binByteCount": 0,
+        "inserts": 24,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "js": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "svg": {
+        "textLineCount": 14,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 1157,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "textLineCount": 325,
+        "binByteCount": 0,
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 8
+      }
+    },
+    "files": "14",
+    "insertions(+)": "2884",
+    "deletions(-)\n": "6"
+  },
+  {
+    "commit": "b32e40057a6b05f524632d395cf5fb9e3ae4b965\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Tue Jan 25 10",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 1078,
+        "binByteCount": 0,
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 4
+      },
+      "json": {
+        "textLineCount": 7319,
+        "binByteCount": 0,
+        "inserts": 39,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "tsx": {
+        "textLineCount": 146,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 5
+      },
+      "ts": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "textLineCount": 304,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    },
+    "files": "16",
+    "insertions(+)": "8626",
+    "deletions(-)\n": "221"
+  },
+  {
+    "commit": "103002210a98c3850c964ddcffc4a9bef1998183\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Mon Jan 24 23",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 45,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "gitignore": {
+        "textLineCount": 37,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 34,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 18,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "textLineCount": 80,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ico": {
+        "textLineCount": 0,
+        "binByteCount": 25931,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "textLineCount": 132,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "html": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 1838,
+        "binByteCount": 0,
+        "inserts": 48,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "16",
+    "insertions(+)\n": "2194"
+  },
+  {
+    "commit": "eb95afc24cc0e7eb7e3a31ccf02766d6b5988a2d\n",
+    "Author": " Nico <nicosiput@gmail.com>\n",
+    "Date": "   Mon Jan 24 23",
+    "fileTypes": {
+      "html": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "0",
+    "deletions(-)\n": "0"
+  },
+  {
+    "commit": "aaf7732ef257b0b9d35ce29da6992c421298c213\n",
+    "Author": " Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>\n",
+    "Date": "   Sun Jan 23 05",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)\n": "21"
+  }
+]

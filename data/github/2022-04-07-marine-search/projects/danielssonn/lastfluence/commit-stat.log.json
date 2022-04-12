@@ -1,1 +1,269 @@
-[{"commit": "b5986c3718d76a100eff928dab160693baf017fe\n", "Author": " danielssonn <123456kolokol>\n", "Date": "   Thu Feb 10 11", "null": {"textLineCount": 6, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "wasm": {"textLineCount": 0, "binByteCount": -14820, "inserts": 0, "deletes": 0, "occurrences": 3}, "txt": {"textLineCount": 7, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "aqua": {"textLineCount": 8, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 91, "binByteCount": 0, "inserts": 6, "deletes": 15, "occurrences": 1}, "files": "7", "insertions(+)": "41", "deletions(-)\n": "71"}, {"commit": "52d0de747a46fe476f4842d108d726ae7d42e451\n", "Author": " danielssonn <123456kolokol>\n", "Date": "   Thu Feb 10 10", "aqua": {"textLineCount": 54, "binByteCount": 0, "inserts": 1, "deletes": 4, "occurrences": 1}, "tsx": {"textLineCount": 42, "binByteCount": 0, "inserts": 1, "deletes": 3, "occurrences": 1}, "ts": {"textLineCount": 425, "binByteCount": 0, "inserts": 6, "deletes": 30, "occurrences": 1}, "files": "3", "insertions(+)": "72", "deletions(-)\n": "449"}, {"commit": "fb97649017826b7b5c034dd4d6977cbc232ec983\n", "Author": " danielssonn <123456kolokol>\n", "Date": "   Wed Feb 9 16", "gitignore": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "aqua": {"textLineCount": 100, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "json": {"textLineCount": 45834, "binByteCount": 0, "inserts": 74, "deletes": 0, "occurrences": 56}, "wasm": {"textLineCount": 0, "binByteCount": 1174634, "inserts": 0, "deletes": 0, "occurrences": 5}, "ico": {"textLineCount": 0, "binByteCount": 15406, "inserts": 0, "deletes": 0, "occurrences": 1}, "html": {"textLineCount": 39, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "png": {"textLineCount": 0, "binByteCount": 19486, "inserts": 0, "deletes": 0, "occurrences": 2}, "txt": {"textLineCount": 129, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "js": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "scss": {"textLineCount": 160, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "tsx": {"textLineCount": 208, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "ts": {"textLineCount": 682, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "css": {"textLineCount": 13, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "svg": {"textLineCount": 17, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "null": {"textLineCount": 138, "binByteCount": 10883056, "inserts": 75, "deletes": 0, "occurrences": 147}, "lock": {"textLineCount": 265, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 21, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "sh": {"textLineCount": 18, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "rs": {"textLineCount": 110, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "TAG": {"textLineCount": 6, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "timestamp": {"textLineCount": 51, "binByteCount": 0, "inserts": 51, "deletes": 0, "occurrences": 51}, "d": {"textLineCount": 523, "binByteCount": 0, "inserts": 41, "deletes": 0, "occurrences": 41}, "ll": {"textLineCount": 81, "binByteCount": 0, "inserts": 5, "deletes": 0, "occurrences": 5}, "rlib": {"textLineCount": 0, "binByteCount": 41387316, "inserts": 0, "deletes": 0, "occurrences": 26}, "rmeta": {"textLineCount": 0, "binByteCount": 28961933, "inserts": 0, "deletes": 0, "occurrences": 26}, "dylib": {"textLineCount": 0, "binByteCount": 19059584, "inserts": 0, "deletes": 0, "occurrences": 3}, "files": "385", "insertions(+)\n": "48398"}]
+[
+  {
+    "commit": "b5986c3718d76a100eff928dab160693baf017fe\n",
+    "Author": " danielssonn <123456kolokol>\n",
+    "Date": "   Thu Feb 10 11",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": -14820,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "txt": {
+        "textLineCount": 7,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 91,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    },
+    "files": "7",
+    "insertions(+)": "41",
+    "deletions(-)\n": "71"
+  },
+  {
+    "commit": "52d0de747a46fe476f4842d108d726ae7d42e451\n",
+    "Author": " danielssonn <123456kolokol>\n",
+    "Date": "   Thu Feb 10 10",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 54,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "tsx": {
+        "textLineCount": 42,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 425,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 30,
+        "occurrences": 1
+      }
+    },
+    "files": "3",
+    "insertions(+)": "72",
+    "deletions(-)\n": "449"
+  },
+  {
+    "commit": "fb97649017826b7b5c034dd4d6977cbc232ec983\n",
+    "Author": " danielssonn <123456kolokol>\n",
+    "Date": "   Wed Feb 9 16",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 100,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "textLineCount": 45834,
+        "binByteCount": 0,
+        "inserts": 74,
+        "deletes": 0,
+        "occurrences": 56
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 1174634,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "ico": {
+        "textLineCount": 0,
+        "binByteCount": 15406,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "textLineCount": 39,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 19486,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "txt": {
+        "textLineCount": 129,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "scss": {
+        "textLineCount": 160,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "textLineCount": 208,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 682,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "css": {
+        "textLineCount": 13,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "textLineCount": 17,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "null": {
+        "textLineCount": 138,
+        "binByteCount": 10883056,
+        "inserts": 75,
+        "deletes": 0,
+        "occurrences": 147
+      },
+      "lock": {
+        "textLineCount": 265,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sh": {
+        "textLineCount": 18,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 110,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "TAG": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "timestamp": {
+        "textLineCount": 51,
+        "binByteCount": 0,
+        "inserts": 51,
+        "deletes": 0,
+        "occurrences": 51
+      },
+      "d": {
+        "textLineCount": 523,
+        "binByteCount": 0,
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 41
+      },
+      "ll": {
+        "textLineCount": 81,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "rlib": {
+        "textLineCount": 0,
+        "binByteCount": 41387316,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 26
+      },
+      "rmeta": {
+        "textLineCount": 0,
+        "binByteCount": 28961933,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 26
+      },
+      "dylib": {
+        "textLineCount": 0,
+        "binByteCount": 19059584,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "files": "385",
+    "insertions(+)\n": "48398"
+  }
+]

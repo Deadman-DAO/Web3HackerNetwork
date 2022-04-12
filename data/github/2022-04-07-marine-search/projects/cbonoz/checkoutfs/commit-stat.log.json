@@ -1,1 +1,205 @@
-[{"commit": "6a0e253d45cfaaa038e2451141604c16fa2826b1\n", "Author": " Chris Buonocore <chrisdistrict@gmail.com>\n", "Date": "   Thu Aug 19 14", "md": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "file": "1", "insertion(+)\n": "1"}, {"commit": "b1fa96128fe2af5cdfe1edecb1bc7af1be8dde2e\n", "Author": " Chris Buonocore <chrisdistrict@gmail.com>\n", "Date": "   Wed Aug 18 22", "gitignore": {"textLineCount": 28, "binByteCount": 0, "inserts": 28, "deletes": 0, "occurrences": 1}, "md": {"textLineCount": 17, "binByteCount": 0, "inserts": 16, "deletes": 1, "occurrences": 1}, "files": "2", "insertions(+)": "44", "deletion(-)\n": "1"}, {"commit": "74f17724cddacff48decffff6c0a4967e412409b\n", "Author": " Chris Buonocore <chrisdistrict@gmail.com>\n", "Date": "   Wed Aug 18 21", "null": {"textLineCount": 420, "binByteCount": 0, "inserts": 16, "deletes": 0, "occurrences": 16}, "md": {"textLineCount": 372, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 3}, "lock": {"textLineCount": 29343, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 2}, "toml": {"textLineCount": 64, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 4}, "js": {"textLineCount": 3763, "binByteCount": 0, "inserts": 48, "deletes": 0, "occurrences": 48}, "aqua": {"textLineCount": 264, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "json": {"textLineCount": 113775, "binByteCount": 0, "inserts": 35, "deletes": 0, "occurrences": 18}, "rs": {"textLineCount": 131, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "sh": {"textLineCount": 102, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 4}, "png": {"textLineCount": 0, "binByteCount": 2114566, "inserts": 0, "deletes": 0, "occurrences": 19}, "jpg": {"textLineCount": 0, "binByteCount": 2032916, "inserts": 0, "deletes": 0, "occurrences": 4}, "txt": {"textLineCount": 4, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 3}, "sol": {"textLineCount": 22, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "css": {"textLineCount": 74, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 4}, "ico": {"textLineCount": 0, "binByteCount": 4731, "inserts": 0, "deletes": 0, "occurrences": 1}, "html": {"textLineCount": 69, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "jsx": {"textLineCount": 5155, "binByteCount": 0, "inserts": 34, "deletes": 0, "occurrences": 34}, "less": {"textLineCount": 33, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "yaml": {"textLineCount": 78, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "yml": {"textLineCount": 38, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "ts": {"textLineCount": 34, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "graphql": {"textLineCount": 15, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "files": "173", "insertions(+)\n": "153756"}]
+[
+  {
+    "commit": "6a0e253d45cfaaa038e2451141604c16fa2826b1\n",
+    "Author": " Chris Buonocore <chrisdistrict@gmail.com>\n",
+    "Date": "   Thu Aug 19 14",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)\n": "1"
+  },
+  {
+    "commit": "b1fa96128fe2af5cdfe1edecb1bc7af1be8dde2e\n",
+    "Author": " Chris Buonocore <chrisdistrict@gmail.com>\n",
+    "Date": "   Wed Aug 18 22",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 28,
+        "binByteCount": 0,
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 17,
+        "binByteCount": 0,
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "44",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "74f17724cddacff48decffff6c0a4967e412409b\n",
+    "Author": " Chris Buonocore <chrisdistrict@gmail.com>\n",
+    "Date": "   Wed Aug 18 21",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 420,
+        "binByteCount": 0,
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 16
+      },
+      "md": {
+        "textLineCount": 372,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "lock": {
+        "textLineCount": 29343,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 64,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "js": {
+        "textLineCount": 3763,
+        "binByteCount": 0,
+        "inserts": 48,
+        "deletes": 0,
+        "occurrences": 48
+      },
+      "aqua": {
+        "textLineCount": 264,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "textLineCount": 113775,
+        "binByteCount": 0,
+        "inserts": 35,
+        "deletes": 0,
+        "occurrences": 18
+      },
+      "rs": {
+        "textLineCount": 131,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sh": {
+        "textLineCount": 102,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 2114566,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 19
+      },
+      "jpg": {
+        "textLineCount": 0,
+        "binByteCount": 2032916,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "txt": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "sol": {
+        "textLineCount": 22,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "textLineCount": 74,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "ico": {
+        "textLineCount": 0,
+        "binByteCount": 4731,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "textLineCount": 69,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jsx": {
+        "textLineCount": 5155,
+        "binByteCount": 0,
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 34
+      },
+      "less": {
+        "textLineCount": 33,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "yaml": {
+        "textLineCount": 78,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "yml": {
+        "textLineCount": 38,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 34,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "graphql": {
+        "textLineCount": 15,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "173",
+    "insertions(+)\n": "153756"
+  }
+]

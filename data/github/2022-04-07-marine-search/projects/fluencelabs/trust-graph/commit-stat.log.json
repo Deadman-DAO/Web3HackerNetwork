@@ -1,1 +1,1637 @@
-[{"commit": "b9fbbbcafb7cb88daeeb11e66146024baefe2b73\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Sat Feb 5 03", "json": {"textLineCount": 60, "binByteCount": 0, "inserts": 30, "deletes": 30, "occurrences": 6}, "aqua": {"textLineCount": 47, "binByteCount": 0, "inserts": 21, "deletes": 26, "occurrences": 1}, "files": "7", "insertions(+)": "51", "deletions(-)\n": "56"}, {"commit": "7c72a59bef49a4846f42a0d10e288c93243b95a5\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Fri Feb 4 20", "aqua": {"textLineCount": 5, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 2}, "files": "2", "insertions(+)": "3", "deletions(-)\n": "2"}, {"commit": "5609740216c6ef5cc8de4c65fe476ee5dba2c4f8\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Fri Feb 4 18", "lock": {"textLineCount": 322, "binByteCount": 0, "inserts": 1, "deletes": 2, "occurrences": 1}, "md": {"textLineCount": 88, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 3}, "aqua": {"textLineCount": 410, "binByteCount": 0, "inserts": 7, "deletes": 4, "occurrences": 7}, "ts": {"textLineCount": 161, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 2}, "json": {"textLineCount": 13723, "binByteCount": 0, "inserts": 87, "deletes": 19, "occurrences": 7}, "air": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "ed25519": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "yml": {"textLineCount": 96, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 263, "binByteCount": 0, "inserts": 7, "deletes": 7, "occurrences": 7}, "files": "30", "insertions(+)": "12745", "deletions(-)\n": "2323"}, {"commit": "58648d70373a496debf6fb67688cc66252487389\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jan 28 18", "lock": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "toml": {"textLineCount": 6, "binByteCount": 0, "inserts": 3, "deletes": 3, "occurrences": 3}, "files": "4", "insertions(+)": "4", "deletions(-)\n": "4"}, {"commit": "048406aa020d9e0185f114395cd4f98905ad206c\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jan 28 17", "yml": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "b76954782bac8fef3028105782a845c0ac17a917\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jan 28 16", "yml": {"textLineCount": 6, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "lock": {"textLineCount": 311, "binByteCount": 0, "inserts": 30, "deletes": 14, "occurrences": 1}, "toml": {"textLineCount": 13, "binByteCount": 0, "inserts": 6, "deletes": 5, "occurrences": 6}, "rs": {"textLineCount": 17, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 1}, "files": "9", "insertions(+)": "239", "deletions(-)\n": "108"}, {"commit": "c2f63cb41e45c4e2c7a36d5cc303cc1ae0b14b85\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Jan 13 19", "gitignore": {"textLineCount": 2, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 4, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 2}, "files": "3", "insertions(+)": "4", "deletions(-)\n": "2"}, {"commit": "8214b1cc5c3275178a47f6ed46d6bf4d4adce845\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Mon Dec 13 19", "lock": {"textLineCount": 130, "binByteCount": 0, "inserts": 13, "deletes": 15, "occurrences": 1}, "toml": {"textLineCount": 3, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 2}, "json": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "aqua": {"textLineCount": 10, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 2}, "ts": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 555, "binByteCount": 0, "inserts": 55, "deletes": 70, "occurrences": 14}, "files": "21", "insertions(+)": "320", "deletions(-)\n": "382"}, {"commit": "c4019127e8968b8274f07eda02816d6663f92924\n", "Author": " boneyard93501 <4523011+boneyard93501@users.noreply.github.com>\n", "Date": "   Mon Dec 6 14", "md": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "json": {"textLineCount": 52, "binByteCount": 0, "inserts": 26, "deletes": 26, "occurrences": 2}, "files": "3", "insertions(+)": "27", "deletions(-)\n": "27"}, {"commit": "24dbadaa7ca32b891e3c28cc8024153d2304e84f\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Mon Dec 6 20", "md": {"textLineCount": 74, "binByteCount": 0, "inserts": 17, "deletes": 5, "occurrences": 3}, "json": {"textLineCount": 272, "binByteCount": 0, "inserts": 21, "deletes": 58, "occurrences": 4}, "aqua": {"textLineCount": 49, "binByteCount": 0, "inserts": 7, "deletes": 7, "occurrences": 1}, "ts": {"textLineCount": 104, "binByteCount": 0, "inserts": 17, "deletes": 13, "occurrences": 1}, "yml": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "10", "insertions(+)": "218", "deletions(-)\n": "283"}, {"commit": "7528256e789b67717a7ca35be300215d961f3a5e\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Wed Nov 24 18", "rs": {"textLineCount": 110, "binByteCount": 0, "inserts": 43, "deletes": 50, "occurrences": 6}, "files": "6", "insertions(+)": "52", "deletions(-)\n": "58"}, {"commit": "1f31ffecc73b4e649c6630aff1ee84d20eca97a0\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Wed Nov 24 16", "rs": {"textLineCount": 588, "binByteCount": 0, "inserts": 51, "deletes": 54, "occurrences": 7}, "files": "7", "insertions(+)": "286", "deletions(-)\n": "302"}, {"commit": "cb6e072231913931c8fd1b5ae4eebd3298b8037f\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Fri Nov 12 23", "toml": {"textLineCount": 8, "binByteCount": 0, "inserts": 4, "deletes": 4, "occurrences": 1}, "rs": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "2", "insertions(+)": "5", "deletions(-)\n": "5"}, {"commit": "1454df5148a8a54dc698a77f575831a6c10c5ac5\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Fri Nov 12 17", "yml": {"textLineCount": 4, "binByteCount": 0, "inserts": 3, "deletes": 1, "occurrences": 2}, "files": "2", "insertions(+)": "3", "deletion(-)\n": "1"}, {"commit": "53562bc8a762d3e018e6f41cf0e1c98b2b8f656d\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Fri Nov 12 16", "yml": {"textLineCount": 260, "binByteCount": 0, "inserts": 4, "deletes": 1, "occurrences": 4}, "sh": {"textLineCount": 63, "binByteCount": 0, "inserts": 3, "deletes": 1, "occurrences": 4}, "json": {"textLineCount": 21418, "binByteCount": 0, "inserts": 64, "deletes": 31, "occurrences": 16}, "gitignore": {"textLineCount": 20, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "lock": {"textLineCount": 3334, "binByteCount": 0, "inserts": 5, "deletes": 8, "occurrences": 2}, "toml": {"textLineCount": 120, "binByteCount": 0, "inserts": 6, "deletes": 4, "occurrences": 8}, "md": {"textLineCount": 70, "binByteCount": 0, "inserts": 3, "deletes": 1, "occurrences": 3}, "aqua": {"textLineCount": 207, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 4}, "ts": {"textLineCount": 1433, "binByteCount": 0, "inserts": 2, "deletes": 10, "occurrences": 9}, "air": {"textLineCount": 31, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "null": {"textLineCount": 60, "binByteCount": 0, "inserts": 0, "deletes": 4, "occurrences": 4}, "js": {"textLineCount": 4, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 3793, "binByteCount": 0, "inserts": 26, "deletes": 19, "occurrences": 28}, "ed25519": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "files": "86", "insertions(+)": "18876", "deletions(-)\n": "11938"}, {"commit": "18f010c710166ba79b550108070357034afed1e6\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Wed Sep 29 18", "yml": {"textLineCount": 35, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 405, "binByteCount": 0, "inserts": 7, "deletes": 7, "occurrences": 2}, "toml": {"textLineCount": 19, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 2}, "ts": {"textLineCount": 811, "binByteCount": 0, "inserts": 28, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 264, "binByteCount": 0, "inserts": 14, "deletes": 11, "occurrences": 15}, "pk8": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 3}, "files": "24", "insertions(+)": "1280", "deletions(-)\n": "254"}, {"commit": "e15cfa9ceb7da4893d281bdbc620c578f319ed9f\n", "Author": " boneyard93501 <4523011+boneyard93501@users.noreply.github.com>\n", "Date": "   Fri Aug 13 02", "md": {"textLineCount": 3, "binByteCount": 0, "inserts": 0, "deletes": 3, "occurrences": 1}, "file": "1", "deletions(-)\n": "3"}, {"commit": "cbcca205666dea1ee0194502183d9002ff93a669\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Apr 15 21", "lock": {"textLineCount": 63, "binByteCount": 0, "inserts": 28, "deletes": 25, "occurrences": 1}, "toml": {"textLineCount": 10, "binByteCount": 0, "inserts": 4, "deletes": 5, "occurrences": 2}, "files": "3", "insertions(+)": "38", "deletions(-)\n": "35"}, {"commit": "1d451379b5a98b386dd1e720bd149fa075a90cbc\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Thu Apr 15 14", "lock": {"textLineCount": 187, "binByteCount": 0, "inserts": 15, "deletes": 9, "occurrences": 1}, "toml": {"textLineCount": 25, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 2}, "rs": {"textLineCount": 1907, "binByteCount": 0, "inserts": 185, "deletes": 66, "occurrences": 16}, "pk8": {"textLineCount": 0, "binByteCount": 5386, "inserts": 0, "deletes": 0, "occurrences": 3}, "files": "22", "insertions(+)": "1575", "deletions(-)\n": "544"}, {"commit": "443e9af78444b743ff1e75d2fd7573976ed6ccb9\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Mar 11 14", "gitignore": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 735, "binByteCount": 0, "inserts": 46, "deletes": 47, "occurrences": 3}, "toml": {"textLineCount": 16, "binByteCount": 0, "inserts": 3, "deletes": 3, "occurrences": 3}, "rs": {"textLineCount": 85, "binByteCount": 0, "inserts": 10, "deletes": 7, "occurrences": 6}, "files": "13", "insertions(+)": "432", "deletions(-)\n": "406"}, {"commit": "011c72e3abedde8ed0e71cabaa5f0195c56cb0a8\n", "Author": " Dima <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Thu Mar 11 14", "md": {"textLineCount": 69, "binByteCount": 0, "inserts": 63, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)\n": "69"}, {"commit": "87332f0f4ca5e2ca1627ed772ea51e58db3cb774\n", "Author": " Dima <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Wed Feb 17 18", "null": {"textLineCount": 60, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 4}, "js": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 7365, "binByteCount": 0, "inserts": 42, "deletes": 0, "occurrences": 3}, "ts": {"textLineCount": 391, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 6}, "files": "14", "insertions(+)\n": "7820"}, {"commit": "8a15bf7e2a622a0acec7fa04916f08321a0da487\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Feb 15 13", "rs": {"textLineCount": 166, "binByteCount": 0, "inserts": 98, "deletes": 68, "occurrences": 9}, "files": "9", "insertions(+)": "98", "deletions(-)\n": "68"}, {"commit": "5ff8d2f8d0f6a0241083616b29687a42e3d0964f\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Feb 15 12", "rs": {"textLineCount": 59, "binByteCount": 0, "inserts": 25, "deletes": 34, "occurrences": 5}, "files": "5", "insertions(+)": "25", "deletions(-)\n": "34"}, {"commit": "953e0b6f0a8dfa113e9155f5b6dfe4a289957023\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Fri Feb 12 14", "rs": {"textLineCount": 4, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 2}, "files": "2", "insertions(+)": "2", "deletions(-)\n": "2"}, {"commit": "3bcc928a724d8610f86b8528232193d35fa9e676\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Fri Feb 12 14", "rs": {"textLineCount": 51, "binByteCount": 0, "inserts": 47, "deletes": 4, "occurrences": 3}, "files": "3", "insertions(+)": "47", "deletions(-)\n": "4"}, {"commit": "a9d1e72653efc5d7465995f46f96747c066f6922\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Fri Feb 12 14", "rs": {"textLineCount": 191, "binByteCount": 0, "inserts": 38, "deletes": 36, "occurrences": 4}, "files": "4", "insertions(+)": "97", "deletions(-)\n": "94"}, {"commit": "816b3754a4fa5ae367c7a633f674fb1c71ce126b\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Fri Feb 12 14", "rs": {"textLineCount": 35, "binByteCount": 0, "inserts": 28, "deletes": 7, "occurrences": 1}, "file": "1", "insertions(+)": "28", "deletions(-)\n": "7"}, {"commit": "66ace9d3df6866d2161485f6f914e851c90d490f\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Fri Feb 12 14", "rs": {"textLineCount": 83, "binByteCount": 0, "inserts": 68, "deletes": 14, "occurrences": 4}, "files": "4", "insertions(+)": "69", "deletions(-)\n": "14"}, {"commit": "fb13bc1cdf41afd43356538c7bd9c0744e12ceff\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Thu Feb 11 18", "rs": {"textLineCount": 57, "binByteCount": 0, "inserts": 27, "deletes": 30, "occurrences": 2}, "files": "2", "insertions(+)": "27", "deletions(-)\n": "30"}, {"commit": "1e9b8ba33b86567db4d27da287cad5bcdfb214f6\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Thu Feb 11 17", "lock": {"textLineCount": 3, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 3}, "toml": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 141, "binByteCount": 0, "inserts": 79, "deletes": 62, "occurrences": 8}, "files": "12", "insertions(+)": "83", "deletions(-)\n": "62"}, {"commit": "feac5dadf60a146f57b19f03696abc4ec1b59ff8\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Thu Feb 11 15", "rs": {"textLineCount": 50, "binByteCount": 0, "inserts": 22, "deletes": 28, "occurrences": 6}, "files": "6", "insertions(+)": "22", "deletions(-)\n": "28"}, {"commit": "b10726032e2e8a3401c8aba16d839947032ad648\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Thu Feb 11 15", "rs": {"textLineCount": 325, "binByteCount": 0, "inserts": 51, "deletes": 61, "occurrences": 10}, "lock": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 2}, "sh": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "files": "14", "insertions(+)": "145", "deletions(-)\n": "180"}, {"commit": "61fd3cb312bc13daee714f7f6434abfec7f5bb41\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Wed Feb 10 15", "rs": {"textLineCount": 18, "binByteCount": 0, "inserts": 9, "deletes": 9, "occurrences": 1}, "file": "1", "insertions(+)": "9", "deletions(-)\n": "9"}, {"commit": "5889ad77a33fb9f5b289118be0f4d60f7fcbe9e4\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Wed Feb 10 15", "rs": {"textLineCount": 35, "binByteCount": 0, "inserts": 16, "deletes": 19, "occurrences": 4}, "files": "4", "insertions(+)": "16", "deletions(-)\n": "19"}, {"commit": "3a9530b92d647fd8f8196105301a610cd43ce753\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Wed Feb 10 15", "rs": {"textLineCount": 194, "binByteCount": 0, "inserts": 106, "deletes": 18, "occurrences": 4}, "files": "4", "insertions(+)": "166", "deletions(-)\n": "28"}, {"commit": "e89452c0b0ac82ec4556e8b12eb3b5f41bc6540d\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Tue Feb 9 15", "lock": {"textLineCount": 37, "binByteCount": 0, "inserts": 0, "deletes": 27, "occurrences": 1}, "toml": {"textLineCount": 1, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 154, "binByteCount": 0, "inserts": 73, "deletes": 39, "occurrences": 5}, "files": "7", "insertions(+)": "102", "deletions(-)\n": "90"}, {"commit": "7ae745c3c3af732efbf9abf61311a469013909d8\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Tue Feb 9 14", "lock": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 166, "binByteCount": 0, "inserts": 32, "deletes": 23, "occurrences": 5}, "files": "7", "insertions(+)": "99", "deletions(-)\n": "69"}, {"commit": "e2183b4180b42db0bf6023cfbb6f19f128a347a4\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Tue Feb 9 13", "rs": {"textLineCount": 258, "binByteCount": 0, "inserts": 68, "deletes": 33, "occurrences": 5}, "files": "5", "insertions(+)": "177", "deletions(-)\n": "81"}, {"commit": "f359dc50902622603aa0eddbd4c907b4322f9ad0\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Feb 8 17", "rs": {"textLineCount": 141, "binByteCount": 0, "inserts": 35, "deletes": 25, "occurrences": 3}, "files": "3", "insertions(+)": "82", "deletions(-)\n": "59"}, {"commit": "0e7f22b6e0b12981302743f2f6244a6f4932c2a4\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Thu Jan 28 11", "lock": {"textLineCount": 39, "binByteCount": 0, "inserts": 30, "deletes": 0, "occurrences": 2}, "toml": {"textLineCount": 2, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "sh": {"textLineCount": 7, "binByteCount": 0, "inserts": 4, "deletes": 2, "occurrences": 1}, "rs": {"textLineCount": 209, "binByteCount": 0, "inserts": 107, "deletes": 54, "occurrences": 6}, "files": "11", "insertions(+)": "187", "deletions(-)\n": "70"}, {"commit": "88b6f5f3fef5ddc1dc3530645be218b3f4ca6ec2\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Wed Jan 27 14", "rs": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "29f15f2b4e404816ea805b610c7ad3432127fdad\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Wed Jan 27 12", "lock": {"textLineCount": 22, "binByteCount": 0, "inserts": 22, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 2, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "sh": {"textLineCount": 5, "binByteCount": 0, "inserts": 5, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 46, "binByteCount": 0, "inserts": 42, "deletes": 4, "occurrences": 2}, "files": "5", "insertions(+)": "71", "deletions(-)\n": "4"}, {"commit": "c9196bc11d523d45cada263da5fab7eeb1c88eff\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Jan 25 15", "rs": {"textLineCount": 8, "binByteCount": 0, "inserts": 4, "deletes": 4, "occurrences": 1}, "file": "1", "insertions(+)": "4", "deletions(-)\n": "4"}, {"commit": "802e294ba194ef2cc24454998bd199fb29c5b6cc\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Jan 25 15", "lock": {"textLineCount": 42, "binByteCount": 0, "inserts": 31, "deletes": 11, "occurrences": 1}, "toml": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 52, "binByteCount": 0, "inserts": 36, "deletes": 16, "occurrences": 3}, "files": "5", "insertions(+)": "68", "deletions(-)\n": "28"}, {"commit": "b821984e78c655a99cc0eab76508570e9179cc1f\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Thu Jan 21 20", "rs": {"textLineCount": 33, "binByteCount": 0, "inserts": 25, "deletes": 8, "occurrences": 4}, "files": "4", "insertions(+)": "25", "deletions(-)\n": "8"}, {"commit": "467391a8f1721af4b796aeb212ea768cad9a3223\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Thu Jan 21 20", "lock": {"textLineCount": 84, "binByteCount": 0, "inserts": 54, "deletes": 0, "occurrences": 3}, "toml": {"textLineCount": 18, "binByteCount": 0, "inserts": 13, "deletes": 0, "occurrences": 3}, "rs": {"textLineCount": 90, "binByteCount": 0, "inserts": 51, "deletes": 7, "occurrences": 3}, "files": "9", "insertions(+)": "181", "deletions(-)\n": "11"}, {"commit": "afab376cccb109c85fbabd839ad607905c24662d\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Wed Jan 20 17", "rs": {"textLineCount": 85, "binByteCount": 0, "inserts": 58, "deletes": 21, "occurrences": 5}, "files": "5", "insertions(+)": "63", "deletions(-)\n": "22"}, {"commit": "3249aa376cc079f3f7caedd7f27933e1e6416f75\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Wed Jan 20 16", "rs": {"textLineCount": 25, "binByteCount": 0, "inserts": 13, "deletes": 12, "occurrences": 8}, "files": "8", "insertions(+)": "13", "deletions(-)\n": "12"}, {"commit": "0b1b0a82a7ecc7bf840d727dcb5a593b151f5591\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Wed Jan 20 00", "lock": {"textLineCount": 21, "binByteCount": 0, "inserts": 16, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 8, "binByteCount": 0, "inserts": 5, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 84, "binByteCount": 0, "inserts": 60, "deletes": 4, "occurrences": 5}, "files": "7", "insertions(+)": "108", "deletions(-)\n": "5"}, {"commit": "d3a03248b252bba21365dd6a19b7b83249e7f6c8\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Tue Jan 19 21", "rs": {"textLineCount": 146, "binByteCount": 0, "inserts": 90, "deletes": 50, "occurrences": 11}, "files": "11", "insertions(+)": "94", "deletions(-)\n": "52"}, {"commit": "a4de8f25a96f2bfe1f8da52ea4f9d27565838b65\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Tue Jan 19 18", "lock": {"textLineCount": 1431, "binByteCount": 0, "inserts": 46, "deletes": 2, "occurrences": 3}, "toml": {"textLineCount": 5, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 174, "binByteCount": 0, "inserts": 12, "deletes": 9, "occurrences": 10}, "files": "14", "insertions(+)": "1556", "deletions(-)\n": "54"}, {"commit": "37de2ff3364e6dbaefe1181f4fbad8990492edbf\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Tue Jan 19 17", "lock": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 68, "binByteCount": 0, "inserts": 36, "deletes": 32, "occurrences": 10}, "files": "12", "insertions(+)": "38", "deletions(-)\n": "32"}, {"commit": "dd761dd61c454d7ceb74d3634d14a540eafb681e\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Tue Jan 19 17", "lock": {"textLineCount": 36, "binByteCount": 0, "inserts": 36, "deletes": 0, "occurrences": 2}, "toml": {"textLineCount": 21, "binByteCount": 0, "inserts": 21, "deletes": 0, "occurrences": 2}, "rs": {"textLineCount": 51, "binByteCount": 0, "inserts": 40, "deletes": 11, "occurrences": 8}, "files": "12", "insertions(+)": "97", "deletions(-)\n": "11"}, {"commit": "e8c109df992228a2116fdafd611f14a9d3f7a521\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Jan 18 20", "rs": {"textLineCount": 46, "binByteCount": 0, "inserts": 29, "deletes": 17, "occurrences": 3}, "files": "3", "insertions(+)": "29", "deletions(-)\n": "17"}, {"commit": "256cf964366959e4c93f412673bb1f7c825c9865\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Jan 18 20", "rs": {"textLineCount": 15, "binByteCount": 0, "inserts": 6, "deletes": 9, "occurrences": 3}, "files": "3", "insertions(+)": "6", "deletions(-)\n": "9"}, {"commit": "a0261bc3314c1e55e78c3512083a465c8337b083\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Jan 18 20", "lock": {"textLineCount": 3, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 2}, "toml": {"textLineCount": 5, "binByteCount": 0, "inserts": 2, "deletes": 3, "occurrences": 1}, "rs": {"textLineCount": 152, "binByteCount": 0, "inserts": 90, "deletes": 45, "occurrences": 8}, "files": "11", "insertions(+)": "108", "deletions(-)\n": "52"}, {"commit": "9e74777fe56560978c7366016cf3863365ac232b\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Jan 18 18", "rs": {"textLineCount": 61, "binByteCount": 0, "inserts": 38, "deletes": 23, "occurrences": 3}, "files": "3", "insertions(+)": "38", "deletions(-)\n": "23"}, {"commit": "2ec1114ec2891e4a97b2210a395fec01e819316e\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Jan 18 04", "rs": {"textLineCount": 56, "binByteCount": 0, "inserts": 30, "deletes": 26, "occurrences": 2}, "files": "2", "insertions(+)": "30", "deletions(-)\n": "26"}, {"commit": "a294c42dec14291aca5869cd1afeeb7deae72569\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Mon Jan 18 03", "lock": {"textLineCount": 1593, "binByteCount": 0, "inserts": 44, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 15, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 209, "binByteCount": 0, "inserts": 8, "deletes": 1, "occurrences": 6}, "files": "8", "insertions(+)": "1754", "deletions(-)\n": "63"}, {"commit": "f2afc13ea29569a8fe34e6d598f1f43f750ea961\n", "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n", "Date": "   Fri Jan 15 19", "lock": {"textLineCount": 1533, "binByteCount": 0, "inserts": 44, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 21, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 2083, "binByteCount": 0, "inserts": 63, "deletes": 0, "occurrences": 10}, "files": "12", "insertions(+)\n": "3637"}]
+[
+  {
+    "commit": "b9fbbbcafb7cb88daeeb11e66146024baefe2b73\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Sat Feb 5 03",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 60,
+        "binByteCount": 0,
+        "inserts": 30,
+        "deletes": 30,
+        "occurrences": 6
+      },
+      "aqua": {
+        "textLineCount": 47,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    },
+    "files": "7",
+    "insertions(+)": "51",
+    "deletions(-)\n": "56"
+  },
+  {
+    "commit": "7c72a59bef49a4846f42a0d10e288c93243b95a5\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Fri Feb 4 20",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "3",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "5609740216c6ef5cc8de4c65fe476ee5dba2c4f8\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Fri Feb 4 18",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 322,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 88,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "aqua": {
+        "textLineCount": 410,
+        "binByteCount": 0,
+        "inserts": 7,
+        "deletes": 4,
+        "occurrences": 7
+      },
+      "ts": {
+        "textLineCount": 161,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "textLineCount": 13723,
+        "binByteCount": 0,
+        "inserts": 87,
+        "deletes": 19,
+        "occurrences": 7
+      },
+      "air": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ed25519": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "textLineCount": 96,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 263,
+        "binByteCount": 0,
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 7
+      }
+    },
+    "files": "30",
+    "insertions(+)": "12745",
+    "deletions(-)\n": "2323"
+  },
+  {
+    "commit": "58648d70373a496debf6fb67688cc66252487389\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jan 28 18",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    },
+    "files": "4",
+    "insertions(+)": "4",
+    "deletions(-)\n": "4"
+  },
+  {
+    "commit": "048406aa020d9e0185f114395cd4f98905ad206c\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jan 28 17",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "b76954782bac8fef3028105782a845c0ac17a917\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jan 28 16",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 311,
+        "binByteCount": 0,
+        "inserts": 30,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 13,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 6
+      },
+      "rs": {
+        "textLineCount": 17,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "9",
+    "insertions(+)": "239",
+    "deletions(-)\n": "108"
+  },
+  {
+    "commit": "c2f63cb41e45c4e2c7a36d5cc303cc1ae0b14b85\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Jan 13 19",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "files": "3",
+    "insertions(+)": "4",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "8214b1cc5c3275178a47f6ed46d6bf4d4adce845\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Mon Dec 13 19",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 130,
+        "binByteCount": 0,
+        "inserts": 13,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "json": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 555,
+        "binByteCount": 0,
+        "inserts": 55,
+        "deletes": 70,
+        "occurrences": 14
+      }
+    },
+    "files": "21",
+    "insertions(+)": "320",
+    "deletions(-)\n": "382"
+  },
+  {
+    "commit": "c4019127e8968b8274f07eda02816d6663f92924\n",
+    "Author": " boneyard93501 <4523011+boneyard93501@users.noreply.github.com>\n",
+    "Date": "   Mon Dec 6 14",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 52,
+        "binByteCount": 0,
+        "inserts": 26,
+        "deletes": 26,
+        "occurrences": 2
+      }
+    },
+    "files": "3",
+    "insertions(+)": "27",
+    "deletions(-)\n": "27"
+  },
+  {
+    "commit": "24dbadaa7ca32b891e3c28cc8024153d2304e84f\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Mon Dec 6 20",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 74,
+        "binByteCount": 0,
+        "inserts": 17,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "json": {
+        "textLineCount": 272,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 58,
+        "occurrences": 4
+      },
+      "aqua": {
+        "textLineCount": 49,
+        "binByteCount": 0,
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 104,
+        "binByteCount": 0,
+        "inserts": 17,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "yml": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "10",
+    "insertions(+)": "218",
+    "deletions(-)\n": "283"
+  },
+  {
+    "commit": "7528256e789b67717a7ca35be300215d961f3a5e\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Wed Nov 24 18",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 110,
+        "binByteCount": 0,
+        "inserts": 43,
+        "deletes": 50,
+        "occurrences": 6
+      }
+    },
+    "files": "6",
+    "insertions(+)": "52",
+    "deletions(-)\n": "58"
+  },
+  {
+    "commit": "1f31ffecc73b4e649c6630aff1ee84d20eca97a0\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Wed Nov 24 16",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 588,
+        "binByteCount": 0,
+        "inserts": 51,
+        "deletes": 54,
+        "occurrences": 7
+      }
+    },
+    "files": "7",
+    "insertions(+)": "286",
+    "deletions(-)\n": "302"
+  },
+  {
+    "commit": "cb6e072231913931c8fd1b5ae4eebd3298b8037f\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Fri Nov 12 23",
+    "fileTypes": {
+      "toml": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "5",
+    "deletions(-)\n": "5"
+  },
+  {
+    "commit": "1454df5148a8a54dc698a77f575831a6c10c5ac5\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Fri Nov 12 17",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "3",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "53562bc8a762d3e018e6f41cf0e1c98b2b8f656d\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Fri Nov 12 16",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 260,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 4
+      },
+      "sh": {
+        "textLineCount": 63,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 4
+      },
+      "json": {
+        "textLineCount": 21418,
+        "binByteCount": 0,
+        "inserts": 64,
+        "deletes": 31,
+        "occurrences": 16
+      },
+      "gitignore": {
+        "textLineCount": 20,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 3334,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 120,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 8
+      },
+      "md": {
+        "textLineCount": 70,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "aqua": {
+        "textLineCount": 207,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "ts": {
+        "textLineCount": 1433,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 10,
+        "occurrences": 9
+      },
+      "air": {
+        "textLineCount": 31,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "null": {
+        "textLineCount": 60,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "js": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 3793,
+        "binByteCount": 0,
+        "inserts": 26,
+        "deletes": 19,
+        "occurrences": 28
+      },
+      "ed25519": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "86",
+    "insertions(+)": "18876",
+    "deletions(-)\n": "11938"
+  },
+  {
+    "commit": "18f010c710166ba79b550108070357034afed1e6\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Wed Sep 29 18",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 35,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 405,
+        "binByteCount": 0,
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 19,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 811,
+        "binByteCount": 0,
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 264,
+        "binByteCount": 0,
+        "inserts": 14,
+        "deletes": 11,
+        "occurrences": 15
+      },
+      "pk8": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "files": "24",
+    "insertions(+)": "1280",
+    "deletions(-)\n": "254"
+  },
+  {
+    "commit": "e15cfa9ceb7da4893d281bdbc620c578f319ed9f\n",
+    "Author": " boneyard93501 <4523011+boneyard93501@users.noreply.github.com>\n",
+    "Date": "   Fri Aug 13 02",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "deletions(-)\n": "3"
+  },
+  {
+    "commit": "cbcca205666dea1ee0194502183d9002ff93a669\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Apr 15 21",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 63,
+        "binByteCount": 0,
+        "inserts": 28,
+        "deletes": 25,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    },
+    "files": "3",
+    "insertions(+)": "38",
+    "deletions(-)\n": "35"
+  },
+  {
+    "commit": "1d451379b5a98b386dd1e720bd149fa075a90cbc\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Thu Apr 15 14",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 187,
+        "binByteCount": 0,
+        "inserts": 15,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 25,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 1907,
+        "binByteCount": 0,
+        "inserts": 185,
+        "deletes": 66,
+        "occurrences": 16
+      },
+      "pk8": {
+        "textLineCount": 0,
+        "binByteCount": 5386,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "files": "22",
+    "insertions(+)": "1575",
+    "deletions(-)\n": "544"
+  },
+  {
+    "commit": "443e9af78444b743ff1e75d2fd7573976ed6ccb9\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Mar 11 14",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 735,
+        "binByteCount": 0,
+        "inserts": 46,
+        "deletes": 47,
+        "occurrences": 3
+      },
+      "toml": {
+        "textLineCount": 16,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "rs": {
+        "textLineCount": 85,
+        "binByteCount": 0,
+        "inserts": 10,
+        "deletes": 7,
+        "occurrences": 6
+      }
+    },
+    "files": "13",
+    "insertions(+)": "432",
+    "deletions(-)\n": "406"
+  },
+  {
+    "commit": "011c72e3abedde8ed0e71cabaa5f0195c56cb0a8\n",
+    "Author": " Dima <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Thu Mar 11 14",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 69,
+        "binByteCount": 0,
+        "inserts": 63,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)\n": "69"
+  },
+  {
+    "commit": "87332f0f4ca5e2ca1627ed772ea51e58db3cb774\n",
+    "Author": " Dima <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Wed Feb 17 18",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 60,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "js": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 7365,
+        "binByteCount": 0,
+        "inserts": 42,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "ts": {
+        "textLineCount": 391,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 6
+      }
+    },
+    "files": "14",
+    "insertions(+)\n": "7820"
+  },
+  {
+    "commit": "8a15bf7e2a622a0acec7fa04916f08321a0da487\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Feb 15 13",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 166,
+        "binByteCount": 0,
+        "inserts": 98,
+        "deletes": 68,
+        "occurrences": 9
+      }
+    },
+    "files": "9",
+    "insertions(+)": "98",
+    "deletions(-)\n": "68"
+  },
+  {
+    "commit": "5ff8d2f8d0f6a0241083616b29687a42e3d0964f\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Feb 15 12",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 59,
+        "binByteCount": 0,
+        "inserts": 25,
+        "deletes": 34,
+        "occurrences": 5
+      }
+    },
+    "files": "5",
+    "insertions(+)": "25",
+    "deletions(-)\n": "34"
+  },
+  {
+    "commit": "953e0b6f0a8dfa113e9155f5b6dfe4a289957023\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Fri Feb 12 14",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "2",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "3bcc928a724d8610f86b8528232193d35fa9e676\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Fri Feb 12 14",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 51,
+        "binByteCount": 0,
+        "inserts": 47,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    },
+    "files": "3",
+    "insertions(+)": "47",
+    "deletions(-)\n": "4"
+  },
+  {
+    "commit": "a9d1e72653efc5d7465995f46f96747c066f6922\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Fri Feb 12 14",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 191,
+        "binByteCount": 0,
+        "inserts": 38,
+        "deletes": 36,
+        "occurrences": 4
+      }
+    },
+    "files": "4",
+    "insertions(+)": "97",
+    "deletions(-)\n": "94"
+  },
+  {
+    "commit": "816b3754a4fa5ae367c7a633f674fb1c71ce126b\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Fri Feb 12 14",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 35,
+        "binByteCount": 0,
+        "inserts": 28,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "28",
+    "deletions(-)\n": "7"
+  },
+  {
+    "commit": "66ace9d3df6866d2161485f6f914e851c90d490f\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Fri Feb 12 14",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 83,
+        "binByteCount": 0,
+        "inserts": 68,
+        "deletes": 14,
+        "occurrences": 4
+      }
+    },
+    "files": "4",
+    "insertions(+)": "69",
+    "deletions(-)\n": "14"
+  },
+  {
+    "commit": "fb13bc1cdf41afd43356538c7bd9c0744e12ceff\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Thu Feb 11 18",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 57,
+        "binByteCount": 0,
+        "inserts": 27,
+        "deletes": 30,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "27",
+    "deletions(-)\n": "30"
+  },
+  {
+    "commit": "1e9b8ba33b86567db4d27da287cad5bcdfb214f6\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Thu Feb 11 17",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "toml": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 141,
+        "binByteCount": 0,
+        "inserts": 79,
+        "deletes": 62,
+        "occurrences": 8
+      }
+    },
+    "files": "12",
+    "insertions(+)": "83",
+    "deletions(-)\n": "62"
+  },
+  {
+    "commit": "feac5dadf60a146f57b19f03696abc4ec1b59ff8\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Thu Feb 11 15",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 50,
+        "binByteCount": 0,
+        "inserts": 22,
+        "deletes": 28,
+        "occurrences": 6
+      }
+    },
+    "files": "6",
+    "insertions(+)": "22",
+    "deletions(-)\n": "28"
+  },
+  {
+    "commit": "b10726032e2e8a3401c8aba16d839947032ad648\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Thu Feb 11 15",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 325,
+        "binByteCount": 0,
+        "inserts": 51,
+        "deletes": 61,
+        "occurrences": 10
+      },
+      "lock": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sh": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "14",
+    "insertions(+)": "145",
+    "deletions(-)\n": "180"
+  },
+  {
+    "commit": "61fd3cb312bc13daee714f7f6434abfec7f5bb41\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Wed Feb 10 15",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 18,
+        "binByteCount": 0,
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "9",
+    "deletions(-)\n": "9"
+  },
+  {
+    "commit": "5889ad77a33fb9f5b289118be0f4d60f7fcbe9e4\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Wed Feb 10 15",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 35,
+        "binByteCount": 0,
+        "inserts": 16,
+        "deletes": 19,
+        "occurrences": 4
+      }
+    },
+    "files": "4",
+    "insertions(+)": "16",
+    "deletions(-)\n": "19"
+  },
+  {
+    "commit": "3a9530b92d647fd8f8196105301a610cd43ce753\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Wed Feb 10 15",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 194,
+        "binByteCount": 0,
+        "inserts": 106,
+        "deletes": 18,
+        "occurrences": 4
+      }
+    },
+    "files": "4",
+    "insertions(+)": "166",
+    "deletions(-)\n": "28"
+  },
+  {
+    "commit": "e89452c0b0ac82ec4556e8b12eb3b5f41bc6540d\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Tue Feb 9 15",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 37,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 27,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 154,
+        "binByteCount": 0,
+        "inserts": 73,
+        "deletes": 39,
+        "occurrences": 5
+      }
+    },
+    "files": "7",
+    "insertions(+)": "102",
+    "deletions(-)\n": "90"
+  },
+  {
+    "commit": "7ae745c3c3af732efbf9abf61311a469013909d8\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Tue Feb 9 14",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 166,
+        "binByteCount": 0,
+        "inserts": 32,
+        "deletes": 23,
+        "occurrences": 5
+      }
+    },
+    "files": "7",
+    "insertions(+)": "99",
+    "deletions(-)\n": "69"
+  },
+  {
+    "commit": "e2183b4180b42db0bf6023cfbb6f19f128a347a4\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Tue Feb 9 13",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 258,
+        "binByteCount": 0,
+        "inserts": 68,
+        "deletes": 33,
+        "occurrences": 5
+      }
+    },
+    "files": "5",
+    "insertions(+)": "177",
+    "deletions(-)\n": "81"
+  },
+  {
+    "commit": "f359dc50902622603aa0eddbd4c907b4322f9ad0\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Feb 8 17",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 141,
+        "binByteCount": 0,
+        "inserts": 35,
+        "deletes": 25,
+        "occurrences": 3
+      }
+    },
+    "files": "3",
+    "insertions(+)": "82",
+    "deletions(-)\n": "59"
+  },
+  {
+    "commit": "0e7f22b6e0b12981302743f2f6244a6f4932c2a4\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Thu Jan 28 11",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 39,
+        "binByteCount": 0,
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sh": {
+        "textLineCount": 7,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 209,
+        "binByteCount": 0,
+        "inserts": 107,
+        "deletes": 54,
+        "occurrences": 6
+      }
+    },
+    "files": "11",
+    "insertions(+)": "187",
+    "deletions(-)\n": "70"
+  },
+  {
+    "commit": "88b6f5f3fef5ddc1dc3530645be218b3f4ca6ec2\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Wed Jan 27 14",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "29f15f2b4e404816ea805b610c7ad3432127fdad\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Wed Jan 27 12",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 22,
+        "binByteCount": 0,
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 46,
+        "binByteCount": 0,
+        "inserts": 42,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "files": "5",
+    "insertions(+)": "71",
+    "deletions(-)\n": "4"
+  },
+  {
+    "commit": "c9196bc11d523d45cada263da5fab7eeb1c88eff\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Jan 25 15",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "4",
+    "deletions(-)\n": "4"
+  },
+  {
+    "commit": "802e294ba194ef2cc24454998bd199fb29c5b6cc\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Jan 25 15",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 42,
+        "binByteCount": 0,
+        "inserts": 31,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 52,
+        "binByteCount": 0,
+        "inserts": 36,
+        "deletes": 16,
+        "occurrences": 3
+      }
+    },
+    "files": "5",
+    "insertions(+)": "68",
+    "deletions(-)\n": "28"
+  },
+  {
+    "commit": "b821984e78c655a99cc0eab76508570e9179cc1f\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Thu Jan 21 20",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 33,
+        "binByteCount": 0,
+        "inserts": 25,
+        "deletes": 8,
+        "occurrences": 4
+      }
+    },
+    "files": "4",
+    "insertions(+)": "25",
+    "deletions(-)\n": "8"
+  },
+  {
+    "commit": "467391a8f1721af4b796aeb212ea768cad9a3223\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Thu Jan 21 20",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 84,
+        "binByteCount": 0,
+        "inserts": 54,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "toml": {
+        "textLineCount": 18,
+        "binByteCount": 0,
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "rs": {
+        "textLineCount": 90,
+        "binByteCount": 0,
+        "inserts": 51,
+        "deletes": 7,
+        "occurrences": 3
+      }
+    },
+    "files": "9",
+    "insertions(+)": "181",
+    "deletions(-)\n": "11"
+  },
+  {
+    "commit": "afab376cccb109c85fbabd839ad607905c24662d\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Wed Jan 20 17",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 85,
+        "binByteCount": 0,
+        "inserts": 58,
+        "deletes": 21,
+        "occurrences": 5
+      }
+    },
+    "files": "5",
+    "insertions(+)": "63",
+    "deletions(-)\n": "22"
+  },
+  {
+    "commit": "3249aa376cc079f3f7caedd7f27933e1e6416f75\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Wed Jan 20 16",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 25,
+        "binByteCount": 0,
+        "inserts": 13,
+        "deletes": 12,
+        "occurrences": 8
+      }
+    },
+    "files": "8",
+    "insertions(+)": "13",
+    "deletions(-)\n": "12"
+  },
+  {
+    "commit": "0b1b0a82a7ecc7bf840d727dcb5a593b151f5591\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Wed Jan 20 00",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 84,
+        "binByteCount": 0,
+        "inserts": 60,
+        "deletes": 4,
+        "occurrences": 5
+      }
+    },
+    "files": "7",
+    "insertions(+)": "108",
+    "deletions(-)\n": "5"
+  },
+  {
+    "commit": "d3a03248b252bba21365dd6a19b7b83249e7f6c8\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Tue Jan 19 21",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 146,
+        "binByteCount": 0,
+        "inserts": 90,
+        "deletes": 50,
+        "occurrences": 11
+      }
+    },
+    "files": "11",
+    "insertions(+)": "94",
+    "deletions(-)\n": "52"
+  },
+  {
+    "commit": "a4de8f25a96f2bfe1f8da52ea4f9d27565838b65\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Tue Jan 19 18",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 1431,
+        "binByteCount": 0,
+        "inserts": 46,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "toml": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 174,
+        "binByteCount": 0,
+        "inserts": 12,
+        "deletes": 9,
+        "occurrences": 10
+      }
+    },
+    "files": "14",
+    "insertions(+)": "1556",
+    "deletions(-)\n": "54"
+  },
+  {
+    "commit": "37de2ff3364e6dbaefe1181f4fbad8990492edbf\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Tue Jan 19 17",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 68,
+        "binByteCount": 0,
+        "inserts": 36,
+        "deletes": 32,
+        "occurrences": 10
+      }
+    },
+    "files": "12",
+    "insertions(+)": "38",
+    "deletions(-)\n": "32"
+  },
+  {
+    "commit": "dd761dd61c454d7ceb74d3634d14a540eafb681e\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Tue Jan 19 17",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 36,
+        "binByteCount": 0,
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 51,
+        "binByteCount": 0,
+        "inserts": 40,
+        "deletes": 11,
+        "occurrences": 8
+      }
+    },
+    "files": "12",
+    "insertions(+)": "97",
+    "deletions(-)\n": "11"
+  },
+  {
+    "commit": "e8c109df992228a2116fdafd611f14a9d3f7a521\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Jan 18 20",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 46,
+        "binByteCount": 0,
+        "inserts": 29,
+        "deletes": 17,
+        "occurrences": 3
+      }
+    },
+    "files": "3",
+    "insertions(+)": "29",
+    "deletions(-)\n": "17"
+  },
+  {
+    "commit": "256cf964366959e4c93f412673bb1f7c825c9865\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Jan 18 20",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 15,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    },
+    "files": "3",
+    "insertions(+)": "6",
+    "deletions(-)\n": "9"
+  },
+  {
+    "commit": "a0261bc3314c1e55e78c3512083a465c8337b083\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Jan 18 20",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 152,
+        "binByteCount": 0,
+        "inserts": 90,
+        "deletes": 45,
+        "occurrences": 8
+      }
+    },
+    "files": "11",
+    "insertions(+)": "108",
+    "deletions(-)\n": "52"
+  },
+  {
+    "commit": "9e74777fe56560978c7366016cf3863365ac232b\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Jan 18 18",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 61,
+        "binByteCount": 0,
+        "inserts": 38,
+        "deletes": 23,
+        "occurrences": 3
+      }
+    },
+    "files": "3",
+    "insertions(+)": "38",
+    "deletions(-)\n": "23"
+  },
+  {
+    "commit": "2ec1114ec2891e4a97b2210a395fec01e819316e\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Jan 18 04",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 56,
+        "binByteCount": 0,
+        "inserts": 30,
+        "deletes": 26,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "30",
+    "deletions(-)\n": "26"
+  },
+  {
+    "commit": "a294c42dec14291aca5869cd1afeeb7deae72569\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Mon Jan 18 03",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 1593,
+        "binByteCount": 0,
+        "inserts": 44,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 15,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 209,
+        "binByteCount": 0,
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 6
+      }
+    },
+    "files": "8",
+    "insertions(+)": "1754",
+    "deletions(-)\n": "63"
+  },
+  {
+    "commit": "f2afc13ea29569a8fe34e6d598f1f43f750ea961\n",
+    "Author": " DieMyst <dmitry.shakhtarin@fluence.ai>\n",
+    "Date": "   Fri Jan 15 19",
+    "fileTypes": {
+      "lock": {
+        "textLineCount": 1533,
+        "binByteCount": 0,
+        "inserts": 44,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 2083,
+        "binByteCount": 0,
+        "inserts": 63,
+        "deletes": 0,
+        "occurrences": 10
+      }
+    },
+    "files": "12",
+    "insertions(+)\n": "3637"
+  }
+]

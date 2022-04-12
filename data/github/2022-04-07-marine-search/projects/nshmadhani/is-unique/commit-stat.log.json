@@ -1,1 +1,309 @@
-[{"commit": "cb10307912cecceef68c19f62c4dedf926999b20\n", "Author": " Nishay Madhani <madhani.n@northeastern.edu>\n", "Date": "   Thu Feb 10 13", "md": {"textLineCount": 149, "binByteCount": 0, "inserts": 6, "deletes": 53, "occurrences": 1}, "json": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "2", "insertions(+)": "16", "deletions(-)\n": "135"}, {"commit": "0548b44ba1a6a2c4fbb2c0263a8b335d097a88f8\n", "Author": " Nishay Madhani <madhani.n@northeastern.edu>\n", "Date": "   Thu Feb 10 13", "aqua": {"textLineCount": 8, "binByteCount": 0, "inserts": 4, "deletes": 4, "occurrences": 2}, "wasm": {"textLineCount": 0, "binByteCount": 4, "inserts": 0, "deletes": 0, "occurrences": 1}, "json}": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "json": {"textLineCount": 31, "binByteCount": 0, "inserts": 16, "deletes": 15, "occurrences": 2}, "rs": {"textLineCount": 8, "binByteCount": 0, "inserts": 4, "deletes": 4, "occurrences": 2}, "js": {"textLineCount": 20, "binByteCount": 0, "inserts": 12, "deletes": 8, "occurrences": 2}, "files": "10", "insertions(+)": "37", "deletions(-)\n": "32"}, {"commit": "a91521059eeac8bfaa6b81a0333413b0015c8863\n", "Author": " Nishay Madhani <madhani.n@northeastern.edu>\n", "Date": "   Wed Feb 9 23", "gitignore": {"textLineCount": 10, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "null": {"textLineCount": 21, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "md": {"textLineCount": 153, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "aqua": {"textLineCount": 48, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 3}, "json": {"textLineCount": 51874, "binByteCount": 0, "inserts": 29, "deletes": 12, "occurrences": 5}, "ico": {"textLineCount": 0, "binByteCount": 11536, "inserts": 0, "deletes": 0, "occurrences": 1}, "html": {"textLineCount": 43, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "png": {"textLineCount": 0, "binByteCount": 4475, "inserts": 0, "deletes": 0, "occurrences": 2}, "wasm": {"textLineCount": 0, "binByteCount": 198316, "inserts": 0, "deletes": 0, "occurrences": 2}, "lock": {"textLineCount": 550, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "toml": {"textLineCount": 30, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "rs": {"textLineCount": 111, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "css": {"textLineCount": 54, "binByteCount": 0, "inserts": 1, "deletes": 2, "occurrences": 2}, "js": {"textLineCount": 342, "binByteCount": 0, "inserts": 5, "deletes": 6, "occurrences": 11}, "scss": {"textLineCount": 63, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "tsx": {"textLineCount": 40, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "svg": {"textLineCount": 1, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "ts": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "files": "41", "insertions(+)": "36976", "deletions(-)\n": "16365"}, {"commit": "c8fdf56b928653fe1563857b5f12ff5975ad99c4\n", "Author": " Nishay Madhani <madhani.n@northeastern.edu>\n", "Date": "   Wed Feb 9 14", "gitignore": {"textLineCount": 23, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "md": {"textLineCount": 70, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 27466, "binByteCount": 0, "inserts": 49, "deletes": 0, "occurrences": 3}, "ico": {"textLineCount": 0, "binByteCount": 3870, "inserts": 0, "deletes": 0, "occurrences": 1}, "html": {"textLineCount": 43, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "png": {"textLineCount": 0, "binByteCount": 15011, "inserts": 0, "deletes": 0, "occurrences": 2}, "txt": {"textLineCount": 3, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "css": {"textLineCount": 41, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "js": {"textLineCount": 63, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 6}, "svg": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "files": "19", "insertions(+)\n": "27710"}, {"commit": "207dc55a69cafaa16df1d9185f465bd87298519e\n", "Author": " Nishay Madhani <nshmadhani@gmail.com>\n", "Date": "   Wed Feb 9 14", "null": {"textLineCount": 21, "binByteCount": 0, "inserts": 21, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)\n": "21"}]
+[
+  {
+    "commit": "cb10307912cecceef68c19f62c4dedf926999b20\n",
+    "Author": " Nishay Madhani <madhani.n@northeastern.edu>\n",
+    "Date": "   Thu Feb 10 13",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 149,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 53,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "16",
+    "deletions(-)\n": "135"
+  },
+  {
+    "commit": "0548b44ba1a6a2c4fbb2c0263a8b335d097a88f8\n",
+    "Author": " Nishay Madhani <madhani.n@northeastern.edu>\n",
+    "Date": "   Thu Feb 10 13",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 4,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json}": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 31,
+        "binByteCount": 0,
+        "inserts": 16,
+        "deletes": 15,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "js": {
+        "textLineCount": 20,
+        "binByteCount": 0,
+        "inserts": 12,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    },
+    "files": "10",
+    "insertions(+)": "37",
+    "deletions(-)\n": "32"
+  },
+  {
+    "commit": "a91521059eeac8bfaa6b81a0333413b0015c8863\n",
+    "Author": " Nishay Madhani <madhani.n@northeastern.edu>\n",
+    "Date": "   Wed Feb 9 23",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "null": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 153,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 48,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "json": {
+        "textLineCount": 51874,
+        "binByteCount": 0,
+        "inserts": 29,
+        "deletes": 12,
+        "occurrences": 5
+      },
+      "ico": {
+        "textLineCount": 0,
+        "binByteCount": 11536,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "textLineCount": 43,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 4475,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 198316,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "lock": {
+        "textLineCount": 550,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 30,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 111,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "css": {
+        "textLineCount": 54,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "js": {
+        "textLineCount": 342,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 11
+      },
+      "scss": {
+        "textLineCount": 63,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "textLineCount": 40,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "svg": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "41",
+    "insertions(+)": "36976",
+    "deletions(-)\n": "16365"
+  },
+  {
+    "commit": "c8fdf56b928653fe1563857b5f12ff5975ad99c4\n",
+    "Author": " Nishay Madhani <madhani.n@northeastern.edu>\n",
+    "Date": "   Wed Feb 9 14",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 23,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 70,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 27466,
+        "binByteCount": 0,
+        "inserts": 49,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "ico": {
+        "textLineCount": 0,
+        "binByteCount": 3870,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "textLineCount": 43,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 15011,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "txt": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "textLineCount": 41,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "textLineCount": 63,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "svg": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "19",
+    "insertions(+)\n": "27710"
+  },
+  {
+    "commit": "207dc55a69cafaa16df1d9185f465bd87298519e\n",
+    "Author": " Nishay Madhani <nshmadhani@gmail.com>\n",
+    "Date": "   Wed Feb 9 14",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)\n": "21"
+  }
+]

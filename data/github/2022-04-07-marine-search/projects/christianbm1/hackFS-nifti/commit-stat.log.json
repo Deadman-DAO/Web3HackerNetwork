@@ -1,1 +1,963 @@
-[{"commit": "282a989aa3c078189b5902d1dc26d82cfb41787b\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Wed Aug 25 09", "js": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "json": {"textLineCount": 67, "binByteCount": 0, "inserts": 18, "deletes": 12, "occurrences": 1}, "files": "2", "insertions(+)": "41", "deletions(-)\n": "30"}, {"commit": "5ccd7c3610e6f61d66779935c8f26b0475558ad5\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Wed Aug 25 02", "sol": {"textLineCount": 7, "binByteCount": 0, "inserts": 4, "deletes": 3, "occurrences": 1}, "js": {"textLineCount": 39, "binByteCount": 0, "inserts": 37, "deletes": 2, "occurrences": 3}, "files": "4", "insertions(+)": "41", "deletions(-)\n": "5"}, {"commit": "e19efe724f7e0a1054a62a7c3b064882e6048365\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Wed Aug 25 00", "null": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "sol}": {"textLineCount": 28, "binByteCount": 0, "inserts": 5, "deletes": 6, "occurrences": 1}, "sol": {"textLineCount": 85, "binByteCount": 0, "inserts": 33, "deletes": 0, "occurrences": 1}, "js": {"textLineCount": 51, "binByteCount": 0, "inserts": 16, "deletes": 4, "occurrences": 1}, "files": "4", "insertions(+)": "139", "deletions(-)\n": "26"}, {"commit": "4aa9aa03fd72e6a5fc5450b37174414e842fa0e1\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 22 01", "sol": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "file": "1", "insertion(+)\n": "1"}, {"commit": "9bb88c7acb2095962389a4b18f6cbe9fcbb59675\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 22 01", "null": {"textLineCount": 243, "binByteCount": -26230392, "inserts": 0, "deletes": 190, "occurrences": 326}, "TAG": {"textLineCount": 6, "binByteCount": 0, "inserts": 0, "deletes": 4, "occurrences": 2}, "timestamp": {"textLineCount": 112, "binByteCount": 0, "inserts": 0, "deletes": 112, "occurrences": 112}, "json": {"textLineCount": 112, "binByteCount": 0, "inserts": 0, "deletes": 112, "occurrences": 112}, "o": {"textLineCount": 0, "binByteCount": -16987768, "inserts": 0, "deletes": 0, "occurrences": 252}, "d": {"textLineCount": 1059, "binByteCount": 0, "inserts": 0, "deletes": 423, "occurrences": 89}, "ll": {"textLineCount": 162, "binByteCount": 0, "inserts": 0, "deletes": 60, "occurrences": 10}, "rlib": {"textLineCount": 0, "binByteCount": -91053394, "inserts": 0, "deletes": 0, "occurrences": 53}, "rmeta": {"textLineCount": 0, "binByteCount": -47607300, "inserts": 0, "deletes": 0, "occurrences": 53}, "dylib": {"textLineCount": 0, "binByteCount": -67516240, "inserts": 0, "deletes": 0, "occurrences": 10}, "bin": {"textLineCount": 0, "binByteCount": -1689415, "inserts": 0, "deletes": 0, "occurrences": 3}, "lock": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "wasm": {"textLineCount": 0, "binByteCount": -241082, "inserts": 0, "deletes": 0, "occurrences": 2}, "files": "1025", "deletions(-)\n": "1694"}, {"commit": "7f73326ef8c628cb4c02d6d09d3a3afff063b541\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 22 01", "null": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "file": "1", "insertion(+)\n": "1"}, {"commit": "4e90f625acb37738b418adb2a4ccdb1aa3ebd997\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 22 01", "js": {"textLineCount": 14, "binByteCount": 0, "inserts": 3, "deletes": 3, "occurrences": 3}, "null": {"textLineCount": 243, "binByteCount": 26230392, "inserts": 163, "deletes": 0, "occurrences": 326}, "TAG": {"textLineCount": 6, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "timestamp": {"textLineCount": 112, "binByteCount": 0, "inserts": 112, "deletes": 0, "occurrences": 112}, "json": {"textLineCount": 25341, "binByteCount": 0, "inserts": 130, "deletes": 1, "occurrences": 113}, "o": {"textLineCount": 0, "binByteCount": 16987768, "inserts": 0, "deletes": 0, "occurrences": 252}, "d": {"textLineCount": 1059, "binByteCount": 0, "inserts": 89, "deletes": 0, "occurrences": 89}, "ll": {"textLineCount": 162, "binByteCount": 0, "inserts": 10, "deletes": 0, "occurrences": 10}, "rlib": {"textLineCount": 0, "binByteCount": 91053394, "inserts": 0, "deletes": 0, "occurrences": 53}, "rmeta": {"textLineCount": 0, "binByteCount": 47607300, "inserts": 0, "deletes": 0, "occurrences": 53}, "dylib": {"textLineCount": 0, "binByteCount": 67516240, "inserts": 0, "deletes": 0, "occurrences": 10}, "bin": {"textLineCount": 0, "binByteCount": 1689415, "inserts": 0, "deletes": 0, "occurrences": 3}, "lock": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "wasm": {"textLineCount": 0, "binByteCount": 241082, "inserts": 0, "deletes": 0, "occurrences": 2}, "sol": {"textLineCount": 47, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "1030", "insertions(+)": "26566", "deletions(-)\n": "418"}, {"commit": "fa73e0c1b2d22970b1c54ec26f76231dba4f8fb9\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Fri Aug 20 10", "null": {"textLineCount": 2, "binByteCount": -2048, "inserts": 2, "deletes": 0, "occurrences": 2}, "js": {"textLineCount": 82, "binByteCount": 0, "inserts": 21, "deletes": 27, "occurrences": 6}, "json": {"textLineCount": 16, "binByteCount": 0, "inserts": 4, "deletes": 5, "occurrences": 1}, "lock": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 2, "occurrences": 1}, "toml": {"textLineCount": 14, "binByteCount": 0, "inserts": 4, "deletes": 4, "occurrences": 1}, "aqua": {"textLineCount": 24, "binByteCount": 0, "inserts": 11, "deletes": 3, "occurrences": 1}, "rs": {"textLineCount": 38, "binByteCount": 0, "inserts": 13, "deletes": 9, "occurrences": 1}, "files": "13", "insertions(+)": "95", "deletions(-)\n": "85"}, {"commit": "8e5e5e97dacba90323dc13bae632b38d5ebb15d5\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Tue Aug 17 01", "js": {"textLineCount": 325, "binByteCount": 0, "inserts": 8, "deletes": 6, "occurrences": 4}, "json": {"textLineCount": 731, "binByteCount": 0, "inserts": 23, "deletes": 1, "occurrences": 3}, "css": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "8", "insertions(+)": "952", "deletions(-)\n": "106"}, {"commit": "3892e27db2c26cebae72b12d5cfd72bd8cbf9457\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Mon Aug 16 07", "json": {"textLineCount": 28287, "binByteCount": 0, "inserts": 1, "deletes": 38, "occurrences": 1}, "js": {"textLineCount": 7, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 2}, "files": "3", "insertions(+)": "52", "deletions(-)\n": "28242"}, {"commit": "5896368fa2f9e7bafad18698e1ede08a3f8060ee\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 18", "js": {"textLineCount": 35, "binByteCount": 0, "inserts": 13, "deletes": 12, "occurrences": 1}, "file": "1", "insertions(+)": "18", "deletions(-)\n": "17"}, {"commit": "b3abf4b6d47afce42a8950b406c540ccbba2a396\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 17", "js": {"textLineCount": 1, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "file": "1", "deletion(-)\n": "1"}, {"commit": "b281f6d8865b3c83183e397dfa49b64b60431897\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 17", "js": {"textLineCount": 61, "binByteCount": 0, "inserts": 25, "deletes": 10, "occurrences": 3}, "files": "3", "insertions(+)": "43", "deletions(-)\n": "18"}, {"commit": "832e43991e8f935d14a9c10349355fcb1f251053\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 16", "js": {"textLineCount": 16, "binByteCount": 0, "inserts": 16, "deletes": 0, "occurrences": 1}, "sol": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "2", "insertions(+)": "17", "deletion(-)\n": "1"}, {"commit": "f1a2347fc05052181f437342a91d7f779b67630d\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 16", "js": {"textLineCount": 4, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 1}, "file": "1", "insertions(+)": "2", "deletions(-)\n": "2"}, {"commit": "66cff8bd462faa223188286a2bffcb57ec4d9b6d\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 16", "json": {"textLineCount": 706, "binByteCount": 0, "inserts": 29, "deletes": 17, "occurrences": 2}, "files": "2", "insertions(+)": "445", "deletions(-)\n": "261"}, {"commit": "060a09957a719839bc1ba704ca9c121093a28d33\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 16", "sol": {"textLineCount": 6, "binByteCount": 0, "inserts": 4, "deletes": 2, "occurrences": 1}, "js": {"textLineCount": 70, "binByteCount": 0, "inserts": 51, "deletes": 19, "occurrences": 3}, "files": "4", "insertions(+)": "55", "deletions(-)\n": "21"}, {"commit": "b9f15eed7d5455f499c8bfb8df3a9faa3c35c1df\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 14", "js": {"textLineCount": 195, "binByteCount": 0, "inserts": 4, "deletes": 5, "occurrences": 5}, "json": {"textLineCount": 5948, "binByteCount": 0, "inserts": 32, "deletes": 4, "occurrences": 4}, "css": {"textLineCount": 21, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 2}, "files": "11", "insertions(+)": "6058", "deletions(-)\n": "106"}, {"commit": "f201463033f162ae0910c8ee0806ddbcb3907ec4\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 06", "null": {"textLineCount": 34, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 1710, "binByteCount": 0, "inserts": 20, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 41, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "js": {"textLineCount": 104, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "aqua": {"textLineCount": 205, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 2}, "json": {"textLineCount": 5, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "sh": {"textLineCount": 7, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 173, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "files": "10", "insertions(+)\n": "2279"}, {"commit": "ed972d32d8e5b68a3e230080cfc6342ef003420c\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 06", "aqua": {"textLineCount": 263, "binByteCount": 0, "inserts": 0, "deletes": 5, "occurrences": 4}, "air": {"textLineCount": 190, "binByteCount": 0, "inserts": 0, "deletes": 4, "occurrences": 4}, "js": {"textLineCount": 152, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 4890, "binByteCount": 0, "inserts": 37, "deletes": 0, "occurrences": 5}, "files": "14", "insertions(+)": "5042", "deletions(-)\n": "453"}, {"commit": "ad445409e7f45b72bea058198f78a7d5b6bcef73\n", "Author": " Christian Martinez <christianbm1@gmail.com>\n", "Date": "   Sun Aug 15 05", "json": {"textLineCount": 30244, "binByteCount": 0, "inserts": 21, "deletes": 1, "occurrences": 2}, "js": {"textLineCount": 256, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 3}, "files": "5", "insertions(+)": "30111", "deletions(-)\n": "389"}, {"commit": "71583e7f51e849f94e8db5699f333d238448e904\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Thu Aug 12 03", "json": {"textLineCount": 28124, "binByteCount": 0, "inserts": 3, "deletes": 21, "occurrences": 2}, "png": {"textLineCount": 0, "binByteCount": 16965, "inserts": 0, "deletes": 0, "occurrences": 1}, "css": {"textLineCount": 248, "binByteCount": 0, "inserts": 4, "deletes": 3, "occurrences": 4}, "js": {"textLineCount": 128, "binByteCount": 0, "inserts": 5, "deletes": 5, "occurrences": 5}, "lock": {"textLineCount": 13490, "binByteCount": 0, "inserts": 0, "deletes": 11, "occurrences": 1}, "files": "13", "insertions(+)": "2423", "deletions(-)\n": "39567"}, {"commit": "334420c494fa853f28ac57167bae3b95cec78317\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Wed Aug 11 21", "aqua": {"textLineCount": 263, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 4}, "air": {"textLineCount": 190, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 4}, "json": {"textLineCount": 43438, "binByteCount": 0, "inserts": 26, "deletes": 0, "occurrences": 8}, "null": {"textLineCount": 23, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "md": {"textLineCount": 70, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "ico": {"textLineCount": 0, "binByteCount": 3870, "inserts": 0, "deletes": 0, "occurrences": 1}, "html": {"textLineCount": 44, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "png": {"textLineCount": 0, "binByteCount": 15011, "inserts": 0, "deletes": 0, "occurrences": 2}, "txt": {"textLineCount": 3, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "css": {"textLineCount": 781, "binByteCount": 0, "inserts": 9, "deletes": 0, "occurrences": 9}, "js": {"textLineCount": 775, "binByteCount": 0, "inserts": 17, "deletes": 1, "occurrences": 17}, "svg": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 13490, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 1}, "sol": {"textLineCount": 70, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "52", "insertions(+)": "59107", "deletions(-)\n": "41"}, {"commit": "86103f39ee66a754f76981f97218668f09b97e19\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Mon Aug 2 21", "gitignore": {"textLineCount": 6, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "sol": {"textLineCount": 61, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "js": {"textLineCount": 126, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "json": {"textLineCount": 19886, "binByteCount": 0, "inserts": 53, "deletes": 0, "occurrences": 2}, "files": "6", "insertions(+)\n": "20079"}, {"commit": "ec1fcc6f44addd679712c2e66db8e374ed79fd26\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Mon Aug 2 20", "txt": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)": "0", "deletions(-)\n": "0"}, {"commit": "bc74c28bfc358b89080e78f17e42a7f0036ddda2\n", "Author": " Christian <christianbm1@gmail.com>\n", "Date": "   Mon Aug 2 20", "txt": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)": "0", "deletions(-)\n": "0"}]
+[
+  {
+    "commit": "282a989aa3c078189b5902d1dc26d82cfb41787b\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Wed Aug 25 09",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 67,
+        "binByteCount": 0,
+        "inserts": 18,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "41",
+    "deletions(-)\n": "30"
+  },
+  {
+    "commit": "5ccd7c3610e6f61d66779935c8f26b0475558ad5\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Wed Aug 25 02",
+    "fileTypes": {
+      "sol": {
+        "textLineCount": 7,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "js": {
+        "textLineCount": 39,
+        "binByteCount": 0,
+        "inserts": 37,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    },
+    "files": "4",
+    "insertions(+)": "41",
+    "deletions(-)\n": "5"
+  },
+  {
+    "commit": "e19efe724f7e0a1054a62a7c3b064882e6048365\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Wed Aug 25 00",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sol}": {
+        "textLineCount": 28,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "sol": {
+        "textLineCount": 85,
+        "binByteCount": 0,
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "textLineCount": 51,
+        "binByteCount": 0,
+        "inserts": 16,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "files": "4",
+    "insertions(+)": "139",
+    "deletions(-)\n": "26"
+  },
+  {
+    "commit": "4aa9aa03fd72e6a5fc5450b37174414e842fa0e1\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 22 01",
+    "fileTypes": {
+      "sol": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)\n": "1"
+  },
+  {
+    "commit": "9bb88c7acb2095962389a4b18f6cbe9fcbb59675\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 22 01",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 243,
+        "binByteCount": -26230392,
+        "inserts": 0,
+        "deletes": 190,
+        "occurrences": 326
+      },
+      "TAG": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "timestamp": {
+        "textLineCount": 112,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 112,
+        "occurrences": 112
+      },
+      "json": {
+        "textLineCount": 112,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 112,
+        "occurrences": 112
+      },
+      "o": {
+        "textLineCount": 0,
+        "binByteCount": -16987768,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 252
+      },
+      "d": {
+        "textLineCount": 1059,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 423,
+        "occurrences": 89
+      },
+      "ll": {
+        "textLineCount": 162,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 60,
+        "occurrences": 10
+      },
+      "rlib": {
+        "textLineCount": 0,
+        "binByteCount": -91053394,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 53
+      },
+      "rmeta": {
+        "textLineCount": 0,
+        "binByteCount": -47607300,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 53
+      },
+      "dylib": {
+        "textLineCount": 0,
+        "binByteCount": -67516240,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "bin": {
+        "textLineCount": 0,
+        "binByteCount": -1689415,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "lock": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": -241082,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "files": "1025",
+    "deletions(-)\n": "1694"
+  },
+  {
+    "commit": "7f73326ef8c628cb4c02d6d09d3a3afff063b541\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 22 01",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)\n": "1"
+  },
+  {
+    "commit": "4e90f625acb37738b418adb2a4ccdb1aa3ebd997\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 22 01",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 14,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "null": {
+        "textLineCount": 243,
+        "binByteCount": 26230392,
+        "inserts": 163,
+        "deletes": 0,
+        "occurrences": 326
+      },
+      "TAG": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "timestamp": {
+        "textLineCount": 112,
+        "binByteCount": 0,
+        "inserts": 112,
+        "deletes": 0,
+        "occurrences": 112
+      },
+      "json": {
+        "textLineCount": 25341,
+        "binByteCount": 0,
+        "inserts": 130,
+        "deletes": 1,
+        "occurrences": 113
+      },
+      "o": {
+        "textLineCount": 0,
+        "binByteCount": 16987768,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 252
+      },
+      "d": {
+        "textLineCount": 1059,
+        "binByteCount": 0,
+        "inserts": 89,
+        "deletes": 0,
+        "occurrences": 89
+      },
+      "ll": {
+        "textLineCount": 162,
+        "binByteCount": 0,
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "rlib": {
+        "textLineCount": 0,
+        "binByteCount": 91053394,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 53
+      },
+      "rmeta": {
+        "textLineCount": 0,
+        "binByteCount": 47607300,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 53
+      },
+      "dylib": {
+        "textLineCount": 0,
+        "binByteCount": 67516240,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "bin": {
+        "textLineCount": 0,
+        "binByteCount": 1689415,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "lock": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 241082,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sol": {
+        "textLineCount": 47,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "1030",
+    "insertions(+)": "26566",
+    "deletions(-)\n": "418"
+  },
+  {
+    "commit": "fa73e0c1b2d22970b1c54ec26f76231dba4f8fb9\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Fri Aug 20 10",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 2,
+        "binByteCount": -2048,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "textLineCount": 82,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 27,
+        "occurrences": 6
+      },
+      "json": {
+        "textLineCount": 16,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 14,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 24,
+        "binByteCount": 0,
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 38,
+        "binByteCount": 0,
+        "inserts": 13,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "files": "13",
+    "insertions(+)": "95",
+    "deletions(-)\n": "85"
+  },
+  {
+    "commit": "8e5e5e97dacba90323dc13bae632b38d5ebb15d5\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Tue Aug 17 01",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 325,
+        "binByteCount": 0,
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 4
+      },
+      "json": {
+        "textLineCount": 731,
+        "binByteCount": 0,
+        "inserts": 23,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "css": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "8",
+    "insertions(+)": "952",
+    "deletions(-)\n": "106"
+  },
+  {
+    "commit": "3892e27db2c26cebae72b12d5cfd72bd8cbf9457\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Mon Aug 16 07",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 28287,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 38,
+        "occurrences": 1
+      },
+      "js": {
+        "textLineCount": 7,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "files": "3",
+    "insertions(+)": "52",
+    "deletions(-)\n": "28242"
+  },
+  {
+    "commit": "5896368fa2f9e7bafad18698e1ede08a3f8060ee\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 18",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 35,
+        "binByteCount": 0,
+        "inserts": 13,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "18",
+    "deletions(-)\n": "17"
+  },
+  {
+    "commit": "b3abf4b6d47afce42a8950b406c540ccbba2a396\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 17",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "b281f6d8865b3c83183e397dfa49b64b60431897\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 17",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 61,
+        "binByteCount": 0,
+        "inserts": 25,
+        "deletes": 10,
+        "occurrences": 3
+      }
+    },
+    "files": "3",
+    "insertions(+)": "43",
+    "deletions(-)\n": "18"
+  },
+  {
+    "commit": "832e43991e8f935d14a9c10349355fcb1f251053\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 16",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 16,
+        "binByteCount": 0,
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sol": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "17",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "f1a2347fc05052181f437342a91d7f779b67630d\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 16",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "2",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "66cff8bd462faa223188286a2bffcb57ec4d9b6d\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 16",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 706,
+        "binByteCount": 0,
+        "inserts": 29,
+        "deletes": 17,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "445",
+    "deletions(-)\n": "261"
+  },
+  {
+    "commit": "060a09957a719839bc1ba704ca9c121093a28d33\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 16",
+    "fileTypes": {
+      "sol": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "js": {
+        "textLineCount": 70,
+        "binByteCount": 0,
+        "inserts": 51,
+        "deletes": 19,
+        "occurrences": 3
+      }
+    },
+    "files": "4",
+    "insertions(+)": "55",
+    "deletions(-)\n": "21"
+  },
+  {
+    "commit": "b9f15eed7d5455f499c8bfb8df3a9faa3c35c1df\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 14",
+    "fileTypes": {
+      "js": {
+        "textLineCount": 195,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "json": {
+        "textLineCount": 5948,
+        "binByteCount": 0,
+        "inserts": 32,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "css": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "files": "11",
+    "insertions(+)": "6058",
+    "deletions(-)\n": "106"
+  },
+  {
+    "commit": "f201463033f162ae0910c8ee0806ddbcb3907ec4\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 06",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 34,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 1710,
+        "binByteCount": 0,
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 41,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "textLineCount": 104,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 205,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "textLineCount": 7,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 173,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "10",
+    "insertions(+)\n": "2279"
+  },
+  {
+    "commit": "ed972d32d8e5b68a3e230080cfc6342ef003420c\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 06",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 263,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "air": {
+        "textLineCount": 190,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "js": {
+        "textLineCount": 152,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 4890,
+        "binByteCount": 0,
+        "inserts": 37,
+        "deletes": 0,
+        "occurrences": 5
+      }
+    },
+    "files": "14",
+    "insertions(+)": "5042",
+    "deletions(-)\n": "453"
+  },
+  {
+    "commit": "ad445409e7f45b72bea058198f78a7d5b6bcef73\n",
+    "Author": " Christian Martinez <christianbm1@gmail.com>\n",
+    "Date": "   Sun Aug 15 05",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 30244,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "js": {
+        "textLineCount": 256,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    },
+    "files": "5",
+    "insertions(+)": "30111",
+    "deletions(-)\n": "389"
+  },
+  {
+    "commit": "71583e7f51e849f94e8db5699f333d238448e904\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Thu Aug 12 03",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 28124,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 21,
+        "occurrences": 2
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 16965,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "textLineCount": 248,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 4
+      },
+      "js": {
+        "textLineCount": 128,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "lock": {
+        "textLineCount": 13490,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "files": "13",
+    "insertions(+)": "2423",
+    "deletions(-)\n": "39567"
+  },
+  {
+    "commit": "334420c494fa853f28ac57167bae3b95cec78317\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Wed Aug 11 21",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 263,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "air": {
+        "textLineCount": 190,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "json": {
+        "textLineCount": 43438,
+        "binByteCount": 0,
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "null": {
+        "textLineCount": 23,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 70,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ico": {
+        "textLineCount": 0,
+        "binByteCount": 3870,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "textLineCount": 44,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 15011,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "txt": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "textLineCount": 781,
+        "binByteCount": 0,
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "js": {
+        "textLineCount": 775,
+        "binByteCount": 0,
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 17
+      },
+      "svg": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 13490,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sol": {
+        "textLineCount": 70,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "52",
+    "insertions(+)": "59107",
+    "deletions(-)\n": "41"
+  },
+  {
+    "commit": "86103f39ee66a754f76981f97218668f09b97e19\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Mon Aug 2 21",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sol": {
+        "textLineCount": 61,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "textLineCount": 126,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "textLineCount": 19886,
+        "binByteCount": 0,
+        "inserts": 53,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "files": "6",
+    "insertions(+)\n": "20079"
+  },
+  {
+    "commit": "ec1fcc6f44addd679712c2e66db8e374ed79fd26\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Mon Aug 2 20",
+    "fileTypes": {
+      "txt": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "0",
+    "deletions(-)\n": "0"
+  },
+  {
+    "commit": "bc74c28bfc358b89080e78f17e42a7f0036ddda2\n",
+    "Author": " Christian <christianbm1@gmail.com>\n",
+    "Date": "   Mon Aug 2 20",
+    "fileTypes": {
+      "txt": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "0",
+    "deletions(-)\n": "0"
+  }
+]

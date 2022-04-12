@@ -1,1 +1,90 @@
-[{"commit": "dd0949954ea6ec350cf55740f2cd2731caef5604\n", "Author": " Andrei Shapel <mail@shapel.me>\n", "Date": "   Wed Mar 9 02", "gitignore": {"textLineCount": 36, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 1644, "binByteCount": 0, "inserts": 29, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 23, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "null": {"textLineCount": 33, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 16, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "yaml": {"textLineCount": 10, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 20, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "sh": {"textLineCount": 52, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "files": "11", "insertions(+)\n": "1834"}, {"commit": "8affb5d609b890f5dcb23a8eaaa97badd3a09f46\n", "Author": " Andrei Shapel <98261554+adshpl@users.noreply.github.com>\n", "Date": "   Wed Mar 9 02", "null": {"textLineCount": 21, "binByteCount": 0, "inserts": 21, "deletes": 0, "occurrences": 1}, "md": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "files": "2", "insertions(+)\n": "22"}]
+[
+  {
+    "commit": "dd0949954ea6ec350cf55740f2cd2731caef5604\n",
+    "Author": " Andrei Shapel <mail@shapel.me>\n",
+    "Date": "   Wed Mar 9 02",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 36,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 1644,
+        "binByteCount": 0,
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 23,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "null": {
+        "textLineCount": 33,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 16,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "yaml": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 20,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "textLineCount": 52,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "files": "11",
+    "insertions(+)\n": "1834"
+  },
+  {
+    "commit": "8affb5d609b890f5dcb23a8eaaa97badd3a09f46\n",
+    "Author": " Andrei Shapel <98261554+adshpl@users.noreply.github.com>\n",
+    "Date": "   Wed Mar 9 02",
+    "fileTypes": {
+      "null": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)\n": "22"
+  }
+]

@@ -1,1 +1,191 @@
-[{"commit": "c2c22ca06b9ec796f402032d1988e871abca50bc\n", "Author": " vms <michail.vms@gmail.com>\n", "Date": "   Sat Feb 5 02", "gypi": {"textLineCount": 347, "binByteCount": 0, "inserts": 22, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 32, "binByteCount": 0, "inserts": 5, "deletes": 3, "occurrences": 6}, "json": {"textLineCount": 21, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 4}, "wasm": {"textLineCount": 0, "binByteCount": 254, "inserts": 0, "deletes": 0, "occurrences": 4}, "sh": {"textLineCount": 63, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 4}, "rs": {"textLineCount": 10, "binByteCount": 0, "inserts": 3, "deletes": 3, "occurrences": 4}, "md": {"textLineCount": 15, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "air": {"textLineCount": 23, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "null": {"textLineCount": 6, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "files": "28", "insertions(+)": "483", "deletions(-)\n": "34"}, {"commit": "6901467d0e3c81cc5a6dc6a926fbc86981e79976\n", "Author": " vms <michail.vms@gmail.com>\n", "Date": "   Sat Feb 5 00", "md": {"textLineCount": 31, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 1}, "sh": {"textLineCount": 35, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 3}, "lock": {"textLineCount": 550, "binByteCount": 0, "inserts": 42, "deletes": 0, "occurrences": 3}, "toml": {"textLineCount": 45, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 5}, "wasm": {"textLineCount": 0, "binByteCount": 218186, "inserts": 0, "deletes": 0, "occurrences": 3}, "rs": {"textLineCount": 227, "binByteCount": 0, "inserts": 18, "deletes": 0, "occurrences": 4}, "files": "19", "insertions(+)\n": "888"}, {"commit": "c6cdb67ec2a80f0a21b707ea3abd2e319a8fa324\n", "Author": " vms <michail.vms@gmail.com>\n", "Date": "   Fri Feb 4 23", "gitignore": {"textLineCount": 10, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 2562, "binByteCount": 0, "inserts": 43, "deletes": 0, "occurrences": 4}, "toml": {"textLineCount": 90, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 6}, "wasm": {"textLineCount": 0, "binByteCount": 364005, "inserts": 0, "deletes": 0, "occurrences": 4}, "sh": {"textLineCount": 35, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "rs": {"textLineCount": 200, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 4}, "null": {"textLineCount": 6, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "files": "22", "insertions(+)\n": "2903"}]
+[
+  {
+    "commit": "c2c22ca06b9ec796f402032d1988e871abca50bc\n",
+    "Author": " vms <michail.vms@gmail.com>\n",
+    "Date": "   Sat Feb 5 02",
+    "fileTypes": {
+      "gypi": {
+        "textLineCount": 347,
+        "binByteCount": 0,
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 32,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 6
+      },
+      "json": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 254,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "sh": {
+        "textLineCount": 63,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 4
+      },
+      "rs": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 4
+      },
+      "md": {
+        "textLineCount": 15,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "air": {
+        "textLineCount": 23,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "null": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "28",
+    "insertions(+)": "483",
+    "deletions(-)\n": "34"
+  },
+  {
+    "commit": "6901467d0e3c81cc5a6dc6a926fbc86981e79976\n",
+    "Author": " vms <michail.vms@gmail.com>\n",
+    "Date": "   Sat Feb 5 00",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 31,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "textLineCount": 35,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "lock": {
+        "textLineCount": 550,
+        "binByteCount": 0,
+        "inserts": 42,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "toml": {
+        "textLineCount": 45,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 218186,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "rs": {
+        "textLineCount": 227,
+        "binByteCount": 0,
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    },
+    "files": "19",
+    "insertions(+)\n": "888"
+  },
+  {
+    "commit": "c6cdb67ec2a80f0a21b707ea3abd2e319a8fa324\n",
+    "Author": " vms <michail.vms@gmail.com>\n",
+    "Date": "   Fri Feb 4 23",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 2562,
+        "binByteCount": 0,
+        "inserts": 43,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "toml": {
+        "textLineCount": 90,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 364005,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "sh": {
+        "textLineCount": 35,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 200,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "null": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "22",
+    "insertions(+)\n": "2903"
+  }
+]

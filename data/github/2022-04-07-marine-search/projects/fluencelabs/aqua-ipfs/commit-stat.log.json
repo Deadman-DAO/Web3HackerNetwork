@@ -1,1 +1,1555 @@
-[{"commit": "b2db80ac96d209f48976c002f042e47909c8ae20\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Mar 31 02", "md": {"textLineCount": 21, "binByteCount": 0, "inserts": 1, "deletes": 20, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletions(-)\n": "20"}, {"commit": "e11a6301e5986ef2d21cb762c7d87464885351de\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Tue Nov 9 17", "yml": {"textLineCount": 12, "binByteCount": 0, "inserts": 6, "deletes": 6, "occurrences": 1}, "file": "1", "insertions(+)": "6", "deletions(-)\n": "6"}, {"commit": "9d43d54e93d73312f985b71ec17ad79f401f0c73\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Tue Nov 9 17", "yml": {"textLineCount": 3, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 1}, "sh": {"textLineCount": 3, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 1}, "files": "2", "insertions(+)": "4", "deletions(-)\n": "2"}, {"commit": "03eee3b5550ffdd3d4f79b1deb9e6678fc2c4c1f\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Tue Nov 9 17", "air": {"textLineCount": 8, "binByteCount": 0, "inserts": 4, "deletes": 4, "occurrences": 1}, "file": "1", "insertions(+)": "4", "deletions(-)\n": "4"}, {"commit": "f674d1ff5e6df00c3f35e0c20425f2a1a657eac3\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Thu Sep 16 18", "yml": {"textLineCount": 1, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "file": "1", "deletion(-)\n": "1"}, {"commit": "96376b22c1150a87884c1c34fcfe68e87b1516ae\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Thu Sep 16 18", "yml": {"textLineCount": 6, "binByteCount": 0, "inserts": 3, "deletes": 3, "occurrences": 1}, "file": "1", "insertions(+)": "3", "deletions(-)\n": "3"}, {"commit": "3ad032e845eed8a5fd735e1903031612abcb19e1\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Thu Sep 16 17", "yml": {"textLineCount": 3, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "gitignore": {"textLineCount": 6, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "aqua": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 4}, "air": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "sh": {"textLineCount": 22, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 144, "binByteCount": 0, "inserts": 11, "deletes": 10, "occurrences": 1}, "files": "10", "insertions(+)": "105", "deletions(-)\n": "72"}, {"commit": "0e9032c486373ecd6e6cc3828b2c31286a2f1e51\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Mon Sep 13 14", "json": {"textLineCount": 16, "binByteCount": 0, "inserts": 8, "deletes": 8, "occurrences": 4}, "files": "4", "insertions(+)": "8", "deletions(-)\n": "8"}, {"commit": "0514670dffbe99556aac03ca3fa7a9340c041110\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Mon Sep 13 14", "yml": {"textLineCount": 17, "binByteCount": 0, "inserts": 1, "deletes": 16, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletions(-)\n": "16"}, {"commit": "c459afbd8e8cc719c3f9834df1525ba167fbb072\n", "Author": " Pavel <Pavel.Murygin@gmail.com>\n", "Date": "   Mon Sep 13 13", "gitignore": {"textLineCount": 3, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 4455, "binByteCount": 0, "inserts": 5, "deletes": 61, "occurrences": 7}, "md": {"textLineCount": 7, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "ts": {"textLineCount": 733, "binByteCount": 0, "inserts": 1, "deletes": 11, "occurrences": 4}, "aqua": {"textLineCount": 3, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "files": "14", "insertions(+)": "187", "deletions(-)\n": "5014"}, {"commit": "2394e57ca0b5a58a76170ced4505630d335bf70e\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Sep 2 18", "yml": {"textLineCount": 29, "binByteCount": 0, "inserts": 14, "deletes": 15, "occurrences": 2}, "files": "2", "insertions(+)": "14", "deletions(-)\n": "15"}, {"commit": "aef1262cc55be47245b4fb8329228e628e5b8007\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Wed Aug 25 13", "json": {"textLineCount": 5873, "binByteCount": 0, "inserts": 28, "deletes": 25, "occurrences": 6}, "ts": {"textLineCount": 45, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 2}, "files": "8", "insertions(+)": "3116", "deletions(-)\n": "2802"}, {"commit": "25a493ab2e91eb96a49aaf97508bc9114c3ae240\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Mon Aug 23 18", "yml": {"textLineCount": 65, "binByteCount": 0, "inserts": 32, "deletes": 5, "occurrences": 2}, "md": {"textLineCount": 8, "binByteCount": 0, "inserts": 2, "deletes": 4, "occurrences": 2}, "aqua": {"textLineCount": 6, "binByteCount": 0, "inserts": 2, "deletes": 3, "occurrences": 2}, "ts": {"textLineCount": 16, "binByteCount": 0, "inserts": 4, "deletes": 5, "occurrences": 1}, "air": {"textLineCount": 6, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 1}, "json": {"textLineCount": 6, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 1}, "sh": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "10", "insertions(+)": "81", "deletions(-)\n": "28"}, {"commit": "78a53e1bdd781c6427b4ba20862f1f3d989822bb\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Mon Aug 2 17", "yml": {"textLineCount": 43, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "md": {"textLineCount": 5, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 2}, "aqua": {"textLineCount": 9, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "json": {"textLineCount": 7752, "binByteCount": 0, "inserts": 21, "deletes": 28, "occurrences": 5}, "ts": {"textLineCount": 215, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 2}, "lock": {"textLineCount": 20, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "12", "insertions(+)": "3336", "deletions(-)\n": "4708"}, {"commit": "30eccfed0fef6cfc908cdf054b7101958845326c\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jul 30 17", "json": {"textLineCount": 4681, "binByteCount": 0, "inserts": 5, "deletes": 32, "occurrences": 5}, "yml": {"textLineCount": 17, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "gitignore": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "md": {"textLineCount": 12, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 2}, "ts": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 3}, "files": "12", "insertions(+)": "88", "deletions(-)\n": "4626"}, {"commit": "b2068dd561ea3dd68c62f8a865ce271e8893a2cd\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jul 30 14", "md": {"textLineCount": 3, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)\n": "3"}, {"commit": "4d0db4b1eaf4ece965a513d9b69e24f4daf37f1e\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Mon Jul 26 12", "md": {"textLineCount": 10, "binByteCount": 0, "inserts": 7, "deletes": 3, "occurrences": 1}, "aqua": {"textLineCount": 56, "binByteCount": 0, "inserts": 49, "deletes": 5, "occurrences": 1}, "files": "2", "insertions(+)": "58", "deletions(-)\n": "8"}, {"commit": "a50c2bc9aba71d3262bd29b63e4202b7dd34c41a\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jul 23 16", "json": {"textLineCount": 8698, "binByteCount": 0, "inserts": 32, "deletes": 2, "occurrences": 6}, "yml": {"textLineCount": 23, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "gitignore": {"textLineCount": 4, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "md": {"textLineCount": 48, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 3}, "wasm": {"textLineCount": 0, "binByteCount": -615255, "inserts": 0, "deletes": 0, "occurrences": 1}, "ts": {"textLineCount": 371, "binByteCount": 0, "inserts": 3, "deletes": 1, "occurrences": 2}, "files": "14", "insertions(+)": "9088", "deletions(-)\n": "56"}, {"commit": "3e0990c22210a01e419f27c0adbaf23968f8e2ea\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Wed Jul 21 20", "md": {"textLineCount": 6, "binByteCount": 0, "inserts": 3, "deletes": 3, "occurrences": 1}, "file": "1", "insertions(+)": "3", "deletions(-)\n": "3"}, {"commit": "4bd3f335993dd3b9a9276fcc76c9bee06352d9e8\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Wed Jul 21 20", "gitignore": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "md": {"textLineCount": 24, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "aqua": {"textLineCount": 16, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 783, "binByteCount": 0, "inserts": 35, "deletes": 6, "occurrences": 2}, "yml": {"textLineCount": 9, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "lock": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "sh": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "9", "insertions(+)": "744", "deletions(-)\n": "95"}, {"commit": "e3ef81650c4ef514cb935485bae673a4bd93184c\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Tue Jul 20 19", "gitignore": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 169, "binByteCount": 0, "inserts": 38, "deletes": 10, "occurrences": 1}, "ts": {"textLineCount": 93, "binByteCount": 0, "inserts": 26, "deletes": 0, "occurrences": 1}, "files": "3", "insertions(+)": "228", "deletions(-)\n": "35"}, {"commit": "be4792fd94cbc309b220ca65b398c83e7491db6c\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Tue Jul 20 15", "rs": {"textLineCount": 8, "binByteCount": 0, "inserts": 7, "deletes": 1, "occurrences": 2}, "toml": {"textLineCount": 9, "binByteCount": 0, "inserts": 9, "deletes": 0, "occurrences": 1}, "null": {"textLineCount": 3, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 1}, "files": "4", "insertions(+)": "19", "deletion(-)\n": "1"}, {"commit": "c7a74f2256fe330ae46c64411567809df540aea1\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Tue Jul 20 14", "rs": {"textLineCount": 97, "binByteCount": 0, "inserts": 32, "deletes": 18, "occurrences": 2}, "files": "2", "insertions(+)": "63", "deletions(-)\n": "34"}, {"commit": "754508eb5ff2e700f78eab602ca12807149c0044\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Tue Jul 20 14", "air": {"textLineCount": 34, "binByteCount": 0, "inserts": 23, "deletes": 11, "occurrences": 1}, "file": "1", "insertions(+)": "23", "deletions(-)\n": "11"}, {"commit": "825db2b3b474906c396c10e07476bde9839c45c2\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Tue Jul 20 13", "json": {"textLineCount": 35, "binByteCount": 0, "inserts": 11, "deletes": 11, "occurrences": 2}, "ts": {"textLineCount": 78, "binByteCount": 0, "inserts": 1, "deletes": 47, "occurrences": 1}, "files": "3", "insertions(+)": "18", "deletions(-)\n": "95"}, {"commit": "b1a7661c5fc0b432a3966b5cf230a2d88b62381a\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Tue Jul 20 12", "aqua": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "wasm": {"textLineCount": 0, "binByteCount": 615255, "inserts": 0, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 10, "binByteCount": 0, "inserts": 5, "deletes": 5, "occurrences": 2}, "ts": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "5", "insertions(+)": "7", "deletions(-)\n": "7"}, {"commit": "65db8148f1604c484a94541fa3b6f8e9b77ff5aa\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Fri Jul 16 15", "aqua": {"textLineCount": 6, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 135, "binByteCount": 0, "inserts": 43, "deletes": 19, "occurrences": 5}, "files": "6", "insertions(+)": "98", "deletions(-)\n": "43"}, {"commit": "2e64ed5e2eeb1337ab3bd6179f57d45c7df8130c\n", "Author": " boneyard93501 <4523011+boneyard93501@users.noreply.github.com>\n", "Date": "   Fri Jul 16 07", "json": {"textLineCount": 8, "binByteCount": 0, "inserts": 4, "deletes": 4, "occurrences": 1}, "file": "1", "insertions(+)": "4", "deletions(-)\n": "4"}, {"commit": "bca86df1b3a55322014d72a71870941591c1d3c9\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Thu Jul 15 19", "yml": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "aqua": {"textLineCount": 1, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "lock": {"textLineCount": 3208, "binByteCount": 0, "inserts": 51, "deletes": 2, "occurrences": 3}, "toml": {"textLineCount": 48, "binByteCount": 0, "inserts": 6, "deletes": 2, "occurrences": 6}, "sh": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "rs": {"textLineCount": 839, "binByteCount": 0, "inserts": 11, "deletes": 5, "occurrences": 6}, "null": {"textLineCount": 6, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "files": "20", "insertions(+)": "3729", "deletions(-)\n": "381"}, {"commit": "4093abcf312ffad221a77765886acbf64e12952a\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Wed Jul 14 22", "aqua": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 4694, "binByteCount": 0, "inserts": 2, "deletes": 46, "occurrences": 2}, "ts": {"textLineCount": 7, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "4", "insertions(+)": "20", "deletions(-)\n": "4685"}, {"commit": "ac976f696787fc5f7eae7bf7bea8df82e4a9ab7c\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Wed Jul 14 18", "gitignore": {"textLineCount": 3, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "json": {"textLineCount": 87, "binByteCount": 0, "inserts": 9, "deletes": 48, "occurrences": 2}, "ts": {"textLineCount": 36, "binByteCount": 0, "inserts": 14, "deletes": 9, "occurrences": 1}, "files": "4", "insertions(+)": "39", "deletions(-)\n": "87"}, {"commit": "1eb0e5ce097156cb97bf5f6b2158f2051fc49fe4\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Fri Jul 9 15", "aqua": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "json": {"textLineCount": 4696, "binByteCount": 0, "inserts": 39, "deletes": 1, "occurrences": 2}, "ts": {"textLineCount": 160, "binByteCount": 0, "inserts": 1, "deletes": 3, "occurrences": 2}, "air": {"textLineCount": 19, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "files": "6", "insertions(+)": "4709", "deletions(-)\n": "170"}, {"commit": "7a05a39b5afd22ca6e8e6d12c0966aa6db135904\n", "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n", "Date": "   Thu Jul 8 13", "gitignore": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "aqua": {"textLineCount": 31, "binByteCount": 0, "inserts": 3, "deletes": 1, "occurrences": 1}, "wasm": {"textLineCount": 0, "binByteCount": -584402, "inserts": 0, "deletes": 0, "occurrences": 2}, "sh": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 522, "binByteCount": 0, "inserts": 66, "deletes": 2, "occurrences": 2}, "toml": {"textLineCount": 3, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "rs": {"textLineCount": 350, "binByteCount": 0, "inserts": 31, "deletes": 18, "occurrences": 4}, "files": "13", "insertions(+)": "779", "deletions(-)\n": "133"}, {"commit": "2957e026ebb45047928d49f2138ae8ebe51774b1\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jul 2 21", "json": {"textLineCount": 8, "binByteCount": 0, "inserts": 4, "deletes": 4, "occurrences": 2}, "ts": {"textLineCount": 15, "binByteCount": 0, "inserts": 8, "deletes": 7, "occurrences": 1}, "files": "3", "insertions(+)": "12", "deletions(-)\n": "11"}, {"commit": "bae9287210ae7329a8ec2f179c42884afe6c04c9\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jul 2 00", "rs": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "caf74d9accb9af3fb9b0daaa0717cc12e5a002b7\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jul 2 00", "wasm": {"textLineCount": 0, "binByteCount": -1398, "inserts": 0, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 14, "binByteCount": 0, "inserts": 12, "deletes": 2, "occurrences": 1}, "files": "2", "insertions(+)": "12", "deletions(-)\n": "2"}, {"commit": "088905485b5fcabd7c84fd3a7485993a2c5c3d30\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Fri Jul 2 00", "wasm": {"textLineCount": 0, "binByteCount": 2473, "inserts": 0, "deletes": 0, "occurrences": 1}, "rs": {"textLineCount": 41, "binByteCount": 0, "inserts": 34, "deletes": 1, "occurrences": 1}, "files": "2", "insertions(+)": "40", "deletion(-)\n": "1"}, {"commit": "c7132216bf30380a65c22a63fe31ad071eca3f63\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Jul 1 23", "yml": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "a231304cda2964caee975371a3b406d77a5d0996\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Jul 1 23", "wasm": {"textLineCount": 0, "binByteCount": 7593, "inserts": 0, "deletes": 0, "occurrences": 2}, "rs": {"textLineCount": 12, "binByteCount": 0, "inserts": 11, "deletes": 1, "occurrences": 1}, "files": "3", "insertions(+)": "11", "deletion(-)\n": "1"}, {"commit": "b50980dc727bc440b5e5e369fa46cb1d37886151\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Jul 1 23", "yml": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "ea2d6c183de8e3a54dcef4bf770e10511658ef24\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Jul 1 23", "yml": {"textLineCount": 17, "binByteCount": 0, "inserts": 17, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)\n": "17"}, {"commit": "1731ea09220b24ac3b5f806913f59cc2f8625197\n", "Author": " folex <0xdxdy@gmail.com>\n", "Date": "   Thu Jul 1 23", "yml": {"textLineCount": 96, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 3}, "gitignore": {"textLineCount": 11, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "aqua": {"textLineCount": 26, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "json": {"textLineCount": 4190, "binByteCount": 0, "inserts": 24, "deletes": 2, "occurrences": 6}, "ts": {"textLineCount": 237, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "toml": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 4}, "wasm": {"textLineCount": 0, "binByteCount": 575734, "inserts": 0, "deletes": 0, "occurrences": 2}, "sh": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 602, "binByteCount": 0, "inserts": 4, "deletes": 0, "occurrences": 2}, "rs": {"textLineCount": 0, "binByteCount": 0, "inserts": 0, "deletes": 0, "occurrences": 4}, "files": "27", "insertions(+)": "5148", "deletions(-)\n": "14"}, {"commit": "9cdcfb840fbac03e189c6a626844301d9d409d6e\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Thu Jul 1 22", "rs": {"textLineCount": 13, "binByteCount": 0, "inserts": 10, "deletes": 3, "occurrences": 1}, "file": "1", "insertions(+)": "10", "deletions(-)\n": "3"}, {"commit": "25c08ac8290c4f2ba8417c71adb6cbd1fdad4597\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Thu Jul 1 18", "json": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "581de4b004c788cf8258f55e2c5bf8906b6cd3a1\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Thu Jul 1 17", "yml": {"textLineCount": 3, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 1}, "file": "1", "insertions(+)": "2", "deletion(-)\n": "1"}, {"commit": "5a7767e3eb9e3f46bb495f3797c6d32c05e336f5\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Thu Jul 1 17", "yml": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "10c490e937dc9de2f1a50a42e84f5fc6d6d9328f\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Wed Jun 30 17", "rs": {"textLineCount": 106, "binByteCount": 0, "inserts": 50, "deletes": 24, "occurrences": 3}, "toml": {"textLineCount": 4, "binByteCount": 0, "inserts": 2, "deletes": 1, "occurrences": 1}, "files": "4", "insertions(+)": "75", "deletions(-)\n": "35"}, {"commit": "ac7ed9800ad481536281cb0c260e29c5f16ba9cf\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Wed Jun 30 16", "toml": {"textLineCount": 16, "binByteCount": 0, "inserts": 11, "deletes": 0, "occurrences": 3}, "rs": {"textLineCount": 203, "binByteCount": 0, "inserts": 57, "deletes": 51, "occurrences": 5}, "files": "8", "insertions(+)": "122", "deletions(-)\n": "97"}, {"commit": "d4afa2f73fbd975c6c5b1e9db70d17d737b6f536\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Fri Jun 25 15", "gitignore": {"textLineCount": 3, "binByteCount": 0, "inserts": 1, "deletes": 2, "occurrences": 1}, "json": {"textLineCount": 31, "binByteCount": 0, "inserts": 31, "deletes": 0, "occurrences": 3}, "files": "4", "insertions(+)": "32", "deletions(-)\n": "2"}, {"commit": "18392cd93a745792a38d8ad9f009a67577f1723c\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Fri Jun 25 14", "yml": {"textLineCount": 1, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "file": "1", "deletion(-)\n": "1"}, {"commit": "5a56cbe3ec3d3d45ea1497286e02567db5359eae\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Fri Jun 25 14", "yml": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "752526a9e8bcd2da4a508011c2d3a001a2ebc190\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Fri Jun 25 14", "yml": {"textLineCount": 8, "binByteCount": 0, "inserts": 6, "deletes": 2, "occurrences": 1}, "file": "1", "insertions(+)": "6", "deletions(-)\n": "2"}, {"commit": "73f2e97443e0f7056e0ba09f956a59d03029e9bf\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Fri Jun 25 14", "yml": {"textLineCount": 4, "binByteCount": 0, "inserts": 2, "deletes": 2, "occurrences": 1}, "file": "1", "insertions(+)": "2", "deletions(-)\n": "2"}, {"commit": "f930cf6b18d1eb9df50e1a062576865a4ec95790\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Fri Jun 25 14", "yml": {"textLineCount": 5, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 1}, "file": "1", "insertions(+)": "3", "deletions(-)\n": "2"}, {"commit": "1d09d839bfc6cdca1afaa3b6ed70ac9a55ae1754\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Fri Jun 25 14", "yml": {"textLineCount": 59, "binByteCount": 0, "inserts": 57, "deletes": 2, "occurrences": 2}, "files": "2", "insertions(+)": "57", "deletions(-)\n": "2"}, {"commit": "624075fb60fcfb2f3aecd1af65b4399462006800\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Fri Jun 25 10", "yml": {"textLineCount": 77, "binByteCount": 0, "inserts": 42, "deletes": 35, "occurrences": 2}, "files": "2", "insertions(+)": "42", "deletions(-)\n": "35"}, {"commit": "140530b7910afcae1e6a29dfd4577fd77bfecd70\n", "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n", "Date": "   Thu Jun 24 16", "toml": {"textLineCount": 5, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 2}, "rs": {"textLineCount": 81, "binByteCount": 0, "inserts": 70, "deletes": 11, "occurrences": 3}, "files": "5", "insertions(+)": "73", "deletions(-)\n": "13"}]
+[
+  {
+    "commit": "b2db80ac96d209f48976c002f042e47909c8ae20\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Mar 31 02",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 21,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletions(-)\n": "20"
+  },
+  {
+    "commit": "e11a6301e5986ef2d21cb762c7d87464885351de\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Tue Nov 9 17",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 12,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "6",
+    "deletions(-)\n": "6"
+  },
+  {
+    "commit": "9d43d54e93d73312f985b71ec17ad79f401f0c73\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Tue Nov 9 17",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "sh": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "4",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "03eee3b5550ffdd3d4f79b1deb9e6678fc2c4c1f\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Tue Nov 9 17",
+    "fileTypes": {
+      "air": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "4",
+    "deletions(-)\n": "4"
+  },
+  {
+    "commit": "f674d1ff5e6df00c3f35e0c20425f2a1a657eac3\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Thu Sep 16 18",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "96376b22c1150a87884c1c34fcfe68e87b1516ae\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Thu Sep 16 18",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "3",
+    "deletions(-)\n": "3"
+  },
+  {
+    "commit": "3ad032e845eed8a5fd735e1903031612abcb19e1\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Thu Sep 16 17",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "gitignore": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "air": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "textLineCount": 22,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 144,
+        "binByteCount": 0,
+        "inserts": 11,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "files": "10",
+    "insertions(+)": "105",
+    "deletions(-)\n": "72"
+  },
+  {
+    "commit": "0e9032c486373ecd6e6cc3828b2c31286a2f1e51\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Mon Sep 13 14",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 16,
+        "binByteCount": 0,
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 4
+      }
+    },
+    "files": "4",
+    "insertions(+)": "8",
+    "deletions(-)\n": "8"
+  },
+  {
+    "commit": "0514670dffbe99556aac03ca3fa7a9340c041110\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Mon Sep 13 14",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 17,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletions(-)\n": "16"
+  },
+  {
+    "commit": "c459afbd8e8cc719c3f9834df1525ba167fbb072\n",
+    "Author": " Pavel <Pavel.Murygin@gmail.com>\n",
+    "Date": "   Mon Sep 13 13",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 4455,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 61,
+        "occurrences": 7
+      },
+      "md": {
+        "textLineCount": 7,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 733,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 11,
+        "occurrences": 4
+      },
+      "aqua": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "14",
+    "insertions(+)": "187",
+    "deletions(-)\n": "5014"
+  },
+  {
+    "commit": "2394e57ca0b5a58a76170ced4505630d335bf70e\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Sep 2 18",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 29,
+        "binByteCount": 0,
+        "inserts": 14,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "14",
+    "deletions(-)\n": "15"
+  },
+  {
+    "commit": "aef1262cc55be47245b4fb8329228e628e5b8007\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Wed Aug 25 13",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 5873,
+        "binByteCount": 0,
+        "inserts": 28,
+        "deletes": 25,
+        "occurrences": 6
+      },
+      "ts": {
+        "textLineCount": 45,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "files": "8",
+    "insertions(+)": "3116",
+    "deletions(-)\n": "2802"
+  },
+  {
+    "commit": "25a493ab2e91eb96a49aaf97508bc9114c3ae240\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Mon Aug 23 18",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 65,
+        "binByteCount": 0,
+        "inserts": 32,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "md": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "aqua": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 16,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "air": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "sh": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "10",
+    "insertions(+)": "81",
+    "deletions(-)\n": "28"
+  },
+  {
+    "commit": "78a53e1bdd781c6427b4ba20862f1f3d989822bb\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Mon Aug 2 17",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 43,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "aqua": {
+        "textLineCount": 9,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 7752,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 28,
+        "occurrences": 5
+      },
+      "ts": {
+        "textLineCount": 215,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "lock": {
+        "textLineCount": 20,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "12",
+    "insertions(+)": "3336",
+    "deletions(-)\n": "4708"
+  },
+  {
+    "commit": "30eccfed0fef6cfc908cdf054b7101958845326c\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jul 30 17",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 4681,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 32,
+        "occurrences": 5
+      },
+      "yml": {
+        "textLineCount": 17,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "gitignore": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 12,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    },
+    "files": "12",
+    "insertions(+)": "88",
+    "deletions(-)\n": "4626"
+  },
+  {
+    "commit": "b2068dd561ea3dd68c62f8a865ce271e8893a2cd\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jul 30 14",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)\n": "3"
+  },
+  {
+    "commit": "4d0db4b1eaf4ece965a513d9b69e24f4daf37f1e\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Mon Jul 26 12",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 56,
+        "binByteCount": 0,
+        "inserts": 49,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "58",
+    "deletions(-)\n": "8"
+  },
+  {
+    "commit": "a50c2bc9aba71d3262bd29b63e4202b7dd34c41a\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jul 23 16",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 8698,
+        "binByteCount": 0,
+        "inserts": 32,
+        "deletes": 2,
+        "occurrences": 6
+      },
+      "yml": {
+        "textLineCount": 23,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "gitignore": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 48,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": -615255,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 371,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "files": "14",
+    "insertions(+)": "9088",
+    "deletions(-)\n": "56"
+  },
+  {
+    "commit": "3e0990c22210a01e419f27c0adbaf23968f8e2ea\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Wed Jul 21 20",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "3",
+    "deletions(-)\n": "3"
+  },
+  {
+    "commit": "4bd3f335993dd3b9a9276fcc76c9bee06352d9e8\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Wed Jul 21 20",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 24,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "aqua": {
+        "textLineCount": 16,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 783,
+        "binByteCount": 0,
+        "inserts": 35,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "yml": {
+        "textLineCount": 9,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "sh": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "9",
+    "insertions(+)": "744",
+    "deletions(-)\n": "95"
+  },
+  {
+    "commit": "e3ef81650c4ef514cb935485bae673a4bd93184c\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Tue Jul 20 19",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 169,
+        "binByteCount": 0,
+        "inserts": 38,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "ts": {
+        "textLineCount": 93,
+        "binByteCount": 0,
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "3",
+    "insertions(+)": "228",
+    "deletions(-)\n": "35"
+  },
+  {
+    "commit": "be4792fd94cbc309b220ca65b398c83e7491db6c\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Tue Jul 20 15",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 9,
+        "binByteCount": 0,
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "null": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "4",
+    "insertions(+)": "19",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "c7a74f2256fe330ae46c64411567809df540aea1\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Tue Jul 20 14",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 97,
+        "binByteCount": 0,
+        "inserts": 32,
+        "deletes": 18,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "63",
+    "deletions(-)\n": "34"
+  },
+  {
+    "commit": "754508eb5ff2e700f78eab602ca12807149c0044\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Tue Jul 20 14",
+    "fileTypes": {
+      "air": {
+        "textLineCount": 34,
+        "binByteCount": 0,
+        "inserts": 23,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "23",
+    "deletions(-)\n": "11"
+  },
+  {
+    "commit": "825db2b3b474906c396c10e07476bde9839c45c2\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Tue Jul 20 13",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 35,
+        "binByteCount": 0,
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 78,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 47,
+        "occurrences": 1
+      }
+    },
+    "files": "3",
+    "insertions(+)": "18",
+    "deletions(-)\n": "95"
+  },
+  {
+    "commit": "b1a7661c5fc0b432a3966b5cf230a2d88b62381a\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Tue Jul 20 12",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 615255,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "5",
+    "insertions(+)": "7",
+    "deletions(-)\n": "7"
+  },
+  {
+    "commit": "65db8148f1604c484a94541fa3b6f8e9b77ff5aa\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Fri Jul 16 15",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 135,
+        "binByteCount": 0,
+        "inserts": 43,
+        "deletes": 19,
+        "occurrences": 5
+      }
+    },
+    "files": "6",
+    "insertions(+)": "98",
+    "deletions(-)\n": "43"
+  },
+  {
+    "commit": "2e64ed5e2eeb1337ab3bd6179f57d45c7df8130c\n",
+    "Author": " boneyard93501 <4523011+boneyard93501@users.noreply.github.com>\n",
+    "Date": "   Fri Jul 16 07",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "4",
+    "deletions(-)\n": "4"
+  },
+  {
+    "commit": "bca86df1b3a55322014d72a71870941591c1d3c9\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Thu Jul 15 19",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 3208,
+        "binByteCount": 0,
+        "inserts": 51,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "toml": {
+        "textLineCount": 48,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 6
+      },
+      "sh": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 839,
+        "binByteCount": 0,
+        "inserts": 11,
+        "deletes": 5,
+        "occurrences": 6
+      },
+      "null": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "files": "20",
+    "insertions(+)": "3729",
+    "deletions(-)\n": "381"
+  },
+  {
+    "commit": "4093abcf312ffad221a77765886acbf64e12952a\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Wed Jul 14 22",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 4694,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 46,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 7,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "4",
+    "insertions(+)": "20",
+    "deletions(-)\n": "4685"
+  },
+  {
+    "commit": "ac976f696787fc5f7eae7bf7bea8df82e4a9ab7c\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Wed Jul 14 18",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 87,
+        "binByteCount": 0,
+        "inserts": 9,
+        "deletes": 48,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 36,
+        "binByteCount": 0,
+        "inserts": 14,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "files": "4",
+    "insertions(+)": "39",
+    "deletions(-)\n": "87"
+  },
+  {
+    "commit": "1eb0e5ce097156cb97bf5f6b2158f2051fc49fe4\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Fri Jul 9 15",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 4696,
+        "binByteCount": 0,
+        "inserts": 39,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 160,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "air": {
+        "textLineCount": 19,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "6",
+    "insertions(+)": "4709",
+    "deletions(-)\n": "170"
+  },
+  {
+    "commit": "7a05a39b5afd22ca6e8e6d12c0966aa6db135904\n",
+    "Author": " Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>\n",
+    "Date": "   Thu Jul 8 13",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 31,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": -584402,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sh": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 522,
+        "binByteCount": 0,
+        "inserts": 66,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 350,
+        "binByteCount": 0,
+        "inserts": 31,
+        "deletes": 18,
+        "occurrences": 4
+      }
+    },
+    "files": "13",
+    "insertions(+)": "779",
+    "deletions(-)\n": "133"
+  },
+  {
+    "commit": "2957e026ebb45047928d49f2138ae8ebe51774b1\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jul 2 21",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "ts": {
+        "textLineCount": 15,
+        "binByteCount": 0,
+        "inserts": 8,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "files": "3",
+    "insertions(+)": "12",
+    "deletions(-)\n": "11"
+  },
+  {
+    "commit": "bae9287210ae7329a8ec2f179c42884afe6c04c9\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jul 2 00",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "caf74d9accb9af3fb9b0daaa0717cc12e5a002b7\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jul 2 00",
+    "fileTypes": {
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": -1398,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 14,
+        "binByteCount": 0,
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "12",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "088905485b5fcabd7c84fd3a7485993a2c5c3d30\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Fri Jul 2 00",
+    "fileTypes": {
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 2473,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "textLineCount": 41,
+        "binByteCount": 0,
+        "inserts": 34,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "2",
+    "insertions(+)": "40",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "c7132216bf30380a65c22a63fe31ad071eca3f63\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Jul 1 23",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "a231304cda2964caee975371a3b406d77a5d0996\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Jul 1 23",
+    "fileTypes": {
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 7593,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 12,
+        "binByteCount": 0,
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "3",
+    "insertions(+)": "11",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "b50980dc727bc440b5e5e369fa46cb1d37886151\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Jul 1 23",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "ea2d6c183de8e3a54dcef4bf770e10511658ef24\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Jul 1 23",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 17,
+        "binByteCount": 0,
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)\n": "17"
+  },
+  {
+    "commit": "1731ea09220b24ac3b5f806913f59cc2f8625197\n",
+    "Author": " folex <0xdxdy@gmail.com>\n",
+    "Date": "   Thu Jul 1 23",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 96,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "gitignore": {
+        "textLineCount": 11,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "aqua": {
+        "textLineCount": 26,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "textLineCount": 4190,
+        "binByteCount": 0,
+        "inserts": 24,
+        "deletes": 2,
+        "occurrences": 6
+      },
+      "ts": {
+        "textLineCount": 237,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 575734,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sh": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 602,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 0,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    },
+    "files": "27",
+    "insertions(+)": "5148",
+    "deletions(-)\n": "14"
+  },
+  {
+    "commit": "9cdcfb840fbac03e189c6a626844301d9d409d6e\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Thu Jul 1 22",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 13,
+        "binByteCount": 0,
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "10",
+    "deletions(-)\n": "3"
+  },
+  {
+    "commit": "25c08ac8290c4f2ba8417c71adb6cbd1fdad4597\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Thu Jul 1 18",
+    "fileTypes": {
+      "json": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "581de4b004c788cf8258f55e2c5bf8906b6cd3a1\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Thu Jul 1 17",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "2",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "5a7767e3eb9e3f46bb495f3797c6d32c05e336f5\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Thu Jul 1 17",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "10c490e937dc9de2f1a50a42e84f5fc6d6d9328f\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Wed Jun 30 17",
+    "fileTypes": {
+      "rs": {
+        "textLineCount": 106,
+        "binByteCount": 0,
+        "inserts": 50,
+        "deletes": 24,
+        "occurrences": 3
+      },
+      "toml": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "4",
+    "insertions(+)": "75",
+    "deletions(-)\n": "35"
+  },
+  {
+    "commit": "ac7ed9800ad481536281cb0c260e29c5f16ba9cf\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Wed Jun 30 16",
+    "fileTypes": {
+      "toml": {
+        "textLineCount": 16,
+        "binByteCount": 0,
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "rs": {
+        "textLineCount": 203,
+        "binByteCount": 0,
+        "inserts": 57,
+        "deletes": 51,
+        "occurrences": 5
+      }
+    },
+    "files": "8",
+    "insertions(+)": "122",
+    "deletions(-)\n": "97"
+  },
+  {
+    "commit": "d4afa2f73fbd975c6c5b1e9db70d17d737b6f536\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Fri Jun 25 15",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 3,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 31,
+        "binByteCount": 0,
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "files": "4",
+    "insertions(+)": "32",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "18392cd93a745792a38d8ad9f009a67577f1723c\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Fri Jun 25 14",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "5a56cbe3ec3d3d45ea1497286e02567db5359eae\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Fri Jun 25 14",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "752526a9e8bcd2da4a508011c2d3a001a2ebc190\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Fri Jun 25 14",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 8,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "6",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "73f2e97443e0f7056e0ba09f956a59d03029e9bf\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Fri Jun 25 14",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "2",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "f930cf6b18d1eb9df50e1a062576865a4ec95790\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Fri Jun 25 14",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "3",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "1d09d839bfc6cdca1afaa3b6ed70ac9a55ae1754\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Fri Jun 25 14",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 59,
+        "binByteCount": 0,
+        "inserts": 57,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "57",
+    "deletions(-)\n": "2"
+  },
+  {
+    "commit": "624075fb60fcfb2f3aecd1af65b4399462006800\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Fri Jun 25 10",
+    "fileTypes": {
+      "yml": {
+        "textLineCount": 77,
+        "binByteCount": 0,
+        "inserts": 42,
+        "deletes": 35,
+        "occurrences": 2
+      }
+    },
+    "files": "2",
+    "insertions(+)": "42",
+    "deletions(-)\n": "35"
+  },
+  {
+    "commit": "140530b7910afcae1e6a29dfd4577fd77bfecd70\n",
+    "Author": " Alexey Proshutinskiy <alexey.prosh@fluence.one>\n",
+    "Date": "   Thu Jun 24 16",
+    "fileTypes": {
+      "toml": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 81,
+        "binByteCount": 0,
+        "inserts": 70,
+        "deletes": 11,
+        "occurrences": 3
+      }
+    },
+    "files": "5",
+    "insertions(+)": "73",
+    "deletions(-)\n": "13"
+  }
+]

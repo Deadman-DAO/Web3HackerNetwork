@@ -1,1 +1,520 @@
-[{"commit": "1e7cd1a47fe4f378284729da5e40708bda82ba96\n", "Author": " Joera <joeramulders@gmail.com>\n", "Date": "   Tue Oct 26 14", "md": {"textLineCount": 10, "binByteCount": 0, "inserts": 4, "deletes": 6, "occurrences": 1}, "file": "1", "insertions(+)": "4", "deletions(-)\n": "6"}, {"commit": "eb82b489f0e239b232d09e723ba5653ca91a9647\n", "Author": " Joera <joeramulders@gmail.com>\n", "Date": "   Tue Oct 26 14", "md": {"textLineCount": 24, "binByteCount": 0, "inserts": 12, "deletes": 12, "occurrences": 1}, "file": "1", "insertions(+)": "12", "deletions(-)\n": "12"}, {"commit": "160e9a29c156723fec134a50cc39fb2969f3eb81\n", "Author": " Joera <joeramulders@gmail.com>\n", "Date": "   Tue Oct 26 14", "md": {"textLineCount": 40, "binByteCount": 0, "inserts": 40, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)\n": "40"}, {"commit": "dcc6047057ee6119dec116c67bb19e5b6adc255a\n", "Author": " Joera <joeramulders@gmail.com>\n", "Date": "   Tue Oct 26 13", "aqua": {"textLineCount": 44, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "wasm": {"textLineCount": 0, "binByteCount": 778316, "inserts": 0, "deletes": 0, "occurrences": 2}, "rs": {"textLineCount": 200, "binByteCount": 0, "inserts": 8, "deletes": 0, "occurrences": 7}, "png": {"textLineCount": 0, "binByteCount": 208704, "inserts": 0, "deletes": 0, "occurrences": 3}, "md": {"textLineCount": 1, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "sh": {"textLineCount": 13, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "toml": {"textLineCount": 29, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "json": {"textLineCount": 5, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "null": {"textLineCount": 5, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "lock": {"textLineCount": 987, "binByteCount": 0, "inserts": 25, "deletes": 0, "occurrences": 1}, "files": "20", "insertions(+)\n": "1284"}, {"commit": "896d115f217ef6357802021a1bb63c4e2eddc143\n", "Author": " Joera <joeramulders@gmail.com>\n", "Date": "   Tue Oct 26 13", "air": {"textLineCount": 1227, "binByteCount": 0, "inserts": 23, "deletes": 11, "occurrences": 11}, "aqua": {"textLineCount": 147, "binByteCount": 0, "inserts": 6, "deletes": 4, "occurrences": 5}, "wasm": {"textLineCount": 0, "binByteCount": -1226333, "inserts": 0, "deletes": 0, "occurrences": 7}, "sh": {"textLineCount": 29, "binByteCount": 0, "inserts": 1, "deletes": 2, "occurrences": 2}, "toml": {"textLineCount": 68, "binByteCount": 0, "inserts": 1, "deletes": 5, "occurrences": 5}, "lock": {"textLineCount": 1532, "binByteCount": 0, "inserts": 2, "deletes": 37, "occurrences": 5}, "rs": {"textLineCount": 436, "binByteCount": 0, "inserts": 3, "deletes": 12, "occurrences": 8}, "md": {"textLineCount": 1, "binByteCount": 0, "inserts": 0, "deletes": 1, "occurrences": 1}, "json": {"textLineCount": 153, "binByteCount": 0, "inserts": 1, "deletes": 88, "occurrences": 88}, "null": {"textLineCount": 177, "binByteCount": -92338992, "inserts": 0, "deletes": 114, "occurrences": 223}, "TAG": {"textLineCount": 6, "binByteCount": 0, "inserts": 0, "deletes": 2, "occurrences": 2}, "timestamp": {"textLineCount": 81, "binByteCount": 0, "inserts": 0, "deletes": 81, "occurrences": 81}, "d": {"textLineCount": 879, "binByteCount": 0, "inserts": 0, "deletes": 69, "occurrences": 67}, "ll": {"textLineCount": 86, "binByteCount": 0, "inserts": 0, "deletes": 6, "occurrences": 5}, "rlib": {"textLineCount": 0, "binByteCount": -88636936, "inserts": 0, "deletes": 0, "occurrences": 44}, "rmeta": {"textLineCount": 0, "binByteCount": -47784027, "inserts": 0, "deletes": 0, "occurrences": 44}, "so": {"textLineCount": 0, "binByteCount": -104425904, "inserts": 0, "deletes": 0, "occurrences": 8}, "files": "606", "insertions(+)": "995", "deletions(-)\n": "3827"}, {"commit": "2e41ba0f1930b5cd1c77a2dea526aa2e98427f12\n", "Author": " Joera <joeramulders@gmail.com>\n", "Date": "   Thu Oct 14 16", "air": {"textLineCount": 669, "binByteCount": 0, "inserts": 17, "deletes": 2, "occurrences": 8}, "aqua": {"textLineCount": 186, "binByteCount": 0, "inserts": 6, "deletes": 2, "occurrences": 4}, "wasm": {"textLineCount": 0, "binByteCount": 1710893, "inserts": 0, "deletes": 0, "occurrences": 11}, "md": {"textLineCount": 54, "binByteCount": 0, "inserts": 2, "deletes": 3, "occurrences": 5}, "sh": {"textLineCount": 36, "binByteCount": 0, "inserts": 3, "deletes": 2, "occurrences": 3}, "lock": {"textLineCount": 1913, "binByteCount": 0, "inserts": 30, "deletes": 21, "occurrences": 7}, "toml": {"textLineCount": 83, "binByteCount": 0, "inserts": 5, "deletes": 1, "occurrences": 9}, "rs": {"textLineCount": 1061, "binByteCount": 0, "inserts": 28, "deletes": 8, "occurrences": 18}, "json": {"textLineCount": 152, "binByteCount": 0, "inserts": 89, "deletes": 1, "occurrences": 92}, "null": {"textLineCount": 177, "binByteCount": 92338992, "inserts": 114, "deletes": 0, "occurrences": 225}, "csv": {"textLineCount": 55, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 1}, "TAG": {"textLineCount": 6, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "timestamp": {"textLineCount": 81, "binByteCount": 0, "inserts": 81, "deletes": 0, "occurrences": 81}, "d": {"textLineCount": 879, "binByteCount": 0, "inserts": 69, "deletes": 0, "occurrences": 67}, "ll": {"textLineCount": 86, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 5}, "rlib": {"textLineCount": 0, "binByteCount": 88636936, "inserts": 0, "deletes": 0, "occurrences": 44}, "rmeta": {"textLineCount": 0, "binByteCount": 47784027, "inserts": 0, "deletes": 0, "occurrences": 44}, "so": {"textLineCount": 0, "binByteCount": 104425904, "inserts": 0, "deletes": 0, "occurrences": 8}, "files": "634", "insertions(+)": "4346", "deletions(-)\n": "1092"}, {"commit": "b426a1713959ce64710572444337b183814eb67b\n", "Author": " Joera <joeramulders@gmail.com>\n", "Date": "   Tue Oct 5 16", "aqua": {"textLineCount": 4, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "md": {"textLineCount": 2504, "binByteCount": 0, "inserts": 2, "deletes": 210, "occurrences": 6}, "rs": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "files": "8", "insertions(+)": "7", "deletions(-)\n": "2503"}, {"commit": "bfbbc27dda418e95f981d92ad97babc4f696e18f\n", "Author": " Joera <joeramulders@gmail.com>\n", "Date": "   Tue Oct 5 15", "gitignore": {"textLineCount": 6, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "air": {"textLineCount": 1666, "binByteCount": 0, "inserts": 39, "deletes": 0, "occurrences": 26}, "aqua": {"textLineCount": 619, "binByteCount": 0, "inserts": 14, "deletes": 0, "occurrences": 9}, "toml": {"textLineCount": 366, "binByteCount": 0, "inserts": 21, "deletes": 0, "occurrences": 21}, "md": {"textLineCount": 2568, "binByteCount": 0, "inserts": 42, "deletes": 0, "occurrences": 12}, "wasm": {"textLineCount": 0, "binByteCount": 1955861, "inserts": 0, "deletes": 0, "occurrences": 12}, "sh": {"textLineCount": 117, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 6}, "json": {"textLineCount": 355, "binByteCount": 0, "inserts": 31, "deletes": 0, "occurrences": 31}, "null": {"textLineCount": 60, "binByteCount": 0, "inserts": 12, "deletes": 0, "occurrences": 12}, "lock": {"textLineCount": 9066, "binByteCount": 0, "inserts": 122, "deletes": 0, "occurrences": 12}, "rs": {"textLineCount": 1649, "binByteCount": 0, "inserts": 34, "deletes": 0, "occurrences": 24}, "graphql": {"textLineCount": 423, "binByteCount": 0, "inserts": 9, "deletes": 0, "occurrences": 6}, "files": "172", "insertions(+)\n": "16895"}]
+[
+  {
+    "commit": "1e7cd1a47fe4f378284729da5e40708bda82ba96\n",
+    "Author": " Joera <joeramulders@gmail.com>\n",
+    "Date": "   Tue Oct 26 14",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 10,
+        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "4",
+    "deletions(-)\n": "6"
+  },
+  {
+    "commit": "eb82b489f0e239b232d09e723ba5653ca91a9647\n",
+    "Author": " Joera <joeramulders@gmail.com>\n",
+    "Date": "   Tue Oct 26 14",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 24,
+        "binByteCount": 0,
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)": "12",
+    "deletions(-)\n": "12"
+  },
+  {
+    "commit": "160e9a29c156723fec134a50cc39fb2969f3eb81\n",
+    "Author": " Joera <joeramulders@gmail.com>\n",
+    "Date": "   Tue Oct 26 14",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 40,
+        "binByteCount": 0,
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)\n": "40"
+  },
+  {
+    "commit": "dcc6047057ee6119dec116c67bb19e5b6adc255a\n",
+    "Author": " Joera <joeramulders@gmail.com>\n",
+    "Date": "   Tue Oct 26 13",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 44,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 778316,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "textLineCount": 200,
+        "binByteCount": 0,
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 7
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 208704,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "md": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "textLineCount": 13,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "textLineCount": 29,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "null": {
+        "textLineCount": 5,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "textLineCount": 987,
+        "binByteCount": 0,
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "files": "20",
+    "insertions(+)\n": "1284"
+  },
+  {
+    "commit": "896d115f217ef6357802021a1bb63c4e2eddc143\n",
+    "Author": " Joera <joeramulders@gmail.com>\n",
+    "Date": "   Tue Oct 26 13",
+    "fileTypes": {
+      "air": {
+        "textLineCount": 1227,
+        "binByteCount": 0,
+        "inserts": 23,
+        "deletes": 11,
+        "occurrences": 11
+      },
+      "aqua": {
+        "textLineCount": 147,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 5
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": -1226333,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 7
+      },
+      "sh": {
+        "textLineCount": 29,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "toml": {
+        "textLineCount": 68,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "lock": {
+        "textLineCount": 1532,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 37,
+        "occurrences": 5
+      },
+      "rs": {
+        "textLineCount": 436,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 12,
+        "occurrences": 8
+      },
+      "md": {
+        "textLineCount": 1,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "textLineCount": 153,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 88,
+        "occurrences": 88
+      },
+      "null": {
+        "textLineCount": 177,
+        "binByteCount": -92338992,
+        "inserts": 0,
+        "deletes": 114,
+        "occurrences": 223
+      },
+      "TAG": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "timestamp": {
+        "textLineCount": 81,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 81,
+        "occurrences": 81
+      },
+      "d": {
+        "textLineCount": 879,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 69,
+        "occurrences": 67
+      },
+      "ll": {
+        "textLineCount": 86,
+        "binByteCount": 0,
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 5
+      },
+      "rlib": {
+        "textLineCount": 0,
+        "binByteCount": -88636936,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 44
+      },
+      "rmeta": {
+        "textLineCount": 0,
+        "binByteCount": -47784027,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 44
+      },
+      "so": {
+        "textLineCount": 0,
+        "binByteCount": -104425904,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 8
+      }
+    },
+    "files": "606",
+    "insertions(+)": "995",
+    "deletions(-)\n": "3827"
+  },
+  {
+    "commit": "2e41ba0f1930b5cd1c77a2dea526aa2e98427f12\n",
+    "Author": " Joera <joeramulders@gmail.com>\n",
+    "Date": "   Thu Oct 14 16",
+    "fileTypes": {
+      "air": {
+        "textLineCount": 669,
+        "binByteCount": 0,
+        "inserts": 17,
+        "deletes": 2,
+        "occurrences": 8
+      },
+      "aqua": {
+        "textLineCount": 186,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 4
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 1710893,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 11
+      },
+      "md": {
+        "textLineCount": 54,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 5
+      },
+      "sh": {
+        "textLineCount": 36,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "lock": {
+        "textLineCount": 1913,
+        "binByteCount": 0,
+        "inserts": 30,
+        "deletes": 21,
+        "occurrences": 7
+      },
+      "toml": {
+        "textLineCount": 83,
+        "binByteCount": 0,
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 9
+      },
+      "rs": {
+        "textLineCount": 1061,
+        "binByteCount": 0,
+        "inserts": 28,
+        "deletes": 8,
+        "occurrences": 18
+      },
+      "json": {
+        "textLineCount": 152,
+        "binByteCount": 0,
+        "inserts": 89,
+        "deletes": 1,
+        "occurrences": 92
+      },
+      "null": {
+        "textLineCount": 177,
+        "binByteCount": 92338992,
+        "inserts": 114,
+        "deletes": 0,
+        "occurrences": 225
+      },
+      "csv": {
+        "textLineCount": 55,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "TAG": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "timestamp": {
+        "textLineCount": 81,
+        "binByteCount": 0,
+        "inserts": 81,
+        "deletes": 0,
+        "occurrences": 81
+      },
+      "d": {
+        "textLineCount": 879,
+        "binByteCount": 0,
+        "inserts": 69,
+        "deletes": 0,
+        "occurrences": 67
+      },
+      "ll": {
+        "textLineCount": 86,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "rlib": {
+        "textLineCount": 0,
+        "binByteCount": 88636936,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 44
+      },
+      "rmeta": {
+        "textLineCount": 0,
+        "binByteCount": 47784027,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 44
+      },
+      "so": {
+        "textLineCount": 0,
+        "binByteCount": 104425904,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 8
+      }
+    },
+    "files": "634",
+    "insertions(+)": "4346",
+    "deletions(-)\n": "1092"
+  },
+  {
+    "commit": "b426a1713959ce64710572444337b183814eb67b\n",
+    "Author": " Joera <joeramulders@gmail.com>\n",
+    "Date": "   Tue Oct 5 16",
+    "fileTypes": {
+      "aqua": {
+        "textLineCount": 4,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 2504,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 210,
+        "occurrences": 6
+      },
+      "rs": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "files": "8",
+    "insertions(+)": "7",
+    "deletions(-)\n": "2503"
+  },
+  {
+    "commit": "bfbbc27dda418e95f981d92ad97babc4f696e18f\n",
+    "Author": " Joera <joeramulders@gmail.com>\n",
+    "Date": "   Tue Oct 5 15",
+    "fileTypes": {
+      "gitignore": {
+        "textLineCount": 6,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "air": {
+        "textLineCount": 1666,
+        "binByteCount": 0,
+        "inserts": 39,
+        "deletes": 0,
+        "occurrences": 26
+      },
+      "aqua": {
+        "textLineCount": 619,
+        "binByteCount": 0,
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "toml": {
+        "textLineCount": 366,
+        "binByteCount": 0,
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 21
+      },
+      "md": {
+        "textLineCount": 2568,
+        "binByteCount": 0,
+        "inserts": 42,
+        "deletes": 0,
+        "occurrences": 12
+      },
+      "wasm": {
+        "textLineCount": 0,
+        "binByteCount": 1955861,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 12
+      },
+      "sh": {
+        "textLineCount": 117,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "json": {
+        "textLineCount": 355,
+        "binByteCount": 0,
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 31
+      },
+      "null": {
+        "textLineCount": 60,
+        "binByteCount": 0,
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 12
+      },
+      "lock": {
+        "textLineCount": 9066,
+        "binByteCount": 0,
+        "inserts": 122,
+        "deletes": 0,
+        "occurrences": 12
+      },
+      "rs": {
+        "textLineCount": 1649,
+        "binByteCount": 0,
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 24
+      },
+      "graphql": {
+        "textLineCount": 423,
+        "binByteCount": 0,
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 6
+      }
+    },
+    "files": "172",
+    "insertions(+)\n": "16895"
+  }
+]

@@ -1,1 +1,208 @@
-[{"commit": "a9d8f1533fec10b954bfb2116e547e2da3cc6284\n", "Author": " amrosaeed <82784007+amrosaeed@users.noreply.github.com>\n", "Date": "   Sat Sep 11 05", "md": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "60ebf2e51d8f62df21798b891cd8532438d43836\n", "Author": " amrosaeed <82784007+amrosaeed@users.noreply.github.com>\n", "Date": "   Sat Sep 11 05", "md": {"textLineCount": 2, "binByteCount": 0, "inserts": 1, "deletes": 1, "occurrences": 1}, "file": "1", "insertion(+)": "1", "deletion(-)\n": "1"}, {"commit": "bc137b29819247b12f9bbeb0def13ddda6f66b9b\n", "Author": " amrosaeed <82784007+amrosaeed@users.noreply.github.com>\n", "Date": "   Sat Sep 11 05", "md": {"textLineCount": 217, "binByteCount": 0, "inserts": 30, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)\n": "217"}, {"commit": "5629c4b1eae0d9db3dd25e5ada2d91393005a3d0\n", "Author": " amrosaeed <amrosaeed.amin@gmail.com>\n", "Date": "   Sat Sep 11 04", "sh": {"textLineCount": 718, "binByteCount": 0, "inserts": 52, "deletes": 0, "occurrences": 52}, "yml": {"textLineCount": 233, "binByteCount": 0, "inserts": 3, "deletes": 0, "occurrences": 3}, "gitignore": {"textLineCount": 14, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "null": {"textLineCount": 888, "binByteCount": 0, "inserts": 69, "deletes": 0, "occurrences": 71}, "md": {"textLineCount": 5858, "binByteCount": 0, "inserts": 36, "deletes": 0, "occurrences": 36}, "aqua": {"textLineCount": 1748, "binByteCount": 0, "inserts": 26, "deletes": 0, "occurrences": 26}, "json": {"textLineCount": 369338, "binByteCount": 0, "inserts": 275, "deletes": 0, "occurrences": 141}, "ts": {"textLineCount": 4870, "binByteCount": 0, "inserts": 54, "deletes": 0, "occurrences": 54}, "toml": {"textLineCount": 1513, "binByteCount": 0, "inserts": 110, "deletes": 0, "occurrences": 110}, "rs": {"textLineCount": 6927, "binByteCount": 0, "inserts": 99, "deletes": 0, "occurrences": 99}, "png": {"textLineCount": 0, "binByteCount": 7160304, "inserts": 0, "deletes": 0, "occurrences": 48}, "ico": {"textLineCount": 0, "binByteCount": 169540, "inserts": 0, "deletes": 0, "occurrences": 14}, "html": {"textLineCount": 576, "binByteCount": 0, "inserts": 14, "deletes": 0, "occurrences": 14}, "txt": {"textLineCount": 266, "binByteCount": 0, "inserts": 16, "deletes": 0, "occurrences": 16}, "scss": {"textLineCount": 2716, "binByteCount": 0, "inserts": 18, "deletes": 0, "occurrences": 18}, "tsx": {"textLineCount": 2078, "binByteCount": 0, "inserts": 42, "deletes": 0, "occurrences": 42}, "css": {"textLineCount": 130, "binByteCount": 0, "inserts": 10, "deletes": 0, "occurrences": 10}, "svg": {"textLineCount": 170, "binByteCount": 0, "inserts": 10, "deletes": 0, "occurrences": 10}, "js": {"textLineCount": 2980, "binByteCount": 0, "inserts": 18, "deletes": 0, "occurrences": 18}, "clj": {"textLineCount": 1106, "binByteCount": 0, "inserts": 46, "deletes": 0, "occurrences": 46}, "air": {"textLineCount": 788, "binByteCount": 0, "inserts": 22, "deletes": 0, "occurrences": 22}, "files": "851", "insertions(+)\n": "402917"}]
+[
+  {
+    "commit": "a9d8f1533fec10b954bfb2116e547e2da3cc6284\n",
+    "Author": " amrosaeed <82784007+amrosaeed@users.noreply.github.com>\n",
+    "Date": "   Sat Sep 11 05",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "60ebf2e51d8f62df21798b891cd8532438d43836\n",
+    "Author": " amrosaeed <82784007+amrosaeed@users.noreply.github.com>\n",
+    "Date": "   Sat Sep 11 05",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 2,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertion(+)": "1",
+    "deletion(-)\n": "1"
+  },
+  {
+    "commit": "bc137b29819247b12f9bbeb0def13ddda6f66b9b\n",
+    "Author": " amrosaeed <82784007+amrosaeed@users.noreply.github.com>\n",
+    "Date": "   Sat Sep 11 05",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 217,
+        "binByteCount": 0,
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)\n": "217"
+  },
+  {
+    "commit": "5629c4b1eae0d9db3dd25e5ada2d91393005a3d0\n",
+    "Author": " amrosaeed <amrosaeed.amin@gmail.com>\n",
+    "Date": "   Sat Sep 11 04",
+    "fileTypes": {
+      "sh": {
+        "textLineCount": 718,
+        "binByteCount": 0,
+        "inserts": 52,
+        "deletes": 0,
+        "occurrences": 52
+      },
+      "yml": {
+        "textLineCount": 233,
+        "binByteCount": 0,
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "gitignore": {
+        "textLineCount": 14,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "null": {
+        "textLineCount": 888,
+        "binByteCount": 0,
+        "inserts": 69,
+        "deletes": 0,
+        "occurrences": 71
+      },
+      "md": {
+        "textLineCount": 5858,
+        "binByteCount": 0,
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 36
+      },
+      "aqua": {
+        "textLineCount": 1748,
+        "binByteCount": 0,
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 26
+      },
+      "json": {
+        "textLineCount": 369338,
+        "binByteCount": 0,
+        "inserts": 275,
+        "deletes": 0,
+        "occurrences": 141
+      },
+      "ts": {
+        "textLineCount": 4870,
+        "binByteCount": 0,
+        "inserts": 54,
+        "deletes": 0,
+        "occurrences": 54
+      },
+      "toml": {
+        "textLineCount": 1513,
+        "binByteCount": 0,
+        "inserts": 110,
+        "deletes": 0,
+        "occurrences": 110
+      },
+      "rs": {
+        "textLineCount": 6927,
+        "binByteCount": 0,
+        "inserts": 99,
+        "deletes": 0,
+        "occurrences": 99
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 7160304,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 48
+      },
+      "ico": {
+        "textLineCount": 0,
+        "binByteCount": 169540,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 14
+      },
+      "html": {
+        "textLineCount": 576,
+        "binByteCount": 0,
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 14
+      },
+      "txt": {
+        "textLineCount": 266,
+        "binByteCount": 0,
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 16
+      },
+      "scss": {
+        "textLineCount": 2716,
+        "binByteCount": 0,
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 18
+      },
+      "tsx": {
+        "textLineCount": 2078,
+        "binByteCount": 0,
+        "inserts": 42,
+        "deletes": 0,
+        "occurrences": 42
+      },
+      "css": {
+        "textLineCount": 130,
+        "binByteCount": 0,
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "svg": {
+        "textLineCount": 170,
+        "binByteCount": 0,
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "js": {
+        "textLineCount": 2980,
+        "binByteCount": 0,
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 18
+      },
+      "clj": {
+        "textLineCount": 1106,
+        "binByteCount": 0,
+        "inserts": 46,
+        "deletes": 0,
+        "occurrences": 46
+      },
+      "air": {
+        "textLineCount": 788,
+        "binByteCount": 0,
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 22
+      }
+    },
+    "files": "851",
+    "insertions(+)\n": "402917"
+  }
+]

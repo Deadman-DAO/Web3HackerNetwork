@@ -1,1 +1,174 @@
-[{"commit": "dc9003f47a28b2af8c72bc272ae1d2ac88e89fb5\n", "Author": " Greg Syme <gjsyme@dezinersoftware.com>\n", "Date": "   Fri Sep 10 20", "md": {"textLineCount": 36, "binByteCount": 0, "inserts": 27, "deletes": 0, "occurrences": 1}, "file": "1", "insertions(+)\n": "36"}, {"commit": "fdb28fe4084b7f182c3da9a8966d6142dd96dfe1\n", "Author": " Greg Syme <gjsyme@dezinersoftware.com>\n", "Date": "   Fri Sep 10 19", "sh": {"textLineCount": 371, "binByteCount": 0, "inserts": 27, "deletes": 0, "occurrences": 27}, "yml": {"textLineCount": 148, "binByteCount": 0, "inserts": 2, "deletes": 0, "occurrences": 2}, "gitignore": {"textLineCount": 14, "binByteCount": 0, "inserts": 1, "deletes": 0, "occurrences": 1}, "md": {"textLineCount": 2822, "binByteCount": 0, "inserts": 18, "deletes": 0, "occurrences": 18}, "null": {"textLineCount": 340, "binByteCount": 0, "inserts": 34, "deletes": 0, "occurrences": 35}, "aqua": {"textLineCount": 903, "binByteCount": 0, "inserts": 13, "deletes": 0, "occurrences": 13}, "json": {"textLineCount": 203524, "binByteCount": 0, "inserts": 149, "deletes": 0, "occurrences": 75}, "ts": {"textLineCount": 2564, "binByteCount": 0, "inserts": 29, "deletes": 0, "occurrences": 29}, "toml": {"textLineCount": 768, "binByteCount": 0, "inserts": 56, "deletes": 0, "occurrences": 56}, "rs": {"textLineCount": 3490, "binByteCount": 0, "inserts": 50, "deletes": 0, "occurrences": 50}, "png": {"textLineCount": 0, "binByteCount": 3307145, "inserts": 0, "deletes": 0, "occurrences": 23}, "ico": {"textLineCount": 0, "binByteCount": 100176, "inserts": 0, "deletes": 0, "occurrences": 8}, "html": {"textLineCount": 327, "binByteCount": 0, "inserts": 8, "deletes": 0, "occurrences": 8}, "txt": {"textLineCount": 136, "binByteCount": 0, "inserts": 9, "deletes": 0, "occurrences": 9}, "scss": {"textLineCount": 1518, "binByteCount": 0, "inserts": 10, "deletes": 0, "occurrences": 10}, "tsx": {"textLineCount": 1203, "binByteCount": 0, "inserts": 23, "deletes": 0, "occurrences": 23}, "css": {"textLineCount": 78, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 6}, "svg": {"textLineCount": 102, "binByteCount": 0, "inserts": 6, "deletes": 0, "occurrences": 6}, "js": {"textLineCount": 1490, "binByteCount": 0, "inserts": 9, "deletes": 0, "occurrences": 9}, "clj": {"textLineCount": 553, "binByteCount": 0, "inserts": 23, "deletes": 0, "occurrences": 23}, "air": {"textLineCount": 394, "binByteCount": 0, "inserts": 11, "deletes": 0, "occurrences": 11}, "files": "442", "insertions(+)\n": "220745"}]
+[
+  {
+    "commit": "dc9003f47a28b2af8c72bc272ae1d2ac88e89fb5\n",
+    "Author": " Greg Syme <gjsyme@dezinersoftware.com>\n",
+    "Date": "   Fri Sep 10 20",
+    "fileTypes": {
+      "md": {
+        "textLineCount": 36,
+        "binByteCount": 0,
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file": "1",
+    "insertions(+)\n": "36"
+  },
+  {
+    "commit": "fdb28fe4084b7f182c3da9a8966d6142dd96dfe1\n",
+    "Author": " Greg Syme <gjsyme@dezinersoftware.com>\n",
+    "Date": "   Fri Sep 10 19",
+    "fileTypes": {
+      "sh": {
+        "textLineCount": 371,
+        "binByteCount": 0,
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 27
+      },
+      "yml": {
+        "textLineCount": 148,
+        "binByteCount": 0,
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "gitignore": {
+        "textLineCount": 14,
+        "binByteCount": 0,
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "textLineCount": 2822,
+        "binByteCount": 0,
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 18
+      },
+      "null": {
+        "textLineCount": 340,
+        "binByteCount": 0,
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 35
+      },
+      "aqua": {
+        "textLineCount": 903,
+        "binByteCount": 0,
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 13
+      },
+      "json": {
+        "textLineCount": 203524,
+        "binByteCount": 0,
+        "inserts": 149,
+        "deletes": 0,
+        "occurrences": 75
+      },
+      "ts": {
+        "textLineCount": 2564,
+        "binByteCount": 0,
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 29
+      },
+      "toml": {
+        "textLineCount": 768,
+        "binByteCount": 0,
+        "inserts": 56,
+        "deletes": 0,
+        "occurrences": 56
+      },
+      "rs": {
+        "textLineCount": 3490,
+        "binByteCount": 0,
+        "inserts": 50,
+        "deletes": 0,
+        "occurrences": 50
+      },
+      "png": {
+        "textLineCount": 0,
+        "binByteCount": 3307145,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 23
+      },
+      "ico": {
+        "textLineCount": 0,
+        "binByteCount": 100176,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "html": {
+        "textLineCount": 327,
+        "binByteCount": 0,
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "txt": {
+        "textLineCount": 136,
+        "binByteCount": 0,
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "scss": {
+        "textLineCount": 1518,
+        "binByteCount": 0,
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "tsx": {
+        "textLineCount": 1203,
+        "binByteCount": 0,
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 23
+      },
+      "css": {
+        "textLineCount": 78,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "svg": {
+        "textLineCount": 102,
+        "binByteCount": 0,
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "js": {
+        "textLineCount": 1490,
+        "binByteCount": 0,
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "clj": {
+        "textLineCount": 553,
+        "binByteCount": 0,
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 23
+      },
+      "air": {
+        "textLineCount": 394,
+        "binByteCount": 0,
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 11
+      }
+    },
+    "files": "442",
+    "insertions(+)\n": "220745"
+  }
+]
