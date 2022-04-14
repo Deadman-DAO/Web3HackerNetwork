@@ -23,14 +23,14 @@
       "air": {
         "textLineCount": 14,
         "binByteCount": 0,
-        "inserts": 12,
+        "inserts": 14,
         "deletes": 0,
         "occurrences": 2
       },
       "json": {
         "textLineCount": 88,
         "binByteCount": 0,
-        "inserts": 73,
+        "inserts": 88,
         "deletes": 0,
         "occurrences": 2
       },
@@ -61,15 +61,15 @@
       "json": {
         "textLineCount": 2738,
         "binByteCount": 0,
-        "inserts": 38,
-        "deletes": 4,
+        "inserts": 1369,
+        "deletes": 1369,
         "occurrences": 2
       },
       "js": {
         "textLineCount": 39,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 19,
+        "deletes": 20,
         "occurrences": 1
       }
     },
@@ -125,15 +125,15 @@
       "sol": {
         "textLineCount": 2218,
         "binByteCount": 0,
-        "inserts": 100,
+        "inserts": 2218,
         "deletes": 0,
         "occurrences": 19
       },
       "js": {
         "textLineCount": 8,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 4,
+        "deletes": 4,
         "occurrences": 1
       }
     },
@@ -199,8 +199,8 @@
       "rs": {
         "textLineCount": 40,
         "binByteCount": 0,
-        "inserts": 35,
-        "deletes": 5,
+        "inserts": 20,
+        "deletes": 20,
         "occurrences": 2
       }
     },
@@ -233,8 +233,8 @@
       "rs": {
         "textLineCount": 33,
         "binByteCount": 0,
-        "inserts": 31,
-        "deletes": 2,
+        "inserts": 33,
+        "deletes": 0,
         "occurrences": 2
       }
     },
@@ -250,28 +250,28 @@
       "lock": {
         "textLineCount": 875,
         "binByteCount": 0,
-        "inserts": 41,
-        "deletes": 5,
+        "inserts": 875,
+        "deletes": 0,
         "occurrences": 2
       },
       "toml": {
         "textLineCount": 24,
         "binByteCount": 0,
-        "inserts": 3,
-        "deletes": 2,
+        "inserts": 12,
+        "deletes": 12,
         "occurrences": 3
       },
       "rs": {
         "textLineCount": 318,
         "binByteCount": 0,
-        "inserts": 17,
-        "deletes": 4,
+        "inserts": 318,
+        "deletes": 0,
         "occurrences": 7
       },
       "json": {
         "textLineCount": 88,
         "binByteCount": 0,
-        "inserts": 6,
+        "inserts": 88,
         "deletes": 0,
         "occurrences": 2
       }
@@ -289,7 +289,7 @@
         "textLineCount": 6,
         "binByteCount": 0,
         "inserts": 2,
-        "deletes": 3,
+        "deletes": 4,
         "occurrences": 1
       },
       "toml": {
@@ -302,8 +302,8 @@
       "rs": {
         "textLineCount": 125,
         "binByteCount": 0,
-        "inserts": 87,
-        "deletes": 10,
+        "inserts": 62,
+        "deletes": 63,
         "occurrences": 4
       }
     },
@@ -333,8 +333,8 @@
       "rs": {
         "textLineCount": 42,
         "binByteCount": 0,
-        "inserts": 39,
-        "deletes": 3,
+        "inserts": 42,
+        "deletes": 0,
         "occurrences": 2
       }
     },
@@ -364,8 +364,8 @@
       "rs": {
         "textLineCount": 139,
         "binByteCount": 0,
-        "inserts": 72,
-        "deletes": 9,
+        "inserts": 92,
+        "deletes": 47,
         "occurrences": 4
       }
     },
@@ -381,22 +381,22 @@
       "lock": {
         "textLineCount": 512,
         "binByteCount": 0,
-        "inserts": 43,
-        "deletes": 2,
+        "inserts": 0,
+        "deletes": 512,
         "occurrences": 2
       },
       "toml": {
         "textLineCount": 21,
         "binByteCount": 0,
-        "inserts": 3,
-        "deletes": 1,
+        "inserts": 21,
+        "deletes": 0,
         "occurrences": 3
       },
       "rs": {
         "textLineCount": 321,
         "binByteCount": 0,
-        "inserts": 31,
-        "deletes": 2,
+        "inserts": 321,
+        "deletes": 0,
         "occurrences": 8
       }
     },
@@ -413,35 +413,35 @@
         "textLineCount": 3,
         "binByteCount": 0,
         "inserts": 1,
-        "deletes": 1,
+        "deletes": 2,
         "occurrences": 1
       },
       "toml": {
         "textLineCount": 32,
         "binByteCount": 0,
-        "inserts": 5,
-        "deletes": 1,
+        "inserts": 32,
+        "deletes": 0,
         "occurrences": 2
       },
       "sh": {
         "textLineCount": 7,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 3,
+        "deletes": 4,
         "occurrences": 1
       },
       "lock": {
         "textLineCount": 262,
         "binByteCount": 0,
-        "inserts": 47,
+        "inserts": 262,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
         "textLineCount": 45,
         "binByteCount": 0,
-        "inserts": 7,
-        "deletes": 2,
+        "inserts": 22,
+        "deletes": 23,
         "occurrences": 2
       }
     },
@@ -457,29 +457,29 @@
       "gitignore": {
         "textLineCount": 4,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 2,
+        "deletes": 2,
         "occurrences": 1
       },
       "sol": {
         "textLineCount": 19,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 19,
         "deletes": 0,
         "occurrences": 1
       },
       "js": {
         "textLineCount": 125,
         "binByteCount": 0,
-        "inserts": 3,
+        "inserts": 125,
         "deletes": 0,
         "occurrences": 3
       },
       "json": {
         "textLineCount": 33398,
         "binByteCount": 0,
-        "inserts": 24,
-        "deletes": 1,
+        "inserts": 0,
+        "deletes": 33398,
         "occurrences": 3
       },
       "noexttext": {
@@ -493,7 +493,7 @@
         "textLineCount": 34,
         "binByteCount": 0,
         "inserts": 0,
-        "deletes": 1,
+        "deletes": 34,
         "occurrences": 1
       }
     },
@@ -523,8 +523,8 @@
       "rs": {
         "textLineCount": 49,
         "binByteCount": 0,
-        "inserts": 33,
-        "deletes": 16,
+        "inserts": 28,
+        "deletes": 21,
         "occurrences": 3
       }
     },
@@ -540,29 +540,29 @@
       "lock": {
         "textLineCount": 205,
         "binByteCount": 0,
-        "inserts": 36,
-        "deletes": 24,
+        "inserts": 123,
+        "deletes": 82,
         "occurrences": 1
       },
       "toml": {
         "textLineCount": 4,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 2,
+        "deletes": 2,
         "occurrences": 1
       },
       "sh": {
         "textLineCount": 6,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 3,
+        "deletes": 3,
         "occurrences": 1
       },
       "rs": {
         "textLineCount": 40,
         "binByteCount": 0,
-        "inserts": 6,
-        "deletes": 7,
+        "inserts": 17,
+        "deletes": 23,
         "occurrences": 3
       }
     },
@@ -578,21 +578,21 @@
       "lock": {
         "textLineCount": 225,
         "binByteCount": 0,
-        "inserts": 59,
-        "deletes": 1,
+        "inserts": 221,
+        "deletes": 4,
         "occurrences": 1
       },
       "toml": {
         "textLineCount": 2,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 2,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
         "textLineCount": 6,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 6,
         "deletes": 0,
         "occurrences": 1
       }
@@ -609,29 +609,29 @@
       "lock": {
         "textLineCount": 18,
         "binByteCount": 0,
-        "inserts": 2,
-        "deletes": 3,
+        "inserts": 7,
+        "deletes": 11,
         "occurrences": 1
       },
       "toml": {
         "textLineCount": 6,
         "binByteCount": 0,
-        "inserts": 2,
-        "deletes": 2,
+        "inserts": 3,
+        "deletes": 3,
         "occurrences": 2
       },
       "sh": {
         "textLineCount": 6,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 3,
+        "deletes": 3,
         "occurrences": 1
       },
       "rs": {
         "textLineCount": 372,
         "binByteCount": 0,
-        "inserts": 52,
-        "deletes": 39,
+        "inserts": 179,
+        "deletes": 193,
         "occurrences": 3
       }
     },
@@ -679,7 +679,7 @@
       "clj": {
         "textLineCount": 48,
         "binByteCount": 0,
-        "inserts": 36,
+        "inserts": 48,
         "deletes": 0,
         "occurrences": 1
       }
@@ -745,8 +745,8 @@
       "rs": {
         "textLineCount": 40,
         "binByteCount": 0,
-        "inserts": 17,
-        "deletes": 23,
+        "inserts": 20,
+        "deletes": 20,
         "occurrences": 2
       }
     },
@@ -762,8 +762,8 @@
       "rs": {
         "textLineCount": 46,
         "binByteCount": 0,
-        "inserts": 44,
-        "deletes": 2,
+        "inserts": 46,
+        "deletes": 0,
         "occurrences": 2
       }
     },
@@ -796,8 +796,8 @@
       "rs": {
         "textLineCount": 38,
         "binByteCount": 0,
-        "inserts": 36,
-        "deletes": 2,
+        "inserts": 34,
+        "deletes": 4,
         "occurrences": 2
       }
     },
@@ -813,8 +813,8 @@
       "rs": {
         "textLineCount": 63,
         "binByteCount": 0,
-        "inserts": 57,
-        "deletes": 6,
+        "inserts": 52,
+        "deletes": 11,
         "occurrences": 2
       }
     },
@@ -830,8 +830,8 @@
       "rs": {
         "textLineCount": 25,
         "binByteCount": 0,
-        "inserts": 24,
-        "deletes": 1,
+        "inserts": 22,
+        "deletes": 3,
         "occurrences": 2
       }
     },
@@ -847,8 +847,8 @@
       "rs": {
         "textLineCount": 72,
         "binByteCount": 0,
-        "inserts": 49,
-        "deletes": 23,
+        "inserts": 72,
+        "deletes": 0,
         "occurrences": 2
       }
     },
@@ -887,15 +887,15 @@
       "lock": {
         "textLineCount": 64,
         "binByteCount": 0,
-        "inserts": 56,
-        "deletes": 5,
+        "inserts": 58,
+        "deletes": 6,
         "occurrences": 1
       },
       "toml": {
         "textLineCount": 18,
         "binByteCount": 0,
         "inserts": 16,
-        "deletes": 1,
+        "deletes": 2,
         "occurrences": 2
       },
       "sh": {
@@ -908,7 +908,7 @@
       "rs": {
         "textLineCount": 59,
         "binByteCount": 0,
-        "inserts": 56,
+        "inserts": 59,
         "deletes": 0,
         "occurrences": 2
       }
@@ -956,35 +956,35 @@
       "gitignore": {
         "textLineCount": 3,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 3,
         "deletes": 0,
         "occurrences": 1
       },
       "lock": {
         "textLineCount": 178,
         "binByteCount": 0,
-        "inserts": 60,
+        "inserts": 178,
         "deletes": 0,
         "occurrences": 1
       },
       "toml": {
         "textLineCount": 19,
         "binByteCount": 0,
-        "inserts": 7,
+        "inserts": 19,
         "deletes": 0,
         "occurrences": 2
       },
       "sh": {
         "textLineCount": 8,
         "binByteCount": 0,
-        "inserts": 3,
+        "inserts": 8,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
         "textLineCount": 11,
         "binByteCount": 0,
-        "inserts": 4,
+        "inserts": 11,
         "deletes": 0,
         "occurrences": 1
       }

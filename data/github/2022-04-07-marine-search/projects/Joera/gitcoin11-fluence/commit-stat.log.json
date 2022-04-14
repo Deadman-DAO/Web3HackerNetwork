@@ -57,7 +57,7 @@
       "aqua": {
         "textLineCount": 44,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 44,
         "deletes": 0,
         "occurrences": 1
       },
@@ -71,7 +71,7 @@
       "rs": {
         "textLineCount": 200,
         "binByteCount": 0,
-        "inserts": 8,
+        "inserts": 200,
         "deletes": 0,
         "occurrences": 7
       },
@@ -92,35 +92,35 @@
       "sh": {
         "textLineCount": 13,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 13,
         "deletes": 0,
         "occurrences": 1
       },
       "toml": {
         "textLineCount": 29,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 29,
         "deletes": 0,
         "occurrences": 2
       },
       "json": {
         "textLineCount": 5,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 5,
         "deletes": 0,
         "occurrences": 1
       },
       "noexttext": {
         "textLineCount": 5,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 5,
         "deletes": 0,
         "occurrences": 1
       },
       "lock": {
         "textLineCount": 987,
         "binByteCount": 0,
-        "inserts": 25,
+        "inserts": 987,
         "deletes": 0,
         "occurrences": 1
       }
@@ -136,15 +136,15 @@
       "air": {
         "textLineCount": 1227,
         "binByteCount": 0,
-        "inserts": 23,
-        "deletes": 11,
+        "inserts": 613,
+        "deletes": 614,
         "occurrences": 11
       },
       "aqua": {
         "textLineCount": 147,
         "binByteCount": 0,
-        "inserts": 6,
-        "deletes": 4,
+        "inserts": 73,
+        "deletes": 74,
         "occurrences": 5
       },
       "wasm": {
@@ -157,29 +157,29 @@
       "sh": {
         "textLineCount": 29,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 2,
+        "inserts": 0,
+        "deletes": 29,
         "occurrences": 2
       },
       "toml": {
         "textLineCount": 68,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 5,
+        "inserts": 0,
+        "deletes": 68,
         "occurrences": 5
       },
       "lock": {
         "textLineCount": 1532,
         "binByteCount": 0,
-        "inserts": 2,
-        "deletes": 37,
+        "inserts": 0,
+        "deletes": 1532,
         "occurrences": 5
       },
       "rs": {
         "textLineCount": 436,
         "binByteCount": 0,
-        "inserts": 3,
-        "deletes": 12,
+        "inserts": 0,
+        "deletes": 436,
         "occurrences": 8
       },
       "md": {
@@ -192,22 +192,22 @@
       "json": {
         "textLineCount": 153,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 88,
+        "inserts": 76,
+        "deletes": 77,
         "occurrences": 88
       },
       "noexttext": {
         "textLineCount": 177,
         "binByteCount": 0,
         "inserts": 0,
-        "deletes": 114,
+        "deletes": 177,
         "occurrences": 131
       },
       "TAG": {
         "textLineCount": 6,
         "binByteCount": 0,
         "inserts": 0,
-        "deletes": 2,
+        "deletes": 6,
         "occurrences": 2
       },
       "noextbin": {
@@ -228,14 +228,14 @@
         "textLineCount": 879,
         "binByteCount": 0,
         "inserts": 0,
-        "deletes": 69,
+        "deletes": 879,
         "occurrences": 67
       },
       "ll": {
         "textLineCount": 86,
         "binByteCount": 0,
         "inserts": 0,
-        "deletes": 6,
+        "deletes": 86,
         "occurrences": 5
       },
       "rlib": {
@@ -272,15 +272,15 @@
       "air": {
         "textLineCount": 669,
         "binByteCount": 0,
-        "inserts": 17,
-        "deletes": 2,
+        "inserts": 669,
+        "deletes": 0,
         "occurrences": 8
       },
       "aqua": {
         "textLineCount": 186,
         "binByteCount": 0,
-        "inserts": 6,
-        "deletes": 2,
+        "inserts": 93,
+        "deletes": 93,
         "occurrences": 4
       },
       "wasm": {
@@ -293,63 +293,63 @@
       "md": {
         "textLineCount": 54,
         "binByteCount": 0,
-        "inserts": 2,
-        "deletes": 3,
+        "inserts": 54,
+        "deletes": 0,
         "occurrences": 5
       },
       "sh": {
         "textLineCount": 36,
         "binByteCount": 0,
-        "inserts": 3,
-        "deletes": 2,
+        "inserts": 36,
+        "deletes": 0,
         "occurrences": 3
       },
       "lock": {
         "textLineCount": 1913,
         "binByteCount": 0,
-        "inserts": 30,
-        "deletes": 21,
+        "inserts": 1913,
+        "deletes": 0,
         "occurrences": 7
       },
       "toml": {
         "textLineCount": 83,
         "binByteCount": 0,
-        "inserts": 5,
-        "deletes": 1,
+        "inserts": 83,
+        "deletes": 0,
         "occurrences": 9
       },
       "rs": {
         "textLineCount": 1061,
         "binByteCount": 0,
-        "inserts": 28,
-        "deletes": 8,
+        "inserts": 1061,
+        "deletes": 0,
         "occurrences": 18
       },
       "json": {
         "textLineCount": 152,
         "binByteCount": 0,
-        "inserts": 89,
-        "deletes": 1,
+        "inserts": 152,
+        "deletes": 0,
         "occurrences": 92
       },
       "noexttext": {
         "textLineCount": 177,
         "binByteCount": 0,
-        "inserts": 114,
+        "inserts": 177,
         "deletes": 0,
         "occurrences": 133
       },
       "csv": {
         "textLineCount": 55,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 55,
         "deletes": 0,
         "occurrences": 1
       },
       "TAG": {
         "textLineCount": 6,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 6,
         "deletes": 0,
         "occurrences": 2
       },
@@ -370,14 +370,14 @@
       "d": {
         "textLineCount": 879,
         "binByteCount": 0,
-        "inserts": 69,
+        "inserts": 879,
         "deletes": 0,
         "occurrences": 67
       },
       "ll": {
         "textLineCount": 86,
         "binByteCount": 0,
-        "inserts": 6,
+        "inserts": 86,
         "deletes": 0,
         "occurrences": 5
       },
@@ -415,15 +415,15 @@
       "aqua": {
         "textLineCount": 4,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 4,
         "deletes": 0,
         "occurrences": 1
       },
       "md": {
         "textLineCount": 2504,
         "binByteCount": 0,
-        "inserts": 2,
-        "deletes": 210,
+        "inserts": 0,
+        "deletes": 2504,
         "occurrences": 6
       },
       "rs": {
@@ -446,35 +446,35 @@
       "gitignore": {
         "textLineCount": 6,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 6,
         "deletes": 0,
         "occurrences": 1
       },
       "air": {
         "textLineCount": 1666,
         "binByteCount": 0,
-        "inserts": 39,
+        "inserts": 1666,
         "deletes": 0,
         "occurrences": 26
       },
       "aqua": {
         "textLineCount": 619,
         "binByteCount": 0,
-        "inserts": 14,
+        "inserts": 619,
         "deletes": 0,
         "occurrences": 9
       },
       "toml": {
         "textLineCount": 366,
         "binByteCount": 0,
-        "inserts": 21,
+        "inserts": 366,
         "deletes": 0,
         "occurrences": 21
       },
       "md": {
         "textLineCount": 2568,
         "binByteCount": 0,
-        "inserts": 42,
+        "inserts": 2568,
         "deletes": 0,
         "occurrences": 12
       },
@@ -488,42 +488,42 @@
       "sh": {
         "textLineCount": 117,
         "binByteCount": 0,
-        "inserts": 6,
+        "inserts": 117,
         "deletes": 0,
         "occurrences": 6
       },
       "json": {
         "textLineCount": 355,
         "binByteCount": 0,
-        "inserts": 31,
+        "inserts": 355,
         "deletes": 0,
         "occurrences": 31
       },
       "noexttext": {
         "textLineCount": 60,
         "binByteCount": 0,
-        "inserts": 12,
+        "inserts": 60,
         "deletes": 0,
         "occurrences": 12
       },
       "lock": {
         "textLineCount": 9066,
         "binByteCount": 0,
-        "inserts": 122,
+        "inserts": 9066,
         "deletes": 0,
         "occurrences": 12
       },
       "rs": {
         "textLineCount": 1649,
         "binByteCount": 0,
-        "inserts": 34,
+        "inserts": 1649,
         "deletes": 0,
         "occurrences": 24
       },
       "graphql": {
         "textLineCount": 423,
         "binByteCount": 0,
-        "inserts": 9,
+        "inserts": 423,
         "deletes": 0,
         "occurrences": 6
       }

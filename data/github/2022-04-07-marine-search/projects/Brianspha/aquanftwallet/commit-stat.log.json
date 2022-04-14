@@ -47,8 +47,8 @@
       "json": {
         "textLineCount": 32,
         "binByteCount": 0,
-        "inserts": 6,
-        "deletes": 1,
+        "inserts": 32,
+        "deletes": 0,
         "occurrences": 2
       },
       "html": {
@@ -61,29 +61,29 @@
       "vue": {
         "textLineCount": 33,
         "binByteCount": 0,
-        "inserts": 5,
-        "deletes": 2,
+        "inserts": 22,
+        "deletes": 11,
         "occurrences": 2
       },
       "js": {
         "textLineCount": 247,
         "binByteCount": 0,
-        "inserts": 38,
-        "deletes": 5,
+        "inserts": 134,
+        "deletes": 113,
         "occurrences": 2
       },
       "ts": {
         "textLineCount": 6,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 3,
+        "deletes": 3,
         "occurrences": 1
       },
       "lock": {
         "textLineCount": 206,
         "binByteCount": 0,
-        "inserts": 34,
-        "deletes": 2,
+        "inserts": 194,
+        "deletes": 12,
         "occurrences": 1
       }
     },
@@ -99,56 +99,56 @@
       "aqua": {
         "textLineCount": 27,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 27,
         "deletes": 0,
         "occurrences": 1
       },
       "sh": {
         "textLineCount": 19,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 19,
         "deletes": 0,
         "occurrences": 2
       },
       "noexttext": {
         "textLineCount": 104,
         "binByteCount": 0,
-        "inserts": 74,
+        "inserts": 104,
         "deletes": 0,
         "occurrences": 88
       },
       "toml": {
         "textLineCount": 24,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 24,
         "deletes": 0,
         "occurrences": 2
       },
       "lock": {
         "textLineCount": 2266,
         "binByteCount": 0,
-        "inserts": 2,
-        "deletes": 1,
+        "inserts": 1133,
+        "deletes": 1133,
         "occurrences": 2
       },
       "json": {
         "textLineCount": 49186,
         "binByteCount": 0,
-        "inserts": 85,
-        "deletes": 7,
+        "inserts": 44008,
+        "deletes": 5178,
         "occurrences": 58
       },
       "rs": {
         "textLineCount": 61,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 61,
         "deletes": 0,
         "occurrences": 1
       },
       "TAG": {
         "textLineCount": 6,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 6,
         "deletes": 0,
         "occurrences": 2
       },
@@ -169,14 +169,14 @@
       "d": {
         "textLineCount": 513,
         "binByteCount": 0,
-        "inserts": 41,
+        "inserts": 513,
         "deletes": 0,
         "occurrences": 41
       },
       "ll": {
         "textLineCount": 81,
         "binByteCount": 0,
-        "inserts": 5,
+        "inserts": 81,
         "deletes": 0,
         "occurrences": 5
       },
@@ -211,22 +211,22 @@
       "js": {
         "textLineCount": 74,
         "binByteCount": 0,
-        "inserts": 4,
-        "deletes": 2,
+        "inserts": 74,
+        "deletes": 0,
         "occurrences": 4
       },
       "ts": {
         "textLineCount": 352,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 352,
         "deletes": 0,
         "occurrences": 1
       },
       "vue": {
         "textLineCount": 182,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 91,
+        "deletes": 91,
         "occurrences": 1
       }
     },
@@ -242,22 +242,22 @@
       "env": {
         "textLineCount": 8,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 8,
         "deletes": 0,
         "occurrences": 1
       },
       "js": {
         "textLineCount": 144,
         "binByteCount": 0,
-        "inserts": 4,
-        "deletes": 1,
+        "inserts": 72,
+        "deletes": 72,
         "occurrences": 4
       },
       "json": {
         "textLineCount": 13003,
         "binByteCount": 0,
-        "inserts": 16,
-        "deletes": 16,
+        "inserts": 13003,
+        "deletes": 0,
         "occurrences": 3
       },
       "wasm": {
@@ -277,14 +277,14 @@
       "vue": {
         "textLineCount": 289,
         "binByteCount": 0,
-        "inserts": 4,
-        "deletes": 2,
+        "inserts": 289,
+        "deletes": 0,
         "occurrences": 4
       },
       "lock": {
         "textLineCount": 13609,
         "binByteCount": 0,
-        "inserts": 31,
+        "inserts": 13609,
         "deletes": 0,
         "occurrences": 1
       }
@@ -301,22 +301,22 @@
       "json": {
         "textLineCount": 25767,
         "binByteCount": 0,
-        "inserts": 28,
-        "deletes": 14,
+        "inserts": 12883,
+        "deletes": 12884,
         "occurrences": 2
       },
       "html": {
         "textLineCount": 4,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
+        "inserts": 2,
+        "deletes": 2,
         "occurrences": 1
       },
       "vue": {
         "textLineCount": 284,
         "binByteCount": 0,
-        "inserts": 4,
-        "deletes": 2,
+        "inserts": 284,
+        "deletes": 0,
         "occurrences": 4
       },
       "svg": {
@@ -329,8 +329,8 @@
       "js": {
         "textLineCount": 61,
         "binByteCount": 0,
-        "inserts": 5,
-        "deletes": 1,
+        "inserts": 61,
+        "deletes": 0,
         "occurrences": 5
       }
     },
@@ -346,28 +346,28 @@
       "gitignore": {
         "textLineCount": 23,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 23,
         "deletes": 0,
         "occurrences": 1
       },
       "md": {
         "textLineCount": 24,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 24,
         "deletes": 0,
         "occurrences": 1
       },
       "js": {
         "textLineCount": 13,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 13,
         "deletes": 0,
         "occurrences": 2
       },
       "json": {
         "textLineCount": 27464,
         "binByteCount": 0,
-        "inserts": 41,
+        "inserts": 27464,
         "deletes": 0,
         "occurrences": 2
       },
@@ -381,14 +381,14 @@
       "html": {
         "textLineCount": 17,
         "binByteCount": 0,
-        "inserts": 1,
+        "inserts": 17,
         "deletes": 0,
         "occurrences": 1
       },
       "vue": {
         "textLineCount": 86,
         "binByteCount": 0,
-        "inserts": 2,
+        "inserts": 86,
         "deletes": 0,
         "occurrences": 2
       },

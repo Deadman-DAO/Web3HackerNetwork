@@ -133,7 +133,7 @@ Date:   Sun Aug 15 16:18:13 2021 +0200
 
  service/articfacts/transformation_2.wasm | Bin 0 -> 82988 bytes
  src/redux/ipfs/action.js                 |   1 +
- src/redux/transformation/action.js       |  90 ++++++++++++++++++++-----------
+ src/redux/transformation/action.js       |  90 ++++++++++ ++++++++++ ---------- -
  src/views/DatasetDetails.js              |   7 +--
  src/views/TransformationDetails.js       |   2 +-
  5 files changed, 66 insertions(+), 34 deletions(-)
@@ -2958,7 +2958,7 @@ Date:   Fri Mar 6 17:09:42 2020 +0200
 
     feature: add gulpfile for CT copyrights
 
- gulpfile.js | 77 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ gulpfile.js | 77 ++++++++++ ++++++++++ +++++++++ ++++++++++ +++++++++ +++++++++ ++++
  1 file changed, 77 insertions(+)
 
 commit 9c775f527674eed1ce9be9d8f6a11bd05bca7c1b
@@ -2967,7 +2967,7 @@ Date:   Fri Mar 6 17:05:49 2020 +0200
 
     refactor: change jsx to js
 
- README.md                  | 32 ++++++++++++++++----------------
+ README.md                  | 32 ++++++++++ ++++++---- ---------- --
  src/index.js               |  4 ++--
  src/layouts/Admin/Admin.js |  8 ++++----
  src/layouts/RTL/RTL.js     |  8 ++++----
@@ -3203,7 +3203,7 @@ Date:   Thu Nov 29 11:47:21 2018 +0200
  package.json                                       |   2 +-
  src/assets/css/black-dashboard-react.css           |   2 +-
  src/assets/demo/demo.css                           |  61 +-
- .../custom/_sidebar-and-main-panel.scss            | 992 ++++++++++-----------
+ .../custom/_sidebar-and-main-panel.scss            | 992 ++++++++++ ---------- -
  5 files changed, 619 insertions(+), 552 deletions(-)
 
 commit 7079340a8b343b7e89849549fa0c2121a6d535d7
