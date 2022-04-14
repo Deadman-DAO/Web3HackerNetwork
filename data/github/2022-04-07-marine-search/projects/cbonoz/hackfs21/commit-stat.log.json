@@ -256,12 +256,12 @@
         "deletes": 1,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 617,
-        "binByteCount": -64849386,
+        "binByteCount": 0,
         "inserts": 0,
         "deletes": 458,
-        "occurrences": 897
+        "occurrences": 518
       },
       "TAG": {
         "textLineCount": 6,
@@ -269,6 +269,13 @@
         "inserts": 0,
         "deletes": 2,
         "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": -64849386,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 379
       },
       "timestamp": {
         "textLineCount": 328,
@@ -427,12 +434,12 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 617,
-        "binByteCount": 64849386,
+        "binByteCount": 0,
         "inserts": 451,
         "deletes": 0,
-        "occurrences": 897
+        "occurrences": 518
       },
       "TAG": {
         "textLineCount": 6,
@@ -440,6 +447,13 @@
         "inserts": 2,
         "deletes": 0,
         "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": 64849386,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 379
       },
       "timestamp": {
         "textLineCount": 328,
@@ -824,7 +838,7 @@
         "deletes": 1,
         "occurrences": 11
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
@@ -986,7 +1000,7 @@
     "Author": "Chris Buonocore <chrisdistrict@gmail.com>",
     "Date": "Date:   Sat Aug 7 15:39:00 2021 -0400",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 0,
@@ -1052,7 +1066,7 @@
         "deletes": 1,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
@@ -1135,12 +1149,12 @@
         "deletes": 2523,
         "occurrences": 2524
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 77345,
-        "binByteCount": -34254,
+        "binByteCount": 0,
         "inserts": 0,
         "deletes": 2439,
-        "occurrences": 2455
+        "occurrences": 2450
       },
       "js": {
         "textLineCount": 3225742,
@@ -1562,6 +1576,13 @@
         "deletes": 2,
         "occurrences": 2
       },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": -34254,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      },
       "1": {
         "textLineCount": 546,
         "binByteCount": 0,
@@ -1747,12 +1768,12 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 77764,
-        "binByteCount": 34254,
+        "binByteCount": 0,
         "inserts": 2454,
         "deletes": 0,
-        "occurrences": 2470
+        "occurrences": 2465
       },
       "md": {
         "textLineCount": 364088,
@@ -2180,6 +2201,13 @@
         "inserts": 2,
         "deletes": 0,
         "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": 34254,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
       },
       "1": {
         "textLineCount": 546,

@@ -4,7 +4,7 @@
     "Author": "Gabriel Parlea <g_p-h@hotmail.com>",
     "Date": "Date:   Sat Sep 11 22:03:50 2021 +0300",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 2,
         "binByteCount": 0,
         "inserts": 1,
@@ -21,7 +21,7 @@
     "Author": "Gabriel Parlea <g_p-h@hotmail.com>",
     "Date": "Date:   Sat Sep 11 22:02:21 2021 +0300",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 2,
         "binByteCount": 0,
         "inserts": 2,
@@ -37,7 +37,7 @@
     "Author": "Gabriel Parlea <g_p-h@hotmail.com>",
     "Date": "Date:   Fri Sep 10 21:17:12 2021 +0300",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 15,
         "binByteCount": 0,
         "inserts": 15,
@@ -111,7 +111,7 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Mon Sep 6 09:42:02 2021 -0500",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -948,7 +948,7 @@
         "deletes": 21,
         "occurrences": 2
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -1253,7 +1253,7 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Sun Aug 1 17:06:43 2021 -0500",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -1374,7 +1374,7 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Sun Aug 1 17:03:35 2021 -0500",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -1764,7 +1764,7 @@
     "Author": "folex <0xdxdy@gmail.com>",
     "Date": "Date:   Wed Jul 21 11:37:25 2021 +0300",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 43,
         "binByteCount": 0,
         "inserts": 3,
@@ -1947,7 +1947,7 @@
     "Author": "Pavel <Pavel.Murygin@gmail.com>",
     "Date": "Date:   Tue Jul 20 14:00:26 2021 +0300",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 76,
         "binByteCount": 0,
         "inserts": 4,
@@ -2248,7 +2248,7 @@
         "deletes": 1,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 23,
         "binByteCount": 0,
         "inserts": 1,
@@ -2497,7 +2497,7 @@
         "deletes": 1,
         "occurrences": 31
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 7,
         "binByteCount": 0,
         "inserts": 0,
@@ -2790,7 +2790,7 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Thu Jun 17 19:56:02 2021 -0500",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 5,
         "binByteCount": 0,
         "inserts": 2,
@@ -3250,7 +3250,7 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Sun Jun 13 15:25:55 2021 -0500",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -4008,7 +4008,7 @@
         "deletes": 0,
         "occurrences": 3
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -4115,7 +4115,7 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Fri Apr 9 22:50:07 2021 -0500",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 7,
         "binByteCount": 0,
         "inserts": 1,
@@ -4267,7 +4267,7 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Thu Apr 8 00:08:22 2021 -0500",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 14,
         "binByteCount": 0,
         "inserts": 4,
@@ -4755,7 +4755,7 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Mon Mar 8 11:54:47 2021 -0600",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 17,
         "binByteCount": 0,
         "inserts": 17,
@@ -4799,19 +4799,12 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "json}": {
-        "textLineCount": 0,
-        "binByteCount": 0,
-        "inserts": 0,
-        "deletes": 0,
-        "occurrences": 1
-      },
       "json": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
-        "occurrences": 1
+        "occurrences": 2
       },
       "rs": {
         "textLineCount": 430,
@@ -4820,7 +4813,7 @@
         "deletes": 0,
         "occurrences": 4
       },
-      "bk2}": {
+      "bk2": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -5131,7 +5124,7 @@
         "deletes": 0,
         "occurrences": 3
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 8,
         "binByteCount": 0,
         "inserts": 3,
@@ -5250,12 +5243,12 @@
         "deletes": 1,
         "occurrences": 1
       },
-      "air}": {
-        "textLineCount": 0,
+      "air": {
+        "textLineCount": 10,
         "binByteCount": 0,
-        "inserts": 0,
+        "inserts": 10,
         "deletes": 0,
-        "occurrences": 1
+        "occurrences": 2
       },
       "json": {
         "textLineCount": 13,
@@ -5269,13 +5262,6 @@
         "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
-        "occurrences": 1
-      },
-      "air": {
-        "textLineCount": 10,
-        "binByteCount": 0,
-        "inserts": 10,
-        "deletes": 0,
         "occurrences": 1
       },
       "clj": {
@@ -5342,7 +5328,7 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Thu Feb 25 16:26:05 2021 -0600",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 48,
         "binByteCount": 0,
         "inserts": 5,
@@ -5581,7 +5567,7 @@
         "deletes": 1,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 35,
         "binByteCount": 0,
         "inserts": 15,
@@ -5675,7 +5661,7 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 32,
         "binByteCount": 0,
         "inserts": 2,
@@ -5740,12 +5726,19 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Thu Feb 25 13:41:11 2021 -0600",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 9,
-        "binByteCount": -6148,
+        "binByteCount": 0,
         "inserts": 8,
         "deletes": 1,
-        "occurrences": 3
+        "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": -6148,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
       }
     },
     "files": "3",
@@ -5757,12 +5750,19 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Thu Feb 25 13:37:23 2021 -0600",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 19,
-        "binByteCount": -22540,
+        "binByteCount": 0,
         "inserts": 0,
         "deletes": 3,
-        "occurrences": 4
+        "occurrences": 1
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": -22540,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
       },
       "bk": {
         "textLineCount": 176,
@@ -5780,12 +5780,19 @@
     "Author": "boneyard93501 <4523011+boneyard93501@users.noreply.github.com>",
     "Date": "Date:   Thu Feb 25 13:33:01 2021 -0600",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 31,
-        "binByteCount": 22540,
+        "binByteCount": 0,
         "inserts": 5,
         "deletes": 0,
-        "occurrences": 6
+        "occurrences": 3
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": 22540,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
       },
       "toml": {
         "textLineCount": 41,
@@ -5852,12 +5859,19 @@
         "deletes": 0,
         "occurrences": 2
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 7,
-        "binByteCount": 6148,
+        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
-        "occurrences": 2
+        "occurrences": 1
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": 6148,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
       },
       "lock": {
         "textLineCount": 324,

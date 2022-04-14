@@ -4,7 +4,7 @@
     "Author": "danielssonn <123456kolokol>",
     "Date": "Date:   Thu Feb 10 11:07:27 2022 -0500",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 6,
         "binByteCount": 0,
         "inserts": 2,
@@ -178,12 +178,12 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 138,
-        "binByteCount": 10883056,
+        "binByteCount": 0,
         "inserts": 75,
         "deletes": 0,
-        "occurrences": 147
+        "occurrences": 89
       },
       "lock": {
         "textLineCount": 265,
@@ -219,6 +219,13 @@
         "inserts": 2,
         "deletes": 0,
         "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": 10883056,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 58
       },
       "timestamp": {
         "textLineCount": 51,

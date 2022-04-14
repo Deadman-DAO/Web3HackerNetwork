@@ -110,12 +110,12 @@
         "deletes": 0,
         "occurrences": 2
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 104,
-        "binByteCount": 12047536,
+        "binByteCount": 0,
         "inserts": 74,
         "deletes": 0,
-        "occurrences": 148
+        "occurrences": 88
       },
       "toml": {
         "textLineCount": 24,
@@ -151,6 +151,13 @@
         "inserts": 2,
         "deletes": 0,
         "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": 12047536,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 60
       },
       "timestamp": {
         "textLineCount": 51,

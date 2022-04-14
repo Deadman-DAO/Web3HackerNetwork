@@ -110,7 +110,7 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 5,
         "binByteCount": 0,
         "inserts": 1,
@@ -196,12 +196,12 @@
         "deletes": 88,
         "occurrences": 88
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 177,
-        "binByteCount": -92338992,
+        "binByteCount": 0,
         "inserts": 0,
         "deletes": 114,
-        "occurrences": 223
+        "occurrences": 131
       },
       "TAG": {
         "textLineCount": 6,
@@ -209,6 +209,13 @@
         "inserts": 0,
         "deletes": 2,
         "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": -92338992,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 92
       },
       "timestamp": {
         "textLineCount": 81,
@@ -325,12 +332,12 @@
         "deletes": 1,
         "occurrences": 92
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 177,
-        "binByteCount": 92338992,
+        "binByteCount": 0,
         "inserts": 114,
         "deletes": 0,
-        "occurrences": 225
+        "occurrences": 133
       },
       "csv": {
         "textLineCount": 55,
@@ -345,6 +352,13 @@
         "inserts": 2,
         "deletes": 0,
         "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": 92338992,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 92
       },
       "timestamp": {
         "textLineCount": 81,
@@ -485,7 +499,7 @@
         "deletes": 0,
         "occurrences": 31
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 60,
         "binByteCount": 0,
         "inserts": 12,

@@ -52,26 +52,19 @@
     "Author": "Christian Martinez <christianbm1@gmail.com>",
     "Date": "Date:   Wed Aug 25 00:29:15 2021 -0400",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
-      "sol}": {
-        "textLineCount": 28,
-        "binByteCount": 0,
-        "inserts": 5,
-        "deletes": 6,
-        "occurrences": 1
-      },
       "sol": {
-        "textLineCount": 85,
+        "textLineCount": 113,
         "binByteCount": 0,
-        "inserts": 33,
-        "deletes": 0,
-        "occurrences": 1
+        "inserts": 38,
+        "deletes": 6,
+        "occurrences": 2
       },
       "js": {
         "textLineCount": 51,
@@ -106,12 +99,12 @@
     "Author": "Christian Martinez <christianbm1@gmail.com>",
     "Date": "Date:   Sun Aug 22 01:31:02 2021 -0400",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 243,
-        "binByteCount": -26230392,
+        "binByteCount": 0,
         "inserts": 0,
         "deletes": 190,
-        "occurrences": 326
+        "occurrences": 193
       },
       "TAG": {
         "textLineCount": 6,
@@ -119,6 +112,13 @@
         "inserts": 0,
         "deletes": 4,
         "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": -26230392,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 133
       },
       "timestamp": {
         "textLineCount": 112,
@@ -206,7 +206,7 @@
     "Author": "Christian Martinez <christianbm1@gmail.com>",
     "Date": "Date:   Sun Aug 22 01:29:51 2021 -0400",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
@@ -229,12 +229,12 @@
         "deletes": 3,
         "occurrences": 3
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 243,
-        "binByteCount": 26230392,
+        "binByteCount": 0,
         "inserts": 163,
         "deletes": 0,
-        "occurrences": 326
+        "occurrences": 193
       },
       "TAG": {
         "textLineCount": 6,
@@ -242,6 +242,13 @@
         "inserts": 2,
         "deletes": 0,
         "occurrences": 2
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": 26230392,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 133
       },
       "timestamp": {
         "textLineCount": 112,
@@ -337,12 +344,19 @@
     "Author": "Christian Martinez <christianbm1@gmail.com>",
     "Date": "Date:   Fri Aug 20 10:00:46 2021 -0400",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 2,
-        "binByteCount": -2048,
+        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
-        "occurrences": 2
+        "occurrences": 1
+      },
+      "noextbin": {
+        "textLineCount": 0,
+        "binByteCount": -2048,
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
       },
       "js": {
         "textLineCount": 82,
@@ -614,7 +628,7 @@
     "Author": "Christian Martinez <christianbm1@gmail.com>",
     "Date": "Date:   Sun Aug 15 06:07:38 2021 -0400",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 34,
         "binByteCount": 0,
         "inserts": 1,
@@ -807,7 +821,7 @@
         "deletes": 0,
         "occurrences": 8
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 23,
         "binByteCount": 0,
         "inserts": 1,

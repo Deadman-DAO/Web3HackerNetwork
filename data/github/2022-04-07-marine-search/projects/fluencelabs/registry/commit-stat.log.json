@@ -248,18 +248,11 @@
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 895,
+        "textLineCount": 979,
         "binByteCount": 0,
-        "inserts": 61,
-        "deletes": 59,
-        "occurrences": 11
-      },
-      "rs}": {
-        "textLineCount": 84,
-        "binByteCount": 0,
-        "inserts": 6,
-        "deletes": 6,
-        "occurrences": 2
+        "inserts": 67,
+        "deletes": 65,
+        "occurrences": 13
       }
     },
     "files": "19",
@@ -358,11 +351,11 @@
         "occurrences": 9
       },
       "json": {
-        "textLineCount": 6851,
+        "textLineCount": 6853,
         "binByteCount": 0,
-        "inserts": 21,
-        "deletes": 6,
-        "occurrences": 5
+        "inserts": 22,
+        "deletes": 7,
+        "occurrences": 6
       },
       "sh": {
         "textLineCount": 16,
@@ -370,13 +363,6 @@
         "inserts": 2,
         "deletes": 2,
         "occurrences": 2
-      },
-      "json}": {
-        "textLineCount": 2,
-        "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
-        "occurrences": 1
       },
       "ts": {
         "textLineCount": 56,
@@ -765,7 +751,7 @@
         "deletes": 7,
         "occurrences": 4
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 0,
@@ -1154,18 +1140,11 @@
         "occurrences": 1
       },
       "aqua": {
-        "textLineCount": 93,
+        "textLineCount": 137,
         "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 2,
-        "occurrences": 5
-      },
-      "aqua}": {
-        "textLineCount": 44,
-        "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
-        "occurrences": 1
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 6
       },
       "ts": {
         "textLineCount": 1055,
@@ -1181,7 +1160,7 @@
         "deletes": 2,
         "occurrences": 3
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 23,
         "binByteCount": 0,
         "inserts": 1,
@@ -1274,7 +1253,7 @@
         "deletes": 16,
         "occurrences": 5
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 8,
         "binByteCount": 0,
         "inserts": 3,
@@ -1400,7 +1379,7 @@
     "Author": "Dzmitry Lahoda <dzmitry@lahoda.pro>",
     "Date": "Date:   Thu Jun 17 11:02:03 2021 +0300",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
@@ -1533,7 +1512,7 @@
         "deletes": 1,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 6,
         "binByteCount": 0,
         "inserts": 1,
@@ -1588,7 +1567,7 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 2,
         "binByteCount": 0,
         "inserts": 1,
@@ -2074,7 +2053,7 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 8,
         "binByteCount": 0,
         "inserts": 6,
@@ -2849,7 +2828,7 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 21,
         "binByteCount": 0,
         "inserts": 21,

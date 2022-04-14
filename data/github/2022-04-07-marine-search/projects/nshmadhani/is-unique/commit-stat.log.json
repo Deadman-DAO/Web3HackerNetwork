@@ -42,19 +42,12 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "json}": {
-        "textLineCount": 2,
-        "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
-        "occurrences": 1
-      },
       "json": {
-        "textLineCount": 31,
+        "textLineCount": 33,
         "binByteCount": 0,
-        "inserts": 16,
-        "deletes": 15,
-        "occurrences": 2
+        "inserts": 17,
+        "deletes": 16,
+        "occurrences": 3
       },
       "rs": {
         "textLineCount": 8,
@@ -87,7 +80,7 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 21,
         "binByteCount": 0,
         "inserts": 0,
@@ -295,7 +288,7 @@
     "Author": "Nishay Madhani <nshmadhani@gmail.com>",
     "Date": "Date:   Wed Feb 9 14:45:38 2022 -0500",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 21,
         "binByteCount": 0,
         "inserts": 21,

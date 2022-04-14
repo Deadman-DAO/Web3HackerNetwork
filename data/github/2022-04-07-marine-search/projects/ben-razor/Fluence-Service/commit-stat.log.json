@@ -269,18 +269,11 @@
         "occurrences": 2
       },
       "json": {
-        "textLineCount": 16,
+        "textLineCount": 18,
         "binByteCount": 0,
-        "inserts": 8,
-        "deletes": 8,
-        "occurrences": 2
-      },
-      "json}": {
-        "textLineCount": 2,
-        "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
-        "occurrences": 1
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 3
       },
       "sh": {
         "textLineCount": 2,
@@ -306,7 +299,7 @@
     "Author": "Ben Razor <chrisbenwar1@googlemail.com>",
     "Date": "Date:   Fri Sep 10 17:26:08 2021 +0000",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 201,
         "binByteCount": 0,
         "inserts": 64,
@@ -367,7 +360,7 @@
         "deletes": 0,
         "occurrences": 18
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 333,
         "binByteCount": 0,
         "inserts": 33,

@@ -114,11 +114,11 @@
         "occurrences": 4
       },
       "rs": {
-        "textLineCount": 1730,
+        "textLineCount": 1890,
         "binByteCount": 0,
-        "inserts": 66,
-        "deletes": 60,
-        "occurrences": 52
+        "inserts": 69,
+        "deletes": 66,
+        "occurrences": 54
       },
       "sh": {
         "textLineCount": 2,
@@ -126,13 +126,6 @@
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
-      },
-      "rs}": {
-        "textLineCount": 160,
-        "binByteCount": 0,
-        "inserts": 3,
-        "deletes": 6,
-        "occurrences": 2
       },
       "clj": {
         "textLineCount": 19,
@@ -258,18 +251,11 @@
     "Date": "Date:   Fri Feb 25 10:24:28 2022 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 174,
+        "textLineCount": 201,
         "binByteCount": 0,
-        "inserts": 33,
-        "deletes": 3,
-        "occurrences": 6
-      },
-      "rs}": {
-        "textLineCount": 27,
-        "binByteCount": 0,
-        "inserts": 3,
-        "deletes": 2,
-        "occurrences": 1
+        "inserts": 36,
+        "deletes": 5,
+        "occurrences": 7
       }
     },
     "files": "7",
@@ -552,7 +538,7 @@
     "Author": "Pavel <Pavel.Murygin@gmail.com>",
     "Date": "Date:   Tue Dec 28 17:43:54 2021 +0300",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
@@ -670,18 +656,11 @@
     "Date": "Date:   Tue Dec 21 11:37:35 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 983,
+        "textLineCount": 1104,
         "binByteCount": 0,
-        "inserts": 148,
-        "deletes": 83,
-        "occurrences": 56
-      },
-      "rs}": {
-        "textLineCount": 121,
-        "binByteCount": 0,
-        "inserts": 6,
-        "deletes": 19,
-        "occurrences": 2
+        "inserts": 154,
+        "deletes": 102,
+        "occurrences": 58
       }
     },
     "files": "58",
@@ -808,18 +787,11 @@
         "occurrences": 2
       },
       "rs": {
-        "textLineCount": 1203,
+        "textLineCount": 1217,
         "binByteCount": 0,
-        "inserts": 55,
-        "deletes": 32,
-        "occurrences": 31
-      },
-      "rs}": {
-        "textLineCount": 14,
-        "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
-        "occurrences": 1
+        "inserts": 56,
+        "deletes": 33,
+        "occurrences": 32
       },
       "lalrpop": {
         "textLineCount": 24,
@@ -1433,7 +1405,7 @@
         "deletes": 1,
         "occurrences": 3
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -1471,7 +1443,7 @@
         "deletes": 67,
         "occurrences": 41
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
@@ -1633,18 +1605,11 @@
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 58,
+        "textLineCount": 70,
         "binByteCount": 0,
-        "inserts": 35,
-        "deletes": 10,
-        "occurrences": 9
-      },
-      "rs}": {
-        "textLineCount": 12,
-        "binByteCount": 0,
-        "inserts": 6,
-        "deletes": 3,
-        "occurrences": 1
+        "inserts": 41,
+        "deletes": 13,
+        "occurrences": 10
       }
     },
     "files": "11",
@@ -1719,18 +1684,11 @@
         "occurrences": 7
       },
       "rs": {
-        "textLineCount": 13893,
+        "textLineCount": 14070,
         "binByteCount": 0,
-        "inserts": 179,
-        "deletes": 95,
-        "occurrences": 153
-      },
-      "rs}": {
-        "textLineCount": 177,
-        "binByteCount": 0,
-        "inserts": 4,
-        "deletes": 4,
-        "occurrences": 4
+        "inserts": 183,
+        "deletes": 99,
+        "occurrences": 157
       },
       "clj": {
         "textLineCount": 341,
@@ -1852,7 +1810,7 @@
     "Author": "Pavel <Pavel.Murygin@gmail.com>",
     "Date": "Date:   Tue Aug 3 23:13:47 2021 +0300",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
@@ -2346,7 +2304,7 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -2408,19 +2366,12 @@
         "deletes": 8,
         "occurrences": 8
       },
-      "rs}": {
-        "textLineCount": 10,
-        "binByteCount": 0,
-        "inserts": 2,
-        "deletes": 2,
-        "occurrences": 2
-      },
       "rs": {
-        "textLineCount": 40,
+        "textLineCount": 50,
         "binByteCount": 0,
-        "inserts": 5,
-        "deletes": 5,
-        "occurrences": 5
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 7
       },
       "sh": {
         "textLineCount": 2,
@@ -2488,18 +2439,11 @@
     "Date": "Date:   Mon May 10 14:25:34 2021 +0300",
     "fileTypes": {
       "yml": {
-        "textLineCount": 73,
+        "textLineCount": 77,
         "binByteCount": 0,
-        "inserts": 4,
-        "deletes": 4,
-        "occurrences": 4
-      },
-      "yml}": {
-        "textLineCount": 4,
-        "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
-        "occurrences": 1
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
       },
       "gitignore": {
         "textLineCount": 2,
@@ -2529,7 +2473,7 @@
         "deletes": 10,
         "occurrences": 11
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -3189,7 +3133,7 @@
         "deletes": 25,
         "occurrences": 65
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -3452,11 +3396,11 @@
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 5885,
+        "textLineCount": 5983,
         "binByteCount": 0,
-        "inserts": 39,
-        "deletes": 30,
-        "occurrences": 19
+        "inserts": 40,
+        "deletes": 31,
+        "occurrences": 20
       },
       "lalrpop": {
         "textLineCount": 196,
@@ -3464,13 +3408,6 @@
         "inserts": 1,
         "deletes": 1,
         "occurrences": 2
-      },
-      "rs}": {
-        "textLineCount": 98,
-        "binByteCount": 0,
-        "inserts": 1,
-        "deletes": 1,
-        "occurrences": 1
       }
     },
     "files": "26",
@@ -3552,18 +3489,11 @@
         "occurrences": 2
       },
       "rs": {
-        "textLineCount": 3416,
+        "textLineCount": 3487,
         "binByteCount": 0,
-        "inserts": 135,
-        "deletes": 108,
-        "occurrences": 49
-      },
-      "rs}": {
-        "textLineCount": 71,
-        "binByteCount": 0,
-        "inserts": 3,
-        "deletes": 3,
-        "occurrences": 2
+        "inserts": 138,
+        "deletes": 111,
+        "occurrences": 51
       }
     },
     "files": "56",
@@ -3854,18 +3784,11 @@
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 37,
+        "textLineCount": 61,
         "binByteCount": 0,
-        "inserts": 17,
-        "deletes": 18,
-        "occurrences": 6
-      },
-      "rs}": {
-        "textLineCount": 24,
-        "binByteCount": 0,
-        "inserts": 8,
-        "deletes": 14,
-        "occurrences": 1
+        "inserts": 25,
+        "deletes": 32,
+        "occurrences": 7
       }
     },
     "files": "11",
@@ -3979,14 +3902,7 @@
         "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
-        "occurrences": 1
-      },
-      "clj}": {
-        "textLineCount": 0,
-        "binByteCount": 0,
-        "inserts": 0,
-        "deletes": 0,
-        "occurrences": 1
+        "occurrences": 2
       }
     },
     "files": "51",
@@ -4111,18 +4027,11 @@
         "occurrences": 5
       },
       "rs": {
-        "textLineCount": 605,
+        "textLineCount": 636,
         "binByteCount": 0,
-        "inserts": 71,
-        "deletes": 55,
-        "occurrences": 24
-      },
-      "rs}": {
-        "textLineCount": 31,
-        "binByteCount": 0,
-        "inserts": 4,
-        "deletes": 2,
-        "occurrences": 1
+        "inserts": 75,
+        "deletes": 57,
+        "occurrences": 25
       }
     },
     "files": "31",
@@ -4151,7 +4060,7 @@
     "Author": "folex <0xdxdy@gmail.com>",
     "Date": "Date:   Wed Dec 16 21:59:11 2020 +0300",
     "fileTypes": {
-      "yml}": {
+      "yml": {
         "textLineCount": 161,
         "binByteCount": 0,
         "inserts": 15,
@@ -4244,7 +4153,7 @@
         "deletes": 6,
         "occurrences": 7
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 7,
         "binByteCount": 0,
         "inserts": 1,
@@ -5055,7 +4964,7 @@
         "deletes": 94,
         "occurrences": 38
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
@@ -5117,7 +5026,7 @@
         "deletes": 0,
         "occurrences": 1
       },
-      "null": {
+      "noexttext": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
@@ -5156,24 +5065,17 @@
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 1399,
+        "textLineCount": 1441,
         "binByteCount": 0,
-        "inserts": 78,
-        "deletes": 17,
-        "occurrences": 17
+        "inserts": 80,
+        "deletes": 18,
+        "occurrences": 18
       },
       "toml": {
         "textLineCount": 1,
         "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
-        "occurrences": 1
-      },
-      "rs}": {
-        "textLineCount": 42,
-        "binByteCount": 0,
-        "inserts": 2,
-        "deletes": 1,
         "occurrences": 1
       }
     },
@@ -5491,7 +5393,7 @@
         "deletes": 1,
         "occurrences": 1
       },
-      "rs}": {
+      "rs": {
         "textLineCount": 0,
         "binByteCount": 0,
         "inserts": 0,
@@ -5777,7 +5679,7 @@
     "Author": "Dmitry Kurinskiy <dmitry@fluence.one>",
     "Date": "Date:   Fri Sep 18 14:05:43 2020 +0300",
     "fileTypes": {
-      "null": {
+      "noexttext": {
         "textLineCount": 201,
         "binByteCount": 0,
         "inserts": 62,
