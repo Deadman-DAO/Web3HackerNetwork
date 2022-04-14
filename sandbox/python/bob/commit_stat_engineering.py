@@ -20,14 +20,44 @@ def parse_commits(commit_files):
 
 def percent(numerator, denominator):
     if (numerator == 0): return 0
+    if (denominator == 0): return 100
     truncated = int(100 * 100 * numerator / denominator)
+    # Winsorizing the over-100% cases (which can happen, eg: when net bytes is 10 but this file added 100 bytes)
+    # This is a short-term hack, need to revisit as we explore the meaning of adding, removing, and changing lines
+    percent = truncated / 100
+    if (percent > 100): return 100
     return truncated / 100
 
+def addBinStats(typeArray, statDict, statName, file_types):
+    singleTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['fileType'] in file_types]
+    statDict[statName + 'Files'] = sum([typeEntry['stats']['occurrences'] for typeEntry in singleTypeArray])
+    statDict[statName + 'Bytes'] = sum([typeEntry['stats']['binByteCount'] for typeEntry in singleTypeArray])
+    statDict[statName + 'FilePct'] = percent(statDict[statName + 'Files'], statDict['totalFiles'])
+    statDict[statName + 'BytePct'] = percent(statDict[statName + 'Bytes'], statDict['totalBytes'])
+
+def addTextStats(typeArray, statDict, statName, file_types):
+    chars_per_text_line = 30 # just a heuristic for approximating relative weight
+    singleTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['fileType'] in file_types]
+    statDict[statName + 'Files'] = sum([typeEntry['stats']['occurrences'] for typeEntry in singleTypeArray])
+    statDict[statName + 'Lines'] = sum([typeEntry['stats']['textLineCount'] for typeEntry in singleTypeArray])
+    statDict[statName + 'FilePct'] = percent(statDict[statName + 'Files'], statDict['totalFiles'])
+    statDict[statName + 'LinePct'] = percent(statDict[statName + 'Lines'], statDict['textLines'])
+    statDict[statName + 'BytePct'] = percent(statDict[statName + 'Lines'] * chars_per_text_line, statDict['totalBytes'])
+
 def extract_stats(commit):
-    js_types = ['js', 'jsx', 'ts', 'tsx']
+    js_types = ['js', 'jsx', 'ts', 'tsx', 'vue']
     rust_types = ['rs', 'toml'] # toml is the cargo config extension
     markdown_types = ['md']
     json_types = ['json']
+    img_types = ['png', 'jpg', 'gif', 'drawio']
+    lock_types = ['lock']
+    yarn_types = ['yml', 'yaml']
+    noextbin_types = ['noextbin']
+    noexttext_types = ['noexttext']
+    html_types = ['html', 'css', 'scss']
+    gitignore_types = ['gitignore']
+    clojure_types = ['clj']
+    shell_types = ['sh']
     chars_per_text_line = 30 # just a heuristic for approximating relative weight
     
     if 'files' in commit:
@@ -80,6 +110,21 @@ def extract_stats(commit):
     statDict['pctJsonFiles'] = percent(statDict['jsonFiles'], statDict['totalFiles'])
     statDict['pctJsonLines'] = percent(statDict['jsonLines'], statDict['textLines'])
     statDict['pctJsonBytes'] = percent(statDict['jsonLines'] * chars_per_text_line, statDict['totalBytes'])
+
+    # js_types = ['js', 'jsx', 'ts', 'tsx', 'vue']
+    # rust_types = ['rs', 'toml'] # toml is the cargo config extension
+    # markdown_types = ['md']
+    # json_types = ['json']
+
+    addBinStats(typeArray, statDict, 'img', img_types)
+    addTextStats(typeArray, statDict, 'lock', lock_types)
+    addTextStats(typeArray, statDict, 'yarn', yarn_types)
+    addTextStats(typeArray, statDict, 'html', html_types)
+    addTextStats(typeArray, statDict, 'clojure', clojure_types)
+    addTextStats(typeArray, statDict, 'shell', shell_types)
+    addTextStats(typeArray, statDict, 'gitignore', gitignore_types)
+    addBinStats(typeArray, statDict, 'noextbin', noextbin_types)
+    addTextStats(typeArray, statDict, 'noexttext', noexttext_types)
 
     return statDict
 
