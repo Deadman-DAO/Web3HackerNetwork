@@ -45,19 +45,6 @@ def addTextStats(typeArray, statDict, statName, file_types):
     statDict[statName + 'BytePct'] = percent(statDict[statName + 'Lines'] * chars_per_text_line, statDict['totalBytes'])
 
 def extract_stats(commit):
-    js_types = ['js', 'jsx', 'ts', 'tsx', 'vue']
-    rust_types = ['rs', 'toml'] # toml is the cargo config extension
-    markdown_types = ['md']
-    json_types = ['json']
-    img_types = ['png', 'jpg', 'gif', 'drawio']
-    lock_types = ['lock']
-    yarn_types = ['yml', 'yaml']
-    noextbin_types = ['noextbin']
-    noexttext_types = ['noexttext']
-    html_types = ['html', 'css', 'scss']
-    gitignore_types = ['gitignore']
-    clojure_types = ['clj']
-    shell_types = ['sh']
     chars_per_text_line = 30 # just a heuristic for approximating relative weight
     
     if 'files' in commit:
@@ -83,48 +70,19 @@ def extract_stats(commit):
     statDict['pctBinBytes'] = percent(statDict['binBytes'], statDict['totalBytes'])
     statDict['pctTextBytes'] = percent(statDict['textLines'] * chars_per_text_line, statDict['totalBytes'])
     
-    jsTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['fileType'] in js_types]
-    statDict['jsFiles'] = sum([typeEntry['stats']['occurrences'] for typeEntry in jsTypeArray])
-    statDict['jsLines'] = sum([typeEntry['stats']['textLineCount'] for typeEntry in jsTypeArray])
-    statDict['pctJsFiles'] = percent(statDict['jsFiles'], statDict['totalFiles'])
-    statDict['pctJsLines'] = percent(statDict['jsLines'], statDict['textLines'])
-    statDict['pctJsBytes'] = percent(statDict['jsLines'] * chars_per_text_line, statDict['totalBytes'])
-    
-    rustTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['fileType'] in rust_types]
-    statDict['rustFiles'] = sum([typeEntry['stats']['occurrences'] for typeEntry in rustTypeArray])
-    statDict['rustLines'] = sum([typeEntry['stats']['textLineCount'] for typeEntry in rustTypeArray])
-    statDict['pctRustFiles'] = percent(statDict['rustFiles'], statDict['totalFiles'])
-    statDict['pctRustLines'] = percent(statDict['rustLines'], statDict['textLines'])
-    statDict['pctRustBytes'] = percent(statDict['rustLines'] * chars_per_text_line, statDict['totalBytes'])
-    
-    markdownTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['fileType'] in markdown_types]
-    statDict['markdownFiles'] = sum([typeEntry['stats']['occurrences'] for typeEntry in markdownTypeArray])
-    statDict['markdownLines'] = sum([typeEntry['stats']['textLineCount'] for typeEntry in markdownTypeArray])
-    statDict['pctMarkdownFiles'] = percent(statDict['markdownFiles'], statDict['totalFiles'])
-    statDict['pctMarkdownLines'] = percent(statDict['markdownLines'], statDict['textLines'])
-    statDict['pctMarkdownBytes'] = percent(statDict['markdownLines'] * chars_per_text_line, statDict['totalBytes'])
-    
-    jsonTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['fileType'] in json_types]
-    statDict['jsonFiles'] = sum([typeEntry['stats']['occurrences'] for typeEntry in jsonTypeArray])
-    statDict['jsonLines'] = sum([typeEntry['stats']['textLineCount'] for typeEntry in jsonTypeArray])
-    statDict['pctJsonFiles'] = percent(statDict['jsonFiles'], statDict['totalFiles'])
-    statDict['pctJsonLines'] = percent(statDict['jsonLines'], statDict['textLines'])
-    statDict['pctJsonBytes'] = percent(statDict['jsonLines'] * chars_per_text_line, statDict['totalBytes'])
-
-    # js_types = ['js', 'jsx', 'ts', 'tsx', 'vue']
-    # rust_types = ['rs', 'toml'] # toml is the cargo config extension
-    # markdown_types = ['md']
-    # json_types = ['json']
-
-    addBinStats(typeArray, statDict, 'img', img_types)
-    addTextStats(typeArray, statDict, 'lock', lock_types)
-    addTextStats(typeArray, statDict, 'yarn', yarn_types)
-    addTextStats(typeArray, statDict, 'html', html_types)
-    addTextStats(typeArray, statDict, 'clojure', clojure_types)
-    addTextStats(typeArray, statDict, 'shell', shell_types)
-    addTextStats(typeArray, statDict, 'gitignore', gitignore_types)
-    addBinStats(typeArray, statDict, 'noextbin', noextbin_types)
-    addTextStats(typeArray, statDict, 'noexttext', noexttext_types)
+    addTextStats(typeArray, statDict, 'javascript', ['js', 'jsx', 'ts', 'tsx', 'vue'])
+    addTextStats(typeArray, statDict, 'rust', ['rs', 'toml'])
+    addTextStats(typeArray, statDict, 'markdown', ['md'])
+    addTextStats(typeArray, statDict, 'json', ['json'])
+    addBinStats(typeArray, statDict, 'img', ['png', 'jpg', 'gif', 'drawio'])
+    addTextStats(typeArray, statDict, 'lock', ['lock'])
+    addTextStats(typeArray, statDict, 'yarn', ['yml', 'yaml'])
+    addTextStats(typeArray, statDict, 'html', ['html', 'css', 'scss'])
+    addTextStats(typeArray, statDict, 'clojure', ['clj'])
+    addTextStats(typeArray, statDict, 'shell', ['sh'])
+    addTextStats(typeArray, statDict, 'gitignore', ['gitignore'])
+    addBinStats(typeArray, statDict, 'noextbin', ['noextbin'])
+    addTextStats(typeArray, statDict, 'noexttext', ['noexttext'])
 
     return statDict
 
