@@ -1,0 +1,440 @@
+commit bd5214ba94516b327185ef2d14b620a39fc710dc
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Mon Mar 21 01:20:01 2022 -0300
+
+    Update FUNDING.yml
+
+1	1	.github/FUNDING.yml
+
+commit 8c793414e69a1fe200fb66e98090d3e91302e462
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Mon Mar 21 01:18:41 2022 -0300
+
+    Update README.md
+
+4	4	README.md
+
+commit 1c7e42fce9d5dbe15fa8efbfb8d12fd353549639
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Mon Mar 21 00:53:47 2022 -0300
+
+    updates
+
+1	1	.babelrc
+2	1	.eslintignore
+1	1	.github/FUNDING.yml
+4	2	.gitignore
+27	0	aqua/api_nftkeys.aqua
+146	0	aqua/api_testnet_db.aqua
+2	2	aqua/api_testnet_rarible.aqua
+9	0	contracts/.gitignore
+15	0	contracts/README.md
+4	0	contracts/auroratestnet-config.js
+22	0	contracts/contracts/Greeter.sol
+121	0	contracts/contracts/aurora/Market.sol
+33	0	contracts/contracts/aurora/NFT.sol
+121	0	contracts/contracts/avalanche/Market.sol
+33	0	contracts/contracts/avalanche/NFT.sol
+121	0	contracts/contracts/cronos/Market.sol
+33	0	contracts/contracts/cronos/NFT.sol
+121	0	contracts/contracts/ethereum/Market.sol
+33	0	contracts/contracts/ethereum/NFT.sol
+121	0	contracts/contracts/fantom/Market.sol
+33	0	contracts/contracts/fantom/NFT.sol
+121	0	contracts/contracts/harmony/Market.sol
+33	0	contracts/contracts/harmony/NFT.sol
+121	0	contracts/contracts/polygon/Market.sol
+33	0	contracts/contracts/polygon/NFT.sol
+4	0	contracts/cronostestnet-config.js
+4	0	contracts/fantomtestnet-config.js
+4	0	contracts/fuji-config.js
+4	0	contracts/goerli-config.js
+162	0	contracts/hardhat.config.js
+4	0	contracts/harmonytestnet-config.js
+4	0	contracts/kovan-config.js
+4	0	contracts/mumbai-config.js
+36961	0	contracts/package-lock.json
+29	0	contracts/package.json
+4	0	contracts/rinkeby-config.js
+4	0	contracts/ropsten-config.js
+34	0	contracts/scripts/aurora.js
+34	0	contracts/scripts/avalanche.js
+34	0	contracts/scripts/cronos.js
+34	0	contracts/scripts/ethereum.js
+34	0	contracts/scripts/fantom.js
+34	0	contracts/scripts/harmony.js
+34	0	contracts/scripts/polygon.js
+32	0	contracts/scripts/sample-script.js
+19	0	contracts/test/sample-test.js
+1	0	docs/collections.json
+46	1	next.config.js
+33	7	package.json
+-	-	public/android-chrome-192x192.png
+-	-	public/android-chrome-256x256.png
+-	-	public/apple-touch-icon.png
+-	-	public/assets/images/NFTIFY_Icon.png
+-	-	public/assets/images/aurora.jpg
+-	-	public/assets/images/avax.png
+-	-	public/assets/images/cronos.png
+-	-	public/assets/images/fantom.png
+-	-	public/assets/images/fpbanner-4.jpg
+-	-	public/assets/images/heading-fp-633px.png
+-	-	public/assets/images/heading-fp1.png
+-	-	public/assets/images/logo.png
+-	-	public/assets/images/nft.png
+-	-	public/assets/images/placeholder.png
+9	0	public/browserconfig.xml
+-	-	public/favicon-16x16.png
+-	-	public/favicon-32x32.png
+-	-	public/favicon.ico
+-	-	public/mstile-150x150.png
+39	0	public/safari-pinned-tab.svg
+19	0	public/site.webmanifest
+5	0	services/.gitignore
+25	0	services/Config.toml
+5	0	services/api_nftkeys/.gitignore
+16	0	services/api_nftkeys/Cargo.toml
+6	0	services/api_nftkeys/config.json
+55	0	services/api_nftkeys/src/graphql/nftErc721.schema.graphql
+31	0	services/api_nftkeys/src/graphql/nftErc721Collection.query.graphql
+23	0	services/api_nftkeys/src/graphql/nftErc721CollectionTokens.query.graphql
+31	0	services/api_nftkeys/src/graphql/nftErc721Collections.query.graphql
+173	0	services/api_nftkeys/src/main.rs
+5	0	services/api_opensea/.gitignore
+5	0	services/api_superrare/.gitignore
+0	2	services/api_superrare/src/main.rs
+5	0	services/api_testnet_db/.gitignore
+19	0	services/api_testnet_db/Cargo.toml
+23	0	services/api_testnet_db/config.json
+29	0	services/api_testnet_db/src/auth.rs
+648	0	services/api_testnet_db/src/crud.rs
+131	0	services/api_testnet_db/src/main.rs
+5	0	services/api_testnet_opensea/.gitignore
+5	0	services/api_testnet_rarible/.gitignore
+24	4	services/build.sh
+23	0	services/dbconfig.json
+27	0	src/components/collection/index.tsx
+89	0	src/components/collection/item.tsx
+27	0	src/components/explorer/collection/index.tsx
+57	0	src/components/explorer/collection/item.tsx
+12	53	src/components/explorer/opensea/index.tsx
+59	25	src/components/explorer/opensea/item.tsx
+12	58	src/components/explorer/rarible/index.tsx
+49	29	src/components/explorer/rarible/item.tsx
+12	55	src/components/explorer/superrare/index.tsx
+47	25	src/components/explorer/superrare/item.tsx
+151	0	src/components/forms/NewCollectionForm.tsx
+106	0	src/components/forms/NewMintErc721Form.tsx
+214	0	src/components/forms/NewMintForm.tsx
+234	0	src/components/frontpage/Explore.tsx
+95	0	src/components/frontpage/ExploreItem.tsx
+43	0	src/components/frontpage/Hero.tsx
+112	0	src/components/layout/Footer.tsx
+159	91	src/components/layout/Header.tsx
+151	0	src/components/layout/HeaderCollection.tsx
+135	0	src/components/layout/Modal.tsx
+196	89	src/components/layout/NetworkSwitcher.tsx
+55	0	src/components/markets/Buyitem.tsx
+206	0	src/components/markets/Ethereum.tsx
+277	0	src/components/markets/ModalOpensea.tsx
+307	0	src/components/markets/ModalRarible.tsx
+41	0	src/components/markets/OpenseaButton.tsx
+41	0	src/components/markets/RaribleButton.tsx
+234	0	src/components/minters/Ethereum.tsx
+124	0	src/components/mycollection/index.tsx
+189	0	src/components/mycollection/item.tsx
+89	0	src/components/selling/index.tsx
+156	0	src/components/selling/item.tsx
+17	0	src/components/templates/Collection.tsx
+17	0	src/components/templates/Forms.tsx
+17	0	src/components/templates/MyCollection.tsx
+17	0	src/components/templates/Nftkeys.tsx
+26	14	src/components/templates/Nfts.tsx
+4	9	src/components/templates/Opensea.tsx
+4	9	src/components/templates/Rarible.tsx
+4	9	src/components/templates/Superrare.tsx
+3	1	src/components/utils/AppConfig.ts
+212	0	src/components/utils/network.ts
+189	196	src/components/wallet/AccountModal.tsx
+131	53	src/components/wallet/ConnectButton.tsx
+16	17	src/components/wallet/Identicon.tsx
+34	34	src/components/wallet/LoginUnsButton.tsx
+5	5	src/components/wallet/theme.ts
+343	0	src/lib/blockchain/abis/erc1155.json
+375	0	src/lib/blockchain/abis/erc721.json
+179	0	src/lib/blockchain/abis/ethereum/marketplace.json
+617	0	src/lib/blockchain/abis/hrc721.json
+10	0	src/lib/blockchain/cloudflare.ts
+5	0	src/lib/blockchain/connectors.ts
+12	0	src/lib/blockchain/cronos.ts
+12	0	src/lib/blockchain/fantom.ts
+12	0	src/lib/blockchain/harmony.ts
+18	0	src/lib/blockchain/infura.ts
+15	0	src/lib/blockchain/polygon.ts
+57	0	src/lib/cache/collection.ts
+53	0	src/lib/cache/collections.ts
+58	0	src/lib/cache/opensea.ts
+57	0	src/lib/cache/rarible.ts
+56	0	src/lib/cache/superrare.ts
+27	0	src/lib/services/api_nftkeys.ts
+5	7	src/lib/services/api_superrare.ts
+218	0	src/lib/services/api_testnet_db.ts
+7	11	src/lib/services/api_testnet_opensea.ts
+10	7	src/lib/services/api_testnet_rarible.ts
+6	25	src/pages/_app.tsx
+28	1	src/pages/_document.tsx
+64	0	src/pages/api/v1/token/marketitem.ts
+44	0	src/pages/api/v1/token/newitem.ts
+43	0	src/pages/collection/[alias].tsx
+78	0	src/pages/collections.tsx
+204	11	src/pages/index.tsx
+57	0	src/pages/mint/[address].tsx
+249	0	src/pages/mycollections/[address].tsx
+28	0	src/pages/newcollection.tsx
+27	16	src/pages/opensea.tsx
+27	16	src/pages/rarible.tsx
+118	0	src/pages/selling/[address].tsx
+27	16	src/pages/superrare.tsx
+1	0	tailwind.config.js
+4	2	tsconfig.json
+13653	738	yarn.lock
+
+commit 60b69fbfe7b960c14c68ae07a8929fb0d840980d
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Mar 2 15:25:45 2022 -0300
+
+    Update FUNDING.yml
+
+1	1	.github/FUNDING.yml
+
+commit 140d1ce4cff339ec0083d54ed6ddf7fe20932e77
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 16:57:46 2022 -0300
+
+    Update README.md
+
+4	0	README.md
+
+commit d08623707dd757405c2922462d44a34a6a737cec
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 16:56:21 2022 -0300
+
+    Add files via upload
+
+-	-	docs/opensea_selling.jpg
+
+commit 9e0ed66efd241dea3869362da765a0ff8861e0ab
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 12:58:30 2022 -0300
+
+    Update README.md
+
+1	0	README.md
+
+commit 1fd6d9098b5e832a7c45d2723a45e7ea67a15775
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 12:56:43 2022 -0300
+
+    Update README.md
+
+2	2	README.md
+
+commit 42b07a7ea82fea1a6f554131cd5447435ff3e710
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 12:55:58 2022 -0300
+
+    Update README.md
+
+2	2	README.md
+
+commit 3412a2226473f6af936ae0438172cb77a8ee3b03
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 12:55:06 2022 -0300
+
+    Add files via upload
+
+-	-	docs/bsc_collection1.jpg
+-	-	docs/create_nft_rinkeby1.jpg
+-	-	docs/eth_collections1.jpg
+-	-	docs/fee_minting_rinkeby1.jpg
+-	-	docs/ftm_collection1.jpg
+-	-	docs/minted_rinkeby1.jpg
+
+commit 49e33abf17c948dbb38ce9ac6dbe487c1b1ccad1
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 12:52:32 2022 -0300
+
+    Update README.md
+
+12	0	README.md
+
+commit 6d3da7b785381cf2e9106667e0f54e07706531f0
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 12:33:26 2022 -0300
+
+    Update README.md
+
+2	0	README.md
+
+commit e4807d4413c12c4b9a4600736ebd3642a8e8b2ce
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 12:32:15 2022 -0300
+
+    Add files via upload
+
+-	-	docs/mint_ethereum.jpg
+
+commit 70c47da6b09aaa6ac80ab95dd2ff9ef6b2d5701d
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 02:22:02 2022 -0300
+
+    Update README.md
+
+8	7	README.md
+
+commit 0bd2ef641bf25514c3fa04623112090a02a6aa23
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Wed Feb 16 02:17:31 2022 -0300
+
+    Update README.md
+
+4	5	README.md
+
+commit 33485580110c67f1a8701a3c43b8684cbe93f547
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Thu Feb 10 20:15:18 2022 -0300
+
+    small push fix
+
+4	6	src/components/wallet/LoginUnsButton.tsx
+
+commit f7234988bacbdcf818b13d22abd2a1eaf22949fb
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Thu Feb 10 20:05:31 2022 -0300
+
+    1st public commit
+
+1	1	README.md
+
+commit f6656480e7592d3a7272844ba0e6f3e6af2e9222
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Thu Feb 10 20:04:45 2022 -0300
+
+    1st public commit
+
+5	0	README.md
+
+commit 76ab616360d9651b4444e8933aadb16362b3ff47
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Thu Feb 10 20:02:01 2022 -0300
+
+    1st public commit
+
+12	0	.babelrc
+1	1	.eslintignore
+72	0	.eslintrc
+1	0	.github/FUNDING.yml
+20	1	.gitignore
+11	0	.vscode/extensions.json
+31	0	.vscode/launch.json
+22	0	.vscode/settings.json
+21	0	.vscode/tasks.json
+2	2	LICENSE
+8	59	README.md
+20	0	aqua/api_superrare.aqua
+34	0	aqua/api_testnet_opensea.aqua
+34	0	aqua/api_testnet_rarible.aqua
+-	-	docs/Screenshot1.jpg
+-	-	docs/Screenshot2.jpg
+-	-	docs/Screenshot6.jpg
+6	0	netlify.toml
+1	14	next.config.js
+27081	0	package-lock.json
+53	24	package.json
+10	0	postcss.config.js
+-	-	public/apple-touch-icon.png
+-	-	public/assets/images/NEWCOIN.png
+-	-	public/assets/images/binance.jpg
+-	-	public/assets/images/ethereum.jpg
+-	-	public/assets/images/harmony.jpg
+-	-	public/assets/images/polygon.jpg
+-	-	public/favicon-16x16.png
+-	-	public/favicon-32x32.png
+-	-	public/favicon.ico
+1	0	public/opensea/runnerScript.web.js
+1	0	public/rarible/runnerScript.web.js
+1	0	public/runnerScript.web.js
+1	0	public/superrare/runnerScript.web.js
+22	0	services/Config.toml
+13	0	services/api_opensea/Cargo.toml
+6	0	services/api_opensea/config.json
+74	0	services/api_opensea/src/main.rs
+13	0	services/api_superrare/Cargo.toml
+6	0	services/api_superrare/config.json
+72	0	services/api_superrare/src/main.rs
+13	0	services/api_testnet_opensea/Cargo.toml
+6	0	services/api_testnet_opensea/config.json
+74	0	services/api_testnet_opensea/src/main.rs
+13	0	services/api_testnet_rarible/Cargo.toml
+6	0	services/api_testnet_rarible/config.json
+74	0	services/api_testnet_rarible/src/main.rs
+27	0	services/build.sh
+68	0	src/components/explorer/opensea/index.tsx
+30	0	src/components/explorer/opensea/item.tsx
+73	0	src/components/explorer/rarible/index.tsx
+34	0	src/components/explorer/rarible/item.tsx
+70	0	src/components/explorer/superrare/index.tsx
+29	0	src/components/explorer/superrare/item.tsx
+129	0	src/components/layout/Header.tsx
+66	0	src/components/layout/Meta.tsx
+117	0	src/components/layout/NetworkSwitcher.tsx
+71	0	src/components/templates/Main.tsx
+112	0	src/components/templates/Nfts.tsx
+22	0	src/components/templates/Opensea.tsx
+22	0	src/components/templates/Rarible.tsx
+22	0	src/components/templates/Superrare.tsx
+6	0	src/components/utils/AppConfig.ts
+208	0	src/components/wallet/AccountModal.tsx
+59	0	src/components/wallet/ConnectButton.tsx
+27	0	src/components/wallet/Identicon.tsx
+55	0	src/components/wallet/LoginUnsButton.tsx
+10	0	src/components/wallet/theme.ts
+19	0	src/lib/services/api_superrare.ts
+56	0	src/lib/services/api_testnet_opensea.ts
+46	0	src/lib/services/api_testnet_rarible.ts
+35	0	src/pages/_app.tsx
+20	0	src/pages/_document.tsx
+21	0	src/pages/about.tsx
+26	4	src/pages/index.tsx
+24	0	src/pages/opensea.tsx
+24	0	src/pages/rarible.tsx
+24	0	src/pages/superrare.tsx
+13	0	src/styles/global.css
+11	0	src/styles/uns-buttons.css
+47	0	tailwind.config.js
+7	3	tsconfig.json
+
+commit 52a022a8b16eadd0bdf811e53eeec78f67d978a6
+Author: Carlos Guimaraes <sekmet@open4g.com>
+Date:   Mon Feb 7 18:13:53 2022 -0300
+
+    Initial commit
+
+2	0	.eslintignore
+3	0	.eslintrc.json
+35	0	.gitignore
+21	0	LICENSE
+73	0	README.md
+76	0	dist/index.js
+1	0	dist/tsconfig.server.tsbuildinfo
+5	0	lint-staged.config.js
+5	0	next-env.d.ts
+27	0	next.config.js
+55	0	package.json
+25	0	server/index.ts
+18	0	src/pages/_error.tsx
+13	0	src/pages/api/index.ts
+5	0	src/pages/index.tsx
+46	0	tsconfig.json
+9	0	tsconfig.server.json
+2835	0	yarn.lock

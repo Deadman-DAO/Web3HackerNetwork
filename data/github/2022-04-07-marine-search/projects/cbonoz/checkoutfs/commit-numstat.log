@@ -1,0 +1,196 @@
+commit 6a0e253d45cfaaa038e2451141604c16fa2826b1
+Author: Chris Buonocore <chrisdistrict@gmail.com>
+Date:   Thu Aug 19 14:25:15 2021 -0400
+
+    challenges
+
+1	0	README.md
+
+commit b1fa96128fe2af5cdfe1edecb1bc7af1be8dde2e
+Author: Chris Buonocore <chrisdistrict@gmail.com>
+Date:   Wed Aug 18 22:26:57 2021 -0400
+
+    readme and gitignore
+
+28	0	.gitignore
+16	1	README.md
+
+commit 74f17724cddacff48decffff6c0a4967e412409b
+Author: Chris Buonocore <chrisdistrict@gmail.com>
+Date:   Wed Aug 18 21:47:42 2021 -0400
+
+    base project
+
+21	0	LICENSE
+123	0	README.md
+1702	0	aqua/Cargo.lock
+25	0	aqua/Cargo.toml
+6	0	aqua/Config.toml
+171	0	aqua/Readme.md
+118	0	aqua/aqua-output/get_price.js
+217	0	aqua/aqua-scripts/builtin.aqua
+47	0	aqua/aqua-scripts/get_price.aqua
+19	0	aqua/configs/Config.toml
+8	0	aqua/configs/curl_adapter_cfg.json
+3	0	aqua/configs/ipns_oracle_cfg.json
+14	0	aqua/curl_adapter/Cargo.toml
+37	0	aqua/curl_adapter/src/main.rs
+6	0	aqua/scripts/build.sh
+94	0	aqua/src/main.rs
+-	-	img/complete.png
+-	-	img/home.png
+-	-	img/ipns_generation.png
+-	-	img/logo.png
+-	-	img/logo_sq.png
+-	-	img/music.png
+-	-	img/pillar.png
+-	-	img/products/p1.jpg
+-	-	img/products/p2.jpg
+-	-	img/products/p3.jpg
+-	-	img/products/p4.jpg
+-	-	img/qr.png
+-	-	img/step1.png
+-	-	img/store.png
+-	-	img/validation.png
+67	0	package.json
+23	0	packages/hardhat/.eslintrc.js
+1	0	packages/hardhat/0x0e661e3a61ea38fe973ed0a87ef064705f7734c4.txt
+113206	0	packages/hardhat/artifacts/build-info/75008c2266512c6f02c63ca2edb38012.json
+4	0	packages/hardhat/artifacts/contracts/YourContract.sol/YourContract.dbg.json
+42	0	packages/hardhat/artifacts/contracts/YourContract.sol/YourContract.json
+4	0	packages/hardhat/artifacts/hardhat/console.sol/console.dbg.json
+10	0	packages/hardhat/artifacts/hardhat/console.sol/console.json
+22	0	packages/hardhat/contracts/YourContract.sol
+47	0	packages/hardhat/deploy/00_deploy_your_contract.js
+1	0	packages/hardhat/deployments/rinkeby/.chainId
+86	0	packages/hardhat/deployments/rinkeby/YourContract.json
+38	0	packages/hardhat/deployments/rinkeby/solcInputs/bde710c76ccbf6ff9094644faafca7ca.json
+498	0	packages/hardhat/hardhat.config.js
+1	0	packages/hardhat/mnemonic.txt
+44	0	packages/hardhat/package.json
+213	0	packages/hardhat/scripts/deploy.js
+84	0	packages/hardhat/scripts/publish.js
+18	0	packages/hardhat/scripts/watch.js
+26	0	packages/hardhat/test/myTest.js
+10	0	packages/react-app/.eslintignore
+30	0	packages/react-app/.eslintrc.js
+8	0	packages/react-app/.prettierrc
+1	0	packages/react-app/.sample.env
+28	0	packages/react-app/gulpfile.js
+117	0	packages/react-app/package.json
+1	0	packages/react-app/public/dark-theme.css
+-	-	packages/react-app/public/favicon.ico
+69	0	packages/react-app/public/index.html
+1	0	packages/react-app/public/light-theme.css
+-	-	packages/react-app/public/logo192.png
+-	-	packages/react-app/public/logo512.png
+26	0	packages/react-app/public/manifest.json
+2	0	packages/react-app/public/robots.txt
+-	-	packages/react-app/public/scaffold-eth.png
+11	0	packages/react-app/scripts/create_contracts.js
+89	0	packages/react-app/scripts/ipfs.js
+93	0	packages/react-app/scripts/s3.js
+18	0	packages/react-app/scripts/watch.js
+64	0	packages/react-app/src/App.css
+461	0	packages/react-app/src/App.jsx
+9	0	packages/react-app/src/App.test.js
+-	-	packages/react-app/src/assets/h1.png
+-	-	packages/react-app/src/assets/h2.png
+-	-	packages/react-app/src/assets/logo.png
+-	-	packages/react-app/src/assets/logo_sq.png
+59	0	packages/react-app/src/components/About.jsx
+113	0	packages/react-app/src/components/Account.jsx
+117	0	packages/react-app/src/components/Address.jsx
+136	0	packages/react-app/src/components/AddressInput.jsx
+79	0	packages/react-app/src/components/Balance.jsx
+12	0	packages/react-app/src/components/Blockie.jsx
+107	0	packages/react-app/src/components/BytesStringInput.jsx
+126	0	packages/react-app/src/components/CheckoutPage.jsx
+52	0	packages/react-app/src/components/Contract/DisplayVariable.jsx
+244	0	packages/react-app/src/components/Contract/FunctionForm.jsx
+137	0	packages/react-app/src/components/Contract/index.jsx
+27	0	packages/react-app/src/components/Contract/utils.js
+68	0	packages/react-app/src/components/CreateWallet.jsx
+110	0	packages/react-app/src/components/EtherInput.jsx
+121	0	packages/react-app/src/components/Faucet.jsx
+115	0	packages/react-app/src/components/FileDropzone.jsx
+39	0	packages/react-app/src/components/GasGauge.jsx
+62	0	packages/react-app/src/components/Generate.jsx
+20	0	packages/react-app/src/components/Header.jsx
+424	0	packages/react-app/src/components/L2Bridge.jsx
+107	0	packages/react-app/src/components/MusicPage.jsx
+97	0	packages/react-app/src/components/Provider.jsx
+151	0	packages/react-app/src/components/Ramp.jsx
+38	0	packages/react-app/src/components/SearchMusic.jsx
+692	0	packages/react-app/src/components/Swap.jsx
+30	0	packages/react-app/src/components/ThemeSwitch.jsx
+118	0	packages/react-app/src/components/Timeline.jsx
+47	0	packages/react-app/src/components/TokenBalance.jsx
+207	0	packages/react-app/src/components/Upload.jsx
+349	0	packages/react-app/src/components/Wallet.jsx
+19	0	packages/react-app/src/components/index.js
+158	0	packages/react-app/src/constants.js
+801	0	packages/react-app/src/contracts/external_contracts.js
+46	0	packages/react-app/src/contracts/hardhat_contracts.json
+-	-	packages/react-app/src/ethereumLogo.png
+151	0	packages/react-app/src/helpers/Transactor.js
+1	0	packages/react-app/src/helpers/index.js
+63	0	packages/react-app/src/hooks/Balance.js
+41	0	packages/react-app/src/hooks/BurnerSigner.js
+38	0	packages/react-app/src/hooks/ContractExistsAtAddress.js
+126	0	packages/react-app/src/hooks/ContractLoader.js
+93	0	packages/react-app/src/hooks/ContractReader.js
+17	0	packages/react-app/src/hooks/Debounce.js
+44	0	packages/react-app/src/hooks/EventListener.js
+30	0	packages/react-app/src/hooks/ExchangePrice.js
+27	0	packages/react-app/src/hooks/GasPrice.js
+60	0	packages/react-app/src/hooks/LocalStorage.js
+70	0	packages/react-app/src/hooks/LookupAddress.js
+14	0	packages/react-app/src/hooks/Nonce.js
+33	0	packages/react-app/src/hooks/OnBlock.js
+26	0	packages/react-app/src/hooks/Poller.js
+31	0	packages/react-app/src/hooks/ResolveName.js
+51	0	packages/react-app/src/hooks/TokenList.js
+55	0	packages/react-app/src/hooks/UserSigner.js
+17	0	packages/react-app/src/hooks/index.js
+8	0	packages/react-app/src/index.css
+29	0	packages/react-app/src/index.jsx
+5	0	packages/react-app/src/setupTests.js
+22	0	packages/react-app/src/themes/dark-theme.less
+11	0	packages/react-app/src/themes/light-theme.less
+15	0	packages/react-app/src/util/audius.js
+55	0	packages/react-app/src/util/ceramic.js
+125	0	packages/react-app/src/util/checkout.js
+100	0	packages/react-app/src/util/fluence.js
+125	0	packages/react-app/src/util/get_price.js
+19	0	packages/react-app/src/util/index.js
+23	0	packages/react-app/src/util/pillar.js
+16	0	packages/react-app/src/util/qr.js
+32	0	packages/react-app/src/util/stor.js
+228	0	packages/react-app/src/views/ExampleUI.jsx
+270	0	packages/react-app/src/views/Hints.jsx
+190	0	packages/react-app/src/views/Subgraph.jsx
+3	0	packages/react-app/src/views/index.js
+75	0	packages/services/graph-node/Dockerfile
+78	0	packages/services/graph-node/README.md
+11	0	packages/services/graph-node/bin/create
+9	0	packages/services/graph-node/bin/debug
+12	0	packages/services/graph-node/bin/deploy
+12	0	packages/services/graph-node/bin/reassign
+11	0	packages/services/graph-node/bin/remove
+26	0	packages/services/graph-node/build.sh
+53	0	packages/services/graph-node/cloudbuild.yaml
+38	0	packages/services/graph-node/docker-compose.yml
+8	0	packages/services/graph-node/hooks/post_checkout
+42	0	packages/services/graph-node/setup.sh
+105	0	packages/services/graph-node/start
+28	0	packages/services/graph-node/tag.sh
+83	0	packages/services/graph-node/wait_for
+18	0	packages/services/package.json
+33	0	packages/subgraph/abis/rinkeby_YourContract.json
+3	0	packages/subgraph/config/config.json
+20	0	packages/subgraph/package.json
+34	0	packages/subgraph/src/mapping.ts
+15	0	packages/subgraph/src/schema.graphql
+25	0	packages/subgraph/src/subgraph.template.yaml
+27641	0	yarn.lock

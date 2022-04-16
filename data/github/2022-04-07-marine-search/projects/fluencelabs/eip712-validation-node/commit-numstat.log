@@ -1,0 +1,587 @@
+commit edf5dd1c76b170f2ecc3197dbd31aabcf78029b9
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Feb 7 00:54:03 2022 -0600
+
+    replace fldist with aqua
+
+1	1	client-peer/package.json
+1	1	peer-node/package.json
+10	10	services/consensus/Cargo.lock
+6	6	services/consensus/scripts/deploy.sh
+
+commit 56d74da65026a3951e4499ba00b74ab4fe98c9b5
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Feb 6 15:00:05 2022 -0600
+
+    bump service versions
+
+1	1	services/consensus/Cargo.toml
+
+commit bd1c59122f889934003aeb92786ae3200ef3353a
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Feb 6 14:59:43 2022 -0600
+
+    bump peer versions
+
+3333	548	client-peer/package-lock.json
+4	4	client-peer/package.json
+298	245	client-peer/src/_aqua/demo_validation.ts
+-	-	peer-node/data/snapshot.db
+7	7	peer-node/package.json
+265	209	peer-node/src/_aqua/snapshot.ts
+
+commit 55ff01e60c1e85a52501415a5f604c56b08e9603
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Nov 28 10:04:19 2021 -0600
+
+    update dependencies
+
+184	89	client-peer/package-lock.json
+3	3	client-peer/package.json
+-	-	peer-node/data/snapshot.db
+4	4	peer-node/package.json
+
+commit 452278b24d45c56e71fb031019cd67cad49f3d53
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Nov 8 23:43:05 2021 -0600
+
+    update aqua, readme
+
+60	4	README.md
+8	17	client-peer/aqua/demo_validation.aqua
+40	147	client-peer/src/_aqua/demo_validation.ts
+1	4	client-peer/src/index.ts
+-	-	peer-node/data/snapshot.db
+1	1	peer-node/package.json
+
+commit cdf911bd76ecfb6e8f041e8b2f7e0ac07bc9d5b5
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Nov 8 13:28:58 2021 -0600
+
+    update aqua
+
+35	26	client-peer/src/_aqua/demo_validation.ts
+5	5	peer-node/src/_aqua/snapshot.ts
+
+commit d0252d284dfb115a334b35b2d65ed307c17b9f95
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Nov 8 13:28:21 2021 -0600
+
+    update versions
+
+14	14	client-peer/package-lock.json
+2	2	client-peer/package.json
+-	-	peer-node/data/snapshot.db
+1	1	peer-node/package.json
+
+commit e600e4d870cfc284b66a148b45517a2526b1e93e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Nov 7 18:38:20 2021 -0600
+
+    update consensus
+
+6	8	README.md
+31	9	client-peer/aqua/demo_validation.aqua
+305	0	client-peer/src/_aqua/demo_validation.ts
+37	1	client-peer/src/index.ts
+-	-	peer-node/data/snapshot.db
+0	13	services/consensus/.repl_history
+
+commit 48f4ca3106ae81b1be87a94705c2896492cdb0ef
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Nov 7 15:19:09 2021 -0600
+
+    update consensus service
+
+24	0	client-peer/aqua/demo_validation.aqua
+0	4	peer-node/consensus-service/Readme.md
+-	-	services/.DS_Store
+0	0	{peer-node/consensus-service => services/consensus}/.gitignore
+13	0	services/consensus/.repl_history
+0	0	{peer-node/consensus-service => services/consensus}/Cargo.lock
+0	0	{peer-node/consensus-service => services/consensus}/Cargo.toml
+82	0	services/consensus/Readme.md
+0	0	{peer-node/consensus-service => services/consensus/configs}/Config.toml
+1	0	services/consensus/configs/consensus_cfg.json
+5	0	services/consensus/deployed_service_data.txt
+0	0	{peer-node/consensus-service => services/consensus}/scripts/build.sh
+15	0	services/consensus/scripts/deploy.sh
+0	0	{peer-node/consensus-service => services/consensus}/src/main.rs
+
+commit 831f3ad675d2fa3cc241352d0c60ad13be027ea2
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Nov 7 01:50:50 2021 -0500
+
+    init Readme
+
+0	1	peer-node/.gitignore
+2	189	peer-node/consensus-service/Readme.md
+
+commit c13b995ae3ef9ed88c4fd8fd75eedd4066cacaff
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Nov 7 01:49:21 2021 -0500
+
+    init simple consensus service
+
+9	0	peer-node/consensus-service/.gitignore
+1667	0	peer-node/consensus-service/Cargo.lock
+22	0	peer-node/consensus-service/Cargo.toml
+6	0	peer-node/consensus-service/Config.toml
+191	0	peer-node/consensus-service/Readme.md
+6	0	peer-node/consensus-service/scripts/build.sh
+119	0	peer-node/consensus-service/src/main.rs
+
+commit 8b902b259ed7b51169391a84342a5f6b3fe3ad41
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Nov 6 18:51:59 2021 -0500
+
+    update client to use eip712 signature instead of snapshot_id
+
+0	0	client-peer/air-scripts/.gitkeep
+0	43	client-peer/air-scripts/demo_validation.get_all_validations.air
+0	46	client-peer/air-scripts/demo_validation.get_record.air
+0	43	client-peer/air-scripts/demo_validation.get_record_count.air
+0	43	client-peer/air-scripts/demo_validation.get_records.air
+0	46	client-peer/air-scripts/demo_validation.get_validation.air
+0	400	client-peer/air-scripts/demo_validation.ts
+0	46	client-peer/air-scripts/demo_validation.validate.air
+0	43	client-peer/air-scripts/snapshot.get_count.air
+0	46	client-peer/air-scripts/snapshot.get_record.air
+0	43	client-peer/air-scripts/snapshot.get_records.air
+0	46	client-peer/air-scripts/snapshot.validate.air
+0	46	client-peer/air-scripts/snapshot.validate_from_url.air
+4	5	client-peer/aqua/demo_validation.aqua
+12	12	client-peer/src/_aqua/demo_validation.ts
+7	7	client-peer/src/index.ts
+
+commit dea3be5d4e8d0f6eaee8a50dfeeed29939024ad0
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Nov 6 18:50:27 2021 -0500
+
+    update db schema to eip712 signature instead of snapshot id
+
+1	1	README.md
+4	5	peer-node/aqua/snapshot.aqua
+-	-	peer-node/data/snapshot.db
+12	12	peer-node/src/_aqua/snapshot.ts
+3	3	peer-node/src/index.ts
+7	8	peer-node/src/local_db.ts
+
+commit e23d66d2f87d4c565d85762e62ed4be8029c52cb
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Nov 6 18:15:52 2021 -0500
+
+    update, fix speling
+
+2	2	README.md
+
+commit cfd95d8ff32713b69492f3343904ece8cc7ba4a5
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Nov 3 14:12:52 2021 -0500
+
+    fix formatting
+
+5	2	README.md
+
+commit 4f163db19b15335deb5d33a284972c0e80b27142
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Oct 24 19:10:23 2021 -0500
+
+    update readme, cleanup comments
+
+73	8	README.md
+18	3	client-peer/aqua/demo_validation.aqua
+5	5	client-peer/src/_aqua/demo_validation.ts
+9	13	client-peer/src/index.ts
+0	47	client-peer/src/index.ts.bk
+-	-	peer-node/data/snapshot.db
+3	7	peer-node/src/index.ts
+
+commit 2c59a944796820ef1150f32036b2c97131e82fc7
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Oct 24 18:25:58 2021 -0500
+
+    update return struct
+
+3	3	client-peer/aqua/demo_validation.aqua
+155	1	client-peer/package-lock.json
+3	2	client-peer/package.json
+20	20	client-peer/src/_aqua/demo_validation.ts
+26	2	client-peer/src/index.ts
+16	10	peer-node/aqua/snapshot.aqua
+-	-	peer-node/data/snapshot.db
+1	1	peer-node/package.json
+0	605	peer-node/src/_aqua/demo_validation.ts
+53	53	peer-node/src/_aqua/snapshot.ts
+0	495	peer-node/src/_aqua/snapshot.ts.bk
+0	2	peer-node/src/eip_processor.ts
+31	24	peer-node/src/index.ts
+0	137	peer-node/src/index.ts.bk
+1	2	peer-node/src/local_db.ts
+
+commit 108f4ab8046e446339154cd50d903b0b177ddbbe
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Oct 24 14:29:38 2021 -0500
+
+    update demo client
+
+3	1	client-peer/.gitignore
+5123	0	client-peer/package-lock.json
+3	8	client-peer/package.json
+234	29	client-peer/src/_aqua/demo_validation.ts
+69	0	client-peer/src/index.ts
+62	0	client-peer/tsconfig.json
+
+commit bfc1a7d425fee71d063e6414c54d78f3737c1707
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Oct 24 13:51:02 2021 -0500
+
+    reorg into node and client
+
+0	0	{air-scripts => client-peer/air-scripts}/.gitkeep
+0	0	{air-scripts => client-peer/air-scripts}/demo_validation.get_all_validations.air
+0	0	{air-scripts => client-peer/air-scripts}/demo_validation.get_record.air
+0	0	{air-scripts => client-peer/air-scripts}/demo_validation.get_record_count.air
+0	0	{air-scripts => client-peer/air-scripts}/demo_validation.get_records.air
+0	0	{air-scripts => client-peer/air-scripts}/demo_validation.get_validation.air
+0	0	{air-scripts => client-peer/air-scripts}/demo_validation.ts
+0	0	{air-scripts => client-peer/air-scripts}/demo_validation.validate.air
+0	0	{air-scripts => client-peer/air-scripts}/snapshot.get_count.air
+0	0	{air-scripts => client-peer/air-scripts}/snapshot.get_record.air
+0	0	{air-scripts => client-peer/air-scripts}/snapshot.get_records.air
+0	0	{air-scripts => client-peer/air-scripts}/snapshot.validate.air
+0	0	{air-scripts => client-peer/air-scripts}/snapshot.validate_from_url.air
+0	0	{aqua => client-peer/aqua}/demo_validation.aqua
+40	17	client-peer/package.json
+26	0	client-peer/package.json.bk
+0	0	client-peer/src/{index.ts => index.ts.bk}
+0	0	client-peer/{tsconfig.json => tsconfig.json.bk}
+0	0	.gitignore => peer-node/.gitignore
+0	0	{aqua => peer-node/aqua}/snapshot.aqua
+-	-	{data => peer-node/data}/snapshot.db
+1	1	package.json => peer-node/package.json
+0	0	{src => peer-node/src}/_aqua/demo_validation.ts
+0	0	{src => peer-node/src}/_aqua/snapshot.ts
+495	0	peer-node/src/_aqua/snapshot.ts.bk
+0	0	{src => peer-node/src}/eip_processor.ts
+0	0	{src => peer-node/src}/index.ts
+137	0	peer-node/src/index.ts.bk
+0	0	{src => peer-node/src}/local_db.ts
+0	0	{src => peer-node/src}/utils.ts
+0	0	tsconfig.json => peer-node/tsconfig.json
+
+commit d34b9346776aa4b5229e7ff39f7547915e7b44db
+Merge: 04baa6d e2d7746
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Oct 24 12:35:56 2021 -0500
+
+    merge async-fluence-js
+
+commit e2d774640eeeb963d2bfc064c3ddab1d5fd7f4ee
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sun Oct 24 12:32:30 2021 -0500
+
+    cleanup
+
+43	0	air-scripts/demo_validation.get_all_validations.air
+46	0	air-scripts/demo_validation.get_record.air
+43	0	air-scripts/demo_validation.get_record_count.air
+43	0	air-scripts/demo_validation.get_records.air
+46	0	air-scripts/demo_validation.get_validation.air
+400	0	air-scripts/demo_validation.ts
+46	0	air-scripts/demo_validation.validate.air
+43	0	air-scripts/snapshot.get_count.air
+46	0	air-scripts/snapshot.get_record.air
+43	0	air-scripts/snapshot.get_records.air
+46	0	air-scripts/snapshot.validate.air
+46	0	air-scripts/snapshot.validate_from_url.air
+30	10	aqua/demo_validation.aqua
+10	1	aqua/snapshot.aqua
+234	29	src/_aqua/demo_validation.ts
+216	11	src/_aqua/snapshot.ts
+23	25	src/index.ts
+55	6	src/local_db.ts
+11	0	src/utils.ts
+
+commit f5ae7af91ea84ca55db3541bbd89ae594e62bd3b
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Oct 23 13:48:16 2021 -0500
+
+    update service names
+
+8	5	src/index.ts
+
+commit e1f40d19021c46fda7f5563ee87c1f0905fba401
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Oct 23 13:47:42 2021 -0500
+
+    update data and services
+
+21	8	aqua/snapshot.aqua
+12	12	src/_aqua/snapshot.ts
+
+commit b56b811553f6c86c9072f95206920f0583dff8e3
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Oct 23 13:46:55 2021 -0500
+
+    update promises
+
+47	62	src/local_db.ts
+
+commit afc70bff1c0dfee04fd22cd3685ccbc00b33901d
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Oct 22 13:57:50 2021 -0500
+
+    update sqlite calls
+
+1	1	src/local_db.ts
+
+commit b820e32eb35c936e0c10be608505a2ce03d5327e
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Oct 22 13:54:37 2021 -0500
+
+    add sqlite
+
+-	-	data/snapshot.db
+13	3	src/index.ts
+17	12	src/local_db.ts
+
+commit a91d951da220d8befbeafb2c40ac334a2756b98c
+Author: Pavel Murygin <Pavel.Murygin@gmail.com>
+Date:   Fri Oct 22 09:05:15 2021 +0300
+
+    Updat aqua and fluence js in client peer
+
+2	2	client-peer/package.json
+5	5	client-peer/src/_aqua/demo_validation.ts
+
+commit 35bb9a4e11a9a9f9f31a2e5699580901e4eaf221
+Author: Pavel Murygin <Pavel.Murygin@gmail.com>
+Date:   Fri Oct 22 09:03:19 2021 +0300
+
+    Update fluence-js and aqua versions
+
+2	2	package.json
+216	259	src/_aqua/demo_validation.ts
+257	308	src/_aqua/snapshot.ts
+
+commit 04baa6d3f614013f0021b6ba2bff4523aa6c72db
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Oct 20 17:33:10 2021 -0500
+
+    update todo
+
+3	3	README.md
+
+commit d3015794a6e7c88908b0a5827ca8c2faabbf6672
+Author: Pavel Murygin <Pavel.Murygin@gmail.com>
+Date:   Thu Oct 21 00:10:01 2021 +0300
+
+    Update fluence-js version and recompile with async version of Aqua compiler
+
+1	1	client-peer/package.json
+347	451	client-peer/src/_aqua/demo_validation.ts
+3	3	client-peer/src/index.ts
+1	1	package.json
+443	0	src/_aqua/demo_validation.ts
+241	408	src/_aqua/snapshot.ts
+
+commit fb27686429d623cabddb8f9285a18e422bec5742
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Oct 11 18:58:37 2021 -0500
+
+    add compiled aqua
+
+504	0	client-peer/src/_aqua/demo_validation.ts
+
+commit a31951315585bfd346836a4e8c75ece2e25b3067
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Oct 11 18:52:25 2021 -0500
+
+    add client
+
+2	0	client-peer/.gitignore
+26	0	client-peer/package.json
+47	0	client-peer/src/index.ts
+69	0	client-peer/tsconfig.json
+
+commit a4c4ac02653daf98e7d4d101ae19f08fab732b79
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Oct 11 17:58:45 2021 -0500
+
+    add dir
+
+0	0	air-scripts/.gitkeep
+
+commit ba88d1dfced0987bb1a528f5414f21feedcba683
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Oct 11 01:36:53 2021 -0500
+
+    update services
+
+32	0	aqua/demo_validation.aqua
+3	3	src/index.ts
+
+commit aa69c42dc0fdfa34d3727a28da0b7d071d3d5235
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Oct 8 18:22:18 2021 -0500
+
+    update workflow, demo aqua
+
+1	1	README.md
+2	2	aqua/snapshot.aqua
+2	2	src/_aqua/snapshot.ts
+26	103	src/index.ts
+
+commit f11396b91631beaeda3f40d7078bb7d537987ccc
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Oct 7 16:53:02 2021 -0500
+
+    update, fix typos
+
+3	3	README.md
+
+commit fbf6540ed115934fb9641e9743b67608c978a942
+Author: Pavel Murygin <Pavel.Murygin@gmail.com>
+Date:   Wed Oct 6 19:48:27 2021 +0300
+
+    extract FluencePeer creation
+
+12	11	src/index.ts
+
+commit 32d4e6c822f27e276117310f24da2f686eb8646d
+Author: Pavel Murygin <Pavel.Murygin@gmail.com>
+Date:   Wed Oct 6 19:46:34 2021 +0300
+
+    Add sample KeyPair usage
+
+1	0	package.json
+5	0	src/index.ts
+
+commit 41081910239a43cf01d69c7f06c614c941578a42
+Author: Pavel Murygin <Pavel.Murygin@gmail.com>
+Date:   Wed Oct 6 19:39:57 2021 +0300
+
+    update fluence-js version
+
+1	1	package.json
+
+commit 4cd2b7d75bfa3d73e2e7d367481849278958eae1
+Author: Pavel Murygin <Pavel.Murygin@gmail.com>
+Date:   Wed Oct 6 15:41:31 2021 +0300
+
+    using async branch version of fluence-js
+
+1	1	package.json
+713	0	src/_aqua/snapshot.ts
+1	0	src/eip_processor.ts
+6	5	src/index.ts
+
+commit dbaab5b9b48a41e2a3a7baff2c5b899275b03092
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Oct 4 10:52:54 2021 -0500
+
+    update readme.md
+
+11	9	README.md
+
+commit edff3861fdf345a38a4545a13fc428ef0b0ff6a3
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Oct 4 09:23:57 2021 -0500
+
+    update main
+
+5	8	src/index.ts
+
+commit d1cc40f76dc48dd019129240107168fb27199273
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Oct 4 01:42:18 2021 -0500
+
+    init readme
+
+93	0	README.md
+
+commit 9c6ea53cf90c2a30499741a08e920593d7dec39c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Mon Oct 4 00:26:26 2021 -0500
+
+    update main
+
+9	3	aqua/snapshot.aqua
+1	0	src/eip_processor.ts
+65	7	src/index.ts
+
+commit 7a521c85b4c44a2ece103140f54f1c516fda8774
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Oct 2 20:57:02 2021 -0500
+
+    add got
+
+1	0	package.json
+1	2	src/eip_processor.ts
+76	3	src/index.ts
+22	27	src/local_db.ts
+
+commit f41f6286d71a487d9fed28a333e867cebb4a4a63
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Oct 1 00:50:15 2021 -0500
+
+    update registraion
+
+8	9	src/index.ts
+2	1	src/local_db.ts
+
+commit a1c8244cfa37010bb89a0124868e745685e986cc
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Sep 30 18:33:10 2021 -0500
+
+    update aqua
+
+5	6	aqua/snapshot.aqua
+2	1	src/eip_processor.ts
+39	36	src/index.ts
+41	1	src/local_db.ts
+
+commit 509e5f4ead69ab02b96ff7fb20391493048c9e5b
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Sep 30 14:06:59 2021 -0500
+
+    init aqua inerfaces and funcs
+
+36	0	aqua/snapshot.aqua
+-	-	data/snapshot.db
+1	1	src/index.ts
+11	0	src/local_db.ts
+
+commit f75563f24242474b432b4ded907a3f9136cb90b3
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Thu Sep 30 10:56:01 2021 -0500
+
+    update db create
+
+7	4	src/index.ts
+31	13	src/local_db.ts
+
+commit 8aad787da9c88155f31790a78c95669ac044b5dc
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 29 23:37:01 2021 -0500
+
+    update db
+
+-	-	data/snapshot.db
+10	3	src/index.ts
+43	16	src/local_db.ts
+
+commit 68869a5ecabca2595456db0d5a651f71bc70fe1a
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Wed Sep 29 18:39:32 2021 -0500
+
+    init project
+
+47	0	.gitignore
+0	0	data/snapshot.db
+27	0	package.json
+73	0	src/eip_processor.ts
+54	0	src/index.ts
+52	0	src/local_db.ts
+69	0	tsconfig.json

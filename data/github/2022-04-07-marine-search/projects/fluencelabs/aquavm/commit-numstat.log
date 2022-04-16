@@ -1,0 +1,4413 @@
+commit 5f0e29507325113c50fdd1f19f44bab2e202057b
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Thu Apr 7 00:18:49 2022 +0300
+
+    update faas (#240)
+
+2	2	.circleci/config.yml
+2	2	.github/workflows/publish_crates.yml
+3	3	.github/workflows/publish_interpreter.yml
+3	3	.github/workflows/publish_interpreter_dev.yml
+188	119	Cargo.lock
+2	2	avm/server/Cargo.toml
+
+commit 7f3b44fb9b23912bad9321bc98ce9d76b2d70093
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Fri Mar 25 21:53:15 2022 +0300
+
+    bump faas version (#235)
+    
+    * bump faas version
+    
+    * bump avm-server-version
+
+167	33	Cargo.lock
+2	2	avm/server/Cargo.toml
+
+commit 262beec1703cc90f3d8e14f27602f52c27a0bb41
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Tue Mar 15 20:45:15 2022 +0300
+
+    use Rust 2022-02-24 in CI (#233)
+
+2	2	.circleci/config.yml
+2	2	.github/workflows/publish_crates.yml
+3	3	.github/workflows/publish_interpreter.yml
+3	3	.github/workflows/publish_interpreter_dev.yml
+
+commit c4249e0118aa82492cf85112c7dda9d6f39ae22e
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Mon Mar 14 15:58:31 2022 +0300
+
+    add a list of changes to the next hardfork (#232)
+
+3	0	next-hardfork-changes.md
+
+commit b29883e990ecb6994eb8ec958e385e0941d9b614
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Thu Mar 10 16:06:43 2022 +0300
+
+    Refactor tests (#231)
+
+1	1	.circleci/config.yml
+1	0	Cargo.lock
+1	1	air/Cargo.toml
+5	4	air/src/execution_step/air/call/prev_result_handler.rs
+1	1	air/tests/test_module/{integration => }/build_test_binaries.sh
+76	0	air/tests/test_module/features/data_merging/air_basic.rs
+54	52	air/tests/test_module/{integration => features/data_merging}/data_merge.rs
+31	45	air/tests/test_module/{integration/call_evidence_basic.rs => features/data_merging/executed_trace_basic.rs}
+19	0	air/tests/test_module/features/data_merging/mod.rs
+19	0	air/tests/test_module/features/data_merging/scripts/create_service.clj
+0	0	air/tests/test_module/{integration => features/data_merging}/scripts/inner_folds_v1.clj
+32	0	air/tests/test_module/features/errors/invalid_air.rs
+14	26	air/tests/test_module/{integration => features/errors}/last_error.rs
+18	0	air/tests/test_module/features/errors/mod.rs
+0	0	air/tests/test_module/{integration => features/errors}/scripts/create_service_with_xor.clj
+26	48	air/tests/test_module/{integration => features/join_behaviour}/join_behaviour.rs
+17	0	air/tests/test_module/features/join_behaviour/mod.rs
+17	29	air/tests/test_module/{integration => features/lambda}/flattening.rs
+0	3	air/tests/test_module/{integration => features/lambda}/lambda.rs
+18	0	air/tests/test_module/features/lambda/mod.rs
+4	7	air/tests/test_module/{integration => features/misc}/empty_array.rs
+17	0	air/tests/test_module/features/misc/mod.rs
+23	0	air/tests/test_module/features/mod.rs
+6	9	air/tests/test_module/{integration => features/streams}/ap_with_fold.rs
+20	0	air/tests/test_module/features/streams/mod.rs
+0	3	air/tests/test_module/{integration => features/streams}/recursive_streams.rs
+0	0	air/tests/test_module/{integration => features/streams}/scripts/fold_early_exit.clj
+0	0	air/tests/test_module/{integration => features/streams}/scripts/fold_par_early_exit.clj
+0	0	air/tests/test_module/{integration => features/streams}/scripts/par_early_exit.clj
+0	0	air/tests/test_module/{integration => features/streams}/scripts/stream_fold_merging_v0.clj
+0	0	air/tests/test_module/{integration => features/streams}/scripts/stream_fold_merging_v1.clj
+0	0	air/tests/test_module/{integration => features/streams}/scripts/stream_fold_merging_v2.clj
+0	0	air/tests/test_module/{integration => features/streams}/streams.rs
+0	0	air/tests/test_module/{integration => features/streams}/streams_early_exit.rs
+17	0	air/tests/test_module/features/tetraplets/mod.rs
+4	10	air/tests/test_module/{integration => features/tetraplets}/security_tetraplets.rs
+211	188	air/tests/test_module/{integration => features/tetraplets}/security_tetraplets/auth_module/Cargo.lock
+1	1	air/tests/test_module/{integration => features/tetraplets}/security_tetraplets/auth_module/Cargo.toml
+0	0	air/tests/test_module/{integration => features/tetraplets}/security_tetraplets/auth_module/src/main.rs
+211	188	air/tests/test_module/{integration => features/tetraplets}/security_tetraplets/log_storage/Cargo.lock
+1	1	air/tests/test_module/{integration => features/tetraplets}/security_tetraplets/log_storage/Cargo.toml
+0	0	air/tests/test_module/{integration => features/tetraplets}/security_tetraplets/log_storage/src/main.rs
+13	28	air/tests/test_module/instructions/ap.rs
+11	26	air/tests/test_module/instructions/call.rs
+2	7	air/tests/test_module/instructions/fail.rs
+2	1	air/tests/test_module/instructions/fold.rs
+38	59	air/tests/test_module/instructions/match_.rs
+29	44	air/tests/test_module/instructions/mismatch.rs
+28	44	air/tests/test_module/instructions/new.rs
+3	6	air/tests/test_module/instructions/par.rs
+4	7	air/tests/test_module/instructions/seq.rs
+24	42	air/tests/test_module/instructions/xor.rs
+340	0	air/tests/test_module/integration/chat_join.rs
+2	82	air/tests/test_module/integration/{air_basic.rs => create_service.rs}
+4	4	air/tests/test_module/integration/dashboard.rs
+0	291	air/tests/test_module/integration/join.rs
+2	14	air/tests/test_module/integration/mod.rs
+10	13	air/tests/test_module/issues/issue_137.rs
+0	3	air/tests/test_module/issues/issue_173.rs
+0	2	air/tests/test_module/issues/issue_178.rs
+0	3	air/tests/test_module/issues/issue_180.rs
+0	3	air/tests/test_module/issues/issue_206.rs
+0	3	air/tests/test_module/issues/issue_211.rs
+0	3	air/tests/test_module/issues/issue_214.rs
+0	3	air/tests/test_module/issues/issue_216.rs
+0	3	air/tests/test_module/issues/issue_221.rs
+1	0	air/tests/test_module/main.rs
+9	6	crates/air-lib/air-parser/src/parser/lexer/tests.rs
+5	8	crates/air-lib/air-parser/src/parser/tests/call.rs
+0	1	crates/air-lib/air-parser/src/parser/tests/fold.rs
+1	0	crates/air-lib/test-utils/Cargo.toml
+3	0	crates/air-lib/test-utils/src/lib.rs
+
+commit 914ad745163d1ed6c8efcc8ca6cabb657564b48b
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Thu Mar 10 01:32:07 2022 +0300
+
+    Make fold by streams truly deterministic (#228)
+
+43	23	air/src/execution_step/air/ap.rs
+2	22	air/src/execution_step/air/ap/utils.rs
+1	13	air/src/execution_step/air/call/call_result_setter.rs
+1	1	air/src/execution_step/air/fold_stream/stream_cursor.rs
+0	10	air/src/execution_step/boxed_value/stream.rs
+6	8	air/tests/test_module/instructions/ap.rs
+6	5	air/tests/test_module/instructions/fold.rs
+5	5	air/tests/test_module/integration/data_merge.rs
+81	7	air/tests/test_module/integration/recursive_streams.rs
+
+commit a64a4fc0a68b6b8883fcc44cb9b9f214f7f4b02d
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Mon Mar 7 13:50:08 2022 +0300
+
+    support empty array literal in fold (#230)
+
+8	1	air/src/execution_step/air/fold_scalar.rs
+19	1	air/tests/test_module/instructions/fold.rs
+7	0	crates/air-lib/air-parser/src/ast/instruction_arguments.rs
+11	0	crates/air-lib/air-parser/src/ast/instruction_arguments/traits.rs
+2	1	crates/air-lib/air-parser/src/ast/instructions.rs
+1	1	crates/air-lib/air-parser/src/ast/instructions/impls.rs
+4	3	crates/air-lib/air-parser/src/parser/air.lalrpop
+454	398	crates/air-lib/air-parser/src/parser/air.rs
+18	5	crates/air-lib/air-parser/src/parser/tests/dsl.rs
+17	4	crates/air-lib/air-parser/src/parser/tests/fold.rs
+6	1	crates/air-lib/air-parser/src/parser/validator.rs
+
+commit c00b453a48ef7c6758cfb7907b8d6cc59cc6602c
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Thu Mar 3 19:09:48 2022 +0300
+
+    Remove RefCell from streams (#227)
+
+2	2	Cargo.lock
+1	1	air/src/execution_step/air/ap/utils.rs
+1	1	air/src/execution_step/air/call/call_result_setter.rs
+1	3	air/src/execution_step/air/fold/utils.rs
+6	8	air/src/execution_step/air/fold_stream.rs
+2	4	air/src/execution_step/air/fold_stream/stream_cursor.rs
+4	4	air/src/execution_step/boxed_value/jvaluable/stream.rs
+32	24	air/src/execution_step/execution_context/streams_variables.rs
+1	1	air/src/execution_step/resolver/resolve.rs
+
+commit 9ae79f44ff62d45342b8c43188724754f44cb6a4
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Sat Feb 26 00:54:11 2022 +0300
+
+    bump version to 0.21 (#226)
+
+11	0	CHANGELOG.md
+1	1	air-interpreter/Cargo.toml
+1	1	air/Cargo.toml
+
+commit cc54e4c3830905417dc4ba2549585da7912023d0
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Fri Feb 25 23:55:40 2022 +0300
+
+    Introduce recursive streams (#225)
+
+20	34	air/src/execution_step/air/fold/utils.rs
+58	12	air/src/execution_step/air/fold_stream.rs
+42	0	air/src/execution_step/air/fold_stream/stream_cursor.rs
+100	11	air/src/execution_step/boxed_value/stream.rs
+1	0	air/tests/test_module/integration/mod.rs
+376	0	air/tests/test_module/integration/recursive_streams.rs
+1	1	crates/air-lib/test-utils/src/test_runner.rs
+
+commit ac050abc8a91d50f253f88428e6071036e15d141
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Fri Feb 25 10:24:28 2022 +0300
+
+    Fix ap trace handler behaviour (#224)
+
+2	0	air/src/execution_step/air/ap.rs
+109	0	air/tests/test_module/issues/issue_221.rs
+1	0	air/tests/test_module/issues/mod.rs
+26	7	crates/air-lib/trace-handler/src/merger/ap_merger.rs
+21	4	crates/air-lib/trace-handler/src/merger/call_merger.rs
+4	0	crates/air-lib/trace-handler/src/merger/mod.rs
+13	14	crates/air-lib/trace-handler/src/merger/{call_merger/call_result_constructor.rs => position_mapping.rs}
+
+commit 39da1c98bbc34f22653003e1a6b1548c34d1a691
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Fri Feb 18 19:04:40 2022 +0300
+
+    Use js marine runtime instead of wasm-bindgen (#209)
+
+0	43	.github/workflows/avm_client_ci.yml
+28	28	.github/workflows/publish_interpreter.yml
+27	27	.github/workflows/publish_interpreter_dev.yml
+0	7	avm/client/build_wasm.ps1
+4	9	avm/client/build_wasm.sh
+0	5	avm/client/jest.config.js
+25	10363	avm/client/package-lock.json
+4	9	avm/client/package.json
+0	40	avm/client/src/__test__/test.spec.ts
+0	270	avm/client/src/index.ts
+0	151	avm/client/src/wrapper.ts
+
+commit 78a2bc9d58abf4f40c4096a3252e4464ef853ba4
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Fri Feb 18 18:00:42 2022 +0300
+
+    Fix tetraplets json path (#220)
+
+0	1	air/src/execution_step/air/ap.rs
+2	1	air/src/execution_step/air/ap/apply_to_arguments.rs
+3	3	air/src/execution_step/air/call.rs
+1	1	air/src/execution_step/air/call/call_result_setter.rs
+6	6	air/src/execution_step/air/call/prev_result_handler.rs
+7	8	air/src/execution_step/air/call/resolved_call.rs
+3	4	air/src/execution_step/air/fail.rs
+10	7	air/src/execution_step/air/fold/utils.rs
+4	4	air/src/execution_step/boxed_value/iterable.rs
+3	3	air/src/execution_step/boxed_value/iterable/json_path_result.rs
+3	3	air/src/execution_step/boxed_value/iterable/vec_json_path_result.rs
+4	4	air/src/execution_step/boxed_value/jvaluable.rs
+7	6	air/src/execution_step/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+4	4	air/src/execution_step/boxed_value/jvaluable/empty_stream.rs
+9	5	air/src/execution_step/boxed_value/jvaluable/iterable_item.rs
+6	6	air/src/execution_step/boxed_value/jvaluable/resolved_call_result.rs
+6	6	air/src/execution_step/boxed_value/jvaluable/stream.rs
+3	3	air/src/execution_step/boxed_value/scalar.rs
+2	2	air/src/execution_step/execution_context/last_error/last_error_definition.rs
+4	4	air/src/execution_step/execution_context/last_error/last_error_descriptor.rs
+2	3	air/src/execution_step/mod.rs
+1	1	air/src/execution_step/resolver/mod.rs
+14	13	air/src/execution_step/resolver/resolve.rs
+70	21	air/tests/test_module/integration/security_tetraplets.rs
+
+commit f994ce73c8467b0df509e9e569c8f969da716708
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Thu Feb 17 23:39:01 2022 +0300
+
+    Check scalars in lamda were defined in script (#218)
+
+1	1	crates/air-lib/air-parser/src/ast/values/impls.rs
+30	0	crates/air-lib/air-parser/src/parser/tests/call.rs
+2	5	crates/air-lib/air-parser/src/parser/tests/mod.rs
+16	0	crates/air-lib/air-parser/src/parser/validator.rs
+
+commit 1ca121cf9388bf70b1ea552c880aea825713bcf6
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Thu Feb 17 13:37:36 2022 +0300
+
+    fix data handling in Ap (#217)
+
+4	2	air/src/execution_step/air/ap.rs
+1	2	air/src/execution_step/air/call/resolved_call.rs
+58	0	air/tests/test_module/issues/issue_216.rs
+1	0	air/tests/test_module/issues/mod.rs
+
+commit 9fb085b6d697c336c2a9686b3e8c065a8e0c64ea
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Wed Feb 16 23:34:15 2022 +0300
+
+    Check call arguments at the beggining (#215)
+
+30	4	air/src/execution_step/air/call/resolved_call.rs
+2	8	air/src/execution_step/execution_context/streams_variables.rs
+1	3	air/tests/test_module/integration/lambda.rs
+1	3	air/tests/test_module/integration/last_error.rs
+71	0	air/tests/test_module/issues/issue_214.rs
+1	0	air/tests/test_module/issues/mod.rs
+
+commit 3219570006b7d361969177fa05f488a238e206a7
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Jan 31 18:46:15 2022 +0300
+
+    switch to marine without mem limits (#213)
+
+16	16	Cargo.lock
+2	2	avm/server/Cargo.toml
+
+commit 4f90f194c7bef521631315a1577c2fa21c50bdbb
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Jan 26 17:16:59 2022 +0300
+
+    Implement scalars in lambda for streams (#212)
+
+1	1	Cargo.lock
+2	2	air/src/execution_step/air/fold/utils.rs
+3	3	air/src/execution_step/boxed_value/jvaluable/iterable_item.rs
+3	3	air/src/execution_step/boxed_value/jvaluable/resolved_call_result.rs
+9	7	air/src/execution_step/lambda_applier/applier.rs
+3	0	air/src/execution_step/lambda_applier/errors.rs
+1	1	air/src/execution_step/lambda_applier/mod.rs
+20	0	air/src/execution_step/lambda_applier/utils.rs
+2	2	air/src/execution_step/resolver/resolve.rs
+128	3	air/tests/test_module/integration/lambda.rs
+90	0	air/tests/test_module/issues/issue_211.rs
+1	0	air/tests/test_module/issues/mod.rs
+
+commit 58aef82b1e73a924febd19f4aefdbbbf760c8cab
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Jan 26 13:37:22 2022 +0300
+
+    Add API for returning interpreter memory size (#210)
+
+54	53	Cargo.lock
+2	2	avm/server/Cargo.toml
+5	0	avm/server/src/avm.rs
+8	0	avm/server/src/runner.rs
+8	5	crates/air-lib/air-parser/src/parser/air.rs
+8	5	crates/air-lib/lambda/parser/src/parser/va_lambda.rs
+
+commit 6df4e470d37bdbfeb128e55815e73f7ab34fbaeb
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Dec 29 21:24:03 2021 +0300
+
+    Bump AquaVM to 0.20.0 (#208)
+
+11	0	CHANGELOG.md
+18	18	Cargo.lock
+1	1	air-interpreter/Cargo.toml
+1	1	air/Cargo.toml
+
+commit 401d8c06fa92d31a3bede1117d16c196e6896857
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Dec 29 20:01:49 2021 +0300
+
+    Fix bug with empty arrays in match  (#207)
+
+5	1	air/src/execution_step/air/compare_matchable/comparator.rs
+50	0	air/tests/test_module/issues/issue_206.rs
+1	0	air/tests/test_module/issues/mod.rs
+
+commit e6193ea4de2ba546edef2364045b2304b837a6a4
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Dec 29 19:51:18 2021 +0300
+
+    Implement fail with scalars (#205)
+
+2	2	air/src/execution_step/air/ap/apply_to_arguments.rs
+3	3	air/src/execution_step/air/call.rs
+1	1	air/src/execution_step/air/call/triplet.rs
+1	1	air/src/execution_step/air/compare_matchable/comparator.rs
+22	11	air/src/execution_step/air/fail.rs
+4	3	air/src/execution_step/air/mod.rs
+2	2	air/src/execution_step/air/par.rs
+5	0	air/src/execution_step/errors/catchable_errors.rs
+2	2	air/src/execution_step/execution_context/context.rs
+36	0	air/src/execution_step/execution_context/last_error/errors.rs
+110	0	air/src/execution_step/execution_context/last_error/last_error_definition.rs
+24	28	air/src/execution_step/execution_context/{ => last_error}/last_error_descriptor.rs
+30	0	air/src/execution_step/execution_context/last_error/mod.rs
+2	3	air/src/execution_step/execution_context/mod.rs
+1	0	air/src/execution_step/mod.rs
+12	3	air/src/execution_step/resolver/resolve.rs
+1	0	air/src/lib.rs
+3	1	air/tests/test_module/instructions/fail.rs
+171	1	air/tests/test_module/integration/last_error.rs
+1	0	crates/air-lib/air-parser/src/ast/instructions.rs
+2	1	crates/air-lib/air-parser/src/ast/instructions/traits.rs
+2	0	crates/air-lib/air-parser/src/parser/air.lalrpop
+519	421	crates/air-lib/air-parser/src/parser/air.rs
+4	0	crates/air-lib/air-parser/src/parser/tests/dsl.rs
+32	0	crates/air-lib/air-parser/src/parser/tests/fail.rs
+
+commit 91021d8b4099343049053dc3f0411ed5f59a0167
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Tue Dec 28 17:43:54 2021 +0300
+
+    AVM client: move embedded wasm into a separate file (#200)
+
+1	0	avm/client/.gitignore
+3	8	avm/client/build_wasm.ps1
+3	13	avm/client/build_wasm.sh
+1	0	avm/client/jest.config.js
+5798	8	avm/client/package-lock.json
+4	3	avm/client/package.json
+5	1	avm/client/src/__test__/test.spec.ts
+33	0	avm/client/src/copyAvm.ts
+28	19	avm/client/src/index.ts
+
+commit 63160dd0f0bee682be6bdbf9b8845b9f4a876ea1
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Dec 28 16:59:55 2021 +0300
+
+    Refactor last error (#202)
+
+5	5	air/src/execution_step/air/ap/apply_to_arguments.rs
+6	6	air/src/execution_step/air/call.rs
+4	4	air/src/execution_step/air/compare_matchable/comparator.rs
+28	28	air/src/execution_step/air/fail.rs
+1	1	air/src/execution_step/air/match_.rs
+1	1	air/src/execution_step/air/mismatch.rs
+13	64	air/src/execution_step/air/mod.rs
+1	2	air/src/execution_step/air/par.rs
+1	1	air/src/execution_step/air/xor.rs
+15	6	air/src/execution_step/errors/catchable_errors.rs
+13	2	air/src/execution_step/errors/execution_errors.rs
+5	15	crates/air-lib/air-parser/src/parser/lexer/token/traits.rs => air/src/execution_step/errors/last_error_affectable.rs
+2	0	air/src/execution_step/errors/mod.rs
+4	12	air/src/execution_step/execution_context/context.rs
+0	96	air/src/execution_step/execution_context/error_descriptor.rs
+105	0	air/src/execution_step/execution_context/last_error_descriptor.rs
+4	4	air/src/execution_step/execution_context/mod.rs
+2	0	air/src/execution_step/mod.rs
+22	16	air/src/execution_step/resolver/resolve.rs
+2	2	air/tests/test_module/instructions/ap.rs
+14	7	air/tests/test_module/instructions/fail.rs
+2	2	air/tests/test_module/instructions/match_.rs
+2	2	air/tests/test_module/instructions/mismatch.rs
+1	1	air/tests/test_module/instructions/xor.rs
+111	13	air/tests/test_module/integration/last_error.rs
+5	3	air/tests/test_module/integration/streams_early_exit.rs
+4	3	crates/air-lib/air-parser/src/ast/instruction_arguments.rs
+12	2	crates/air-lib/air-parser/src/ast/instruction_arguments/traits.rs
+0	1	crates/air-lib/air-parser/src/ast/mod.rs
+7	9	crates/air-lib/air-parser/src/parser/air.lalrpop
+565	471	crates/air-lib/air-parser/src/parser/air.rs
+21	17	crates/air-lib/air-parser/src/parser/lexer/air_lexer.rs
+0	1	crates/air-lib/air-parser/src/parser/lexer/mod.rs
+32	43	crates/air-lib/air-parser/src/parser/lexer/tests.rs
+2	15	crates/air-lib/air-parser/src/parser/lexer/token.rs
+9	3	crates/air-lib/air-parser/src/parser/tests/ap.rs
+1	1	crates/air-lib/air-parser/src/parser/tests/call.rs
+
+commit c1ff7c0688f774c667f48c2ce9a2f359e17415b4
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Sun Dec 26 22:52:00 2021 +0300
+
+    Print instruction on trace errors (#201)
+
+1	1	air/src/execution_step/air/ap.rs
+1	1	air/src/execution_step/air/call.rs
+9	3	air/src/execution_step/air/call/resolved_call.rs
+4	4	air/src/execution_step/air/fold_stream.rs
+25	10	air/src/execution_step/air/next.rs
+10	6	air/src/execution_step/air/par.rs
+6	3	air/src/execution_step/errors/execution_errors.rs
+6	3	air/src/execution_step/errors/uncatchable_errors.rs
+5	4	air/tests/test_module/integration/streams_early_exit.rs
+0	7	crates/air-lib/test-utils/src/lib.rs
+
+commit bde7193747da010b310671327d319c93e23e28c6
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Dec 21 14:33:20 2021 +0300
+
+    bump avm-server (#199)
+
+68	74	Cargo.lock
+1	1	avm/server/Cargo.toml
+
+commit f69b5aa728af8bdd8c78cd59f742c99e358ab107
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Dec 21 11:37:35 2021 +0300
+
+    Refactor execution errors (#198)
+
+2	2	air/src/execution_step/air/ap/utils.rs
+19	12	air/src/execution_step/air/call.rs
+5	6	air/src/execution_step/air/call/prev_result_handler.rs
+3	2	air/src/execution_step/air/call/resolved_call.rs
+4	4	air/src/execution_step/air/call/triplet.rs
+4	4	air/src/execution_step/air/fail.rs
+0	1	air/src/execution_step/air/fold/mod.rs
+5	7	air/src/execution_step/air/fold/utils.rs
+2	2	air/src/execution_step/air/match_.rs
+2	2	air/src/execution_step/air/mismatch.rs
+58	39	air/src/execution_step/air/mod.rs
+1	4	air/src/execution_step/air/par.rs
+4	4	air/src/execution_step/air/xor.rs
+0	1	air/src/execution_step/boxed_value/jvaluable.rs
+3	4	air/src/execution_step/boxed_value/jvaluable/empty_stream.rs
+2	6	air/src/execution_step/boxed_value/jvaluable/stream.rs
+0	1	air/src/execution_step/boxed_value/mod.rs
+3	5	air/src/execution_step/boxed_value/stream.rs
+18	83	air/src/execution_step/{errors.rs => errors/catchable_errors.rs}
+87	0	air/src/execution_step/errors/execution_errors.rs
+12	8	air/src/execution_step/errors/{catchable.rs => mod.rs}
+65	0	air/src/execution_step/errors/uncatchable_errors.rs
+3	3	air/src/execution_step/execution_context/error_descriptor.rs
+6	9	air/src/execution_step/execution_context/scalar_variables.rs
+1	1	air/src/execution_step/execution_context/streams_variables.rs
+8	8	air/src/execution_step/lambda_applier/applier.rs
+5	4	air/src/execution_step/lambda_applier/errors.rs
+13	1	air/src/execution_step/lambda_applier/mod.rs
+6	8	air/src/execution_step/lambda_applier/utils.rs
+12	10	air/src/execution_step/mod.rs
+2	8	air/src/farewell_step/errors.rs
+2	1	air/src/farewell_step/mod.rs
+6	2	air/src/lib.rs
+2	8	air/src/preparation_step/errors.rs
+2	1	air/src/preparation_step/mod.rs
+3	4	air/src/runner.rs
+21	0	air/src/utils/error_codes.rs
+3	1	air/src/utils/mod.rs
+14	12	air/src/utils/to_error_code.rs
+13	6	air/tests/test_module/instructions/call.rs
+14	11	air/tests/test_module/instructions/fail.rs
+3	1	air/tests/test_module/instructions/fold.rs
+8	4	air/tests/test_module/instructions/match_.rs
+5	3	air/tests/test_module/instructions/mismatch.rs
+15	21	air/tests/test_module/instructions/xor.rs
+5	1	air/tests/test_module/integration/air_basic.rs
+5	5	air/tests/test_module/integration/flattening.rs
+18	17	air/tests/test_module/integration/join_behaviour.rs
+12	8	air/tests/test_module/integration/lambda.rs
+17	2	air/tests/test_module/integration/streams_early_exit.rs
+2	1	air/tests/test_module/issues/issue_137.rs
+2	2	crates/air-lib/air-parser/src/ast/values/impls.rs
+3	0	crates/air-lib/air-parser/src/parser/air_parser.rs
+3	0	crates/air-lib/air-parser/src/parser/errors.rs
+30	2	crates/air-lib/air-parser/src/parser/span.rs
+83	0	crates/air-lib/air-parser/src/parser/tests/fold.rs
+26	45	crates/air-lib/air-parser/src/parser/validator.rs
+25	0	crates/air-lib/test-utils/src/lib.rs
+
+commit 54e383cdaf4defde684509212c6f754d14a9f7cd
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Dec 17 22:02:16 2021 +0300
+
+    introduce farewell step; reafactoring
+
+12	1	Cargo.lock
+1	0	air/Cargo.toml
+1	1	air/src/execution_step/air/ap.rs
+1	1	air/src/execution_step/air/ap/apply_to_arguments.rs
+1	1	air/src/execution_step/air/call/resolved_call.rs
+1	1	air/src/execution_step/air/call/triplet.rs
+2	2	air/src/execution_step/air/compare_matchable/comparator.rs
+4	3	air/src/execution_step/boxed_value/jvaluable/empty_stream.rs
+22	16	air/src/execution_step/errors.rs
+4	0	air/src/execution_step/lambda_applier/errors.rs
+1	1	air/src/execution_step/mod.rs
+0	0	air/src/execution_step/{utils => resolver}/mod.rs
+0	0	air/src/execution_step/{utils => resolver}/resolve.rs
+47	0	air/src/farewell_step/errors.rs
+23	0	air/src/farewell_step/mod.rs
+30	42	air/src/{runner => farewell_step}/outcome.rs
+4	0	air/src/lib.rs
+6	5	air/src/preparation_step/errors.rs
+6	26	air/src/runner.rs
+19	0	air/src/utils/mod.rs
+37	0	air/src/utils/to_error_code.rs
+1	1	avm/server/Cargo.toml
+2	2	avm/server/src/interface/outcome.rs
+1	1	avm/server/src/interface/raw_outcome.rs
+1	1	crates/air-lib/interpreter-interface/Cargo.toml
+6	6	crates/air-lib/interpreter-interface/src/interpreter_outcome.rs
+
+commit 8dbae91bdab7fb9081a7459aa8e8864a7c0f7801
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Dec 16 21:34:27 2021 +0300
+
+    Introduce fail instruction (#196)
+
+8	0	CHANGELOG.md
+2	2	Cargo.lock
+1	1	air-interpreter/Cargo.toml
+1	1	air/Cargo.toml
+90	0	air/src/execution_step/air/fail.rs
+2	0	air/src/execution_step/air/mod.rs
+4	0	air/src/execution_step/errors.rs
+108	0	air/tests/test_module/instructions/fail.rs
+1	0	air/tests/test_module/instructions/mod.rs
+1	1	air/tests/test_module/integration/last_error.rs
+1	1	air/tests/test_module/integration/streams_early_exit.rs
+6	1	crates/air-lib/air-parser/src/ast/instruction_arguments.rs
+26	0	crates/air-lib/air-parser/src/ast/instruction_arguments/traits.rs
+13	0	crates/air-lib/air-parser/src/ast/instructions.rs
+13	0	crates/air-lib/air-parser/src/ast/instructions/traits.rs
+0	1	crates/air-lib/air-parser/src/ast/mod.rs
+28	3	crates/air-lib/air-parser/src/parser/air.lalrpop
+1156	765	crates/air-lib/air-parser/src/parser/air.rs
+3	0	crates/air-lib/air-parser/src/parser/air_parser.rs
+3	0	crates/air-lib/air-parser/src/parser/errors.rs
+2	0	crates/air-lib/air-parser/src/parser/lexer/air_lexer.rs
+37	18	crates/air-lib/air-parser/src/parser/lexer/call_variable_parser.rs
+0	1	crates/air-lib/air-parser/src/parser/lexer/mod.rs
+29	26	crates/air-lib/air-parser/src/parser/lexer/tests.rs
+5	16	crates/air-lib/air-parser/src/parser/lexer/token.rs
+0	66	crates/air-lib/air-parser/src/parser/lexer/token/traits.rs
+36	25	crates/air-lib/air-parser/src/parser/tests/dsl.rs
+38	0	crates/air-lib/air-parser/src/parser/tests/fail.rs
+1	0	crates/air-lib/air-parser/src/parser/tests/mod.rs
+1	2	crates/air-lib/air-parser/src/parser/tests/null.rs
+2	2	crates/air-lib/polyplets/src/tetraplet.rs
+19	0	crates/air-lib/test-utils/src/call_services.rs
+
+commit 5ef8bfc9406d8ba5466b19c90865812a30ebf35d
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Dec 15 17:39:26 2021 +0300
+
+    Add variables names in resolve errors (#194)
+
+15	13	air/src/execution_step/air/call/triplet.rs
+0	33	air/src/execution_step/air/fail.rs
+10	6	air/src/execution_step/air/fold/utils.rs
+8	2	air/src/execution_step/errors.rs
+33	0	air/tests/test_module/integration/last_error.rs
+
+commit 1d8182d497da19a48729cff9a19b1936d818beb4
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Dec 15 12:46:09 2021 +0300
+
+    Support scalars in lambda (#192)
+
+8	0	CHANGELOG.md
+2	2	Cargo.lock
+1	1	air-interpreter/Cargo.toml
+1	1	air/Cargo.toml
+33	0	air/src/execution_step/air/fail.rs
+2	2	air/src/execution_step/air/fold/utils.rs
+7	2	air/src/execution_step/boxed_value/jvaluable.rs
+9	4	air/src/execution_step/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+7	2	air/src/execution_step/boxed_value/jvaluable/empty_stream.rs
+9	4	air/src/execution_step/boxed_value/jvaluable/iterable_item.rs
+9	4	air/src/execution_step/boxed_value/jvaluable/resolved_call_result.rs
+9	4	air/src/execution_step/boxed_value/jvaluable/stream.rs
+20	12	air/src/execution_step/lambda_applier/applier.rs
+9	3	air/src/execution_step/lambda_applier/errors.rs
+41	0	air/src/execution_step/lambda_applier/utils.rs
+1	1	air/src/execution_step/utils/resolve.rs
+0	41	air/tests/test_module/integration/json_path.rs
+140	0	air/tests/test_module/integration/lambda.rs
+1	1	air/tests/test_module/integration/mod.rs
+1	1	crates/air-lib/air-parser/src/parser/lexer/tests.rs
+67	9	crates/air-lib/air-parser/src/parser/tests/call.rs
+1	1	crates/air-lib/air-parser/src/parser/tests/fold.rs
+4	1	crates/air-lib/lambda/ast/src/ast.rs
+2	1	crates/air-lib/lambda/ast/src/ast/traits.rs
+2	2	crates/air-lib/lambda/ast/src/lib.rs
+1	1	crates/air-lib/lambda/parser/src/lib.rs
+1	1	crates/air-lib/lambda/parser/src/parser/errors.rs
+6	6	crates/air-lib/lambda/parser/src/parser/lambda_parser.rs
+9	5	crates/air-lib/lambda/parser/src/parser/lexer/{algebra_lexer.rs => accessors_lexer.rs}
+1	1	crates/air-lib/lambda/parser/src/parser/lexer/errors.rs
+2	2	crates/air-lib/lambda/parser/src/parser/lexer/mod.rs
+5	5	crates/air-lib/lambda/parser/src/parser/lexer/tests.rs
+2	2	crates/air-lib/lambda/parser/src/parser/lexer/token.rs
+1	1	crates/air-lib/lambda/parser/src/parser/mod.rs
+103	8	crates/air-lib/lambda/parser/src/parser/tests.rs
+14	10	crates/air-lib/lambda/parser/src/parser/va_lambda.lalrpop
+475	110	crates/air-lib/lambda/parser/src/parser/va_lambda.rs
+
+commit 9f91d3161f09b7734205cb2a9d720f9ec5ae4855
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Dec 14 14:01:57 2021 +0300
+
+    bump fluence-faas version (#193)
+
+175	9	Cargo.lock
+2	2	avm/server/Cargo.toml
+2	1	avm/server/src/avm.rs
+3	0	avm/server/src/config.rs
+9	2	avm/server/src/runner.rs
+10	2	crates/air-lib/test-utils/src/test_runner.rs
+
+commit 1141c8e42a81f84732d5c825352e769cd55f08c9
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Dec 13 15:54:10 2021 +0300
+
+    Fix empty array parsing in match/mismatch instructions (#190)
+
+2	3	crates/air-lib/air-parser/src/parser/air.lalrpop
+195	183	crates/air-lib/air-parser/src/parser/air.rs
+2	18	crates/air-lib/air-parser/src/parser/lexer/air_lexer.rs
+18	0	crates/air-lib/air-parser/src/parser/lexer/tests.rs
+0	1	crates/air-lib/air-parser/src/parser/lexer/token.rs
+12	0	crates/air-lib/air-parser/src/parser/tests/ap.rs
+62	0	crates/air-lib/air-parser/src/parser/tests/match_.rs
+
+commit d300c8b2fc909e50cdbc6ce5dd908ef86a0bf643
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Fri Dec 3 14:29:03 2021 +0300
+
+    Improve subtrace len compute algo (#186)
+
+97	0	air/tests/test_module/issues/issue_173.rs
+1	0	air/tests/test_module/issues/mod.rs
+1	1	crates/air-lib/trace-handler/src/data_keeper/trace_slider.rs
+131	7	crates/air-lib/trace-handler/src/merger/fold_merger/fold_lore_resolver.rs
+
+commit fbbe28c5b2f06358e5cdf32c1fe562546ce3c4bd
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Dec 2 14:44:10 2021 +0300
+
+    Cleanup fold iterable while exception (#185)
+
+8	10	air/src/execution_step/air/fold_scalar.rs
+39	26	air/src/execution_step/air/fold_stream.rs
+3	26	air/src/execution_step/air/mod.rs
+1	1	air/tests/test_module/integration/scripts/fold_early_exit.clj
+7	4	air/tests/test_module/integration/streams_early_exit.rs
+0	9	crates/air-lib/trace-handler/src/handler.rs
+0	5	crates/air-lib/trace-handler/src/state_automata/fold_fsm.rs
+
+commit c5c9aefa371612845caac8a0d2ef7f8a09b89bf5
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Nov 29 18:35:11 2021 +0300
+
+    Add test for issue 177 (#183)
+
+1	1	air/benches/create_service_benchmark.rs
+0	35	air/tests/test_module/instructions/ap.rs
+4	1	air/tests/test_module/instructions/new.rs
+4	1	air/tests/test_module/integration/air_basic.rs
+4	1	air/tests/test_module/integration/data_merge.rs
+2	2	air/tests/test_module/integration/join_behaviour.rs
+0	2	air/tests/test_module/integration/mod.rs
+1	1	air/tests/test_module/integration/network_explore.rs
+8	2	air/tests/test_module/integration/streams_early_exit.rs
+1	1	air/tests/test_module/{integration => issues}/issue_137.rs
+152	0	air/tests/test_module/issues/issue_177.rs
+56	0	air/tests/test_module/issues/issue_178.rs
+0	0	air/tests/test_module/{integration => issues}/issue_180.rs
+20	0	air/tests/test_module/issues/mod.rs
+53	0	air/tests/test_module/issues/scripts/issue_177.clj
+1	0	air/tests/test_module/main.rs
+4	4	avm/server/src/interface/call_request_parameters.rs
+14	0	crates/air-lib/polyplets/src/tetraplet.rs
+19	4	crates/air-lib/test-utils/src/call_services.rs
+2	2	crates/air-lib/test-utils/src/test_runner.rs
+
+commit cf278bbd4cf6371066c1bcf3b043277bbc0ee532
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Nov 29 18:28:57 2021 +0300
+
+    Track previous call state after join behaviour (#182)
+
+66	14	air/src/execution_step/air/call/prev_result_handler.rs
+13	5	air/src/execution_step/air/call/resolved_call.rs
+1	1	air/tests/test_module/instructions/fold.rs
+0	3	air/tests/test_module/instructions/new.rs
+
+commit e95f252be5daf8379b40c6f57bf2a23ccdff2d4e
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Fri Nov 26 14:44:21 2021 +0300
+
+    Refactor join behaviour and par subtree completeness (#181)
+
+3	3	air/src/execution_step/air/call.rs
+4	1	air/src/execution_step/air/fold_scalar.rs
+4	1	air/src/execution_step/air/fold_stream.rs
+1	14	air/src/execution_step/air/mod.rs
+6	4	air/src/execution_step/air/par.rs
+47	0	air/tests/test_module/integration/issue_180.rs
+75	0	air/tests/test_module/integration/join_behaviour.rs
+1	0	air/tests/test_module/integration/mod.rs
+
+commit e13377c5b0173d186d94981c6a4053803deaf561
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Nov 24 18:47:49 2021 +0300
+
+    Add test for par ap behaviour (#175)
+
+1	0	Cargo.lock
+1	0	air/Cargo.toml
+43	8	air/tests/test_module/instructions/ap.rs
+1	1	air/tests/test_module/instructions/call.rs
+1	1	air/tests/test_module/instructions/new.rs
+16	12	air/tests/test_module/instructions/xor.rs
+6	6	air/tests/test_module/integration/air_basic.rs
+25	22	air/tests/test_module/integration/call_evidence_basic.rs
+28	28	air/tests/test_module/integration/join.rs
+2	2	air/tests/test_module/integration/last_error.rs
+102	102	air/tests/test_module/integration/streams.rs
+36	36	air/tests/test_module/integration/streams_early_exit.rs
+6	4	crates/air-lib/test-utils/src/call_services.rs
+2	2	crates/air-lib/test-utils/src/executed_state.rs
+
+commit d75be8f9eaa85bfc437c3d270e2c6497335b4b5c
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Nov 24 18:31:20 2021 +0300
+
+    make apply(_with_tetraplets) always return only one value (#174)
+
+1	5	air/src/execution_step/air/ap/apply_to_arguments.rs
+2	2	air/src/execution_step/air/fold/utils.rs
+3	5	air/src/execution_step/boxed_value/jvaluable.rs
+5	7	air/src/execution_step/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+3	5	air/src/execution_step/boxed_value/jvaluable/empty_stream.rs
+5	7	air/src/execution_step/boxed_value/jvaluable/iterable_item.rs
+5	7	air/src/execution_step/boxed_value/jvaluable/resolved_call_result.rs
+5	7	air/src/execution_step/boxed_value/jvaluable/stream.rs
+5	4	air/src/execution_step/utils/resolve.rs
+
+commit 5cd45385b4ee82c1ea1ee8c3a60093aa85c55ded
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Nov 24 17:57:14 2021 +0300
+
+    Introduce restriction operator for streams (#172)
+
+14	0	CHANGELOG.md
+3	3	Cargo.lock
+1	1	air-interpreter/Cargo.toml
+2	2	air/Cargo.toml
+4	2	air/src/execution_step/air/ap.rs
+3	2	air/src/execution_step/air/ap/apply_to_arguments.rs
+1	1	air/src/execution_step/air/ap/utils.rs
+15	30	air/src/execution_step/air/call/call_result_setter.rs
+2	2	air/src/execution_step/air/fold/utils.rs
+1	1	air/src/execution_step/air/fold_scalar.rs
+2	2	air/src/execution_step/air/fold_stream.rs
+3	7	air/src/execution_step/air/mod.rs
+64	0	air/src/execution_step/air/new.rs
+19	29	air/src/execution_step/boxed_value/variable.rs
+2	2	air/src/execution_step/errors.rs
+3	8	air/src/execution_step/execution_context/context.rs
+2	0	air/src/execution_step/execution_context/mod.rs
+1	26	air/src/execution_step/execution_context/scalar_variables.rs
+39	0	air/src/execution_step/execution_context/scalar_variables/traits.rs
+224	0	air/src/execution_step/execution_context/streams_variables.rs
+7	3	air/src/execution_step/utils/resolve.rs
+2	5	air/src/preparation_step/preparation.rs
+6	15	air/src/runner/outcome.rs
+1	0	air/tests/test_module/instructions/mod.rs
+289	0	air/tests/test_module/instructions/new.rs
+4	4	air/tests/test_module/integration/data_merge.rs
+5	5	air/tests/test_module/integration/join.rs
+12	1	crates/air-lib/air-parser/src/ast/instructions.rs
+118	0	crates/air-lib/air-parser/src/ast/instructions/impls.rs
+8	1	crates/air-lib/air-parser/src/ast/instructions/traits.rs
+1	0	crates/air-lib/air-parser/src/ast/mod.rs
+4	0	crates/air-lib/air-parser/src/ast/values.rs
+52	32	crates/air-lib/air-parser/src/ast/values/impls.rs
+55	44	crates/air-lib/air-parser/src/parser/air.lalrpop
+858	678	crates/air-lib/air-parser/src/parser/air.rs
+3	0	crates/air-lib/air-parser/src/parser/air_parser.rs
+3	0	crates/air-lib/air-parser/src/parser/errors.rs
+4	2	crates/air-lib/air-parser/src/parser/lexer/air_lexer.rs
+18	4	crates/air-lib/air-parser/src/parser/lexer/call_variable_parser.rs
+10	1	crates/air-lib/air-parser/src/parser/lexer/tests.rs
+6	1	crates/air-lib/air-parser/src/parser/lexer/token.rs
+2	6	crates/air-lib/air-parser/src/parser/mod.rs
+34	0	crates/air-lib/air-parser/src/parser/span.rs
+4	4	crates/air-lib/air-parser/src/parser/tests/ap.rs
+34	25	crates/air-lib/air-parser/src/parser/tests/call.rs
+22	6	crates/air-lib/air-parser/src/parser/tests/dsl.rs
+21	6	crates/air-lib/air-parser/src/parser/tests/fold.rs
+7	7	crates/air-lib/air-parser/src/parser/tests/match_.rs
+1	0	crates/air-lib/air-parser/src/parser/tests/mod.rs
+84	0	crates/air-lib/air-parser/src/parser/tests/new.rs
+12	12	crates/air-lib/air-parser/src/parser/tests/seq.rs
+19	0	crates/air-lib/air-parser/src/parser/validator.rs
+31	0	crates/air-lib/execution-info-collector/src/instructions_tracker.rs
+5	0	crates/air-lib/interpreter-data/CHANGELOG.md
+1	1	crates/air-lib/interpreter-data/Cargo.toml
+56	14	crates/air-lib/interpreter-data/src/interpreter_data.rs
+14	1	crates/air-lib/interpreter-data/src/lib.rs
+31	0	crates/air-lib/interpreter-data/src/stream_generations.rs
+8	1	crates/air-lib/test-utils/src/executed_state.rs
+1	1	crates/air-lib/test-utils/src/lib.rs
+3	3	crates/air-lib/trace-handler/src/data_keeper/merge_ctx.rs
+
+commit 9f47eb9b83cfbe03244c77fdde856f7663fa07dc
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Fri Nov 12 14:12:50 2021 +0300
+
+    Refactor AIR parser (#168)
+
+1	0	Cargo.lock
+12	17	air/src/execution_step/air/ap.rs
+52	33	air/src/execution_step/air/ap/apply_to_arguments.rs
+12	9	air/src/execution_step/air/ap/utils.rs
+10	10	air/src/execution_step/air/call/call_result_setter.rs
+7	8	air/src/execution_step/air/call/resolved_call.rs
+20	69	air/src/execution_step/air/call/triplet.rs
+34	64	air/src/execution_step/air/compare_matchable/comparator.rs
+4	6	air/src/execution_step/air/fold/utils.rs
+1	1	air/src/execution_step/air/fold_scalar.rs
+2	2	air/src/execution_step/air/fold_stream.rs
+1	1	air/src/execution_step/air/next.rs
+39	12	air/src/execution_step/boxed_value/variable.rs
+0	4	air/src/execution_step/errors.rs
+0	2	air/src/execution_step/mod.rs
+26	36	air/src/execution_step/utils/resolve.rs
+1	1	air/tests/test_module/instructions/call.rs
+1	1	air/tests/test_module/instructions/fold.rs
+2	2	air/tests/test_module/instructions/match_.rs
+2	2	air/tests/test_module/instructions/mismatch.rs
+2	2	air/tests/test_module/integration/join_behaviour.rs
+1	1	air/tests/test_module/integration/json_path.rs
+1	1	air/tests/test_module/integration/streams_early_exit.rs
+1	0	crates/air-lib/air-parser/Cargo.toml
+88	0	crates/air-lib/air-parser/src/ast/instruction_arguments.rs
+107	0	crates/air-lib/air-parser/src/ast/instruction_arguments/traits.rs
+110	0	crates/air-lib/air-parser/src/ast/instructions.rs
+23	0	crates/air-lib/air-parser/src/ast/instructions/impls.rs
+109	0	crates/air-lib/air-parser/src/ast/instructions/traits.rs
+26	0	crates/air-lib/air-parser/src/ast/mod.rs
+69	0	crates/air-lib/air-parser/src/ast/values.rs
+131	0	crates/air-lib/air-parser/src/ast/values/impls.rs
+71	0	crates/air-lib/air-parser/src/ast/values/traits.rs
+1	1	crates/air-lib/air-parser/src/lib.rs
+69	83	crates/air-lib/air-parser/src/parser/air.lalrpop
+857	1151	crates/air-lib/air-parser/src/parser/air.rs
+4	23	crates/air-lib/air-parser/src/parser/air_parser.rs
+34	0	crates/air-lib/air-parser/src/parser/air_utils/mod.rs
+49	0	crates/air-lib/air-parser/src/parser/air_utils/triplet.rs
+0	178	crates/air-lib/air-parser/src/parser/ast.rs
+0	47	crates/air-lib/air-parser/src/parser/ast/impls.rs
+0	228	crates/air-lib/air-parser/src/parser/ast/traits.rs
+4	0	crates/air-lib/air-parser/src/parser/errors.rs
+34	37	crates/air-lib/air-parser/src/parser/lexer/call_variable_parser.rs
+0	1	crates/air-lib/air-parser/src/parser/lexer/mod.rs
+18	12	crates/air-lib/air-parser/src/parser/lexer/tests.rs
+14	9	crates/air-lib/air-parser/src/parser/lexer/token.rs
+0	11	crates/air-lib/air-parser/src/parser/lexer/token/traits.rs
+2	2	crates/air-lib/air-parser/src/parser/mod.rs
+0	1042	crates/air-lib/air-parser/src/parser/tests.rs
+76	0	crates/air-lib/air-parser/src/parser/tests/ap.rs
+494	0	crates/air-lib/air-parser/src/parser/tests/call.rs
+121	0	crates/air-lib/air-parser/src/parser/tests/dsl.rs
+147	0	crates/air-lib/air-parser/src/parser/tests/fold.rs
+101	0	crates/air-lib/air-parser/src/parser/tests/match_.rs
+43	0	crates/air-lib/air-parser/src/parser/tests/mod.rs
+33	0	crates/air-lib/air-parser/src/parser/tests/null.rs
+90	0	crates/air-lib/air-parser/src/parser/tests/par.rs
+120	0	crates/air-lib/air-parser/src/parser/tests/seq.rs
+68	81	crates/air-lib/air-parser/src/parser/validator.rs
+1	1	crates/air-lib/lambda/ast/Cargo.toml
+2	2	crates/air-lib/trace-handler/src/merger/call_merger.rs
+
+commit a19eba6becc526934c7d39863760493f5146e780
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Nov 10 16:07:01 2021 +0300
+
+    Change preparation error mapping (#170)
+
+4	1	air/src/execution_step/errors.rs
+4	1	air/src/preparation_step/errors.rs
+0	4	air/src/runner/outcome.rs
+11	0	air/tests/test_module/integration/air_basic.rs
+
+commit c3e149f8a2a6a8f98fe9da5ac85d252480a4b674
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Nov 4 20:05:20 2021 +0300
+
+    Bump AVM server version (#167)
+
+7	7	Cargo.lock
+1	1	air/Cargo.toml
+2	2	avm/server/Cargo.toml
+
+commit d9f10cb26da0b0600358b655ec2b5c81dbf9d6b4
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Nov 4 16:59:05 2021 +0300
+
+    Deduplicate SecuityTetraplet with marine-rs-sdk (#164)
+
+25	23	Cargo.lock
+3	0	Cargo.toml
+1	1	air-interpreter/Cargo.toml
+1	1	air/Cargo.toml
+1	1	air/src/execution_step/air/call.rs
+1	1	air/src/execution_step/air/call/prev_result_handler.rs
+4	5	air/src/execution_step/air/call/resolved_call.rs
+4	4	air/tests/test_module/integration/last_error.rs
+4	17	air/tests/test_module/integration/security_tetraplets.rs
+1	1	air/tests/test_module/integration/security_tetraplets/auth_module/Cargo.toml
+1	1	air/tests/test_module/integration/security_tetraplets/log_storage/Cargo.toml
+1	1	avm/server/Cargo.toml
+1	1	crates/air-lib/interpreter-interface/Cargo.toml
+4	3	crates/air-lib/polyplets/Cargo.toml
+14	0	crates/air-lib/polyplets/src/lib.rs
+15	10	crates/air-lib/polyplets/src/tetraplet.rs
+2	0	crates/air-lib/polyplets/src/triplet.rs
+1	1	crates/air-lib/test-utils/Cargo.toml
+
+commit 653f42167ae7d5f106d914b5bbdee2785f7fa07a
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Nov 4 14:47:18 2021 +0300
+
+    fix behaviour with compare values after applying lambda (#166)
+
+8	4	air/src/execution_step/air/compare_matchable/comparator.rs
+37	0	air/tests/test_module/instructions/match_.rs
+
+commit 18f4c0036fad9bbdc503e4da3e466fea54f7481d
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Oct 20 23:35:46 2021 +0300
+
+    Improve the scalars storing scheme (#162)
+
+6	6	Cargo.lock
+3	4	air/src/execution_step/air/ap.rs
+12	16	air/src/execution_step/air/ap/apply_to_arguments.rs
+7	68	air/src/execution_step/air/call/call_result_setter.rs
+2	2	air/src/execution_step/air/call/prev_result_handler.rs
+7	8	air/src/execution_step/air/call/resolved_call.rs
+0	5	air/src/execution_step/air/fold/fold_state.rs
+2	4	air/src/execution_step/air/fold/mod.rs
+7	9	air/src/execution_step/air/fold/utils.rs
+0	89	air/src/execution_step/air/fold/variable_handler.rs
+10	4	air/src/execution_step/air/fold_scalar.rs
+2	0	air/src/execution_step/air/fold_stream.rs
+4	8	air/src/execution_step/air/mod.rs
+3	38	air/src/execution_step/air/next.rs
+3	3	air/src/execution_step/boxed_value/iterable.rs
+4	4	air/src/execution_step/boxed_value/iterable/resolved_call.rs
+4	4	air/src/execution_step/boxed_value/iterable/vec_resolved_call.rs
+1	1	air/src/execution_step/boxed_value/jvaluable.rs
+2	2	air/src/execution_step/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+2	2	air/src/execution_step/boxed_value/jvaluable/resolved_call_result.rs
+2	2	air/src/execution_step/boxed_value/mod.rs
+12	12	air/src/execution_step/boxed_value/scalar.rs
+10	10	air/src/execution_step/boxed_value/stream.rs
+3	7	air/src/execution_step/errors.rs
+20	21	air/src/execution_step/execution_context/context.rs
+2	0	air/src/execution_step/execution_context/mod.rs
+229	0	air/src/execution_step/execution_context/scalar_variables.rs
+2	2	air/src/execution_step/mod.rs
+1	17	air/src/execution_step/utils/resolve.rs
+1	1	air/tests/test_module/instructions/fold.rs
+2	2	air/tests/test_module/instructions/match_.rs
+2	2	air/tests/test_module/instructions/mismatch.rs
+1	1	air/tests/test_module/integration/streams_early_exit.rs
+
+commit 1c55d34981d86132bb10c205bf14268320bc1a75
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Oct 18 23:23:30 2021 +0300
+
+    Use custom logic for lambda instead of json path (#154)
+
+12	4	CHANGELOG.md
+65	47	Cargo.lock
+2	0	Cargo.toml
+1	1	air-interpreter/Cargo.toml
+3	3	air/Cargo.toml
+4	8	air/benches/call_benchmark.rs
+19	35	air/benches/chat_benchmark.rs
+14	30	air/benches/create_service_benchmark.rs
+3	3	air/src/execution_step/air/ap.rs
+4	4	air/src/execution_step/air/ap/apply_to_arguments.rs
+11	14	air/src/execution_step/air/call/triplet.rs
+10	24	air/src/execution_step/air/compare_matchable/comparator.rs
+31	55	air/src/execution_step/air/fold/utils.rs
+1	1	air/src/execution_step/boxed_value/iterable.rs
+4	4	air/src/execution_step/boxed_value/iterable/json_path_result.rs
+1	1	air/src/execution_step/boxed_value/iterable/vec_json_path_result.rs
+10	5	air/src/execution_step/boxed_value/jvaluable.rs
+16	24	air/src/execution_step/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+10	6	air/src/execution_step/boxed_value/jvaluable/empty_stream.rs
+11	11	air/src/execution_step/boxed_value/jvaluable/iterable_item.rs
+13	27	air/src/execution_step/boxed_value/jvaluable/resolved_call_result.rs
+16	20	air/src/execution_step/boxed_value/jvaluable/stream.rs
+21	35	air/src/execution_step/errors.rs
+84	0	air/src/execution_step/lambda_applier/applier.rs
+40	0	air/src/execution_step/lambda_applier/errors.rs
+25	0	air/src/execution_step/lambda_applier/mod.rs
+54	0	air/src/execution_step/lambda_applier/utils.rs
+1	0	air/src/execution_step/mod.rs
+10	22	air/src/execution_step/utils/resolve.rs
+1	0	air/src/lib.rs
+2	2	air/tests/test_module/instructions/fold.rs
+2	2	air/tests/test_module/instructions/match_.rs
+2	2	air/tests/test_module/instructions/mismatch.rs
+2	2	air/tests/test_module/integration/flattening.rs
+2	2	air/tests/test_module/integration/join_behaviour.rs
+1	1	air/tests/test_module/integration/json_path.rs
+1	1	air/tests/test_module/integration/security_tetraplets.rs
+1	1	air/tests/test_module/integration/streams_early_exit.rs
+2	0	crates/air-lib/air-parser/Cargo.toml
+14	21	crates/air-lib/air-parser/benches/parser.rs
+4	0	crates/air-lib/air-parser/src/lib.rs
+17	30	crates/air-lib/air-parser/src/parser/air.lalrpop
+109	122	crates/air-lib/air-parser/src/parser/air.rs
+8	16	crates/air-lib/air-parser/src/parser/air_parser.rs
+10	10	crates/air-lib/air-parser/src/parser/ast.rs
+20	6	crates/air-lib/air-parser/src/parser/ast/impls.rs
+10	31	crates/air-lib/air-parser/src/parser/ast/traits.rs
+2	7	crates/air-lib/air-parser/src/parser/errors.rs
+1	1	crates/air-lib/air-parser/src/parser/lexer/air_lexer.rs
+21	21	crates/air-lib/air-parser/src/parser/lexer/call_variable_parser.rs
+7	3	crates/air-lib/air-parser/src/parser/lexer/errors.rs
+30	30	crates/air-lib/air-parser/src/parser/lexer/tests.rs
+2	1	crates/air-lib/air-parser/src/parser/lexer/token.rs
+1	1	crates/air-lib/air-parser/src/parser/mod.rs
+69	42	crates/air-lib/air-parser/src/parser/tests.rs
+6	6	crates/air-lib/air-parser/src/parser/validator.rs
+20	0	crates/air-lib/lambda/ast/Cargo.toml
+3	0	crates/air-lib/lambda/ast/README.md
+36	0	crates/air-lib/lambda/ast/src/ast.rs
+31	0	crates/air-lib/lambda/ast/src/ast/traits.rs
+38	0	crates/air-lib/lambda/ast/src/lib.rs
+33	0	crates/air-lib/lambda/parser/Cargo.toml
+24	0	crates/air-lib/lambda/parser/build.rs
+36	0	crates/air-lib/lambda/parser/src/lib.rs
+51	0	crates/air-lib/lambda/parser/src/parser/errors.rs
+52	0	crates/air-lib/lambda/parser/src/parser/lambda_parser.rs
+108	0	crates/air-lib/lambda/parser/src/parser/lexer/algebra_lexer.rs
+28	0	crates/air-lib/lambda/parser/src/parser/lexer/errors.rs
+29	0	crates/air-lib/lambda/parser/src/parser/lexer/mod.rs
+52	0	crates/air-lib/lambda/parser/src/parser/lexer/tests.rs
+33	0	crates/air-lib/lambda/parser/src/parser/lexer/token.rs
+20	0	crates/air-lib/lambda/parser/src/parser/lexer/utils.rs
+42	0	crates/air-lib/lambda/parser/src/parser/mod.rs
+134	0	crates/air-lib/lambda/parser/src/parser/tests.rs
+39	0	crates/air-lib/lambda/parser/src/parser/va_lambda.lalrpop
+1495	0	crates/air-lib/lambda/parser/src/parser/va_lambda.rs
+2	1	crates/air-lib/polyplets/src/tetraplet.rs
+
+commit 4251a36842477587d7fc5ef1fb7c60b437dd9587
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Fri Oct 15 14:26:46 2021 +0300
+
+    decouple instruction tracker to a separate crate (#160)
+
+5	0	Cargo.lock
+1	0	Cargo.toml
+1	0	air/Cargo.toml
+2	2	air/src/execution_step/execution_context/context.rs
+0	73	air/src/execution_step/execution_context/instructions_tracker.rs
+0	2	air/src/execution_step/execution_context/mod.rs
+14	0	crates/air-lib/execution-info-collector/Cargo.toml
+3	0	crates/air-lib/execution-info-collector/README.md
+114	0	crates/air-lib/execution-info-collector/src/instructions_tracker.rs
+19	0	crates/air-lib/execution-info-collector/src/lib.rs
+
+commit e282a93ce76bc3b71218a19086f4efdbc8ed6c5e
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Fri Oct 15 12:19:33 2021 +0300
+
+    Delete double description field from Cargo.toml (#155)
+
+1	1	Cargo.toml
+1	2	air/Cargo.toml
+
+commit 582d07d2bb240ce31774515972e46510bada81b8
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Oct 11 12:17:30 2021 +0300
+
+    fix issue 143 (#144)
+
+5	5	Cargo.toml
+2	0	air/Cargo.toml
+
+commit f291c77d262c1202ad43d57bbe8da6ad6ab0a3df
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Oct 5 20:08:10 2021 +0300
+
+    Update crate info; housekeeping (#153)
+
+5	5	.github/workflows/publish_interpreter.yml
+5	5	.github/workflows/publish_interpreter_dev.yml
+5	5	CHANGELOG.md
+22	29	Cargo.lock
+1	2	Cargo.toml
+3	0	air-interpreter/Cargo.toml
+4	1	air/Cargo.toml
+6	1	avm/server/Cargo.toml
+3	0	crates/air-lib/air-parser/Cargo.toml
+1	1	crates/air-lib/interpreter-data/Cargo.toml
+2	1	crates/air-lib/interpreter-interface/Cargo.toml
+0	1	crates/air-lib/log-targets/Cargo.toml
+3	2	crates/air-lib/polyplets/Cargo.toml
+4	1	crates/air-lib/test-utils/Cargo.toml
+0	1	crates/air-lib/trace-handler/Cargo.toml
+6	1	crates/data-store/Cargo.toml
+0	0	crates/{air-interpreter-wasm => interpreter-wasm}/Cargo.lock
+6	1	crates/{air-interpreter-wasm => interpreter-wasm}/Cargo.toml
+0	0	crates/{air-interpreter-wasm => interpreter-wasm}/build.rs
+0	0	crates/{air-interpreter-wasm => interpreter-wasm}/src/lib.rs
+0	14	crates/test-module/Cargo.toml
+0	55	crates/test-module/src/main.rs
+
+commit e99c352a952922202ffef961ee3008243a27f8e1
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Oct 5 16:55:04 2021 +0300
+
+    Decouple log targets to a separate crate (#152)
+
+7	0	Cargo.lock
+8	7	Cargo.toml
+1	0	air-interpreter/Cargo.toml
+1	1	air-interpreter/src/logger.rs
+7	6	air/Cargo.toml
+6	6	air/src/execution_step/air/mod.rs
+1	1	air/src/execution_step/errors.rs
+0	2	air/src/lib.rs
+4	2	air/src/runner.rs
+2	2	avm/server/Cargo.toml
+0	0	crates/{ => air-lib}/air-parser/Cargo.toml
+0	0	crates/{ => air-lib}/air-parser/benches/parser.rs
+0	0	crates/{ => air-lib}/air-parser/build.rs
+0	0	crates/{ => air-lib}/air-parser/src/lib.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/air.lalrpop
+0	0	crates/{ => air-lib}/air-parser/src/parser/air.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/air_parser.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/ast.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/ast/impls.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/ast/traits.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/errors.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/lexer/air_lexer.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/lexer/call_variable_parser.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/lexer/errors.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/lexer/mod.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/lexer/tests.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/lexer/token.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/lexer/token/traits.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/lexer/utils.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/mod.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/tests.rs
+0	0	crates/{ => air-lib}/air-parser/src/parser/validator.rs
+0	0	crates/{ => air-lib}/interpreter-data/CHANGELOG.md
+0	0	crates/{ => air-lib}/interpreter-data/Cargo.toml
+0	0	crates/{ => air-lib}/interpreter-data/src/executed_state.rs
+0	0	crates/{ => air-lib}/interpreter-data/src/executed_state/impls.rs
+0	0	crates/{ => air-lib}/interpreter-data/src/executed_state/se_de.rs
+0	0	crates/{ => air-lib}/interpreter-data/src/interpreter_data.rs
+0	0	crates/{ => air-lib}/interpreter-data/src/lib.rs
+0	0	crates/{ => air-lib}/interpreter-interface/Cargo.toml
+0	0	crates/{ => air-lib}/interpreter-interface/src/call_request_parameters.rs
+0	0	crates/{ => air-lib}/interpreter-interface/src/call_service_result.rs
+0	0	crates/{ => air-lib}/interpreter-interface/src/interpreter_outcome.rs
+0	0	crates/{ => air-lib}/interpreter-interface/src/lib.rs
+0	0	crates/{ => air-lib}/interpreter-interface/src/run_parameters.rs
+15	0	crates/air-lib/log-targets/Cargo.toml
+3	0	crates/air-lib/log-targets/README.md
+1	1	air/src/log_targets.rs => crates/air-lib/log-targets/src/lib.rs
+0	0	crates/{ => air-lib}/polyplets/Cargo.toml
+0	0	crates/{ => air-lib}/polyplets/src/lib.rs
+0	0	crates/{ => air-lib}/polyplets/src/tetraplet.rs
+0	0	crates/{ => air-lib}/polyplets/src/triplet.rs
+3	3	crates/{ => air-lib}/test-utils/Cargo.toml
+0	0	crates/{ => air-lib}/test-utils/src/call_services.rs
+0	0	crates/{ => air-lib}/test-utils/src/executed_state.rs
+0	0	crates/{ => air-lib}/test-utils/src/lib.rs
+0	0	crates/{ => air-lib}/test-utils/src/test_runner.rs
+0	0	crates/{ => air-lib}/trace-handler/.rustfmt.toml
+1	0	crates/{ => air-lib}/trace-handler/Cargo.toml
+1	1	crates/{ => air-lib}/trace-handler/README.md
+0	0	crates/{ => air-lib}/trace-handler/src/data_keeper/errors.rs
+0	0	crates/{ => air-lib}/trace-handler/src/data_keeper/keeper.rs
+0	0	crates/{ => air-lib}/trace-handler/src/data_keeper/merge_ctx.rs
+0	0	crates/{ => air-lib}/trace-handler/src/data_keeper/mod.rs
+0	0	crates/{ => air-lib}/trace-handler/src/data_keeper/trace_slider.rs
+0	0	crates/{ => air-lib}/trace-handler/src/errors.rs
+1	1	crates/{ => air-lib}/trace-handler/src/handler.rs
+0	2	crates/{ => air-lib}/trace-handler/src/lib.rs
+0	0	crates/{ => air-lib}/trace-handler/src/merger/ap_merger.rs
+0	0	crates/{ => air-lib}/trace-handler/src/merger/call_merger.rs
+0	0	crates/{ => air-lib}/trace-handler/src/merger/call_merger/call_result_constructor.rs
+0	0	crates/{ => air-lib}/trace-handler/src/merger/call_merger/utils.rs
+0	0	crates/{ => air-lib}/trace-handler/src/merger/errors.rs
+0	0	crates/{ => air-lib}/trace-handler/src/merger/fold_merger.rs
+0	0	crates/{ => air-lib}/trace-handler/src/merger/fold_merger/fold_lore_resolver.rs
+0	0	crates/{ => air-lib}/trace-handler/src/merger/mod.rs
+0	0	crates/{ => air-lib}/trace-handler/src/merger/par_merger.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/errors.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/fold_fsm.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/fold_fsm/lore_applier.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/fold_fsm/lore_ctor.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/fold_fsm/lore_ctor_queue.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/fold_fsm/state_handler.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/fsm_queue.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/mod.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/par_fsm.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/par_fsm/par_builder.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/par_fsm/state_handler.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/par_fsm/state_handler/new_states_calculation.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/state_inserter.rs
+0	0	crates/{ => air-lib}/trace-handler/src/state_automata/utils.rs
+
+commit adba9e8e655d0348f8170c82c6298f9a33108c6c
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Oct 5 14:07:38 2021 +0300
+
+    Decouple trace handler (#150)
+
+12	0	Cargo.lock
+1	0	Cargo.toml
+2	1	air/Cargo.toml
+3	2	air/src/execution_step/air/ap.rs
+1	1	air/src/execution_step/air/ap/utils.rs
+1	1	air/src/execution_step/air/call/call_result_setter.rs
+1	1	air/src/execution_step/air/call/prev_result_handler.rs
+4	3	air/src/execution_step/air/call/resolved_call.rs
+5	4	air/src/execution_step/air/fold_stream.rs
+4	3	air/src/execution_step/air/next.rs
+6	4	air/src/execution_step/air/par.rs
+10	7	air/src/execution_step/errors.rs
+2	2	air/src/execution_step/mod.rs
+1	0	crates/trace-handler/.rustfmt.toml
+23	0	crates/trace-handler/Cargo.toml
+41	0	crates/trace-handler/README.md
+1	1	{air/src/execution_step/trace_handler => crates/trace-handler/src}/data_keeper/errors.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/data_keeper/keeper.rs
+3	3	{air/src/execution_step/trace_handler => crates/trace-handler/src}/data_keeper/merge_ctx.rs
+4	3	{air/src/execution_step/trace_handler => crates/trace-handler/src}/data_keeper/mod.rs
+1	1	{air/src/execution_step/trace_handler => crates/trace-handler/src}/data_keeper/trace_slider.rs
+1	1	{air/src/execution_step/trace_handler => crates/trace-handler/src}/errors.rs
+21	25	{air/src/execution_step/trace_handler => crates/trace-handler/src}/handler.rs
+13	7	air/src/execution_step/trace_handler/mod.rs => crates/trace-handler/src/lib.rs
+1	1	{air/src/execution_step/trace_handler => crates/trace-handler/src}/merger/ap_merger.rs
+1	1	{air/src/execution_step/trace_handler => crates/trace-handler/src}/merger/call_merger.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/merger/call_merger/call_result_constructor.rs
+2	1	{air/src/execution_step/trace_handler => crates/trace-handler/src}/merger/call_merger/utils.rs
+4	4	{air/src/execution_step/trace_handler => crates/trace-handler/src}/merger/errors.rs
+4	4	{air/src/execution_step/trace_handler => crates/trace-handler/src}/merger/fold_merger.rs
+7	7	{air/src/execution_step/trace_handler => crates/trace-handler/src}/merger/fold_merger/fold_lore_resolver.rs
+14	11	{air/src/execution_step/trace_handler => crates/trace-handler/src}/merger/mod.rs
+3	3	{air/src/execution_step/trace_handler => crates/trace-handler/src}/merger/par_merger.rs
+4	4	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/errors.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/fold_fsm.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/fold_fsm/lore_applier.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/fold_fsm/lore_ctor.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/fold_fsm/lore_ctor_queue.rs
+2	2	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/fold_fsm/state_handler.rs
+2	2	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/fsm_queue.rs
+3	2	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/mod.rs
+3	4	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/par_fsm.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/par_fsm/par_builder.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/par_fsm/state_handler.rs
+1	1	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/par_fsm/state_handler/new_states_calculation.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/state_inserter.rs
+0	0	{air/src/execution_step/trace_handler => crates/trace-handler/src}/state_automata/utils.rs
+
+commit 37ed77cb814a921fa0cdcea854d6df9f19912bf8
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Oct 4 18:54:07 2021 +0300
+
+    Bump versions, add description for data-store (#148)
+
+6	6	Cargo.lock
+1	1	avm/server/Cargo.toml
+1	0	crates/data-store/Cargo.toml
+1	1	crates/interpreter-data/Cargo.toml
+1	1	crates/interpreter-interface/Cargo.toml
+
+commit 4a4fc0889b57944be0c56cf66cbfba18e46c694c
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Oct 4 10:58:00 2021 +0300
+
+    Make interpreter async (#130)
+    
+    Co-authored-by: folex <0xdxdy@gmail.com>
+    Co-authored-by: Pavel Murygin <pavel.murygin@gmail.com>
+
+26	1	CHANGELOG.md
+53	34	Cargo.lock
+1	0	Cargo.toml
+4	2	air-interpreter/Cargo.toml
+12	2	air-interpreter/src/marine.rs
+12	2	air-interpreter/src/wasm_bindgen.rs
+1	6	air/Cargo.toml
+81	0	air/README.md
+0	48	air/src/build_targets/mod.rs
+0	49	air/src/build_targets/wasm_bindgen_target.rs
+2	2	air/src/execution_step/air/call.rs
+10	3	air/src/execution_step/air/call/call_result_setter.rs
+153	0	air/src/execution_step/air/call/prev_result_handler.rs
+57	79	air/src/execution_step/air/call/resolved_call.rs
+0	67	air/src/execution_step/air/call/utils.rs
+1	1	air/src/execution_step/air/fold/fold_state.rs
+1	1	air/src/execution_step/air/mod.rs
+7	0	air/src/execution_step/errors.rs
+24	1	air/src/execution_step/execution_context/context.rs
+18	17	air/src/execution_step/execution_context/instructions_tracker.rs
+1	1	air/src/execution_step/execution_context/mod.rs
+7	7	air/src/execution_step/trace_handler/handler.rs
+1	1	air/src/execution_step/trace_handler/state_automata/errors.rs
+4	4	air/src/execution_step/trace_handler/state_automata/fsm_queue.rs
+1	1	air/src/lib.rs
+3	5	air/src/preparation_step/errors.rs
+23	17	air/src/preparation_step/preparation.rs
+38	12	air/src/runner.rs
+19	4	air/src/runner/outcome.rs
+4	11	air/tests/test_module/instructions/ap.rs
+22	44	air/tests/test_module/instructions/call.rs
+43	42	air/tests/test_module/instructions/fold.rs
+13	18	air/tests/test_module/instructions/match_.rs
+10	20	air/tests/test_module/instructions/mismatch.rs
+1	3	air/tests/test_module/instructions/par.rs
+1	5	air/tests/test_module/instructions/seq.rs
+20	26	air/tests/test_module/instructions/xor.rs
+14	31	air/tests/test_module/integration/air_basic.rs
+2	3	air/tests/test_module/integration/ap_with_fold.rs
+45	80	air/tests/test_module/integration/call_evidence_basic.rs
+41	91	air/tests/test_module/integration/dashboard.rs
+13	40	air/tests/test_module/integration/data_merge.rs
+1	3	air/tests/test_module/integration/empty_array.rs
+7	34	air/tests/test_module/integration/flattening.rs
+1	1	air/tests/test_module/integration/issue_137.rs
+7	29	air/tests/test_module/integration/join.rs
+5	12	air/tests/test_module/integration/join_behaviour.rs
+3	6	air/tests/test_module/integration/json_path.rs
+7	27	air/tests/test_module/integration/last_error.rs
+7	13	air/tests/test_module/integration/network_explore.rs
+21	71	air/tests/test_module/integration/security_tetraplets.rs
+13	23	air/tests/test_module/integration/streams.rs
+33	36	air/tests/test_module/integration/streams_early_exit.rs
+0	13	avm/client/build_wasm.ps1
+0	10	avm/client/build_wasm.sh
+3	3	avm/client/package-lock.json
+1	1	avm/client/package.json
+9	14	avm/client/src/__test__/test.spec.ts
+108	76	avm/client/src/index.ts
+26	51	avm/client/src/wrapper.ts
+5	6	avm/server/Cargo.toml
+43	249	avm/server/src/avm.rs
+4	14	avm/server/src/config.rs
+0	39	avm/server/src/data_store.rs
+68	25	avm/server/src/errors.rs
+109	0	avm/server/src/interface/call_request_parameters.rs
+74	0	avm/server/src/interface/call_service_result.rs
+26	0	avm/server/src/interface/mod.rs
+88	0	avm/server/src/interface/outcome.rs
+57	0	avm/server/src/interface/raw_outcome.rs
+17	8	avm/server/src/lib.rs
+180	0	avm/server/src/runner.rs
+1	1	crates/air-parser/src/parser/air.lalrpop
+2	2	crates/air-parser/src/parser/air.rs
+1	1	crates/air-parser/src/parser/validator.rs
+10	0	crates/data-store/Cargo.toml
+7	9	avm/server/src/call_service.rs => crates/data-store/src/lib.rs
+18	0	crates/interpreter-data/CHANGELOG.md
+9	1	crates/interpreter-data/src/executed_state.rs
+18	3	crates/interpreter-data/src/executed_state/impls.rs
+58	3	crates/interpreter-data/src/executed_state/se_de.rs
+46	1	crates/interpreter-data/src/interpreter_data.rs
+1	1	crates/interpreter-data/src/lib.rs
+1	0	crates/interpreter-interface/Cargo.toml
+56	0	crates/interpreter-interface/src/call_request_parameters.rs
+58	0	crates/interpreter-interface/src/call_service_result.rs
+143	0	crates/interpreter-interface/src/interpreter_outcome.rs
+9	98	crates/interpreter-interface/src/lib.rs
+11	17	air/src/build_targets/marine_target.rs => crates/interpreter-interface/src/run_parameters.rs
+1	0	crates/test-module/src/main.rs
+2	1	crates/test-utils/Cargo.toml
+24	107	crates/test-utils/src/call_services.rs
+4	1	crates/test-utils/src/executed_state.rs
+21	32	crates/test-utils/src/lib.rs
+93	0	crates/test-utils/src/test_runner.rs
+
+commit 442e284dffdd726f9bdbe0778a78a45377d77050
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Oct 1 18:44:22 2021 +0300
+
+    Bump ansi-regex from 5.0.0 to 5.0.1 in /avm/client (#147)
+    
+    Bumps [ansi-regex](https://github.com/chalk/ansi-regex) from 5.0.0 to 5.0.1.
+    - [Release notes](https://github.com/chalk/ansi-regex/releases)
+    - [Commits](https://github.com/chalk/ansi-regex/compare/v5.0.0...v5.0.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: ansi-regex
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+3	65	avm/client/package-lock.json
+
+commit 1191dc8e03b71f98d99ee679fbae04d74420902b
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Fri Oct 1 13:01:31 2021 +0300
+
+    Update jest to latest version (#146)
+
+2331	2593	avm/client/package-lock.json
+2	2	avm/client/package.json
+
+commit 69fc7b80832075413fe34a8fc98b2f872e7c0371
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Sep 20 17:01:19 2021 +0300
+
+    Allow senders in RequestSentBy to differ (fixes #137) (#139)
+
+3	4	air/src/execution_step/trace_handler/merger/call_merger.rs
+66	0	air/tests/test_module/integration/issue_137.rs
+1	0	air/tests/test_module/integration/mod.rs
+
+commit d77278761fffb4e581cd136398303100da4d9e28
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Sep 20 14:49:20 2021 +0300
+
+    Change subtrace_len computation algo in FoldFSM (#138)
+
+1	1	air/src/execution_step/air/call/resolved_call.rs
+1	1	air/src/execution_step/errors.rs
+13	2	air/src/execution_step/trace_handler/data_keeper/errors.rs
+22	26	air/src/execution_step/trace_handler/data_keeper/merge_ctx.rs
+6	2	air/src/execution_step/trace_handler/data_keeper/trace_slider.rs
+3	3	air/src/execution_step/trace_handler/errors.rs
+20	11	air/src/execution_step/trace_handler/merger/errors.rs
+23	11	air/src/execution_step/trace_handler/merger/fold_merger.rs
+186	0	air/src/execution_step/trace_handler/merger/fold_merger/fold_lore_resolver.rs
+0	88	air/src/execution_step/trace_handler/merger/fold_merger/utils.rs
+1	0	air/src/execution_step/trace_handler/merger/mod.rs
+1	0	air/src/execution_step/trace_handler/mod.rs
+1	5	air/src/execution_step/trace_handler/state_automata/errors.rs
+2	9	air/src/execution_step/trace_handler/state_automata/fold_fsm.rs
+2	5	air/src/execution_step/trace_handler/state_automata/fold_fsm/state_handler.rs
+1	0	air/src/execution_step/trace_handler/state_automata/mod.rs
+2	2	air/src/execution_step/trace_handler/state_automata/par_fsm.rs
+3	36	air/src/execution_step/trace_handler/state_automata/par_fsm/state_handler.rs
+15	18	air/src/execution_step/trace_handler/state_automata/par_fsm/state_handler/new_states_calculation.rs
+0	63	air/src/execution_step/trace_handler/state_automata/par_fsm/state_handler/utils.rs
+10	41	air/src/execution_step/trace_handler/state_automata/utils.rs
+1	10	air/tests/test_module/integration/streams.rs
+55	16	air/tests/test_module/integration/streams_early_exit.rs
+1	1	avm/server/src/errors.rs
+1	1	crates/air-parser/src/parser/errors.rs
+
+commit bb90dd369368d6a6b08f5a28c114e0f04005a459
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Wed Sep 15 16:37:38 2021 +0300
+
+    Remove serde version lock on 1.0.118 and serde_json lock on 1.0.61 (#136)
+
+62	51	Cargo.lock
+3	3	air-interpreter/Cargo.toml
+4	4	air/Cargo.toml
+3	3	avm/server/Cargo.toml
+3	3	crates/air-parser/Cargo.toml
+3	3	crates/interpreter-data/Cargo.toml
+2	2	crates/interpreter-interface/Cargo.toml
+2	2	crates/polyplets/Cargo.toml
+2	2	crates/test-utils/Cargo.toml
+
+commit 7762e4a59968e9236c38f05ae3e6940791a4a70b
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Sep 2 18:01:21 2021 +0300
+
+    Treat call service result de errors as local service errors (#134)
+
+20	0	Cargo.lock
+2	0	air/Cargo.toml
+26	7	air/src/execution_step/air/call/resolved_call.rs
+9	32	air/src/execution_step/errors.rs
+11	8	air/src/preparation_step/errors.rs
+1	1	air/tests/test_module/instructions/call.rs
+2	2	air/tests/test_module/integration/join_behaviour.rs
+1	1	air/tests/test_module/integration/streams_early_exit.rs
+
+commit 1502cd6f45cd0e33a880051f6aceca4345fa2164
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Aug 26 15:01:58 2021 +0300
+
+    Fix a bug on json path on empty stream (#133)
+
+6	0	.cargo/config.toml
+1	1	air/src/execution_step/air/call.rs
+1	1	air/src/execution_step/air/match_.rs
+1	1	air/src/execution_step/air/mismatch.rs
+1	1	air/src/execution_step/boxed_value/jvaluable.rs
+8	4	air/src/execution_step/boxed_value/jvaluable/{empty.rs => empty_stream.rs}
+12	2	air/src/execution_step/errors.rs
+0	0	air/src/execution_step/{ => errors}/joinable.rs
+1	2	air/src/execution_step/mod.rs
+30	1	air/tests/test_module/integration/join_behaviour.rs
+1	1	air/tests/test_module/integration/streams_early_exit.rs
+
+commit 35d53756ecc4184ac677334ddd8378426f7869ee
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Aug 25 18:11:45 2021 +0300
+
+    Fix json flatenning (#132)
+
+7	4	air/src/execution_step/utils/resolve.rs
+
+commit db45c82da31498c37aedd5c051d7dde7c2a61be6
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Aug 24 16:43:17 2021 +0300
+
+    use nightly-2021-07-13 (#131)
+
+2	2	.circleci/config.yml
+2	2	.github/workflows/publish_crates.yml
+3	3	.github/workflows/publish_interpreter.yml
+3	3	.github/workflows/publish_interpreter_dev.yml
+
+commit 3c86d3656645c0988bbb791a835780f702c49b7a
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Aug 24 16:14:15 2021 +0300
+
+    Introduce CRDT data (#74)
+
+2	2	.github/workflows/publish_crates.yml
+3	3	.github/workflows/publish_interpreter.yml
+3	3	.github/workflows/publish_interpreter_dev.yml
+11	0	CHANGELOG.md
+28	14	Cargo.lock
+1	0	Cargo.toml
+2	2	air-interpreter/Cargo.toml
+3	2	air/Cargo.toml
+1	1	air/benches/call_benchmark.rs
+11	11	air/benches/chat_benchmark.rs
+3	3	air/benches/create_service_benchmark.rs
+0	91	air/src/air/outcome.rs
+0	65	air/src/contexts/execution_trace_context.rs
+0	65	air/src/contexts/execution_trace_context/executed_state.rs
+0	35	air/src/contexts/mod.rs
+0	166	air/src/execution/air/call/utils.rs
+0	155	air/src/execution/air/fold.rs
+0	217	air/src/execution/air/fold/utils.rs
+0	173	air/src/execution/air/par.rs
+0	157	air/src/execution/utils/resolve.rs
+92	0	air/src/execution_step/air/ap.rs
+105	0	air/src/execution_step/air/ap/apply_to_arguments.rs
+89	0	air/src/execution_step/air/ap/utils.rs
+12	12	air/src/{execution => execution_step}/air/call.rs
+171	0	air/src/execution_step/air/call/call_result_setter.rs
+55	71	air/src/{execution => execution_step}/air/call/resolved_call.rs
+8	18	air/src/{execution => execution_step}/air/call/triplet.rs
+67	0	air/src/execution_step/air/call/utils.rs
+21	39	air/src/{execution/air/compare_matchable/compare_matchable.rs => execution_step/air/compare_matchable/comparator.rs}
+2	2	air/src/{execution => execution_step}/air/compare_matchable/mod.rs
+51	0	air/src/execution_step/air/fold/fold_state.rs
+32	0	air/src/execution_step/air/fold/mod.rs
+210	0	air/src/execution_step/air/fold/utils.rs
+89	0	air/src/execution_step/air/fold/variable_handler.rs
+62	0	air/src/execution_step/air/fold_scalar.rs
+68	0	air/src/execution_step/air/fold_stream.rs
+3	3	air/src/{execution => execution_step}/air/match_.rs
+3	3	air/src/{execution => execution_step}/air/mismatch.rs
+60	23	air/src/{execution => execution_step}/air/mod.rs
+112	0	air/src/execution_step/air/next.rs
+2	2	air/src/{execution => execution_step}/air/null.rs
+111	0	air/src/execution_step/air/par.rs
+46	0	air/src/execution_step/air/par/completeness_updater.rs
+2	2	air/src/{execution => execution_step}/air/seq.rs
+6	11	air/src/{execution => execution_step}/air/xor.rs
+34	5	air/src/{execution => execution_step}/boxed_value/iterable.rs
+8	4	air/src/{execution => execution_step}/boxed_value/iterable/json_path_result.rs
+17	12	air/src/{execution => execution_step}/boxed_value/iterable/resolved_call.rs
+9	4	air/src/{execution => execution_step}/boxed_value/iterable/vec_json_path_result.rs
+11	8	air/src/{execution => execution_step}/boxed_value/iterable/vec_resolved_call.rs
+7	6	air/src/{execution => execution_step}/boxed_value/jvaluable.rs
+12	19	air/src/{execution => execution_step}/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+3	6	air/src/{execution => execution_step}/boxed_value/jvaluable/empty.rs
+18	21	air/src/{execution => execution_step}/boxed_value/jvaluable/iterable_item.rs
+9	19	air/src/{execution => execution_step}/boxed_value/jvaluable/resolved_call_result.rs
+110	0	air/src/execution_step/boxed_value/jvaluable/stream.rs
+33	0	air/src/execution_step/boxed_value/mod.rs
+33	17	air/src/{contexts/execution_context/avalue.rs => execution_step/boxed_value/scalar.rs}
+205	0	air/src/execution_step/boxed_value/stream.rs
+49	0	air/src/execution_step/boxed_value/variable.rs
+57	44	air/src/{execution => execution_step}/errors.rs
+24	0	air/src/execution_step/errors/catchable.rs
+23	17	air/src/{contexts/execution_context.rs => execution_step/execution_context/context.rs}
+15	13	air/src/{contexts => execution_step}/execution_context/error_descriptor.rs
+72	0	air/src/execution_step/execution_context/instructions_tracker.rs
+25	0	air/src/execution_step/execution_context/mod.rs
+2	2	air/src/{execution => execution_step}/joinable.rs
+16	3	air/src/{execution => execution_step}/mod.rs
+44	0	air/src/execution_step/trace_handler/data_keeper/errors.rs
+72	0	air/src/execution_step/trace_handler/data_keeper/keeper.rs
+83	0	air/src/execution_step/trace_handler/data_keeper/merge_ctx.rs
+31	0	air/src/execution_step/trace_handler/data_keeper/mod.rs
+109	0	air/src/execution_step/trace_handler/data_keeper/trace_slider.rs
+35	0	air/src/execution_step/trace_handler/errors.rs
+170	0	air/src/execution_step/trace_handler/handler.rs
+66	0	air/src/execution_step/trace_handler/merger/ap_merger.rs
+120	0	air/src/execution_step/trace_handler/merger/call_merger.rs
+46	0	air/src/execution_step/trace_handler/merger/call_merger/call_result_constructor.rs
+108	0	air/src/execution_step/trace_handler/merger/call_merger/utils.rs
+146	0	air/src/execution_step/trace_handler/merger/errors.rs
+79	0	air/src/execution_step/trace_handler/merger/fold_merger.rs
+88	0	air/src/execution_step/trace_handler/merger/fold_merger/utils.rs
+60	0	air/src/execution_step/trace_handler/merger/mod.rs
+62	0	air/src/execution_step/trace_handler/merger/par_merger.rs
+39	0	air/src/execution_step/trace_handler/mod.rs
+63	0	air/src/execution_step/trace_handler/state_automata/errors.rs
+164	0	air/src/execution_step/trace_handler/state_automata/fold_fsm.rs
+72	0	air/src/execution_step/trace_handler/state_automata/fold_fsm/lore_applier.rs
+146	0	air/src/execution_step/trace_handler/state_automata/fold_fsm/lore_ctor.rs
+103	0	air/src/execution_step/trace_handler/state_automata/fold_fsm/lore_ctor_queue.rs
+68	0	air/src/execution_step/trace_handler/state_automata/fold_fsm/state_handler.rs
+58	0	air/src/execution_step/trace_handler/state_automata/fsm_queue.rs
+45	0	air/src/execution_step/trace_handler/state_automata/mod.rs
+105	0	air/src/execution_step/trace_handler/state_automata/par_fsm.rs
+56	0	air/src/execution_step/trace_handler/state_automata/par_fsm/par_builder.rs
+121	0	air/src/execution_step/trace_handler/state_automata/par_fsm/state_handler.rs
+59	0	air/src/execution_step/trace_handler/state_automata/par_fsm/state_handler/new_states_calculation.rs
+63	0	air/src/execution_step/trace_handler/state_automata/par_fsm/state_handler/utils.rs
+40	0	air/src/execution_step/trace_handler/state_automata/state_inserter.rs
+92	0	air/src/execution_step/trace_handler/state_automata/utils.rs
+3	3	air/src/{execution => execution_step}/utils/mod.rs
+165	0	air/src/execution_step/utils/resolve.rs
+7	11	air/src/lib.rs
+12	16	air/src/log_targets.rs
+0	159	air/src/preparation/data_merging.rs
+0	124	air/src/preparation/errors.rs
+0	34	air/src/preparation/mod.rs
+0	128	air/src/preparation/tests.rs
+50	0	air/src/preparation_step/errors.rs
+5	7	air/src/{execution/boxed_value => preparation_step}/mod.rs
+37	36	air/src/{preparation => preparation_step}/preparation.rs
+18	9	air/src/{air.rs => runner.rs}
+118	0	air/src/runner/outcome.rs
+194	0	air/tests/test_module/instructions/ap.rs
+29	32	air/tests/test_module/instructions/call.rs
+73	85	air/tests/test_module/instructions/fold.rs
+24	29	air/tests/test_module/instructions/match_.rs
+21	20	air/tests/test_module/instructions/mismatch.rs
+1	0	air/tests/test_module/instructions/mod.rs
+10	11	air/tests/test_module/instructions/par.rs
+13	13	air/tests/test_module/instructions/seq.rs
+35	29	air/tests/test_module/instructions/xor.rs
+21	21	air/tests/test_module/integration/air_basic.rs
+73	0	air/tests/test_module/integration/ap_with_fold.rs
+427	0	air/tests/test_module/integration/call_evidence_basic.rs
+56	48	air/tests/test_module/integration/dashboard.rs
+172	93	air/tests/test_module/integration/data_merge.rs
+42	0	air/tests/test_module/integration/empty_array.rs
+16	13	air/tests/test_module/integration/flattening.rs
+81	117	air/tests/test_module/integration/join.rs
+35	28	air/tests/test_module/integration/join_behaviour.rs
+4	3	air/tests/test_module/integration/json_path.rs
+10	10	air/tests/test_module/integration/last_error.rs
+5	0	air/tests/test_module/integration/mod.rs
+81	35	air/tests/test_module/integration/network_explore.rs
+74	0	air/tests/test_module/integration/scripts/fold_early_exit.clj
+74	0	air/tests/test_module/integration/scripts/fold_par_early_exit.clj
+31	22	air/tests/test_module/integration/scripts/inner_folds_v1.clj
+8	2	air/tests/test_module/integration/scripts/network_explore.clj
+31	0	air/tests/test_module/integration/scripts/par_early_exit.clj
+33	0	air/tests/test_module/integration/scripts/stream_fold_merging_v0.clj
+33	0	air/tests/test_module/integration/scripts/stream_fold_merging_v1.clj
+33	0	air/tests/test_module/integration/scripts/stream_fold_merging_v2.clj
+309	0	air/tests/test_module/integration/security_tetraplets.rs
+41	15	air/tests/test_module/integration/security_tetraplets/auth_module/Cargo.lock
+41	15	air/tests/test_module/integration/security_tetraplets/log_storage/Cargo.lock
+428	2	air/tests/test_module/integration/streams.rs
+306	0	air/tests/test_module/integration/streams_early_exit.rs
+1	1	avm/server/Cargo.toml
+6	6	avm/server/src/avm.rs
+1	1	avm/server/src/config.rs
+5	5	crates/air-parser/Cargo.toml
+86	27	crates/air-parser/src/parser/air.lalrpop
+1498	670	crates/air-parser/src/parser/air.rs
+25	8	crates/air-parser/src/parser/air_parser.rs
+50	26	crates/air-parser/src/parser/ast.rs
+33	0	crates/air-parser/src/parser/ast/impls.rs
+66	33	crates/air-parser/src/parser/ast/traits.rs
+6	1	crates/air-parser/src/parser/errors.rs
+27	8	crates/air-parser/src/parser/lexer/air_lexer.rs
+8	11	crates/air-parser/src/parser/lexer/call_variable_parser.rs
+1	1	crates/air-parser/src/parser/lexer/mod.rs
+2	2	crates/air-parser/src/parser/lexer/tests.rs
+4	2	crates/air-parser/src/parser/lexer/token.rs
+2	2	crates/air-parser/src/parser/lexer/token/traits.rs
+188	53	crates/air-parser/src/parser/tests.rs
+45	19	crates/air-parser/src/parser/validator.rs
+20	0	crates/interpreter-data/Cargo.toml
+125	0	crates/interpreter-data/src/executed_state.rs
+133	0	crates/interpreter-data/src/executed_state/impls.rs
+68	0	crates/interpreter-data/src/executed_state/se_de.rs
+77	0	crates/interpreter-data/src/interpreter_data.rs
+28	0	crates/interpreter-data/src/lib.rs
+1	1	crates/interpreter-interface/src/lib.rs
+7	5	crates/polyplets/src/tetraplet.rs
+1	1	crates/polyplets/src/triplet.rs
+1	1	crates/test-utils/Cargo.toml
+153	0	crates/test-utils/src/call_services.rs
+70	23	crates/test-utils/src/executed_state.rs
+47	104	crates/test-utils/src/lib.rs
+
+commit e805a861e25547419476e07f78ee4f809dca14d6
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Aug 17 21:19:46 2021 +0300
+
+    bump avm-server and air-interpreter-interface crates
+
+2	2	Cargo.lock
+2	2	avm/server/Cargo.toml
+1	1	crates/interpreter-interface/Cargo.toml
+
+commit 63fb64ac3518959e7498e38eec4e943d3f13b23e
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Aug 17 20:43:55 2021 +0300
+
+    update avm-server (#129)
+
+22	193	Cargo.lock
+2	2	avm/server/Cargo.toml
+
+commit 2a5f2e0e2d8374e59441cc78d71b7c43d29a07c8
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Aug 17 18:15:07 2021 +0300
+
+    Bump path-parse from 1.0.6 to 1.0.7 in /avm/client (#128)
+    
+    Bumps [path-parse](https://github.com/jbgutierrez/path-parse) from 1.0.6 to 1.0.7.
+    - [Release notes](https://github.com/jbgutierrez/path-parse/releases)
+    - [Commits](https://github.com/jbgutierrez/path-parse/commits/v1.0.7)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: path-parse
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+3	3	avm/client/package-lock.json
+
+commit 7d98efedf84bc726beaf8f9cf11c8e4d9219c005
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Aug 5 22:24:09 2021 +0300
+
+    move to app-service 0.9.0 (#126)
+
+233	62	Cargo.lock
+1	1	air-interpreter/Cargo.toml
+1	1	air-interpreter/src/logger.rs
+1	1	air-interpreter/src/marine.rs
+2	2	air/Cargo.toml
+2	2	air/src/build_targets/marine_target.rs
+1	1	air/src/build_targets/mod.rs
+1	1	air/tests/test_module/integration/security_tetraplets/auth_module/Cargo.toml
+2	2	air/tests/test_module/integration/security_tetraplets/auth_module/src/main.rs
+1	1	air/tests/test_module/integration/security_tetraplets/log_storage/Cargo.toml
+2	2	air/tests/test_module/integration/security_tetraplets/log_storage/src/main.rs
+1	1	crates/interpreter-interface/Cargo.toml
+1	1	crates/interpreter-interface/src/lib.rs
+1	1	crates/polyplets/Cargo.toml
+1	1	crates/test-module/Cargo.toml
+1	1	crates/test-module/src/main.rs
+1	1	crates/test-utils/Cargo.toml
+
+commit 257ec06e0e935817ac5bb4d4a04f754313fdc370
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Aug 4 16:41:37 2021 +0300
+
+    Allow build_wasm.sh work on MacOS (#125)
+
+9	1	avm/client/build_wasm.sh
+
+commit 0528eb485ae9092ed21548b19bb34900fcbaf26e
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Tue Aug 3 23:13:47 2021 +0300
+
+    Build automation (#123)
+    
+    * preparation
+    
+    * trying to automate
+    
+    * fix
+    
+    * implement logic in powershell
+    
+    * fix
+    
+    * tmp
+    
+    * tmp
+    
+    * fix
+    
+    * remove debug stuff
+    
+    * newline in gitignore
+    
+    * Remove debug echos
+
+1	0	avm/client/.gitignore
+15	1	avm/client/build_wasm.ps1
+10	0	avm/client/build_wasm.sh
+13	12	avm/client/src/index.ts
+
+commit 680d6236b1f4387d7a124f989f25055bca7c3f67
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Jul 6 13:54:12 2021 +0300
+
+    Improve invalid executed state error (#121)
+    
+    * improve invalid executed state error
+    
+    * add changelog
+
+8	0	CHANGELOG.md
+44	38	Cargo.lock
+1	1	air/src/execution/air/call.rs
+11	2	air/src/execution/air/call/resolved_call.rs
+10	4	air/src/execution/air/call/utils.rs
+10	3	air/src/execution/air/par.rs
+1	1	air/src/execution/air/xor.rs
+26	3	air/src/execution/errors.rs
+
+commit 03074be98ffb320a22efdeb318c1d93920852490
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jun 30 18:58:54 2021 +0300
+
+    Particle File Vault (#120)
+
+1	1	Cargo.lock
+2	2	air/tests/test_module/instructions/call.rs
+2	2	air/tests/test_module/integration/air_basic.rs
+8	8	air/tests/test_module/integration/dashboard.rs
+10	10	air/tests/test_module/integration/data_merge.rs
+4	4	air/tests/test_module/integration/flattening.rs
+3	3	air/tests/test_module/integration/join.rs
+3	3	air/tests/test_module/integration/last_error.rs
+2	2	air/tests/test_module/integration/streams.rs
+1	1	avm/server/Cargo.toml
+40	6	avm/server/src/avm.rs
+28	0	avm/server/src/call_service.rs
+5	5	avm/server/src/config.rs
+39	0	avm/server/src/data_store.rs
+10	2	avm/server/src/errors.rs
+4	1	avm/server/src/lib.rs
+12	11	crates/test-utils/src/lib.rs
+
+commit 998ee0294b17de62437aeffb4d5de69ba4847fa2
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Jun 10 17:08:20 2021 +0300
+
+    Improve error message for %last_error% (#119)
+
+7	3	CHANGELOG.md
+82	88	Cargo.lock
+1	1	crates/air-parser/src/parser/air.rs
+1	1	crates/air-parser/src/parser/lexer/errors.rs
+
+commit dc1582d02ea4a5f1c6c8da95b1c91a1baadccaae
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Jun 10 13:00:11 2021 +0300
+
+    Non wait on json path applied to scalars (#118)
+
+27	1	CHANGELOG.md
+1	0	air/src/execution/air/call.rs
+1	0	air/src/execution/air/match_.rs
+1	0	air/src/execution/air/mismatch.rs
+2	31	air/src/execution/air/mod.rs
+28	0	air/src/execution/errors.rs
+27	0	air/src/execution/joinable.rs
+2	0	air/src/execution/mod.rs
+60	1	air/tests/test_module/integration/join_behaviour.rs
+0	1	air/tests/test_module/integration/json_path.rs
+
+commit b2919b15092348fe52b78b3224fd48b3b452b7f2
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Jun 10 10:48:19 2021 +0300
+
+    Track current peer id in last error (#117)
+
+14	3	air/src/contexts/execution_context/error_descriptor.rs
+11	3	air/src/execution/air/call.rs
+4	2	air/src/execution/air/mod.rs
+1	1	air/src/execution/errors.rs
+1	0	air/src/execution/utils/resolve.rs
+1	1	air/tests/test_module/instructions/xor.rs
+32	1	air/tests/test_module/integration/last_error.rs
+1	0	crates/air-parser/src/parser/lexer/air_lexer.rs
+14	0	crates/air-parser/src/parser/lexer/tests.rs
+2	0	crates/air-parser/src/parser/lexer/token.rs
+3	2	crates/air-parser/src/parser/lexer/token/traits.rs
+
+commit a2867db1b5c22f189971495487e6d18b13932a92
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Jun 9 19:58:59 2021 +0300
+
+    Check that json path is allowed (#116)
+
+12	0	air/src/execution/boxed_value/jvaluable/resolved_call_result.rs
+8	0	air/src/execution/errors.rs
+44	0	air/tests/test_module/integration/json_path.rs
+1	0	air/tests/test_module/integration/mod.rs
+
+commit 7e34cac37883951f6affd19aabae9c636daf93cc
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Fri Jun 4 17:46:06 2021 +0300
+
+    Fix logging interface in avm client (#115)
+
+1	10	avm/client/src/__test__/test.spec.ts
+36	16	avm/client/src/index.ts
+
+commit 49f3afda4a05627f52e15acadfb612e1d142e247
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Fri Jun 4 17:07:46 2021 +0300
+
+    Set minimal log level during initialization (#114)
+
+13	5	air-interpreter/src/logger.rs
+1	1	air-interpreter/src/marine.rs
+8	1	air-interpreter/src/wasm_bindgen.rs
+
+commit 93f71908e0ec79a0f9316e282f078e4cb5c460e5
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Jun 3 11:41:25 2021 +0300
+
+    AIR 0.10.0 (#113)
+    
+    Co-authored-by: Pavel Murygin <pavel.murygin@gmail.com>
+
+60	55	Cargo.lock
+1	1	air-interpreter/Cargo.toml
+1	1	air/Cargo.toml
+1	1	avm/client/package-lock.json
+4	4	avm/client/src/index.ts
+4	2	crates/air-parser/src/parser/lexer/air_lexer.rs
+
+commit 3c5e485a5b3922097a9a5d90f5c5b3b58ecc3729
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Jun 2 14:33:21 2021 +0300
+
+    Make %last_error% object (#112)
+
+10	38	air/src/contexts/execution_context.rs
+83	0	air/src/contexts/execution_context/error_descriptor.rs
+3	1	air/src/contexts/mod.rs
+14	20	air/src/execution/utils/resolve.rs
+1	0	air/src/lib.rs
+2	2	air/tests/test_module/instructions/xor.rs
+21	9	air/tests/test_module/integration/last_error.rs
+3	2	crates/air-parser/src/parser/air.lalrpop
+167	149	crates/air-parser/src/parser/air.rs
+3	0	crates/air-parser/src/parser/air_parser.rs
+2	1	crates/air-parser/src/parser/ast.rs
+1	1	crates/air-parser/src/parser/ast/traits.rs
+21	1	crates/air-parser/src/parser/lexer/air_lexer.rs
+3	0	crates/air-parser/src/parser/lexer/errors.rs
+1	0	crates/air-parser/src/parser/lexer/mod.rs
+57	0	crates/air-parser/src/parser/lexer/tests.rs
+16	83	crates/air-parser/src/parser/lexer/token.rs
+108	0	crates/air-parser/src/parser/lexer/token/traits.rs
+2	1	crates/air-parser/src/parser/tests.rs
+
+commit 3c7b6d9193c1054131045a9425d501e604264978
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Wed Jun 2 14:04:41 2021 +0300
+
+    Fix badge link (#111)
+
+1	1	README.md
+
+commit 519535ccb433f568750ddd46b368a60aa46b893f
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Jun 1 18:43:11 2021 +0300
+
+    Allow joining by index and key (#110)
+
+2	2	Cargo.lock
+1	1	air/Cargo.toml
+1	1	air/src/execution/errors.rs
+1	1	air/src/execution/utils/resolve.rs
+32	1	air/tests/test_module/integration/flattening.rs
+36	0	air/tests/test_module/integration/join_behaviour.rs
+
+commit 6228fcc02464c5b156241ee975613e73b636115d
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Jun 1 18:32:22 2021 +0300
+
+    Improve stream validation; add tests (#108)
+
+2	2	.circleci/config.yml
+16	10	air/src/execution/utils/resolve.rs
+1	0	air/tests/test_module/integration/join_behaviour.rs
+2	2	crates/air-parser/src/parser/lexer/call_variable_parser.rs
+1	1	crates/air-parser/src/parser/lexer/mod.rs
+49	2	crates/air-parser/src/parser/tests.rs
+7	2	crates/air-parser/src/parser/validator.rs
+
+commit d38fba367521370140783d12cac1ae947ccca14d
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Jun 1 13:42:48 2021 +0300
+
+    Bump ws from 7.4.5 to 7.4.6 in /avm/client (#109)
+    
+    Bumps [ws](https://github.com/websockets/ws) from 7.4.5 to 7.4.6.
+    - [Release notes](https://github.com/websockets/ws/releases)
+    - [Commits](https://github.com/websockets/ws/compare/7.4.5...7.4.6)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+3	3	avm/client/package-lock.json
+
+commit 4db2342cff9ced53d215cb125450f7058a6bf4bf
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Fri May 28 18:50:43 2021 +0300
+
+    Do not join on empty streams (#107)
+
+1	0	air/src/execution/boxed_value/jvaluable.rs
+47	0	air/src/execution/boxed_value/jvaluable/empty.rs
+22	11	air/src/execution/utils/resolve.rs
+2	1	air/tests/test_module/integration/data_merge.rs
+1	0	air/tests/test_module/integration/mod.rs
+55	0	air/tests/test_module/integration/streams.rs
+1	1	crates/air-parser/src/parser/validator.rs
+
+commit d07537d4ce2a7d2966fc4c9b42f8700411dfe2d0
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri May 28 18:35:17 2021 +0300
+
+    CI: fix directory in publishing
+
+1	1	.github/workflows/publish_interpreter.yml
+
+commit ccba158d8157092eaaf0d116125b66ff6914e097
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed May 19 12:43:49 2021 +0300
+
+    Mark some crates as publish = false + add CI to publish crates (#105)
+
+49	0	.github/workflows/publish_crates.yml
+8	2	.github/workflows/publish_interpreter_dev.yml
+12	12	Cargo.lock
+2	1	air-interpreter/Cargo.toml
+2	1	air/Cargo.toml
+1	1	avm/server/Cargo.toml
+1	0	crates/air-parser/Cargo.toml
+6	2	crates/interpreter-interface/Cargo.toml
+7	2	crates/polyplets/Cargo.toml
+2	1	crates/test-module/Cargo.toml
+1	0	crates/test-utils/Cargo.toml
+
+commit 3a75162869217bb2f7c6e71cd0609f780264e400
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Mon May 17 18:56:20 2021 +0300
+
+    Rename air interpreter to avm (#106)
+
+3	3	avm/client/README.md
+2	2	avm/client/build_wasm.ps1
+2	2	avm/client/package.json
+
+commit 7cb636a02e958bbaf1604a2418b77d64c8619538
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Sun May 16 22:52:22 2021 +0300
+
+    Refactor tests (#104)
+
+1	1	.circleci/config.yml
+1	1	.github/workflows/publish_interpreter.yml
+2	1	Cargo.lock
+2	2	Cargo.toml
+1	0	air/Cargo.toml
+1	0	air/src/contexts/execution_trace_context.rs
+12	2	air/src/contexts/execution_trace_context/executed_state.rs
+1	0	air/src/contexts/mod.rs
+0	175	air/src/execution/air/call.rs
+0	399	air/src/execution/air/fold.rs
+0	250	air/src/execution/air/match_.rs
+0	199	air/src/execution/air/mismatch.rs
+4	52	air/src/execution/air/par.rs
+0	47	air/src/execution/air/seq.rs
+0	203	air/src/execution/air/xor.rs
+1	0	air/src/lib.rs
+4	135	air/src/preparation/data_merging.rs
+3	0	air/src/preparation/mod.rs
+128	0	air/src/preparation/tests.rs
+0	428	air/tests/call_evidence_basic.rs
+0	313	air/tests/security_tetraplets.rs
+173	0	air/tests/test_module/instructions/call.rs
+413	0	air/tests/test_module/instructions/fold.rs
+246	0	air/tests/test_module/instructions/match_.rs
+197	0	air/tests/test_module/instructions/mismatch.rs
+23	0	air/tests/test_module/instructions/mod.rs
+60	0	air/tests/test_module/instructions/par.rs
+61	0	air/tests/test_module/instructions/seq.rs
+195	0	air/tests/test_module/instructions/xor.rs
+26	38	air/tests/{ => test_module/integration}/air_basic.rs
+0	0	air/tests/{ => test_module/integration}/build_test_binaries.sh
+0	0	air/tests/{ => test_module/integration}/dashboard.rs
+0	0	air/tests/{ => test_module/integration}/dashboard/peers
+117	69	air/tests/{ => test_module/integration}/data_merge.rs
+0	0	air/tests/{ => test_module/integration}/flattening.rs
+117	121	air/tests/{ => test_module/integration}/join.rs
+0	0	air/tests/{ => test_module/integration}/join_behaviour.rs
+0	0	air/tests/{ => test_module/integration}/last_error.rs
+24	0	air/tests/test_module/integration/mod.rs
+0	0	air/tests/{ => test_module/integration}/network_explore.rs
+0	0	air/tests/{ => test_module/integration}/scripts/create_service.clj
+0	0	air/tests/{ => test_module/integration}/scripts/create_service_with_xor.clj
+0	0	air/tests/{ => test_module/integration}/scripts/dashboard.clj
+33	0	air/tests/test_module/integration/scripts/inner_folds_v1.clj
+0	0	air/tests/{ => test_module/integration}/scripts/network_explore.clj
+80	90	air/tests/{ => test_module/integration}/security_tetraplets/auth_module/Cargo.lock
+1	1	air/tests/{ => test_module/integration}/security_tetraplets/auth_module/Cargo.toml
+0	0	air/tests/{ => test_module/integration}/security_tetraplets/auth_module/src/main.rs
+80	90	air/tests/{ => test_module/integration}/security_tetraplets/log_storage/Cargo.lock
+1	1	air/tests/{ => test_module/integration}/security_tetraplets/log_storage/Cargo.toml
+0	0	air/tests/{ => test_module/integration}/security_tetraplets/log_storage/src/main.rs
+19	0	air/tests/test_module/main.rs
+3	1	crates/test-utils/Cargo.toml
+81	0	crates/test-utils/src/executed_state.rs
+5	1	crates/test-utils/src/lib.rs
+
+commit b96ee517f3b12d7dd1e87b66ebea180fe5906722
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Thu May 13 12:21:52 2021 +0300
+
+    Export necessary data types in avm client (#103)
+
+3	3	avm/client/src/index.ts
+
+commit f9a0b24a56d2f23d7d2bf67f239fcb997e7ec271
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu May 13 12:00:56 2021 +0300
+
+    Move to sdk 0.6.5 (#102)
+
+2	2	.circleci/config.yml
+4	4	.github/workflows/air_tag_release.yml
+3	3	.github/workflows/publish_interpreter.yml
+3	3	.github/workflows/publish_interpreter_dev.yml
+144	130	Cargo.lock
+3	3	air-interpreter/Cargo.toml
+3	3	air-interpreter/src/{fce.rs => marine.rs}
+3	3	air/Cargo.toml
+2	2	air/src/build_targets/{fce_target.rs => marine_target.rs}
+10	10	air/src/build_targets/mod.rs
+1	1	air/tests/build_test_binaries.sh
+1	1	air/tests/security_tetraplets/auth_module/Cargo.toml
+3	3	air/tests/security_tetraplets/auth_module/src/main.rs
+1	1	air/tests/security_tetraplets/log_storage/Cargo.toml
+2	2	air/tests/security_tetraplets/log_storage/src/main.rs
+1	1	crates/interpreter-interface/Cargo.toml
+2	2	crates/interpreter-interface/src/lib.rs
+1	1	crates/polyplets/Cargo.toml
+1	1	crates/test-module/Cargo.toml
+3	3	crates/test-module/src/main.rs
+1	1	crates/test-utils/Cargo.toml
+
+commit 792763c72b0083724d00d32402d93bae6e70f82c
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Tue May 11 10:36:59 2021 +0300
+
+    Checking for undefined textencoder (#100)
+    
+    * Fix `ReferenceError: TextEncoder is not defined`
+    
+    * Add CI pipeline which runs avm client tests
+
+43	0	.github/workflows/avm_client_ci.yml
+4	5992	avm/client/package-lock.json
+1	0	avm/client/package.json
+4	4	avm/client/src/index.ts
+5	3	avm/client/src/wrapper.ts
+
+commit e973d5ba56966235c4ef03bd4bf2c4c927680241
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon May 10 15:26:25 2021 +0300
+
+    Fix publishing CI (#101)
+
+3	1	.github/workflows/publish_interpreter.yml
+
+commit 2ac0304d3ec9c20e823daf43c72e3772ebea494c
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon May 10 14:25:34 2021 +0300
+
+    Rename Aqua to AIR, move AVM from FCE (#99)
+
+8	8	.circleci/config.yml
+2	2	.github/workflows/{aquamarine_tag_release.yml => air_tag_release.yml}
+17	13	.github/workflows/publish_interpreter.yml
+14	11	.github/workflows/publish_interpreter_dev.yml
+1	1	.github/workflows/rustdoc.yml
+1	1	.gitignore
+5	5	CHANGELOG.md
+90	102	Cargo.lock
+5	4	Cargo.toml
+2	2	Config.toml
+2	3	README.md
+0	0	{interpreter-lib => air-interpreter}/.rustfmt.toml
+5	5	{interpreter => air-interpreter}/Cargo.toml
+1	1	{interpreter => air-interpreter}/src/ast.rs
+4	4	{interpreter => air-interpreter}/src/fce.rs
+1	1	{interpreter => air-interpreter}/src/logger.rs
+3	3	{interpreter => air-interpreter}/src/wasm_bindgen.rs
+0	0	{interpreter => air}/.rustfmt.toml
+4	4	{interpreter-lib => air}/Cargo.toml
+7	7	{interpreter-lib => air}/benches/call_benchmark.rs
+15	15	{interpreter-lib => air}/benches/chat_benchmark.rs
+13	13	{interpreter-lib => air}/benches/create_service_benchmark.rs
+9	9	interpreter-lib/src/aqua.rs => air/src/air.rs
+0	0	{interpreter-lib/src/aqua => air/src/air}/outcome.rs
+0	0	{interpreter-lib => air}/src/build_targets/fce_target.rs
+0	0	{interpreter-lib => air}/src/build_targets/mod.rs
+0	0	{interpreter-lib => air}/src/build_targets/wasm_bindgen_target.rs
+3	3	{interpreter-lib => air}/src/contexts/execution_context.rs
+0	0	{interpreter-lib => air}/src/contexts/execution_context/avalue.rs
+0	0	{interpreter-lib => air}/src/contexts/execution_trace_context.rs
+0	0	{interpreter-lib => air}/src/contexts/execution_trace_context/executed_state.rs
+0	0	{interpreter-lib => air}/src/contexts/mod.rs
+15	15	{interpreter-lib => air}/src/execution/air/call.rs
+0	0	{interpreter-lib => air}/src/execution/air/call/resolved_call.rs
+0	0	{interpreter-lib => air}/src/execution/air/call/triplet.rs
+0	0	{interpreter-lib => air}/src/execution/air/call/utils.rs
+0	0	{interpreter-lib => air}/src/execution/air/compare_matchable/compare_matchable.rs
+0	0	{interpreter-lib => air}/src/execution/air/compare_matchable/mod.rs
+29	29	{interpreter-lib => air}/src/execution/air/fold.rs
+0	0	{interpreter-lib => air}/src/execution/air/fold/utils.rs
+15	15	{interpreter-lib => air}/src/execution/air/match_.rs
+13	13	{interpreter-lib => air}/src/execution/air/mismatch.rs
+0	0	{interpreter-lib => air}/src/execution/air/mod.rs
+0	0	{interpreter-lib => air}/src/execution/air/null.rs
+5	5	{interpreter-lib => air}/src/execution/air/par.rs
+5	5	{interpreter-lib => air}/src/execution/air/seq.rs
+13	13	{interpreter-lib => air}/src/execution/air/xor.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/iterable.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/iterable/json_path_result.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/iterable/resolved_call.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/iterable/vec_json_path_result.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/iterable/vec_resolved_call.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/jvaluable.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/jvaluable/iterable_item.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/jvaluable/resolved_call_result.rs
+0	0	{interpreter-lib => air}/src/execution/boxed_value/mod.rs
+0	0	{interpreter-lib => air}/src/execution/errors.rs
+2	2	{interpreter-lib => air}/src/execution/mod.rs
+0	0	{interpreter-lib => air}/src/execution/utils/mod.rs
+0	0	{interpreter-lib => air}/src/execution/utils/resolve.rs
+4	4	{interpreter-lib => air}/src/lib.rs
+0	0	{interpreter-lib => air}/src/log_targets.rs
+0	0	{interpreter-lib => air}/src/preparation/data_merging.rs
+1	1	{interpreter-lib => air}/src/preparation/errors.rs
+0	0	{interpreter-lib => air}/src/preparation/mod.rs
+7	7	{interpreter-lib => air}/src/preparation/preparation.rs
+17	17	{interpreter-lib => air}/tests/air_basic.rs
+0	0	{interpreter-lib => air}/tests/build_test_binaries.sh
+28	28	{interpreter-lib => air}/tests/call_evidence_basic.rs
+25	25	{interpreter-lib => air}/tests/dashboard.rs
+0	0	{interpreter-lib => air}/tests/dashboard/peers
+10	10	{interpreter-lib => air}/tests/data_merge.rs
+12	12	{interpreter-lib => air}/tests/flattening.rs
+18	18	{interpreter-lib => air}/tests/join.rs
+6	6	{interpreter-lib => air}/tests/join_behaviour.rs
+15	15	{interpreter-lib => air}/tests/last_error.rs
+10	10	{interpreter-lib => air}/tests/network_explore.rs
+0	0	{interpreter-lib => air}/tests/scripts/create_service.clj
+0	0	{interpreter-lib => air}/tests/scripts/create_service_with_xor.clj
+0	0	{interpreter-lib => air}/tests/scripts/dashboard.clj
+0	0	{interpreter-lib => air}/tests/scripts/network_explore.clj
+15	15	{interpreter-lib => air}/tests/security_tetraplets.rs
+27	27	{interpreter-lib => air}/tests/security_tetraplets/auth_module/Cargo.lock
+1	1	{interpreter-lib => air}/tests/security_tetraplets/auth_module/Cargo.toml
+0	0	{interpreter-lib => air}/tests/security_tetraplets/auth_module/src/main.rs
+27	27	{interpreter-lib => air}/tests/security_tetraplets/log_storage/Cargo.lock
+1	1	{interpreter-lib => air}/tests/security_tetraplets/log_storage/Cargo.toml
+0	0	{interpreter-lib => air}/tests/security_tetraplets/log_storage/src/main.rs
+0	0	{npm => avm/client}/.gitattributes
+0	0	{npm => avm/client}/.gitignore
+0	0	{npm => avm/client}/.prettierrc.js
+0	0	{npm => avm/client}/README.md
+2	2	{npm => avm/client}/build_wasm.ps1
+16	0	avm/client/build_wasm.sh
+0	0	{npm => avm/client}/jest.config.js
+10913	0	avm/client/package-lock.json
+1	1	{npm => avm/client}/package.json
+0	0	{npm => avm/client}/src/__test__/test.spec.ts
+2	2	{npm => avm/client}/src/index.ts
+3	3	{npm => avm/client}/src/wrapper.ts
+0	0	{npm => avm/client}/tsconfig.json
+26	0	avm/server/Cargo.toml
+272	0	avm/server/src/avm.rs
+42	0	avm/server/src/config.rs
+55	0	avm/server/src/errors.rs
+49	0	avm/server/src/lib.rs
+1	1	crates/air-interpreter-wasm/Cargo.toml
+1	1	crates/air-interpreter-wasm/src/lib.rs
+1	2	crates/air-parser/benches/parser.rs
+1	1	crates/air-parser/src/parser/air.rs
+1	1	crates/air-parser/src/parser/air_parser.rs
+3	3	crates/air-parser/src/parser/lexer/call_variable_parser.rs
+1	0	crates/air-parser/src/parser/lexer/errors.rs
+1	1	crates/air-parser/src/parser/lexer/mod.rs
+2	2	crates/air-parser/src/parser/lexer/utils.rs
+1	1	crates/air-parser/src/parser/validator.rs
+3	3	crates/interpreter-interface/Cargo.toml
+2	2	crates/test-module/Cargo.toml
+3	3	crates/test-utils/Cargo.toml
+13	16	crates/test-utils/src/lib.rs
+0	16	npm/build_wasm.sh
+0	4876	npm/package-lock.json
+
+commit 0ddc44bf5292d30d8e5bc0870534ad18f822afdd
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Wed May 5 15:43:50 2021 +0300
+
+    Npm package (#98)
+    
+    This commit migrates wasm wrapper from JS SDK into the air interpreter package.
+    
+    Changes include:
+    
+    * Adding directory for npm package
+    * Setting up typescript build pipeline
+    * Renaming package to air-interpreter
+    * Fixing CI pipelines to support the new build process
+    * Fixing issue with memory access violation in wasm wrapper
+
+15	65	.github/workflows/publish_interpreter.yml
+16	70	.github/workflows/publish_interpreter_dev.yml
+1	1	crates/air-parser/src/parser/air.rs
+1	0	npm/.gitattributes
+7	0	npm/.gitignore
+8	0	npm/.prettierrc.js
+5	0	npm/README.md
+11	0	npm/build_wasm.ps1
+16	0	npm/build_wasm.sh
+4	0	npm/jest.config.js
+4876	0	npm/package-lock.json
+27	0	npm/package.json
+50	0	npm/src/__test__/test.spec.ts
+208	0	npm/src/index.ts
+174	0	npm/src/wrapper.ts
+39	0	npm/tsconfig.json
+
+commit c4bdb2eddcddbc26d70441afbf848b0dfc125379
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Fri Apr 30 17:03:02 2021 +0300
+
+    fix publishing (#97)
+
+1	1	.github/workflows/publish_interpreter.yml
+
+commit 2a408d4ee40ec8148ed7f93a477d42814fd553b3
+Author: vms <mikhail@fluence.one>
+Date:   Thu Apr 29 18:26:13 2021 +0300
+
+    make match work with init_peer_id (#96)
+
+2	2	Cargo.lock
+1	0	crates/air-parser/src/parser/air.lalrpop
+251	202	crates/air-parser/src/parser/air.rs
+1	0	crates/air-parser/src/parser/ast.rs
+1	0	crates/air-parser/src/parser/ast/traits.rs
+15	0	crates/air-parser/src/parser/tests.rs
+4	2	crates/air-parser/src/parser/validator.rs
+17	1	interpreter-lib/src/execution/air/compare_matchable/compare_matchable.rs
+35	0	interpreter-lib/src/execution/air/match_.rs
+1	1	interpreter/Cargo.toml
+
+commit 255feedb6075e1b8d12bfcc800cbeda10bca878b
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Apr 28 19:03:07 2021 +0300
+
+    Set version in interpreter/Cargo.toml before .wasm build in publishing (#95)
+
+12	0	.github/workflows/publish_interpreter.yml
+11	1	.github/workflows/publish_interpreter_dev.yml
+
+commit 45985bb993bd43fc39239936625a6bb440232271
+Author: vms <mikhail@fluence.one>
+Date:   Wed Apr 28 16:05:35 2021 +0300
+
+    Fix number to jvalue conversion (#94)
+
+1	1	.github/workflows/publish_interpreter.yml
+2	2	.github/workflows/publish_interpreter_dev.yml
+73	268	Cargo.lock
+1	1	crates/air-parser/src/parser/lexer/token.rs
+2	2	crates/interpreter-interface/Cargo.toml
+1	1	crates/polyplets/Cargo.toml
+1	1	crates/test-module/Cargo.toml
+2	2	crates/test-utils/Cargo.toml
+3	3	interpreter-lib/Cargo.toml
+1	2	interpreter-lib/src/execution/air/compare_matchable/compare_matchable.rs
+17	0	interpreter-lib/src/execution/air/match_.rs
+0	2	interpreter-lib/tests/security_tetraplets.rs
+22	15	interpreter-lib/tests/security_tetraplets/auth_module/Cargo.lock
+1	1	interpreter-lib/tests/security_tetraplets/auth_module/Cargo.toml
+2	2	interpreter-lib/tests/security_tetraplets/auth_module/src/main.rs
+22	15	interpreter-lib/tests/security_tetraplets/log_storage/Cargo.lock
+1	1	interpreter-lib/tests/security_tetraplets/log_storage/Cargo.toml
+2	2	interpreter/Cargo.toml
+
+commit fb787cf565636d2a635b4033e229ce53ca8145f5
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Apr 27 13:40:32 2021 +0300
+
+    fluence-it-types = 0.3.0
+
+8	22	Cargo.lock
+1	1	crates/interpreter-interface/Cargo.toml
+
+commit 01cdb26c2cb0207abb915703b203fca8fae114dd
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Apr 27 13:37:06 2021 +0300
+
+    Use fluence-it-types from github
+
+34	20	Cargo.lock
+1	1	crates/interpreter-interface/Cargo.toml
+
+commit 7097b255334c518ce52faf733a5fa295c0a5768e
+Author: vms <mikhail@fluence.one>
+Date:   Mon Apr 26 14:44:23 2021 +0300
+
+    Move to BWU (#93)
+
+3	3	.circleci/config.yml
+1	1	.github/workflows/publish_interpreter_dev.yml
+369	97	Cargo.lock
+3	3	crates/interpreter-interface/Cargo.toml
+1	0	crates/interpreter-interface/src/lib.rs
+2	1	crates/polyplets/Cargo.toml
+1	1	crates/test-module/Cargo.toml
+2	2	crates/test-utils/Cargo.toml
+1	1	interpreter-lib/Cargo.toml
+2	2	interpreter-lib/benches/chat_benchmark.rs
+4	6	interpreter-lib/src/build_targets/fce_target.rs
+5	5	interpreter-lib/src/build_targets/wasm_bindgen_target.rs
+4	5	interpreter-lib/src/execution/air/call/resolved_call.rs
+2	0	interpreter-lib/tests/security_tetraplets.rs
+136	158	interpreter-lib/tests/security_tetraplets/auth_module/Cargo.lock
+1	1	interpreter-lib/tests/security_tetraplets/auth_module/Cargo.toml
+136	158	interpreter-lib/tests/security_tetraplets/log_storage/Cargo.lock
+1	1	interpreter-lib/tests/security_tetraplets/log_storage/Cargo.toml
+1	1	interpreter/Cargo.toml
+
+commit ecd97a2360638c20d5405d83c27a5060304438ef
+Author: vms <mikhail@fluence.one>
+Date:   Thu Apr 15 13:51:52 2021 +0300
+
+    Do not print warning in xor for match/mismatch (#91)
+
+44	1	interpreter-lib/src/execution/air/match_.rs
+44	0	interpreter-lib/src/execution/air/mismatch.rs
+12	1	interpreter-lib/src/execution/air/xor.rs
+
+commit 3d59e6f33ea56ac72f763f9f4b4739e0b8435f1f
+Author: vms <mikhail@fluence.one>
+Date:   Tue Apr 13 12:13:54 2021 +0300
+
+    fix bug with empty iterable constructed from json path (#81)
+
+27	0	interpreter-lib/src/execution/air/fold.rs
+2	2	interpreter-lib/src/execution/air/fold/utils.rs
+
+commit 45fc92ae3d168756a912f7515f9381d51879c45e
+Author: vms <mikhail@fluence.one>
+Date:   Fri Mar 26 17:13:28 2021 +0300
+
+    Use $ to identify streams instead of [] (#79)
+
+31	41	Cargo.lock
+1	1	crates/air-parser/Cargo.toml
+6	6	crates/air-parser/benches/parser.rs
+26	33	crates/air-parser/src/parser/air.lalrpop
+556	371	crates/air-parser/src/parser/air.rs
+1	11	crates/air-parser/src/parser/air_parser.rs
+10	10	crates/air-parser/src/parser/ast.rs
+3	4	crates/air-parser/src/parser/ast/traits.rs
+0	24	crates/air-parser/src/parser/lexer/air_lexer.rs
+63	7	crates/air-parser/src/parser/lexer/call_variable_parser.rs
+2	2	crates/air-parser/src/parser/lexer/errors.rs
+1	0	crates/air-parser/src/parser/lexer/mod.rs
+7	12	crates/air-parser/src/parser/lexer/tests.rs
+20	3	crates/air-parser/src/parser/lexer/token.rs
+66	71	crates/air-parser/src/parser/tests.rs
+8	3	crates/air-parser/src/parser/validator.rs
+1	1	interpreter-lib/Cargo.toml
+4	4	interpreter-lib/benches/chat_benchmark.rs
+3	3	interpreter-lib/src/contexts/execution_context/avalue.rs
+3	3	interpreter-lib/src/contexts/execution_trace_context.rs
+6	2	interpreter-lib/src/execution/air/call/triplet.rs
+5	4	interpreter-lib/src/execution/air/call/utils.rs
+12	5	interpreter-lib/src/execution/air/compare_matchable/compare_matchable.rs
+7	7	interpreter-lib/src/execution/air/fold.rs
+20	13	interpreter-lib/src/execution/air/fold/utils.rs
+2	2	interpreter-lib/src/execution/air/mod.rs
+1	1	interpreter-lib/src/execution/boxed_value/iterable/vec_json_path_result.rs
+1	1	interpreter-lib/src/execution/boxed_value/iterable/vec_resolved_call.rs
+7	5	interpreter-lib/src/execution/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+3	3	interpreter-lib/src/execution/errors.rs
+1	0	interpreter-lib/src/execution/mod.rs
+1	0	interpreter-lib/src/execution/utils/mod.rs
+18	3	interpreter-lib/src/execution/utils/resolve.rs
+2	2	interpreter-lib/tests/call_evidence_basic.rs
+9	9	interpreter-lib/tests/data_merge.rs
+8	8	interpreter-lib/tests/flattening.rs
+7	7	interpreter-lib/tests/join.rs
+1	1	interpreter-lib/tests/scripts/create_service_with_xor.clj
+3	3	interpreter-lib/tests/scripts/network_explore.clj
+2	2	interpreter-lib/tests/security_tetraplets.rs
+1	1	interpreter/Cargo.toml
+
+commit 9bdd2e3501f1dad33f22214d164aa45bdab25421
+Author: vms <mikhail@fluence.one>
+Date:   Thu Mar 25 16:11:32 2021 +0300
+
+    Make match work with booleans and numbers (#80)
+
+2	0	crates/air-parser/src/parser/air.lalrpop
+288	190	crates/air-parser/src/parser/air.rs
+50	12	crates/air-parser/src/parser/tests.rs
+
+commit bb7de714449d6db12f5af3602e1bfa1e92e031f8
+Author: vms <mikhail@fluence.one>
+Date:   Wed Mar 24 10:43:49 2021 +0300
+
+    fix joinable (#78)
+
+3	3	interpreter-lib/src/execution/air/call.rs
+14	1	interpreter-lib/src/execution/air/mod.rs
+
+commit 0b2bfe1b84b92e8a26d1cec802db53731505cc88
+Author: vms <mikhail@fluence.one>
+Date:   Wed Mar 24 10:00:07 2021 +0300
+
+    Make match mismatch joinable (#77)
+
+8	2	crates/air-parser/src/parser/air.lalrpop
+200	22	crates/air-parser/src/parser/air.rs
+19	0	crates/air-parser/src/parser/validator.rs
+1	42	interpreter-lib/src/execution/air/call.rs
+5	1	interpreter-lib/src/execution/air/match_.rs
+5	1	interpreter-lib/src/execution/air/mismatch.rs
+43	0	interpreter-lib/src/execution/air/mod.rs
+
+commit 52af952dfd43741b8752563f5ced05bd43f7987d
+Author: vms <mikhail@fluence.one>
+Date:   Fri Mar 19 19:15:41 2021 +0300
+
+    Basic validator for variables (#76)
+
+4	3	Cargo.lock
+2	1	crates/air-parser/Cargo.toml
+24	8	crates/air-parser/src/parser/air.lalrpop
+849	337	crates/air-parser/src/parser/air.rs
+33	11	crates/air-parser/src/parser/air_parser.rs
+39	0	crates/air-parser/src/parser/errors.rs
+22	2	crates/air-parser/src/parser/lexer/errors.rs
+11	0	crates/air-parser/src/parser/mod.rs
+63	4	crates/air-parser/src/parser/tests.rs
+239	0	crates/air-parser/src/parser/validator.rs
+1	1	interpreter-lib/src/execution/air/call.rs
+8	9	interpreter-lib/src/execution/air/fold.rs
+8	4	interpreter-lib/src/execution/air/xor.rs
+
+commit acb00a1b0765ef12213446422d7270d27e3ff33a
+Author: vms <mikhail@fluence.one>
+Date:   Wed Mar 10 17:34:14 2021 +0300
+
+    Add tests for duplicates and fold with join (#75)
+
+20	0	interpreter-lib/src/execution/air/call.rs
+40	10	interpreter-lib/src/execution/air/fold.rs
+
+commit 8a48212d7c1ac874aea83aeefe919adc169a61da
+Author: vms <mikhail@fluence.one>
+Date:   Fri Mar 5 16:59:35 2021 +0300
+
+    move to the original lalrpop parser (#73)
+
+45	92	Cargo.lock
+3	3	crates/air-parser/Cargo.toml
+220	217	crates/air-parser/src/parser/air.rs
+1	1	crates/polyplets/Cargo.toml
+
+commit 2744d86c7f863eb2816c4475814ccef08a8094b8
+Author: vms <mikhail@fluence.one>
+Date:   Mon Mar 1 11:09:41 2021 +0300
+
+    Fix logger (#72)
+
+84	121	Cargo.lock
+1	1	crates/interpreter-interface/Cargo.toml
+1	1	crates/polyplets/Cargo.toml
+1	1	crates/test-module/Cargo.toml
+2	2	crates/test-utils/Cargo.toml
+2	2	interpreter-lib/Cargo.toml
+1	1	interpreter-lib/src/execution/air/call.rs
+8	1	interpreter-lib/tests/security_tetraplets.rs
+1	1	interpreter-lib/tests/security_tetraplets/auth_module/Cargo.toml
+1	1	interpreter-lib/tests/security_tetraplets/log_storage/Cargo.toml
+1	1	interpreter/Cargo.toml
+0	17	interpreter/src/fce.rs
+1	4	interpreter/src/logger.rs
+5	3	interpreter/src/wasm_bindgen.rs
+
+commit 7356f03fa9542428ccc1a379da5f3473eb83f3dd
+Author: vms <mikhail@fluence.one>
+Date:   Sun Feb 28 18:00:16 2021 +0300
+
+    Do not clear %last_error% in match/mismatch (#71)
+
+31	2	interpreter-lib/src/execution/air/mod.rs
+0	4	interpreter-lib/tests/join_behaviour.rs
+109	18	interpreter-lib/tests/last_error.rs
+1	1	interpreter-lib/tests/scripts/create_service_with_xor.clj
+
+commit 73fe4d9d3b4257efa7d662d97b6e689299183b52
+Author: vms <mikhail@fluence.one>
+Date:   Thu Feb 25 16:35:44 2021 +0300
+
+    Add a new test for join behaviour (#70)
+
+1	0	interpreter-lib/src/build_targets/wasm_bindgen_target.rs
+1	1	interpreter-lib/src/execution/air/call/resolved_call.rs
+1	1	interpreter-lib/src/execution/air/fold/utils.rs
+3	8	interpreter-lib/src/execution/air/xor.rs
+4	5	interpreter-lib/src/execution/utils/resolve.rs
+1	1	interpreter-lib/src/preparation/preparation.rs
+75	0	interpreter-lib/tests/join_behaviour.rs
+
+commit 13f93a0f880139834638bd99ce62cdc75cac1f5b
+Author: vms <mikhail@fluence.one>
+Date:   Thu Feb 18 17:30:14 2021 +0300
+
+    Improve flattening (#69)
+
+40	31	Cargo.lock
+1	1	crates/air-parser/Cargo.toml
+20	11	crates/air-parser/src/parser/air.lalrpop
+528	366	crates/air-parser/src/parser/air.rs
+29	0	crates/air-parser/src/parser/air_parser.rs
+20	4	crates/air-parser/src/parser/ast.rs
+31	4	crates/air-parser/src/parser/ast/traits.rs
+18	2	crates/air-parser/src/parser/lexer/call_variable_parser.rs
+3	0	crates/air-parser/src/parser/lexer/errors.rs
+18	6	crates/air-parser/src/parser/lexer/tests.rs
+1	1	crates/air-parser/src/parser/lexer/token.rs
+0	1	crates/air-parser/src/parser/lexer/utils.rs
+0	4	crates/air-parser/src/parser/mod.rs
+30	4	crates/air-parser/src/parser/tests.rs
+2	2	interpreter-lib/Cargo.toml
+8	1	interpreter-lib/src/execution/air/call/triplet.rs
+35	6	interpreter-lib/src/execution/air/compare_matchable/compare_matchable.rs
+43	13	interpreter-lib/src/execution/air/fold/utils.rs
+0	1	interpreter-lib/src/execution/air/mod.rs
+5	0	interpreter-lib/src/execution/errors.rs
+17	3	interpreter-lib/src/execution/utils/resolve.rs
+209	0	interpreter-lib/tests/flattening.rs
+2	2	interpreter-lib/tests/join.rs
+1	1	interpreter/Cargo.toml
+
+commit d43b5454faa8de20e9e750d75ad6fe55546cdd38
+Author: vms <mikhail@fluence.one>
+Date:   Thu Feb 18 16:48:34 2021 +0300
+
+    print log on erorrs (#68)
+
+2	0	interpreter-lib/src/execution/air/call.rs
+1	0	interpreter-lib/src/execution/air/xor.rs
+
+commit e5244db6a12034022a6750f5352583d0b3885401
+Author: vms <mikhail@fluence.one>
+Date:   Wed Feb 17 23:36:36 2021 +0300
+
+    Rename stepper to interpreter (#67)
+
+3	3	.circleci/config.yml
+1	1	.github/workflows/aquamarine_tag_release.yml
+5	5	.github/workflows/publish_interpreter.yml
+4	4	.github/workflows/publish_interpreter_dev.yml
+1	1	.gitignore
+1	1	CHANGELOG.md
+133	56	Cargo.lock
+5	5	Cargo.toml
+1	1	README.md
+1	1	crates/air-interpreter-wasm/Cargo.lock
+1	1	crates/air-interpreter-wasm/Cargo.toml
+2	1	crates/air-parser/benches/parser.rs
+4	4	crates/{stepper-interface => interpreter-interface}/Cargo.toml
+14	9	crates/{stepper-interface => interpreter-interface}/src/lib.rs
+1	1	crates/test-utils/Cargo.toml
+1	1	crates/test-utils/src/lib.rs
+0	0	{stepper-lib => interpreter-lib}/.rustfmt.toml
+4	4	{stepper-lib => interpreter-lib}/Cargo.toml
+2	2	{stepper-lib => interpreter-lib}/benches/call_benchmark.rs
+2	2	{stepper-lib => interpreter-lib}/benches/chat_benchmark.rs
+2	2	{stepper-lib => interpreter-lib}/benches/create_service_benchmark.rs
+3	3	{stepper-lib => interpreter-lib}/src/aqua.rs
+17	13	{stepper-lib => interpreter-lib}/src/aqua/outcome.rs
+0	0	{stepper-lib => interpreter-lib}/src/build_targets/fce_target.rs
+0	0	{stepper-lib => interpreter-lib}/src/build_targets/mod.rs
+0	0	{stepper-lib => interpreter-lib}/src/build_targets/wasm_bindgen_target.rs
+0	0	{stepper-lib => interpreter-lib}/src/contexts/execution_context.rs
+0	0	{stepper-lib => interpreter-lib}/src/contexts/execution_context/avalue.rs
+2	2	{stepper-lib => interpreter-lib}/src/contexts/execution_trace_context.rs
+0	0	{stepper-lib => interpreter-lib}/src/contexts/execution_trace_context/executed_state.rs
+0	0	{stepper-lib => interpreter-lib}/src/contexts/mod.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/call.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/call/resolved_call.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/call/triplet.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/call/utils.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/compare_matchable/compare_matchable.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/compare_matchable/mod.rs
+2	2	{stepper-lib => interpreter-lib}/src/execution/air/fold.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/fold/utils.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/match_.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/mismatch.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/mod.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/null.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/par.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/seq.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/air/xor.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/iterable.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/iterable/json_path_result.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/iterable/resolved_call.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/iterable/vec_json_path_result.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/iterable/vec_resolved_call.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/jvaluable.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/jvaluable/iterable_item.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/jvaluable/resolved_call_result.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/boxed_value/mod.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/errors.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/mod.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/utils/mod.rs
+0	0	{stepper-lib => interpreter-lib}/src/execution/utils/resolve.rs
+2	2	{stepper-lib => interpreter-lib}/src/lib.rs
+0	0	{stepper-lib => interpreter-lib}/src/log_targets.rs
+0	0	{stepper-lib => interpreter-lib}/src/preparation/data_merging.rs
+1	1	{stepper-lib => interpreter-lib}/src/preparation/errors.rs
+0	0	{stepper-lib => interpreter-lib}/src/preparation/mod.rs
+0	0	{stepper-lib => interpreter-lib}/src/preparation/preparation.rs
+9	8	{stepper-lib => interpreter-lib}/tests/air_basic.rs
+0	0	{stepper-lib => interpreter-lib}/tests/build_test_binaries.sh
+16	13	{stepper-lib => interpreter-lib}/tests/call_evidence_basic.rs
+0	0	{stepper-lib => interpreter-lib}/tests/dashboard.rs
+0	0	{stepper-lib => interpreter-lib}/tests/dashboard/peers
+4	4	{stepper-lib => interpreter-lib}/tests/data_merge.rs
+14	10	{stepper-lib => interpreter-lib}/tests/join.rs
+1	1	{stepper-lib => interpreter-lib}/tests/last_error.rs
+0	0	{stepper-lib => interpreter-lib}/tests/network_explore.rs
+0	0	{stepper-lib => interpreter-lib}/tests/scripts/create_service.clj
+0	0	{stepper-lib => interpreter-lib}/tests/scripts/create_service_with_xor.clj
+0	0	{stepper-lib => interpreter-lib}/tests/scripts/dashboard.clj
+0	0	{stepper-lib => interpreter-lib}/tests/scripts/network_explore.clj
+5	5	{stepper-lib => interpreter-lib}/tests/security_tetraplets.rs
+4	4	{stepper-lib => interpreter-lib}/tests/security_tetraplets/auth_module/Cargo.lock
+1	1	{stepper-lib => interpreter-lib}/tests/security_tetraplets/auth_module/Cargo.toml
+0	0	{stepper-lib => interpreter-lib}/tests/security_tetraplets/auth_module/src/main.rs
+4	4	{stepper-lib => interpreter-lib}/tests/security_tetraplets/log_storage/Cargo.lock
+1	1	{stepper-lib => interpreter-lib}/tests/security_tetraplets/log_storage/Cargo.toml
+0	0	{stepper-lib => interpreter-lib}/tests/security_tetraplets/log_storage/src/main.rs
+0	0	{stepper => interpreter}/.rustfmt.toml
+3	3	{stepper => interpreter}/Cargo.toml
+1	1	{stepper => interpreter}/src/ast.rs
+3	3	{stepper => interpreter}/src/fce.rs
+1	1	{stepper => interpreter}/src/logger.rs
+2	2	{stepper => interpreter}/src/wasm_bindgen.rs
+
+commit 271156b5fc9f834d883ad8151cc734701091de4b
+Author: vms <mikhail@fluence.one>
+Date:   Tue Feb 16 20:04:00 2021 +0300
+
+    Fix last_error behaviour (#66)
+
+1	0	Cargo.lock
+2	0	crates/air-parser/Cargo.toml
+18	0	crates/air-parser/src/parser/ast.rs
+189	0	crates/air-parser/src/parser/ast/traits.rs
+13	0	crates/air-parser/src/parser/lexer/token.rs
+27	0	crates/test-utils/src/lib.rs
+5	0	stepper-lib/src/contexts/execution_context.rs
+16	7	stepper-lib/src/execution/air/call.rs
+6	1	stepper-lib/src/execution/air/mod.rs
+4	27	stepper-lib/src/execution/air/xor.rs
+81	0	stepper-lib/tests/last_error.rs
+25	0	stepper-lib/tests/scripts/create_service_with_xor.clj
+13	3	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+13	3	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+
+commit c6d8a458da5e21a86f6391c9a6184ce5101706fe
+Author: vms <mikhail@fluence.one>
+Date:   Tue Feb 16 09:45:33 2021 +0300
+
+    Support numbers and booleans (#64)
+
+4	3	Cargo.lock
+2	1	crates/air-parser/Cargo.toml
+5	0	crates/air-parser/src/parser/air.lalrpop
+496	368	crates/air-parser/src/parser/air.rs
+18	0	crates/air-parser/src/parser/air_parser.rs
+22	32	crates/air-parser/src/parser/ast.rs
+11	58	crates/air-parser/src/parser/lexer/air_lexer.rs
+262	0	crates/air-parser/src/parser/lexer/call_variable_parser.rs
+23	2	crates/air-parser/src/parser/lexer/errors.rs
+8	0	crates/air-parser/src/parser/lexer/mod.rs
+253	96	crates/air-parser/src/parser/lexer/tests.rs
+76	1	crates/air-parser/src/parser/lexer/token.rs
+43	0	crates/air-parser/src/parser/lexer/utils.rs
+1	1	stepper-lib/Cargo.toml
+2	2	stepper-lib/src/execution/air/call/resolved_call.rs
+62	17	stepper-lib/src/execution/air/compare_matchable/compare_matchable.rs
+7	0	stepper-lib/src/execution/mod.rs
+9	4	stepper-lib/src/execution/utils/resolve.rs
+0	7	stepper-lib/src/lib.rs
+2	1	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+2	1	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+1	1	stepper/Cargo.toml
+
+commit d8ff68843e25530cbb16d078b7c316d0181e3186
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Sat Feb 13 00:08:19 2021 +0300
+
+    Switch to cjs (#65)
+    
+    * Use CJS instead of ESM
+    
+    * fix the issue with branch packages being pushed to npm as latest
+
+9	4	.github/workflows/publish_interpreter.yml
+10	5	.github/workflows/publish_interpreter_dev.yml
+
+commit 05499a6bc1fdf77ffb9c821be1ad68cf956d8214
+Author: vms <mikhail@fluence.one>
+Date:   Thu Feb 11 15:39:37 2021 +0300
+
+    Introduce %last_error% (#63)
+
+23	10	crates/air-parser/src/parser/air.lalrpop
+630	388	crates/air-parser/src/parser/air.rs
+15	6	crates/air-parser/src/parser/ast.rs
+2	0	crates/air-parser/src/parser/lexer/air_lexer.rs
+1	0	crates/air-parser/src/parser/lexer/token.rs
+158	68	crates/air-parser/src/parser/tests.rs
+7	0	crates/polyplets/src/tetraplet.rs
+2	5	crates/test-utils/src/lib.rs
+3	1	stepper-lib/src/aqua/outcome.rs
+6	0	stepper-lib/src/build_targets/mod.rs
+47	3	stepper-lib/src/contexts/execution_context.rs
+2	2	stepper-lib/src/contexts/execution_trace_context/executed_state.rs
+1	0	stepper-lib/src/contexts/mod.rs
+19	2	stepper-lib/src/execution/air/call.rs
+33	11	stepper-lib/src/execution/air/call/resolved_call.rs
+14	13	stepper-lib/src/execution/air/call/triplet.rs
+8	6	stepper-lib/src/execution/air/call/utils.rs
+3	2	stepper-lib/src/execution/air/fold.rs
+5	4	stepper-lib/src/execution/air/fold/utils.rs
+1	1	stepper-lib/src/execution/air/match_.rs
+3	3	stepper-lib/src/execution/air/mismatch.rs
+26	8	stepper-lib/src/execution/air/mod.rs
+3	3	stepper-lib/src/execution/air/par.rs
+40	4	stepper-lib/src/execution/air/xor.rs
+15	8	stepper-lib/src/execution/errors.rs
+3	1	stepper-lib/src/execution/mod.rs
+55	23	stepper-lib/src/execution/utils/resolve.rs
+7	0	stepper-lib/src/lib.rs
+6	6	stepper-lib/src/preparation/data_merging.rs
+
+commit 709b5e0a52a65a88d58bb2859ed6726e33eff47f
+Author: vms <mikhail@fluence.one>
+Date:   Mon Feb 1 18:53:00 2021 +0300
+
+    Introduce mismatch (#62)
+
+2	2	Cargo.lock
+10	1	crates/air-parser/src/parser/air.lalrpop
+340	257	crates/air-parser/src/parser/air.rs
+13	5	crates/air-parser/src/parser/ast.rs
+2	0	crates/air-parser/src/parser/lexer/air_lexer.rs
+26	0	crates/air-parser/src/parser/lexer/tests.rs
+1	0	crates/air-parser/src/parser/lexer/token.rs
+58	0	crates/air-parser/src/parser/tests.rs
+90	0	stepper-lib/src/execution/air/compare_matchable/compare_matchable.rs
+19	0	stepper-lib/src/execution/air/compare_matchable/mod.rs
+4	77	stepper-lib/src/execution/air/match_.rs
+193	0	stepper-lib/src/execution/air/mismatch.rs
+3	0	stepper-lib/src/execution/air/mod.rs
+
+commit 611bee08367aca6cc9fa278e69e2f348620bfbd0
+Author: vms <mikhail@fluence.one>
+Date:   Mon Feb 1 16:12:37 2021 +0300
+
+    fix match behaviour (#61)
+
+59	34	Cargo.lock
+1	1	stepper-lib/Cargo.toml
+76	2	stepper-lib/src/execution/air/match_.rs
+2	2	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+2	2	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+1	1	stepper/Cargo.toml
+
+commit 7cc248439e21e5ac79bccb1653535bff3311beed
+Author: vms <mikhail@fluence.one>
+Date:   Wed Jan 27 00:37:58 2021 +0300
+
+    Introduce the match instruction (#60)
+
+2	2	Cargo.lock
+1	1	crates/air-parser/Cargo.toml
+27	15	crates/air-parser/src/parser/air.lalrpop
+561	332	crates/air-parser/src/parser/air.rs
+25	10	crates/air-parser/src/parser/ast.rs
+2	0	crates/air-parser/src/parser/lexer/air_lexer.rs
+1	0	crates/air-parser/src/parser/lexer/token.rs
+18	18	crates/air-parser/src/parser/tests.rs
+1	1	stepper-lib/Cargo.toml
+3	3	stepper-lib/src/execution/air/call/resolved_call.rs
+9	9	stepper-lib/src/execution/air/call/triplet.rs
+6	6	stepper-lib/src/execution/air/call/utils.rs
+192	0	stepper-lib/src/execution/air/match_.rs
+3	1	stepper-lib/src/execution/air/mod.rs
+5	0	stepper-lib/src/execution/errors.rs
+6	6	stepper-lib/src/execution/utils/resolve.rs
+
+commit f523f2770550aa5cb366155abdb7bca9e2182cab
+Author: vms <mikhail@fluence.one>
+Date:   Fri Jan 22 18:54:05 2021 +0300
+
+    Introduce custom lexer (#59)
+
+2	1	Cargo.lock
+4	2	crates/air-parser/Cargo.toml
+39	10	crates/air-parser/benches/parser.rs
+0	92	crates/air-parser/src/lalrpop/aqua.lalrpop
+0	2485	crates/air-parser/src/lalrpop/aqua.rs
+32	18	crates/air-parser/src/lib.rs
+104	0	crates/air-parser/src/parser/air.lalrpop
+2519	0	crates/air-parser/src/parser/air.rs
+56	42	crates/air-parser/src/{lalrpop/parser.rs => parser/air_parser.rs}
+13	7	crates/air-parser/src/{ => parser}/ast.rs
+276	0	crates/air-parser/src/parser/lexer/air_lexer.rs
+41	0	crates/air-parser/src/parser/lexer/errors.rs
+26	0	crates/air-parser/src/parser/lexer/mod.rs
+193	0	crates/air-parser/src/parser/lexer/tests.rs
+38	0	crates/air-parser/src/parser/lexer/token.rs
+36	0	crates/air-parser/src/parser/mod.rs
+74	17	crates/air-parser/src/{lalrpop => parser}/tests.rs
+2	2	stepper-lib/src/execution/air/call/resolved_call.rs
+9	9	stepper-lib/src/execution/air/call/triplet.rs
+5	9	stepper-lib/src/execution/air/fold/utils.rs
+0	5	stepper-lib/src/execution/errors.rs
+6	6	stepper-lib/src/execution/utils/resolve.rs
+1	1	stepper-lib/src/preparation/errors.rs
+3	2	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+3	2	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+1	5	stepper/src/logger.rs
+
+commit 459615e8288b8b24bd1bd39c4e3f244a7cac76ca
+Author: folex <0xdxdy@gmail.com>
+Date:   Sat Jan 16 21:55:34 2021 +0300
+
+    CI: fix release versions calculation (#58)
+
+14	6	.github/workflows/publish_interpreter.yml
+4	2	.github/workflows/publish_interpreter_dev.yml
+22	6	Cargo.lock
+2	2	crates/air-interpreter-wasm/Cargo.lock
+
+commit dabadeb75b7474ee8a09f95fb21fe0b4600772d4
+Author: vms <mikhail@fluence.one>
+Date:   Sat Jan 16 00:40:57 2021 +0300
+
+    Make xor catch more execution errors; fix joinable behaviour (#57)
+
+2	2	Cargo.lock
+2	2	crates/air-interpreter-wasm/Cargo.lock
+1	1	stepper-lib/Cargo.toml
+43	24	stepper-lib/src/execution/air/call.rs
+2	1	stepper-lib/src/execution/air/call/resolved_call.rs
+0	30	stepper-lib/src/execution/air/fold.rs
+71	2	stepper-lib/src/execution/air/xor.rs
+9	3	stepper-lib/src/execution/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+5	1	stepper-lib/src/log_targets.rs
+1	1	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+1	1	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+1	1	stepper/Cargo.toml
+
+commit a5858e1a98892db318397544005231924ffa157a
+Author: vms <mikhail@fluence.one>
+Date:   Fri Jan 15 00:38:58 2021 +0300
+
+    Refactoring and housekeeping (#55)
+
+3	3	Cargo.lock
+3	3	stepper-lib/Cargo.toml
+0	253	stepper-lib/src/air/fold/iterable.rs
+0	193	stepper-lib/src/air/jvaluable.rs
+16	19	stepper-lib/src/{execution.rs => aqua.rs}
+13	8	stepper-lib/src/{execution => aqua}/outcome.rs
+2	2	stepper-lib/src/build_targets/mod.rs
+0	323	stepper-lib/src/call_evidence/state.rs
+11	7	stepper-lib/src/{air => contexts}/execution_context.rs
+59	0	stepper-lib/src/contexts/execution_context/avalue.rs
+22	14	stepper-lib/src/{call_evidence/context.rs => contexts/execution_trace_context.rs}
+55	0	stepper-lib/src/contexts/execution_trace_context/executed_state.rs
+31	0	stepper-lib/src/contexts/mod.rs
+0	222	stepper-lib/src/errors.rs
+20	29	stepper-lib/src/{ => execution}/air/call.rs
+43	32	stepper-lib/src/{ => execution}/air/call/resolved_call.rs
+13	13	stepper-lib/src/{ => execution}/air/call/triplet.rs
+27	29	stepper-lib/src/{ => execution}/air/call/utils.rs
+39	42	stepper-lib/src/{ => execution}/air/fold.rs
+16	25	stepper-lib/src/{ => execution}/air/fold/utils.rs
+21	26	stepper-lib/src/{ => execution}/air/mod.rs
+4	4	stepper-lib/src/{ => execution}/air/null.rs
+38	38	stepper-lib/src/{ => execution}/air/par.rs
+6	6	stepper-lib/src/{ => execution}/air/seq.rs
+24	24	stepper-lib/src/{ => execution}/air/xor.rs
+83	0	stepper-lib/src/execution/boxed_value/iterable.rs
+64	0	stepper-lib/src/execution/boxed_value/iterable/json_path_result.rs
+76	0	stepper-lib/src/execution/boxed_value/iterable/resolved_call.rs
+65	0	stepper-lib/src/execution/boxed_value/iterable/vec_json_path_result.rs
+65	0	stepper-lib/src/execution/boxed_value/iterable/vec_resolved_call.rs
+48	0	stepper-lib/src/execution/boxed_value/jvaluable.rs
+70	0	stepper-lib/src/execution/boxed_value/jvaluable/cell_vec_resolved_call_result.rs
+94	0	stepper-lib/src/execution/boxed_value/jvaluable/iterable_item.rs
+70	0	stepper-lib/src/execution/boxed_value/jvaluable/resolved_call_result.rs
+7	7	stepper-lib/src/{call_evidence => execution/boxed_value}/mod.rs
+118	0	stepper-lib/src/execution/errors.rs
+26	0	stepper-lib/src/execution/mod.rs
+0	100	stepper-lib/src/execution/preparation.rs
+20	0	stepper-lib/src/execution/utils/mod.rs
+9	9	stepper-lib/src/{air => execution/utils}/resolve.rs
+17	52	stepper-lib/src/lib.rs
+10	10	stepper-lib/src/log_targets.rs
+290	0	stepper-lib/src/preparation/data_merging.rs
+124	0	stepper-lib/src/preparation/errors.rs
+31	0	stepper-lib/src/preparation/mod.rs
+93	0	stepper-lib/src/preparation/preparation.rs
+18	19	stepper-lib/tests/air_basic.rs
+32	35	stepper-lib/tests/call_evidence_basic.rs
+7	7	stepper-lib/tests/data_merge.rs
+11	11	stepper-lib/tests/join.rs
+0	3	stepper-lib/tests/network_explore.rs
+8	6	stepper-lib/tests/security_tetraplets.rs
+22	2	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+22	2	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+1	1	stepper/Cargo.toml
+2	1	stepper/src/ast.rs
+
+commit 96b356a5c8789aa01e2d4e2c5c57fdc390f3b397
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jan 14 20:58:49 2021 +0300
+
+    Fix typo in Cargo.lock (#56)
+
+10	10	crates/air-interpreter-wasm/Cargo.lock
+
+commit 31ebc308c0b49659a8d1082a23fd0217d1cccae3
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jan 12 13:18:44 2021 +0300
+
+    update security tetraplet examples Cargo.lock
+
+1	1	stepper-lib/benches/chat_benchmark.rs
+1	1	stepper-lib/benches/create_service_benchmark.rs
+67	158	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+67	158	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+
+commit 69141577a8a88e8aa3bdad5350d1af733c5dd6ec
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jan 12 13:04:25 2021 +0300
+
+    fix serde version, update sdk and fce versions
+
+82	115	Cargo.lock
+2	2	crates/air-interpreter-wasm/Cargo.lock
+1	1	crates/air-parser/Cargo.toml
+2	2	crates/polyplets/Cargo.toml
+3	3	crates/stepper-interface/Cargo.toml
+1	1	crates/test-module/Cargo.toml
+2	2	crates/test-utils/Cargo.toml
+6	6	crates/test-utils/src/lib.rs
+4	4	stepper-lib/Cargo.toml
+2	2	stepper-lib/benches/chat_benchmark.rs
+2	2	stepper-lib/benches/create_service_benchmark.rs
+2	2	stepper-lib/src/air/call.rs
+3	3	stepper-lib/src/air/xor.rs
+2	2	stepper-lib/tests/air_basic.rs
+4	4	stepper-lib/tests/call_evidence_basic.rs
+3	3	stepper-lib/tests/dashboard.rs
+4	4	stepper-lib/tests/data_merge.rs
+4	4	stepper-lib/tests/join.rs
+5	5	stepper-lib/tests/security_tetraplets.rs
+6	6	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+1	1	stepper-lib/tests/security_tetraplets/auth_module/Cargo.toml
+6	6	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+1	1	stepper-lib/tests/security_tetraplets/log_storage/Cargo.toml
+2	2	stepper/Cargo.toml
+
+commit 8ad7c0c7658da7167e040a1d8dc1c54cc5c30ba3
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Dec 30 13:34:43 2020 +0300
+
+    Move toml-cli installation to the beginning
+
+4	4	.github/workflows/publish_interpreter.yml
+
+commit bfdb9aca4ccdd0c75e71ae87453f0d7677e32614
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Dec 29 18:48:29 2020 +0300
+
+    Do not change package name for rust
+
+1	5	.github/workflows/publish_interpreter.yml
+
+commit 30d4322a13afcc863adb6a1f0cc682c92d2d8be4
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Dec 29 18:26:19 2020 +0300
+
+    fix typo in CI config
+
+2	2	.github/workflows/publish_interpreter.yml
+
+commit 7ba562a0049045e6bc74a63420ce953cf1082808
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Dec 29 18:20:20 2020 +0300
+
+    CI: respect version in Cargo.toml (#54)
+
+50	21	.github/workflows/publish_interpreter.yml
+51	19	.github/workflows/publish_interpreter_dev.yml
+3	0	README.md
+
+commit 710700e0ba381d1fc476645ec12f5aa5c8b606b0
+Author: vms <mikhail@fluence.one>
+Date:   Tue Dec 29 14:11:18 2020 +0300
+
+    Move to fluence_it_types from wasmer-wit (#53)
+
+34	19	Cargo.lock
+2	2	crates/stepper-interface/Cargo.toml
+1	1	crates/stepper-interface/src/lib.rs
+1	1	stepper-lib/Cargo.toml
+1	1	stepper-lib/src/execution.rs
+1	0	stepper-lib/src/lib.rs
+0	34	stepper-lib/src/stepper_outcome.rs
+1	2	stepper/Cargo.toml
+1	1	stepper/src/fce.rs
+
+commit f7bba6c8c99891746c9a01a0a526edce3495341b
+Author: vms <mikhail@fluence.one>
+Date:   Mon Dec 28 00:12:11 2020 +0300
+
+    getting rid of %current_peer_id% (#52)
+
+71	95	Cargo.lock
+1	0	crates/air-parser/Cargo.toml
+0	1	crates/air-parser/src/ast.rs
+0	2	crates/air-parser/src/lalrpop/aqua.lalrpop
+169	217	crates/air-parser/src/lalrpop/aqua.rs
+25	13	crates/air-parser/src/lalrpop/tests.rs
+1	0	crates/polyplets/Cargo.toml
+1	0	crates/stepper-interface/Cargo.toml
+1	0	crates/test-module/Cargo.toml
+2	1	crates/test-utils/Cargo.toml
+9	16	crates/test-utils/src/lib.rs
+2	2	stepper-lib/Cargo.toml
+1	1	stepper-lib/benches/call_benchmark.rs
+2	2	stepper-lib/benches/chat_benchmark.rs
+2	2	stepper-lib/benches/create_service_benchmark.rs
+5	5	stepper-lib/src/air/call.rs
+0	1	stepper-lib/src/air/call/triplet.rs
+5	3	stepper-lib/src/air/par.rs
+0	1	stepper-lib/src/air/resolve.rs
+8	5	stepper-lib/src/air/seq.rs
+25	20	stepper-lib/src/air/xor.rs
+35	35	stepper-lib/src/call_evidence/state.rs
+16	14	stepper-lib/tests/air_basic.rs
+29	25	stepper-lib/tests/call_evidence_basic.rs
+5	5	stepper-lib/tests/dashboard.rs
+20	19	stepper-lib/tests/data_merge.rs
+24	24	stepper-lib/tests/join.rs
+20	18	stepper-lib/tests/security_tetraplets.rs
+
+commit cdaa24dc03a7eebc8ea89a5cc94241d865b1c145
+Author: vms <mikhail@fluence.one>
+Date:   Fri Dec 25 16:20:25 2020 +0300
+
+    Implement two last fold iterable usage scenarious (#51)
+
+7	7	Cargo.lock
+1	1	stepper-lib/src/air/fold.rs
+12	9	stepper-lib/src/air/fold/iterable.rs
+103	61	stepper-lib/src/air/fold/utils.rs
+7	7	stepper-lib/src/air/jvaluable.rs
+80	0	stepper-lib/tests/network_explore.rs
+28	0	stepper-lib/tests/scripts/network_explore.clj
+2	2	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+2	2	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+
+commit 5cb4cc0fb0c149a4bd3160dd0bac9c3d5ac3db7d
+Author: vms <mikhail@fluence.one>
+Date:   Wed Dec 23 20:06:19 2020 +0300
+
+    rename log env variable (#50)
+
+2	2	stepper/src/fce.rs
+
+commit 350574d0ec1c7724041b0d113e69f91099121e33
+Author: vms <mikhail@fluence.one>
+Date:   Wed Dec 23 19:26:03 2020 +0300
+
+    Allow using ! to flatten inner arrays (#48)
+    
+    Co-authored-by: folex <0xdxdy@gmail.com>
+
+1	1	Cargo.lock
+1	5	crates/air-parser/src/lalrpop/aqua.lalrpop
+2	2	crates/air-parser/src/lalrpop/aqua.rs
+4	10	stepper-lib/src/air/fold.rs
+6	5	stepper-lib/src/air/fold/utils.rs
+8	16	stepper-lib/src/air/{fold/jvaluable_result.rs => jvaluable.rs}
+2	0	stepper-lib/src/air/mod.rs
+1	1	stepper-lib/src/air/resolve.rs
+3	1	stepper-lib/src/build_targets/wasm_bindgen_target.rs
+4	3	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+4	3	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+
+commit 6e5efe4903fa6c89781ef2f20edabca281ff9011
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Dec 23 19:05:50 2020 +0300
+
+    CI BUGFIX: Increment version for NPM, crates.io and release (#49)
+
+9	10	.github/workflows/publish_interpreter.yml
+7	10	.github/workflows/publish_interpreter_dev.yml
+12	11	Cargo.lock
+1	1	stepper-lib/Cargo.toml
+
+commit 51754016f701aa9dd45661b4dfd78ee01533fabc
+Author: vms <mikhail@fluence.one>
+Date:   Wed Dec 23 09:28:41 2020 +0300
+
+    Simplify the integration test (#47)
+
+47	87	Cargo.lock
+3	2	stepper-lib/tests/security_tetraplets.rs
+3	10	stepper-lib/tests/security_tetraplets/auth_module/src/main.rs
+5	10	stepper-lib/tests/security_tetraplets/log_storage/src/main.rs
+
+commit 724117547205d8ccc742d325b542af8f3df801b8
+Author: vms <mikhail@fluence.one>
+Date:   Tue Dec 22 21:05:04 2020 +0300
+
+    Introduce security tetraplets (#32)
+
+7	4	.circleci/config.yml
+167	55	Cargo.lock
+7	2	Cargo.toml
+1	1	crates/air-parser/Cargo.toml
+11	9	crates/air-parser/src/ast.rs
+14	13	crates/air-parser/src/lalrpop/aqua.lalrpop
+187	186	crates/air-parser/src/lalrpop/aqua.rs
+31	27	crates/air-parser/src/lalrpop/tests.rs
+13	0	crates/polyplets/Cargo.toml
+32	0	crates/polyplets/src/lib.rs
+52	0	crates/polyplets/src/tetraplet.rs
+27	0	crates/polyplets/src/triplet.rs
+1	1	crates/stepper-interface/Cargo.toml
+1	1	crates/test-module/Cargo.toml
+8	3	crates/test-module/src/main.rs
+1	1	crates/test-utils/Cargo.toml
+3	3	crates/test-utils/src/lib.rs
+4	2	stepper-lib/Cargo.toml
+42	33	stepper-lib/src/air/call.rs
+0	161	stepper-lib/src/air/call/parsed_call.rs
+167	0	stepper-lib/src/air/call/resolved_call.rs
+60	21	stepper-lib/src/air/call/triplet.rs
+64	11	stepper-lib/src/air/call/utils.rs
+2	2	stepper-lib/src/air/execution_context.rs
+75	74	stepper-lib/src/air/fold.rs
+250	0	stepper-lib/src/air/fold/iterable.rs
+201	0	stepper-lib/src/air/fold/jvaluable_result.rs
+149	0	stepper-lib/src/air/fold/utils.rs
+43	83	stepper-lib/src/air/resolve.rs
+9	13	stepper-lib/src/air/xor.rs
+11	3	stepper-lib/src/build_targets/fce_target.rs
+9	3	stepper-lib/src/build_targets/wasm_bindgen_target.rs
+7	0	stepper-lib/src/call_evidence/context.rs
+1	1	stepper-lib/src/call_evidence/state.rs
+27	17	stepper-lib/src/errors.rs
+18	5	stepper-lib/src/lib.rs
+34	0	stepper-lib/src/stepper_outcome.rs
+1	22	stepper-lib/tests/air_basic.rs
+10	0	stepper-lib/tests/build_test_binaries.sh
+1	22	stepper-lib/tests/call_evidence_basic.rs
+1	1	stepper-lib/tests/dashboard.rs
+19	0	stepper-lib/tests/scripts/create_service.clj
+0	0	stepper-lib/tests/{dashboard/script.clj => scripts/dashboard.clj}
+301	0	stepper-lib/tests/security_tetraplets.rs
+960	0	stepper-lib/tests/security_tetraplets/auth_module/Cargo.lock
+15	0	stepper-lib/tests/security_tetraplets/auth_module/Cargo.toml
+43	0	stepper-lib/tests/security_tetraplets/auth_module/src/main.rs
+960	0	stepper-lib/tests/security_tetraplets/log_storage/Cargo.lock
+15	0	stepper-lib/tests/security_tetraplets/log_storage/Cargo.toml
+41	0	stepper-lib/tests/security_tetraplets/log_storage/src/main.rs
+2	1	stepper/Cargo.toml
+
+commit b967a63abca9742d6764e9b27926025d5e2b2efb
+Author: vms <mikhail@fluence.one>
+Date:   Mon Dec 21 19:49:35 2020 +0300
+
+    bump wasmer-wit version (#46)
+
+41	41	Cargo.lock
+1	1	crates/stepper-interface/Cargo.toml
+
+commit b3bde7de6de74ead73a04f7f3697987fa342d728
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Dec 21 18:32:52 2020 +0300
+
+    Update images in readme (#45)
+
+commit 3ef8f99f4db4770a517c2ddb8d701c28f1a8aa9e
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Dec 21 18:27:21 2020 +0300
+
+    Update images in readme (#44)
+
+-	-	images/fold_example.png
+-	-	images/null.png
+-	-	images/par.png
+-	-	images/seq.png
+-	-	images/xor.png
+
+commit dce89856bbb5f54fea86917a17d30fb4a5cd7e10
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Dec 18 19:19:11 2020 +0300
+
+    Continue if wasm-pack is installed
+
+1	0	.github/workflows/publish_interpreter.yml
+
+commit e0a3f84c501b8a2624308ade063ff57fb784f70e
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Dec 18 19:11:31 2020 +0300
+
+    Show aquamarine version in the prerelease (#43)
+
+0	52	.github/workflows/aquamarine_pre_release.yml
+11	0	.github/workflows/publish_interpreter.yml
+1	1	.github/workflows/publish_interpreter_dev.yml
+
+commit 8e41b7666129a7ff360f66a0b80c0abaf34305b7
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Dec 18 12:14:17 2020 +0300
+
+    Change target from i64 to i32 in log_utf8_string (#40)
+
+5	0	.github/workflows/publish_interpreter.yml
+5	0	.github/workflows/publish_interpreter_dev.yml
+14	14	Cargo.lock
+
+commit 7371d84bff89e054c029845720e4bccd99404e6b
+Author: vms <mikhail@fluence.one>
+Date:   Thu Dec 17 22:53:29 2020 +0300
+
+    fix build (#42)
+
+21	21	Cargo.lock
+
+commit 0f9ec42b1ab161761f2c609ddc2c95bad5b3e696
+Author: vms <mikhail@fluence.one>
+Date:   Thu Dec 17 21:44:24 2020 +0300
+
+    New stepper outcome (#39)
+
+66	45	Cargo.lock
+1	0	Cargo.toml
+1	0	crates/air-parser/src/ast.rs
+2	1	crates/air-parser/src/lib.rs
+16	0	crates/stepper-interface/Cargo.toml
+108	0	crates/stepper-interface/src/lib.rs
+1	1	crates/test-utils/Cargo.toml
+10	8	crates/test-utils/src/lib.rs
+1	1	stepper-lib/Cargo.toml
+3	3	stepper-lib/benches/call_benchmark.rs
+6	6	stepper-lib/benches/chat_benchmark.rs
+6	6	stepper-lib/benches/create_service_benchmark.rs
+7	7	stepper-lib/src/air/call.rs
+15	32	stepper-lib/src/air/fold.rs
+7	7	stepper-lib/src/air/xor.rs
+29	37	stepper-lib/src/errors.rs
+31	26	stepper-lib/src/execution.rs
+80	0	stepper-lib/src/execution/outcome.rs
+23	8	stepper-lib/src/execution/{prolog.rs => preparation.rs}
+0	25	stepper-lib/src/execution/utils.rs
+0	3	stepper-lib/src/lib.rs
+1	1	stepper-lib/src/log_targets.rs
+0	33	stepper-lib/src/stepper_outcome.rs
+8	6	stepper-lib/tests/air_basic.rs
+14	11	stepper-lib/tests/call_evidence_basic.rs
+7	7	stepper-lib/tests/dashboard.rs
+7	7	stepper-lib/tests/data_merge.rs
+18	13	stepper-lib/tests/join.rs
+1	0	stepper/Cargo.toml
+2	2	stepper/src/fce.rs
+1	1	stepper/src/wasm_bindgen.rs
+
+commit 69cf91457433c7685f9fecd9d953c4a78fce51d1
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Dec 17 10:43:41 2020 +0300
+
+    Build release .wasm in branch builds
+
+5	5	.github/workflows/publish_interpreter_dev.yml
+
+commit bf78530156dc879706322ad6a262c4924f1ddd78
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Dec 16 21:59:11 2020 +0300
+
+    Automatically release to crates.io & NPM (#38)
+
+64	11	.github/workflows/{publish_npm.yml => publish_interpreter.yml}
+72	14	.github/workflows/{publish_npm_dev.yml => publish_interpreter_dev.yml}
+2	0	Cargo.toml
+187	0	crates/air-interpreter-wasm/Cargo.lock
+15	0	crates/air-interpreter-wasm/Cargo.toml
+19	0	crates/air-interpreter-wasm/build.rs
+7	0	crates/air-interpreter-wasm/src/lib.rs
+
+commit 88ef4526ffff1a1fbcf415b16fa4b71f0230e505
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Dec 14 11:30:48 2020 +0300
+
+    add all targets to .gitignore
+
+1	1	.gitignore
+
+commit 61547cb085a5bebf88a00ed29c9a19c8dac9845f
+Author: vms <mikhail@fluence.one>
+Date:   Sun Dec 13 00:10:53 2020 +0300
+
+    rename call_path to data in StepperOutcome (#37)
+
+1	1	stepper-lib/src/errors.rs
+2	2	stepper-lib/src/execution.rs
+1	1	stepper-lib/src/stepper_outcome.rs
+
+commit fcdca0af733f72c949998a46293243ad33edc94f
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Dec 7 20:28:26 2020 +0300
+
+    Fix bug in merging; add dashboard test (#36)
+
+54	53	Cargo.lock
+1	0	stepper-lib/Cargo.toml
+5	9	stepper-lib/src/air/par.rs
+25	2	stepper-lib/src/call_evidence/state.rs
+1	1	stepper-lib/src/execution/prolog.rs
+383	0	stepper-lib/tests/dashboard.rs
+7	0	stepper-lib/tests/dashboard/peers
+95	0	stepper-lib/tests/dashboard/script.clj
+17	0	stepper/src/fce.rs
+4	21	stepper/src/logger.rs
+8	1	stepper/src/wasm_bindgen.rs
+
+commit 42d2b825e4355a156ef2cc6427c30115b997e916
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Dec 2 18:47:14 2020 +0300
+
+    Add function to return AST as json (#35)
+
+14	13	Cargo.lock
+3	0	crates/air-parser/Cargo.toml
+13	12	crates/air-parser/src/ast.rs
+2	0	stepper-lib/src/execution.rs
+6	0	stepper-lib/src/execution/prolog.rs
+2	0	stepper-lib/src/lib.rs
+29	0	stepper/src/ast.rs
+6	0	stepper/src/fce.rs
+6	0	stepper/src/wasm_bindgen.rs
+
+commit 221743ecc2e22cbfa2c9e01b6ae4d3e5bff5f22d
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Nov 25 17:10:30 2020 +0300
+
+    obtain log level from env, use trace as a default (#34)
+
+3	12	stepper/src/fce.rs
+50	0	stepper/src/logger.rs
+3	12	stepper/src/wasm_bindgen.rs
+
+commit 48519be20871861029be8f7fabc4506065122937
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Nov 24 16:44:15 2020 +0300
+
+    Introduce shadowing variables in fold (#33)
+
+13	24	Cargo.lock
+27	2	stepper-lib/src/air/call/utils.rs
+5	0	stepper-lib/src/air/execution_context.rs
+181	2	stepper-lib/src/air/fold.rs
+1	1	stepper-lib/src/air/resolve.rs
+9	0	stepper-lib/src/errors.rs
+1	1	stepper-lib/src/execution/prolog.rs
+
+commit dde12e2a404fcfd979bf7a3ea99c8c14049101df
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 24 12:40:54 2020 +0300
+
+    Comments: ignore everything after a semicolon (#30)
+
+4	0	crates/air-parser/src/lalrpop/aqua.lalrpop
+14	13	crates/air-parser/src/lalrpop/aqua.rs
+22	1	crates/air-parser/src/lalrpop/tests.rs
+
+commit c2d81749fe690906ca7542831b30758f7ee720a2
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Nov 23 21:04:35 2020 +0300
+
+    use log::{trace, debug} instead of log::info for logging (#31)
+
+27	27	Cargo.lock
+2	2	stepper-lib/src/air/call.rs
+3	3	stepper-lib/src/air/call/parsed_call.rs
+1	1	stepper-lib/src/air/call/utils.rs
+7	7	stepper-lib/src/air/mod.rs
+2	2	stepper-lib/src/air/par.rs
+1	1	stepper-lib/src/build_targets/wasm_bindgen_target.rs
+1	1	stepper-lib/src/call_evidence/state.rs
+1	1	stepper-lib/src/execution.rs
+2	2	stepper-lib/src/execution/prolog.rs
+
+commit 605c5dda18802a1af581c3fc4f877e053e38aa47
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 17 12:02:43 2020 +0300
+
+    Automatically build aquamarine.wasm & publish to NPM as base64 (#29)
+
+102	0	.github/workflows/publish_npm.yml
+124	0	.github/workflows/publish_npm_dev.yml
+24	24	Cargo.lock
+3	1	stepper-lib/Cargo.toml
+3	1	stepper/Cargo.toml
+
+commit 0c7d06666625358a73f07496dca7a15e9b25b165
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Nov 12 18:25:34 2020 +0300
+
+    Update readme (#28)
+
+5	2	README.md
+
+commit d688a21f690de996ddcb0562887eacd134b80ce9
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Nov 12 18:04:36 2020 +0300
+
+    Add more images to readme  (#27)
+
+14	4	README.md
+-	-	images/interpreter.png
+-	-	images/stack.png
+
+commit 1a54b8508ca339351bd722210962127662cc062a
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Nov 12 15:30:39 2020 +0300
+
+    Release aquamarine.wasm automatically (#26)
+
+52	0	.github/workflows/aquamarine_pre_release.yml
+51	0	.github/workflows/aquamarine_tag_release.yml
+23	23	Cargo.lock
+
+commit b4e37cb410ce2d679034d824a00fd935c0ca8cf5
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Nov 12 13:30:53 2020 +0300
+
+    change CNAME
+
+1	1	.github/workflows/rustdoc.yml
+
+commit 5a2e9a51e41dce6b651d0adced81226f4e3734c2
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Nov 11 14:43:26 2020 +0300
+
+    release 0.1.3 (#25)
+
+11	1	CHANGELOG.md
+15	15	Cargo.lock
+1	1	stepper-lib/Cargo.toml
+1	1	stepper/Cargo.toml
+
+commit 0d42ff7fc283176cd18313268ce9ff075b69ca16
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Nov 11 14:31:53 2020 +0300
+
+    Add support for %init_peer_id% (#24)
+
+6	6	Cargo.lock
+1	0	crates/air-parser/src/ast.rs
+2	0	crates/air-parser/src/lalrpop/aqua.lalrpop
+202	154	crates/air-parser/src/lalrpop/aqua.rs
+28	0	crates/air-parser/src/lalrpop/tests.rs
+2	2	crates/test-utils/src/lib.rs
+6	2	stepper-lib/src/air/execution_context.rs
+2	0	stepper-lib/src/air/resolve.rs
+5	5	stepper-lib/src/execution.rs
+2	1	stepper-lib/src/execution/prolog.rs
+2	2	stepper-lib/tests/air_basic.rs
+1	1	stepper-lib/tests/call_evidence_basic.rs
+100	0	stepper-lib/tests/join.rs
+2	2	stepper/src/fce.rs
+2	2	stepper/src/wasm_bindgen.rs
+
+commit 186eeb204c06b585baeda9fcaa454cb4637926a0
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 10 17:30:49 2020 +0300
+
+    Make iterator in fold resolvable (#23)
+
+1	1	crates/air-parser/src/ast.rs
+1	1	crates/air-parser/src/lalrpop/aqua.lalrpop
+6	6	crates/air-parser/src/lalrpop/aqua.rs
+25	3	crates/air-parser/src/lalrpop/tests.rs
+2	1	stepper-lib/src/air/call/parsed_call.rs
+1	2	stepper-lib/src/air/call/triplet.rs
+2	96	stepper-lib/src/air/call/utils.rs
+55	18	stepper-lib/src/air/fold.rs
+1	0	stepper-lib/src/air/mod.rs
+119	0	stepper-lib/src/air/resolve.rs
+
+commit 60dbd1ee7c8725b687027471f682172337c22e29
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 10 14:48:40 2020 +0300
+
+    Return CNAME
+
+1	0	.github/workflows/rustdoc.yml
+
+commit 3edfb939ac4e4c895c0dfb49d74811a38c35e3b1
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 10 14:47:37 2020 +0300
+
+    remove CNAME
+
+0	1	.github/workflows/rustdoc.yml
+
+commit cce3603cca0008367125b6f80b4af51d6c57332a
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 10 14:42:10 2020 +0300
+
+    Generate index.html for rustdocs
+
+1	1	.github/workflows/rustdoc.yml
+
+commit f7333d384939b773ef0689aa553dede144ebd535
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 10 14:31:43 2020 +0300
+
+    Set CNAME for GH page
+
+1	1	.github/workflows/rustdoc.yml
+
+commit f2f46be8af5e5bd51a37d7b9f4da57e48a921cdf
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 10 14:17:35 2020 +0300
+
+    Remove CNAME from GH page
+
+1	1	.github/workflows/rustdoc.yml
+
+commit b0d706503a24936e67df77231de9da2a674d5735
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 10 13:56:52 2020 +0300
+
+    Fix rustdoc deployment to GitHub Pages (#22)
+
+4	3	.github/workflows/rustdoc.yml
+
+commit 67f3a88f722a732bed10790081005cfce3fd934a
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Nov 9 15:18:13 2020 +0300
+
+    Add rustdoc deployment to github pages (#21)
+
+39	0	.github/workflows/rustdoc.yml
+
+commit f9924bcfb3578046279683a63c4c3ddf4a80da79
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Nov 9 14:44:04 2020 +0300
+
+    Optional call output (#20)
+
+38	38	Cargo.lock
+1	10	crates/air-parser/src/ast.rs
+4	3	crates/air-parser/src/lalrpop/aqua.lalrpop
+319	110	crates/air-parser/src/lalrpop/aqua.rs
+25	10	crates/air-parser/src/lalrpop/tests.rs
+1	1	crates/test-utils/Cargo.toml
+1	1	stepper-lib/Cargo.toml
+1	0	stepper-lib/src/air/call/utils.rs
+
+commit cfd5aa7c405349c4fbb82d2a35c2b20c742c5c6d
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Nov 9 14:20:01 2020 +0300
+
+    Add benchmarks for parser cloning & rc cloning (#17)
+
+2	2	Cargo.lock
+2	2	crates/air-parser/Cargo.toml
+27	3	crates/air-parser/benches/parser.rs
+1	1	crates/air-parser/src/lalrpop/aqua.lalrpop
+8	7	crates/air-parser/src/lalrpop/aqua.rs
+
+commit 7cdac944c3870636d845d27e0bc2636da00ff311
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Nov 9 14:07:40 2020 +0300
+
+    Treat empty string as empty call evidence path (#18)
+
+5	1	stepper-lib/src/air/call.rs
+2	2	stepper-lib/src/air/call/triplet.rs
+13	4	stepper-lib/src/execution/prolog.rs
+
+commit bcb0f18e9e75cc62d0cfbeaa597af5f902bc4e96
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Nov 9 13:37:52 2020 +0300
+
+    Fix Par state serialization in xor with inner par (#19)
+
+31	24	Cargo.lock
+3	3	stepper-lib/src/air/call/parsed_call.rs
+3	3	stepper-lib/src/air/mod.rs
+81	25	stepper-lib/src/air/par.rs
+63	10	stepper-lib/src/air/xor.rs
+4	8	stepper-lib/src/call_evidence/context.rs
+
+commit 19ff54e66eaccfb79ea2b47baddb89cd6e76c22d
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Nov 5 16:50:09 2020 +0300
+
+    Parser benchmarks (#16)
+
+3	4	Cargo.lock
+7	2	crates/air-parser/Cargo.toml
+130	0	crates/air-parser/benches/parser.rs
+1	1	crates/air-parser/src/lalrpop/tests.rs
+8	7	crates/air-parser/src/lib.rs
+
+commit e4fd7a505ca290105a1e780b55db39c6ef9e3411
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Nov 5 15:13:11 2020 +0300
+
+    Better square braces parsing (#15)
+
+8	8	Cargo.lock
+1	2	README.md
+3	3	crates/air-parser/src/lalrpop/aqua.lalrpop
+271	130	crates/air-parser/src/lalrpop/aqua.rs
+30	2	crates/air-parser/src/lalrpop/tests.rs
+
+commit 265ff8ac88eff10e381773015e4239edd0cecc53
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Nov 5 15:01:27 2020 +0300
+
+    Update readme (#14)
+
+74	35	README.md
+-	-	images/aquamarine.png
+-	-	images/call.png
+-	-	images/call_data.png
+-	-	images/fold.png
+-	-	images/fold_example.png
+-	-	images/null.png
+-	-	images/par.png
+-	-	images/seq.png
+-	-	images/xor.png
+
+commit 1786ab8f4bcd08607c39048fbcdd0f80b121ff98
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 3 17:43:58 2020 +0300
+
+    LALRPOP parser for AIR (#13)
+
+343	39	Cargo.lock
+1	0	Cargo.toml
+-	-	artifacts/aquamarine.wasm
+17	0	crates/air-parser/Cargo.toml
+24	0	crates/air-parser/build.rs
+95	0	crates/air-parser/src/ast.rs
+90	0	crates/air-parser/src/lalrpop/aqua.lalrpop
+2132	0	crates/air-parser/src/lalrpop/aqua.rs
+119	0	crates/air-parser/src/lalrpop/parser.rs
+364	0	crates/air-parser/src/lalrpop/tests.rs
+20	0	crates/air-parser/src/lib.rs
+4	2	crates/test-utils/src/lib.rs
+1	1	stepper-lib/Cargo.toml
+1	1	stepper-lib/benches/call_benchmark.rs
+17	17	stepper-lib/benches/chat_benchmark.rs
+19	19	stepper-lib/benches/create_service_benchmark.rs
+15	34	stepper-lib/src/air/call.rs
+28	158	stepper-lib/src/air/call/parsed_call.rs
+83	0	stepper-lib/src/air/call/triplet.rs
+114	27	stepper-lib/src/air/call/utils.rs
+4	4	stepper-lib/src/air/execution_context.rs
+71	81	stepper-lib/src/air/fold.rs
+8	27	stepper-lib/src/air/mod.rs
+3	7	stepper-lib/src/air/null.rs
+19	23	stepper-lib/src/air/par.rs
+11	16	stepper-lib/src/air/seq.rs
+11	16	stepper-lib/src/air/xor.rs
+10	15	stepper-lib/src/errors.rs
+1	1	stepper-lib/src/execution.rs
+10	10	stepper-lib/src/execution/prolog.rs
+0	55	stepper-lib/src/execution/utils.rs
+3	3	stepper-lib/src/lib.rs
+33	33	stepper-lib/tests/air_basic.rs
+75	75	stepper-lib/tests/call_evidence_basic.rs
+37	37	stepper-lib/tests/data_merge.rs
+32	32	stepper-lib/tests/join.rs
+
+commit 12398697f20434e2ecb574317a989cfea04bcb67
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Nov 1 17:20:25 2020 +0300
+
+    add bencher
+
+1	0	.gitignore
+214	0	Cargo.lock
+14	0	stepper-lib/Cargo.toml
+30	0	stepper-lib/benches/call_benchmark.rs
+87	0	stepper-lib/benches/chat_benchmark.rs
+106	0	stepper-lib/benches/create_service_benchmark.rs
+0	2	stepper-lib/tests/join.rs
+
+commit f67b3bc0793a59d02bab2278fea7aa616d236e45
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Nov 1 10:30:24 2020 +0300
+
+    move to the new FCE version
+
+19	19	Cargo.lock
+1	1	stepper-lib/src/air/fold.rs
+
+commit fbca76444b134f59c080bf78b69bb0186c33fa60
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Oct 30 20:29:05 2020 +0300
+
+    New data format (#12)
+
+3	3	.circleci/config.yml
+12	0	CHANGELOG.md
+98	86	Cargo.lock
+1	0	Cargo.toml
+51	0	crates/test-utils/src/lib.rs
+1	0	stepper-lib/.rustfmt.toml
+37	0	stepper-lib/Cargo.toml
+77	38	{stepper => stepper-lib}/src/air/call.rs
+290	0	stepper-lib/src/air/call/parsed_call.rs
+87	0	stepper-lib/src/air/call/utils.rs
+21	9	{stepper => stepper-lib}/src/air/execution_context.rs
+346	0	stepper-lib/src/air/fold.rs
+44	9	{stepper => stepper-lib}/src/air/mod.rs
+2	1	{stepper => stepper-lib}/src/air/null.rs
+18	21	{stepper => stepper-lib}/src/air/par.rs
+6	22	{stepper => stepper-lib}/src/air/seq.rs
+25	16	{stepper => stepper-lib}/src/air/xor.rs
+30	0	stepper-lib/src/build_targets/fce_target.rs
+16	11	stepper/src/defines.rs => stepper-lib/src/build_targets/mod.rs
+40	0	stepper-lib/src/build_targets/wasm_bindgen_target.rs
+14	0	{stepper => stepper-lib}/src/call_evidence/context.rs
+3	3	{stepper => stepper-lib}/src/call_evidence/mod.rs
+81	63	{stepper => stepper-lib}/src/call_evidence/state.rs
+32	47	{stepper => stepper-lib}/src/errors.rs
+12	18	{stepper => stepper-lib}/src/execution.rs
+69	0	stepper-lib/src/execution/prolog.rs
+0	0	{stepper => stepper-lib}/src/execution/utils.rs
+81	0	stepper-lib/src/lib.rs
+59	0	stepper-lib/src/log_targets.rs
+1	1	{stepper => stepper-lib}/src/stepper_outcome.rs
+196	0	stepper-lib/tests/air_basic.rs
+442	0	stepper-lib/tests/call_evidence_basic.rs
+211	0	stepper-lib/tests/data_merge.rs
+79	148	{stepper => stepper-lib}/tests/join.rs
+6	18	stepper/Cargo.toml
+0	207	stepper/src/air/call/parsed_call.rs
+0	132	stepper/src/air/call/utils.rs
+0	300	stepper/src/air/fold.rs
+0	33	stepper/src/execution/epilog.rs
+0	99	stepper/src/execution/prolog.rs
+13	23	stepper/src/fce.rs
+14	36	stepper/src/wasm_bindgen.rs
+0	180	stepper/tests/air_basic.rs
+0	509	stepper/tests/call_evidence_basic.rs
+0	186	stepper/tests/data_merge.rs
+
+commit a9ad93f64d8ffa55162148eb5544088363b2e67b
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Oct 23 12:41:58 2020 +0300
+
+    Introduce join behaviour (#11)
+
+45	1	Cargo.lock
+3	1	stepper/Cargo.toml
+23	1	stepper/src/air/call.rs
+3	46	stepper/src/air/call/parsed_call.rs
+50	0	stepper/src/air/call/utils.rs
+16	0	stepper/src/air/execution_context.rs
+29	1	stepper/src/air/fold.rs
+24	0	stepper/src/air/par.rs
+2	2	stepper/src/air/seq.rs
+5	1	stepper/src/air/xor.rs
+1	1	stepper/src/call_evidence/mod.rs
+11	11	stepper/src/call_evidence/state.rs
+2	0	stepper/src/execution.rs
+3	3	stepper/src/execution/prolog.rs
+2	0	stepper/tests/air_basic.rs
+1	2	stepper/tests/data_merge.rs
+315	0	stepper/tests/join.rs
+
+commit 1db6788382bf4046d497bb30716f52a0fea1928c
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Oct 16 12:47:46 2020 +0300
+
+    Merge previous data with current (#10)
+
+5	4	Cargo.lock
+-	-	artifacts/aquamarine.wasm
+1	0	stepper/.rustfmt.toml
+1	0	stepper/Cargo.toml
+15	362	stepper/src/air/call.rs
+250	0	stepper/src/air/call/parsed_call.rs
+82	0	stepper/src/air/call/utils.rs
+20	32	stepper/src/air/fold.rs
+0	1	stepper/src/air/mod.rs
+1	5	stepper/src/air/null.rs
+26	38	stepper/src/air/par.rs
+4	3	stepper/src/air/seq.rs
+5	17	stepper/src/air/xor.rs
+10	11	stepper/src/call_evidence/context.rs
+2	0	stepper/src/call_evidence/mod.rs
+244	0	stepper/src/call_evidence/state.rs
+2	0	stepper/src/defines.rs
+59	56	stepper/src/errors.rs
+23	112	stepper/src/execution.rs
+33	0	stepper/src/execution/epilog.rs
+99	0	stepper/src/execution/prolog.rs
+80	0	stepper/src/execution/utils.rs
+3	2	stepper/src/fce.rs
+2	0	stepper/src/stepper_outcome.rs
+14	2	stepper/src/wasm_bindgen.rs
+6	12	stepper/tests/air_basic.rs
+28	37	stepper/tests/call_evidence_basic.rs
+187	0	stepper/tests/data_merge.rs
+
+commit 4038d098e0bd570afab5bf13f86cb6dd1f55c6c6
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 15 17:31:56 2020 +0300
+
+    Call evidence (#9)
+
+28	21	Cargo.lock
+5	2	crates/test-utils/src/lib.rs
+1	0	stepper/Cargo.toml
+212	85	stepper/src/air/call.rs
+39	0	stepper/src/air/execution_context.rs
+29	17	stepper/src/air/fold.rs
+23	29	stepper/src/air/mod.rs
+8	3	stepper/src/air/null.rs
+101	19	stepper/src/air/par.rs
+44	17	stepper/src/air/seq.rs
+7	6	stepper/src/air/xor.rs
+40	0	stepper/src/call_evidence/context.rs
+22	0	stepper/src/call_evidence/mod.rs
+38	0	stepper/src/call_evidence/state.rs
+67	21	stepper/src/errors.rs
+37	8	stepper/src/execution.rs
+1	0	stepper/src/fce.rs
+1	0	stepper/src/wasm_bindgen.rs
+32	10	stepper/tests/{basic.rs => air_basic.rs}
+518	0	stepper/tests/call_evidence_basic.rs
+
+commit bdc10fc4e630e2fe1c1cbf5ad85cb03496e86220
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Oct 9 10:04:59 2020 +0300
+
+    Allow using variables as parameters of call (#7)
+
+215	99	stepper/src/air/call.rs
+4	4	stepper/src/air/fold.rs
+2	2	stepper/src/air/par.rs
+2	2	stepper/src/air/seq.rs
+4	4	stepper/src/air/xor.rs
+4	4	stepper/src/errors.rs
+10	10	stepper/tests/basic.rs
+
+commit e107d8e7162482b0a55c42e878ce444c4b4a6641
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Oct 9 09:52:36 2020 +0300
+
+    introduce xor (#8)
+
+13	13	Cargo.lock
+4	0	stepper/src/air/mod.rs
+117	0	stepper/src/air/xor.rs
+
+commit b1b875db537dfb97185899c465eeb20dfa1117a3
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Oct 8 14:27:59 2020 +0300
+
+    add hack with get_current_id (#6)
+
+0	1	.circleci/config.yml
+3	5	stepper/src/execution.rs
+7	0	stepper/src/fce.rs
+19	8	stepper/src/wasm_bindgen.rs
+
+commit 6e754f023f6055c8bf2701eecb2b99efca6a29f1
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 8 12:43:23 2020 +0300
+
+    Introduce Seq, Par, Fold instructions (#5)
+
+43	0	.circleci/config.yml
+3	0	.gitignore
+1129	41	Cargo.lock
+14	31	Cargo.toml
+1	1	Config.toml
+27	2	README.md
+-	-	artifacts/aquamarine.wasm
+12	0	crates/test-module/Cargo.toml
+49	0	crates/test-module/src/main.rs
+14	0	crates/test-utils/Cargo.toml
+99	0	crates/test-utils/src/lib.rs
+0	170	src/air.rs
+0	120	src/errors.rs
+0	144	src/instructions/call.rs
+0	49	src/instructions/mod.rs
+0	51	src/stepper/execution.rs
+0	25	src/stepper/mod.rs
+0	33	src/stepper/stepper.rs
+34	0	stepper/Cargo.toml
+274	0	stepper/src/air/call.rs
+272	0	stepper/src/air/fold.rs
+82	0	stepper/src/air/mod.rs
+3	3	{src/instructions => stepper/src/air}/null.rs
+73	0	stepper/src/air/par.rs
+74	0	stepper/src/air/seq.rs
+8	7	{src => stepper/src}/defines.rs
+182	0	stepper/src/errors.rs
+120	0	stepper/src/execution.rs
+15	4	{src => stepper/src}/fce.rs
+1	3	{src/stepper => stepper/src}/stepper_outcome.rs
+3	3	{src => stepper/src}/wasm_bindgen.rs
+162	0	stepper/tests/basic.rs
+0	22	test_module/main.rs
+
+commit 8cec0163b13edd6e7bbf1ade80f1f5bbfab395d6
+Merge: f6541aa 20d4680
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 22:30:44 2020 +0300
+
+    Merge pull request #3 from fluencelabs/improved_call
+    
+    Request-response stepper
+
+commit 20d46805da61d2ee7a02e208409d75d96d86e2e0
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 22:28:56 2020 +0300
+
+    change color scheme to lisp
+
+1	1	README.md
+
+commit ffc347d24772178ef45cd1b440eafdad8413d5ae
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 22:24:30 2020 +0300
+
+    update readme
+
+11	1	README.md
+
+commit f430cb81d0b8742afcca9a53f5924a6a30661913
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 22:18:44 2020 +0300
+
+    replace args with result
+
+1	1	test_module/main.rs
+
+commit 86c691bd4ac8c444f7f7321b877a8720eb869f13
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 22:15:30 2020 +0300
+
+    little fixes
+
+3	0	Config.toml
+2	1	src/instructions/call.rs
+1	1	src/instructions/mod.rs
+3	2	src/instructions/null.rs
+2	2	src/stepper/execution.rs
+1	1	test_module/main.rs
+
+commit 4100c986c7139918e545511e9b5c2e411327e4c0
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 21:34:02 2020 +0300
+
+    improve json path handling
+
+31	8	src/errors.rs
+23	4	src/instructions/call.rs
+
+commit d5527b75a41dfbc1aece4f9a61e0fe07f248a2d2
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 20:23:32 2020 +0300
+
+    the first prototype of request-response stepper
+
+167	0	Cargo.lock
+4	0	Cargo.toml
+10	1	src/air.rs
+34	0	src/defines.rs
+17	1	src/errors.rs
+2	10	src/fce.rs
+93	12	src/instructions/call.rs
+9	6	src/instructions/mod.rs
+31	0	src/instructions/null.rs
+2	2	src/stepper/execution.rs
+1	0	src/stepper/mod.rs
+6	4	src/stepper/stepper.rs
+3	1	src/stepper/stepper_outcome.rs
+9	4	src/wasm_bindgen.rs
+
+commit 09750d10600814c211b12faf619de377b456f981
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 15:00:43 2020 +0300
+
+    handling errors on intrustion execution and data parsing
+
+26	16	src/{stepper => }/errors.rs
+6	1	src/fce.rs
+8	3	src/instructions/call.rs
+5	6	src/instructions/mod.rs
+11	3	src/stepper/execution.rs
+0	4	src/stepper/mod.rs
+7	6	src/stepper/stepper.rs
+6	0	src/wasm_bindgen.rs
+
+commit 94e83512943834338e29b2becd96386c247b3840
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 13:11:27 2020 +0300
+
+    add error handling
+
+2	2	src/fce.rs
+71	0	src/stepper/errors.rs
+11	15	src/stepper/execution.rs
+6	1	src/stepper/mod.rs
+5	1	src/stepper/stepper_outcome.rs
+5	5	test_module/main.rs
+
+commit 263385bc5b3d6abae982cc227b7725a981afe2ff
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 12:39:00 2020 +0300
+
+    little module rearrange
+
+0	30	src/execution.rs
+4	5	src/fce.rs
+2	1	src/instructions/mod.rs
+47	0	src/stepper/execution.rs
+23	0	src/stepper/mod.rs
+0	0	src/{ => stepper}/stepper.rs
+2	0	src/{ => stepper}/stepper_outcome.rs
+3	4	src/wasm_bindgen.rs
+
+commit 030a4c90690a9554e34b5a5e6e9a71462a8e81ff
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 11:58:53 2020 +0300
+
+    rename main to fce, lib to wasm_bindgen
+
+3	1	Cargo.toml
+0	0	src/{main.rs => fce.rs}
+0	0	src/{lib.rs => wasm_bindgen.rs}
+
+commit f6541aae32383ab72d64bc131982463cc668e049
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Wed Sep 30 11:42:18 2020 +0300
+
+    Bindgen support (#2)
+
+72	4	Cargo.lock
+5	0	Cargo.toml
+30	0	src/execution.rs
+2	2	src/instructions/mod.rs
+40	0	src/lib.rs
+4	28	src/main.rs
+1	2	src/stepper.rs
+2	0	src/stepper_outcome.rs
+
+commit 0956f1ab0cab4a48a17dae902f20098d1943be58
+Merge: 0bba055 1cd50e8
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 10:41:32 2020 +0300
+
+    Merge pull request #1 from fluencelabs/call
+    
+    Introduce the early version of the call instruction
+
+commit 1cd50e827f45bc29474e874af0f117c822ded953
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 10:40:08 2020 +0300
+
+    delete lib.rs
+
+0	19	src/lib.rs
+
+commit 1f1c0395674ab22a94a5bee79db3286e043a46f0
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 30 10:38:51 2020 +0300
+
+    use string
+
+2	3	src/instructions/call.rs
+3	3	src/main.rs
+1	1	src/stepper_outcome.rs
+
+commit 00fe26b6db568e08a4b744aedabaaf9cfc066a78
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 28 18:21:23 2020 +0300
+
+    change path
+
+4	0	Cargo.lock
+1	1	Cargo.toml
+
+commit 26626fdc8d65ba9a42908f1bf9e8bc7b967ebda4
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 28 15:40:27 2020 +0300
+
+    poor call implementation
+
+36	43	Cargo.lock
+6	2	Cargo.toml
+7	2	Config.toml
+16	2	src/instructions/call.rs
+20	2	src/instructions/mod.rs
+20	4	src/main.rs
+31	0	src/stepper.rs
+2	2	src/stepper_outcome.rs
+22	0	test_module/main.rs
+
+commit aee41603e839a36e381cc833b0f2c5a5c19b11bf
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 24 12:55:29 2020 +0300
+
+    first prototype
+
+46	4	Cargo.lock
+3	0	Cargo.toml
+25	0	src/instructions/call.rs
+28	0	src/instructions/mod.rs
+19	0	src/lib.rs
+17	8	src/main.rs
+23	0	src/stepper_outcome.rs
+
+commit 0bba055ad51d4ee05103ae66ddfafba57cde889f
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 22 16:27:33 2020 +0300
+
+    return data instead of script; update binary
+
+1	0	.gitignore
+0	4	.repl_history
+4	15	Cargo.lock
+1	1	Cargo.toml
+-	-	artifacts/aquamarine.wasm
+1	2	src/air.rs
+8	5	src/main.rs
+
+commit 871852d4220810a3f4df16c979627d6748207ef2
+Author: dmitry <dmitry@fluence.one>
+Date:   Mon Sep 21 15:33:31 2020 +0300
+
+    air examples
+
+162	0	src/air.rs
+1	0	src/main.rs
+
+commit 247e0b00a977f7964771caeb6e3b61450a9b9494
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Sep 21 14:11:09 2020 +0300
+
+    introduce echo-stepper
+
+3	0	.gitignore
+4	0	.repl_history
+228	0	Cargo.lock
+13	0	Cargo.toml
+6	0	Config.toml
+-	-	artifacts/aquamarine.wasm
+40	0	src/main.rs
+
+commit fe5fddde534dbee1cf37cf42595f230602f14c91
+Author: Dmitry Kurinskiy <dmitry@fluence.one>
+Date:   Fri Sep 18 14:05:43 2020 +0300
+
+    Initial commit
+
+201	0	LICENSE
+2	0	README.md

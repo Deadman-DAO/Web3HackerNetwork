@@ -1,0 +1,106 @@
+commit c16e758aec3755c73e1530e454298b011c068337
+Author: anhnt18 <anhnt18@vng.com.vn>
+Date:   Sat Sep 11 16:48:03 2021 +0700
+
+    move build to docs
+
+0	0	{build => docs}/asset-manifest.json
+-	-	{build => docs}/favicon.ico
+0	0	{build => docs}/index.html
+-	-	{build => docs}/logo192.png
+-	-	{build => docs}/logo512.png
+0	0	{build => docs}/manifest.json
+0	0	{build => docs}/robots.txt
+0	0	{build => docs}/static/css/main.02618c15.chunk.css
+0	0	{build => docs}/static/css/main.02618c15.chunk.css.map
+0	0	{build => docs}/static/js/2.0bf61998.chunk.js
+0	0	{build => docs}/static/js/2.0bf61998.chunk.js.LICENSE.txt
+0	0	{build => docs}/static/js/2.0bf61998.chunk.js.map
+0	0	{build => docs}/static/js/main.167e6fa4.chunk.js
+0	0	{build => docs}/static/js/main.167e6fa4.chunk.js.map
+0	0	{build => docs}/static/js/runtime-main.e9514bee.js
+0	0	{build => docs}/static/js/runtime-main.e9514bee.js.map
+0	0	{build => docs}/static/media/logo.7959c40c.svg
+
+commit e680d729c7b7e9e9bf8d8e8a647c821c218c420d
+Author: anhnt18 <anhnt18@vng.com.vn>
+Date:   Sat Sep 11 16:46:08 2021 +0700
+
+    up build
+
+21	0	build/asset-manifest.json
+-	-	build/favicon.ico
+1	0	build/index.html
+-	-	build/logo192.png
+-	-	build/logo512.png
+25	0	build/manifest.json
+3	0	build/robots.txt
+2	0	build/static/css/main.02618c15.chunk.css
+1	0	build/static/css/main.02618c15.chunk.css.map
+3	0	build/static/js/2.0bf61998.chunk.js
+59	0	build/static/js/2.0bf61998.chunk.js.LICENSE.txt
+1	0	build/static/js/2.0bf61998.chunk.js.map
+2	0	build/static/js/main.167e6fa4.chunk.js
+1	0	build/static/js/main.167e6fa4.chunk.js.map
+2	0	build/static/js/runtime-main.e9514bee.js
+1	0	build/static/js/runtime-main.e9514bee.js.map
+17	0	build/static/media/logo.7959c40c.svg
+
+commit 48c98d35d98ce2e48439e52ead00fcefe9c1fdad
+Author: anhnt4288 <anh.nt4288@gmail.com>
+Date:   Sat Sep 11 16:19:11 2021 +0700
+
+    Update README.md
+
+0	5	README.md
+
+commit 8c43026efd8cf3036a8b4310267a7d911262aefe
+Author: anhnt4288 <anh.nt4288@gmail.com>
+Date:   Sat Sep 11 13:56:12 2021 +0700
+
+    Update README.md
+
+63	100	README.md
+
+commit 900abb28d8c4d795cbcf7f83d690471a38324550
+Author: anhnt18 <anhnt18@vng.com.vn>
+Date:   Sat Sep 11 13:39:44 2021 +0700
+
+    up
+
+3	0	.gitignore
+4	0	.repl_history
+1650	0	Cargo.lock
+224	0	README.md
+29	0	aqua/character_count.aqua
+-	-	artifacts/char_count.wasm
+18731	0	package-lock.json
+53	0	package.json
+-	-	public/favicon.ico
+39	0	public/index.html
+-	-	public/logo192.png
+-	-	public/logo512.png
+25	0	public/manifest.json
+3	0	public/robots.txt
+160	0	src/App.scss
+154	0	src/App.tsx
+130	0	src/_aqua/character_count.ts
+13	0	src/index.css
+12	0	src/index.tsx
+17	0	src/logo.svg
+52	45	src/main.rs
+1	0	src/react-app-env.d.ts
+26	0	tsconfig.json
+
+commit 5358eeb571c5d430662e4466621aaff27187e144
+Author: anhnt18 <anhnt18@vng.com.vn>
+Date:   Fri Sep 10 14:35:58 2021 +0700
+
+    init
+
+17	0	Cargo.toml
+0	0	README.md
+6	0	configs/Config.toml
+5	0	configs/char_count_cfg.json
+10	0	scripts/build.sh
+61	0	src/main.rs

@@ -1,0 +1,691 @@
+commit b2db80ac96d209f48976c002f042e47909c8ae20
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Mar 31 02:49:54 2022 +0400
+
+    README: fix TypeScript instructions
+
+1	20	README.md
+
+commit e11a6301e5986ef2d21cb762c7d87464885351de
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 9 17:54:09 2021 +0300
+
+    CI: fix artifact path in release script
+
+6	6	.github/workflows/release.yml
+
+commit 9d43d54e93d73312f985b71ec17ad79f401f0c73
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 9 17:48:48 2021 +0300
+
+    CI: fix release script
+
+2	1	.github/workflows/release.yml
+2	1	builtin-package/package.sh
+
+commit 03eee3b5550ffdd3d4f79b1deb9e6678fc2c4c1f
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Nov 9 17:17:15 2021 +0300
+
+    Send response to relay instead of %init_peer_id% (#35)
+
+4	4	builtin-package/on_start.air
+
+commit f674d1ff5e6df00c3f35e0c20425f2a1a657eac3
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Thu Sep 16 18:34:52 2021 +0300
+
+    CI: fix working directory for builtin packaging step (#30)
+
+0	1	.github/workflows/release.yml
+
+commit 96376b22c1150a87884c1c34fcfe68e87b1516ae
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Thu Sep 16 18:21:05 2021 +0300
+
+    ci: fix typo (#29)
+
+3	3	.github/workflows/release.yml
+
+commit 3ad032e845eed8a5fd735e1903031612abcb19e1
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Thu Sep 16 17:44:08 2021 +0300
+
+    CI: pack builtin-service with generated .wasm (#28)
+
+1	2	.github/workflows/release.yml
+4	2	.gitignore
+2	0	aqua/ipfs.aqua
+0	0	{service/artifacts => builtin-package}/blueprint.json
+0	0	{service/artifacts => builtin-package}/ipfs_effector_config.json
+0	0	{service/artifacts => builtin-package}/ipfs_pure_config.json
+0	0	{service/artifacts => builtin-package}/on_start.air
+0	0	{service/artifacts => builtin-package}/on_start.json
+22	0	builtin-package/package.sh
+76	68	service/Cargo.lock
+
+commit 0e9032c486373ecd6e6cc3828b2c31286a2f1e51
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Sep 13 14:48:58 2021 +0300
+
+    Aqua 0.3.1
+
+3	3	aqua/package-lock.json
+1	1	aqua/package.json
+3	3	example/package-lock.json
+1	1	example/package.json
+
+commit 0514670dffbe99556aac03ca3fa7a9340c041110
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Sep 13 14:27:47 2021 +0300
+
+    CI: do not publish aqua-ipfs-ts (#27)
+
+1	16	.github/workflows/release.yml
+
+commit c459afbd8e8cc719c3f9834df1525ba167fbb072
+Author: Pavel <Pavel.Murygin@gmail.com>
+Date:   Mon Sep 13 13:09:27 2021 +0300
+
+    Update JS SDK to 0.12, Aqua compiler to 0.3 (#26)
+
+3	0	.gitignore
+7	7	aqua/package-lock.json
+2	2	aqua/package.json
+0	7	aqua/target/typescript/README.md
+0	2100	aqua/target/typescript/package-lock.json
+0	40	aqua/target/typescript/package.json
+0	17	aqua/target/typescript/src/index.ts
+0	564	aqua/target/typescript/src/ipfs-api.ts
+0	35	aqua/target/typescript/src/ipfs.ts
+0	62	aqua/target/typescript/tsconfig.json
+3	0	example/aqua/export.aqua
+66	51	example/index.ts
+99	2127	example/package-lock.json
+7	2	example/package.json
+
+commit 2394e57ca0b5a58a76170ced4505630d335bf70e
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Sep 2 18:17:58 2021 +0300
+
+    CI: update version in node-distro (#24)
+
+6	15	.github/workflows/release.yml
+8	0	.github/workflows/tag.yml
+
+commit aef1262cc55be47245b4fb8329228e628e5b8007
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Aug 25 13:00:55 2021 +0300
+
+    Update JS SDK to 0.10.0 (#23)
+
+3	3	aqua/package-lock.json
+2	2	aqua/package.json
+488	1453	aqua/target/typescript/package-lock.json
+1	1	aqua/target/typescript/package.json
+7	3	aqua/target/typescript/src/ipfs-api.ts
+35	0	aqua/target/typescript/src/ipfs.ts
+2579	1339	example/package-lock.json
+1	1	example/package.json
+
+commit 25a493ab2e91eb96a49aaf97508bc9114c3ae240
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Aug 23 18:24:52 2021 +0300
+
+    CI: update aqua-ipfs version in Builtin Services (#22)
+    
+    BREAKING CHANGE: IPFS builtin service id changed from 'ipfs-adapter' to 'aqua-ipfs'
+
+2	2	.circleci/config.yml
+57	4	.github/workflows/release.yml
+2	2	README.md
+2	2	aqua/README.md
+2	2	aqua/ipfs-api.aqua
+1	1	aqua/ipfs.aqua
+8	8	aqua/target/typescript/src/ipfs-api.ts
+3	3	service/artifacts/on_start.air
+3	3	service/artifacts/on_start.json
+1	1	service/build.sh
+
+commit 78a53e1bdd781c6427b4ba20862f1f3d989822bb
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Aug 2 17:50:21 2021 +0300
+
+    CI: fix releases (#21)
+
+36	7	.github/workflows/release.yml
+2	1	README.md
+5	4	aqua/ipfs-api.aqua
+3	4671	aqua/package-lock.json
+2	3	aqua/package.json
+2	0	aqua/target/typescript/README.md
+3065	0	aqua/target/typescript/package-lock.json
+3	1	aqua/target/typescript/package.json
+0	0	aqua/target/typescript/{ => src}/index.ts
+206	9	aqua/target/typescript/{ => src}/ipfs-api.ts
+2	2	aqua/{ => target/typescript}/tsconfig.json
+10	10	service/Cargo.lock
+
+commit 30eccfed0fef6cfc908cdf054b7101958845326c
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Jul 30 17:16:41 2021 +0300
+
+    Separate TS into aqua/typescript/target (#20)
+
+4	3	.github/workflows/changelog_config.json
+14	3	.github/workflows/release.yml
+1	1	.gitignore
+6	1	aqua/README.md
+13	26	aqua/package.json
+5	0	aqua/target/typescript/README.md
+0	0	aqua/{ => target}/typescript/index.ts
+0	0	aqua/{ => target}/typescript/ipfs-api.ts
+38	0	aqua/target/typescript/package.json
+1	1	example/index.ts
+5	4590	example/package-lock.json
+1	1	example/package.json
+
+commit b2068dd561ea3dd68c62f8a865ce271e8893a2cd
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Jul 30 14:42:43 2021 +0300
+
+    README: add link to doc
+
+3	0	README.md
+
+commit 4d0db4b1eaf4ece965a513d9b69e24f4daf37f1e
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Jul 26 12:14:39 2021 +0300
+
+    Add get_and_cache function (#19)
+
+7	3	README.md
+51	5	aqua/ipfs-api.aqua
+
+commit a50c2bc9aba71d3262bd29b63e4202b7dd34c41a
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Jul 23 16:26:45 2021 +0300
+
+    CI: publish to NPM + auto changelog + separate example (#16)
+
+5	0	.github/workflows/changelog_config.json
+22	1	.github/workflows/release.yml
+0	4	.gitignore
+27	2	README.md
+1	10	aqua/README.md
+-	-	aqua/ipfs_pure.wasm
+4	29	aqua/package-lock.json
+3	6	aqua/package.json
+363	0	aqua/typescript/ipfs-api.ts
+8	0	example/README.md
+4	4	aqua/typescript/demo.ts => example/index.ts
+8562	0	example/package-lock.json
+20	0	example/package.json
+69	0	example/tsconfig.json
+
+commit 3e0990c22210a01e419f27c0adbaf23968f8e2ea
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jul 21 20:20:09 2021 +0300
+
+    Aqua README: fix markdown
+
+3	3	aqua/README.md
+
+commit 4bd3f335993dd3b9a9276fcc76c9bee06352d9e8
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jul 21 20:19:13 2021 +0300
+
+    README + Aqua API doc (#15)
+
+1	0	.gitignore
+5	0	README.md
+19	0	aqua/README.md
+16	0	aqua/ipfs-api.aqua
+692	88	aqua/package-lock.json
+2	1	aqua/package.json
+6	3	local-network/docker-compose.yml
+2	2	service/Cargo.lock
+1	1	service/build.sh
+
+commit e3ef81650c4ef514cb935485bae673a4bd93184c
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Jul 20 19:35:04 2021 +0300
+
+    Unignore demo.ts
+
+1	0	.gitignore
+134	35	aqua/package-lock.json
+93	0	aqua/typescript/demo.ts
+
+commit be4792fd94cbc309b220ca65b398c83e7491db6c
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Tue Jul 20 15:21:44 2021 +0300
+
+    trim \n in put result (#14)
+
+1	1	service/effector/src/effector.rs
+9	0	service/effector/tests/Config_put.toml
+3	0	service/effector/tests/ipfs_put
+6	0	service/effector/tests/tests.rs
+
+commit c7a74f2256fe330ae46c64411567809df540aea1
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Tue Jul 20 14:47:30 2021 +0300
+
+    reset multiaddrs after restart (#13)
+
+54	34	service/pure/src/pure.rs
+9	0	service/pure/tests/tests.rs
+
+commit 754508eb5ff2e700f78eab602ca12807149c0044
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Tue Jul 20 14:27:20 2021 +0300
+
+    Handle set errors in on_start.air (#12)
+
+23	11	service/artifacts/on_start.air
+
+commit 825db2b3b474906c396c10e07476bde9839c45c2
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Jul 20 13:25:22 2021 +0300
+
+    Prepare for publishing
+
+16	17	aqua/package.json
+1	1	aqua/tsconfig.json
+1	77	aqua/typescript/index.ts
+
+commit b1a7661c5fc0b432a3966b5cf230a2d88b62381a
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Jul 20 12:40:33 2021 +0300
+
+    Update ipfs-api & use 5001 in index.ts
+
+1	1	aqua/ipfs-api.aqua
+-	-	aqua/ipfs_pure.wasm
+3	3	aqua/package-lock.json
+2	2	aqua/package.json
+1	1	aqua/typescript/index.ts
+
+commit 65db8148f1604c484a94541fa3b6f8e9b77ff5aa
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Fri Jul 16 15:56:30 2021 +0300
+
+    Download from remote nodes directly + announce external swarm address (#10)
+
+4	2	aqua/ipfs.aqua
+13	13	service/effector/src/effector.rs
+65	25	service/pure/src/pure.rs
+13	0	service/pure/tests/tests.rs
+1	1	service/types/src/lib.rs
+2	2	service/types/src/results.rs
+
+commit 2e64ed5e2eeb1337ab3bd6179f57d45c7df8130c
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Fri Jul 16 07:55:03 2021 -0500
+
+    Set correct URLs in package.json (#11)
+
+4	4	aqua/package.json
+
+commit bca86df1b3a55322014d72a71870941591c1d3c9
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Thu Jul 15 19:46:19 2021 +0300
+
+    update deps, add tests (#9)
+
+3	1	.circleci/config.yml
+0	1	aqua/ipfs.aqua
+1876	0	service/Cargo.lock
+5	0	service/Cargo.toml
+2	2	service/build.sh
+4	4	service/effector/Cargo.lock
+4	1	service/effector/Cargo.toml
+156	0	service/effector/src/effector.rs
+6	134	service/effector/src/main.rs
+9	0	service/effector/tests/Config.toml
+9	0	service/effector/tests/Config_error.toml
+4	0	service/effector/tests/ipfs
+2	0	service/effector/tests/ipfs_error
+26	0	service/effector/tests/tests.rs
+1314	10	service/pure/Cargo.lock
+4	1	service/pure/Cargo.toml
+6	227	service/pure/src/main.rs
+243	0	service/pure/src/pure.rs
+15	0	service/pure/tests/Config.toml
+41	0	service/pure/tests/tests.rs
+
+commit 4093abcf312ffad221a77765886acbf64e12952a
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jul 14 22:09:19 2021 +0300
+
+    index.ts: set_timeout to 10s
+
+4	0	aqua/ipfs-api.aqua
+9	4682	aqua/package-lock.json
+2	1	aqua/package.json
+5	2	aqua/typescript/index.ts
+
+commit ac976f696787fc5f7eae7bf7bea8df82e4a9ab7c
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jul 14 18:56:30 2021 +0300
+
+    Pass environment to index.ts, remove bic
+
+3	0	.gitignore
+6	68	aqua/package-lock.json
+7	6	aqua/package.json
+23	13	aqua/typescript/index.ts
+
+commit 1eb0e5ce097156cb97bf5f6b2158f2051fc49fe4
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Fri Jul 9 15:52:41 2021 +0300
+
+    Add builtin on_start script (#8)
+
+2	2	aqua/ipfs-api.aqua
+4682	9	aqua/package-lock.json
+1	1	aqua/typescript/index.ts
+0	158	aqua/typescript/ipfs-api.ts
+19	0	service/artifacts/on_start.air
+5	0	service/artifacts/on_start.json
+
+commit 7a05a39b5afd22ca6e8e6d12c0966aa6db135904
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Thu Jul 8 13:45:39 2021 +0300
+
+    Add new methods, validate input multiaddresses (#4)
+
+1	1	.gitignore
+25	6	aqua/ipfs.aqua
+-	-	service/artifacts/ipfs_effector.wasm
+-	-	service/artifacts/ipfs_pure.wasm
+4	0	service/build.sh
+263	2	service/effector/Cargo.lock
+1	0	service/effector/Cargo.toml
+41	72	service/effector/src/main.rs
+255	2	service/pure/Cargo.lock
+2	0	service/pure/Cargo.toml
+123	41	service/pure/src/main.rs
+1	1	service/types/src/lib.rs
+63	8	service/types/src/results.rs
+
+commit 2957e026ebb45047928d49f2138ae8ebe51774b1
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Jul 2 21:44:12 2021 +0300
+
+    stage + testnet works
+
+3	3	aqua/package-lock.json
+1	1	aqua/package.json
+8	7	aqua/typescript/index.ts
+
+commit bae9287210ae7329a8ec2f179c42884afe6c04c9
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Jul 2 00:28:08 2021 +0300
+
+    inject root
+
+1	1	service/effector/src/main.rs
+
+commit caf74d9accb9af3fb9b0daaa0717cc12e5a002b7
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Jul 2 00:20:59 2021 +0300
+
+    hotfix: inject_vault_host_path
+
+-	-	service/artifacts/ipfs_effector.wasm
+12	2	service/effector/src/main.rs
+
+commit 088905485b5fcabd7c84fd3a7485993a2c5c3d30
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Jul 2 00:00:52 2021 +0300
+
+    to_full_path
+
+-	-	service/artifacts/ipfs_effector.wasm
+40	1	service/effector/src/main.rs
+
+commit c7132216bf30380a65c22a63fe31ad071eca3f63
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 1 23:39:12 2021 +0300
+
+    CI: fix auth token
+
+1	1	.github/workflows/tag.yml
+
+commit a231304cda2964caee975371a3b406d77a5d0996
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 1 23:36:49 2021 +0300
+
+    Check path exists + debug logs
+
+-	-	service/artifacts/ipfs_effector.wasm
+-	-	service/artifacts/ipfs_pure.wasm
+11	1	service/effector/src/main.rs
+
+commit b50980dc727bc440b5e5e369fa46cb1d37886151
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 1 23:20:02 2021 +0300
+
+    Correct trigger ref for node-distro
+
+1	1	.github/workflows/release.yml
+
+commit ea2d6c183de8e3a54dcef4bf770e10511658ef24
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 1 23:17:07 2021 +0300
+
+    Add CI action to bump tag version
+
+17	0	.github/workflows/tag.yml
+
+commit 1731ea09220b24ac3b5f806913f59cc2f8625197
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Jul 1 23:14:59 2021 +0300
+
+    Add Aqua API (#1)
+
+3	2	.circleci/config.yml
+13	5	.github/workflows/release.yml
+6	5	.gitignore
+15	0	aqua/ipfs-api.aqua
+11	0	aqua/ipfs.aqua
+4071	0	aqua/package-lock.json
+51	0	aqua/package.json
+62	0	aqua/tsconfig.json
+79	0	aqua/typescript/index.ts
+158	0	aqua/typescript/ipfs-api.ts
+73	0	local-network/docker-compose.yml
+0	0	Config.toml => service/Config.toml
+0	0	{artifacts => service/artifacts}/blueprint.json
+-	-	service/artifacts/ipfs_effector.wasm
+2	1	{artifacts => service/artifacts}/ipfs_effector_config.json
+-	-	service/artifacts/ipfs_pure.wasm
+2	1	{artifacts => service/artifacts}/ipfs_pure_config.json
+0	0	build.sh => service/build.sh
+296	0	service/effector/Cargo.lock
+0	0	{effector => service/effector}/Cargo.toml
+0	0	{effector => service/effector}/src/main.rs
+306	0	service/pure/Cargo.lock
+0	0	{pure => service/pure}/Cargo.toml
+0	0	{pure => service/pure}/src/main.rs
+0	0	{types => service/types}/Cargo.toml
+0	0	{types => service/types}/src/lib.rs
+0	0	{types => service/types}/src/results.rs
+
+commit 9cdcfb840fbac03e189c6a626844301d9d409d6e
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Jul 1 22:33:39 2021 +0300
+
+    fix missing result of get_from
+
+10	3	pure/src/main.rs
+
+commit 25c08ac8290c4f2ba8417c71adb6cbd1fdad4597
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Jul 1 18:11:41 2021 +0300
+
+    fix module config
+
+1	1	artifacts/ipfs_effector_config.json
+
+commit 581de4b004c788cf8258f55e2c5bf8906b6cd3a1
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Jul 1 17:38:29 2021 +0300
+
+    yet another publish fix
+
+2	1	.github/workflows/release.yml
+
+commit 5a7767e3eb9e3f46bb495f3797c6d32c05e336f5
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Jul 1 17:32:13 2021 +0300
+
+    fix release archive structure
+
+1	1	.github/workflows/release.yml
+
+commit 10c490e937dc9de2f1a50a42e84f5fc6d6d9328f
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Wed Jun 30 17:28:18 2021 +0300
+
+    use timeout from config
+
+13	17	effector/src/main.rs
+3	1	pure/Cargo.toml
+58	17	pure/src/main.rs
+1	0	types/src/results.rs
+
+commit ac7ed9800ad481536281cb0c260e29c5f16ba9cf
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Wed Jun 30 16:19:51 2021 +0300
+
+    api rework
+
+4	0	effector/Cargo.toml
+60	19	effector/src/main.rs
+0	52	effector/src/path.rs
+2	0	pure/Cargo.toml
+38	21	pure/src/main.rs
+10	0	types/Cargo.toml
+3	0	types/src/lib.rs
+5	5	{pure => types}/src/results.rs
+
+commit d4afa2f73fbd975c6c5b1e9db70d17d737b6f536
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Jun 25 15:56:45 2021 +0300
+
+    add configs and blueprint
+
+1	2	.gitignore
+7	0	artifacts/blueprint.json
+14	0	artifacts/ipfs_effector_config.json
+10	0	artifacts/ipfs_pure_config.json
+
+commit 18392cd93a745792a38d8ad9f009a67577f1723c
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Jun 25 14:43:34 2021 +0300
+
+    fix ci
+
+0	1	.github/workflows/release.yml
+
+commit 5a56cbe3ec3d3d45ea1497286e02567db5359eae
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Jun 25 14:42:13 2021 +0300
+
+    fix ci
+
+1	1	.github/workflows/release.yml
+
+commit 752526a9e8bcd2da4a508011c2d3a001a2ebc190
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Jun 25 14:38:45 2021 +0300
+
+    fix ci
+
+6	2	.github/workflows/release.yml
+
+commit 73f2e97443e0f7056e0ba09f956a59d03029e9bf
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Jun 25 14:31:57 2021 +0300
+
+    ci: fix release version
+
+2	2	.github/workflows/release.yml
+
+commit f930cf6b18d1eb9df50e1a062576865a4ec95790
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Jun 25 14:27:20 2021 +0300
+
+    fix ci
+
+3	2	.github/workflows/release.yml
+
+commit 29c8388958788d3fd81ef6557b92429c8deb7b77
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Fri Jun 25 14:25:44 2021 +0300
+
+    Add .circleci/config.yml
+
+commit cb35678cb4f27aa0a4a45ac78b2933663062af35
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Jun 25 14:24:00 2021 +0300
+
+    fix ci
+
+4	2	.github/workflows/release.yml
+
+commit 1d09d839bfc6cdca1afaa3b6ed70ac9a55ae1754
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Jun 25 14:11:45 2021 +0300
+
+    return circleci and fix actions
+
+35	0	.circleci/config.yml
+22	2	.github/workflows/release.yml
+
+commit 624075fb60fcfb2f3aecd1af65b4399462006800
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Fri Jun 25 10:35:24 2021 +0300
+
+    change ci pipeline to github actions
+
+0	35	.circleci/config.yml
+42	0	.github/workflows/release.yml
+
+commit 140530b7910afcae1e6a29dfd4577fd77bfecd70
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Jun 24 16:13:29 2021 +0300
+
+    add get/set_multiaddr methods
+
+1	1	effector/Cargo.toml
+1	11	effector/src/main.rs
+2	1	pure/Cargo.toml
+28	0	pure/src/main.rs
+41	0	pure/src/results.rs
+
+commit 9b119358b9c2026dcc5b30c3ef4ff4b63436725e
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Thu Jun 24 14:03:55 2021 +0300
+
+    Add .circleci/config.yml
+
+commit 9db382cdd496240eb5e4b3fff9bb58985d50d7d7
+Author: Alexey Proshutinskiy <alexey.prosh@fluence.one>
+Date:   Thu Jun 24 13:59:55 2021 +0300
+
+    initial commit
+
+35	0	.circleci/config.yml
+14	0	.github/download_marine.sh
+16	0	.gitignore
+17	0	Config.toml
+17	0	build.sh
+14	0	effector/Cargo.toml
+101	0	effector/src/main.rs
+52	0	effector/src/path.rs
+14	0	pure/Cargo.toml
+74	0	pure/src/main.rs

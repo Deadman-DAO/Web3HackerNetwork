@@ -1,0 +1,26 @@
+commit dd0949954ea6ec350cf55740f2cd2731caef5604
+Author: Andrei Shapel <mail@shapel.me>
+Date:   Wed Mar 9 02:29:06 2022 -0500
+
+    Add project
+
+36	0	.gitignore
+1644	0	Cargo.lock
+17	0	Cargo.toml
+33	0	Dockerfile
+6	0	configs/Config.toml
+5	0	configs/services/hello-world/options.json
+11	0	configs/services/services.deployment.json
+10	0	docker-compose.yaml
+20	0	src/services/hello-world/main.rs
+29	0	tools/build.sh
+23	0	tools/deploy.sh
+
+commit 8affb5d609b890f5dcb23a8eaaa97badd3a09f46
+Author: Andrei Shapel <98261554+adshpl@users.noreply.github.com>
+Date:   Wed Mar 9 02:06:04 2022 -0500
+
+    Initial commit
+
+21	0	LICENSE
+1	0	README.md

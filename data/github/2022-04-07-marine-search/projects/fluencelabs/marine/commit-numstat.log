@@ -1,0 +1,5683 @@
+commit 4e4f40cc8c907f203d6ebeafbe677ab6d7de8e6e
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Wed Apr 6 22:55:33 2022 +0300
+
+    Update interface types (#149)
+
+5	5	.circleci/config.yml
+2	2	.github/workflows/publish_npm_dev.yml
+2	2	.github/workflows/publish_npm_release.yml
+110	98	Cargo.lock
+4	4	crates/it-generator/Cargo.toml
+2	2	crates/it-interfaces/Cargo.toml
+2	2	crates/it-json-serde/Cargo.toml
+4	4	crates/it-parser/Cargo.toml
+3	3	crates/module-interface/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+5	5	fluence-faas/Cargo.toml
+8	8	runtime/Cargo.toml
+1	1	runtime/src/host_imports/imports.rs
+1	1	runtime/src/host_imports/lifting/lift_ivalues.rs
+16	6	runtime/src/host_imports/lowering/lo_helper.rs
+2	2	runtime/src/host_imports/lowering/lower_ivalues.rs
+50	50	runtime/src/module/memory.rs
+0	137	runtime/src/module/memory_access.rs
+0	4	runtime/src/module/mod.rs
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+6	6	web-runtime/Cargo.toml
+12	7	web-runtime/npm-package/src/marine_web_runtime.js
+29	106	web-runtime/src/module/memory.rs
+
+commit e7bdfe994786f45c2f49433843e6015f68c82ff5
+Author: Mike Voronov <michail.vms@gmail.com>
+Date:   Thu Mar 31 00:17:49 2022 +0300
+
+    add max_memory_size api function (#147)
+
+7	7	Cargo.lock
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+1	1	runtime/Cargo.toml
+3	1	runtime/src/engine.rs
+21	6	runtime/src/memory_statistic.rs
+15	4	runtime/src/module/marine_module.rs
+2	2	tools/repl/Cargo.toml
+1	0	tools/repl/src/repl.rs
+
+commit 5ab0f377c7844cc94c6c76fc3e91020c2088ce5e
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Fri Mar 25 20:45:19 2022 +0300
+
+    bump crate versions (#144)
+    
+    * bump minor crate versions
+    
+    * fix marine-web build
+    
+    * sort deps
+
+41	55	Cargo.lock
+2	2	crates/it-generator/Cargo.toml
+1	1	crates/it-interfaces/Cargo.toml
+1	1	crates/it-json-serde/Cargo.toml
+3	3	crates/it-parser/Cargo.toml
+2	2	crates/module-interface/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+4	4	fluence-faas/Cargo.toml
+5	5	runtime/Cargo.toml
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+4	4	web-runtime/Cargo.toml
+10	11	web-runtime/npm-package/src/marine_web_runtime.js
+
+commit e37e475663ac8baf12e51b7e7a3c4ec918d01c83
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Fri Mar 25 18:40:50 2022 +0300
+
+    Fix panics when services have more than 2gb memory allocated (#143)
+    
+    * add test for allocation at offset more than 2gb
+    
+    * update wasmer-it version and use u32 instead of usize where needed
+    
+    * remove cargo.toml patch
+
+1	0	.circleci/config.yml
+133	93	Cargo.lock
+1	0	Cargo.toml
+2	2	crates/it-generator/Cargo.toml
+1	1	crates/it-interfaces/Cargo.toml
+1	1	crates/it-json-serde/Cargo.toml
+1	1	crates/it-parser/Cargo.toml
+1	1	crates/module-interface/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+2	2	fluence-faas/src/host_imports/logger/log_utf8_string_impl.rs
+3	3	runtime/Cargo.toml
+2	2	runtime/src/host_imports/lowering/lo_helper.rs
+1	1	runtime/src/host_imports/lowering/lower_ivalues.rs
+7	15	runtime/src/module/memory.rs
+8	8	runtime/src/module/memory_access.rs
+37	0	runtime/tests/records.rs
+12	0	runtime/tests/wasm_tests/build.sh
+14	0	runtime/tests/wasm_tests/records_allocation/Cargo.toml
+11	0	runtime/tests/wasm_tests/records_allocation/Config.toml
+47	0	runtime/tests/wasm_tests/records_allocation/src/pure.rs
+3	3	web-runtime/Cargo.toml
+12	12	web-runtime/src/marine_js.rs
+15	23	web-runtime/src/module/memory.rs
+
+commit 614a4cb078dd3e30ce09cb1ae0df1ed26e244adc
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Thu Feb 24 13:07:52 2022 +0300
+
+    add module and function names to errors about invalid arguments (#142)
+
+18	4	Cargo.lock
+1	0	Cargo.toml
+20	0	crates/it-json-serde/Cargo.toml
+10	4	web-runtime/src/faas/json/mod.rs => crates/it-json-serde/src/errors.rs
+14	14	{fluence-faas/src/json => crates/it-json-serde/src}/ivalues_to_json.rs
+24	24	{web-runtime/src/faas/json => crates/it-json-serde/src}/json_to_ivalues.rs
+41	0	crates/it-json-serde/src/lib.rs
+2	2	fluence-app-service/Cargo.toml
+2	1	fluence-faas/Cargo.toml
+31	4	fluence-faas/src/errors.rs
+16	7	fluence-faas/src/faas.rs
+0	244	fluence-faas/src/json/json_to_ivalues.rs
+0	21	fluence-faas/src/json/mod.rs
+0	1	fluence-faas/src/lib.rs
+1	0	web-runtime/Cargo.toml
+31	4	web-runtime/src/faas/errors.rs
+16	7	web-runtime/src/faas/faas.rs
+0	123	web-runtime/src/faas/json/ivalues_to_json.rs
+0	1	web-runtime/src/faas/mod.rs
+
+commit bbd006ed3c86d9ded00b03f4050c7068a388e3a1
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Fri Feb 18 18:26:06 2022 +0300
+
+    Add js version of runtime that supports interface types and runs in browser (#137)
+
+21	0	.circleci/config.yml
+144	0	.github/workflows/publish_npm_dev.yml
+120	0	.github/workflows/publish_npm_release.yml
+219	120	Cargo.lock
+2	0	Cargo.toml
+4	4	crates/it-generator/Cargo.toml
+2	4	crates/it-generator/src/instructions_generator/foreign_mod_instructions.rs
+2	2	crates/it-interfaces/Cargo.toml
+4	4	crates/it-parser/Cargo.toml
+15	0	crates/min-it-version/Cargo.toml
+50	0	crates/min-it-version/src/lib.rs
+3	4	crates/module-interface/Cargo.toml
+1	2	crates/module-interface/src/it_interface/export_it_functions.rs
+3	2	fluence-app-service/Cargo.toml
+2	2	fluence-app-service/src/lib.rs
+4	4	fluence-faas/Cargo.toml
+0	2	fluence-faas/src/lib.rs
+9	7	runtime/Cargo.toml
+5	3	runtime/src/engine.rs
+21	17	runtime/src/host_imports/imports.rs
+2	2	runtime/src/host_imports/lifting/lift_ivalues.rs
+3	21	runtime/src/host_imports/lowering/lo_helper.rs
+3	2	runtime/src/host_imports/lowering/lower_ivalues.rs
+4	6	runtime/src/host_imports/utils.rs
+0	24	runtime/src/lib.rs
+4	2	runtime/src/misc/version_checker.rs
+1	2	runtime/src/module/marine_module.rs
+69	11	runtime/src/module/memory.rs
+137	0	runtime/src/module/memory_access.rs
+8	3	runtime/src/module/mod.rs
+5	14	runtime/src/module/wit_instance.rs
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+3	2	tools/repl/src/repl.rs
+43	0	web-runtime/Cargo.toml
+8	0	web-runtime/build.sh
+124	0	web-runtime/marine-js.js
+6	0	web-runtime/npm-package/.gitignore
+8	0	web-runtime/npm-package/.prettierrc.js
+4	0	web-runtime/npm-package/jest.config.js
+7461	0	web-runtime/npm-package/package-lock.json
+32	0	web-runtime/npm-package/package.json
+95	0	web-runtime/npm-package/src/__test__/test.spec.ts
+49	0	web-runtime/npm-package/src/copyMarine.ts
+18	0	web-runtime/npm-package/src/index.ts
+292	0	web-runtime/npm-package/src/marine_web_runtime.js
+26	0	web-runtime/npm-package/tsconfig.json
+136	0	web-runtime/src/api.rs
+145	0	web-runtime/src/engine.rs
+95	0	web-runtime/src/errors.rs
+63	0	web-runtime/src/faas/errors.rs
+177	0	web-runtime/src/faas/faas.rs
+109	0	web-runtime/src/faas/faas_interface.rs
+123	0	web-runtime/src/faas/json/ivalues_to_json.rs
+244	0	web-runtime/src/faas/json/json_to_ivalues.rs
+21	0	web-runtime/src/faas/json/mod.rs
+36	0	web-runtime/src/faas/mod.rs
+26	0	web-runtime/src/global_state.rs
+58	0	web-runtime/src/lib.rs
+334	0	web-runtime/src/marine_js.rs
+19	0	web-runtime/src/misc/mod.rs
+36	0	web-runtime/src/misc/version_checker.rs
+70	0	web-runtime/src/module/exports.rs
+185	0	web-runtime/src/module/marine_module.rs
+178	0	web-runtime/src/module/memory.rs
+56	0	web-runtime/src/module/mod.rs
+74	0	web-runtime/src/module/type_converters.rs
+108	0	web-runtime/src/module/wit_function.rs
+143	0	web-runtime/src/module/wit_instance.rs
+
+commit 6dfeecd572ec0249d5f95e91eddb98a4b7c5e336
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon Jan 31 18:15:01 2022 +0300
+
+    Disable memory limits (#140)
+
+193	215	Cargo.lock
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+1	1	runtime/Cargo.toml
+2	2	runtime/src/engine.rs
+2	2	tools/repl/Cargo.toml
+
+commit dd0a667c38db4b35bf485dd54e022ba9c380b60b
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Jan 26 14:40:06 2022 +0300
+
+    fix api (#139)
+
+6	6	fluence-app-service/src/service.rs
+
+commit 45b9fc445a283630477abbfa247763a4d536191a
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Jan 25 18:22:41 2022 +0300
+
+    Add API for Wasm modules heap footprint (#138)
+
+8	7	Cargo.lock
+2	2	fluence-app-service/Cargo.toml
+2	0	fluence-app-service/src/lib.rs
+8	0	fluence-app-service/src/service.rs
+2	2	fluence-faas/Cargo.toml
+6	0	fluence-faas/src/faas.rs
+2	0	fluence-faas/src/lib.rs
+2	1	runtime/Cargo.toml
+11	0	runtime/src/engine.rs
+3	0	runtime/src/lib.rs
+64	0	runtime/src/memory_statistic.rs
+9	0	runtime/src/module/marine_module.rs
+2	2	tools/repl/Cargo.toml
+1	0	tools/repl/src/editor.rs
+9	1	tools/repl/src/repl.rs
+
+commit 7b0686ab2e70e6a92d6bd81b3cd49221704037a8
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Dec 15 11:12:08 2021 +0300
+
+    Introduce wasm_pages_to_bytes; rename max_heap_size to max_heap_pages_count (#136)
+
+9	9	Cargo.lock
+1	1	crates/utils/Cargo.toml
+5	1	crates/utils/src/wasm_mem_pages_conversion.rs
+2	2	fluence-app-service/Cargo.toml
+3	3	fluence-faas/Cargo.toml
+4	4	fluence-faas/src/config/to_marine_config.rs
+2	2	runtime/Cargo.toml
+7	9	runtime/src/config.rs
+2	1	runtime/src/engine.rs
+3	3	runtime/src/misc/errors.rs
+14	15	runtime/src/misc/prepare.rs
+
+commit 5e07fe08761750c1c0231edb5c226706ae1203a2
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Dec 14 12:52:35 2021 +0300
+
+    bump marine-utils crate (#135)
+
+7	7	Cargo.lock
+1	1	crates/utils/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+1	1	runtime/Cargo.toml
+
+commit c7c8d611d9d9fb96ae81cecd704b808a2137baea
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Fri Dec 3 20:33:46 2021 +0300
+
+    Allow runtime to set maximum memory count (#127)
+
+202	132	Cargo.lock
+5	0	crates/utils/src/lib.rs
+25	0	crates/utils/src/wasm_mem_pages_conversion.rs
+2	2	examples/build_rs/Cargo.toml
+1	1	examples/build_rs/Config.toml
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/call_parameters/Config.toml
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+1	1	examples/greeting/Cargo.toml
+1	1	examples/greeting/Config.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+2	2	examples/ipfs-node/Config.toml
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+1	1	examples/multiservice_marine_test/Cargo.toml
+3	3	examples/multiservice_marine_test/consumer/Config.toml
+3	3	examples/multiservice_marine_test/producer/Config.toml
+2	2	examples/records/Config.toml
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+2	2	examples/sqlite/Config.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+2	2	fluence-app-service/Cargo.toml
+4	2	fluence-faas/Cargo.toml
+6	1	fluence-faas/src/config/faas_config.rs
+12	2	fluence-faas/src/config/raw_faas_config.rs
+141	36	fluence-faas/src/config/to_marine_config.rs
+9	0	fluence-faas/src/errors.rs
+16	10	fluence-faas/src/faas.rs
+10	6	fluence-faas/src/json/ivalues_to_json.rs
+11	11	fluence-faas/src/json/json_to_ivalues.rs
+1	1	fluence-faas/src/lib.rs
+2	2	fluence-faas/src/module_loading/mod.rs
+2	2	fluence-faas/tests/wasm_tests/arguments_passing/Config.toml
+2	2	fluence-faas/tests/wasm_tests/arrays_passing/Config.toml
+2	2	fluence-faas/tests/wasm_tests/records_passing/Config.toml
+3	3	runtime/Cargo.toml
+4	4	runtime/src/config.rs
+3	4	runtime/src/engine.rs
+5	27	runtime/src/errors.rs
+71	0	runtime/src/misc/errors.rs
+5	0	runtime/src/misc/mod.rs
+37	16	runtime/src/misc/prepare.rs
+79	0	runtime/src/misc/prepare/heap_base.rs
+10	7	runtime/src/misc/version_checker.rs
+3	3	tools/repl/Cargo.toml
+
+commit e09a167bc7566b3ce6788450b2da6983f22632df
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Nov 4 16:45:27 2021 +0300
+
+    update sdk version
+
+197	146	Cargo.lock
+2	2	fluence-app-service/Cargo.toml
+3	3	fluence-faas/Cargo.toml
+
+commit d1ed552d8080b5c87b6094b5ff6536f26c1db5a4
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Mon Oct 18 20:15:51 2021 +0300
+
+    Add marine test examples for  build.rs and marine_test on mod (#130)
+
+1	0	Cargo.toml
+21	0	examples/build_rs/Cargo.toml
+6	0	examples/build_rs/Config.toml
+18	0	examples/build_rs/build.rs
+10	0	examples/build_rs/build.sh
+38	0	examples/build_rs/src/main.rs
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+1	1	examples/multiservice_marine_test/Cargo.toml
+26	0	examples/multiservice_marine_test/src/main.rs
+
+commit db84af1c1f107873a1b7331ec1d1cefd331cb6f6
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Oct 5 18:20:41 2021 +0300
+
+    Bump crate versions (#129)
+
+44	44	Cargo.lock
+2	2	crates/it-generator/Cargo.toml
+2	2	crates/it-parser/Cargo.toml
+2	2	crates/module-info-parser/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+1	1	examples/ipfs-node/effector/Cargo.toml
+1	1	examples/ipfs-node/pure/Cargo.toml
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+5	5	fluence-faas/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/records_passing/Cargo.toml
+6	6	runtime/Cargo.toml
+3	3	tools/cli/Cargo.toml
+1	1	tools/repl/Cargo.toml
+
+commit ccdbbd0044c02975e0676ad5d576cb49ec73e6c5
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Tue Oct 5 18:14:35 2021 +0300
+
+    Add multi-service marine_test example  (#128)
+
+3	0	Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+11	0	examples/multiservice_marine_test/Cargo.toml
+13	0	examples/multiservice_marine_test/consumer/Cargo.toml
+6	0	examples/multiservice_marine_test/consumer/Config.toml
+10	0	examples/multiservice_marine_test/consumer/build.sh
+16	0	examples/multiservice_marine_test/consumer/src/main.rs
+13	0	examples/multiservice_marine_test/producer/Cargo.toml
+6	0	examples/multiservice_marine_test/producer/Config.toml
+10	0	examples/multiservice_marine_test/producer/build.sh
+24	0	examples/multiservice_marine_test/producer/src/main.rs
+27	0	examples/multiservice_marine_test/src/main.rs
+
+commit 0ccf5eda5b8a2fca9ae6cf9603b15e48c6d27a92
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Sep 29 13:05:26 2021 +0300
+
+    Add call_with_ivalues method to FluenceAppService (#125)
+
+4	4	Cargo.lock
+1	1	fluence-app-service/Cargo.toml
+19	1	fluence-app-service/src/service.rs
+1	1	tools/repl/Cargo.toml
+
+commit 4072de7b6032cbae32fb3d387c6ce179f88f31de
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Sep 29 12:58:10 2021 +0300
+
+    Fix clippy warnings (#126)
+
+1	1	.circleci/config.yml
+1	1	crates/it-generator/src/interface_generator.rs
+1	1	crates/it-parser/src/extractor/it.rs
+2	2	crates/module-info-parser/src/manifest/manifest_extractor.rs
+2	2	crates/module-info-parser/src/sdk_version/version_extractor.rs
+1	1	crates/module-interface/src/interface/records_transformer.rs
+0	1	examples/sqlite/src/main.rs
+1	1	examples/url-downloader/local_storage/src/main.rs
+1	1	fluence-app-service/src/service.rs
+6	3	fluence-faas/src/faas.rs
+3	3	fluence-faas/src/faas_interface.rs
+3	3	fluence-faas/src/json/json_to_ivalues.rs
+1	1	fluence-faas/src/module_loading/mod.rs
+2	0	fluence-faas/tests/wasm_tests/arguments_passing/src/effector.rs
+1	0	fluence-faas/tests/wasm_tests/arguments_passing/src/pure.rs
+2	0	fluence-faas/tests/wasm_tests/arrays_passing/src/effector.rs
+1	0	fluence-faas/tests/wasm_tests/arrays_passing/src/pure.rs
+2	0	fluence-faas/tests/wasm_tests/records_passing/src/effector.rs
+2	0	fluence-faas/tests/wasm_tests/records_passing/src/pure.rs
+1	1	runtime/src/engine.rs
+1	1	runtime/src/host_imports/imports.rs
+2	2	runtime/src/host_imports/lowering/lower_ivalues.rs
+1	1	runtime/src/module/marine_module.rs
+2	2	runtime/src/module/wit_instance.rs
+1	0	tools/repl/src/repl.rs
+
+commit 6fef752281de60f5b9d63a6fa6976a9730a3eca5
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Sep 28 16:30:40 2021 +0300
+
+    fix MError error messages (#123)
+
+64	70	Cargo.lock
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	fluence-app-service/Cargo.toml
+1	1	fluence-app-service/src/service.rs
+1	1	fluence-faas/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/records_passing/Cargo.toml
+17	17	runtime/src/errors.rs
+
+commit 5747a6cc70a58b38f4d8a9f7ba519c986906c748
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Thu Sep 16 15:47:23 2021 +0300
+
+    update update message in cli tools (#119)
+
+2	2	Cargo.lock
+1	1	tools/cli/Cargo.toml
+1	1	tools/cli/src/main.rs
+1	1	tools/repl/Cargo.toml
+1	1	tools/repl/src/main.rs
+
+commit 1f20f9ea492afd5a76c53a4126e9159663d0d554
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Sep 15 18:52:31 2021 +0300
+
+    Introduce tag-based draft releases (#117)
+    
+    The release scheme is as follows.
+    
+    ## Tags
+    A release is created on a tag push. The tag must be prefixed with `v`, e.g., `v0.2.3`.
+    
+    Tags can be pushed either manually or via `tag.yml` GitHub Action via a press of the button.
+    
+    Tags can be moved if needed, like this:
+    ```
+    # Remove tag
+    git push -d origin v0.2.3 && git tag -d v0.2.3
+    # Mark current commit with a tag and push
+    git tag v0.2.3 && git push origin v0.2.3
+    ```
+    In such a case, the release action will be executed against the new commit and the existing `v0.2.3` release will be moved to Draft status. One would rarely need such a trick, but it's useful to know of it.
+    
+    ## Changelog
+    On each release, a changelog is generated. The changelog is calculated from Pull Requests merged between a previous semver-looking tag and a newly pushed one. So, given that there was a release `v0.2.2`, on a push of `v0.2.3` changelog will be generated from PRs that were merged since `v0.2.2` until the commit marked with `v0.2.3`.
+    
+    Changelog format can be easily changed in the `changelog_config.json` file. It is also possible to set up PR grouping by labels or by regex.
+    
+    ## Release
+    GitHub release is created in status 'Draft' to avoid notifying repository watchers. Repository maintainers must review the release and make it public manually.
+    
+    ## Publishing
+    On each release, all publishable crates are published to crates.io. Their versions are published as is, i.e. exactly as specified in Cargo.toml's. Because of that, it is possible that the same versions of crates exist in different releases. It gives maintainers the finest control over publishing.
+
+6	0	.github/workflows/changelog_config.json
+43	4	.github/workflows/publish_release.yml
+24	0	.github/workflows/tag.yml
+
+commit 14d38e2c7b47bd34ff8321b642a189bdc3a06565
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Wed Sep 15 16:27:48 2021 +0300
+
+    Remove serde version lock on 1.0.118 (#118)
+
+88	88	Cargo.lock
+2	2	crates/it-generator/Cargo.toml
+2	2	crates/it-parser/Cargo.toml
+2	2	crates/module-info-parser/Cargo.toml
+2	2	crates/module-interface/Cargo.toml
+3	3	fluence-app-service/Cargo.toml
+3	3	fluence-faas/Cargo.toml
+2	2	runtime/Cargo.toml
+1	1	tools/cli/Cargo.toml
+
+commit 44a886d3489c4f0fca6df061e0111f0a9ed2bc4b
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Sep 9 16:43:14 2021 +0300
+
+    add badge (#116)
+
+2	0	README.md
+
+commit 23b79abbcd33cf351d82a83b35e7f1cb13309482
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Sep 8 14:11:43 2021 +0300
+
+    Add module header to generated aqua code (#113)
+
+1	1	Cargo.lock
+1	1	tools/cli/Cargo.toml
+9	5	tools/cli/src/main.rs
+
+commit 02b8622db295943a87886819dba9ef0771b5756c
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Sep 8 13:29:40 2021 +0300
+
+    Make releases manual (#112)
+
+1	4	.github/workflows/publish_release.yml
+
+commit f97a4f7eba40dbb746d391b7d3b92db67b296458
+Author: boneyard93501 <4523011+boneyard93501@users.noreply.github.com>
+Date:   Sat Sep 4 05:39:39 2021 -0500
+
+    update stack png (#109)
+
+4	4	README.md
+-	-	images/aqua_marine_stack.png
+
+commit c54975bef0ba4e3182f50a1ea5f630b3ab9a0ffa
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Fri Sep 3 20:10:44 2021 +0300
+
+    move to wasmer-it 0.20.2 (#110)
+
+37	37	Cargo.lock
+3	3	crates/it-generator/Cargo.toml
+2	2	crates/it-interfaces/Cargo.toml
+3	3	crates/it-parser/Cargo.toml
+3	4	crates/module-interface/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+1	1	runtime/Cargo.toml
+3	3	tools/cli/Cargo.toml
+
+commit 8d2b37b1b56891dfd4bfa43f47ea62bb788595d8
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Thu Sep 2 19:53:30 2021 +0300
+
+    update to marine-rs-sdk-test 0.2.0 (#108)
+
+172	354	Cargo.lock
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/call_parameters/src/main.rs
+1	1	examples/greeting/Cargo.toml
+2	2	examples/greeting/src/main.rs
+
+commit 0d4888e2a8ed6ea0c9fafb61800e6545c4fb1873
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Thu Sep 2 15:49:02 2021 +0300
+
+    update rust version to nightly-2021-05-21
+
+5	5	.circleci/config.yml
+
+commit 57782d2998d936b01f87312643795a1e0d3e7a3a
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Aug 13 10:57:43 2021 +0300
+
+    README: update documentation link (#106)
+
+4	1	README.md
+
+commit 17826b2f2bb044dc9a151715bae3e68f14d9d51b
+Author: Valery Antopol <valery.antopol@gmail.com>
+Date:   Tue Aug 10 17:06:40 2021 +0300
+
+    Support call parameters in repl (#105)
+
+1	0	Cargo.lock
+2	1	tools/repl/Cargo.toml
+96	36	tools/repl/src/repl.rs
+
+commit 44898d929cbe439ffa2e1da4c3e6ff711c397c51
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Aug 5 21:17:26 2021 +0300
+
+    move to wasmer 0.17.1 (#104)
+
+287	134	Cargo.lock
+1	1	crates/it-parser/Cargo.toml
+1	1	crates/module-info-parser/Cargo.toml
+1	1	crates/module-interface/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+4	4	fluence-faas/Cargo.toml
+3	3	runtime/Cargo.toml
+1	1	runtime/src/host_imports/lifting/lift_ivalues.rs
+2	2	tools/repl/Cargo.toml
+
+commit bb48fe35c36ffb01f7c585a4afaec8162ff088df
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Wed Jul 14 15:20:59 2021 +0300
+
+    bump marine-module-info-parser to 0.2.0 (#99)
+
+12	12	Cargo.lock
+1	1	crates/module-info-parser/Cargo.toml
+1	1	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+2	2	runtime/Cargo.toml
+2	2	tools/cli/Cargo.toml
+
+commit 9fc907c06273c2ebb593fd5da448a54a8def36c6
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Mon Jul 5 14:50:43 2021 +0300
+
+    CI: enable publishing (#97)
+
+2	2	.github/workflows/publish_release.yml
+
+commit faf374cb9fa9dc2626675d08c0392c367a9d8c04
+Author: Aleksey Proshutisnkiy <justprosh@users.noreply.github.com>
+Date:   Mon Jul 5 13:36:41 2021 +0300
+
+    change to pascal case for service names (#96)
+
+1	1	Cargo.lock
+1	1	tools/cli/Cargo.toml
+1	1	tools/cli/src/main.rs
+
+commit 2f4cefc0d8dedaaf5ff6b699999c95574338716e
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Jun 17 14:36:58 2021 +0300
+
+    Bump minor versions (#95)
+
+6	6	Cargo.lock
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+1	1	runtime/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit beaa118b1e917313c89d1e92fd7d11d3950978f8
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu Jun 17 14:06:01 2021 +0300
+
+    Lexicographical sort record types before topological sort (#94)
+
+14	14	Cargo.lock
+2	2	crates/it-parser/Cargo.toml
+1	1	crates/module-interface/Cargo.toml
+3	1	crates/module-interface/src/interface/records_transformer.rs
+1	1	fluence-faas/Cargo.toml
+1	1	runtime/Cargo.toml
+2	2	tools/cli/Cargo.toml
+
+commit fb67fc0c916d4e01062bce029cfec01a07425ee5
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed Jun 16 09:37:45 2021 +0300
+
+    Update sdk to marine-rs-sdk (#93)
+
+179	128	Cargo.lock
+1	1	crates/it-generator/Cargo.toml
+1	1	crates/module-info-parser/Cargo.toml
+1	1	crates/module-info-parser/src/manifest/manifest_extractor.rs
+1	1	crates/module-info-parser/src/sdk_version/version_embedder.rs
+1	1	crates/module-info-parser/src/sdk_version/version_extractor.rs
+1	1	examples/call_parameters/Cargo.toml
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+6	6	examples/call_parameters/src/main.rs
+2	2	examples/greeting/Cargo.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+3	3	examples/greeting/src/main.rs
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+1	1	examples/ipfs-node/effector/Cargo.toml
+4	4	examples/ipfs-node/effector/src/main.rs
+1	1	examples/ipfs-node/pure/Cargo.toml
+3	3	examples/ipfs-node/pure/src/main.rs
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+1	1	examples/records/effector/Cargo.toml
+2	2	examples/records/effector/src/main.rs
+1	1	examples/records/pure/Cargo.toml
+2	2	examples/records/pure/src/main.rs
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/records/test-record/src/test_record.rs
+2	2	examples/sqlite/Cargo.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+2	2	examples/sqlite/src/main.rs
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+4	4	examples/url-downloader/curl_adapter/src/main.rs
+1	1	examples/url-downloader/facade/Cargo.toml
+3	3	examples/url-downloader/facade/src/main.rs
+1	1	examples/url-downloader/local_storage/Cargo.toml
+3	3	examples/url-downloader/local_storage/src/main.rs
+2	2	fluence-faas/Cargo.toml
+1	1	fluence-faas/src/config/to_marine_config.rs
+3	3	fluence-faas/src/faas.rs
+1	1	fluence-faas/src/host_imports/call_parameters.rs
+1	1	fluence-faas/src/host_imports/logger/mod.rs
+1	1	fluence-faas/src/host_imports/mounted_binaries.rs
+2	2	fluence-faas/src/lib.rs
+2	2	fluence-faas/tests/call_parameters.rs
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/src/effector.rs
+2	2	fluence-faas/tests/wasm_tests/arguments_passing/src/pure.rs
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/src/effector.rs
+2	2	fluence-faas/tests/wasm_tests/arrays_passing/src/pure.rs
+1	1	fluence-faas/tests/wasm_tests/records_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/records_passing/src/effector.rs
+2	2	fluence-faas/tests/wasm_tests/records_passing/src/pure.rs
+1	1	tools/repl/Cargo.toml
+1	1	tools/repl/src/logger.rs
+
+commit 56a53d3b08f3a80a92ebdfa4111c4bb77b249081
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jun 9 23:21:08 2021 +0300
+
+    Aqua: remove -> () + CI: add automatic releases (#92)
+
+79	0	.github/workflows/publish_release.yml
+31	31	Cargo.lock
+2	2	crates/it-generator/Cargo.toml
+2	2	crates/it-parser/Cargo.toml
+1	1	crates/module-interface/Cargo.toml
+4	4	crates/module-interface/src/interface/module_interface.rs
+2	2	fluence-app-service/Cargo.toml
+3	3	fluence-faas/Cargo.toml
+4	4	runtime/Cargo.toml
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit 17eedfd5257bb6c51bf6f66341f84b5abfa84c2d
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue Jun 1 19:27:21 2021 +0300
+
+    Sort funcs (#91)
+
+5	5	.circleci/config.yml
+41	34	Cargo.lock
+2	2	crates/it-parser/Cargo.toml
+1	1	crates/module-interface/Cargo.toml
+20	1	crates/module-interface/src/interface/module_interface.rs
+2	2	tools/cli/Cargo.toml
+2	1	tools/cli/src/main.rs
+
+commit b2827a73abe53f7ddee6d09184cf3f6115e8fd94
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed May 26 17:48:16 2021 +0300
+
+    Avoid printing version to not TTY targets and after aqua command (#89)
+
+19	18	Cargo.lock
+2	1	tools/cli/Cargo.toml
+9	1	tools/cli/src/main.rs
+
+commit aa1da858ade2297cec3496bb03a1ff2ba27a1b06
+Author: vms <michail.vms@gmail.com>
+Date:   Fri May 21 21:15:02 2021 +0300
+
+    fix clippy warnings; update crate versions
+
+4	4	Cargo.lock
+1	1	crates/it-parser/Cargo.toml
+1	1	crates/module-interface/src/it_interface/mod.rs
+1	1	tools/cli/Cargo.toml
+1	1	tools/cli/src/main.rs
+
+commit 908f74ec5be41046abe519117b85c62eb15b5a74
+Author: vms <michail.vms@gmail.com>
+Date:   Fri May 21 21:06:50 2021 +0300
+
+    bump crates
+
+1	1	Cargo.lock
+1	1	crates/it-parser/Cargo.toml
+1	1	crates/module-interface/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+1	1	runtime/Cargo.toml
+
+commit 557419fd518519c6b5342803ddbf16c251e92876
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri May 21 20:55:23 2021 +0300
+
+    Improve function signatures in aqua command (#88)
+
+1	1	Cargo.lock
+6	6	crates/module-interface/src/interface/module_interface.rs
+1	1	tools/cli/Cargo.toml
+8	0	tools/cli/src/args.rs
+9	5	tools/cli/src/main.rs
+
+commit c62a2788975df5513188823c372da4441033be1f
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu May 20 20:20:57 2021 +0300
+
+    Print Aqua-compatible types (#86)
+
+85	54	Cargo.lock
+1	0	Cargo.toml
+2	2	crates/it-generator/src/instructions_generator/foreign_mod_instructions.rs
+3	1	crates/it-parser/Cargo.toml
+2	2	crates/it-parser/src/embedder.rs
+11	0	crates/it-parser/src/errors.rs
+14	11	crates/it-parser/src/extractor.rs
+0	213	crates/it-parser/src/extractor/functions.rs
+6	6	crates/it-parser/src/extractor/it.rs
+12	8	crates/it-parser/src/lib.rs
+26	0	crates/module-interface/Cargo.toml
+27	0	crates/module-interface/src/interface/errors.rs
+67	0	crates/module-interface/src/interface/interface_transformer.rs
+50	0	crates/module-interface/src/interface/itype_to_text.rs
+38	0	crates/module-interface/src/interface/mod.rs
+78	0	crates/module-interface/src/interface/module_interface.rs
+128	0	crates/module-interface/src/interface/records_transformer.rs
+33	0	crates/module-interface/src/it_interface/errors.rs
+86	0	crates/module-interface/src/it_interface/export_it_functions.rs
+129	0	crates/module-interface/src/it_interface/export_it_records.rs
+44	0	crates/module-interface/src/it_interface/it_module_interface.rs
+46	0	crates/module-interface/src/it_interface/mod.rs
+29	0	crates/module-interface/src/lib.rs
+2	2	fluence-app-service/Cargo.toml
+3	3	fluence-app-service/src/service_interface.rs
+2	1	fluence-faas/Cargo.toml
+3	3	fluence-faas/src/faas.rs
+68	68	fluence-faas/src/faas_interface.rs
+3	3	fluence-faas/src/json/ivalues_to_json.rs
+6	6	fluence-faas/src/json/json_to_ivalues.rs
+3	2	fluence-faas/src/lib.rs
+1	0	runtime/Cargo.toml
+3	3	runtime/src/engine.rs
+5	0	runtime/src/errors.rs
+2	2	runtime/src/host_imports/imports.rs
+3	3	runtime/src/host_imports/lifting/li_helper.rs
+1	1	runtime/src/lib.rs
+39	156	runtime/src/module/marine_module.rs
+13	3	runtime/src/module/mod.rs
+3	3	runtime/src/module/wit_instance.rs
+3	2	tools/cli/Cargo.toml
+18	0	tools/cli/src/args.rs
+35	3	tools/cli/src/main.rs
+2	2	tools/repl/Cargo.toml
+
+commit c51b5982d6797d4291884c820eb5614560a05297
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Wed May 19 18:58:24 2021 +0300
+
+    Fix IT generation (#87)
+
+1	1	.circleci/config.yml
+10	10	Cargo.lock
+2	2	crates/it-generator/Cargo.toml
+71	0	crates/it-generator/src/instructions_generator.rs
+64	202	crates/it-generator/src/instructions_generator/fn_instructions.rs
+82	0	crates/it-generator/src/instructions_generator/fn_instructions/args_it_generator.rs
+82	0	crates/it-generator/src/instructions_generator/fn_instructions/output_type_it_generator.rs
+77	205	crates/it-generator/src/instructions_generator/foreign_mod_instructions.rs
+86	0	crates/it-generator/src/instructions_generator/foreign_mod_instructions/args_it_generator.rs
+85	0	crates/it-generator/src/instructions_generator/foreign_mod_instructions/output_type_it_generator.rs
+1	7	crates/it-generator/src/instructions_generator/record_instructions.rs
+334	0	crates/it-generator/src/instructions_generator/tests.rs
+38	0	crates/it-generator/src/instructions_generator/utils.rs
+1	1	crates/module-info-parser/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/records_passing/Cargo.toml
+1	1	tools/cli/Cargo.toml
+1	1	tools/repl/Cargo.toml
+
+commit fa38bc4025968e9ac43622a50f54609b12ef281a
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Thu May 13 00:02:33 2021 +0300
+
+    Add marine tests examples (#85)
+
+280	21	Cargo.lock
+3	0	examples/call_parameters/Cargo.toml
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+37	0	examples/call_parameters/src/main.rs
+3	0	examples/greeting/Cargo.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+17	0	examples/greeting/src/main.rs
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_pure.wasm
+
+commit 5a832018b47ed5e6aa386799dec1e8231ae29068
+Author: vms <michail.vms@gmail.com>
+Date:   Wed May 12 16:46:10 2021 +0300
+
+    use 0.6.4 sdk in it-generator
+
+23	22	Cargo.lock
+2	2	crates/it-generator/Cargo.toml
+4	3	crates/it-generator/src/interface_generator.rs
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+2	2	tools/cli/Cargo.toml
+
+commit 0b1d038565bb7f7e21ff261d2075990ffcbdf92e
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Tue May 11 15:44:11 2021 +0300
+
+    Rename to marine: part 2 (#84)
+
+3	3	.circleci/config.yml
+5	5	CHANGELOG.md
+154	135	Cargo.lock
+1	1	Cargo.toml
+3	3	crates/it-generator/Cargo.toml
+2	2	crates/it-generator/src/instructions_generator.rs
+2	2	crates/it-generator/src/instructions_generator/fn_instructions.rs
+5	5	crates/it-generator/src/instructions_generator/foreign_mod_instructions.rs
+2	2	crates/it-generator/src/instructions_generator/record_instructions.rs
+2	2	crates/it-generator/src/instructions_generator/utils.rs
+7	6	crates/it-generator/src/interface_generator.rs
+1	1	crates/it-interfaces/Cargo.toml
+1	0	crates/it-interfaces/src/mit_interfaces.rs
+2	2	crates/it-parser/Cargo.toml
+1	1	crates/it-parser/src/errors.rs
+6	6	crates/it-parser/src/extractor.rs
+11	11	crates/it-parser/src/extractor/functions.rs
+1	1	crates/module-info-parser/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+2	2	examples/call_parameters/src/main.rs
+1	1	examples/greeting/Cargo.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+2	2	examples/greeting/src/main.rs
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+1	1	examples/ipfs-node/effector/Cargo.toml
+5	5	examples/ipfs-node/effector/src/main.rs
+1	1	examples/ipfs-node/pure/Cargo.toml
+5	5	examples/ipfs-node/pure/src/main.rs
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+1	1	examples/records/effector/Cargo.toml
+2	2	examples/records/effector/src/main.rs
+1	1	examples/records/pure/Cargo.toml
+3	3	examples/records/pure/src/main.rs
+1	1	examples/records/test-record/Cargo.toml
+3	1	examples/records/test-record/src/test_record.rs
+2	2	examples/sqlite/Cargo.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+8	8	examples/sqlite/src/main.rs
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+3	3	examples/url-downloader/curl_adapter/src/main.rs
+1	1	examples/url-downloader/facade/Cargo.toml
+4	4	examples/url-downloader/facade/src/main.rs
+1	1	examples/url-downloader/local_storage/Cargo.toml
+3	3	examples/url-downloader/local_storage/src/main.rs
+2	2	fluence-app-service/Cargo.toml
+5	5	fluence-faas/Cargo.toml
+2	2	fluence-faas/src/config/mod.rs
+0	0	fluence-faas/src/config/{to_fce_config.rs => to_marine_config.rs}
+5	5	fluence-faas/src/faas.rs
+1	1	fluence-faas/tests/arrays_passing.rs
+1	2	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+23	24	fluence-faas/tests/wasm_tests/arguments_passing/src/effector.rs
+25	26	fluence-faas/tests/wasm_tests/arguments_passing/src/pure.rs
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+14	14	fluence-faas/tests/wasm_tests/arrays_passing/src/effector.rs
+17	17	fluence-faas/tests/wasm_tests/arrays_passing/src/pure.rs
+1	1	fluence-faas/tests/wasm_tests/build.sh
+1	1	fluence-faas/tests/wasm_tests/records_passing/Cargo.toml
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_pure.wasm
+6	6	fluence-faas/tests/wasm_tests/records_passing/src/effector.rs
+8	8	fluence-faas/tests/wasm_tests/records_passing/src/pure.rs
+4	4	{engine => runtime}/Cargo.toml
+0	0	{engine => runtime}/src/config.rs
+0	0	{engine => runtime}/src/engine.rs
+0	0	{engine => runtime}/src/errors.rs
+0	0	{engine => runtime}/src/host_imports/errors.rs
+1	1	{engine => runtime}/src/host_imports/imports.rs
+1	1	{engine => runtime}/src/host_imports/lifting/li_helper.rs
+0	0	{engine => runtime}/src/host_imports/lifting/lift_ivalues.rs
+0	0	{engine => runtime}/src/host_imports/lifting/mod.rs
+0	0	{engine => runtime}/src/host_imports/lowering/lo_helper.rs
+0	0	{engine => runtime}/src/host_imports/lowering/lower_ivalues.rs
+0	0	{engine => runtime}/src/host_imports/lowering/mod.rs
+0	0	{engine => runtime}/src/host_imports/mod.rs
+0	0	{engine => runtime}/src/host_imports/utils.rs
+0	0	{engine => runtime}/src/lib.rs
+0	0	{engine => runtime}/src/misc/mod.rs
+0	0	{engine => runtime}/src/misc/prepare.rs
+0	0	{engine => runtime}/src/misc/version_checker.rs
+0	0	{engine => runtime}/src/module/exports.rs
+7	7	{engine => runtime}/src/module/marine_module.rs
+0	0	{engine => runtime}/src/module/memory.rs
+0	0	{engine => runtime}/src/module/mod.rs
+0	0	{engine => runtime}/src/module/type_converters.rs
+0	0	{engine => runtime}/src/module/wit_function.rs
+0	0	{engine => runtime}/src/module/wit_instance.rs
+0	0	{engine => runtime}/tests/greeting.rs
+0	0	{engine => runtime}/tests/records.rs
+0	0	{engine => runtime}/tests/redis_sqlite.rs
+4	4	tools/cli/Cargo.toml
+3	3	tools/cli/src/main.rs
+3	3	tools/repl/Cargo.toml
+1	1	tools/repl/src/logger.rs
+1	1	tools/repl/src/main.rs
+
+commit 269f691569de1a6a31414356f049c32f547af250
+Author: Mike Voronov <mikhail@fluence.one>
+Date:   Mon May 10 12:51:22 2021 +0300
+
+    Rename to marine: step 1 (#83)
+
+8	8	.circleci/config.yml
+140	217	Cargo.lock
+3	4	Cargo.toml
+3	3	README.md
+0	25	aquamarine-vm/Cargo.toml
+0	272	aquamarine-vm/src/aquamarine_stepper_vm.rs
+0	42	aquamarine-vm/src/config.rs
+0	86	aquamarine-vm/src/errors.rs
+0	49	aquamarine-vm/src/lib.rs
+5	5	crates/{wit-generator => it-generator}/Cargo.toml
+5	5	crates/{wit-generator => it-generator}/src/default_export_api_config.rs
+1	1	crates/{wit-generator => it-generator}/src/errors.rs
+14	14	crates/{wit-generator => it-generator}/src/instructions_generator.rs
+28	28	crates/{wit-generator => it-generator}/src/instructions_generator/fn_instructions.rs
+33	33	crates/{wit-generator => it-generator}/src/instructions_generator/foreign_mod_instructions.rs
+10	10	crates/{wit-generator => it-generator}/src/instructions_generator/record_instructions.rs
+7	7	crates/{wit-generator => it-generator}/src/instructions_generator/utils.rs
+29	29	crates/{wit-generator => it-generator}/src/interface_generator.rs
+3	3	crates/{wit-generator => it-generator}/src/lib.rs
+15	0	crates/it-interfaces/Cargo.toml
+11	11	crates/{wit-interfaces => it-interfaces}/src/errors.rs
+2	2	crates/{wit-interfaces => it-interfaces}/src/lib.rs
+17	17	crates/{wit-interfaces/src/fce_wit_interfaces.rs => it-interfaces/src/mit_interfaces.rs}
+5	5	crates/{wit-parser => it-parser}/Cargo.toml
+0	0	crates/{wit-parser => it-parser}/src/custom.rs
+9	9	crates/{wit-parser => it-parser}/src/deleter.rs
+11	11	crates/{wit-parser => it-parser}/src/embedder.rs
+8	8	crates/{wit-parser => it-parser}/src/errors.rs
+9	9	crates/{wit-parser => it-parser}/src/extractor.rs
+33	33	crates/{wit-parser => it-parser}/src/extractor/functions.rs
+21	21	crates/{wit-parser/src/extractor/wit.rs => it-parser/src/extractor/it.rs}
+15	15	crates/{wit-parser => it-parser}/src/lib.rs
+3	3	crates/module-info-parser/Cargo.toml
+1	1	crates/module-info-parser/src/sdk_version/version_embedder.rs
+3	3	crates/utils/Cargo.toml
+0	15	crates/wit-interfaces/Cargo.toml
+9	9	engine/Cargo.toml
+4	4	engine/src/config.rs
+27	30	engine/src/engine.rs
+20	20	engine/src/errors.rs
+8	8	engine/src/lib.rs
+4	4	engine/src/misc/prepare.rs
+8	8	engine/src/misc/version_checker.rs
+4	4	engine/src/module/exports.rs
+68	70	engine/src/module/{fce_module.rs => marine_module.rs}
+1	1	engine/src/module/memory.rs
+12	12	engine/src/module/mod.rs
+9	9	engine/src/module/wit_function.rs
+32	32	engine/src/module/wit_instance.rs
+25	22	engine/tests/greeting.rs
+12	10	engine/tests/records.rs
+28	26	engine/tests/redis_sqlite.rs
+1	1	examples/call_parameters/build.sh
+1	1	examples/greeting/Cargo.toml
+1	1	examples/greeting/build.sh
+2	2	examples/ipfs-node/build.sh
+2	2	examples/records/build.sh
+1	1	examples/sqlite/Cargo.toml
+1	1	examples/sqlite/build.sh
+3	3	examples/sqlite/src/main.rs
+3	3	examples/url-downloader/build.sh
+1	1	fluence-app-service/src/service.rs
+3	3	fluence-faas/Cargo.toml
+2	2	fluence-faas/src/config/faas_config.rs
+1	1	fluence-faas/src/config/mod.rs
+18	18	fluence-faas/src/config/to_fce_config.rs
+3	3	fluence-faas/src/errors.rs
+19	19	fluence-faas/src/faas.rs
+1	1	fluence-faas/src/faas_interface.rs
+3	3	fluence-faas/src/host_imports/call_parameters.rs
+3	3	fluence-faas/src/host_imports/mounted_binaries.rs
+1	1	fluence-faas/src/json/ivalues_to_json.rs
+2	2	fluence-faas/src/json/json_to_ivalues.rs
+16	16	fluence-faas/src/lib.rs
+1	1	fluence-faas/tests/records.rs
+3	3	fluence-faas/tests/wasm_tests/build.sh
+6	6	tools/cli/Cargo.toml
+2	2	tools/cli/src/args.rs
+2	2	tools/cli/src/build.rs
+5	5	tools/cli/src/errors.rs
+6	6	tools/cli/src/main.rs
+3	3	tools/repl/Cargo.toml
+3	3	tools/repl/src/logger.rs
+1	1	tools/repl/src/main.rs
+
+commit 2caee2ec0d597923ca13fb93236d135809f4095b
+Author: vms <mikhail@fluence.one>
+Date:   Thu Apr 29 14:38:00 2021 +0300
+
+    add changelog, update examples (#82)
+
+102	0	CHANGELOG.md
+18	18	Cargo.lock
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	76	examples/url-downloader/curl_adapter/src/main.rs
+0	5	examples/url-downloader/facade/src/main.rs
+1	90	examples/url-downloader/local_storage/src/main.rs
+-	-	images/fce_info.png
+1	1	tools/repl/Cargo.toml
+4	3	tools/repl/src/main.rs
+
+commit 3c4cf07bd3284888090288ca47c9b777ff744a10
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 27 19:35:40 2021 +0300
+
+    change log message
+
+2	2	Cargo.lock
+1	1	tools/cli/Cargo.toml
+1	1	tools/cli/src/main.rs
+1	1	tools/repl/Cargo.toml
+1	1	tools/repl/src/main.rs
+
+commit af66326ecf9b13bd7f9e6b630e2d82efdf6b3d5f
+Author: vms <mikhail@fluence.one>
+Date:   Tue Apr 27 19:24:48 2021 +0300
+
+    Switch to published versions (#81)
+
+34	26	Cargo.lock
+3	3	aquamarine-vm/Cargo.toml
+1	1	crates/module-info-parser/Cargo.toml
+1	1	crates/utils/Cargo.toml
+3	3	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+2	2	crates/wit-parser/Cargo.toml
+5	5	engine/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+1	1	examples/ipfs-node/effector/Cargo.toml
+1	1	examples/ipfs-node/pure/Cargo.toml
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+2	2	examples/sqlite/Cargo.toml
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+5	5	fluence-faas/Cargo.toml
+2	2	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/records_passing/Cargo.toml
+3	3	tools/cli/Cargo.toml
+3	3	tools/repl/Cargo.toml
+
+commit 37c0497914ecff8a0a97d57afa2e36f8d9195f77
+Author: vms <mikhail@fluence.one>
+Date:   Tue Apr 27 16:39:16 2021 +0300
+
+    embed rust sdk version after compiling (#80)
+
+2	2	Cargo.lock
+2	2	crates/module-info-parser/src/sdk_version/version_embedder.rs
+6	1	crates/wit-generator/src/interface_generator.rs
+6	1	tools/cli/src/build.rs
+6	1	tools/cli/src/errors.rs
+1	1	tools/cli/src/main.rs
+
+commit a9494fb78042b5e249d66fe012c273eb3ee4a81b
+Author: vms <mikhail@fluence.one>
+Date:   Mon Apr 26 15:25:04 2021 +0300
+
+    Update air-interpreter-interface branch (#79)
+
+1	1	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+1	1	engine/tests/redis_sqlite.rs
+
+commit c7ae9972fd6dbcb337430fec92bceeca53ef8be3
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 26 14:46:15 2021 +0300
+
+    bump minimal supported versions
+
+2	2	engine/src/lib.rs
+
+commit 96c32b64d87fbf63b7910c712ec7cdf21debce13
+Author: vms <mikhail@fluence.one>
+Date:   Mon Apr 26 14:02:26 2021 +0300
+
+    Improve arrays and record passing scheme (#76)
+
+115	109	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+2	9	aquamarine-vm/src/aquamarine_stepper_vm.rs
+5	2	crates/wit-generator/Cargo.toml
+6	25	crates/wit-generator/src/errors.rs
+49	28	crates/wit-generator/src/instructions_generator/fn_instructions.rs
+68	43	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+10	4	crates/wit-generator/src/instructions_generator/record_instructions.rs
+12	4	crates/wit-generator/src/instructions_generator/utils.rs
+11	11	crates/wit-generator/src/interface_generator.rs
+1	1	crates/wit-interfaces/Cargo.toml
+3	2	crates/wit-parser/Cargo.toml
+8	16	crates/wit-parser/src/errors.rs
+4	7	crates/wit-parser/src/extractor/functions.rs
+2	2	crates/wit-parser/src/extractor/wit.rs
+4	2	engine/Cargo.toml
+11	13	engine/src/host_imports/errors.rs
+37	6	engine/src/host_imports/imports.rs
+0	363	engine/src/host_imports/ivalues_lifting.rs
+0	172	engine/src/host_imports/ivalues_lowering.rs
+41	0	engine/src/host_imports/lifting/li_helper.rs
+105	0	engine/src/host_imports/lifting/lift_ivalues.rs
+28	0	engine/src/host_imports/lifting/mod.rs
+56	0	engine/src/host_imports/lowering/lo_helper.rs
+64	0	engine/src/host_imports/lowering/lower_ivalues.rs
+27	0	engine/src/host_imports/lowering/mod.rs
+3	3	engine/src/host_imports/mod.rs
+2	11	engine/src/host_imports/utils.rs
+4	12	engine/src/module/fce_module.rs
+19	0	engine/src/module/wit_instance.rs
+2	2	engine/tests/records.rs
+1	1	engine/tests/redis_sqlite.rs
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+6	4	examples/call_parameters/build.sh
+-	-	examples/greeting/artifacts/greeting.wasm
+4	2	examples/greeting/build.sh
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+15	9	examples/ipfs-node/build.sh
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+15	9	examples/records/build.sh
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+5	3	examples/sqlite/build.sh
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+20	11	examples/url-downloader/build.sh
+78	2	examples/url-downloader/curl_adapter/src/main.rs
+7	0	examples/url-downloader/facade/src/main.rs
+2	0	examples/url-downloader/local_storage/Cargo.toml
+91	3	examples/url-downloader/local_storage/src/main.rs
+6	0	examples/url-downloader/sites/asd
+1	1	fluence-app-service/src/service_interface.rs
+1	1	fluence-faas/Cargo.toml
+7	19	fluence-faas/src/errors.rs
+1	1	fluence-faas/src/host_imports/mounted_binaries.rs
+21	0	fluence-faas/src/json/ivalues_to_json.rs
+16	1	fluence-faas/src/json/json_to_ivalues.rs
+2	2	fluence-faas/src/module_loading/mod.rs
+17	17	fluence-faas/tests/arguments_passing.rs
+49	77	fluence-faas/tests/arrays_passing.rs
+3	1	fluence-faas/tests/call_parameters.rs
+14	14	fluence-faas/tests/records.rs
+1	0	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+1	0	fluence-faas/tests/wasm_tests/arguments_passing/src/effector.rs
+3	1	fluence-faas/tests/wasm_tests/arguments_passing/src/pure.rs
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+4	5	fluence-faas/tests/wasm_tests/arrays_passing/src/effector.rs
+5	7	fluence-faas/tests/wasm_tests/arrays_passing/src/pure.rs
+3	3	fluence-faas/tests/wasm_tests/build.sh
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_pure.wasm
+1	0	tools/cli/Cargo.toml
+10	38	tools/cli/src/errors.rs
+1	1	tools/repl/src/logger.rs
+
+commit c7023115954f6fec4222651977043fc1132cb15a
+Author: vms <mikhail@fluence.one>
+Date:   Mon Apr 19 13:34:05 2021 +0300
+
+    Remove unsafe from import funcs (#75)
+
+10	10	.circleci/config.yml
+14	14	Cargo.lock
+0	1	examples/build.sh
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+5	0	examples/call_parameters/src/main.rs
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+2	2	examples/ipfs-node/effector/src/main.rs
+2	2	examples/ipfs-node/pure/src/main.rs
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+1	1	examples/records/pure/src/main.rs
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	1	examples/url-downloader/curl_adapter/src/main.rs
+2	2	examples/url-downloader/facade/src/main.rs
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+37	41	fluence-faas/tests/wasm_tests/arguments_passing/src/pure.rs
+0	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+12	12	fluence-faas/tests/wasm_tests/arrays_passing/src/pure.rs
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_pure.wasm
+2	2	fluence-faas/tests/wasm_tests/records_passing/src/pure.rs
+
+commit 820e292f1555a9ca8cd9ab8fc9a304e7fbb90463
+Author: vms <mikhail@fluence.one>
+Date:   Tue Apr 13 12:36:14 2021 +0300
+
+    Additional tests for BWU (#74)
+
+2	2	.circleci/config.yml
+1	1	.gitignore
+27	27	Cargo.lock
+1	1	Cargo.toml
+2	12	engine/src/engine.rs
+1	4	engine/src/module/wit_instance.rs
+302	167	fluence-faas/tests/arguments_passing.rs
+37	32	fluence-faas/tests/records.rs
+0	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+84	0	fluence-faas/tests/wasm_tests/arguments_passing/src/effector.rs
+130	0	fluence-faas/tests/wasm_tests/arguments_passing/src/pure.rs
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+6	5	fluence-faas/tests/wasm_tests/build.sh
+0	6	fluence-faas/tests/wasm_tests/inner_records/Config.toml
+-	-	fluence-faas/tests/wasm_tests/inner_records/artifacts/inner_records_pure.wasm
+6	2	fluence-faas/tests/wasm_tests/{inner_records => records_passing}/Cargo.toml
+11	0	fluence-faas/tests/wasm_tests/records_passing/Config.toml
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/records_passing/artifacts/records_passing_pure.wasm
+10	0	fluence-faas/tests/wasm_tests/{inner_records/src/pure.rs => records_passing/src/effector.rs}
+84	0	fluence-faas/tests/wasm_tests/records_passing/src/pure.rs
+
+commit ab14b987ea2494ca2b8c8c82f649a41b403be496
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Apr 12 15:30:37 2021 +0300
+
+    use latest sqlite and redis
+
+2	2	engine/tests/redis_sqlite.rs
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+1	1	examples/sqlite/build.sh
+
+commit 1dcc9968bb67985cc2e70cc179571dcae466d8d9
+Author: vms <mikhail@fluence.one>
+Date:   Mon Apr 12 00:21:47 2021 +0300
+
+    Support references (#70)
+
+64	102	Cargo.lock
+1	1	crates/module-info-parser/Cargo.toml
+3	3	crates/wit-generator/Cargo.toml
+3	12	crates/wit-generator/src/default_export_api_config.rs
+43	45	crates/wit-generator/src/instructions_generator/fn_instructions.rs
+74	72	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+30	28	crates/wit-generator/src/instructions_generator/utils.rs
+3	3	crates/wit-generator/src/interface_generator.rs
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+2	2	engine/Cargo.toml
+6	6	engine/src/engine.rs
+65	110	engine/src/errors.rs
+0	1	engine/src/host_imports/errors.rs
+1	1	engine/src/lib.rs
+8	3	engine/src/misc/version_checker.rs
+27	17	engine/src/module/fce_module.rs
+2	1	engine/src/module/wit_function.rs
+10	3	engine/src/module/wit_instance.rs
+5	3	engine/tests/greeting.rs
+1	1	examples/call_parameters/Cargo.toml
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+1	1	examples/greeting/Cargo.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+1	1	examples/ipfs-node/effector/Cargo.toml
+1	1	examples/ipfs-node/pure/Cargo.toml
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+2	2	examples/sqlite/Cargo.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+3	2	fluence-faas/Cargo.toml
+1	1	fluence-faas/src/config/to_fce_config.rs
+3	3	fluence-faas/src/faas.rs
+1	1	fluence-faas/src/host_imports/call_parameters.rs
+1	1	fluence-faas/src/host_imports/mounted_binaries.rs
+2	2	fluence-faas/src/lib.rs
+2	2	fluence-faas/tests/call_parameters.rs
+2	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+2	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+18	13	fluence-faas/tests/wasm_tests/build.sh
+1	1	fluence-faas/tests/wasm_tests/inner_records/Cargo.toml
+-	-	fluence-faas/tests/wasm_tests/inner_records/artifacts/inner_records_pure.wasm
+1	1	tools/cli/Cargo.toml
+1	1	tools/repl/Cargo.toml
+
+commit 2aa3caee83ef8d70319826bdd5ce2dd2e9a0ef30
+Author: vms <mikhail@fluence.one>
+Date:   Fri Apr 9 10:43:55 2021 +0300
+
+    Support build time in module manifests (#71)
+
+7	5	Cargo.lock
+1	0	crates/module-info-parser/Cargo.toml
+4	0	crates/module-info-parser/src/manifest/errors.rs
+7	1	crates/module-info-parser/src/manifest/module_manifest.rs
+3	0	crates/module-info-parser/src/manifest/tests.rs
+
+commit 6d4ef8200b8491270c7a45c25586f905cf15bc5f
+Author: vms <mikhail@fluence.one>
+Date:   Fri Apr 9 10:43:22 2021 +0300
+
+    Add -nr flag to repl (#72)
+
+15	2	tools/repl/src/repl.rs
+
+commit 80337a04d7eb03ca718e8853a6b52268400fedb6
+Author: vms <mikhail@fluence.one>
+Date:   Fri Apr 9 10:41:54 2021 +0300
+
+    Print warning if repl and cli aren't of the last versions (#73)
+
+306	69	Cargo.lock
+2	0	tools/cli/Cargo.toml
+20	0	tools/cli/src/main.rs
+2	0	tools/repl/Cargo.toml
+35	4	tools/repl/src/main.rs
+
+commit 1d08d51b9a727b9d2642d0dab44c4bc9c512c858
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Mar 29 18:07:55 2021 +0300
+
+    reexport interfaces from wit-parser
+
+2	2	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+2	2	crates/wit-parser/Cargo.toml
+20	3	crates/wit-parser/src/extractor.rs
+17	12	crates/wit-parser/src/extractor/functions.rs
+19	0	crates/wit-parser/src/lib.rs
+2	2	engine/Cargo.toml
+1	1	tools/cli/Cargo.toml
+11	12	tools/repl/src/repl.rs
+
+commit 2ee3520e6791f22b5d597a4e612b6d8d8049c659
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Mar 29 13:31:05 2021 +0300
+
+    rename call_with_module_name to call_module
+
+1	1	fluence-app-service/src/service.rs
+1	1	tools/repl/src/repl.rs
+
+commit 0d1e3c78482e555e2f6e1c0a2b2905aebf3413b3
+Author: vms <mikhail@fluence.one>
+Date:   Tue Mar 16 13:51:59 2021 +0300
+
+    Check for minimal sdk version (#68)
+
+2	1	.circleci/config.yml
+39	27	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+5	3	crates/module-info-parser/Cargo.toml
+4	4	crates/module-info-parser/src/custom_section_extractor.rs
+6	43	crates/module-info-parser/src/errors.rs
+2	14	crates/module-info-parser/src/lib.rs
+50	0	crates/module-info-parser/src/manifest/errors.rs
+25	8	crates/module-info-parser/src/{ => manifest}/manifest_extractor.rs
+27	0	crates/module-info-parser/src/manifest/mod.rs
+1	1	crates/module-info-parser/src/{manifest.rs => manifest/module_manifest.rs}
+2	2	crates/module-info-parser/src/{ => manifest}/tests.rs
+30	0	crates/module-info-parser/src/sdk_version/errors.rs
+26	0	crates/module-info-parser/src/sdk_version/mod.rs
+90	0	crates/module-info-parser/src/sdk_version/version_embedder.rs
+26	10	crates/module-info-parser/src/{ => sdk_version}/version_extractor.rs
+2	1	crates/wit-generator/Cargo.toml
+4	4	crates/wit-generator/src/instructions_generator.rs
+1	1	crates/wit-interfaces/Cargo.toml
+2	1	crates/wit-parser/Cargo.toml
+8	4	crates/wit-parser/src/embedder.rs
+12	3	crates/wit-parser/src/extractor.rs
+25	11	crates/wit-parser/src/extractor/wit.rs
+2	1	crates/wit-parser/src/lib.rs
+6	4	engine/Cargo.toml
+32	1	engine/src/errors.rs
+24	0	engine/src/lib.rs
+3	0	engine/src/misc/mod.rs
+52	0	engine/src/misc/version_checker.rs
+6	2	engine/src/module/fce_module.rs
+71	20	engine/tests/redis_sqlite.rs
+-	-	examples/greeting/artifacts/greeting.wasm
+2	2	fluence-app-service/Cargo.toml
+3	0	fluence-app-service/src/lib.rs
+3	3	fluence-faas/Cargo.toml
+3	4	fluence-faas/src/config/raw_faas_config.rs
+2	0	fluence-faas/src/lib.rs
+12	12	fluence-faas/tests/arguments_passing.rs
+13	13	fluence-faas/tests/arrays_passing.rs
+1	1	fluence-faas/tests/call_parameters.rs
+2	2	fluence-faas/tests/greeting.rs
+2	2	fluence-faas/tests/records.rs
+4	1	tools/cli/Cargo.toml
+40	10	tools/cli/src/args.rs
+44	15	tools/cli/src/main.rs
+2	2	tools/repl/Cargo.toml
+
+commit 5effdcba7215cd378f138ab77f27016024720c0e
+Author: vms <mikhail@fluence.one>
+Date:   Fri Mar 12 20:04:47 2021 +0300
+
+    Support versioning in CLI (#67)
+
+5	5	.circleci/config.yml
+137	47	Cargo.lock
+1	0	Cargo.toml
+21	0	crates/module-info-parser/Cargo.toml
+59	0	crates/module-info-parser/src/custom_section_extractor.rs
+84	0	crates/module-info-parser/src/errors.rs
+49	0	crates/module-info-parser/src/lib.rs
+145	0	crates/module-info-parser/src/manifest.rs
+55	0	crates/module-info-parser/src/manifest_extractor.rs
+154	0	crates/module-info-parser/src/tests.rs
+64	0	crates/module-info-parser/src/version_extractor.rs
+2	2	crates/wit-generator/Cargo.toml
+2	1	crates/wit-parser/Cargo.toml
+7	5	crates/wit-parser/src/custom.rs
+2	2	crates/wit-parser/src/deleter.rs
+4	7	crates/wit-parser/src/embedder.rs
+26	46	crates/wit-parser/src/errors.rs
+2	2	crates/wit-parser/src/extractor.rs
+1	1	crates/wit-parser/src/extractor/functions.rs
+18	19	crates/wit-parser/src/extractor/wit.rs
+1	1	examples/call_parameters/Cargo.toml
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+3	1	examples/greeting/Cargo.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+3	0	examples/greeting/src/main.rs
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+1	1	examples/ipfs-node/effector/Cargo.toml
+3	0	examples/ipfs-node/effector/src/main.rs
+1	1	examples/ipfs-node/pure/Cargo.toml
+3	0	examples/ipfs-node/pure/src/main.rs
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+1	1	examples/records/effector/Cargo.toml
+4	0	examples/records/effector/src/main.rs
+1	1	examples/records/pure/Cargo.toml
+4	0	examples/records/pure/src/main.rs
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+4	0	examples/sqlite/src/main.rs
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+3	0	examples/url-downloader/curl_adapter/src/main.rs
+1	1	examples/url-downloader/facade/Cargo.toml
+3	0	examples/url-downloader/facade/src/main.rs
+1	1	examples/url-downloader/local_storage/Cargo.toml
+5	1	examples/url-downloader/local_storage/src/main.rs
+1	1	fluence-faas/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/inner_records/Cargo.toml
+2	1	tools/cli/Cargo.toml
+14	3	tools/cli/src/args.rs
+2	2	tools/cli/src/build.rs
+86	56	tools/cli/src/main.rs
+1	1	tools/repl/Cargo.toml
+
+commit b0f2738c94d3f58310b492309fcd5aa9ded33a63
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 4 14:15:21 2021 +0300
+
+    update paths in Config.toml
+
+4	4	examples/sqlite/Config.toml
+
+commit 474b90b153d19907e604d5a6297b6c0e3b5064e9
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Mar 4 14:09:58 2021 +0300
+
+    update sqlite example
+
+23	21	Cargo.lock
+2	2	examples/sqlite/Cargo.toml
+9	3	examples/sqlite/Config.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+1	1	examples/sqlite/build.sh
+11	10	examples/sqlite/src/main.rs
+
+commit ed03154258ea903d516be9cc53c8449446b9778c
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Feb 28 19:31:53 2021 +0300
+
+    move to the fluence sdk 0.4.2
+
+53	53	Cargo.lock
+3	3	aquamarine-vm/Cargo.toml
+1	1	crates/wit-generator/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+2	2	examples/ipfs-node/effector/Cargo.toml
+2	2	examples/ipfs-node/pure/Cargo.toml
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/inner_records/Cargo.toml
+4	4	tools/repl/Cargo.toml
+
+commit 4e59c1815cb9d7636009bc3ef976313b4b4c1d2d
+Author: vms <mikhail@fluence.one>
+Date:   Fri Feb 26 13:21:53 2021 +0300
+
+    move to the sdk 0.4.1 (#65)
+
+37	37	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+1	1	crates/wit-generator/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+1	1	examples/ipfs-node/effector/Cargo.toml
+1	1	examples/ipfs-node/effector/src/main.rs
+1	1	examples/ipfs-node/pure/Cargo.toml
+1	1	examples/ipfs-node/pure/src/main.rs
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/inner_records/Cargo.toml
+3	3	tools/repl/Cargo.toml
+
+commit ad1b016529395d8c2146b8ac14ba7b2f5483dae5
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Feb 25 22:27:16 2021 +0300
+
+    bump crate versions
+
+50	88	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+1	1	crates/wit-generator/Cargo.toml
+1	1	engine/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+1	1	examples/ipfs-node/effector/Cargo.toml
+1	1	examples/ipfs-node/pure/Cargo.toml
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+3	4	fluence-faas/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/inner_records/Cargo.toml
+3	3	tools/repl/Cargo.toml
+
+commit c559f3f2266b924398c203a45863ebf2fb9252ec
+Author: vms <mikhail@fluence.one>
+Date:   Wed Feb 24 12:25:55 2021 +0300
+
+    New mounted binaries interface (#64)
+
+115	78	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+1	1	crates/wit-generator/Cargo.toml
+3	0	engine/Cargo.toml
+4	4	engine/src/engine.rs
+14	30	engine/src/host_imports/errors.rs
+81	40	engine/src/host_imports/ivalues_lifting.rs
+1	1	engine/src/host_imports/mod.rs
+1	1	engine/src/lib.rs
+4	4	engine/src/misc/prepare.rs
+13	13	engine/src/module/fce_module.rs
+3	3	engine/src/module/wit_function.rs
+5	5	engine/src/module/wit_instance.rs
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+1	1	examples/ipfs-node/effector/Cargo.toml
+23	9	examples/ipfs-node/effector/src/main.rs
+1	1	examples/ipfs-node/pure/Cargo.toml
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+5	2	examples/url-downloader/curl_adapter/src/main.rs
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+0	3	fluence-app-service/src/lib.rs
+1	2	fluence-app-service/src/raw_toml_config.rs
+3	2	fluence-faas/Cargo.toml
+0	113	fluence-faas/src/config.rs
+234	0	fluence-faas/src/config/faas_config.rs
+31	0	fluence-faas/src/config/mod.rs
+123	0	fluence-faas/src/config/raw_faas_config.rs
+4	104	fluence-faas/src/{misc/utils.rs => config/to_fce_config.rs}
+8	8	fluence-faas/src/faas.rs
+41	0	fluence-faas/src/host_imports/call_parameters.rs
+0	0	fluence-faas/src/{ => host_imports}/logger/log_utf8_string_impl.rs
+0	0	fluence-faas/src/{ => host_imports}/logger/logger_filter.rs
+0	0	fluence-faas/src/{ => host_imports}/logger/mod.rs
+22	0	fluence-faas/src/host_imports/mod.rs
+123	0	fluence-faas/src/host_imports/mounted_binaries.rs
+0	0	fluence-faas/src/{misc => json}/ivalues_to_json.rs
+0	0	fluence-faas/src/{misc => json}/json_to_ivalues.rs
+0	6	fluence-faas/src/{misc => json}/mod.rs
+7	10	fluence-faas/src/lib.rs
+73	0	fluence-faas/src/module_loading/mod.rs
+0	0	fluence-faas/src/{misc => module_loading}/modules_load_strategy.rs
+0	233	fluence-faas/src/raw_toml_config.rs
+1	1	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	1	fluence-faas/tests/wasm_tests/inner_records/Cargo.toml
+3	3	tools/repl/Cargo.toml
+
+commit 0a9df646cf39be3f6101342eae01a7a1394fe552
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Feb 17 23:16:22 2021 +0300
+
+    rename outcome in raw-aquamarine-vm-api
+
+1	1	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+2	2	aquamarine-vm/src/aquamarine_stepper_vm.rs
+
+commit 47f0b31f3f439e60b9c0aaf95fbf437beb1dde18
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Feb 17 23:01:04 2021 +0300
+
+    move to the newest interpreter interface crate version
+
+43	63	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+3	3	aquamarine-vm/src/aquamarine_stepper_vm.rs
+2	2	aquamarine-vm/src/lib.rs
+
+commit cdfed97fce4df8ecd7fd4d3cf4a051726fc7764f
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Feb 12 14:24:36 2021 +0300
+
+    Bump versions to 0.2.0 (#63)
+
+0	0	.github/{workflows => disabled}/rust_audit.yml
+8	8	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+2	2	crates/wit-generator/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+3	3	engine/Cargo.toml
+1	0	examples/call_parameters/src/main.rs
+2	0	examples/ipfs-node/effector/src/main.rs
+2	0	examples/ipfs-node/pure/src/main.rs
+2	0	examples/records/pure/src/main.rs
+2	0	examples/url-downloader/curl_adapter/src/main.rs
+2	1	examples/url-downloader/facade/src/main.rs
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+2	0	fluence-faas/tests/wasm_tests/arguments_passing/src/pure.rs
+2	0	fluence-faas/tests/wasm_tests/arrays_passing/src/pure.rs
+1	1	fluence-faas/tests/wasm_tests/inner_records/src/pure.rs
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit 12795cc0cb8a59ea4f8bf57bac3f3e2586b0f9ff
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Feb 12 13:44:52 2021 +0300
+
+    Allow to specify module file name in the config (#62)
+
+2	1	.circleci/config.yml
+1	0	Cargo.lock
+12	8	aquamarine-vm/src/aquamarine_stepper_vm.rs
+2	2	crates/wit-parser/src/extractor.rs
+4	6	crates/wit-parser/src/extractor/wit.rs
+4	4	engine/src/engine.rs
+1	1	fluence-app-service/src/lib.rs
+6	4	fluence-app-service/src/service.rs
+1	0	fluence-faas/Cargo.toml
+10	2	fluence-faas/src/config.rs
+24	31	fluence-faas/src/errors.rs
+17	27	fluence-faas/src/faas.rs
+1	1	fluence-faas/src/lib.rs
+46	19	fluence-faas/src/misc/modules_load_strategy.rs
+10	12	fluence-faas/src/misc/utils.rs
+13	34	fluence-faas/src/raw_toml_config.rs
+2	2	tools/cli/src/main.rs
+
+commit 9dc33e99f04e52a9722d71e39b6f131ccc0c7e59
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 5 12:51:51 2021 +0300
+
+    add more tests for argument passing
+
+147	256	fluence-faas/tests/arguments_passing.rs
+
+commit f4634ccd4ae01da313eb57ed215ea80f1d70217d
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 5 12:14:42 2021 +0300
+
+    update greeting example
+
+4	4	Cargo.lock
+-	-	examples/greeting/artifacts/greeting.wasm
+7	4	tools/repl/src/logger.rs
+2	2	tools/repl/src/repl.rs
+
+commit 572dce6a76a77cbf9ba768cf91b6ec49cfc008a4
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 5 01:08:16 2021 +0300
+
+    add shortcauts and fix error messages
+
+1	1	Cargo.lock
+1	1	tools/repl/Cargo.toml
+19	19	tools/repl/src/repl.rs
+
+commit 2a3fa98fef702d174f1dc199819da1c08df9b913
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 5 00:54:25 2021 +0300
+
+    enable logger by default in repl
+
+2	2	Cargo.lock
+1	1	tools/repl/Cargo.toml
+123	102	tools/repl/src/repl.rs
+
+commit 52be0dd5edad51973b8cf584c725aa8eb3d367f2
+Author: vms <mikhail@fluence.one>
+Date:   Fri Feb 5 00:28:12 2021 +0300
+
+    Improve various stuff in REPL (#61)
+
+23	23	Cargo.lock
+1	1	fluence-app-service/src/service_interface.rs
+106	0	fluence-faas/src/logger/logger_filter.rs
+1	1	tools/cli/Cargo.toml
+2	2	tools/cli/src/args.rs
+2	2	tools/repl/Cargo.toml
+166	0	tools/repl/src/editor.rs
+53	0	tools/repl/src/logger.rs
+19	182	tools/repl/src/main.rs
+35	63	tools/repl/src/repl.rs
+59	0	tools/repl/src/repl/print_state.rs
+
+commit 65a72238032f6d875b24a26828cf388cead830c8
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Feb 4 15:32:45 2021 +0300
+
+    update sqlite, update all wasms, small fixes (#60)
+    
+    
+    Co-authored-by: vms <michail.vms@gmail.com>
+
+11	8	.circleci/config.yml
+79	79	Cargo.lock
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+2	0	examples/sqlite/Config.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+1	1	examples/sqlite/build.sh
+13	7	examples/sqlite/src/main.rs
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+
+commit 181d9575601a3b2552eedf2211c4a9c76a3b81e4
+Author: vms <mikhail@fluence.one>
+Date:   Sat Jan 16 00:44:09 2021 +0300
+
+    fix recursion bug (#59)
+
+28	27	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+1	1	crates/wit-generator/Cargo.toml
+3	3	crates/wit-generator/src/instructions_generator.rs
+1	3	crates/wit-generator/src/interface_generator.rs
+2	0	crates/wit-generator/src/lib.rs
+2	1	engine/Cargo.toml
+32	9	engine/src/module/fce_module.rs
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+2	2	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit a1139bda61ccbbffd41ae11ea06905092038a493
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jan 12 12:14:33 2021 +0300
+
+    fix crate versions
+
+177	143	Cargo.lock
+4	4	aquamarine-vm/Cargo.toml
+1	1	crates/utils/Cargo.toml
+4	4	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+3	3	crates/wit-parser/Cargo.toml
+5	5	engine/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+1	1	examples/greeting/Cargo.toml
+1	1	examples/ipfs-node/effector/Cargo.toml
+1	1	examples/ipfs-node/pure/Cargo.toml
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+4	4	fluence-app-service/Cargo.toml
+6	6	fluence-faas/Cargo.toml
+4	4	tools/cli/Cargo.toml
+3	3	tools/repl/Cargo.toml
+
+commit fae87bc0ebf0c0ea933af8457c0c7cd5d78ea52d
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Dec 31 15:03:00 2020 +0300
+
+    Mark examples as publish = false (#57)
+
+8	8	Cargo.lock
+1	0	examples/call_parameters/Cargo.toml
+1	0	examples/greeting/Cargo.toml
+1	0	examples/ipfs-node/effector/Cargo.toml
+1	0	examples/ipfs-node/pure/Cargo.toml
+1	0	examples/records/effector/Cargo.toml
+1	0	examples/records/pure/Cargo.toml
+1	0	examples/records/test-record/Cargo.toml
+1	0	examples/sqlite/Cargo.toml
+1	0	examples/url-downloader/curl_adapter/Cargo.toml
+1	0	examples/url-downloader/facade/Cargo.toml
+1	0	examples/url-downloader/local_storage/Cargo.toml
+1	0	fluence-faas/tests/wasm_tests/arguments_passing/Cargo.toml
+1	0	fluence-faas/tests/wasm_tests/arrays_passing/Cargo.toml
+1	0	fluence-faas/tests/wasm_tests/inner_records/Cargo.toml
+
+commit 849903372042a8dae5da1d491024aea8682d4771
+Author: vms <mikhail@fluence.one>
+Date:   Tue Dec 29 17:51:13 2020 +0300
+
+    Move to the wasmer-wit 0.17.24 (#56)
+
+68	48	Cargo.lock
+3	3	aquamarine-vm/Cargo.toml
+1	1	aquamarine-vm/src/lib.rs
+3	3	crates/wit-generator/Cargo.toml
+1	1	crates/wit-generator/src/default_export_api_config.rs
+5	8	crates/wit-generator/src/instructions_generator.rs
+1	1	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+5	5	crates/wit-generator/src/instructions_generator/record_instructions.rs
+4	2	crates/wit-generator/src/interface_generator.rs
+2	2	crates/wit-interfaces/Cargo.toml
+2	2	crates/wit-interfaces/src/fce_wit_interfaces.rs
+3	3	crates/wit-parser/Cargo.toml
+1	1	crates/wit-parser/src/embedder.rs
+2	2	crates/wit-parser/src/extractor/functions.rs
+4	4	engine/Cargo.toml
+5	5	engine/src/host_imports/ivalues_lifting.rs
+2	2	engine/src/host_imports/ivalues_lowering.rs
+3	3	engine/src/lib.rs
+5	5	engine/src/module/mod.rs
+1	1	engine/tests/records.rs
+2	2	fluence-app-service/Cargo.toml
+1	1	fluence-app-service/src/lib.rs
+3	3	fluence-faas/Cargo.toml
+1	1	fluence-faas/src/lib.rs
+4	4	fluence-faas/src/misc/json_to_ivalues.rs
+2	2	fluence-faas/src/misc/utils.rs
+1	1	fluence-faas/tests/records.rs
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit dc43acfc884cdc49dd910ea40f13f698e5c28ae0
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Dec 25 20:30:21 2020 +0300
+
+    prepare for aquamarine-vm publishing
+
+22	21	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+
+commit d25f2245581ac5de25a3540838633301c094ffde
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Dec 25 17:31:31 2020 +0300
+
+    Store ParticleParameters in AquamarineVM, pass them to call_service (#55)
+
+74	29	Cargo.lock
+4	2	aquamarine-vm/Cargo.toml
+94	26	aquamarine-vm/src/aquamarine_stepper_vm.rs
+7	2	aquamarine-vm/src/config.rs
+2	0	aquamarine-vm/src/lib.rs
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+
+commit f022a2dec4229f1dd739794e98a0e5d080ea13d5
+Author: vms <mikhail@fluence.one>
+Date:   Tue Dec 22 22:45:20 2020 +0300
+
+    Implicitly flatten array with one JValue according to a function signature (#54)
+
+26	26	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+22	13	fluence-faas/src/misc/json_to_ivalues.rs
+14	0	fluence-faas/tests/arguments_passing.rs
+2	2	tools/repl/Cargo.toml
+
+commit 725f6e65f32b8503faae49c875187db6fbdc3d1e
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Dec 22 16:09:47 2020 +0300
+
+    bump versions
+
+5	5	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+1	1	crates/wit-generator/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit b342859164b36bf68572d3e7ff7fa3ddf500f04f
+Author: vms <mikhail@fluence.one>
+Date:   Tue Dec 22 16:06:49 2020 +0300
+
+    update sdk to 0.2.13 (#53)
+
+43	43	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+9	1	examples/call_parameters/src/main.rs
+1	1	examples/greeting/Cargo.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+1	1	examples/ipfs-node/effector/Cargo.toml
+1	1	examples/ipfs-node/pure/Cargo.toml
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+2	2	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+14	9	fluence-faas/tests/call_parameters.rs
+1	1	tools/repl/Cargo.toml
+
+commit 20092f817444b3a535255e65ac725bdaeb638d93
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Dec 22 04:15:00 2020 +0300
+
+    bump versions
+
+54	54	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+2	2	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+2	2	crates/wit-parser/Cargo.toml
+3	3	engine/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit ede18f00de6a88b83ad3acf53bcd7f842123df79
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Dec 21 20:01:22 2020 +0300
+
+    switch to the master branch of stepper-interface
+
+2	2	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+
+commit a039973835aed5c7c93a13e0b0c03e6632816e65
+Author: vms <mikhail@fluence.one>
+Date:   Mon Dec 21 19:34:25 2020 +0300
+
+    Reexport tetplaplets (#52)
+
+58	58	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+2	2	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+1	1	engine/Cargo.toml
+1	1	examples/call_parameters/Cargo.toml
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+1	1	examples/greeting/Cargo.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+1	1	examples/ipfs-node/effector/Cargo.toml
+1	1	examples/ipfs-node/pure/Cargo.toml
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+1	1	examples/records/effector/Cargo.toml
+1	1	examples/records/pure/Cargo.toml
+1	1	examples/records/test-record/Cargo.toml
+1	1	examples/sqlite/Cargo.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	1	examples/url-downloader/curl_adapter/Cargo.toml
+1	1	examples/url-downloader/facade/Cargo.toml
+1	1	examples/url-downloader/local_storage/Cargo.toml
+1	0	fluence-app-service/src/lib.rs
+2	2	fluence-faas/Cargo.toml
+1	0	fluence-faas/src/lib.rs
+10	10	fluence-faas/tests/call_parameters.rs
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+-	-	fluence-faas/tests/wasm_tests/inner_records/artifacts/inner_records_pure.wasm
+1	1	tools/repl/Cargo.toml
+
+commit 2af7a7297b4c3cb70e328ad994ce3c549ab359b3
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Dec 17 22:35:50 2020 +0300
+
+    depend on the master branch of stepper-interface
+
+1	1	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+
+commit 2d31b7fd63cea4f0a33562e8ebf186e5f91039b8
+Author: vms <mikhail@fluence.one>
+Date:   Thu Dec 17 21:24:42 2020 +0300
+
+    Use Vec<u8> instead of String for data (#51)
+
+5	5	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+22	10	aquamarine-vm/src/aquamarine_stepper_vm.rs
+3	0	aquamarine-vm/src/lib.rs
+1	1	engine/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit 11674ee85688782a46011ea6eaf6253f8b4d67ba
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Dec 17 18:46:01 2020 +0300
+
+    i64 -> i32 for 'target' in log_utf8_string (#49)
+
+1	19	.circleci/config.yml
+16	0	.github/workflows/rust_audit.yml
+4	4	Cargo.lock
+1	1	aquamarine-vm/src/aquamarine_stepper_vm.rs
+1	1	aquamarine-vm/src/config.rs
+14	0	examples/build.sh
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+1	1	examples/greeting/Cargo.toml
+1	1	examples/greeting/Config.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+1	1	fluence-faas/src/config.rs
+2	2	fluence-faas/src/logger/log_utf8_string_impl.rs
+2	2	fluence-faas/src/raw_toml_config.rs
+
+commit 163036e409403c0aa78e19dcb06b294f4308ed9b
+Author: vms <mikhail@fluence.one>
+Date:   Thu Dec 17 12:43:45 2020 +0300
+
+    Switch to stepper-inteface (#50)
+
+42	73	Cargo.lock
+1	0	aquamarine-vm/Cargo.toml
+22	93	aquamarine-vm/src/aquamarine_stepper_vm.rs
+8	21	aquamarine-vm/src/errors.rs
+0	3	aquamarine-vm/src/lib.rs
+0	176	aquamarine-vm/src/stepper_outcome.rs
+
+commit 2dc09858a8b70acaa2be716f734fba07236af816
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Dec 16 17:45:23 2020 +0300
+
+    Get file name of the interpreter from a config (#48)
+
+138	113	aquamarine-vm/src/aquamarine_stepper_vm.rs
+19	0	aquamarine-vm/src/errors.rs
+
+commit d12a6c152a56516a8fb49e1e036e61e4f626ce19
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Dec 10 17:07:58 2020 +0300
+
+    update readme
+
+1	129	README.md
+0	3	engine/README.md
+0	3	fluence-app-service/README.md
+0	3	fluence-faas/README.md
+
+commit e2c09c58477843304e05802a5353b06081beee92
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Dec 9 16:01:19 2020 +0300
+
+    bump versions
+
+3	3	Cargo.lock
+2	2	fluence-app-service/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit 0b8f757dcdbac33d9c91e9e496523b0026467f3a
+Author: vms <mikhail@fluence.one>
+Date:   Wed Dec 9 15:57:10 2020 +0300
+
+    update examples (#47)
+
+44	82	Cargo.lock
+1	1	Cargo.toml
+1	1	examples/url-downloader/Config.toml
+-	-	examples/url-downloader/artifacts/curl.wasm
+-	-	examples/url-downloader/artifacts/curl_adapter.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+4	4	examples/url-downloader/build.sh
+2	2	examples/url-downloader/{curl => curl_adapter}/Cargo.toml
+0	0	examples/url-downloader/{curl => curl_adapter}/src/main.rs
+1	1	examples/url-downloader/facade/src/main.rs
+1	1	examples/url-downloader/local_storage/Cargo.toml
+2	2	examples/url-downloader/local_storage/src/main.rs
+1	1	fluence-faas/Cargo.toml
+11	3	fluence-faas/src/faas.rs
+1	1	fluence-faas/src/logger/mod.rs
+2	3	fluence-faas/src/misc/utils.rs
+2	0	tools/repl/Cargo.toml
+21	1	tools/repl/src/main.rs
+
+commit de3d51ef8f558b1f056be188a8c8d0979508f99a
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Dec 8 18:15:18 2020 +0300
+
+    refactor logger
+
+74	34	Cargo.lock
+2	2	examples/ipfs-node/effector/src/main.rs
+2	2	examples/ipfs-node/pure/src/main.rs
+-	-	examples/url-downloader/artifacts/curl.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+2	5	examples/url-downloader/curl/src/main.rs
+2	5	examples/url-downloader/facade/src/main.rs
+1	1	examples/url-downloader/local_storage/Cargo.toml
+3	6	examples/url-downloader/local_storage/src/main.rs
+8	0	fluence-faas/src/faas.rs
+1	0	fluence-faas/src/lib.rs
+2	2	fluence-faas/src/{misc => logger}/log_utf8_string_impl.rs
+102	0	fluence-faas/src/logger/logger_filter.rs
+23	0	fluence-faas/src/logger/mod.rs
+0	3	fluence-faas/src/misc/mod.rs
+19	1	fluence-faas/src/misc/utils.rs
+
+commit 1f2355e6ef0337eb3ee179fa7c18dd1f7fd9d9e8
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Dec 4 08:29:43 2020 +0300
+
+    Update wasi to check that directories exist (#46)
+
+8	8	Cargo.lock
+2	2	engine/Cargo.toml
+5	4	engine/src/module/fce_module.rs
+1	1	examples/greeting/Cargo.toml
+1	1	examples/greeting/Config.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+3	3	fluence-app-service/Cargo.toml
+3	3	fluence-faas/Cargo.toml
+3	3	tools/repl/Cargo.toml
+
+commit 043e87623e56e79de25c9f5e912652ab65ce9aa0
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Dec 2 02:08:54 2020 +0300
+
+    initial (#45)
+    
+    Co-authored-by: vms <michail.vms@gmail.com>
+
+1	0	Cargo.lock
+2	0	crates/wit-parser/Cargo.toml
+4	0	crates/wit-parser/src/errors.rs
+11	51	crates/wit-parser/src/extractor.rs
+211	0	crates/wit-parser/src/extractor/functions.rs
+78	0	crates/wit-parser/src/extractor/wit.rs
+3	0	crates/wit-parser/src/lib.rs
+
+commit 16959d128ae7f54e7015d01aa3092a915fe891c1
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Dec 1 11:49:49 2020 +0300
+
+    update config.yml
+
+1	1	.circleci/config.yml
+1	1	.gitignore
+42	42	Cargo.lock
+-	-	examples/url-downloader/artifacts/curl.wasm
+-	-	examples/url-downloader/artifacts/facade.wasm
+-	-	examples/url-downloader/artifacts/local_storage.wasm
+3	3	examples/url-downloader/curl/src/main.rs
+2	3	examples/url-downloader/facade/src/main.rs
+
+commit 674cffd032987574b47ac54aec4ecd9cbc0284e7
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Nov 30 19:21:51 2020 +0300
+
+    rename site-storage to url-downloader
+
+3	3	Cargo.toml
+-	-	examples/site-storage/artifacts/curl.wasm
+-	-	examples/site-storage/artifacts/facade.wasm
+-	-	examples/site-storage/artifacts/local_storage.wasm
+0	0	examples/{site-storage => url-downloader}/Config.toml
+0	0	examples/{site-storage => url-downloader}/build.sh
+0	0	examples/{site-storage => url-downloader}/curl/Cargo.toml
+0	0	examples/{site-storage => url-downloader}/curl/src/main.rs
+0	0	examples/{site-storage => url-downloader}/facade/Cargo.toml
+0	0	examples/{site-storage => url-downloader}/facade/src/main.rs
+0	0	examples/{site-storage => url-downloader}/local_storage/Cargo.toml
+0	0	examples/{site-storage => url-downloader}/local_storage/src/main.rs
+
+commit b76fadc453d7ac39164e184642cc848e72169593
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Nov 30 12:14:21 2020 +0300
+
+    update site-storage example
+
+61	79	Cargo.lock
+1	1	Cargo.toml
+1	1	examples/site-storage/Config.toml
+-	-	examples/site-storage/artifacts/curl.wasm
+-	-	examples/site-storage/artifacts/{site-storage.wasm => facade.wasm}
+-	-	examples/site-storage/artifacts/local_storage.wasm
+2	2	examples/site-storage/build.sh
+2	2	examples/site-storage/{site-storage => facade}/Cargo.toml
+0	0	examples/site-storage/{site-storage => facade}/src/main.rs
+3	3	examples/site-storage/local_storage/src/main.rs
+
+commit 1094d8e504fbe05f4d9eac94e4771ec7b62f437a
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Nov 25 13:12:08 2020 +0300
+
+    Return only facade interface in AppService get_interface (#44)
+
+108	61	Cargo.lock
+3	1	engine/src/engine.rs
+4	1	engine/src/module/fce_module.rs
+4	4	fluence-app-service/src/lib.rs
+19	3	fluence-app-service/src/service.rs
+106	0	fluence-app-service/src/service_interface.rs
+14	109	fluence-faas/src/faas_interface.rs
+2	0	fluence-faas/src/lib.rs
+1	1	tools/repl/src/repl.rs
+
+commit afa612a5639f900f5730f005f61651edb0c97569
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Nov 12 17:33:56 2020 +0300
+
+    update readme
+
+5	5	README.md
+
+commit f9fdc258421f1a45a733f4d839c67654e34a7f7f
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Nov 12 17:22:03 2020 +0300
+
+    bump versions
+
+39	30	Cargo.lock
+2	2	README.md
+
+commit 053b2167121fa74971afbbe98a8baf831be98394
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Nov 12 16:25:47 2020 +0300
+
+    Update readme (#43)
+
+10	2	README.md
+-	-	images/fluence_stack_overview.png
+
+commit af75084ceb950560a56399a946c985c5df0bb480
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Nov 10 20:30:10 2020 +0300
+
+    Improving logging in repl (#42)
+
+15	15	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+1	1	engine/Cargo.toml
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+-	-	examples/site-storage/artifacts/curl.wasm
+-	-	examples/site-storage/artifacts/local_storage.wasm
+-	-	examples/site-storage/artifacts/site-storage.wasm
+1	1	examples/site-storage/local_storage/src/main.rs
+2	4	examples/site-storage/site-storage/src/main.rs
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+1	1	fluence-faas/Cargo.toml
+1	1	tools/repl/Cargo.toml
+20	6	tools/repl/src/main.rs
+
+commit e24bb8e1ac503cdde9b1397a34ebced0132feaf1
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Nov 9 06:38:09 2020 +0300
+
+    bump fluence sdk version
+
+35	35	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+2	2	examples/sqlite/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+
+commit b4d4364a6a24933413a7cc74d44debea5e70af71
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Nov 9 06:14:07 2020 +0300
+
+    improve getting export record types
+
+4	4	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+2	2	engine/Cargo.toml
+43	36	engine/src/module/fce_module.rs
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+1	1	examples/sqlite/build.sh
+5	5	examples/sqlite/src/main.rs
+2	2	fluence-app-service/Cargo.toml
+3	3	fluence-faas/Cargo.toml
+4	2	fluence-faas/src/faas_interface.rs
+2	2	tools/repl/Cargo.toml
+
+commit 0ab1a1a2c39af5e1b274dc8de45a614fcb748576
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Nov 8 19:41:48 2020 +0300
+
+    improve FaaS interfaces displaying
+
+48	48	Cargo.lock
+3	3	crates/wit-generator/Cargo.toml
+2	2	crates/wit-interfaces/Cargo.toml
+3	3	crates/wit-parser/Cargo.toml
+1	1	engine/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+2	1	fluence-faas/src/faas_interface.rs
+1	1	tools/cli/Cargo.toml
+1	1	tools/repl/Cargo.toml
+
+commit d9034018ac0b82d8f8caf3e8ff3a6277e4dbf586
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Nov 8 18:04:31 2020 +0300
+
+    update wasmer-wit crate version
+
+2	2	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+1	1	engine/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+
+commit 2ef43ee778e4034e708ac7912ca57c50671bcb00
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Nov 7 00:08:09 2020 +0300
+
+    Support function names in IT (#41)
+
+47	36	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+1	1	engine/Cargo.toml
+6	0	engine/src/module/exports.rs
+29	29	engine/src/module/wit_function.rs
+4	1	engine/src/module/wit_instance.rs
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+1	1	fluence-faas/Cargo.toml
+6	1	tools/repl/src/main.rs
+
+commit ddd3448af7b63017f68205c62ec7591888499a70
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Nov 5 20:58:13 2020 +0300
+
+    Introduce module interface cache (#40)
+
+6	0	Cargo.lock
+1	0	Cargo.toml
+11	0	crates/utils/Cargo.toml
+36	0	crates/utils/src/lib.rs
+5	2	crates/wit-generator/src/instructions_generator/utils.rs
+3	3	crates/wit-generator/src/interface_generator.rs
+11	0	crates/wit-generator/src/lib.rs
+1	0	engine/Cargo.toml
+1	9	engine/src/module/fce_module.rs
+1	0	fluence-faas/Cargo.toml
+74	17	fluence-faas/src/faas.rs
+62	106	fluence-faas/src/misc/json_to_ivalues.rs
+
+commit d09c5b5d733ddc3b1ef5689f5775fbd9f931c4eb
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Nov 5 15:18:48 2020 +0300
+
+    Return JValue from call_json (#39)
+
+54	54	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+3	3	crates/wit-generator/Cargo.toml
+4	2	crates/wit-generator/src/default_export_api_config.rs
+5	3	crates/wit-generator/src/instructions_generator.rs
+5	0	crates/wit-generator/src/instructions_generator/fn_instructions.rs
+6	0	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+2	2	crates/wit-interfaces/Cargo.toml
+2	1	crates/wit-interfaces/src/fce_wit_interfaces.rs
+3	3	crates/wit-parser/Cargo.toml
+4	4	engine/Cargo.toml
+7	8	engine/src/engine.rs
+2	3	engine/src/host_imports/imports.rs
+4	4	engine/src/host_imports/ivalues_lifting.rs
+1	0	engine/src/lib.rs
+52	38	engine/src/module/fce_module.rs
+2	0	engine/src/module/mod.rs
+14	13	engine/src/module/wit_function.rs
+9	5	engine/src/module/wit_instance.rs
+2	2	fluence-app-service/Cargo.toml
+5	5	fluence-app-service/src/service.rs
+3	3	fluence-faas/Cargo.toml
+7	8	fluence-faas/src/errors.rs
+26	73	fluence-faas/src/faas.rs
+12	10	fluence-faas/src/faas_interface.rs
+102	0	fluence-faas/src/misc/ivalues_to_json.rs
+75	115	fluence-faas/src/misc/json_to_ivalues.rs
+3	0	fluence-faas/src/misc/mod.rs
+57	2	fluence-faas/src/misc/utils.rs
+193	331	fluence-faas/tests/arguments_passing.rs
+199	540	fluence-faas/tests/arrays_passing.rs
+5	3	fluence-faas/tests/greeting.rs
+35	102	fluence-faas/tests/records.rs
+24	0	fluence-faas/tests/utils.rs
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit c8114d48c6de55fea75f04c6998df7c685e8ce7b
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Nov 1 10:26:14 2020 +0300
+
+    bump AquamarineVM version
+
+1	1	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+28	24	aquamarine-vm/src/stepper_outcome.rs
+
+commit f4680075f411a605844ffb3ef7f28eda053c2e50
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Nov 1 10:16:21 2020 +0300
+
+    adjust AquamarineVM error mapping
+
+29	29	Cargo.lock
+66	77	aquamarine-vm/src/stepper_outcome.rs
+
+commit d52eb4432faa924adf51698567018a4326440457
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Oct 30 17:07:29 2020 +0300
+
+    update examples with new rust-sdk logger
+
+8	8	Cargo.lock
+4	1	examples/ipfs-node/effector/src/main.rs
+4	1	examples/ipfs-node/pure/src/main.rs
+4	1	examples/site-storage/curl/src/main.rs
+4	1	examples/site-storage/local_storage/src/main.rs
+4	1	examples/site-storage/site-storage/src/main.rs
+
+commit acf6450d22f4a9e635c98430348299ea924c8b90
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Oct 30 16:54:46 2020 +0300
+
+    add logging mask to the AquamarineVM config
+
+20	20	Cargo.lock
+3	1	aquamarine-vm/src/aquamarine_stepper_vm.rs
+3	0	aquamarine-vm/src/config.rs
+1	1	fluence-faas/src/misc/log_utf8_string_impl.rs
+2	2	fluence-faas/src/raw_toml_config.rs
+
+commit aff6695ea19b4b4841be32944ed9bd7b58d85d93
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 29 23:11:11 2020 +0300
+
+    bump versions
+
+65	45	Cargo.lock
+2	2	aquamarine-vm/Cargo.toml
+2	2	aquamarine-vm/src/aquamarine_stepper_vm.rs
+
+commit a6b398fdd518d8775cbef1eeb61338f9ebb89beb
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 29 23:08:27 2020 +0300
+
+    rename call to call_with_prev_data
+
+1	1	aquamarine-vm/src/aquamarine_stepper_vm.rs
+
+commit 4ccce8f5c550f18d9da73420963c0fcb27276a06
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 29 23:04:57 2020 +0300
+
+    add raw-aquamarine-api feature for AquamarineVM
+
+4	0	aquamarine-vm/Cargo.toml
+29	0	aquamarine-vm/src/aquamarine_stepper_vm.rs
+
+commit bfc69c8104bd00f0ae955242ff74900e0896d6a1
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Oct 29 15:35:05 2020 +0300
+
+    Make prev_data a list by default
+
+1	1	aquamarine-vm/src/aquamarine_stepper_vm.rs
+
+commit 42375f3334a0f1353b0fd55fc03726c7c54faba8
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Oct 27 16:47:05 2020 +0300
+
+    Fix log filtering: set log::Record::target in log_utf8_string (#38)
+
+1	0	fluence-faas/src/misc/log_utf8_string_impl.rs
+
+commit eb5dfafa5e17121b61963b09aef6fa966223ee53
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Oct 26 13:08:53 2020 +0300
+
+    Pass log level & target to host log_utf8_string (#37)
+
+54	32	Cargo.lock
+1	0	aquamarine-vm/src/aquamarine_stepper_vm.rs
+3	0	fluence-faas/src/config.rs
+7	18	fluence-faas/src/misc/log_utf8_string_impl.rs
+2	1	fluence-faas/src/misc/utils.rs
+3	0	fluence-faas/src/raw_toml_config.rs
+
+commit 7f89ba505443820255cc2b093a011ee74d06b024
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Oct 23 17:05:58 2020 +0300
+
+    use module::target as module_path in log
+
+8	3	fluence-faas/src/faas.rs
+30	4	fluence-faas/src/misc/log_utf8_string_impl.rs
+1	1	fluence-faas/src/misc/mod.rs
+6	2	fluence-faas/src/misc/utils.rs
+
+commit 18d435c643dd473ea30595e1f4b3763fbb2fcb07
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Oct 23 16:35:25 2020 +0300
+
+    add level & target to log_utf8_string
+
+20	20	Cargo.lock
+32	4	fluence-faas/src/misc/log_utf8_string_impl.rs
+
+commit f0c382e6405c42d6eb1530332270d2fa6c0342d1
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Oct 21 22:25:50 2020 +0300
+
+    bump versions
+
+28	28	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+2	2	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+2	2	crates/wit-parser/Cargo.toml
+3	3	engine/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit 5aea5a53ad9f0004254531e87d258838012269c7
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Oct 21 22:21:16 2020 +0300
+
+    Fluence FaaS refactoring (#36)
+
+22	37	.circleci/config.yml
+3	3	.gitignore
+36	6	Cargo.lock
+3	3	Cargo.toml
+7	7	aquamarine-vm/src/aquamarine_stepper_vm.rs
+1	1	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+4	4	crates/wit-interfaces/src/fce_wit_interfaces.rs
+1	1	crates/wit-parser/Cargo.toml
+1	1	crates/wit-parser/src/extractor.rs
+2	1	engine/Cargo.toml
+60	86	engine/src/engine.rs
+9	5	engine/src/errors.rs
+3	3	engine/src/host_imports/ivalues_lifting.rs
+2	1	engine/src/lib.rs
+1	1	engine/src/misc/prepare.rs
+46	29	engine/src/module/fce_module.rs
+1	0	engine/src/module/mod.rs
+21	12	engine/src/module/wit_function.rs
+18	1	engine/src/module/wit_instance.rs
+4	3	engine/tests/greeting.rs
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+1	0	fluence-app-service/Cargo.toml
+1	0	fluence-app-service/src/lib.rs
+6	6	fluence-app-service/src/service.rs
+2	1	fluence-faas/Cargo.toml
+7	1	fluence-faas/src/errors.rs
+19	44	fluence-faas/src/faas.rs
+92	73	fluence-faas/src/faas_interface.rs
+2	1	fluence-faas/src/lib.rs
+6	6	fluence-faas/src/misc/json_to_ivalues.rs
+77	47	fluence-faas/tests/arguments_passing.rs
+1018	0	fluence-faas/tests/arrays_passing.rs
+2	0	fluence-faas/tests/call_parameters.rs
+13	12	fluence-faas/tests/greeting.rs
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+-	-	fluence-faas/tests/json_wasm_tests/inner_records/artifacts/inner_records_pure.wasm
+5	6	fluence-faas/tests/records.rs
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/arguments_passing/Cargo.toml
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/arguments_passing/Config.toml
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/arguments_passing/src/effector.rs
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/arguments_passing/src/pure.rs
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/arrays_passing/Cargo.toml
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/arrays_passing/Config.toml
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/arrays_passing/src/effector.rs
+59	20	fluence-faas/tests/{json_wasm_tests => wasm_tests}/arrays_passing/src/pure.rs
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/build.sh
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/inner_records/Cargo.toml
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/inner_records/Config.toml
+-	-	fluence-faas/tests/wasm_tests/inner_records/artifacts/inner_records_pure.wasm
+0	0	fluence-faas/tests/{json_wasm_tests => wasm_tests}/inner_records/src/pure.rs
+1	1	tools/repl/src/repl.rs
+
+commit 693e8cdfb1dff3e2ad868b33bf352a8d8019669d
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Oct 16 15:26:09 2020 +0300
+
+    Support prev data persistence (#35)
+
+11	4	Cargo.lock
+2	0	aquamarine-vm/Cargo.toml
+121	42	aquamarine-vm/src/aquamarine_stepper_vm.rs
+4	0	aquamarine-vm/src/config.rs
+18	0	aquamarine-vm/src/errors.rs
+30	1	aquamarine-vm/src/stepper_outcome.rs
+4	4	engine/src/engine.rs
+12	17	engine/src/host_imports/errors.rs
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+22	0	fluence-app-service/src/service.rs
+4	3	fluence-faas/src/faas.rs
+1	1	tools/repl/src/repl.rs
+
+commit 05473672a15d368802cc525c6290eee11b7907ed
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Oct 14 15:37:06 2020 +0300
+
+    update stepper error mapping
+
+20	20	Cargo.lock
+26	16	aquamarine-vm/src/stepper_outcome.rs
+
+commit d014bdbfc7ec0aa39ab91bb9443a930e115991d4
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Oct 14 15:30:50 2020 +0300
+
+    update examples
+
+1	0	.gitignore
+20	20	Cargo.lock
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/greeting/artifacts/greeting_cp.wasm
+0	1	examples/greeting/build.sh
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+-	-	examples/site-storage/artifacts/curl.wasm
+-	-	examples/site-storage/artifacts/local_storage.wasm
+-	-	examples/site-storage/artifacts/site-storage.wasm
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+
+commit 83b73784685f1f3d21b18161b25f56ddcd013f15
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Oct 14 15:13:24 2020 +0300
+
+    bump versions
+
+65	59	Cargo.lock
+1	1	aquamarine-vm/Cargo.toml
+1	1	engine/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+1	1	tools/repl/Cargo.toml
+
+commit c99e2fc0f26810c1adb7937a2093b17f6099edf4
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Oct 14 15:08:02 2020 +0300
+
+    Change order of fields in toml configs (#33)
+
+3	2	fluence-faas/src/faas.rs
+26	2	fluence-faas/src/raw_toml_config.rs
+
+commit 1c2578ede462430d6d15e6c750a515600342f69d
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 8 11:41:00 2020 +0300
+
+    update stepper errors
+
+20	20	Cargo.lock
+47	17	aquamarine-vm/src/stepper_outcome.rs
+
+commit 1b3c73f03bf74906f7fdd591d916285960b76ee6
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Oct 7 23:19:17 2020 +0300
+
+    update examples
+
+2	1	.gitignore
+26	26	Cargo.lock
+1	1	examples/ipfs-node/Config.toml
+-	-	examples/ipfs-node/artifacts/ipfs_effector.wasm
+-	-	examples/ipfs-node/artifacts/ipfs_pure.wasm
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+
+commit 71497738a0ce25f80a3f7a6d5c4cdbc10f08419c
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Oct 6 20:50:14 2020 +0300
+
+    derive clone, eq for StepperOutcome
+
+2	2	aquamarine-vm/src/stepper_outcome.rs
+
+commit 0bf13fcdc631875e1396f769c17158ae3d557e67
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Oct 6 17:46:16 2020 +0300
+
+    Use last module as a facade in AppService (#34)
+
+1	3	engine/src/errors.rs
+37	5	fluence-app-service/src/service.rs
+12	11	tools/repl/src/repl.rs
+
+commit 22ce70568477b46a3456181c98905b8cee06591f
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Oct 6 14:40:03 2020 +0300
+
+    re-export HostExportFunc type
+
+28	28	Cargo.lock
+1	0	aquamarine-vm/src/lib.rs
+3	1	engine/src/config.rs
+1	0	engine/src/lib.rs
+2	0	fluence-faas/src/lib.rs
+
+commit 5ab744e8436e33dd4d5673dae1f0d71651e45c46
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Oct 5 21:38:47 2020 +0300
+
+    reexport Wasmer context
+
+20	20	Cargo.lock
+1	0	aquamarine-vm/src/lib.rs
+2	0	fluence-faas/src/lib.rs
+
+commit 98adcefa56ae40b34af7f76597f582ea28181d9c
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Oct 5 15:12:38 2020 +0300
+
+    convert RawStepperOutcome to Result<StepperOutcome> based on the ret_code (#32)
+
+7	13	aquamarine-vm/src/aquamarine_stepper_vm.rs
+11	0	aquamarine-vm/src/errors.rs
+3	3	aquamarine-vm/src/lib.rs
+114	0	aquamarine-vm/src/stepper_outcome.rs
+2	2	fluence-faas/src/raw_toml_config.rs
+
+commit abcdb37c91ecd408ba365e89ac9ecf987468277f
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 1 20:16:16 2020 +0300
+
+    Set current peer id for aquamarine stepper (#31)
+
+10	2	aquamarine-vm/src/aquamarine_stepper_vm.rs
+3	0	aquamarine-vm/src/config.rs
+
+commit 7174906784a4a90f3169b77cd1c261743eaed5cb
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 1 12:57:29 2020 +0300
+
+    bump versions
+
+51	51	Cargo.lock
+3	1	aquamarine-vm/Cargo.toml
+3	3	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+2	2	crates/wit-parser/Cargo.toml
+3	3	engine/Cargo.toml
+2	2	examples/sqlite/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+3	3	fluence-faas/Cargo.toml
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit 31797d4c13173f544f4a9736a161a4811da4aac6
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 1 12:23:29 2020 +0300
+
+    update readme
+
+7	6	README.md
+
+commit 444e30749e96f1ea945ab57d642ceaf9bfb3e164
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Oct 1 12:19:38 2020 +0300
+
+    Host functions refactoring (#30)
+
+45	30	Cargo.lock
+1	0	Cargo.toml
+14	0	aquamarine-vm/Cargo.toml
+128	0	aquamarine-vm/src/aquamarine_stepper_vm.rs
+27	0	aquamarine-vm/src/config.rs
+51	0	aquamarine-vm/src/errors.rs
+45	0	aquamarine-vm/src/lib.rs
+8	0	crates/wit-interfaces/src/fce_wit_interfaces.rs
+1	0	engine/Cargo.toml
+37	12	engine/src/config.rs
+20	43	engine/src/engine.rs
+11	4	engine/src/errors.rs
+74	0	engine/src/host_imports/errors.rs
+116	0	engine/src/host_imports/imports.rs
+322	0	engine/src/host_imports/ivalues_lifting.rs
+172	0	engine/src/host_imports/ivalues_lowering.rs
+40	0	engine/src/host_imports/mod.rs
+167	0	engine/src/host_imports/utils.rs
+7	1	engine/src/lib.rs
+61	15	engine/src/module/fce_module.rs
+4	1	engine/src/module/wit_instance.rs
+0	18	engine/tests/greeting.rs
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+2	2	examples/ipfs-node/Config.toml
+1	1	examples/site-storage/Config.toml
+3	1	fluence-app-service/Cargo.toml
+26	0	fluence-app-service/src/config.rs
+13	6	fluence-app-service/src/errors.rs
+29	7	fluence-app-service/src/lib.rs
+64	0	fluence-app-service/src/raw_toml_config.rs
+40	44	fluence-app-service/src/service.rs
+102	0	fluence-faas/src/config.rs
+3	0	fluence-faas/src/errors.rs
+12	11	fluence-faas/src/faas.rs
+22	10	fluence-faas/src/lib.rs
+0	311	fluence-faas/src/misc/config.rs
+0	174	fluence-faas/src/misc/imports.rs
+1	1	fluence-faas/src/misc/json_to_ivalues.rs
+26	0	fluence-faas/src/misc/log_utf8_string_impl.rs
+4	9	fluence-faas/src/misc/mod.rs
+85	157	fluence-faas/src/misc/utils.rs
+227	0	fluence-faas/src/raw_toml_config.rs
+5	8	fluence-faas/tests/arguments_passing.rs
+1	1	fluence-faas/tests/call_parameters.rs
+2	2	fluence-faas/tests/greeting.rs
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+-	-	fluence-faas/tests/json_wasm_tests/inner_records/artifacts/inner_records_pure.wasm
+2	2	fluence-faas/tests/records.rs
+7	5	tools/repl/src/repl.rs
+
+commit 8f41f5816bbb8934a7f04812354b35193e18f948
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 24 13:06:12 2020 +0300
+
+    enable logger by default
+
+2	2	fluence-faas/src/misc/config.rs
+
+commit 58f14427f1d0637612e9357fef4ab63b5812f46d
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 23 01:14:54 2020 +0300
+
+    Array support (#28)
+
+2	2	.circleci/config.yml
+2	2	.gitignore
+81	67	Cargo.lock
+1	0	Cargo.toml
+4	4	crates/wit-generator/Cargo.toml
+18	15	crates/wit-generator/src/instructions_generator/fn_instructions.rs
+20	16	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+20	2	crates/wit-generator/src/instructions_generator/utils.rs
+2	2	crates/wit-interfaces/Cargo.toml
+3	3	crates/wit-parser/Cargo.toml
+4	4	engine/Cargo.toml
+4	2	engine/src/module/fce_module.rs
+1	1	engine/tests/records.rs
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/records/artifacts/records_effector.wasm
+-	-	examples/records/artifacts/records_pure.wasm
+-	-	examples/site-storage/artifacts/curl.wasm
+-	-	examples/site-storage/artifacts/local_storage.wasm
+-	-	examples/site-storage/artifacts/site-storage.wasm
+2	2	examples/sqlite/Cargo.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+20	0	examples/sqlite/src/main.rs
+2	2	fluence-app-service/Cargo.toml
+4	4	fluence-faas/Cargo.toml
+1	1	fluence-faas/src/faas_interface.rs
+19	4	fluence-faas/src/misc/json_to_ivalues.rs
+316	94	fluence-faas/tests/arguments_passing.rs
+2	2	fluence-faas/tests/json_wasm_tests/arguments_passing/Cargo.toml
+2	2	fluence-faas/tests/json_wasm_tests/arguments_passing/Config.toml
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/arguments_passing_effector.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/arguments_passing_pure.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/effector.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/pure.wasm
+1	1	fluence-faas/tests/json_wasm_tests/arguments_passing/src/pure.rs
+17	0	fluence-faas/tests/json_wasm_tests/arrays_passing/Cargo.toml
+11	0	fluence-faas/tests/json_wasm_tests/arrays_passing/Config.toml
+-	-	fluence-faas/tests/json_wasm_tests/arrays_passing/artifacts/arrays_passing_effector.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arrays_passing/artifacts/arrays_passing_pure.wasm
+124	0	fluence-faas/tests/json_wasm_tests/arrays_passing/src/effector.rs
+152	0	fluence-faas/tests/json_wasm_tests/arrays_passing/src/pure.rs
+24	0	fluence-faas/tests/json_wasm_tests/build.sh
+-	-	fluence-faas/tests/json_wasm_tests/inner_records/artifacts/inner_records_pure.wasm
+6	6	fluence-faas/tests/records.rs
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit 8296486eaa66d26ee55462abe01c566c0bf37cc4
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 17 21:46:53 2020 +0300
+
+    add sqlite example
+
+1	0	.gitignore
+39	12	Cargo.lock
+2	1	Cargo.toml
+1	1	engine/src/module/type_converters.rs
+13	0	examples/sqlite/Cargo.toml
+11	0	examples/sqlite/Config.toml
+-	-	examples/sqlite/artifacts/sqlite_test.wasm
+10	0	examples/sqlite/build.sh
+76	0	examples/sqlite/src/main.rs
+
+commit ba13ba360f9806a9a169d2d33ca7621784b890bc
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 17 20:50:36 2020 +0300
+
+    update wit version
+
+14	14	Cargo.lock
+3	3	crates/wit-generator/Cargo.toml
+2	2	crates/wit-interfaces/Cargo.toml
+3	3	crates/wit-parser/Cargo.toml
+4	4	engine/Cargo.toml
+12	1	engine/src/module/type_converters.rs
+2	2	fluence-app-service/Cargo.toml
+3	3	fluence-faas/Cargo.toml
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit 3785c002b708a0e87c00934d5fea9627855c9fdb
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 16 13:46:38 2020 +0300
+
+    output args separated with comma
+
+3	3	Cargo.lock
+2	2	fluence-app-service/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+14	5	fluence-faas/src/faas_interface.rs
+2	2	tools/repl/Cargo.toml
+
+commit 04ffc3dcf8c1df8a30277cb9fa6a72b5617d8913
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 16 12:31:21 2020 +0300
+
+    repl interface output improvements
+
+15	55	Cargo.lock
+1	1	examples/records/test-record/Cargo.toml
+-	-	examples/site-storage/artifacts/curl.wasm
+-	-	examples/site-storage/artifacts/local_storage.wasm
+-	-	examples/site-storage/artifacts/site-storage.wasm
+1	1	examples/site-storage/site-storage/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+4	6	fluence-faas/src/faas_interface.rs
+2	2	tools/repl/Cargo.toml
+1	1	tools/repl/src/repl.rs
+
+commit 76006bc3eb1d3051eaef9d46ff28c087dd679478
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 16 02:09:50 2020 +0300
+
+    enable redis sqlite tests
+
+3	5	engine/tests/redis_sqlite.rs
+
+commit 02d1733e89e61d36d76a8e5cff20d60bfa3b9c34
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 16 01:43:45 2020 +0300
+
+    bump versions (#27)
+
+8	8	Cargo.lock
+2	2	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+4	4	crates/wit-parser/Cargo.toml
+3	3	engine/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+2	3	fluence-faas/Cargo.toml
+3	3	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit dd5274302450e32654d13a525bce21a056ef93f4
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 16 01:14:15 2020 +0300
+
+    Record refactoring (#19)
+
+2	2	.circleci/config.yml
+5	0	.gitignore
+102	36	Cargo.lock
+2	0	Cargo.toml
+3	2	crates/wit-generator/Cargo.toml
+28	9	crates/wit-generator/src/default_export_api_config.rs
+58	15	crates/wit-generator/src/instructions_generator.rs
+36	24	crates/wit-generator/src/instructions_generator/fn_instructions.rs
+75	42	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+11	11	crates/wit-generator/src/instructions_generator/record_instructions.rs
+42	21	crates/wit-generator/src/instructions_generator/utils.rs
+50	1	crates/wit-generator/src/interface_generator.rs
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+2	2	crates/wit-parser/src/lib.rs
+2	2	engine/Cargo.toml
+27	8	engine/src/engine.rs
+4	0	engine/src/lib.rs
+6	5	engine/src/module/exports.rs
+110	33	engine/src/module/fce_module.rs
+2	0	engine/src/module/mod.rs
+18	12	engine/src/module/wit_function.rs
+26	17	engine/src/module/wit_instance.rs
+7	8	engine/tests/records.rs
+1	0	engine/tests/redis_sqlite.rs
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/greeting/artifacts/greeting_cp.wasm
+9	0	examples/greeting/build.sh
+14	0	examples/ipfs-node/build.sh
+1	1	examples/ipfs-node/effector/Cargo.toml
+2	2	examples/records/Config.toml
+-	-	examples/records/artifacts/{effector.wasm => records_effector.wasm}
+-	-	examples/records/artifacts/{pure.wasm => records_pure.wasm}
+14	0	examples/records/build.sh
+2	2	examples/records/effector/Cargo.toml
+1	1	examples/records/effector/src/main.rs
+2	2	examples/records/pure/Cargo.toml
+1	1	examples/records/pure/src/main.rs
+1	1	examples/records/test-record/Cargo.toml
+-	-	examples/site-storage/artifacts/site-storage.wasm
+1	1	examples/site-storage/site-storage/Cargo.toml
+1	30	fluence-app-service/src/service.rs
+6	2	fluence-faas/Cargo.toml
+22	0	fluence-faas/src/errors.rs
+49	63	fluence-faas/src/faas.rs
+80	11	fluence-faas/src/faas_interface.rs
+2	0	fluence-faas/src/lib.rs
+289	0	fluence-faas/src/misc/json_to_ivalues.rs
+24	4	fluence-faas/src/misc/mod.rs
+77	0	fluence-faas/src/misc/modules_load_strategy.rs
+557	0	fluence-faas/tests/arguments_passing.rs
+1	1	fluence-faas/tests/call_parameters.rs
+17	6	fluence-faas/tests/greeting.rs
+17	0	fluence-faas/tests/json_wasm_tests/arguments_passing/Cargo.toml
+11	0	fluence-faas/tests/json_wasm_tests/arguments_passing/Config.toml
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/effector.wasm
+-	-	fluence-faas/tests/json_wasm_tests/arguments_passing/artifacts/pure.wasm
+103	0	fluence-faas/tests/json_wasm_tests/arguments_passing/src/effector.rs
+167	0	fluence-faas/tests/json_wasm_tests/arguments_passing/src/pure.rs
+13	0	fluence-faas/tests/json_wasm_tests/inner_records/Cargo.toml
+6	0	fluence-faas/tests/json_wasm_tests/inner_records/Config.toml
+-	-	fluence-faas/tests/json_wasm_tests/inner_records/artifacts/inner_records_pure.wasm
+45	0	fluence-faas/tests/json_wasm_tests/inner_records/src/pure.rs
+225	5	fluence-faas/tests/records.rs
+1	1	tools/repl/src/repl.rs
+
+commit 5259036913bad275053f8c1e5dbfd07a57d75aca
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Sep 14 14:22:56 2020 +0300
+
+    Call parameters module (#26)
+
+19	12	Cargo.lock
+4	3	Cargo.toml
+12	0	examples/call_parameters/Cargo.toml
+1	1	examples/{greeting/Config_cp.toml => call_parameters/Config.toml}
+-	-	examples/call_parameters/artifacts/call_parameters.wasm
+7	0	examples/call_parameters/build.sh
+6	4	examples/{greeting/src/main_cp.rs => call_parameters/src/main.rs}
+0	4	examples/greeting/Cargo.toml
+3	3	examples/site-storage/Config.toml
+-	-	examples/site-storage/artifacts/curl.wasm
+-	-	examples/site-storage/artifacts/local_storage.wasm
+-	-	examples/site-storage/{wasm/artifacts/modules => artifacts}/site-storage.wasm
+5	5	examples/site-storage/build.sh
+0	0	examples/site-storage/{wasm => }/curl/Cargo.toml
+0	0	examples/site-storage/{wasm => }/curl/src/main.rs
+0	0	examples/site-storage/{wasm => }/local_storage/Cargo.toml
+0	0	examples/site-storage/{wasm => }/local_storage/src/main.rs
+0	0	examples/site-storage/{wasm => }/site-storage/Cargo.toml
+0	0	examples/site-storage/{wasm => }/site-storage/src/main.rs
+60	0	fluence-faas/tests/call_parameters.rs
+2	32	fluence-faas/tests/greeting.rs
+2	2	fluence-faas/tests/records.rs
+
+commit acab656dd9570850966a768e4a6d7ba8316dfd26
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Fri Sep 11 15:58:38 2020 +0300
+
+    site-storage wasm project (#25)
+
+67	42	Cargo.lock
+3	0	Cargo.toml
+21	10	README.md
+21	0	examples/site-storage/Config.toml
+18	0	examples/site-storage/build.sh
+-	-	examples/site-storage/wasm/artifacts/modules/site-storage.wasm
+13	0	examples/site-storage/wasm/curl/Cargo.toml
+37	0	examples/site-storage/wasm/curl/src/main.rs
+13	0	examples/site-storage/wasm/local_storage/Cargo.toml
+51	0	examples/site-storage/wasm/local_storage/src/main.rs
+14	0	examples/site-storage/wasm/site-storage/Cargo.toml
+53	0	examples/site-storage/wasm/site-storage/src/main.rs
+
+commit f33ef7c84bf225fa5c88e9a73c97d5c1c76fd916
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Sep 9 00:20:39 2020 +0300
+
+    optimize with try_fold; fix bug in wit-generator
+
+2	2	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+7	8	crates/wit-generator/src/instructions_generator/fn_instructions.rs
+29	28	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+2	2	tools/cli/Cargo.toml
+
+commit 709dc36550f21f1479b464b19b780c8ca8cdf2eb
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 8 23:30:03 2020 +0300
+
+    misc improvements (#24)
+    
+    - improve error handling in host functions
+    - refactor examples
+    - fix IT generation
+
+2	5	.gitignore
+5	5	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+1	1	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+1	1	examples/records/Config.toml
+-	-	examples/records/artifacts/{wasm_modules => }/effector.wasm
+-	-	examples/records/artifacts/{wasm_modules => }/pure.wasm
+2	2	fluence-app-service/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+15	6	fluence-faas/src/misc/imports.rs
+2	2	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit aff726b5ebe00a2deda83d3844b19c6ad15686e4
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 8 13:40:28 2020 +0300
+
+    bump repl version
+
+1	1	Cargo.lock
+1	1	tools/repl/Cargo.toml
+
+commit 47f52ee1f598aca40f241daeabf3fd0bbf371087
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 8 13:39:22 2020 +0300
+
+    init repl env logger on the start
+
+15	1	Cargo.lock
+1	0	tools/repl/Cargo.toml
+2	0	tools/repl/src/main.rs
+
+commit 2768bc3acac0f5af539610fceb6fcda37628ddc7
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Sep 8 13:20:42 2020 +0300
+
+    update ipfs-node example
+
+53	55	Cargo.lock
+3	3	examples/ipfs-node/Config.toml
+0	1	examples/ipfs-node/artifacts/ipfs_rpc_file
+1	1	examples/ipfs-node/effector/Cargo.toml
+1	1	examples/ipfs-node/pure/src/main.rs
+
+commit 74bfc4ae32872440b06c7627d2e22034a52b4b3d
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 3 21:46:22 2020 +0300
+
+    bump fcli version
+
+1	1	Cargo.lock
+1	1	tools/cli/Cargo.toml
+
+commit fc2b0e4379d6de7dd266d4f5c8b6e7ba4af578d7
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 3 03:01:04 2020 +0300
+
+    bump versions
+
+30	10	Cargo.lock
+2	2	crates/wit-generator/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+1	1	fluence-faas/Cargo.toml
+2	2	tools/cli/Cargo.toml
+1	1	tools/repl/Cargo.toml
+
+commit 81892aa865f7474ce6c0379ae6c7b0ace8f9e5f0
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 3 01:45:44 2020 +0300
+
+    bump versions
+
+5	5	Cargo.lock
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+3	3	engine/Cargo.toml
+2	2	fluence-app-service/Cargo.toml
+2	2	fluence-faas/Cargo.toml
+1	1	tools/repl/Cargo.toml
+
+commit 11bf0368d134a6107c477d75b6194b2534c7f6c8
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Sep 3 01:36:44 2020 +0300
+
+    join strings with empty space in call
+
+10	0	Cargo.lock
+1	0	tools/repl/Cargo.toml
+1	1	tools/repl/src/main.rs
+3	1	tools/repl/src/repl.rs
+
+commit 5632d684ae42e957f2f856811cb15af798db3575
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Aug 25 19:26:21 2020 +0300
+
+    Introduce call parameters (#21)
+
+2	2	.circleci/config.yml
+3	3	.gitignore
+29	26	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+1	1	engine/Cargo.toml
+4	0	examples/greeting/Cargo.toml
+6	0	examples/greeting/Config_cp.toml
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/greeting/artifacts/greeting_cp.wasm
+24	0	examples/greeting/src/main_cp.rs
+1	0	fluence-app-service/src/lib.rs
+2	1	fluence-app-service/src/service.rs
+3	1	fluence-faas/Cargo.toml
+20	4	fluence-faas/src/faas.rs
+2	2	fluence-faas/src/faas_interface.rs
+3	0	fluence-faas/src/lib.rs
+76	10	fluence-faas/src/misc/imports.rs
+7	1	fluence-faas/src/misc/utils.rs
+68	1	fluence-faas/tests/greeting.rs
+1	1	fluence-faas/tests/records.rs
+12	7	tools/repl/src/repl.rs
+
+commit 9cdb91c8d3a1bc2c54385386c3c564de3a253ed7
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 14:55:15 2020 +0300
+
+    Fix circleci (#23)
+
+2	2	.circleci/config.yml
+3	4	.gitignore
+2	3	engine/tests/records.rs
+-	-	examples/greeting/artifacts/greeting.wasm
+-	-	examples/records/artifacts/wasm_modules/effector.wasm
+-	-	examples/records/artifacts/wasm_modules/pure.wasm
+
+commit ecf9b1b34f230fe302e72a9733cc169b9c2a7b16
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 01:55:52 2020 +0300
+
+    update readme
+
+9	9	README.md
+1	1	engine/tests/greeting.rs
+4	4	engine/tests/records.rs
+
+commit 58244d475858b365a820523c5ed8df0ae018acde
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 01:47:04 2020 +0300
+
+    add fluence-faas tests
+
+7	6	Cargo.lock
+1	1	crates/wit-generator/Cargo.toml
+1	1	crates/wit-interfaces/Cargo.toml
+1	1	crates/wit-parser/Cargo.toml
+1	1	engine/Cargo.toml
+4	5	engine/tests/greeting.rs
+6	5	engine/tests/records.rs
+1	1	examples/greeting/Config.toml
+2	2	examples/records/Config.toml
+1	1	examples/records/pure/src/main.rs
+3	0	fluence-faas/Cargo.toml
+48	0	fluence-faas/tests/greeting.rs
+60	0	fluence-faas/tests/records.rs
+
+commit 95bc1220e3dbf6c4d0ec44c3d782ea543dc581ac
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Aug 24 01:00:38 2020 +0300
+
+    add engine tests
+
+5	4	Cargo.lock
+1	0	engine/Cargo.toml
+0	24	engine/tests/downloader.rs
+129	0	engine/tests/greeting.rs
+64	0	engine/tests/records.rs
+15	6	engine/tests/{single_module.rs => redis_sqlite.rs}
+
+commit c90663448fe85068fae2027475e241cd333bdd76
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 23 04:33:05 2020 +0300
+
+    reborn circleci (#22)
+
+3	10	.circleci/config.yml
+40	9	engine/tests/single_module.rs
+
+commit c48454563c9c30c50fe536d0004dcc4a9a215484
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 23 04:04:11 2020 +0300
+
+    enable tests
+
+840	56	Cargo.lock
+1	1	crates/wit-interfaces/src/lib.rs
+5	0	engine/Cargo.toml
+0	0	{tests => engine/tests}/downloader.rs
+29	39	{tests => engine/tests}/single_module.rs
+2	2	examples/ipfs-node/effector/src/main.rs
+2	2	examples/ipfs-node/pure/src/main.rs
+1	1	examples/records/pure/src/main.rs
+
+commit ae6d2774a88be491b5b5aaf4de102372ed501131
+Author: folex <0xdxdy@gmail.com>
+Date:   Thu Aug 20 18:57:53 2020 +0300
+
+    Do not load modules that aren't specified in the config (#20)
+
+0	6	fluence-faas/src/faas.rs
+
+commit 22d6c6b6c8b67c5c0f3ebcc8adbf8fefe1084c99
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Aug 18 22:58:41 2020 +0300
+
+    Do not throw error if service_base_dir already exists (#18)
+
+14	10	fluence-app-service/src/errors.rs
+23	15	fluence-app-service/src/service.rs
+1	0	fluence-faas/src/misc/config.rs
+
+commit a670ec76cd3afcef843ce3e376869fa76fdeb87c
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Aug 14 13:54:52 2020 +0300
+
+    Fix .wasm module extension check  (#17)
+
+1	1	fluence-faas/src/faas.rs
+
+commit 77cd79e124440765b924b070a1c9031f06380ebc
+Author: folex <0xdxdy@gmail.com>
+Date:   Fri Aug 14 13:28:15 2020 +0300
+
+    Pass envs to AppService, name modules without .wasm extension (#16)
+
+7	35	fluence-app-service/src/service.rs
+27	7	fluence-faas/src/faas.rs
+13	0	fluence-faas/src/misc/config.rs
+9	12	tools/repl/src/repl.rs
+
+commit 181c161ffc972476359f746d07a85dd88d1fcb2b
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Aug 11 15:28:53 2020 +0300
+
+    update readme
+
+4	3	README.md
+
+commit 8ab7aee169632a538697951b9161d9409af436e1
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Aug 11 15:12:19 2020 +0300
+
+    bump versions
+
+2	2	Cargo.lock
+1	1	tools/cli/Cargo.toml
+1	1	tools/repl/Cargo.toml
+
+commit b070009af3429567e69f98ea79578ec98109409b
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 9 23:02:41 2020 +0300
+
+    make non generic interface of FCE private
+
+3	3	engine/src/engine.rs
+
+commit be1cd1531c60d8d4e699a46fcf914cf459de173d
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 9 15:08:34 2020 +0300
+
+    add elapsed time logging
+
+28	4	tools/repl/src/repl.rs
+
+commit f1fcc7ce42eaa91531ae84be3688224fa349acaf
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 9 14:48:18 2020 +0300
+
+    improve REPL command completer
+
+3	0	.gitignore
+306	2	Cargo.lock
+1	1	tools/repl/Cargo.toml
+64	13	tools/repl/src/main.rs
+1	1	tools/repl/src/repl.rs
+
+commit d68e0cd76e05ee9df8eb21989566d9d2970f7a95
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 9 14:14:03 2020 +0300
+
+    add basic autocomplete and history support to REPL
+
+11	0	Cargo.lock
+1	0	tools/repl/Cargo.toml
+105	163	tools/repl/src/main.rs
+200	0	tools/repl/src/repl.rs
+
+commit 31a15baf76cb269b729e46b39e70c13d99bec031
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 9 12:08:39 2020 +0300
+
+    Add fce repl command (#15)
+
+8	0	tools/cli/src/args.rs
+21	1	tools/cli/src/main.rs
+
+commit e0cbc92f2e0e211916a363a7de903a652894a433
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Aug 9 01:49:51 2020 +0300
+
+    bump versions
+
+28	28	Cargo.lock
+1	1	engine/Cargo.toml
+3	1	fluence-app-service/Cargo.toml
+3	1	fluence-faas/Cargo.toml
+1	1	tools/cli/Cargo.toml
+2	2	tools/repl/Cargo.toml
+
+commit 94675d8e8fb04e3c1d896712970b029f99e85cfc
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 8 23:29:16 2020 +0300
+
+    add embed option to fce-cli
+
+2	2	.circleci/config.yml
+25	2	tools/cli/src/args.rs
+20	2	tools/cli/src/main.rs
+
+commit daa25d1021b7a558cfaab585340eb6b68771b7ef
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 8 23:07:21 2020 +0300
+
+    add getting WASI state for repl
+
+3	3	.circleci/config.yml
+2	0	Cargo.lock
+14	0	engine/src/engine.rs
+4	0	engine/src/module/fce_module.rs
+3	2	fluence-app-service/Cargo.toml
+7	0	fluence-app-service/src/service.rs
+7	0	fluence-faas/src/faas.rs
+1	0	tools/repl/Cargo.toml
+54	0	tools/repl/src/main.rs
+
+commit 7e1e94ecc30c958327db8f457334b35a04540dcc
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 8 13:38:41 2020 +0300
+
+    update examples
+
+22	132	Cargo.lock
+5	8	Cargo.toml
+6	3	examples/greeting/Cargo.toml
+2	2	examples/greeting/Config.toml
+5	21	examples/greeting/src/main.rs
+0	12	examples/greeting/wasm/Cargo.toml
+-	-	examples/greeting/wasm/artifacts/greeting.wasm
+0	24	examples/greeting/wasm/src/main.rs
+2	3	examples/{ipfs_node => ipfs-node}/Config.toml
+0	0	examples/{ipfs_node/wasm => ipfs-node}/artifacts/ipfs_rpc_file
+1	1	examples/{ipfs_node/wasm/ipfs_node => ipfs-node/effector}/Cargo.toml
+0	0	examples/{ipfs_node/wasm/ipfs_node => ipfs-node/effector}/src/main.rs
+0	0	examples/{ipfs_node/wasm/ipfs_node => ipfs-node/effector}/src/path.rs
+2	2	examples/{ipfs_node/wasm/ipfs_rpc => ipfs-node/pure}/Cargo.toml
+0	0	examples/{ipfs_node/wasm/ipfs_rpc => ipfs-node/pure}/src/main.rs
+0	11	examples/ipfs_node/Cargo.toml
+0	42	examples/ipfs_node/src/main.rs
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/ipfs_node.wasm
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/ipfs_rpc.wasm
+0	11	examples/records/Cargo.toml
+3	3	examples/records/Config.toml
+1	1	examples/records/{wasm => }/effector/Cargo.toml
+0	0	examples/records/{wasm => }/effector/src/main.rs
+1	1	examples/records/{wasm => }/pure/Cargo.toml
+0	0	examples/records/{wasm => }/pure/src/main.rs
+0	33	examples/records/src/main.rs
+0	0	examples/records/{wasm => }/test-record/Cargo.toml
+0	0	examples/records/{wasm => }/test-record/src/test_record.rs
+-	-	examples/records/wasm/artifacts/wasm_modules/effector.wasm
+-	-	examples/records/wasm/artifacts/wasm_modules/pure.wasm
+
+commit 6c1ec4b9dcc2191fc1a965cb77b5cd659cd2dd17
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 8 12:44:27 2020 +0300
+
+    add FCE config validation
+
+7	0	Cargo.lock
+1	0	engine/Cargo.toml
+38	0	engine/src/engine.rs
+4	0	engine/src/errors.rs
+7	7	engine/src/module/fce_module.rs
+
+commit 5f0a91d9ecf403919c69619bb848d5dab476b4ff
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Aug 8 00:52:21 2020 +0300
+
+    load modules in order specified in a config
+
+1	1	examples/ipfs_node/Config.toml
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/{zipfs_rpc.wasm => ipfs_rpc.wasm}
+4	0	fluence-faas/src/errors.rs
+38	20	fluence-faas/src/faas.rs
+6	7	fluence-faas/src/misc/config.rs
+3	3	tools/repl/src/main.rs
+
+commit 7254fe7e8c0578c37b74ea73d0eb4f3baa50091c
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Aug 7 23:24:28 2020 +0300
+
+    Introduce REPL for testing (#14)
+
+134	22	Cargo.lock
+1	0	Cargo.toml
+6	6	engine/src/engine.rs
+1	1	examples/greeting/src/main.rs
+1	1	examples/ipfs_node/Cargo.toml
+7	13	examples/ipfs_node/Config.toml
+6	10	examples/ipfs_node/src/main.rs
+-	-	examples/ipfs_node/wasm/artifacts/{ipfs_rpc.wasm => wasm_modules/zipfs_rpc.wasm}
+1	1	examples/records/src/main.rs
+3	8	fluence-app-service/Cargo.toml
+5	5	fluence-app-service/src/errors.rs
+59	11	fluence-app-service/src/service.rs
+3	0	fluence-faas/Cargo.toml
+2	2	fluence-faas/src/errors.rs
+32	10	fluence-faas/src/faas.rs
+11	4	fluence-faas/src/misc/config.rs
+23	0	tools/repl/Cargo.toml
+174	0	tools/repl/src/main.rs
+
+commit c06dddd5ae2bfab43ae18f50de2f047c4b835ca8
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Aug 7 11:54:37 2020 +0300
+
+    Introduce service (#13)
+
+16	0	Cargo.lock
+1	0	Cargo.toml
+20	0	fluence-app-service/Cargo.toml
+3	0	fluence-app-service/README.md
+68	0	fluence-app-service/src/errors.rs
+44	0	fluence-app-service/src/lib.rs
+152	0	fluence-app-service/src/service.rs
+26	56	fluence-faas/src/faas.rs
+3	1	fluence-faas/src/faas_interface.rs
+19	3	fluence-faas/src/lib.rs
+162	71	fluence-faas/src/misc/config.rs
+5	3	fluence-faas/src/misc/mod.rs
+11	12	fluence-faas/src/misc/utils.rs
+1	1	tools/cli/Cargo.toml
+
+commit 32ffc7c8a7c5a472562376edd5427e3d619e8bb1
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 23:57:22 2020 +0300
+
+    fix fluence-faas dependecies
+
+5	101	Cargo.lock
+3	3	fluence-faas/Cargo.toml
+
+commit ab2b07574841fef3e58b2561f792aae521a5425a
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 19:14:53 2020 +0300
+
+    rename crates and adjust dependecies
+
+177	47	Cargo.lock
+1	1	Cargo.toml
+9	4	crates/wit-generator/Cargo.toml
+2	2	crates/wit-generator/src/interface_generator.rs
+0	0	crates/{fce-wit-interfaces => wit-interfaces}/Cargo.toml
+0	0	crates/{fce-wit-interfaces => wit-interfaces}/src/errors.rs
+0	0	crates/{fce-wit-interfaces => wit-interfaces}/src/fce_wit_interfaces.rs
+0	0	crates/{fce-wit-interfaces => wit-interfaces}/src/lib.rs
+6	5	crates/wit-parser/Cargo.toml
+11	6	engine/Cargo.toml
+1	1	engine/src/errors.rs
+1	1	engine/src/module/fce_module.rs
+8	5	tools/cli/Cargo.toml
+3	4	tools/cli/src/build.rs
+2	2	tools/cli/src/errors.rs
+8	5	tools/cli/src/main.rs
+
+commit 76a9c83541871703adb401288a67e30ddb0e0dd1
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 19:09:02 2020 +0300
+
+    prepare for publish
+
+23	8	Cargo.lock
+3	1	crates/fce-wit-interfaces/Cargo.toml
+3	2	crates/wit-generator/Cargo.toml
+3	2	crates/wit-parser/Cargo.toml
+1	1	engine/Cargo.toml
+
+commit 14e521ea276323f936a5be062df6d5f03f278a3d
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 17:14:46 2020 +0300
+
+    add records wasm modules
+
+1	0	.gitignore
+-	-	examples/records/wasm/artifacts/wasm_modules/effector.wasm
+-	-	examples/records/wasm/artifacts/wasm_modules/pure.wasm
+
+commit f8a5bbdfd2dfcd67efdb9b58e90abae23397dc53
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 17:08:26 2020 +0300
+
+    introduce test-record crate in the record example
+
+14	5	Cargo.lock
+1	0	Cargo.toml
+1	0	examples/records/wasm/effector/Cargo.toml
+1	17	examples/records/wasm/effector/src/main.rs
+1	0	examples/records/wasm/pure/Cargo.toml
+1	17	examples/records/wasm/pure/src/main.rs
+12	0	examples/records/wasm/test-record/Cargo.toml
+32	0	examples/records/wasm/test-record/src/test_record.rs
+
+commit ea7219f477765a2cacc0282acbdede7e8a916929
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Jul 28 16:29:09 2020 +0300
+
+    custom interface serialization (#12)
+
+55	2	fluence-faas/src/faas_interface.rs
+
+commit 0a32104cbc7d156d7cf771169be3e3978af17fec
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 28 01:19:15 2020 +0300
+
+    add example with records
+
+37	23	Cargo.lock
+5	2	Cargo.toml
+7	7	README.md
+1	1	crates/fce-wit-interfaces/Cargo.toml
+4	5	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+20	3	engine/src/module/wit_instance.rs
+11	0	examples/records/Cargo.toml
+11	0	examples/records/Config.toml
+33	0	examples/records/src/main.rs
+12	0	examples/records/wasm/effector/Cargo.toml
+55	0	examples/records/wasm/effector/src/main.rs
+12	0	examples/records/wasm/pure/Cargo.toml
+63	0	examples/records/wasm/pure/src/main.rs
+
+commit 471da75a9ab906496caed9a3cdd3f6bc26b557c1
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jul 26 21:56:10 2020 +0300
+
+    pass records with only pointer
+
+7	41	Cargo.lock
+2	2	README.md
+1	1	examples/ipfs_node/wasm/ipfs_rpc/Cargo.toml
+0	205	examples/ipfs_node/wasm/ipfs_rpc/expand.rs
+1	6	examples/ipfs_node/wasm/ipfs_rpc/src/main.rs
+
+commit 3c5dcd1e7894b51d8e7e0b0d1bd4c56ecde67139
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jul 26 19:38:11 2020 +0300
+
+    add complex type support
+
+72	20	Cargo.lock
+6	6	README.md
+1	1	crates/wit-generator/Cargo.toml
+4	0	crates/wit-generator/src/errors.rs
+34	21	crates/wit-generator/src/instructions_generator.rs
+63	21	crates/wit-generator/src/instructions_generator/fn_instructions.rs
+72	24	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+31	3	crates/wit-generator/src/instructions_generator/record_instructions.rs
+20	15	crates/wit-generator/src/instructions_generator/utils.rs
+38	14	crates/wit-generator/src/interface_generator.rs
+1	1	crates/wit-parser/Cargo.toml
+1	1	engine/Cargo.toml
+1	1	examples/ipfs_node/wasm/ipfs_rpc/Cargo.toml
+205	0	examples/ipfs_node/wasm/ipfs_rpc/expand.rs
+6	1	examples/ipfs_node/wasm/ipfs_rpc/src/main.rs
+
+commit fa3ae391ecc99f14acee57862adc799f88dd3dc9
+Author: folex <0xdxdy@gmail.com>
+Date:   Mon Jul 20 17:13:11 2020 +0300
+
+    Add with_module_names constructor to FluenceFaaS (#11)
+
+23	13	Cargo.lock
+90	16	fluence-faas/src/faas.rs
+
+commit ee55c63ff87cffd56003d127b38634e4dd857a39
+Merge: 33d9320 98a3e68
+Author: Dima <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jul 20 12:47:27 2020 +0300
+
+    Merge pull request #9 from fluencelabs/readme-docs
+    
+    readme docs
+
+commit 98a3e6871fc2f52205b827f9fb253333bf2be171
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jul 20 12:44:32 2020 +0300
+
+    cargo fmt
+
+1	3	examples/greeting/wasm/src/main.rs
+
+commit afa08d9a24c93820eb9a862e366e2d3144b2a433
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jul 20 12:32:02 2020 +0300
+
+    PR fixes
+
+7	22	README.md
+
+commit 7e81c845809a31d72f1d3b276710de8356e91666
+Merge: eb45acd 33d9320
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Mon Jul 20 12:22:43 2020 +0300
+
+    Merge remote-tracking branch 'origin/master' into readme-docs
+
+commit 33d9320d47373bdc79a4503be5d73cbdbf95fccc
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Jul 18 18:05:07 2020 +0300
+
+    add ability to use IT in host imports
+
+7	0	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/ipfs_node.wasm
+5	18	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+1	1	fluence-faas/src/misc/imports.rs
+
+commit eb45acd95b1cb81479b0fd965dfd5be237696e72
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Sat Jul 18 15:44:02 2020 +0300
+
+    greeting and readme: lib.rs -> main.rs
+
+2	3	README.md
+2	3	examples/greeting/wasm/Cargo.toml
+4	0	examples/greeting/wasm/src/{lib.rs => main.rs}
+
+commit 43b765e61a68b586b71ac9a0a8eca8bb66d25214
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jul 17 23:07:02 2020 +0300
+
+    improve interfaces
+
+32	13	engine/src/engine.rs
+4	1	engine/src/lib.rs
+4	4	engine/src/misc/prepare.rs
+2	1	engine/src/module/exports.rs
+12	14	engine/src/module/fce_module.rs
+4	3	engine/src/module/mod.rs
+4	7	engine/src/module/wit_function.rs
+5	4	engine/src/module/wit_instance.rs
+-	-	examples/ipfs_node/wasm/artifacts/ipfs_rpc.wasm
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/ipfs_node.wasm
+13	4	fluence-faas/src/faas.rs
+5	6	fluence-faas/src/misc/utils.rs
+
+commit 7e9c247f82c2187614c6cec7322287a42579197e
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jul 17 18:09:22 2020 +0300
+
+    fix IType generation bug
+
+1	1	crates/wit-generator/src/instructions_generator/utils.rs
+
+commit e46c5e08b1da380aa22ff958efef69fa06908f30
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jul 17 15:03:46 2020 +0300
+
+    enable optional arguments with cargo build (#10)
+
+2	2	.circleci/config.yml
+4	4	tools/cli/src/args.rs
+2	5	tools/cli/src/build.rs
+6	11	tools/cli/src/main.rs
+
+commit f8a160901b7553146296e90225b5fa01ac4bec94
+Author: DieMyst <dmitry.shakhtarin@fluence.ai>
+Date:   Thu Jul 16 18:35:52 2020 +0300
+
+    readme docs
+
+131	0	README.md
+
+commit e03a84551dbdb104caffd7778f027e3b75d14b88
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 16 14:56:08 2020 +0300
+
+    add env_logger to the IPFS example
+
+90	6	Cargo.lock
+2	2	engine/src/module/fce_module.rs
+2	0	examples/ipfs_node/Cargo.toml
+1	0	examples/ipfs_node/src/main.rs
+-	-	examples/ipfs_node/wasm/artifacts/ipfs_rpc.wasm
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/ipfs_node.wasm
+1	1	examples/ipfs_node/wasm/ipfs_node/Cargo.toml
+1	1	examples/ipfs_node/wasm/ipfs_rpc/Cargo.toml
+
+commit 311db049dae82a300d564d584b45fb0371cf7490
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 14 00:52:20 2020 +0300
+
+    update examples with the new logger feature
+
+2	1	.gitignore
+10	10	Cargo.lock
+1	1	examples/greeting/wasm/Cargo.toml
+-	-	examples/greeting/wasm/artifacts/greeting.wasm
+-	-	examples/ipfs_node/wasm/artifacts/ipfs_rpc.wasm
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/ipfs_node.wasm
+1	1	examples/ipfs_node/wasm/ipfs_node/Cargo.toml
+1	1	examples/ipfs_node/wasm/ipfs_rpc/Cargo.toml
+
+commit e9ef12b6b4de638fdf8d296db918330f04202dc6
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Jul 11 23:04:55 2020 +0300
+
+    Move to the new sdk (#8)
+
+3	0	.gitignore
+54	19	Cargo.lock
+2	1	Cargo.toml
+2	2	crates/fce-wit-interfaces/src/fce_wit_interfaces.rs
+4	4	crates/wit-generator/src/instructions_generator/fn_instructions.rs
+82	9	crates/wit-generator/src/instructions_generator/foreign_mod_instructions.rs
+10	0	crates/wit-generator/src/instructions_generator/utils.rs
+5	2	crates/wit-generator/src/interface_generator.rs
+3	3	engine/src/engine.rs
+4	2	engine/src/errors.rs
+12	6	engine/src/module/fce_module.rs
+3	4	engine/src/module/wit_instance.rs
+9	0	examples/greeting/Cargo.toml
+6	0	examples/greeting/Config.toml
+40	0	examples/greeting/src/main.rs
+2	2	examples/{simple_greeting => greeting/wasm}/Cargo.toml
+1	1	examples/{simple_greeting => greeting/wasm}/src/lib.rs
+6	7	examples/ipfs_node/src/main.rs
+-	-	examples/ipfs_node/wasm/artifacts/wasm_ipfs_rpc_wit.wasi.wasm
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/ipfs_node.wasm
+0	2	examples/ipfs_node/wasm/ipfs_node/.cargo/config.toml
+5	1	examples/ipfs_node/wasm/ipfs_node/Cargo.toml
+33	70	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+0	41	examples/ipfs_node/wasm/ipfs_node/src/mem.rs
+0	53	examples/ipfs_node/wasm/ipfs_node/src/result.rs
+0	91	examples/ipfs_node/wasm/ipfs_node/wit
+0	2	examples/ipfs_node/wasm/ipfs_rpc/.cargo/config.toml
+5	1	examples/ipfs_node/wasm/ipfs_rpc/Cargo.toml
+20	73	examples/ipfs_node/wasm/ipfs_rpc/src/main.rs
+0	41	examples/ipfs_node/wasm/ipfs_rpc/src/mem.rs
+0	53	examples/ipfs_node/wasm/ipfs_rpc/src/result.rs
+0	139	examples/ipfs_node/wasm/ipfs_rpc/wit
+0	2	examples/simple_greeting/.cargo/config.toml
+
+commit 37ce9dafb3e83997806967c92a5accf9fd5e5b1e
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 9 20:27:50 2020 +0300
+
+    improve error handling
+
+33	5	Cargo.lock
+48	0	crates/wit-generator/src/errors.rs
+13	9	crates/wit-generator/src/interface_generator.rs
+4	0	crates/wit-generator/src/lib.rs
+5	2	examples/simple_greeting/Cargo.toml
+4	27	examples/simple_greeting/src/lib.rs
+0	32	examples/simple_greeting/src/mem.rs
+0	30	examples/simple_greeting/src/result.rs
+0	51	examples/simple_greeting/wit
+16	10	tools/cli/src/args.rs
+36	14	tools/cli/src/build.rs
+71	0	tools/cli/src/errors.rs
+7	11	tools/cli/src/main.rs
+
+commit 8eb4a1da7c024d1fd9261b4da1a68f0c40d4e375
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 9 17:06:08 2020 +0300
+
+    make manifest path optional
+
+4	4	.circleci/config.yml
+6	16	Cargo.lock
+1	1	crates/fce-wit-interfaces/Cargo.toml
+1	1	engine/Cargo.toml
+2	3	tools/cli/src/args.rs
+4	2	tools/cli/src/build.rs
+4	3	tools/cli/src/main.rs
+
+commit 9a02ffc54fd003af30f912367493c0043035243d
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 9 15:55:58 2020 +0300
+
+    wit refactoring
+
+22	16	Cargo.lock
+1	2	Cargo.toml
+2	1	crates/wit-generator/Cargo.toml
+90	0	crates/wit-generator/src/default_export_api_config.rs
+20	4	crates/wit-generator/src/{wit_generator.rs => instructions_generator.rs}
+33	14	crates/wit-generator/src/{wit_generator/fn_wit_generator.rs => instructions_generator/fn_instructions.rs}
+27	9	crates/wit-generator/src/{wit_generator/foreign_mod_wit_generator.rs => instructions_generator/foreign_mod_instructions.rs}
+26	0	crates/wit-generator/src/instructions_generator/record_instructions.rs
+16	0	crates/wit-generator/src/{wit_generator => instructions_generator}/utils.rs
+73	0	crates/wit-generator/src/interface_generator.rs
+21	109	crates/wit-generator/src/lib.rs
+0	28	crates/wit-generator/src/wasm_ast_extractor.rs
+0	10	crates/wit-generator/src/wit_generator/record_wit_generator.rs
+1	1	crates/wit-parser/Cargo.toml
+17	9	crates/wit-parser/src/deleter.rs
+9	21	crates/wit-parser/src/embedder.rs
+2	1	crates/wit-parser/src/lib.rs
+1	1	examples/ipfs_node/wasm/ipfs_node/src/path.rs
+1	1	tools/{fce-cli => cli}/Cargo.toml
+10	0	tools/{fce-cli => cli}/src/args.rs
+59	0	tools/cli/src/build.rs
+68	0	tools/cli/src/main.rs
+0	98	tools/fce-cli/src/main.rs
+0	15	tools/wit_embedder/Cargo.toml
+0	56	tools/wit_embedder/src/args.rs
+0	89	tools/wit_embedder/src/main.rs
+
+commit d524eebc55055e516014b4fb87568212bdcd5f18
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jul 9 06:21:04 2020 +0300
+
+    bump rust-sdk version
+
+60	58	Cargo.lock
+4	3	Cargo.toml
+1	1	crates/{fce_wit_interfaces => fce-wit-interfaces}/Cargo.toml
+0	0	crates/{fce_wit_interfaces => fce-wit-interfaces}/src/errors.rs
+0	0	crates/{fce_wit_interfaces => fce-wit-interfaces}/src/fce_wit_interfaces.rs
+0	0	crates/{fce_wit_interfaces => fce-wit-interfaces}/src/lib.rs
+13	0	crates/wit-generator/Cargo.toml
+109	0	crates/wit-generator/src/lib.rs
+28	0	crates/wit-generator/src/wasm_ast_extractor.rs
+36	0	crates/wit-generator/src/wit_generator.rs
+139	0	crates/wit-generator/src/wit_generator/fn_wit_generator.rs
+147	0	crates/wit-generator/src/wit_generator/foreign_mod_wit_generator.rs
+10	0	crates/wit-generator/src/wit_generator/record_wit_generator.rs
+21	0	crates/wit-generator/src/wit_generator/utils.rs
+2	2	crates/{wit_parser => wit-parser}/Cargo.toml
+0	0	crates/{wit_parser => wit-parser}/src/custom.rs
+0	0	crates/{wit_parser => wit-parser}/src/deleter.rs
+0	0	crates/{wit_parser => wit-parser}/src/embedder.rs
+0	0	crates/{wit_parser => wit-parser}/src/errors.rs
+0	0	crates/{wit_parser => wit-parser}/src/extractor.rs
+0	0	crates/{wit_parser => wit-parser}/src/lib.rs
+2	2	engine/Cargo.toml
+3	2	tools/{fce_cli => fce-cli}/Cargo.toml
+0	0	tools/{fce_cli => fce-cli}/src/args.rs
+3	13	tools/{fce_cli => fce-cli}/src/main.rs
+1	1	tools/wit_embedder/Cargo.toml
+
+commit 124f07a5911c34dbd02479f30e40f00c49a1fadc
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jul 7 23:11:42 2020 +0300
+
+    introduce fce_cli
+
+93	0	Cargo.lock
+1	0	Cargo.toml
+22	0	crates/wit_parser/src/embedder.rs
+1	0	crates/wit_parser/src/lib.rs
+0	1	engine/src/module/wit_function.rs
+18	0	tools/fce_cli/Cargo.toml
+27	0	tools/fce_cli/src/args.rs
+108	0	tools/fce_cli/src/main.rs
+
+commit 27d9e5c8f2d25e41578308c7ea62b07877f18923
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jul 1 18:54:26 2020 +0300
+
+    add configurable timeout to ipfs commands
+
+1	1	examples/ipfs_node/Config.toml
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/ipfs_node.wasm
+8	2	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+1	0	examples/ipfs_node/wasm/ipfs_node/src/path.rs
+
+commit 80afea2094bf3af8fb50ba4c03aa2d6a3546915f
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 30 19:23:43 2020 +0300
+
+    use HashMap for functions in get_interface (#7)
+
+9	9	engine/src/engine.rs
+1	1	engine/src/lib.rs
+21	2	fluence-faas/src/faas.rs
+12	4	fluence-faas/src/faas_interface.rs
+
+commit 46ef013f7e699539062f617977bbc08574d3a7f2
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 30 18:17:38 2020 +0300
+
+    Use HashMap instead of Vec in FaaSInterface (#6)
+
+8	8	Cargo.lock
+0	2	engine/Cargo.toml
+43	33	engine/src/engine.rs
+1	16	fluence-faas/src/faas.rs
+12	25	fluence-faas/src/faas_interface.rs
+0	1	fluence-faas/src/lib.rs
+
+commit 6784d2ed0806c59d9adbe0c65b44490b628afe89
+Author: folex <0xdxdy@gmail.com>
+Date:   Tue Jun 30 15:57:48 2020 +0300
+
+    Change configuration API for easier integration (#5)
+
+25	23	Cargo.lock
+2	1	engine/Cargo.toml
+1	1	engine/src/engine.rs
+1	0	engine/src/lib.rs
+1	0	engine/src/module/mod.rs
+1	0	examples/ipfs_node/Cargo.toml
+2	0	examples/ipfs_node/Config.toml
+12	18	examples/ipfs_node/src/main.rs
+5	5	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+1	1	examples/ipfs_node/wasm/ipfs_rpc/src/main.rs
+0	3	fluence-faas/Cargo.toml
+12	0	fluence-faas/src/errors.rs
+73	37	fluence-faas/src/faas.rs
+3	2	fluence-faas/src/faas_interface.rs
+5	0	fluence-faas/src/lib.rs
+66	34	fluence-faas/src/misc/config.rs
+5	1	fluence-faas/src/misc/mod.rs
+
+commit c9078654443cbda4eaa6b93d0e9015f3cf69385c
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 30 14:45:04 2020 +0300
+
+    find ipsf address by the env variable
+
+1	1	examples/ipfs_node/Config.toml
+3	3	examples/ipfs_node/src/main.rs
+-	-	examples/ipfs_node/wasm/artifacts/wasm_modules/ipfs_node.wasm
+11	18	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+4	4	examples/ipfs_node/wasm/ipfs_node/wit
+
+commit dd1d1a095198fa826f6179c9fa9519d9323e87b6
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 23 20:00:31 2020 +0300
+
+    some misc imporvements
+
+5	2	engine/src/module/fce_module.rs
+1	1	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+1	1	examples/ipfs_node/wasm/ipfs_rpc/src/main.rs
+4	0	tools/wit_embedder/Cargo.toml
+
+commit 983e824d7d4a92b15490ed9c92d6802688e4c965
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 23 15:58:02 2020 +0300
+
+    replace println with log::info in fce_module
+
+1	0	Cargo.lock
+1	0	engine/Cargo.toml
+3	2	engine/src/module/fce_module.rs
+
+commit e2cf6089dffc661a1295f0cbaf708b38b7c597d1
+Author: folex <0xdxdy@gmail.com>
+Date:   Wed Jun 17 13:42:11 2020 +0300
+
+    Use log instead of println in log_utf8_string (#4)
+
+1	0	Cargo.lock
+1	0	fluence-faas/Cargo.toml
+2	2	fluence-faas/src/misc/imports.rs
+
+commit a85ac4ff14107bd9276ded6d1a0ff152e969fcb8
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 16 14:20:33 2020 +0300
+
+    enable circleci (#3)
+
+80	59	.circleci/config.yml
+4	1	.gitignore
+5	1	examples/ipfs_node/src/main.rs
+4	5	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+4	1	examples/ipfs_node/wasm/ipfs_rpc/src/main.rs
+1	1	fluence-faas/src/errors.rs
+1	3	fluence-faas/src/misc/utils.rs
+
+commit 896f54f9fbd40026aa7fa2fa27757388af16e59c
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 16 11:15:56 2020 +0300
+
+    move bin to examples/wasm/artifacts
+
+2	2	.gitignore
+1	1	engine/Cargo.toml
+4	4	examples/ipfs_node/Config.toml
+3	3	examples/ipfs_node/src/main.rs
+1	0	examples/ipfs_node/wasm/artifacts/ipfs_rpc_file
+-	-	{bin => examples/ipfs_node/wasm/artifacts}/wasm_ipfs_rpc_wit.wasi.wasm
+-	-	{bin => examples/ipfs_node/wasm/artifacts}/wasm_modules/ipfs_node.wasm
+
+commit 0ed90c2c9c196d86155c130c9fab6deb268e8a46
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 16 10:41:34 2020 +0300
+
+    adjust imports
+
+49	52	Cargo.lock
+1	1	crates/wit_parser/Cargo.toml
+7	4	engine/Cargo.toml
+7	3	fluence-faas/Cargo.toml
+
+commit bc6c6845287347abdaf7beaeb76b74efc8d5fb87
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 16 09:55:55 2020 +0300
+
+    add compiled wasm modules for ipfs example
+
+2	5	.gitignore
+-	-	bin/wasm_ipfs_rpc_wit.wasi.wasm
+-	-	bin/wasm_modules/ipfs_node.wasm
+
+commit 6866e61d0cf74037aa2d803e99809cdf221481b3
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 16 09:53:47 2020 +0300
+
+    rename process to fce
+
+4	0	.gitignore
+1	1	engine/src/engine.rs
+11	11	fluence-faas/src/faas.rs
+1	1	fluence-faas/src/misc/mod.rs
+1	1	fluence-faas/src/misc/utils.rs
+
+commit 893d393a5995cb4d461cef4266ae2ea17ac22175
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jun 15 22:21:08 2020 +0300
+
+    add comments to fluence-faas
+
+2	2	engine/Cargo.toml
+6	0	fluence-faas/src/faas.rs
+
+commit f2855e466be0269649ac8926c025a43f99092778
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jun 15 17:40:30 2020 +0300
+
+    use relative paths in the IPFS node example
+
+4	7	examples/ipfs_node/src/main.rs
+1	1	fluence-faas/README.md
+
+commit b1e7eae29b5b1fd42c0a5f15753d259b835a6991
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jun 15 17:22:18 2020 +0300
+
+    rename IPFSNode to FluenceFaaS; dir rearranges
+
+19	12	Cargo.lock
+2	1	Cargo.toml
+1	1	{fce => engine}/Cargo.toml
+3	0	engine/README.md
+0	0	{fce/src/vm => engine/src}/config.rs
+24	17	fce/src/vm/fce.rs => engine/src/engine.rs
+0	0	{fce/src/vm => engine/src}/errors.rs
+10	9	{fce => engine}/src/lib.rs
+2	2	{fce => engine}/src/misc/mod.rs
+2	2	{fce/src/vm => engine/src/misc}/prepare.rs
+0	0	{fce/src/vm => engine/src}/module/exports.rs
+8	4	{fce/src/vm => engine/src}/module/fce_module.rs
+0	0	{fce/src/vm => engine/src}/module/memory.rs
+1	1	{fce/src/vm => engine/src}/module/mod.rs
+0	0	{fce/src/vm => engine/src}/module/type_converters.rs
+1	1	{fce/src/vm => engine/src}/module/wit_function.rs
+0	0	{fce/src/vm => engine/src}/module/wit_instance.rs
+3	13	examples/ipfs_node/Cargo.toml
+5	13	examples/ipfs_node/src/main.rs
+0	27	examples/ipfs_node/src/node/mod.rs
+0	38	examples/ipfs_node/src/node_wasm_service.rs
+0	37	fce/src/misc/slice_pretty_printer.rs
+0	26	fce/src/vm/mod.rs
+0	55	fce/src/wasm_process.rs
+18	0	fluence-faas/Cargo.toml
+3	0	fluence-faas/README.md
+11	11	{examples/ipfs_node/src/node => fluence-faas/src}/errors.rs
+22	26	examples/ipfs_node/src/node/ipfs_node.rs => fluence-faas/src/faas.rs
+6	6	examples/ipfs_node/src/node/node_public_interface.rs => fluence-faas/src/faas_interface.rs
+9	7	{examples/ipfs_node => fluence-faas}/src/lib.rs
+22	12	{examples/ipfs_node/src/node => fluence-faas/src/misc}/config.rs
+5	3	{examples/ipfs_node/src/node => fluence-faas/src/misc}/imports.rs
+6	0	fluence-faas/src/misc/mod.rs
+4	4	{examples/ipfs_node/src/node => fluence-faas/src/misc}/utils.rs
+
+commit f8580b3e824617ce6680b58a9a8536e247d8b46e
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jun 15 08:37:31 2020 +0300
+
+    intorduce macros for wasm function search and call
+
+10	59	examples/ipfs_node/src/node/imports.rs
+30	0	examples/ipfs_node/src/node/utils.rs
+
+commit a970b2e8360b787786d507e8829f7a2054b20d13
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jun 15 07:58:59 2020 +0300
+
+    search functions to call from import only once
+
+66	20	examples/ipfs_node/src/node/imports.rs
+
+commit cebf995ff0d5fff806f9260ca4a21311e13c2de8
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 12 20:29:23 2020 +0300
+
+    support mapped directories inside a core module
+
+4	4	examples/ipfs_node/Config.toml
+2	12	examples/ipfs_node/src/main.rs
+8	7	examples/ipfs_node/src/node/utils.rs
+18	5	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+51	0	examples/ipfs_node/wasm/ipfs_node/src/path.rs
+1	1	examples/ipfs_node/wasm/ipfs_rpc/src/main.rs
+
+commit c98e5771502f65e3f670c1e51548263187e8a969
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 12 16:54:21 2020 +0300
+
+    add get_addresses export
+
+12	2	examples/ipfs_node/src/main.rs
+27	1	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+19	0	examples/ipfs_node/wasm/ipfs_node/wit
+2	0	examples/simple_greeting/wit
+1	1	fce/src/vm/config.rs
+
+commit 761a636beeb9426cc170c5c6d697173d313ad165
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 12 02:12:06 2020 +0300
+
+    change build target to wasi
+
+1	1	examples/ipfs_node/wasm/ipfs_node/.cargo/config.toml
+1	1	examples/ipfs_node/wasm/ipfs_rpc/.cargo/config.toml
+
+commit abf1d48482db027cc2125f7fff18f8dc75636bb6
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 12 02:04:52 2020 +0300
+
+    add core_call method to node service
+
+11	0	examples/ipfs_node/src/node/ipfs_node.rs
+7	0	examples/ipfs_node/src/node_wasm_service.rs
+
+commit 9da7cc09576fb06b8245f0197935cb71db69de28
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 12 01:59:50 2020 +0300
+
+    introduce NodeWasmService trait
+
+2	2	Cargo.lock
+2	2	examples/ipfs_node/Cargo.toml
+6	2	examples/ipfs_node/src/lib.rs
+7	1	examples/ipfs_node/src/main.rs
+5	3	examples/ipfs_node/src/node/{node.rs => ipfs_node.rs}
+2	2	examples/ipfs_node/src/node/mod.rs
+31	0	examples/ipfs_node/src/node_wasm_service.rs
+
+commit 06de91968ea53c50141c77fe32c5af65df6616a3
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 12 01:41:57 2020 +0300
+
+    move node implementation to a separate folder
+
+0	216	examples/ipfs_node/src/imports.rs
+1	7	examples/ipfs_node/src/lib.rs
+0	5	examples/ipfs_node/src/main.rs
+1	1	examples/ipfs_node/src/{ => node}/config.rs
+0	0	examples/ipfs_node/src/{ => node}/errors.rs
+100	0	examples/ipfs_node/src/node/imports.rs
+27	0	examples/ipfs_node/src/node/mod.rs
+5	77	examples/ipfs_node/src/{ => node}/node.rs
+0	0	examples/ipfs_node/src/{ => node}/node_public_interface.rs
+171	0	examples/ipfs_node/src/node/utils.rs
+1	0	fce/src/lib.rs
+
+commit 1254b64b9db73b1a76eeb1a58fb4ef824b7858c2
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 12 01:24:07 2020 +0300
+
+    move wasi initialization inside fce
+
+7	1	examples/ipfs_node/src/main.rs
+5	17	examples/ipfs_node/src/node.rs
+1	1	fce/src/vm/fce.rs
+25	8	fce/src/vm/module/fce_module.rs
+
+commit 8921535f0b909b74fd5d0eb88ded7e85906c2629
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 12 01:04:31 2020 +0300
+
+    update gitignore
+
+3	0	.gitignore
+-	-	bin/wit_embedder
+
+commit 07fe0bb39ea0a019bb73e6b78cc94d8d2539ac16
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 12 00:05:04 2020 +0300
+
+    repair put/get
+
+7	0	Cargo.lock
+1	0	examples/ipfs_node/Cargo.toml
+1	1	examples/ipfs_node/Config.toml
+84	48	examples/ipfs_node/src/imports.rs
+1	0	examples/ipfs_node/src/lib.rs
+2	1	examples/ipfs_node/src/main.rs
+16	8	examples/ipfs_node/src/node.rs
+3	3	examples/ipfs_node/src/node_public_interface.rs
+10	6	examples/ipfs_node/wasm/ipfs_node/src/main.rs
+4	2	examples/ipfs_node/wasm/ipfs_node/wit
+15	8	examples/ipfs_node/wasm/ipfs_rpc/src/main.rs
+4	4	examples/ipfs_node/wasm/ipfs_rpc/wit
+19	3	fce/src/vm/module/fce_module.rs
+1	18	fce/src/vm/module/wit_function.rs
+
+commit 46ac364c69bb1111f19b1965a14cd05105c73174
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jun 11 19:11:34 2020 +0300
+
+    support of _start
+
+26	25	Cargo.lock
+1	1	examples/ipfs_node/src/errors.rs
+2	0	examples/ipfs_node/src/lib.rs
+2	3	examples/ipfs_node/wasm/ipfs_node/Cargo.toml
+8	8	examples/ipfs_node/wasm/ipfs_node/src/{lib.rs => main.rs}
+2	3	examples/ipfs_node/wasm/ipfs_rpc/Cargo.toml
+14	15	examples/ipfs_node/wasm/ipfs_rpc/src/{lib.rs => main.rs}
+6	0	fce/src/vm/module/fce_module.rs
+
+commit 255a131a4f70fc3e1d6d83628872ffb5656fb62a
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jun 11 03:10:37 2020 +0300
+
+    improve wasm modules
+
+1	0	Cargo.lock
+1	0	examples/ipfs_node/Cargo.toml
+7	2	examples/ipfs_node/Config.toml
+0	1	examples/ipfs_node/src/imports.rs
+2	2	examples/ipfs_node/src/main.rs
+24	7	examples/ipfs_node/src/node.rs
+5	5	examples/ipfs_node/wasm/ipfs_node/src/lib.rs
+2	2	examples/ipfs_node/wasm/ipfs_node/src/mem.rs
+4	4	examples/ipfs_node/wasm/ipfs_node/src/result.rs
+21	5	examples/ipfs_node/wasm/ipfs_rpc/src/lib.rs
+2	2	examples/ipfs_node/wasm/ipfs_rpc/src/mem.rs
+4	4	examples/ipfs_node/wasm/ipfs_rpc/src/result.rs
+45	2	examples/ipfs_node/wasm/ipfs_rpc/wit
+
+commit f4022533b7452ca4acc8b7edc60488c2813c3144
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jun 11 01:07:32 2020 +0300
+
+    improve export function search from host import
+
+1	1	examples/ipfs_node/Config.toml
+134	11	examples/ipfs_node/src/imports.rs
+37	21	examples/ipfs_node/wasm/ipfs_node/src/lib.rs
+25	25	examples/ipfs_node/wasm/ipfs_rpc/src/lib.rs
+
+commit 4ed1e3eaadd42b860fb6b6fc51e3f8a755c4608e
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jun 10 18:00:07 2020 +0300
+
+    adjust ipfs rpc module to use wasi
+
+1	1	examples/ipfs_node/src/imports.rs
+6	4	examples/ipfs_node/src/main.rs
+16	11	examples/ipfs_node/src/node.rs
+5	1	examples/ipfs_node/src/node_public_interface.rs
+45	10	examples/ipfs_node/wasm/ipfs_rpc/src/lib.rs
+
+commit bbe4612a4028c6004f85df8dfde0f852c0247685
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jun 10 16:55:18 2020 +0300
+
+    introduce node public interface
+
+3	1	examples/ipfs_node/src/lib.rs
+4	2	examples/ipfs_node/src/main.rs
+6	11	examples/ipfs_node/src/node.rs
+50	0	examples/ipfs_node/src/node_public_interface.rs
+2	0	fce/src/vm/module/wit_function.rs
+
+commit 49b4504ed7eb9b878bc8291391114f201a36b9e3
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jun 10 14:56:15 2020 +0300
+
+    refactor FCE
+
+21	40	examples/ipfs_node/src/config.rs
+3	26	examples/ipfs_node/src/imports.rs
+0	1	examples/ipfs_node/src/lib.rs
+3	1	examples/ipfs_node/src/main.rs
+8	9	examples/ipfs_node/src/node.rs
+9	0	fce/src/lib.rs
+3	12	fce/src/vm/fce.rs
+36	91	fce/src/vm/module/fce_module.rs
+10	11	fce/src/vm/module/wit_function.rs
+1	8	fce/src/vm/module/wit_instance.rs
+6	5	fce/src/wasm_process.rs
+
+commit bbd0941d3eaa1b61fded4b8daee1dd6472721acf
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jun 7 22:57:30 2020 +0300
+
+    fix bug with leaked imports
+
+27	2	examples/ipfs_node/src/imports.rs
+2	1	examples/ipfs_node/src/node.rs
+2	2	examples/ipfs_node/wasm/ipfs_node/src/lib.rs
+4	2	examples/ipfs_node/wasm/ipfs_rpc/src/lib.rs
+10	8	examples/ipfs_node/wasm/ipfs_rpc/wit
+4	7	fce/src/vm/fce.rs
+67	33	fce/src/vm/module/fce_module.rs
+14	30	fce/src/vm/module/wit_function.rs
+4	4	fce/src/vm/module/wit_instance.rs
+
+commit fe716cd078fa68decb9439b557a2e9c4522f1003
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Jun 7 12:33:26 2020 +0300
+
+    allow several host imports
+
+18	16	crates/fce_wit_interfaces/src/fce_wit_interfaces.rs
+1	1	examples/ipfs_node/Cargo.toml
+2	0	examples/ipfs_node/src/config.rs
+8	6	examples/ipfs_node/src/imports.rs
+3	2	examples/ipfs_node/src/node.rs
+11	5	examples/ipfs_node/wasm/ipfs_node/src/lib.rs
+22	3	examples/ipfs_node/wasm/ipfs_node/wit
+4	5	examples/ipfs_node/wasm/ipfs_rpc/src/lib.rs
+26	5	examples/ipfs_node/wasm/ipfs_rpc/wit
+6	0	fce/src/vm/fce.rs
+53	20	fce/src/vm/module/fce_module.rs
+13	0	fce/src/vm/module/wit_function.rs
+15	15	fce/src/vm/module/wit_instance.rs
+
+commit 7d5ae2f9b0a40d785070c3a99771b305a3a192ca
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Jun 6 21:34:13 2020 +0300
+
+    generalize ipfs node service
+
+26	4	Cargo.lock
+-	-	bin/wit_embedder
+23	14	crates/fce_wit_interfaces/src/fce_wit_interfaces.rs
+7	0	examples/ipfs_node/Cargo.toml
+15	4	examples/ipfs_node/Config.toml
+175	0	examples/ipfs_node/src/config.rs
+8	4	examples/ipfs_node/src/errors.rs
+54	0	examples/ipfs_node/src/imports.rs
+5	56	examples/ipfs_node/src/lib.rs
+45	0	examples/ipfs_node/src/main.rs
+86	19	examples/ipfs_node/src/node.rs
+1	4	examples/ipfs_node/wasm/ipfs_node/src/lib.rs
+1	1	examples/ipfs_node/wasm/ipfs_node/wit
+2	2	examples/ipfs_node/wasm/ipfs_rpc/src/lib.rs
+5	5	examples/ipfs_node/wasm/ipfs_rpc/wit
+2	13	fce/src/vm/config.rs
+5	2	fce/src/vm/fce.rs
+46	17	fce/src/vm/module/fce_module.rs
+4	1	fce/src/vm/module/wit_instance.rs
+1	0	fce/src/wasm_process.rs
+
+commit 8c845c9f37d73d9ef5470de08a5c823816bc11c2
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Jun 6 02:31:59 2020 +0300
+
+    rename instance to module
+
+1	1	fce/src/vm/fce.rs
+2	2	fce/src/vm/mod.rs
+0	0	fce/src/vm/{instance => module}/exports.rs
+0	0	fce/src/vm/{instance => module}/fce_module.rs
+0	0	fce/src/vm/{instance => module}/memory.rs
+0	0	fce/src/vm/{instance => module}/mod.rs
+0	0	fce/src/vm/{instance => module}/type_converters.rs
+0	0	fce/src/vm/{instance => module}/wit_function.rs
+0	0	fce/src/vm/{instance => module}/wit_instance.rs
+
+commit 093e410bacce95d36d5cdd69f5e6d6defffcb149
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Jun 6 02:27:35 2020 +0300
+
+    add cargo configs for wasm crates
+
+2	0	examples/ipfs_node/wasm/ipfs_node/.cargo/config.toml
+2	0	examples/ipfs_node/wasm/ipfs_rpc/.cargo/config.toml
+2	0	examples/simple_greeting/.cargo/config.toml
+
+commit 60c9f03902ccb08ae47579b86a9dec6a06719d6c
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Jun 6 01:03:49 2020 +0300
+
+    simplify the wit extrator
+
+10	32	crates/wit_parser/src/extractor.rs
+1	1	crates/wit_parser/src/lib.rs
+1	1	examples/ipfs_node/Config.toml
+6	5	fce/src/vm/instance/fce_module.rs
+2	3	fce/src/wasm_process.rs
+
+commit bb2bbcf35e45b86ec8030c21105034bd1a29587c
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Jun 6 00:13:05 2020 +0300
+
+    split fce_wit_interfaces
+
+22	3	Cargo.lock
+1	0	Cargo.toml
+0	4	crates/fce_wit_interfaces/Cargo.toml
+0	0	crates/fce_wit_interfaces/src/{interfaces => }/errors.rs
+0	0	crates/fce_wit_interfaces/src/{interfaces => }/fce_wit_interfaces.rs
+0	21	crates/fce_wit_interfaces/src/interfaces/mod.rs
+4	4	crates/fce_wit_interfaces/src/lib.rs
+17	0	crates/wit_parser/Cargo.toml
+0	0	crates/{fce_wit_interfaces/src/wit_parser => wit_parser/src}/custom.rs
+0	0	crates/{fce_wit_interfaces/src/wit_parser => wit_parser/src}/deleter.rs
+0	0	crates/{fce_wit_interfaces/src/wit_parser => wit_parser/src}/embedder.rs
+0	0	crates/{fce_wit_interfaces/src/wit_parser => wit_parser/src}/errors.rs
+1	1	crates/{fce_wit_interfaces/src/wit_parser => wit_parser/src}/extractor.rs
+12	2	crates/{fce_wit_interfaces/src/wit_parser/mod.rs => wit_parser/src/lib.rs}
+1	0	examples/ipfs_node/Cargo.toml
+6	0	examples/ipfs_node/Config.toml
+1	0	fce/Cargo.toml
+1	1	fce/src/vm/errors.rs
+1	1	fce/src/vm/instance/fce_module.rs
+1	1	tools/wit_embedder/Cargo.toml
+3	3	tools/wit_embedder/src/main.rs
+
+commit 2bbbb9323dfb815fe48a851ec16a444a1787edd8
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Jun 5 23:12:02 2020 +0300
+
+    introduce ipfs service
+
+11	4	Cargo.lock
+3	2	Cargo.toml
+2	4	examples/ipfs_node/Cargo.toml
+52	0	examples/ipfs_node/src/errors.rs
+44	38	examples/ipfs_node/src/lib.rs
+99	0	examples/ipfs_node/src/node.rs
+10	0	examples/ipfs_node/wasm/ipfs_node/Cargo.toml
+69	0	examples/ipfs_node/wasm/ipfs_node/src/lib.rs
+0	0	examples/ipfs_node/{ => wasm/ipfs_node}/src/mem.rs
+0	0	examples/ipfs_node/{ => wasm/ipfs_node}/src/result.rs
+0	0	examples/ipfs_node/{ => wasm/ipfs_node}/wit
+2	2	examples/{ => ipfs_node/wasm}/ipfs_rpc/Cargo.toml
+0	0	examples/{ => ipfs_node/wasm}/ipfs_rpc/src/lib.rs
+0	0	examples/{ => ipfs_node/wasm}/ipfs_rpc/src/mem.rs
+0	0	examples/{ => ipfs_node/wasm}/ipfs_rpc/src/result.rs
+0	0	examples/{ => ipfs_node/wasm}/ipfs_rpc/wit
+0	0	examples/{export_test => simple_greeting}/Cargo.toml
+0	0	examples/{export_test => simple_greeting}/src/lib.rs
+0	0	examples/{export_test => simple_greeting}/src/mem.rs
+0	0	examples/{export_test => simple_greeting}/src/result.rs
+0	0	examples/{export_test => simple_greeting}/wit
+30	0	fce/src/lib.rs
+0	77	fce/src/main.rs
+1	1	fce/src/vm/errors.rs
+23	3	fce/src/vm/fce.rs
+8	0	fce/src/vm/instance/fce_module.rs
+0	2	fce/src/vm/mod.rs
+17	6	fce/src/{vm/fce_service.rs => wasm_process.rs}
+
+commit 5d7fdec0ee8d397e0628cb7aba0aff1e2b8a2380
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jun 4 20:36:07 2020 +0300
+
+    add delete subcommand to wit_embedder
+
+53	0	crates/fce_wit_interfaces/src/wit_parser/deleter.rs
+8	10	crates/fce_wit_interfaces/src/wit_parser/embedder.rs
+2	2	crates/fce_wit_interfaces/src/wit_parser/mod.rs
+1	1	fce/src/vm/instance/wit_instance.rs
+56	0	tools/wit_embedder/src/args.rs
+35	58	tools/wit_embedder/src/main.rs
+
+commit 59f9b7555fb6e2b6b78ea9500fdf6ace2088377f
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jun 4 19:54:23 2020 +0300
+
+    simplify fce_wit_interfaces
+
+61	0	crates/fce_wit_interfaces/src/interfaces/errors.rs
+36	8	crates/fce_wit_interfaces/src/{ => interfaces}/fce_wit_interfaces.rs
+21	0	crates/fce_wit_interfaces/src/interfaces/mod.rs
+2	2	crates/fce_wit_interfaces/src/lib.rs
+1	1	crates/fce_wit_interfaces/src/wit_parser/extractor.rs
+16	0	crates/fce_wit_interfaces/src/wit_parser/mod.rs
+14	0	fce/src/vm/errors.rs
+37	53	fce/src/vm/instance/fce_module.rs
+
+commit 6a7dbb47c8e019c88305abb359f08a5b4ce4d6f6
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jun 4 19:06:23 2020 +0300
+
+    move fce to fce_wit_interfaces
+
+15	13	Cargo.lock
+2	0	crates/fce_wit_interfaces/Cargo.toml
+23	27	crates/fce_wit_interfaces/src/fce_wit_interfaces.rs
+23	16	crates/fce_wit_interfaces/src/wit_parser/{extracter.rs => extractor.rs}
+3	3	crates/fce_wit_interfaces/src/wit_parser/mod.rs
+4	1	fce/Cargo.toml
+13	23	fce/src/vm/errors.rs
+126	166	fce/src/vm/instance/fce_module.rs
+0	1	fce/src/vm/instance/mod.rs
+27	37	fce/src/vm/instance/wit_instance.rs
+
+commit f2cafd07705d53484de23330dd92e378dfcaccaa
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jun 4 14:44:36 2020 +0300
+
+    move wit_embedder to fce_wit_interfaces
+
+2	3	Cargo.lock
+4	4	crates/fce_wit_interfaces/Cargo.toml
+7	4	crates/fce_wit_interfaces/src/fce_wit_interfaces.rs
+12	9	crates/fce_wit_interfaces/src/lib.rs
+2	2	crates/fce_wit_interfaces/src/wit_parser/custom.rs
+5	5	crates/fce_wit_interfaces/src/wit_parser/extracter.rs
+6	0	crates/fce_wit_interfaces/src/wit_parser/mod.rs
+1	2	tools/wit_embedder/Cargo.toml
+0	31	tools/wit_embedder/src/custom.rs
+0	53	tools/wit_embedder/src/embedder.rs
+0	58	tools/wit_embedder/src/extracter.rs
+7	14	tools/wit_embedder/src/main.rs
+
+commit 8b55bf4baf6cd6f397736c320d73ec8b524bc4f6
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Jun 4 12:46:12 2020 +0300
+
+    introduce fce_interfaces
+
+10	8	Cargo.lock
+3	2	Cargo.toml
+15	0	crates/fce_wit_interfaces/Cargo.toml
+156	0	crates/fce_wit_interfaces/src/fce_wit_interfaces.rs
+28	0	crates/fce_wit_interfaces/src/lib.rs
+33	0	crates/fce_wit_interfaces/src/wit_parser/custom.rs
+52	0	crates/fce_wit_interfaces/src/wit_parser/embedder.rs
+87	0	crates/fce_wit_interfaces/src/wit_parser/errors.rs
+89	0	crates/fce_wit_interfaces/src/wit_parser/extracter.rs
+6	0	crates/fce_wit_interfaces/src/wit_parser/mod.rs
+0	2	tools/wit_embedder/Cargo.toml
+16	2	tools/wit_embedder/src/custom.rs
+17	1	tools/wit_embedder/src/embedder.rs
+16	0	tools/wit_embedder/src/extracter.rs
+16	0	tools/wit_embedder/src/main.rs
+
+commit 939c2e24c09d2c95720ae945c97962c58e2914e7
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jun 3 23:19:07 2020 +0300
+
+    replace old FCE with new FCE with WIT support
+
+59	59	.circleci/config.yml
+31	1105	Cargo.lock
+4	5	Cargo.toml
+0	0	{wit_fce/examples => examples}/export_test/Cargo.toml
+0	0	{wit_fce/examples => examples}/export_test/src/lib.rs
+0	0	{wit_fce/examples => examples}/export_test/src/mem.rs
+0	0	{wit_fce/examples => examples}/export_test/src/result.rs
+0	0	{wit_fce/examples => examples}/export_test/wit
+0	0	{wit_fce/examples => examples}/ipfs_node/Cargo.toml
+0	0	{wit_fce/examples => examples}/ipfs_node/src/lib.rs
+0	0	{wit_fce/examples => examples}/ipfs_node/src/mem.rs
+0	0	{wit_fce/examples => examples}/ipfs_node/src/result.rs
+0	0	{wit_fce/examples => examples}/ipfs_node/wit
+0	0	{wit_fce/examples => examples}/ipfs_rpc/Cargo.toml
+0	0	{wit_fce/examples => examples}/ipfs_rpc/src/lib.rs
+0	0	{wit_fce/examples => examples}/ipfs_rpc/src/mem.rs
+0	0	{wit_fce/examples => examples}/ipfs_rpc/src/result.rs
+0	0	{wit_fce/examples => examples}/ipfs_rpc/wit
+0	1975	fce/Cargo.lock
+8	29	fce/Cargo.toml
+0	31	fce/src/lib.rs
+50	95	fce/src/main.rs
+26	74	fce/src/vm/config.rs
+36	14	fce/src/vm/errors.rs
+20	91	fce/src/vm/fce.rs
+0	0	{wit_fce => fce}/src/vm/fce_service.rs
+0	0	{wit_fce => fce}/src/vm/instance/exports.rs
+0	0	{wit_fce => fce}/src/vm/instance/fce_module.rs
+0	0	{wit_fce => fce}/src/vm/instance/memory.rs
+0	0	{wit_fce => fce}/src/vm/instance/mod.rs
+0	0	{wit_fce => fce}/src/vm/instance/type_converters.rs
+0	0	{wit_fce => fce}/src/vm/instance/wit_function.rs
+0	0	{wit_fce => fce}/src/vm/instance/wit_instance.rs
+11	6	fce/src/vm/mod.rs
+0	46	fce/src/vm/module/abi.rs
+0	31	fce/src/vm/module/api.rs
+0	220	fce/src/vm/module/fce_module.rs
+0	26	fce/src/vm/module/fce_result.rs
+0	24	fce/src/vm/module/mod.rs
+1	1	fce/src/vm/prepare.rs
+0	45	fce/src/vm/service.rs
+0	0	{fce/tests => tests}/downloader.rs
+0	0	{fce/tests => tests}/single_module.rs
+0	0	{wit_embedder => tools/wit_embedder}/Cargo.toml
+0	0	{wit_embedder => tools/wit_embedder}/src/custom.rs
+0	0	{wit_embedder => tools/wit_embedder}/src/embedder.rs
+0	0	{wit_embedder => tools/wit_embedder}/src/extracter.rs
+0	0	{wit_embedder => tools/wit_embedder}/src/main.rs
+0	15	wit_fce/Cargo.toml
+0	77	wit_fce/src/main.rs
+0	19	wit_fce/src/misc/mod.rs
+0	37	wit_fce/src/misc/slice_pretty_printer.rs
+0	102	wit_fce/src/vm/config.rs
+0	146	wit_fce/src/vm/errors.rs
+0	92	wit_fce/src/vm/fce.rs
+0	28	wit_fce/src/vm/mod.rs
+0	80	wit_fce/src/vm/prepare.rs
+
+commit 33aa87fa1ce391d5f8e558faa7fc0a0f1940976e
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jun 3 23:09:05 2020 +0300
+
+    improve embedder
+
+1	1	wit_embedder/Cargo.toml
+4	2	wit_embedder/src/embedder.rs
+4	4	wit_embedder/src/extracter.rs
+
+commit 44c098ec5b75ecdd7aefccb02a4c9e6861fe210d
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Jun 3 23:08:18 2020 +0300
+
+    add rustfmt config
+
+4	0	.rustfmt.toml
+1	1	wit_fce/src/vm/config.rs
+13	6	wit_fce/src/vm/errors.rs
+10	9	wit_fce/src/vm/fce.rs
+6	1	wit_fce/src/vm/fce_service.rs
+1	5	wit_fce/src/vm/instance/fce_module.rs
+0	1	wit_fce/src/vm/instance/type_converters.rs
+4	1	wit_fce/src/vm/instance/wit_function.rs
+1	3	wit_fce/src/vm/instance/wit_instance.rs
+
+commit 66ca7345fdfd339a33705072d55aab786c2d78a4
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 2 19:16:15 2020 +0300
+
+    use FCEError in vm
+
+1	0	wit_fce/src/main.rs
+29	14	wit_fce/src/vm/errors.rs
+4	4	wit_fce/src/vm/fce.rs
+0	147	wit_fce/src/vm/instance/errors.rs
+22	22	wit_fce/src/vm/instance/fce_module.rs
+1	2	wit_fce/src/vm/instance/mod.rs
+3	3	wit_fce/src/vm/instance/wit_function.rs
+7	7	wit_fce/src/vm/instance/wit_instance.rs
+
+commit b258caa8d66b28074da1dda1dc4a00abe7f6b0e7
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 2 17:20:00 2020 +0300
+
+    introduce service-like functionality
+
+25	2	Cargo.lock
+1	1	fce/src/vm/module/api.rs
+7	3	wit_fce/Cargo.toml
+17	25	wit_fce/src/main.rs
+2	9	wit_fce/src/{wit_fce.rs => misc/mod.rs}
+37	0	wit_fce/src/misc/slice_pretty_printer.rs
+102	0	wit_fce/src/vm/config.rs
+124	0	wit_fce/src/vm/errors.rs
+91	0	wit_fce/src/vm/fce.rs
+38	0	wit_fce/src/vm/fce_service.rs
+3	2	wit_fce/src/{ => vm}/instance/errors.rs
+11	9	wit_fce/src/{ => vm}/instance/exports.rs
+69	64	wit_fce/src/{instance/wit_module.rs => vm/instance/fce_module.rs}
+5	5	wit_fce/src/{ => vm}/instance/memory.rs
+41	0	wit_fce/src/vm/instance/mod.rs
+6	13	wit_fce/src/{instance/mod.rs => vm/instance/type_converters.rs}
+26	32	wit_fce/src/{ => vm}/instance/wit_function.rs
+24	41	wit_fce/src/{ => vm}/instance/wit_instance.rs
+28	0	wit_fce/src/vm/mod.rs
+80	0	wit_fce/src/vm/prepare.rs
+
+commit 880bb6f87e665fa46eeb2c8aee1c187582c4c937
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 2 01:02:22 2020 +0300
+
+    cargo fmt all the things
+
+1	0	wit_fce/examples/export_test/src/lib.rs
+0	1	wit_fce/examples/export_test/src/mem.rs
+0	1	wit_fce/examples/export_test/src/result.rs
+6	11	wit_fce/examples/ipfs_node/src/lib.rs
+1	2	wit_fce/examples/ipfs_node/src/mem.rs
+3	4	wit_fce/examples/ipfs_node/src/result.rs
+5	6	wit_fce/examples/ipfs_rpc/src/lib.rs
+1	2	wit_fce/examples/ipfs_rpc/src/mem.rs
+3	4	wit_fce/examples/ipfs_rpc/src/result.rs
+1	0	wit_fce/src/instance/wit_function.rs
+28	28	wit_fce/src/instance/wit_module.rs
+
+commit 541a19ff296ae99fd20adabd980370bdf358a2de
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 2 00:34:49 2020 +0300
+
+    remove excess logging
+
+0	1	wit_fce/src/instance/wit_function.rs
+0	2	wit_fce/src/instance/wit_instance.rs
+9	9	wit_fce/src/instance/wit_module.rs
+
+commit ddb5c9881a32debc65c0442546a0d5c669ada519
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Jun 2 00:12:23 2020 +0300
+
+    code cleaning
+
+8	0	Cargo.toml
+0	9	fce/Cargo.toml
+0	8	wit_embedder/Cargo.toml
+0	8	wit_fce/Cargo.toml
+10	12	wit_fce/src/instance/wit_function.rs
+3	10	wit_fce/src/instance/wit_instance.rs
+13	10	wit_fce/src/instance/wit_module.rs
+1	1	wit_fce/src/main.rs
+
+commit 6e2f17e07f65dcd23e1d1f8cddb59286ccbe5203
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jun 1 12:14:12 2020 +0300
+
+    it works
+
+13	1	wit_fce/examples/ipfs_node/src/lib.rs
+9	0	wit_fce/examples/ipfs_node/src/mem.rs
+13	0	wit_fce/examples/ipfs_node/src/result.rs
+17	10	wit_fce/examples/ipfs_node/wit
+9	0	wit_fce/examples/ipfs_rpc/src/mem.rs
+13	0	wit_fce/examples/ipfs_rpc/src/result.rs
+6	2	wit_fce/examples/ipfs_rpc/wit
+4	4	wit_fce/src/instance/wit_function.rs
+1	6	wit_fce/src/instance/wit_instance.rs
+37	22	wit_fce/src/instance/wit_module.rs
+2	2	wit_fce/src/main.rs
+
+commit 9d3d605190ccae595abe1b49738f4ac4ed65ee69
+Author: vms <michail.vms@gmail.com>
+Date:   Mon Jun 1 02:45:04 2020 +0300
+
+    linking
+
+14	0	Cargo.lock
+1	0	Cargo.toml
+10	1	wit_fce/Cargo.toml
+2	2	wit_fce/examples/export_test/wit
+10	0	wit_fce/examples/ipfs_node/Cargo.toml
+62	0	wit_fce/examples/ipfs_node/src/lib.rs
+33	0	wit_fce/examples/ipfs_node/src/mem.rs
+41	0	wit_fce/examples/ipfs_node/src/result.rs
+44	0	wit_fce/examples/ipfs_node/wit
+13	1	wit_fce/examples/ipfs_rpc/src/lib.rs
+1	1	wit_fce/examples/ipfs_rpc/src/result.rs
+46	23	wit_fce/examples/ipfs_rpc/wit
+8	3	wit_fce/src/instance/errors.rs
+0	86	wit_fce/src/instance/locals_imports.rs
+1	0	wit_fce/src/instance/memory.rs
+11	1	wit_fce/src/instance/mod.rs
+153	0	wit_fce/src/instance/wit_function.rs
+82	10	wit_fce/src/instance/wit_instance.rs
+206	67	wit_fce/src/instance/wit_module.rs
+37	13	wit_fce/src/main.rs
+26	0	wit_fce/src/wit_fce.rs
+
+commit 3d5be0e798bc6069e2b2677c47d0dcf69190a85f
+Author: vms <michail.vms@gmail.com>
+Date:   Sat May 30 01:55:39 2020 +0300
+
+    introduce wit_fce
+
+106	8	Cargo.lock
+3	0	Cargo.toml
+10	0	wit_fce/Cargo.toml
+10	0	wit_fce/examples/export_test/Cargo.toml
+44	0	wit_fce/examples/export_test/src/lib.rs
+33	0	wit_fce/examples/export_test/src/mem.rs
+31	0	wit_fce/examples/export_test/src/result.rs
+49	0	wit_fce/examples/export_test/wit
+10	0	wit_fce/examples/ipfs_rpc/Cargo.toml
+47	0	wit_fce/examples/ipfs_rpc/src/lib.rs
+33	0	wit_fce/examples/ipfs_rpc/src/mem.rs
+41	0	wit_fce/examples/ipfs_rpc/src/result.rs
+46	0	wit_fce/examples/ipfs_rpc/wit
+141	0	wit_fce/src/instance/errors.rs
+59	0	wit_fce/src/instance/exports.rs
+86	0	wit_fce/src/instance/locals_imports.rs
+49	0	wit_fce/src/instance/memory.rs
+56	0	wit_fce/src/instance/mod.rs
+119	0	wit_fce/src/instance/wit_instance.rs
+140	0	wit_fce/src/instance/wit_module.rs
+60	0	wit_fce/src/main.rs
+
+commit 615c7d842361fe2cce9d9ea1fea30b871e1b3df6
+Author: vms <michail.vms@gmail.com>
+Date:   Thu May 28 23:24:00 2020 +0300
+
+    add embedder in circle ci
+
+26	1	.circleci/config.yml
+8	2	wit_embedder/src/extracter.rs
+
+commit a04e2b6b21f5389ba12303b56c33aab0f9780126
+Author: vms <michail.vms@gmail.com>
+Date:   Thu May 28 23:22:29 2020 +0300
+
+    use WIT_SECTION_NAME istead of hardcode param
+
+4	3	wit_embedder/src/extracter.rs
+
+commit da3b9e56ed721775d4155fc4a52f9cda87ee143d
+Author: vms <michail.vms@gmail.com>
+Date:   Thu May 28 23:20:24 2020 +0300
+
+    add WIT embedder
+
+3	2	.circleci/config.yml
+984	797	Cargo.lock
+5	45	Cargo.toml
+1975	0	fce/Cargo.lock
+45	0	fce/Cargo.toml
+0	0	{src => fce/src}/lib.rs
+0	0	{src => fce/src}/main.rs
+0	0	{src => fce/src}/misc/mod.rs
+0	0	{src => fce/src}/misc/slice_pretty_printer.rs
+0	0	{src => fce/src}/vm/config.rs
+0	0	{src => fce/src}/vm/errors.rs
+0	0	{src => fce/src}/vm/fce.rs
+0	0	{src => fce/src}/vm/mod.rs
+0	0	{src => fce/src}/vm/module/abi.rs
+0	0	{src => fce/src}/vm/module/api.rs
+0	0	{src => fce/src}/vm/module/fce_module.rs
+0	0	{src => fce/src}/vm/module/fce_result.rs
+0	0	{src => fce/src}/vm/module/mod.rs
+0	0	{src => fce/src}/vm/prepare.rs
+0	0	{src => fce/src}/vm/service.rs
+0	0	{tests => fce/tests}/downloader.rs
+0	0	{tests => fce/tests}/single_module.rs
+22	0	wit_embedder/Cargo.toml
+17	0	wit_embedder/src/custom.rs
+35	0	wit_embedder/src/embedder.rs
+35	0	wit_embedder/src/extracter.rs
+103	0	wit_embedder/src/main.rs
+
+commit 361427f483963aebd2cd3f9114909383f7c69056
+Author: vms <michail.vms@gmail.com>
+Date:   Sun May 24 19:04:03 2020 +0300
+
+    make Func types more flexibly
+
+3	3	src/vm/module/fce_module.rs
+
+commit 2369a8131dbecae2e252dac0200d6da82f7280fb
+Author: vms <michail.vms@gmail.com>
+Date:   Sun May 24 18:44:06 2020 +0300
+
+    get rid of acquire/release logic in waiting for the new Wasmer API
+
+1	4	src/vm/fce.rs
+3	25	src/vm/module/fce_module.rs
+
+commit 5e8505c3e7728d62a7bee80c539ad58cc19e459a
+Author: vms <michail.vms@gmail.com>
+Date:   Sun May 24 18:38:26 2020 +0300
+
+    delete excess options
+
+6	6	src/vm/fce.rs
+5	5	src/vm/module/abi.rs
+20	21	src/vm/module/fce_module.rs
+
+commit 28fd4b4ad200c54a1f99ee1b034a6b95c0994558
+Author: vms <michail.vms@gmail.com>
+Date:   Sat May 9 00:39:42 2020 +0300
+
+    allow to deregister modules
+
+6	0	src/vm/errors.rs
+19	14	src/vm/fce.rs
+25	7	src/vm/module/fce_module.rs
+
+commit a18d35580c34f51ed88550af71bdc491a2d31350
+Author: vms <michail.vms@gmail.com>
+Date:   Fri May 8 22:48:36 2020 +0300
+
+    add more comments
+
+16	16	src/vm/module/fce_module.rs
+
+commit d94a20f0ed2589cabad2c9137afae965afbe602b
+Author: vms <michail.vms@gmail.com>
+Date:   Fri May 8 22:41:29 2020 +0300
+
+    refactor abi
+
+9	16	src/vm/module/abi.rs
+58	24	src/vm/module/fce_module.rs
+1	1	src/vm/module/mod.rs
+
+commit 39c9aaa7034ae09717a66a7aa36fcb6afee8962f
+Author: vms <michail.vms@gmail.com>
+Date:   Fri May 8 22:06:58 2020 +0300
+
+    apply new module creation scheme
+
+4	1	src/vm/module/abi.rs
+41	14	src/vm/module/fce_module.rs
+1	1	src/vm/module/mod.rs
+
+commit dd001db7ade5db492e96839bd6c734f589ea7147
+Author: vms <michail.vms@gmail.com>
+Date:   Fri May 8 20:38:29 2020 +0300
+
+    Frank => FCE
+
+1	0	Cargo.lock
+6	6	Cargo.toml
+2	2	src/lib.rs
+15	18	src/main.rs
+28	28	src/vm/errors.rs
+18	18	src/vm/{frank.rs => fce.rs}
+1	1	src/vm/mod.rs
+2	2	src/vm/module/abi.rs
+4	4	src/vm/module/api.rs
+14	18	src/vm/module/{frank_module.rs => fce_module.rs}
+2	2	src/vm/module/{frank_result.rs => fce_result.rs}
+3	3	src/vm/module/mod.rs
+4	4	src/vm/prepare.rs
+7	7	src/vm/service.rs
+15	17	tests/single_module.rs
+
+commit fa4b06c52f92eb9d8c0e60065b6ae2da8449aac7
+Author: vms <michail.vms@gmail.com>
+Date:   Sun May 3 19:29:33 2020 +0300
+
+    remove redundant Ctx argument
+
+6	10	src/vm/frank.rs
+
+commit 4e3eda717c7170fe9fa8b724a8fa38578e73f107
+Author: vms <michail.vms@gmail.com>
+Date:   Sat May 2 18:34:48 2020 +0300
+
+    Integration tests (#2)
+
+1	1	.circleci/config.yml
+831	43	Cargo.lock
+7	3	Cargo.toml
+1	1	README.md
+24	0	tests/downloader.rs
+108	0	tests/single_module.rs
+
+commit ac1f3c0627d6e22503174e84c24d69545a2b735e
+Author: vms <michail.vms@gmail.com>
+Date:   Sat May 2 12:44:49 2020 +0300
+
+    add license and readme
+
+201	0	LICENSE
+3	0	README.md
+
+commit f046901c2cbf2d8b86a633ff1f109f84fc754cca
+Merge: 6596a25 c29cf72
+Author: vms <michail.vms@gmail.com>
+Date:   Sat May 2 12:33:51 2020 +0300
+
+    Merge pull request #1 from fluencelabs/circleci-project-setup
+    
+    Circleci project setup
+
+commit c29cf72e018c12347a8cb3e0da3e3bf24f1af12a
+Author: vms <michail.vms@gmail.com>
+Date:   Sat May 2 12:31:31 2020 +0300
+
+    update wasmer branch
+
+19	19	Cargo.lock
+3	3	Cargo.toml
+1	1	src/vm/frank.rs
+
+commit c76925660f56c241d009c2d0e088ee5ce5f8739f
+Author: vms <michail.vms@gmail.com>
+Date:   Sat May 2 12:12:16 2020 +0300
+
+    fmt
+
+2	2	.circleci/config.yml
+1	1	src/lib.rs
+6	3	src/main.rs
+
+commit 661c9731a2186c5c5b922d7074853ea17d796ecc
+Author: vms <michail.vms@gmail.com>
+Date:   Sat May 2 12:09:49 2020 +0300
+
+    Add .circleci/config.yml
+
+33	0	.circleci/config.yml
+
+commit 6596a255a808838ff01fbe7debdba95a3c03c28c
+Author: vms <michail.vms@gmail.com>
+Date:   Sat May 2 12:02:31 2020 +0300
+
+    pretty print for hash
+
+7	0	Cargo.lock
+1	0	Cargo.toml
+1	0	src/lib.rs
+3	1	src/main.rs
+19	0	src/misc/mod.rs
+37	0	src/misc/slice_pretty_printer.rs
+
+commit 8773271e73cb9cc7c6226c58f64c74c2016f2786
+Author: vms <michail.vms@gmail.com>
+Date:   Thu Apr 30 00:52:37 2020 +0300
+
+    callback function creation improvements
+
+0	1	src/lib.rs
+11	26	src/vm/frank.rs
+7	6	src/vm/module/abi.rs
+5	1	src/vm/module/frank_module.rs
+
+commit 8fb0b31a71bc2ae61f5ebc0cfbed8eb2184c3ffb
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 29 23:20:22 2020 +0300
+
+    improve module export scheme
+
+5	1	src/lib.rs
+1	1	src/vm/frank.rs
+3	2	src/vm/mod.rs
+1	2	src/vm/module/abi.rs
+1	1	src/vm/module/api.rs
+3	3	src/vm/module/mod.rs
+
+commit ca704ede7a3ae16ce1f62861f2de4ac11d635674
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 29 22:15:17 2020 +0300
+
+    make api more robust
+
+1	1	src/main.rs
+22	11	src/vm/frank.rs
+6	4	src/vm/service.rs
+
+commit 44ac703e657d805b20047cf2120278b8fdf6f80d
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 29 20:42:28 2020 +0300
+
+    refactor using of ABI
+
+11	8	src/main.rs
+86	91	src/vm/frank.rs
+0	21	src/vm/module/abi.rs
+16	32	src/vm/module/frank_module.rs
+6	6	src/vm/module/mod.rs
+
+commit 893f01d22fb2e16344ca9608dd6af207275b9f68
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 28 22:12:52 2020 +0300
+
+    improve CLI
+
+129	55	Cargo.lock
+1	1	Cargo.toml
+77	78	src/main.rs
+
+commit 6c780be3f2e595ed2967c451dc15cc77e70f7a9d
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 28 14:47:39 2020 +0300
+
+    cleanup
+
+5	33	src/vm/frank.rs
+
+commit 91b8baac9ae45e1236b6ca928fd01eac82860a8b
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 28 14:39:46 2020 +0300
+
+    add rust_2018_idioms warning
+
+1	2	src/lib.rs
+1	2	src/main.rs
+1	1	src/vm/errors.rs
+
+commit 4ffef90cd645f8de2a278007658474c23e4a0323
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 28 14:27:08 2020 +0300
+
+    move to new dispatcher scheme
+
+103	20	src/vm/frank.rs
+33	17	src/vm/module/abi.rs
+18	78	src/vm/module/frank_module.rs
+1	1	src/vm/service.rs
+
+commit 8f57458aa2feba0a3d09ed4377fa8d156734e600
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 28 09:47:55 2020 +0300
+
+    add some comments, docs, test
+
+0	3	src/vm/frank.rs
+
+commit e3d884768db9056204a24d0ade1c15ef9872363a
+Author: vms <michail.vms@gmail.com>
+Date:   Tue Apr 28 05:00:20 2020 +0300
+
+    update
+
+4	0	.gitignore
+1	1	Cargo.lock
+4	4	Cargo.toml
+2	0	src/lib.rs
+12	5	src/main.rs
+11	3	src/vm/config.rs
+8	0	src/vm/errors.rs
+79	126	src/vm/frank.rs
+1	1	src/vm/mod.rs
+55	0	src/vm/module/abi.rs
+31	0	src/vm/module/api.rs
+240	0	src/vm/module/frank_module.rs
+0	0	src/vm/{ => module}/frank_result.rs
+24	0	src/vm/module/mod.rs
+3	3	src/vm/prepare.rs
+15	3	src/vm/service.rs
+
+commit 978bb90669332d38332de0fced5f13eea8d75c33
+Author: vms <michail.vms@gmail.com>
+Date:   Sun Apr 26 20:36:31 2020 +0300
+
+    add -dir option; refactor Config
+
+19	2	src/main.rs
+64	8	src/vm/config.rs
+11	17	src/vm/frank.rs
+
+commit e1e873b2fc432ef7f2b82df6c7454720eb5e70d6
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 22 16:33:19 2020 +0300
+
+    refactor preparation
+
+0	4	src/main.rs
+2	2	src/vm/config.rs
+1	10	src/vm/errors.rs
+2	5	src/vm/frank.rs
+3	5	src/vm/prepare.rs
+
+commit 8ad42ba83f547ece463d78a87ed7e15246a2f4fc
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 22 16:25:24 2020 +0300
+
+    standardize imports
+
+2	1	src/vm/config.rs
+8	2	src/vm/errors.rs
+4	1	src/vm/frank.rs
+6	4	src/vm/prepare.rs
+1	0	src/vm/service.rs
+
+commit 739d3461aaa045449acc08dffcb74b80f5776e26
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 22 16:22:25 2020 +0300
+
+    rearrange files
+
+2	3	src/lib.rs
+1	2	src/vm/frank.rs
+
+commit c1b3ce9708426af80451f0fb0d558074ac2614c3
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 22 16:14:08 2020 +0300
+
+    delete unnecessary PhantomTag
+
+0	3	src/vm/frank.rs
+
+commit c6bf06fa23ae5feb2b8804f9fdbdf8f075c0857a
+Author: vms <michail.vms@gmail.com>
+Date:   Wed Apr 22 16:11:57 2020 +0300
+
+    add wasi support
+
+156	18	Cargo.lock
+1	0	Cargo.toml
+2	1	src/lib.rs
+2	0	src/main.rs
+34	0	src/vm/config.rs
+19	43	src/vm/errors.rs
+29	10	src/vm/frank.rs
+4	4	src/vm/prepare.rs
+
+commit 6e5af1ea934e85db7bdcf4511ae140f416ad5308
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Apr 18 18:27:01 2020 +0300
+
+    initial version
+
+3	0	.gitignore
+967	0	Cargo.lock
+39	0	Cargo.toml
+26	0	src/lib.rs
+97	0	src/main.rs
+51	0	src/vm/config.rs
+137	0	src/vm/errors.rs
+160	0	src/vm/frank.rs
+26	0	src/vm/frank_result.rs
+22	0	src/vm/mod.rs
+80	0	src/vm/prepare.rs
+30	0	src/vm/service.rs

@@ -1,0 +1,819 @@
+commit 52156f409d192c4fe00ab73dd86664ad74a52c25
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 18:12:10 2021 +0700
+
+    chore: update readme
+
+1	4	README.md
+
+commit bd8d87b0761bf19095b531af67477112182e4b1c
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 18:04:45 2021 +0700
+
+    chore: bump version
+
+4	4	client/src/identity-link-router.json
+4	4	services/identity-link-service/src/identity-link-router.json
+
+commit 4b5894df8ae3cae5b1ead8ec54fc0d1c9f5f39c8
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 18:03:16 2021 +0700
+
+    feat: bump service version
+
+4	4	client/src/identity-link-router.json
+4	4	services/identity-link-service/src/identity-link-router.json
+
+commit 6dd63200307b08bea0810f985d9a967cab1c751b
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 18:02:39 2021 +0700
+
+    feat: update rust deps
+
+2	2	services/identity-link-router/Cargo.lock
+
+commit 3e64969335c268e0d6b963cf3240a74d4b340c92
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 18:02:25 2021 +0700
+
+    feat: update aqua contract
+
+2	0	services/identity-link-service/aqua/identity-link-router.aqua
+
+commit cf95d1053a199c5f4684cd115fa270ba41f52e70
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 17:50:35 2021 +0700
+
+    feat: implement identity-link-did-service
+
+1	1	services/identity-link-service/.env.example
+9	0	services/identity-link-service/aqua/did-document-service.aqua
+65	0	services/identity-link-service/src/_aqua/did-document-service.ts
+144	205	services/identity-link-service/src/_aqua/github-identity-link-service.ts
+108	189	services/identity-link-service/src/_aqua/github-requester.ts
+46	72	services/identity-link-service/src/_aqua/register.ts
+60	85	services/identity-link-service/src/_aqua/twitter-identity-link-service.ts
+108	189	services/identity-link-service/src/_aqua/twitter-requester.ts
+1	2	services/identity-link-service/src/claim/index.ts
+50	0	services/identity-link-service/src/did/index.ts
+4	4	services/identity-link-service/src/identity-link-router.json
+4	0	services/identity-link-service/src/service.ts
+
+commit fc5d9d72a252b099925725c453df1ad5ba26fdea
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 17:49:58 2021 +0700
+
+    feat: auto-unlink account if verifiable credential is not valid
+
+2	1	client/.env.example
+40	1	client/src/pages/HomePage/index.tsx
+3	0	client/src/setting.ts
+
+commit 08e3b9f4206910f6829461f2af5a1dae2e896478
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 17:49:32 2021 +0700
+
+    feat: upgrade deps
+
+39	10	client/package-lock.json
+3	3	client/package.json
+
+commit e6a9928996f15e0c1d4a832de7e4d5936c4cc2a0
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 17:48:59 2021 +0700
+
+    feat: implement aqua service for identity-link-did-service
+
+35	0	client/aqua/did-document-service.aqua
+0	2	client/aqua/github.aqua
+0	3	client/aqua/twitter.aqua
+243	0	client/src/_aqua/did-document-service.ts
+148	182	client/src/_aqua/github-identity-link-service.ts
+42	76	client/src/_aqua/github-requester.ts
+143	144	client/src/_aqua/github.ts
+64	74	client/src/_aqua/twitter-identity-link-service.ts
+42	76	client/src/_aqua/twitter-requester.ts
+143	144	client/src/_aqua/twitter.ts
+
+commit 528da2387a5136d21ffd61fa0b221524a557744f
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 17:48:37 2021 +0700
+
+    feat: upgrade deps
+
+41	10	services/identity-link-service/package-lock.json
+3	3	services/identity-link-service/package.json
+
+commit a215a4d87f00f1b253a6b6631fbb1fce73bb954c
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Nov 13 17:48:24 2021 +0700
+
+    feat: implement identity-link-did-resolver
+
+100	0	client/src/identity-link-did-resolver/index.ts
+
+commit 515fed5762072e2c45110273bfeb4537e8255397
+Author: synycboom <synycboom@gmail.com>
+Date:   Fri Nov 12 18:45:46 2021 +0700
+
+    fix: add missing deps
+
+2	0	client/aqua/identity-link-router.aqua
+5	0	client/package-lock.json
+1	0	client/package.json
+4	4	client/src/identity-link-router.json
+
+commit b4bfc8673fbbcc6224778e217433431ed09c4271
+Author: synycboom <synycboom@gmail.com>
+Date:   Fri Nov 12 18:45:13 2021 +0700
+
+    feat: save signature and payload to the DB
+
+52	52	services/identity-link-router/Cargo.lock
+69	16	services/identity-link-router/src/api.rs
+15	0	services/identity-link-router/src/register.rs
+19	1	services/identity-link-router/src/sql.rs
+
+commit 353f42eeaf501c592841de9ef72e5027a3f89d83
+Author: Wutichai <wutichai@TH-LW11571-MLC.local>
+Date:   Wed Oct 20 10:35:09 2021 +0700
+
+    chore: add architecture image
+
+5	0	README.md
+
+commit 8ad626a9ae3fabb33936ddb588af64fa90b0dc90
+Author: synycboom <synycboom@gmail.com>
+Date:   Tue Oct 19 22:59:51 2021 +0700
+
+    chore: add video demo link
+
+3	1	README.md
+
+commit b5e4befbf40a84adb9117c6b5bd044c59596d29e
+Author: synycboom <synycboom@gmail.com>
+Date:   Tue Oct 19 22:23:07 2021 +0700
+
+    chore: add demo link
+
+3	0	README.md
+
+commit 17928a508db6b9676d3839258d0219746f764232
+Author: Tien <manotien@gmail.com>
+Date:   Tue Oct 19 22:16:08 2021 +0700
+
+    fix: add rewrite firebase.json
+
+7	1	client/firebase.json
+
+commit 8ba7f0932e3de97de1d22d3ff1a84ea2332bb35c
+Author: Tien <manotien@gmail.com>
+Date:   Tue Oct 19 22:10:12 2021 +0700
+
+    add firebase json
+
+1	2	client/.gitignore
+7	0	client/firebase.json
+
+commit 3fae4330b34430db1592bf0f2321927b170223fe
+Author: Tien <manotien@gmail.com>
+Date:   Tue Oct 19 21:29:42 2021 +0700
+
+    fix: feat data after connect wallet
+
+5	1	client/src/components/ConnectButton/index.tsx
+
+commit de56f2983a213873120c2605dcab5c04fec251f5
+Author: Tien <manotien@gmail.com>
+Date:   Tue Oct 19 00:22:31 2021 +0700
+
+    chore: add example env
+
+1	1	client/.env.example
+4	0	client/.gitignore
+
+commit 3c839cbb495006ca449e939046df363cd8368c37
+Author: synycboom <synycboom@gmail.com>
+Date:   Tue Oct 19 00:11:42 2021 +0700
+
+    chore: update docs
+
+60	17	README.md
+0	0	docs/.gitkeep
+-	-	docs/IdentityLinkFlow.png
+0	3	docs/IdentityLinkService.jpg:Zone.Identifier
+-	-	docs/ServiceRegistrationFlow.png
+
+commit 93b62718a7f1e93ef3c72e99eefa28f6a3525d8f
+Author: synycboom <synycboom@gmail.com>
+Date:   Tue Oct 19 00:11:31 2021 +0700
+
+    feat: add example envs
+
+3	1	client/.env.example
+
+commit 999de2e0262ee5c4a6a9d3014dd4cc56cc059ea2
+Author: Tien <manotien@gmail.com>
+Date:   Tue Oct 19 00:10:02 2021 +0700
+
+    chore: show toast message
+
+2	1	client/src/pages/HomePage/index.tsx
+5	3	client/src/pages/VerifyPage/index.tsx
+
+commit 306bcb151b175fef187e9fffea92070f2f2f3290
+Author: Tien <manotien@gmail.com>
+Date:   Mon Oct 18 23:59:46 2021 +0700
+
+    feat: implement store data in stream
+
+24	0	client/aqua/twitter-requester.aqua
+34	0	client/src/App.tsx
+103	0	client/src/_aqua/twitter-requester.ts
+24	0	client/src/helpers/stream.ts
+5	2	client/src/helpers/use.ts
+76	25	client/src/pages/HomePage/index.tsx
+28	8	client/src/pages/VerifyPage/index.tsx
+39	1	client/src/state/index.ts
+5	5	services/identity-link-service/src/router/index.ts
+
+commit 5455705733828827c3d9e85157cc1f6e40568f6c
+Author: synycboom <synycboom@gmail.com>
+Date:   Mon Oct 18 22:43:23 2021 +0700
+
+    fix: return 404 if no route found from router
+
+4	4	client/src/identity-link-router.json
+7	0	services/identity-link-router/src/api.rs
+4	4	services/identity-link-service/src/identity-link-router.json
+
+commit bb953e91a8800d9a16df68564866e6dad4ee1dd7
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 22:39:32 2021 +0700
+
+    feat: update twitter route
+
+2	2	services/identity-link-service/src/router/index.ts
+5	2	services/identity-link-service/src/service.ts
+
+commit ae78722ea808f1d56381856eba250806d4aa1ad5
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 21:25:43 2021 +0700
+
+    fix: remove NODE_ENV in Dockerfile
+
+0	4	services/identity-link-service/Dockerfile
+
+commit 22d15e20329ab15ac58e4f0fa1d4195b6eba2ef8
+Author: Tien <manotien@gmail.com>
+Date:   Sun Oct 17 21:25:24 2021 +0700
+
+    fix: use wrong variable
+
+1	1	client/src/pages/VerifyPage/index.tsx
+
+commit 94e0e170a63b91768fb821029b367438c947304b
+Author: Tien <manotien@gmail.com>
+Date:   Sun Oct 17 21:02:33 2021 +0700
+
+    feat: done verify github
+
+3	3	client/aqua/github.aqua
+13	0	client/aqua/twitter-identity-link-service.aqua
+44	0	client/aqua/twitter.aqua
+7	2	client/package-lock.json
+2	0	client/package.json
+1	1	client/public/index.html
+35	11	client/src/App.tsx
+4	4	client/src/_aqua/github.ts
+103	0	client/src/_aqua/twitter-identity-link-service.ts
+263	0	client/src/_aqua/twitter.ts
+4	4	client/src/identity-link-router.json
+5	1	client/src/index.tsx
+101	59	client/src/pages/VerifyPage/index.tsx
+1	0	client/src/setting.ts
+11	1	client/src/state/index.ts
+4	4	services/identity-link-service/src/identity-link-router.json
+
+commit 81d74c0bf5fc5ffc217b6c7a5816214504998227
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 20:45:29 2021 +0700
+
+    fix: use volume mount to store keys
+
+0	2	services/identity-link-service/Dockerfile
+2	0	services/identity-link-service/docker-compose.yml
+
+commit b01c3aafbfbc3aa5f55fc5fcf155443e83ee5fa0
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 19:14:16 2021 +0700
+
+    feat: add docker-compose for identity-link-seervice
+
+2	0	services/identity-link-service/Dockerfile
+15	0	services/identity-link-service/docker-compose.yml
+
+commit 6fab3d6dc9c8132c9cf22c3649ad637de9c6dc44
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 19:13:59 2021 +0700
+
+    fix: allow noauth redis connection
+
+3	3	services/identity-link-service/.env.example
+19	4	services/identity-link-service/package-lock.json
+1	0	services/identity-link-service/package.json
+1	10	services/identity-link-service/src/cache/index.ts
+6	2	services/identity-link-service/src/setting.ts
+
+commit 32f22a6f9afad5ea484f6fc4ab78622bb2ce9dd8
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 19:13:14 2021 +0700
+
+    chore: update readme
+
+24	5	README.md
+
+commit d6f01e78496a918b98a830385402901b19ed2880
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 18:10:20 2021 +0700
+
+    feat: implement twitter identity link service
+
+1	6	README.md
+4	4	client/src/identity-link-router.json
+4	1	services/identity-link-service/.env.example
+13	0	services/identity-link-service/aqua/twitter-identity-link-service.aqua
+40	0	services/identity-link-service/aqua/twitter-requester.aqua
+63	0	services/identity-link-service/package-lock.json
+2	0	services/identity-link-service/package.json
+134	0	services/identity-link-service/src/_aqua/twitter-identity-link-service.ts
+423	0	services/identity-link-service/src/_aqua/twitter-requester.ts
+0	4	services/identity-link-service/src/github/verify.ts
+4	4	services/identity-link-service/src/identity-link-router.json
+2	0	services/identity-link-service/src/service.ts
+6	0	services/identity-link-service/src/setting.ts
+50	0	services/identity-link-service/src/twitter/index.ts
+80	0	services/identity-link-service/src/twitter/request.ts
+24	0	services/identity-link-service/src/twitter/type.ts
+1	0	services/identity-link-service/src/twitter/util.ts
+215	0	services/identity-link-service/src/twitter/verify.ts
+
+commit c0b262e7227954ad8649f838541f4872d757844d
+Author: Tien <manotien@gmail.com>
+Date:   Sun Oct 17 16:50:41 2021 +0700
+
+    feat: edit service
+
+1	1	README.md
+1	0	services/identity-link-router/src/api.rs
+1	1	services/identity-link-router/src/sql.rs
+3	5	services/identity-link-service/src/claim/index.ts
+9	9	services/identity-link-service/src/github/verify.ts
+4	4	services/identity-link-service/src/identity-link-router.json
+1	1	services/identity-link-service/src/setting.ts
+
+commit 3e6a35ea3513f86c4b88015c3ab30e425e1a9614
+Author: Tien <manotien@gmail.com>
+Date:   Sun Oct 17 16:50:06 2021 +0700
+
+    feat: integrate with service
+
+1	0	client/.env.example
+2	1	client/.eslintignore
+4	1	client/.eslintrc.js
+21	0	client/aqua/github-identity-link-service.aqua
+24	0	client/aqua/github-requester.aqua
+43	0	client/aqua/github.aqua
+6	0	client/aqua/requester.aqua
+1600	9	client/package-lock.json
+6	1	client/package.json
+25	1	client/src/App.tsx
+305	0	client/src/_aqua/github-identity-link-service.ts
+103	0	client/src/_aqua/github-requester.ts
+263	0	client/src/_aqua/github.ts
+1	1	client/src/components/ConnectButton/index.tsx
+1	0	client/src/helpers/did.ts
+1	1	client/src/helpers/use.ts
+4	4	client/src/identity-link-router.json
+2	21	client/src/pages/HomePage/index.tsx
+66	7	client/src/pages/VerifyPage/index.tsx
+1	0	client/src/setting.ts
+3	2	client/src/state/index.ts
+
+commit c5b0b09b72d051159c55e0b7f9514ad9272367c8
+Author: Tien <manotien@gmail.com>
+Date:   Sun Oct 17 12:52:10 2021 +0700
+
+    feat: implement ui for verify
+
+1	0	client/.eslintrc.js
+2705	9	client/package-lock.json
+10	1	client/package.json
+7	0	client/public/github.svg
+4	0	client/public/twitter.svg
+2	37	client/src/App.css
+0	9	client/src/App.test.tsx
+12	6	client/src/App.tsx
+56	0	client/src/components/ConnectButton/index.tsx
+25	0	client/src/components/PageLayout/index.tsx
+28	0	client/src/components/PageLayout/style.ts
+25	0	client/src/helpers/did.ts
+7	0	client/src/helpers/index.ts
+45	0	client/src/helpers/use.ts
+52	0	client/src/helpers/wallet.ts
+63	5	client/src/pages/HomePage/index.tsx
+4	0	client/src/pages/HomePage/style.ts
+193	0	client/src/pages/VerifyPage/index.tsx
+4	0	client/src/pages/VerifyPage/style.ts
+11	0	client/src/setting.ts
+18	0	client/src/state/index.ts
+
+commit aedfa7e7db416daa9abeac3557d0a91466b7b021
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 03:38:19 2021 +0700
+
+    chore: update example env
+
+3	1	services/identity-link-service/.env.example
+
+commit 438843e3a0c05b3e95b5d8c531a476341aa71d8a
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 03:35:05 2021 +0700
+
+    chore: clean up unused codes
+
+0	1705	services/github/Cargo.lock
+0	21	services/github/Cargo.toml
+0	15	services/github/Config.toml
+0	31	services/github/README.md
+0	12	services/github/build.sh
+0	1	services/github/rust-toolchain
+0	88	services/github/src/api.rs
+0	10	services/github/src/challenge.rs
+0	17	services/github/src/main.rs
+0	8	services/github/src/requests.rs
+0	13	services/github/src/results.rs
+0	87	services/github/src/sql.rs
+0	11	services/github/src/tests.rs
+
+commit e5d7c2f4c4882032bfd98820ac5da1635cb475ce
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 03:33:13 2021 +0700
+
+    chore: update README.md
+
+18	33	README.md
+
+commit 3ac22094e71896b6cf90087d977c10cebe6661e5
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 03:33:01 2021 +0700
+
+    feat: integrate identity-link-service with identity-link-router service
+
+23	0	client/aqua/identity-link-router.aqua
+41	0	client/src/identity-link-router.json
+1	0	services/identity-link-service/.gitignore
+19	2	services/identity-link-service/aqua/identity-link-router.aqua
+8	0	services/identity-link-service/aqua/register.aqua
+139	0	services/identity-link-service/src/_aqua/register.ts
+4	0	services/identity-link-service/src/app.ts
+2	2	services/identity-link-service/src/claim/index.ts
+36	0	services/identity-link-service/src/identity-link-router.json
+65	0	services/identity-link-service/src/router/index.ts
+14	0	services/identity-link-service/src/service.ts
+15	2	services/identity-link-service/src/setting.ts
+2	1	services/identity-link-service/tsconfig.json
+
+commit 2f6c8dd743e8a4ae6bcb9b2f02d2b300e68d29d0
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 03:31:43 2021 +0700
+
+    feat: implement router service
+
+1	0	services/identity-link-router/.gitignore
+0	0	services/identity-link-router/.gitkeep
+1796	0	services/identity-link-router/Cargo.lock
+24	0	services/identity-link-router/Cargo.toml
+15	0	services/identity-link-router/Config.toml
+31	0	services/identity-link-router/README.md
+26	0	services/identity-link-router/build.sh
+33	0	services/identity-link-router/config.json
+8	0	services/identity-link-router/deploy.sh
+1	0	services/identity-link-router/rust-toolchain
+147	0	services/identity-link-router/src/api.rs
+15	0	services/identity-link-router/src/main.rs
+32	0	services/identity-link-router/src/register.rs
+93	0	services/identity-link-router/src/sql.rs
+9	0	services/identity-link-router/src/verifier.rs
+
+commit 1da691fbc8a71516f35921fdee4dfb1847901119
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 17 03:30:32 2021 +0700
+
+    feat: implement keygen script
+
+159	0	scripts/ansi-parser.js
+100	0	scripts/base58.js
+63	0	scripts/extract-hex.js
+34	0	scripts/gen-keypairs.sh
+0	30	scripts/generate-key-pair.js
+
+commit 8de9ea525dd18fd7db12e678a93aa5d48beb2eca
+Author: synycboom <synycboom@gmail.com>
+Date:   Sat Oct 16 12:32:30 2021 +0700
+
+    feat: implement simple DID document issue
+
+58	1	README.md
+30	0	scripts/generate-key-pair.js
+0	2	services/.gitignore
+0	25	services/README.md
+8	0	services/identity-link-service/aqua/github-identity-link-service.aqua
+694	121	services/identity-link-service/package-lock.json
+5	1	services/identity-link-service/package.json
+243	0	services/identity-link-service/src/_aqua/github-identity-link-service.ts
+76	0	services/identity-link-service/src/claim/index.ts
+7	0	services/identity-link-service/src/claim/type.ts
+0	18	services/identity-link-service/src/github/claim.ts
+0	2	services/identity-link-service/src/github/index.ts
+6	2	services/identity-link-service/src/github/request.ts
+56	13	services/identity-link-service/src/github/verify.ts
+9	1	services/identity-link-service/src/setting.ts
+
+commit 6e3616a7886da54d55957e58d217d178991088c3
+Author: Tien <manotien@gmail.com>
+Date:   Fri Oct 15 15:21:35 2021 +0700
+
+    chore: update read me
+
+5	15	client/README.md
+
+commit 9d6973fb1904f1afabd199188bfbaf9513eeb139
+Author: Tien <manotien@gmail.com>
+Date:   Fri Oct 15 15:20:14 2021 +0700
+
+    feat: init client
+
+0	0	client/.env.example
+6	0	client/.eslintignore
+37	0	client/.eslintrc.js
+6	0	client/.husky/pre-commit
+3	0	client/.prettierignore
+8	0	client/.prettierrc
+46	0	client/README.md
+16497	0	client/package-lock.json
+73	0	client/package.json
+-	-	client/public/favicon.ico
+43	0	client/public/index.html
+-	-	client/public/logo192.png
+-	-	client/public/logo512.png
+25	0	client/public/manifest.json
+3	0	client/public/robots.txt
+38	0	client/src/App.css
+9	0	client/src/App.test.tsx
+17	0	client/src/App.tsx
+13	0	client/src/index.css
+17	0	client/src/index.tsx
+1	0	client/src/logo.svg
+13	0	client/src/pages/HomePage/index.tsx
+1	0	client/src/react-app-env.d.ts
+15	0	client/src/reportWebVitals.ts
+5	0	client/src/setupTests.ts
+27	0	client/tsconfig.json
+
+commit ef6f142815ead9180f52c574fc6deddf624686ba
+Author: Tien <manotien@gmail.com>
+Date:   Fri Oct 15 15:16:32 2021 +0700
+
+    chore: ignore env
+
+24	0	client/.gitignore
+
+commit dae44312fee08291f01ac9812d08f92a0ea7c647
+Author: synycboom <synycboom@gmail.com>
+Date:   Fri Oct 15 12:04:29 2021 +0700
+
+    WIP: implement Github verification
+
+6	6	services/identity-link-service/aqua/github-identity-link-service.aqua
+17	4	services/identity-link-service/aqua/github-requester.aqua
+6	0	services/identity-link-service/aqua/requester.aqua
+676	44	services/identity-link-service/package-lock.json
+3	0	services/identity-link-service/package.json
+104	73	services/identity-link-service/src/_aqua/github-identity-link-service.ts
+330	133	services/identity-link-service/src/_aqua/github-requester.ts
+18	0	services/identity-link-service/src/github/claim.ts
+43	116	services/identity-link-service/src/github/index.ts
+76	0	services/identity-link-service/src/github/request.ts
+7	0	services/identity-link-service/src/github/type.ts
+1	0	services/identity-link-service/src/github/util.ts
+184	0	services/identity-link-service/src/github/verify.ts
+
+commit 3483beeb80a4066c18a594d35f77faf56c6b52ba
+Author: synycboom <synycboom@gmail.com>
+Date:   Fri Oct 15 00:13:20 2021 +0700
+
+    fix: change github request flow
+
+1	0	services/identity-link-service/.eslintrc
+1	1	services/identity-link-service/.estlintignore
+6	17	services/identity-link-service/aqua/github-identity-link-service.aqua
+27	0	services/identity-link-service/aqua/github-requester.aqua
+73	94	services/identity-link-service/src/_aqua/github-identity-link-service.ts
+226	0	services/identity-link-service/src/_aqua/github-requester.ts
+58	70	services/identity-link-service/src/_aqua/identity-link-router.ts
+0	116	services/identity-link-service/src/github/fluence.ts
+51	30	services/identity-link-service/src/github/index.ts
+1	1	services/identity-link-service/src/github/type.ts
+0	1	services/identity-link-service/src/logger.ts
+
+commit 966eff5da63ecfc6806a141b697eeab200447b09
+Author: synycboom <synycboom@gmail.com>
+Date:   Thu Oct 14 19:49:33 2021 +0700
+
+    feat: add example env
+
+6	1	services/identity-link-service/.env.example
+
+commit 93bed220e81996ab005063aa4f94ad7803600b9d
+Author: synycboom <synycboom@gmail.com>
+Date:   Thu Oct 14 19:46:18 2021 +0700
+
+    feat: implement github request endpoint
+
+2	1	.gitignore
+7	0	services/identity-link-service/.editorconfig
+0	2	services/identity-link-service/.env
+2	0	services/identity-link-service/.env.example
+1	8	services/identity-link-service/aqua/{identity-link-service.aqua => github-identity-link-service.aqua}
+6	0	services/identity-link-service/aqua/identity-link-router.aqua
+108	6	services/identity-link-service/package-lock.json
+3	0	services/identity-link-service/package.json
+14	90	services/identity-link-service/src/_aqua/{identity-link-service.ts => github-identity-link-service.ts}
+99	0	services/identity-link-service/src/_aqua/identity-link-router.ts
+14	37	services/identity-link-service/src/app.ts
+38	0	services/identity-link-service/src/cache/index.ts
+39	0	services/identity-link-service/src/event.ts
+116	0	services/identity-link-service/src/github/fluence.ts
+104	0	services/identity-link-service/src/github/index.ts
+17	0	services/identity-link-service/src/github/type.ts
+8	0	services/identity-link-service/src/health.ts
+5	2	services/identity-link-service/src/index.ts
+32	40	services/identity-link-service/src/service.ts
+17	7	services/identity-link-service/src/setting.ts
+33	0	services/identity-link-service/src/signal.ts
+2	0	services/identity-link-service/src/type.ts
+
+commit ae5770ea3ce36d1e5361573dcb4eb057e253de51
+Author: synycboom <synycboom@gmail.com>
+Date:   Thu Oct 14 17:05:11 2021 +0700
+
+    feat: update aqua version
+
+33	4	services/identity-link-service/package-lock.json
+1	1	services/identity-link-service/package.json
+
+commit ef3682d0608e9ab89690aaf46cceeac7d5f91180
+Author: synycboom <synycboom@gmail.com>
+Date:   Thu Oct 14 16:13:46 2021 +0700
+
+    feat: initialize aqua service
+
+2	0	services/.gitignore
+17	23	services/README.md
+31	0	services/github/README.md
+2	0	services/identity-link-service/.env
+1	0	services/identity-link-service/.env.example
+31	0	services/identity-link-service/Dockerfile
+31	0	services/identity-link-service/aqua/identity-link-service.aqua
+210	38	services/identity-link-service/package-lock.json
+7	4	services/identity-link-service/package.json
+200	0	services/identity-link-service/src/_aqua/identity-link-service.ts
+46	0	services/identity-link-service/src/app.ts
+10	0	services/identity-link-service/src/health.ts
+16	1	services/identity-link-service/src/index.ts
+12	0	services/identity-link-service/src/logger.ts
+42	0	services/identity-link-service/src/service.ts
+27	0	services/identity-link-service/src/setting.ts
+4	0	services/identity-link-service/tsconfig.json
+12	8	services/identity-link-service/webpack.config.js
+
+commit c2114ec4c465413cf286a545b19c63c65e403042
+Author: synycboom <synycboom@gmail.com>
+Date:   Thu Oct 14 02:11:04 2021 +0700
+
+    fix: local husky
+
+1	0	{.husky => services/identity-link-service/.husky}/pre-commit
+2	2	services/identity-link-service/.prettierrc
+1	1	services/identity-link-service/src/index.ts
+0	3	services/package-lock.json
+
+commit 602467f7349af70f2806ce53399640c1052bb4ee
+Author: synycboom <synycboom@gmail.com>
+Date:   Thu Oct 14 01:41:32 2021 +0700
+
+    feat: initialzie identity link service
+
+2	0	.gitignore
+5	0	.husky/pre-commit
+0	0	services/identity-link-router/.gitkeep
+21	0	services/identity-link-service/.eslintrc
+3	0	services/identity-link-service/.estlintignore
+3	0	services/identity-link-service/.prettierignore
+15	0	services/identity-link-service/.prettierrc
+5621	0	services/identity-link-service/package-lock.json
+49	0	services/identity-link-service/package.json
+1	0	services/identity-link-service/src/index.ts
+13	0	services/identity-link-service/tsconfig.json
+25	0	services/identity-link-service/webpack.config.js
+3	0	services/package-lock.json
+
+commit c91d5039b6dcf4e016fff62cd576f81f850fda3d
+Author: synycboom <synycboom@gmail.com>
+Date:   Wed Oct 13 18:45:49 2021 +0700
+
+    chore: add architecture image
+
+-	-	docs/IdentityLinkService.jpg
+3	0	docs/IdentityLinkService.jpg:Zone.Identifier
+
+commit c6205706b1d3c5e94d538543ba00829cf95cbf0b
+Author: synycboom <synycboom@gmail.com>
+Date:   Wed Oct 13 18:41:23 2021 +0700
+
+    chore: add swimlanes links
+
+2	0	README.md
+
+commit 60681579b1ecaa15193def2a0c2ecc79d7c9c6f6
+Author: synycboom <synycboom@gmail.com>
+Date:   Wed Oct 13 18:39:27 2021 +0700
+
+    feat: add node_modules in client to gitignore
+
+2	0	.gitignore
+
+commit 3379b03931efc670137c449b57af7be3f0e5685a
+Author: Wutichai Chansawat <synycboom@gmail.com>
+Date:   Wed Oct 13 17:36:43 2021 +0700
+
+    feat: update IdentityLinkService.drawio
+
+112	1	docs/IdentityLinkService.drawio
+
+commit acf7506a7e8eb400c495b6555cdb501b584e5805
+Author: Wutichai Chansawat <synycboom@gmail.com>
+Date:   Wed Oct 13 17:14:19 2021 +0700
+
+    feat: add IdentityLinkService.drawio
+
+1	0	docs/IdentityLinkService.drawio
+
+commit 82000c0716eba22b4d2b129f2478735a7687c519
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 10 21:59:16 2021 +0700
+
+    feat: implement github request api
+
+6	0	.gitignore
+0	0	services/.gitkeep
+31	0	services/README.md
+1705	0	services/github/Cargo.lock
+21	0	services/github/Cargo.toml
+15	0	services/github/Config.toml
+12	0	services/github/build.sh
+1	0	services/github/rust-toolchain
+88	0	services/github/src/api.rs
+10	0	services/github/src/challenge.rs
+17	0	services/github/src/main.rs
+8	0	services/github/src/requests.rs
+13	0	services/github/src/results.rs
+87	0	services/github/src/sql.rs
+11	0	services/github/src/tests.rs
+
+commit 8c5c594f14ac187762f555a7f76554d2ff04acfe
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 10 13:08:00 2021 +0700
+
+    feat: add empty folders
+
+0	0	client/.gitkeep
+0	0	docs/.gitkeep
+0	0	services/.gitkeep
+
+commit 3968e586ef4a2c8df45e05af73c540da30e1b1fa
+Author: synycboom <synycboom@gmail.com>
+Date:   Sun Oct 10 13:05:49 2021 +0700
+
+    chore: add .gitignore
+
+11	0	.gitignore
+
+commit 0ba0399eda5e7b9c148175e338608d3314717262
+Author: Wutichai Chansawat <synycboom@gmail.com>
+Date:   Sat Oct 9 16:19:36 2021 +0700
+
+    Initial commit
+
+21	0	LICENSE

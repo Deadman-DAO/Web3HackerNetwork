@@ -1,0 +1,89 @@
+commit c2c22ca06b9ec796f402032d1988e871abca50bc
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Feb 5 02:15:59 2022 +0300
+
+    update url-downloader
+
+347	0	build/config.gypi
+0	0	{hello-world => greeting}/Cargo.lock
+0	0	{hello-world => greeting}/Cargo.toml
+0	0	{hello-world => greeting}/Config.toml
+1	0	greeting/artifacts/greeting.json
+-	-	{hello-world => greeting}/artifacts/greeting.wasm
+0	0	{hello-world => greeting}/build.sh
+0	0	{hello-world => greeting}/src/main.rs
+15	0	url-downloader/README.md
+7	0	url-downloader/artifacts/curl_adapter.json
+-	-	url-downloader/artifacts/curl_adapter.wasm
+1	0	url-downloader/artifacts/facade.json
+-	-	url-downloader/artifacts/facade.wasm
+12	0	url-downloader/artifacts/local_storage.json
+-	-	url-downloader/artifacts/local_storage.wasm
+17	17	url-downloader/build.sh
+13	0	url-downloader/compose.air
+1	1	url-downloader/curl_adapter/Cargo.toml
+2	2	url-downloader/curl_adapter/src/main.rs
+13	0	url-downloader/deploy.sh
+16	0	url-downloader/deploy_separate.sh
+10	0	url-downloader/download.air
+2	2	url-downloader/facade/Cargo.toml
+1	1	url-downloader/facade/src/main.rs
+2	3	url-downloader/local_storage/Cargo.toml
+2	2	url-downloader/local_storage/src/main.rs
+21	0	url-downloader/repl_config.toml
+0	6	url-downloader/sites/asd
+
+commit 6901467d0e3c81cc5a6dc6a926fbc86981e79976
+Author: vms <michail.vms@gmail.com>
+Date:   Sat Feb 5 00:24:28 2022 +0300
+
+    add ipfs-node service
+
+31	0	README.md
+16	0	build.sh
+0	0	{hello_world => hello-world}/Cargo.lock
+0	0	{hello_world => hello-world}/Cargo.toml
+0	0	{hello_world => hello-world}/Config.toml
+-	-	{hello_world => hello-world}/artifacts/greeting.wasm
+0	0	{hello_world => hello-world}/build.sh
+0	0	{hello_world => hello-world}/src/main.rs
+17	0	ipfs-node/Config.toml
+-	-	ipfs-node/artifacts/ipfs_effector.wasm
+-	-	ipfs-node/artifacts/ipfs_pure.wasm
+19	0	ipfs-node/build.sh
+275	0	ipfs-node/effector/Cargo.lock
+14	0	ipfs-node/effector/Cargo.toml
+101	0	ipfs-node/effector/src/main.rs
+52	0	ipfs-node/effector/src/path.rs
+275	0	ipfs-node/pure/Cargo.lock
+14	0	ipfs-node/pure/Cargo.toml
+74	0	ipfs-node/pure/src/main.rs
+
+commit c6cdb67ec2a80f0a21b707ea3abd2e319a8fa324
+Author: vms <michail.vms@gmail.com>
+Date:   Fri Feb 4 23:21:25 2022 +0300
+
+    add greeting and url-downloader services
+
+10	0	.gitignore
+1654	0	hello_world/Cargo.lock
+18	0	hello_world/Cargo.toml
+6	0	hello_world/Config.toml
+-	-	hello_world/artifacts/greeting.wasm
+9	0	hello_world/build.sh
+44	0	hello_world/src/main.rs
+21	0	url-downloader/Config.toml
+-	-	url-downloader/artifacts/curl_adapter.wasm
+-	-	url-downloader/artifacts/facade.wasm
+-	-	url-downloader/artifacts/local_storage.wasm
+26	0	url-downloader/build.sh
+275	0	url-downloader/curl_adapter/Cargo.lock
+14	0	url-downloader/curl_adapter/Cargo.toml
+46	0	url-downloader/curl_adapter/src/main.rs
+282	0	url-downloader/facade/Cargo.lock
+15	0	url-downloader/facade/Cargo.toml
+56	0	url-downloader/facade/src/main.rs
+351	0	url-downloader/local_storage/Cargo.lock
+16	0	url-downloader/local_storage/Cargo.toml
+54	0	url-downloader/local_storage/src/main.rs
+6	0	url-downloader/sites/asd

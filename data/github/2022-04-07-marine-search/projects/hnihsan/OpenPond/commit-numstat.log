@@ -1,0 +1,430 @@
+commit 923b7bcfd8c3f5f75fa841e8f2af872ef684a07d
+Author: Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>
+Date:   Thu Mar 24 21:58:17 2022 +0700
+
+    add aqua file and avm wasm
+
+2	2	.gitignore
+-	-	public/avm.wasm
+492	0	src/_aqua/opensea_api.ts
+441	0	src/_aqua/rarible_api.ts
+0	5	yarn.lock
+
+commit 0669a6b6ecfefcae6f671eaf64ae3c932b00d9a9
+Author: Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>
+Date:   Fri Feb 4 01:46:56 2022 +0700
+
+    add youtube link
+
+1	0	README.md
+
+commit 0dfcde116e0e09011561e83540d296c90baef5f9
+Author: Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>
+Date:   Fri Feb 4 01:15:19 2022 +0700
+
+    update .gitignore and some lock files
+
+2	2	.gitignore
+14357	21	package-lock.json
+421	51	yarn.lock
+
+commit 7dc6a28eed0459acb9e89540780ea684e4a97a74
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 21:27:51 2022 +0700
+
+    update usage readme
+
+14	4	README.md
+
+commit 56d1b660df4570bbaa815bbeeb7cb8603f464373
+Merge: aaf7732 21ff3b4
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 21:00:48 2022 +0700
+
+    Merge pull request #1 from hnihsan/nico-test
+    
+    Ready to production
+
+commit 21ff3b41a9c30810593e66cc7de409e5839d3970
+Merge: 91258c2 a0044b9
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 20:52:32 2022 +0700
+
+    Merge branch 'nico-test' of github.com:hnihsan/OpenPond into nico-test
+
+commit 91258c252b797920eb4acda08292784fb979f195
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 20:52:11 2022 +0700
+
+    done integration page asset-by-collection-rarible
+
+359	12	package-lock.json
+2	1	package.json
+23	4	src/pages/detail/[contract]/index.tsx
+0	1	src/pages/my-collections.tsx
+37	3	src/parts/Detail/Rarible/detail.tsx
+4	3	src/parts/Explore/rarible/RaribleExplore.tsx
+2	8	src/parts/Explore/rarible/RaribleItem.tsx
+9	1	src/parts/MyCollections/rarible/CollectionItem.tsx
+1	1	src/services/rarible_api.ts
+
+commit a0044b94f3d5f1fe13a70b7045b69c09dd50c89d
+Author: Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>
+Date:   Thu Feb 3 19:30:20 2022 +0700
+
+    update readme and add .env.example
+
+2	0	.env.example
+2	2	README.md
+
+commit 404d9da81febe6cd0753d306929b15f20d2d8e6d
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 17:23:41 2022 +0700
+
+    show error when no login access page my-collection
+
+15	0	src/pages/my-collections.tsx
+
+commit 5010f0ea90325e18ad5cb41513caf45efb072023
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 17:19:54 2022 +0700
+
+    wip page assets-by-collection
+
+0	4	.gitignore
+1	1	package.json
+1	0	public/detail/runnerScript.web.js
+1	0	public/runnerScript.web.js
+68	0	src/pages/detail/[contract]/index.tsx
+0	20	src/pages/detail/[source]/[collectionAddress].tsx
+0	0	src/pages/{my-assets.tsx => my-collections.tsx}
+40	0	src/parts/Detail/Opensea/OpenseaDetail.tsx
+7	0	src/parts/Detail/Rarible/detail.tsx
+3	0	src/parts/Explore/opensea/OpenseaExplore.tsx
+3	0	src/parts/Explore/rarible/RaribleExplore.tsx
+9	7	src/parts/MyCollections/opensea/CollectionItem.tsx
+3	0	src/parts/MyCollections/opensea/index.tsx
+3	0	src/parts/MyCollections/rarible/index.tsx
+1	0	src/services/opensea_api.ts
+1	1	src/utils/session.ts
+
+commit c4c63f1805a6b6183cddc4ac70a360d55b096128
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 15:51:50 2022 +0700
+
+    remove owned page
+
+12	50	src/pages/my-assets.tsx
+9	4	src/parts/Header.tsx
+0	7	src/parts/MyAssets/opensea/owned/index.tsx
+0	7	src/parts/MyAssets/rarible/owned/index.tsx
+0	0	src/parts/{MyAssets/opensea/collections => MyCollections/opensea}/CollectionItem.tsx
+1	1	src/parts/{MyAssets/opensea/collections => MyCollections/opensea}/index.tsx
+0	0	src/parts/{MyAssets/rarible/collections => MyCollections/rarible}/CollectionItem.tsx
+0	0	src/parts/{MyAssets/rarible/collections => MyCollections/rarible}/index.tsx
+
+commit d40bb936f71e9510b736f3dfc63134fe4bbfc90b
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 15:40:08 2022 +0700
+
+    remove button load-more on page collections
+
+4	6	src/pages/my-assets.tsx
+1	12	src/parts/MyAssets/opensea/collections/index.tsx
+1	16	src/parts/MyAssets/rarible/collections/index.tsx
+
+commit 98f9ca80baefbad87bfec1bc595fcb145320bedf
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 15:38:20 2022 +0700
+
+    done rarible-collections
+
+21	21	src/pages/my-assets.tsx
+1	1	src/parts/MyAssets/opensea/collections/CollectionItem.tsx
+35	0	src/parts/MyAssets/rarible/collections/CollectionItem.tsx
+47	5	src/parts/MyAssets/rarible/collections/index.tsx
+
+commit 32f972d021d2e3eef61d6489274ee39c87673da3
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 15:23:37 2022 +0700
+
+    done page opensea-collection
+
+2	1	src/pages/index.tsx
+75	11	src/pages/my-assets.tsx
+27	19	src/parts/MyAssets/opensea/collections/CollectionItem.tsx
+13	41	src/parts/MyAssets/opensea/collections/index.tsx
+6	2	src/services/opensea_api.ts
+1	1	src/services/rarible_api.ts
+0	27	src/temp/_document.tsx
+
+commit d3b7615a03ac847a474f94d18bf0b4d0ef199a13
+Merge: 855cc10 dfa6050
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 13:48:29 2022 +0700
+
+    Merge branch 'nico-test' of github.com:hnihsan/OpenPond into nico-test
+
+commit 855cc10f2dd8eca618001c2dd9fd00424c5cdc19
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 13:48:00 2022 +0700
+
+    DONE integration explore page
+
+6	1	.gitignore
+3	2	package.json
+120	23	src/pages/index.tsx
+0	45	src/parts/Explore/RaribleExploreItem.tsx
+0	198	src/parts/Explore/index.tsx
+53	0	src/parts/Explore/opensea/OpenseaExplore.tsx
+1	0	src/parts/Explore/{OpenSeaItem.tsx => opensea/OpenseaItem.tsx}
+53	0	src/parts/Explore/rarible/RaribleExplore.tsx
+5	3	src/parts/Explore/{ => rarible}/RaribleItem.tsx
+27	11	src/services/opensea_api.ts
+19	9	src/services/rarible_api.ts
+
+commit dfa6050f57bb7c7dc13d4d803502d5dcccac590f
+Author: Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>
+Date:   Thu Feb 3 13:34:21 2022 +0700
+
+    Done Readme
+
+35	22	README.md
+
+commit 8843ca0f56020cfb744c5883ffef476dd7df2f5c
+Merge: 0f4fa63 350b4d3
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 12:38:25 2022 +0700
+
+    Merge branch 'nico-test' of github.com:hnihsan/OpenPond into nico-test
+
+commit 0f4fa635cee76c0d7dcbad8c8f55dad8587063ea
+Author: Nico <nicosiput@gmail.com>
+Date:   Thu Feb 3 12:37:34 2022 +0700
+
+    WIP integration explore
+
+19	19	src/pages/index.tsx
+10	6	src/parts/Explore/OpenSeaItem.tsx
+29	14	src/parts/Explore/index.tsx
+
+commit 350b4d3352aaec6e2ad9004cbc5a95403c2dfecd
+Author: Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>
+Date:   Thu Feb 3 12:34:16 2022 +0700
+
+    update opensea aqua
+
+6	6	aqua/opensea_api.aqua
+
+commit e304524f46e164b7ab0535ff60736b0956c400ca
+Author: Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>
+Date:   Thu Feb 3 12:34:00 2022 +0700
+
+    update opensea api
+
+2	2	fluence-services/opensea_testnet_api/src/main.rs
+1	0	src/parts/Explore/OpenSeaItem.tsx
+2	2	src/services/opensea_api.ts
+
+commit 11a5aabb6bc558c5ebdf4068329821c0636510ac
+Author: Nico <nicosiput@gmail.com>
+Date:   Wed Feb 2 17:15:09 2022 +0700
+
+    error after merging
+
+18	0	.gitignore
+34	0	aqua/opensea_api.aqua
+34	0	aqua/rarible_api.aqua
+15	0	fluence-services/Config.toml
+20	0	fluence-services/build.sh
+15	0	fluence-services/opensea_testnet_api/Cargo.toml
+6	0	fluence-services/opensea_testnet_api/config.json
+74	0	fluence-services/opensea_testnet_api/src/main.rs
+15	0	fluence-services/rarible_testnet_api/Cargo.toml
+6	0	fluence-services/rarible_testnet_api/config.json
+74	0	fluence-services/rarible_testnet_api/src/main.rs
+3526	100	package-lock.json
+10	3	package.json
+-	-	public/images/default_user.png
+-	-	public/images/fluence.png
+-	-	public/images/sales.png
+2	1	src/components/Layout/Default.tsx
+98	0	src/data/sample-opensea-asset.json
+48	0	src/data/sample-rarible-asset.json
+25	2	src/pages/index.tsx
+0	39	src/parts/Explore/ExploreItem.tsx
+66	0	src/parts/Explore/OpenSeaItem.tsx
+70	0	src/parts/Explore/RaribleItem.tsx
+32	26	src/parts/Explore/index.tsx
+1	1	src/parts/Header.tsx
+35	0	src/services/opensea_api.ts
+36	0	src/services/rarible_api.ts
+0	0	src/{pages => temp}/_document.tsx
+7939	1838	yarn.lock
+
+commit f16d07d34491a48ddb4a521a2dbde8d9c707e2c9
+Author: Nico <nicosiput@gmail.com>
+Date:   Wed Feb 2 16:37:57 2022 +0700
+
+    WIP page my collections
+
+20	0	src/pages/detail/[source]/[collectionAddress].tsx
+120	0	src/pages/my-assets.tsx
+1	1	src/parts/Explore/index.tsx
+10	11	src/parts/Header.tsx
+46	0	src/parts/MyAssets/opensea/collections/CollectionItem.tsx
+73	0	src/parts/MyAssets/opensea/collections/index.tsx
+7	0	src/parts/MyAssets/opensea/owned/index.tsx
+7	0	src/parts/MyAssets/rarible/collections/index.tsx
+7	0	src/parts/MyAssets/rarible/owned/index.tsx
+
+commit e1729ddaebba8f34b76b47ee2aed9abaf75f951c
+Author: Nico <nicosiput@gmail.com>
+Date:   Sun Jan 30 14:12:19 2022 +0700
+
+    fixing error load image opensea
+
+15	28	src/components/Img/index.tsx
+3	11	src/parts/Explore/ExploreItem.tsx
+0	10	src/parts/Explore/RaribleExploreItem.tsx
+
+commit e7b8e4e9c9e80fc1ddebe3eb74cc36584b5ea135
+Author: Nico <nicosiput@gmail.com>
+Date:   Sun Jan 30 14:06:12 2022 +0700
+
+    done create page explore for rarible
+
+9	22	next.config.js
+6	0	src/pages/api/imageproxy.ts
+38	47	src/parts/Explore/ExploreItem.tsx
+55	0	src/parts/Explore/RaribleExploreItem.tsx
+68	5	src/parts/Explore/index.tsx
+2	2	src/parts/Header.tsx
+
+commit a31b59834eeab65d3ae7ba73e91fd1eede7c6696
+Author: Nico <nicosiput@gmail.com>
+Date:   Sun Jan 30 12:56:15 2022 +0700
+
+    integration endpoint opensea and load more button
+
+8	2	next.config.js
+3	3	package-lock.json
+10	10	package.json
+1	1	src/components/Layout/Default.tsx
+2	2	src/pages/_document.tsx
+1	0	src/pages/index.tsx
+47	58	src/parts/Explore/ExploreItem.tsx
+34	13	src/parts/Explore/index.tsx
+2	2	src/parts/Header.tsx
+
+commit bb0f200f120e7af620708d26f6060b2925e94697
+Author: Nico <nicosiput@gmail.com>
+Date:   Sat Jan 29 12:29:35 2022 +0700
+
+    add tabs components
+
+42	6	src/parts/Explore/index.tsx
+
+commit 052aaae080ce079e6a5156e51374a15c5416a189
+Author: Nico <nicosiput@gmail.com>
+Date:   Tue Jan 25 14:48:31 2022 +0700
+
+    create authentication
+
+78	1	package-lock.json
+1	0	package.json
+28	0	src/data/useUser.ts
+15	0	src/pages/api/login.ts
+9	0	src/pages/api/logout.ts
+13	0	src/pages/api/user.ts
+2	2	src/parts/Explore/ExploreItem.tsx
+5	10	src/parts/Explore/index.tsx
+94	11	src/parts/Header.tsx
+7	0	src/services/auth.ts
+12	0	src/utils/Connector.ts
+20	0	src/utils/fetcher.ts
+18	0	src/utils/session.ts
+6	0	tsconfig.json
+
+commit 7c083ca14a74a25fa5f8c7ada5f8e74767751072
+Author: Nico <nicosiput@gmail.com>
+Date:   Tue Jan 25 13:34:41 2022 +0700
+
+    page homepage
+
+35	1	.eslintrc.json
+1	1	next.config.js
+14	0	public/images/hamburger-menu.svg
+-	-	public/images/logo.png
+50	0	src/components/Img/index.tsx
+19	0	src/components/Layout/Default.tsx
+26	0	src/components/Skeleton/FeaturedCardSkeleton.tsx
+21	0	src/components/Skeleton/TrendingCardSkeleton.tsx
+2500	0	src/data/fake-nfts.json
+11	2	src/pages/index.tsx
+67	0	src/parts/Explore/ExploreItem.tsx
+62	0	src/parts/Explore/index.tsx
+67	0	src/parts/Header.tsx
+11	2	tsconfig.json
+
+commit b32e40057a6b05f524632d395cf5fb9e3ae4b965
+Author: Nico <nicosiput@gmail.com>
+Date:   Tue Jan 25 10:57:50 2022 +0700
+
+    setup dependency project
+
+24	4	next.config.js
+7272	0	package-lock.json
+20	1	package.json
+0	8	pages/_app.tsx
+0	72	pages/index.tsx
+6	0	postcss.config.js
+32	0	src/pages/_app.tsx
+27	0	src/pages/_document.tsx
+0	0	{pages => src/pages}/api/hello.ts
+7	0	src/pages/index.tsx
+0	116	styles/Home.module.css
+0	16	styles/globals.css
+1018	0	tailwind.config.js
+26	0	tailwindcss/colors.js
+172	0	tailwindcss/style.css
+22	4	tsconfig.json
+
+commit 103002210a98c3850c964ddcffc4a9bef1998183
+Author: Nico <nicosiput@gmail.com>
+Date:   Mon Jan 24 23:30:49 2022 +0700
+
+    initial project next-js
+
+3	0	.eslintrc.json
+37	0	.gitignore
+34	0	README.md
+5	0	next-env.d.ts
+6	0	next.config.js
+22	0	package.json
+8	0	pages/_app.tsx
+13	0	pages/api/hello.ts
+72	0	pages/index.tsx
+-	-	public/favicon.ico
+4	0	public/vercel.svg
+116	0	styles/Home.module.css
+16	0	styles/globals.css
+0	0	test.html
+20	0	tsconfig.json
+1838	0	yarn.lock
+
+commit eb95afc24cc0e7eb7e3a31ccf02766d6b5988a2d
+Author: Nico <nicosiput@gmail.com>
+Date:   Mon Jan 24 23:24:18 2022 +0700
+
+    test commit
+
+0	0	test.html
+
+commit aaf7732ef257b0b9d35ce29da6992c421298c213
+Author: Helmi Nur Ihsan <helmi.n.ihsan@gmail.com>
+Date:   Sun Jan 23 05:18:28 2022 +0700
+
+    Initial commit
+
+21	0	LICENSE

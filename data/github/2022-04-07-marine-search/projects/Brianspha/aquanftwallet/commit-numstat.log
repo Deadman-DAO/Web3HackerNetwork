@@ -1,0 +1,479 @@
+commit 7d938dddbec2e8c40e79dd3891394e1f5697db83
+Author: Siphamandla brian Mjoli <g14m1190@campus.ru.ac.za>
+Date:   Wed Feb 23 17:28:19 2022 +0200
+
+    Update README.md
+
+1	1	README.md
+
+commit fede3148d5faefaf46bcb5ad544371c62cb48f05
+Author: Siphamandla brian Mjoli <g14m1190@campus.ru.ac.za>
+Date:   Wed Feb 23 17:23:22 2022 +0200
+
+    Delete .env
+
+0	8	.env
+
+commit 193472362881d9dd8a7a7d0d505f9c9679711e90
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Wed Feb 23 17:22:41 2022 +0200
+
+    update
+    
+    Abandoned project due to WASM error on vue
+
+1	1	aqua-services/aquanftapdef.aqua
+4	1	package.json
+1	0	public/index.html
+19	1	src/App.vue
+186	0	src/_aqua/aquanftapdef.js
+3	3	src/_aqua/aquanftapdef.ts
+36	25	src/services/aquanftwallet.js
+8	5	src/views/OpenseaCollectionView.vue
+27	0	tsconfig.json
+200	6	yarn.lock
+
+commit f8bc559ce5f94d2e9783b5c44e2d0717abb9a23f
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Sun Feb 6 05:45:50 2022 +0200
+
+    update
+
+27	0	aqua-services/aquanftapdef.aqua
+6	0	deployaqua.sh
+10	0	fluence-services/.repl_history
+8	0	fluence-services/Config.toml
+275	0	fluence-services/aqua_nft_wallet_api_service/Cargo.lock
+16	0	fluence-services/aqua_nft_wallet_api_service/Cargo.toml
+6	0	fluence-services/aqua_nft_wallet_api_service/config.json
+61	0	fluence-services/aqua_nft_wallet_api_service/src/main.rs
+1	0	fluence-services/aqua_nft_wallet_api_service/target/.rustc_info.json
+3	0	fluence-services/aqua_nft_wallet_api_service/target/CACHEDIR.TAG
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/.cargo-lock
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/autocfg-66b1cdde7758320c/dep-lib-autocfg
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/autocfg-66b1cdde7758320c/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/autocfg-66b1cdde7758320c/lib-autocfg
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/autocfg-66b1cdde7758320c/lib-autocfg.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/cfg-if-e45b275d0e310807/dep-lib-cfg-if
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/cfg-if-e45b275d0e310807/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/cfg-if-e45b275d0e310807/lib-cfg-if
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/cfg-if-e45b275d0e310807/lib-cfg-if.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/chrono-c877db7bfa9446bc/dep-lib-chrono
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/chrono-c877db7bfa9446bc/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/chrono-c877db7bfa9446bc/lib-chrono
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/chrono-c877db7bfa9446bc/lib-chrono.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/getrandom-a92adf606c8dead1/dep-lib-getrandom
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/getrandom-a92adf606c8dead1/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/getrandom-a92adf606c8dead1/lib-getrandom
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/getrandom-a92adf606c8dead1/lib-getrandom.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/itoa-0caf4c95dbc39592/dep-lib-itoa
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/itoa-0caf4c95dbc39592/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/itoa-0caf4c95dbc39592/lib-itoa
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/itoa-0caf4c95dbc39592/lib-itoa.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-215cecc92eb9556c/dep-lib-libc
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-215cecc92eb9556c/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-215cecc92eb9556c/lib-libc
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-215cecc92eb9556c/lib-libc.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-2b932af2827fa6c9/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-2b932af2827fa6c9/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-2b932af2827fa6c9/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-2b932af2827fa6c9/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-d4df462e6b863347/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/libc-d4df462e6b863347/run-build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-2b79450441533f7f/dep-lib-log
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-2b79450441533f7f/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-2b79450441533f7f/lib-log
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-2b79450441533f7f/lib-log.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-5faad6f132e7c111/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-5faad6f132e7c111/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-5faad6f132e7c111/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-5faad6f132e7c111/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-d0aedb795cea96fd/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/log-d0aedb795cea96fd/run-build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-macro-dcc7d33c2edf502c/dep-lib-marine-macro
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-macro-dcc7d33c2edf502c/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-macro-dcc7d33c2edf502c/lib-marine-macro
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-macro-dcc7d33c2edf502c/lib-marine-macro.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-macro-impl-423c5f553cd16de7/dep-lib-marine-macro-impl
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-macro-impl-423c5f553cd16de7/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-macro-impl-423c5f553cd16de7/lib-marine-macro-impl
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-macro-impl-423c5f553cd16de7/lib-marine-macro-impl.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-rs-sdk-main-5ad40cecc7106d6d/dep-lib-marine-rs-sdk-main
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-rs-sdk-main-5ad40cecc7106d6d/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-rs-sdk-main-5ad40cecc7106d6d/lib-marine-rs-sdk-main
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-rs-sdk-main-5ad40cecc7106d6d/lib-marine-rs-sdk-main.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-timestamp-macro-4eec37e2ca9fb9a1/dep-lib-marine-timestamp-macro
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-timestamp-macro-4eec37e2ca9fb9a1/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-timestamp-macro-4eec37e2ca9fb9a1/lib-marine-timestamp-macro
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/marine-timestamp-macro-4eec37e2ca9fb9a1/lib-marine-timestamp-macro.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-1e4fc2fa128b067a/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-1e4fc2fa128b067a/run-build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-9239e72aeac54819/dep-lib-num-integer
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-9239e72aeac54819/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-9239e72aeac54819/lib-num-integer
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-9239e72aeac54819/lib-num-integer.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-a75e0e63abf52372/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-a75e0e63abf52372/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-a75e0e63abf52372/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-integer-a75e0e63abf52372/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-406faa1307a0ba5c/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-406faa1307a0ba5c/run-build-script-build-script-build.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-aade6d43314a8bbd/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-aade6d43314a8bbd/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-aade6d43314a8bbd/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-aade6d43314a8bbd/invoked.timestamp
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-f02526f0f7fd35cf/dep-lib-num-traits
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-f02526f0f7fd35cf/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-f02526f0f7fd35cf/lib-num-traits
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/num-traits-f02526f0f7fd35cf/lib-num-traits.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-9b524fcc2402c86a/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-9b524fcc2402c86a/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-9b524fcc2402c86a/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-9b524fcc2402c86a/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-e9cf9161383f7d45/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-e9cf9161383f7d45/run-build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-fd0bd4fc3fd09610/dep-lib-proc-macro2
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-fd0bd4fc3fd09610/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-fd0bd4fc3fd09610/lib-proc-macro2
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/proc-macro2-fd0bd4fc3fd09610/lib-proc-macro2.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/quote-52580f92ab8e1bd0/dep-lib-quote
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/quote-52580f92ab8e1bd0/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/quote-52580f92ab8e1bd0/lib-quote
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/quote-52580f92ab8e1bd0/lib-quote.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/ryu-4d0b2d499bc614b4/dep-lib-ryu
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/ryu-4d0b2d499bc614b4/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/ryu-4d0b2d499bc614b4/lib-ryu
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/ryu-4d0b2d499bc614b4/lib-ryu.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-78c20042da83524f/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-78c20042da83524f/run-build-script-build-script-build.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-a8f7f27fd0cdf024/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-a8f7f27fd0cdf024/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-a8f7f27fd0cdf024/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-a8f7f27fd0cdf024/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-ea42e13880df2b4c/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-ea42e13880df2b4c/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-ea42e13880df2b4c/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-ea42e13880df2b4c/invoked.timestamp
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-fd0debe8d92a3df0/dep-lib-serde
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-fd0debe8d92a3df0/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-fd0debe8d92a3df0/lib-serde
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde-fd0debe8d92a3df0/lib-serde.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-403abe6fe18502dc/dep-lib-serde_derive
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-403abe6fe18502dc/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-403abe6fe18502dc/lib-serde_derive
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-403abe6fe18502dc/lib-serde_derive.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-995e7c2cd7c5a7e4/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-995e7c2cd7c5a7e4/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-995e7c2cd7c5a7e4/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-995e7c2cd7c5a7e4/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-a828a171f0ae4408/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_derive-a828a171f0ae4408/run-build-script-build-script-build.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-38a77b69f4f6709e/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-38a77b69f4f6709e/run-build-script-build-script-build.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-db3e7afcb6561635/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-db3e7afcb6561635/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-db3e7afcb6561635/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-db3e7afcb6561635/invoked.timestamp
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-de773cdf9bebbc4f/dep-lib-serde_json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-de773cdf9bebbc4f/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-de773cdf9bebbc4f/lib-serde_json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/serde_json-de773cdf9bebbc4f/lib-serde_json.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-121707674f78d188/build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-121707674f78d188/build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-121707674f78d188/dep-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-121707674f78d188/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-4806c8d99ff3536e/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-4806c8d99ff3536e/run-build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-979d8430661e8869/dep-lib-syn
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-979d8430661e8869/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-979d8430661e8869/lib-syn
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/syn-979d8430661e8869/lib-syn.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/time-47840f61acd3d2b8/dep-lib-time
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/time-47840f61acd3d2b8/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/time-47840f61acd3d2b8/lib-time
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/time-47840f61acd3d2b8/lib-time.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/unicode-xid-41b6b66d1fb0ad00/dep-lib-unicode-xid
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/unicode-xid-41b6b66d1fb0ad00/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/unicode-xid-41b6b66d1fb0ad00/lib-unicode-xid
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/unicode-xid-41b6b66d1fb0ad00/lib-unicode-xid.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/uuid-d9b1f845937e21af/dep-lib-uuid
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/uuid-d9b1f845937e21af/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/uuid-d9b1f845937e21af/lib-uuid
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/.fingerprint/uuid-d9b1f845937e21af/lib-uuid.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/libc-2b932af2827fa6c9/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/libc-2b932af2827fa6c9/build_script_build-2b932af2827fa6c9
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/libc-2b932af2827fa6c9/build_script_build-2b932af2827fa6c9.d
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/libc-d4df462e6b863347/invoked.timestamp
+11	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/libc-d4df462e6b863347/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/libc-d4df462e6b863347/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/libc-d4df462e6b863347/stderr
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/log-5faad6f132e7c111/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/log-5faad6f132e7c111/build_script_build-5faad6f132e7c111
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/log-5faad6f132e7c111/build_script_build-5faad6f132e7c111.d
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/log-d0aedb795cea96fd/invoked.timestamp
+3	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/log-d0aedb795cea96fd/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/log-d0aedb795cea96fd/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/log-d0aedb795cea96fd/stderr
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-integer-1e4fc2fa128b067a/invoked.timestamp
+8	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-integer-1e4fc2fa128b067a/out/probe0.ll
+8	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-integer-1e4fc2fa128b067a/out/probe1.ll
+2	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-integer-1e4fc2fa128b067a/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-integer-1e4fc2fa128b067a/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-integer-1e4fc2fa128b067a/stderr
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-integer-a75e0e63abf52372/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-integer-a75e0e63abf52372/build_script_build-a75e0e63abf52372
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-integer-a75e0e63abf52372/build_script_build-a75e0e63abf52372.d
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-406faa1307a0ba5c/invoked.timestamp
+8	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-406faa1307a0ba5c/out/probe0.ll
+8	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-406faa1307a0ba5c/out/probe1.ll
+49	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-406faa1307a0ba5c/out/probe2.ll
+3	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-406faa1307a0ba5c/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-406faa1307a0ba5c/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-406faa1307a0ba5c/stderr
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-aade6d43314a8bbd/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-aade6d43314a8bbd/build_script_build-aade6d43314a8bbd
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/num-traits-aade6d43314a8bbd/build_script_build-aade6d43314a8bbd.d
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/proc-macro2-9b524fcc2402c86a/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/proc-macro2-9b524fcc2402c86a/build_script_build-9b524fcc2402c86a
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/proc-macro2-9b524fcc2402c86a/build_script_build-9b524fcc2402c86a.d
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/proc-macro2-e9cf9161383f7d45/invoked.timestamp
+3	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/proc-macro2-e9cf9161383f7d45/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/proc-macro2-e9cf9161383f7d45/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/proc-macro2-e9cf9161383f7d45/stderr
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-78c20042da83524f/invoked.timestamp
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-78c20042da83524f/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-78c20042da83524f/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-78c20042da83524f/stderr
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-a8f7f27fd0cdf024/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-a8f7f27fd0cdf024/build_script_build-a8f7f27fd0cdf024
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-a8f7f27fd0cdf024/build_script_build-a8f7f27fd0cdf024.d
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-ea42e13880df2b4c/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-ea42e13880df2b4c/build_script_build-ea42e13880df2b4c
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde-ea42e13880df2b4c/build_script_build-ea42e13880df2b4c.d
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_derive-995e7c2cd7c5a7e4/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_derive-995e7c2cd7c5a7e4/build_script_build-995e7c2cd7c5a7e4
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_derive-995e7c2cd7c5a7e4/build_script_build-995e7c2cd7c5a7e4.d
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_derive-a828a171f0ae4408/invoked.timestamp
+2	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_derive-a828a171f0ae4408/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_derive-a828a171f0ae4408/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_derive-a828a171f0ae4408/stderr
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_json-38a77b69f4f6709e/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_json-38a77b69f4f6709e/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_json-38a77b69f4f6709e/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_json-38a77b69f4f6709e/stderr
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_json-db3e7afcb6561635/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_json-db3e7afcb6561635/build_script_build-db3e7afcb6561635
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/serde_json-db3e7afcb6561635/build_script_build-db3e7afcb6561635.d
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/syn-121707674f78d188/build-script-build
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/build/syn-121707674f78d188/build_script_build-121707674f78d188
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/syn-121707674f78d188/build_script_build-121707674f78d188.d
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/syn-4806c8d99ff3536e/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/syn-4806c8d99ff3536e/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/syn-4806c8d99ff3536e/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/release/build/syn-4806c8d99ff3536e/stderr
+9	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/autocfg-66b1cdde7758320c.d
+7	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/cfg_if-e45b275d0e310807.d
+27	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/chrono-c877db7bfa9446bc.d
+12	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/getrandom-a92adf606c8dead1.d
+8	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/itoa-0caf4c95dbc39592.d
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libautocfg-66b1cdde7758320c.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libautocfg-66b1cdde7758320c.rmeta
+16	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libc-215cecc92eb9556c.d
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libcfg_if-e45b275d0e310807.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libcfg_if-e45b275d0e310807.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libchrono-c877db7bfa9446bc.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libchrono-c877db7bfa9446bc.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libgetrandom-a92adf606c8dead1.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libgetrandom-a92adf606c8dead1.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libitoa-0caf4c95dbc39592.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libitoa-0caf4c95dbc39592.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/liblibc-215cecc92eb9556c.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/liblibc-215cecc92eb9556c.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/liblog-2b79450441533f7f.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/liblog-2b79450441533f7f.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libmarine_macro-dcc7d33c2edf502c.dylib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libmarine_macro_impl-423c5f553cd16de7.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libmarine_macro_impl-423c5f553cd16de7.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libmarine_rs_sdk_main-5ad40cecc7106d6d.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libmarine_rs_sdk_main-5ad40cecc7106d6d.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libmarine_timestamp_macro-4eec37e2ca9fb9a1.dylib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libnum_integer-9239e72aeac54819.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libnum_integer-9239e72aeac54819.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libnum_traits-f02526f0f7fd35cf.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libnum_traits-f02526f0f7fd35cf.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libproc_macro2-fd0bd4fc3fd09610.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libproc_macro2-fd0bd4fc3fd09610.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libquote-52580f92ab8e1bd0.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libquote-52580f92ab8e1bd0.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libryu-4d0b2d499bc614b4.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libryu-4d0b2d499bc614b4.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libserde-fd0debe8d92a3df0.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libserde-fd0debe8d92a3df0.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libserde_derive-403abe6fe18502dc.dylib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libserde_json-de773cdf9bebbc4f.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libserde_json-de773cdf9bebbc4f.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libsyn-979d8430661e8869.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libsyn-979d8430661e8869.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libtime-47840f61acd3d2b8.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libtime-47840f61acd3d2b8.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libunicode_xid-41b6b66d1fb0ad00.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libunicode_xid-41b6b66d1fb0ad00.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libuuid-d9b1f845937e21af.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/release/deps/libuuid-d9b1f845937e21af.rmeta
+9	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/log-2b79450441533f7f.d
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/marine_macro-dcc7d33c2edf502c.d
+36	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/marine_macro_impl-423c5f553cd16de7.d
+13	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/marine_rs_sdk_main-5ad40cecc7106d6d.d
+5	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/marine_timestamp_macro-4eec37e2ca9fb9a1.d
+9	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/num_integer-9239e72aeac54819.d
+23	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/num_traits-f02526f0f7fd35cf.d
+12	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/proc_macro2-fd0bd4fc3fd09610.d
+13	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/quote-52580f92ab8e1bd0.d
+18	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/ryu-4d0b2d499bc614b4.d
+25	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/serde-fd0debe8d92a3df0.d
+21	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/serde_derive-403abe6fe18502dc.d
+23	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/serde_json-de773cdf9bebbc4f.d
+54	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/syn-979d8430661e8869.d
+11	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/time-47840f61acd3d2b8.d
+8	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/unicode_xid-41b6b66d1fb0ad00.d
+15	0	fluence-services/aqua_nft_wallet_api_service/target/release/deps/uuid-d9b1f845937e21af.d
+3	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/CACHEDIR.TAG
+0	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.cargo-lock
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/aqua_nft_wallet_api_service-123b9775db98ebc5/bin-aqua_nft_wallet_api_service
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/aqua_nft_wallet_api_service-123b9775db98ebc5/bin-aqua_nft_wallet_api_service.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/aqua_nft_wallet_api_service-123b9775db98ebc5/dep-bin-aqua_nft_wallet_api_service
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/aqua_nft_wallet_api_service-123b9775db98ebc5/invoked.timestamp
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/cfg-if-4165e00705e99fd2/dep-lib-cfg-if
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/cfg-if-4165e00705e99fd2/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/cfg-if-4165e00705e99fd2/lib-cfg-if
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/cfg-if-4165e00705e99fd2/lib-cfg-if.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/log-5dbf662b78e52fe7/dep-lib-log
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/log-5dbf662b78e52fe7/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/log-5dbf662b78e52fe7/lib-log
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/log-5dbf662b78e52fe7/lib-log.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/log-847b17d38805bf77/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/log-847b17d38805bf77/run-build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/marine-rs-sdk-830f38dff295257b/dep-lib-marine-rs-sdk
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/marine-rs-sdk-830f38dff295257b/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/marine-rs-sdk-830f38dff295257b/lib-marine-rs-sdk
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/marine-rs-sdk-830f38dff295257b/lib-marine-rs-sdk.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/marine-rs-sdk-main-4b6f44f8b2554572/dep-lib-marine-rs-sdk-main
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/marine-rs-sdk-main-4b6f44f8b2554572/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/marine-rs-sdk-main-4b6f44f8b2554572/lib-marine-rs-sdk-main
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/marine-rs-sdk-main-4b6f44f8b2554572/lib-marine-rs-sdk-main.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/polyplets-297c60e230e48562/dep-lib-polyplets
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/polyplets-297c60e230e48562/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/polyplets-297c60e230e48562/lib-polyplets
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/polyplets-297c60e230e48562/lib-polyplets.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/serde-5ce3279b4059cb49/run-build-script-build-script-build
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/serde-5ce3279b4059cb49/run-build-script-build-script-build.json
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/serde-dec4b0f83314305b/dep-lib-serde
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/serde-dec4b0f83314305b/invoked.timestamp
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/serde-dec4b0f83314305b/lib-serde
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/.fingerprint/serde-dec4b0f83314305b/lib-serde.json
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/aqua_nft_wallet_api_service.d
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/aqua_nft_wallet_api_service.wasm
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/build/log-847b17d38805bf77/invoked.timestamp
+3	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/build/log-847b17d38805bf77/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/build/log-847b17d38805bf77/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/build/log-847b17d38805bf77/stderr
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/build/serde-5ce3279b4059cb49/invoked.timestamp
+2	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/build/serde-5ce3279b4059cb49/output
+1	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/build/serde-5ce3279b4059cb49/root-output
+0	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/build/serde-5ce3279b4059cb49/stderr
+10	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/aqua_nft_wallet_api_service-123b9775db98ebc5.d
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/aqua_nft_wallet_api_service-123b9775db98ebc5.wasm
+7	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/cfg_if-4165e00705e99fd2.d
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libcfg_if-4165e00705e99fd2.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libcfg_if-4165e00705e99fd2.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/liblog-5dbf662b78e52fe7.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/liblog-5dbf662b78e52fe7.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libmarine_rs_sdk-830f38dff295257b.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libmarine_rs_sdk-830f38dff295257b.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libmarine_rs_sdk_main-4b6f44f8b2554572.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libmarine_rs_sdk_main-4b6f44f8b2554572.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libpolyplets-297c60e230e48562.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libpolyplets-297c60e230e48562.rmeta
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libserde-dec4b0f83314305b.rlib
+-	-	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/libserde-dec4b0f83314305b.rmeta
+9	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/log-5dbf662b78e52fe7.d
+9	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/marine_rs_sdk-830f38dff295257b.d
+14	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/marine_rs_sdk_main-4b6f44f8b2554572.d
+9	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/polyplets-297c60e230e48562.d
+25	0	fluence-services/aqua_nft_wallet_api_service/target/wasm32-wasi/release/deps/serde-dec4b0f83314305b.d
+-	-	fluence-services/artifacts/aqua_nft_wallet_api_service.wasm
+16	0	fluence-services/artifacts/deploy.json
+13	0	fluence-services/build.sh
+5	0	fluence-services/configs/aqua_nft_wallet_api_service_cfg.json
+8	0	fluence-services/configs/curl_adapter_cfg.json
+16769	5806	package-lock.json
+9	2	package.json
+-	-	public/avm.wasm
+1	1	public/runnerScript.web.js
+352	0	src/_aqua/aquanftapdef.ts
+24964	1550	src/data/opensea.json
+29	0	src/services/aquanftwallet.js
+26	14	src/store/index.js
+111	71	src/views/OpenseaCollectionView.vue
+3	0	test.js
+1669	322	yarn.lock
+
+commit 051250cff155ca414c9c8d66926facc54822b7e5
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Tue Feb 1 02:28:24 2022 +0200
+
+    update
+
+8	0	.env
+20	0	.eslintrc.js
+4867	6530	package-lock.json
+38	16	package.json
+-	-	public/avm.wasm
+-	-	public/images/noimage.jpeg
+1	0	public/runnerScript.web.js
+6	17	src/App.vue
+1552	0	src/data/opensea.json
+92	0	src/modals/OpeanSeaNFTDetailsModal.vue
+16	0	src/router/index.js
+98	9	src/store/index.js
+76	10	src/views/Home.vue
+88	0	src/views/OpenseaCollectionView.vue
+13609	0	yarn.lock
+
+commit eec7c9024f0d98f331e7f5260e3bd700d76c2c22
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Fri Jan 28 02:17:32 2022 +0200
+
+    init
+
+17495	8240	package-lock.json
+29	3	package.json
+3	1	public/index.html
+47	20	src/App.vue
+1	0	src/assets/logo.svg
+145	52	src/components/HelloWorld.vue
+7	1	src/main.js
+7	0	src/plugins/vuetify.js
+27	0	src/router/index.js
+14	0	src/store/index.js
+5	0	src/views/About.vue
+15	0	src/views/Home.vue
+5	0	vue.config.js
+
+commit 0e13d25d92caea6716f961ff52eb87972c9ccbb5
+Author: Siphamandla brian Mjoli <brianm445@yahoo.com>
+Date:   Wed Jan 26 03:15:15 2022 +0200
+
+    init
+
+23	0	.gitignore
+24	0	README.md
+5	0	babel.config.js
+27422	0	package-lock.json
+42	0	package.json
+-	-	public/favicon.ico
+17	0	public/index.html
+28	0	src/App.vue
+-	-	src/assets/logo.png
+58	0	src/components/HelloWorld.vue
+8	0	src/main.js

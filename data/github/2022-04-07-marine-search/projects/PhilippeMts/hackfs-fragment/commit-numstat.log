@@ -1,0 +1,4060 @@
+commit 28a0c0e9a438093f728fd586aafcc50c6e578f62
+Merge: 81e38a0 c5e1691
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 20:22:10 2021 +0200
+
+    Merge branch 'develop'
+
+commit c5e1691ff901bab53195f104e229762b3287452c
+Merge: fb52890 18bd35e
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 20:21:43 2021 +0200
+
+    Merge branch 'develop' of https://github.com/PhilippeMts/hackfs-fragment into develop
+
+commit fb528905fb6448e2b502f7de8fba877a2a995f6d
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 20:20:59 2021 +0200
+
+    :sparkles: Demo commit
+
+5	5	src/redux/transformation/action.js
+12	4	src/views/DatasetDetails.js
+
+commit 81e38a0da9ea79835d340a8b4ca8c47f127ddc6f
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 18:36:03 2021 +0200
+
+    📝 Document and update the README.
+
+22	0	README.md
+
+commit 740905d480974ebfe14f6c4e30a78c83b27c4686
+Merge: c37f385 1eaa1e1
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 18:30:41 2021 +0200
+
+    Merge branch 'release/v1.0.0'
+
+commit 1eaa1e1a964f946317297b6e4ee279bf4aced3a1
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 18:30:29 2021 +0200
+
+    🔖 BUmp version number.
+
+1	1	package.json
+
+commit 18bd35ea8506d68b83ebba9fb0b40e638ea37042
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 18:29:06 2021 +0200
+
+    📝 Document and update the README.
+
+24	176	README.md
+
+commit a5e15bb0193e835e1eba4e4fd36bdb66cde45695
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 18:27:11 2021 +0200
+
+    :heavy_plus_sign: Added multiformats
+
+1	0	package.json
+
+commit 037ca78c8dcaafe4ba2ea91d3049788fa6f72315
+Merge: 32ab987 31ff2b9
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 17:52:15 2021 +0200
+
+    Merge branch 'feature/ipld' into develop
+
+commit 32ab9878e607e4c5711b2770f2ed03adfe608fca
+Merge: 6d8a792 bc137ef
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 17:51:48 2021 +0200
+
+    Merge branch 'develop' of https://github.com/PhilippeMts/hackfs-fragment into develop
+
+commit 31ff2b9db37691a15a89a0c324c89f3a30cf403a
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 17:51:26 2021 +0200
+
+    :recycle: ID on dataset detail can now be ipld hash
+
+2	2	src/views/DatasetDetails.js
+
+commit 9f6a7445b85ecabf94b5d9ece96bfaf11bfad8e8
+Merge: bb7763d 6d8a792
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 17:45:49 2021 +0200
+
+    :twisted_rightwards_arrows: Merge develop
+
+commit bc137ef774c7aef3f910fa0b0c35e554377e9e96
+Merge: f842ae9 a7cd974
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 17:22:00 2021 +0200
+
+    Merge branch 'develop' of https://github.com/PhilippeMts/hackfs-fragment into develop
+
+commit f842ae958157cbd31db5d62898a95cf023ae600b
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 17:17:04 2021 +0200
+
+    :sparks: Add Ceramic / IDX schema and definition.
+
+8	1	idx/README.md
+5	0	idx/definitions/datasetIssuesRegistry.json
+59	0	idx/schemas/datasetIssuesRegistry.json
+
+commit 6d8a792f9d98776ce2b54bd3664859c48517ce3e
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 17:08:27 2021 +0200
+
+    :bug: Fixed
+
+2	1	src/redux/dataset/action.js
+5	2	src/redux/ipfs/action.js
+5	2	src/redux/transformation/action.js
+1	1	src/views/DatasetProcess.js
+
+commit e39adb589645e71c3fb975f69be3bca76a53f794
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 16:18:13 2021 +0200
+
+    :bug: Fixed subscription bug
+
+-	-	service/articfacts/transformation_2.wasm
+1	0	src/redux/ipfs/action.js
+60	30	src/redux/transformation/action.js
+4	3	src/views/DatasetDetails.js
+1	1	src/views/TransformationDetails.js
+
+commit bb7763dfeb88478c1fcf3e6fb75f8d1929a83255
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 16:13:52 2021 +0200
+
+    :sparks: Add IPLD support.
+
+1	0	package.json
+15	0	src/redux/transformation/action.js
+
+commit a52785e0fe764c15e4526c7f17a1c6298b58f6d7
+Merge: bea9e10 0ff72cb
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 16:06:24 2021 +0200
+
+    Merge branch 'develop' into feature/ipld
+
+commit bea9e10f6914407a02c0b621bf44063ebff28f5b
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 16:00:17 2021 +0200
+
+    📝 Document the use of IPLD schemas.
+
+18	0	ipld/README.md
+45	0	ipld/fragment.ipldsch
+
+commit a7cd974e5d3bd1f61487b21cfa08d270ba264c43
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 14:51:07 2021 +0200
+
+    :fire: Removed useless compiled transformation
+
+-	-	service/articfacts/service.wasm
+
+commit 0ff72cb3f28b0f60c3b8c23b00f85f4fee68193b
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 14:33:39 2021 +0200
+
+    :fire: Removed useless components
+
+0	62	src/routes.js
+0	535	src/views/Dashboard.js
+0	78	src/views/FluenceTest.js
+0	1149	src/views/Icons.js
+0	240	src/views/Notifications.js
+0	169	src/views/TableList.js
+0	214	src/views/Typography.js
+0	210	src/views/UserProfile.js
+
+commit 0687661069539e8940b42a3209679e3e1a87c1f2
+Merge: 846b0e1 b0f14cc
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 14:29:06 2021 +0200
+
+    Merge branch 'develop' into feature/service-integration
+
+commit b0f14ccc7bda203058f5e2c9c54e4ccc9817ea8d
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 14:19:03 2021 +0200
+
+    🚸 Prettify JSON strings.
+
+1	0	package.json
+26	18	src/components/JsonPreview/JsonPreview.js
+
+commit 846b0e19ebb47e627c511223570b2c26226a7dda
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 14:07:07 2021 +0200
+
+    :bug: Fixe history bug
+
+1	1	src/views/Datasets.js
+
+commit 4591a0ef8343b3ddd4e97d36618a7b20206093e0
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 13:57:54 2021 +0200
+
+    💡 Add or update comments in source code and disable Web3 connect mock button.
+
+2	1	src/views/Settings.js
+
+commit 73a082ea966c9d3577944b06e376d06f7deaf1a5
+Merge: 053c6a3 84887c5
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 13:54:23 2021 +0200
+
+    Merge branch 'feature/idx' into develop
+
+commit 84887c51e303aa8b656cc41bb9e930abf3550fe3
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 13:54:02 2021 +0200
+
+    ✨ Introduce IDX basic profile integration.
+
+26	0	idx/README.md
+3	0	package.json
+32	0	src/components/IdxWrapper/IdxWrapper.js
+13	4	src/components/Navbars/AdminNavbar.js
+5	0	src/contexts/IdxContext.js
+30	26	src/index.js
+8	0	src/utils/idx.js
+
+commit 2742fcc145818f8069946f6f7d72a9869dc6dbe0
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sun Aug 15 13:39:07 2021 +0200
+
+    🎨 Lint NavBar component.
+
+38	38	src/components/Navbars/AdminNavbar.js
+
+commit 75c0f20300ab20c3b9e533593400a7e564f665ce
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 13:09:05 2021 +0200
+
+    :recycle: Moved redux init somewhere else
+
+3	2	package.json
+0	21	src/components/ThemeWrapper/ThemeWrapper.js
+23	1	src/layouts/Admin/Admin.js
+
+commit 75bc07c77afbf0601c1e8f5005a9bc1eb5fb7ce9
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 11:52:02 2021 +0200
+
+    :sparkles: Hostory
+
+8	8	src/redux/dataset/reducer.js
+20	15	src/redux/transformation/action.js
+0	5	src/redux/transformation/reducer.js
+6	1	src/utils/localStorage.js
+68	20	src/views/DatasetDetails.js
+2	2	src/views/Datasets.js
+
+commit bc680f60b7c07c0fc06b0bdea5f5fdeb82ac9893
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sun Aug 15 08:46:20 2021 +0200
+
+    :sparkles: Run of transformation
+
+3	3	service/articfacts/dataset.json
+-	-	service/articfacts/transformation.wasm
+7	1	src/assets/scss/fragment/fragment.scss
+3	1	src/redux/dataset/action.js
+12	2	src/redux/dataset/reducer.js
+34	14	src/redux/transformation/action.js
+15	15	src/views/DatasetProcess.js
+1	18	src/views/TransformationImport.js
+
+commit 83a02dc3d684bfb4b232e2150c5d724f7d83a3d4
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sat Aug 14 22:28:39 2021 +0200
+
+    :construction: Started integrating details
+
+7	9	src/views/DatasetDetails.js
+3	3	src/views/Datasets.js
+7	10	src/views/TransformationDetails.js
+3	3	src/views/Transformations.js
+
+commit 2a5074b97514c96a0e95fc004798a09db528f424
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sat Aug 14 21:46:05 2021 +0200
+
+    :memo: Added doc on dependencies for service
+
+5	1	service/README.md
+
+commit 643153483bbb7476897cbb4fc17939560c278b0f
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sat Aug 14 21:42:51 2021 +0200
+
+    :sparkles: Added rust service in the repository.
+
+2	0	service/.gitignore
+11	0	service/Cargo.toml
+22	0	service/README.md
+5	0	service/articfacts/dataset.json
+-	-	service/articfacts/service.wasm
+2	0	service/build.sh
+26	0	service/src/main.rs
+
+commit 053c6a3286937a07451864eb7cf4c7fdcdf6f431
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sat Aug 14 17:19:27 2021 +0200
+
+    ✨ Introduce DatasetProcess view.
+
+9	0	src/routes.js
+8	7	src/views/DatasetDetails.js
+179	0	src/views/DatasetProcess.js
+
+commit 105b985469d78c99e6bf2c15747bc8faf154ab66
+Merge: cab6aac bb36e6c
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sat Aug 14 16:38:46 2021 +0200
+
+    Merge branch 'feature/fluence-integration' into develop
+
+commit cab6aaca172284cc47c1b0b62eaeb1c27bba101f
+Merge: ccf6cdf 3c4c24c
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sat Aug 14 10:42:11 2021 +0200
+
+    Merge branch 'feature/datasets' into develop
+
+commit 3c4c24c1a1fc245f347b98ca8b2a6b102f8e3c76
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Sat Aug 14 10:42:00 2021 +0200
+
+     Add or update comments in source code.
+
+1	0	src/views/DatasetDetails.js
+
+commit bb36e6c3d069b24e9f6f2bfedd5b21ecc9901624
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sat Aug 14 09:05:31 2021 +0200
+
+    :construction: Added nbr of inputs so that we can run transformations
+
+4	3	src/redux/transformation/action.js
+19	2	src/views/TransformationImport.js
+
+commit a92dcb74b696c13b93a56703adbba0924909f314
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sat Aug 14 08:54:41 2021 +0200
+
+    :sparkles: Init objects & import them
+
+11	1	src/components/ThemeWrapper/ThemeWrapper.js
+35	0	src/redux/dataset/action.js
+20	0	src/redux/dataset/reducer.js
+11	1	src/redux/store.js
+17	6	src/redux/transformation/action.js
+5	2	src/redux/transformation/reducer.js
+4	8	src/views/DatasetCreation.js
+3	14	src/views/Datasets.js
+3	15	src/views/Transformations.js
+
+commit 0c6e0f0b3ae27e30933023e5f3d13c8dd3f81331
+Merge: 5156e25 bfe98b5
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sat Aug 14 08:00:59 2021 +0200
+
+    :twisted_rightwards_arrows: Merging datasets w/ fluence-integration
+
+commit 5156e25e257ffa059dc08d19b83f784df7b46db3
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Sat Aug 14 07:55:44 2021 +0200
+
+    :construction: Added transformation upload
+
+13	2	src/redux/transformation/action.js
+1	1	src/views/FluenceTest.js
+5	9	src/views/TransformationImport.js
+
+commit bfe98b52484680b82afe965a44bfd76cb0160d8b
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 18:04:43 2021 +0200
+
+    🚧 Work in progress on DatasetDetails.
+
+10	0	src/assets/scss/fragment/fragment.scss
+9	0	src/routes.js
+177	0	src/views/DatasetDetails.js
+1	7	src/views/TransformationDetails.js
+
+commit fbcac86eff891adfe96198dfaa8a1687572db773
+Author: tchataigner <tom.chataigner@yahoo.fr>
+Date:   Fri Aug 13 17:07:59 2021 +0200
+
+    :construction: Added redux & flow in redux
+
+13	2	package.json
+11	0	src/components/ThemeWrapper/ThemeWrapper.js
+17	10	src/index.js
+1	0	src/react-app-env.d.ts
+17	0	src/redux/fluence/action.js
+17	0	src/redux/fluence/reducer.js
+24	0	src/redux/ipfs/action.js
+18	0	src/redux/ipfs/reducer.js
+12	0	src/redux/store.js
+53	0	src/redux/transformation/action.js
+21	0	src/redux/transformation/reducer.js
+8	0	src/routes.js
+508	0	src/utils/process.js
+78	0	src/views/FluenceTest.js
+
+commit 8ce7e6b5b6e17e592e9528a9b50c3d01e9b77f47
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 11:35:24 2021 +0200
+
+    🎨 Factorize code and update datasets list.
+
+21	13	src/assets/scss/fragment/fragment.scss
+48	0	src/components/JsonPreview/JsonPreview.js
+2	20	src/views/DatasetCreation.js
+4	3	src/views/Datasets.js
+
+commit 32c23864723ecedcff25a86f3a3eaf66f18cf85e
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 11:27:39 2021 +0200
+
+    🐛 Fix a bug.
+
+1	1	src/views/Datasets.js
+
+commit e9cc587c69703ac1d88ad0a154ed7348e59bf6e5
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 11:25:11 2021 +0200
+
+    💡 Add or update comments in source code.
+
+1	0	src/views/Settings.js
+
+commit f988ea4cc7e70f385f8220acf8e4ad8a1d1a715a
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 11:25:00 2021 +0200
+
+    ✨ Introduce DatasetCreation.
+
+1	0	package.json
+19	0	src/assets/scss/fragment/fragment.scss
+9	0	src/routes.js
+165	0	src/views/DatasetCreation.js
+1	1	src/views/TransformationImport.js
+
+commit 16e6824755c58d6e2f375284962837cc5bd6c4b6
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 11:24:17 2021 +0200
+
+    🐛 Fix a UI bug.
+
+4	0	src/assets/scss/fragment/fragment.scss
+
+commit 5b1f6608a3ae88026b9f2bf317a80287f382e9b7
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 09:35:30 2021 +0200
+
+    💡 Add or update comments in source code.
+
+1	0	src/views/TransformationImport.js
+
+commit ff8ba84d54ed4b15dff56daceeeda4ecc4e406cd
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 09:32:38 2021 +0200
+
+    🐛 Fix a bug.
+
+1	1	src/views/TransformationDetails.js
+1	1	src/views/TransformationImport.js
+
+commit 663aa65327fa5b8abbf1ff876c298ec7d628abee
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 09:27:38 2021 +0200
+
+    🚧 Work in progress on datasets list.
+
+14	3	src/assets/scss/fragment/fragment.scss
+8	0	src/routes.js
+109	0	src/views/Datasets.js
+1	1	src/views/Transformations.js
+
+commit ccf6cdf7f2c5f8e4db99b05cd4e0618f1703bd8e
+Merge: 7e0ce6b 129af56
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 07:56:32 2021 +0200
+
+    Merge branch 'feature/transformation-list' into develop
+
+commit 129af561d153cf5d6057ccb92b6bee2cc0d323c6
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 07:55:56 2021 +0200
+
+    ✨ Introduce transformation details.
+
+1	0	package.json
+25	6	src/assets/scss/fragment/fragment.scss
+9	0	src/routes.js
+150	0	src/views/TransformationDetails.js
+14	9	src/views/Transformations.js
+
+commit 54ddd9aa77af7fa0776bde30100c4925fd686a9b
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Fri Aug 13 00:48:39 2021 +0200
+
+    ✨ Introduce list of transformations.
+
+12	0	src/assets/scss/fragment/fragment.scss
+42	5	src/views/Transformations.js
+
+commit 5c0910cf74cd3a15543ba68753ac76517655845b
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 17:34:38 2021 +0200
+
+    🎨 Improve structure / format of the code.
+
+1	3	src/layouts/Admin/Admin.js
+
+commit 70479e364a54ad2325a4f1eeb9c34d2c81e621a0
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 17:33:47 2021 +0200
+
+    🚧 Initialize use of localforage.
+
+1	0	package.json
+14	0	src/utils/localStorage.js
+8	1	src/views/Settings.js
+18	4	src/views/TransformationImport.js
+
+commit d973ff178836a1eff65eec3bc641257b74797e6e
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 16:15:35 2021 +0200
+
+    🙈 Add or update a .gitignore file.
+
+2	1	.gitignore
+
+commit e80259908e7c40c3120e732dc0f7fc7d01ccdb12
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 15:28:59 2021 +0200
+
+    🚧 Create new transformations form.
+
+1	1	src/components/Sidebar/Sidebar.js
+4	1	src/layouts/Admin/Admin.js
+9	0	src/routes.js
+124	0	src/views/TransformationImport.js
+6	2	src/views/Transformations.js
+
+commit b9d577def6d10c83e5430b14a8c458700cc8e2ea
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 14:29:19 2021 +0200
+
+    🚧 Create transformations view.
+
+8	0	src/routes.js
+57	0	src/views/Transformations.js
+
+commit 070f832735c80b018e61abedf13ca22be59e071f
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 13:56:22 2021 +0200
+
+    🔥 Remove un-required part of paths with a unique layout.
+
+7	10	src/components/Sidebar/Sidebar.js
+2	2	src/index.js
+3	3	src/layouts/Admin/Admin.js
+
+commit 7e0ce6be5618d814b1914af6f72ff5c2c67a3a4a
+Merge: 067dacb 75a33b0
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 13:41:36 2021 +0200
+
+    Merge branch 'feature/settings' into develop
+
+commit 75a33b08fca58af6fd2aa8aea6ecec365e7a12c9
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 13:40:06 2021 +0200
+
+    ✨ Introduce mock setting buttons.
+
+21	1	src/views/Settings.js
+
+commit 5600c4c4b960f53781dc5686878f3b0ccdce88e0
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 13:37:51 2021 +0200
+
+    ✨ Introduce theme switcher.
+
+3	0	src/assets/scss/black-dashboard-react.scss
+49	0	src/assets/scss/fragment/fragment.scss
+8	0	src/routes.js
+70	0	src/views/Settings.js
+
+commit 70360757be6f75c5c2133c22c01580b1000e4274
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 10:57:00 2021 +0200
+
+    🔥 Remove bad comments.
+
+0	3	src/components/Sidebar/Sidebar.js
+
+commit 067dacb0842612dc67901c057e67b821d342a4ba
+Merge: c37f385 9689f64
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 07:53:39 2021 +0200
+
+    Merge branch 'feature/layout' into develop
+
+commit 9689f640e264e6d95d0bf96d0108a46445d889b0
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 07:43:42 2021 +0200
+
+    🔍️ Links to hackfs among others.
+
+1	1	src/assets/demo/demo.css
+11	4	src/components/Sidebar/Sidebar.js
+
+commit 24496a8b552c22f56276c7f1b497e1aaf35c2fd3
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 07:35:12 2021 +0200
+
+    💄 Disable search button for now.
+
+1	1	src/components/Navbars/AdminNavbar.js
+
+commit 95192287e8d10792c48894fb3bfbae5e1a7883bf
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 07:33:15 2021 +0200
+
+    🔥 Remove notifications list.
+
+9	48	src/components/Navbars/AdminNavbar.js
+
+commit 94cabe586ecc896864953c2495ceeb6e339c6139
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 07:30:31 2021 +0200
+
+    🔥 Remove G**gle Map related code.
+
+0	1	public/index.html
+0	9	src/routes.js
+0	326	src/views/Map.js
+
+commit 1ca7c00db63dec91a3c9f66872ec2a0c3450fecf
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 07:28:18 2021 +0200
+
+    ✏️ Replace names and logos.
+
+-	-	public/apple-icon.png
+-	-	public/favicon.png
+2	2	public/index.html
+2	2	public/manifest.json
+-	-	src/assets/img/apple-icon.png
+-	-	src/assets/img/favicon.png
+-	-	src/assets/img/react-logo.png
+2	2	src/layouts/Admin/Admin.js
+
+commit b4bc3dd6dcaeefa57d2c28f76fc9e1374acf3f02
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Thu Aug 12 07:03:42 2021 +0200
+
+    🔥 Remove Rtl page and layout.
+
+0	2	src/index.js
+0	154	src/layouts/RTL/RTL.js
+0	9	src/routes.js
+
+commit fa0c990be72b2daa733161f5f49d433154d73495
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Wed Aug 11 16:54:06 2021 +0200
+
+    🔥 Remove footer.
+
+0	5	src/layouts/Admin/Admin.js
+3	8	src/layouts/RTL/RTL.js
+
+commit 169eaeffaf41ef33e88b5996a98ae6b016cac1ad
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Wed Aug 11 16:24:26 2021 +0200
+
+    🔥 Remove copyright UI notice.
+
+0	11	src/components/Footer/Footer.js
+
+commit e55ed70029f41ad1fa59a2cb89b88ebea96bb9f2
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Wed Aug 11 16:22:17 2021 +0200
+
+    💄 Change default theme and remove context toggle button.
+
+1	1	src/components/BackgroundColorWrapper/BackgroundColorWrapper.js
+6	8	src/layouts/Admin/Admin.js
+
+commit 3c95108e28db8420566454fa783333ac1320ab12
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Wed Aug 11 16:20:47 2021 +0200
+
+    💄 Update primary color.
+
+2	2	src/assets/scss/black-dashboard-react/custom/_variables.scss
+
+commit 977fc6148f9601bbe35e208c16be8c0c714258eb
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Wed Aug 11 16:20:27 2021 +0200
+
+    🔥 Remove branding code.
+
+3	34	src/components/FixedPlugin/FixedPlugin.js
+
+commit 872e68ab313d6dd5467ac40e38a7b17a1effe90e
+Author: PhilippeMts <phi.metais@gmail.com>
+Date:   Wed Aug 11 15:58:13 2021 +0200
+
+    🙈 Add or update a .gitignore file.
+
+1	1	.gitignore
+
+commit c37f38515f47f3625a8240939e4ac831f91dd1dd
+Merge: 0aa4b73 515d8ed
+Author: Nazare Emanuel-Ioan <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 16:18:54 2020 +0200
+
+    Merge pull request #26 from creativetimofficial/dev-main
+    
+    Feature: v1.2.0
+
+commit 515d8edbc4fcd7629fe1b93d925f06eac60e62a4
+Merge: a66c3ec 22d741c
+Author: Nazare Emanuel-Ioan <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 16:17:13 2020 +0200
+
+    Merge pull request #25 from creativetimofficial/feature/1.2.0
+    
+    Feature: 1.2.0
+
+commit 22d741c7e0ecc477065adaea3ebcf834366b29f1
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 16:14:17 2020 +0200
+
+    feature: add gitworkflow
+
+12	0	.github/workflows/main.yml
+
+commit e5ec3d263d952a73d81d8289ed7ea17e468d756a
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 16:12:41 2020 +0200
+
+    docs: change new release date
+
+1	1	CHANGELOG.md
+
+commit 03b646b5363f73023f8fea34a89d03fe0a324c30
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 16:08:54 2020 +0200
+
+    style: run prettier
+
+22	7	public/index.html
+
+commit a156b270ce8e3fddf78adc05427274b3e37001e9
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 16:08:52 2020 +0200
+
+    style: run prettier
+
+155	103	Documentation/documentation.html
+
+commit c617017c9b2707253c9a0c0a2fadb92ea205bc3c
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:42:45 2020 +0200
+
+    docs: solve #17
+    
+    Closes #19
+
+1	0	CHANGELOG.md
+
+commit 0986d362dd64b9dee4600e3bcddb3f920b1dce07
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:42:08 2020 +0200
+
+    docs: solve #19
+    
+    Closes #19
+
+1	0	CHANGELOG.md
+
+commit 445bcc441a4d73d82f61f3c3f0d561b871d81250
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:41:50 2020 +0200
+
+    fix: solve #19
+    
+    Closes #19
+
+0	8	src/views/Rtl.js
+
+commit 4fb24f4c58358c4378820007cc83c4bbef2ecc9f
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:41:36 2020 +0200
+
+    fix: solve #19
+    
+    Closes #19
+
+0	8	src/views/Dashboard.js
+
+commit 0e2fbf56031db7519694fdc79fd7ba995f0865ea
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:38:04 2020 +0200
+
+    docs: add opt dep to stop warnings
+
+1	0	package.json
+
+commit 0693a193be23179b57045d8b14c050235a0aff9e
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:37:49 2020 +0200
+
+    docs: add changes
+
+1	0	CHANGELOG.md
+
+commit 5bce4deae7cff2bc4b8ebb6f4fe6e8edc415569f
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:27 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	11	src/assets/scss/black-dashboard-react/bootstrap/utilities/_visibility.scss
+
+commit f5b990c803442c0ab2bd03afa9c306e2fb50cf3c
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:25 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	58	src/assets/scss/black-dashboard-react/bootstrap/utilities/_text.scss
+
+commit 144e979703ae8f2aac594119dd34e0f84faa9ec7
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:24 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	51	src/assets/scss/black-dashboard-react/bootstrap/utilities/_spacing.scss
+
+commit 96740e63837e23439d752450543949b149b915f9
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:22 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	12	src/assets/scss/black-dashboard-react/bootstrap/utilities/_sizing.scss
+
+commit 72009401043d4675dfe783e51cb673754f72c404
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:20 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	6	src/assets/scss/black-dashboard-react/bootstrap/utilities/_shadows.scss
+
+commit f551cfae1017acdf31ad79c0e1edbc581e2e52aa
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:18 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	11	src/assets/scss/black-dashboard-react/bootstrap/utilities/_screenreaders.scss
+
+commit 257882dbb2a2939e3e45d35b56f2571148a67f60
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:17 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	37	src/assets/scss/black-dashboard-react/bootstrap/utilities/_position.scss
+
+commit 4c42a01fe5b401562ec6d1be1a4d09fb18801253
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:15 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	9	src/assets/scss/black-dashboard-react/bootstrap/utilities/_float.scss
+
+commit c87d01640ada37483af7faef5cd3b3b513f4dbc9
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:13 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	51	src/assets/scss/black-dashboard-react/bootstrap/utilities/_flex.scss
+
+commit 6272c43eeff4615943a472f6db87dee02cc5c8e7
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:12 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	52	src/assets/scss/black-dashboard-react/bootstrap/utilities/_embed.scss
+
+commit 8eeb28bd6839d4f0f4cf10ccc6295504d1fbdb60
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:10 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	38	src/assets/scss/black-dashboard-react/bootstrap/utilities/_display.scss
+
+commit d0a56ea6656847d5047a60740e4bdf5fc631150f
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:08 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	3	src/assets/scss/black-dashboard-react/bootstrap/utilities/_clearfix.scss
+
+commit 5c36722bb11ca818b8f5259f8bcfc00d8c9b05ed
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:07 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	59	src/assets/scss/black-dashboard-react/bootstrap/utilities/_borders.scss
+
+commit fb866a2ecdcf7c9b82f756da45c3a4f031a170be
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:05 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	19	src/assets/scss/black-dashboard-react/bootstrap/utilities/_background.scss
+
+commit 9c38c141cfdc67a5b9254816b3aba99bdba0bd81
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:03 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	8	src/assets/scss/black-dashboard-react/bootstrap/utilities/_align.scss
+
+commit 6bda0139e8d43de01584c74236d039b35cff20ab
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:02 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	7	src/assets/scss/black-dashboard-react/bootstrap/mixins/_visibility.scss
+
+commit 0a29d2b896371ca735b2b8ed0019e2ed8499e53c
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:30:00 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	13	src/assets/scss/black-dashboard-react/bootstrap/mixins/_transition.scss
+
+commit 44b3d7ec3db821e41f19d1a20c2d292a59386587
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:58 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	8	src/assets/scss/black-dashboard-react/bootstrap/mixins/_text-truncate.scss
+
+commit 6a1e91275e086af1bdce7eec69e753542b0a56ac
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:56 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	13	src/assets/scss/black-dashboard-react/bootstrap/mixins/_text-hide.scss
+
+commit f834f102c9e5b74719a56879b5b7261a11d81087
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:55 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	14	src/assets/scss/black-dashboard-react/bootstrap/mixins/_text-emphasis.scss
+
+commit 0d2867b66436923e2bd8cb05079afafd9e3411ff
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:53 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	30	src/assets/scss/black-dashboard-react/bootstrap/mixins/_table-row.scss
+
+commit 9bb3f77a94a75b71392dc19010daad58116fbc98
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:51 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	6	src/assets/scss/black-dashboard-react/bootstrap/mixins/_size.scss
+
+commit 4ef3e326e4e573713a8f7fe467ac6bc691ee4fef
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:50 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	33	src/assets/scss/black-dashboard-react/bootstrap/mixins/_screen-reader.scss
+
+commit 83eadff160d5e5b299d44a46890609ab42ff5cc2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:48 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	6	src/assets/scss/black-dashboard-react/bootstrap/mixins/_resize.scss
+
+commit 699833fe7fcea32d423e1e1532bc047c9614a28f
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:46 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	17	src/assets/scss/black-dashboard-react/bootstrap/mixins/_reset-text.scss
+
+commit 493c7388206bd35227f02fe0f52b7ffc1ff8d9c4
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:45 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	22	src/assets/scss/black-dashboard-react/bootstrap/mixins/_pagination.scss
+
+commit a9846edff4935e2b39351763dd4e6e6dd0dd5619
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:43 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	10	src/assets/scss/black-dashboard-react/bootstrap/mixins/_nav-divider.scss
+
+commit 8c96d953d814c512d29fbad0b30c2492c7a20a06
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:41 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	7	src/assets/scss/black-dashboard-react/bootstrap/mixins/_lists.scss
+
+commit 8f88a82b776f818545a02d5bdc1f92f7375f926f
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:39 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	21	src/assets/scss/black-dashboard-react/bootstrap/mixins/_list-group.scss
+
+commit 2f057b3da3b346a33c6b9951f127e2b65f83c59d
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:38 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	36	src/assets/scss/black-dashboard-react/bootstrap/mixins/_image.scss
+
+commit be73621f82ef676e7652c742d3b3d6269d15f5af
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:36 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	37	src/assets/scss/black-dashboard-react/bootstrap/mixins/_hover.scss
+
+commit 4fa6a723526b819f955ff95c13b2b06777154f11
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:34 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	52	src/assets/scss/black-dashboard-react/bootstrap/mixins/_grid.scss
+
+commit 21023698631226eefbbcea7f7b9c40ba3e759143
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:33 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	67	src/assets/scss/black-dashboard-react/bootstrap/mixins/_grid-framework.scss
+
+commit b23d856a2426b16d2f4fc6af3517a27c64844e05
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:31 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	45	src/assets/scss/black-dashboard-react/bootstrap/mixins/_gradients.scss
+
+commit 826fc3e63ecdbf741efbc29a6026cbea11493e17
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:29 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	147	src/assets/scss/black-dashboard-react/bootstrap/mixins/_forms.scss
+
+commit df249e103ec8ef12fb12135da5965fa6ae24ef44
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:28 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	11	src/assets/scss/black-dashboard-react/bootstrap/mixins/_float.scss
+
+commit f2778eb9f38266b6456ed2382ba1883cce535c16
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:26 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	7	src/assets/scss/black-dashboard-react/bootstrap/mixins/_clearfix.scss
+
+commit 2cc367fefd377aeb27f74c56263a03c022660ae8
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:24 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	66	src/assets/scss/black-dashboard-react/bootstrap/mixins/_caret.scss
+
+commit b885f0ceb6ba5128c1af6728b37a3cb1f5799379
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:23 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	109	src/assets/scss/black-dashboard-react/bootstrap/mixins/_buttons.scss
+
+commit 26fbebccd90ea7bd8ba497fd5e0a688af99ac7f2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:21 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	123	src/assets/scss/black-dashboard-react/bootstrap/mixins/_breakpoints.scss
+
+commit 7081a1bfa1aa55b975ec15bfd2bb9793c82ad678
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:19 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	5	src/assets/scss/black-dashboard-react/bootstrap/mixins/_box-shadow.scss
+
+commit 9345680dfbc9e8ae961f60f4f9ab1e6255dadf7c
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:17 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	35	src/assets/scss/black-dashboard-react/bootstrap/mixins/_border-radius.scss
+
+commit 361366eab2e924aad235571df0fcc82dd19725cb
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:16 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	12	src/assets/scss/black-dashboard-react/bootstrap/mixins/_badge.scss
+
+commit e101beb434fedf82f29ee497ef41b0ba6840a4dc
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:14 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	21	src/assets/scss/black-dashboard-react/bootstrap/mixins/_background-variant.scss
+
+commit b10a5965d9aa94e4e8131ce7b0e7057d4055f4ad
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:12 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	13	src/assets/scss/black-dashboard-react/bootstrap/mixins/_alert.scss
+
+commit 121966f724afca5bcb8a48d421cd14355cc1a40c
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:11 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	952	src/assets/scss/black-dashboard-react/bootstrap/_variables.scss
+
+commit 7ab6970616c1c4a246756e05552f682e79647488
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:09 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	15	src/assets/scss/black-dashboard-react/bootstrap/_utilities.scss
+
+commit b70fc158fa75f51bc02ec97a63f06865ad19571b
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:07 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	125	src/assets/scss/black-dashboard-react/bootstrap/_type.scss
+
+commit 690018abc100f6a6e00112c0a979b9603a3bbc09
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:06 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	22	src/assets/scss/black-dashboard-react/bootstrap/_transitions.scss
+
+commit ad87488946f55cb1eb8f1c418e70f68e1ecdbb18
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:04 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	115	src/assets/scss/black-dashboard-react/bootstrap/_tooltip.scss
+
+commit c1c00c2b5b53f14e91ecab539d5cd8b06a2d0c25
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:02 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	187	src/assets/scss/black-dashboard-react/bootstrap/_tables.scss
+
+commit e56f8e10e2e7dac5576fbe7804c679c806909673
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:29:00 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	19	src/assets/scss/black-dashboard-react/bootstrap/_root.scss
+
+commit 94c88ceac82a069a1c6f81b3df7a088312ec815d
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:59 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	483	src/assets/scss/black-dashboard-react/bootstrap/_reboot.scss
+
+commit c2197b09e47683790bc4d0d588b366d4ff02ce7b
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:57 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	34	src/assets/scss/black-dashboard-react/bootstrap/_progress.scss
+
+commit 3ff933cd2ffaeb87b9e6a1231d424d17bd4e98a0
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:55 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	141	src/assets/scss/black-dashboard-react/bootstrap/_print.scss
+
+commit 83440d50f3d74a8bfd68bb404ef66b5f96af94f3
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:54 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	183	src/assets/scss/black-dashboard-react/bootstrap/_popover.scss
+
+commit 72c74887783a91891bd6dc6a80b15a362441a1d2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:52 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	78	src/assets/scss/black-dashboard-react/bootstrap/_pagination.scss
+
+commit a301c1187f9b47f0384c8129eb67c7fb5a1b5a5d
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:50 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	299	src/assets/scss/black-dashboard-react/bootstrap/_navbar.scss
+
+commit 6a5f8f2ac71a7af723155a97024918ba6e480250
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:49 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	118	src/assets/scss/black-dashboard-react/bootstrap/_nav.scss
+
+commit 7f3ed841f8cb588ebd088df94d6c7f48cbdc0149
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:47 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	180	src/assets/scss/black-dashboard-react/bootstrap/_modal.scss
+
+commit 2537825be9b67aa81b188563bb759586b419f5d5
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:45 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	41	src/assets/scss/black-dashboard-react/bootstrap/_mixins.scss
+
+commit 21eeb42ef794ec24a3b378595a70a90b583ff2a1
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:44 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	8	src/assets/scss/black-dashboard-react/bootstrap/_media.scss
+
+commit 48ce8c3e10f587acbd3f2aca3e7413a2fc0223ab
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:42 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	115	src/assets/scss/black-dashboard-react/bootstrap/_list-group.scss
+
+commit 7748e4ec0bfb1a1a066d3ed469cabeb4ae921d48
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:40 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	16	src/assets/scss/black-dashboard-react/bootstrap/_jumbotron.scss
+
+commit ead0db5a50d7aa4916d9a4305aacbf64d9ecfd3f
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:38 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	173	src/assets/scss/black-dashboard-react/bootstrap/_input-group.scss
+
+commit 7e5b8d5cdf72da1061947ba186c54b984cc5d169
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:37 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	42	src/assets/scss/black-dashboard-react/bootstrap/_images.scss
+
+commit 35a95e8d4533b6cb9aabbf0dfca6cd8713342348
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:35 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	52	src/assets/scss/black-dashboard-react/bootstrap/_grid.scss
+
+commit fef7aa9f3c189f2125f26094553fffd747803da2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:33 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	86	src/assets/scss/black-dashboard-react/bootstrap/_functions.scss
+
+commit 6ca83b89689d5a9804e3ede80a70f1ee021e5386
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:32 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	333	src/assets/scss/black-dashboard-react/bootstrap/_forms.scss
+
+commit ed17722513e1989f878eb5ca0be744278671d573
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:30 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	166	src/assets/scss/black-dashboard-react/bootstrap/_dropdown.scss
+
+commit 61cba3fbbb5ddb8c6270b64fa48efb34d27182a1
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:28 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	433	src/assets/scss/black-dashboard-react/bootstrap/_custom-forms.scss
+
+commit 3b62af6b2c312d556f98534a4887a0740520bf81
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:27 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	48	src/assets/scss/black-dashboard-react/bootstrap/_code.scss
+
+commit 34a35e0144a9d2316b5c272076fd8308431b2d7a
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:25 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	35	src/assets/scss/black-dashboard-react/bootstrap/_close.scss
+
+commit b8f71e412a8567fa308924fc4acbe14786772ece
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:23 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	236	src/assets/scss/black-dashboard-react/bootstrap/_carousel.scss
+
+commit e705f01f76881b7c4308a5c1cc35ad9a28e6a513
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:22 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	301	src/assets/scss/black-dashboard-react/bootstrap/_card.scss
+
+commit 5b083d504dadae5b265c4eec8a485052a93bb6b9
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:20 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	143	src/assets/scss/black-dashboard-react/bootstrap/_buttons.scss
+
+commit 1725b17c8b4e90d491bcfd127b075a3d915c4bc1
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:18 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	172	src/assets/scss/black-dashboard-react/bootstrap/_button-group.scss
+
+commit 6048927b190dd0a294ed72581c7dd2be9e4be197
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:16 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	41	src/assets/scss/black-dashboard-react/bootstrap/_breadcrumb.scss
+
+commit 6072296b89d9ad8391c7ebb564af1bb0170cf036
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:15 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	47	src/assets/scss/black-dashboard-react/bootstrap/_badge.scss
+
+commit f8931022e1cc491ad9c8a39a50fc9c777ddf670b
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:28:13 2020 +0200
+
+    refactor: move bootstrap as node_modules package
+
+0	51	src/assets/scss/black-dashboard-react/bootstrap/_alert.scss
+
+commit 01d85a44d920fd82ee429b63b0a58772639a2449
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:26:56 2020 +0200
+
+    refactor: minify styles
+
+1	1	src/assets/css/black-dashboard-react.min.css
+
+commit 26ac39f760239702f2d8ae0fd5094e08c3578cea
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:26:52 2020 +0200
+
+    refactor: map styles
+
+86	81	src/assets/css/black-dashboard-react.css.map
+
+commit 72b07b87e876c844df7a34485b503a84c13e4684
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:26:44 2020 +0200
+
+    refactor: compile styles
+
+1756	647	src/assets/css/black-dashboard-react.css
+
+commit 33e765d54a5a4d8a9772e43052394614b5d488c7
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:26:34 2020 +0200
+
+    refactor: rename scrips as scss
+
+2	2	package.json
+
+commit 835afd252f10b5028b213d444cb7a80577e9b4d2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:25:49 2020 +0200
+
+    refactor: change static imports with dynamic node_modules ones
+
+35	35	src/assets/scss/black-dashboard-react.scss
+
+commit c7bbdf0d197224ff3ca9995df1a5a72111404403
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:25:11 2020 +0200
+
+    feature: add bootstrap as dependencie
+
+1	0	package.json
+
+commit 392f6e619e719b2ab301400f28e365777c5eb7d0
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:24:58 2020 +0200
+
+    docs: add changes
+
+3	4	CHANGELOG.md
+
+commit c668b88737c5eebab8bc6e839509c7b82d8afd24
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:21:49 2020 +0200
+
+    refactor: make chart buttons as those from dashboard page
+
+3	3	src/views/Rtl.js
+
+commit 24e8997eb84e4df09498e7a215e52ec021cd6c21
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:20:20 2020 +0200
+
+    fix: solve Notifications issues
+
+7	7	src/views/Notifications.js
+
+commit 673413e210cb35b13e77ef3a18c40684923872bc
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:18:11 2020 +0200
+
+    fix: solve diebar errors
+
+1	0	src/components/Sidebar/Sidebar.js
+
+commit 8a2fac7423b450980e2197cb4a9482ccae057187
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:16:30 2020 +0200
+
+    fix: solve errors
+
+2	4	src/layouts/RTL/RTL.js
+
+commit a80cf9caaf58c3ffac00c66f71fedb0f84fd8ebb
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:16:28 2020 +0200
+
+    fix: solve errors
+
+1	3	src/layouts/Admin/Admin.js
+
+commit fe83b62bb065181d1eabb84cf3cc1d317368c7ee
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:13:30 2020 +0200
+
+    fix: solve FixedPlugin issues
+
+1	1	src/components/FixedPlugin/FixedPlugin.js
+
+commit dabe94da0d22f41a555012e6ec4ef689a8c1c6e6
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 15:10:46 2020 +0200
+
+    fix: add FixedPlugin
+
+1	0	src/layouts/RTL/RTL.js
+
+commit d0ab16740345462f3577e4cca1ec126a68c2cb65
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:38 2020 +0200
+
+    refactor: add hooks support
+
+171	173	src/views/UserProfile.js
+
+commit 9fb4b1bf1009d6796a5df1c0a153f324bb67d4ff
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:36 2020 +0200
+
+    refactor: add hooks support
+
+188	192	src/views/Typography.js
+
+commit b100c58f1cf58db0ef6804b32abb06fe12d14d30
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:34 2020 +0200
+
+    refactor: add hooks support
+
+136	138	src/views/TableList.js
+
+commit 95773cd761ab7b7c934484ae0bb8f2920fcd974d
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:32 2020 +0200
+
+    refactor: add hooks support
+
+481	500	src/views/Rtl.js
+
+commit a880824dd465bc14d0f27e9804ed3ef9cd124d1b
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:30 2020 +0200
+
+    refactor: add hooks support
+
+165	178	src/views/Notifications.js
+
+commit 8a74269680352a9c023fc214887479b899b9112c
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:29 2020 +0200
+
+    refactor: add hooks support
+
+23	25	src/views/Map.js
+
+commit fcafc361566f4105e5b0361fd2b60b44c5b75264
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:27 2020 +0200
+
+    refactor: add hooks support
+
+1124	1126	src/views/Icons.js
+
+commit 351d85a6840d30cb6c0d56a3801efc597609cd0a
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:25 2020 +0200
+
+    refactor: add hooks support
+
+468	485	src/views/Dashboard.js
+
+commit a00c3e8875a50c8d4362f9ad965c0df647f0a067
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:23 2020 +0200
+
+    refactor: add hooks support
+
+77	92	src/layouts/RTL/RTL.js
+
+commit 113517f4ce9cada726a90da3220c59951a50b085
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:22 2020 +0200
+
+    refactor: add hooks support
+
+68	78	src/layouts/Admin/Admin.js
+
+commit 96734f8dbef1fc91046934b77f9b302b0795a107
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:20 2020 +0200
+
+    refactor: add hooks support
+
+108	114	src/components/Sidebar/Sidebar.js
+
+commit 53ef8a3fd9ac73a3fe8e6988f206107bf4350f52
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:18 2020 +0200
+
+    refactor: add hooks support
+
+144	165	src/components/Navbars/RTLNavbar.js
+
+commit 6bcb3e81e8bfda71e4d33a78558f6ff01c3c2b83
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:16 2020 +0200
+
+    refactor: add hooks support
+
+144	165	src/components/Navbars/AdminNavbar.js
+
+commit 1f061c8e64e2953d0f07d91271b64776c2c55e88
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:58:14 2020 +0200
+
+    refactor: add hooks support
+
+95	105	src/components/FixedPlugin/FixedPlugin.js
+
+commit ebac0ff6e2e9e07f99225dae9a641d5b093f31c6
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:22:57 2020 +0200
+
+    refactor: map scss
+
+2	1	src/assets/css/black-dashboard-react.css.map
+
+commit afbd5df8512ea63fcb1ab7409b325fedf69aa2c6
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:22:54 2020 +0200
+
+    refactor: compile scss
+
+5	5	src/assets/css/black-dashboard-react.css
+
+commit 7e52e5b03982c95b193375f427eec26bafc6a79c
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:21:37 2020 +0200
+
+    style: run prettier
+
+4	1	src/components/Navbars/AdminNavbar.js
+
+commit b141ce6b3e2cb3abb0cad218a67df40b51d158cf
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:21:35 2020 +0200
+
+    style: run prettier
+
+4	1	src/components/Navbars/RTLNavbar.js
+
+commit e0d7aee59b2af3d784498cff97b613fb5bface3e
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:21:33 2020 +0200
+
+    style: run prettier
+
+1	1	src/views/UserProfile.js
+
+commit 187f9ed60551119860a40dceeec97eb97f3d6ed0
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:20:54 2020 +0200
+
+    fix: solve react-scripts images require
+
+1	1	src/components/Navbars/RTLNavbar.js
+
+commit dac6175bf395abf5aeda9447c091ee2589db6e24
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 14:20:52 2020 +0200
+
+    fix: solve react-scripts images require
+
+1	1	src/components/Navbars/AdminNavbar.js
+
+commit 203f4de45cea5b3b6afed8db578ded6f955c6c6b
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:41 2020 +0200
+
+    style: run prettier
+
+2	2	src/views/UserProfile.js
+
+commit 514b5a087a7b0c267a76e330181b5316e0fb7913
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:39 2020 +0200
+
+    style: run prettier
+
+11	10	src/views/Typography.js
+
+commit 57c7611a70e0fbf36c8720f174f7eb36f2947f5a
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:37 2020 +0200
+
+    style: run prettier
+
+1	1	src/views/TableList.js
+
+commit b0822353989bbeb2a2463b797e350f23172ab4c1
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:35 2020 +0200
+
+    style: run prettier
+
+11	11	src/views/Rtl.js
+
+commit bf3a8a6dbcdfb9726014458a428be49d4f70c30d
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:33 2020 +0200
+
+    style: run prettier
+
+7	6	src/views/Notifications.js
+
+commit dd33a609396001b3d622958197e1192c0467f9e2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:30 2020 +0200
+
+    style: run prettier
+
+263	263	src/views/Map.js
+
+commit af9d13876f22a3c4352c2d91e0335dcd08a1e75d
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:28 2020 +0200
+
+    style: run prettier
+
+12	13	src/views/Dashboard.js
+
+commit a7767ecdcfb48b3144ab3712a1f8b4c5081d06d6
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:26 2020 +0200
+
+    style: run prettier
+
+68	68	src/variables/charts.js
+
+commit 381a9ab47ef0544d2e45a757cf9857b7d394eb92
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:24 2020 +0200
+
+    style: run prettier
+
+9	9	src/routes.js
+
+commit 3e608817a3bc2135544b945cbeeeae28a2a5c59c
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:22 2020 +0200
+
+    style: run prettier
+
+17	16	src/layouts/RTL/RTL.js
+
+commit 9f9c1f1ef9d1b6a4ffab8255efb81b72deca0b74
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:19 2020 +0200
+
+    style: run prettier
+
+114	118	src/layouts/Admin/Admin.js
+
+commit e2560c165fbd05e6bb41a7e9166f5b2283f15de4
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:17 2020 +0200
+
+    style: run prettier
+
+12	12	src/index.js
+
+commit 0c6753c70a30048f3fd6126e8366b200c580c8c3
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:15 2020 +0200
+
+    style: run prettier
+
+4	4	src/contexts/ThemeContext.js
+
+commit 4abca3b688d56c6656d3c061f3ac7f1c821ad808
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:13 2020 +0200
+
+    style: run prettier
+
+5	5	src/contexts/BackgroundColorContext.js
+
+commit c98ab41631cee7760009c8ce339b58247ec0b997
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:11 2020 +0200
+
+    style: run prettier
+
+20	20	src/components/ThemeWrapper/ThemeWrapper.js
+
+commit af7e8f2ac2e498e023b65e5097fd8aedcb6f1822
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:09 2020 +0200
+
+    style: run prettier
+
+145	142	src/components/Sidebar/Sidebar.js
+
+commit e5bc640626fb1f3068d74f23deac37d41bcff6b9
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:06 2020 +0200
+
+    style: run prettier
+
+13	21	src/components/Navbars/RTLNavbar.js
+
+commit 0863e5249610dbad160344a3abb439f74dcab6fb
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:04 2020 +0200
+
+    style: run prettier
+
+14	21	src/components/Navbars/AdminNavbar.js
+
+commit c6d2b5b22b2fd37c73bc7362a89c1adab6dd3336
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:02 2020 +0200
+
+    style: run prettier
+
+34	34	src/components/Footer/Footer.js
+
+commit ca5e3efd3264e0949908f26b762ac9e18607cda4
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:55:00 2020 +0200
+
+    style: run prettier
+
+107	107	src/components/FixedPlugin/FixedPlugin.js
+
+commit a18e923ea89d1f88f5660b79f5a602b7a5093a0f
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:54:58 2020 +0200
+
+    style: run prettier
+
+13	13	src/components/BackgroundColorWrapper/BackgroundColorWrapper.js
+
+commit 0c67fd80d742cb4f7a66e67878d6b5f56d9c99f2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:54:56 2020 +0200
+
+    style: run prettier
+
+1	1	gulpfile.js
+
+commit 016a085f5c913acd6bcb61d490e6167c361513d1
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:52:56 2020 +0200
+
+    docs: add known bugs
+
+7	1	CHANGELOG.md
+
+commit b4b591f0bfcb3decb28aeb9d2ccd2abe66607369
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:52:47 2020 +0200
+
+    refactor: ignore eslintcache
+
+1	0	.gitignore
+
+commit 7c7eef22cc2e272103258f26b692a36e3068ad75
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:52:19 2020 +0200
+
+    fix: delete unused function
+
+0	2	src/index.js
+
+commit 5a6de102e5383ca96e136c4981d6d926f4b797ba
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:47:40 2020 +0200
+
+    refactor: change usage of react google maps to google maps api
+
+36	26	src/views/Map.js
+
+commit 98fee0b0aee7644cc3358eb53d6f9eece4e38c11
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:45:39 2020 +0200
+
+    feature: add google maps
+
+1	0	public/index.html
+
+commit b22756fa8f48a542babe2ccc34926fac7cff447f
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:45:07 2020 +0200
+
+    docs: add changes
+
+5	3	CHANGELOG.md
+
+commit 8c07bc2f625744ee41bad861f84037678261ec51
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:45:03 2020 +0200
+
+    refactor: delete unused dependencies
+
+0	4	package.json
+
+commit 74253d4b045bb07fad8e1d86d1bc270f75774792
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:44:01 2020 +0200
+
+    feature: add node_modules importer
+
+4	3	package.json
+
+commit 6bea37959677e48fc2bbf3d238c5a65f6622d28f
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:42:17 2020 +0200
+
+    docs: add important notes
+
+2	0	CHANGELOG.md
+
+commit 4fa9782b3b6da5c62856b5bdbceee7c85c9c4fec
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:41:55 2020 +0200
+
+    docs: add changes
+
+14	1	CHANGELOG.md
+
+commit 8e4cfd3a72b5eed2c4c14f2b58b4f11ab7098353
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:41:50 2020 +0200
+
+    refactor: update packages
+
+14	14	package.json
+
+commit a227db2b57e31e710bda8defe3b258564edc9c40
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:40:52 2020 +0200
+
+    fix: delete history
+
+3	4	src/index.js
+
+commit 4dadcce627b14db7769817f46d53373200b5cfd0
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:40:28 2020 +0200
+
+    fix: delete history
+
+0	1	package.json
+
+commit b6d5efec6f982a3ce657b004bfcea4cd4b089f7d
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:40:22 2020 +0200
+
+    docs: add changes
+
+1	1	CHANGELOG.md
+
+commit a752f5837f8cfbbe7983651d56dcee9f594b2b21
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:39:39 2020 +0200
+
+    docs: add updates changelog
+
+20	0	CHANGELOG.md
+
+commit 507fac31545c429b3210b29daa89db101ab275aa
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:24 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/views/UserProfile.js
+
+commit 44e030f9096601f98d137c0848b23efe68337e23
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:22 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/views/Typography.js
+
+commit 1a3d1039dadc538b53545374a4df88322c589561
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:20 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/views/TableList.js
+
+commit 86d6cb9287164d18e7faa11af897216400f6bdea
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:18 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/views/Rtl.js
+
+commit da922297bcca6ba7e1b230598543b97fe22697b2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:16 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/views/Notifications.js
+
+commit dd073d06351f4c6dacc7cc0520daf061bdd400d7
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:14 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/views/Map.js
+
+commit 93e76b25bc44a79e56a4847c100fc0450f22a77a
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:11 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/views/Icons.js
+
+commit a5ac43e883e8f35c7fbc8bb729fea97021947646
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:09 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/views/Dashboard.js
+
+commit 184a60f1956076edbe0c694d0ef3d3a56fedcb10
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:07 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/variables/charts.js
+
+commit 64045f881d8de3e6474c03512333134b022e9cce
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:05 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/routes.js
+
+commit ee33e893ebef22f40f441c07d3624e8ccb174aeb
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:03 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/layouts/RTL/RTL.js
+
+commit e58d8e64969da08668987942181933bcf877e23b
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:38:00 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/layouts/Admin/Admin.js
+
+commit 20a2c7ba4c44228ed066bf153ca84d6d3eb0fcc9
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:58 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/index.js
+
+commit ddffa380776ec7a1ed5deba6411d4db30d61446b
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:56 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/components/Sidebar/Sidebar.js
+
+commit 5251d90f17c39fb75f44e3599d3a3d01188edc6a
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:54 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/components/Navbars/RTLNavbar.js
+
+commit f9632da65d7fd74570911b78ed040e4a8cc6d4ee
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:52 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/components/Navbars/AdminNavbar.js
+
+commit b76517d4b21ed978e7cbc6fe41740809b24d3348
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:50 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/components/Footer/Footer.js
+
+commit a2427aa8e48eb8ededd3fae5bca1d411e46b2934
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:47 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/components/FixedPlugin/FixedPlugin.js
+
+commit 57e6a75f6de659756eb3b52add34a7371c373e79
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:45 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/assets/scss/black-dashboard-react.scss
+
+commit 6de0ec920ccae5905ac130f8e120fbd922dc5599
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:43 2020 +0200
+
+    docs: change versions and date
+
+1	1	src/assets/demo/demo.css
+
+commit f2c4d5b2674e711ac7c333870657c26743721b2b
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:41 2020 +0200
+
+    docs: change versions and date
+
+6	6	src/assets/css/black-dashboard-react.css
+
+commit d1a641e5e373e49af750f3dc81b32c016dec18f2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:39 2020 +0200
+
+    docs: change versions and date
+
+1	1	public/index.html
+
+commit 074703679862b570d220abd64b2895b01e5d3dcd
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:36 2020 +0200
+
+    docs: change versions and date
+
+1	1	package.json
+
+commit 9eaa801f58f85d25afc1ebb138f48e255de00870
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:34 2020 +0200
+
+    docs: change versions and date
+
+3	3	gulpfile.js
+
+commit 76e7fc26f0000ee5265025101780f8118fcaa526
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:32 2020 +0200
+
+    docs: change versions and date
+
+2	2	README.md
+
+commit 5d23e79176de79f7da74e076590946c8e0a5075e
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:30 2020 +0200
+
+    docs: change versions and date
+
+1	1	LICENSE.md
+
+commit 2c557c67a67dbf8f95041ed62f98fc016e672f03
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:37:28 2020 +0200
+
+    docs: change versions and date
+
+3	3	Documentation/documentation.html
+
+commit a66c3ec4b4beffa54b5a36437a03ac4c47bc8057
+Merge: f99bfaf e93aec7
+Author: Nazare Emanuel-Ioan <emanuelioannazare@gmail.com>
+Date:   Fri Dec 11 12:32:54 2020 +0200
+
+    Merge pull request #18 from Tsiou/adding-contexts-for-theme/background-issues
+    
+    Adding contexts for theme/background issues
+
+commit 0aa4b7389a311baa427c0662102e1a6a4575acfe
+Author: Beniamin Marcu <marqbeniamin@yahoo.com>
+Date:   Mon Dec 7 12:11:47 2020 +0200
+
+    Readme Update: Deleted Creative Tim Cyber Monday Limited Offer
+
+0	6	README.md
+
+commit fe553c535341e8581aa66de1198f65098e1a632f
+Author: Beniamin Marcu <marqbeniamin@yahoo.com>
+Date:   Mon Nov 30 10:19:41 2020 +0200
+
+    Readme Update: Added Creative Tim Cyber Monday Limited Offer
+
+6	0	README.md
+
+commit b84e59f47fdfa8c4f4f14bda0b63eb8540bd83c4
+Author: Beniamin Marcu <marqbeniamin@yahoo.com>
+Date:   Mon Nov 30 10:12:10 2020 +0200
+
+    Readme Update: Delete Creative Tim Black Friday Limited Offer
+
+0	6	README.md
+
+commit 41f2e440f18a346ba1d1c5d6cc9c36ab546c56e1
+Author: Beniamin Marcu <marqbeniamin@yahoo.com>
+Date:   Mon Nov 23 16:50:33 2020 +0200
+
+    Readme Update: added Creative Tim Black Friday Limited Offer
+
+6	0	README.md
+
+commit e93aec7ac2573f62378d05481695f20e6f045216
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Mon Jun 22 19:58:09 2020 +0300
+
+    fixed missing border color from main-panel
+
+41	43	src/layouts/Admin/Admin.js
+
+commit f296ad7d574ffb3b1f41e9139585877863728e1e
+Author: Nazare Emanuel-Ioan <emanuelioannazare@gmail.com>
+Date:   Fri May 8 17:17:36 2020 +0300
+
+    Feature: Auto-close wrong issues
+    
+    This will auto-close issues that were not generated by our website: https://www.creative-tim.com/new-issue
+
+12	0	.github/workflows/main.yml
+
+commit 707634a1d687eed3f127d13ed118dd247d3f719d
+Merge: 0fc2f73 1935650
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Mon Apr 20 12:28:11 2020 +0300
+
+    Merge branch 'adding-contexts-for-theme/background-issues' of https://github.com/Tsiou/black-dashboard-react into refactor-to-reactstrap-components
+
+commit 1935650c43d97bb6b189351d7710165348be18fb
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Mon Apr 20 12:27:35 2020 +0300
+
+    added context to RTL.js
+
+9	7	src/layouts/RTL/RTL.js
+
+commit 0fc2f738ce327013b99064438cb8099d2b7a23df
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Mon Apr 20 12:26:09 2020 +0300
+
+    added NavbarToggler & ModalHeader to navbars
+
+10	23	src/components/Navbars/AdminNavbar.js
+10	22	src/components/Navbars/RTLNavbar.js
+
+commit ca6882afb893e4cd3931e6a3e87e99aed0a311b0
+Merge: e98d77c c90cac9
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Mon Apr 20 00:25:12 2020 +0300
+
+    Merge branch 'adding-contexts-for-theme/background-issues' of https://github.com/Tsiou/black-dashboard-react into refactor-to-reactstrap-components
+
+commit c90cac94d21f3c90f159d22695ed85ef671969e2
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Fri Apr 17 17:37:13 2020 +0300
+
+    added context consumers and state transitions to FixedPlugin
+
+113	117	src/components/FixedPlugin/FixedPlugin.js
+
+commit 799e2db5d299b37a6af1fa950d57a63ec1f574ae
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Fri Apr 17 17:36:27 2020 +0300
+
+    removed bgColor props from sidebar, passed context to fixed plugin
+
+121	118	src/layouts/Admin/Admin.js
+
+commit 2bb8b5986858928ec352c8506a545b418586b140
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Fri Apr 17 17:35:36 2020 +0300
+
+    added backgroundColorContext to sidebar
+
+142	143	src/components/Sidebar/Sidebar.js
+
+commit cd8c7e687f2ecdb6b86b8133b71b9260adf38c60
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Fri Apr 17 17:31:23 2020 +0300
+
+    added wrappers to index.js
+
+15	8	src/index.js
+
+commit abfc8cd83b77855a8d85869821192c05ad2c3a0c
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Fri Apr 17 17:30:55 2020 +0300
+
+    added theme context, added wrapper for interactions
+
+28	0	src/components/ThemeWrapper/ThemeWrapper.js
+11	0	src/contexts/ThemeContext.js
+
+commit cc624c1134b3b749685521a89b6b1cf8f4432d01
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Fri Apr 17 17:30:35 2020 +0300
+
+    added bg color context, added wrapper for state interactions
+
+21	0	src/components/BackgroundColorWrapper/BackgroundColorWrapper.js
+12	0	src/contexts/BackgroundColorContext.js
+
+commit e98d77c5ab1742683f153e81bd466b6e15aa175f
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Tue Apr 14 00:02:13 2020 +0300
+
+    changed badges & dropdown in FixedPlugin
+
+29	31	src/components/FixedPlugin/FixedPlugin.js
+
+commit c65f13c4e1ad2e26b459e68ef43fef0cff57be4f
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Mon Apr 13 23:56:57 2020 +0300
+
+    moved fontawesome to explicit dependency via npm
+
+1	0	package.json
+0	1	public/index.html
+1	0	src/index.js
+
+commit 16967a4803b9e1d58a87fcebbbea673c6adf4393
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Mon Apr 13 23:01:16 2020 +0300
+
+    footer moved to function, cleanup
+
+37	35	src/components/Footer/Footer.js
+
+commit f99bfafae2b100248ed0ccccc1b8289d4d93bfd8
+Merge: 8f9ea20 9746e24
+Author: Nazare Emanuel-Ioan <emanuelioannazare@gmail.com>
+Date:   Mon Apr 13 20:21:54 2020 +0300
+
+    Merge pull request #16 from Tsiou/update-StrictMode-issues
+    
+    Updated strict mode issues
+
+commit 9746e2406ba34efc90fc385e238dffc68fd843e5
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Mon Apr 13 20:19:27 2020 +0300
+
+    reverted index.js to original
+
+9	17	src/index.js
+
+commit db5fe2e88ebaca40b32d5aae160cd6e8f8aecd66
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Mon Apr 13 20:18:54 2020 +0300
+
+    removed caret from package.json dependencies
+
+4	4	package.json
+
+commit 5447e1f47d94addbee0f7664e5dda439ee35dd22
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Thu Apr 9 01:34:55 2020 +0300
+
+    index.js minor formating
+
+1	1	src/index.js
+
+commit 5e62e06848961fe33b15d9b93f528320d9bb7354
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Thu Apr 9 01:34:39 2020 +0300
+
+    replaced Notifications.js notificationAlert with React.createRef
+
+6	2	src/views/Notifications.js
+
+commit 84b8031fc6338f208f23d3c86db9f42578786c04
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Thu Apr 9 01:33:52 2020 +0300
+
+    replaced Admin mainPanel with React.createRef
+
+4	3	src/layouts/Admin/Admin.js
+
+commit 04e6b31fda3cdc736d468c43c1b2832d19af0527
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Thu Apr 9 01:33:14 2020 +0300
+
+    replaced RTL mainPanel ref with React.createRef
+
+4	3	src/layouts/RTL/RTL.js
+
+commit b2cac209cab9a5dd73678defec786aa9392d5395
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Thu Apr 9 01:32:52 2020 +0300
+
+    replaced sidebar ref with React.createRef
+
+3	2	src/components/Sidebar/Sidebar.js
+
+commit 6f88731ea95584b8872c35fa2342b202331df560
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Thu Apr 9 00:25:24 2020 +0300
+
+    added .vscode folder to .gitignore
+
+1	0	.gitignore
+
+commit d9ab43acb0f512bbc2c0107dd08843feee53b45c
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Thu Apr 9 00:24:27 2020 +0300
+
+    updated dependencies (minor versions)
+
+4	4	package.json
+
+commit 9cba3696b5af3cb9199ce38f9f7f76e2b8c1c35f
+Author: George Tsiou <georgtsiou@gmail.com>
+Date:   Thu Apr 9 00:23:04 2020 +0300
+
+    added strict mode
+
+17	9	src/index.js
+
+commit 9d879703783c9fdd9b39c80ccf26a3c18f723a11
+Merge: b7be3aa 8f9ea20
+Author: Nazare Emanuel-Ioan <emanuelioannazare@gmail.com>
+Date:   Fri Mar 13 11:59:01 2020 +0200
+
+    Merge pull request #14 from creativetimofficial/dev-master
+    
+    Feature: update dependencies for v1.1.0
+
+commit 8f9ea20557bbe3bd91c9a2d0fa4079b617fa6a70
+Merge: b7be3aa 7e68532
+Author: Nazare Emanuel-Ioan <emanuelioannazare@gmail.com>
+Date:   Fri Mar 13 11:57:40 2020 +0200
+
+    Merge pull request #13 from creativetimofficial/feature/update-to-v1.1.0
+    
+    Feature: update to v1.1.0
+
+commit 7e68532ae976bc6a6e8d199a224ebe68f65d3c48
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 13 11:49:33 2020 +0200
+
+    docs: change homepage prop
+
+1	1	package.json
+
+commit e37cfa6e9d36736b13cfeb18e1d2ba7a197fdcc9
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 13 11:49:20 2020 +0200
+
+    docs: change update release date
+
+2	2	CHANGELOG.md
+
+commit 32c85e286ee8c6851c54c797d07a37863502c2ec
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:34:55 2020 +0200
+
+    feature: min scss
+
+1	0	src/assets/css/black-dashboard-react.min.css
+
+commit 71f4a8f6247b6353a87920c47da4d1fe9c1436de
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:34:49 2020 +0200
+
+    feature: map scss
+
+134	0	src/assets/css/black-dashboard-react.css.map
+
+commit d1ee47a657034d0b66ee70d1f380c60d02ed1846
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:34:42 2020 +0200
+
+    feature: compile scss
+
+5	0	src/assets/css/black-dashboard-react.css
+
+commit a4df97b0ad6bfe08480ca0178729a0b532e29950
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:26:16 2020 +0200
+
+    docs: add changes
+
+3	0	CHANGELOG.md
+
+commit f9f3d1726c3c33a91e63abe56ad85d1f06a8b461
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:14:19 2020 +0200
+
+    feature: add script for licenses
+
+1	1	package.json
+
+commit d45938b8c8580e580eab5306ea6544daa82dbaa4
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:13:41 2020 +0200
+
+    feature: add gulp packages for ct copyrights
+
+4	0	package.json
+
+commit b26aff4010058b9ee32534ccbe2f722dbaae3353
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:10:46 2020 +0200
+
+    docs: change v1.0.0 to v1.1.0
+
+3	3	Documentation/documentation.html
+1	1	README.md
+1	1	package.json
+1	1	public/index.html
+1	1	src/assets/css/black-dashboard-react.css
+1	1	src/assets/demo/demo.css
+1	1	src/assets/scss/black-dashboard-react.scss
+1	1	src/components/FixedPlugin/FixedPlugin.js
+1	1	src/components/Footer/Footer.js
+1	1	src/components/Navbars/AdminNavbar.js
+1	1	src/components/Navbars/RTLNavbar.js
+1	1	src/components/Sidebar/Sidebar.js
+1	1	src/index.js
+1	1	src/layouts/Admin/Admin.js
+1	1	src/layouts/RTL/RTL.js
+1	1	src/routes.js
+1	1	src/variables/charts.js
+1	1	src/views/Dashboard.js
+1	1	src/views/Icons.js
+1	1	src/views/Map.js
+1	1	src/views/Notifications.js
+1	1	src/views/Rtl.js
+1	1	src/views/TableList.js
+1	1	src/views/Typography.js
+1	1	src/views/UserProfile.js
+
+commit aee11ee0091e6835bb7413937ed8499b1d54aa92
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:09:52 2020 +0200
+
+    docs: change 2019 to 2020
+
+1	1	Documentation/documentation.html
+1	1	public/index.html
+1	1	src/assets/css/black-dashboard-react.css
+1	1	src/assets/demo/demo.css
+1	1	src/assets/scss/black-dashboard-react.scss
+1	1	src/components/FixedPlugin/FixedPlugin.js
+1	1	src/components/Footer/Footer.js
+1	1	src/components/Navbars/AdminNavbar.js
+1	1	src/components/Navbars/RTLNavbar.js
+1	1	src/components/Sidebar/Sidebar.js
+1	1	src/index.js
+1	1	src/layouts/Admin/Admin.js
+1	1	src/layouts/RTL/RTL.js
+1	1	src/routes.js
+1	1	src/variables/charts.js
+1	1	src/views/Dashboard.js
+1	1	src/views/Icons.js
+1	1	src/views/Map.js
+1	1	src/views/Notifications.js
+1	1	src/views/Rtl.js
+1	1	src/views/TableList.js
+1	1	src/views/Typography.js
+1	1	src/views/UserProfile.js
+
+commit 04cc43346a873869bc7d84909840773307c72bea
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:09:42 2020 +0200
+
+    feature: add gulpfile for CT copyrights
+
+77	0	gulpfile.js
+
+commit 9c775f527674eed1ce9be9d8f6a11bd05bca7c1b
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:05:49 2020 +0200
+
+    refactor: change jsx to js
+
+16	16	README.md
+2	2	src/index.js
+4	4	src/layouts/Admin/Admin.js
+4	4	src/layouts/RTL/RTL.js
+8	8	src/routes.js
+8	8	src/variables/charts.js
+1	1	src/views/Dashboard.js
+1	1	src/views/Rtl.js
+
+commit 6316868286e45babdf4dab5925231ad1267a80fd
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 17:04:56 2020 +0200
+
+    refactor: change jsx to js
+
+0	0	src/components/FixedPlugin/{FixedPlugin.jsx => FixedPlugin.js}
+0	0	src/components/Footer/{Footer.jsx => Footer.js}
+0	0	src/components/Navbars/{AdminNavbar.jsx => AdminNavbar.js}
+0	0	src/components/Navbars/{RTLNavbar.jsx => RTLNavbar.js}
+0	0	src/components/Sidebar/{Sidebar.jsx => Sidebar.js}
+0	0	src/layouts/Admin/{Admin.jsx => Admin.js}
+0	0	src/layouts/RTL/{RTL.jsx => RTL.js}
+0	0	src/variables/{charts.jsx => charts.js}
+0	0	src/views/{Dashboard.jsx => Dashboard.js}
+0	0	src/views/{Icons.jsx => Icons.js}
+0	0	src/views/{Map.jsx => Map.js}
+0	0	src/views/{Notifications.jsx => Notifications.js}
+0	0	src/views/{Rtl.jsx => Rtl.js}
+0	0	src/views/{TableList.jsx => TableList.js}
+0	0	src/views/{Typography.jsx => Typography.js}
+0	0	src/views/{UserProfile.jsx => UserProfile.js}
+
+commit 094e9c5cdbb285f0b2839d7fab62d491ad0bf708
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:57:58 2020 +0200
+
+    fix: fix #7
+
+3	0	src/assets/scss/black-dashboard-react.scss
+
+commit 77b0cf7a2f6d2a99d4f1c6d0a1def8dc89e71028
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:57:54 2020 +0200
+
+    fix: fix #7
+
+3	0	src/assets/scss/black-dashboard-react/react-differences/_inputs.scss
+
+commit 6d7540bac3b980ec79dc75388c04c816053b64e1
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:57:52 2020 +0200
+
+    fix: fix #7
+
+1	0	src/assets/scss/black-dashboard-react/react-differences/react-differences.scss
+
+commit c8a852f3cf7e1c3da69a14ed27c3c148750e1568
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:55:49 2020 +0200
+
+    fix: fix #8
+
+5	2	src/layouts/Admin/Admin.jsx
+
+commit 75c62fbb486f69a4745c41a928546f8bcba46f99
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:52:37 2020 +0200
+
+    docs: add changes
+
+2	1	CHANGELOG.md
+
+commit 13744970ba1e4cb51135604236362a103f0c89b9
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:52:31 2020 +0200
+
+    fix: fix browser log warnings
+
+4	5	src/components/Footer/Footer.jsx
+
+commit 9617b09834a1fb9c67c872b05af811b0f996a212
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:39:13 2020 +0200
+
+    docs: add changes
+
+12	2	CHANGELOG.md
+
+commit 707fd7ab96466ae40713855fb12607108172b5c4
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:39:08 2020 +0200
+
+    fix: add optional dependencies to stop terminal warnings
+
+7	2	package.json
+
+commit be226d89ccbc6e4cc7b130252997b85616f353e2
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:38:36 2020 +0200
+
+    feature: add upgrade to pro button
+
+11	1	src/components/Sidebar/Sidebar.jsx
+
+commit 00667d0e034ecb155ae988b7491baaa4dc68d31d
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:38:24 2020 +0200
+
+    feature: replace .env with jsconfig.json file
+
+0	1	.env
+8	0	jsconfig.json
+
+commit 364409e38a4614fc7b3b4d1a25787281f6661952
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:25:55 2020 +0200
+
+    feature: update packages and add new scripts
+
+17	15	package.json
+
+commit ed526a549fee584b9ef7ea198a4801fad9f66dbf
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:25:45 2020 +0200
+
+    docs: add updated dependencies
+
+14	1	CHANGELOG.md
+
+commit 7efa44560fe0bceef8a4bced05113509c4a88df4
+Author: EINazare <emanuelioannazare@gmail.com>
+Date:   Fri Mar 6 16:23:35 2020 +0200
+
+    docs: add issues to be closed by this commit
+    
+    Closes #8
+    Closes #7
+    Closes #6
+    Closes #4
+
+20	0	CHANGELOG.md
+
+commit b7be3aa89f4521b2dc1dc600db82357b85096f1e
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Fri Jul 5 10:07:08 2019 +0300
+
+    - copyright
+
+19	0	Documentation/documentation.html
+19	0	public/index.html
+3	1	src/assets/css/black-dashboard-react.css
+17	0	src/assets/demo/demo.css
+3	1	src/assets/scss/black-dashboard-react.scss
+17	0	src/components/FixedPlugin/FixedPlugin.jsx
+17	0	src/components/Footer/Footer.jsx
+17	0	src/components/Navbars/AdminNavbar.jsx
+17	0	src/components/Navbars/RTLNavbar.jsx
+17	0	src/components/Sidebar/Sidebar.jsx
+17	0	src/index.js
+17	0	src/layouts/Admin/Admin.jsx
+17	0	src/layouts/RTL/RTL.jsx
+17	0	src/routes.js
+17	0	src/variables/charts.jsx
+17	0	src/views/Dashboard.jsx
+17	0	src/views/Icons.jsx
+17	0	src/views/Map.jsx
+17	0	src/views/Notifications.jsx
+17	0	src/views/Rtl.jsx
+17	0	src/views/TableList.jsx
+17	0	src/views/Typography.jsx
+17	0	src/views/UserProfile.jsx
+
+commit ac910e2660f35a0057bf37845e9845156df1acb1
+Author: Nazare Emanuel-Ioan <emanuelioannazare@gmail.com>
+Date:   Wed Jun 19 11:33:12 2019 +0300
+
+    Update ISSUE_TEMPLATE.md
+
+10	39	ISSUE_TEMPLATE.md
+
+commit 57230259e121c2d80b90b3d4b3089755ef83f0ae
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 12:26:46 2018 +0200
+
+    - Cannot force call setState
+
+3	0	src/components/Navbars/AdminNavbar.jsx
+3	0	src/components/Navbars/RTLNavbar.jsx
+
+commit aaed86e61a35bc3af3c0a2bdb0fc65a1b5162650
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 12:20:30 2018 +0200
+
+    - Link on Sidebar wasn't set ok
+
+1	1	src/layouts/Admin/Admin.jsx
+
+commit d395be059b542c72911882b363254f25124aa96b
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 12:00:37 2018 +0200
+
+    - Share twitter
+
+1	1	README.md
+
+commit dc182127f340289ba9c418adbf7ddbca730fe978
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 11:47:21 2018 +0200
+
+    - Small changes in static docs
+    - Renamed compile-sass to compile-scss
+
+61	53	Documentation/documentation.html
+1	1	package.json
+1	1	src/assets/css/black-dashboard-react.css
+60	1	src/assets/demo/demo.css
+496	496	src/assets/scss/black-dashboard-react/custom/_sidebar-and-main-panel.scss
+
+commit 7079340a8b343b7e89849549fa0c2121a6d535d7
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 11:13:12 2018 +0200
+
+    - React thumb
+
+1	1	README.md
+
+commit 1c01896956bbe98bb926b859830a3a483be4b5dc
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 11:12:25 2018 +0200
+
+    - React thumb
+
+1	1	README.md
+
+commit 9f12a887e8e37f7a80715161c0a1582b7041b7c6
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 11:11:38 2018 +0200
+
+    - React thumb
+
+1	1	README.md
+
+commit 50f326bd603adf1cbdf0523243169953e524a57a
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 11:09:01 2018 +0200
+
+    - React thumb
+
+1	1	README.md
+
+commit 7fb8eb2ab7ddbcea903f6fa759e7e5543fcc1089
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 11:08:16 2018 +0200
+
+    - Added React thumb
+
+1	1	README.md
+
+commit 2dcccb444059b8dfc10d5a39db71769009200a61
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 10:37:40 2018 +0200
+
+    - Changed the product Gif
+
+-	-	github-assets/black-dashboard-react.gif
+
+commit c5ac5f23661115a711169ab57710817e793f1712
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 10:11:01 2018 +0200
+
+    - Dropdown header restyled
+    - changes in charts colors
+    - Changes in dashboard big chart buttons colors
+
+1	1	src/assets/scss/black-dashboard-react/custom/_dropdown.scss
+31	31	src/variables/charts.jsx
+5	5	src/views/Dashboard.jsx
+
+commit b73261789e12792580210ccab687698fd6aeb027
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 29 09:49:13 2018 +0200
+
+    - Changelog Done
+    - Issues Temlate done
+    - adde product gif
+
+1	1	CHANGELOG.md
+2	0	ISSUE_TEMPLATE.md
+-	-	github-assets/black-dashboard-react.gif
+
+commit 3e0b394a397641a4e0cd774117103df66a191942
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Fri Nov 23 19:54:01 2018 +0200
+
+    - Almost done, wrong keywords
+
+1	1	src/assets/css/black-dashboard-react.css
+1	1	src/assets/scss/black-dashboard-react.scss
+
+commit 6cbaab97c531bc95f96961e7db923a6754eb6baf
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Fri Nov 23 19:49:28 2018 +0200
+
+    - Small bugs
+
+2	2	src/components/FixedPlugin/FixedPlugin.jsx
+
+commit 5b8a2c2a193b1870c6496ec86357f2b6db40cb5c
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Fri Nov 23 19:46:14 2018 +0200
+
+    - Small bugs
+    - Forgot some unused code
+
+0	1	src/layouts/Admin/Admin.jsx
+0	1	src/layouts/RTL/RTL.jsx
+
+commit 37cac78999b534fc354456ac4c900aa596965a0d
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Fri Nov 23 19:43:56 2018 +0200
+
+    - Added Scss compile command
+
+2	1	package.json
+12525	0	src/assets/css/black-dashboard-react.css
+
+commit 5089dc9222d6efdef79a8eeeb21d80baaa48df12
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Fri Nov 23 19:42:16 2018 +0200
+
+    - Renamed the bd folder to bdr
+
+100	0	src/assets/scss/black-dashboard-react.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_alert.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_badge.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_breadcrumb.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_button-group.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_buttons.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_card.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_carousel.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_close.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_code.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_custom-forms.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_dropdown.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_forms.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_functions.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_grid.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_images.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_input-group.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_jumbotron.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_list-group.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_media.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_mixins.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_modal.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_nav.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_navbar.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_pagination.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_popover.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_print.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_progress.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_reboot.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_root.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_tables.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_tooltip.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_transitions.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_type.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_utilities.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/_variables.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_alert.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_background-variant.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_badge.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_border-radius.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_box-shadow.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_breakpoints.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_buttons.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_caret.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_clearfix.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_float.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_forms.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_gradients.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_grid-framework.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_grid.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_hover.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_image.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_list-group.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_lists.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_nav-divider.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_pagination.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_reset-text.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_resize.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_screen-reader.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_size.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_table-row.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_text-emphasis.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_text-hide.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_text-truncate.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_transition.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/mixins/_visibility.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_align.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_background.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_borders.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_clearfix.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_display.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_embed.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_flex.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_float.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_position.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_screenreaders.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_shadows.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_sizing.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_spacing.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_text.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/bootstrap/utilities/_visibility.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_alerts.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_badges.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_buttons.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_card.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_checkboxes-radio.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_dropdown.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_fixed-plugin.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_footer.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_forms.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_functions.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_images.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_input-group.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_misc.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_mixins.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_modal.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_navbar.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_rtl.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_sidebar-and-main-panel.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_tables.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_type.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_utilities.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_variables.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/_white-content.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/cards/_card-chart.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/cards/_card-map.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/cards/_card-plain.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/cards/_card-task.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/cards/_card-user.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_alert.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_background-variant.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_badges.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_buttons.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_dropdown.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_forms.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_icon.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_inputs.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_modals.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_page-header.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_popovers.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_vendor-prefixes.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/_wizard.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/mixins/opacity.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/utilities/_backgrounds.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/utilities/_floating.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/utilities/_helper.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/utilities/_position.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/utilities/_shadows.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/utilities/_sizing.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/utilities/_spacing.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/utilities/_text.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/utilities/_transform.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/vendor/_plugin-perfect-scrollbar.scss
+0	0	src/assets/scss/{black-dashboard => black-dashboard-react}/custom/vendor/_plugin-react-notification-alert.scss
+0	100	src/assets/scss/black-dashboard.scss
+1	1	src/index.js
+
+commit d9d5f4c7a917d7dcf43f8dfed218286d98c411c1
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Fri Nov 23 19:38:40 2018 +0200
+
+    - Added .badge + .badge margin left  5px
+
+1	0	src/assets/scss/black-dashboard.scss
+3	0	src/assets/scss/black-dashboard/custom/_badges.scss
+
+commit aa6299601ad13b714920eb5c9f05d2490521e040
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 22 17:29:52 2018 +0200
+
+    - Changed README.md demo pages
+
+-	-	github-assets/dashboard-page.png
+-	-	github-assets/maps-page.png
+-	-	github-assets/notifications-page.png
+-	-	github-assets/table-page.png
+-	-	github-assets/user-page.png
+
+commit 7d2bf529af0143d9375f8a189221ad51d1b4a188
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 22 17:25:03 2018 +0200
+
+    - React logo is done
+
+5	1	src/assets/scss/black-dashboard/custom/_sidebar-and-main-panel.scss
+
+commit 806bedc41512d7b6856b0968c5823faaa197bebe
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 22 17:21:47 2018 +0200
+
+    - Run chmod, for small test
+
+0	0	src/assets/css/nucleo-icons.css
+0	0	src/assets/demo/demo.css
+-	-	src/assets/fonts/nucleo.eot
+-	-	src/assets/fonts/nucleo.ttf
+-	-	src/assets/fonts/nucleo.woff
+-	-	src/assets/fonts/nucleo.woff2
+-	-	src/assets/img/anime3.png
+-	-	src/assets/img/anime6.png
+-	-	src/assets/img/apple-icon.png
+-	-	src/assets/img/bg5.jpg
+-	-	src/assets/img/default-avatar.png
+-	-	src/assets/img/favicon.png
+-	-	src/assets/img/header.jpg
+-	-	src/assets/img/img_3115.jpg
+-	-	src/assets/img/james.jpg
+-	-	src/assets/img/mike.jpg
+-	-	src/assets/img/react-logo-2.png
+-	-	src/assets/img/react-logo.png
+0	0	src/assets/scss/black-dashboard.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_alert.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_badge.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_breadcrumb.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_button-group.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_buttons.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_card.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_carousel.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_close.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_code.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_custom-forms.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_dropdown.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_forms.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_functions.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_grid.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_images.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_input-group.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_jumbotron.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_list-group.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_media.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_mixins.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_modal.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_nav.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_navbar.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_pagination.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_popover.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_print.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_progress.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_reboot.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_root.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_tables.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_tooltip.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_transitions.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_type.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_utilities.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/_variables.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_alert.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_background-variant.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_badge.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_border-radius.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_box-shadow.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_breakpoints.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_buttons.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_caret.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_clearfix.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_float.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_forms.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_gradients.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_grid-framework.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_grid.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_hover.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_image.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_list-group.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_lists.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_nav-divider.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_pagination.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_reset-text.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_resize.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_screen-reader.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_size.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_table-row.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_text-emphasis.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_text-hide.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_text-truncate.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_transition.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/mixins/_visibility.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_align.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_background.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_borders.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_clearfix.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_display.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_embed.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_flex.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_float.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_position.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_screenreaders.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_shadows.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_sizing.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_spacing.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_text.scss
+0	0	src/assets/scss/black-dashboard/bootstrap/utilities/_visibility.scss
+0	0	src/assets/scss/black-dashboard/custom/_alerts.scss
+0	0	src/assets/scss/black-dashboard/custom/_buttons.scss
+0	0	src/assets/scss/black-dashboard/custom/_card.scss
+0	0	src/assets/scss/black-dashboard/custom/_checkboxes-radio.scss
+0	0	src/assets/scss/black-dashboard/custom/_dropdown.scss
+0	0	src/assets/scss/black-dashboard/custom/_fixed-plugin.scss
+0	0	src/assets/scss/black-dashboard/custom/_footer.scss
+0	0	src/assets/scss/black-dashboard/custom/_forms.scss
+0	0	src/assets/scss/black-dashboard/custom/_functions.scss
+0	0	src/assets/scss/black-dashboard/custom/_images.scss
+0	0	src/assets/scss/black-dashboard/custom/_input-group.scss
+0	0	src/assets/scss/black-dashboard/custom/_misc.scss
+0	0	src/assets/scss/black-dashboard/custom/_mixins.scss
+0	0	src/assets/scss/black-dashboard/custom/_modal.scss
+0	0	src/assets/scss/black-dashboard/custom/_navbar.scss
+0	0	src/assets/scss/black-dashboard/custom/_rtl.scss
+0	0	src/assets/scss/black-dashboard/custom/_sidebar-and-main-panel.scss
+0	0	src/assets/scss/black-dashboard/custom/_tables.scss
+0	0	src/assets/scss/black-dashboard/custom/_type.scss
+0	0	src/assets/scss/black-dashboard/custom/_utilities.scss
+0	0	src/assets/scss/black-dashboard/custom/_variables.scss
+0	0	src/assets/scss/black-dashboard/custom/_white-content.scss
+0	0	src/assets/scss/black-dashboard/custom/cards/_card-chart.scss
+0	0	src/assets/scss/black-dashboard/custom/cards/_card-map.scss
+0	0	src/assets/scss/black-dashboard/custom/cards/_card-plain.scss
+0	0	src/assets/scss/black-dashboard/custom/cards/_card-task.scss
+0	0	src/assets/scss/black-dashboard/custom/cards/_card-user.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_alert.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_background-variant.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_badges.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_buttons.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_dropdown.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_forms.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_icon.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_inputs.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_modals.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_page-header.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_popovers.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_vendor-prefixes.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/_wizard.scss
+0	0	src/assets/scss/black-dashboard/custom/mixins/opacity.scss
+0	0	src/assets/scss/black-dashboard/custom/utilities/_backgrounds.scss
+0	0	src/assets/scss/black-dashboard/custom/utilities/_floating.scss
+0	0	src/assets/scss/black-dashboard/custom/utilities/_helper.scss
+0	0	src/assets/scss/black-dashboard/custom/utilities/_position.scss
+0	0	src/assets/scss/black-dashboard/custom/utilities/_shadows.scss
+0	0	src/assets/scss/black-dashboard/custom/utilities/_sizing.scss
+0	0	src/assets/scss/black-dashboard/custom/utilities/_spacing.scss
+0	0	src/assets/scss/black-dashboard/custom/utilities/_text.scss
+0	0	src/assets/scss/black-dashboard/custom/utilities/_transform.scss
+0	0	src/assets/scss/black-dashboard/custom/vendor/_plugin-perfect-scrollbar.scss
+0	0	src/assets/scss/black-dashboard/custom/vendor/_plugin-react-notification-alert.scss
+0	0	src/components/FixedPlugin/FixedPlugin.jsx
+0	0	src/components/Footer/Footer.jsx
+0	0	src/components/Navbars/AdminNavbar.jsx
+0	0	src/components/Navbars/RTLNavbar.jsx
+0	0	src/components/Sidebar/Sidebar.jsx
+0	0	src/index.js
+0	0	src/layouts/Admin/Admin.jsx
+0	0	src/layouts/RTL/RTL.jsx
+0	0	src/logo.svg
+0	0	src/routes.js
+0	0	src/variables/charts.jsx
+0	0	src/views/Dashboard.jsx
+0	0	src/views/Icons.jsx
+0	0	src/views/Map.jsx
+0	0	src/views/Notifications.jsx
+0	0	src/views/Rtl.jsx
+0	0	src/views/TableList.jsx
+0	0	src/views/Typography.jsx
+0	0	src/views/UserProfile.jsx
+
+commit e8a9d51ed64c8e69a79a10cc4d172fc982417598
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Thu Nov 22 16:44:42 2018 +0200
+
+    - Small changes on the README.md
+
+2	1	README.md
+
+commit 4cef3e9d78835dbc6ccfed25eb5cbd88776c3c07
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 17:03:39 2018 +0200
+
+    - Working on README + changeing the react logo
+
+15	10	README.md
+-	-	github-assets/dashboard-page.png
+-	-	github-assets/maps-page.png
+-	-	github-assets/notifications-page.png
+-	-	github-assets/table-page.png
+-	-	github-assets/user-page.png
+-	-	src/assets/img/react-logo-2.png
+-	-	src/assets/img/react-logo.png
+1	1	src/assets/scss/black-dashboard.scss
+1	1	src/layouts/Admin/Admin.jsx
+1	1	src/layouts/RTL/RTL.jsx
+0	7	src/logo-white.svg
+6	6	src/views/Typography.jsx
+
+commit 4bbe5e39475460e91afe116d43a09843c3b20bf1
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 16:01:36 2018 +0200
+
+    - Deleted plugins folder
+    - Updateing the README
+
+35	50	README.md
+0	116	src/assets/scss/black-dashboard/plugins/_plugin-perfect-scrollbar.scss
+
+commit 1e04fca195a136189865d88db73890cf3d75fb17
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 15:54:09 2018 +0200
+
+    - Feedback Cu Raresi
+
+0	10	src/assets/scss/black-dashboard/custom/_input-group.scss
+23	0	src/assets/scss/black-dashboard/custom/_navbar.scss
+4	0	src/assets/scss/black-dashboard/custom/_rtl.scss
+18	13	src/assets/scss/black-dashboard/custom/_sidebar-and-main-panel.scss
+0	26	src/assets/scss/black-dashboard/custom/_tables.scss
+
+commit 89a5ab61a94afbe19db9410623f597493b3a5223
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 14:17:47 2018 +0200
+
+    - Edge PS stuff
+
+1	1	src/layouts/Admin/Admin.jsx
+1	1	src/layouts/RTL/RTL.jsx
+
+commit c88d255862b4140e855bfa92bd64f01f8fc93435
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 13:12:52 2018 +0200
+
+    - Small stuff regarding the ps
+
+6	0	src/layouts/Admin/Admin.jsx
+6	0	src/layouts/RTL/RTL.jsx
+
+commit 1e9efb6e64c69afa8b87d368a173af79b17a64c4
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 13:09:29 2018 +0200
+
+    - Used prettier
+    - Small stuff regarding the ps
+
+4	3	src/components/Navbars/AdminNavbar.jsx
+4	3	src/components/Navbars/RTLNavbar.jsx
+11	3	src/components/Sidebar/Sidebar.jsx
+4	0	src/layouts/Admin/Admin.jsx
+4	0	src/layouts/RTL/RTL.jsx
+
+commit 48dd1ce04467d3abac8f9fe86a98000ae153ffbf
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 11:55:45 2018 +0200
+
+    - deleted animate for notify
+    - added new class for container for rna
+
+1	1	src/assets/scss/black-dashboard.scss
+0	227	src/assets/scss/black-dashboard/custom/vendor/_plugin-animate-bootstrap-notify.scss
+4	0	src/assets/scss/black-dashboard/custom/vendor/_plugin-react-notification-alert.scss
+3	1	src/views/Notifications.jsx
+
+commit a5a81932e3e1235697285f2e7950e7c18b7d2485
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 11:45:25 2018 +0200
+
+    - Responsive navbar dropdown-menu
+
+3	0	src/assets/scss/black-dashboard/custom/_sidebar-and-main-panel.scss
+
+commit 436de5e30d317ff30b4369255e26d9a285a3e7c5
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 11:43:21 2018 +0200
+
+    - Changed bootstrap lines back to original (by mistake a wrote here)
+    - Alerts should be done now
+
+1	1	src/assets/scss/black-dashboard/bootstrap/_navbar.scss
+7	0	src/assets/scss/black-dashboard/custom/_alerts.scss
+1	1	src/views/Notifications.jsx
+
+commit cf908b453359da4b1272509574efa1bc69cba1c8
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 11:17:27 2018 +0200
+
+    - Navbar collapse working like a charm now
+
+1	1	src/assets/scss/black-dashboard/bootstrap/_navbar.scss
+14	2	src/components/Navbars/AdminNavbar.jsx
+13	3	src/components/Navbars/RTLNavbar.jsx
+
+commit 4335300422ba04800d3360359c572cc11ed33970
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 10:49:19 2018 +0200
+
+    - Forgot to delete demo.js
+
+0	742	src/assets/demo/demo.js
+
+commit 9fd77d5f51d16a608c21df6eb52ba00030cf1482
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 10:49:04 2018 +0200
+
+    - Deleted js -> noo need for js in React product
+
+0	254	src/assets/js/black-dashboard.js
+0	1	src/assets/js/black-dashboard.js.map
+0	2	src/assets/js/black-dashboard.min.js
+0	6	src/assets/js/core/bootstrap.min.js
+0	4	src/assets/js/core/jquery.min.js
+0	4	src/assets/js/core/popper.min.js
+0	432	src/assets/js/plugins/bootstrap-notify.js
+0	10	src/assets/js/plugins/chartjs.min.js
+0	6	src/assets/js/plugins/perfect-scrollbar.jquery.min.js
+
+commit 1789df057d4d3fefadb0d4b94dab092786405f13
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 10:48:39 2018 +0200
+
+    - Autoclosing Sidebar on responsive + some forgotten logs
+
+0	1	src/components/FixedPlugin/FixedPlugin.jsx
+3	20	src/components/Navbars/AdminNavbar.jsx
+2	17	src/components/Navbars/RTLNavbar.jsx
+8	2	src/components/Sidebar/Sidebar.jsx
+11	1	src/layouts/Admin/Admin.jsx
+11	1	src/layouts/RTL/RTL.jsx
+
+commit 02c80a5f02ff25db88fde54a15297e1b96492bc6
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 10:33:49 2018 +0200
+
+    - iPhone 5 stuff
+
+11	2	src/components/Navbars/AdminNavbar.jsx
+11	2	src/components/Navbars/RTLNavbar.jsx
+
+commit fbb03198887f0803b89fd7f2ed5229850e1ce3c0
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 10:13:59 2018 +0200
+
+    - Run prettier
+
+0	1	src/components/Footer/Footer.jsx
+6	6	src/components/Sidebar/Sidebar.jsx
+
+commit 723f99812720ca2422509df4d13fc9d200844938
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 10:13:34 2018 +0200
+
+    - Added comments for each plugin
+
+4	1	src/components/Footer/Footer.jsx
+3	1	src/components/Sidebar/Sidebar.jsx
+2	1	src/layouts/Admin/Admin.jsx
+2	1	src/layouts/RTL/RTL.jsx
+1	0	src/variables/charts.jsx
+0	137	src/variables/general.jsx
+0	404	src/variables/icons.jsx
+1	0	src/views/Dashboard.jsx
+1	0	src/views/Rtl.jsx
+
+commit 94b6acf97da6cfbbec48b5d2c3cad0cc69a04097
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 09:56:35 2018 +0200
+
+    - Run prettier
+    - SMall bugs
+
+1	1	src/components/Sidebar/Sidebar.jsx
+27	25	src/layouts/Admin/Admin.jsx
+
+commit 848e9cc8ea49688b257e912d00835ee2ebdaab03
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 09:55:09 2018 +0200
+
+    - Took FP outside the wrapper div
+
+28	26	src/layouts/RTL/RTL.jsx
+
+commit b2bf0fd95c66ee57498be298d294552b44666bdd
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 09:52:57 2018 +0200
+
+    - SMall bug
+
+1	1	src/components/Navbars/RTLNavbar.jsx
+
+commit e7b83069cc31a9f73126fb3717554ebf617be763
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 09:52:25 2018 +0200
+
+    - FixedPlugin for RTL now has proper styles
+
+26	0	src/assets/scss/black-dashboard/custom/_rtl.scss
+2	2	src/components/Navbars/RTLNavbar.jsx
+
+commit 54c0521a691465e59d2992b0e8a05177cd7f15bc
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 09:27:13 2018 +0200
+
+    - Deleted comments
+
+0	4	src/components/Navbars/AdminNavbar.jsx
+0	4	src/components/Navbars/RTLNavbar.jsx
+
+commit f2d8565fc4f1b8ee9ca0859d3e5f4bf37bdfa198
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 09:26:40 2018 +0200
+
+    - Added right props
+
+2	2	src/components/Navbars/RTLNavbar.jsx
+
+commit 9f72586ecd7c866d4f1d76661ab428d16ab1b118
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 09:22:01 2018 +0200
+
+    - Tooltips now working properly
+
+6	0	src/views/Dashboard.jsx
+7	1	src/views/Rtl.jsx
+
+commit aebf08b53495dd847e84ff2c1971f4f2b0c26596
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 09:14:07 2018 +0200
+
+    - Prettier
+    - deleted UpgraeToPRO
+    - Made the brand for navbars to be dynamic
+
+3	1	src/components/Navbars/AdminNavbar.jsx
+3	1	src/components/Navbars/RTLNavbar.jsx
+15	23	src/components/Sidebar/Sidebar.jsx
+17	1	src/layouts/Admin/Admin.jsx
+17	1	src/layouts/RTL/RTL.jsx
+0	1	src/routes.js
+0	133	src/views/Upgrade.jsx
+
+commit 19e1e198b4db8d5ac98926c1b80e56163ae6b439
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 08:53:35 2018 +0200
+
+    - Added some comments inside the Sidebar props
+
+2	0	src/components/Sidebar/Sidebar.jsx
+
+commit af873929ec8b8db5361f681c1348fc5769c89e11
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Wed Nov 21 08:39:32 2018 +0200
+
+    - Made the Logo of the Sidebar dynamic
+    - Also, moved the rtl page on RTL layout
+
+1	0	package.json
+215	0	src/components/Navbars/RTLNavbar.jsx
+77	13	src/components/Sidebar/Sidebar.jsx
+2	0	src/index.js
+7	0	src/layouts/Admin/Admin.jsx
+116	0	src/layouts/RTL/RTL.jsx
+10	10	src/routes.js
+0	22	src/views/Rtl.jsx
+
+commit ba50814896e03e429bfdbe5fe83a97f8551a5ea9
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Tue Nov 20 19:11:54 2018 +0200
+
+    - Working on RTL page.. shit stuff here
+
+1	1	public/index.html
+2	2	src/views/Dashboard.jsx
+319	244	src/views/Rtl.jsx
+1	4	src/views/Typography.jsx
+
+commit 87829ce8332ea73d18bb2ee686102a86f84473c8
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Tue Nov 20 17:26:33 2018 +0200
+
+    - User page is done
+    - Small changes on Notifications page
+
+4	0	src/assets/scss/black-dashboard/custom/_buttons.scss
+21	13	src/views/Notifications.jsx
+
+commit 5d8fe5948d78c4154cd5ee13a9b111f2fd95365a
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Tue Nov 20 17:23:06 2018 +0200
+
+    - Notification Page is done
+
+13	6	src/assets/scss/black-dashboard/custom/_alerts.scss
+1	1	src/views/Dashboard.jsx
+1	1	src/views/Map.jsx
+75	31	src/views/Notifications.jsx
+
+commit 9c64d19c0d761bd333926a7ff88b0f5bdbb484e0
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Tue Nov 20 16:49:46 2018 +0200
+
+    - Run prettier
+
+6	2	src/views/Map.jsx
+
+commit 4c74dc1c1ded0f4f3b0fd9b44b843625a4e0be2f
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Tue Nov 20 16:42:03 2018 +0200
+
+    - Map page is done
+
+105	93	src/variables/charts.jsx
+16	12	src/views/Dashboard.jsx
+271	1	src/views/Map.jsx
+
+commit 70533c8638dc0c7862873dddc14c74d469010c1f
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Tue Nov 20 16:35:48 2018 +0200
+
+    - Dashboard views is done
+    - charts variables are kind of done
+
+1	1	src/layouts/Admin/Admin.jsx
+236	36	src/variables/charts.jsx
+21	14	src/views/Dashboard.jsx
+
+commit a219298165c6706b09fa8a5ec4fbd1a365e2086b
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Tue Nov 20 16:10:59 2018 +0200
+
+    - Working on Dahsboard Page
+    - Big Chart is done
+
+2	2	package.json
+13	7	src/components/FixedPlugin/FixedPlugin.jsx
+12	4	src/components/Navbars/AdminNavbar.jsx
+7	4	src/layouts/Admin/Admin.jsx
+124	973	src/variables/charts.jsx
+18	8	src/views/Dashboard.jsx
+
+commit 55c3d4c2bc35ec65e9dbf2008620d3da2fe7ac2a
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Tue Nov 20 15:23:31 2018 +0200
+
+    - FixedPlugin should be done
+
+21	5	src/components/FixedPlugin/FixedPlugin.jsx
+1	1	src/layouts/Admin/Admin.jsx
+
+commit e13ad31b611f3302c732a31fdb17340ac819b0ce
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 20:55:01 2018 +0200
+
+    - Added functionality to the collapse and the sidebar toggler
+
+4	2	src/components/Navbars/AdminNavbar.jsx
+
+commit 2541a92a81ad38da422ac971743cf65b77181407
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 20:48:56 2018 +0200
+
+    - Working on FixedPLugin, AdminNavbar and Sidebar components
+    - Also deleted the Now UI logo
+
+-	-	src/assets/img/now-logo.png
+4	4	src/components/FixedPlugin/FixedPlugin.jsx
+12	3	src/components/Navbars/AdminNavbar.jsx
+1	1	src/components/Sidebar/Sidebar.jsx
+
+commit 2c30c7c2dd08fa9a88d34a7527adf111af0f3d73
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 20:06:51 2018 +0200
+
+    - Run prettier
+    - Small change sinside routes (was rlt instead of rtl)
+    - Working on AdminNavbar
+
+52	67	src/components/Navbars/AdminNavbar.jsx
+1	1	src/routes.js
+304	304	src/views/Icons.jsx
+3	3	src/views/Map.jsx
+10	10	src/views/Notifications.jsx
+101	101	src/views/Rtl.jsx
+23	23	src/views/TableList.jsx
+33	33	src/views/Typography.jsx
+36	36	src/views/Upgrade.jsx
+28	28	src/views/UserProfile.jsx
+
+commit 6409120ca1861137df238502c9e3720a7b133534
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 19:48:17 2018 +0200
+
+    - Added classnames
+    - Deleted stuff to stop es-lint warning
+    - Working on Dashboard view
+    - UserProfile should be done
+
+1	0	package.json
+1	1	src/components/FixedPlugin/FixedPlugin.jsx
+7	6	src/components/Navbars/AdminNavbar.jsx
+1	4	src/components/Sidebar/Sidebar.jsx
+297	266	src/views/Dashboard.jsx
+2	3	src/views/UserProfile.jsx
+
+commit f505e9d005c0b0807ab5b5700db1b5da042e5369
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 19:08:20 2018 +0200
+
+    - UserProfile page is kind of done
+    - Routes should be done
+    - Small changes inside Sidebar
+
+1	2	src/components/Sidebar/Sidebar.jsx
+16	15	src/routes.js
+3	3	src/views/UserProfile.jsx
+
+commit cbff28995724cee335975da1bc0cb431eaf80cdf
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 18:51:06 2018 +0200
+
+    - Fixed Plugin almost done
+
+5	6	src/components/FixedPlugin/FixedPlugin.jsx
+
+commit 2cb5fd421909cfb4d983140c5237debbdede8f0f
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 18:41:26 2018 +0200
+
+    - Footer is done
+
+26	36	src/components/Footer/Footer.jsx
+7	25	src/components/Navbars/AdminNavbar.jsx
+3	12	src/views/UserProfile.jsx
+
+commit 7c8340b8479c22e01141fee15d9119400013bdb6
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 18:05:56 2018 +0200
+
+    - Working on v1.0.0
+    - Added stuff
+    - Really do not know what to say in this commits
+
+2	41	public/index.html
+0	17763	src/assets/css/black-dashboard.css
+0	258	src/assets/css/black-dashboard.css.map
+0	8	src/assets/css/black-dashboard.min.css
+2	2	src/assets/css/nucleo-icons.css
+3	3	src/assets/scss/black-dashboard/custom/_tables.scss
+2	2	src/components/FixedPlugin/FixedPlugin.jsx
+4	12	src/components/Navbars/AdminNavbar.jsx
+1	1	src/components/Sidebar/Sidebar.jsx
+4	3	src/index.js
+7	7	src/routes.js
+0	0	src/views/{Tables.jsx => TableList.jsx}
+2	5	src/views/{User.jsx => UserProfile.jsx}
+
+commit ea244310fde53ee907e6ea9345e523dd06591502
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 17:36:34 2018 +0200
+
+    - Added assets folder from Black Dashboard
+
+17763	0	src/assets/css/black-dashboard.css
+258	0	src/assets/css/black-dashboard.css.map
+8	0	src/assets/css/black-dashboard.min.css
+543	0	src/assets/css/nucleo-icons.css
+63	0	src/assets/demo/demo.css
+742	0	src/assets/demo/demo.js
+-	-	src/assets/fonts/nucleo.eot
+-	-	src/assets/fonts/nucleo.ttf
+-	-	src/assets/fonts/nucleo.woff
+-	-	src/assets/fonts/nucleo.woff2
+-	-	src/assets/img/anime3.png
+-	-	src/assets/img/anime6.png
+-	-	src/assets/img/apple-icon.png
+-	-	src/assets/img/bg5.jpg
+-	-	src/assets/img/default-avatar.png
+-	-	src/assets/img/emilyz.jpg
+-	-	src/assets/img/favicon.png
+-	-	src/assets/img/header.jpg
+-	-	src/assets/img/img_3115.jpg
+-	-	src/assets/img/james.jpg
+-	-	src/assets/img/mike.jpg
+-	-	src/assets/img/now-logo.png
+254	0	src/assets/js/black-dashboard.js
+1	0	src/assets/js/black-dashboard.js.map
+2	0	src/assets/js/black-dashboard.min.js
+6	0	src/assets/js/core/bootstrap.min.js
+4	0	src/assets/js/core/jquery.min.js
+4	0	src/assets/js/core/popper.min.js
+432	0	src/assets/js/plugins/bootstrap-notify.js
+10	0	src/assets/js/plugins/chartjs.min.js
+6	0	src/assets/js/plugins/perfect-scrollbar.jquery.min.js
+99	0	src/assets/scss/black-dashboard.scss
+51	0	src/assets/scss/black-dashboard/bootstrap/_alert.scss
+47	0	src/assets/scss/black-dashboard/bootstrap/_badge.scss
+41	0	src/assets/scss/black-dashboard/bootstrap/_breadcrumb.scss
+172	0	src/assets/scss/black-dashboard/bootstrap/_button-group.scss
+143	0	src/assets/scss/black-dashboard/bootstrap/_buttons.scss
+301	0	src/assets/scss/black-dashboard/bootstrap/_card.scss
+236	0	src/assets/scss/black-dashboard/bootstrap/_carousel.scss
+35	0	src/assets/scss/black-dashboard/bootstrap/_close.scss
+48	0	src/assets/scss/black-dashboard/bootstrap/_code.scss
+433	0	src/assets/scss/black-dashboard/bootstrap/_custom-forms.scss
+166	0	src/assets/scss/black-dashboard/bootstrap/_dropdown.scss
+333	0	src/assets/scss/black-dashboard/bootstrap/_forms.scss
+86	0	src/assets/scss/black-dashboard/bootstrap/_functions.scss
+52	0	src/assets/scss/black-dashboard/bootstrap/_grid.scss
+42	0	src/assets/scss/black-dashboard/bootstrap/_images.scss
+173	0	src/assets/scss/black-dashboard/bootstrap/_input-group.scss
+16	0	src/assets/scss/black-dashboard/bootstrap/_jumbotron.scss
+115	0	src/assets/scss/black-dashboard/bootstrap/_list-group.scss
+8	0	src/assets/scss/black-dashboard/bootstrap/_media.scss
+41	0	src/assets/scss/black-dashboard/bootstrap/_mixins.scss
+180	0	src/assets/scss/black-dashboard/bootstrap/_modal.scss
+118	0	src/assets/scss/black-dashboard/bootstrap/_nav.scss
+299	0	src/assets/scss/black-dashboard/bootstrap/_navbar.scss
+78	0	src/assets/scss/black-dashboard/bootstrap/_pagination.scss
+183	0	src/assets/scss/black-dashboard/bootstrap/_popover.scss
+141	0	src/assets/scss/black-dashboard/bootstrap/_print.scss
+34	0	src/assets/scss/black-dashboard/bootstrap/_progress.scss
+483	0	src/assets/scss/black-dashboard/bootstrap/_reboot.scss
+19	0	src/assets/scss/black-dashboard/bootstrap/_root.scss
+187	0	src/assets/scss/black-dashboard/bootstrap/_tables.scss
+115	0	src/assets/scss/black-dashboard/bootstrap/_tooltip.scss
+22	0	src/assets/scss/black-dashboard/bootstrap/_transitions.scss
+125	0	src/assets/scss/black-dashboard/bootstrap/_type.scss
+15	0	src/assets/scss/black-dashboard/bootstrap/_utilities.scss
+952	0	src/assets/scss/black-dashboard/bootstrap/_variables.scss
+13	0	src/assets/scss/black-dashboard/bootstrap/mixins/_alert.scss
+21	0	src/assets/scss/black-dashboard/bootstrap/mixins/_background-variant.scss
+12	0	src/assets/scss/black-dashboard/bootstrap/mixins/_badge.scss
+35	0	src/assets/scss/black-dashboard/bootstrap/mixins/_border-radius.scss
+5	0	src/assets/scss/black-dashboard/bootstrap/mixins/_box-shadow.scss
+123	0	src/assets/scss/black-dashboard/bootstrap/mixins/_breakpoints.scss
+109	0	src/assets/scss/black-dashboard/bootstrap/mixins/_buttons.scss
+66	0	src/assets/scss/black-dashboard/bootstrap/mixins/_caret.scss
+7	0	src/assets/scss/black-dashboard/bootstrap/mixins/_clearfix.scss
+11	0	src/assets/scss/black-dashboard/bootstrap/mixins/_float.scss
+147	0	src/assets/scss/black-dashboard/bootstrap/mixins/_forms.scss
+45	0	src/assets/scss/black-dashboard/bootstrap/mixins/_gradients.scss
+67	0	src/assets/scss/black-dashboard/bootstrap/mixins/_grid-framework.scss
+52	0	src/assets/scss/black-dashboard/bootstrap/mixins/_grid.scss
+37	0	src/assets/scss/black-dashboard/bootstrap/mixins/_hover.scss
+36	0	src/assets/scss/black-dashboard/bootstrap/mixins/_image.scss
+21	0	src/assets/scss/black-dashboard/bootstrap/mixins/_list-group.scss
+7	0	src/assets/scss/black-dashboard/bootstrap/mixins/_lists.scss
+10	0	src/assets/scss/black-dashboard/bootstrap/mixins/_nav-divider.scss
+22	0	src/assets/scss/black-dashboard/bootstrap/mixins/_pagination.scss
+17	0	src/assets/scss/black-dashboard/bootstrap/mixins/_reset-text.scss
+6	0	src/assets/scss/black-dashboard/bootstrap/mixins/_resize.scss
+33	0	src/assets/scss/black-dashboard/bootstrap/mixins/_screen-reader.scss
+6	0	src/assets/scss/black-dashboard/bootstrap/mixins/_size.scss
+30	0	src/assets/scss/black-dashboard/bootstrap/mixins/_table-row.scss
+14	0	src/assets/scss/black-dashboard/bootstrap/mixins/_text-emphasis.scss
+13	0	src/assets/scss/black-dashboard/bootstrap/mixins/_text-hide.scss
+8	0	src/assets/scss/black-dashboard/bootstrap/mixins/_text-truncate.scss
+13	0	src/assets/scss/black-dashboard/bootstrap/mixins/_transition.scss
+7	0	src/assets/scss/black-dashboard/bootstrap/mixins/_visibility.scss
+8	0	src/assets/scss/black-dashboard/bootstrap/utilities/_align.scss
+19	0	src/assets/scss/black-dashboard/bootstrap/utilities/_background.scss
+59	0	src/assets/scss/black-dashboard/bootstrap/utilities/_borders.scss
+3	0	src/assets/scss/black-dashboard/bootstrap/utilities/_clearfix.scss
+38	0	src/assets/scss/black-dashboard/bootstrap/utilities/_display.scss
+52	0	src/assets/scss/black-dashboard/bootstrap/utilities/_embed.scss
+51	0	src/assets/scss/black-dashboard/bootstrap/utilities/_flex.scss
+9	0	src/assets/scss/black-dashboard/bootstrap/utilities/_float.scss
+37	0	src/assets/scss/black-dashboard/bootstrap/utilities/_position.scss
+11	0	src/assets/scss/black-dashboard/bootstrap/utilities/_screenreaders.scss
+6	0	src/assets/scss/black-dashboard/bootstrap/utilities/_shadows.scss
+12	0	src/assets/scss/black-dashboard/bootstrap/utilities/_sizing.scss
+51	0	src/assets/scss/black-dashboard/bootstrap/utilities/_spacing.scss
+58	0	src/assets/scss/black-dashboard/bootstrap/utilities/_text.scss
+11	0	src/assets/scss/black-dashboard/bootstrap/utilities/_visibility.scss
+89	0	src/assets/scss/black-dashboard/custom/_alerts.scss
+238	0	src/assets/scss/black-dashboard/custom/_buttons.scss
+232	0	src/assets/scss/black-dashboard/custom/_card.scss
+154	0	src/assets/scss/black-dashboard/custom/_checkboxes-radio.scss
+359	0	src/assets/scss/black-dashboard/custom/_dropdown.scss
+324	0	src/assets/scss/black-dashboard/custom/_fixed-plugin.scss
+94	0	src/assets/scss/black-dashboard/custom/_footer.scss
+133	0	src/assets/scss/black-dashboard/custom/_forms.scss
+23	0	src/assets/scss/black-dashboard/custom/_functions.scss
+7	0	src/assets/scss/black-dashboard/custom/_images.scss
+343	0	src/assets/scss/black-dashboard/custom/_input-group.scss
+229	0	src/assets/scss/black-dashboard/custom/_misc.scss
+15	0	src/assets/scss/black-dashboard/custom/_mixins.scss
+161	0	src/assets/scss/black-dashboard/custom/_modal.scss
+413	0	src/assets/scss/black-dashboard/custom/_navbar.scss
+215	0	src/assets/scss/black-dashboard/custom/_rtl.scss
+732	0	src/assets/scss/black-dashboard/custom/_sidebar-and-main-panel.scss
+191	0	src/assets/scss/black-dashboard/custom/_tables.scss
+174	0	src/assets/scss/black-dashboard/custom/_type.scss
+9	0	src/assets/scss/black-dashboard/custom/_utilities.scss
+993	0	src/assets/scss/black-dashboard/custom/_variables.scss
+299	0	src/assets/scss/black-dashboard/custom/_white-content.scss
+73	0	src/assets/scss/black-dashboard/custom/cards/_card-chart.scss
+3	0	src/assets/scss/black-dashboard/custom/cards/_card-map.scss
+16	0	src/assets/scss/black-dashboard/custom/cards/_card-plain.scss
+30	0	src/assets/scss/black-dashboard/custom/cards/_card-task.scss
+77	0	src/assets/scss/black-dashboard/custom/cards/_card-user.scss
+14	0	src/assets/scss/black-dashboard/custom/mixins/_alert.scss
+18	0	src/assets/scss/black-dashboard/custom/mixins/_background-variant.scss
+15	0	src/assets/scss/black-dashboard/custom/mixins/_badges.scss
+343	0	src/assets/scss/black-dashboard/custom/mixins/_buttons.scss
+26	0	src/assets/scss/black-dashboard/custom/mixins/_dropdown.scss
+127	0	src/assets/scss/black-dashboard/custom/mixins/_forms.scss
+4	0	src/assets/scss/black-dashboard/custom/mixins/_icon.scss
+234	0	src/assets/scss/black-dashboard/custom/mixins/_inputs.scss
+15	0	src/assets/scss/black-dashboard/custom/mixins/_modals.scss
+7	0	src/assets/scss/black-dashboard/custom/mixins/_page-header.scss
+41	0	src/assets/scss/black-dashboard/custom/mixins/_popovers.scss
+202	0	src/assets/scss/black-dashboard/custom/mixins/_vendor-prefixes.scss
+26	0	src/assets/scss/black-dashboard/custom/mixins/_wizard.scss
+8	0	src/assets/scss/black-dashboard/custom/mixins/opacity.scss
+42	0	src/assets/scss/black-dashboard/custom/utilities/_backgrounds.scss
+54	0	src/assets/scss/black-dashboard/custom/utilities/_floating.scss
+62	0	src/assets/scss/black-dashboard/custom/utilities/_helper.scss
+19	0	src/assets/scss/black-dashboard/custom/utilities/_position.scss
+10	0	src/assets/scss/black-dashboard/custom/utilities/_shadows.scss
+5	0	src/assets/scss/black-dashboard/custom/utilities/_sizing.scss
+105	0	src/assets/scss/black-dashboard/custom/utilities/_spacing.scss
+40	0	src/assets/scss/black-dashboard/custom/utilities/_text.scss
+8	0	src/assets/scss/black-dashboard/custom/utilities/_transform.scss
+227	0	src/assets/scss/black-dashboard/custom/vendor/_plugin-animate-bootstrap-notify.scss
+116	0	src/assets/scss/black-dashboard/custom/vendor/_plugin-perfect-scrollbar.scss
+116	0	src/assets/scss/black-dashboard/plugins/_plugin-perfect-scrollbar.scss
+
+commit 2611ad4c6db33879468f1bffe32b043bf34fece1
+Author: Manu <emanuelnazare@yahoo.ro>
+Date:   Mon Nov 19 17:33:31 2018 +0200
+
+    - Started to work on Black Dashboard - added base stuff
+
+1	0	.env
+4	0	.gitignore
+4	0	CHANGELOG.md
+108	0	Documentation/documentation.html
+40	0	ISSUE_TEMPLATE.md
+21	0	LICENSE.md
+200	0	README.md
+-	-	github-assets/angular.png
+-	-	github-assets/chrome.png
+-	-	github-assets/edge.png
+-	-	github-assets/firefox.png
+-	-	github-assets/html.png
+-	-	github-assets/opera.png
+7	0	github-assets/react.svg
+-	-	github-assets/safari.png
+-	-	github-assets/vuejs.png
+38	0	package.json
+-	-	public/apple-icon.png
+-	-	public/favicon.png
+83	0	public/index.html
+15	0	public/manifest.json
+106	0	src/components/FixedPlugin/FixedPlugin.jsx
+51	0	src/components/Footer/Footer.jsx
+236	0	src/components/Navbars/AdminNavbar.jsx
+86	0	src/components/Sidebar/Sidebar.jsx
+21	0	src/index.js
+87	0	src/layouts/Admin/Admin.jsx
+7	0	src/logo-white.svg
+7	0	src/logo.svg
+76	0	src/routes.js
+1046	0	src/variables/charts.jsx
+137	0	src/variables/general.jsx
+404	0	src/variables/icons.jsx
+485	0	src/views/Dashboard.jsx
+1134	0	src/views/Icons.jsx
+27	0	src/views/Map.jsx
+177	0	src/views/Notifications.jsx
+498	0	src/views/Rtl.jsx
+154	0	src/views/Tables.jsx
+203	0	src/views/Typography.jsx
+133	0	src/views/Upgrade.jsx
+208	0	src/views/User.jsx

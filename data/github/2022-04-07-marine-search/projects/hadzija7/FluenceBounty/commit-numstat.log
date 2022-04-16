@@ -1,0 +1,120 @@
+commit 0f8f886d859fd514383c902ed691e1d8c6a30b6c
+Merge: fbb959f 294735d
+Author: Aleksandar Hadzibabic <48260177+hadzija7@users.noreply.github.com>
+Date:   Sat Sep 11 09:20:03 2021 +0200
+
+    Merge pull request #1 from hadzija7/develop
+    
+    Develop
+
+commit 294735d4cb6ac10896bf070def66907265c0969b
+Author: Aleksandar Hadzibabic <48260177+hadzija7@users.noreply.github.com>
+Date:   Sat Sep 11 09:19:46 2021 +0200
+
+    Update README.md
+
+39	1	README.md
+
+commit cd2b0cbc31cb1da3e9a1308c75795e657f34fbf3
+Author: hadzija <hadzijasale@gmail.com>
+Date:   Sat Sep 11 09:03:31 2021 +0200
+
+    feat: package json scripts changed
+
+2	2	quickstart/3-browser-to-service/package.json
+
+commit bb7720893c59dedeea866d10b5d04fdf225c73eb
+Author: hadzija <hadzijasale@gmail.com>
+Date:   Sat Sep 11 08:57:38 2021 +0200
+
+    feat: message count showed to user
+
+3	1	quickstart/2-hosted-services/counter/src/main.rs
+1	1	quickstart/3-browser-to-service/aqua/getting-started.aqua
+1	1	quickstart/3-browser-to-service/src/_aqua/getting-started.ts
+
+commit 11c672019a31f4100e7f87910099ac823fadc64d
+Author: hadzija <hadzijasale@gmail.com>
+Date:   Sat Sep 11 08:32:12 2021 +0200
+
+    feat: changes to counter service
+
+2	2	quickstart/2-hosted-services/counter/src/main.rs
+9	2	quickstart/3-browser-to-service/aqua/getting-started.aqua
+15	3	quickstart/3-browser-to-service/src/_aqua/getting-started.ts
+
+commit a7503dcb63af05b1381c8fbc7d1aa989ce61d605
+Author: hadzija <hadzijasale@gmail.com>
+Date:   Sat Sep 11 07:48:23 2021 +0200
+
+    feat: local network scripts, new rust service for word count
+
+23	0	quickstart/1-browser-to-browser/.gitignore
+10	0	quickstart/1-browser-to-browser/aqua/getting-started.aqua
+18863	0	quickstart/1-browser-to-browser/package-lock.json
+53	0	quickstart/1-browser-to-browser/package.json
+-	-	quickstart/1-browser-to-browser/public/favicon.ico
+39	0	quickstart/1-browser-to-browser/public/index.html
+-	-	quickstart/1-browser-to-browser/public/logo192.png
+-	-	quickstart/1-browser-to-browser/public/logo512.png
+25	0	quickstart/1-browser-to-browser/public/manifest.json
+3	0	quickstart/1-browser-to-browser/public/robots.txt
+160	0	quickstart/1-browser-to-browser/src/App.scss
+146	0	quickstart/1-browser-to-browser/src/App.tsx
+108	0	quickstart/1-browser-to-browser/src/_aqua/getting-started.ts
+13	0	quickstart/1-browser-to-browser/src/index.css
+12	0	quickstart/1-browser-to-browser/src/index.tsx
+17	0	quickstart/1-browser-to-browser/src/logo.svg
+1	0	quickstart/1-browser-to-browser/src/react-app-env.d.ts
+26	0	quickstart/1-browser-to-browser/tsconfig.json
+7	0	quickstart/2-hosted-services/.gitignore
+17	0	quickstart/2-hosted-services/Cargo.toml
+6	0	quickstart/2-hosted-services/configs/Config.toml
+18	0	quickstart/2-hosted-services/configs/app_config.json
+26	0	quickstart/2-hosted-services/configs/app_config_res.json
+5	0	quickstart/2-hosted-services/configs/counter_cfg.json
+5	0	quickstart/2-hosted-services/configs/hello_world_cfg.json
+17	0	quickstart/2-hosted-services/counter/Cargo.toml
+6	0	quickstart/2-hosted-services/counter/Config.toml
+23	0	quickstart/2-hosted-services/counter/src/main.rs
+17	0	quickstart/2-hosted-services/hello-world/Cargo.toml
+6	0	quickstart/2-hosted-services/hello-world/Config.toml
+53	0	quickstart/2-hosted-services/hello-world/src/main.rs
+10	0	quickstart/2-hosted-services/scripts/build.sh
+14	0	quickstart/2-hosted-services/scripts/build_all.sh
+23	0	quickstart/3-browser-to-service/.gitignore
+30	0	quickstart/3-browser-to-service/aqua/getting-started.aqua
+18863	0	quickstart/3-browser-to-service/package-lock.json
+57	0	quickstart/3-browser-to-service/package.json
+-	-	quickstart/3-browser-to-service/public/favicon.ico
+39	0	quickstart/3-browser-to-service/public/index.html
+-	-	quickstart/3-browser-to-service/public/logo192.png
+-	-	quickstart/3-browser-to-service/public/logo512.png
+25	0	quickstart/3-browser-to-service/public/manifest.json
+3	0	quickstart/3-browser-to-service/public/robots.txt
+160	0	quickstart/3-browser-to-service/src/App.scss
+146	0	quickstart/3-browser-to-service/src/App.tsx
+126	0	quickstart/3-browser-to-service/src/_aqua/getting-started.ts
+13	0	quickstart/3-browser-to-service/src/index.css
+12	0	quickstart/3-browser-to-service/src/index.tsx
+17	0	quickstart/3-browser-to-service/src/logo.svg
+1	0	quickstart/3-browser-to-service/src/react-app-env.d.ts
+26	0	quickstart/3-browser-to-service/tsconfig.json
+4	0	quickstart/Readme.md
+76	0	quickstart/local-network/docker-compose.yml
+
+commit 8895d4cd86f4ac67eb748d46a2230c7c217f2835
+Author: hadzija <hadzijasale@gmail.com>
+Date:   Sat Sep 11 07:47:37 2021 +0200
+
+    feat: git ignore
+
+13	0	.gitignore
+
+commit fbb959ffb21e4cee3f609ed9b332792d1cceba2d
+Author: Aleksandar Hadzibabic <48260177+hadzija7@users.noreply.github.com>
+Date:   Fri Sep 10 09:36:36 2021 +0200
+
+    Initial commit
+
+1	0	README.md

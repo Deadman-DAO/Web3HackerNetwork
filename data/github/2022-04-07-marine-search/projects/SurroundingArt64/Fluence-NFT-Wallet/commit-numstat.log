@@ -1,0 +1,1098 @@
+commit 2b4ce5efbc2d07877c9d2023bd111464a6aa0c3e
+Author: SurroundingArt64 <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 23:55:11 2022 +0530
+
+    chore: update
+
+2	3	README.md
+
+commit fb1c43f83b11c007a4ef080c68be58d2dffbcf63
+Author: SurroundingArt64 <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 23:54:23 2022 +0530
+
+    fix: readme
+
+2	0	README.md
+
+commit a759da7e92459e043cc50a538b7004778bd113aa
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 23:27:21 2022 +0530
+
+    chore: finish readme
+
+3	0	README.md
+4	2	frontend/src/components/SelectedNFTComponent.tsx
+-	-	images/main.png
+
+commit c23c734f4eccc9a56feeb7688434038f915d27df
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 23:17:04 2022 +0530
+
+    fix: done
+
+2	0	README.md
+2	0	frontend/src/App.tsx
+1	0	frontend/src/components/ImportAccount.tsx
+
+commit 10512e952a3c15cbeade85a865277bdadb91e1a8
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 23:13:38 2022 +0530
+
+    fix: awua
+
+32	1	README.md
+2	0	rust-services/{src => }/README.md
+
+commit 808b34a8fd4c9f52c958849f8067d4385a42c224
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 23:09:07 2022 +0530
+
+    chore: update README
+
+19	14	README.md
+
+commit e77394ec782761365776cd6a17946b1780fcccca
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 22:57:09 2022 +0530
+
+    feat: transfer emit
+
+0	1	frontend/src/App.tsx
+32	10	frontend/src/components/SelectedNFTComponent.tsx
+
+commit a6369d195ed9c26296ccb8fac30c47725854eab4
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 22:53:41 2022 +0530
+
+    feat(styles): #35
+
+2	0	frontend/src/components/SelectedNFTComponent.tsx
+
+commit b83b2bdfd0646785a0a78d9e068ee459878a485b
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 22:49:31 2022 +0530
+
+    feat(styles): #34
+
+1	1	frontend/src/components/SelectedNFTComponent.tsx
+
+commit ca8a724f261a04f6f11185f366c1ed6015fa5753
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 22:49:13 2022 +0530
+
+    feat: open explorer
+
+0	2	frontend/src/App.tsx
+18	10	frontend/src/components/SelectedNFTComponent.tsx
+
+commit 7f8d00cfe43373802b2af135c8031247437a7981
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 22:47:56 2022 +0530
+
+    feat(styles): #33
+
+28	21	frontend/src/components/SelectedNFTComponent.tsx
+
+commit 530cdfdf6dd0ffd77bd82c3fcc261394eb828d3e
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 22:35:27 2022 +0530
+
+    feat: update called
+
+20	12	frontend/src/App.tsx
+
+commit 0229d31271db92f377288261e75014cc6497d5c0
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 22:31:47 2022 +0530
+
+    feat: remit updates
+
+52	37	frontend/src/App.tsx
+
+commit 4791233373f02fc4447a686679b38e01249126c0
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 22:34:37 2022 +0530
+
+    feat(styles): #32
+
+1	1	frontend/src/App.css
+
+commit d0b76e9a9d44c8fe2b7fb22320a0b47b59bcca13
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 22:32:07 2022 +0530
+
+    feat(styles): #31
+
+4	1	frontend/src/App.css
+26	15	frontend/src/components/SelectedNFTComponent.tsx
+
+commit dc93d459e5ca4ae01580d9cb2111c9d48aa084d5
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 22:14:53 2022 +0530
+
+    feat(styles): #30
+
+18	2	frontend/src/App.css
+3	23	frontend/src/components/SelectedNFTComponent.tsx
+
+commit 681bec28ed56500062c06e14fb2f7746726f0a73
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 22:13:46 2022 +0530
+
+    feat: show orders
+
+106	4	frontend/src/components/SelectedNFTComponent.tsx
+
+commit aafdc9ab3050c8cc3b2a9bf9aea885257cd56551
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 21:55:18 2022 +0530
+
+    feat: create buy orider
+
+42	28	frontend/src/components/SelectedNFTComponent.tsx
+
+commit 81d53f6c00dfe0c15340adf5546b15291cd3537d
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 21:51:44 2022 +0530
+
+    feat: adata
+
+46	6	frontend/src/components/SelectedNFTComponent.tsx
+
+commit 5b7d1cdced5099c5a4df43c7a14abd04dc3650ed
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 21:49:53 2022 +0530
+
+    feat(styles): #29
+
+37	37	frontend/src/App.tsx
+2	1	frontend/src/components/Login.tsx
+4	4	frontend/src/components/SelectedNFTComponent.tsx
+
+commit 1994fadc7c9b5fcc535cd516c320356d38425fa7
+Merge: d6e712d ebe6c62
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 21:41:17 2022 +0530
+
+    Merge remote-tracking branch 'refs/remotes/origin/stable' into stable
+
+commit d6e712d740f4642446c3ba7379ec8d9500253183
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 21:41:14 2022 +0530
+
+    feat(styles): #28
+
+7	3	frontend/src/App.css
+4	0	frontend/src/components/NFTWallet.tsx
+1	4	frontend/src/components/SelectedNFTComponent.tsx
+
+commit ebe6c626c54a438f276b727cb122dbc86ca737ef
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 21:32:42 2022 +0530
+
+    feat: update openseaData
+
+5	0	frontend/src/components/SelectedNFTComponent.tsx
+
+commit 83f56f3676f0b76d99b9220e39d58e6cdbd153f7
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 21:27:59 2022 +0530
+
+    fix: transfer
+
+48	1	frontend/src/components/SelectedNFTComponent.tsx
+
+commit 35991726fdaee67a3038917b8bc67c71bc505ecc
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 21:27:57 2022 +0530
+
+    fix: transfer
+
+32	29	frontend/src/App.tsx
+121	279	frontend/src/components/SelectedNFTComponent.tsx
+
+commit b9f99a4daa3673af73cdc55a370612e562379f81
+Merge: 746e7be 10bd8ca
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 21:11:11 2022 +0530
+
+    fix: merge
+
+commit 10bd8ca0df3076f6cd6164f7bf0a5176958c329e
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 21:10:07 2022 +0530
+
+    feat(styles): #27
+
+2	289	frontend/src/components/NFTWallet.tsx
+293	0	frontend/src/components/SelectedNFTComponent.tsx
+
+commit 260f6d9072c54ac65040e1fcf769f376ba18910b
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 21:09:46 2022 +0530
+
+    feat(styles): #26
+
+5	5	frontend/src/App.css
+29	27	frontend/src/App.tsx
+120	0	frontend/src/components/NFTWallet.tsx
+
+commit e33905dc482f15342f71ce69be944a1361127057
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 20:59:42 2022 +0530
+
+    feat(styles): i win iframe
+
+1196	9	frontend/pnpm-lock.yaml
+13	1	frontend/src/App.css
+33	33	frontend/src/App.tsx
+86	0	frontend/src/components/NFTComponent.tsx
+43	125	frontend/src/components/NFTWallet.tsx
+4	0	frontend/src/index.css
+
+commit 746e7be4bd10a4a6fb9e4b90c7cb5a427b99ea92
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 20:42:42 2022 +0530
+
+    fix: local
+
+14	13	frontend/src/App.tsx
+
+commit 5de5a16f04df8850416875027e57de00500b6b0c
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 20:38:17 2022 +0530
+
+    feat(styles): #24
+
+13	2	frontend/src/App.css
+95	205	frontend/src/components/NFTWallet.tsx
+
+commit 5a36d1c45f0d0ceb747e1d82108016722509862d
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 20:34:21 2022 +0530
+
+    fix: opensea
+
+14	2	frontend/src/components/NFTWallet.tsx
+
+commit a6dee921b7f93acccef925e2bcf77a8fd05d42f0
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 20:28:36 2022 +0530
+
+    feat: init swaport
+
+26	10	frontend/src/App.tsx
+340	386	frontend/src/_aqua/main.ts
+7	1	frontend/src/components/NFTWallet.tsx
+
+commit 5feb9d91b2b4853e4808580ce3ebee65b0143a9e
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 20:20:11 2022 +0530
+
+    feat: update
+
+1	0	frontend/package.json
+1	1	frontend/src/App.tsx
+251	15	frontend/yarn.lock
+
+commit 00ae793977ea288e173ab32215a916ee11ac1159
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 15:50:27 2022 +0530
+
+    feat: update
+
+59	52	frontend/src/App.tsx
+3	1	frontend/src/components/CreateAccount.tsx
+61	0	frontend/src/components/ImportAccount.tsx
+
+commit 7f83eddcaf32176dfef5d8681ce65d3e9627244f
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Thu Feb 10 00:16:40 2022 +0530
+
+    feat: initialization
+
+3	1	frontend/package.json
+1	2	frontend/src/components/CreateAccount.tsx
+62	52	frontend/src/components/NFTWallet.tsx
+16873	0	frontend/yarn.lock
+
+commit 332db609d652fd9f65aa03dca6381a68cf5c09d2
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 23:54:21 2022 +0530
+
+    chore: update text
+
+2	2	frontend/src/components/NFTWallet.tsx
+
+commit 66328d66195bb2a23b227152fc7689f6d729e9ad
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 20:19:10 2022 +0530
+
+    feat(styles): #23
+
+20	0	frontend/src/App.css
+188	27	frontend/src/components/NFTWallet.tsx
+
+commit 0cb907b54fea40fac408121a0b194cc0b82500d1
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 16:14:45 2022 +0530
+
+    feat(styles): #22
+
+8	4	frontend/src/App.css
+2	2	frontend/src/components/Login.tsx
+
+commit e1515ce91419f30d927cded70d5f9ff3b3586d5f
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 16:03:04 2022 +0530
+
+    feat(api): add seaport
+
+1	0	frontend/package.json
+2075	76	frontend/pnpm-lock.yaml
+8	0	frontend/src/App.tsx
+
+commit 1134d39e13589df78bd58d53e7acd930f849ac40
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 15:12:31 2022 +0530
+
+    feat(home): styles#21
+
+1	1	frontend/src/App.css
+0	1	frontend/src/App.tsx
+
+commit 5dc17574172270499b496834fa8734783b2025b1
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 15:11:51 2022 +0530
+
+    feat(home): styles#20
+
+15	4	frontend/src/App.css
+
+commit b50de0f4221fb6219a9d07055310aa6e4de15c49
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 15:00:07 2022 +0530
+
+    feat(home): styles#19
+
+1	1	frontend/src/App.css
+
+commit 5e9d8c812a6c2c170200dcc834326ab59ec67767
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 14:57:31 2022 +0530
+
+    feat(home): styles#18
+
+1	1	frontend/src/components/NFTWallet.tsx
+
+commit cdf60905e1653cff5c7f432f215801c30b38c7b3
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 14:52:23 2022 +0530
+
+    feat(home): styles#17
+
+1	0	frontend/src/App.css
+
+commit 5e7d5924b1da1f7e6a7d145d2bc45e4c15508ac6
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 14:51:17 2022 +0530
+
+    feat(home): styles#16
+
+34	17	frontend/src/components/NFTWallet.tsx
+
+commit 4b380bbd0112709fe40e3f7a1102efbf482e4ed6
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 12:55:55 2022 +0530
+
+    feat(home): styles#16
+
+1	1	frontend/src/components/NFTWallet.tsx
+
+commit 2e9e0d5f26dd278e3144061cb76a05d4cdfcf969
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 12:52:39 2022 +0530
+
+    feat(home): styles#15
+
+18	5	frontend/src/App.css
+18	25	frontend/src/App.tsx
+5	9	frontend/src/components/Login.tsx
+8	2	frontend/src/components/NFTWallet.tsx
+
+commit 3e41557e9dda49afa64b447ce26e9a56d35bdc73
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Thu Feb 10 00:01:25 2022 +0530
+
+    feat(home): styles#14
+
+1	1	frontend/src/App.css
+
+commit d70a37d763d1ded0fc84f8d2c7a0884882c5adea
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 23:53:28 2022 +0530
+
+    feat(home): styles#13
+
+49	23	frontend/src/components/NFTWallet.tsx
+
+commit 1bb9a818fe34842d8f48ac009857cb2e4b82dd6c
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 23:37:26 2022 +0530
+
+    feat(home): styles#12
+
+2	2	frontend/src/App.css
+
+commit 04eba77f18571da4f04b01787c2f7a288f6c7c45
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 23:35:47 2022 +0530
+
+    feat: transfer
+
+28	1	frontend/src/components/NFTWallet.tsx
+
+commit 224bbcef969380689e9a4d63e3cab8e525ccf925
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 23:35:13 2022 +0530
+
+    feat(home): styles#11
+
+6	0	frontend/src/App.css
+1	1	frontend/src/components/NFTWallet.tsx
+
+commit 72df820fcbae8b506250b237f632542f2e1c8145
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 23:28:00 2022 +0530
+
+    fix: transfer logic
+
+17	4	frontend/src/components/NFTWallet.tsx
+26	0	frontend/src/config.ts
+
+commit d550c46dbc1070ec640ccaa8657478e2c395c44a
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 23:24:58 2022 +0530
+
+    feat(home): mc#2
+
+1	1	frontend/src/components/NFTWallet.tsx
+
+commit fd0db0950359c98a88f87edffc5c5ab62d32653a
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 23:24:31 2022 +0530
+
+    feat(home): mc
+
+23	0	frontend/pnpm-lock.yaml
+65	0	frontend/src/App.css
+47	33	frontend/src/App.tsx
+2	0	frontend/src/components/CreateAccount.tsx
+2	0	frontend/src/components/Login.tsx
+36	20	frontend/src/components/NFTWallet.tsx
+
+commit e0d4889864d878931e43517fb5e8024ad837bba3
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 23:15:14 2022 +0530
+
+    fix: stable
+
+50	0	frontend/package-lock.json
+2	0	frontend/package.json
+1	0	frontend/src/App.tsx
+4	4	frontend/src/index.tsx
+
+commit aa3643bc8afd1df48fdda17d61c952fdba9e6456
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 23:04:54 2022 +0530
+
+    fix: view on different type
+
+38	4	frontend/src/components/NFTWallet.tsx
+
+commit 253c89a288711b729a7edebb754f3a542833ab44
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 22:53:41 2022 +0530
+
+    feat: explorer
+
+52	44	frontend/src/App.tsx
+7	1	frontend/src/components/NFTWallet.tsx
+
+commit eaa4c1cb6dd8f79de5195b840c8a8ee5e2095c3e
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 22:53:20 2022 +0530
+
+    feat(home): styles#9
+
+1	1	frontend/src/App.tsx
+
+commit f0ef5244d6bdae0967c6eecf94fa8d6c2b2ea237
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 22:49:42 2022 +0530
+
+    feat(home): styles#8
+
+31	0	frontend/pnpm-lock.yaml
+10	0	frontend/src/App.css
+13	2	frontend/src/App.tsx
+
+commit cafc62f0e8e50500fc4e2be4fe58555bfad2d867
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 22:49:09 2022 +0530
+
+    feat: update nftwallet
+
+1	0	frontend/src/components/NFTWallet.tsx
+
+commit 37a61d4431b5496d0f257d37d76e85beed0d74d6
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 22:38:21 2022 +0530
+
+    feat: get image
+
+77	1	frontend/src/components/NFTWallet.tsx
+1	0	frontend/src/config.ts
+
+commit 11ef05e8f93b1e8eacc4843371c40636bdba7c1d
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 22:35:40 2022 +0530
+
+    feat(home): styles#7
+
+47	2	frontend/src/App.css
+51	43	frontend/src/App.tsx
+
+commit e4b404e72b90824c0ba57efc1221fd66a5efc9f3
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 22:13:57 2022 +0530
+
+    feat: moralis idx
+
+5	0	frontend/src/App.tsx
+
+commit 7c309d187fbb3e1c395aa7252f10d0f5b8fdf873
+Merge: 43c67ec cc0b855
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 22:11:41 2022 +0530
+
+    Merge remote-tracking branch 'refs/remotes/origin/stable' into stable
+
+commit 43c67ec1338203cb094663840029d3c2b2943c2a
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 22:10:44 2022 +0530
+
+    feat: local
+
+35	0	frontend/package-lock.json
+2	0	frontend/package.json
+14	10	frontend/src/App.tsx
+17	2	frontend/src/components/NFTWallet.tsx
+
+commit cc0b855c483379aeabd86831f1956a7d07f9413d
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 22:10:03 2022 +0530
+
+    feat(home): styles#6
+
+27	0	frontend/src/App.css
+24	16	frontend/src/App.tsx
+
+commit c8899610fd70fefca8898f9fcef489b5d4d32072
+Merge: 193336f 702dca6
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 21:48:41 2022 +0530
+
+    Merge remote-tracking branch 'refs/remotes/origin/stable' into stable
+
+commit 193336f92bd9948487db87ad919b45b5c65684d3
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 21:48:23 2022 +0530
+
+    feat: switch
+
+20	3	frontend/src/App.tsx
+
+commit 702dca647aa71d9508ede20773e08d46984819df
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 21:41:58 2022 +0530
+
+    feat(home): styles#5
+
+7	0	frontend/src/App.tsx
+7	6	frontend/src/components/CreateAccount.tsx
+
+commit e911ccdc3a471fed04f5a25a7c04c3cd726f5916
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 21:37:23 2022 +0530
+
+    feat(home): styles#4
+
+43	0	frontend/src/App.css
+1	1	frontend/src/App.tsx
+9	8	frontend/src/components/Login.tsx
+
+commit 237b25dfe2e401ab351c0aa8f0a8d5fa0e576c97
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 21:36:24 2022 +0530
+
+    feat: state updates and signer
+
+10	4	frontend/src/App.tsx
+11	0	frontend/src/components/NFTWallet.tsx
+
+commit 2e5ff44a1958aa720e79380de9ed5f0a515e69ac
+Merge: b712635 bf98869
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 21:23:22 2022 +0530
+
+    fix: merge
+
+commit b712635980691f6999892d6c9f9ea48f599290de
+Merge: 5981501 4c6fdb0
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 21:22:42 2022 +0530
+
+    Merge remote-tracking branch 'refs/remotes/origin/stable' into stable
+
+commit bf988696959d0a7d0779292f4deb34a74fc33231
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 21:20:42 2022 +0530
+
+    feat(home): styles#3
+
+27	18	frontend/src/App.tsx
+
+commit 598150164987eae288e99631d6bd4c499cf4cf81
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 21:18:08 2022 +0530
+
+    feat: update state
+
+15	16	frontend/src/App.tsx
+
+commit 4c6fdb0bf7e4154e3887d133f96f1e48f7d1a943
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 21:16:16 2022 +0530
+
+    feat(home): styles#2
+
+13	0	frontend/src/App.css
+1	1	frontend/src/App.tsx
+
+commit 7e3a3c4a4cf330f847608657c41c9eb1b6b73328
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 21:14:48 2022 +0530
+
+    feat: show details
+
+31	9	frontend/src/App.tsx
+1	0	frontend/src/components/CreateAccount.tsx
+45	44	frontend/src/components/Login.tsx
+
+commit 0685527c43ad8f9c36f4d316efd21ab7c42225f5
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 20:55:40 2022 +0530
+
+    feat: updates
+
+26	51	frontend/src/App.tsx
+2	3	frontend/src/components/CreateAccount.tsx
+1	0	frontend/src/config.ts
+
+commit 6d0a2f1a4d85624894e567f3fbf6d59f77911dd6
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 21:12:04 2022 +0530
+
+    feat(home): styles
+
+21	22	frontend/src/App.css
+3	0	frontend/src/App.tsx
+43	44	frontend/src/components/Login.tsx
+7	7	frontend/src/index.tsx
+
+commit fb99be5cf609073d2a6cef376c035e735750ab65
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 20:44:28 2022 +0530
+
+    feat: metadata
+
+1	0	frontend/src/App.tsx
+18	1	frontend/src/components/CreateAccount.tsx
+45	37	frontend/src/components/Login.tsx
+1	0	frontend/src/config.ts
+
+commit 35dac4b5d3c723e90af4fc0276cb7c7296253b6a
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 20:40:59 2022 +0530
+
+    feat(login): add login
+
+6	1	frontend/src/components/Login.tsx
+
+commit b16c27758c80539290f6e9d60608e8bacb3d10ce
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 20:37:04 2022 +0530
+
+    feat: nenable encrypts deployment
+
+3	3	frontend/src/_aqua/main.ts
+-	-	rust-services/artifacts/private_key_store.wasm
+
+commit 0d73738021a8927470a807558dadfad4ac8c39e7
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 20:36:35 2022 +0530
+
+    feat: nenable encrypts deployment
+
+1	1	frontend/aqua/main.aqua
+18	1	frontend/src/components/CreateAccount.tsx
+
+commit 5ca0c43644a0f75a8283e37ba0312b109cecdbff
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 20:34:48 2022 +0530
+
+    feat(login): add vale
+
+2	0	frontend/src/components/Login.tsx
+
+commit dae949df757697cd1c16f1b2a60c9c8a29cf5798
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 20:32:45 2022 +0530
+
+    feat(login): add modals
+
+14771	0	frontend/pnpm-lock.yaml
+2	0	frontend/src/App.tsx
+41	0	frontend/src/components/Login.tsx
+
+commit 8f1c256c45772ed37b8678474010d3d9187b33e2
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 20:20:41 2022 +0530
+
+    feat: base
+
+3	2	frontend/src/App.tsx
+61	0	frontend/src/components/CreateAccount.tsx
+
+commit e38e696483b2a8ab3e9a1f3299fd7a8ab8af3e3d
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 20:09:12 2022 +0530
+
+    feat: states
+
+1183	4	frontend/package-lock.json
+3	2	frontend/package.json
+23	8	frontend/src/App.tsx
+
+commit cbb10508e82e1b6c4758ae98d3424abbe72ba7e1
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 20:01:33 2022 +0530
+
+    feat: encrypt decrypt
+
+1	1	rust-services/.repl_history
+-	-	rust-services/artifacts/private_key_store.wasm
+6	19	rust-services/src/main.rs
+
+commit 49b2ecd8e05b60a892f0d02e19589a30fe18b172
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 19:57:36 2022 +0530
+
+    feat: encrypt decrypt
+
+0	1	frontend/src/App.tsx
+106	0	rust-services/Cargo.lock
+2	0	rust-services/Cargo.toml
+-	-	rust-services/artifacts/private_key_store.wasm
+42	0	rust-services/src/main.rs
+
+commit 455a34fac04fdc1fb5007255d7499f6827b70d99
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 16:57:45 2022 +0530
+
+    feat: added
+
+2	2	frontend/aqua/main.aqua
+2	2	frontend/src/App.tsx
+3	3	frontend/src/_aqua/main.ts
+3	1	rust-services/src/README.md
+
+commit c3603d9be984dd5791d9de48ac38cfa68372e0fa
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 16:54:53 2022 +0530
+
+    fix: fetch
+
+11	11	frontend/aqua/main.aqua
+9	6	frontend/src/App.tsx
+60	9	frontend/src/_aqua/main.ts
+37	8	rust-services/.repl_history
+-	-	rust-services/artifacts/private_key_store.wasm
+4	2	rust-services/config.json
+1	1	rust-services/src/README.md
+9	3	rust-services/src/main.rs
+
+commit 8f48f0ef4b75098ae38f1dadf65e8de534364090
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 16:12:40 2022 +0530
+
+    feat(table): varchar and db
+
+22	8	rust-services/src/main.rs
+
+commit ecfc0a31ca0ccf1064eb6d487b0bedfbce960a89
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 15:55:13 2022 +0530
+
+    feat(table): conn
+
+1	5	rust-services/src/main.rs
+
+commit db0381b114925165b22a36b91f9774e67e28c648
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 15:49:18 2022 +0530
+
+    feat(table): create
+
+6	7	rust-services/src/main.rs
+
+commit af58e00ebc0d7e2caa7c236c691fad22326f332c
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 15:41:54 2022 +0530
+
+    feat(mut): conn
+
+14	11	rust-services/src/main.rs
+
+commit 9c819bf88fde9ebe0a3a6b3720dbe57a839f9a27
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 15:28:42 2022 +0530
+
+    feat(mut): conn
+
+2	2	rust-services/src/main.rs
+
+commit 0ecd3adfeee3c7b6e05ff7387b901c6aa25a155a
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 15:27:59 2022 +0530
+
+    feat(err): add pk check
+
+37	0	rust-services/Cargo.lock
+2	1	rust-services/Cargo.toml
+27	4	rust-services/src/main.rs
+
+commit d96035d8276164d6fdc762dddb6af2042a5740af
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 15:09:42 2022 +0530
+
+    feat(err): add errors
+
+18	40	rust-services/src/main.rs
+
+commit 35a73332cd144e0a476ff1adf7691d2a18a79028
+Merge: 514bf09 524c3ac
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 14:57:46 2022 +0530
+
+    Merge remote-tracking branch 'refs/remotes/origin/master'
+
+commit 524c3acbb3d7910d8f0a9534260f87a33f13d4d1
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 14:56:35 2022 +0530
+
+    feat: stable
+
+11	5	frontend/aqua/main.aqua
+7	5	frontend/src/App.tsx
+106	4	frontend/src/_aqua/main.ts
+72	0	rust-services/.repl_history
+0	1	rust-services/Cargo.lock
+0	1	rust-services/Cargo.toml
+19	0	rust-services/Config.toml
+-	-	rust-services/artifacts/private_key_store.wasm
+1	1	rust-services/src/README.md
+29	32	rust-services/src/main.rs
+
+commit a20a2a52fe2e95f12eb44d7c803014c29d9f24ee
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 14:29:42 2022 +0530
+
+    fix(fn): add sql
+
+38	13	rust-services/src/main.rs
+
+commit 514bf09262ddda5e27131294e0526860c68f780c
+Merge: 6c46450 12a9792
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 13:54:44 2022 +0530
+
+    Merge branches 'master' and 'master' of github.com-SurroundingArt64:SurroundingArt64/Fluence-NFT-Wallet
+
+commit 12a97923729ac94723a3da57bf05c891083ab21d
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 13:53:16 2022 +0530
+
+    feat(doc): functions
+
+11	0	rust-services/src/main.rs
+
+commit 2e324760dbf6fb3f9d11004ca0687dfae973a14d
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 13:50:52 2022 +0530
+
+    feat(db): get put and return
+
+22	11	rust-services/src/main.rs
+
+commit 7f02803b4a060978b759a900ae0e503249eb0cf2
+Author: AquaRules <aquarules22@gmail.com>
+Date:   Wed Feb 9 13:35:17 2022 +0530
+
+    feat(db): add connection and insert values
+
+21	3	rust-services/src/main.rs
+
+commit 6c46450759b5d543167a01d285cbaf4c0dfe8c0c
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 13:14:15 2022 +0530
+
+    feat: metadata
+
+7	0	rust-services/.repl_history
+19	0	rust-services/Config.toml
+
+commit 1ac3414e3823c22bda20d072788e0b6e5a143ddc
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 03:13:04 2022 +0530
+
+    feat: partial
+
+1	0	rust-services/Cargo.lock
+1	0	rust-services/Cargo.toml
+
+commit 0a48664b6fc1f28e417de18ce6a7c842fc193aa2
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 02:54:07 2022 +0530
+
+    feat: partical updates
+
+10	3	frontend/aqua/main.aqua
+6	4	frontend/src/App.tsx
+111	39	frontend/src/_aqua/main.ts
+1	1	frontend/src/react-app-env.d.ts
+26	26	frontend/tsconfig.json
+-	-	rust-services/artifacts/private_key_store.wasm
+19	1	rust-services/config.json
+4	0	rust-services/src/README.md
+14	2	rust-services/src/main.rs
+
+commit 8f8410269309049fda45281d663f3388ecf16be3
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 01:56:15 2022 +0530
+
+    feat: wasm interaction
+
+18	1	README.md
+30	3	frontend/aqua/main.aqua
+17866	6971	frontend/package-lock.json
+2	1	frontend/package.json
+59	22	frontend/src/App.tsx
+359	0	frontend/src/_aqua/main.ts
+-	-	rust-services/artifacts/private_key_store.wasm
+2	2	rust-services/src/main.rs
+
+commit f5c12e86e257cab62b9ce58d823c1cd685a17ecb
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 00:24:06 2022 +0530
+
+    feat: init frontend with fluence
+
+23	0	frontend/.gitignore
+46	0	frontend/README.md
+2	1	{aqua => frontend/aqua}/main.aqua
+34449	0	frontend/package-lock.json
+52	0	frontend/package.json
+-	-	frontend/public/avm.wasm
+-	-	frontend/public/favicon.ico
+43	0	frontend/public/index.html
+-	-	frontend/public/logo192.png
+-	-	frontend/public/logo512.png
+25	0	frontend/public/manifest.json
+3	0	frontend/public/robots.txt
+1	0	frontend/public/runnerScript.web.js
+38	0	frontend/src/App.css
+9	0	frontend/src/App.test.tsx
+26	0	frontend/src/App.tsx
+13	0	frontend/src/index.css
+17	0	frontend/src/index.tsx
+1	0	frontend/src/logo.svg
+1	0	frontend/src/react-app-env.d.ts
+15	0	frontend/src/reportWebVitals.ts
+5	0	frontend/src/setupTests.ts
+26	0	frontend/tsconfig.json
+0	28	package-lock.json
+0	19	package.json
+
+commit 8ef24963d0668840ee047d61e2ddeb021cc7c21a
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 00:18:19 2022 +0530
+
+    feat: add node_modules
+
+2	1	.gitignore
+4	0	aqua/main.aqua
+28	0	package-lock.json
+19	0	package.json
+-	-	rust-services/artifacts/private_key_store.wasm
+-	-	rust-services/artifacts/sqlite3.wasm
+3	0	rust-services/config.json
+10	0	rust-services/src/main.rs
+
+commit 99458c51f2d58f7642ed02d24126a16ef1e8a0c9
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Wed Feb 9 00:00:30 2022 +0530
+
+    feat: compilation target
+
+1	0	.gitignore
+1858	119	rust-services/Cargo.lock
+1	0	rust-services/Cargo.toml
+12	0	rust-services/build.sh
+
+commit 22d0923c9318d75f8451d05e1cd26b227bfeae60
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Tue Feb 8 23:26:41 2022 +0530
+
+    feat: mysqlite connector
+
+10	0	rust-services/Cargo.lock
+5	0	rust-services/Cargo.toml
+
+commit 669d37b6f119d30a757aa53b563d392b854c921f
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Tue Feb 8 23:20:31 2022 +0530
+
+    feat: init rust
+
+275	0	rust-services/Cargo.lock
+10	0	rust-services/Cargo.toml
+15	0	rust-services/src/main.rs
+
+commit 37772fabcda9ed8df035832d361ac18a9c12a40c
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Tue Feb 8 23:08:26 2022 +0530
+
+    feat: mkdir structure
+
+1	0	README.md
+0	0	rust-services/.gitkeep
+
+commit 087111bf68b62008c5ebb21d186e0af203bc2201
+Author: SurroundingArt <97761020+SurroundingArt64@users.noreply.github.com>
+Date:   Tue Feb 8 22:58:52 2022 +0530
+
+    feat: initial commit
+
+0	0	README.md

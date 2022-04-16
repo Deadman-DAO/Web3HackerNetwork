@@ -1,0 +1,280 @@
+commit ca036a05a2345a019c4b7814e41eafd12def520b
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 17:03:29 2022 +0400
+
+    beautify readme
+
+4	3	README.md
+
+commit 42a449e5bbfb336fc58743c1b7975a5c9745fff3
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 17:00:18 2022 +0400
+
+    wip
+
+1	1	components/Main/Capsule.vue
+1	1	components/Modals/SendModal.vue
+1	1	fluence/browser_service_stable/aqua/node.aqua
+7	9	store/page/index.js
+
+commit f621ee9e07197af2ea63c7f3f7ffcd6e47f23bca
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 16:30:40 2022 +0400
+
+    fix
+
+17	12	fluence/browser_service_stable/aqua/node.aqua
+3	15	fluence/browser_service_stable/src/index.ts
+
+commit 7ff292431d54deb8c33cb9a9b164a945600d1485
+Merge: 6735f9b 0e6bd47
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 16:19:51 2022 +0400
+
+    Merge branch 'main' of https://github.com/KirSerz/hackathon_wallet
+
+commit 6735f9bec1feedf9dc69f56bcff7bb009a6ff046
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 16:19:46 2022 +0400
+
+    wip
+
+1	2	README.md
+2	2	fluence/browser_service_stable/aqua/export.aqua
+19	3	fluence/browser_service_stable/aqua/node.aqua
+30	4	fluence/browser_service_stable/src/index.ts
+9	3	fluence/browser_service_stable/src/logic.ts
+2	1	fluence/browser_service_stable/src/test.ts
+34221	0	package-lock.json
+9759	9457	yarn.lock
+
+commit 0e6bd47714a10bad77e75f17dd0ee303694256ea
+Author: Kirill <faq163k@gmail.com>
+Date:   Sun Feb 6 15:49:19 2022 +0400
+
+    avatar
+
+5	2	components/Main/Capsule.vue
+
+commit 480d1dca0a371f902d1b0d502aa3c6767d167861
+Merge: ef6079e 791a55e
+Author: Kirill <faq163k@gmail.com>
+Date:   Sun Feb 6 15:31:59 2022 +0400
+
+    Merge branch 'main' of https://github.com/KirSerz/hackathon_wallet
+
+commit ef6079e0ba13c0aa7ca8edafa55da2221700712e
+Author: Kirill <faq163k@gmail.com>
+Date:   Sun Feb 6 15:31:40 2022 +0400
+
+    lk
+
+2	2	components/Main/Capsule.vue
+0	1	components/Main/Transactions.vue
+17	1	components/Settings/Profile.vue
+1	0	pages/Settings/index.vue
+14	15	store/page/actions.js
+1	1	store/page/index.js
+
+commit 791a55eab3fe71ecfe70028885cc321023872324
+Merge: 247196c 3cacfbc
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 15:30:48 2022 +0400
+
+    Merge branch 'main' of https://github.com/KirSerz/hackathon_wallet
+
+commit 247196cb786329418241c704bdb8cb81633287de
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 15:30:47 2022 +0400
+
+    wip
+
+16	1	fluence/browser_service_stable/aqua/node.aqua
+4	2	fluence/browser_service_stable/src/test.ts
+
+commit 3cacfbc819ff0fe4b4a0e720e299d8ac23880ccb
+Merge: 9bba1a1 8fe6194
+Author: Kirill <faq163k@gmail.com>
+Date:   Sun Feb 6 14:53:17 2022 +0400
+
+    Merge branch 'main' of https://github.com/KirSerz/hackathon_wallet
+
+commit 9bba1a1cdf75e6aa374a1d2f5467d265a0f2b46a
+Author: Kirill <faq163k@gmail.com>
+Date:   Sun Feb 6 14:53:07 2022 +0400
+
+    lk and bug fix
+
+-	-	assets/img/{fluense .png => fluense.png}
+1	1	components/Main/ItemTransaction.vue
+0	2	components/Main/Sidebar.vue
+3	3	components/Main/Stats.vue
+8	8	components/Modals/WithdrawModal.vue
+0	70	components/Settings/Capsule.vue
+83	0	components/Settings/Profile.vue
+3	0	package.json
+8	8	pages/Settings/index.vue
+4	4	pages/Transactions/index.vue
+3	3	pages/index.vue
+45	27	store/page/actions.js
+2	51	store/page/index.js
+3	0	store/page/mutations.js
+1504	30	yarn.lock
+
+commit 8fe61940ee259df56270d973bea0195f5e87d0a2
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 14:29:03 2022 +0400
+
+    wip
+
+46	1	README.md
+2	2	fluence/browser_service_stable/aqua/export.aqua
+9	1	fluence/browser_service_stable/aqua/node.aqua
+
+commit 6f7153b94f3cb51ea66edcdfbc3fc376f4646841
+Merge: 35885da 27573c7
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 14:22:55 2022 +0400
+
+    Merge branch 'main' of https://github.com/KirSerz/hackathon_wallet
+
+commit 35885daeef15e38d72de0dd54d0ac3c58016a50a
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 14:22:53 2022 +0400
+
+    wip
+
+3	1	fluence/browser_service_stable/aqua/node.aqua
+45	120	fluence/browser_service_stable/src/index.ts
+188	0	fluence/browser_service_stable/src/logic.ts
+9	2	fluence/browser_service_stable/src/test.ts
+
+commit 27573c783519e7de4d4c336dff97260b3f0b6b6d
+Merge: 59fc8e3 5062cdb
+Author: Kirill <faq163k@gmail.com>
+Date:   Sun Feb 6 12:59:37 2022 +0400
+
+    Merge branch 'main' of https://github.com/KirSerz/hackathon_wallet
+
+commit 59fc8e3ed7bf266bb9de891b1907bb358c9d93bb
+Author: Kirill <faq163k@gmail.com>
+Date:   Sun Feb 6 12:59:28 2022 +0400
+
+    modals and actions store logic
+
+1	0	.gitignore
+11	0	assets/img/reload.svg
+23	13	components/Main/Capsule.vue
+73	0	components/Main/ItemTransaction.vue
+1	1	components/Main/Sidebar.vue
+16	2	components/Main/Stats.vue
+0	62	components/Main/Transaction.vue
+9	5	components/Main/Transactions.vue
+29	9	components/Modals/{TransactionsModal.vue => SendModal.vue}
+35	12	components/Modals/TemplateModal.vue
+124	0	components/Modals/TransactionModal.vue
+32	9	components/Modals/WithdrawModal.vue
+0	2	components/Settings/Capsule.vue
+8	3	components/Settings/appHeader.vue
+1	0	package.json
+9	7	pages/Settings/index.vue
+27	3	pages/Transactions/index.vue
+23	0	pages/index.vue
+79	25	store/page/actions.js
+59	52	store/page/index.js
+8	0	store/page/mutations.js
+5	0	yarn.lock
+
+commit 5062cdb19dae6c47852267f4168e52035772392a
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 12:00:52 2022 +0400
+
+    main process
+
+1749	17	fluence/browser_service_stable/package-lock.json
+8	4	fluence/browser_service_stable/package.json
+144	0	fluence/browser_service_stable/src/index.ts
+
+commit 277377bbc88f97aa087e14a31b8defed4dbc1af1
+Author: Artyom Lisovskii <artyom@lisovskij.ru>
+Date:   Sun Feb 6 10:24:27 2022 +0400
+
+    pivot from hosted to nodejs based
+    
+    tilt? nope
+
+22	0	fluence/browser_service_stable/.gitignore
+8	0	fluence/browser_service_stable/.prettierrc.js
+3	0	fluence/browser_service_stable/aqua/export.aqua
+11	0	fluence/browser_service_stable/aqua/node.aqua
+8471	0	fluence/browser_service_stable/package-lock.json
+34	0	fluence/browser_service_stable/package.json
+47	0	fluence/browser_service_stable/src/index.ts
+28	0	fluence/browser_service_stable/src/test.ts
+101	0	fluence/browser_service_stable/tsconfig.json
+5	0	fluence/hosted_service_approach/Config.toml
+16	0	fluence/hosted_service_approach/build.sh
+5	0	fluence/hosted_service_approach/configs/Config.toml
+5	0	fluence/hosted_service_approach/configs/facade_cfg.json
+2991	0	fluence/hosted_service_approach/facade/Cargo.lock
+20	0	fluence/hosted_service_approach/facade/Cargo.toml
+91	0	fluence/hosted_service_approach/facade/src/crud.rs
+69	0	fluence/hosted_service_approach/facade/src/crypto.rs
+59	0	fluence/hosted_service_approach/facade/src/main.rs
+62	0	fluence/hosted_service_approach/readme.md
+
+commit 3f3207e57c4248643f270013f1b9855c1eee3a53
+Author: kirser <faq163k@gmail.com>
+Date:   Sun Feb 6 04:08:17 2022 +0400
+
+    main page and structer settings and all trans
+
+11743	0	assets/css/bootstrap.min.css
+1	0	assets/css/splide.min.css
+7825	0	assets/css/style.css
+-	-	assets/img/fluense .png
+-	-	assets/img/loading-icon.png
+-	-	assets/img/logo.png
+88	0	components/Main/Capsule.vue
+49	0	components/Main/Sidebar.vue
+42	0	components/Main/Stats.vue
+62	0	components/Main/Transaction.vue
+58	0	components/Main/Transactions.vue
+30	0	components/Main/appHeader.vue
+97	0	components/Modals/TemplateModal.vue
+97	0	components/Modals/TransactionsModal.vue
+97	0	components/Modals/WithdrawModal.vue
+0	11	components/NuxtLogo.vue
+72	0	components/Settings/Capsule.vue
+31	0	components/Settings/appHeader.vue
+0	52	components/Tutorial.vue
+7	1	nuxt.config.js
+3	1	package.json
+24	0	pages/Settings/index.vue
+25	0	pages/Transactions/index.vue
+24	2	pages/index.vue
+8	0	plugins/bootstrap-vue.js
+6	0	plugins/vue-ionicons.js
+7	0	store/index.js
+142	0	store/page/actions.js
+83	0	store/page/index.js
+36	0	store/page/mutations.js
+16	1	yarn.lock
+
+commit 6fbdd5649407d454ec30d8888d1bf4fcb722b20c
+Author: Kirill <faq163k@gmail.com>
+Date:   Sat Feb 5 18:10:32 2022 +0400
+
+    init
+
+13	0	.editorconfig
+90	0	.gitignore
+69	0	README.md
+11	0	components/NuxtLogo.vue
+52	0	components/Tutorial.vue
+46	0	nuxt.config.js
+24	0	package.json
+9	0	pages/index.vue
+-	-	static/favicon.ico
+10	0	store/README.md
+9482	0	yarn.lock

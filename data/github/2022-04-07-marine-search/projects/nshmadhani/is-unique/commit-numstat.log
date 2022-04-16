@@ -1,0 +1,107 @@
+commit cb10307912cecceef68c19f62c4dedf926999b20
+Author: Nishay Madhani <madhani.n@northeastern.edu>
+Date:   Thu Feb 10 13:34:09 2022 -0500
+
+    Added Readme.md
+
+15	134	README.md
+1	1	package.json
+
+commit 0548b44ba1a6a2c4fbb2c0263a8b335d097a88f8
+Author: Nishay Madhani <madhani.n@northeastern.edu>
+Date:   Thu Feb 10 13:13:14 2022 -0500
+
+    Done
+
+2	2	aqua/opensea.aqua
+2	2	aqua/rarible.aqua
+-	-	services/artifacts/rarible.wasm
+1	1	services/{config.json => opensea.json}
+0	15	services/opensea/config.json
+2	2	services/opensea/src/main.rs
+16	0	services/rarible.json
+2	2	services/rarible/src/main.rs
+10	8	src/api/index.js
+2	0	src/components/Home.js
+
+commit a91521059eeac8bfaa6b81a0333413b0015c8863
+Author: Nishay Madhani <madhani.n@northeastern.edu>
+Date:   Wed Feb 9 23:54:35 2022 -0500
+
+    Merging with Fluence Example
+
+10	0	.gitignore
+0	21	LICENSE
+115	38	README.md
+6	0	aqua/getting-started.aqua
+21	0	aqua/opensea.aqua
+21	0	aqua/rarible.aqua
+35614	16169	package-lock.json
+22	11	package.json
+-	-	public/favicon.ico
+22	21	public/index.html
+-	-	public/logo192.png
+-	-	public/logo512.png
+-	-	services/artifacts/opensea.wasm
+-	-	services/artifacts/rarible.wasm
+16	0	services/config.json
+275	0	services/opensea/Cargo.lock
+15	0	services/opensea/Cargo.toml
+15	0	services/opensea/config.json
+58	0	services/opensea/src/main.rs
+275	0	services/rarible/Cargo.lock
+15	0	services/rarible/Cargo.toml
+53	0	services/rarible/src/main.rs
+0	38	src/App.css
+0	11	src/App.js
+63	0	src/App.scss
+0	8	src/App.test.js
+30	0	src/App.tsx
+122	0	src/api/index.js
+50	0	src/components/AssetCollection.js
+17	0	src/components/Header.js
+53	0	src/components/Home.js
+37	0	src/components/SearchBar.js
+13	3	src/index.css
+0	17	src/index.js
+10	0	src/index.tsx
+0	1	src/logo.svg
+1	0	src/react-app-env.d.ts
+0	13	src/reportWebVitals.js
+0	5	src/setupTests.js
+0	9	tailwind.config.js
+27	0	tsconfig.json
+
+commit c8fdf56b928653fe1563857b5f12ff5975ad99c4
+Author: Nishay Madhani <madhani.n@northeastern.edu>
+Date:   Wed Feb 9 14:51:33 2022 -0500
+
+    CRA Setup
+
+23	0	.gitignore
+70	0	README.md
+27398	0	package-lock.json
+43	0	package.json
+-	-	public/favicon.ico
+43	0	public/index.html
+-	-	public/logo192.png
+-	-	public/logo512.png
+25	0	public/manifest.json
+3	0	public/robots.txt
+38	0	src/App.css
+11	0	src/App.js
+8	0	src/App.test.js
+3	0	src/index.css
+17	0	src/index.js
+1	0	src/logo.svg
+13	0	src/reportWebVitals.js
+5	0	src/setupTests.js
+9	0	tailwind.config.js
+
+commit 207dc55a69cafaa16df1d9185f465bd87298519e
+Author: Nishay Madhani <nshmadhani@gmail.com>
+Date:   Wed Feb 9 14:45:38 2022 -0500
+
+    Initial commit
+
+21	0	LICENSE
