@@ -1,0 +1,9 @@
+{
+  "rust": "Rust shows a Gaussian distribution in the histogram.\nThe scatter plot graph shows positive correlation between the number of files checked in and the number of lines of Rust code.",
+  "json": "Although there is ",
+  "javascript": "\nAs opposed to JSON, JavaScript stays much closer to zero on both axes.\nWhile JSON is a data formatting protocol, JavaScript is a predominantly human-edited programming language.\n",
+  "markdown": "\nMarkdown, on the other hand, is predominantly written by humans for other humans to observe.\n\nLarge .md files would most likley be factored out by the TL;DR affect.\n",
+  "html": "\nAs the backbone to webpage rendering, HTML comes in many flavors: from human written to a programmatically generated framework.\nWe do see a stronger influence in number of individual files as the cumulative number of lines increase.  This could be influenced by the increased browser load time on larger files.\n",
+  "lock": "\nLock those files up\n",
+  "yarn": "Nobody likes yarn outside of crafters"
+}
