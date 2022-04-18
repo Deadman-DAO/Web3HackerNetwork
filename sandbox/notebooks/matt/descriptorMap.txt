@@ -1,9 +1,9 @@
 {
-  "rust": "Rust shows a Gaussian distribution in the histogram.\nThe scatter plot graph shows positive correlation between the number of files checked in and the number of lines of Rust code.",
-  "json": "Although there is ",
-  "javascript": "\nAs opposed to JSON, JavaScript stays much closer to zero on both axes.\nWhile JSON is a data formatting protocol, JavaScript is a predominantly human-edited programming language.\n",
-  "markdown": "\nMarkdown, on the other hand, is predominantly written by humans for other humans to observe.\n\nLarge .md files would most likley be factored out by the TL;DR affect.\n",
-  "html": "\nAs the backbone to webpage rendering, HTML comes in many flavors: from human written to a programmatically generated framework.\nWe do see a stronger influence in number of individual files as the cumulative number of lines increase.  This could be influenced by the increased browser load time on larger files.\n",
-  "lock": "\nLock those files up\n",
-  "yarn": "Nobody likes yarn outside of crafters"
+  "rust": "Rust shows a Gaussian distribution in this histogram.\nThe scatter plot shows positive correlation between the number of files checked in and the number of lines of Rust code.",
+  "json": "JSON shows a gap on both histogram and scatter plot.  I think that this is due to the variety in usage of the JSON data storage/transfer protocol.",
+  "javascript": "JavaScript shows a stronger normal distribution and more positive correlation than JSON.  One outlier throws off the graph range to some extent.",
+  "markdown": "From the histogram we see fairly normal distribution for markdown (.md) files.  The scatter plot appears less supportive of positive correlation at this point.",
+  "html": "HTML appears to be a stronger contendant for both distribution and direct correlation.",
+  "lock": "Within our selective data set, the number of lines in .lock files appears to have a strong correlation with the number of files committed.",
+  "yarn": "Yarn is a good example of nearly zero correlation and can thusly be excluded from usage in later analysis."
 }
