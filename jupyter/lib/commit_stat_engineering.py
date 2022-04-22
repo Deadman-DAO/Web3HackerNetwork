@@ -52,6 +52,7 @@ def extract_stats(commit):
     
     statDict = {}
     statDict['commit'] = commit['commit']
+    statDict['author'] = commit['Author']
     
     statDict['totalFiles'] = int(num_files)
     statDict['binFiles'] = sum([typeEntry['stats']['occurrences'] for typeEntry in binTypeArray])
