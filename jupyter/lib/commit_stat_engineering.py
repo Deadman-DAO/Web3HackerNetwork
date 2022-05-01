@@ -1,6 +1,26 @@
 import os
 import json
 
+def make_action( encoding, action, file_types ):
+    return dict( encoding=encoding, action=action, file_types=file_types )
+
+def get_actions():
+    return [
+        make_action( 'binary', 'img', ['png', 'jpg', 'gif', 'drawio'] ),
+        make_action( 'binary', 'noextbin', ['noextbin'] ),
+        make_action( 'text', 'javascript', ['js', 'jsx', 'ts', 'tsx', 'vue'] ),
+        make_action( 'text', 'rust', ['rs', 'toml'] ),
+        make_action( 'text', 'markdown', ['md'] ),
+        make_action( 'text', 'json', ['json'] ),
+        make_action( 'text', 'lock', ['lock'] ),
+        make_action( 'text', 'yarn', ['yml', 'yaml']),
+        make_action( 'text', 'html', ['html', 'css', 'scss']),
+        make_action( 'text', 'clojure', ['clj']),
+        make_action( 'text', 'shell', ['sh']),
+        make_action( 'text', 'gitignore', ['gitignore']),
+        make_action( 'text', 'noexttext', ['noexttext']),
+    ]
+
 def find_files(name, path):
     result = []
     for root, dirs, files in os.walk(path):
@@ -57,22 +77,13 @@ def extract_stats(commit):
     statDict['totalFiles'] = int(num_files)
     statDict['binFiles'] = sum([typeEntry['stats']['occurrences'] for typeEntry in binTypeArray])
     statDict['textFiles'] = sum([typeEntry['stats']['occurrences'] for typeEntry in textTypeArray])
-    
     statDict['textLines'] = sum([typeEntry['stats']['textLineCount'] for typeEntry in textTypeArray])
-    
-    addTextStats(typeArray, statDict, 'javascript', ['js', 'jsx', 'ts', 'tsx', 'vue'])
-    addTextStats(typeArray, statDict, 'rust', ['rs', 'toml'])
-    addTextStats(typeArray, statDict, 'markdown', ['md'])
-    addTextStats(typeArray, statDict, 'json', ['json'])
-    addBinStats(typeArray, statDict, 'img', ['png', 'jpg', 'gif', 'drawio'])
-    addTextStats(typeArray, statDict, 'lock', ['lock'])
-    addTextStats(typeArray, statDict, 'yarn', ['yml', 'yaml'])
-    addTextStats(typeArray, statDict, 'html', ['html', 'css', 'scss'])
-    addTextStats(typeArray, statDict, 'clojure', ['clj'])
-    addTextStats(typeArray, statDict, 'shell', ['sh'])
-    addTextStats(typeArray, statDict, 'gitignore', ['gitignore'])
-    addBinStats(typeArray, statDict, 'noextbin', ['noextbin'])
-    addTextStats(typeArray, statDict, 'noexttext', ['noexttext'])
+
+    for action in get_actions():
+        if (action['encoding'] == 'binary'):
+            addBinStats(typeArray, statDict, action['action'], action['file_types'])
+        elif (action['encoding'] == 'text'):
+            addTextStats(typeArray, statDict, action['action'], action['file_types'])
 
     return statDict
 
