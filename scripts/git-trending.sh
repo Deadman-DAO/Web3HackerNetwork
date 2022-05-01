@@ -1,0 +1,1 @@
+/usr/bin/curl -s 'https://github.com/trending' | /usr/bin/grep '<a data-hydro-click=' | /usr/bin/awk '{print $4}' | /usr/bin/egrep '^href' | /usr/bin/awk -F '"' '{print $2}' >> ~/data/git-trending.txt
