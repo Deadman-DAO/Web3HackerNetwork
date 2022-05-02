@@ -64,9 +64,9 @@ def extract_features(commit):
 
     for action in get_actions():
         if (action['encoding'] == 'binary'):
-            addBinStats(typeArray, statDict, action['action'], action['file_types'])
+            addBinFeatures(typeArray, statDict, action['action'], action['file_types'])
         elif (action['encoding'] == 'text'):
-            addTextStats(typeArray, statDict, action['action'], action['file_types'])
+            addTextFeatures(typeArray, statDict, action['action'], action['file_types'])
 
     return statDict
 
