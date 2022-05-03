@@ -3,6 +3,7 @@ from abc import ABC, abstractmethod
 import sys
 import traceback, inspect, json
 
+        
 class File:
     dir = None
     fileName = None
@@ -360,3 +361,4 @@ class NumstatRequirementSet(RequirementSet):
         reqArray.append( NumstatFileCommit() )
     def __init__(self):
         super().__init__()
+
