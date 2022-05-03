@@ -25,21 +25,20 @@ def percent(numerator, denominator):
     if (numerator == 0): return 0
     if (denominator == 0): return 100
     truncated = int(100 * 100 * numerator / denominator)
-    # Winsorizing the over-100% cases (which can happen, eg: when net bytes is 10 but this file added 100 bytes)
-    # This is a short-term hack, need to revisit as we explore the meaning of adding, removing, and changing lines
-    percent = truncated / 100
-    if (percent > 100): return 100
     return truncated / 100
+
+def sum_stat(dicts, key):
+    return sum([a_dict['stats'][key] for a_dict in dicts])
 
 def addBinFeatures(typeArray, statDict, statName, file_types):
     singleTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['fileType'] in file_types]
-    statDict[statName + 'Files'] = sum([typeEntry['stats']['occurrences'] for typeEntry in singleTypeArray])
+    statDict[statName + 'Files'] = sum_stat(singleTypeArray, 'occurrences')
     statDict[statName + 'FilePct'] = percent(statDict[statName + 'Files'], statDict['totalFiles'])
 
 def addTextFeatures(typeArray, statDict, statName, file_types):
     singleTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['fileType'] in file_types]
-    statDict[statName + 'Files'] = sum([typeEntry['stats']['occurrences'] for typeEntry in singleTypeArray])
-    statDict[statName + 'Lines'] = sum([typeEntry['stats']['textLineCount'] for typeEntry in singleTypeArray])
+    statDict[statName + 'Files'] = sum_stat(singleTypeArray, 'occurrences')
+    statDict[statName + 'Lines'] = sum_stat(singleTypeArray, 'textLineCount')
     statDict[statName + 'FilePct'] = percent(statDict[statName + 'Files'], statDict['totalFiles'])
     statDict[statName + 'LinePct'] = percent(statDict[statName + 'Lines'], statDict['textLines'])
 
@@ -58,15 +57,17 @@ def extract_features(commit):
     statDict['author'] = commit['Author']
     
     statDict['totalFiles'] = int(num_files)
-    statDict['binFiles'] = sum([typeEntry['stats']['occurrences'] for typeEntry in binTypeArray])
-    statDict['textFiles'] = sum([typeEntry['stats']['occurrences'] for typeEntry in textTypeArray])
-    statDict['textLines'] = sum([typeEntry['stats']['textLineCount'] for typeEntry in textTypeArray])
+    statDict['binFiles'] = sum_stat(binTypeArray, 'occurrences')
+    statDict['textFiles'] = sum_stat(textTypeArray, 'occurrences')
+    statDict['textLines'] = sum_stat(textTypeArray, 'textLineCount')
 
     for action in get_actions():
+        action_code = action['action']
+        types = action['file_types']
         if (action['encoding'] == 'binary'):
-            addBinFeatures(typeArray, statDict, action['action'], action['file_types'])
+            addBinFeatures(typeArray, statDict, action_code, types)
         elif (action['encoding'] == 'text'):
-            addTextFeatures(typeArray, statDict, action['action'], action['file_types'])
+            addTextFeatures(typeArray, statDict, action_code, types)
 
     return statDict
 
