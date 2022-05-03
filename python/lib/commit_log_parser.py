@@ -269,6 +269,10 @@ class Summary(Requirement):
         dictionary.update(self.totals)
 
 class RequirementSet:
+    def processDocument(self, multiLineString):
+        for line in multiLineString.splitlines():
+            self.testline(line)
+
     def getReqArray(self):
         return self.reqArray;
     @abstractmethod
@@ -334,6 +338,9 @@ class RequirementSet:
             sys.exit()
         else:
             self.processResult(line, self.reqArray[self.reqIndex].testline(line))
+            
+
+        
                         
 class StatRequirementSet(RequirementSet):
     def setup_requirements(self):
