@@ -6,19 +6,25 @@ def make_action( encoding, action, file_types ):
 
 def get_actions():
     return [
-        make_action( 'binary', 'img', ['png', 'jpg', 'gif', 'drawio'] ),
+        make_action( 'binary', 'img', ['png', 'jpg', 'gif', 'drawio', 'svg'] ),
         make_action( 'binary', 'noextbin', ['noextbin'] ),
+        make_action( 'text', 'clojure', ['clj']),
+        make_action( 'text', 'configuration', ['ini', 'cfg', 'conf']),
+        make_action( 'text', 'datascience', ['ipynb']),
+        make_action( 'text', 'gitignore', ['gitignore']),
+        make_action( 'text', 'html', ['html', 'css', 'scss']),
         make_action( 'text', 'javascript', ['js', 'jsx', 'ts', 'tsx', 'vue'] ),
-        make_action( 'text', 'rust', ['rs', 'toml'] ),
-        make_action( 'text', 'markdown', ['md'] ),
         make_action( 'text', 'json', ['json'] ),
         make_action( 'text', 'lock', ['lock'] ),
-        make_action( 'text', 'yarn', ['yml', 'yaml']),
-        make_action( 'text', 'html', ['html', 'css', 'scss']),
-        make_action( 'text', 'clojure', ['clj']),
-        make_action( 'text', 'shell', ['sh']),
-        make_action( 'text', 'gitignore', ['gitignore']),
+        make_action( 'text', 'markdown', ['md'] ),
         make_action( 'text', 'noexttext', ['noexttext']),
+        make_action( 'text', 'pydata', ['rst'] ), # ReStructuredText, python data
+        make_action( 'text', 'python', ['py'] ),
+        make_action( 'text', 'rust', ['rs', 'toml'] ),
+        make_action( 'text', 'shell', ['sh']),
+        make_action( 'text', 'solidity', ['sol']),
+        make_action( 'text', 'txt', ['txt']),
+        make_action( 'text', 'yarn', ['yml', 'yaml']),
     ]
 
 def percent(numerator, denominator):

@@ -1,7 +1,25 @@
 import numpy as np
 
-include_features = ['binFiles','textFiles','textLines','javascriptLines','rustLines',
-                    'lockLines','htmlLines','jsonLines','markdownLines','imgFiles']
+include_features = [
+    'binFiles','textFiles','textLines','javascriptLines','rustLines',
+    'lockLines','htmlLines','jsonLines','markdownLines','imgFiles'
+]
+
+include_features = [
+    'binFiles', 'imgFiles', 'textFiles', 'configurationLines',
+    'datascienceLines', 'htmlLines', 'javascriptLines', 'jsonLines',
+    'markdownLines', 'noexttextLines', 'pydataLines', 'pythonLines',
+    'solidityLines', 'txtLines', 'yarnLines'
+]
+
+fields = [
+    'numCommits', 'binFiles', 'imgFilePct', 'textFiles', 'textLines',
+    'configurationLinePct',
+    'datascienceLinePct', 'htmlLinePct', 'javascriptLinePct', 'jsonLinePct',
+    'markdownLinePct', 'noexttextLinePct', 'pydataLinePct', 'pythonLinePct',
+    'solidityLinePct', 'txtLinePct', 'yarnLinePct'
+] # , 'shellLinePct' , 'yarnLinePct'
+
 
 def make_feature_vector(feature_dicts, feature_names):
     return [np.log1p(feature_dicts[name]) for name in feature_names]
