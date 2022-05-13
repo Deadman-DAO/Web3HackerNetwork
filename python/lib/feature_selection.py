@@ -7,7 +7,7 @@ include_features = [
 
 include_features = [
     'binFiles', 'imgFiles', 'textFiles', 'configurationLines',
-    'datascienceLines', 'htmlLines', 'javascriptLines', 'jsonLines',
+    'htmlLines', 'javascriptLines', 'jsonLines',
     'markdownLines', 'noexttextLines', 'pydataLines', 'pythonLines',
     'solidityLines', 'txtLines', 'yarnLines'
 ]
@@ -15,7 +15,7 @@ include_features = [
 fields = [
     'numCommits', 'binFiles', 'imgFilePct', 'textFiles', 'textLines',
     'configurationLinePct',
-    'datascienceLinePct', 'htmlLinePct', 'javascriptLinePct', 'jsonLinePct',
+    'htmlLinePct', 'javascriptLinePct', 'jsonLinePct',
     'markdownLinePct', 'noexttextLinePct', 'pydataLinePct', 'pythonLinePct',
     'solidityLinePct', 'txtLinePct', 'yarnLinePct'
 ] # , 'shellLinePct' , 'yarnLinePct'
