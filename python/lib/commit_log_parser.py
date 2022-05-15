@@ -219,34 +219,46 @@ class StatFileCommit(FileCommit):
                 fi.isBinary = True
         elif (size[0].isnumeric and len(size[0]) > 0):
             fi.isBinary = False
-            lc = int(size[0])
-            fi.textLineCount += lc
-            plusCount = 0
-            minusCount = 0
-            if (lc < 1 and len(size) < 2):
-                #all done here
-                validData = True
-            else:
-                plus = size[1].split('+')
-                for p in plus:
-                    if (len(p) == 0):
-                        plusCount += 1
-                    else:
-                        mi = len(p.split('-')) - 1
-                        minusCount += mi
-                if (plusCount > 0 or minusCount > 0):
-                    validData = True
-                    fi.inserts = int(fi.textLineCount * ((plusCount * 1.0) / (plusCount + minusCount)))
-                    fi.deletes = fi.textLineCount - fi.inserts
-                else:
-                    print('No bueno!')
+            try:
+              lc = int(size[0])
+              fi.textLineCount += lc
+              plusCount = 0
+              minusCount = 0
+              if (lc < 1 and len(size) < 2):
+                  #all done here
+                  validData = True
+              else:
+                  plus = size[1].split('+')
+                  for p in plus:
+                      if (len(p) == 0):
+                          plusCount += 1
+                      else:
+                          mi = len(p.split('-')) - 1
+                          minusCount += mi
+                  if (plusCount > 0 or minusCount > 0):
+                      validData = True
+                      fi.inserts = int(fi.textLineCount * ((plusCount * 1.0) / (plusCount + minusCount)))
+                      fi.deletes = fi.textLineCount - fi.inserts
+                  else:
+                      print('No bueno!')
+            except:
+              print('Exception encountered parsing:', size[0])
         return validData
                         
 class NumStatFileCommit(FileCommit):
     def split(self, line):
-        pass
+        try:
+            chunks = line.split(' ')
+            file_name_portion = chunks[2]
+            stats_portion = chunks[0]+' '+chunks[1]
+            if (chunks[0].isnumeric() or chunks[0] == '-') and (chunks[1].isnumeric() or chunks[0] == '-'):
+                return file_name_portion, stats_portion
+        except:
+            pass
+        return None, None
     def processStatistics(self, line, fi, ext):
-        pass
+        print('processStatistics',line, fi, ext)
+        return False
     
         
 class Summary(Requirement):
@@ -365,7 +377,7 @@ class NumstatRequirementSet(RequirementSet):
         reqArray.append( Blank() )
         reqArray.append( Comment() )
         reqArray.append( Blank() )
-        reqArray.append( NumstatFileCommit() )
+        reqArray.append( NumStatFileCommit() )
     def __init__(self):
         super().__init__()
 
