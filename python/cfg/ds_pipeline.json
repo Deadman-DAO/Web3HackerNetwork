@@ -6,5 +6,9 @@
   "marine": {
     "stats_dir": "data/github/2022-04-07-marine-search/projects",
     "stat_file_name": "commit-stat.log.json"
+  },
+  "99_problems": {
+    "stats_dir": "sandbox/notebooks/matt/results",
+    "stat_file_name": "commit_stat_log.json"
   }
 }
