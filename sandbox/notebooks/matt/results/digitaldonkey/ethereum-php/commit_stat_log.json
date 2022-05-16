@@ -1,0 +1,2834 @@
+[
+  {
+    "commit": "de65dd5fe6b88e63125b1d560842408ebaf4293d",
+    "Author": "Halil Beycan <halilbeycan0@gmail.com>",
+    "Date": "Date:   Sat Sep 18 10:38:57 2021 +0300",
+    "fileTypes": {
+      "php": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "538fbfe0235c4b46c7833a0284625440f6452e8a",
+    "Author": "Halil Beycan <halilbeycan0@gmail.com>",
+    "Date": "Date:   Sat Sep 18 10:37:23 2021 +0300",
+    "fileTypes": {
+      "php": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "18bd3fefa9e3a9519f6027fd314d13a47afb8f9b",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Tue Jun 15 19:47:55 2021 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 15,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6b265141e02eb24185b2b2ae6f11d3350ac3e8da",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Tue Jun 15 19:37:48 2021 +0200",
+    "fileTypes": {
+      "yml": {
+        "inserts": 23,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "65ac2edd6b694cc317f90ca7e7dd68c746f9645f",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Tue Jun 15 19:04:15 2021 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 16,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d646255a8d2bff8e666d5832e7e052e1ab83171b",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Tue Jun 15 18:28:54 2021 +0200",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c742b8d2d5431329700056c4bfb7dbc0fa4c7f6",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Tue Jun 15 18:20:32 2021 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f144e26afa3e6424f2da8e853496f144203bd1c5",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Tue Jun 15 18:15:49 2021 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 31,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3bf69b002dc7ad34c218939ac47dd0aabd1e4a48",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Mon Jun 14 16:17:19 2021 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c5a13d32c124a689fbe1517fbf78563cb14f03ea",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Mon Jun 14 13:37:17 2021 +0200",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 33,
+        "deletes": 27,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa40ac1c3294377594af2c14002cb1ee8666d7e6",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Mon Jun 14 13:20:22 2021 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d049efd5827dca987193eb6a34217c9eb9d47f33",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Mon Jun 14 13:15:11 2021 +0200",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d48c9dfecdf281ca7d4490cfd107cb70c674f189",
+    "Author": "Thorsten Krug <tho@donkeymedia.eu>",
+    "Date": "Date:   Mon Jun 14 13:09:13 2021 +0200",
+    "fileTypes": {
+      "yml": {
+        "inserts": 101,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 143,
+        "deletes": 33,
+        "occurrences": 22
+      }
+    }
+  },
+  {
+    "commit": "07f5aba548363f925209273bd593c6263562f052",
+    "Author": "Andrey Solonovich <andrey@solonovich.name>",
+    "Date": "Date:   Thu Aug 15 19:42:47 2019 +0300",
+    "fileTypes": {
+      "php": {
+        "inserts": 57,
+        "deletes": 25,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7f7d102038173f6d9ef08d61a121ce8bc7a677da",
+    "Author": "Tomasz Cyrankowski <t.cyrankowski@sygnisoft.com>",
+    "Date": "Date:   Fri Jul 19 14:42:03 2019 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8405fdaf3d3a57ad55ce59fcde87cc4a16235b02",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Nov 8 13:12:47 2018 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ded4eb341d8962eac226fdb0ba93b6cc690a7bc1",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Sep 20 14:45:07 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 20,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "438b2136960f2d634b0cb55072c20b921bdcd1aa",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Sep 19 23:01:07 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 17,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8051cab97a1e986785a0489646e3071ed275051b",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Sep 19 22:16:23 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 51,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3afa69ec6c86126942dfe9ea184875388f752974",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Sep 19 12:22:19 2018 +0200",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 119,
+        "deletes": 122,
+        "occurrences": 266
+      },
+      "md": {
+        "inserts": 49,
+        "deletes": 17,
+        "occurrences": 2
+      },
+      "php": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 14235,
+        "deletes": 0,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "7351e568ba96d5737d49eece8b60a67063b2c9d3",
+    "Author": "Sebastien Vuillemin <sebastien.vuillemin@gmail.com>",
+    "Date": "Date:   Sat Sep 8 19:05:16 2018 -0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54e11f4992630dfed908d5197edb88a1f99eb17a",
+    "Author": "Sebastien Vuillemin <sebastien.vuillemin@gmail.com>",
+    "Date": "Date:   Tue Sep 4 14:24:03 2018 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3bfe8262e7bda5b1d1b0ae22c8f1756d6335c418",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Aug 26 12:26:58 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c8927a78f9e7e9ffcdd25b9122f920cbd6e8fb8",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Aug 22 15:36:28 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 30,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "97f7f1c519b903ca35717320d6f4cf26bb39c903",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Aug 21 21:05:21 2018 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ee4056ec5c7e8f747aef42f6e32a2c638eae5613",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Aug 15 18:48:54 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 28,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "25050297da5cd0b9ea62b3297b93700a0ecbe517",
+    "Author": "Anton Lakotko <antoha.by@gmail.com>",
+    "Date": "Date:   Mon Aug 13 22:50:37 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3ffccd81587e3b0249c5f120191199f3709a37d6",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Aug 9 17:30:36 2018 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 53,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "148752b1a7c9f1dfa14a29844f1cb7bd41b66056",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Aug 9 16:42:27 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df2ed1dccaecad775b8de6e78c890bd4ff477806",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Aug 9 16:00:27 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 37,
+        "deletes": 16,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "aa6654fbec22d89c6311b51487d5a9cdf1c54574",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Aug 9 15:22:39 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 71,
+        "deletes": 73,
+        "occurrences": 13
+      }
+    }
+  },
+  {
+    "commit": "3efc3597152cffa27bac9070bc8b9352ab9f1b2b",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Aug 9 15:22:39 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 259,
+        "deletes": 259,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "17ecb31bb5b321be33511284985e4c1ab38d5597",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Aug 3 10:54:28 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 111,
+        "deletes": 21,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "c4035c5f03d1aa3d778ac394efc1e56c221ec3fe",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Jul 31 15:18:57 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 153,
+        "deletes": 47,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "324afad19e4569068fd41657745c057aca902fae",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Jul 30 12:49:35 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 38,
+        "deletes": 38,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "dd7384126be0a837aee5ad74b7742f85e0df8e99",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Jul 26 16:56:03 2018 +0200",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 211,
+        "deletes": 0,
+        "occurrences": 211
+      },
+      "md": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da944a0cb3485ebca3055d01362a1e6606b4fc39",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Jul 26 16:30:28 2018 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 85,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 495,
+        "deletes": 110,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "9273e3ed83ef1371f6d1eef80564b378f147ee32",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Jul 26 15:46:23 2018 +0200",
+    "fileTypes": {
+      "xml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 75,
+        "deletes": 8,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "549bc799a599d2029711426ad834836a26c8415f",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Jul 25 15:44:10 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "093cac9387cf904d518433e51de7e58c55db0d20",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Jul 25 15:41:48 2018 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4a70711ba9a8bed96558a79c872d3fe90b55dc2",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Jul 25 15:39:46 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 256,
+        "deletes": 256,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e6f4f23985731b64a47641fb993a9b23056a568a",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Jul 25 15:38:12 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "efdc4bad24bfcd490842aed8c39a4a8d9becb0af",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Jul 25 15:34:12 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 9,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b12cd4f197b6da919a28046c78f5383e2f67db59",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Jul 25 15:27:54 2018 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ee3a4213148e79db716587156124409cafbb9c9",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Jul 24 15:42:59 2018 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 21,
+        "deletes": 16,
+        "occurrences": 11
+      }
+    }
+  },
+  {
+    "commit": "79dae82e2a2dde7b9884ef7255a3efe15c6ce470",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Jul 24 14:00:18 2018 +0200",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c27d0e9d57579afaff59305985deeb59c374bfe",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Jul 13 16:11:53 2018 +0200",
+    "fileTypes": {
+      "sol": {
+        "inserts": 85,
+        "deletes": 7,
+        "occurrences": 5
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b7aa7b26ea7a65a9de6b1133c6b2af3786038c0a",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Jul 10 14:35:57 2018 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 16,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "198743cd9a28f8ddef443469232ae48ba8b4eb81",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Jul 2 15:01:38 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 92,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3a7980d21017df80fa0ad867a8b92d207bf362fd",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Jun 29 15:31:35 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 1503,
+        "deletes": 590,
+        "occurrences": 24
+      },
+      "md": {
+        "inserts": 218,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sol": {
+        "inserts": 89,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "88d257db37aec336b723f604245821f3521091e4",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed May 23 19:56:19 2018 -0400",
+    "fileTypes": {
+      "sol": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa4c40756fe1678b4a7349b40996cec5ccca26b2",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed May 23 18:46:23 2018 -0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 7,
+        "deletes": 18,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9b387d00ff899ab9b46ac2afb899a386fb7f3a59",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri May 18 18:58:43 2018 -0400",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3b3816a5c78c91dcffd7ef0950e2874d5acdd285",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri May 18 17:05:37 2018 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "337e84db4a6f4ebf25de6f1d7968def772007ca8",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri May 18 17:00:23 2018 -0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "536ccdf1bac7bf5a5c3296208221fa8f11d410a4",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri May 18 16:46:44 2018 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 31,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 195,
+        "deletes": 20,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 109,
+        "deletes": 501,
+        "occurrences": 9
+      },
+      "sol": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "26b93030f552e838259d34bc5f835326c4cd92b8",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue May 8 18:28:50 2018 -0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 9,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9b47ba83d0298d57b749ecb8958c25a5a30e60c",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue May 8 18:28:06 2018 -0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 24,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3e6f086f1e36e86d5f510a0202599b529d182056",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Apr 25 12:06:59 2018 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f60e5971ac352efd28a09bb110be69b5cdcce5b8",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Apr 24 19:59:41 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 358,
+        "deletes": 202,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 1778,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "c7dfe4a4af4748592b119d3d34da6580221df2e7",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Apr 23 21:07:17 2018 +0200",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "af89f88bcf7ed3696d0744715ebb1375d24f8a32",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Apr 23 20:57:01 2018 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 39,
+        "deletes": 35,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fa12439b04490bcefa960053132bb5002d84570d",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 23 16:00:54 2018 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "55b880c9bdc807aaadce35ea2d84cd9fc7489799",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 23 15:51:26 2018 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 23,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dec13f284776a1ad5f2546fc546224b36d521580",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 23 14:25:27 2018 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "dd71d7f95118a94b4bf79205eae74d236cfd629a",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 23 14:10:54 2018 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 491,
+        "deletes": 328,
+        "occurrences": 12
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "sol": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "67a5062c664d9755a748944beb566ca04eceeb06",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Mar 19 22:15:35 2018 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 32,
+        "deletes": 31,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "303efd4338e15352ff8dcbb3f1e7d6a79a8a36ef",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Mar 19 21:52:04 2018 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 512,
+        "deletes": 10,
+        "occurrences": 8
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a4bedab0f84c4a1d265be9f3e742253458075fab",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Mar 18 19:40:14 2018 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1c2c3f33237823ea73c3b9fe7369a3ad526c22b8",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Mar 18 19:36:36 2018 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6603022d759f32adc9c66e4b8e28b11ab16a5454",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Mar 15 04:25:14 2018 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 324,
+        "deletes": 47,
+        "occurrences": 7
+      },
+      "json": {
+        "inserts": 886,
+        "deletes": 193,
+        "occurrences": 3
+      },
+      "sol": {
+        "inserts": 30,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82119012499458b2d36e349e84997580121c95b7",
+    "Author": "Hunter Wu <hunter.wu@ileopard.com>",
+    "Date": "Date:   Wed Mar 14 20:55:30 2018 +0800",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5090130f7009eee254b213b5c5ac652d40e7d2f5",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 9 18:15:08 2018 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 75,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 61,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 14,
+        "deletes": 9,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "8d552b9830017900de63387391e32c0035e80807",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 9 16:13:18 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d39e982a9c76176cf612a35016f1f16672ed450e",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 9 15:20:52 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c483f380e42b7444233ae0424e1001011eb36a8b",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 9 14:59:39 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 211,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "868640784e79b9ad1b23a107f4c23d971cfcec7b",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 9 14:25:35 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2910fc6ac111a94cdf47bac5f7bdecbc5c105e19",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 9 14:24:44 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "039d1e1ae0274e07358482587efae30b29c9f4b1",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Mar 9 13:50:37 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 18,
+        "deletes": 8,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "85e9673747a45ffdfd884092ebfd0dff908654d9",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 17:11:18 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 57,
+        "deletes": 21,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3ac9c46339206d550b48cd13bcda00efc97089f7",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 16:49:15 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 19,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7904da5354fa0026fe525beae0a6bb7190220474",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 16:46:05 2018 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3840295333cf06e1cb400a01fa67a11ba56be1b6",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 16:39:42 2018 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 2105,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82784e3b67db16fafce40ca2886ef4f556c4636d",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 16:21:46 2018 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 96,
+        "deletes": 98,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "62492bfea32b53f6450eaab42aa8d947bb721f18",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 15:55:59 2018 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 22,
+        "deletes": 22,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "a427c558f80ff24c2ba63a00435b5dd7c69735cc",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 14:36:34 2018 +0000",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 27,
+        "deletes": 27,
+        "occurrences": 14
+      },
+      "json": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "sol": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "9dbf881899a2fb24bef5fbc631fcd6b7e81329fd",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 14:19:59 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 113,
+        "deletes": 104,
+        "occurrences": 45
+      }
+    }
+  },
+  {
+    "commit": "44642c9e4aecbc8177a96c739206201dc52cd1f4",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 01:43:30 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 73,
+        "deletes": 35,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "e3664d65a1d132fe0a7a2994697347d6bf9d17ac",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 01:40:58 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2bc819e6b7a5bd8297ce71507412256e813d9234",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 00:10:56 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 29,
+        "deletes": 28,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "efca21a6e5935dba3f12c8e62fb391693dcad332",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Mar 7 00:07:49 2018 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 601,
+        "deletes": 429,
+        "occurrences": 19
+      },
+      "sol": {
+        "inserts": 30,
+        "deletes": 7,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 1085,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "51004a370e4d9c023e264b32ac683822eb940f69",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Mar 6 14:41:20 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 19,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "84b1d346421a4d6a7134ea430c771259cb96a252",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Mar 6 14:32:58 2018 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 9,
+        "deletes": 7,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "fc0fd9e1cb7722ed72d2dbdbb9c65f4b0abf0cb8",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Mar 6 14:31:11 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 167,
+        "deletes": 88,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "e946009b3036df8978bd4c41d70151fd638819da",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Mar 5 19:09:30 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 29,
+        "deletes": 25,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8fd57acc6212a161dfee65d9d018918be7255106",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Mar 4 19:53:05 2018 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 131,
+        "deletes": 6,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "b91a045c7c570724854ee6c421999c6856b50472",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Mar 4 17:43:22 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 235,
+        "deletes": 204,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "107d7163ef1a981c3ce4cde82527cecae027acf6",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Mar 4 14:11:17 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 123,
+        "deletes": 18,
+        "occurrences": 3
+      },
+      "sol": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5787c766f6ac56a77487de8bd10ccebab773729c",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Feb 26 16:02:12 2018 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20d781e8cfcbc9534a3d1fce58b3c7119b1296e1",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Feb 19 19:14:24 2018 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8a7b81afb0f7c69a2cf9b665fa0d4e2a18ba4a1d",
+    "Author": "unknown <david@peherstorfer.info>",
+    "Date": "Date:   Sun Feb 11 20:24:19 2018 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ab17e61265abfadf9a6af36adf7b90c40680815",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Dec 13 21:43:25 2017 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 16,
+        "deletes": 23,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "842f5093a5a3171a21d8f01b6e02d13cdaa37eb8",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Dec 13 19:22:43 2017 -0500",
+    "fileTypes": {
+      "php": {
+        "inserts": 56,
+        "deletes": 48,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "e47b7cd66befa2b4cd400816d583153aa6e40e33",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Dec 13 16:48:41 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 37,
+        "deletes": 395,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "php": {
+        "inserts": 3885,
+        "deletes": 3377,
+        "occurrences": 44
+      }
+    }
+  },
+  {
+    "commit": "cb263ac51c6f908ebb298c5ccfeb14f11f4bffdf",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sat Dec 9 16:40:58 2017 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 392,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 597,
+        "deletes": 251,
+        "occurrences": 11
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bb5f15b3a129a97c7c23209bd344692bc750f2a4",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Dec 8 15:04:19 2017 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 22,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "818f9665a0981000f12e1dfaf5d8dd466cefc9cb",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Dec 8 14:43:47 2017 -0500",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b141990ebd630f0d4748dc2c440997ca0bf57432",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Dec 8 14:02:02 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 21,
+        "deletes": 28,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "26b9b81b994315abc71fc9d371604b3a99b6c657",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 20:41:32 2017 -0500",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d009bc814a8160d67828b253abe616431159c283",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 16:17:58 2017 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6404690f61a2e9f95460773aa48a082ea87502a4",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 16:17:34 2017 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5d580a1d11c667d9c230fdb306a0367be59e1fe2",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 16:11:06 2017 -0500",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2fecf9be763d9cd68db087f329f4ba5ec134e59a",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 15:40:16 2017 -0500",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "efc17d95a761f40148c02ae835052633692ea711",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 15:35:56 2017 -0500",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e32e5737cb75ca2f2623bd7f132c9cd95a05124f",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 15:27:04 2017 -0500",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8d0e11f3fe9fff37ec785b1b1b5363c240b23c98",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 15:13:59 2017 -0500",
+    "fileTypes": {
+      "css": {
+        "inserts": 75,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 61,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da5bbbd665e864a7498156f5b9c4847f43bffb89",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 15:10:05 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 334,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "84b0d692b10ac5da60b11007b3ab4ebc0d6d0ca8",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 14:01:47 2017 -0500",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "055c97ca0e445bc4835a46f00741c8da0c13467b",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 13:26:38 2017 -0500",
+    "fileTypes": {
+      "html": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f617c3e7881058de2b813ab15b9e75b31a55a44",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 13:20:37 2017 -0500",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "920f2870e907e25accec1b0437f03f65443c9851",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Dec 7 13:10:27 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sh": {
+        "inserts": 0,
+        "deletes": 17,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8db31b346368fd61744214aa4f3de85d3ac13b47",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Dec 6 17:11:31 2017 -0500",
+    "fileTypes": {
+      "gitkeep": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 52,
+        "deletes": 136539,
+        "occurrences": 963
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 5647,
+        "occurrences": 292
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 203
+      },
+      "css": {
+        "inserts": 75,
+        "deletes": 2016,
+        "occurrences": 5
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "add17745b649ee76cb9ecd4826cb1eeb80942820",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Dec 6 15:49:45 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 71,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sh": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "efd328a08b1a0da2a1d3c8f37b35c0214d89ebc8",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Dec 6 12:43:39 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c023c7e004dbff9ba83c58933adec9bf179a197",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Dec 6 12:32:35 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bab2c9883453fbdcad9334e29a94987202f5599",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Dec 6 11:55:03 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "62b6228a9fefb65191722d76b69f07dbefc5868a",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Dec 1 19:33:05 2017 -0500",
+    "fileTypes": {
+      "html": {
+        "inserts": 632,
+        "deletes": 3151,
+        "occurrences": 85
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 719,
+        "deletes": 1826,
+        "occurrences": 40
+      },
+      "php": {
+        "inserts": 699,
+        "deletes": 167,
+        "occurrences": 24
+      }
+    }
+  },
+  {
+    "commit": "a9098d41b52caf44a76c422fcd2163e6c89dfa0b",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Fri Dec 1 15:48:23 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 137411,
+        "deletes": 42873,
+        "occurrences": 1185
+      },
+      "js": {
+        "inserts": 4402,
+        "deletes": 1751,
+        "occurrences": 348
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 209
+      },
+      "css": {
+        "inserts": 146,
+        "deletes": 146,
+        "occurrences": 7
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 293,
+        "deletes": 82,
+        "occurrences": 35
+      }
+    }
+  },
+  {
+    "commit": "79511e1cf8d1e58e34c9b0a7514cff39c61c8869",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Nov 30 17:25:59 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "config => Doxyfile": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 44497,
+        "deletes": 0,
+        "occurrences": 288
+      },
+      "js": {
+        "inserts": 4103,
+        "deletes": 0,
+        "occurrences": 135
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 64
+      },
+      "css": {
+        "inserts": 2016,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "xml": {
+        "inserts": 47,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 1704,
+        "deletes": 1830,
+        "occurrences": 26
+      }
+    }
+  },
+  {
+    "commit": "65a7f37ee469ab87d81494bb30b5eac442fe63bc",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Nov 28 22:21:01 2017 -0500",
+    "fileTypes": {
+      "php": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06d716322736422b827c0a13460102f707f9073a",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Nov 27 22:27:20 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 19,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "config": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "415e5ce588ece8528add62f9102b20c0ce5d144e",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Nov 27 14:13:50 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "config": {
+        "inserts": 334,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5f5a756f052a5e2cf1e2618876eeb092e19880c",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Nov 27 14:01:42 2017 -0500",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "cee2b3ae3e86024c83d0df1c9288439326e42697",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Wed Nov 22 18:29:00 2017 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 38,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 35,
+        "deletes": 4,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "34f681747147788b2edf6690b4b95b435765096a",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Nov 21 22:47:54 2017 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 20,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c05a182b196a13cc25590d1806213795f0be32ee",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 25 10:42:38 2017 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f553e9efbd6f896d6fe97c9cc4a80675187d6ee5",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:38:27 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "80b7a97f09661eae26f439ed227ec45032e39801",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:36:20 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a8671f1051be474b6964019abfd34a07cfa2cb37",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:35:55 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50cf99c30cf2c1cee2ffdef04c994e79310881cd",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:29:11 2017 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe3a8296a00a4ed13849c783e6c3e0632579ce62",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:25:31 2017 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 21,
+        "deletes": 21,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "623df4a37c8518ed9f0679ab2b7cf5e98832de10",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:16:17 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 13,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d6a93d33eb7a5ff26c8b61d4a09a52acf34db21e",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:15:17 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8c18d9f5d8eb30e971eac652236f8b01f578b1d",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:12:43 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 71,
+        "deletes": 71,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e029b164bee1dd46361406e376f4f45a19aeec47",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:11:50 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 199,
+        "deletes": 167,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5325d29bf9557ed9667c2bede14ce01c31c453a7",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:08:47 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 10,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b16cf576d2bb2695e6c0dce50708d09078d6708",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:04:51 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce0a1be55ea8b28a7aaf9d54606d7a871375ca1b",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:01:07 2017 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13b3d817dca9ff2b1089d560ff0e3567960ea076",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 12:00:40 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 69,
+        "deletes": 94,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "25f9338a14d659c416566f396c7648936f42b6ec",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 11:51:13 2017 +0100",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ec0720970b1eac22c57b079c7ccaf855b0364124",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 11:33:22 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 341,
+        "deletes": 313,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "b0d4d2ff15788ce0a0203e7a554666c2633191e8",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 11:31:56 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 7,
+        "deletes": 13,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "b369bd7430106e8a88b078874c38a82b01fbb59b",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 11:25:18 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 189,
+        "deletes": 161,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "4cf702f42f57ab8d36688041e1b0a9349cc5ff99",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 11:22:08 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 2812,
+        "deletes": 2633,
+        "occurrences": 26
+      }
+    }
+  },
+  {
+    "commit": "717428a273b136b88f4a0fd4ffb9040ce4d6cca1",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 11:13:47 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 263,
+        "deletes": 128,
+        "occurrences": 21
+      }
+    }
+  },
+  {
+    "commit": "0d810c44ae582db27c1bc7eacc155bb1e1f48191",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 11:00:00 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 15,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "66cb043a8dad5893d87139d1177b4564ca47967d",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Thu Oct 19 10:59:32 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 28,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f70830ced6d713a5969e5b32eee17399f872ea0a",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 20:26:44 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 19,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1d59befbf052679c37d3db2cbd245cf8c410d37",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 20:26:30 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "12d70b87034943759d12d1d3328b12f863488e96",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 20:26:04 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 28,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f18f2ece1e78684e18bb65443fbd9522d3f6de19",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 20:25:24 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e10f093e342f49f6b0c6031e00645722fce0e918",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 20:25:06 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d5ba7b503f5ace4bc3a4ce8cbb73a725fbeb0dee",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 20:24:44 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "486fac81b43b96f77df69180442054db0e9c4106",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 20:23:54 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a7360adf63009124a9b91c7a62af9b0f918bf31",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 20:23:27 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 52,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c2763dcb6b786b639e2c9fd382ed24022d534a6",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 17:55:41 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "338b287a3db3fb2f5225514a617ff3ab648be830",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 17:53:37 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 20,
+        "deletes": 11,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "dabebbcc930a1edd4098960000f52407d34ee261",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 17:50:20 2017 +0100",
+    "fileTypes": {
+      "xml": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1bbde96e049b23ecb9f8d2d78a8e2e3b6ed2ad28",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 17:48:13 2017 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "43dc0e7e82945ea0cf8a2422d7947b281f1cde8c",
+    "Author": "pxgamer <owzie123@gmail.com>",
+    "Date": "Date:   Wed Oct 18 17:40:23 2017 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1cc36e943bd61b639c49eb1bbce577dbd18ec8e7",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Jul 18 18:33:44 2017 +0200",
+    "fileTypes": {
+      "php": {
+        "inserts": 353,
+        "deletes": 0,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "823a9fa0166177421b4f18dbe770744d80c3af2a",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Thu Mar 30 12:35:14 2017 +0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 675,
+        "deletes": 121,
+        "occurrences": 18
+      }
+    }
+  },
+  {
+    "commit": "104a7326c716b04ea8924240cbcad51aac55f1da",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Mar 28 00:56:14 2017 +0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 30,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d71312c4ac24788d0e534ac8433b6df0cfe88aae",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Mar 27 23:23:44 2017 +0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 33,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "994aeaa4cd811761f92f6d41f90b30efa8d5daab",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Mar 27 23:22:02 2017 +0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 6,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca7f4e6afee092a99291653a39c33293549488c6",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Mar 27 12:25:14 2017 +0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e4c5f5fb4e0ece13fb0b46c2d1117fda83540a6f",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Mar 26 15:58:41 2017 +0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 1208,
+        "deletes": 511,
+        "occurrences": 24
+      }
+    }
+  },
+  {
+    "commit": "b5f3475959f16e04b4d4591fb3ee4ee755c57c61",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Mar 12 21:25:52 2017 +0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 555,
+        "deletes": 203,
+        "occurrences": 27
+      }
+    }
+  },
+  {
+    "commit": "e02467087d4cf55a202aa8809a20a882d0faa291",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Mar 6 17:57:44 2017 +0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 496,
+        "deletes": 30,
+        "occurrences": 11
+      }
+    }
+  },
+  {
+    "commit": "06b090efcb1169e8d8058f8552d3c3a353c1437b",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Mar 5 20:26:55 2017 +0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 33,
+        "deletes": 21,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ffd9f10c0b072ac1b1c356447beecd7bbd29e97c",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Sun Mar 5 20:10:56 2017 +0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 763,
+        "deletes": 158,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "5cdf3c12c63d758744564480f4b19d52f7c271a5",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Tue Feb 28 14:26:20 2017 +0400",
+    "fileTypes": {
+      "txt": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 44,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 210,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "php": {
+        "inserts": 555,
+        "deletes": 55,
+        "occurrences": 27
+      }
+    }
+  },
+  {
+    "commit": "0b01e9a51ee3ca5067c9df7d4669656910bb4378",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Feb 27 16:40:05 2017 +0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e2387ea853936136b7fb2be57b889bd7c1d39e38",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Feb 27 16:10:16 2017 +0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c1daf628e7a4806f7bf35ad8b54c238d2199a7e9",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Feb 27 15:53:02 2017 +0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 46,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f3e75e5cfb8610eb35614cfaca68cb5988a243ef",
+    "Author": "Thorsten Krug <email@donkeymedia.eu>",
+    "Date": "Date:   Mon Feb 27 12:54:39 2017 +0400",
+    "fileTypes": {
+      "php": {
+        "inserts": 1271,
+        "deletes": 28,
+        "occurrences": 29
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 209,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]

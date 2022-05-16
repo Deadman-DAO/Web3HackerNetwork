@@ -1,0 +1,1626 @@
+[
+  {
+    "commit": "69064d9df22567d4035551302a05c4df0995ed7f",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu May 12 18:34:32 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 0,
+        "deletes": 74,
+        "occurrences": 4
+      },
+      "mod": {
+        "inserts": 3,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 7,
+        "deletes": 34,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f78a01cdd993dd9e8439cc5947d2be80ec8dbb9e",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu May 12 13:49:54 2022 -0500",
+    "fileTypes": {
+      "mod": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "537da5529ee098138f9711a3b4aa5f10a1d92419",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Fri May 6 20:08:09 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 22,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a007acb5a99e17e468e13318ce6b2e9b21bf470d",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Fri May 6 19:52:18 2022 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f142aad7e6aabcd3c66164a3305367bbd15d1296",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Fri May 6 17:08:46 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 33,
+        "deletes": 17,
+        "occurrences": 2
+      },
+      "mod": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 25,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5ef5fe5c1ff49a93ace80f780660c35e2e0b6f5a",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Fri May 6 15:37:54 2022 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6eb9ce7f0eff80111b623029dfc34745412f2f02",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Fri Apr 22 20:48:45 2022 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f9c3786e99017d8eb8d0bbcb1cd9935ff8ac0fa6",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Fri Apr 22 12:26:38 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c9d5d047ca184724a8c764fc193323ce09384df",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Apr 21 13:27:18 2022 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0371b59ee0ce1b84d03c4f10e4362baef1a3b44",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Wed Apr 20 17:44:40 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8802d55663e4821aa47742529fe32c54dbf6ff6b",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Apr 3 16:01:53 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7bd0412ed6571328517d4753442871765edcc59",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Apr 3 15:52:26 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "77f75108dbcd1bae0cbf248b8f2edbd6fb8ce899",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Apr 3 15:52:07 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87813e3daab1e5abea50904fd554c50110031ce3",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Wed Mar 30 13:31:08 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 14,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "mod": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d77e3f682385a6817d8586c11e81c1f7b850874b",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Wed Mar 30 12:23:12 2022 -0500",
+    "fileTypes": {
+      "mod": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af396ba6025e3202b6f11cfc628573daa552845a",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Mar 28 14:31:45 2022 -0500",
+    "fileTypes": {
+      "mod": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06a7c872584e618eaf85116a28be70e081559627",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Mar 24 15:45:15 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 12,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "mod": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 22,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e39c05adb9e349e15b95cdf5174fbdc47b5ae4b0",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Mar 10 18:03:20 2022 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "04ada9eb9e5d88e855640eabd5b1df7a7fc8b4d1",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Mar 1 09:25:38 2022 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d2202880eb85edc4a5e8256423e8e82d3f90f71",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Feb 28 16:16:55 2022 -0500",
+    "fileTypes": {
+      "mod": {
+        "inserts": 112,
+        "deletes": 107,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 392,
+        "deletes": 165,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "078b3164aba48345d163ceb91e39d1c9c81e7e8a",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Feb 28 10:41:56 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 199,
+        "deletes": 199,
+        "occurrences": 11
+      }
+    }
+  },
+  {
+    "commit": "c89a201b78ed88714dd52d08d5f1de3fdfe5cdc3",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Feb 19 14:24:48 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21e6e0290230a8053f1852165468f20e8bd5057c",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Feb 7 13:59:29 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d5c6e0f14da531b4dc6022f25d5eae27570a30ef",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Feb 3 13:42:32 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f22c3cacfd175e6f57608444b720677dc986497",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Jan 29 21:54:36 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "51a79a3dce9c992db2336ee78bee3e3dd78880b2",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Fri Jan 28 23:18:39 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 25,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a9643b47b3fa04f90b840d601532c3380b03dac6",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 25 17:35:12 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "63b4ce4db61f41c7bbb96964a3b6c5dc433bb790",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Wed Jan 19 21:44:05 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e3740cc65163814aeef9b6602a8b33411b5a4011",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 18 18:44:24 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 46,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0435efd20009960e9b8f7b5a14cad899e1f40162",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 18 11:45:00 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 32,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 19,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1a7f70403b185b9335f78300a41ade2894e4f6a3",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 18 00:12:39 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ac08eea74c595dec9fb945541a3db0d0770ca115",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Jan 17 23:19:01 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d525e1ad31c536f0b202b65b91d8255663a558a4",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Jan 16 14:20:35 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "959ba36b8462d624f178f2d71b1aeae43c6cdfa4",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Jan 16 13:50:05 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b3fcef96f8ed296e437f67ae89b75dc65a18b563",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 11 21:34:29 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 20,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "76a54af56ed7414e2626a03da0c830c6f606f090",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 11 21:23:05 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4344e78e384fcdf66ebe7d41191f0e7f5b4ab720",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 11 20:42:07 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f8add2f6b65d8c18004f3a01c035aba8c4631122",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 11 15:21:07 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a89946d46bfc4a91ebc7585204bddc65aecd6764",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 11 15:19:48 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 10,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0723ec3379968ca70b2a5d980708177d468963a1",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Jan 11 15:12:47 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "30024d48c2880cfe1b3a39f0643a10536a66c03c",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Jan 6 16:47:37 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 95,
+        "deletes": 37,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "3205682db02c6c9cc0bbd2d47d51ebb5524090f9",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Jan 2 23:16:09 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5059616e32ca4bd7f29dc52cae3dc00f9cedb28b",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Jan 2 23:09:29 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 68,
+        "deletes": 28,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "81ea9afa7c48e5a1e0f88a5b1bdbcc11b3e4e114",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Jan 2 18:47:48 2022 -0500",
+    "fileTypes": {
+      "mod": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "94c8561739002d512b44b04afe1dfe93a411965f",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Jan 2 18:28:25 2022 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9027b3acb6560aad11694992a1322049634859b7",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Dec 30 11:42:43 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 36,
+        "deletes": 21,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "aef6098a315222c81bfd4fbaa72a5813bcb5f438",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Dec 30 10:41:39 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da231b3918349c4898a78c3b8e4a7924cb867b2c",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Dec 30 00:56:51 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "77dfb254cae8d388096d08bb69fce50063c9e815",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Dec 30 00:53:48 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 36,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ead1db23c59b4bcacc4007d1bf7b2f01ee2e9d94",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Dec 30 00:38:25 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 17,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a3c94bad2c012f1c5a913554452af392da251cad",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Dec 30 00:14:18 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 111,
+        "deletes": 15,
+        "occurrences": 6
+      },
+      "mod": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bc70b2fb6de023cb5708a91fe15ca404d0e7daa2",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Wed Dec 29 16:41:29 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 41,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "0b26f216e2e01b735c229371d69c106db146d120",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Wed Dec 29 15:23:05 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed3078e2d397819d5909d23654647227d8601f89",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Wed Dec 29 14:29:22 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2781f76f35325e5626af57b9e4152cf044fe87be",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Wed Dec 29 00:36:57 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "542778656f61c537929954465cd8385ea36fb32f",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 23:42:50 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 19,
+        "deletes": 38,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "7e3dabacb2e0cc2bc578ec24e2a207540a825d95",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 22:48:28 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 18,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "803fa844ebf5f5ce3873e72bedcc680098a2a8b1",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 20:10:47 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 16,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19adc945084161625dd6a82e932906669f72c80b",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 19:25:24 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 85,
+        "deletes": 29,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "7d5da5d80cb3edd6f9c1135ad4c13907acbe66be",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 14:45:00 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 11,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "368320257a4475cccc85a63383c1a48623156c87",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 14:06:39 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54ea17033cf80d4ce22b8f02b08e82333adb3ae5",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 13:37:18 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c962f8cfaa653ebcd1ea32a9c8e3e8fa6a433404",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 13:30:42 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "224c0ebd5836a85826c35698adc78aca820c4dd5",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 13:11:54 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54c945ab169de1045e38701fe81352bb5a073a3c",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 12:57:25 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "62642f21f876877cd6f1b3d5349f0dedda785e89",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Tue Dec 28 11:52:00 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 8,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0568fa3ec748c9f134e8914c331041349f5b08e9",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Dec 27 17:20:26 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 38,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2a85ed4120c43532656818b26be67021f165a429",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Dec 27 11:19:38 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 18,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cb7453e5c15c3f58878fd4de32571d757a238c2f",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Dec 27 10:42:48 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fbdefc7bc2fdd3a4932d435437bb5e682b5a8fb1",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Dec 27 01:04:29 2021 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b8b41c161ee03b0b4510ed20d7b462d33ced9dd",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Dec 27 00:25:50 2021 -0500",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 13,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8b8c9398b26eeae2cc3f8ddc03a10fb6bb45043c",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Dec 27 00:15:13 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 28,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d5b9a61aa3d37d69fedccff9f17ac434d82c8422",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Dec 27 00:03:38 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 65,
+        "deletes": 14,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "28df251ed83581c2407cd58e82e7ac810e77feb9",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 21:16:47 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b09c33f46d9a1891fe6ee9ee999cb10f957778ae",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 21:16:28 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8d39d2ce6c68a1996275caa4f0b0469cdc807fd",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 20:58:32 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5ab3dfe27cbf84d8870f5cd35323b5a6433971b7",
+    "Author": "mrusme <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Mon Dec 27 01:41:53 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 674,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "79e05bbb2893a2b2d03f6e6a44c089cbf916199a",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 20:30:58 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f35af4f1c54807becbbfa84b529d526fb4364c1e",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 20:28:14 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15ae1679478a524145dcf87ca487ff06dad70aae",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 20:24:09 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1c0bfa6d2df6d02de12597639c30a523e56953e",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 20:01:05 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 28,
+        "deletes": 59,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "28b1af7aa31886c31e5b243cdd4d5f2c02d839c8",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 19:49:48 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 18,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae238159fcb3292f28dd4ce68fde22b4c5b97b9f",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 19:28:48 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b62e5a243a791c27f3de29a938c9df531c0318f4",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 19:24:16 2021 -0500",
+    "fileTypes": {
+      "mod": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 24,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "621e2c557119fc8bca247546450c89e2df02811a",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 16:18:19 2021 -0500",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4569d36c0a63ba99f89b7a5bfebf315e2d5ae495",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 15:51:44 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 12,
+        "deletes": 8,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "d22540a96c5055188a8cdb548a03ef8d40276ade",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 15:37:28 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 11,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "32b5cc9304c5d26700fec5ec90c590a751dae02e",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 14:47:29 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f209d4c796539de46fe9459e17147b758e2b8c9b",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 13:48:40 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 34,
+        "deletes": 17,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ea5a8786234291a7807c3776aade37fb463fb88c",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 13:13:14 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d64ef5ba5db2f877f1ec6e96d37378cf0bce369a",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 12:24:57 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "261f2d161e1c8209b09798a0313d130eaea0b365",
+    "Author": "mrusme <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 17:06:56 2021 +0000",
+    "fileTypes": {
+      "yml": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5cec4863ec6c5c374d00b4a622d247df8e7c0f6f",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 11:53:57 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0cd6b7d945a76b524fc00765e85d0fe27382a4e2",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 11:50:58 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 42,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "17beba2c89f8412d1670cbd2e2cebf5827e02d4a",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 11:35:37 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "04f937d224139268da38cac377e44b2ff23c1ae6",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 11:34:41 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fcb7f4dc2570d88a5ea5c505fed88a579be56cea",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 11:31:33 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2df7c9ec878d29e64d3391ae443db2f5eff3da13",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 11:29:26 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e5e88f073c963420ce42bbbadad3dc6862d9dcf",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 11:27:15 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 33,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "52db2054078f2d9bc16465aaa202dca4fb621bd3",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 10:55:37 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 140,
+        "deletes": 70,
+        "occurrences": 3
+      },
+      "mod": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a064e2fae0c643e0d589faba31f2812b3a50b1aa",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 02:02:15 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 149,
+        "deletes": 107,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "0a536393e599d180fb460648ebb17f5d1fe074a2",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sun Dec 26 00:40:18 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 51,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1f1ab89056d5cd6254e638187072cb4c5de99c07",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 23:18:23 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 107,
+        "deletes": 12,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "c28ea0bcede0ec4711aab10bb562469382f56247",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 22:07:01 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e97a243b55833470fe5122bfbaf2471420edf720",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 22:02:56 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 152,
+        "deletes": 38,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "130bbe0ae3ca9008f0d0ea14f03a43c8b6b6d189",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 19:46:52 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 40,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c50fab0c936874b7a5c18ec9b3dce3dfec34a681",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 19:11:44 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ff34ea87f069f8b73838befc3149eaba2b811409",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 18:54:19 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 37,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "eb1a2403f6e447d4635c21c9079f305877f35368",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 18:35:09 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 76,
+        "deletes": 15,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "ba3c917ff5205b0b1b1b91b89b574d07d168fc12",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 16:37:23 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 63,
+        "deletes": 19,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e3f63f590698ecac86992ec14f3cf49c1f091dbc",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 16:01:42 2021 -0500",
+    "fileTypes": {
+      "mod": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 95,
+        "deletes": 37,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "5362c401d15bb36ca556a764116fbe59fd793f73",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 13:33:33 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 113,
+        "deletes": 67,
+        "occurrences": 5
+      },
+      "jpeg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fdb98ee403a150c4cdb72c20509d20bdbe088c08",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Sat Dec 25 11:19:41 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mod": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 186,
+        "deletes": 54,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e1dbc4ba2ef234ebb8eaeb3901bae5b6102478cd",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Fri Dec 24 13:44:59 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a3410cc03cb93e1b3341843aa69f74656858e86a",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Fri Dec 24 00:31:53 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 0,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "mod": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b874d1a34ec19786aae341b7ce9782fd352a473",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Dec 23 21:49:45 2021 -0500",
+    "fileTypes": {
+      "go": {
+        "inserts": 399,
+        "deletes": 260,
+        "occurrences": 4
+      },
+      "mod": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d5c9b78ad13d01ce0ddb10cf6cd77e43c0fa7ee",
+    "Author": "\u30de\u30ea\u30a6\u30b9 <marius@xn--gckvb8fzb.com>",
+    "Date": "Date:   Thu Dec 23 18:54:03 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mod": {
+        "inserts": 209,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sum": {
+        "inserts": 1626,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "go": {
+        "inserts": 314,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,1029 @@
+[
+  {
+    "commit": "b6e2f0a4784d063375734e2773fa7196cf43174d",
+    "Author": "obadiaa <alexandrobadia@gmail.com>",
+    "Date": "Date:   Sun Jul 25 15:21:20 2021 -0400",
+    "fileTypes": {
+      "rs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "86b38268880905c49057000fa74e0ba603facb87",
+    "Author": "obadiaa <alexandrobadia@gmail.com>",
+    "Date": "Date:   Mon Jun 21 09:33:13 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2a5c015752f71ef27429d1e8b98a2380864f834f",
+    "Author": "Matthias Seitz <matthias.seitz@outlook.de>",
+    "Date": "Date:   Tue Mar 23 09:24:23 2021 +0100",
+    "fileTypes": {
+      "lock": {
+        "inserts": 69,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 543,
+        "deletes": 31,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "7cd939115fbf5c3e14a144aace2e281806e28158",
+    "Author": "guanqun <guanqunlu@outlook.com>",
+    "Date": "Date:   Mon Mar 22 13:27:54 2021 +0800",
+    "fileTypes": {
+      "rs": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a620e7c0d2fd0556a6b99428c38720af2fda1f4d",
+    "Author": "Matthias Seitz <matthias.seitz@outlook.de>",
+    "Date": "Date:   Sun Mar 21 22:34:03 2021 +0100",
+    "fileTypes": {
+      "rs": {
+        "inserts": 25,
+        "deletes": 25,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "45904f7ac83183912c669595776c8b8f6b72fdac",
+    "Author": "Alex <19510814+obadiaa@users.noreply.github.com>",
+    "Date": "Date:   Wed Mar 17 12:44:07 2021 -0600",
+    "fileTypes": {
+      "rs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47c440a849898b36d423343a3f7437f1d47c481e",
+    "Author": "Alex <19510814+obadiaa@users.noreply.github.com>",
+    "Date": "Date:   Wed Mar 10 11:11:19 2021 -0600",
+    "fileTypes": {
+      "rs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8b278decbde5dcdd270da715ed1581f5ebc3303c",
+    "Author": "Alex <19510814+obadiaa@users.noreply.github.com>",
+    "Date": "Date:   Wed Mar 10 09:48:42 2021 -0600",
+    "fileTypes": {
+      "rs": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3fc73056f369616dbdcb9da043571337d404863e",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Mon Feb 22 15:24:38 2021 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 383,
+        "deletes": 411,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a97e9acdb600d01b96f173f6753c13ab36e41cb5",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Feb 16 15:19:26 2021 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4c28688155c8e5a1578ef42633191b3e211001eb",
+    "Author": "Alex <19510814+obadiaa@users.noreply.github.com>",
+    "Date": "Date:   Tue Feb 16 10:18:32 2021 -0300",
+    "fileTypes": {
+      "rs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4f0008d9518c8d8172821ee0cf9bbc60d0c5f7b",
+    "Author": "Alex <19510814+obadiaa@users.noreply.github.com>",
+    "Date": "Date:   Mon Feb 15 23:47:24 2021 -0300",
+    "fileTypes": {
+      "rs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e064a41f65a591a30605addb441835b7f72f2c6f",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Feb 11 10:08:11 2021 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d496fefd3c61ecc4f12db62fe63c433a6edd2db5",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Feb 10 14:56:52 2021 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "77fafd62e449c47604887e43c803231b7c515dd4",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Feb 10 12:54:12 2021 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 65,
+        "deletes": 51,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "34bab2edf01dd6ba393466bf95e6c7641ce348cf",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Fri Jan 29 08:43:10 2021 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82e48520bad15458ae6faf166a2f08c45bda4c4e",
+    "Author": "Alex <19510814+obadiaa@users.noreply.github.com>",
+    "Date": "Date:   Thu Jan 28 11:58:42 2021 -0300",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9d111bf50910f188c3ee66624d5b25b41757c0e1",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Fri Jan 22 22:14:00 2021 +0200",
+    "fileTypes": {
+      "csv": {
+        "inserts": 33393,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 43,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 48,
+        "deletes": 7,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "d20111ee92efead6181b2bb5da0d698514140c07",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Fri Jan 22 18:32:19 2021 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fb486d7012315c1a743a7c6de78b20ce9487a499",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Sun Jan 17 14:37:54 2021 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 70,
+        "deletes": 52,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d44477907ee6b97782e90f2c640210e779d6fff4",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Jan 12 11:58:37 2021 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 11,
+        "deletes": 4,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ee8de61316d4e15675fec9ebac4f6b79e2f658dd",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Mon Jan 11 15:20:15 2021 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 171,
+        "deletes": 73,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34c2d2c1620999fb065106f0738cedc0ed72c03f",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Sat Jan 2 01:11:28 2021 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 365,
+        "deletes": 375,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 16,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 21036,
+        "deletes": 1,
+        "occurrences": 5
+      },
+      "rs": {
+        "inserts": 436,
+        "deletes": 172,
+        "occurrences": 22
+      }
+    }
+  },
+  {
+    "commit": "1d16c1c0d5d201cadc11584ebf157738405cce43",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Dec 1 09:36:28 2020 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c21975154521cf8fae4629e350d132a51beb9cd",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Dec 1 09:16:10 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 6,
+        "deletes": 21,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "15372d9fe404a7c15d9d1ad567a00b1d3e326ebe",
+    "Author": "Jason Paryani <github@jparyani.com>",
+    "Date": "Date:   Mon Nov 30 22:52:20 2020 -0800",
+    "fileTypes": {
+      "rs": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2614bbe001fed6d684ac1cc4005aebc71b8a676b",
+    "Author": "Stephane <thegostep@gmail.com>",
+    "Date": "Date:   Mon Nov 23 10:37:52 2020 +0100",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13e5ae09ccef2294785301c82c39694445a65acf",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Mon Nov 23 10:11:16 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "24dc5542cceaa7bd8084888f36602125283d165c",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Sat Nov 21 13:20:58 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 22,
+        "deletes": 36,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "67a7a0292b59bfe37c7d8d51665a426a7b805f00",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Sat Nov 21 12:54:55 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d070ca1fcd55997352180fae7be292414ea3d19e",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Sat Nov 21 12:50:25 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 13,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9261389db57b50ac6b577f3fa2fe6825d64d6be7",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 19 21:45:30 2020 +0200",
+    "fileTypes": {
+      "toml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 27,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "71315dacbe2e1cc040e9f86e6c43befa0ce96a5c",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 19 21:42:53 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 46,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7731d7e7dd47a4ef3c790b418dbdb027b58d2bd5",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 19 19:52:06 2020 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 61,
+        "deletes": 26,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "058534b33341234a9bd1fc612cdb19edb3237672",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 21:32:48 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 4668,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 48,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8d9468cdc6afb511ed54f4c9b3c8584b6f065cf0",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 17:50:26 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 35,
+        "deletes": 14,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "738e0e34e9de20331f15618c1ffbde2296c85e17",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 16:15:41 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "285ecf50adb9833acd05957b7545ea708883e5a6",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 16:05:39 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 98,
+        "deletes": 77,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "94c8d2862ec14ab47117cbf01bbc56fe213b77b9",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 14:56:51 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 8430,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "80d934080d95b576342a1c4ac1459bece6983292",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 14:12:49 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1d1729f23f951cdc66c63bdde5a3594d35f11521",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 14:08:02 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "96addc3f378f0c5d7d8fe233e012efae159d7ec1",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 13:08:58 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 857,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 37,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "1a7410b40692fa00fc79a4b5331789da04f3d5e6",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 12:16:17 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 785,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 209,
+        "deletes": 103,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "255dd139649e46f2b4f61c67500f02b041afe686",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 18 10:04:25 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5cbfdb2392550a2d403c5927b662bb47a15b2158",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Nov 17 20:33:09 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 961,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "inserts": 275,
+        "deletes": 89,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "74f52399756207a77a2138c7d5bd708f7af59961",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Fri Nov 13 20:57:02 2020 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fc8c594e5be5be08456d05bada63870471d3c006",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Fri Nov 13 20:55:58 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rs": {
+        "inserts": 149,
+        "deletes": 38,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "6a8a40e5f0219d8c0f2511be032c484a7201e988",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Fri Nov 13 18:51:31 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1746,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "rs": {
+        "inserts": 168,
+        "deletes": 6,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "62ba5f83419ddae776a777af22429614eeb2904c",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Fri Nov 13 18:49:13 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 466,
+        "deletes": 544,
+        "occurrences": 13
+      }
+    }
+  },
+  {
+    "commit": "abc29be8d2589c19e159e0eda45b91bb3d84a23d",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Fri Nov 13 14:51:15 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 2224,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "rs": {
+        "inserts": 446,
+        "deletes": 53,
+        "occurrences": 12
+      }
+    }
+  },
+  {
+    "commit": "ebb1f6b62710cd25e83d6daac282b3141ff5a274",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 12 19:02:53 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1da9647649327f3c173a32101493385ad09f1a0a",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 12 18:56:18 2020 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 39,
+        "deletes": 18,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 14,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f42739cab834228e73277db99c18553017427c41",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 12 18:54:40 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 93,
+        "deletes": 78,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "05fcdb7c3fd2666c9527efc06c9fb6f35aa1fc40",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 12 15:57:54 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 50,
+        "deletes": 37,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1fbe3cead97513badd84e309a54adb82841de35",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 12 13:18:21 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 21,
+        "deletes": 16,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e9a351ddfa1f3d466dde60480399a733ddcbbfd8",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 12 12:13:06 2020 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 88,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "yml": {
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd1a03a5d822825e7a8f71285075f011bbb9a77e",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Thu Nov 12 12:09:56 2020 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7191b1fd89d80bfab8f186a06fd7aa272a7f0b2e",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 11 20:24:53 2020 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 119,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 113,
+        "deletes": 8,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "f4919a3f2e41bd3f03da78e9576f8de717d40fdc",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 11 19:53:24 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "efe616249e6225d69782e7b6819934650effb2c0",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 11 18:52:59 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 58,
+        "deletes": 29,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3e22b732051b1d3c8dbd339a35eed1f82ca56118",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 11 18:39:26 2020 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 26,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e4b343c3e39a9538ebbbe062a3bae09f494cb205",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 11 18:33:38 2020 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 116,
+        "deletes": 27,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "6991675d02c66dd5fbbe30968b770484cd34dca7",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Wed Nov 11 17:28:56 2020 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 214,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 177,
+        "deletes": 7,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "8773ba6ea9e98250ed783f61ce3730690f09717e",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Nov 10 18:25:01 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 643,
+        "deletes": 394,
+        "occurrences": 16
+      }
+    }
+  },
+  {
+    "commit": "eb3162feea1b29bbf2d05b2220a2986f514c242e",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Nov 10 16:10:08 2020 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 161,
+        "deletes": 18,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "80ac5ec6903b60e3be8c2ca56c1b670eed099ac8",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Nov 10 16:32:07 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 116,
+        "deletes": 46,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "997e544a8e8c207967ee8e530c6bb48aaca71982",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Nov 10 11:18:40 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 635,
+        "deletes": 492,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "d38a25f596fe85bb109d97733c8e2d8b97f31ec0",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Tue Nov 10 10:31:42 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 84,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2dd6cf5a66be83b6f489e390ea650003a94c2b03",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Mon Nov 9 20:55:24 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 67,
+        "deletes": 43,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cb8be8fe7737cea89e8d13284ee65bce039ff9fe",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Mon Nov 9 20:09:18 2020 +0200",
+    "fileTypes": {
+      "rs": {
+        "inserts": 134,
+        "deletes": 47,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "9185fa59c2f3b45c78afbb0a17eb1d1cf7faa708",
+    "Author": "Georgios Konstantopoulos <me@gakonst.com>",
+    "Date": "Date:   Mon Nov 9 14:58:37 2020 +0200",
+    "fileTypes": {
+      "lock": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rs": {
+        "inserts": 568,
+        "deletes": 391,
+        "occurrences": 16
+      }
+    }
+  }
+]

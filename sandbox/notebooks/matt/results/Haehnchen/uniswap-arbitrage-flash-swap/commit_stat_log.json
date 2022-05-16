@@ -1,0 +1,99 @@
+[
+  {
+    "commit": "20eee12fc5eb987b41c98edd089a2adb7df559e3",
+    "Author": "Rodolfo <rodolfo@patane.dev>",
+    "Date": "Date:   Wed Jun 16 14:36:25 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 49,
+        "deletes": 30,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "805f32f0ee9f071a4a15666eefaadb9ff0cfa45e",
+    "Author": "Rodolfo <rodolfo@patane.dev>",
+    "Date": "Date:   Wed Jun 16 14:30:50 2021 -0300",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "10716237b01546e834207a787ef9e08d3484cc0e",
+    "Author": "Daniel Espendiller <daniel@espendiller.net>",
+    "Date": "Date:   Tue Jun 8 20:30:59 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fee9199eefbb206e33bf1d3804cf69f2dfe92900",
+    "Author": "Daniel Espendiller <daniel@espendiller.net>",
+    "Date": "Date:   Tue Jun 8 20:11:56 2021 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6d62bcde785c491b4f7350e1dfa1c5f9dbed7824",
+    "Author": "Daniel Espendiller <daniel@espendiller.net>",
+    "Date": "Date:   Tue Jun 8 20:05:35 2021 +0200",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 22,
+        "deletes": 86,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 4729,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 527,
+        "deletes": 0,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "fface258964196d3e2c97b0d8edc86577a32b6f4",
+    "Author": "Daniel Espendiller <daniel@espendiller.net>",
+    "Date": "Date:   Tue Jun 1 21:25:37 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 180,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "sol": {
+        "inserts": 221,
+        "deletes": 0,
+        "occurrences": 6
+      }
+    }
+  }
+]

@@ -1,0 +1,5358 @@
+[
+  {
+    "commit": "f9f7100eec7466eae588c7515deef596d00a03c7",
+    "Author": "Erik Ritter <erik.ritter@airbnb.com>",
+    "Date": "Date:   Mon Apr 11 19:50:23 2022 -0700",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ee88803941b8a273103faf113c8621bc92aa71e1",
+    "Author": "K <kay-is@users.noreply.github.com>",
+    "Date": "Date:   Tue Mar 22 12:31:45 2022 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 17,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "23bff93cd7731c239313f5c0503a29b9265349ff",
+    "Author": "Mohamed Sadiq <mohamed.sadiq@outlook.sa>",
+    "Date": "Date:   Mon Jan 31 18:04:39 2022 -0800",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7dfa1ee7fe7cfbce9b9167df726e2625bd98a919",
+    "Author": "Mohamed Sadiq <mohamed.sadiq@outlook.sa>",
+    "Date": "Date:   Mon Jan 31 17:44:25 2022 -0800",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 8,
+        "deletes": 23,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d53ccd50c28822c2a98e6955e13b22afc989f440",
+    "Author": "Nazeeh Vahora <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Sat Jan 22 19:08:31 2022 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 118,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea70fbc3b8af25e62425e80dec2ff6e5f130cdbb",
+    "Author": "Nazeeh Vahora <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Jan 18 22:45:31 2022 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 118,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6cb2bc130314a540d8a03e1e9d6dda2c5193f7e4",
+    "Author": "Nazeeh Vahora <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Jan 18 12:36:53 2022 +0530",
+    "fileTypes": {
+      "jsx": {
+        "inserts": 0,
+        "deletes": 283,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 225,
+        "occurrences": 6
+      },
+      "ts": {
+        "inserts": 0,
+        "deletes": 2244,
+        "occurrences": 7
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 643,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 0,
+        "deletes": 550,
+        "occurrences": 4
+      },
+      "lock": {
+        "inserts": 48,
+        "deletes": 3122,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c21c844ef099750d73365745bbe058854ea0b075",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Jan 4 19:16:36 2022 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "23c4f252d60cdeb4b7ff7c2adec5b9ade7b6faaa",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Jan 4 19:16:35 2022 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0309da8751b0aba179e356b4f3ad736fc3d479b2",
+    "Author": "Raza <42661870+AlmostEfficient@users.noreply.github.com>",
+    "Date": "Date:   Tue Jan 4 15:49:08 2022 +1300",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8928137dfb8bdc8518c614c3c035ad2a93cc7861",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Dec 1 20:39:16 2021 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf4b5baae55ee9a498146a6f539c591be8e34567",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Dec 1 16:23:37 2021 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "93a96c172fb72020091061dcab29ca8a6ea2a857",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Dec 1 15:30:02 2021 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 38,
+        "deletes": 51,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 27,
+        "deletes": 42,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "937c0ba92631e699966b45c5fdfea27d6f4b1e71",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Dec 1 14:51:17 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d50b09672f34993db6489ea1d44a099f3bb13411",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Dec 1 14:08:19 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 19,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6900fcb4872840e6a6df570f8c9266f0bf9beeae",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Nov 24 12:13:11 2021 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03f5d5205f25b5a57075e2f296975d772e697619",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Nov 24 12:01:23 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b7d46e6c9724e5b62027a3b88bd90c649f204b03",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Nov 24 11:57:09 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9cd4527957026af7c33f66dca6a7e8bfa5f912b6",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 16:52:20 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 141,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b23eadf2b0fe27dc1e160c40264892414102c32a",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 16:52:08 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2996b03e783ffe4f1459d490433a257dfceb1bf",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 16:43:04 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dae25c7b81a537a795195c12603e8dc7af3ae553",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 13:40:35 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "59ef3cb791fb282c281887426f72f744136c2c70",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 13:23:03 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cc8881df47cac6beb2dbadbae106fd9e70f24683",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 13:15:02 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bcf4f15045740ab772a02ada68c4d853f1c769d5",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 13:10:32 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b0c6c099073fac30322c51e62d229d7fd5a14a4",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 12:57:49 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "810cb90f2dc97bb1ba9a6754e6add6bfd456bdc7",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 12:57:21 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0f6790f469363be50fc12de6798776be026f799",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 11:40:18 2021 -0500",
+    "fileTypes": {
+      "svg": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 38,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e6af147f004d400509aee06e53e56f65a94b5db9",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 11:39:26 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 38,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c0f3a0217e119491e4e9f6e21dc6d29469bbb75d",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 10:28:09 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 53,
+        "deletes": 81,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c84889be9275dd7b3877e7a50d1a33738964bb0d",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 10:26:14 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d1440ddfa0d09ba5a4f1d6323c47b353b39c7212",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 23 10:26:01 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3ebd9e983f9be6ca078d52502cdb41752837b375",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Sat Nov 20 12:36:26 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 62,
+        "deletes": 62,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "35283f4b6663db4c6f60cb8dbb879d5a8186b1de",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Thu Nov 18 02:11:41 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 172,
+        "deletes": 63,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f71db5f144b53580a6f9d6fec76dd466fd3a5dfa",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Thu Nov 18 00:14:11 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 26,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 21,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "058e8a0abe0676533c664c99cc41d2c11d77545d",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Nov 17 21:05:56 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 75,
+        "deletes": 166,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 8,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "32b787aaf4d2736fc9423618028127889a71c92f",
+    "Author": "Narbeh Shahnazarian <narbwork@gmail.com>",
+    "Date": "Date:   Fri Nov 19 18:43:23 2021 -0800",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c47718819c521c2ce249ce9b520c031ea886674",
+    "Author": "Martin <mbuxmann@outlook.com>",
+    "Date": "Date:   Thu Nov 18 08:14:41 2021 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "96cedecbff4910c8f3e0024e2fc34b097f05c1b6",
+    "Author": "ItzaMi <rros00@gmail.com>",
+    "Date": "Date:   Wed Nov 17 21:40:39 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 18,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20cfac160bc320d9adb812d2f45fb8e49b0ebd94",
+    "Author": "ItzaMi <rros00@gmail.com>",
+    "Date": "Date:   Wed Nov 17 21:40:12 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 20,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7967bde0abbfc918ed1327a71be5531fcd46961d",
+    "Author": "Martin <mbuxmann@outlook.com>",
+    "Date": "Date:   Wed Nov 17 10:35:19 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3b6365cb34c693d0f25617f6d97047f1d89f10d1",
+    "Author": "Martin <mbuxmann@outlook.com>",
+    "Date": "Date:   Wed Nov 17 10:30:34 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 53,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "590a5ff6115a573cef2b90ee15be062c4f7f43b0",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Nov 17 04:28:26 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f94262dda54ed165c2b4abc2787336cb76efbca8",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Nov 17 04:28:25 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f526e6c5b8fb2224e7c0eb17ccca36cdc127d0df",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 16 07:53:59 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56fb2f4a7d9ba96fcf0f62cf271b32dab9f42243",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Nov 16 07:44:30 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5aec4d0073796dc4f9d33397114076391134d33f",
+    "Author": "Orlundo Hubbard <orlundokhubbard@gmail.com>",
+    "Date": "Date:   Thu Nov 4 16:30:08 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 125,
+        "deletes": 54,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8efea2ad7e9a2589d4b188ef8fecf63b0afdb785",
+    "Author": "Martin <mbuxmann@outlook.com>",
+    "Date": "Date:   Tue Nov 16 11:34:37 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e4167c27950ecf772be7f715b692322164166daa",
+    "Author": "Martin <mbuxmann@outlook.com>",
+    "Date": "Date:   Tue Nov 16 11:33:14 2021 +0200",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50f35936f2127fa60282f9ebda42c322ce070c05",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Mon Nov 15 09:36:45 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f940476a2a6a85e67b713689bd3771870a9cc41f",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 14:35:05 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "266b8cf5860a66b7ecdadcf2565bc6c0ef29250e",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 14:35:05 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e5635052d56569c8d50f11b97303467ffc3843f",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 13:19:56 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "198b16744f7af22c3d357bda1254f6b609eb95a7",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 13:19:55 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9394e49442a9be1740846fec7b5027b7246096bb",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 13:23:45 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de6cbe75b4c72e0b83f87a3f2856a216c1206962",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 13:23:44 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7644f289bb6cf4c843eafe12e939bc2674feb407",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 13:23:18 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3ea747d0577cb7c5c2d3f10500c14d7b7c181fe9",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 13:23:17 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4141b98482bd4def60e7071c17dc7b7b66f90301",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 13:22:37 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7590d84ad1bbc598e06144ff9c8d1c4548ec4b3c",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Nov 15 13:22:36 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "734c9e4397d90235eab2a251649612172022a721",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Mon Nov 15 08:18:00 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cb61b539f01a49ba586d5fb805c83cb74af7ea63",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Sun Nov 14 14:34:39 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dae285012c045318d9221f34afc9845befd64998",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Sun Nov 14 12:58:53 2021 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "91ea19e9542181402991b6a4ba6db9f110e2fcd5",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Sun Nov 14 12:51:27 2021 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a405e6ca697b0891f3709ad5e45c41459919da26",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Sun Nov 14 12:22:07 2021 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0758564fe81fc083c9be8285e229f195972852ec",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:31:25 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e3a18ce64bc35e31b8959f1df902e266f120169b",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:29:15 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6807544e1baa52acf863cf204ad2845fe9bfc6e8",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:28:43 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a8f0a2611b00a2dafe4ef240e71b1c8dafb5e2f",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:28:18 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "77ea0fd8184ec86fe82a7679b1a8558767c4b1df",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:25:50 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54d4d16e22c70dfd96d6c322b9414928e6a43d1c",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:24:44 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3371e753400e1d86ebf40cda8cb769af3befdff1",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:24:22 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2d25169177cbb199b61b551bf1302529ca5330de",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:24:06 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "945965fe93d4a379618c84b502130399b7ec0872",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:23:44 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0af70ba91120db75de93285d8d13d36fad0a7247",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:22:51 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9557eff5946604ba7c16ddbe4d9a495c4ffde7f5",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:22:13 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31b5292a7f70a076ef2f068a83f0fe854045366b",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:19:17 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "431608166b9bc9545962badf43dfa530d370c147",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:18:48 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f91ba3b64918315e9a9835dc823a9d1fb69a5224",
+    "Author": "Andy Chen <amazingandyyy@gmail.com>",
+    "Date": "Date:   Sun Nov 14 11:18:36 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "73970e13a9604ce4d1d527ba10b192feb59d8ba9",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Sat Nov 13 23:46:16 2021 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 76,
+        "deletes": 27,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 45,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "257125dc62a448783546b19561e696a727ba1b5a",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Nov 9 02:05:41 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8feb236e61fc130ee7fd1188959e0f97485337e",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Nov 9 02:05:40 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "db667b7c509d7e77998613a90375850dd883f3ff",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Mon Nov 8 19:40:52 2021 +0100",
+    "fileTypes": {
+      "ts": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8d50b829576d9ea2e78c4443030ad70faebabf3f",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Sun Nov 7 14:14:46 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f04e55616d9dce7944f50a379b4e5d02042caecc",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Sun Nov 7 14:06:47 2021 +0100",
+    "fileTypes": {
+      "ts": {
+        "inserts": 15,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b054c970cb968d4b43677b3fff8d7738a5ea4b31",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Sun Nov 7 14:06:27 2021 +0100",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "713f6624da6a277894cf0819a3ee6d1e15bcd9e9",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Sun Nov 7 13:05:07 2021 +0100",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "642b68ab72a05d990b5c5b540406e0f594385f21",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Sat Nov 6 16:00:43 2021 +0100",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c9c6850ba31d49f8fa16d19b066301cecce261f4",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Sat Nov 6 16:00:23 2021 +0100",
+    "fileTypes": {
+      "ts": {
+        "inserts": 8,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c6e16136cc97a536453effd88a23d6d07e25ea6",
+    "Author": "Martin Beierling-Mutz <mbeierling@gmail.com>",
+    "Date": "Date:   Fri Nov 5 21:56:26 2021 +0100",
+    "fileTypes": {
+      "ts": {
+        "inserts": 91,
+        "deletes": 54,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4b27a3a2a47b5331562557c2ce484434c1c4948",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri Nov 5 13:21:44 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "faeb7d6e34dab79cda7d52024daeba75ee9ed2a0",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri Nov 5 13:21:43 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c54db996c36ade27cd6e85c75aac0aa6486e341c",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Thu Nov 4 15:15:22 2021 -0400",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9cdce40f5e43495cce50ca43e0ee363a3a7a8246",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Thu Nov 4 16:52:28 2021 +0100",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 10,
+        "deletes": 7,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 15,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1ba1e51444246dbfdeac92dfa6606b5bb25db389",
+    "Author": "Martin Beierling-Mutz <mbeierling@gmail.com>",
+    "Date": "Date:   Thu Nov 4 00:32:18 2021 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e90fe621fad5daa392d1cbb19402d787705ebfef",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Wed Nov 3 14:58:32 2021 +0100",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebfebbf287c65c1ea70ad820f9327e84eabab699",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Wed Nov 3 11:29:25 2021 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 17,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8d4a3fb9870dc508cf25baa1fe8eb25797a27779",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Wed Nov 3 11:28:52 2021 +0100",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9680778ceef8f90194f7dce345a998f9894e7735",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Wed Nov 3 11:28:23 2021 +0100",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fcf4b8ba0722af77b61009dfe736964b8d2bdd5b",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Wed Nov 3 11:27:15 2021 +0100",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7457f37f47edd820ac2d64b3959c09a9c5477d5",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Wed Nov 3 11:25:57 2021 +0100",
+    "fileTypes": {
+      "ts": {
+        "inserts": 27,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f246c9285d71796ed2b9fb58386da7ee03c5920",
+    "Author": "Martin Beierling-Mutz <mbeierling@gmail.com>",
+    "Date": "Date:   Tue Nov 2 23:49:18 2021 +0100",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 75,
+        "deletes": 20,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 93,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "740d7302c7f17e76f0be043c13ea01005944fc2d",
+    "Author": "Martin Beierling-Mutz <mbeierling@gmail.com>",
+    "Date": "Date:   Tue Nov 2 22:31:41 2021 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f83462b2c769e0e3c7b92ad5dea2060d95e2084",
+    "Author": "Martin Beierling-Mutz <mbeierling@gmail.com>",
+    "Date": "Date:   Tue Nov 2 18:08:19 2021 +0100",
+    "fileTypes": {
+      "ts": {
+        "inserts": 90,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47d50b3ae7d67a4b0f83a39f59582442e451d155",
+    "Author": "Brian <IbbyDev@icloud.com>",
+    "Date": "Date:   Sat Oct 30 19:53:31 2021 +1100",
+    "fileTypes": {
+      "jsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ad5af53c521d386c3c69d91421491c687658cc5",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri Oct 29 12:50:17 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "183100d4932973a1cbb9c57899741ae5c437d451",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri Oct 29 12:50:16 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf01437cccb64942aaf88d30b5f1a71cae4d4445",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Oct 28 19:24:59 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "108287cd69689ba5740c64cf9e922441a87dd860",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Oct 28 19:24:58 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c55103469706cb2858d5bb4a15579524d9fa887",
+    "Author": "Brian <IbbyDev@icloud.com>",
+    "Date": "Date:   Thu Oct 28 13:05:19 2021 +1100",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "eb5de748ded26592c5c9836e961c118f8aadd4c5",
+    "Author": "Brian <IbbyDev@icloud.com>",
+    "Date": "Date:   Wed Oct 27 22:00:31 2021 +1100",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cjs": {
+        "inserts": 0,
+        "deletes": 147406,
+        "occurrences": 1
+      },
+      "jsx": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e28a85961d459cfdce4ecfd649122711e28e051",
+    "Author": "Brian <IbbyDev@icloud.com>",
+    "Date": "Date:   Mon Oct 25 15:22:36 2021 +1100",
+    "fileTypes": {
+      "jsx": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 30,
+        "deletes": 29,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4657b2e101bde8bc860e1300c1bca28460d792ac",
+    "Author": "Brian <IbbyDev@icloud.com>",
+    "Date": "Date:   Mon Oct 25 13:09:17 2021 +1100",
+    "fileTypes": {
+      "js": {
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jsx": {
+        "inserts": 58,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 106,
+        "deletes": 45,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "076abe8341fcadc9d7f6668ca75c8824cdcf9379",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Oct 23 02:00:15 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cb5cae1e9880347341dfd8b23a13c0332e7386fb",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Oct 23 02:00:14 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "566922456ef8d2c118eae5b2b87817ecac632019",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Oct 23 01:59:20 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4c72afd39f4afa2ec83f2a6d2dc376ab00567b67",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Oct 23 01:59:19 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd8583296409191e9dbc3ae8541c5adc1c6ee99d",
+    "Author": "Brian <IbbyDev@icloud.com>",
+    "Date": "Date:   Sat Oct 23 12:57:46 2021 +1100",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 23,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f13c1734eef94d21351ffbca4669188c53fad1e1",
+    "Author": "Rinat Akhunianov <rinat.akhunianov@bookedby.com>",
+    "Date": "Date:   Sat Oct 23 02:15:19 2021 +0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 24,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5040f79db7292f7c058df68b3b36156e3595c7c2",
+    "Author": "Brian <IbbyDev@icloud.com>",
+    "Date": "Date:   Fri Oct 22 18:49:38 2021 +1100",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "732568f6a30db06df9bab33591acd94a17922a41",
+    "Author": "Brian <IbbyDev@icloud.com>",
+    "Date": "Date:   Thu Oct 21 09:55:46 2021 +1100",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d3dd3940d0fd5e9764d2d9538f11d8446602c8da",
+    "Author": "Brian <IbbyDev@icloud.com>",
+    "Date": "Date:   Wed Oct 20 16:15:05 2021 +1100",
+    "fileTypes": {
+      "json": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 41,
+        "deletes": 20,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "79c38ed2d0a5aa675cf05aa7341c8335a6406e3a",
+    "Author": "cmotta <motta.caio@gmail.com>",
+    "Date": "Date:   Tue Oct 19 02:04:06 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 20,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "009953f610eac3c0d18d33cea16d1adad17930c7",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Oct 14 19:26:37 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "52327fd1eb2a34ff376913708c78ebfba42650ec",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Oct 14 19:26:36 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e6001b34f3b32ddb88ac0e1aa3fc557a36a5d6dc",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Wed Oct 13 21:11:59 2021 -0300",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb572f03996eae06d657765016eb02dc9316ef63",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Wed Oct 13 20:31:49 2021 -0300",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2cf215af9075f4430257f87ee8bb28cbc8da8d99",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Oct 13 14:16:27 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2eb4de94aed876b3a8c6ad866fbb96b45837dbd7",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Oct 13 14:16:26 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2af16ca71465f3c443977d82279c281f38d69269",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Oct 13 10:12:06 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 11,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1b0307f198a0af484524e00f4f043f095c0c5b50",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Tue Oct 12 15:41:26 2021 -0600",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 24,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2057f3a193cbc814c9adc5ecdd545bfc8c7b439d",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Tue Oct 12 15:34:29 2021 -0600",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "57eade8bce49b8413ab05822c8afb97f1705537a",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Tue Oct 12 15:32:42 2021 -0600",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f1c3997f8fa68bd2dc5c24a4450ff6ed3117ec64",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Tue Oct 12 15:31:13 2021 -0600",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d550ba8b428db93134b7eb5d5106eaff4cf09c1f",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Tue Oct 12 15:30:51 2021 -0600",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "edc09a053f975f2225aea9e9345705f8fdf982ba",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Tue Oct 12 15:30:33 2021 -0600",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "778d2280a295472c1eee574e3b808e54a36c96bf",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Tue Oct 12 15:29:58 2021 -0600",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c15421260271254a6815c6af5b58f4ce9b9264fa",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Tue Oct 12 15:29:34 2021 -0600",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "acb4afd2e099897b4dead568b49183b2dd018707",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Tue Oct 12 14:43:54 2021 -0600",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f21ca240ce812ae4af697c80d898bede518c2d14",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Oct 12 12:58:12 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9455227966837d105805652de9739c22ee319d2e",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Mon Oct 11 09:57:10 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d6c95a17cd38c5427949c7591791073c4ad10533",
+    "Author": "Sijeesh Joshi <feelthescintillation@gmail.com>",
+    "Date": "Date:   Mon Oct 11 23:06:20 2021 -0600",
+    "fileTypes": {
+      "js": {
+        "inserts": 54,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jsx": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 39,
+        "deletes": 11,
+        "occurrences": 11
+      },
+      "tsx": {
+        "inserts": 122,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 310,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e6780a7b4376ced59b07da02115b38d0ab395edd",
+    "Author": "Jay Nguyen <jay@nguyens.co>",
+    "Date": "Date:   Mon Oct 11 20:14:51 2021 +0100",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 62,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a9ba19f11358288c0247e94ee752fcff982a42c5",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Mon Oct 11 15:10:32 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "299d437fc3c0276f0e6988e4dd1ed38054cc210b",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Oct 11 19:03:16 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "67fcf20da13f428f7a3d705b2679f5107605ed07",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Oct 11 19:03:15 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 23,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8943e5bfda3e2ccc3205b93e76a5a036391163a",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Mon Oct 11 11:21:08 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6faed821c76dc826798eaba082f207081edfab94",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Mon Oct 11 11:11:30 2021 -0400",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "267c7618a9051b783150026b947c072e065a8c80",
+    "Author": "with-heart <with.heart+git@pm.me>",
+    "Date": "Date:   Mon Oct 11 11:05:46 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 87,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3106175676d8a5066da9611327f500fe406999c2",
+    "Author": "Dennis Nippold <dennis@nippold.dev>",
+    "Date": "Date:   Mon Oct 11 16:56:51 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "77eb505083a038e057508aecb40385ccc9231695",
+    "Author": "Dennis Nippold <dennis@nippold.dev>",
+    "Date": "Date:   Mon Oct 11 16:24:50 2021 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3638414dfb86231d8780f2c83720223765afe84d",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Fri Oct 8 18:15:33 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d2f58f84882024e9bfcc85f515b5da7aa1e2e61",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Fri Oct 8 09:24:45 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "525d1c513b22f915fcac6703eff6019ea26dde7f",
+    "Author": "Raz <me@raz.works>",
+    "Date": "Date:   Thu Oct 7 21:10:33 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 23,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fba2be78e82a12e6a8fc1e825e6f7470677aa363",
+    "Author": "fluidself <me@fluidself.org>",
+    "Date": "Date:   Wed Oct 6 10:43:40 2021 +0200",
+    "fileTypes": {
+      "jsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1c3aa4af2e4b74840ee6d824a573e64fa5c08974",
+    "Author": "fluidself <me@fluidself.org>",
+    "Date": "Date:   Wed Oct 6 10:34:12 2021 +0200",
+    "fileTypes": {
+      "jsx": {
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c9fd38d8f7512fd6490d51ea851dfa1b5fa18c21",
+    "Author": "fluidself <me@fluidself.org>",
+    "Date": "Date:   Tue Oct 5 19:25:47 2021 +0200",
+    "fileTypes": {
+      "jsx": {
+        "inserts": 2,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 52,
+        "deletes": 27,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "32d2fa6b7431f796ef3046df5826489fba01e9d7",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Tue Oct 5 17:00:40 2021 +0530",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "41c83247ad653a595675ee5c80024f495e7570f9",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Thu Sep 30 18:57:34 2021 -0700",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ddf98275721fb779ed91e1099fa5f90b734f631c",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Thu Sep 30 18:55:20 2021 -0700",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5f3df924a32522762d7b31f4c5650c6c4061c0eb",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Thu Sep 30 18:50:15 2021 -0700",
+    "fileTypes": {
+      "yml": {
+        "inserts": 35,
+        "deletes": 28,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5bc654b32e044372747543374ba9d21f3154c0d3",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Thu Sep 30 13:38:30 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "08c1d5c0667806ec5886fc1e0f874744bf561373",
+    "Author": "Emanuel Canova <canova.9400@gmail.com>",
+    "Date": "Date:   Thu Sep 30 17:22:09 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cdf4b02986dfe5a7a6f63a88e1c9715b186572a8",
+    "Author": "Emanuel Canova <canova.9400@gmail.com>",
+    "Date": "Date:   Thu Sep 30 17:15:33 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 19,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9614c98876e3a5ad0b4fb14ec2196d07d0343bc5",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Thu Sep 30 12:13:58 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 59,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "465f060fb797c26a839e71e5adfcc21b8fce9b95",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Wed Sep 29 20:16:02 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3a4230a0710b3413b6f81578e4ce9bd4077c6d75",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Tue Sep 28 22:30:22 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 35,
+        "deletes": 44,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8a2f36fd3c71b2762054192db089f05ac2ac0ed6",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Tue Sep 28 20:33:59 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 46,
+        "deletes": 10,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "40afaf17df073896e522142b0ecf24e68644cd19",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Mon Sep 27 22:35:40 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 52,
+        "deletes": 20,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "c55392f8e475fb764efb24b4af18e2d6f48f5ed9",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 28 13:47:09 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21e3b8595bf68693df9cbf1e389b2fbf3a470dbb",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 28 13:47:07 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe4ec038551affd2a4c8db28feb102f6d934c2a8",
+    "Author": "Davy Peter BRAUN <hello@davybraun.com>",
+    "Date": "Date:   Sun Sep 26 20:45:16 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ac679aaa85d033e22f255528cac265c275a17ef6",
+    "Author": "Davy Peter BRAUN <hello@davybraun.com>",
+    "Date": "Date:   Sat Sep 25 19:19:31 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5594b011988887948ef48a6d092fb25a1dd27fda",
+    "Author": "Davy Peter BRAUN <hello@davybraun.com>",
+    "Date": "Date:   Sat Sep 25 19:09:17 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 25,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 9,
+        "deletes": 13,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "4f228d07886dba614f3e8b4b3ecfc93f70c08533",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Mon Sep 27 21:40:08 2021 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6eba2a7223ffa601132dc2a34d80c6d40d7ac39d",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Mon Sep 27 21:25:11 2021 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 8,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f3676431e774011a5792c4fe6c5be99881a74fba",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sun Sep 26 21:13:43 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ecff8eb2968e5a897f8e85bf1da6ff4d62955321",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sun Sep 26 21:08:33 2021 -0700",
+    "fileTypes": {
+      "yml": {
+        "inserts": 97,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 46,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7f4440dd28b3c281c08d85eb2f51dbb3d9f346c4",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sun Sep 26 21:08:02 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 120,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4d358b3a0d900d4679c6f964f90e2e98f4083933",
+    "Author": "Nagma Kapoor <nagmakapoor@gmail.com>",
+    "Date": "Date:   Sun Sep 26 21:12:02 2021 -0400",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 13,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "506a1fdddf6296fef890759d873a15b16650734b",
+    "Author": "Nagma Kapoor <nagmakapoor@gmail.com>",
+    "Date": "Date:   Sun Sep 26 21:10:47 2021 -0400",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "264d247ae78f6471a922fadc66fb1fbc7479236e",
+    "Author": "Nagma Kapoor <nagmakapoor@gmail.com>",
+    "Date": "Date:   Sun Sep 26 16:36:43 2021 -0400",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 17,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c7926828968b94e8a98a1983c49237ced6d03880",
+    "Author": "Nagma Kapoor <nagmakapoor@gmail.com>",
+    "Date": "Date:   Sun Sep 26 16:15:18 2021 -0400",
+    "fileTypes": {
+      "cjs": {
+        "inserts": 147406,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 635,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 288,
+        "deletes": 15,
+        "occurrences": 5
+      },
+      "lock": {
+        "inserts": 1359,
+        "deletes": 192,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fccb41967de0f9254f5fc9f7c8baa7b81d6c0bfc",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Sun Sep 26 14:16:08 2021 +0530",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 14,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8adb25da0b826f4d381fcc7661e3652cb026438b",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Sep 25 02:09:12 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "98659761e74fd5b74ab73ef1fc495c4464da185e",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Sep 25 02:09:11 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fff9676a9736f0fe3b0fced354dc11abe9c7c92c",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Thu Sep 23 18:08:07 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 201,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f38350ee6713544764beb32ea9df44bc9c1680bf",
+    "Author": "codingwithmanny <codingwithmanny@gmail.com>",
+    "Date": "Date:   Thu Sep 23 13:08:23 2021 -0400",
+    "fileTypes": {
+      "zip": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a851f1648eb126eb6c3c4e2b233908449ffcdb77",
+    "Author": "Greg <gjsyme@gmail.com>",
+    "Date": "Date:   Thu Sep 23 01:08:40 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4944f07212b32df611ffb8a5ce473429365915a1",
+    "Author": "jsgm <34169065+jsgm@users.noreply.github.com>",
+    "Date": "Date:   Thu Sep 23 00:46:21 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8dc5f6f46fcc7722e79d9c4041c96376cf698cb8",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Wed Sep 22 20:31:19 2021 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea9151ec190c9d40a14e9fa9f0b7b1b99660f4e4",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Tue Sep 21 23:18:30 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 4,
+        "deletes": 95,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "41c758d226a97eff929213af716b0dc0c0ac092f",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Tue Sep 21 23:13:09 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2d00380f030dbd80fc53b21763768abcdc1cd3a1",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Tue Sep 21 22:19:04 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 13,
+        "deletes": 92,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "702d058d21e860d2324d5d448fdc58a87ee4f022",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Tue Sep 21 22:07:01 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "f9529b4024b595bf4bb7f48c8fbdf9c81cc20bc3",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Tue Sep 21 22:03:09 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 23,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "jsx": {
+        "inserts": 8,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c27f28e8972c4620c8d8ede12c0bebae4a033f85",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Tue Sep 21 21:37:39 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "767b8bfcdd7b33a216e5221af497fd6b4b39be05",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Tue Sep 21 21:29:04 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 54,
+        "deletes": 33,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7a01bcfaf299190065020479bb3c6170e9a4f481",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Tue Sep 21 00:00:37 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53c58860cef2f6deb52791018e6f9e409b2d74f6",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Mon Sep 20 23:53:39 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f40cf3137afc3ec29efcf5d6ec75f4438fd91c4c",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Mon Sep 20 23:52:28 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6309923754d1a4ecd3c4bc6097dd3774b873099b",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Mon Sep 20 23:37:05 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c369e439b0243d2a98073fcbdb7c80cebac9ee1",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Mon Sep 20 23:33:27 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 12,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d463d161bcc6672f2c93eb6bd6637efb4846e790",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Mon Sep 20 23:28:33 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f11449624dc277b466a7a467fc301ac52effe2e4",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Mon Sep 20 23:15:49 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 40,
+        "deletes": 22,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "38e47b425189f876c3bae85b9295cc9110150f86",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Mon Sep 20 23:03:42 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 14,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ef6665067100d83e179fd3c273aabd789bfdc78a",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Mon Sep 20 22:57:25 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fa4099c8b27b3fd94e5a09f940519b7f8e698565",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Mon Sep 20 22:47:05 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 14,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bd4dcde3455a20c5f0f4e5d711ba3e779cab61c7",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 21:13:52 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b3b9f170e0ce6f2575a95ab78b77a39ea5c465b9",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 21:08:52 2021 -0300",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6899b33019a05a069b628ded0b21f7c2b94f83b9",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 21:00:35 2021 -0300",
+    "fileTypes": {
+      "yml": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b7305fa713ec6ac199145c7f03eccf3411f49608",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 20:54:47 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "471d50f3981f4bdbc81d009f439cf42a6285cfe2",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 20:53:58 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0908e74f734ae2e271c53d17e133ac8f451a4f3e",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 20:43:50 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "710ba4bb268bdd1b63341119c45b1684ca5224e5",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 20:43:35 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "670e40c154ac1588bfb69cdda278f9e6dd7c1c7b",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 20:42:52 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 95,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53cee292526fd1fbc2d1e6798d059384e64fae52",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 20:42:20 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 28,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "772a6cddbc7eea644ae7b5c35fda0e9f3b5e9b3b",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 19:47:01 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0042ed2c4fc01a8f873990098e917fe5283b4e83",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 19:46:20 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e40740debc9906f3bbb696b90c9399ebd8908229",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 19:45:50 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29ca71174e88921c3b7e8352cccbd80bfec7cd9b",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 19:45:39 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f75c822462fb5baca226ca8ac92679718a139d15",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 19:45:33 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ee25b606f11b9fefe1c700218af4c149bdf7cb0d",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 18:51:21 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 26,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa0dfbcdb9569c24758ac76dd7adf4c971ca8f0b",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 18:27:30 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "931dd8fd6cab7b1c650a913d19a5d855617ddd7d",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 02:00:05 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 23,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0e31354ca571bd054e4e829bbfff39ffd14c19de",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 01:40:03 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 35,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "lock": {
+        "inserts": 368,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "240674d72dd242eaf2c78bf4ee970d30891cd6fe",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Sep 22 14:14:46 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ec58be15bb7f060521588d302d7bc19d6fdc49f6",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Sep 22 14:14:45 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "57ea977c3d9d2ee6a358e8790ab24c4cf18259b4",
+    "Author": "Trevor French <42419234+TrevorFrench@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 21 09:38:41 2021 -0600",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b10a56ad0d42a35f9ed60f18c1ac960191b59737",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Sep 21 21:03:15 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e1219ea781b321b74e58dc5b60c9244fa405bfd9",
+    "Author": "Trevor French <42419234+TrevorFrench@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 21 09:29:39 2021 -0600",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6e30cc124cf20f74ccf6fda410ec66c95c86f728",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Sep 21 20:54:45 2021 +0530",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "391d59300e6a396058e0d1e052ffdc82f3c9f374",
+    "Author": "Trevor French <42419234+TrevorFrench@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 21 09:19:34 2021 -0600",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b5e67ac4aa3025b7be8525cf09d6a1bd9b79dd67",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Sep 21 20:48:37 2021 +0530",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29554aaefdb32c20d2399a1be1a584f422c8411d",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Sep 21 20:47:55 2021 +0530",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f64c0da37171bd36e0dcedb136367698d95727e",
+    "Author": "Trevor French <42419234+TrevorFrench@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 21 09:16:32 2021 -0600",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a038af0547e8aa3cdad07ff169758c01d998d726",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 00:08:36 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "583742a191aa57f895e063b2c4d38b70b40f449f",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sat Sep 18 23:58:07 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "413f1d12b462cd5a9f8ab41ccb58212fe43299b5",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sat Sep 18 23:41:36 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f796fe25a4cb51f13e12baa3d53cde281e962052",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sat Sep 18 23:31:05 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4b889fa36f4d126a491a92b84602d007765cacf4",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sat Sep 18 23:24:33 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "613d1d9e9ab9a728f81267a4e67d8505918e1361",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sat Sep 18 23:24:17 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 9,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8258b3ad06d357aa4bfc289ffa4274945182fe90",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Sep 21 09:57:01 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jsx": {
+        "inserts": 0,
+        "deletes": 12,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "5f2a1bf55a1d94c5b88c1e578f4b351ece46a143",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Sep 21 19:10:47 2021 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd1f16779ec45930a59e738752758c7b456d9caa",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Sep 21 19:06:45 2021 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 19,
+        "deletes": 21,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "b40cd08c6aef09d0ebb982c9556b22639b50dc73",
+    "Author": "Miral Suthar <57826091+miralsuthar@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 21 18:53:04 2021 +0530",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 22,
+        "deletes": 40,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "6293d2cf37ae73344dc934a07dde3039bcda0963",
+    "Author": "Miral Suthar <57826091+miralsuthar@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 21 18:28:22 2021 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 24,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "2b7b4ca41bfb6ba9c3f1e6e8b2aa7010d87b88ee",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Sep 21 12:36:18 2021 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 23,
+        "deletes": 17,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7366070586c565e5d508a6be7b25c40a50500f2c",
+    "Author": "Miral Suthar <57826091+miralsuthar@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 21 12:12:56 2021 +0530",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 24,
+        "deletes": 8,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "017d6e6cbc26f40043c0582da904a6a7addb80fe",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Tue Sep 21 11:53:54 2021 +0530",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "235121e072e9cb34a78a49d801784d4a8c8395db",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Sep 21 11:33:02 2021 +0530",
+    "fileTypes": {
+      "ts": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 21,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 14
+      },
+      "lock": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "257da6709adcf2c30a5a7288864a74897d5f0644",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Tue Sep 21 08:44:28 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f0656262938cf83735b569a1c2fd3b8df352eaca",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Mon Sep 20 18:44:32 2021 -0700",
+    "fileTypes": {
+      "jsx": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "lock": {
+        "inserts": 319,
+        "deletes": 319,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6b74142b4bd815f035b07f7085d4a764ba06c33b",
+    "Author": "Marc Garreau <marcdgarreau@gmail.com>",
+    "Date": "Date:   Mon Sep 20 11:29:55 2021 -0600",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50c80f8f067695da847d1fa450075ff02012d9a4",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Mon Sep 20 22:58:13 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 13,
+        "deletes": 11,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "024627b1d0514cef82e90df277ac93a1f2701ce6",
+    "Author": "moiz-lakkadkutta <59568435+moiz-lakkadkutta@users.noreply.github.com>",
+    "Date": "Date:   Mon Sep 20 15:49:27 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f43699cd2cd380cdcc281d39b1d054556523bcdd",
+    "Author": "Nazeeh21 <nazeehvahora.786@gmail.com>",
+    "Date": "Date:   Mon Sep 20 13:37:27 2021 +0530",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 50,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cbd080d1b64d051a1c926508285de4e15940baba",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sun Sep 19 23:28:58 2021 -0700",
+    "fileTypes": {
+      "jsx": {
+        "inserts": 164,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a6c6dfe52ce343150506fc02ca4a7502f668974",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sun Sep 19 23:28:12 2021 -0700",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e55e646b3c047de2e57c764bc513358758301fbb",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sun Sep 19 23:27:05 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "60806eee314eb15d38138479cd8c6abf2891099a",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sat Sep 18 21:45:22 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92d82d0f901301933dfe8378915f3314fe48d8a1",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sat Sep 18 21:44:25 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a0f72e00da6675499537c219ccdc6d19d5923483",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sat Sep 18 21:43:32 2021 -0700",
+    "fileTypes": {
+      "jsx": {
+        "inserts": 7,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a851564777833b96951f000aafb72bd2a42c8e2",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sat Sep 18 21:37:37 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ee8f1180e0c28ba716eff58e66f6f1f57616425",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 01:28:29 2021 -0300",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f834fc0162826b4ecfdacefd8c6da413f712f7a",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 01:22:57 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "2de4975afc270258d74311969a74131af7737a7f",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 01:17:40 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba2a8442ca85698bd0b2be006250a15bc73a728d",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 00:43:42 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ea0f5daf2231750bb8da01f838cd1f09eb15354d",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 00:39:19 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "313698bf26d0726603af366c4ea95c844c430d88",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 00:38:20 2021 -0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "160572dd327fbc932fe60eda449be78f8bc35f0d",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "Date:   Sun Sep 19 00:37:45 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c69dd5fd9053c92683caa617ee80032616f9bb0",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Sat Sep 18 22:20:41 2021 -0400",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6633676fcb3d33091c7cf1f26c21a7c415899bdb",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sat Sep 18 17:46:59 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7f709757dda3b24e40c060233bb07dcb8ec9c9ed",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Sat Sep 18 17:45:28 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "41f405f57eda17eebb7e0ab9be2fcf1516d44e42",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Fri Sep 17 22:27:07 2021 -0400",
+    "fileTypes": {
+      "yml": {
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fb2e412f402421b9099c9332d1670b8c449bd052",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Sat Sep 18 05:10:32 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d5785cb375f3d114cfcee09e0cc0b90629be8c99",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Sat Sep 18 04:44:33 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5a4e146e006c705aff5ed20d1c199d8abb57be9b",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Fri Sep 17 20:57:32 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a16ef2d7f5c7931e12b82c0f1fbc7abb83b05c0",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Fri Sep 17 20:39:17 2021 +0530",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 17,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cbd90c7bb33e222e93123b37cb8ad73b4fffa854",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Fri Sep 17 00:16:36 2021 +0530",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "439f07d1a8ef18fb54962e1b6d3dda0e8abb0217",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri Sep 17 02:34:25 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e8fb8c3cc210565025ffd522604f3dc8f49a239b",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri Sep 17 02:34:24 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7108baa3d2d38c4fb96497e4b9de4c3e2813bf33",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Thu Sep 16 18:43:50 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f29c3d71a2df1d81aad77772b9a4e86074ad150c",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Thu Sep 16 15:22:18 2021 -0700",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b5ab93b864c82550447b142ceda68f33bff64cb0",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Sep 16 21:36:29 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cba3387380ebc4ebde35034258512e21b9ef599e",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Sep 16 21:36:29 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87d4d307c679b7d5c4f6049f709c8e7d0cda7a9a",
+    "Author": "Adam <davidatomhernandez@gmail.com>",
+    "Date": "Date:   Thu Sep 16 16:22:30 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c3ce3ea3718f4470bc3590855d03a4e3f5b51a1",
+    "Author": "Ikko Ashimine <eltociear@gmail.com>",
+    "Date": "Date:   Fri Sep 17 01:59:53 2021 +0900",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "044d5a7659c9b19ba69a3d8c25c117a81e3e6d49",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Wed Sep 15 22:11:20 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 32,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "dac1fb568ad9696ebb5a66b35c905b878383546e",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Wed Sep 15 22:10:27 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9df707a254fd5c6e8c983d3ebd260d15547c27c2",
+    "Author": "Narbeh Shahnazarian <megatron@Narbehs-MacBook-Pro.local>",
+    "Date": "Date:   Wed Sep 15 21:11:22 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1976ea4282a499c293319bad7d739d02fa47e232",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 21:34:43 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 9,
+        "deletes": 10,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "0b7a74093359c92d7efae79b9e7bc06e83e382f2",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 21:21:13 2021 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f152cf0e6a07e7fdf35167ef55621679e9ce2e49",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Thu Sep 16 06:38:09 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e41c47d8bb6c5210f31f5abe4c1631e85aa81f0a",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 21:00:38 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "b22327bee05ed5159fab5c4cb900946defd77824",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 20:50:31 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8e294586c8423acf4f8c13bbcd470cd38f931424",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 20:49:28 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 76,
+        "deletes": 52,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5487d8bd2be0dae7c8f59e03637ffc39fba36ed1",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 14:45:35 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 39,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7acc51ce76c53236c70b59651a720879ca7f4949",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 14:05:18 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 83,
+        "deletes": 73,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "9199c4adc7d323fc607289160cbdcfebae3014cc",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 11:04:24 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c990556c9fc971fbce31f073c54b8b9e50a54382",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 11:04:15 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "015f84fe96c6832c8ba68f667184d95d357362d8",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 11:02:21 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7de424b74cdc824516abdbb54973734d63087a2e",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 11:02:04 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a84defd331cdc1b6503ab6f0a2fd933cc6fd9db8",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 11:01:10 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fca54b2756a7341bb154ba3296a64850a8cb9c0f",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 10:54:08 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9cdf2387774927b8df11c149403748207a2d6fc4",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 10:53:10 2021 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 970,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20e6519563c73dda44e7140371008dec51e045d0",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Wed Sep 15 22:44:59 2021 +0530",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0e072fde469d0a4ad337cea90aab093e3391900c",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Wed Sep 15 22:35:30 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 12,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "440dd07671c1f492d8f496c4efb9d77945f1f004",
+    "Author": "Alex Kam <alexkam@Alexs-MacBook-Pro.local>",
+    "Date": "Date:   Wed Sep 15 17:14:50 2021 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ab5860a309b9933222341bf6cb687c3b17ca45e7",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Wed Sep 15 10:52:08 2021 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 29,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 22,
+        "deletes": 401,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "817664398fdb1b11d48ee0399802cd7f717d8777",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Sep 15 02:20:15 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea4f5ea8eecb0a364e341bae76c21f7dcebe5829",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Sep 15 02:20:14 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "320a126bbfd30587043287b3538fba78d9c2847c",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Sep 14 22:02:42 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f5e239b7eb1d2a5c0c21e20c2ecb8a7dded77002",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Sep 14 21:57:24 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 33,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "1bbb4d0944b4cebf313311da35785c30b1ef038b",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Sep 14 21:55:28 2021 -0400",
+    "fileTypes": {
+      "lock": {
+        "inserts": 6063,
+        "deletes": 6372,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cdb3a56136df7d393ceb9263e40a844f49180a2b",
+    "Author": "Greg <gjsyme@gmail.com>",
+    "Date": "Date:   Tue Sep 14 16:30:56 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 19593,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "858a9edbf5fb1c4f02412eabeff2942ddc944a1b",
+    "Author": "Xavier Drdak <1198051+xdrdak@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 14 21:30:05 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c1c4723cd9e7399b94302083f33b4ee8fd6fd4b2",
+    "Author": "Greg <gjsyme@gmail.com>",
+    "Date": "Date:   Tue Sep 14 14:45:55 2021 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "34600c40316bff55b495737ad1c898e35a8c25b1",
+    "Author": "Greg <gjsyme@gmail.com>",
+    "Date": "Date:   Tue Sep 14 14:28:18 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 12,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 32,
+        "deletes": 94,
+        "occurrences": 9
+      },
+      "json": {
+        "inserts": 19626,
+        "deletes": 3,
+        "occurrences": 5
+      },
+      "lock": {
+        "inserts": 6427,
+        "deletes": 5651,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82b4a06fb0328a90607857ba33da72866558a2cc",
+    "Author": "Miral Suthar <MIRALSUTHAR2000@GMAIL.COM>",
+    "Date": "Date:   Tue Sep 14 22:09:15 2021 +0000",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06a7d42e4fa47b56be725b5a0a5be0e2c48f5649",
+    "Author": "Miral Suthar <MIRALSUTHAR2000@GMAIL.COM>",
+    "Date": "Date:   Tue Sep 14 21:59:02 2021 +0000",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd435bd473c1d2b8b43e7bb0841ac8c536bf4404",
+    "Author": "Miral Suthar <MIRALSUTHAR2000@GMAIL.COM>",
+    "Date": "Date:   Tue Sep 14 21:59:02 2021 +0000",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7522cfa364b007509e1baad9726fbc3940ca2da",
+    "Author": "MGrin <mr6r1n@gmail.com>",
+    "Date": "Date:   Tue Sep 14 21:12:04 2021 +0300",
+    "fileTypes": {
+      "js": {
+        "inserts": 14,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "72c5d180e734eeede6d42b30c53103fac89fa1df",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 14 20:15:37 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ede5661c0eeae25ea3d970d2406b530c2f23d6a7",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 14 20:15:36 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "96726aed62f38449f3804dfd689dbaa5e60f52ad",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 14 20:14:42 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b42b27c19d10bcbdbccf84b01e6bc84875d3062",
+    "Author": "allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Sep 14 20:14:41 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4c38171ff163ec3c25466c2486ae180c92215b42",
+    "Author": "Alex Kam <kavimaluskam@gmail.com>",
+    "Date": "Date:   Tue Sep 14 21:20:07 2021 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 32,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "27e65c6ff6faf0fcfadbdb31af4c48683f571512",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Tue Sep 14 10:43:41 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e107baf17a6884e4b005ff9b1343c3f14248c0c4",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Mon Sep 13 09:03:08 2021 +0530",
+    "fileTypes": {
+      "html": {
+        "inserts": 0,
+        "deletes": 90,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 159,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "403730ff332ed6c05a4498185948f7a6102eeb38",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Mon Sep 13 08:47:48 2021 +0530",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 18,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 25,
+        "deletes": 70,
+        "occurrences": 9
+      },
+      "json": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 43,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 3658,
+        "deletes": 9907,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5649d9caf1d70e561857be31d514aa8a6804f676",
+    "Author": "codingwithmanny <codingwithmanny@gmail.com>",
+    "Date": "Date:   Tue Sep 14 10:05:21 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "875e71f1633f1d9444b06e9914ee3de7269fdd51",
+    "Author": "codingwithmanny <codingwithmanny@gmail.com>",
+    "Date": "Date:   Tue Sep 14 09:18:48 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "88646f60cd64f58888bab4d6c77b09792f387fbc",
+    "Author": "codingwithmanny <codingwithmanny@gmail.com>",
+    "Date": "Date:   Tue Sep 14 09:16:17 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c306bea890fb46e9f7480b89ae227dd7e335606",
+    "Author": "codingwithmanny <codingwithmanny@gmail.com>",
+    "Date": "Date:   Tue Sep 14 08:37:57 2021 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6454a6d7f32d6ba9a7fcfe0f0e546d688a50780",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Tue Sep 14 05:21:28 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b5261edc67d38dea25c64c9bef543cb19ec15a2e",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Tue Sep 14 04:50:47 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "70bb757f98921434295f807a2869597db7573e67",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Mon Sep 13 06:13:46 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 16,
+        "deletes": 16,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "8ef01c376b63910437493f9e9cfeb695f8b01593",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Sun Sep 12 19:51:38 2021 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ae0afd80d25a9e84ac6d940016cd9129b507702",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Sun Sep 12 19:41:04 2021 -0400",
+    "fileTypes": {
+      "html": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 340,
+        "deletes": 32,
+        "occurrences": 14
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "320d1500cafab012c43f8efa455aabbceee4209e",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Sun Sep 12 18:17:14 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 45,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "jpeg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "42be8d84354da280d3af2cdb3364d36e71f2e5de",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Sun Sep 12 14:20:25 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 25,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "232db18638b7074b4932c56cbb7dc40d1be6c8b6",
+    "Author": "CristinaSolana <cs@nightshiftcreative.com>",
+    "Date": "Date:   Sun Sep 12 15:31:04 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "583af4f8f18963557af971a0aaa116c42eae5e57",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Sat Sep 11 18:08:51 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cc1070de94ec7c23971437ff1d7c3c2d53a91ca2",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Sat Sep 11 17:58:59 2021 -0400",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 94,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 18,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8a04bca82235ea4ae524e28e2f0988cd8b42e08d",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Sun Sep 12 09:20:58 2021 -0400",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4aadd61660a407e5a7ac2af3ec787c3c9991286c",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Sat Sep 11 17:58:35 2021 -0400",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 120,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e05b9551f00bce5e833e19bd763ec1c4d316ed5",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Sat Sep 11 17:40:32 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "88727cb0369bc9373d3769fd39ccc267e2292a24",
+    "Author": "Mark Chandler <with.heart+git@pm.me>",
+    "Date": "Date:   Sat Sep 11 17:38:44 2021 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7421490dc108cd768d5142728c8e756815e3fd2",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Sun Sep 12 03:02:28 2021 +0530",
+    "fileTypes": {
+      "js": {
+        "inserts": 43,
+        "deletes": 43,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "99f05566e0d3e772319eca71ec0f5e364fc6925d",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Sun Sep 12 03:01:46 2021 +0530",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "780f7335365466af5cd966f65d4dd8b897ba798b",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Sat Sep 11 13:45:35 2021 -0400",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 21
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 42,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "55abd975f578f5b8517a740c0caa49fe9071dfa6",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Sat Sep 11 12:53:25 2021 -0400",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da7087c8e58b16c5b41e091e343f495f14ecaabe",
+    "Author": "WIll <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Sat Sep 11 14:01:27 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9fa234d56f4b173d2dcc6e665bd3a19f215a689b",
+    "Author": "WIll <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 22:08:15 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "37ee2541882328acf60427f2ab14f78f4631bcd5",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Fri Sep 10 17:05:57 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 15,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "64224c67a5d15403d0bbe5a5a5960c65a7f10d2b",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Fri Sep 10 17:04:36 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd5465be2a993c5f800f500b188ef134bb7f36ab",
+    "Author": "WIll <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 22:03:01 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "284c5911bf8d46192252a20a57c46a3a7c8f7bea",
+    "Author": "Will Kempster <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 21:44:45 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8a4f081049a8a89d3e619fb79c62a48ee41b8869",
+    "Author": "Manny <manny@His-Mac.local>",
+    "Date": "Date:   Fri Sep 10 16:44:21 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 20,
+        "deletes": 19,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "26bcfb67ac85ff6e2f0161b350b6dfb250be8b8a",
+    "Author": "Will Kempster <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 21:39:53 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df7317c8973227105c38134f708c731d16b8890a",
+    "Author": "Will Kempster <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 21:39:32 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b3db782b02ea5776e2f3e7e04b11e4f7b3441b51",
+    "Author": "Will Kempster <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 21:39:22 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48685f8b0d3cc1c750cebab2c78af8ca3ecab2b2",
+    "Author": "Will Kempster <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 21:39:17 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba64191747e49e1087cb236142d5dd5375147bb9",
+    "Author": "Will Kempster <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 21:39:12 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "083e6b195b2181362d943bcf4d8defd0cbf1a874",
+    "Author": "Will Kempster <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 21:39:04 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f988590600263eb4e340e44a654fede7d59b2079",
+    "Author": "Will Kempster <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 21:38:49 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9df96caf7791ecd2a9398ac79dd8293f985f834",
+    "Author": "WIll <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Fri Sep 10 12:55:33 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6d53b908403162ca22871e0d705ceeb3e0e5ffb0",
+    "Author": "Christopher Betz <scrapdog@gmail.com>",
+    "Date": "Date:   Thu Sep 9 19:47:05 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0909ab9c6eac2c314014c51b85367f9be38b01ed",
+    "Author": "WIll <kempsterwilliam@gmail.com>",
+    "Date": "Date:   Thu Sep 9 21:54:55 2021 +0100",
+    "fileTypes": {
+      "md": {
+        "inserts": 84,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e869106fae30d789d4309535f2ac69fca80b931",
+    "Author": "Emanuel Canova <canova.9400@gmail.com>",
+    "Date": "Date:   Wed Sep 8 16:22:25 2021 -0300",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 60,
+        "deletes": 7,
+        "occurrences": 5
+      },
+      "lock": {
+        "inserts": 34,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "49a07c6a3a5974344e2a058f3749de9151d3c549",
+    "Author": "nheingit <60185486+nheingit@users.noreply.github.com>",
+    "Date": "Date:   Wed Sep 8 22:19:08 2021 -0500",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "707b277e843f808a517b867811b5931ebe2cedf2",
+    "Author": "Xavier Drdak <1198051+xdrdak@users.noreply.github.com>",
+    "Date": "Date:   Wed Sep 8 21:30:26 2021 -0400",
+    "fileTypes": {
+      "yml": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87a06704f2851bfdc78eaa413cb08b290f82aee1",
+    "Author": "nheingit <60185486+nheingit@users.noreply.github.com>",
+    "Date": "Date:   Wed Sep 8 16:45:30 2021 -0500",
+    "fileTypes": {
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2071f61e75cab36b7710952c64a4f38fa13a670",
+    "Author": "Xavier Drdak <1198051+xdrdak@users.noreply.github.com>",
+    "Date": "Date:   Wed Sep 8 11:21:58 2021 -0400",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 17,
+        "deletes": 9,
+        "occurrences": 4
+      },
+      "lock": {
+        "inserts": 187,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48da593fe1021b8e20fa434deb08e27517939a95",
+    "Author": "Andrew Jones <aej11@hotmail.com>",
+    "Date": "Date:   Wed Sep 8 11:16:57 2021 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d404b90621a0cd3588bed1d2962542ad08333286",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Sun Sep 5 09:50:14 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0af6b98d941ae4ccae789bdc80c0f81530531201",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Sun Sep 5 09:47:10 2021 -0700",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "36d8205dbdf3fb16f3a52d5f200517a5d5be3af2",
+    "Author": "vipin rawat <rawat.vipin4818@gmail.com>",
+    "Date": "Date:   Sun Sep 5 14:16:44 2021 +0530",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 73,
+        "deletes": 23,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "jpeg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 631,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6e63d6f0df8603d9e48dcc0090bac8d5e4eda9fb",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Sat Sep 4 15:34:27 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c68033940260f4da5ee05c01dc7c3695aab90be",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Sat Sep 4 15:34:02 2021 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 69,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c398b375eb7dda5d1e4cf551f01f23a8edd8fa50",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Sat Sep 4 14:44:31 2021 -0700",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ac0b3c9648f5c9ad3367efa983d2d6a75b228b6e",
+    "Author": "Thomas Lui <tlfit28@gmail.com>",
+    "Date": "Date:   Sat Sep 4 14:26:44 2021 -0700",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 48,
+        "deletes": 17,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 1531,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    }
+  }
+]

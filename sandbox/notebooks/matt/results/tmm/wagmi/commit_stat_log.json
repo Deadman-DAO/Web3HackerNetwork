@@ -1,0 +1,5969 @@
+[
+  {
+    "commit": "72dcf7c09e814261b2e43a8fa364c57675c472de",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Sun May 15 13:11:38 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 17,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 190,
+        "deletes": 42,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fbee2cbe12d0782c7fd35b8fd5a5b3678234f21a",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat May 14 17:45:41 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 6,
+        "deletes": 16,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 42,
+        "deletes": 190,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bdac5ced234eb32e438fd6ed541af1c39408b6b9",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat May 14 17:40:13 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 16,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 190,
+        "deletes": 42,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "23b173e2c0ff40d8c8726ebb0a9ce66544c3f17b",
+    "Author": "moxey.eth <jakemoxey@gmail.com>",
+    "Date": "Date:   Sun May 15 06:29:06 2022 +1000",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 15,
+        "occurrences": 3
+      },
+      "tsx": {
+        "inserts": 50,
+        "deletes": 30,
+        "occurrences": 7
+      },
+      "js": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 85,
+        "deletes": 84,
+        "occurrences": 23
+      },
+      "ts": {
+        "inserts": 57,
+        "deletes": 63,
+        "occurrences": 20
+      },
+      "mdx": {
+        "inserts": 167,
+        "deletes": 73,
+        "occurrences": 10
+      },
+      "yaml": {
+        "inserts": 230,
+        "deletes": 171,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8a5f6c209049c35f16f9c6a86cd4ea71106e84a6",
+    "Author": "Serhii Kononov <sergei97k@gmail.com>",
+    "Date": "Date:   Thu May 12 15:47:27 2022 +0300",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bfcc3a51bbb1551753e3ccde6af134e9fd4fec9a",
+    "Author": "moxey.eth <jakemoxey@gmail.com>",
+    "Date": "Date:   Thu May 12 13:32:42 2022 +1000",
+    "fileTypes": {
+      "md": {
+        "inserts": 208,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 191,
+        "deletes": 252,
+        "occurrences": 8
+      },
+      "js": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 442,
+        "deletes": 55,
+        "occurrences": 8
+      },
+      "json": {
+        "inserts": 84,
+        "deletes": 2,
+        "occurrences": 14
+      },
+      "ts": {
+        "inserts": 931,
+        "deletes": 22,
+        "occurrences": 32
+      },
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9ebf782e0900725bcb76483686b30f09d357ebd",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Wed May 11 20:22:27 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f942ae3cd0cc5750225f719e2b4409437ab80da",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Wed May 11 11:47:41 2022 -0400",
+    "fileTypes": {
+      "ts": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "f81c15665e2e71534f84ada3fa705f2d78627472",
+    "Author": "Kevin Ingersoll <kingersoll@gmail.com>",
+    "Date": "Date:   Wed May 11 06:49:51 2022 -0700",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 263,
+        "deletes": 68,
+        "occurrences": 15
+      }
+    }
+  },
+  {
+    "commit": "6855bf6114a122111729d70ee38d0c1b5f00f73f",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon May 9 19:26:52 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 8,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 184,
+        "deletes": 263,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e03666428d42fc9186c617001b5eb356229677e",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon May 9 19:22:49 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e0b478437328dc4266b199afe79209969732dfca",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Mon May 9 19:20:24 2022 -0400",
+    "fileTypes": {
+      "ts": {
+        "inserts": 37,
+        "deletes": 17,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "7004bed46e96ae1f1a96a09640120294cc92de6c",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Mon May 9 17:32:34 2022 -0400",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 71,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ac724caca82fbeb08a1d59329af314a528b7667b",
+    "Author": "izayl <izayl@163.com>",
+    "Date": "Date:   Mon May 9 21:49:09 2022 +0800",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5b4a16b7c5bdf6118b0e195d9fab4ea0bc68350e",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Mon May 9 00:19:47 2022 -0400",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 7,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 52,
+        "deletes": 52,
+        "occurrences": 9
+      },
+      "patch": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 4,
+        "deletes": 23,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 1212,
+        "deletes": 920,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "22c8e571420b33df6e673c10e54027296316e66e",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri May 6 16:24:28 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a232b3ff5cc41e882c4d2a34c599a8cb670edd2b",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Fri May 6 16:14:28 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d07166512e1ea5c1956781c498d7e5d761fcc9f2",
+    "Author": "Ivan Grachev <ivan@ivan.lol>",
+    "Date": "Date:   Fri May 6 02:44:02 2022 +0300",
+    "fileTypes": {
+      "ts": {
+        "inserts": 10,
+        "deletes": 6,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "3d41aaa1016ec6731836e99becbaef7c1a7db747",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu May 5 19:26:32 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d26e854ff55926c494717f5d10ef2a3ae08137c8",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu May 5 10:32:38 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 178,
+        "deletes": 235,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "80bef4ff3f714b0b8f896f1b4b658acc7266299b",
+    "Author": "Mark Dalgleish <mark.john.dalgleish@gmail.com>",
+    "Date": "Date:   Fri May 6 00:23:56 2022 +1000",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 101,
+        "deletes": 106,
+        "occurrences": 22
+      },
+      "tsx": {
+        "inserts": 15,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 231,
+        "deletes": 174,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f453d4fc15df4f8e0e292ea81a7e12ea6ce3ef7f",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed May 4 19:00:48 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9a5af437ba472775bab91cd6452b8a2fb6f8d506",
+    "Author": "Serhii Kononov <sergei97k@gmail.com>",
+    "Date": "Date:   Wed May 4 09:43:51 2022 +0300",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6e3568ec63e7a9da6323376f6f575707cb3c5000",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Tue May 3 21:00:21 2022 -0400",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5d87de6be33648036964394b371d93f709303ef9",
+    "Author": "moxey.eth <jakemoxey@gmail.com>",
+    "Date": "Date:   Wed May 4 09:00:12 2022 +1000",
+    "fileTypes": {
+      "ts": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "226dc8291eed80c88984032e31d20c9f9d0ed7a9",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun May 1 20:55:35 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 23,
+        "deletes": 10,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "018c2a11b22ee513571cc7f83fd63f7eb169ee70",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun May 1 20:52:10 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "632f63a3a7e585408898d897dcb830e0cf2bc7ef",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Sun May 1 20:48:09 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 36,
+        "deletes": 14,
+        "occurrences": 7
+      },
+      "mdx": {
+        "inserts": 103,
+        "deletes": 9,
+        "occurrences": 5
+      },
+      "json": {
+        "inserts": 20,
+        "deletes": 3,
+        "occurrences": 5
+      },
+      "ts": {
+        "inserts": 131,
+        "deletes": 29,
+        "occurrences": 8
+      },
+      "yaml": {
+        "inserts": 3,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "299c77f04319306637b3db67c1265600cc2552fe",
+    "Author": "moxey.eth <jakemoxey@gmail.com>",
+    "Date": "Date:   Mon May 2 07:20:50 2022 +1000",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 46,
+        "deletes": 39,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b21ecf898d28fcfb00e08767d88e92099d486789",
+    "Author": "manny <318082+codingwithmanny@users.noreply.github.com>",
+    "Date": "Date:   Sun May 1 11:19:50 2022 -0400",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ee3f8e06a1b29d52ec6c6164027f70bf87a3517",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Apr 30 12:50:51 2022 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 65,
+        "deletes": 65,
+        "occurrences": 10
+      },
+      "ts": {
+        "inserts": 18,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 1946,
+        "deletes": 613,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d971140962188ba84c098883adeb6539b7fd68ef",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Apr 30 11:49:02 2022 -0400",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 60,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 183,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "ts": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "yaml": {
+        "inserts": 4625,
+        "deletes": 578,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2df3edee3b0dca446c91603b60b89f6833c0af16",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Apr 30 11:35:29 2022 -0400",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 21,
+        "deletes": 21,
+        "occurrences": 19
+      },
+      "tsx": {
+        "inserts": 10,
+        "deletes": 12,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "7d2a1e3d6211d0a551ab9079acb5c5a27cd93efa",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Sat Apr 30 11:26:10 2022 -0400",
+    "fileTypes": {
+      "ts": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7eaa09c2f947a734d76343a662d8b3721476e27f",
+    "Author": "Dhaiwat Pandya <dhaiwatpandya@gmail.com>",
+    "Date": "Date:   Sat Apr 30 18:51:22 2022 +0530",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e3a3ab979b893b3f3c51efed08d52e1ae8d699a",
+    "Author": "Timo Clasen <goebeltimo@gmail.com>",
+    "Date": "Date:   Fri Apr 29 22:01:00 2022 +0200",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8fa8d0714c9fffe9d2140df9c85bc881daadd8b",
+    "Author": "bo-lau <46614927+bo-lau@users.noreply.github.com>",
+    "Date": "Date:   Fri Apr 29 14:53:48 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03466e38cd55258f226c5898c28a6e8b779fba0d",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Fri Apr 29 00:14:46 2022 -0400",
+    "fileTypes": {
+      "ts": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "966082f886e1411ebb65c588bb50c6a86c9ff820",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Thu Apr 28 17:55:04 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 46,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 466,
+        "deletes": 368,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be96673926a7027fc38d4f1699e48f82c460de90",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Apr 28 12:04:49 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 8,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "afc46071e91601ab8a2b465524da796cd60b6ad4",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Apr 28 12:01:20 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ecfede6a74a352ad64a4db76b34e11ad6e2a62c",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Apr 28 11:25:06 2022 -0400",
+    "fileTypes": {
+      "yml": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "236fc172059206cbeb2c824f942361bc9a921c2e",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Thu Apr 28 11:13:22 2022 -0400",
+    "fileTypes": {
+      "ts": {
+        "inserts": 345,
+        "deletes": 181,
+        "occurrences": 12
+      }
+    }
+  },
+  {
+    "commit": "90eac15b9d53bcada362851897a2b7ff74c379e0",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Thu Apr 28 11:10:03 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b235c184d8eedcdc5bc76ba83ef7fc9517bccbb",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Thu Apr 28 00:21:56 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9593df9881037444e8871b5326f23ba115b1a4d",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Wed Apr 27 20:33:17 2022 -0400",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "96e54382b117d51bcae6c4b85c547f3a1b3596f3",
+    "Author": "GravityCollision <86171562+GravityCollision@users.noreply.github.com>",
+    "Date": "Date:   Tue Apr 26 16:03:24 2022 -0700",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "05e50d743abccacae1293187b4347812019e97f7",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Tue Apr 26 16:29:31 2022 -0400",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 691,
+        "deletes": 548,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2a8603574b7ce75f43f4054510d5f00afb159419",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Tue Apr 26 14:42:00 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 42,
+        "deletes": 29,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "68292c08f5d55531d29a2198ed3c4bf06f96dc60",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Mon Apr 25 11:33:08 2022 -0400",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "76bedca0cd351e9a2a98ff0ecb09a7671d3ecea4",
+    "Author": "Ulises Guareschi <uguareschi@gmail.com>",
+    "Date": "Date:   Mon Apr 25 10:59:18 2022 -0300",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2df6f8d18e03e8707d99c3ce19307414d04e843f",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Apr 25 09:51:21 2022 -0400",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 11,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f683707308b4db9c171da2f9fffc9b2ba29ec381",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Apr 25 09:37:48 2022 -0400",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 5,
+        "deletes": 15,
+        "occurrences": 5
+      },
+      "mdx": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a30fbd8b96d6ec5b619c508e8dadc444fb90a212",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Apr 24 23:03:09 2022 -0400",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a36ecac97a3607127af252d987f76b882d7a1c5e",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun Apr 24 22:58:03 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 94,
+        "deletes": 124,
+        "occurrences": 23
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 45,
+        "occurrences": 8
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e17f12254bb0f94005b45516acf5c6727b5d5433",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Apr 20 10:13:04 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "747d895a54b562958afde34b1d34e81ab5039e2c",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Apr 20 10:10:17 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 4
+      },
+      "mdx": {
+        "inserts": 61,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bce65cfbcae528bfdd63a21d4034be3c40eb54c9",
+    "Author": "erin-at-work <50590950+erin-at-work@users.noreply.github.com>",
+    "Date": "Date:   Wed Apr 20 09:53:33 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 13,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1fec780ec78123b537ae1ef08206fd7934aab610",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Apr 18 21:25:55 2022 -0400",
+    "fileTypes": {
+      "ts": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "475cd7882df5b47a78614a8299f86c6087f63069",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Apr 18 21:20:52 2022 -0400",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 0,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c136154f8aa22ea2aa6de7340c37eaf77b074a05",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Apr 18 21:17:08 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c858c51b44d9039f1d0db5bcf016639f47d1931f",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Apr 18 21:15:22 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56bb8dff381fd6eb4d4c82aa8ee5e174ddcfc379",
+    "Author": "erin-at-work <50590950+erin-at-work@users.noreply.github.com>",
+    "Date": "Date:   Mon Apr 18 20:24:36 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 28,
+        "deletes": 3,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 151,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "yaml": {
+        "inserts": 38,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "60ceb6a772da1427fda1f2d9c824c098f960067a",
+    "Author": "xeway <65366494+Xeway@users.noreply.github.com>",
+    "Date": "Date:   Fri Apr 15 22:48:08 2022 +0200",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1707165efea8a8307d7fbdc1cc095e3add8f1aa2",
+    "Author": "qdqd.sismo.eth <qdqdqdqdqd@protonmail.com>",
+    "Date": "Date:   Thu Apr 14 18:21:51 2022 +0200",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "667a2e953e450229c1cc4bda285c9dfa922f7416",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Apr 9 17:50:53 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 20,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "36e69894f4c27aaad7fb6d678476c8bb870244bb",
+    "Author": "Gabi <gabrielpk.18@gmail.com>",
+    "Date": "Date:   Sat Apr 9 18:49:21 2022 -0300",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e96af5d4b9c4d54470deae910100a227046d349c",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Apr 6 10:09:21 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d467df6374210dbc4b016788b4beb4fded54cb4d",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Apr 6 10:05:00 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "468035ad8e70ab8761667be22b79a8ad7210d0a4",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Apr 6 10:03:38 2022 -0400",
+    "fileTypes": {
+      "ts": {
+        "inserts": 56,
+        "deletes": 54,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2ae6ce75530f95e889d3fdf52a9c363a5f5e5f8a",
+    "Author": "Josh Leonard <jleonard@brave.com>",
+    "Date": "Date:   Tue Apr 5 16:59:57 2022 -0600",
+    "fileTypes": {
+      "ts": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "3829f885eea0f9fc679845f46927901dd3045064",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Apr 3 18:55:43 2022 -0400",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3cb32a92776f0acd5d7fb0c14caa76dd85bb1716",
+    "Author": "jo841130s <43535722+jo841130s@users.noreply.github.com>",
+    "Date": "Date:   Fri Apr 1 20:25:52 2022 +0800",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d242f877950645a9089be84b1c85e3850beb20af",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Mar 29 14:09:18 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1d253f3a59b61d24c88d25c99decd84a6c734e5d",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Tue Mar 29 13:57:24 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "51886d3cf9416968734c3bfae16661219b9f1cdb",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Mar 29 12:45:03 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53c9be17ee0c2ae6b8f34f2351b8858257b3f5f2",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Tue Mar 29 12:41:48 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "375e3a29b86b545daeb0e3c31728808ad7c048ed",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Mar 29 09:55:02 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "79a249989029f818c32c0e84c0dd2c75e8aa990a",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Mar 29 09:53:38 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f3dc2b0ac22c501a813934c528f4e5e229dd48fb",
+    "Author": "Sam Mason de Caires <sam.jbmason@gmail.com>",
+    "Date": "Date:   Tue Mar 29 14:52:34 2022 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "69fe8ed3dd82b53ff63d5121c0ad8126d7c0a831",
+    "Author": "Sam Margalit <sam@margalit.com.au>",
+    "Date": "Date:   Mon Mar 28 10:03:27 2022 +1100",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "patch": {
+        "inserts": 34,
+        "deletes": 22,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 559,
+        "deletes": 172,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3dcd07e05d00ded41e684406c3716d001b8eabd7",
+    "Author": "Pedro Duarte <oi@ped.ro>",
+    "Date": "Date:   Wed Mar 23 23:46:14 2022 +0100",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a21e7e374f236114052e91454c5071d669c0982",
+    "Author": "manny <318082+codingwithmanny@users.noreply.github.com>",
+    "Date": "Date:   Thu Mar 17 13:26:03 2022 -0400",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 47,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f34930b46dedf69ccfe760b9f96ebae06bc00d2c",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Mar 16 21:19:22 2022 -0400",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb2425690ccfb26fe37f3f20f5a1b387e08e87a2",
+    "Author": "moxey.eth <jakemoxey@gmail.com>",
+    "Date": "Date:   Tue Mar 15 21:25:44 2022 +1100",
+    "fileTypes": {
+      "md": {
+        "inserts": 718,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "454c0fc6af158fc6944d2cda1485a0710097e7a3",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Mar 14 12:36:27 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f9790b55600df09c77bb8ca349c5a3457df1b07c",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Mar 14 12:34:28 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 12,
+        "occurrences": 3
+      },
+      "yaml": {
+        "inserts": 108,
+        "deletes": 105,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20d2662572587a322d5402754629455831bc9d68",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Mar 14 11:00:19 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fed29fb4714abe234e2dabb63782cfc4439a10cf",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Mar 14 10:58:48 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "18334439c190c48ae907b646f9411ed8c07262bd",
+    "Author": "C\u00e9sar Rodr\u00edguez <kesarr@gmail.com>",
+    "Date": "Date:   Mon Mar 14 15:58:21 2022 +0100",
+    "fileTypes": {
+      "ts": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "4af051f97282b37a02cad9eb277d69338d7dc109",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Mar 14 09:49:11 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "69872786e0b54b89a20945cc5471c1f4675b0a68",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Mar 14 09:45:53 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 8,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "14ed0f1625f737b92a900bf32e5b0406d2d308b7",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Mon Mar 14 09:42:52 2022 -0400",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 100,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 248,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3422e069a6d7df0760e9bf324e2a3bece2d52453",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Mar 7 18:27:35 2022 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 28,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 26,
+        "deletes": 30,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 3,
+        "deletes": 18,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 220,
+        "deletes": 38,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6e7e9307e83eb24f0098c6f53a1619ece61d5ccd",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Mar 7 16:17:42 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 22,
+        "deletes": 6,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53bad615788764e31121678083c382c1bd042fe8",
+    "Author": "Mark Dalgleish <mark.john.dalgleish@gmail.com>",
+    "Date": "Date:   Tue Mar 8 08:06:42 2022 +1100",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 50,
+        "deletes": 50,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50ab4a4dc3c9997ed11f80a4f7f76ab9def099e6",
+    "Author": "Rik Lomas <lomas.rik@gmail.com>",
+    "Date": "Date:   Wed Mar 2 17:00:38 2022 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a87432af8798251676620b553e2518cdcf62b803",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Feb 28 17:55:53 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e48265d75d3a973a34a150084d9deaaadb7a89c",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Feb 26 17:06:52 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e9412af71958301ae2f9748febb936e79900aa0",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Feb 26 17:05:08 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53a40d1d7dc9d0f7d3481129a5a0abcad00a198a",
+    "Author": "jaclyn <jdc.jaclyn@gmail.com>",
+    "Date": "Date:   Fri Feb 25 18:25:49 2022 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4c0e890058ea5b949ff0318dc3294a5f6d4dcc5",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Feb 23 09:39:32 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "684468aee3e42a1ce2b4b599f3f17d1819213de8",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Wed Feb 23 09:38:08 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 27,
+        "deletes": 23,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "60ac29c6e86aa13d3372e51ff9d041592c1b4827",
+    "Author": "robriks <80549215+robriks@users.noreply.github.com>",
+    "Date": "Date:   Tue Feb 22 21:40:02 2022 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b654e45762cb56dd7b136a7876e789fbe5750200",
+    "Author": "robriks <80549215+robriks@users.noreply.github.com>",
+    "Date": "Date:   Tue Feb 22 21:38:54 2022 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f9614cfad071f6600c260f74867fdac388ff022",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Feb 20 14:02:58 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 92,
+        "deletes": 7,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 46,
+        "deletes": 4,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8fd7f7438ee73185eeb0f50a8b814a6ec04d0521",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Feb 20 13:40:49 2022 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d5a56ddae305268420a07af007075a9ea5fe45c5",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Sun Feb 20 13:31:08 2022 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 186,
+        "deletes": 49,
+        "occurrences": 13
+      },
+      "tsx": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e159816cabcc3bdc39a61f13a83e4fce1ee80cf",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Feb 19 17:12:44 2022 -0800",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "25b6083a662a0236794d1765343467691421c14b",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Sat Feb 19 17:10:58 2022 -0800",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 30,
+        "deletes": 30,
+        "occurrences": 27
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1bcb892e9a2d0655546fd8e2eef1b119b4dd6988",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Feb 19 16:46:33 2022 -0800",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "428cedb3dec4e3e4b9f4559c8e65932e05f94e05",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Sat Feb 19 16:43:32 2022 -0800",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 23,
+        "deletes": 23,
+        "occurrences": 7
+      },
+      "ts": {
+        "inserts": 30,
+        "deletes": 30,
+        "occurrences": 49
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d294014ffd3ea0a65d63e254222f73a4ac98c087",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Feb 19 16:03:57 2022 -0800",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7034bb868412b9f481b206371280e84c2d52706d",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Sat Feb 19 16:02:10 2022 -0800",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 12,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "26c66313e33af1b56e23c9321b21f11041ae4482",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Feb 19 14:26:46 2022 -0800",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b717628c79aad20fb475ef1f045534441c2b3da",
+    "Author": "Thomas Marrec <Gomah@users.noreply.github.com>",
+    "Date": "Date:   Fri Feb 18 14:12:13 2022 +1100",
+    "fileTypes": {
+      "ts": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "mdx": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df829bcfd16b1ba3fd294a7ac74d18fcc31e4d3d",
+    "Author": "Rosco Kalis <roscokalis@gmail.com>",
+    "Date": "Date:   Wed Feb 16 17:51:48 2022 +0100",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f3e1c3390770035d2c6fc90a228272de1d6a2b3c",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun Feb 13 21:09:53 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "566b47f53c80e1cdcc368d43c53b1772eeb5be20",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Feb 13 21:08:20 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9eeb72f76af4631eb9e99872798442d4fec81d4b",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Feb 13 20:39:17 2022 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 15,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f6dc16d8001d5662d8a7d993c139207eafe7580",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Feb 13 19:53:30 2022 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47de5c9df186c880d36feb45d0c1ee56aa2ecefb",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun Feb 13 19:48:21 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "09f071947012e3133362a7eb80c0f39356899190",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Feb 13 19:44:18 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ebeb31421e19b02315342cd0b69bfa3b41d9260",
+    "Author": "Dennison Bertram <dennison@dennisonbertram.com>",
+    "Date": "Date:   Sun Feb 13 19:36:31 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6105e2c42445fde4ac1ee45716e0eccab139827e",
+    "Author": "Shun Kakinoki <39187513+shunkakinoki@users.noreply.github.com>",
+    "Date": "Date:   Sun Feb 13 16:34:20 2022 -0800",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 77,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 260,
+        "deletes": 30,
+        "occurrences": 18
+      }
+    }
+  },
+  {
+    "commit": "a1e1ae80b0a77475c79c46ded3f91deacc48a927",
+    "Author": "Rik Lomas <lomas.rik@gmail.com>",
+    "Date": "Date:   Fri Feb 11 13:59:41 2022 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a90abe0e3c495aa68bdf9fc2eb934bd41ee774e0",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Feb 10 23:09:43 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "981438d527fb6b5f025dd9bb405fa9e7a2751597",
+    "Author": "Mark Dalgleish <mark.john.dalgleish@gmail.com>",
+    "Date": "Date:   Fri Feb 11 15:06:40 2022 +1100",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 15,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3816eeb5058cf5cb45cd6d96c0125ec889475d5b",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Feb 10 09:54:40 2022 -0500",
+    "fileTypes": {
+      "bin": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "wasm": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4ce2969ec9b21932a8bdc62b5adf195e6363925a",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Feb 9 20:36:53 2022 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 95,
+        "deletes": 79,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 9,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 6
+      },
+      "mdx": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 30
+      },
+      "yaml": {
+        "inserts": 2,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6d7ea103647ee78bcc51c26ef24c1110df8578dd",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Wed Feb 9 19:43:22 2022 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 39,
+        "deletes": 14,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 6
+      },
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 29,
+        "deletes": 22,
+        "occurrences": 5
+      },
+      "mdx": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 30
+      },
+      "css": {
+        "inserts": 16,
+        "deletes": 36,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 378,
+        "deletes": 759,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e94f4ee473dce6dcea1b4e528d8a1f6e5e53f5c6",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Feb 9 17:29:39 2022 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 18,
+        "deletes": 18,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ac1cb47f283a0ba97492d9d37fea7d77d08c4197",
+    "Author": "Matthew Salerno <matthewsalern@gmail.com>",
+    "Date": "Date:   Wed Feb 9 14:29:03 2022 -0800",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "056a9d3a20738062661b0ca5758c9ee10e0aca96",
+    "Author": "Daniel Gimenes <daniel@gimenes.dev>",
+    "Date": "Date:   Mon Feb 7 11:31:43 2022 -0300",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0649fa5f0cafefd86f921ad81a5b0c2222a2ba67",
+    "Author": "Pierre Bertet <hi@bpier.re>",
+    "Date": "Date:   Sat Feb 5 22:34:04 2022 +0000",
+    "fileTypes": {
+      "ts": {
+        "inserts": 11,
+        "deletes": 7,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a6dc92c769ef64badc6c9d0ea171b2e8abb5baca",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Feb 5 14:40:56 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 22,
+        "deletes": 6,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dceeb430d9021fbf98366859cb1cd0149e80c55c",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Sat Feb 5 14:35:07 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 180,
+        "deletes": 14,
+        "occurrences": 7
+      },
+      "ts": {
+        "inserts": 166,
+        "deletes": 23,
+        "occurrences": 20
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 4
+      },
+      "mdx": {
+        "inserts": 275,
+        "deletes": 4,
+        "occurrences": 3
+      },
+      "yaml": {
+        "inserts": 140,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9ad135706eeb410a30636ebc9a2c9c16edde8061",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Feb 3 09:18:52 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b49cb89ef59289ee1185eafab427d3ab55c17c25",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Feb 3 09:16:25 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6a0b75457a55b9a25129f8916e7e1d76da3e5355",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Feb 2 18:16:38 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "713263159899feb257c11614716f0af4f6b06a14",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Feb 2 18:10:23 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "e791da07257798765100e5157cbf89d702484eb4",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 30 15:56:02 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06631a5ad99c743e81d94a0ab366755b3dce7f32",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun Jan 30 15:53:02 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f05b0310f7f7e6447e9b6c81cedbb27dcf2f3649",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 30 15:47:06 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 51,
+        "deletes": 11,
+        "occurrences": 11
+      }
+    }
+  },
+  {
+    "commit": "6f6a013f28eda1393b0e284cc1fdd3ab602f6458",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Jan 29 19:31:49 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 22,
+        "deletes": 6,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1412eed0d1494bb4f8c6845a0e890f79e4e68e03",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 29 19:29:39 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "152db9a32ce3e45c29734aa32236146d3ae597d9",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 29 13:55:34 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e82a53170f17ade82086d1092dac2c38d48e2d1",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri Jan 28 21:22:34 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "94f599cc1de74a977956d4118d85ab0d36915471",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Fri Jan 28 21:09:06 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "411d149b4056333f01e9c43ada69abebeaa11276",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri Jan 28 19:57:35 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 30,
+        "deletes": 9,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e338c3b6cc255742be6a67593aa5da6c17e90fbd",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Fri Jan 28 19:56:09 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2925a5a2c87697465c0a42b35048b0e54e01e15",
+    "Author": "Sam Mason de Caires <sam.jbmason@gmail.com>",
+    "Date": "Date:   Sat Jan 29 00:53:34 2022 +0000",
+    "fileTypes": {
+      "ts": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "94910478649828774fc74680df38cf695e6ce7ee",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Fri Jan 28 19:41:50 2022 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 189,
+        "deletes": 178,
+        "occurrences": 5
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 36,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8688040cc47545f775e5dd486d4a0d75b568da2f",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Fri Jan 28 18:13:47 2022 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 16,
+        "deletes": 16,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a9bc4ef87e944ce7924c444c6c47af0cb05d8d27",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Fri Jan 28 17:49:40 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 22,
+        "deletes": 6,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0176c4e83fb0c5f159c3c802a1da3d6deb2184ae",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Fri Jan 28 17:47:58 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e2cb79b69a0608dae1142dd68df7de1bdc24aaa",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Fri Jan 28 17:45:45 2022 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 53,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 83,
+        "deletes": 83,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "97200d72c0b0c7b144b3faca0334cf2a63433156",
+    "Author": "Roman Pavlovskyi <rpavlovskyi@gmail.com>",
+    "Date": "Date:   Wed Jan 26 17:53:24 2022 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 33,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b28bdcf411079670b2d66eb93634d84a9a2bf415",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun Jan 23 22:08:23 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f12d9ccfdf87a2f75299b53a7dd6b1ad046a49d8",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 23 22:06:45 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b7018a64d88c9805a6fe0a4a41963ea6a33099a6",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 23 22:04:11 2022 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0336e9aa7a2acdd4a75214fe0be551bd47f42e77",
+    "Author": "Evolve <Artevolve@yahoo.com>",
+    "Date": "Date:   Sat Jan 22 17:13:41 2022 +0100",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ad121fadffa6626c1cce60a3523a58decdb0ba28",
+    "Author": "Angela Gilhotra <angelagilhotra@gmail.com>",
+    "Date": "Date:   Thu Jan 20 23:51:52 2022 -0400",
+    "fileTypes": {
+      "ts": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "edfdd3cef72a7c2f04d3b7093c1f655c1ba5d019",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Jan 20 15:26:22 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2ec7580436f52fd35005c6dd3f4472650a14d02",
+    "Author": "Dan Oved <stangogh@gmail.com>",
+    "Date": "Date:   Thu Jan 20 12:24:18 2022 -0800",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e4061b0fb98e66cd458d98068d2a609e51da0792",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Jan 18 22:00:15 2022 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b3633e5926d43f7d78c1d6a192ac9dcb86e57404",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Jan 17 22:47:34 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d9657578bc17648716c4671b8cc35ad295bc71d2",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Jan 17 21:31:30 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eac96817543bb481ef5bb8d5491c7e4dc27852c0",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 16 23:33:36 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 76,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f4566cffc0f218ead582382790fd0c6d0ae73358",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 16 23:23:36 2022 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 12,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bdb2b9fe3627289697156b9ebe25e2f6a93e4a35",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun Jan 16 16:12:19 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "071d7fbca35ec4832700b5343661ceb2dae20598",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 16 16:08:23 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d797ddb56916d45ee64774f18b443794ff813b79",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 16 15:43:02 2022 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "360d97424d6009936e7a75a14c072e17b8dc5041",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 16 14:08:51 2022 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bde9fa3a93f722bc379b28300e04d421184ce6b",
+    "Author": "Sam Margalit <sam@margalit.com.au>",
+    "Date": "Date:   Mon Jan 17 03:17:40 2022 +1100",
+    "fileTypes": {
+      "json": {
+        "inserts": 57,
+        "deletes": 1,
+        "occurrences": 4
+      },
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 238,
+        "deletes": 0,
+        "occurrences": 7
+      },
+      "ts": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "patch": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 1295,
+        "deletes": 125,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "12acfcdbb13dba35a1c12a63f3845f89545cce73",
+    "Author": "Isaac Martin <hey@isaacmartin.co>",
+    "Date": "Date:   Sat Jan 15 18:35:54 2022 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d949c8be8dd3a0603ab3ec4dc9c7e49aead95cb0",
+    "Author": "beemeeupnow <95515141+beemeeupnow@users.noreply.github.com>",
+    "Date": "Date:   Sat Jan 15 15:20:47 2022 -0600",
+    "fileTypes": {
+      "ts": {
+        "inserts": 36,
+        "deletes": 8,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "29dad788a5fa0488016961d77b1b04d4c69d7df1",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 15 13:13:51 2022 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d1414f0df9faf0c6ee79c25d080479210bd7d913",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Jan 15 13:04:41 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "db4d869fd9380b26a1f3f96ab34abd14ca73d068",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 15 12:58:38 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a96a45036dc175df4281a1e291c81de50752c1b1",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 15 12:55:27 2022 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ea223f16521aab12b59aad37828d9ada3dbf73d",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Fri Jan 14 23:07:32 2022 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 26,
+        "deletes": 9,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "bf9128e368bde9e76a6366a9263f4444d05982cf",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Fri Jan 14 18:10:51 2022 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f8731a41e60cfb47607f20555baca25613348272",
+    "Author": "Zak Angelle <zak@zak.dog>",
+    "Date": "Date:   Wed Jan 12 20:49:48 2022 -0600",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 63,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 142,
+        "deletes": 1,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "0d2983bab5e2a0de47488314a747bd855daee392",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Wed Jan 12 21:43:28 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 5,
+        "deletes": 121,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c78ccc4e7f311525d4ea712b79cf532899e2006",
+    "Author": "awkweb <tom@meagher.co>",
+    "Date": "Date:   Wed Jan 12 19:13:21 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 0,
+        "deletes": 77,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a8c15a2e248103debab6a36089f13e40ca307935",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Jan 12 18:34:10 2022 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 100,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 10,
+        "occurrences": 4
+      },
+      "tsx": {
+        "inserts": 102,
+        "deletes": 276,
+        "occurrences": 8
+      },
+      "ts": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 118,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21d6de32e4cdbf40a6d9c01f0993876af33f89b7",
+    "Author": "Sam Margalit <sam@margalit.com.au>",
+    "Date": "Date:   Tue Jan 11 11:52:44 2022 +1100",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "5eee036f745c01e0a94942fd251b7b1aff8de5f1",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun Jan 9 21:49:34 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 22,
+        "deletes": 6,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78bade9d0da97ab38a7e6594c34e3841ec1c8fe6",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 9 21:44:14 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd91d25416eb2991dcfe577fdb55feecc7e0513f",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 9 15:59:10 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 3,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bdfd0c90cd22766e96ab925d837cbcb2c798ff10",
+    "Author": "Lawrence Gosset <lawrencegosset@gmail.com>",
+    "Date": "Date:   Sun Jan 9 00:48:10 2022 +0000",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4a3b2b467ed9f2577f508681400588c13ffdf06",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 8 17:37:32 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "319c348d643c7c96852d0033f10534da62bad147",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Jan 8 16:29:15 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ebfd8e85b560f25cd46cff04619c84643cab297",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 8 16:28:00 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 116,
+        "deletes": 26,
+        "occurrences": 10
+      },
+      "tsx": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8afe90bd7d354964dce3169f12bf7424a1aeee0d",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Jan 8 15:49:45 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "25acd3dfbb4498af5e1139ae9c892f5013404cbc",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 8 15:43:52 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 21,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "583e25df275e4accbbbc0b67de6619d0d40ca14b",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Jan 8 15:10:12 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 55,
+        "deletes": 16,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da7a3a615def2443f65c041999100ce35e9774cc",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 8 15:04:58 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 100,
+        "deletes": 299,
+        "occurrences": 9
+      },
+      "mdx": {
+        "inserts": 27,
+        "deletes": 26,
+        "occurrences": 4
+      },
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 6,
+        "deletes": 21,
+        "occurrences": 13
+      },
+      "json": {
+        "inserts": 52,
+        "deletes": 4,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "c21c361e14bf892bc27cf7ded802a6c4b144984c",
+    "Author": "Facundo Gaich <facugaich@gmail.com>",
+    "Date": "Date:   Fri Jan 7 14:33:48 2022 -0300",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a89678e1ac11316265f1c9a3a4b63697368ae1a",
+    "Author": "jasheal <7109973+jasheal@users.noreply.github.com>",
+    "Date": "Date:   Thu Jan 6 21:10:17 2022 +0000",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dabeeeed1706509c10e0667de5089329ee1d8e03",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Jan 4 17:45:42 2022 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "37192983a0d8f2483c4a9e0db7eae89bc7e004cd",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Jan 4 17:33:12 2022 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b09691efb930dc1e1c50a9d38f005f214dc0ff9a",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Jan 4 15:42:32 2022 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 11,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "60a3361ca3db6c68482b980354b685d6b86db41a",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Tue Jan 4 14:35:30 2022 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a95e851ee138372de6b2536823c36f7c90441121",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Jan 4 14:11:41 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fdaf68143e7f4f95f3bb73bcfa8c5b8d4a173506",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Jan 4 13:10:31 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a7dab78b3518658bc7d85dc397990f0d28da175",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Tue Jan 4 13:08:19 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 45,
+        "deletes": 38,
+        "occurrences": 14
+      },
+      "ts": {
+        "inserts": 146,
+        "deletes": 88,
+        "occurrences": 21
+      }
+    }
+  },
+  {
+    "commit": "a2adaadc05a6a595435305e3d979856797702531",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Jan 4 11:16:51 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d1574cf5f7a578ccd480889c2e375134145a4aba",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Jan 4 11:15:00 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "60cc5eda0d14703d91cac8934db882da77145294",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Jan 4 11:09:19 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "39096249c1fa9516beabb11735beb67c94032879",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Jan 4 11:03:31 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5f4769d1520634eeeb3626952c9e684ec0378ca4",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Jan 3 18:38:32 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "33682b21f4516242ab52dffac4ca6df091fd2905",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Jan 3 10:45:39 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "63312e2b06b8d835abc2908cba399d941ca79408",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Jan 3 10:38:54 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "mdx": {
+        "inserts": 19,
+        "deletes": 15,
+        "occurrences": 7
+      },
+      "ts": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a608fb9f67aa8e1f5849ee285666d85d0076a01",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Mon Jan 3 00:48:33 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f890b0dabbdbea913ec91cb8bfc970c05ed0a93",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Jan 3 00:41:28 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47c573059773057a7464d382d7eb99e2bf639cb5",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 2 22:01:53 2022 -0500",
+    "fileTypes": {
+      "bin": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "wasm": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "46fd5e9ffa920996c6726be6eb28881a18957234",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 2 20:49:17 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 60,
+        "deletes": 24,
+        "occurrences": 2
+      },
+      "mdx": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 5
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "14fb6cc83291919d7ed636022588beb7c96697bd",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 2 19:01:52 2022 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f98ee5d6332dbdaa62fbc49ad0081798ba838ef7",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun Jan 2 16:16:17 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7bc1c47875e9ef24e9c79cfafc6b23e7a838b5bc",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 2 16:13:21 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 17,
+        "deletes": 17,
+        "occurrences": 9
+      },
+      "ts": {
+        "inserts": 17,
+        "deletes": 14,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "32b4d8b6aa134b5741948a75dbfa7a69d869a7a4",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 2 15:50:06 2022 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2c474242da96b734afb2170e23021db37cf91d1",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 2 15:17:59 2022 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b81b575f5ff4902332580e613fbffa18071feb01",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sun Jan 2 15:13:22 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 10,
+        "deletes": 126,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "571648b754f7f538536bafc9387bd3104657ea49",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Sun Jan 2 15:12:02 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 293,
+        "deletes": 2,
+        "occurrences": 6
+      },
+      "ts": {
+        "inserts": 131,
+        "deletes": 74,
+        "occurrences": 22
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "mdx": {
+        "inserts": 218,
+        "deletes": 44,
+        "occurrences": 7
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 330,
+        "deletes": 45,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9557353d4f2770828bac01de77e36763c6403426",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Jan 1 19:24:29 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 8,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f7675c3ffd848522d4117c07c1f62b17dfc6616",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 1 19:21:33 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "mdx": {
+        "inserts": 309,
+        "deletes": 6,
+        "occurrences": 8
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 138,
+        "deletes": 9,
+        "occurrences": 6
+      },
+      "ts": {
+        "inserts": 293,
+        "deletes": 98,
+        "occurrences": 24
+      },
+      "js": {
+        "inserts": 16,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd901207e41f98fdedb099830dcce02e2ffc2a29",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Sat Jan 1 14:41:14 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 26,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 5
+      },
+      "yaml": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5545f5565cf0bbf5e62ec7ccab3051705b1d313",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Sat Jan 1 14:39:13 2022 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "mdx": {
+        "inserts": 216,
+        "deletes": 9,
+        "occurrences": 7
+      },
+      "json": {
+        "inserts": 46,
+        "deletes": 11,
+        "occurrences": 6
+      },
+      "tsx": {
+        "inserts": 220,
+        "deletes": 34,
+        "occurrences": 11
+      },
+      "ts": {
+        "inserts": 598,
+        "deletes": 448,
+        "occurrences": 55
+      },
+      "js": {
+        "inserts": 19,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 57,
+        "deletes": 65,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "becb86ff5eb8fa2f6e4171513e7c1998011184e6",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Dec 30 17:14:01 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5332500918ac240d29ffe4d2aed8566a8ac001e4",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 30 17:12:39 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bd7625c6fc37ac09ffe1ece63d108d2df8487058",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 30 17:11:28 2021 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 21,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 103,
+        "deletes": 25,
+        "occurrences": 8
+      },
+      "ts": {
+        "inserts": 128,
+        "deletes": 197,
+        "occurrences": 20
+      }
+    }
+  },
+  {
+    "commit": "4ae93ca5588c40185272684e584576349c8719c1",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 30 14:27:30 2021 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 7,
+        "deletes": 9,
+        "occurrences": 4
+      },
+      "mdx": {
+        "inserts": 19,
+        "deletes": 49,
+        "occurrences": 5
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c21c5f532e4085e244abdb6895d0ee7665d214df",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Dec 30 14:08:06 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bff89ab2ad28b2cb9b346d1ac870e859d9278bc",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 30 14:00:39 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 22,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 5,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "783527beb8c0b73d9fe984ea8ebde58c58c3c08f",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Thu Dec 30 13:30:53 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 147,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "37d39d174ddfa122462bbe2d02141cd61eb9db4a",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 30 13:28:47 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 20,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bb2f54f2c243159d4fb728408662eb12a9de9db3",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 30 13:04:00 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "bin": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 338,
+        "deletes": 46,
+        "occurrences": 12
+      }
+    }
+  },
+  {
+    "commit": "4b6b452354a978e52a05901a996d9e657c075dc3",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 30 11:19:05 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "bin": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 98,
+        "deletes": 63,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0caefe3586ab7f4427cae0a3740cdd34aee5bea4",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 30 09:57:17 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 9,
+        "occurrences": 3
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 96,
+        "deletes": 63,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 144,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "055b1c7d5093395d3f15c4eb8001f4b5ace45fa5",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Dec 29 23:16:13 2021 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 64,
+        "deletes": 9,
+        "occurrences": 7
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ebd382c1b8d3b3c1eb85c12531374687c98f4ef",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Dec 29 22:20:35 2021 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "mdx": {
+        "inserts": 79,
+        "deletes": 6,
+        "occurrences": 8
+      },
+      "ts": {
+        "inserts": 581,
+        "deletes": 170,
+        "occurrences": 34
+      }
+    }
+  },
+  {
+    "commit": "178bde9cab3b14aeb8e2d3e75d42ab19c09cf700",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Dec 29 10:19:20 2021 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 10
+      },
+      "ts": {
+        "inserts": 626,
+        "deletes": 263,
+        "occurrences": 31
+      }
+    }
+  },
+  {
+    "commit": "90786e3fa9383524fb702372b238c909eaf7db6b",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 23:33:33 2021 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 294,
+        "deletes": 89,
+        "occurrences": 16
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b72861c6b8cbbe40b48bfb20061f60c5afebd1c7",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Dec 28 21:56:08 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7d94f06f7d30468e5e39d64db63124c6315cf82",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 21:52:57 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 6,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f7ca23e5c73c27048a6456f7456b8c73d562c46",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Dec 28 19:47:56 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29fbe2920046b9e87a34faa04500ccf3c4f83748",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 19:45:47 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 5,
+        "deletes": 29,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "468043ff8fd957c41bf79c14028234db5cf52b6e",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Dec 28 19:07:40 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 8,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8dc3a5d5f418813b09663534fe585d9bcf94dbeb",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 19:05:29 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "934da2a77b4fa153b7c6f96ea9a76732d0db51be",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 18:41:30 2021 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fae5052964a7d2c84ac3541b8288d39db21f243a",
+    "Author": "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+    "Date": "Date:   Tue Dec 28 18:38:50 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 19,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "yaml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2fbd8216379bd03c9cc5c06b10b75637e75cb7d8",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 18:35:17 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "525ce5ba25f7aa3efd71321dccc650b58f510c86",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 18:18:56 2021 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 9
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "270d988ed23a8db07dc4e79fe9ced13737008dcb",
+    "Author": "tmm <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 18:01:20 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 24,
+        "deletes": 9,
+        "occurrences": 5
+      },
+      "yml": {
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6a09c1045704c8c20e62a3affe9256c8e0d7ab2",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 16:45:34 2021 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 97,
+        "deletes": 2,
+        "occurrences": 5
+      },
+      "tsx": {
+        "inserts": 2,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f9c4dddd79dfb9124a8b81d405e371303f1d2948",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 28 15:03:48 2021 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 458,
+        "deletes": 59,
+        "occurrences": 24
+      },
+      "tsx": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 253,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ac6993300ff11401b17b58b73730a8bbf96b79a",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Dec 27 22:20:02 2021 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 134,
+        "deletes": 2,
+        "occurrences": 12
+      }
+    }
+  },
+  {
+    "commit": "ab011d7ffdaef37abe0fe9bfa0767fbaac98e881",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Dec 27 21:58:10 2021 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 18,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "0a03e3574f7fc45187a7d9c8c732ac19dde18539",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Dec 27 21:49:29 2021 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 886,
+        "deletes": 7,
+        "occurrences": 16
+      },
+      "json": {
+        "inserts": 15,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 50,
+        "deletes": 47,
+        "occurrences": 7
+      },
+      "yaml": {
+        "inserts": 491,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27a633301179097a75210620d02cd0eb4137df2d",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Dec 27 17:43:29 2021 -0500",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 173,
+        "deletes": 14,
+        "occurrences": 7
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e6a4aa7ad814738cdec41d9c76702145820e6c66",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Dec 27 16:58:49 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 150,
+        "deletes": 19,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 16,
+        "deletes": 12,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 25,
+        "deletes": 17,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "caca5b97f49d9990a7216d42acd6791fc1214481",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Dec 27 16:00:10 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 22,
+        "deletes": 1,
+        "occurrences": 5
+      },
+      "js": {
+        "inserts": 76,
+        "deletes": 27,
+        "occurrences": 7
+      },
+      "json": {
+        "inserts": 82,
+        "deletes": 14,
+        "occurrences": 9
+      },
+      "tsx": {
+        "inserts": 278,
+        "deletes": 138,
+        "occurrences": 8
+      },
+      "mdx": {
+        "inserts": 437,
+        "deletes": 96,
+        "occurrences": 7
+      },
+      "css": {
+        "inserts": 49,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 75,
+        "deletes": 79,
+        "occurrences": 21
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 617,
+        "deletes": 599,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca48b8780928a2e218694efbce0c6a1d565d758e",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Dec 26 15:52:51 2021 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 12,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 548,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "38baa9361fc16c022193e378e633e05eea0ce155",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Dec 26 15:00:07 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 26,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 557,
+        "deletes": 62,
+        "occurrences": 28
+      }
+    }
+  },
+  {
+    "commit": "f931d7bc63002b556ada1a8e4c25eecbbe36e1f1",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Dec 26 13:13:36 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 32,
+        "deletes": 17,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 190,
+        "deletes": 32,
+        "occurrences": 23
+      },
+      "yaml": {
+        "inserts": 297,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "163f3559978b9f6a33ee807d10de22fc0317a017",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Dec 26 11:23:47 2021 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 51,
+        "deletes": 10,
+        "occurrences": 5
+      },
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "78e7adcf43cf165da92dfb109cdff7e62b4e830f",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Dec 26 00:59:04 2021 -0500",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 319,
+        "deletes": 72,
+        "occurrences": 14
+      },
+      "tsx": {
+        "inserts": 26,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 109,
+        "deletes": 3688,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "102fa6c2289c8fbccc48f6b6068d112f4e496009",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Dec 25 13:04:59 2021 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 63,
+        "deletes": 25,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 303,
+        "deletes": 211,
+        "occurrences": 31
+      }
+    }
+  },
+  {
+    "commit": "a4dfa490306bb841836e95d59c21a3596d03125d",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 23 15:05:07 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 16,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 62,
+        "deletes": 8,
+        "occurrences": 12
+      },
+      "yaml": {
+        "inserts": 2370,
+        "deletes": 142,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a3116e576086e1e8aff4ac1b43b0b0df373dae1",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Thu Dec 23 11:28:23 2021 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 153,
+        "deletes": 14,
+        "occurrences": 8
+      },
+      "yaml": {
+        "inserts": 3515,
+        "deletes": 99,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d71714dea56a9606b49e53eccd69dd18756ce8a0",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Dec 22 20:19:16 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 37,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 285,
+        "occurrences": 4
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 36,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 26,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 82,
+        "deletes": 55,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9da06d90c3e37899915e5766f52b185bf5ab3c65",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Dec 22 18:09:51 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 284,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "tsx": {
+        "inserts": 78,
+        "deletes": 71,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 76,
+        "deletes": 42,
+        "occurrences": 17
+      },
+      "yaml": {
+        "inserts": 120,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 55,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "301c01f078bc36bc066b30858d1989c189f0100d",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Dec 22 12:44:51 2021 -0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 14,
+        "deletes": 12,
+        "occurrences": 2
+      },
+      "mdx": {
+        "inserts": 135,
+        "deletes": 51,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 18,
+        "deletes": 38,
+        "occurrences": 10
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 12,
+        "deletes": 10,
+        "occurrences": 2
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 22,
+        "deletes": 31,
+        "occurrences": 10
+      },
+      "yaml": {
+        "inserts": 4324,
+        "deletes": 128,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b311af0cb0a4b0689df7eb6d652f67fc0574e1d1",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Dec 21 18:37:04 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 60,
+        "deletes": 82,
+        "occurrences": 14
+      },
+      "yml": {
+        "inserts": 34,
+        "deletes": 15,
+        "occurrences": 2
+      },
+      "cjs": {
+        "inserts": 0,
+        "deletes": 777,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 46,
+        "deletes": 468,
+        "occurrences": 10
+      },
+      "json": {
+        "inserts": 236,
+        "deletes": 65,
+        "occurrences": 14
+      },
+      "md": {
+        "inserts": 51,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 65,
+        "deletes": 65,
+        "occurrences": 33
+      },
+      "tsx": {
+        "inserts": 17,
+        "deletes": 11,
+        "occurrences": 3
+      },
+      "mdx": {
+        "inserts": 55,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 5841,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 6215,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c0638e0458ed8b03e788bba944b452806288f95e",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Dec 12 18:47:19 2021 -0500",
+    "fileTypes": {
+      "ts": {
+        "inserts": 4,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c390926dd0849ce175bdeb5f906cf51b5a630a5c",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Dec 12 15:51:21 2021 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 40,
+        "occurrences": 3
+      },
+      "tsx": {
+        "inserts": 35,
+        "deletes": 20,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 17,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 205,
+        "deletes": 64,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "c3a071251ff861f3f518d75afea0fded732a75a1",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Wed Dec 8 23:49:23 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 26,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "afe03f7c75a4d3014c1ab0d33ff4eafdba83589e",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Mon Dec 6 21:53:03 2021 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 135,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "noexttext": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 26,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 14,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 285,
+        "deletes": 46,
+        "occurrences": 19
+      },
+      "lock": {
+        "inserts": 1155,
+        "deletes": 417,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "60af96fb3069c3ab3d3f9dcda82c918d948d519c",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sun Nov 28 18:44:23 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 19,
+        "deletes": 12,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 167,
+        "deletes": 29,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "ebbb17b44303fb746fe2a440820eba13a5c0902d",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Sat Nov 27 23:34:44 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 32,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 168,
+        "deletes": 63,
+        "occurrences": 13
+      },
+      "lock": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebc4bef989f4b9a08f24011993459b5f9ce42eca",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Fri Nov 26 18:54:12 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 11,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 433,
+        "deletes": 268,
+        "occurrences": 20
+      },
+      "lock": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2a5f48d5321643a7db3d112fbe7c03b6df4a4dc0",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Nov 23 22:57:21 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 12,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 90,
+        "deletes": 20,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "d30f8c69422573e7177540be25e480f341c8db64",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Nov 23 11:21:09 2021 -0500",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 16,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 26,
+        "deletes": 19,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "3c4e5cd3df2e4f8f7f8c0c63393314e08307cd47",
+    "Author": "Tom Meagher <tom@meagher.co>",
+    "Date": "Date:   Tue Nov 23 01:25:39 2021 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 17,
+        "deletes": 12,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 103,
+        "deletes": 33,
+        "occurrences": 11
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 15,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  }
+]

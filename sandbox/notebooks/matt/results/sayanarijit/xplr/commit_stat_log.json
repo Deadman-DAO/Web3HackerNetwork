@@ -1,26 +1,64 @@
 [
   {
-    "commit": "a66d5e05d50c2463f33e94ef44f0be9542af69a6",
+    "commit": "3cfed5aa6f1065a7bfbaebe82f3ba13eb731e540",
     "Author": "Arijit Basu <sayanarijit@gmail.com>",
-    "Date": "Date:   Sun May 15 21:21:38 2022 +0530",
+    "Date": "Date:   Mon May 16 17:24:32 2022 +0530",
     "fileTypes": {
-      "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
-        "inserts": 2,
+      "md": {
+        "inserts": 144,
+        "deletes": 126,
+        "occurrences": 5
+      },
+      "py": {
+        "inserts": 7,
         "deletes": 2,
         "occurrences": 1
       },
+      "rs": {
+        "inserts": 93,
+        "deletes": 93,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d12762c1db1bff556173ae6394dbaf1a2d1d0ce",
+    "Author": "Arijit Basu <sayanarijit@gmail.com>",
+    "Date": "Date:   Mon May 16 12:15:50 2022 +0530",
+    "fileTypes": {
+      "lock": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
+        "inserts": 4,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a66d5e05d50c2463f33e94ef44f0be9542af69a6",
+    "Author": "Arijit Basu <sayanarijit@gmail.com>",
+    "Date": "Date:   Sun May 15 21:21:38 2022 +0530",
+    "fileTypes": {
+      "lock": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rs": {
         "inserts": 8,
         "deletes": 5,
         "occurrences": 1
@@ -33,15 +71,11 @@
     "Date": "Date:   Sun May 15 10:27:53 2022 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -54,15 +88,11 @@
     "Date": "Date:   Sun May 15 09:42:07 2022 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 20,
         "deletes": 104,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -75,8 +105,6 @@
     "Date": "Date:   Sun May 8 21:25:15 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -89,8 +117,6 @@
     "Date": "Date:   Sun May 8 16:36:15 2022 +0200",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -103,8 +129,6 @@
     "Date": "Date:   Sun May 8 16:33:53 2022 +0200",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -117,8 +141,6 @@
     "Date": "Date:   Thu May 5 18:00:47 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -131,8 +153,6 @@
     "Date": "Date:   Thu May 5 11:07:00 2022 +0530",
     "fileTypes": {
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -145,8 +165,6 @@
     "Date": "Date:   Thu May 5 11:02:00 2022 +0530",
     "fileTypes": {
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 12,
         "occurrences": 1
@@ -159,8 +177,6 @@
     "Date": "Date:   Thu May 5 10:45:31 2022 +0530",
     "fileTypes": {
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -173,15 +189,11 @@
     "Date": "Date:   Wed May 4 23:26:16 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 5,
         "occurrences": 1
@@ -194,8 +206,6 @@
     "Date": "Date:   Wed May 4 23:13:16 2022 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 10,
         "occurrences": 1
@@ -208,29 +218,21 @@
     "Date": "Date:   Wed May 4 10:30:45 2022 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -243,8 +245,6 @@
     "Date": "Date:   Wed May 4 10:22:10 2022 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -257,8 +257,6 @@
     "Date": "Date:   Wed May 4 10:13:00 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 11,
         "deletes": 9,
         "occurrences": 1
@@ -271,8 +269,6 @@
     "Date": "Date:   Wed May 4 09:55:01 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 15,
         "deletes": 0,
         "occurrences": 1
@@ -285,36 +281,26 @@
     "Date": "Date:   Wed May 4 09:18:42 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 11,
         "deletes": 1,
         "occurrences": 1
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 55,
         "deletes": 55,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 7,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 132,
         "deletes": 178,
         "occurrences": 7
@@ -327,8 +313,6 @@
     "Date": "Date:   Sat Apr 16 13:10:14 2022 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 15,
         "deletes": 4,
         "occurrences": 1
@@ -341,8 +325,6 @@
     "Date": "Date:   Sat Apr 16 13:03:45 2022 +0530",
     "fileTypes": {
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -355,22 +337,16 @@
     "Date": "Date:   Sat Apr 16 13:03:05 2022 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 14,
         "occurrences": 1
       },
       "png": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 1
       },
       "hbs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 324,
         "deletes": 0,
         "occurrences": 1
@@ -383,8 +359,6 @@
     "Date": "Date:   Sat Apr 16 12:20:14 2022 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 1,
         "occurrences": 1
@@ -397,8 +371,6 @@
     "Date": "Date:   Thu Apr 14 20:16:25 2022 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 11,
         "occurrences": 1
@@ -411,8 +383,6 @@
     "Date": "Date:   Fri Apr 15 21:50:40 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 23,
         "deletes": 0,
         "occurrences": 1
@@ -425,8 +395,6 @@
     "Date": "Date:   Tue Apr 12 13:46:25 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -439,8 +407,6 @@
     "Date": "Date:   Sun Apr 10 18:46:31 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 2,
         "occurrences": 1
@@ -453,8 +419,6 @@
     "Date": "Date:   Sun Apr 10 18:42:53 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 2,
         "occurrences": 1
@@ -467,8 +431,6 @@
     "Date": "Date:   Sun Apr 10 13:19:13 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -481,15 +443,11 @@
     "Date": "Date:   Sat Apr 9 17:06:37 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -502,15 +460,11 @@
     "Date": "Date:   Sat Apr 9 17:04:43 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 7,
         "occurrences": 2
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 5,
         "occurrences": 1
@@ -523,22 +477,16 @@
     "Date": "Date:   Sat Apr 9 14:45:39 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 947,
         "deletes": 135,
         "occurrences": 6
       },
       "py": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 129,
         "deletes": 21,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 154,
         "deletes": 432,
         "occurrences": 1
@@ -551,8 +499,6 @@
     "Date": "Date:   Fri Apr 8 11:27:09 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -565,8 +511,6 @@
     "Date": "Date:   Wed Apr 6 14:55:35 2022 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -579,8 +523,6 @@
     "Date": "Date:   Wed Apr 6 11:22:52 2022 +0530",
     "fileTypes": {
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -593,15 +535,11 @@
     "Date": "Date:   Wed Apr 6 11:09:15 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 9,
         "occurrences": 1
       },
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 13,
         "occurrences": 1
@@ -614,50 +552,36 @@
     "Date": "Date:   Wed Apr 6 08:59:01 2022 +0530",
     "fileTypes": {
       "png": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 4
       },
       "jpg": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 1
       },
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 246,
         "deletes": 117,
         "occurrences": 2
       },
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 2
       },
       "css": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 81059,
         "deletes": 151,
         "occurrences": 11
       },
       "js": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 73,
         "deletes": 0,
         "occurrences": 1
       },
       "scss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1409,
         "deletes": 0,
         "occurrences": 2
@@ -670,8 +594,6 @@
     "Date": "Date:   Mon Feb 28 13:08:55 2022 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 3,
         "occurrences": 1
@@ -684,36 +606,26 @@
     "Date": "Date:   Mon Feb 28 10:04:43 2022 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 25,
         "deletes": 25,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 4,
         "occurrences": 2
       },
       "py": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -726,8 +638,6 @@
     "Date": "Date:   Mon Feb 28 09:29:08 2022 +0530",
     "fileTypes": {
       "py": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 20,
         "deletes": 19,
         "occurrences": 1
@@ -740,8 +650,6 @@
     "Date": "Date:   Sun Feb 27 23:25:50 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -754,8 +662,6 @@
     "Date": "Date:   Sun Feb 27 23:24:48 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -768,8 +674,6 @@
     "Date": "Date:   Sun Feb 27 17:16:34 2022 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -782,8 +686,6 @@
     "Date": "Date:   Sun Feb 27 16:55:00 2022 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 12,
         "occurrences": 1
@@ -796,8 +698,6 @@
     "Date": "Date:   Sun Feb 27 16:37:14 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 4,
         "occurrences": 1
@@ -810,8 +710,6 @@
     "Date": "Date:   Sun Feb 27 16:29:08 2022 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -824,8 +722,6 @@
     "Date": "Date:   Sun Feb 27 16:11:11 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
@@ -838,22 +734,16 @@
     "Date": "Date:   Sun Feb 27 15:58:04 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 9,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -866,22 +756,16 @@
     "Date": "Date:   Sun Feb 27 14:10:17 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1112,
         "deletes": 1291,
         "occurrences": 17
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 361,
         "deletes": 83,
         "occurrences": 2
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -894,8 +778,6 @@
     "Date": "Date:   Sat Feb 26 23:11:43 2022 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -908,15 +790,11 @@
     "Date": "Date:   Sat Feb 26 23:05:25 2022 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 17,
         "deletes": 2,
         "occurrences": 2
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 0,
         "occurrences": 1
@@ -929,22 +807,16 @@
     "Date": "Date:   Sat Feb 26 22:36:05 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 38,
         "deletes": 601,
         "occurrences": 4
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 654,
         "deletes": 368,
         "occurrences": 1
@@ -957,8 +829,6 @@
     "Date": "Date:   Sat Feb 19 16:56:45 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -971,8 +841,6 @@
     "Date": "Date:   Sat Feb 5 22:19:16 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -985,8 +853,6 @@
     "Date": "Date:   Sat Feb 5 13:07:45 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -999,8 +865,6 @@
     "Date": "Date:   Sat Feb 5 13:03:31 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 23,
         "deletes": 2,
         "occurrences": 1
@@ -1013,8 +877,6 @@
     "Date": "Date:   Sat Feb 5 12:51:31 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 416,
         "deletes": 95,
         "occurrences": 6
@@ -1027,8 +889,6 @@
     "Date": "Date:   Fri Feb 4 20:16:56 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -1041,8 +901,6 @@
     "Date": "Date:   Thu Feb 3 14:39:40 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 2,
         "occurrences": 1
@@ -1055,29 +913,21 @@
     "Date": "Date:   Thu Feb 3 10:19:40 2022 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 53,
         "deletes": 54,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 79,
         "deletes": 42,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 3,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -1090,8 +940,6 @@
     "Date": "Date:   Sun Jan 30 06:29:53 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 2,
         "occurrences": 1
@@ -1104,8 +952,6 @@
     "Date": "Date:   Sun Jan 30 05:41:49 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 7,
         "occurrences": 1
@@ -1118,8 +964,6 @@
     "Date": "Date:   Sun Jan 30 05:31:01 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 6,
         "occurrences": 1
@@ -1132,22 +976,16 @@
     "Date": "Date:   Fri Jan 21 14:58:14 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 11,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 2
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 69,
         "deletes": 4,
         "occurrences": 1
@@ -1160,8 +998,6 @@
     "Date": "Date:   Wed Jan 19 16:38:55 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1174,8 +1010,6 @@
     "Date": "Date:   Wed Jan 19 16:30:42 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 4,
         "occurrences": 2
@@ -1188,8 +1022,6 @@
     "Date": "Date:   Tue Jan 11 12:51:13 2022 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -1202,29 +1034,21 @@
     "Date": "Date:   Tue Jan 11 12:29:43 2022 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 54,
         "deletes": 54,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 7,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -1237,22 +1061,16 @@
     "Date": "Date:   Tue Jan 11 12:12:44 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 2,
         "occurrences": 2
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 2
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 44,
         "deletes": 26,
         "occurrences": 1
@@ -1265,8 +1083,6 @@
     "Date": "Date:   Mon Jan 10 15:47:04 2022 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 2,
         "occurrences": 1
@@ -1279,8 +1095,6 @@
     "Date": "Date:   Thu Jan 6 19:44:46 2022 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -1293,8 +1107,6 @@
     "Date": "Date:   Wed Dec 29 09:26:01 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1307,8 +1119,6 @@
     "Date": "Date:   Wed Dec 29 09:23:30 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -1321,8 +1131,6 @@
     "Date": "Date:   Wed Dec 29 09:22:01 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -1335,8 +1143,6 @@
     "Date": "Date:   Mon Dec 13 05:36:34 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 2,
         "occurrences": 1
@@ -1349,8 +1155,6 @@
     "Date": "Date:   Sun Dec 12 22:35:35 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 24,
         "deletes": 24,
         "occurrences": 1
@@ -1363,8 +1167,6 @@
     "Date": "Date:   Sun Dec 12 15:28:15 2021 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 358,
         "deletes": 342,
         "occurrences": 1
@@ -1377,8 +1179,6 @@
     "Date": "Date:   Sat Dec 11 21:56:52 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -1391,8 +1191,6 @@
     "Date": "Date:   Sat Dec 11 21:50:42 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1405,8 +1203,6 @@
     "Date": "Date:   Sat Dec 11 21:40:28 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 15,
         "deletes": 0,
         "occurrences": 1
@@ -1419,22 +1215,16 @@
     "Date": "Date:   Sat Dec 11 21:14:50 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 32,
         "deletes": 25,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 5,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -1447,8 +1237,6 @@
     "Date": "Date:   Sat Dec 11 20:33:47 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 1,
         "occurrences": 1
@@ -1461,8 +1249,6 @@
     "Date": "Date:   Mon Nov 29 17:09:00 2021 +0530",
     "fileTypes": {
       "yaml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 3,
         "occurrences": 1
@@ -1475,15 +1261,11 @@
     "Date": "Date:   Mon Nov 29 16:25:40 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "yaml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1496,15 +1278,11 @@
     "Date": "Date:   Mon Nov 29 16:18:03 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 16,
         "deletes": 16,
         "occurrences": 1
       },
       "yaml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 1,
         "occurrences": 1
@@ -1517,8 +1295,6 @@
     "Date": "Date:   Mon Nov 29 14:42:39 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 15,
         "deletes": 8,
         "occurrences": 1
@@ -1531,8 +1307,6 @@
     "Date": "Date:   Mon Nov 29 13:54:38 2021 +0530",
     "fileTypes": {
       "yaml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 21,
         "deletes": 0,
         "occurrences": 1
@@ -1545,8 +1319,6 @@
     "Date": "Date:   Fri Nov 19 15:59:19 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 21,
         "deletes": 12,
         "occurrences": 3
@@ -1559,8 +1331,6 @@
     "Date": "Date:   Wed Nov 17 07:57:30 2021 +0100",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1573,22 +1343,16 @@
     "Date": "Date:   Thu Nov 11 14:02:12 2021 +0100",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 2
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1601,22 +1365,16 @@
     "Date": "Date:   Wed Nov 10 20:08:59 2021 +0100",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 20,
         "deletes": 9,
         "occurrences": 2
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
@@ -1629,29 +1387,21 @@
     "Date": "Date:   Mon Nov 15 18:04:27 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -1664,8 +1414,6 @@
     "Date": "Date:   Mon Nov 15 11:38:42 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 46,
         "deletes": 9,
         "occurrences": 3
@@ -1678,8 +1426,6 @@
     "Date": "Date:   Mon Nov 15 10:08:57 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 18,
         "deletes": 13,
         "occurrences": 3
@@ -1692,8 +1438,6 @@
     "Date": "Date:   Mon Nov 15 08:48:33 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 25,
         "deletes": 48,
         "occurrences": 2
@@ -1706,15 +1450,11 @@
     "Date": "Date:   Mon Nov 15 08:30:21 2021 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 25,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 49,
         "deletes": 38,
         "occurrences": 4
@@ -1727,8 +1467,6 @@
     "Date": "Date:   Mon Nov 15 10:38:55 2021 +0530",
     "fileTypes": {
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 4,
         "occurrences": 1
@@ -1741,8 +1479,6 @@
     "Date": "Date:   Sun Nov 14 17:58:22 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1755,8 +1491,6 @@
     "Date": "Date:   Thu Nov 11 10:17:24 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1769,36 +1503,26 @@
     "Date": "Date:   Wed Nov 10 10:09:27 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 2
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -1811,8 +1535,6 @@
     "Date": "Date:   Wed Nov 10 10:00:52 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1825,36 +1547,26 @@
     "Date": "Date:   Wed Nov 10 09:53:17 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 2
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -1867,36 +1579,26 @@
     "Date": "Date:   Wed Nov 10 08:13:15 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 62,
         "deletes": 40,
         "occurrences": 2
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 22,
         "deletes": 12,
         "occurrences": 2
@@ -1909,29 +1611,21 @@
     "Date": "Date:   Wed Nov 10 07:47:41 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 24,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -1944,8 +1638,6 @@
     "Date": "Date:   Tue Nov 9 23:33:01 2021 +0200",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -1958,8 +1650,6 @@
     "Date": "Date:   Sun Nov 7 11:55:47 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 4,
         "occurrences": 1
@@ -1972,8 +1662,6 @@
     "Date": "Date:   Sun Nov 7 09:14:33 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 23,
         "deletes": 11,
         "occurrences": 4
@@ -1986,8 +1674,6 @@
     "Date": "Date:   Sat Nov 6 19:14:26 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
@@ -2000,8 +1686,6 @@
     "Date": "Date:   Sat Nov 6 15:27:16 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -2014,8 +1698,6 @@
     "Date": "Date:   Sat Nov 6 07:35:32 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 58,
         "deletes": 46,
         "occurrences": 1
@@ -2028,8 +1710,6 @@
     "Date": "Date:   Fri Nov 5 19:03:03 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2042,8 +1722,6 @@
     "Date": "Date:   Fri Nov 5 18:52:28 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2056,8 +1734,6 @@
     "Date": "Date:   Fri Nov 5 18:09:23 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2070,8 +1746,6 @@
     "Date": "Date:   Fri Nov 5 18:05:04 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 3,
         "occurrences": 1
@@ -2084,8 +1758,6 @@
     "Date": "Date:   Fri Nov 5 18:00:38 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 0,
         "occurrences": 1
@@ -2098,8 +1770,6 @@
     "Date": "Date:   Fri Nov 5 15:18:48 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 1,
         "occurrences": 1
@@ -2112,8 +1782,6 @@
     "Date": "Date:   Tue Nov 2 15:40:58 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -2126,8 +1794,6 @@
     "Date": "Date:   Mon Nov 1 22:55:01 2021 +0900",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 17,
         "deletes": 1,
         "occurrences": 1
@@ -2140,8 +1806,6 @@
     "Date": "Date:   Sat Oct 30 16:13:47 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 11,
         "deletes": 11,
         "occurrences": 1
@@ -2154,8 +1818,6 @@
     "Date": "Date:   Sat Oct 30 15:37:39 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 20,
         "deletes": 13,
         "occurrences": 2
@@ -2168,15 +1830,11 @@
     "Date": "Date:   Sat Oct 30 11:59:17 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 618,
         "deletes": 269,
         "occurrences": 11
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
@@ -2189,8 +1847,6 @@
     "Date": "Date:   Sat Oct 30 09:53:39 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 54,
         "deletes": 41,
         "occurrences": 4
@@ -2203,8 +1859,6 @@
     "Date": "Date:   Fri Oct 29 16:51:11 2021 +0200",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 14,
         "occurrences": 3
@@ -2217,8 +1871,6 @@
     "Date": "Date:   Fri Oct 29 16:43:05 2021 +0200",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 1,
         "occurrences": 2
@@ -2231,22 +1883,16 @@
     "Date": "Date:   Wed Oct 27 16:29:20 2021 +0200",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 24,
         "deletes": 43,
         "occurrences": 4
@@ -2259,22 +1905,16 @@
     "Date": "Date:   Tue Oct 26 16:38:20 2021 +0200",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 47,
         "deletes": 1,
         "occurrences": 3
@@ -2287,8 +1927,6 @@
     "Date": "Date:   Sat Oct 30 12:32:48 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -2301,8 +1939,6 @@
     "Date": "Date:   Sat Oct 30 07:52:42 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 0,
         "occurrences": 1
@@ -2315,8 +1951,6 @@
     "Date": "Date:   Thu Oct 28 09:54:20 2021 +0200",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 4,
         "occurrences": 1
@@ -2329,8 +1963,6 @@
     "Date": "Date:   Wed Oct 27 21:36:37 2021 +0900",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 23,
         "deletes": 0,
         "occurrences": 1
@@ -2343,8 +1975,6 @@
     "Date": "Date:   Sun Oct 24 19:41:14 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
@@ -2357,8 +1987,6 @@
     "Date": "Date:   Sun Oct 24 15:27:54 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2371,8 +1999,6 @@
     "Date": "Date:   Sun Oct 24 11:29:32 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 20,
         "deletes": 25,
         "occurrences": 1
@@ -2385,8 +2011,6 @@
     "Date": "Date:   Sun Oct 24 14:13:44 2021 +0900",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 16,
         "deletes": 8,
         "occurrences": 1
@@ -2399,29 +2023,21 @@
     "Date": "Date:   Sun Oct 24 11:12:00 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -2434,29 +2050,21 @@
     "Date": "Date:   Sun Oct 24 10:27:20 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 21,
         "deletes": 12,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 5,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -2469,8 +2077,6 @@
     "Date": "Date:   Fri Oct 22 12:31:57 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -2483,8 +2089,6 @@
     "Date": "Date:   Sat Oct 16 08:33:56 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 620,
         "deletes": 915,
         "occurrences": 25
@@ -2497,8 +2101,6 @@
     "Date": "Date:   Fri Oct 15 19:25:56 2021 +0100",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 460,
         "deletes": 1,
         "occurrences": 1
@@ -2511,8 +2113,6 @@
     "Date": "Date:   Sat Oct 9 11:19:18 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 4,
         "occurrences": 1
@@ -2525,8 +2125,6 @@
     "Date": "Date:   Sat Oct 9 11:17:01 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 1,
         "occurrences": 1
@@ -2539,8 +2137,6 @@
     "Date": "Date:   Fri Oct 8 16:17:18 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -2553,8 +2149,6 @@
     "Date": "Date:   Thu Oct 7 17:43:27 2021 +0530",
     "fileTypes": {
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 4,
         "occurrences": 1
@@ -2567,15 +2161,11 @@
     "Date": "Date:   Thu Oct 7 17:21:51 2021 +0530",
     "fileTypes": {
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 99,
         "deletes": 54,
         "occurrences": 1
       },
       "css": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 107,
         "deletes": 107,
         "occurrences": 1
@@ -2588,36 +2178,26 @@
     "Date": "Date:   Thu Oct 7 08:38:14 2021 +0500",
     "fileTypes": {
       "json": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 3,
         "occurrences": 1
       },
       "png": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 4
       },
       "jpg": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 1
       },
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 59,
         "deletes": 38,
         "occurrences": 1
       },
       "css": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 91,
         "deletes": 91,
         "occurrences": 1
@@ -2630,29 +2210,21 @@
     "Date": "Date:   Wed Oct 6 19:46:54 2021 +0500",
     "fileTypes": {
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "png": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 1
       },
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 46,
         "deletes": 156,
         "occurrences": 2
       },
       "css": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 151,
         "deletes": 85,
         "occurrences": 2
@@ -2665,36 +2237,26 @@
     "Date": "Date:   Wed Oct 6 20:33:53 2021 +0500",
     "fileTypes": {
       "json": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
       },
       "png": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 4
       },
       "jpg": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 1
       },
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 48,
         "deletes": 0,
         "occurrences": 1
       },
       "css": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 85,
         "deletes": 0,
         "occurrences": 1
@@ -2707,8 +2269,6 @@
     "Date": "Date:   Thu Oct 7 13:47:15 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 24,
         "deletes": 8,
         "occurrences": 1
@@ -2721,8 +2281,6 @@
     "Date": "Date:   Wed Oct 6 20:20:47 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2735,8 +2293,6 @@
     "Date": "Date:   Wed Oct 6 15:35:08 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 48,
         "occurrences": 2
@@ -2749,8 +2305,6 @@
     "Date": "Date:   Wed Oct 6 13:25:57 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 15,
         "occurrences": 1
@@ -2763,8 +2317,6 @@
     "Date": "Date:   Wed Oct 6 12:39:52 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -2777,8 +2329,6 @@
     "Date": "Date:   Wed Oct 6 12:27:51 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 10,
         "occurrences": 1
@@ -2791,8 +2341,6 @@
     "Date": "Date:   Wed Oct 6 12:27:24 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2805,8 +2353,6 @@
     "Date": "Date:   Wed Oct 6 12:26:46 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2819,8 +2365,6 @@
     "Date": "Date:   Wed Oct 6 13:46:42 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -2833,8 +2377,6 @@
     "Date": "Date:   Wed Oct 6 01:44:40 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2847,8 +2389,6 @@
     "Date": "Date:   Tue Oct 5 22:38:19 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 22,
         "deletes": 44,
         "occurrences": 3
@@ -2861,8 +2401,6 @@
     "Date": "Date:   Tue Oct 5 22:17:23 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 54,
         "deletes": 67,
         "occurrences": 3
@@ -2875,8 +2413,6 @@
     "Date": "Date:   Wed Oct 6 10:35:07 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 345,
         "deletes": 1157,
         "occurrences": 5
@@ -2889,8 +2425,6 @@
     "Date": "Date:   Tue Oct 5 15:15:33 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 2,
         "occurrences": 1
@@ -2903,8 +2437,6 @@
     "Date": "Date:   Tue Oct 5 15:08:00 2021 +0300",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 30,
         "deletes": 163,
         "occurrences": 1
@@ -2917,8 +2449,6 @@
     "Date": "Date:   Tue Oct 5 15:05:48 2021 +0300",
     "fileTypes": {
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 0,
         "occurrences": 1
@@ -2931,8 +2461,6 @@
     "Date": "Date:   Tue Oct 5 17:16:47 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 2,
         "occurrences": 1
@@ -2945,8 +2473,6 @@
     "Date": "Date:   Tue Oct 5 16:55:45 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
@@ -2959,8 +2485,6 @@
     "Date": "Date:   Tue Oct 5 16:51:33 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 14,
         "occurrences": 1
@@ -2973,36 +2497,26 @@
     "Date": "Date:   Tue Oct 5 15:45:18 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 33,
         "deletes": 17,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 10,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 69,
         "deletes": 49,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -3015,8 +2529,6 @@
     "Date": "Date:   Tue Oct 5 15:12:14 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3029,15 +2541,11 @@
     "Date": "Date:   Tue Oct 5 14:25:12 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 128,
         "deletes": 102,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 74,
         "deletes": 8,
         "occurrences": 1
@@ -3050,8 +2558,6 @@
     "Date": "Date:   Tue Oct 5 14:04:19 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3064,8 +2570,6 @@
     "Date": "Date:   Tue Oct 5 14:03:32 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 28,
         "occurrences": 1
@@ -3078,22 +2582,16 @@
     "Date": "Date:   Wed Sep 29 09:19:24 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 281,
         "deletes": 62,
         "occurrences": 2
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 255,
         "deletes": 30,
         "occurrences": 3
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 6,
         "occurrences": 1
@@ -3106,8 +2604,6 @@
     "Date": "Date:   Mon Oct 4 11:25:59 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 22,
         "deletes": 6,
         "occurrences": 1
@@ -3120,8 +2616,6 @@
     "Date": "Date:   Mon Oct 4 10:56:51 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 6,
         "occurrences": 1
@@ -3134,8 +2628,6 @@
     "Date": "Date:   Tue Sep 28 22:02:23 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 1,
         "occurrences": 1
@@ -3148,22 +2640,16 @@
     "Date": "Date:   Mon Sep 27 18:11:29 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 4,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 7,
         "occurrences": 2
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3176,15 +2662,11 @@
     "Date": "Date:   Mon Sep 27 20:40:23 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -3197,8 +2679,6 @@
     "Date": "Date:   Mon Sep 27 20:32:13 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -3211,8 +2691,6 @@
     "Date": "Date:   Thu Sep 23 16:36:15 2021 +0530",
     "fileTypes": {
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 105,
         "deletes": 16,
         "occurrences": 1
@@ -3225,22 +2703,16 @@
     "Date": "Date:   Thu Sep 23 14:36:00 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 26,
         "deletes": 26,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3253,15 +2725,11 @@
     "Date": "Date:   Mon Sep 13 20:38:40 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 15,
         "deletes": 4,
         "occurrences": 2
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 0,
         "occurrences": 1
@@ -3274,8 +2742,6 @@
     "Date": "Date:   Fri Sep 17 09:17:28 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 24,
         "deletes": 7,
         "occurrences": 5
@@ -3288,8 +2754,6 @@
     "Date": "Date:   Thu Sep 16 16:59:18 2021 +0200",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 126,
         "deletes": 151,
         "occurrences": 6
@@ -3302,8 +2766,6 @@
     "Date": "Date:   Fri Sep 10 22:53:48 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 5,
         "occurrences": 1
@@ -3316,8 +2778,6 @@
     "Date": "Date:   Thu Sep 2 21:02:23 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3330,8 +2790,6 @@
     "Date": "Date:   Thu Sep 2 20:59:09 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 90,
         "deletes": 25,
         "occurrences": 1
@@ -3344,8 +2802,6 @@
     "Date": "Date:   Thu Sep 2 18:32:01 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 2,
         "occurrences": 1
@@ -3358,8 +2814,6 @@
     "Date": "Date:   Thu Sep 2 13:03:23 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 11,
         "deletes": 5,
         "occurrences": 2
@@ -3372,8 +2826,6 @@
     "Date": "Date:   Thu Sep 2 10:13:17 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 18,
         "deletes": 18,
         "occurrences": 1
@@ -3386,8 +2838,6 @@
     "Date": "Date:   Thu Sep 2 10:11:19 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -3400,8 +2850,6 @@
     "Date": "Date:   Thu Sep 2 10:09:04 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
@@ -3414,8 +2862,6 @@
     "Date": "Date:   Thu Sep 2 09:33:06 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 6,
         "occurrences": 1
@@ -3428,8 +2874,6 @@
     "Date": "Date:   Fri Aug 27 09:42:33 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 1
@@ -3442,8 +2886,6 @@
     "Date": "Date:   Fri Aug 27 09:29:28 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 2,
         "occurrences": 1
@@ -3456,22 +2898,16 @@
     "Date": "Date:   Fri Aug 27 09:07:31 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 45,
         "deletes": 45,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -3484,8 +2920,6 @@
     "Date": "Date:   Fri Aug 27 08:58:38 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 4,
         "occurrences": 1
@@ -3498,8 +2932,6 @@
     "Date": "Date:   Fri Aug 27 08:55:46 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 5,
         "occurrences": 3
@@ -3512,8 +2944,6 @@
     "Date": "Date:   Sat Jul 31 15:50:44 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 12,
         "deletes": 4,
         "occurrences": 1
@@ -3526,8 +2956,6 @@
     "Date": "Date:   Sat Jul 31 15:37:04 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -3540,8 +2968,6 @@
     "Date": "Date:   Sat Jul 31 15:34:41 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -3554,8 +2980,6 @@
     "Date": "Date:   Sat Jul 31 13:56:49 2021 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 766,
         "deletes": 528,
         "occurrences": 1
@@ -3568,29 +2992,21 @@
     "Date": "Date:   Thu Jul 29 23:19:25 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -3603,8 +3019,6 @@
     "Date": "Date:   Thu Jul 29 22:55:44 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 38,
         "deletes": 23,
         "occurrences": 4
@@ -3617,29 +3031,21 @@
     "Date": "Date:   Wed Jul 28 10:41:27 2021 +0530",
     "fileTypes": {
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 162,
         "deletes": 139,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 7,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 5,
         "occurrences": 3
@@ -3652,8 +3058,6 @@
     "Date": "Date:   Tue Jul 27 10:10:57 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
@@ -3666,22 +3070,16 @@
     "Date": "Date:   Wed Jul 28 11:27:09 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 28,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 8,
         "occurrences": 1
@@ -3694,8 +3092,6 @@
     "Date": "Date:   Tue Jul 20 22:26:10 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 57,
         "deletes": 12,
         "occurrences": 1
@@ -3708,15 +3104,11 @@
     "Date": "Date:   Tue Jul 20 22:10:51 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 537,
         "deletes": 57,
         "occurrences": 6
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 48,
         "occurrences": 2
@@ -3729,8 +3121,6 @@
     "Date": "Date:   Tue Jul 20 14:23:18 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 2
@@ -3743,8 +3133,6 @@
     "Date": "Date:   Sat Jul 17 06:46:28 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -3757,8 +3145,6 @@
     "Date": "Date:   Thu Jul 15 19:37:08 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3771,8 +3157,6 @@
     "Date": "Date:   Thu Jul 15 19:34:34 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -3785,8 +3169,6 @@
     "Date": "Date:   Thu Jul 15 19:31:10 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 20,
         "deletes": 30,
         "occurrences": 1
@@ -3799,8 +3181,6 @@
     "Date": "Date:   Wed Jul 14 21:57:55 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 11,
         "occurrences": 1
@@ -3813,8 +3193,6 @@
     "Date": "Date:   Tue Jul 13 19:05:19 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3827,8 +3205,6 @@
     "Date": "Date:   Sun Jul 11 23:14:49 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
@@ -3841,8 +3217,6 @@
     "Date": "Date:   Sat Jul 10 21:01:05 2021 +0100",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3855,15 +3229,11 @@
     "Date": "Date:   Thu Jul 8 12:11:59 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 38,
         "occurrences": 2
@@ -3876,8 +3246,6 @@
     "Date": "Date:   Tue Jul 6 15:36:43 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 3,
         "occurrences": 1
@@ -3890,8 +3258,6 @@
     "Date": "Date:   Mon Jul 5 19:02:13 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3904,29 +3270,21 @@
     "Date": "Date:   Mon Jul 5 11:50:31 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 3,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 6,
         "occurrences": 1
@@ -3939,8 +3297,6 @@
     "Date": "Date:   Mon Jul 5 11:37:34 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3953,8 +3309,6 @@
     "Date": "Date:   Mon Jul 5 09:51:21 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 23,
         "deletes": 12,
         "occurrences": 1
@@ -3967,8 +3321,6 @@
     "Date": "Date:   Sun Jul 4 23:57:26 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
@@ -3981,8 +3333,6 @@
     "Date": "Date:   Sun Jul 4 22:27:58 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 1,
         "occurrences": 1
@@ -3995,8 +3345,6 @@
     "Date": "Date:   Sat Jul 3 22:52:47 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 3,
         "occurrences": 1
@@ -4009,8 +3357,6 @@
     "Date": "Date:   Sat Jul 3 22:51:58 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -4023,8 +3369,6 @@
     "Date": "Date:   Sat Jul 3 22:48:50 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 31,
         "occurrences": 1
@@ -4037,8 +3381,6 @@
     "Date": "Date:   Sat Jul 3 14:54:37 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 674,
         "deletes": 337,
         "occurrences": 28
@@ -4051,8 +3393,6 @@
     "Date": "Date:   Sat Jul 3 11:12:23 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 61,
         "deletes": 7,
         "occurrences": 2
@@ -4065,8 +3405,6 @@
     "Date": "Date:   Fri Jul 2 21:42:17 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -4079,8 +3417,6 @@
     "Date": "Date:   Fri Jul 2 21:41:26 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 1
@@ -4093,8 +3429,6 @@
     "Date": "Date:   Fri Jul 2 21:12:03 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 19,
         "deletes": 19,
         "occurrences": 1
@@ -4107,8 +3441,6 @@
     "Date": "Date:   Fri Jul 2 20:58:07 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4121,8 +3453,6 @@
     "Date": "Date:   Fri Jul 2 20:56:40 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 127,
         "deletes": 87,
         "occurrences": 1
@@ -4135,8 +3465,6 @@
     "Date": "Date:   Fri Jul 2 20:52:51 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 680,
         "deletes": 6,
         "occurrences": 1
@@ -4149,8 +3477,6 @@
     "Date": "Date:   Fri Jul 2 15:37:07 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
@@ -4163,8 +3489,6 @@
     "Date": "Date:   Fri Jul 2 13:55:06 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
@@ -4177,8 +3501,6 @@
     "Date": "Date:   Thu Jul 1 07:02:59 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
@@ -4191,8 +3513,6 @@
     "Date": "Date:   Wed Jun 30 12:24:22 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
@@ -4205,8 +3525,6 @@
     "Date": "Date:   Mon Jun 28 18:44:58 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4219,8 +3537,6 @@
     "Date": "Date:   Mon Jun 28 18:43:38 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 7,
         "occurrences": 1
@@ -4233,8 +3549,6 @@
     "Date": "Date:   Mon Jun 28 15:08:24 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4247,8 +3561,6 @@
     "Date": "Date:   Mon Jun 28 15:05:48 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4261,8 +3573,6 @@
     "Date": "Date:   Mon Jun 28 11:53:54 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 21,
         "deletes": 21,
         "occurrences": 1
@@ -4275,8 +3585,6 @@
     "Date": "Date:   Mon Jun 28 11:01:23 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 17,
         "deletes": 18,
         "occurrences": 1
@@ -4289,8 +3597,6 @@
     "Date": "Date:   Mon Jun 28 10:50:15 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 1,
         "occurrences": 1
@@ -4303,8 +3609,6 @@
     "Date": "Date:   Mon Jun 28 09:33:54 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -4317,8 +3621,6 @@
     "Date": "Date:   Mon Jun 28 09:28:42 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 153,
         "deletes": 0,
         "occurrences": 7
@@ -4331,8 +3633,6 @@
     "Date": "Date:   Sat Jun 26 14:57:47 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4345,8 +3645,6 @@
     "Date": "Date:   Sat Jun 26 10:02:05 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
@@ -4359,8 +3657,6 @@
     "Date": "Date:   Fri Jun 25 10:57:51 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4373,8 +3669,6 @@
     "Date": "Date:   Fri Jun 25 07:06:15 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -4387,8 +3681,6 @@
     "Date": "Date:   Thu Jun 24 23:05:51 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4401,8 +3693,6 @@
     "Date": "Date:   Thu Jun 24 19:01:48 2021 +0200",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4415,8 +3705,6 @@
     "Date": "Date:   Thu Jun 24 22:22:18 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4429,8 +3717,6 @@
     "Date": "Date:   Thu Jun 24 21:47:34 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4443,8 +3729,6 @@
     "Date": "Date:   Thu Jun 24 21:47:01 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 9,
         "occurrences": 1
@@ -4457,8 +3741,6 @@
     "Date": "Date:   Thu Jun 24 20:02:35 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4471,8 +3753,6 @@
     "Date": "Date:   Thu Jun 24 16:47:56 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 313,
         "deletes": 2,
         "occurrences": 6
@@ -4485,15 +3765,11 @@
     "Date": "Date:   Thu Jun 24 14:36:07 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 36,
         "deletes": 10,
         "occurrences": 2
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
@@ -4506,8 +3782,6 @@
     "Date": "Date:   Thu Jun 24 12:01:50 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4520,8 +3794,6 @@
     "Date": "Date:   Thu Jun 24 11:59:37 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 2,
         "occurrences": 1
@@ -4534,8 +3806,6 @@
     "Date": "Date:   Thu Jun 24 11:54:34 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
@@ -4548,8 +3818,6 @@
     "Date": "Date:   Thu Jun 24 10:39:30 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 3,
         "occurrences": 3
@@ -4562,8 +3830,6 @@
     "Date": "Date:   Thu Jun 24 09:03:28 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 160,
         "deletes": 47,
         "occurrences": 9
@@ -4576,8 +3842,6 @@
     "Date": "Date:   Wed Jun 23 23:42:38 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 1
@@ -4590,8 +3854,6 @@
     "Date": "Date:   Wed Jun 23 23:33:17 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -4604,8 +3866,6 @@
     "Date": "Date:   Wed Jun 23 23:31:06 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 147,
         "deletes": 0,
         "occurrences": 2
@@ -4618,8 +3878,6 @@
     "Date": "Date:   Wed Jun 23 21:34:27 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4632,8 +3890,6 @@
     "Date": "Date:   Wed Jun 23 19:53:00 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4646,15 +3902,11 @@
     "Date": "Date:   Wed Jun 23 17:01:11 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 106,
         "deletes": 73,
         "occurrences": 5
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 0,
         "occurrences": 1
@@ -4667,8 +3919,6 @@
     "Date": "Date:   Wed Jun 23 15:26:59 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 3
@@ -4681,8 +3931,6 @@
     "Date": "Date:   Wed Jun 23 15:21:00 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
@@ -4695,36 +3943,26 @@
     "Date": "Date:   Tue Jun 22 17:22:46 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 33,
         "deletes": 0,
         "occurrences": 1
       },
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1738,
         "deletes": 0,
         "occurrences": 19
       },
       "html": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 20,
         "deletes": 0,
         "occurrences": 1
@@ -4737,8 +3975,6 @@
     "Date": "Date:   Tue Jun 22 09:02:29 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 1,
         "occurrences": 2
@@ -4751,22 +3987,16 @@
     "Date": "Date:   Mon Jun 21 12:26:34 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 81,
         "occurrences": 5
@@ -4779,22 +4009,16 @@
     "Date": "Date:   Wed Jun 16 14:36:54 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 5,
         "occurrences": 1
@@ -4807,8 +4031,6 @@
     "Date": "Date:   Wed Jun 16 14:25:20 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 2,
         "occurrences": 1
@@ -4821,8 +4043,6 @@
     "Date": "Date:   Wed Jun 16 14:18:42 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 2,
         "occurrences": 1
@@ -4835,22 +4055,16 @@
     "Date": "Date:   Tue Jun 8 23:32:15 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 2
@@ -4863,8 +4077,6 @@
     "Date": "Date:   Sun Jun 6 14:19:07 2021 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
@@ -4877,8 +4089,6 @@
     "Date": "Date:   Sun Jun 6 14:01:34 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 23,
         "deletes": 5,
         "occurrences": 3
@@ -4891,22 +4101,16 @@
     "Date": "Date:   Sun Jun 6 13:04:46 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 51,
         "deletes": 30,
         "occurrences": 5
@@ -4919,8 +4123,6 @@
     "Date": "Date:   Sat Jun 5 21:33:11 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4933,29 +4135,21 @@
     "Date": "Date:   Sat Jun 5 11:38:51 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 69,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 245,
         "deletes": 38,
         "occurrences": 7
@@ -4968,29 +4162,21 @@
     "Date": "Date:   Sat Jun 5 08:27:47 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 4,
         "occurrences": 1
@@ -5003,29 +4189,21 @@
     "Date": "Date:   Sat Jun 5 08:16:29 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 4,
         "occurrences": 1
@@ -5038,22 +4216,16 @@
     "Date": "Date:   Sat Jun 5 08:02:34 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 4,
         "occurrences": 1
@@ -5066,8 +4238,6 @@
     "Date": "Date:   Sat Jun 5 07:53:36 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -5080,29 +4250,21 @@
     "Date": "Date:   Fri Jun 4 23:36:25 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 33,
         "deletes": 10,
         "occurrences": 1
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 4,
         "occurrences": 1
@@ -5115,8 +4277,6 @@
     "Date": "Date:   Fri Jun 4 22:51:10 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 12,
         "deletes": 3,
         "occurrences": 3
@@ -5129,29 +4289,21 @@
     "Date": "Date:   Fri Jun 4 21:39:14 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 28,
         "deletes": 88,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 11,
         "deletes": 11,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 15,
         "occurrences": 3
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 3,
         "occurrences": 1
@@ -5164,15 +4316,11 @@
     "Date": "Date:   Fri Jun 4 17:46:03 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 37,
         "deletes": 65,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 22,
         "deletes": 49,
         "occurrences": 1
@@ -5185,8 +4333,6 @@
     "Date": "Date:   Fri Jun 4 17:34:55 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5199,8 +4345,6 @@
     "Date": "Date:   Fri Jun 4 17:11:13 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 77,
         "deletes": 48,
         "occurrences": 6
@@ -5213,15 +4357,11 @@
     "Date": "Date:   Fri May 28 09:55:02 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 2,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 6,
         "occurrences": 1
@@ -5234,22 +4374,16 @@
     "Date": "Date:   Thu May 27 10:18:59 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 43,
         "deletes": 7,
         "occurrences": 3
@@ -5262,22 +4396,16 @@
     "Date": "Date:   Thu May 27 08:26:19 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 139,
         "deletes": 119,
         "occurrences": 3
@@ -5290,22 +4418,16 @@
     "Date": "Date:   Tue May 25 16:13:40 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 6,
         "occurrences": 2
@@ -5318,8 +4440,6 @@
     "Date": "Date:   Mon May 24 11:56:29 2021 +0200",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5332,8 +4452,6 @@
     "Date": "Date:   Mon May 24 11:43:57 2021 +0200",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5346,8 +4464,6 @@
     "Date": "Date:   Mon May 24 14:20:10 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5360,15 +4476,11 @@
     "Date": "Date:   Mon May 24 12:58:49 2021 +0530",
     "fileTypes": {
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 30,
         "deletes": 9,
         "occurrences": 1
@@ -5381,29 +4493,21 @@
     "Date": "Date:   Mon May 24 10:12:08 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 3,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 123,
         "deletes": 12,
         "occurrences": 5
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 70,
         "deletes": 5,
         "occurrences": 1
@@ -5416,29 +4520,21 @@
     "Date": "Date:   Sun May 23 09:43:28 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 4,
         "occurrences": 1
@@ -5451,8 +4547,6 @@
     "Date": "Date:   Sun May 23 06:58:10 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 18,
         "deletes": 22,
         "occurrences": 2
@@ -5465,22 +4559,16 @@
     "Date": "Date:   Sat May 22 23:29:52 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 2,
         "occurrences": 1
@@ -5493,8 +4581,6 @@
     "Date": "Date:   Sat May 22 21:00:16 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 43,
         "deletes": 36,
         "occurrences": 2
@@ -5507,22 +4593,16 @@
     "Date": "Date:   Sat May 22 14:39:17 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 4,
         "occurrences": 2
@@ -5535,8 +4615,6 @@
     "Date": "Date:   Sat May 22 14:13:15 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 250,
         "occurrences": 3
@@ -5549,36 +4627,26 @@
     "Date": "Date:   Sat May 22 13:59:59 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 108,
         "deletes": 282,
         "occurrences": 7
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 81,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1598,
         "deletes": 1403,
         "occurrences": 1
@@ -5591,36 +4659,26 @@
     "Date": "Date:   Sat May 22 01:09:58 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5633,22 +4691,16 @@
     "Date": "Date:   Sat May 22 01:00:00 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5661,8 +4713,6 @@
     "Date": "Date:   Fri May 21 23:52:14 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 36,
         "deletes": 9,
         "occurrences": 1
@@ -5675,8 +4725,6 @@
     "Date": "Date:   Fri May 21 23:16:36 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 22,
         "deletes": 16,
         "occurrences": 2
@@ -5689,36 +4737,26 @@
     "Date": "Date:   Fri May 21 12:47:28 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 154,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 124,
         "deletes": 102,
         "occurrences": 8
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 7,
         "occurrences": 1
       },
       "lua": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 69,
         "deletes": 0,
         "occurrences": 1
@@ -5731,8 +4769,6 @@
     "Date": "Date:   Wed May 19 07:15:10 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 0,
         "occurrences": 1
@@ -5745,8 +4781,6 @@
     "Date": "Date:   Tue May 18 22:17:35 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 3,
         "occurrences": 2
@@ -5759,15 +4793,11 @@
     "Date": "Date:   Tue May 18 16:18:56 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 14,
         "occurrences": 1
@@ -5780,29 +4810,21 @@
     "Date": "Date:   Sun May 16 23:18:47 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 58,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 105,
         "deletes": 16,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5815,8 +4837,6 @@
     "Date": "Date:   Mon May 17 09:06:54 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 3,
         "occurrences": 1
@@ -5829,8 +4849,6 @@
     "Date": "Date:   Fri May 14 23:22:59 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
@@ -5843,8 +4861,6 @@
     "Date": "Date:   Thu May 13 13:43:46 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
@@ -5857,8 +4873,6 @@
     "Date": "Date:   Thu May 13 11:48:14 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 23,
         "deletes": 16,
         "occurrences": 1
@@ -5871,15 +4885,11 @@
     "Date": "Date:   Thu May 13 11:33:19 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 10,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 2,
         "occurrences": 1
@@ -5892,8 +4902,6 @@
     "Date": "Date:   Thu May 13 09:34:17 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 89,
         "deletes": 71,
         "occurrences": 3
@@ -5906,8 +4914,6 @@
     "Date": "Date:   Thu May 13 02:07:59 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 6,
         "occurrences": 1
@@ -5920,8 +4926,6 @@
     "Date": "Date:   Tue May 11 15:50:44 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -5934,8 +4938,6 @@
     "Date": "Date:   Tue May 11 20:52:54 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
@@ -5948,8 +4950,6 @@
     "Date": "Date:   Tue May 11 18:01:33 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 4,
         "occurrences": 1
@@ -5962,8 +4962,6 @@
     "Date": "Date:   Tue May 11 17:42:38 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 5,
         "occurrences": 1
@@ -5976,8 +4974,6 @@
     "Date": "Date:   Tue May 11 17:42:13 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 13,
         "deletes": 3,
         "occurrences": 1
@@ -5990,8 +4986,6 @@
     "Date": "Date:   Tue May 11 17:24:09 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 29,
         "deletes": 0,
         "occurrences": 1
@@ -6004,8 +4998,6 @@
     "Date": "Date:   Tue May 11 14:13:48 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 18,
         "deletes": 38,
         "occurrences": 4
@@ -6018,15 +5010,11 @@
     "Date": "Date:   Tue May 11 02:06:15 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 16,
         "deletes": 16,
         "occurrences": 1
@@ -6039,29 +5027,21 @@
     "Date": "Date:   Mon May 10 00:46:06 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 3,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 44,
         "deletes": 44,
         "occurrences": 1
@@ -6074,29 +5054,21 @@
     "Date": "Date:   Mon May 10 00:25:34 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 0,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6109,29 +5081,21 @@
     "Date": "Date:   Mon May 10 00:01:58 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -6144,29 +5108,21 @@
     "Date": "Date:   Sat May 8 19:35:02 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 175,
         "deletes": 96,
         "occurrences": 8
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 1,
         "occurrences": 1
@@ -6179,8 +5135,6 @@
     "Date": "Date:   Sat May 8 06:01:20 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 24,
         "deletes": 6,
         "occurrences": 1
@@ -6193,8 +5147,6 @@
     "Date": "Date:   Fri May 7 20:08:16 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6207,29 +5159,21 @@
     "Date": "Date:   Fri May 7 19:56:03 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 87,
         "deletes": 32,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 51,
         "deletes": 51,
         "occurrences": 1
@@ -6242,8 +5186,6 @@
     "Date": "Date:   Sat May 1 22:21:52 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6256,15 +5198,11 @@
     "Date": "Date:   Sat May 1 20:33:39 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6277,8 +5215,6 @@
     "Date": "Date:   Fri Apr 30 17:50:30 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6291,29 +5227,21 @@
     "Date": "Date:   Fri Apr 30 17:32:26 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6326,8 +5254,6 @@
     "Date": "Date:   Fri Apr 30 17:23:35 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6340,8 +5266,6 @@
     "Date": "Date:   Fri Apr 30 17:20:14 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -6354,29 +5278,21 @@
     "Date": "Date:   Fri Apr 30 12:35:22 2021 +0530",
     "fileTypes": {
       "desktop": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 1
       },
       "svg": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 11,
         "deletes": 0,
         "occurrences": 1
       },
       "ico": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 4
       },
       "png": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 0,
         "occurrences": 4
@@ -6389,8 +5305,6 @@
     "Date": "Date:   Fri Apr 30 11:25:54 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -6403,8 +5317,6 @@
     "Date": "Date:   Fri Apr 30 11:18:53 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
@@ -6417,8 +5329,6 @@
     "Date": "Date:   Thu Apr 29 23:35:11 2021 -0400",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -6431,8 +5341,6 @@
     "Date": "Date:   Thu Apr 29 22:35:06 2021 -0400",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
@@ -6445,8 +5353,6 @@
     "Date": "Date:   Thu Apr 29 11:20:43 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 0,
         "occurrences": 1
@@ -6459,8 +5365,6 @@
     "Date": "Date:   Thu Apr 29 11:15:26 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 0,
         "occurrences": 1
@@ -6473,29 +5377,21 @@
     "Date": "Date:   Thu Apr 29 08:05:48 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 71,
         "deletes": 44,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6508,29 +5404,21 @@
     "Date": "Date:   Tue Apr 27 22:42:13 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 3,
         "occurrences": 1
@@ -6543,8 +5431,6 @@
     "Date": "Date:   Mon Apr 26 11:52:46 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 590,
         "deletes": 206,
         "occurrences": 5
@@ -6557,8 +5443,6 @@
     "Date": "Date:   Sun Apr 25 16:36:23 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 182,
         "deletes": 177,
         "occurrences": 6
@@ -6571,8 +5455,6 @@
     "Date": "Date:   Sun Apr 25 16:00:22 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 363,
         "deletes": 158,
         "occurrences": 4
@@ -6585,8 +5467,6 @@
     "Date": "Date:   Fri Apr 23 22:18:31 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 92,
         "deletes": 85,
         "occurrences": 3
@@ -6599,29 +5479,21 @@
     "Date": "Date:   Sat Apr 24 22:13:55 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6634,8 +5506,6 @@
     "Date": "Date:   Fri Apr 23 15:18:43 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 1
@@ -6648,8 +5518,6 @@
     "Date": "Date:   Fri Apr 23 14:50:46 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6662,8 +5530,6 @@
     "Date": "Date:   Fri Apr 23 12:44:45 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6676,29 +5542,21 @@
     "Date": "Date:   Fri Apr 23 10:58:40 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 1,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6711,29 +5569,21 @@
     "Date": "Date:   Fri Apr 23 00:17:43 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6746,8 +5596,6 @@
     "Date": "Date:   Thu Apr 22 10:03:30 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6760,8 +5608,6 @@
     "Date": "Date:   Thu Apr 22 11:50:43 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6774,8 +5620,6 @@
     "Date": "Date:   Thu Apr 22 08:22:18 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
@@ -6788,8 +5632,6 @@
     "Date": "Date:   Tue Apr 20 21:35:06 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6802,29 +5644,21 @@
     "Date": "Date:   Tue Apr 20 21:20:28 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 2,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6837,29 +5671,21 @@
     "Date": "Date:   Mon Apr 19 23:15:37 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 19,
         "deletes": 13,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 1,
         "occurrences": 1
@@ -6872,29 +5698,21 @@
     "Date": "Date:   Mon Apr 19 20:52:45 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 5,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6907,15 +5725,11 @@
     "Date": "Date:   Mon Apr 19 19:17:03 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 37,
         "deletes": 29,
         "occurrences": 1
@@ -6928,15 +5742,11 @@
     "Date": "Date:   Mon Apr 19 18:01:58 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 12,
         "deletes": 1,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6949,15 +5759,11 @@
     "Date": "Date:   Mon Apr 19 17:10:41 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 16,
         "deletes": 0,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 88,
         "deletes": 21,
         "occurrences": 1
@@ -6970,29 +5776,21 @@
     "Date": "Date:   Mon Apr 19 08:56:23 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 0,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 102,
         "deletes": 68,
         "occurrences": 3
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 26,
         "deletes": 50,
         "occurrences": 1
@@ -7005,15 +5803,11 @@
     "Date": "Date:   Mon Apr 19 10:09:46 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 16,
         "deletes": 4,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -7026,8 +5820,6 @@
     "Date": "Date:   Mon Apr 19 00:51:50 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 1,
         "occurrences": 1
@@ -7040,8 +5832,6 @@
     "Date": "Date:   Mon Apr 19 00:43:25 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 11,
         "occurrences": 2
@@ -7054,8 +5844,6 @@
     "Date": "Date:   Mon Apr 19 00:36:46 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 12,
         "deletes": 6,
         "occurrences": 1
@@ -7068,8 +5856,6 @@
     "Date": "Date:   Sun Apr 18 15:19:22 2021 +0200",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 2,
         "occurrences": 1
@@ -7082,8 +5868,6 @@
     "Date": "Date:   Sun Apr 18 16:51:21 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 9,
         "occurrences": 1
@@ -7096,15 +5880,11 @@
     "Date": "Date:   Sun Apr 18 16:44:50 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 0,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 38,
         "deletes": 0,
         "occurrences": 1
@@ -7117,29 +5897,21 @@
     "Date": "Date:   Sat Apr 17 01:24:46 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 268,
         "deletes": 2,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1037,
         "deletes": 563,
         "occurrences": 12
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 236,
         "deletes": 23,
         "occurrences": 1
@@ -7152,8 +5924,6 @@
     "Date": "Date:   Thu Apr 15 16:41:23 2021 +0530",
     "fileTypes": {
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 13,
         "occurrences": 1
@@ -7166,8 +5936,6 @@
     "Date": "Date:   Thu Apr 15 15:58:39 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -7180,8 +5948,6 @@
     "Date": "Date:   Thu Apr 15 14:43:15 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 22,
         "deletes": 19,
         "occurrences": 2
@@ -7194,8 +5960,6 @@
     "Date": "Date:   Thu Apr 15 13:20:24 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 216,
         "deletes": 75,
         "occurrences": 4
@@ -7208,8 +5972,6 @@
     "Date": "Date:   Wed Apr 14 20:46:01 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 25,
         "deletes": 0,
         "occurrences": 2
@@ -7222,29 +5984,21 @@
     "Date": "Date:   Wed Apr 14 07:59:13 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 109,
         "deletes": 52,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 1,
         "occurrences": 1
@@ -7257,15 +6011,11 @@
     "Date": "Date:   Mon Apr 12 21:30:51 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 86,
         "deletes": 3,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 2,
         "occurrences": 1
@@ -7278,43 +6028,31 @@
     "Date": "Date:   Mon Apr 12 21:03:50 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 0,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 24,
         "occurrences": 2
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7327,8 +6065,6 @@
     "Date": "Date:   Mon Apr 12 14:35:04 2021 +0200",
     "fileTypes": {
       "desktop": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 10,
         "deletes": 0,
         "occurrences": 1
@@ -7341,8 +6077,6 @@
     "Date": "Date:   Mon Apr 12 12:16:59 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7355,43 +6089,31 @@
     "Date": "Date:   Mon Apr 12 09:29:04 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 488,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 7,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "feature": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 16,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 37,
         "deletes": 149,
         "occurrences": 6
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 17,
         "deletes": 19,
         "occurrences": 1
@@ -7404,15 +6126,11 @@
     "Date": "Date:   Mon Apr 12 10:57:02 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 64,
         "deletes": 2,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 12,
         "deletes": 0,
         "occurrences": 1
@@ -7425,29 +6143,21 @@
     "Date": "Date:   Sun Apr 11 14:31:14 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 487,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 0,
         "occurrences": 1
       },
       "feature": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 16,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 137,
         "deletes": 0,
         "occurrences": 3
@@ -7460,29 +6170,21 @@
     "Date": "Date:   Fri Apr 9 16:26:45 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7495,8 +6197,6 @@
     "Date": "Date:   Fri Apr 9 15:50:09 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -7509,8 +6209,6 @@
     "Date": "Date:   Fri Apr 9 14:32:53 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7523,8 +6221,6 @@
     "Date": "Date:   Fri Apr 9 10:56:39 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 1,
         "occurrences": 1
@@ -7537,8 +6233,6 @@
     "Date": "Date:   Fri Apr 9 10:54:20 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 137,
         "deletes": 145,
         "occurrences": 2
@@ -7551,8 +6245,6 @@
     "Date": "Date:   Fri Apr 9 10:45:29 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 145,
         "deletes": 137,
         "occurrences": 2
@@ -7565,36 +6257,26 @@
     "Date": "Date:   Fri Apr 9 08:20:51 2021 +0530",
     "fileTypes": {
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
       },
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7607,8 +6289,6 @@
     "Date": "Date:   Fri Apr 9 07:50:17 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 24,
         "deletes": 24,
         "occurrences": 1
@@ -7621,8 +6301,6 @@
     "Date": "Date:   Fri Apr 9 07:18:47 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 1,
         "occurrences": 1
@@ -7635,8 +6313,6 @@
     "Date": "Date:   Fri Apr 9 07:00:56 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7649,8 +6325,6 @@
     "Date": "Date:   Fri Apr 9 01:35:19 2021 +0200",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 3,
         "occurrences": 1
@@ -7663,29 +6337,21 @@
     "Date": "Date:   Fri Apr 9 04:19:26 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7698,22 +6364,16 @@
     "Date": "Date:   Fri Apr 9 04:09:32 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 223,
         "deletes": 24,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 81,
         "deletes": 42,
         "occurrences": 5
@@ -7726,29 +6386,21 @@
     "Date": "Date:   Fri Apr 9 01:29:38 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7761,8 +6413,6 @@
     "Date": "Date:   Thu Apr 8 19:24:21 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
@@ -7775,8 +6425,6 @@
     "Date": "Date:   Thu Apr 8 19:23:23 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 0,
         "occurrences": 1
@@ -7789,8 +6437,6 @@
     "Date": "Date:   Thu Apr 8 18:23:00 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 0,
         "occurrences": 1
@@ -7803,8 +6449,6 @@
     "Date": "Date:   Thu Apr 8 07:54:08 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 4,
         "occurrences": 1
@@ -7817,8 +6461,6 @@
     "Date": "Date:   Thu Apr 8 07:05:23 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
@@ -7831,29 +6473,21 @@
     "Date": "Date:   Wed Apr 7 19:57:25 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7866,8 +6500,6 @@
     "Date": "Date:   Wed Apr 7 18:15:58 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7880,29 +6512,21 @@
     "Date": "Date:   Wed Apr 7 03:05:25 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7915,22 +6539,16 @@
     "Date": "Date:   Wed Apr 7 02:42:20 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -7943,22 +6561,16 @@
     "Date": "Date:   Wed Apr 7 02:14:11 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7971,22 +6583,16 @@
     "Date": "Date:   Wed Apr 7 01:55:22 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -7999,29 +6605,21 @@
     "Date": "Date:   Tue Apr 6 18:55:57 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -8034,8 +6632,6 @@
     "Date": "Date:   Tue Apr 6 18:31:48 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
@@ -8048,8 +6644,6 @@
     "Date": "Date:   Tue Apr 6 17:40:16 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -8062,22 +6656,16 @@
     "Date": "Date:   Tue Apr 6 13:09:56 2021 +0200",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -8090,8 +6678,6 @@
     "Date": "Date:   Tue Apr 6 10:22:17 2021 +0200",
     "fileTypes": {
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 4,
         "occurrences": 1
@@ -8104,8 +6690,6 @@
     "Date": "Date:   Tue Apr 6 10:11:42 2021 +0200",
     "fileTypes": {
       "nix": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 13,
         "deletes": 0,
         "occurrences": 1
@@ -8118,8 +6702,6 @@
     "Date": "Date:   Tue Apr 6 09:35:54 2021 +0200",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -8132,8 +6714,6 @@
     "Date": "Date:   Tue Apr 6 09:33:45 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 12,
         "deletes": 0,
         "occurrences": 1
@@ -8146,15 +6726,11 @@
     "Date": "Date:   Mon Apr 5 13:00:01 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 0,
         "occurrences": 1
@@ -8167,8 +6743,6 @@
     "Date": "Date:   Mon Apr 5 12:53:58 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 1,
         "occurrences": 1
@@ -8181,22 +6755,16 @@
     "Date": "Date:   Mon Apr 5 11:06:53 2021 +0530",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 195,
         "deletes": 0,
         "occurrences": 2
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 195,
         "deletes": 207,
         "occurrences": 9
@@ -8209,22 +6777,16 @@
     "Date": "Date:   Sun Apr 4 16:44:48 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 60,
         "deletes": 3,
         "occurrences": 2
@@ -8237,8 +6799,6 @@
     "Date": "Date:   Sun Apr 4 15:47:14 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 0,
         "occurrences": 1
@@ -8251,22 +6811,16 @@
     "Date": "Date:   Sun Apr 4 15:18:13 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 16,
         "deletes": 3,
         "occurrences": 2
@@ -8279,22 +6833,16 @@
     "Date": "Date:   Sun Apr 4 11:55:38 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 18,
         "deletes": 526,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -8307,8 +6855,6 @@
     "Date": "Date:   Sun Apr 4 10:22:26 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 128,
         "deletes": 0,
         "occurrences": 1
@@ -8321,22 +6867,16 @@
     "Date": "Date:   Sun Apr 4 10:05:52 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 41,
         "deletes": 35,
         "occurrences": 2
@@ -8349,29 +6889,21 @@
     "Date": "Date:   Sun Apr 4 09:17:53 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 13,
         "deletes": 10,
         "occurrences": 1
@@ -8384,22 +6916,16 @@
     "Date": "Date:   Sun Apr 4 08:54:42 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 525,
         "deletes": 18,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 56,
         "deletes": 66,
         "occurrences": 1
@@ -8412,8 +6938,6 @@
     "Date": "Date:   Sat Apr 3 21:38:09 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 4,
         "occurrences": 1
@@ -8426,8 +6950,6 @@
     "Date": "Date:   Sat Apr 3 21:35:50 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
@@ -8440,8 +6962,6 @@
     "Date": "Date:   Sat Apr 3 21:28:02 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -8454,15 +6974,11 @@
     "Date": "Date:   Sat Apr 3 13:36:26 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 2,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 142,
         "deletes": 0,
         "occurrences": 1
@@ -8475,22 +6991,16 @@
     "Date": "Date:   Sat Apr 3 11:31:40 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 43,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 473,
         "deletes": 129,
         "occurrences": 7
@@ -8503,29 +7013,21 @@
     "Date": "Date:   Sat Apr 3 01:23:42 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 2,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 22,
         "deletes": 56,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 451,
         "deletes": 60,
         "occurrences": 4
@@ -8538,22 +7040,16 @@
     "Date": "Date:   Fri Apr 2 19:56:18 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 167,
         "deletes": 92,
         "occurrences": 4
@@ -8566,22 +7062,16 @@
     "Date": "Date:   Fri Apr 2 18:03:56 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 83,
         "deletes": 62,
         "occurrences": 6
@@ -8594,8 +7084,6 @@
     "Date": "Date:   Fri Apr 2 17:20:19 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 62,
         "deletes": 10,
         "occurrences": 2
@@ -8608,22 +7096,16 @@
     "Date": "Date:   Fri Apr 2 17:10:04 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 93,
         "deletes": 130,
         "occurrences": 4
@@ -8636,22 +7118,16 @@
     "Date": "Date:   Fri Apr 2 16:12:10 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 142,
         "deletes": 57,
         "occurrences": 4
@@ -8664,22 +7140,16 @@
     "Date": "Date:   Fri Apr 2 09:28:20 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 135,
         "deletes": 24,
         "occurrences": 3
@@ -8692,22 +7162,16 @@
     "Date": "Date:   Fri Apr 2 07:53:13 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 1,
         "occurrences": 2
@@ -8720,22 +7184,16 @@
     "Date": "Date:   Fri Apr 2 07:45:00 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 12,
         "deletes": 12,
         "occurrences": 3
@@ -8748,22 +7206,16 @@
     "Date": "Date:   Fri Apr 2 07:40:51 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 28,
         "deletes": 28,
         "occurrences": 3
@@ -8776,22 +7228,16 @@
     "Date": "Date:   Fri Apr 2 05:59:56 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 13,
         "deletes": 7,
         "occurrences": 3
@@ -8804,8 +7250,6 @@
     "Date": "Date:   Thu Apr 1 22:39:29 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -8818,29 +7262,21 @@
     "Date": "Date:   Thu Apr 1 22:26:54 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 30,
         "deletes": 18,
         "occurrences": 3
@@ -8853,29 +7289,21 @@
     "Date": "Date:   Thu Apr 1 19:34:45 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 53,
         "deletes": 103,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 3,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 82,
         "deletes": 34,
         "occurrences": 3
@@ -8888,22 +7316,16 @@
     "Date": "Date:   Thu Apr 1 16:24:03 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 61,
         "deletes": 54,
         "occurrences": 3
@@ -8916,22 +7338,16 @@
     "Date": "Date:   Thu Apr 1 15:28:32 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 17,
         "deletes": 4,
         "occurrences": 2
@@ -8944,22 +7360,16 @@
     "Date": "Date:   Wed Mar 31 17:20:37 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 36,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1808,
         "deletes": 1528,
         "occurrences": 7
@@ -8972,22 +7382,16 @@
     "Date": "Date:   Mon Mar 15 14:49:30 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 112,
         "deletes": 112,
         "occurrences": 4
@@ -9000,15 +7404,11 @@
     "Date": "Date:   Sun Mar 14 10:54:58 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 3,
         "occurrences": 3
@@ -9021,22 +7421,16 @@
     "Date": "Date:   Sat Mar 13 15:31:25 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 78,
         "deletes": 68,
         "occurrences": 2
@@ -9049,22 +7443,16 @@
     "Date": "Date:   Tue Mar 9 14:43:43 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 2
@@ -9077,8 +7465,6 @@
     "Date": "Date:   Sat Mar 6 10:11:59 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 29,
         "deletes": 2,
         "occurrences": 2
@@ -9091,8 +7477,6 @@
     "Date": "Date:   Fri Mar 5 19:31:31 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 0,
         "occurrences": 1
@@ -9105,8 +7489,6 @@
     "Date": "Date:   Fri Mar 5 19:21:39 2021 +0530",
     "fileTypes": {
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 9,
         "deletes": 0,
         "occurrences": 1
@@ -9119,22 +7501,16 @@
     "Date": "Date:   Thu Mar 4 20:50:33 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 7,
         "deletes": 5,
         "occurrences": 3
@@ -9147,15 +7523,11 @@
     "Date": "Date:   Thu Mar 4 13:33:14 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 113,
         "deletes": 20,
         "occurrences": 4
@@ -9168,22 +7540,16 @@
     "Date": "Date:   Thu Mar 4 11:33:12 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 169,
         "deletes": 276,
         "occurrences": 5
@@ -9196,29 +7562,21 @@
     "Date": "Date:   Wed Mar 3 17:16:13 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 39,
         "deletes": 18,
         "occurrences": 4
@@ -9231,22 +7589,16 @@
     "Date": "Date:   Tue Mar 2 23:49:37 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 87,
         "deletes": 48,
         "occurrences": 5
@@ -9259,22 +7611,16 @@
     "Date": "Date:   Tue Mar 2 16:16:55 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -9287,22 +7633,16 @@
     "Date": "Date:   Tue Mar 2 16:03:56 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 3,
         "occurrences": 2
@@ -9315,22 +7655,16 @@
     "Date": "Date:   Tue Mar 2 15:35:09 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 38,
         "deletes": 0,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 33,
         "deletes": 5,
         "occurrences": 2
@@ -9343,36 +7677,26 @@
     "Date": "Date:   Tue Mar 2 14:24:43 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 2,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 185,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 263,
         "deletes": 187,
         "occurrences": 5
@@ -9385,22 +7709,16 @@
     "Date": "Date:   Tue Mar 2 09:07:48 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 94,
         "deletes": 123,
         "occurrences": 1
@@ -9413,29 +7731,21 @@
     "Date": "Date:   Tue Mar 2 08:42:35 2021 +0530",
     "fileTypes": {
       "lock": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 4,
         "deletes": 1,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 3,
         "deletes": 3,
         "occurrences": 2
@@ -9448,15 +7758,11 @@
     "Date": "Date:   Mon Mar 1 22:04:19 2021 +0530",
     "fileTypes": {
       "toml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 0,
         "occurrences": 1
       },
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 21,
         "deletes": 0,
         "occurrences": 1
@@ -9469,22 +7775,16 @@
     "Date": "Date:   Mon Mar 1 21:32:30 2021 +0530",
     "fileTypes": {
       "md": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 46,
         "deletes": 3,
         "occurrences": 1
       },
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 31,
         "deletes": 7,
         "occurrences": 1
       },
       "rs": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 25,
         "deletes": 10,
         "occurrences": 1

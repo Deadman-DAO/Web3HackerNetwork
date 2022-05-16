@@ -1,12 +1,22 @@
 [
   {
+    "commit": "95cd0a88ee3463f0778a5836435c0c464e58833d",
+    "Author": "Brian Skinn <brian.skinn@gmail.com>",
+    "Date": "Date:   Mon May 16 01:07:43 2022 +0000",
+    "fileTypes": {
+      "rss": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
     "commit": "833c234ab8bbce2e4b96521983505707712f7469",
     "Author": "Brian Skinn <brian.skinn@gmail.com>",
     "Date": "Date:   Sun May 15 01:09:08 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -19,8 +29,6 @@
     "Date": "Date:   Sat May 14 01:08:09 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -33,8 +41,6 @@
     "Date": "Date:   Fri May 13 01:08:47 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -47,8 +53,6 @@
     "Date": "Date:   Thu May 12 01:08:17 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -61,8 +65,6 @@
     "Date": "Date:   Wed May 11 01:07:54 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -75,8 +77,6 @@
     "Date": "Date:   Tue May 10 01:07:12 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -89,8 +89,6 @@
     "Date": "Date:   Mon May 9 01:08:10 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -103,8 +101,6 @@
     "Date": "Date:   Sun May 8 01:07:47 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -117,8 +113,6 @@
     "Date": "Date:   Sat May 7 01:07:49 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -131,8 +125,6 @@
     "Date": "Date:   Fri May 6 01:07:20 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -145,8 +137,6 @@
     "Date": "Date:   Thu May 5 01:07:44 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -159,8 +149,6 @@
     "Date": "Date:   Wed May 4 01:08:45 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -173,8 +161,6 @@
     "Date": "Date:   Tue May 3 01:08:14 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -187,8 +173,6 @@
     "Date": "Date:   Mon May 2 01:08:14 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -201,8 +185,6 @@
     "Date": "Date:   Sun May 1 01:08:17 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -215,8 +197,6 @@
     "Date": "Date:   Sat Apr 30 01:08:20 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -229,8 +209,6 @@
     "Date": "Date:   Fri Apr 29 01:07:40 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -243,8 +221,6 @@
     "Date": "Date:   Thu Apr 28 01:08:50 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -257,8 +233,6 @@
     "Date": "Date:   Wed Apr 27 01:08:29 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -271,8 +245,6 @@
     "Date": "Date:   Tue Apr 26 01:08:30 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -285,8 +257,6 @@
     "Date": "Date:   Mon Apr 25 01:08:31 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -299,8 +269,6 @@
     "Date": "Date:   Sun Apr 24 01:07:18 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -313,8 +281,6 @@
     "Date": "Date:   Sat Apr 23 01:10:29 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -327,8 +293,6 @@
     "Date": "Date:   Fri Apr 22 01:08:01 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -341,8 +305,6 @@
     "Date": "Date:   Thu Apr 21 01:07:57 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -355,8 +317,6 @@
     "Date": "Date:   Wed Apr 20 01:09:11 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -369,8 +329,6 @@
     "Date": "Date:   Tue Apr 19 01:08:06 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -383,8 +341,6 @@
     "Date": "Date:   Mon Apr 18 01:10:09 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -397,8 +353,6 @@
     "Date": "Date:   Sun Apr 17 01:07:54 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -411,8 +365,6 @@
     "Date": "Date:   Sat Apr 16 01:07:46 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -425,8 +377,6 @@
     "Date": "Date:   Fri Apr 15 01:07:40 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -439,8 +389,6 @@
     "Date": "Date:   Thu Apr 14 01:08:03 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -453,8 +401,6 @@
     "Date": "Date:   Wed Apr 13 01:08:39 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -467,8 +413,6 @@
     "Date": "Date:   Tue Apr 12 01:09:06 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -481,8 +425,6 @@
     "Date": "Date:   Mon Apr 11 01:09:44 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -495,8 +437,6 @@
     "Date": "Date:   Sun Apr 10 01:08:18 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -509,8 +449,6 @@
     "Date": "Date:   Sat Apr 9 01:07:50 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -523,8 +461,6 @@
     "Date": "Date:   Fri Apr 8 01:07:23 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -537,8 +473,6 @@
     "Date": "Date:   Thu Apr 7 01:07:33 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -551,8 +485,6 @@
     "Date": "Date:   Wed Apr 6 01:07:16 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -565,8 +497,6 @@
     "Date": "Date:   Tue Apr 5 01:08:08 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -579,8 +509,6 @@
     "Date": "Date:   Mon Apr 4 01:07:41 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -593,8 +521,6 @@
     "Date": "Date:   Sun Apr 3 01:07:50 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -607,8 +533,6 @@
     "Date": "Date:   Sat Apr 2 01:08:40 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -621,8 +545,6 @@
     "Date": "Date:   Fri Apr 1 01:07:51 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -635,8 +557,6 @@
     "Date": "Date:   Thu Mar 31 01:07:40 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -649,8 +569,6 @@
     "Date": "Date:   Wed Mar 30 01:07:57 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -663,8 +581,6 @@
     "Date": "Date:   Tue Mar 29 01:07:30 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -677,8 +593,6 @@
     "Date": "Date:   Mon Mar 28 01:07:19 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -691,8 +605,6 @@
     "Date": "Date:   Sun Mar 27 01:07:30 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -705,8 +617,6 @@
     "Date": "Date:   Sat Mar 26 01:07:01 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -719,8 +629,6 @@
     "Date": "Date:   Fri Mar 25 01:07:15 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 54,
         "deletes": 46,
         "occurrences": 1
@@ -733,8 +641,6 @@
     "Date": "Date:   Thu Mar 24 01:08:37 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 38,
         "deletes": 30,
         "occurrences": 1
@@ -747,8 +653,6 @@
     "Date": "Date:   Wed Mar 23 01:08:37 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -761,8 +665,6 @@
     "Date": "Date:   Tue Mar 22 01:10:14 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -775,8 +677,6 @@
     "Date": "Date:   Mon Mar 21 01:06:54 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -789,8 +689,6 @@
     "Date": "Date:   Sun Mar 20 01:06:48 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -803,8 +701,6 @@
     "Date": "Date:   Sat Mar 19 01:06:52 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -817,8 +713,6 @@
     "Date": "Date:   Fri Mar 18 01:07:36 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -831,8 +725,6 @@
     "Date": "Date:   Thu Mar 17 01:08:34 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 81,
         "deletes": 49,
         "occurrences": 1
@@ -845,8 +737,6 @@
     "Date": "Date:   Wed Mar 16 01:06:53 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 30,
         "deletes": 30,
         "occurrences": 1
@@ -859,8 +749,6 @@
     "Date": "Date:   Tue Mar 15 01:08:59 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -873,8 +761,6 @@
     "Date": "Date:   Mon Mar 14 01:06:45 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -887,8 +773,6 @@
     "Date": "Date:   Sun Mar 13 01:06:32 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -901,8 +785,6 @@
     "Date": "Date:   Sat Mar 12 01:06:31 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -915,8 +797,6 @@
     "Date": "Date:   Fri Mar 11 01:07:31 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -929,8 +809,6 @@
     "Date": "Date:   Thu Mar 10 01:07:06 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -943,8 +821,6 @@
     "Date": "Date:   Wed Mar 9 01:07:08 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -957,8 +833,6 @@
     "Date": "Date:   Tue Mar 8 01:06:33 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -971,8 +845,6 @@
     "Date": "Date:   Mon Mar 7 01:06:51 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -985,8 +857,6 @@
     "Date": "Date:   Sun Mar 6 01:06:35 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -999,8 +869,6 @@
     "Date": "Date:   Sat Mar 5 01:06:45 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1013,8 +881,6 @@
     "Date": "Date:   Fri Mar 4 01:07:00 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1027,8 +893,6 @@
     "Date": "Date:   Thu Mar 3 01:06:58 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1041,8 +905,6 @@
     "Date": "Date:   Wed Mar 2 01:07:41 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1055,8 +917,6 @@
     "Date": "Date:   Tue Mar 1 01:07:16 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1069,8 +929,6 @@
     "Date": "Date:   Mon Feb 28 01:06:31 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1083,8 +941,6 @@
     "Date": "Date:   Sun Feb 27 01:06:41 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1097,8 +953,6 @@
     "Date": "Date:   Sat Feb 26 01:06:11 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1111,8 +965,6 @@
     "Date": "Date:   Fri Feb 25 01:06:36 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1125,8 +977,6 @@
     "Date": "Date:   Thu Feb 24 01:06:57 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1139,8 +989,6 @@
     "Date": "Date:   Wed Feb 23 01:06:54 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1153,8 +1001,6 @@
     "Date": "Date:   Tue Feb 22 01:06:40 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1167,8 +1013,6 @@
     "Date": "Date:   Mon Feb 21 01:11:05 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1181,8 +1025,6 @@
     "Date": "Date:   Sun Feb 20 01:07:40 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1195,8 +1037,6 @@
     "Date": "Date:   Sat Feb 19 01:06:20 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1209,8 +1049,6 @@
     "Date": "Date:   Fri Feb 18 01:06:38 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1223,8 +1061,6 @@
     "Date": "Date:   Thu Feb 17 01:05:48 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1237,8 +1073,6 @@
     "Date": "Date:   Wed Feb 16 01:06:40 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1251,8 +1085,6 @@
     "Date": "Date:   Tue Feb 15 01:06:44 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1265,8 +1097,6 @@
     "Date": "Date:   Mon Feb 14 01:08:43 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1279,8 +1109,6 @@
     "Date": "Date:   Sun Feb 13 01:06:30 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1293,8 +1121,6 @@
     "Date": "Date:   Sat Feb 12 01:06:21 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1307,8 +1133,6 @@
     "Date": "Date:   Fri Feb 11 01:06:31 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1321,8 +1145,6 @@
     "Date": "Date:   Thu Feb 10 01:06:09 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1335,8 +1157,6 @@
     "Date": "Date:   Wed Feb 9 01:06:17 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1349,8 +1169,6 @@
     "Date": "Date:   Tue Feb 8 01:06:21 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1363,8 +1181,6 @@
     "Date": "Date:   Mon Feb 7 01:06:04 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1377,8 +1193,6 @@
     "Date": "Date:   Sun Feb 6 01:06:29 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1391,8 +1205,6 @@
     "Date": "Date:   Sat Feb 5 01:04:50 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1405,8 +1217,6 @@
     "Date": "Date:   Fri Feb 4 01:05:51 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -1419,8 +1229,6 @@
     "Date": "Date:   Thu Feb 3 01:05:52 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1433,8 +1241,6 @@
     "Date": "Date:   Wed Feb 2 01:06:07 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1447,8 +1253,6 @@
     "Date": "Date:   Tue Feb 1 01:06:10 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1461,8 +1265,6 @@
     "Date": "Date:   Mon Jan 31 01:05:48 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1475,8 +1277,6 @@
     "Date": "Date:   Sun Jan 30 01:06:31 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1489,8 +1289,6 @@
     "Date": "Date:   Sat Jan 29 01:05:39 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1503,8 +1301,6 @@
     "Date": "Date:   Fri Jan 28 01:05:55 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1517,8 +1313,6 @@
     "Date": "Date:   Thu Jan 27 01:05:55 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1531,8 +1325,6 @@
     "Date": "Date:   Wed Jan 26 01:06:32 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1545,8 +1337,6 @@
     "Date": "Date:   Tue Jan 25 01:06:38 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1559,8 +1349,6 @@
     "Date": "Date:   Mon Jan 24 01:06:01 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1573,8 +1361,6 @@
     "Date": "Date:   Sun Jan 23 01:06:05 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1587,8 +1373,6 @@
     "Date": "Date:   Sat Jan 22 01:05:51 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1601,8 +1385,6 @@
     "Date": "Date:   Fri Jan 21 01:05:50 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1615,8 +1397,6 @@
     "Date": "Date:   Thu Jan 20 01:06:44 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1629,8 +1409,6 @@
     "Date": "Date:   Wed Jan 19 01:05:48 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1643,8 +1421,6 @@
     "Date": "Date:   Tue Jan 18 01:06:18 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 38,
         "deletes": 38,
         "occurrences": 1
@@ -1657,8 +1433,6 @@
     "Date": "Date:   Mon Jan 17 01:06:26 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1671,8 +1445,6 @@
     "Date": "Date:   Sun Jan 16 01:06:30 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 49,
         "deletes": 49,
         "occurrences": 1
@@ -1685,8 +1457,6 @@
     "Date": "Date:   Sat Jan 15 01:06:14 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 54,
         "deletes": 38,
         "occurrences": 1
@@ -1699,8 +1469,6 @@
     "Date": "Date:   Fri Jan 14 01:06:21 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1713,8 +1481,6 @@
     "Date": "Date:   Thu Jan 13 01:06:23 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1727,8 +1493,6 @@
     "Date": "Date:   Wed Jan 12 01:06:16 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1741,8 +1505,6 @@
     "Date": "Date:   Tue Jan 11 01:06:26 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1755,8 +1517,6 @@
     "Date": "Date:   Mon Jan 10 01:08:36 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1769,8 +1529,6 @@
     "Date": "Date:   Sun Jan 9 01:06:22 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1783,8 +1541,6 @@
     "Date": "Date:   Sat Jan 8 01:06:09 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 33,
         "deletes": 33,
         "occurrences": 1
@@ -1797,8 +1553,6 @@
     "Date": "Date:   Fri Jan 7 01:07:31 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1811,8 +1565,6 @@
     "Date": "Date:   Thu Jan 6 01:06:33 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1825,8 +1577,6 @@
     "Date": "Date:   Wed Jan 5 01:06:19 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1839,8 +1589,6 @@
     "Date": "Date:   Tue Jan 4 01:06:18 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1853,8 +1601,6 @@
     "Date": "Date:   Mon Jan 3 01:06:09 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1867,8 +1613,6 @@
     "Date": "Date:   Sun Jan 2 01:06:22 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1881,8 +1625,6 @@
     "Date": "Date:   Sat Jan 1 01:06:31 2022 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1895,8 +1637,6 @@
     "Date": "Date:   Fri Dec 31 01:06:06 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1909,8 +1649,6 @@
     "Date": "Date:   Thu Dec 30 01:06:12 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1923,8 +1661,6 @@
     "Date": "Date:   Wed Dec 29 01:06:05 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1937,8 +1673,6 @@
     "Date": "Date:   Tue Dec 28 01:06:01 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1951,8 +1685,6 @@
     "Date": "Date:   Mon Dec 27 01:06:08 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1965,8 +1697,6 @@
     "Date": "Date:   Sun Dec 26 01:06:17 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1979,8 +1709,6 @@
     "Date": "Date:   Sat Dec 25 01:05:56 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -1993,8 +1721,6 @@
     "Date": "Date:   Fri Dec 24 01:06:00 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2007,8 +1733,6 @@
     "Date": "Date:   Thu Dec 23 01:47:34 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2021,8 +1745,6 @@
     "Date": "Date:   Wed Dec 22 01:49:02 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2035,8 +1757,6 @@
     "Date": "Date:   Tue Dec 21 01:49:50 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2049,8 +1769,6 @@
     "Date": "Date:   Mon Dec 20 01:48:08 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2063,8 +1781,6 @@
     "Date": "Date:   Sun Dec 19 01:51:28 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2077,8 +1793,6 @@
     "Date": "Date:   Sat Dec 18 01:49:35 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2091,8 +1805,6 @@
     "Date": "Date:   Fri Dec 17 01:48:45 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2105,8 +1817,6 @@
     "Date": "Date:   Thu Dec 16 01:44:20 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2119,8 +1829,6 @@
     "Date": "Date:   Wed Dec 15 01:45:01 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2133,8 +1841,6 @@
     "Date": "Date:   Tue Dec 14 01:48:06 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2147,8 +1853,6 @@
     "Date": "Date:   Mon Dec 13 01:44:57 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2161,8 +1865,6 @@
     "Date": "Date:   Sun Dec 12 01:47:12 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2175,8 +1877,6 @@
     "Date": "Date:   Sat Dec 11 01:43:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2189,8 +1889,6 @@
     "Date": "Date:   Fri Dec 10 01:43:42 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2203,8 +1901,6 @@
     "Date": "Date:   Thu Dec 9 01:45:27 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 27,
         "deletes": 27,
         "occurrences": 1
@@ -2217,8 +1913,6 @@
     "Date": "Date:   Wed Dec 8 01:46:32 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2231,8 +1925,6 @@
     "Date": "Date:   Tue Dec 7 01:48:26 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 38,
         "deletes": 30,
         "occurrences": 1
@@ -2245,8 +1937,6 @@
     "Date": "Date:   Mon Dec 6 01:45:44 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2259,8 +1949,6 @@
     "Date": "Date:   Sun Dec 5 01:49:29 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2273,8 +1961,6 @@
     "Date": "Date:   Sat Dec 4 01:42:19 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2287,8 +1973,6 @@
     "Date": "Date:   Fri Dec 3 01:42:48 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2301,8 +1985,6 @@
     "Date": "Date:   Thu Dec 2 01:43:22 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2315,8 +1997,6 @@
     "Date": "Date:   Wed Dec 1 01:47:19 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2329,8 +2009,6 @@
     "Date": "Date:   Tue Nov 30 01:37:21 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2343,8 +2021,6 @@
     "Date": "Date:   Mon Nov 29 01:42:20 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2357,8 +2033,6 @@
     "Date": "Date:   Sun Nov 28 01:43:05 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2371,8 +2045,6 @@
     "Date": "Date:   Sat Nov 27 01:39:49 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2385,8 +2057,6 @@
     "Date": "Date:   Fri Nov 26 01:40:57 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2399,8 +2069,6 @@
     "Date": "Date:   Thu Nov 25 01:42:39 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2413,8 +2081,6 @@
     "Date": "Date:   Wed Nov 24 01:41:55 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2427,8 +2093,6 @@
     "Date": "Date:   Tue Nov 23 01:41:50 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2441,8 +2105,6 @@
     "Date": "Date:   Mon Nov 22 01:42:55 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2455,8 +2117,6 @@
     "Date": "Date:   Sun Nov 21 01:44:11 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2469,8 +2129,6 @@
     "Date": "Date:   Sat Nov 20 01:41:04 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2483,8 +2141,6 @@
     "Date": "Date:   Fri Nov 19 01:42:18 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2497,8 +2153,6 @@
     "Date": "Date:   Thu Nov 18 01:41:58 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2511,8 +2165,6 @@
     "Date": "Date:   Wed Nov 17 01:42:00 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2525,8 +2177,6 @@
     "Date": "Date:   Tue Nov 16 01:42:00 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 62,
         "deletes": 54,
         "occurrences": 1
@@ -2539,8 +2189,6 @@
     "Date": "Date:   Mon Nov 15 01:41:43 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2553,8 +2201,6 @@
     "Date": "Date:   Sun Nov 14 01:43:43 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2567,8 +2213,6 @@
     "Date": "Date:   Sat Nov 13 01:40:03 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2581,8 +2225,6 @@
     "Date": "Date:   Fri Nov 12 01:43:22 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2595,8 +2237,6 @@
     "Date": "Date:   Thu Nov 11 01:42:27 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2609,8 +2249,6 @@
     "Date": "Date:   Wed Nov 10 01:41:33 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2623,8 +2261,6 @@
     "Date": "Date:   Tue Nov 9 01:41:44 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2637,8 +2273,6 @@
     "Date": "Date:   Mon Nov 8 01:41:33 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2651,8 +2285,6 @@
     "Date": "Date:   Sun Nov 7 01:44:47 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2665,8 +2297,6 @@
     "Date": "Date:   Sat Nov 6 01:38:54 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 54,
         "deletes": 46,
         "occurrences": 1
@@ -2679,8 +2309,6 @@
     "Date": "Date:   Fri Nov 5 01:42:50 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2693,8 +2321,6 @@
     "Date": "Date:   Thu Nov 4 01:44:21 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 33,
         "deletes": 33,
         "occurrences": 1
@@ -2707,8 +2333,6 @@
     "Date": "Date:   Wed Nov 3 01:05:38 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 33,
         "deletes": 33,
         "occurrences": 1
@@ -2721,8 +2345,6 @@
     "Date": "Date:   Tue Nov 2 01:06:33 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2735,8 +2357,6 @@
     "Date": "Date:   Mon Nov 1 01:05:57 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2749,8 +2369,6 @@
     "Date": "Date:   Sun Oct 31 01:05:54 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2763,8 +2381,6 @@
     "Date": "Date:   Sat Oct 30 01:05:32 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2777,8 +2393,6 @@
     "Date": "Date:   Fri Oct 29 01:05:40 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2791,8 +2405,6 @@
     "Date": "Date:   Thu Oct 28 01:05:49 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2805,8 +2417,6 @@
     "Date": "Date:   Wed Oct 27 01:05:42 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2819,8 +2429,6 @@
     "Date": "Date:   Tue Oct 26 01:05:39 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2833,8 +2441,6 @@
     "Date": "Date:   Mon Oct 25 01:06:02 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2847,8 +2453,6 @@
     "Date": "Date:   Sun Oct 24 01:06:01 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2861,8 +2465,6 @@
     "Date": "Date:   Sat Oct 23 01:46:59 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2875,8 +2477,6 @@
     "Date": "Date:   Fri Oct 22 01:53:06 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2889,8 +2489,6 @@
     "Date": "Date:   Thu Oct 21 01:53:20 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2903,8 +2501,6 @@
     "Date": "Date:   Wed Oct 20 01:49:00 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2917,8 +2513,6 @@
     "Date": "Date:   Tue Oct 19 01:47:10 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2931,8 +2525,6 @@
     "Date": "Date:   Mon Oct 18 01:51:40 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2945,8 +2537,6 @@
     "Date": "Date:   Sun Oct 17 01:44:33 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2959,8 +2549,6 @@
     "Date": "Date:   Sat Oct 16 01:49:09 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2973,8 +2561,6 @@
     "Date": "Date:   Fri Oct 15 01:46:29 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -2987,8 +2573,6 @@
     "Date": "Date:   Thu Oct 14 01:45:47 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3001,8 +2585,6 @@
     "Date": "Date:   Wed Oct 13 01:48:12 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3015,8 +2597,6 @@
     "Date": "Date:   Tue Oct 12 01:48:16 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3029,8 +2609,6 @@
     "Date": "Date:   Mon Oct 11 01:48:27 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3043,8 +2621,6 @@
     "Date": "Date:   Sun Oct 10 01:44:01 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3057,8 +2633,6 @@
     "Date": "Date:   Sat Oct 9 01:40:16 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3071,8 +2645,6 @@
     "Date": "Date:   Fri Oct 8 01:48:58 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3085,8 +2657,6 @@
     "Date": "Date:   Thu Oct 7 01:47:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3099,8 +2669,6 @@
     "Date": "Date:   Wed Oct 6 01:44:29 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 70,
         "deletes": 62,
         "occurrences": 1
@@ -3113,8 +2681,6 @@
     "Date": "Date:   Tue Oct 5 01:42:58 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 46,
         "deletes": 46,
         "occurrences": 1
@@ -3127,8 +2693,6 @@
     "Date": "Date:   Mon Oct 4 01:50:14 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3141,8 +2705,6 @@
     "Date": "Date:   Sun Oct 3 01:47:10 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3155,8 +2717,6 @@
     "Date": "Date:   Sat Oct 2 01:42:24 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3169,8 +2729,6 @@
     "Date": "Date:   Fri Oct 1 01:50:02 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3183,8 +2741,6 @@
     "Date": "Date:   Thu Sep 30 01:50:08 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3197,8 +2753,6 @@
     "Date": "Date:   Wed Sep 29 01:39:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3211,8 +2765,6 @@
     "Date": "Date:   Tue Sep 28 01:48:03 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3225,8 +2777,6 @@
     "Date": "Date:   Mon Sep 27 01:43:45 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3239,8 +2789,6 @@
     "Date": "Date:   Sun Sep 26 01:44:05 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3253,8 +2801,6 @@
     "Date": "Date:   Sat Sep 25 01:42:57 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3267,8 +2813,6 @@
     "Date": "Date:   Fri Sep 24 01:44:01 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3281,8 +2825,6 @@
     "Date": "Date:   Thu Sep 23 01:49:10 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3295,8 +2837,6 @@
     "Date": "Date:   Wed Sep 22 01:45:41 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3309,8 +2849,6 @@
     "Date": "Date:   Tue Sep 21 01:44:25 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3323,8 +2861,6 @@
     "Date": "Date:   Mon Sep 20 01:45:12 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3337,8 +2873,6 @@
     "Date": "Date:   Sun Sep 19 01:44:55 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3351,8 +2885,6 @@
     "Date": "Date:   Sat Sep 18 01:44:59 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3365,8 +2897,6 @@
     "Date": "Date:   Fri Sep 17 01:49:23 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3379,8 +2909,6 @@
     "Date": "Date:   Thu Sep 16 01:48:32 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3393,8 +2921,6 @@
     "Date": "Date:   Wed Sep 15 01:42:43 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3407,8 +2933,6 @@
     "Date": "Date:   Tue Sep 14 01:43:49 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3421,8 +2945,6 @@
     "Date": "Date:   Mon Sep 13 01:43:22 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3435,8 +2957,6 @@
     "Date": "Date:   Sun Sep 12 01:45:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3449,8 +2969,6 @@
     "Date": "Date:   Sat Sep 11 01:40:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3463,8 +2981,6 @@
     "Date": "Date:   Fri Sep 10 01:44:25 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3477,8 +2993,6 @@
     "Date": "Date:   Thu Sep 9 01:44:53 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3491,8 +3005,6 @@
     "Date": "Date:   Wed Sep 8 01:41:12 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -3505,8 +3017,6 @@
     "Date": "Date:   Tue Sep 7 01:39:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3519,8 +3029,6 @@
     "Date": "Date:   Mon Sep 6 01:46:35 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3533,8 +3041,6 @@
     "Date": "Date:   Sun Sep 5 01:43:59 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 62,
         "deletes": 46,
         "occurrences": 1
@@ -3547,8 +3053,6 @@
     "Date": "Date:   Sat Sep 4 01:41:43 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3561,8 +3065,6 @@
     "Date": "Date:   Fri Sep 3 01:41:29 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3575,8 +3077,6 @@
     "Date": "Date:   Thu Sep 2 01:40:50 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3589,8 +3089,6 @@
     "Date": "Date:   Wed Sep 1 01:46:19 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3603,8 +3101,6 @@
     "Date": "Date:   Tue Aug 31 01:40:22 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 57,
         "deletes": 41,
         "occurrences": 1
@@ -3617,8 +3113,6 @@
     "Date": "Date:   Mon Aug 30 01:43:25 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3631,8 +3125,6 @@
     "Date": "Date:   Sun Aug 29 01:42:55 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3645,8 +3137,6 @@
     "Date": "Date:   Sat Aug 28 01:38:18 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3659,8 +3149,6 @@
     "Date": "Date:   Fri Aug 27 01:43:51 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3673,8 +3161,6 @@
     "Date": "Date:   Thu Aug 26 01:37:46 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3687,8 +3173,6 @@
     "Date": "Date:   Wed Aug 25 01:39:40 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3701,8 +3185,6 @@
     "Date": "Date:   Tue Aug 24 01:37:39 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3715,8 +3197,6 @@
     "Date": "Date:   Mon Aug 23 01:34:54 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3729,8 +3209,6 @@
     "Date": "Date:   Sun Aug 22 01:40:02 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3743,8 +3221,6 @@
     "Date": "Date:   Sat Aug 21 01:42:44 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3757,8 +3233,6 @@
     "Date": "Date:   Fri Aug 20 01:39:34 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3771,8 +3245,6 @@
     "Date": "Date:   Thu Aug 19 01:33:58 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3785,8 +3257,6 @@
     "Date": "Date:   Wed Aug 18 01:40:42 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3799,8 +3269,6 @@
     "Date": "Date:   Tue Aug 17 01:40:24 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3813,8 +3281,6 @@
     "Date": "Date:   Mon Aug 16 01:40:41 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3827,8 +3293,6 @@
     "Date": "Date:   Sun Aug 15 01:40:44 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3841,8 +3305,6 @@
     "Date": "Date:   Sat Aug 14 01:38:18 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3855,8 +3317,6 @@
     "Date": "Date:   Fri Aug 13 01:42:37 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3869,8 +3329,6 @@
     "Date": "Date:   Thu Aug 12 01:43:11 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3883,8 +3341,6 @@
     "Date": "Date:   Wed Aug 11 01:41:05 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3897,8 +3353,6 @@
     "Date": "Date:   Tue Aug 10 01:44:46 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3911,8 +3365,6 @@
     "Date": "Date:   Mon Aug 9 01:42:32 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3925,8 +3377,6 @@
     "Date": "Date:   Sun Aug 8 01:41:52 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3939,8 +3389,6 @@
     "Date": "Date:   Sat Aug 7 01:37:32 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3953,8 +3401,6 @@
     "Date": "Date:   Fri Aug 6 01:44:09 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3967,8 +3413,6 @@
     "Date": "Date:   Thu Aug 5 01:41:56 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -3981,8 +3425,6 @@
     "Date": "Date:   Wed Aug 4 01:44:45 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -3995,8 +3437,6 @@
     "Date": "Date:   Tue Aug 3 01:50:39 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4009,8 +3449,6 @@
     "Date": "Date:   Mon Aug 2 01:44:04 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4023,8 +3461,6 @@
     "Date": "Date:   Sun Aug 1 01:50:09 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4037,8 +3473,6 @@
     "Date": "Date:   Sat Jul 31 01:42:55 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4051,8 +3485,6 @@
     "Date": "Date:   Fri Jul 30 01:50:00 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4065,8 +3497,6 @@
     "Date": "Date:   Thu Jul 29 01:44:25 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4079,8 +3509,6 @@
     "Date": "Date:   Wed Jul 28 01:47:20 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4093,8 +3521,6 @@
     "Date": "Date:   Tue Jul 27 01:49:00 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4107,8 +3533,6 @@
     "Date": "Date:   Mon Jul 26 01:46:30 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4121,8 +3545,6 @@
     "Date": "Date:   Sun Jul 25 01:43:53 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4135,8 +3557,6 @@
     "Date": "Date:   Sat Jul 24 01:42:35 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4149,8 +3569,6 @@
     "Date": "Date:   Fri Jul 23 01:45:48 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4163,8 +3581,6 @@
     "Date": "Date:   Thu Jul 22 01:47:38 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4177,8 +3593,6 @@
     "Date": "Date:   Wed Jul 21 01:46:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4191,8 +3605,6 @@
     "Date": "Date:   Tue Jul 20 01:50:04 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4205,8 +3617,6 @@
     "Date": "Date:   Mon Jul 19 01:43:57 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4219,8 +3629,6 @@
     "Date": "Date:   Sun Jul 18 01:44:13 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4233,8 +3641,6 @@
     "Date": "Date:   Sat Jul 17 01:40:40 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4247,8 +3653,6 @@
     "Date": "Date:   Fri Jul 16 01:45:52 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4261,8 +3665,6 @@
     "Date": "Date:   Thu Jul 15 01:44:42 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4275,8 +3677,6 @@
     "Date": "Date:   Wed Jul 14 01:40:21 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4289,8 +3689,6 @@
     "Date": "Date:   Tue Jul 13 01:44:50 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4303,8 +3701,6 @@
     "Date": "Date:   Mon Jul 12 01:42:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -4317,8 +3713,6 @@
     "Date": "Date:   Sun Jul 11 01:46:42 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4331,8 +3725,6 @@
     "Date": "Date:   Sat Jul 10 01:39:41 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4345,8 +3737,6 @@
     "Date": "Date:   Fri Jul 9 01:44:54 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4359,8 +3749,6 @@
     "Date": "Date:   Thu Jul 8 01:44:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4373,8 +3761,6 @@
     "Date": "Date:   Wed Jul 7 01:43:43 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4387,8 +3773,6 @@
     "Date": "Date:   Tue Jul 6 01:45:05 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4401,8 +3785,6 @@
     "Date": "Date:   Mon Jul 5 01:42:02 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4415,8 +3797,6 @@
     "Date": "Date:   Sun Jul 4 01:41:52 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4429,8 +3809,6 @@
     "Date": "Date:   Sat Jul 3 01:38:22 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4443,8 +3821,6 @@
     "Date": "Date:   Fri Jul 2 01:44:51 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4457,8 +3833,6 @@
     "Date": "Date:   Thu Jul 1 01:45:27 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4471,8 +3845,6 @@
     "Date": "Date:   Wed Jun 30 01:47:24 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4485,8 +3857,6 @@
     "Date": "Date:   Tue Jun 29 01:41:42 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 81,
         "deletes": 49,
         "occurrences": 1
@@ -4499,8 +3869,6 @@
     "Date": "Date:   Mon Jun 28 01:44:14 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4513,8 +3881,6 @@
     "Date": "Date:   Sun Jun 27 01:49:02 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4527,8 +3893,6 @@
     "Date": "Date:   Sat Jun 26 01:39:02 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4541,8 +3905,6 @@
     "Date": "Date:   Fri Jun 25 01:47:09 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4555,8 +3917,6 @@
     "Date": "Date:   Thu Jun 24 01:36:27 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4569,8 +3929,6 @@
     "Date": "Date:   Wed Jun 23 01:35:55 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4583,8 +3941,6 @@
     "Date": "Date:   Tue Jun 22 01:43:28 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4597,8 +3953,6 @@
     "Date": "Date:   Mon Jun 21 01:54:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4611,8 +3965,6 @@
     "Date": "Date:   Sun Jun 20 01:54:21 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4625,8 +3977,6 @@
     "Date": "Date:   Sat Jun 19 01:51:11 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4639,8 +3989,6 @@
     "Date": "Date:   Fri Jun 18 01:53:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -4653,8 +4001,6 @@
     "Date": "Date:   Thu Jun 17 01:46:31 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4667,8 +4013,6 @@
     "Date": "Date:   Wed Jun 16 01:48:06 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4681,8 +4025,6 @@
     "Date": "Date:   Tue Jun 15 01:53:02 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4695,8 +4037,6 @@
     "Date": "Date:   Mon Jun 14 01:47:20 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4709,8 +4049,6 @@
     "Date": "Date:   Sun Jun 13 01:48:50 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4723,8 +4061,6 @@
     "Date": "Date:   Sat Jun 12 01:41:21 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4737,8 +4073,6 @@
     "Date": "Date:   Fri Jun 11 01:50:25 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4751,8 +4085,6 @@
     "Date": "Date:   Thu Jun 10 02:02:20 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4765,8 +4097,6 @@
     "Date": "Date:   Wed Jun 9 02:06:46 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4779,8 +4109,6 @@
     "Date": "Date:   Tue Jun 8 02:33:48 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4793,8 +4121,6 @@
     "Date": "Date:   Mon Jun 7 02:55:06 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4807,8 +4133,6 @@
     "Date": "Date:   Sun Jun 6 02:43:56 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4821,8 +4145,6 @@
     "Date": "Date:   Sat Jun 5 02:51:34 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4835,8 +4157,6 @@
     "Date": "Date:   Fri Jun 4 03:01:53 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4849,8 +4169,6 @@
     "Date": "Date:   Thu Jun 3 03:56:57 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4863,8 +4181,6 @@
     "Date": "Date:   Wed Jun 2 04:20:25 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -4877,8 +4193,6 @@
     "Date": "Date:   Tue Jun 1 04:24:40 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4891,8 +4205,6 @@
     "Date": "Date:   Mon May 31 03:59:29 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4905,8 +4217,6 @@
     "Date": "Date:   Sun May 30 03:51:54 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4919,8 +4229,6 @@
     "Date": "Date:   Sat May 29 03:36:10 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4933,8 +4241,6 @@
     "Date": "Date:   Fri May 28 03:13:47 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4947,8 +4253,6 @@
     "Date": "Date:   Thu May 27 02:56:43 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4961,8 +4265,6 @@
     "Date": "Date:   Wed May 26 02:33:58 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4975,8 +4277,6 @@
     "Date": "Date:   Tue May 25 02:08:53 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -4989,8 +4289,6 @@
     "Date": "Date:   Mon May 24 02:08:19 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5003,8 +4301,6 @@
     "Date": "Date:   Sun May 23 02:11:10 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5017,8 +4313,6 @@
     "Date": "Date:   Sat May 22 01:59:27 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5031,8 +4325,6 @@
     "Date": "Date:   Fri May 21 02:00:26 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5045,8 +4337,6 @@
     "Date": "Date:   Thu May 20 01:57:06 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5059,8 +4349,6 @@
     "Date": "Date:   Wed May 19 01:56:14 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5073,8 +4361,6 @@
     "Date": "Date:   Tue May 18 02:04:02 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5087,8 +4373,6 @@
     "Date": "Date:   Mon May 17 02:01:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5101,8 +4385,6 @@
     "Date": "Date:   Sun May 16 02:05:55 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5115,8 +4397,6 @@
     "Date": "Date:   Sat May 15 01:58:16 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5129,8 +4409,6 @@
     "Date": "Date:   Fri May 14 02:01:48 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5143,8 +4421,6 @@
     "Date": "Date:   Thu May 13 02:01:13 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5157,8 +4433,6 @@
     "Date": "Date:   Wed May 12 01:53:00 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5171,8 +4445,6 @@
     "Date": "Date:   Tue May 11 01:51:58 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5185,8 +4457,6 @@
     "Date": "Date:   Mon May 10 01:51:38 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5199,8 +4469,6 @@
     "Date": "Date:   Sun May 9 01:49:41 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5213,8 +4481,6 @@
     "Date": "Date:   Sat May 8 01:48:17 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5227,8 +4493,6 @@
     "Date": "Date:   Fri May 7 01:48:41 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5241,8 +4505,6 @@
     "Date": "Date:   Thu May 6 01:44:33 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5255,8 +4517,6 @@
     "Date": "Date:   Wed May 5 01:45:04 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5269,8 +4529,6 @@
     "Date": "Date:   Tue May 4 01:49:56 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 38,
         "deletes": 22,
         "occurrences": 1
@@ -5283,8 +4541,6 @@
     "Date": "Date:   Mon May 3 01:55:20 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5297,8 +4553,6 @@
     "Date": "Date:   Sun May 2 02:00:00 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5311,8 +4565,6 @@
     "Date": "Date:   Sat May 1 01:55:34 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5325,8 +4577,6 @@
     "Date": "Date:   Fri Apr 30 01:50:50 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5339,8 +4589,6 @@
     "Date": "Date:   Thu Apr 29 01:49:31 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5353,8 +4601,6 @@
     "Date": "Date:   Wed Apr 28 01:50:36 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5367,8 +4613,6 @@
     "Date": "Date:   Tue Apr 27 01:52:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5381,8 +4625,6 @@
     "Date": "Date:   Mon Apr 26 01:59:55 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5395,8 +4637,6 @@
     "Date": "Date:   Sun Apr 25 02:01:04 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5409,8 +4649,6 @@
     "Date": "Date:   Sat Apr 24 01:54:33 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5423,8 +4661,6 @@
     "Date": "Date:   Fri Apr 23 01:57:31 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5437,8 +4673,6 @@
     "Date": "Date:   Thu Apr 22 01:52:28 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5451,8 +4685,6 @@
     "Date": "Date:   Wed Apr 21 01:51:42 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5465,8 +4697,6 @@
     "Date": "Date:   Tue Apr 20 01:51:04 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5479,8 +4709,6 @@
     "Date": "Date:   Mon Apr 19 01:52:01 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5493,8 +4721,6 @@
     "Date": "Date:   Sun Apr 18 01:54:35 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5507,8 +4733,6 @@
     "Date": "Date:   Sat Apr 17 01:48:58 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5521,8 +4745,6 @@
     "Date": "Date:   Fri Apr 16 01:52:04 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5535,8 +4757,6 @@
     "Date": "Date:   Thu Apr 15 01:50:33 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5549,8 +4769,6 @@
     "Date": "Date:   Wed Apr 14 01:48:52 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5563,8 +4781,6 @@
     "Date": "Date:   Tue Apr 13 01:54:29 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5577,8 +4793,6 @@
     "Date": "Date:   Mon Apr 12 01:55:16 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5591,8 +4805,6 @@
     "Date": "Date:   Sun Apr 11 01:56:31 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5605,8 +4817,6 @@
     "Date": "Date:   Sat Apr 10 01:50:00 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5619,8 +4829,6 @@
     "Date": "Date:   Fri Apr 9 01:49:59 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5633,8 +4841,6 @@
     "Date": "Date:   Thu Apr 8 01:58:27 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5647,8 +4853,6 @@
     "Date": "Date:   Wed Apr 7 01:54:14 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 43,
         "deletes": 43,
         "occurrences": 1
@@ -5661,8 +4865,6 @@
     "Date": "Date:   Tue Apr 6 01:54:13 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5675,8 +4877,6 @@
     "Date": "Date:   Mon Apr 5 01:52:22 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 22,
         "deletes": 22,
         "occurrences": 1
@@ -5689,8 +4889,6 @@
     "Date": "Date:   Sun Apr 4 01:53:43 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5703,8 +4901,6 @@
     "Date": "Date:   Sat Apr 3 01:50:05 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 17,
         "deletes": 1,
         "occurrences": 1
@@ -5717,8 +4913,6 @@
     "Date": "Date:   Fri Apr 2 02:01:45 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5731,8 +4925,6 @@
     "Date": "Date:   Thu Apr 1 01:55:29 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5745,8 +4937,6 @@
     "Date": "Date:   Wed Mar 31 01:46:07 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5759,8 +4949,6 @@
     "Date": "Date:   Tue Mar 30 01:47:12 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5773,8 +4961,6 @@
     "Date": "Date:   Mon Mar 29 01:50:32 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5787,8 +4973,6 @@
     "Date": "Date:   Sun Mar 28 01:48:25 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5801,8 +4985,6 @@
     "Date": "Date:   Sat Mar 27 01:48:03 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5815,8 +4997,6 @@
     "Date": "Date:   Fri Mar 26 02:59:17 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5829,8 +5009,6 @@
     "Date": "Date:   Thu Mar 25 21:11:34 2021 -0400",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5843,8 +5021,6 @@
     "Date": "Date:   Thu Mar 25 02:05:29 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5857,8 +5033,6 @@
     "Date": "Date:   Tue Mar 23 22:44:10 2021 -0400",
     "fileTypes": {
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5871,8 +5045,6 @@
     "Date": "Date:   Wed Mar 24 02:38:06 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5885,15 +5057,11 @@
     "Date": "Date:   Tue Mar 23 22:36:01 2021 -0400",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 0,
         "deletes": 7,
         "occurrences": 1
       },
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 12,
         "occurrences": 1
@@ -5906,8 +5074,6 @@
     "Date": "Date:   Tue Mar 23 22:28:25 2021 -0400",
     "fileTypes": {
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 6,
         "deletes": 6,
         "occurrences": 1
@@ -5920,8 +5086,6 @@
     "Date": "Date:   Wed Mar 24 02:25:15 2021 +0000",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5934,8 +5098,6 @@
     "Date": "Date:   Tue Mar 23 22:19:08 2021 -0400",
     "fileTypes": {
       "py": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 8,
         "deletes": 1,
         "occurrences": 1
@@ -5948,15 +5110,11 @@
     "Date": "Date:   Tue Mar 23 22:10:40 2021 -0400",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1
       },
       "py": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -5969,15 +5127,11 @@
     "Date": "Date:   Tue Mar 23 22:02:17 2021 -0400",
     "fileTypes": {
       "yml": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 59,
         "deletes": 0,
         "occurrences": 1
       },
       "noexttext": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 37,
         "deletes": 0,
         "occurrences": 1
@@ -5990,15 +5144,11 @@
     "Date": "Date:   Thu Mar 18 15:10:17 2021 -0400",
     "fileTypes": {
       "rss": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1130,
         "deletes": 1,
         "occurrences": 1
       },
       "py": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 24,
         "deletes": 13,
         "occurrences": 1
@@ -6011,22 +5161,16 @@
     "Date": "Date:   Mon Mar 15 23:17:24 2021 -0400",
     "fileTypes": {
       "py": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 2,
         "occurrences": 1
       },
       "in": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 2,
         "deletes": 1,
         "occurrences": 1
       },
       "txt": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 5,
         "deletes": 0,
         "occurrences": 1
@@ -6039,8 +5183,6 @@
     "Date": "Date:   Fri Mar 12 09:51:27 2021 -0500",
     "fileTypes": {
       "py": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
@@ -6053,15 +5195,11 @@
     "Date": "Date:   Fri Mar 12 09:47:50 2021 -0500",
     "fileTypes": {
       "py": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 14,
         "deletes": 6,
         "occurrences": 1
       },
       "txt": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 21,
         "deletes": 0,
         "occurrences": 1
@@ -6074,8 +5212,6 @@
     "Date": "Date:   Thu Feb 25 07:01:03 2021 -0500",
     "fileTypes": {
       "in": {
-        "textLineCount": 0,
-        "binByteCount": 0,
         "inserts": 1,
         "deletes": 0,
         "occurrences": 1

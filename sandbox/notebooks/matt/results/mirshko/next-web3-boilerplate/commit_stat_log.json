@@ -1,0 +1,977 @@
+[
+  {
+    "commit": "1888b900d05547f906b81300cc55c8dc9cd7d8b7",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Sat Jan 29 14:50:04 2022 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f8c2eaeb563d82fca67ef7a4847f053fff8f72e2",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Sat Jan 29 14:47:29 2022 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 141,
+        "deletes": 45,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f4fdd06e50c825eb73925cc3b9671bc1968734e7",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Sat Jan 29 14:42:21 2022 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 209,
+        "deletes": 561,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0438d95fc6242be183cdba80cfb7f795c2be20f4",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Sat Jan 15 16:48:46 2022 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 153,
+        "deletes": 1125,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b4dd85b127a62b072ebe76160b64a15db62add6",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Mon Dec 13 14:40:14 2021 +0100",
+    "fileTypes": {
+      "ts": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d600d76068ce8543db046dfcc1c9396be40c13ec",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Mon Dec 13 14:39:35 2021 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 407,
+        "deletes": 413,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "877021d618e54f48f6f3a19efa12f72ca86caeff",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Thu Nov 4 10:19:53 2021 +0100",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6dfcd719cd5a4db61c71ef5a76452d84757be062",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Thu Nov 4 10:17:22 2021 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 101,
+        "deletes": 135,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c01c7739e8d73153126f0c74af82d9aa36865c8",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Thu Nov 4 10:16:52 2021 +0100",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c79ec3df33d4c25feefdca8803e6d6fc77d6aa17",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Wed Oct 27 13:32:16 2021 +0200",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 29,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "d47bbcf552a9325b6c4a2fd06e55a57374767e6d",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Wed Oct 27 13:28:34 2021 +0200",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "defce715d47a48089ff590c0b962fafbba868997",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Wed Oct 27 13:26:38 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 537,
+        "deletes": 671,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f7482c1a4784a20e0e2ea91265f76a4ceaace63",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Wed Oct 13 12:23:04 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "46f7b349a240406845916f39932d73201e28624d",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Wed Oct 13 12:22:46 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 51,
+        "deletes": 49,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8d8404b815e2365a869f308f77924e7edd23e6e9",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Wed Oct 13 12:22:19 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 66,
+        "deletes": 66,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "52d04fd9d776abfd71a4b90ce825fa8c553520d9",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Wed Oct 13 12:19:43 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 11,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8fb91c7757468c69573dad06b6402770f315dfa6",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Wed Oct 13 12:19:11 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 36,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "290dfb9b840af6a528ff9a5d330bf8dd6172391d",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Wed Oct 13 12:06:37 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd122e521e38a87b43275a46e95b30d5252b3356",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Mon Aug 30 12:33:36 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb694ccdde79d3bd1dc813f09b6109ed951af1da",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Mon Aug 30 12:18:26 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9e6bcd8b0e474823d395f6190d7703fd4fd9ff0",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Mon Aug 30 12:18:17 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a3eb2845a7cb97fb912c58d4fd5f7cc1dc555d7f",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Mon Aug 30 12:16:55 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe675fb57ebaf3d79aaa7ed982d0412bd3a36582",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Mon Aug 30 12:14:58 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "73e36c9bbc11d901cfab8488a12648bb47613457",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Aug 24 19:01:48 2021 +0200",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "448a24a078b07205540b5e7821baf8268d3f30d4",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Aug 24 13:42:51 2021 +0200",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "caa5b34dd5e343a4efd06e2b9522a8ec881f5bb0",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Aug 24 13:42:20 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 91,
+        "deletes": 44,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4758b25a534989b65c8fdbe13cb536f7dc0a3a2a",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Aug 24 13:37:56 2021 +0200",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 124,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 67,
+        "deletes": 21,
+        "occurrences": 5
+      },
+      "lock": {
+        "inserts": 121,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "304d710eb36383e278a569f2491b11eacef6a54d",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Aug 24 13:19:59 2021 +0200",
+    "fileTypes": {
+      "ts": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "360650787ab5238f09644dd563c93c5c78d0ebfd",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Aug 24 13:19:36 2021 +0200",
+    "fileTypes": {
+      "ts": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "338f29965269ee1abb563780ef8ece9e101dccec",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Aug 24 13:18:28 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1abfae8c592b8cf39076c11b1209e25b8354081",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Aug 24 13:13:19 2021 +0200",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 4,
+        "deletes": 28,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 18,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 7,
+        "deletes": 36,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 1401,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "073f9a518447e4734e6405c0ed6dc385f7cf6469",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Aug 24 13:07:36 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 472,
+        "deletes": 513,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c32efca6e12b9d6eaab803283a48e3c51c08ac5c",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Apr 20 15:47:46 2021 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bc334333b1117d973bddf7ad5aca64d9d0aa8eaa",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Apr 20 15:38:23 2021 +0200",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 21,
+        "deletes": 8,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 38,
+        "deletes": 34,
+        "occurrences": 11
+      },
+      "js": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "80d526ad42e0797a7f73f3a014ae6ab93baa6edc",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Apr 20 15:40:25 2021 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3b71eecbb519041e2570f1a4cbe062b0b2afaf49",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Apr 20 15:20:57 2021 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 948,
+        "deletes": 4574,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9711ee65f458bdb9b693fd0983b5e4999d170a7e",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Tue Sep 22 19:16:03 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "658aef8f98140bc2d6df28858ed6f3d52cfde991",
+    "Author": "Jeff Reiner <theundeadghost@gmail.com>",
+    "Date": "Date:   Tue Jul 21 21:06:13 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "705bd5c164f8cd6324aa864378dc2f9977a9a4a3",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 14:26:42 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48c1f907459db8f6c5e07113ee590134d5fce910",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 14:23:34 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "692e7c01f7f6f0bfb07313f49a3c206848df13f7",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 14:21:05 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 23,
+        "deletes": 24,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9d55dd0e528228b02cdcf25d553652e925e88d6a",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 13:09:52 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e459b112b39e2171aa3f7a1cf9380b231b872df8",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 13:05:52 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c989ba0cefa494bb0182929d4ca5f01ab1682c6d",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 13:04:39 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3529ed77748b3b201a3646804979c1c4e0498966",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:59:36 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50ffe6d9ec9bc191e604b93ffa0d236f52de3a40",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:56:44 2020 +0200",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "26bfafeba5501f13b96c0dfa3824458d6c990f00",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:54:22 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 51,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "624aee8b87f00fc1f6cc3a45a5d02a8ae6b89266",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:53:43 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "61aaaca1807cb9b6eeb49ed0fef1eaff5b14f9a8",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:53:26 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 112,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89f0dcb08ba69e80ed288ce3fa2c678f28ebb354",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:35:54 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c6666e1804431c47c9bd0595ad1d671cc0d76c9",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:31:46 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf47bf9cc0cb421f2741a3639756ed37bc8c1069",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:31:33 2020 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c70ced402829a5d1f4a6e949813c7cda3be4b3b7",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:26:32 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b08c02bffc7834fdb7a7bc0619807833eea14058",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:26:24 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6541e826ca4481c00143dfbdfc80e5f4f8463d41",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:26:18 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "74a2cd67c3eebc9f606266a6920a5fb49fdbdb43",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Mon Jul 20 12:26:09 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e5c32dbe32fb7427d9404dab187b446ea3f1f1a",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Sun Jul 19 12:54:29 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "843c9b0c319ff944c9f15aaf941d329f4a619de0",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Sun Jul 19 12:54:13 2020 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f15f0ca908dafb06df51a7f13dd08ea4b8b792e",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Sun Jul 19 12:52:42 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae03cce6c0f873f27e347b01d962d461bfdba5cb",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Sun Jul 19 12:51:42 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af25d1a0981cbbfc01a1f9cca01fc2ab34eeb851",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Sun Jul 19 12:48:41 2020 +0200",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 203,
+        "occurrences": 2
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03297dca17bdf4a0fd464bbad1a31649f8a4bf6c",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Sun Jul 19 12:43:35 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 43,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "74433f1d41e66c83d09e3b14cde7cd5f96cd04ad",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Sun Jul 19 12:42:36 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 235,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "add4db4359e8c6185183d37a6321b33f3c457079",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Sun Jul 19 12:35:53 2020 +0200",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2a2eed5fb6678067c0f89b9fd6015328510bea3",
+    "Author": "Jeff Reiner <gone@hey.com>",
+    "Date": "Date:   Sun Jul 19 12:31:41 2020 +0200",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,936 @@
+[
+  {
+    "commit": "33950e298ef06f212f7366fc03a362f03b2c0c62",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Fri Feb 11 21:38:04 2022 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33da251c345343a3b64c1aa6d4e6162170edf7ea",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Fri Feb 11 21:32:13 2022 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c07f9fb2877f53d34de7429b5722475699140c0",
+    "Author": "Nabi KaramAliZadeh <NabiKAZ@gmail.com>",
+    "Date": "Date:   Tue Feb 8 11:44:33 2022 +0330",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f37229843dbf175cb2b847952a93000f4ff91f79",
+    "Author": "Xeath <xiaopiao.co.cc@gmail.com>",
+    "Date": "Date:   Fri Jan 7 19:12:01 2022 +0800",
+    "fileTypes": {
+      "php": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9e27212d0ab8eac5e98360c773ab2870f734ea24",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Nov 24 11:51:45 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 35,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "00b79827dbd9bc792ca00e9d097382e5245ef586",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Mon Jan 3 21:37:55 2022 -0500",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ad2677d327abdbd47162396c3639cad648a7481f",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Mon Jan 3 21:36:35 2022 -0500",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a033a17784b45efa685f8d52fa266be2b7fbd41b",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Mon Jan 3 21:33:36 2022 -0500",
+    "fileTypes": {
+      "json": {
+        "inserts": 9,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "dist": {
+        "inserts": 7,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "305f0ea87d1e7efbf9a7bed103f58cab781a3736",
+    "Author": "Hammer Rot <90797681+hammer-rot@users.noreply.github.com>",
+    "Date": "Date:   Fri Dec 24 00:38:09 2021 +0100",
+    "fileTypes": {
+      "php": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f28e6055d01943cb0c451c9498eb246ba3aa4132",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Sun Dec 5 12:29:34 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "867254f676084940718423d0a05a2cea75402ab8",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Sun Dec 5 12:26:05 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 53,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f0d1a4b7391d35f826ad3c2b02a101783f2b0ca8",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Sat Dec 4 11:14:13 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 34,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a437bbf65b2573942c2b0ae9f8819db00231c1ae",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Sat Dec 4 11:10:44 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "43fd076cf4d0e1b38ab2c6e972d305f0d641ab5e",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Sat Dec 4 11:10:35 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5763efc7647d2529fe7ce332512e74104896212f",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Thu Dec 2 18:00:22 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4ca4b4200fc9055a914deb99f7d99613ee82bfb5",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Thu Dec 2 18:00:16 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "243a3cdf6404b1fea984f8032a0a4d5468e0e38e",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Thu Dec 2 08:38:33 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d9732943e2fba55c33ffd62db4844a083af7903",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Dec 1 19:10:16 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "597677b30391f9a79cab4922d6d0f88614766bb2",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Dec 1 13:19:53 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9126bc7c9555779685a1c2107e20ccdd8a80612f",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Dec 1 13:18:27 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e56b35d516aa922c8518c1d79421b2731e9a6494",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Dec 1 12:53:18 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e9d325a7d1f172f6a6c58424b470ad805324f62",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Dec 1 12:53:03 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 68,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "86d6aca1b065223c11b5e98b2527b6abc6c8969f",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Mon Nov 29 19:34:23 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c78ab2f3936c6c166507623d90ab08947745557",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Mon Nov 29 19:14:39 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9f964e6181c67b2106eb65ce985c7e8e4c676bd3",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Mon Nov 29 19:11:29 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 136,
+        "deletes": 95,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "d60384053a11fca6483bd83eccf94d2347f4a469",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sun Nov 28 00:13:51 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 119,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "efca824d8f2a7f8b6ed7d1f62b8c4ab7c9e6ae68",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Fri Nov 26 22:48:37 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4b464780006741b422226ead084239f7cc75ee1e",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Fri Nov 26 11:17:04 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 13,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c97329ae7c2a148aabacef427ca14fe7fc4a0fd",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Fri Nov 26 11:14:07 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 67,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9a56b409981b51bc526c53397291ed464180d2b7",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Fri Nov 26 09:40:06 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6fa912567af86a974b91ac2ac1a1f307b590189f",
+    "Author": "Zubair Mohsin <zubairmohsin33@gmail.com>",
+    "Date": "Date:   Thu Nov 25 22:12:13 2021 +0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "56565e666e6b77278a2e5bc7ea4f8e92ef19ec73",
+    "Author": "Zubair Mohsin <zubairmohsin33@gmail.com>",
+    "Date": "Date:   Thu Nov 25 21:40:36 2021 +0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "00549f0615d7e39fe7d7e9f83d81242fd73c2922",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Nov 24 17:08:25 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be12e6587493c2e2444de72bfe877fe600bf8ffd",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Nov 24 11:41:34 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "953aa729569080160264c485889ef6b23ba23200",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Thu Nov 25 02:12:44 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3922aae68826adfb0e38794c6cd775f55944c0d0",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Thu Nov 25 01:47:46 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e9c3c8089df5f0fc6535c9a0a1707e7733672d2",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Thu Nov 25 01:39:56 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6be30b058c0e65203f7eacb17e61d832679e396",
+    "Author": "Zubair Mohsin <zubairmohsin33@gmail.com>",
+    "Date": "Date:   Wed Nov 24 22:40:50 2021 +0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cb4dd220e4fc80d2d0e876b4d586e47c4f92dbe0",
+    "Author": "Zubair Mohsin <zubairmohsin33@gmail.com>",
+    "Date": "Date:   Wed Nov 24 22:38:57 2021 +0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5814f404bde710563543bbd43d578f49bb7b3e5e",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Nov 24 17:01:15 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "65ddd0e25e5feae95a3aeaa091b4d80ac312a119",
+    "Author": "Zubair Mohsin <zubairmohsin33@gmail.com>",
+    "Date": "Date:   Wed Nov 24 21:51:57 2021 +0500",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e5d24d98fc4ea34b813907cfd7e88fb367e2a917",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Wed Nov 24 11:25:26 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 25,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5b3313124e9a93fb8815e0268d0358a25bf611cb",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Wed Nov 24 00:21:26 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ddf68dd4ac0c9aa5c11e8cdbac763451356f153c",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Wed Nov 24 00:17:40 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 94,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c784ab977239dacb57053abb56038192b9865085",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Tue Nov 23 23:59:14 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9dfccf7a483de243181bced7917b5739431227b0",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Tue Nov 23 23:57:06 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 26,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "aa5d2fb9746b279cd7944961924b21f0eb5c8427",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Tue Nov 23 23:37:45 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 45,
+        "deletes": 43,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "1e9994b35430cca6282801642005dfb2b3b13886",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Tue Nov 23 23:08:58 2021 +0000",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1861bb39d00685133b5038817f9d7847746b72e3",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Tue Nov 23 23:08:17 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 34,
+        "deletes": 5,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8b72f03489410f38865b7aac24185af795886376",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Tue Nov 23 22:55:16 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f34d0b541301d3ebcf7cccc28438f69e0c27b9e8",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Tue Nov 23 22:54:51 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "320c81a29506c47c9ec92bf4eb454ada9e79674b",
+    "Author": "Owen Voke <development@voke.dev>",
+    "Date": "Date:   Tue Nov 23 22:52:11 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3e7dd5dbf7ec1d6244524dbbbc02e4a5c7a4ae03",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Tue Nov 23 21:39:15 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "dist": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 208,
+        "deletes": 499,
+        "occurrences": 23
+      }
+    }
+  },
+  {
+    "commit": "51cab8659417f38336947e07075cfbd78e5f6b67",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sun Nov 21 22:03:35 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 107,
+        "deletes": 39,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "e07ee799e0a851bd75c36358cfd1403c43dec689",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sun Nov 21 18:44:49 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2416ad8a784fb4c7454f013919ac040a01dccf2e",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sun Nov 21 18:42:35 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 224,
+        "deletes": 15,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "e2fbc45ac3e4bc2f336909f37d8e92686e62d799",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sun Nov 21 18:18:48 2021 +0000",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4593cfbcf9a1b12ba4f3cd85db87b56c3feaa8d4",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sun Nov 21 17:49:28 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "489bfb4d469c82e94391b41059a58886f8b8740b",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sun Nov 21 17:27:29 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 137,
+        "deletes": 34,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "6f71f03701badd2848acdc60fa272085eebaec8f",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sun Nov 21 15:56:01 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 6,
+        "deletes": 17,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "eb30c9055c5ff049fa9879641d191df02cf6698e",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sun Nov 21 02:55:56 2021 +0000",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "dist": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 150,
+        "deletes": 2,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "cab38e8857be44e29817b0599580e8c2522f8562",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 23:58:37 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7381b25501ab12fa005c8391e7fe294a72c0c9b",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 23:57:59 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e0afda53859f1638f216df976221ebe34bb37e84",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 19:41:50 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4347dc789d751b5598aa0500b5d0214b095bcf7b",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 18:06:32 2021 +0000",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a9937e29b037c6dfddd8202e41b39372e67b730",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 17:59:26 2021 +0000",
+    "fileTypes": {
+      "php": {
+        "inserts": 71,
+        "deletes": 24,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "7d05d43351e8f7522b48440e199a09e98ae05b9a",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 17:58:53 2021 +0000",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "385286e0f600775d6e3047a57519b91e448e5644",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 17:24:40 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "914dd7f6fa8640cd8c8b346f0ed4fda056e8d09b",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 17:16:24 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eebc47779767c8c0aec09ae61dd72f252e5cc1cd",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 17:07:01 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "798f4bfc4e3a84b2d2932f70e2b24a0e3b1d37e9",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 16:59:17 2021 +0000",
+    "fileTypes": {
+      "md": {
+        "inserts": 13,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7dd6df749d832534988f60773eb58c72c5a803a",
+    "Author": "Nuno Maduro <enunomaduro@gmail.com>",
+    "Date": "Date:   Sat Nov 20 02:42:57 2021 +0000",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  }
+]
