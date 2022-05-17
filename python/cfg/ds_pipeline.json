@@ -1,14 +1,56 @@
 {
   "ocean": {
     "stats_dir": "sandbox/data/bob/ocean_repos",
-    "stat_file_name": "commit_stat.json"
+    "stat_file_name": "commit_stat.json",
+    "cluster": {
+      "num_centers": 8
+    }
   },
   "marine": {
     "stats_dir": "data/github/2022-04-07-marine-search/projects",
-    "stat_file_name": "commit-stat.log.json"
+    "stat_file_name": "commit-stat.log.json",
+    "cluster": {
+      "num_centers": 8
+    }
   },
   "99_problems": {
     "stats_dir": "sandbox/notebooks/matt/results",
-    "stat_file_name": "commit_stat_log.json"
+    "stat_file_name": "commit_stat_log.json",
+    "cluster": {
+      "num_centers": 40,
+      "features": [
+        "binFiles", "imgFiles", "textFiles",
+        "textLines", "cLines", "c-plus-plusLines",
+        "configurationLines", "dataLines",
+        "datascienceLines", "goLines", "interfaceLines",
+        "javascriptLines", "jsonLines",
+        "latexLines", "lockLines", "localizationLines",
+        "markdownLines", "sqlLines", "swiftLines",
+        "txtLines", "yarnLines"
+      ],
+      "stat_fields": [
+        "numCommits", "binFiles", "imgFilePct", "textFiles",
+        "textLines", "cLinePct", "c-plus-plusLinePct",
+        "configurationLinePct", "dataLinePct",
+        "datascienceLinePct", "goLinePct", "interfaceLinePct",
+        "javascriptLinePct", "jsonLinePct",
+        "latexLinePct", "lockLinePct", "localizationLinePct",
+        "markdownLinePct", "sqlLinePct", "swiftLinePct",
+        "txtLinePct", "yarnLinePct"
+      ]
+    },
+    "classifier": {
+      "labeling_path": "sandbox/data/bob/commit_labeling-2022-05-16.csv",
+      "features": [
+        "binFiles", "imgFiles", "textFiles",
+        "textLines", "cLines", "c-plus-plusLines",
+        "configurationLines", "dataLines",
+        "goLines", "interfaceLines",
+        "javascriptLines", "jsonLines",
+        "lockLines", "localizationLines",
+        "markdownLines", "swiftLines",
+        "txtLines", "yarnLines"
+      ]
+    }
   }
 }

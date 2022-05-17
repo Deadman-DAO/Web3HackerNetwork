@@ -53,8 +53,8 @@ def addTextFeatures(typeArray, statDict, statName, file_types):
 def extract_features(project_root_path, commit):
     typeDict = commit['fileTypes']
     typeArray = [{'fileType': key, 'stats': typeDict[key]} for key in typeDict.keys()]
-    textTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['stats']['textLineCount'] > 0]
-    binTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['stats']['binByteCount'] > 0]
+    textTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['stats']['inserts'] > 0 or typeEntry['stats']['deletes'] > 0]
+    binTypeArray = [typeEntry for typeEntry in typeArray if typeEntry['stats']['inserts'] == 0 and typeEntry['stats']['deletes'] == 0]
 
     occurrences_list = [type_entry['stats']['occurrences'] for type_entry in typeArray]
     num_files = sum(occurrences_list)
@@ -66,7 +66,7 @@ def extract_features(project_root_path, commit):
     statDict['totalFiles'] = int(num_files)
     statDict['binFiles'] = sum_stat(binTypeArray, 'occurrences')
     statDict['textFiles'] = sum_stat(textTypeArray, 'occurrences')
-    statDict['textLines'] = sum_stat(textTypeArray, 'textLineCount')
+    statDict['textLines'] = sum_stat(textTypeArray, 'inserts')
 
     actions = get_actions(project_root_path)
     for action in actions:

@@ -16,8 +16,23 @@
   },
   {
     "encoding": "text",
+    "action": "c",
+    "file_types": ["c", "h"]
+  },
+  {
+    "encoding": "text",
+    "action": "c-plus-plus",
+    "file_types": ["cpp", "hpp"]
+  },
+  {
+    "encoding": "text",
     "action": "configuration",
-    "file_types": ["ini", "cfg", "conf"]
+    "file_types": ["ini", "cfg", "conf", "in"]
+  },
+  {
+    "encoding": "text",
+    "action": "data",
+    "file_types": ["csv"]
   },
   {
     "encoding": "text",
@@ -31,8 +46,13 @@
   },
   {
     "encoding": "text",
-    "action": "html",
-    "file_types": ["html", "css", "scss"]
+    "action": "go",
+    "file_types": ["go"]
+  },
+  {
+    "encoding": "text",
+    "action": "interface",
+    "file_types": ["html", "css", "scss", "less"]
   },
   {
     "encoding": "text",
@@ -46,8 +66,18 @@
   },
   {
     "encoding": "text",
+    "action": "latex",
+    "file_types": ["bst", "tex"]
+  },
+  {
+    "encoding": "text",
     "action": "lock",
     "file_types": ["lock"]
+  },
+  {
+    "encoding": "text",
+    "action": "localization",
+    "file_types": ["po"]
   },
   {
     "encoding": "text",
@@ -67,12 +97,22 @@
   {
     "encoding": "text",
     "action": "python",
-    "file_types": ["py"]
+    "file_types": ["py", "pyx"]
+  },
+  {
+    "encoding": "text",
+    "action": "rpm-package",
+    "file_types": ["spec"]
   },
   {
     "encoding": "text",
     "action": "rust",
     "file_types": ["rs", "toml"]
+  },
+  {
+    "encoding": "text",
+    "action": "php",
+    "file_types": ["php"]
   },
   {
     "encoding": "text",
@@ -86,7 +126,17 @@
   },
   {
     "encoding": "text",
-    "action": "text",
+    "action": "sql",
+    "file_types": ["sql"]
+  },
+  {
+    "encoding": "text",
+    "action": "swift",
+    "file_types": ["swift"]
+  },
+  {
+    "encoding": "text",
+    "action": "txt",
     "file_types": ["txt"]
   },
   {
