@@ -41,6 +41,7 @@
     },
     "classifier": {
       "labeling_path": "sandbox/data/bob/commit_labeling-2022-05-16.csv",
+      "model_path": "sandbox/data/bob/logit-clf-2022-05-16.dat",
       "features": [
         "binFiles", "imgFiles", "textFiles",
         "textLines", "cLines", "c-plus-plusLines",
