@@ -7,9 +7,9 @@ import commit_stats
 import feature_map
 
 # see make_hacker_history.py for example use
-def load_all(path, file_name):
+def load_all(project_root_path, path, file_name):
     all_commit_stats = commit_stats.load_commit_stats(file_name, path)
-    all_commit_features = feature_map.get_commit_features(all_commit_stats)
+    all_commit_features = feature_map.get_commit_features(project_root_path, all_commit_stats)
     return all_commit_features
 
 def make_vector(feature_dict, feature_names):

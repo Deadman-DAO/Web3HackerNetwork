@@ -1,0 +1,147 @@
+[
+  {
+    "encoding": "binary",
+    "action": "img",
+    "file_types": ["png", "jpg", "gif", "drawio", "svg"]
+  },
+  {
+    "encoding": "binary",
+    "action": "noextbin",
+    "file_types": ["noextbin"]
+  },
+  {
+    "encoding": "text",
+    "action": "clojure",
+    "file_types": ["clj"]
+  },
+  {
+    "encoding": "text",
+    "action": "c",
+    "file_types": ["c", "h"]
+  },
+  {
+    "encoding": "text",
+    "action": "c-plus-plus",
+    "file_types": ["cpp", "hpp"]
+  },
+  {
+    "encoding": "text",
+    "action": "configuration",
+    "file_types": ["ini", "cfg", "conf", "in"]
+  },
+  {
+    "encoding": "text",
+    "action": "data",
+    "file_types": ["csv"]
+  },
+  {
+    "encoding": "text",
+    "action": "datascience",
+    "file_types": ["ipynb"]
+  },
+  {
+    "encoding": "text",
+    "action": "gitignore",
+    "file_types": ["gitignore"]
+  },
+  {
+    "encoding": "text",
+    "action": "go",
+    "file_types": ["go"]
+  },
+  {
+    "encoding": "text",
+    "action": "interface",
+    "file_types": ["html", "css", "scss", "less"]
+  },
+  {
+    "encoding": "text",
+    "action": "javascript",
+    "file_types": ["js", "jsx", "ts", "tsx", "vue"]
+  },
+  {
+    "encoding": "text",
+    "action": "json",
+    "file_types": ["json"]
+  },
+  {
+    "encoding": "text",
+    "action": "latex",
+    "file_types": ["bst", "tex"]
+  },
+  {
+    "encoding": "text",
+    "action": "lock",
+    "file_types": ["lock"]
+  },
+  {
+    "encoding": "text",
+    "action": "localization",
+    "file_types": ["po"]
+  },
+  {
+    "encoding": "text",
+    "action": "markdown",
+    "file_types": ["md"]
+  },
+  {
+    "encoding": "text",
+    "action": "noextext",
+    "file_types": ["noextext"]
+  },
+  {
+    "encoding": "text",
+    "action": "pydata",
+    "file_types": ["rst"]
+  },
+  {
+    "encoding": "text",
+    "action": "python",
+    "file_types": ["py", "pyx"]
+  },
+  {
+    "encoding": "text",
+    "action": "rpm-package",
+    "file_types": ["spec"]
+  },
+  {
+    "encoding": "text",
+    "action": "rust",
+    "file_types": ["rs", "toml"]
+  },
+  {
+    "encoding": "text",
+    "action": "php",
+    "file_types": ["php"]
+  },
+  {
+    "encoding": "text",
+    "action": "shell",
+    "file_types": ["sh"]
+  },
+  {
+    "encoding": "text",
+    "action": "solidity",
+    "file_types": ["sol"]
+  },
+  {
+    "encoding": "text",
+    "action": "sql",
+    "file_types": ["sql"]
+  },
+  {
+    "encoding": "text",
+    "action": "swift",
+    "file_types": ["swift"]
+  },
+  {
+    "encoding": "text",
+    "action": "txt",
+    "file_types": ["txt"]
+  },
+  {
+    "encoding": "text",
+    "action": "yarn",
+    "file_types": ["yml", "yaml"]
+  }
+]
