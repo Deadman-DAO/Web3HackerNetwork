@@ -2,7 +2,9 @@ import os, enum;
 from abc import ABC, abstractmethod
 import sys
 import traceback, inspect, json
-
+from datetime import datetime as datingdays
+import time
+from pytz import timezone
         
 class File:
     dir = None
@@ -46,6 +48,15 @@ class Requirement(ABC):
     @abstractmethod
     def addResults(self, dictionary):
         pass
+
+class EndOfNumStat(Requirement):
+    def testline(self, line):
+        return Result.gameSetMatch
+    def reset(self):
+        pass
+    def addResults(self, dictionary):
+        pass
+    
 class Splicer(Requirement):
     def __init__(self, matchIdx, matchValue, captureIndex, foundValue):
         self.matchIdx = matchIdx
@@ -78,13 +89,28 @@ class ColonSplicer(Splicer): #Ouch?
         return ':'
     def testline(self, line):
         retVal = super().testline(line)
-        if (retVal == Result.matchedProgress):
-            if (self.matchValue == 'Date'):
-                i = line.index('Date:')
-                self.foundValue = line[i+5::]
-                self.foundValue = line.strip()
         return retVal
-    
+class DateSplicer(Splicer):
+    def __init__(self, matchIdx, matchValue, captureIndex, foundValue):
+        self.original_timezone = str(timezone(time.tzname[0]))
+        super().__init__(matchIdx, matchValue, captureIndex, foundValue)
+    def addResults(self, dictionary):
+        dictionary[self.matchValue] = self.foundValue
+        dictionary['orig_timezone'] = self.original_timezone
+    def getSpliceChar(self):
+        return ':'
+    def testline(self, line):
+        retVal = super().testline(line)
+        if retVal == Result.matchedProgress and line.index('Date:') >= 0:
+            date = line[5:].strip()
+            dt = datingdays.strptime(date, '%a %b %d %H:%M:%S %Y %z')
+            self.original_timezone = str(dt.tzinfo)
+            system_tz = timezone(time.tzname[0])        
+            then = datingdays.now(system_tz)
+            then = then - (then - dt)
+            self.foundValue = then.isoformat()
+        return retVal
+        
 class Blank(Requirement):
     def reset(self):
         return;
@@ -143,8 +169,6 @@ class FileCommit(Requirement):
             if (sumDic is None):
                 sumDic = {}
                 fileTypes[fi.extension] = sumDic
-            addIntValue(sumDic, 'textLineCount', fi.textLineCount)
-            addIntValue(sumDic, 'binByteCount', fi.binByteCount)
             addIntValue(sumDic, 'inserts', fi.inserts)
             addIntValue(sumDic, 'deletes', fi.deletes)
             addIntValue(sumDic, 'occurrences', fi.occurrences)
@@ -175,7 +199,12 @@ class FileCommit(Requirement):
             ext = 'noexttext'
             if (fileName.startswith('.') == False and len(dotSplit) > 1):
                 ext = dotSplit[len(dotSplit)-1].strip() #last element (e.g. '.txt')
-                ext = removeEmptyStrings(ext.split('}'))[0]
+                array = removeEmptyStrings(ext.split('}'))
+                if len(array) < 1:
+                    print('Unable to resolve extension', ext, fileName)
+                    ext = 'noexttext'
+                else:
+                    ext = array[0]
             fi = self.getExt(ext)
             fi.occurrences += 1
             validData = self.processStatistics(statsPortion, fi, ext)
@@ -220,35 +249,35 @@ class StatFileCommit(FileCommit):
         elif (size[0].isnumeric and len(size[0]) > 0):
             fi.isBinary = False
             try:
-              lc = int(size[0])
-              fi.textLineCount += lc
-              plusCount = 0
-              minusCount = 0
-              if (lc < 1 and len(size) < 2):
-                  #all done here
-                  validData = True
-              else:
-                  plus = size[1].split('+')
-                  for p in plus:
-                      if (len(p) == 0):
-                          plusCount += 1
-                      else:
-                          mi = len(p.split('-')) - 1
-                          minusCount += mi
-                  if (plusCount > 0 or minusCount > 0):
-                      validData = True
-                      fi.inserts = int(fi.textLineCount * ((plusCount * 1.0) / (plusCount + minusCount)))
-                      fi.deletes = fi.textLineCount - fi.inserts
-                  else:
-                      print('No bueno!')
+                lc = int(size[0])
+                fi.textLineCount += lc
+                plusCount = 0
+                minusCount = 0
+                if (lc < 1 and len(size) < 2):
+                    #all done here
+                    validData = True
+                else:
+                    plus = size[1].split('+')
+                    for p in plus:
+                        if (len(p) == 0):
+                            plusCount += 1
+                        else:
+                            mi = len(p.split('-')) - 1
+                            minusCount += mi
+                        if (plusCount > 0 or minusCount > 0):
+                            validData = True
+                            fi.inserts = int(fi.textLineCount * ((plusCount * 1.0) / (plusCount + minusCount)))
+                            fi.deletes = fi.textLineCount - fi.inserts
+                        else:
+                            print('No bueno!')
             except:
-              print('Exception encountered parsing:', size[0])
+                print('Exception encountered parsing:', size[0])
         return validData
                         
 class NumStatFileCommit(FileCommit):
     def split(self, line):
         try:
-            chunks = line.split(' ')
+            chunks = line.split('\t')
             file_name_portion = chunks[2]
             stats_portion = chunks[0]+' '+chunks[1]
             if (chunks[0].isnumeric() or chunks[0] == '-') and (chunks[1].isnumeric() or chunks[0] == '-'):
@@ -257,9 +286,22 @@ class NumStatFileCommit(FileCommit):
             pass
         return None, None
     def processStatistics(self, line, fi, ext):
-        print('processStatistics',line, fi, ext)
-        return False
-    
+        validData = False
+        try:
+            sa = line.split(' ')
+            if len(sa) == 2:
+                if sa[0] == '-':
+                    #binary file
+                    fi.isBinary = True
+                    validData = True
+                elif sa[0].isnumeric() and sa[1].isnumeric:
+                    fi.isBinary = False
+                    fi.inserts += int(sa[0])
+                    fi.deletes += int(sa[1])
+                    validData = True
+        except:
+            print('NumStatFileCommit Error parsing:',line)
+        return validData
         
 class Summary(Requirement):
     def __init__(self):
@@ -373,11 +415,12 @@ class NumstatRequirementSet(RequirementSet):
         reqArray = super().getReqArray()
         reqArray.append( SpaceSplicer(0, 'commit', 1, None) )
         reqArray.append( ColonSplicer(0, 'Author', 1, None) )
-        reqArray.append( ColonSplicer(0, 'Date', 1, None) )
+        reqArray.append( DateSplicer(0, 'Date', 1, None) )
         reqArray.append( Blank() )
         reqArray.append( Comment() )
         reqArray.append( Blank() )
         reqArray.append( NumStatFileCommit() )
+        reqArray.append( EndOfNumStat() )
     def __init__(self):
         super().__init__()
 

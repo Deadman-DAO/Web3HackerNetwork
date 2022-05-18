@@ -2,7 +2,8 @@
   {
     "commit": "b3fc47a172d869c7c5160a51bce326450d33df8d",
     "Author": "deri.io <76576032+deri-finance@users.noreply.github.com>",
-    "Date": "Date:   Tue Apr 19 16:45:22 2022 +0800",
+    "Date": "2022-04-19T01:45:22-07:00",
+    "orig_timezone": "UTC+08:00",
     "fileTypes": {
       "ts": {
         "inserts": 17,
@@ -14,7 +15,8 @@
   {
     "commit": "03c579513ccbb22974afe97220a9a2de4c7b71e1",
     "Author": "Mathias Scherer <scherer.mat@gmail.com>",
-    "Date": "Date:   Tue Apr 5 15:55:21 2022 +0200",
+    "Date": "2022-04-05T06:55:21-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -36,7 +38,8 @@
   {
     "commit": "d09c8f1d63c0daa72f183e912780472973a08621",
     "Author": "Mathias Scherer <scherer.mat@gmail.com>",
-    "Date": "Date:   Tue Apr 5 14:43:01 2022 +0200",
+    "Date": "2022-04-05T05:43:01-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -48,7 +51,8 @@
   {
     "commit": "093f960c4506542e52fdeba91910408f73237669",
     "Author": "Mathias Scherer <scherer.mat@gmail.com>",
-    "Date": "Date:   Tue Apr 5 14:26:32 2022 +0200",
+    "Date": "2022-04-05T05:26:32-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "yml": {
         "inserts": 20,
@@ -80,7 +84,8 @@
   {
     "commit": "39a60725599ee4fe36a7856d189dc8960e919109",
     "Author": "Esper <81006672+lilesper@users.noreply.github.com>",
-    "Date": "Date:   Tue Feb 1 02:42:06 2022 -0700",
+    "Date": "2022-02-01T02:42:06-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "ts": {
         "inserts": 15,
@@ -92,7 +97,8 @@
   {
     "commit": "a5b0029331b2660811aa6f41226b5f9b67db6793",
     "Author": "Kellvem Barbosa <kellvem222@gmail.com>",
-    "Date": "Date:   Mon Jan 31 10:56:31 2022 +0000",
+    "Date": "2022-01-31T03:56:31-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "ts": {
         "inserts": 1,
@@ -104,7 +110,8 @@
   {
     "commit": "c898a8c451e1642f51266f9928fcaf6e5e77ae5c",
     "Author": "Valentin Racine <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Mon Jan 31 11:56:19 2022 +0100",
+    "Date": "2022-01-31T03:56:19-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "md": {
         "inserts": 0,
@@ -126,7 +133,8 @@
   {
     "commit": "74a20d81412ff125781838d4d91b4d63df980d70",
     "Author": "pk <panu.t.kettunen@gmail.com>",
-    "Date": "Date:   Mon Jan 17 11:23:41 2022 +0200",
+    "Date": "2022-01-17T02:23:41-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "ts": {
         "inserts": 76,
@@ -138,7 +146,8 @@
   {
     "commit": "5892c304d054d1cca7af7783ae3d0db0b2c461b1",
     "Author": "WissenIstNacht <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Fri Jan 14 12:05:57 2022 +0100",
+    "Date": "2022-01-14T04:05:57-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -150,7 +159,8 @@
   {
     "commit": "9d33e143d304db3c588d14580142e48f94ae93af",
     "Author": "WissenIstNacht <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Fri Jan 14 11:22:58 2022 +0100",
+    "Date": "2022-01-14T03:22:58-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -162,7 +172,8 @@
   {
     "commit": "168ab9e6d6ae9657d3b37eb65bd56c35998ddb46",
     "Author": "Zak Angelle <zak@zak.dog>",
-    "Date": "Date:   Tue Dec 21 06:04:35 2021 -0600",
+    "Date": "2021-12-21T05:04:35-07:00",
+    "orig_timezone": "UTC-06:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -174,7 +185,8 @@
   {
     "commit": "0ffc9c240621dd3cc62ad1773f5b238dca2d8881",
     "Author": "David-Hung-Thunder <59246893+David-Hung-Thunder@users.noreply.github.com>",
-    "Date": "Date:   Tue Dec 21 17:36:58 2021 +0800",
+    "Date": "2021-12-21T02:36:58-07:00",
+    "orig_timezone": "UTC+08:00",
     "fileTypes": {
       "ts": {
         "inserts": 30,
@@ -186,7 +198,8 @@
   {
     "commit": "00f1ebcd1a52c9dcab0821de3f85ca7e2214bd60",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Mon Dec 20 17:00:59 2021 +0000",
+    "Date": "2021-12-20T10:00:59-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -203,7 +216,8 @@
   {
     "commit": "3d55e80bbc134af070cf66a00e258ee1b1d4cf96",
     "Author": "pk <panu.t.kettunen@gmail.com>",
-    "Date": "Date:   Tue Dec 14 13:10:53 2021 +0100",
+    "Date": "2021-12-14T05:10:53-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -220,7 +234,8 @@
   {
     "commit": "ee4921c96750d620e235aca6eed08df6c6b54afe",
     "Author": "Saransh Sharma <89117846+saranshisatgit@users.noreply.github.com>",
-    "Date": "Date:   Tue Dec 14 17:25:12 2021 +0530",
+    "Date": "2021-12-14T04:55:12-07:00",
+    "orig_timezone": "UTC+05:30",
     "fileTypes": {
       "ts": {
         "inserts": 2,
@@ -232,7 +247,8 @@
   {
     "commit": "7e79d6ed4cbc5fc63662d43f76ead8f9aa0f8a10",
     "Author": "Wang D\u00e0p\u00e9ng <wonderfuly@gmail.com>",
-    "Date": "Date:   Tue Dec 14 19:52:59 2021 +0800",
+    "Date": "2021-12-14T04:52:59-07:00",
+    "orig_timezone": "UTC+08:00",
     "fileTypes": {
       "md": {
         "inserts": 4,
@@ -244,7 +260,8 @@
   {
     "commit": "26962c61d17ae3644daba2139b07a0cc18adabec",
     "Author": "Matt Venables <matt@m2.xyz>",
-    "Date": "Date:   Tue Dec 14 06:06:25 2021 -0500",
+    "Date": "2021-12-14T04:06:25-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "json": {
         "inserts": 2,
@@ -256,7 +273,8 @@
   {
     "commit": "98bcd690653928bd3a80253e68c8eb357fc3e7e8",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Thu Nov 4 16:11:14 2021 +0000",
+    "Date": "2021-11-04T09:11:14-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -268,7 +286,8 @@
   {
     "commit": "d431fdec8e8f7b47867f74469bef900ff19423f4",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Thu Nov 4 14:56:37 2021 +0000",
+    "Date": "2021-11-04T07:56:37-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "js": {
         "inserts": 1,
@@ -290,7 +309,8 @@
   {
     "commit": "83a5d0a79be5086ddbb63a9777d28aa48c570b55",
     "Author": "Valentin Racine <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Wed Nov 3 13:03:44 2021 +0100",
+    "Date": "2021-11-03T05:03:44-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "tsx": {
         "inserts": 11,
@@ -302,7 +322,8 @@
   {
     "commit": "b5f0328b16a8df97ad1e5078ae2b4bfae5a0d7f1",
     "Author": "Sepehr Sanaei <46657145+sepehr2github@users.noreply.github.com>",
-    "Date": "Date:   Tue Nov 2 18:28:54 2021 +0330",
+    "Date": "2021-11-02T07:58:54-07:00",
+    "orig_timezone": "UTC+03:30",
     "fileTypes": {
       "js": {
         "inserts": 6,
@@ -319,7 +340,8 @@
   {
     "commit": "49b019d461133989cc739c17b22e3964ce2b86a3",
     "Author": "Valentin Racine <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Fri Oct 29 17:18:45 2021 +0200",
+    "Date": "2021-10-29T08:18:45-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "tsx": {
         "inserts": 195,
@@ -331,7 +353,8 @@
   {
     "commit": "72e4e79439a1c81a484403c82f758e26732aca99",
     "Author": "Valentin Racine <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Wed Oct 27 20:18:43 2021 +0200",
+    "Date": "2021-10-27T11:18:43-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "json": {
         "inserts": 6,
@@ -348,7 +371,8 @@
   {
     "commit": "f72523de85678103990b13e72494ff22aeb4aa1f",
     "Author": "yuetloo <loo@aragon.org>",
-    "Date": "Date:   Mon Oct 25 03:49:00 2021 -0400",
+    "Date": "2021-10-25T00:49:00-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "noexttext": {
         "inserts": 2,
@@ -370,7 +394,8 @@
   {
     "commit": "65546a61ca39050bfc875c2b2a8c01e4f07a798e",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Sat Oct 23 08:04:28 2021 +0100",
+    "Date": "2021-10-23T00:04:28-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -387,7 +412,8 @@
   {
     "commit": "25b923f635f71518b37576e933613f273f1ee260",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Fri Oct 22 16:02:27 2021 +0100",
+    "Date": "2021-10-22T08:02:27-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -404,7 +430,8 @@
   {
     "commit": "5774152f1c75525338ec45254613f05f101d7ec7",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Wed Oct 20 12:59:22 2021 +0100",
+    "Date": "2021-10-20T04:59:22-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -416,7 +443,8 @@
   {
     "commit": "a9f8cd99a63a85565b9ee438ffac6037cd67fa4c",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Wed Oct 20 12:58:48 2021 +0100",
+    "Date": "2021-10-20T04:58:48-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 8,
@@ -433,7 +461,8 @@
   {
     "commit": "9d9fdd284e44968014651943479946f8449f5ed3",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Wed Oct 20 08:39:05 2021 +0100",
+    "Date": "2021-10-20T00:39:05-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "ts": {
         "inserts": 26,
@@ -445,7 +474,8 @@
   {
     "commit": "3ac12e9e0272b2b51e76c88f124580b2aaeebd79",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Tue Oct 19 18:25:18 2021 +0100",
+    "Date": "2021-10-19T10:25:18-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 3,
@@ -472,7 +502,8 @@
   {
     "commit": "554501026dd1de295a89fa84bb6d1a8044675733",
     "Author": "Ramon Canales <emaildoramon@gmail.com>",
-    "Date": "Date:   Tue Oct 19 11:16:28 2021 +0100",
+    "Date": "2021-10-19T03:16:28-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -484,7 +515,8 @@
   {
     "commit": "b5c1e9d13e73ec7ae0d13170d67af8a430ab33d5",
     "Author": "Valentin Racine <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Tue Oct 19 11:01:57 2021 +0200",
+    "Date": "2021-10-19T02:01:57-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "ts": {
         "inserts": 70,
@@ -501,7 +533,8 @@
   {
     "commit": "3cc638517d2e53e4b037b011dc9ff49fa4eaf129",
     "Author": "WissenIstNacht <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Tue Oct 12 12:50:33 2021 +0200",
+    "Date": "2021-10-12T03:50:33-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -513,7 +546,8 @@
   {
     "commit": "4a195cabd1c1ae8ff67815264f612f1a27c8f5ce",
     "Author": "Bala Chandra Pulavarthi <balachandrapulavarthi@gmail.com>",
-    "Date": "Date:   Tue Oct 12 16:05:43 2021 +0530",
+    "Date": "2021-10-12T03:35:43-07:00",
+    "orig_timezone": "UTC+05:30",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -525,7 +559,8 @@
   {
     "commit": "00d2438fc6a60086e421fa53fb933f9fd300ca61",
     "Author": "Victa Kwok Wai Phu <44614771+victaphu@users.noreply.github.com>",
-    "Date": "Date:   Thu Sep 30 03:42:23 2021 +0800",
+    "Date": "2021-09-29T12:42:23-07:00",
+    "orig_timezone": "UTC+08:00",
     "fileTypes": {
       "ts": {
         "inserts": 28,
@@ -537,7 +572,8 @@
   {
     "commit": "055188027c2834ebcfdb7f06e5a890bae5a6f9e9",
     "Author": "Valentin Racine <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Wed Sep 29 16:25:30 2021 +0200",
+    "Date": "2021-09-29T07:25:30-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "noexttext": {
         "inserts": 1,
@@ -554,7 +590,8 @@
   {
     "commit": "dbb295fe80175c8b38d2dcc0c3b8f6ba2f28a516",
     "Author": "andrekat <andre.karner@gmail.com>",
-    "Date": "Date:   Wed Sep 29 15:56:25 2021 +0200",
+    "Date": "2021-09-29T06:56:25-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "noexttext": {
         "inserts": 1,
@@ -571,7 +608,8 @@
   {
     "commit": "91edffb8fc88f1aaaefde95cd8fe4f31892700ec",
     "Author": "Fabrice Francois <fabricevladimir@gmail.com>",
-    "Date": "Date:   Wed Sep 29 05:34:42 2021 -0400",
+    "Date": "2021-09-29T02:34:42-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -593,7 +631,8 @@
   {
     "commit": "b85bb499bba546b53bdcf0b7a76ab291603f95c9",
     "Author": "WissenIstNacht <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Fri Sep 3 16:42:43 2021 +0200",
+    "Date": "2021-09-03T07:42:43-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -605,7 +644,8 @@
   {
     "commit": "8b1b77d1f4462b8f2266e9b90e50704639deff70",
     "Author": "v 1 r t l <pilll.PL22@gmail.com>",
-    "Date": "Date:   Sun Jul 11 23:09:34 2021 +0300",
+    "Date": "2021-07-11T13:09:34-07:00",
+    "orig_timezone": "UTC+03:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -617,7 +657,8 @@
   {
     "commit": "763b970d8d9472e282e291d72e3156ce89661170",
     "Author": "Sachin Grover <sacgrover@gmail.com>",
-    "Date": "Date:   Fri Jun 11 16:05:50 2021 +0530",
+    "Date": "2021-06-11T03:35:50-07:00",
+    "orig_timezone": "UTC+05:30",
     "fileTypes": {
       "md": {
         "inserts": 2,
@@ -629,7 +670,8 @@
   {
     "commit": "8aa546449db68f38cdac2f453a165deb9caf6a98",
     "Author": "WissenIstNacht <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Thu May 20 09:37:24 2021 +0200",
+    "Date": "2021-05-20T00:37:24-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -641,7 +683,8 @@
   {
     "commit": "1276eb2d619724db69cbc9e9fa92f6f2c3c86f7d",
     "Author": "WissenIstNacht <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Wed May 19 12:37:06 2021 +0200",
+    "Date": "2021-05-19T03:37:06-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -653,7 +696,8 @@
   {
     "commit": "9d118fdf379b684e57d1a45d6987697a486486ea",
     "Author": "WissenIstNacht <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Wed May 19 12:29:17 2021 +0200",
+    "Date": "2021-05-19T03:29:17-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "lock": {
         "inserts": 7308,
@@ -675,7 +719,8 @@
   {
     "commit": "7087ee397380b1f8cd848ebdb18f91e8adbec3ac",
     "Author": "Cesar Brazon <cesarbrazon10@gmail.com>",
-    "Date": "Date:   Tue May 18 17:45:06 2021 +0200",
+    "Date": "2021-05-18T08:45:06-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -692,7 +737,8 @@
   {
     "commit": "bb04c88cc6c22b2cdd9d8f39356f0db85d576f6e",
     "Author": "WissenIstNacht <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Mon May 17 14:43:04 2021 +0200",
+    "Date": "2021-05-17T05:43:04-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "md": {
         "inserts": 7,
@@ -704,7 +750,8 @@
   {
     "commit": "763644112efcd6b06b29ad1d372b48ada6e61e22",
     "Author": "WissenIstNacht <32465601+WissenIstNacht@users.noreply.github.com>",
-    "Date": "Date:   Mon May 17 14:40:07 2021 +0200",
+    "Date": "2021-05-17T05:40:07-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "lock": {
         "inserts": 14,
@@ -716,7 +763,8 @@
   {
     "commit": "f40b18c554d114e5d70de005787826129e5ab557",
     "Author": "Julian Y <jyap808@users.noreply.github.com>",
-    "Date": "Date:   Sun Dec 27 03:42:10 2020 -1000",
+    "Date": "2020-12-27T06:42:10-07:00",
+    "orig_timezone": "UTC-10:00",
     "fileTypes": {
       "ts": {
         "inserts": 1,
@@ -728,7 +776,8 @@
   {
     "commit": "ae9d89b6aaa11e884c5fbeb6c9f51e6c3e8763ac",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Thu Dec 3 12:19:22 2020 +0000",
+    "Date": "2020-12-03T05:19:22-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -740,7 +789,8 @@
   {
     "commit": "d53b6fb3b46e022a5037595e935c2af775c1483d",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Wed Nov 11 16:42:26 2020 +0000",
+    "Date": "2020-11-11T09:42:26-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "noexttext": {
         "inserts": 1,
@@ -777,7 +827,8 @@
   {
     "commit": "69da02874429c048a68613af07eea558620b57db",
     "Author": "eggswap <71283074+eggswap@users.noreply.github.com>",
-    "Date": "Date:   Fri Oct 9 06:47:53 2020 -0400",
+    "Date": "2020-10-09T03:47:53-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "js": {
         "inserts": 3,
@@ -789,7 +840,8 @@
   {
     "commit": "a6c0ae4e72ad69298e596fdacd67ab9de8140309",
     "Author": "Alexey <grimzest@gmail.com>",
-    "Date": "Date:   Fri Oct 9 13:44:46 2020 +0300",
+    "Date": "2020-10-09T03:44:46-07:00",
+    "orig_timezone": "UTC+03:00",
     "fileTypes": {
       "ts": {
         "inserts": 1,
@@ -801,7 +853,8 @@
   {
     "commit": "6f2cef7a8f0c9ea90c8cff61691febf5f838a8b5",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Mon Aug 3 11:04:24 2020 -0400",
+    "Date": "2020-08-03T08:04:24-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -813,7 +866,8 @@
   {
     "commit": "68f1f7a996ee5073daebe4c893f014ad57ccaac5",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Fri Jul 31 09:13:00 2020 -0400",
+    "Date": "2020-07-31T06:13:00-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 4,
@@ -825,7 +879,8 @@
   {
     "commit": "403b2e7bfab01ce15d8a378eadd29c92bb954e0f",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Tue Jul 28 17:44:16 2020 -0400",
+    "Date": "2020-07-28T14:44:16-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -837,7 +892,8 @@
   {
     "commit": "13e27cdc69f6143f77686d5645b68f0d643a3091",
     "Author": "Enrique Ortiz <hi@enriqueortiz.dev>",
-    "Date": "Date:   Tue Jul 28 17:32:43 2020 -0400",
+    "Date": "2020-07-28T14:32:43-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -849,7 +905,8 @@
   {
     "commit": "da71413f069fe193d0587ad9e37ceae2aba6a07e",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Sat Jul 25 13:58:58 2020 -0400",
+    "Date": "2020-07-25T10:58:58-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "json": {
         "inserts": 2,
@@ -866,7 +923,8 @@
   {
     "commit": "661d34e4d51d09a373c4a0670c063e91686d53c1",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Fri Jul 24 19:45:44 2020 -0400",
+    "Date": "2020-07-24T16:45:44-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 12,
@@ -898,7 +956,8 @@
   {
     "commit": "8e2f0ed4567600de92415d6fa7c6cf425480b77c",
     "Author": "Enrique Ortiz <hi@enriqueortiz.dev>",
-    "Date": "Date:   Sat Jul 4 18:34:53 2020 -0400",
+    "Date": "2020-07-04T15:34:53-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -910,7 +969,8 @@
   {
     "commit": "0b0c375a88f2a1969c64fd36a926016a27e607f1",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Sat Jul 4 18:23:02 2020 -0400",
+    "Date": "2020-07-04T15:23:02-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -927,7 +987,8 @@
   {
     "commit": "53e32dcf451794df96a12ecc97f0d8d158571bb9",
     "Author": "Enrique Ortiz <hi@enriqueortiz.dev>",
-    "Date": "Date:   Fri Jul 3 19:52:28 2020 -0400",
+    "Date": "2020-07-03T16:52:28-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "json": {
         "inserts": 3,
@@ -939,7 +1000,8 @@
   {
     "commit": "bf72d8388bac282c602f1d0e73461382aa4357d3",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Fri Jul 3 19:37:19 2020 -0400",
+    "Date": "2020-07-03T16:37:19-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -951,7 +1013,8 @@
   {
     "commit": "4b6cfc8a524844a0fa6d9d6c9398d04c5f82ca84",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Fri Jul 3 18:50:22 2020 -0400",
+    "Date": "2020-07-03T15:50:22-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -973,7 +1036,8 @@
   {
     "commit": "bf71736d728ce1c03737577256a8c5280fe3f630",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Mon Jun 29 18:27:24 2020 +0100",
+    "Date": "2020-06-29T10:27:24-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -985,7 +1049,8 @@
   {
     "commit": "2c4f75b1ad3046d8e45979191c931585fa16e9aa",
     "Author": "Brett Sun <qisheng.brett.sun@gmail.com>",
-    "Date": "Date:   Sun Apr 19 00:58:51 2020 +0200",
+    "Date": "2020-04-18T15:58:51-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "md": {
         "inserts": 6,
@@ -997,7 +1062,8 @@
   {
     "commit": "8c6aa16d6172a5665798cb3217c3cf0531541c8f",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Sat Mar 28 10:57:53 2020 +0000",
+    "Date": "2020-03-28T03:57:53-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1014,7 +1080,8 @@
   {
     "commit": "e64d0d91b656e57420fd633e346ffbaaab72a1f0",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Sat Mar 28 10:42:56 2020 +0000",
+    "Date": "2020-03-28T03:42:56-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 0,
@@ -1051,7 +1118,8 @@
   {
     "commit": "e61da8b1038557753862312109395e3c5352baf7",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Thu Mar 19 11:55:51 2020 -0400",
+    "Date": "2020-03-19T08:55:51-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "noexttext": {
         "inserts": 21,
@@ -1068,7 +1136,8 @@
   {
     "commit": "da7f7b9433a42608f52ab545819b1034122022cf",
     "Author": "Enrique Ortiz <enrique@aragon.one>",
-    "Date": "Date:   Wed Mar 4 07:55:01 2020 -0400",
+    "Date": "2020-03-04T04:55:01-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "yml": {
         "inserts": 19,
@@ -1080,7 +1149,8 @@
   {
     "commit": "2370a8750c082eca3218c4d9ad7e88e5f7389cb8",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Feb 25 12:13:41 2020 +0000",
+    "Date": "2020-02-25T05:13:41-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1092,7 +1162,8 @@
   {
     "commit": "da5ea8d955d895fe63013a2d7815f79854ac1626",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Feb 25 12:12:38 2020 +0000",
+    "Date": "2020-02-25T05:12:38-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "js": {
         "inserts": 1,
@@ -1104,7 +1175,8 @@
   {
     "commit": "e6b59dc2818c0e2983acb3faeb765d0a5bd14b81",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Mon Feb 24 23:43:00 2020 +0000",
+    "Date": "2020-02-24T16:43:00-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1116,7 +1188,8 @@
   {
     "commit": "208c75cdb2acad39c37b93229a5b4cfa5f426958",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Mon Feb 24 23:41:18 2020 +0000",
+    "Date": "2020-02-24T16:41:18-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 10,
@@ -1133,7 +1206,8 @@
   {
     "commit": "5eab5bde3a3517be5d0d78966328d5c86355b199",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Mon Feb 17 23:13:30 2020 +0000",
+    "Date": "2020-02-17T16:13:30-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1145,7 +1219,8 @@
   {
     "commit": "aa7fa2f1160b397141d3e361abf26b3e29fc30e7",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Mon Feb 17 23:12:56 2020 +0000",
+    "Date": "2020-02-17T16:12:56-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "noexttext": {
         "inserts": 12,
@@ -1177,7 +1252,8 @@
   {
     "commit": "9f04fdb6730dd3470ac8d97353810af3052f85a7",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Mon Feb 10 11:50:07 2020 +0000",
+    "Date": "2020-02-10T04:50:07-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 4,
@@ -1189,7 +1265,8 @@
   {
     "commit": "ecd3681778f5aab3fc68143d83159fe6bfc815b8",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Mon Feb 10 11:49:16 2020 +0000",
+    "Date": "2020-02-10T04:49:16-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 3,
@@ -1201,7 +1278,8 @@
   {
     "commit": "2215b6202fdd2bcf35e9e34f9796c8ca18401c68",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Sun Feb 9 22:09:00 2020 +0000",
+    "Date": "2020-02-09T15:09:00-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1213,7 +1291,8 @@
   {
     "commit": "af7ad310281ef8703097c7ef90579e28dba38191",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Sun Feb 9 15:32:25 2020 +0000",
+    "Date": "2020-02-09T08:32:25-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1225,7 +1304,8 @@
   {
     "commit": "ff121036ff50e2aa261f24adcf8ca1c116134dc5",
     "Author": "Brett Sun <qisheng.brett.sun@gmail.com>",
-    "Date": "Date:   Sun Feb 9 15:22:26 2020 +0100",
+    "Date": "2020-02-09T07:22:26-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "md": {
         "inserts": 7,
@@ -1237,7 +1317,8 @@
   {
     "commit": "11e8bc03228f6602fe8647bdabb56549416aa237",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Sun Feb 9 14:17:49 2020 +0000",
+    "Date": "2020-02-09T07:17:49-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -1254,7 +1335,8 @@
   {
     "commit": "7ae297c324aa25bb7f62f4d22a91c9803e6d4fa8",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Fri Jan 24 20:07:14 2020 +0000",
+    "Date": "2020-01-24T13:07:14-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1266,7 +1348,8 @@
   {
     "commit": "a64a8786da55b63ae955c50f6a33239764422adb",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Fri Jan 24 20:06:11 2020 +0000",
+    "Date": "2020-01-24T13:06:11-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 0,
@@ -1278,7 +1361,8 @@
   {
     "commit": "3acbcc60048bbf7ae8e46db9d47ed60f7caa0e36",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Fri Jan 24 19:40:01 2020 +0000",
+    "Date": "2020-01-24T12:40:01-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1290,7 +1374,8 @@
   {
     "commit": "f76732efeb033b7ab4ba1dfb4f5ef3e9050d1f9a",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Fri Jan 24 19:38:49 2020 +0000",
+    "Date": "2020-01-24T12:38:49-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 20,
@@ -1307,7 +1392,8 @@
   {
     "commit": "0ff15ad99d743a0e97ef7adf8dbfc9861e24cebf",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 15:33:09 2020 +0000",
+    "Date": "2020-01-21T08:33:09-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1319,7 +1405,8 @@
   {
     "commit": "3af57b569d5896c582cc196ac8dc101390f5bfae",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 15:30:55 2020 +0000",
+    "Date": "2020-01-21T08:30:55-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 3,
@@ -1341,7 +1428,8 @@
   {
     "commit": "db873481a288694b49d387099f874c553e4fbd0e",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 15:06:31 2020 +0000",
+    "Date": "2020-01-21T08:06:31-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1353,7 +1441,8 @@
   {
     "commit": "9ade63ce43f2cfce45f764307040c6677606ec52",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 15:05:37 2020 +0000",
+    "Date": "2020-01-21T08:05:37-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 6,
@@ -1365,7 +1454,8 @@
   {
     "commit": "edc7160efddf3e6b99570b396ef0672839ae50a4",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 14:42:11 2020 +0000",
+    "Date": "2020-01-21T07:42:11-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1377,7 +1467,8 @@
   {
     "commit": "62f8de93fea1a6f79da20538e6cf431e809c33ac",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 14:41:59 2020 +0000",
+    "Date": "2020-01-21T07:41:59-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1389,7 +1480,8 @@
   {
     "commit": "e2c9627275a5c18d1795abe3c32efde68de4c793",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 13:40:18 2020 +0000",
+    "Date": "2020-01-21T06:40:18-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 3,
@@ -1401,7 +1493,8 @@
   {
     "commit": "8628c0d6b2a6cd153316cd2bf1debb84738b1f2b",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 13:28:35 2020 +0000",
+    "Date": "2020-01-21T06:28:35-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 8,
@@ -1413,7 +1506,8 @@
   {
     "commit": "b24ed5ca5e77c5123dd45cdff4760a50867b5449",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 13:21:27 2020 +0000",
+    "Date": "2020-01-21T06:21:27-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 1,
@@ -1425,7 +1519,8 @@
   {
     "commit": "bbe1d31e7f8840decfe6e5e517668351b1d62a61",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 13:19:15 2020 +0000",
+    "Date": "2020-01-21T06:19:15-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 4,
@@ -1437,7 +1532,8 @@
   {
     "commit": "dc126dbe925ee938d2e7b8d55477de9da89c3941",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 13:16:28 2020 +0000",
+    "Date": "2020-01-21T06:16:28-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 8,
@@ -1449,7 +1545,8 @@
   {
     "commit": "93d14adcaf78c8b1422d6f1bfc6837d991b24525",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 13:10:42 2020 +0000",
+    "Date": "2020-01-21T06:10:42-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "noexttext": {
         "inserts": 0,
@@ -1481,7 +1578,8 @@
   {
     "commit": "3bbbb8fd573133ee8cbc6e46dd25fdc8f8a4687b",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 13:10:27 2020 +0000",
+    "Date": "2020-01-21T06:10:27-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "json": {
         "inserts": 10,
@@ -1503,7 +1601,8 @@
   {
     "commit": "0a710ed583bc7f0c3f10f979dacb77e45f4be9ad",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 13:10:17 2020 +0000",
+    "Date": "2020-01-21T06:10:17-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 2,
@@ -1520,7 +1619,8 @@
   {
     "commit": "3b0de42832fac53daf9e15e80c709563b8523e6b",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 13:10:04 2020 +0000",
+    "Date": "2020-01-21T06:10:04-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "js": {
         "inserts": 4,
@@ -1532,7 +1632,8 @@
   {
     "commit": "69a6d6a86577d35bd908738ff8aa092d8e53ad1a",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 04:41:27 2020 +0000",
+    "Date": "2020-01-20T21:41:27-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 9,
@@ -1544,7 +1645,8 @@
   {
     "commit": "70c5379f7afc1504fd564325417d8fb0ffd542ef",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 04:38:21 2020 +0000",
+    "Date": "2020-01-20T21:38:21-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -1556,7 +1658,8 @@
   {
     "commit": "5bd17c0fc8169b16be7029edb004024d9575e23a",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 04:33:25 2020 +0000",
+    "Date": "2020-01-20T21:33:25-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 4,
@@ -1568,7 +1671,8 @@
   {
     "commit": "96c3155c1b6a72ef9fa197fa4737d4e491aafbfe",
     "Author": "Pierre Bertet <hello@pierre.world>",
-    "Date": "Date:   Tue Jan 21 04:14:14 2020 +0000",
+    "Date": "2020-01-20T21:14:14-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "md": {
         "inserts": 1,

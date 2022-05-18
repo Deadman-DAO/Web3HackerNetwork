@@ -2,7 +2,8 @@
   {
     "commit": "337f9e7b8fd05a4fbb646a1e6599fe30acca47cb",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Thu Nov 25 16:37:31 2021 -0500",
+    "Date": "2021-11-25T14:37:31-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -14,7 +15,8 @@
   {
     "commit": "da2ad912e8329f00a4fffe5dc670ab0f4b48f4bd",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Thu Nov 25 16:17:54 2021 -0500",
+    "Date": "2021-11-25T14:17:54-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -26,7 +28,8 @@
   {
     "commit": "cc93c03ae37a69296707fdb3fc16524b98c1ba9d",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Mon May 31 12:13:02 2021 -0400",
+    "Date": "2021-05-31T09:13:02-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 12,
@@ -38,7 +41,8 @@
   {
     "commit": "b99b04d34e743dcadd0d951a674b323100bafd9a",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Tue Mar 30 15:36:40 2021 -0400",
+    "Date": "2021-03-30T12:36:40-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -50,7 +54,8 @@
   {
     "commit": "25df777a2b4ba6cd92a07189f5624a386bb4fa0e",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Tue Feb 23 15:35:55 2021 -0500",
+    "Date": "2021-02-23T13:35:55-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -62,7 +67,8 @@
   {
     "commit": "d672668b8acd8dc2ae94f4433c5df4fbce876f97",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Tue Feb 23 15:32:14 2021 -0500",
+    "Date": "2021-02-23T13:32:14-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 6,
@@ -74,7 +80,8 @@
   {
     "commit": "62f1554ef0e998956de2198a93cb8da8914e57ae",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Mon Nov 2 17:14:51 2020 -0500",
+    "Date": "2020-11-02T15:14:51-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "yml": {
         "inserts": 20,
@@ -91,7 +98,8 @@
   {
     "commit": "98b4453e079eba5cd0b1ff74a67b65374b60280e",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Mon Nov 2 15:33:59 2020 -0500",
+    "Date": "2020-11-02T13:33:59-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -103,7 +111,8 @@
   {
     "commit": "f7900636c66760f1fea577e533f00580ef8859e5",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Tue Oct 13 15:51:27 2020 -0400",
+    "Date": "2020-10-13T12:51:27-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -115,7 +124,8 @@
   {
     "commit": "b24372918e8b9336fdd167f4ed64924a2e93f8ea",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Tue Oct 13 15:49:09 2020 -0400",
+    "Date": "2020-10-13T12:49:09-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -127,7 +137,8 @@
   {
     "commit": "eade7e683c7fdf7610b77e7c1d15bebfd64f1164",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Mon Jun 8 10:32:02 2020 -0700",
+    "Date": "2020-06-08T10:32:02-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 7,
@@ -139,7 +150,8 @@
   {
     "commit": "c3fc4fc4e028c265c7e269d7b9837d29c59fadce",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Mon Jun 8 10:25:12 2020 -0700",
+    "Date": "2020-06-08T10:25:12-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -151,7 +163,8 @@
   {
     "commit": "d0e84a4083c4b420aa5e5f32b19653ec3da8a8f3",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Mon Jun 8 10:24:42 2020 -0700",
+    "Date": "2020-06-08T10:24:42-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -163,7 +176,8 @@
   {
     "commit": "508bce45eae3e29947aa3e0e0512d2f01ccba388",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Mon Jun 8 10:19:57 2020 -0700",
+    "Date": "2020-06-08T10:19:57-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -175,7 +189,8 @@
   {
     "commit": "bda6e41cb85590c002a55329cff93c4f5368c233",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Mon Jun 8 10:18:59 2020 -0700",
+    "Date": "2020-06-08T10:18:59-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -187,7 +202,8 @@
   {
     "commit": "7d41e858425d9083d025aca8fb2416aa0fa6e493",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Mon Jun 8 10:15:31 2020 -0700",
+    "Date": "2020-06-08T10:15:31-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -199,7 +215,8 @@
   {
     "commit": "16c49c0ddeee8bba891b89e0802c92f1d4dcd680",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Fri Jun 5 11:33:35 2020 -0700",
+    "Date": "2020-06-05T11:33:35-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 14,
@@ -211,7 +228,8 @@
   {
     "commit": "c3e48afd44a8c9df0fbc5f6438456718226b3790",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Fri Jun 5 10:50:37 2020 -0700",
+    "Date": "2020-06-05T10:50:37-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 5,
@@ -223,7 +241,8 @@
   {
     "commit": "115b9866466912fef85687d56b15f3d28e69e64c",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Thu Jun 4 16:59:06 2020 -0700",
+    "Date": "2020-06-04T16:59:06-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -235,7 +254,8 @@
   {
     "commit": "6f1ac26207d597a74f20b94750ecf08a12d0fd2e",
     "Author": "Matthieu Riou <matthieu.riou@gmail.com>",
-    "Date": "Date:   Wed Jun 3 11:28:29 2020 -0700",
+    "Date": "2020-06-03T11:28:29-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 80,
@@ -247,7 +267,8 @@
   {
     "commit": "adc8ed289f1ed8331248225459e37e7c95d7b018",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Wed Jun 3 14:26:44 2020 -0400",
+    "Date": "2020-06-03T11:26:44-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -259,7 +280,8 @@
   {
     "commit": "3720efbe445cd3b1f988fd972e7b4f2631dcbcbe",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Thu Apr 30 10:55:55 2020 -0400",
+    "Date": "2020-04-30T07:55:55-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -271,7 +293,8 @@
   {
     "commit": "0270432d513373112f2b7b24ead33b0d077c91cf",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Thu Apr 30 10:54:52 2020 -0400",
+    "Date": "2020-04-30T07:54:52-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 32,
@@ -283,7 +306,8 @@
   {
     "commit": "9d1e2d139bf586a2ab6b268cbd8ce1fc3c381d16",
     "Author": "d42 <d42@users.noreply.github.com>",
-    "Date": "Date:   Tue Feb 4 17:56:47 2020 +0000",
+    "Date": "2020-02-04T10:56:47-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "py": {
         "inserts": 30,
@@ -295,7 +319,8 @@
   {
     "commit": "2c0fdbf6997c229bbe00d95deab359ca1be11f9b",
     "Author": "d42 <d42@users.noreply.github.com>",
-    "Date": "Date:   Mon Feb 3 14:13:11 2020 +0000",
+    "Date": "2020-02-03T07:13:11-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "py": {
         "inserts": 55,
@@ -307,7 +332,8 @@
   {
     "commit": "1740771556957d9431f14e9f714816afd894357a",
     "Author": "d42 <d42@users.noreply.github.com>",
-    "Date": "Date:   Thu Jan 9 18:13:02 2020 +0000",
+    "Date": "2020-01-09T11:13:02-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -319,7 +345,8 @@
   {
     "commit": "e7662af5ec7c8be3688edcf1960a73358ca22af9",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Thu Jan 9 12:22:12 2020 -0500",
+    "Date": "2020-01-09T10:22:12-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -331,7 +358,8 @@
   {
     "commit": "8ceaaab162be88ecfa6ed485ea8ce9486d995223",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Thu Jan 9 12:11:46 2020 -0500",
+    "Date": "2020-01-09T10:11:46-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 10,
@@ -343,7 +371,8 @@
   {
     "commit": "9216517c786d529a7c6351c7bb8602d0ad7fcdd4",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Thu Jan 9 11:35:00 2020 -0500",
+    "Date": "2020-01-09T09:35:00-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "yml": {
         "inserts": 2,
@@ -355,7 +384,8 @@
   {
     "commit": "2840c93275c8d3392956296836c33f52266eaa46",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Thu Jan 9 11:25:59 2020 -0500",
+    "Date": "2020-01-09T09:25:59-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "yml": {
         "inserts": 7,
@@ -367,7 +397,8 @@
   {
     "commit": "38f0ea5cc44e47414e5da9165cef97453060ebd8",
     "Author": "l0rb <lorbritzer@yahoo.de>",
-    "Date": "Date:   Thu Jan 9 17:08:57 2020 +0100",
+    "Date": "2020-01-09T09:08:57-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -379,7 +410,8 @@
   {
     "commit": "dacdba66578dc9240e737bc80de811f808d91143",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Wed Jan 8 17:08:53 2020 -0500",
+    "Date": "2020-01-08T15:08:53-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "yml": {
         "inserts": 25,
@@ -396,7 +428,8 @@
   {
     "commit": "c83f8860c4bae86187d4c68af6d0bc0072c1a12b",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Tue Jan 7 18:51:27 2020 -0500",
+    "Date": "2020-01-07T16:51:27-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -408,7 +441,8 @@
   {
     "commit": "4e906391667f5d9569059cf107532b39f5624284",
     "Author": "Quentin Le Sceller <q.lesceller@gmail.com>",
-    "Date": "Date:   Tue Jan 7 12:34:41 2020 -0500",
+    "Date": "2020-01-07T10:34:41-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -420,7 +454,8 @@
   {
     "commit": "629d5063b2cb7220ab2c5fc759ded11a940695e7",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Thu Oct 31 14:04:23 2019 -0700",
+    "Date": "2019-10-31T14:04:23-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -432,7 +467,8 @@
   {
     "commit": "cb9e0716fbf6d420ce9230110670d1d4f19bfb1a",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Thu Oct 31 14:03:32 2019 -0700",
+    "Date": "2019-10-31T14:03:32-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -444,7 +480,8 @@
   {
     "commit": "c8de8cdd06be51d2a09891f08b6d75f9a2def8db",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Sun Oct 27 12:05:26 2019 -0700",
+    "Date": "2019-10-27T12:05:26-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -456,7 +493,8 @@
   {
     "commit": "7a829bf95f56d54101d8e8d323b2f4d13dceb612",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Sun Oct 27 12:01:24 2019 -0700",
+    "Date": "2019-10-27T12:01:24-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 5,
@@ -468,7 +506,8 @@
   {
     "commit": "b37d6d35de00650795c9ad6da6b80e9becdf082d",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Sat Oct 26 13:54:59 2019 -0700",
+    "Date": "2019-10-26T13:54:59-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -480,7 +519,8 @@
   {
     "commit": "63904ad6467c1c06d8bc222d80f1665e6be456e2",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Sat Oct 26 13:51:18 2019 -0700",
+    "Date": "2019-10-26T13:51:18-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 12,
@@ -492,7 +532,8 @@
   {
     "commit": "a595fe0dbe19329db58850d64e8227f1fca36cb8",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Tue Aug 27 11:08:03 2019 -0700",
+    "Date": "2019-08-27T11:08:03-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -504,7 +545,8 @@
   {
     "commit": "df00a33e263c608edca1c07a2061ad11f0521f51",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Mon Aug 12 12:33:16 2019 -0700",
+    "Date": "2019-08-12T12:33:16-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -516,7 +558,8 @@
   {
     "commit": "967548f239a129ea44e00454267aec4ad0145cf5",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Sun Dec 17 16:34:40 2017 -0800",
+    "Date": "2017-12-17T17:34:40-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -528,7 +571,8 @@
   {
     "commit": "3c36f1e003b21c120d403b7ec93d731add1a8ee8",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Sun Dec 17 16:31:57 2017 -0800",
+    "Date": "2017-12-17T17:31:57-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -540,7 +584,8 @@
   {
     "commit": "5b62a63dcbb453136d4e6d184e6881acdbee7107",
     "Author": "l0rb <lorbritzer@yahoo.de>",
-    "Date": "Date:   Wed Dec 13 18:04:15 2017 +0100",
+    "Date": "2017-12-13T10:04:15-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -552,7 +597,8 @@
   {
     "commit": "99438212f7dffa1a1acd03ab515406c6728336c3",
     "Author": "l0rb <lorbritzer@yahoo.de>",
-    "Date": "Date:   Wed Dec 13 18:00:10 2017 +0100",
+    "Date": "2017-12-13T10:00:10-07:00",
+    "orig_timezone": "UTC+01:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -564,7 +610,8 @@
   {
     "commit": "f92d314ee19cc7307de03d26ffe5e0b14872e906",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Wed Dec 13 00:42:39 2017 -0800",
+    "Date": "2017-12-13T01:42:39-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -576,7 +623,8 @@
   {
     "commit": "89af2fe1954da59bb4122231e072b5891c0b0ada",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Wed Dec 13 00:35:24 2017 -0800",
+    "Date": "2017-12-13T01:35:24-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -588,7 +636,8 @@
   {
     "commit": "3364e87a4bbbdc551da6ee1c6d33747cb4f3deab",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Wed Dec 13 00:14:53 2017 -0800",
+    "Date": "2017-12-13T01:14:53-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -600,7 +649,8 @@
   {
     "commit": "02df289828a46c5d1f5715e83f8ed3091cf16262",
     "Author": "Matthieu Riou <matthieu@blockcypher.com>",
-    "Date": "Date:   Tue Dec 12 23:54:25 2017 -0800",
+    "Date": "2017-12-13T00:54:25-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -612,7 +662,8 @@
   {
     "commit": "ed7392faaf1fc45ac184d5392049866ec9db53a1",
     "Author": "Alex Werner <alex@werner.fr>",
-    "Date": "Date:   Thu Apr 6 03:11:02 2017 +0200",
+    "Date": "2017-04-05T18:11:02-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "md": {
         "inserts": 2,
@@ -629,7 +680,8 @@
   {
     "commit": "f787d7c34f6166ce44845916feacd4ee456afaa7",
     "Author": "Josh Cincinnati <acityinohio@users.noreply.github.com>",
-    "Date": "Date:   Wed Aug 31 23:48:41 2016 +0000",
+    "Date": "2016-08-31T16:48:41-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "py": {
         "inserts": 35,
@@ -641,7 +693,8 @@
   {
     "commit": "69b86e4b6828f27c3e976b2fd33a1404fd97eea3",
     "Author": "Josh Cincinnati <acityinohio@users.noreply.github.com>",
-    "Date": "Date:   Tue Aug 30 23:54:01 2016 +0000",
+    "Date": "2016-08-30T16:54:01-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "py": {
         "inserts": 17,
@@ -653,7 +706,8 @@
   {
     "commit": "01b81fededf9f26fb9375fd7cb9eac20a868aa30",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jun 26 23:55:17 2016 -0400",
+    "Date": "2016-06-26T20:55:17-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -665,7 +719,8 @@
   {
     "commit": "325a34d6ab5aa0f9b31c085aedf0e9bef3975463",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jun 26 23:33:58 2016 -0400",
+    "Date": "2016-06-26T20:33:58-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -677,7 +732,8 @@
   {
     "commit": "c9173c11c65abb6734f98c22cc7e8b34bb9ccb34",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Mar 16 20:15:41 2016 -0400",
+    "Date": "2016-03-16T17:15:41-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 5,
@@ -689,7 +745,8 @@
   {
     "commit": "eaacf63c1a02597cf20bbb4352c1544b60433d34",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Mar 14 13:42:38 2016 -0400",
+    "Date": "2016-03-14T10:42:38-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -701,7 +758,8 @@
   {
     "commit": "a0b2aff2cb070dbf19a0abcd6b04b6da5a69e87f",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Mar 14 13:31:35 2016 -0400",
+    "Date": "2016-03-14T10:31:35-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -713,7 +771,8 @@
   {
     "commit": "ab94c1f0d71cde05561aa5c5f892eda8d8b98347",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Mar 14 13:29:59 2016 -0400",
+    "Date": "2016-03-14T10:29:59-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 24,
@@ -725,7 +784,8 @@
   {
     "commit": "aa97eaf35286a6a5edf4c77c0ce1d89a1eb569df",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Feb 26 16:06:32 2016 -0800",
+    "Date": "2016-02-26T17:06:32-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -737,7 +797,8 @@
   {
     "commit": "78e32ad8983e2633e1fde8915143bc820e0494e6",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Feb 26 15:20:40 2016 -0800",
+    "Date": "2016-02-26T16:20:40-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 14,
@@ -749,7 +810,8 @@
   {
     "commit": "f238ff9fb800efde4858c902da424ff50886499a",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Feb 15 19:32:57 2016 -0500",
+    "Date": "2016-02-15T17:32:57-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 12,
@@ -761,7 +823,8 @@
   {
     "commit": "2f0c63012b35ecc2b0fc8447de1d526c16242023",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Feb 8 18:52:11 2016 -0500",
+    "Date": "2016-02-08T16:52:11-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -773,7 +836,8 @@
   {
     "commit": "c0a8573dfb6348fea6592df5ee41b30baeb2fc5f",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Feb 8 18:51:01 2016 -0500",
+    "Date": "2016-02-08T16:51:01-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 10,
@@ -785,7 +849,8 @@
   {
     "commit": "245051ccaf0605dd6e829df811cb4435d7f1aef2",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Feb 8 18:46:17 2016 -0500",
+    "Date": "2016-02-08T16:46:17-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 74,
@@ -797,7 +862,8 @@
   {
     "commit": "e2364c4db348a20ced49514f8cd8dbf97d323b51",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Feb 8 18:12:40 2016 -0500",
+    "Date": "2016-02-08T16:12:40-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -809,7 +875,8 @@
   {
     "commit": "bf185a1c0fddeafe691d507b0f3f5c83595860f3",
     "Author": "Muneeb Ali <muneeb@ali.vc>",
-    "Date": "Date:   Mon Feb 8 17:45:26 2016 -0500",
+    "Date": "2016-02-08T15:45:26-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -821,7 +888,8 @@
   {
     "commit": "748141d66993164901a4ac25d57faaff91362163",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Feb 5 10:21:47 2016 -0500",
+    "Date": "2016-02-05T08:21:47-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -833,7 +901,8 @@
   {
     "commit": "864f2093147583a1ba4ad4f702bb8b82f4c38686",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Feb 2 17:43:52 2016 -0500",
+    "Date": "2016-02-02T15:43:52-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 80,
@@ -845,7 +914,8 @@
   {
     "commit": "bd62047e1b351fb4989169ec3a14740d9e2af6f6",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Feb 2 16:52:40 2016 -0500",
+    "Date": "2016-02-02T14:52:40-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -857,7 +927,8 @@
   {
     "commit": "e3d9c97909953c4f958f6c15086e16befc7c9aa3",
     "Author": "Josh Cincinnati <acityinohio@users.noreply.github.com>",
-    "Date": "Date:   Mon Feb 1 20:52:07 2016 +0000",
+    "Date": "2016-02-01T13:52:07-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "py": {
         "inserts": 29,
@@ -869,7 +940,8 @@
   {
     "commit": "e72a04b1aa778bb215946787d0bc74cc7ad92598",
     "Author": "Muneeb Ali <muneeb@ali.vc>",
-    "Date": "Date:   Mon Jan 25 22:40:33 2016 -0500",
+    "Date": "2016-01-25T20:40:33-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -881,7 +953,8 @@
   {
     "commit": "8a331004f4202410ad703578a8c747607e963cef",
     "Author": "Muneeb Ali <muneeb@ali.vc>",
-    "Date": "Date:   Mon Jan 25 14:48:01 2016 -0500",
+    "Date": "2016-01-25T12:48:01-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -893,7 +966,8 @@
   {
     "commit": "641e0f8e50bb0008bdaa887f52fe123f8872bd05",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Jan 22 17:04:09 2016 -0500",
+    "Date": "2016-01-22T15:04:09-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -905,7 +979,8 @@
   {
     "commit": "8562a8f944490888a5305a9a05aaf8ca8e3309f8",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Jan 22 17:03:57 2016 -0500",
+    "Date": "2016-01-22T15:03:57-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -917,7 +992,8 @@
   {
     "commit": "70b71d73d6f2b6f75a5cb8b189775d148e1e6aaa",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Jan 20 15:36:38 2016 -0500",
+    "Date": "2016-01-20T13:36:38-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "md": {
         "inserts": 3,
@@ -929,7 +1005,8 @@
   {
     "commit": "17f2f9e920f4d7834914b95c7e3e52092f69e8cf",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Jan 20 15:15:39 2016 -0500",
+    "Date": "2016-01-20T13:15:39-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -941,7 +1018,8 @@
   {
     "commit": "a7fb59907962689b780a9209afa067db208e0c06",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Jan 19 21:50:27 2016 -0500",
+    "Date": "2016-01-19T19:50:27-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 26,
@@ -953,7 +1031,8 @@
   {
     "commit": "6dce9ebc53c61f890d335454b6ced29573cc8ff0",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Jan 19 01:43:56 2016 -0500",
+    "Date": "2016-01-18T23:43:56-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 54,
@@ -965,7 +1044,8 @@
   {
     "commit": "1c36f372310e24716f80f40ff3d0064b659bc122",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Jan 19 01:13:07 2016 -0500",
+    "Date": "2016-01-18T23:13:07-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 85,
@@ -977,7 +1057,8 @@
   {
     "commit": "6026bc903fd9b6041d5adcf9c22a97d30d6f4f07",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Jan 18 16:33:03 2016 -0500",
+    "Date": "2016-01-18T14:33:03-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "md": {
         "inserts": 4,
@@ -994,7 +1075,8 @@
   {
     "commit": "9ec40f63dac874241923222d79578fefaad4def9",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Jan 16 13:35:17 2016 -0500",
+    "Date": "2016-01-16T11:35:17-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 8,
@@ -1006,7 +1088,8 @@
   {
     "commit": "d697cd2af719ea06aef42cddb0a6f9f546fe192b",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Jan 15 09:56:44 2016 -0500",
+    "Date": "2016-01-15T07:56:44-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1018,7 +1101,8 @@
   {
     "commit": "60f3f8f9031117a5809103f44f1a497c0e081a1f",
     "Author": "Matt Luongo <mhluongo@gmail.com>",
-    "Date": "Date:   Fri Jan 15 02:20:43 2016 -0500",
+    "Date": "2016-01-15T00:20:43-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -1030,7 +1114,8 @@
   {
     "commit": "ede878c852c32836620cd0eb84570e387e00a5cb",
     "Author": "Matt Luongo <mhluongo@gmail.com>",
-    "Date": "Date:   Fri Jan 15 01:56:14 2016 -0500",
+    "Date": "2016-01-14T23:56:14-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "noexttext": {
         "inserts": 11,
@@ -1042,7 +1127,8 @@
   {
     "commit": "c84e896c9971a0c11f39f5235839f84621303393",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jan 14 12:40:01 2016 -0500",
+    "Date": "2016-01-14T10:40:01-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 67,
@@ -1054,7 +1140,8 @@
   {
     "commit": "4698d70d68847650a4d5e5ba66a6560474a143a1",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Jan 5 11:05:36 2016 -0500",
+    "Date": "2016-01-05T09:05:36-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1066,7 +1153,8 @@
   {
     "commit": "05b46bd1f7a8b1cf0b6c0f3a8ace7420a9039bc8",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Dec 24 13:59:16 2015 -0500",
+    "Date": "2015-12-24T11:59:16-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1078,7 +1166,8 @@
   {
     "commit": "ff32ef0a7d8b001ac2f6f879aaf85b4f1343d31a",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Dec 24 13:57:34 2015 -0500",
+    "Date": "2015-12-24T11:57:34-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1988,
@@ -1090,7 +1179,8 @@
   {
     "commit": "919baaa24884e445587e6397b1f0cc31662ce224",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Dec 24 13:56:35 2015 -0500",
+    "Date": "2015-12-24T11:56:35-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1102,7 +1192,8 @@
   {
     "commit": "c071018049cbcf02ee7faee51aba7efe9db00d7d",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Dec 24 13:26:49 2015 -0500",
+    "Date": "2015-12-24T11:26:49-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1114,7 +1205,8 @@
   {
     "commit": "864a5e7d596becf7caef8999397d9f072f961b66",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Dec 24 13:24:23 2015 -0500",
+    "Date": "2015-12-24T11:24:23-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 99,
@@ -1126,7 +1218,8 @@
   {
     "commit": "ff8152999d15bc47879b8a055a23b0c04aa2a169",
     "Author": "Rodrigo Souza <pinhopro@users.noreply.github.com>",
-    "Date": "Date:   Tue Dec 15 13:39:51 2015 -0500",
+    "Date": "2015-12-15T11:39:51-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 7,
@@ -1138,7 +1231,8 @@
   {
     "commit": "2e2676362a2834c8d98f909402c155d43537ad4a",
     "Author": "Rodrigo Souza <pinhopro@users.noreply.github.com>",
-    "Date": "Date:   Tue Dec 15 10:09:08 2015 -0500",
+    "Date": "2015-12-15T08:09:08-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1150,7 +1244,8 @@
   {
     "commit": "c30a81b69283f2aafd1a283a7d86f5787b2cf6d9",
     "Author": "lukewarm <lukewarm@users.noreply.github.com>",
-    "Date": "Date:   Sun Dec 13 13:00:21 2015 -0500",
+    "Date": "2015-12-13T11:00:21-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1162,7 +1257,8 @@
   {
     "commit": "7e42ad7ccee67c5bd5bd26333cc8a577312c6106",
     "Author": "lukewarm <lukewarm@users.noreply.github.com>",
-    "Date": "Date:   Sat Dec 12 17:53:22 2015 -0500",
+    "Date": "2015-12-12T15:53:22-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 6,
@@ -1174,7 +1270,8 @@
   {
     "commit": "82372a0b5ec459c2fb767f9c4ffbc5d5771782fa",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Dec 2 10:17:30 2015 -0500",
+    "Date": "2015-12-02T08:17:30-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 221,
@@ -1186,7 +1283,8 @@
   {
     "commit": "54b6a0a71047df0314db833740f07b07fd47d217",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Nov 10 14:48:32 2015 -0500",
+    "Date": "2015-11-10T12:48:32-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1198,7 +1296,8 @@
   {
     "commit": "39252dea98322a12d87e7185ffe03c4969c924cd",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Nov 1 23:43:56 2015 -0500",
+    "Date": "2015-11-01T21:43:56-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1210,7 +1309,8 @@
   {
     "commit": "dcd75e08c8fe8406ee1dc861682d671f26b5d938",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Nov 1 23:42:44 2015 -0500",
+    "Date": "2015-11-01T21:42:44-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 21,
@@ -1222,7 +1322,8 @@
   {
     "commit": "2116ffc41b19244a71d5600be9f6305ec407ab55",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Nov 1 23:42:08 2015 -0500",
+    "Date": "2015-11-01T21:42:08-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -1234,7 +1335,8 @@
   {
     "commit": "9654ac2e7ddf7b0a03b317765ed8e88fd1ac53ba",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Nov 1 23:41:38 2015 -0500",
+    "Date": "2015-11-01T21:41:38-07:00",
+    "orig_timezone": "UTC-05:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1246,7 +1348,8 @@
   {
     "commit": "85d7467b7ea25d4517c0e6237a5fed6f81c3394e",
     "Author": "Josh Cincinnati <acityinohio@users.noreply.github.com>",
-    "Date": "Date:   Sun Nov 1 18:38:43 2015 +0000",
+    "Date": "2015-11-01T11:38:43-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "py": {
         "inserts": 33,
@@ -1258,7 +1361,8 @@
   {
     "commit": "2edd243d6ea683fa10e501f9767798c8cdc7ec8b",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Oct 31 16:46:19 2015 -0400",
+    "Date": "2015-10-31T13:46:19-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1270,7 +1374,8 @@
   {
     "commit": "c1bea99282a72445d45f379c3deef19abf7856ba",
     "Author": "M Brynard <mbrynard@gmail.com>",
-    "Date": "Date:   Sat Oct 31 13:13:58 2015 +0000",
+    "Date": "2015-10-31T06:13:58-07:00",
+    "orig_timezone": "UTC",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1282,7 +1387,8 @@
   {
     "commit": "6090d3235b20775fb664753c5f7e17870624fa78",
     "Author": "Michail Brynard <michail@zapgo.co>",
-    "Date": "Date:   Thu Oct 29 01:36:14 2015 +0200",
+    "Date": "2015-10-28T16:36:14-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1294,7 +1400,8 @@
   {
     "commit": "1a21304d9171cd83b475ec2c2403565e944135f6",
     "Author": "Michail Brynard <michail@zapgo.co>",
-    "Date": "Date:   Thu Oct 29 00:17:22 2015 +0200",
+    "Date": "2015-10-28T15:17:22-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1306,7 +1413,8 @@
   {
     "commit": "c5fab4adf9ae8d90d2c0454d07aac3467fd6b5b0",
     "Author": "Michail Brynard <michail@zapgo.co>",
-    "Date": "Date:   Thu Oct 29 00:13:49 2015 +0200",
+    "Date": "2015-10-28T15:13:49-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1318,7 +1426,8 @@
   {
     "commit": "2c568d829aa41755abebf1fef6202ec3aab91093",
     "Author": "Michail Brynard <michail@zapgo.co>",
-    "Date": "Date:   Thu Oct 29 00:08:25 2015 +0200",
+    "Date": "2015-10-28T15:08:25-07:00",
+    "orig_timezone": "UTC+02:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -1330,7 +1439,8 @@
   {
     "commit": "c716f1128517fe41d3019a7d264cda3d6ca82546",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Oct 28 14:15:06 2015 -0400",
+    "Date": "2015-10-28T11:15:06-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -1342,7 +1452,8 @@
   {
     "commit": "67fb39e98e7f388d7220407a9c0db744c99fe7d7",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Oct 27 15:18:37 2015 -0400",
+    "Date": "2015-10-27T12:18:37-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 6,
@@ -1354,7 +1465,8 @@
   {
     "commit": "c625afdaf6dff14db80c37fd6bdb426fd1ddf111",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Oct 27 14:59:38 2015 -0400",
+    "Date": "2015-10-27T11:59:38-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1366,7 +1478,8 @@
   {
     "commit": "d1f8a54e3a52d66699bd2e087fde8dc9fa003ec9",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Oct 27 14:59:03 2015 -0400",
+    "Date": "2015-10-27T11:59:03-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 23,
@@ -1378,7 +1491,8 @@
   {
     "commit": "5348814ffa683f1c00e4f253e971b79f15f954bc",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Oct 26 12:08:30 2015 -0400",
+    "Date": "2015-10-26T09:08:30-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -1390,7 +1504,8 @@
   {
     "commit": "51b019b3974fb811251692f66bf3e34db296f6f1",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Oct 26 11:54:01 2015 -0400",
+    "Date": "2015-10-26T08:54:01-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 5,
@@ -1402,7 +1517,8 @@
   {
     "commit": "6d8467f2c615ae09463dca613f86b02be8396446",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Oct 26 11:50:16 2015 -0400",
+    "Date": "2015-10-26T08:50:16-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 5,
@@ -1414,7 +1530,8 @@
   {
     "commit": "69196e8662278f22fad2235b6b8624e8c62ef0f6",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Oct 26 11:45:35 2015 -0400",
+    "Date": "2015-10-26T08:45:35-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 154,
@@ -1426,7 +1543,8 @@
   {
     "commit": "07152c1a944fdb7a7ad618ec7b4a0340e5ac1293",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Oct 26 10:33:55 2015 -0400",
+    "Date": "2015-10-26T07:33:55-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 106,
@@ -1438,7 +1556,8 @@
   {
     "commit": "ba17aecb87318d37b46a6e830cc677d4753605f0",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Oct 23 17:01:06 2015 -0400",
+    "Date": "2015-10-23T14:01:06-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1450,7 +1569,8 @@
   {
     "commit": "01eecde9adf0e375a51fea9a33255514035fee71",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Oct 23 16:31:28 2015 -0400",
+    "Date": "2015-10-23T13:31:28-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 33,
@@ -1462,7 +1582,8 @@
   {
     "commit": "8735b8627cf94c5b9cc2756b10084adbbea3acf4",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Oct 22 13:05:49 2015 -0400",
+    "Date": "2015-10-22T10:05:49-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -1474,7 +1595,8 @@
   {
     "commit": "c69cf4f872f5dac509ed96ec77b25727b2985e34",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Oct 22 00:58:07 2015 -0400",
+    "Date": "2015-10-21T21:58:07-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 370,
@@ -1486,7 +1608,8 @@
   {
     "commit": "46088d33be37e9e214813402f0efb270a7d6a422",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Oct 18 18:11:56 2015 -0400",
+    "Date": "2015-10-18T15:11:56-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 12,
@@ -1498,7 +1621,8 @@
   {
     "commit": "1599d087ef3b9b3fb3e27eddab9af8d803e234bb",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Oct 15 17:37:40 2015 -0400",
+    "Date": "2015-10-15T14:37:40-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 17,
@@ -1510,7 +1634,8 @@
   {
     "commit": "e2fc27b7e65f2c15460a9eb62da9c5bd402670b0",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Oct 14 12:24:17 2015 -0400",
+    "Date": "2015-10-14T09:24:17-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1522,7 +1647,8 @@
   {
     "commit": "a6500248e3a624a17f7f9a1af9f1bdbf40643c39",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Oct 14 12:03:01 2015 -0400",
+    "Date": "2015-10-14T09:03:01-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1534,7 +1660,8 @@
   {
     "commit": "7a7cb2010695a2f630c65a1319900f6297533d89",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Oct 13 12:49:25 2015 -0400",
+    "Date": "2015-10-13T09:49:25-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 27,
@@ -1546,7 +1673,8 @@
   {
     "commit": "fccbace79178cd933c365631b4f1df420e464258",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Oct 7 12:47:20 2015 -0400",
+    "Date": "2015-10-07T09:47:20-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1558,7 +1686,8 @@
   {
     "commit": "d6aacf19c747928783e493952eb2c4a83630338a",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Oct 2 11:11:59 2015 -0400",
+    "Date": "2015-10-02T08:11:59-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 47,
@@ -1570,7 +1699,8 @@
   {
     "commit": "24ea1c6473d8fcd870b44eff0574af8638e5bcd6",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Oct 1 16:03:12 2015 -0400",
+    "Date": "2015-10-01T13:03:12-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 2,
@@ -1582,7 +1712,8 @@
   {
     "commit": "89570bd5ad0a87c8dd996eb5cbe4b296eb0e518e",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Sep 29 19:14:29 2015 -0400",
+    "Date": "2015-09-29T16:14:29-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 24,
@@ -1594,7 +1725,8 @@
   {
     "commit": "e210e0977a63c48ebcd2193d66aeb3b504a77d23",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Sep 21 21:11:14 2015 -0700",
+    "Date": "2015-09-21T21:11:14-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 25,
@@ -1606,7 +1738,8 @@
   {
     "commit": "c8fac08a312554731c99ff9b8a70e27c1c98e380",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Sep 21 17:28:49 2015 -0700",
+    "Date": "2015-09-21T17:28:49-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 37,
@@ -1618,7 +1751,8 @@
   {
     "commit": "4f1a744a2155594349421987b1cf41f34d3318ab",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Sep 17 17:23:31 2015 -0700",
+    "Date": "2015-09-17T17:23:31-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 7,
@@ -1630,7 +1764,8 @@
   {
     "commit": "ad7a4e49f0ef95a33101d17d832b49ae38aaa09e",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Sep 17 16:50:34 2015 -0700",
+    "Date": "2015-09-17T16:50:34-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "md": {
         "inserts": 2,
@@ -1647,7 +1782,8 @@
   {
     "commit": "c0c9baca3ff8431f3c93b2d348d4a5d33b18bd3a",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Sep 17 15:21:17 2015 -0700",
+    "Date": "2015-09-17T15:21:17-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 8,
@@ -1659,7 +1795,8 @@
   {
     "commit": "b54034f768022c41bd97aec335a0d76c28ad2309",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Sep 17 15:05:27 2015 -0700",
+    "Date": "2015-09-17T15:05:27-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 7,
@@ -1671,7 +1808,8 @@
   {
     "commit": "bd10adc89158ab7aa4476c1d7406cce767f5b8bf",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Sep 17 14:54:18 2015 -0700",
+    "Date": "2015-09-17T14:54:18-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 15,
@@ -1683,7 +1821,8 @@
   {
     "commit": "b6c519c7c3e61c1e2d9acd36eccdc04d0ff30e57",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Sep 17 14:38:19 2015 -0700",
+    "Date": "2015-09-17T14:38:19-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1695,7 +1834,8 @@
   {
     "commit": "1aa406cc50b085165ab3a7bb497f4eeefc84ee63",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Sep 17 14:21:52 2015 -0700",
+    "Date": "2015-09-17T14:21:52-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1707,7 +1847,8 @@
   {
     "commit": "9e6c6da5dedc0fbd1af32d779197efe0ab997106",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Sep 17 14:11:08 2015 -0700",
+    "Date": "2015-09-17T14:11:08-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 1488,
@@ -1719,7 +1860,8 @@
   {
     "commit": "98cf06af4e2fcd71a7a7348e5124498b3ccbf049",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Sep 17 11:54:13 2015 -0700",
+    "Date": "2015-09-17T11:54:13-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 29,
@@ -1731,7 +1873,8 @@
   {
     "commit": "892275901a5031c1914c00a10e2fb5424d941097",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Aug 31 19:51:49 2015 -0400",
+    "Date": "2015-08-31T16:51:49-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 100,
@@ -1743,7 +1886,8 @@
   {
     "commit": "af092a9729a98167bbac56638187e6d579bd41ab",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Aug 25 00:14:00 2015 -0400",
+    "Date": "2015-08-24T21:14:00-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 63,
@@ -1755,7 +1899,8 @@
   {
     "commit": "b6a10af59750349469a9811b816200ebc707ecfa",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Aug 13 18:43:11 2015 -0400",
+    "Date": "2015-08-13T15:43:11-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1767,7 +1912,8 @@
   {
     "commit": "c251842b2fa628b9f21baa5541004cff5e581c43",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Aug 13 18:41:41 2015 -0400",
+    "Date": "2015-08-13T15:41:41-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 49,
@@ -1779,7 +1925,8 @@
   {
     "commit": "9ce735967ea2ccff0138ebe87b00e9e773bc9bdf",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Aug 5 21:05:03 2015 -0400",
+    "Date": "2015-08-05T18:05:03-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1791,7 +1938,8 @@
   {
     "commit": "7c4049dfe2fd83607efd97d79721f4f1cb436988",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Aug 4 15:26:56 2015 -0400",
+    "Date": "2015-08-04T12:26:56-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -1803,7 +1951,8 @@
   {
     "commit": "e431df1e741a0ec493e0846f326f353251038eed",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Aug 4 14:51:34 2015 -0400",
+    "Date": "2015-08-04T11:51:34-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 71,
@@ -1815,7 +1964,8 @@
   {
     "commit": "40a75d9309c16738d2bd3acedf8aee622a7eae24",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Aug 2 23:08:57 2015 -0400",
+    "Date": "2015-08-02T20:08:57-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1827,7 +1977,8 @@
   {
     "commit": "4e5a4bb01f5419a322627e5f901cf2e184205d1b",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Aug 2 22:25:10 2015 -0400",
+    "Date": "2015-08-02T19:25:10-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1839,7 +1990,8 @@
   {
     "commit": "5321bef4f318432ec43dbd9f32009f6e503c8a1c",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Aug 2 22:24:17 2015 -0400",
+    "Date": "2015-08-02T19:24:17-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -1851,7 +2003,8 @@
   {
     "commit": "313713c8e5a60362846b0fdc3ea2a4ce8293888a",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Aug 1 10:18:02 2015 -0400",
+    "Date": "2015-08-01T07:18:02-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1863,7 +2016,8 @@
   {
     "commit": "84f4b17dd9efab0d53481fdea8ef536949eff390",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Jul 29 17:26:03 2015 -0400",
+    "Date": "2015-07-29T14:26:03-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 22,
@@ -1875,7 +2029,8 @@
   {
     "commit": "dbc07e3d11f2611ad655d8dab46124a4c117189d",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Jul 27 17:11:29 2015 -0400",
+    "Date": "2015-07-27T14:11:29-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1887,7 +2042,8 @@
   {
     "commit": "f51d9eea07f2a7df8e06916f9e12d81d1cedc2e8",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Jul 27 16:53:20 2015 -0400",
+    "Date": "2015-07-27T13:53:20-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 5,
@@ -1899,7 +2055,8 @@
   {
     "commit": "82972dfd694471ce4d2562bd9b88b850cdd4c68e",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Jul 27 16:36:09 2015 -0400",
+    "Date": "2015-07-27T13:36:09-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 18,
@@ -1911,7 +2068,8 @@
   {
     "commit": "c89ee6792ac2961f3bba949ac0d3e894dec5ceae",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jul 26 22:06:30 2015 -0400",
+    "Date": "2015-07-26T19:06:30-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -1923,7 +2081,8 @@
   {
     "commit": "9551a6372b25078360ad36ddf0cee90f9af9d7f7",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jul 26 15:04:36 2015 -0400",
+    "Date": "2015-07-26T12:04:36-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1935,7 +2094,8 @@
   {
     "commit": "811cb4caf155f00137565f73727b081e6c29441e",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jul 26 14:43:59 2015 -0400",
+    "Date": "2015-07-26T11:43:59-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -1947,7 +2107,8 @@
   {
     "commit": "cd693183426c8ea321ea0518124f359948b5698d",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jul 26 14:43:31 2015 -0400",
+    "Date": "2015-07-26T11:43:31-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -1959,7 +2120,8 @@
   {
     "commit": "2abda362f9010567f1ddc449873cabc3528d7719",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jul 26 14:43:09 2015 -0400",
+    "Date": "2015-07-26T11:43:09-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -1971,7 +2133,8 @@
   {
     "commit": "d86d25bc76c8ed97ba2a6ff5f2e6ff51246292fa",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 23 16:15:25 2015 -0400",
+    "Date": "2015-07-23T13:15:25-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 230,
@@ -1983,7 +2146,8 @@
   {
     "commit": "28329d2ebf1822ddc06152f707a2e9279273eb3b",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jul 19 15:28:14 2015 -0400",
+    "Date": "2015-07-19T12:28:14-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -1995,7 +2159,8 @@
   {
     "commit": "d93e846923e7f1aef3b6724114e61e8b6b1db48f",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jul 19 14:27:29 2015 -0400",
+    "Date": "2015-07-19T11:27:29-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 9,
@@ -2007,7 +2172,8 @@
   {
     "commit": "1f1330e84f9eb186b5cedec54a0cf8b61245a726",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jul 19 00:01:18 2015 -0400",
+    "Date": "2015-07-18T21:01:18-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 113,
@@ -2019,7 +2185,8 @@
   {
     "commit": "747176facd744ef5e6c58e76d37d8f8f98b31c2d",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 16 14:28:03 2015 -0400",
+    "Date": "2015-07-16T11:28:03-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -2031,7 +2198,8 @@
   {
     "commit": "e5136cb3191de64ef0c76ce66bd823c6c89742d8",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 16 14:13:14 2015 -0400",
+    "Date": "2015-07-16T11:13:14-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 32,
@@ -2043,7 +2211,8 @@
   {
     "commit": "cf16f28a008f5deb79561082d6a4a21119210845",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Jul 12 14:29:28 2015 -0400",
+    "Date": "2015-07-12T11:29:28-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -2055,7 +2224,8 @@
   {
     "commit": "af4b18e5054a556ad7f77efdf5818a6c6154e8a1",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Jul 10 16:24:19 2015 -0400",
+    "Date": "2015-07-10T13:24:19-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -2067,7 +2237,8 @@
   {
     "commit": "e9e87168a6597667c18eef1871905bd85982375c",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Jul 10 16:22:56 2015 -0400",
+    "Date": "2015-07-10T13:22:56-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -2079,7 +2250,8 @@
   {
     "commit": "4fb86eeef02fd8d16760b8446c9fde6d8a8086ad",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Jul 10 16:04:05 2015 -0400",
+    "Date": "2015-07-10T13:04:05-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 12,
@@ -2091,7 +2263,8 @@
   {
     "commit": "064c36d9be36271e12be0ea205c5470797136b53",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Fri Jul 10 15:50:08 2015 -0400",
+    "Date": "2015-07-10T12:50:08-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -2103,7 +2276,8 @@
   {
     "commit": "ae0bca64a8b4fcdc33fcba54fe114e12b4b32c6b",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 9 16:58:29 2015 -0400",
+    "Date": "2015-07-09T13:58:29-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 44,
@@ -2115,7 +2289,8 @@
   {
     "commit": "382745a20da7308bc52ea45ba22e5978ab3d06ae",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 9 16:06:56 2015 -0400",
+    "Date": "2015-07-09T13:06:56-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 16,
@@ -2127,7 +2302,8 @@
   {
     "commit": "e280911171b5fb94867e223f08eab56337e7c307",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 9 15:56:47 2015 -0400",
+    "Date": "2015-07-09T12:56:47-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 8,
@@ -2139,7 +2315,8 @@
   {
     "commit": "852f6027808d07490de540cc15f61408649854c1",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 9 15:33:30 2015 -0400",
+    "Date": "2015-07-09T12:33:30-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 8,
@@ -2151,7 +2328,8 @@
   {
     "commit": "c9712c7c99176b1e4e019d3ddafcdfa3f88e8c42",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 9 15:29:48 2015 -0400",
+    "Date": "2015-07-09T12:29:48-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 0,
@@ -2163,7 +2341,8 @@
   {
     "commit": "34dc0229cfd419062d33f0741835b33811d059cc",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 9 15:28:14 2015 -0400",
+    "Date": "2015-07-09T12:28:14-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 105,
@@ -2175,7 +2354,8 @@
   {
     "commit": "b3084986a3ba0a3ba07168e5fa700428baa7fda1",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 9 15:06:55 2015 -0400",
+    "Date": "2015-07-09T12:06:55-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 19,
@@ -2187,7 +2367,8 @@
   {
     "commit": "45ba1f1837f7188e34352fc5325333b28f648f87",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jul 9 15:05:05 2015 -0400",
+    "Date": "2015-07-09T12:05:05-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 5,
@@ -2199,7 +2380,8 @@
   {
     "commit": "121334acbc968c695e22e04c7948fc5536f72e73",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Jul 8 12:41:49 2015 -0400",
+    "Date": "2015-07-08T09:41:49-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 18,
@@ -2211,7 +2393,8 @@
   {
     "commit": "ce481b2f810afc45ec1fa4bfeecdb284505431e7",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Jul 8 12:04:24 2015 -0400",
+    "Date": "2015-07-08T09:04:24-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 26,
@@ -2223,7 +2406,8 @@
   {
     "commit": "1ee56ae391239a2af72bf12e7812681e75298b46",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Jul 8 11:52:39 2015 -0400",
+    "Date": "2015-07-08T08:52:39-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 79,
@@ -2235,7 +2419,8 @@
   {
     "commit": "1a0be553cabdd8aaa39eb3887bd0c5ac2d8d595d",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Apr 29 12:48:26 2015 -0400",
+    "Date": "2015-04-29T09:48:26-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 143,
@@ -2247,7 +2432,8 @@
   {
     "commit": "f6bd3b7b3c4135e452cc5b5b4ed2898540d85b3e",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Apr 28 14:59:57 2015 -0400",
+    "Date": "2015-04-28T11:59:57-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 54,
@@ -2259,7 +2445,8 @@
   {
     "commit": "e5dfd5fb1065fb54f8464f2c04279dc90aed86d1",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Apr 21 16:24:18 2015 -0400",
+    "Date": "2015-04-21T13:24:18-07:00",
+    "orig_timezone": "UTC-04:00",
     "fileTypes": {
       "py": {
         "inserts": 17,
@@ -2271,7 +2458,8 @@
   {
     "commit": "547d8d625d83cb04266dd13ad9d85c258e2daeae",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Apr 9 10:19:02 2015 -0700",
+    "Date": "2015-04-09T10:19:02-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -2283,7 +2471,8 @@
   {
     "commit": "e32ecb184f19ab9fa124afc61f5dd9391ad9738d",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Apr 8 18:08:55 2015 -0700",
+    "Date": "2015-04-08T18:08:55-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 0,
@@ -2295,7 +2484,8 @@
   {
     "commit": "71b77399dc2bb3410e066f493c609512cb690e32",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Apr 8 17:42:55 2015 -0700",
+    "Date": "2015-04-08T17:42:55-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 9,
@@ -2307,7 +2497,8 @@
   {
     "commit": "66df069c7982bb5d994b906626dd8419d29358fb",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Apr 8 17:09:13 2015 -0700",
+    "Date": "2015-04-08T17:09:13-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 0,
@@ -2319,7 +2510,8 @@
   {
     "commit": "bc4cd57edda01011f1ee1fc2d9729640e3a861f8",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Apr 8 17:07:38 2015 -0700",
+    "Date": "2015-04-08T17:07:38-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 16,
@@ -2331,7 +2523,8 @@
   {
     "commit": "ac5ee8743d6f4d1144423f1e9363e4129395e162",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Apr 7 17:24:29 2015 -0700",
+    "Date": "2015-04-07T17:24:29-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 10,
@@ -2343,7 +2536,8 @@
   {
     "commit": "4562534d2b40a23495e294f289799b2e02d17faa",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Apr 7 16:45:35 2015 -0700",
+    "Date": "2015-04-07T16:45:35-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 7,
@@ -2355,7 +2549,8 @@
   {
     "commit": "f2c9ee96bffd47baf2945f6fc3b866698e300433",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Apr 7 16:36:20 2015 -0700",
+    "Date": "2015-04-07T16:36:20-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -2367,7 +2562,8 @@
   {
     "commit": "99dc10cb9e0a027a759917cddbcde959ab40eaed",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Apr 7 15:57:09 2015 -0700",
+    "Date": "2015-04-07T15:57:09-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 183,
@@ -2379,7 +2575,8 @@
   {
     "commit": "3263d725a676826439115816bab01838cca4f859",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Apr 6 14:50:35 2015 -0700",
+    "Date": "2015-04-06T14:50:35-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 37,
@@ -2391,7 +2588,8 @@
   {
     "commit": "dc2eca510521ea45f5594805b34a08ff788ab453",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Mar 30 16:22:22 2015 -0700",
+    "Date": "2015-03-30T16:22:22-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 5,
@@ -2403,7 +2601,8 @@
   {
     "commit": "3b6a2a1d8cdb3261c309f62963f74f865bfc4e09",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Mar 30 12:04:02 2015 -0700",
+    "Date": "2015-03-30T12:04:02-07:00",
+    "orig_timezone": "UTC-07:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -2415,7 +2614,8 @@
   {
     "commit": "7282cd3ba16c834dc6ce058dd3b0d5fa1487c39e",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sun Feb 15 17:48:06 2015 +0630",
+    "Date": "2015-02-15T04:18:06-07:00",
+    "orig_timezone": "UTC+06:30",
     "fileTypes": {
       "py": {
         "inserts": 44,
@@ -2427,7 +2627,8 @@
   {
     "commit": "c6cc50e22f1ea6c595751f0e3976edaa99734c62",
     "Author": "Dario Nieuwenhuis <dirbaio@dirbaio.net>",
-    "Date": "Date:   Wed Feb 4 19:02:17 2015 -0800",
+    "Date": "2015-02-04T20:02:17-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 22,
@@ -2439,7 +2640,8 @@
   {
     "commit": "462f6d92763892c268b834c29dfed06654064963",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Jan 26 18:25:29 2015 -0800",
+    "Date": "2015-01-26T19:25:29-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -2451,7 +2653,8 @@
   {
     "commit": "7c004964b2e0139649321f46bcbf7ac5a62bfe50",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jan 22 17:24:55 2015 -0800",
+    "Date": "2015-01-22T18:24:55-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -2463,7 +2666,8 @@
   {
     "commit": "78c16273a540bc0cd1eff82767d6325fbbee214b",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Jan 22 14:12:43 2015 -0800",
+    "Date": "2015-01-22T15:12:43-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 23,
@@ -2475,7 +2679,8 @@
   {
     "commit": "b29efcf221c2a8370c31fc4270fee8506c38485a",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Jan 12 01:56:53 2015 -0600",
+    "Date": "2015-01-12T00:56:53-07:00",
+    "orig_timezone": "UTC-06:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -2487,7 +2692,8 @@
   {
     "commit": "65af076e9bad36ddf466985f76cdccc7559a7907",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Jan 12 01:50:05 2015 -0600",
+    "Date": "2015-01-12T00:50:05-07:00",
+    "orig_timezone": "UTC-06:00",
     "fileTypes": {
       "py": {
         "inserts": 4,
@@ -2499,7 +2705,8 @@
   {
     "commit": "6058fca27034a3668f8020646cf0c657a9f7b6cd",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Jan 12 00:09:00 2015 -0600",
+    "Date": "2015-01-11T23:09:00-07:00",
+    "orig_timezone": "UTC-06:00",
     "fileTypes": {
       "py": {
         "inserts": 47,
@@ -2511,7 +2718,8 @@
   {
     "commit": "a69f51ecdd3e7fc375250ce7b08c4673c8abe157",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Dec 24 20:14:56 2014 -0800",
+    "Date": "2014-12-24T21:14:56-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -2523,7 +2731,8 @@
   {
     "commit": "df973ddcf052bfd56d9cb84bfa163f62cacffeb5",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Dec 23 21:02:38 2014 -0800",
+    "Date": "2014-12-23T22:02:38-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 19,
@@ -2535,7 +2744,8 @@
   {
     "commit": "c8c4d3840d8f25fb0fe12043ec05d56b02e7a799",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Dec 23 20:58:54 2014 -0800",
+    "Date": "2014-12-23T21:58:54-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -2547,7 +2757,8 @@
   {
     "commit": "d207d16e711b34ef9fed9f3091f257d552b05f50",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Nov 29 22:56:11 2014 -0800",
+    "Date": "2014-11-29T23:56:11-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 35,
@@ -2559,7 +2770,8 @@
   {
     "commit": "4ae8d795aa650ed40e7fed289c3ebd533e6676f9",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Nov 29 12:14:14 2014 -0800",
+    "Date": "2014-11-29T13:14:14-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 10,
@@ -2576,7 +2788,8 @@
   {
     "commit": "f1c00c13991519b843c860ff784798569a679298",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Nov 29 11:54:45 2014 -0800",
+    "Date": "2014-11-29T12:54:45-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 43,
@@ -2588,7 +2801,8 @@
   {
     "commit": "b7dd8da716fa5d891239fa307127b93334f6d1f0",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Thu Nov 27 09:31:07 2014 -0800",
+    "Date": "2014-11-27T10:31:07-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 30,
@@ -2605,7 +2819,8 @@
   {
     "commit": "0f3d8c849164ae1731c5f9e0616d9c9c137d59dc",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Nov 25 13:46:31 2014 -0800",
+    "Date": "2014-11-25T14:46:31-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 5,
@@ -2617,7 +2832,8 @@
   {
     "commit": "331c243b11da409635f16d32bc0dbc0e492d8952",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Nov 24 14:31:59 2014 -0800",
+    "Date": "2014-11-24T15:31:59-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -2629,7 +2845,8 @@
   {
     "commit": "a84cd161b4c03253d8fa8791c1174df2e9a7a2e7",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Nov 24 14:26:07 2014 -0800",
+    "Date": "2014-11-24T15:26:07-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 0,
@@ -2641,7 +2858,8 @@
   {
     "commit": "ab2699a5c21192645e45c78d9ebf5cdaded605f4",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Nov 24 14:16:11 2014 -0800",
+    "Date": "2014-11-24T15:16:11-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 1,
@@ -2653,7 +2871,8 @@
   {
     "commit": "5969bce090030ff5830674f7577cf00bb333afd1",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Nov 24 14:10:28 2014 -0800",
+    "Date": "2014-11-24T15:10:28-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -2665,7 +2884,8 @@
   {
     "commit": "5373873d93b3ca05fc1b36e5198f76ae30614a08",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Nov 24 10:31:18 2014 -0800",
+    "Date": "2014-11-24T11:31:18-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 11,
@@ -2682,7 +2902,8 @@
   {
     "commit": "9e776e8927ae142c06308d75d2840dfa857003bb",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Mon Nov 24 09:35:05 2014 -0800",
+    "Date": "2014-11-24T10:35:05-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 6,
@@ -2699,7 +2920,8 @@
   {
     "commit": "c184587490aaf1b2088f23363e945c1825a17de0",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Nov 22 16:22:57 2014 -0800",
+    "Date": "2014-11-22T17:22:57-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 0,
@@ -2711,7 +2933,8 @@
   {
     "commit": "b7aef02fb7965ec9ac902fcdc96be7b8cd6d8619",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Nov 22 16:17:15 2014 -0800",
+    "Date": "2014-11-22T17:17:15-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 9,
@@ -2723,7 +2946,8 @@
   {
     "commit": "ec3ada4f7ebbaa3e2778bde5e47e24524867f063",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Nov 22 16:09:21 2014 -0800",
+    "Date": "2014-11-22T17:09:21-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 44,
@@ -2740,7 +2964,8 @@
   {
     "commit": "5f443ecd0b7e4936f46b34e8557e04863acc0842",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Nov 22 15:05:35 2014 -0800",
+    "Date": "2014-11-22T16:05:35-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -2752,7 +2977,8 @@
   {
     "commit": "f8ca70da87108ca1ac31e838007b491c0666adbc",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Sat Nov 22 15:03:38 2014 -0800",
+    "Date": "2014-11-22T16:03:38-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 7,
@@ -2769,7 +2995,8 @@
   {
     "commit": "6556653cb7c81e5a939616144e52615ab96656d0",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Nov 19 13:59:09 2014 -0800",
+    "Date": "2014-11-19T14:59:09-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 2,
@@ -2781,7 +3008,8 @@
   {
     "commit": "5e5e42d74def56f557190a57254dc61431b59c8f",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Nov 19 13:57:43 2014 -0800",
+    "Date": "2014-11-19T14:57:43-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -2793,7 +3021,8 @@
   {
     "commit": "2e80f49685dc356d173e713217f1060c4230526d",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Nov 19 13:56:59 2014 -0800",
+    "Date": "2014-11-19T14:56:59-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 104,
@@ -2805,7 +3034,8 @@
   {
     "commit": "b06cdaf114792a507c70191a17cd45d22e44fbd2",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Nov 19 13:41:52 2014 -0800",
+    "Date": "2014-11-19T14:41:52-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 1,
@@ -2817,7 +3047,8 @@
   {
     "commit": "e7efc2f67cf83fa063f569746e86ac2da61058af",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Nov 19 11:37:49 2014 -0800",
+    "Date": "2014-11-19T12:37:49-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 2,
@@ -2829,7 +3060,8 @@
   {
     "commit": "fc9219b485dd6ab8b9296a4534d84859e22931f4",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Wed Nov 19 11:14:38 2014 -0800",
+    "Date": "2014-11-19T12:14:38-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 12,
@@ -2841,7 +3073,8 @@
   {
     "commit": "9b13eda73d9547b960bd88f8f8483cd58bbdf47c",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Nov 18 01:47:38 2014 -0800",
+    "Date": "2014-11-18T02:47:38-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 3,
@@ -2853,7 +3086,8 @@
   {
     "commit": "aeffb5c9e7f7c27de1ff0a2ca3b5cb75aa440ffa",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Nov 18 01:41:12 2014 -0800",
+    "Date": "2014-11-18T02:41:12-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 125,
@@ -2865,7 +3099,8 @@
   {
     "commit": "b273ba240b76727dbb0ce43ea718d4ab67f0455a",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Nov 18 01:33:14 2014 -0800",
+    "Date": "2014-11-18T02:33:14-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 20,
@@ -2877,7 +3112,8 @@
   {
     "commit": "b38a42dcf3e00a53e880aa167c741b2cf5eb7710",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Nov 18 01:23:43 2014 -0800",
+    "Date": "2014-11-18T02:23:43-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "py": {
         "inserts": 3,
@@ -2889,7 +3125,8 @@
   {
     "commit": "5704c7fca59eceb50ba42485bb5d27841b4d9bee",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Nov 18 01:23:21 2014 -0800",
+    "Date": "2014-11-18T02:23:21-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 41,
@@ -2901,7 +3138,8 @@
   {
     "commit": "3354bbaaddff2303ff0c6b7bad239d1dec761860",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Nov 18 01:11:08 2014 -0800",
+    "Date": "2014-11-18T02:11:08-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "md": {
         "inserts": 16,
@@ -2913,7 +3151,8 @@
   {
     "commit": "08ea2ae71c775de4ceaa9aa4e20e6783d869931c",
     "Author": "Michael Flaxman <mflaxman@gmail.com>",
-    "Date": "Date:   Tue Nov 18 01:04:44 2014 -0800",
+    "Date": "2014-11-18T02:04:44-07:00",
+    "orig_timezone": "UTC-08:00",
     "fileTypes": {
       "noexttext": {
         "inserts": 49,
