@@ -19,11 +19,10 @@
     "cluster": {
       "num_centers": 40,
       "features": [
-        "binFiles", "imgFiles", "textFiles",
-        "textLines", "cLines", "c-plus-plusLines",
-        "configurationLines", "dataLines",
-        "datascienceLines", "goLines", "interfaceLines",
-        "javascriptLines", "jsonLines",
+        "binFiles", "imgFiles", "textFiles", "textLines",
+        "cLines", "c-plus-plusLines", "clojureLines",
+        "configurationLines", "dataLines", "datascienceLines", "goLines",
+        "interfaceLines", "javascriptLines", "jsonLines",
         "latexLines", "lockLines", "localizationLines",
         "markdownLines", "sqlLines", "swiftLines",
         "txtLines", "yarnLines"
@@ -42,6 +41,91 @@
     "classifier": {
       "labeling_path": "sandbox/data/bob/commit_labeling-2022-05-16.csv",
       "model_path": "sandbox/data/bob/logit-clf-2022-05-16.dat",
+      "features": [
+        "binFiles", "imgFiles", "textFiles",
+        "textLines", "cLines", "c-plus-plusLines",
+        "configurationLines", "dataLines",
+        "goLines", "interfaceLines",
+        "javascriptLines", "jsonLines",
+        "lockLines", "localizationLines",
+        "markdownLines", "swiftLines",
+        "txtLines", "yarnLines"
+      ]
+    }
+  },
+  "r17_01": {
+    "stats_dir": "sandbox/notebooks/matt/results",
+    "stat_file_name": "commit_stat_log.json",
+    "cluster": {
+      "num_centers": 40,
+      "label_tmpl": "data/ds/label_tmpl-2022-05-20-01.tsv",
+      "features": [
+        "binFiles", "imgFiles", "textFiles", "textLines",
+        "cLines", "c-plus-plusLines",
+        "dataLines", "goLines", "interfaceLines",
+        "javascriptLines", "jsonLines", "latexLines",
+        "lockLines", "localizationLines", "markdownLines",
+        "pydataLines", "pythonLines", "rpm-packageLines",
+        "rustLines", "shellLines", "solidityLines",
+        "swiftLines", "txtLines", "yarnLines"
+      ],
+      "stat_fields": [
+        "numCommits", "binFiles", "imgFilePct", "textFiles",
+        "textLines",
+        "cLinePct", "c-plus-plusLinePct",
+        "dataLinePct", "goLinePct", "interfaceLinePct",
+        "javascriptLinePct", "jsonLinePct", "latexLinePct",
+        "lockLinePct", "localizationLinePct", "markdownLinePct",
+        "pydataLinePct", "pythonLinePct", "rpm-packageLinePct",
+        "rustLinePct", "shellLinePct", "solidityLinePct",
+        "swiftLinePct", "txtLinePct", "yarnLinePct"
+      ]
+    },
+    "classifier": {
+      "labeling_path": "data/ds/labeling-2022-05-20-01.csv",
+      "model_path": "data/ds/logit-clf-2022-05-20-01.dat",
+      "features": [
+        "binFiles", "imgFiles", "textFiles",
+        "textLines", "cLines", "c-plus-plusLines",
+        "configurationLines", "dataLines",
+        "goLines", "interfaceLines",
+        "javascriptLines", "jsonLines",
+        "lockLines", "localizationLines",
+        "markdownLines", "swiftLines",
+        "txtLines", "yarnLines"
+      ]
+    }
+  },
+  "r17_02": {
+    "stats_dir": "sandbox/notebooks/matt/results",
+    "stat_file_name": "commit_stat_log.json",
+    "cluster": {
+      "num_centers": 40,
+      "label_tmpl": "data/ds/label_tmpl-2022-05-20-02.tsv",
+      "features": [
+        "cLines", "c-plus-plusLines",
+        "dataLines", "goLines", "interfaceLines",
+        "javascriptLines", "jsonLines", "latexLines",
+        "lockLines", "localizationLines", "markdownLines",
+        "pydataLines", "pythonLines", "rpm-packageLines",
+        "rustLines", "shellLines", "solidityLines",
+        "swiftLines", "txtLines", "yarnLines"
+      ],
+      "stat_fields": [
+        "numCommits", "binFiles", "imgFilePct", "textFiles",
+        "textLines",
+        "cLinePct", "c-plus-plusLinePct",
+        "dataLinePct", "goLinePct", "interfaceLinePct",
+        "javascriptLinePct", "jsonLinePct", "latexLinePct",
+        "lockLinePct", "localizationLinePct", "markdownLinePct",
+        "pydataLinePct", "pythonLinePct", "rpm-packageLinePct",
+        "rustLinePct", "shellLinePct", "solidityLinePct",
+        "swiftLinePct", "txtLinePct", "yarnLinePct"
+      ]
+    },
+    "classifier": {
+      "labeling_path": "data/ds/labeling-2022-05-20-02.csv",
+      "model_path": "data/ds/logit-clf-2022-05-20-02.dat",
       "features": [
         "binFiles", "imgFiles", "textFiles",
         "textLines", "cLines", "c-plus-plusLines",

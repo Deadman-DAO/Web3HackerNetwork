@@ -1,147 +1,147 @@
 [
   {
-    "encoding": "binary",
     "action": "img",
+    "encoding": "binary",
     "file_types": ["png", "jpg", "gif", "drawio", "svg"]
   },
   {
-    "encoding": "binary",
     "action": "noextbin",
+    "encoding": "binary",
     "file_types": ["noextbin"]
   },
   {
-    "encoding": "text",
-    "action": "clojure",
-    "file_types": ["clj"]
-  },
-  {
-    "encoding": "text",
     "action": "c",
+    "encoding": "text",
     "file_types": ["c", "h"]
   },
   {
-    "encoding": "text",
     "action": "c-plus-plus",
+    "encoding": "text",
     "file_types": ["cpp", "hpp"]
   },
   {
+    "action": "clojure",
     "encoding": "text",
+    "file_types": ["clj"]
+  },
+  {
     "action": "configuration",
+    "encoding": "text",
     "file_types": ["ini", "cfg", "conf", "in"]
   },
   {
-    "encoding": "text",
     "action": "data",
+    "encoding": "text",
     "file_types": ["csv"]
   },
   {
-    "encoding": "text",
     "action": "datascience",
+    "encoding": "text",
     "file_types": ["ipynb"]
   },
   {
-    "encoding": "text",
     "action": "gitignore",
+    "encoding": "text",
     "file_types": ["gitignore"]
   },
   {
-    "encoding": "text",
     "action": "go",
+    "encoding": "text",
     "file_types": ["go"]
   },
   {
-    "encoding": "text",
     "action": "interface",
+    "encoding": "text",
     "file_types": ["html", "css", "scss", "less"]
   },
   {
-    "encoding": "text",
     "action": "javascript",
+    "encoding": "text",
     "file_types": ["js", "jsx", "ts", "tsx", "vue"]
   },
   {
-    "encoding": "text",
     "action": "json",
+    "encoding": "text",
     "file_types": ["json"]
   },
   {
-    "encoding": "text",
     "action": "latex",
+    "encoding": "text",
     "file_types": ["bst", "tex"]
   },
   {
-    "encoding": "text",
     "action": "lock",
+    "encoding": "text",
     "file_types": ["lock"]
   },
   {
-    "encoding": "text",
     "action": "localization",
+    "encoding": "text",
     "file_types": ["po"]
   },
   {
-    "encoding": "text",
     "action": "markdown",
+    "encoding": "text",
     "file_types": ["md"]
   },
   {
-    "encoding": "text",
     "action": "noextext",
+    "encoding": "text",
     "file_types": ["noextext"]
   },
   {
-    "encoding": "text",
     "action": "pydata",
+    "encoding": "text",
     "file_types": ["rst"]
   },
   {
-    "encoding": "text",
     "action": "python",
+    "encoding": "text",
     "file_types": ["py", "pyx"]
   },
   {
-    "encoding": "text",
     "action": "rpm-package",
+    "encoding": "text",
     "file_types": ["spec"]
   },
   {
-    "encoding": "text",
     "action": "rust",
+    "encoding": "text",
     "file_types": ["rs", "toml"]
   },
   {
-    "encoding": "text",
     "action": "php",
+    "encoding": "text",
     "file_types": ["php"]
   },
   {
-    "encoding": "text",
     "action": "shell",
+    "encoding": "text",
     "file_types": ["sh"]
   },
   {
-    "encoding": "text",
     "action": "solidity",
+    "encoding": "text",
     "file_types": ["sol"]
   },
   {
-    "encoding": "text",
     "action": "sql",
+    "encoding": "text",
     "file_types": ["sql"]
   },
   {
-    "encoding": "text",
     "action": "swift",
+    "encoding": "text",
     "file_types": ["swift"]
   },
   {
-    "encoding": "text",
     "action": "txt",
+    "encoding": "text",
     "file_types": ["txt"]
   },
   {
-    "encoding": "text",
     "action": "yarn",
+    "encoding": "text",
     "file_types": ["yml", "yaml"]
   }
 ]
