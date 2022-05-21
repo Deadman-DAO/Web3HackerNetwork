@@ -44,14 +44,18 @@ BEGIN
 		select LAST_INSERT_ID() into repo_id;
 	END IF;
 	
-    select id into repo_commit_id from repo_commit where commit_id = commit_Id and repo_id = repo_id;
+	set repo_commit_id = -1;
+    select rc.id into repo_commit_id from repo_commit rc where rc.commit_id = commit_Id and rc.repo_id = repo_id;
+	/* 
+	call debug(concat('commit_id=',commit_id,',repo_commit_id=',repo_commit_id)); 
+	 */
 
 	if repo_commit_id = -1 then
 		insert into repo_commit (commit_id, repo_id) select commit_id, repo_id;
 		/* no need to insert commit_stats if that repo_commit reference is already there */
 		select json_keys(file_types) into extension_set;
-		while key_idx < json_length(extension_set) do
 			select json_value(extension_set, concat('$[',key_idx,']')) into extension;
+ 		while key_idx < json_length(extension_set) do
 			select json_query(file_types, concat('$.',extension)) into val;
 			select json_value(val, '$.inserts') into inserts;
 			select json_value(val, '$.deletes') into deletes;
