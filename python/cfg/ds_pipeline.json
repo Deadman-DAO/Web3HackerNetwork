@@ -63,10 +63,10 @@
         "binFiles", "imgFiles", "textFiles", "textLines",
         "cLines", "c-plus-plusLines",
         "dataLines", "goLines", "interfaceLines",
-        "javascriptLines", "jsonLines", "latexLines",
+        "javascriptLines", "jsonLines",
         "lockLines", "localizationLines", "markdownLines",
         "pydataLines", "pythonLines", "rpm-packageLines",
-        "rustLines", "shellLines", "solidityLines",
+        "solidityLines",
         "swiftLines", "txtLines", "yarnLines"
       ],
       "stat_fields": [
@@ -74,25 +74,25 @@
         "textLines",
         "cLinePct", "c-plus-plusLinePct",
         "dataLinePct", "goLinePct", "interfaceLinePct",
-        "javascriptLinePct", "jsonLinePct", "latexLinePct",
+        "javascriptLinePct", "jsonLinePct",
         "lockLinePct", "localizationLinePct", "markdownLinePct",
         "pydataLinePct", "pythonLinePct", "rpm-packageLinePct",
-        "rustLinePct", "shellLinePct", "solidityLinePct",
+        "solidityLinePct",
         "swiftLinePct", "txtLinePct", "yarnLinePct"
       ]
     },
     "classifier": {
-      "labeling_path": "data/ds/labeling-2022-05-20-01.csv",
-      "model_path": "data/ds/logit-clf-2022-05-20-01.dat",
+      "labeling_path": "data/ds/commit-labeling-2022-05-20-language.csv",
+      "model_path": "data/ds/logit-clf-2022-05-20-language.dat",
       "features": [
-        "binFiles", "imgFiles", "textFiles",
-        "textLines", "cLines", "c-plus-plusLines",
-        "configurationLines", "dataLines",
-        "goLines", "interfaceLines",
+        "binFiles", "imgFiles", "textFiles", "textLines",
+        "cLines", "c-plus-plusLines",
+        "dataLines", "goLines", "interfaceLines",
         "javascriptLines", "jsonLines",
-        "lockLines", "localizationLines",
-        "markdownLines", "swiftLines",
-        "txtLines", "yarnLines"
+        "lockLines", "localizationLines", "markdownLines",
+        "pydataLines", "pythonLines", "rpm-packageLines",
+        "solidityLines",
+        "swiftLines", "txtLines", "yarnLines"
       ]
     }
   },
@@ -105,10 +105,10 @@
       "features": [
         "cLines", "c-plus-plusLines",
         "dataLines", "goLines", "interfaceLines",
-        "javascriptLines", "jsonLines", "latexLines",
+        "javascriptLines", "jsonLines",
         "lockLines", "localizationLines", "markdownLines",
         "pydataLines", "pythonLines", "rpm-packageLines",
-        "rustLines", "shellLines", "solidityLines",
+        "solidityLines",
         "swiftLines", "txtLines", "yarnLines"
       ],
       "stat_fields": [
@@ -116,25 +116,25 @@
         "textLines",
         "cLinePct", "c-plus-plusLinePct",
         "dataLinePct", "goLinePct", "interfaceLinePct",
-        "javascriptLinePct", "jsonLinePct", "latexLinePct",
+        "javascriptLinePct", "jsonLinePct",
         "lockLinePct", "localizationLinePct", "markdownLinePct",
         "pydataLinePct", "pythonLinePct", "rpm-packageLinePct",
-        "rustLinePct", "shellLinePct", "solidityLinePct",
+        "solidityLinePct",
         "swiftLinePct", "txtLinePct", "yarnLinePct"
       ]
     },
     "classifier": {
-      "labeling_path": "data/ds/labeling-2022-05-20-02.csv",
-      "model_path": "data/ds/logit-clf-2022-05-20-02.dat",
+      "labeling_path": "data/ds/commit-labeling-2022-05-20-scope.csv",
+      "model_path": "data/ds/logit-clf-2022-05-20-scope.dat",
       "features": [
-        "binFiles", "imgFiles", "textFiles",
-        "textLines", "cLines", "c-plus-plusLines",
-        "configurationLines", "dataLines",
-        "goLines", "interfaceLines",
+        "binFiles", "imgFiles", "textFiles", "textLines",
+        "cLines", "c-plus-plusLines",
+        "dataLines", "goLines", "interfaceLines",
         "javascriptLines", "jsonLines",
-        "lockLines", "localizationLines",
-        "markdownLines", "swiftLines",
-        "txtLines", "yarnLines"
+        "lockLines", "localizationLines", "markdownLines",
+        "pydataLines", "pythonLines", "rpm-packageLines",
+        "solidityLines",
+        "swiftLines", "txtLines", "yarnLines"
       ]
     }
   }
