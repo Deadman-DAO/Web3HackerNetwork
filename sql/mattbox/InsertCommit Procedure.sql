@@ -1,5 +1,4 @@
-CREATE DEFINER=`matt`@`localhost` 
-PROCEDURE `w3hacknet`.`InsertCommit`(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`InsertCommit`(
 	owner_id varchar(128), 
 	repo_name varchar(128), 
 	commit_hash char(40), 
@@ -8,7 +7,7 @@ PROCEDURE `w3hacknet`.`InsertCommit`(
 	date datetime, 
 	orig_timezone varchar(16),
 	file_types json)
-	MODIFIES SQL DATA
+    MODIFIES SQL DATA
 BEGIN
 	declare alias_id int default -1;
 	declare commit_id int default -1;
