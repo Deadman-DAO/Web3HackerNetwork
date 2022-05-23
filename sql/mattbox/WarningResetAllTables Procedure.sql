@@ -38,8 +38,11 @@ BEGIN
 
 	create table repo (
 		id int not null auto_increment primary key,
-		owner varchar(64) not null,
-		name varchar(64) not null 
+		owner varchar(128) not null,
+		name varchar(128) not null,
+		commit_count int(11),
+		min_date datetime,
+		max_date datetime
 	);
 
 	create unique index repoIdx on repo(owner, name);

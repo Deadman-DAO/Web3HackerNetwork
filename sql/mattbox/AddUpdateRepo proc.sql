@@ -26,4 +26,4 @@ select id, commit_count, min_date, max_date into repo_id, cnt, _min_date, _max_d
 				end
 		 where id = repo_id;
 	end if;
-END;
+END

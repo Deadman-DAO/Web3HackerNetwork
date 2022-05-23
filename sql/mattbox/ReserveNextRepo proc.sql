@@ -1,4 +1,4 @@
-CREATE PROCEDURE w3hacknet.ReserveNextRepo(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReserveNextRepo`(
 in who_is_reserving varchar(64),
 out repo_owner varchar(128),
 out repo_name varchar(128))
