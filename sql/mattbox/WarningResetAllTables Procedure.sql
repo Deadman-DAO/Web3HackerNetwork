@@ -1,5 +1,6 @@
 CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`WarningResetALLTables`()
 BEGIN
+	drop table if exists repo_reserve;
 	drop table if exists repo_commit;
 	drop table if exists repo;
 	drop table if exists commit_stats ;
@@ -54,5 +55,6 @@ BEGIN
 	  CONSTRAINT `weirder` FOREIGN KEY (`repo_id`) REFERENCES `repo` (`id`)
 	) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
+	call CreateRepoReserveTable();
 
 END
