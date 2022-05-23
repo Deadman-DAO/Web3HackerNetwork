@@ -105,6 +105,7 @@ class Query:
             # commit in the whole set for a particular hacker it will
             # still exit the loop due to a < 100 item result set.
             pass
+        return new_date
     def format_user_url(self, user_id):
         var = self.urlPrefix+"?q=author:"+user_id+'+author-date:<'+self.startDate.isoformat()+'&sort=author-date&order=desc&per_page=100&page=1'
         return var

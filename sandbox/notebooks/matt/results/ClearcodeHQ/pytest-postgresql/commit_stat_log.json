@@ -6561,5 +6561,6568 @@
         "occurrences": 1
       }
     }
+  },
+  {
+    "commit": "4e0be05ddba2ae8bac99c6453d76c630f3ddd8a9",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2022-03-11T09:15:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "954e2bcaf03df2fe606bd4e8eb4f3d5e819dffe7",
+    "Author": "Kian-Meng Ang <kianmeng@cpan.org>",
+    "Date": "2022-03-03T07:58:40-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "5b634e63996cfb95899d2da7883222b5861f2eb8",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2022-02-21T03:51:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "17ee4649725b1af82ef95766f3f98aa65ea50e6f",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2022-02-14T09:00:07-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "83634c21a7f3c0a4c4b767a94f5c59f439733736",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2022-01-17T05:30:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ee3c1976c7186dad31dd817decac345fb179f7fb",
+    "Author": "Michael V. DePalatis <mike@depalatis.net>",
+    "Date": "2022-01-12T09:50:21-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8ca16efb077c29c50dfb2319d8f006d4c09cd09",
+    "Author": "Michael V. DePalatis <mike@depalatis.net>",
+    "Date": "2022-01-12T09:48:31-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53b6f0173d45ed174a8a3fd37e4a593be3c532be",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2022-01-10T04:15:27-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8bde40680b2b7bf15c94ac585b510579995abf99",
+    "Author": "Dmitry Dygalo <dmitry@dygalo.dev>",
+    "Date": "2022-01-03T04:14:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fa1cbf2089777419e9d38be7ea4b894b6ee16445",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2022-01-03T01:17:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5cc5b063bd9c6dc9075553750d62e41e7011be31",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-12-22T08:01:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ae96bc7b82631a12b16696df1dd21aad5a5b160",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-12-22T06:28:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 13,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4e19c3ed40e3df12fdfa7f20d88e53bc5c6649b4",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-12-22T02:46:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 7,
+        "deletes": 8,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "d86f9289c81f8e348405e794e41f8a1e96225e1b",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-11-05T08:27:47-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3fa0c98d5f81630240cd5ae9cf1818fa524f3c75",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-11-05T08:25:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "634ff0683a05d7130977a0d2a7c1793c3436d63c",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-11-04T13:39:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 22,
+        "deletes": 8,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "feadf8d8c5f86014e221af1675b34404dc4ff8b1",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-11-04T02:55:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 12,
+        "deletes": 14,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "90fb2b5655c92aa6541c7c70891dfbb6ffeb8f54",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-11-04T01:51:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 3
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4014006190d207a2bafaf79f915eeb626ec58b5",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-11-04T01:46:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 14,
+        "deletes": 46,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "651176969c9b5a00228507e07377222ce84450f4",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-11-04T00:51:04-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 15,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "ini": {
+        "inserts": 0,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 64,
+        "deletes": 71,
+        "occurrences": 11
+      }
+    }
+  },
+  {
+    "commit": "2ffb6ceb164f97f15ee05413ad123e559e161b10",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-10-20T07:50:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c23be5fba49ccf667998d4f9745758d2ffd720c9",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-10-19T04:34:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dba816abd6e3d2618efe2cf589ca78454def847a",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-10-19T00:27:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0491b6b3fa9fa435addf2bf0a312a29e40d417a",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-10-15T05:44:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 5,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "73b67cd974e8734917e8c5ceb832a64f8798991f",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-10-14T23:46:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 4,
+        "deletes": 7,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "e2a9fe8d78e52b196a0b0e666f51a1bd7357c82c",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-10-14T23:39:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "675853c64a0c50f259dcfe69f37765d814b2e874",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-10-14T23:38:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 479,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 15,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "c74a939dcf0eca002d7127591c709f54d4ba6b92",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-09-07T07:35:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "71e4c8cb15594593d72ad07b044463d174ea8ef1",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-08-18T03:56:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "029a36d40636ad275bd33372e20eddf0f61ad449",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-08-18T03:46:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "12d6f7172eccc89164b28ee6b773710a12a8b799",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-08-18T03:42:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "04274df0519cf4fc8bf193dd69492223edd269d9",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-08-18T03:37:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9f748169b8fe20722d938425190e4949ea1d03f",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.dev>",
+    "Date": "2021-08-18T03:34:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06cdc7119d748f347e7f07be9dbef860d8fced15",
+    "Author": "Hummer12007 <hilobakho@gmail.com>",
+    "Date": "2021-06-21T12:09:15-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "548b68b331b4ab5f7bf931800c19c3fd69e3c187",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-06-02T07:40:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 66,
+        "deletes": 35,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e74f0cd8462305118052ce48a3aa37f2dbb6b86e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-06-01T07:17:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c2a634d2c703bde09e9bcf5351f3d0bed7c28f6",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-06-01T03:27:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "cfg": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9abff543d6e99ca703096a3ae15607231819cb5a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-06-01T03:29:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ini": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 17,
+        "deletes": 97,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "75ccd2bbb3046f38adf6de94abe71be373f40af3",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-06-01T00:37:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "eceb89e58ea8d0acd73560ccdc949b2cd677cda1",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-31T09:19:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a5cfbb04dff51b662a1098056630b941f743f01a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-31T03:49:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3f846ad1464486c86c46856066fa8e1b62132fd1",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-31T00:54:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 20,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5933b65874df96e5c5e7d0ac8e08f8406719c7d2",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-31T00:16:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 31,
+        "deletes": 34,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "d5686dcaa7b4b6d1adffc39dfe0d6ed0597b798c",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-28T07:05:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 23,
+        "deletes": 23,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "46482fea3661286eebf1f90cc15b92ee117466cc",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-28T06:58:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e74daeaf979ff8e026a829fea8ee8e116ea68245",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-28T06:53:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 120,
+        "deletes": 74,
+        "occurrences": 18
+      }
+    }
+  },
+  {
+    "commit": "5a76e1c798ea50aa0b00b2528e56f331bd02f2b2",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-28T06:21:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "typed": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "680e0b7ee79ceac3df57aa5b03949b249d03d02e",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-28T05:27:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34fdd951b1bf1e0a5b60333c23d6c70caaae1b62",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-28T05:22:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 7,
+        "deletes": 4,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "0a12849075a281010183becd1bbcce3b537a476f",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-28T05:02:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ini": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 21,
+        "deletes": 18,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "a982dfb589fa2717034bffa5c7356a6d49392ff3",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-31T02:30:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ac115406a3e49d6fde8b186ce8233a0cc889663",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2021-05-28T04:43:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a8861a826e8257c857566ccc4fe60111c34e836",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-28T07:05:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f3438995696d795a4905d41a5e92b9bd576d28e5",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-26T00:46:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c736a87297bd378f1107db8ab54d06d69e681a02",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-25T09:39:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e3f88d0eae0a4ee1d15750aa529a197a5ad1abad",
+    "Author": "ohayak <ohayak@users.noreply.github.com>",
+    "Date": "2021-05-21T13:57:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce0f3909ac0efde35998d058e35918e11ea35375",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-19T09:10:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "88271b8794639575a631c2d15c6fc0b376f25481",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-19T05:05:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 27,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "be35592fed007aa4bef91170d40e2cee8cd77b51",
+    "Author": "J\u00e9r\u00f4me Lafr\u00e9choux <lafrech@users.noreply.github.com>",
+    "Date": "2021-05-17T09:57:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "46d09865297a9d9bcc75faa1db2c283abdb402f9",
+    "Author": "Ted Elliott <elliott.ted@gmail.com>",
+    "Date": "2021-05-14T14:56:20-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15647e5b69704e00f4c8e6a53d6eabce2b439443",
+    "Author": "Matt Miller <b0urb0n@users.noreply.github.com>",
+    "Date": "2021-05-14T13:00:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31b669a6769fc73c230c819584f6062e4f5735eb",
+    "Author": "Ted Elliott <elliott.ted@gmail.com>",
+    "Date": "2021-05-14T06:24:18-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33fc220b723d6637fb729e4c3b505c4e6cb7122f",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-11T08:39:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 11,
+        "deletes": 18,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "2054a17d3e81747aface89c6379beddd0b1b4110",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-11T00:59:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c3d90322c042cfaeac868ca46893be7316c24f6e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-10T02:06:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "db896f410fa84f628b9870b148fcae7705592a71",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-10T01:36:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "945e547c5c4e6deb17f81b36afd936bce5755b68",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-05T09:01:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "862af89a192a7a8c6b2a73dad9077d2ff414c8a9",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-05T03:50:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20c8f1009f442850fb332b670b71bece4ca5efd8",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-05T03:35:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "178b0fc85a37dbe5884a9028cc1d30506f14b369",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-05T03:21:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d551b09f9c2a0f279745b75fa19bd99b57342337",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-21T08:25:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 109,
+        "deletes": 16,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 462,
+        "deletes": 180,
+        "occurrences": 17
+      }
+    }
+  },
+  {
+    "commit": "3df1c817665609dbfcc3d843b93a06cf38e5e439",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-05-04T07:08:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "583c374fd609d8c033457aa922cf89e2ed68d6d7",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-29T00:56:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9ebfdcafab3a1809242e0f5cfb68fb80ded5d6dd",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-28T01:38:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ec68a4bed31bd8ff43f89268bb89325c63f7a80f",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-26T04:09:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4dcd3621f1efc4f84c8ab058d30a9389d4d5d74",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-23T13:27:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d950cc3f9446fe49e79adf34d6a537075e542e60",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-23T06:37:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 23,
+        "deletes": 63,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "c9671c66ee7839eae92f947db9a0fb109a7f1a52",
+    "Author": "Leo Singer <leo.singer@ligo.org>",
+    "Date": "2021-04-22T10:58:24-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "645e21a0d35d6cd65f187d588919bd81baaf115b",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-21T08:33:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 20,
+        "deletes": 31,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "7b65bfb3fa2bf4029eaaada43a1bd20c501d4979",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-21T06:47:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 35,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "670226141f1cc38846059eac4db6675e7a73e74c",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-20T09:53:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 32,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "rst": {
+        "inserts": 144,
+        "deletes": 41,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ac56d0949b2f70f8dbfd5ef92ed912ad63af508",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-13T09:15:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 58,
+        "deletes": 11,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 26,
+        "deletes": 40,
+        "occurrences": 4
+      },
+      "sql": {
+        "inserts": 118,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "749308395d1f523088d63c56e5b2eeeefb0dd9c6",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-09T09:57:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b936127ec80947ca6d762eb1daab234f8c6950b3",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-06T09:09:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 49,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 66,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82e2f8e51a7053cdd36887e4cab4bfe5b495c5c4",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-02T09:58:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 348,
+        "deletes": 410,
+        "occurrences": 17
+      }
+    }
+  },
+  {
+    "commit": "640a6559d3ffa908065f9bf32acdfa1bc83621fe",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-02T09:36:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5b00d31135eef77049e2b2184b04f73680f10de",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-04-01T09:34:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7f132b76a404031a7ce828e9f8086297573605a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-03-25T04:46:34-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 58,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 43,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 76,
+        "deletes": 46,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "18ac116c79b188541ffa0b503b4b48149bcc5f8a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-03-25T13:32:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 153,
+        "occurrences": 1
+      },
+      "bat": {
+        "inserts": 0,
+        "deletes": 190,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 0,
+        "deletes": 28,
+        "occurrences": 4
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 314,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e316a69caa886e61f86e0b28b540c3fcc79860d4",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-03-25T10:24:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 8,
+        "deletes": 13,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c8bcbbcb41c3331f39ff521332822dd06c6ac336",
+    "Author": "dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+    "Date": "2021-03-25T11:07:58-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "yml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f97d2b2708e89daf4bcb61ec45bab0a8b4945948",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-03-17T09:44:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 214,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 37,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 63,
+        "deletes": 50,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "185edd7bc2e6a1884b0736dd7eee4df5106c3891",
+    "Author": "Jonathan Schaeffer <jonathan.schaeffer@univ-grenoble-alpes.fr>",
+    "Date": "2021-03-04T09:15:45-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7e674859502ecb1d9ba594752df8ff0845e9421",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-02-23T04:28:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "db37e5dcf7aa8ea805b6084b12ac895c05c3089d",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-02-22T09:50:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 22,
+        "deletes": 10,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "c7df6be41b6077782a78ade9472f90771de95fee",
+    "Author": "Sergey Golitsynskiy <sgolitsynskiy@gmail.com>",
+    "Date": "2021-02-19T08:08:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a8c84fef826e2fe8cc3fa8f6699b82ee422e7a06",
+    "Author": "Sergey Golitsynskiy <sgolitsynskiy@gmail.com>",
+    "Date": "2021-02-18T19:50:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cb793b112027bbfcf510dfa6bc48e91be762625f",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-02-11T06:37:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a7419f71825c89a9b3697e6b710f99fd0014ea9e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-02-11T05:55:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a866c980819a18aaf2356d2d421b8da842bef74",
+    "Author": "rafmagns-skepa-dreag <rafmagns-skepa-dreag@users.noreply.github.com>",
+    "Date": "2021-02-09T11:24:07-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "4acef7132d17067d2de74d0f53b36d993fd4675d",
+    "Author": "rafmagns-skepa-dreag <rafmagns-skepa-dreag@users.noreply.github.com>",
+    "Date": "2021-02-06T20:36:55-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 35,
+        "deletes": 15,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "29d70bd7130861119c75109d74b31d64d44545c4",
+    "Author": "rafmagns-skepa-dreag <rafmagns-skepa-dreag@users.noreply.github.com>",
+    "Date": "2020-12-20T17:51:32-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b50586d7238e96748545ba4e0ca7aa04f07558c5",
+    "Author": "rafmagns-skepa-dreag <rafmagns-skepa-dreag@users.noreply.github.com>",
+    "Date": "2020-12-15T22:45:27-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "af2802457bcc0c4e253c72f20e3d23b0076d6c57",
+    "Author": "rafmagns-skepa-dreag <rafmagns-skepa-dreag@users.noreply.github.com>",
+    "Date": "2020-12-15T21:55:39-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "ini": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 73,
+        "deletes": 27,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "203a640dd5e0a513af4143830ca9c84d8b4226e9",
+    "Author": "rafmagns-skepa-dreag <rafmagns-skepa-dreag@users.noreply.github.com>",
+    "Date": "2020-12-13T21:40:29-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "7d12236eb1577853e8e0f84d027c3a33e6669215",
+    "Author": "rafmagns-skepa-dreag <rafmagns-skepa-dreag@users.noreply.github.com>",
+    "Date": "2020-12-06T13:32:39-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 21,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2cd984c52b664a1ea30d878424012ac26a0ec0af",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-01-29T14:48:45-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8d77394b909c0dcc1ef8b7d8ad12f1393734b71e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2021-01-29T14:41:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f2b495578450e861b7a56720df484f9079444dd3",
+    "Author": "Pat Riehecky <riehecky@fnal.gov>",
+    "Date": "2021-01-11T10:32:12-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 11,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1cd74a31882eab486f6f4e9b0ba966fae8ffe5eb",
+    "Author": "ctholho <28910105+ctholho@users.noreply.github.com>",
+    "Date": "2020-11-27T16:11:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7440699f2aadea4b12a6fa014114029776f5f2d3",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-10-28T13:48:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "24ade0c9fb632c3af28713639f78abd4ba857517",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-10-27T10:02:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5ca84016637651d0b8d0660cc3f37b27ce4b25a9",
+    "Author": "Martin <martin.meyries@dataqube.de>",
+    "Date": "2020-10-08T23:19:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 12,
+        "deletes": 21,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e4b5d2a88c9099c4e8d9aef234caf39ac11e4558",
+    "Author": "zoowirt <57291347+zoowirt@users.noreply.github.com>",
+    "Date": "2020-10-07T07:49:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a950badae9530f726faaae24b2cd1bfe7a10c1c0",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-10-01T08:53:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7427378161a3d6dbb7953e258f9ef2732d8a0809",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-09-30T08:07:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c96b8861662b366b0561bce5eebbaa3ed25aa32",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-09-30T08:05:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "035f90c6c365856cdf3492ecfda988624fe4f3db",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-09-17T05:12:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "814066c7ee83924012d6c672ad65d41721544b0a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-09-17T04:27:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e2112ed3bf1ab4937b122db049c1e928e02beac",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-09-16T08:51:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 65,
+        "deletes": 38,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "ac7e2969c2cb2ef97d83d8a333d469c0b2781d76",
+    "Author": "Pat Riehecky <riehecky@fnal.gov>",
+    "Date": "2020-09-10T10:39:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 54,
+        "deletes": 6,
+        "occurrences": 4
+      },
+      "sql": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a4c6dd88d461ddff3ecab337a699f076446a8564",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-09-08T06:04:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 26,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3a934f2f95a9b53b7b2d35b141e67db57b883b85",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-08-25T03:44:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4b0421ac9b3a9f491c5af67c7cf2286b72485a84",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-08-21T04:21:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f45f4b6426c5d7b5a9806dc7d3b8d726d44c2f3e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-07-31T02:39:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 46,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c3f93fa840ad05e40268d6451c7354a553c1bc39",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-07-31T02:57:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 78,
+        "deletes": 50,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "5371c85b9a2a997d7cff7dbab6a8154407b0d672",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-08-17T02:34:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed825cc7ea05f99fec94cabc1ebc687e0aaa8d89",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-07-27T02:18:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f162519bedcf6d3eac8769aace6f3ea6d71b5a2",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-07-27T02:15:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "54e74a32fa38cac0f711d2302342e55c619b40c7",
+    "Author": "Ram Rachum <ram@rachum.com>",
+    "Date": "2020-06-17T04:40:30-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "157ba1b9addf71ccdd226efb13dadcb5c3e1cd8f",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-06-09T02:34:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e099aadf0d7b79e93548762f36eb854759f21ef",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-05-12T01:40:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fd75d2ee348453aea9a5948aa887dbe5503df63f",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-05-12T01:10:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cb71581acef3f9f5d6dcde206e76e6ff5cea630a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-05-12T00:53:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "199d41464bfb664f28853e3f0b4004504797b417",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-05-11T08:51:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5ef7c74b2cb821bc8f7a4af125675d8eb15e44da",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-03-19T02:21:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "30d3bd8ed8130e5b525dfbc239915513e474c46c",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-03-19T02:20:56-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ef8f5605f1e48158c8a35b92d603145c86f39e2",
+    "Author": "Ashok Argent-Katwala <48444234+ashokdelphia@users.noreply.github.com>",
+    "Date": "2020-03-19T01:33:38-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 83,
+        "deletes": 24,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "0cc51eaf1f73afe566dcb4042d492e04bb8bea2a",
+    "Author": "Ashok Argent-Katwala <ashok@delphia.com>",
+    "Date": "2020-03-16T08:29:10-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "10e385eb3e3bc4225795536e4bf1ee9004d8257b",
+    "Author": "Ashok Argent-Katwala <48444234+ashokdelphia@users.noreply.github.com>",
+    "Date": "2020-02-14T09:23:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 16,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6f1316060381eae3c6754b126a727f2bd29b87e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-02-13T06:13:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3553ab13a5efda6bd517562998fe62913d3d5aa4",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2020-02-13T06:00:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "756dc653075208aa0ffaff75c6852d7077b86396",
+    "Author": "Ashok Argent-Katwala <48444234+ashokdelphia@users.noreply.github.com>",
+    "Date": "2020-02-13T05:55:43-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0e7be722f702cd9995c7b36ee9ef87c17dd2b2bf",
+    "Author": "Ashok Argent-Katwala <ashok@delphia.com>",
+    "Date": "2020-02-08T03:45:15-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "490dc8de2309b4b4e0fe63793b5e866660066c6b",
+    "Author": "Andrew Ash <andrew@andrewash.com>",
+    "Date": "2020-01-05T17:03:50-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a433d1fad354301a1445feb8063fd5fc36f2029a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-11-26T06:09:53-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 16,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "01c49b1329de1f22248250e4ccda6e272c3c51c2",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-10-31T02:14:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "509c2acc449c71e88ec00a8a79bb715030da7fe8",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-10-31T02:13:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e35f39a5d3ffe5fddc450aace85b20e6801cf699",
+    "Author": "Dustin Ingram <di@users.noreply.github.com>",
+    "Date": "2019-10-30T13:07:27-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27ab8d3d747971bb713389076ed60796483e326a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-10-15T12:47:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5a42e7adc77220fa08f072ac86f1a5de57ee2a21",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-10-11T08:38:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ba575e993a50e3faee7beec4ae3233dc2084fedb",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-10-11T08:30:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 34,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 111,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "2027bdd09f67dc7cf84462b68fb37f9e54e5b3d4",
+    "Author": "Damian Skrzypczak <d.skrzypczak@clearcode.cc>",
+    "Date": "2019-10-07T02:11:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3b0164605d674a8737adf69f061c7a745ef883a6",
+    "Author": "Damian Skrzypczak <damian.piotr.skrzypczak@gmail.com>",
+    "Date": "2019-10-07T01:04:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af597924ce11cbdd42765db558e72082b0cafb18",
+    "Author": "Damian Skrzypczak <damian.piotr.skrzypczak@gmail.com>",
+    "Date": "2019-10-05T11:19:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "svg": {
+        "inserts": 238,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ceb6e2cc86558fbdce5509ff52c1d211f1a7e8f0",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-09-24T00:20:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "81f0d7872b7bcbc490696634667c2cd9ab0fc4a4",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-09-10T06:17:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "76e6605e19450fe37faabf8679332d66a597529b",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-09-04T04:43:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1a44fc64a3f59a6cbef4e94c30ef4f8b19647653",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-09-02T01:52:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a22ce12e7f05e21fff8cc8b74eaad099d0fe9e47",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-09-02T00:47:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ini": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 12,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f1d46cc537719f6d9ec818820ca7d4a00710653a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-08-30T07:53:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "ini": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "255681b0036203946216e3a70839719782a7bd91",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-08-09T13:29:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 136,
+        "deletes": 49,
+        "occurrences": 4
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "151c16a818243bbf871b1bf21b3e65d8d38939a6",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-08-01T08:50:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7165667bdc595d69cbee89667ffbe717a3fb536c",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-08-01T08:43:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8848511409e2691250d05d201b36c0d1312c5e8c",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-07-30T05:36:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f49d8488596d70e9aa4c26b78ff9d61d2fef1d4d",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-07-22T05:03:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 68,
+        "deletes": 75,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "481283416da64eda4e7cca5252a30d07d0ede3e9",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-07-19T05:18:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 56,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "df795a934cbc887dc2ad8ba123fdfdd7f74c9868",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-07-19T00:51:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 12,
+        "deletes": 24,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "680da27912f658bafac56af365247ba3ac72c975",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-07-19T00:50:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d8d7cfbf1e17b682b08a0633a1e3b6930722b36",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-07-18T07:51:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "70d2a15f27f4c52c146d07b66311193136370d72",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2019-07-18T07:27:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "cfg": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9fca698574c7c8597dddcfec8979baf1e8ea9877",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-07-06T09:53:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "75f60f21febddc796659a1496536980e810ac4c8",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-07-05T04:52:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "95481fb5d9d44f8f4e8497f8e87fa2f609bf0396",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-06-22T00:26:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8565d82cef8b2cab89a35e51b5eaa137797a4d82",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-06-21T09:37:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce5c49bb2d49e28a69abea69f147c00aca56c7d3",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-06-14T17:11:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "084dfdba1f9a9c3a7d50148bbf8bc6022afcb701",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-06-13T18:09:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e52d428ebc9406010d74f9c87e6b996b1e90aaa5",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-06-11T11:36:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e8b13233d927a30f45cda685c0ac70ecb17464b",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-06-02T13:21:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7272bf92a67e95680e609cbf6826f763359b950f",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-06-01T12:42:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4bae6c19f25e9aef13a4a57f83ac614472471c59",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-05-31T23:55:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f8637a5b69abffd95e6a9f97f1c937e9b89ac78",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-05-22T08:04:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b7aef61de763647d1032294a4615927c891a4aa",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-05-22T08:03:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5bb6175bd9bdd8440e3fa994455f11495795e812",
+    "Author": "Hugo <hugovk@users.noreply.github.com>",
+    "Date": "2019-05-20T12:54:46-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "b57e5c99290504b1085565d5ebd621a7d27af2c5",
+    "Author": "Hugo <hugovk@users.noreply.github.com>",
+    "Date": "2019-05-20T12:53:51-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "325c10eb9dc54933b55d30b6445e4d7937bc123e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-05-14T03:52:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 61,
+        "deletes": 19,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 18,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0d88bc437c65b47e431e16b321b8a3dbea658be0",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-05-11T16:32:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "805bfec6ecf79cb5fa3dcd8ac3dc606728c0e300",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-05-08T18:53:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7fbc5ca1dbd5f41db9dbb058a482293931de1d46",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-05-03T01:46:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3b28eb59f5c6f8ee60ca284550c254ab967974d3",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-05-02T15:10:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2e7d7ee279d36b2166f1d0bdbc5fd87aa03e434f",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-05-02T14:32:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "08d0b9124369c65b0236561f275c7bf076e2f9b9",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-04-15T12:15:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "64f231861bfdeba9f4072a9dd169879e09f19e09",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-04-14T12:11:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ffdd0865d296a9cb4c8ef01cf292d6319856a686",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-09T02:57:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a7042dd4546959f88f05233f0b72229706a30480",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-09T02:56:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4676c0514bc9a85b4cd8d05910f70d3c213d0442",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-08T14:30:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a2bad0e58341896aa2dfd73c4d26ac5d439c5d92",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-08T14:56:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "926e8bf9e1b1145e00671153a8c774a2078079a7",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-08T13:40:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da37959a33f9da55c8010125fa57b32a98948174",
+    "Author": "Adam Johnson <me@adamj.eu>",
+    "Date": "2019-04-08T14:13:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "26c6b908cba041b45a13c22718d36fe4e740d69b",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-08T13:35:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ed7e012e7d5ae6b42871d343e17e4b17385b71b",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-08T13:29:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4df9d8344b35555c88f77dbf9436259934479da8",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-08T13:28:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "75de779964c6bd5f851e3375aa389cc99701d6f6",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-08T13:15:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f445bf0847efa8b82f0f6b109644cb4026a34d7c",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-04-08T08:06:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9bd408105742a2a0c87f8e84064e8ad94da3f609",
+    "Author": "Adam Johnson <me@adamj.eu>",
+    "Date": "2019-04-05T07:33:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c796a6d685e19ecc4975200b876d2a51511843a",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-04-06T14:32:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21e9c1a700dd90d8b12968d185bea0454d66e663",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-04-04T04:00:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f8e93f0101c6ec1ed7b7b6d70ad2e00e43cc6d2e",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-04-03T18:28:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ef54b79d64a5d5a01c8481cd61cf2cae217e48f4",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-03-31T15:30:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d18f0f90dc0e5d6437793e8028e3c758754c821",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-03-20T17:01:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7570fd19c7e2b4c753f299dab3d87706a4590b5d",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-03-13T05:45:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a127ca07fe1700f385adba877f358db148682cf8",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-03-11T02:16:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6188a465a375bed5597573c8f7ae8663e38f122a",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-03-02T06:00:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e8d4a487c45850dab01acc83ae765bb19891bdee",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-02-27T03:52:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "908d18b9ea5c3efa6f407907578059663b50781a",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-02-18T23:12:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "45e509ba8b450c3e7081cd3c8d518ef9672decc2",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-02-13T04:12:29-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "62beef26985ff125a876c21c35a0e216f42790a0",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-01-30T18:05:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "519eda171c04a5fc61b201815cf4beeba878c422",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-01-29T07:29:25-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8b6727b0eeed8f178301a79ec6ba0078874efcdf",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-01-28T14:01:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6de8283324c439a9b96a4f0551805bbbc684822c",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-01-22T15:22:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "486217ce9a188d1f1ca2d6ea1d843bdebcecdfce",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2019-01-22T15:17:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "45d8fc063e72fa2b44d22539b0d27be92f968a48",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-01-22T14:08:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "604ad28af95aac721a96cf12848c0c2b72d15be8",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-01-12T08:27:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "14e935b5367a815d8ed25e359981898ca0831cad",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-01-11T17:34:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d85e12119a5fffbc4bffd69d60c1b5767e48ddf2",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-01-06T19:51:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c619de290b8a64c6b5775a134185ef3e0459922",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2019-01-06T08:46:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f82753eae2e71106c5211e37fcf80e783dc8f3b",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2018-12-21T06:02:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "75f04cc2fb16eda68b6b2d7cb90bead9b88f5f4b",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-12-16T09:53:40-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8a102a95f7ecf1df2b919de59306b8c17c510bc7",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-12-14T04:06:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "518f3239d4cae788e86437e8ac603aea26f4ed61",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-12-13T06:24:06-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be3cf85796e8a766ed106ed320ff305a5f059b6b",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-28T02:06:04-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab6a2aaeca890ff2f2c9d27342fefa40ec15efad",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-27T04:53:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bdd1a14e656bc4e66065aff589b913550a173d93",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-25T04:07:10-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a01fc913e2b20425fa0455b22f4972693b748c91",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-23T18:58:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a972f64103f9a54a415fb6804c3c64fdd1d7483",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-16T06:48:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 0,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e2748f14e40f87ce8a526ca43b873a7c26fed9e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2018-11-16T05:53:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 496,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "ini": {
+        "inserts": 0,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "cfg": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 62,
+        "deletes": 75,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "71b38ed3d7575f49be789f384b0a03c56320c049",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-14T10:43:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a0898123fade5f2a20f962c82397cb8766b5f5ff",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-12T09:45:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27b18c3e41fbb6b495becb06c903e3baa1ec838f",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-11T12:25:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd8d6290f0d5c2d94617246308ee386a95941f68",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-11T08:32:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0994dcd19c9bdf68b9d0670cee1ba462fe7b0c59",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-10T07:00:09-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "762392f659e512d3f2af4e9575af38a7281d0559",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-09T04:43:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2eec38803c2209d8c17001520bec8684fece09db",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-04T08:57:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31c9eef29e7eb21be52f0824e9d0818beca175ee",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-11-02T04:01:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba9e845070fddf4dabc8672206e1e20f7370e19e",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-30T01:29:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7148a455a185d0ee0e62fba932ff8e118ad29ca9",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-27T10:26:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c6ab354a689ffa6fe78dfd2cb8d155d73f129a8",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-22T20:16:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "283c8bb6232cbd4a1be723e9265aa89c77f36b15",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-16T14:11:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6a0b240356a90217e90b96da422e335369de17c",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-15T13:49:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "74d28c951a8770ab5c95d773e4d240328309c688",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-14T05:03:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3a9c96ec9a84d2b6222115b7948d076c89d54662",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-10T08:05:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "00edf82f6ae58bd4e1489bb2742d1329c15bc96c",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-09T10:33:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5d54f8985c6445f4ccbd9a4b10a0e61d51af6577",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-09T09:52:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0cb29a442254ef59d01c2f08ed92412638fbbf97",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-10-02T14:24:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a28772a5e7742a2eb0ea8f881a02abe2e983237e",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-09-28T03:37:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f4bb92a558df7c05af839cb1bbf935c79bb89883",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-09-25T12:37:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82feb34b379bb6f721f6333faf684d291d47cb61",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-09-06T05:57:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af404733a5b55ded342bcc3bf85bf2a91c0412ef",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-09-03T16:48:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "962304047343b6723a0273fb68d2d559696f930d",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-08-26T13:10:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9d26dae54ba53aa6dd030857de352ec1f261843e",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-08-24T21:50:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ad94ad1958cdba12ebef7536bb42a3ab4d59b0e0",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-08-18T07:45:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "feaa4385ea231a1c75072401b61b035690379e5d",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2018-08-17T14:21:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "78b130d7df09721916977f42c2f9c40e38cfd7d0",
+    "Author": "Will Vaughn <willieviseoae@gmail.com>",
+    "Date": "2018-08-16T16:10:54-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "368307b6f06836d12a3443f820b201d72e84b2dd",
+    "Author": "Will Vaughn <willieviseoae@gmail.com>",
+    "Date": "2018-08-16T15:56:27-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "d5dcf77dcacff48dd2ccecaf5f10f0098eb12540",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-08-15T03:07:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a05253e90915c3abd5421a127cf4f7122cb4551",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-08-02T17:58:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "716caa8c355694cc7f803d527fa29ed1ba07d256",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-07-31T11:27:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a400af89217d8f80ce4e4cb176a7c766ba903695",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-07-30T18:43:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed7f4e5872aefdd9266f7239f048bfff2592e2b3",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-07-28T09:41:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "79f9ceb4759fb37d004a12398457a581e648086b",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-07-28T05:49:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a74543ff39a0d9e4ab4013a2b872d4d46389239",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-07-27T06:52:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2d56a2cee43c061f6dc461131d4ec493b0955514",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2018-07-27T05:14:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 21,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d690851fb3f8752fa4adba5abde38b7a348c7f57",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-07-23T13:15:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61655819e1516c57e8a85fe07db87da2c9283d7b",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-07-02T07:58:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da0552d2af18b80ead191d5cbff97a9f930f6948",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-06-20T04:44:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "72cb4cbe0155485903fb920726da6e6c302e2560",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-06-17T12:33:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d26d5bd8fe4d86142fc3ee7cf575541343f5ef77",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-06-05T05:56:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c4bef81ac0d5409e9b4f269273ea511f1cd8731",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-05-27T23:33:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "83af309c3d9fbe54cc812feede927fac39939f5b",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-05-23T04:38:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "05102ee7217fa420d2488b8fb45724a7c26e2f74",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-05-20T10:41:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f7527a8c63c85b26fce03dc8ea49d8287e7bf774",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-04-24T19:12:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2d7b9f55f54647771923eeb769ae802de73f8825",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2018-04-10T22:42:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b42d931519e46d3ad578ec019e2c923c403a1992",
+    "Author": "Grzegorz \u015aliwi\u0144ski <fizyk@fizyk.net.pl>",
+    "Date": "2018-03-25T13:23:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 35,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9f1dbea4deb8fe3c215b848f076f37f45fba9561",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2018-03-23T05:13:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c47462c6d93bef7145019f66766ee1ec622c965d",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2018-03-20T07:36:25-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a115d52ab905e32553200c126c3fe9062558746a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2018-03-20T07:28:45-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c465c3ba86567fe7b23c546b74a26b9c291b45e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2018-03-20T07:27:59-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "90b27a76ec10fc2bd0d713de488e9c5caed2f7d3",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2018-03-20T05:51:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fb84556d2a8e277c882a9309ef3c701e1d375ed2",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-03-09T09:43:56-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c0f9939df1701d4c6f2f975d1a71a3474b5ae7f1",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-03-05T20:23:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7761589de5572fe73e65cc077369da4d8122dd3c",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-02-27T03:20:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a4ff5651e188b07acedc1e9dd673865e025ee4a",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-02-20T15:58:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ad9815790a8032c506cc5bb69ee568a599e1863",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-02-19T23:33:09-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cf2c822222bc64e82e36503b370527308d26c7c2",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-02-10T18:35:14-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd5028798195517abbc754f24923e3f9953cb403",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-02-08T15:03:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e9f6bcad7e71ab587532962cd9fbe8d2a54e9eb",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-02-03T19:33:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b79746520fad34c4dc03ba311a4782e7c284e8f9",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-01-30T16:23:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92d306ca56ab71b6772fa8b8e458a754d7ab32a8",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-01-11T13:53:59-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b3f2cb3f33a0bbf37bd3504f7419c8c4f00f132d",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2018-01-04T17:45:34-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c89c8787700bac70a08c7a2a689126700c3a75e5",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-12-26T05:58:27-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d333fece20b7d199332fbff7fafa1cec19f8e078",
+    "Author": "Dmitry Dygalo <dadygalo@gmail.com>",
+    "Date": "2017-12-23T07:03:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "699484d1ed65e68aefe728d037fbe04c53277f28",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-12-18T15:00:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "670218570e7d03c0d54b17aef3624c826e94f254",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-12-13T15:17:27-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61e647d6c5d0eeb9498dcd9cbfdeb87ada43969f",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-12-05T20:11:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7f740caeebe107474033670c8c2a6719960de1c9",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-11-29T04:54:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "94ecb20a7b1eb841c55c2630edfb6e8574b802e6",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-11-28T09:24:09-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "288822d8807d244833a0a12bbfce4f7fa1f7d715",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-11-27T15:34:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a0eb625fa95ede5e76e076e3fe7517885b74589",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-11-22T03:39:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b6926efb1c338a9754ce80e016ca78bff44345b9",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-11-21T14:21:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 20,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8a6558896dc8682e7135b57ff9341d2e6100becf",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-11-15T05:19:51-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "396b1657d70ccfe1a790ce20fef147e6aa4ae25f",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-11-13T09:54:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9ab243315897f6f36cda042d8319d19216ff6fcc",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-11-05T10:12:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "01cfb14b978c76edf3ec9210688859bc3600bde3",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-10-24T14:59:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "312677a27c0aa0a1418daf2cd4152fe156c332cf",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-10-24T08:06:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2a2203fd2d879023d6c9d1d88498fa8e5d8246f8",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-10-20T06:47:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d469e68a3ad741b343b76fed0ab54e809b85777",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-10-09T10:35:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "732a9733850f83a522ca81565ba0d8718a943510",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-10-08T02:35:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c6122af148e5a3dbe21f0aac53c1b8ce1b18972",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-10-06T14:12:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3c91330ed31c60801ab7760755e99dfdff0d4581",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-10-04T15:16:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "535b647af06e4feed3cb8cb3746646b1c9bd062c",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-10-04T12:22:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "58f4b0644a834ecb10a4c93490111f1ec3528f9d",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-09-13T07:33:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5b56faf3cdca4058d54bd9d87ae002d9030c190",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-09-07T13:28:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7fe5f3ae0f59c957a6f70c3591beaa7ebd889a9a",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-09-07T12:03:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f95955805932133c7162e3cdd483b64109cdb50b",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-08-26T08:18:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f9ccb3c6a9f90047b16cc4619c39e684c8d624f1",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-08-18T04:36:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed74446ff060ceba7f3df6c812f8eca4027292ae",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-08-11T04:27:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48e56079cca1e0dba26d6246c20af5babd9c73f5",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-08-10T09:06:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebf0d99d7f6343905752ea986aa495f41d3e1f26",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-08-09T13:52:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4b44a86d95b9083f8ad930251ee861dd2986e875",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-08-09T08:40:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb36c134dd011f30d03c6614c0a97b08b99a4044",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-08-09T08:40:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9295bbb8e567172c24c7aae4d0cf6edb3f88fea8",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-07-28T09:01:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "727c9fe14e1e9933347a249818ff83cde60a12d1",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-07-28T04:23:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5b5797dc43485dc906ee2cfe5c0a6cc6b753ada3",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-07-24T10:54:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "178d6e76b2519bcc081c75132cda9bf138f5639b",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-07-22T08:28:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6251293fc5db41afc26b6570e56481cb1dc07bfd",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-07-19T07:55:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e366c932f0617ea20dc941e7e29b768ac968be3",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-07-06T03:24:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "acd927b7ded37cb94ed08fb0961e6a0bcffefe56",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-07-04T08:57:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "225453e60ca4fad9bfffebd561b43ab95fce34ee",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-07-03T08:11:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "612a14ea1d574daa9f5106d6167d21ed1e369061",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-06-28T02:46:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e83dde533f243da8c4d0a7bc40fa80430be74a6",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-06-26T17:32:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1038a381b61a8cd57dcfaea4a9492f7a5c6e6cd2",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-06-26T08:53:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c49f720e932b30d7bc897c5da53d2405fd403e9",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-06-14T15:55:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "44047c9aad6875b0f1f03e26f0a9c7f7a6d1785a",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-06-14T17:50:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ec97968282ef597bb49deaf99d16bbca04eed65a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-06-14T15:50:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "25594ac829f5f61c6d743f385eda31160b52f2f5",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-06-14T15:25:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f36a616dd47982165736dbd6f1105a8e110fd8c4",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-06-13T12:38:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 11,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0315d73512a068f2c4e48aec6b98a7b739ee43a2",
+    "Author": "Donald Stufft <donald@stufft.io>",
+    "Date": "2017-06-13T06:52:49-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4a312de67ac5b77eb5e27b03ea89d00ed0c5fc65",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-06-10T08:02:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1df30598a7e40c125f1ff94793cff8c3a37e41fb",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-06-09T19:22:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7a91e1ecd8c4937b28ae49d0105e599ac8b1e1a",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-06-09T05:28:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0eacafbc13cb9349783c04aa1a8be62690b0da4f",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-05-31T08:00:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa76070991e44fe6878af0684ef42380ae9bb802",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-05-22T15:31:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "32ce7088075150dcc3597ad741e84cec466ee582",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-05-15T03:55:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d6203d7b5ec5c11c362e4ad9bb26919a08c19357",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-05-14T19:39:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19315a46a607cc9e3230f8449e955b932a09d1a8",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-05-11T18:09:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fa81a11d49abf31d3ba3179ecdbfec7dd4c25390",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-05-09T22:02:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1a5a5a1baf026718c5f2036c451dc70127ae11bb",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-05-07T18:20:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7405937d0eefba92eebf760aa8592b501ef0523d",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-04-24T11:08:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cdb938e64ed94a4c0e02bcb121792d1b34c72afe",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-04-18T12:03:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b13feade03032798ae5da15abcc15d1adeda615a",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-03-14T14:22:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "783f742bc9bb393caa7bb9fe020c2ada34446655",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-03-01T12:08:40-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c194a095434904b4b3cbc27c1a60606bc4147e5",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-01-30T05:29:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "abff4d9a3a0d7c311604349abf271bd718bff5ed",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-01-26T16:03:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "431d277da722d482c157ed6d63ffa2c9b151acd2",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-01-25T05:57:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "21279122427daa2bdd1efaa6de2a32c55bff4e49",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2017-01-23T05:04:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "96945c04481c6919a18c4721d88f7665fc54d789",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2017-01-23T02:08:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 12,
+        "deletes": 13,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "7c759ab029e497297ae095de1469a28fc7402f3c",
+    "Author": "Micha\u0142 Mas\u0142owski <m.maslowski@clearcode.cc>",
+    "Date": "2017-01-23T01:41:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de6c7128492367db329abf7501ca0e0ea544922f",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-01-22T15:21:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7add57ef7fe6fb2b45e64566ba25fb900fa72db3",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-01-17T15:54:40-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4698573622866b30556b21eeb3c56e6bc9ec2d23",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-01-17T08:57:47-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "864e5990712838f52c0b7e79467337a6f23396d5",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-01-16T19:45:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "17a22a7391e0eb90aa27a87707a0b7b6cf6474d1",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-01-09T20:01:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ecdcb60e98cb4ee03f935b77f2906be0ff9a673b",
+    "Author": "Marcin Jenczmyk <m.jenczmyk@clearcode.cc>",
+    "Date": "2017-01-04T03:11:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6467a60b2ca5ad194193e3205a755e3fe331f6ee",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-01-02T14:47:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "487f28e0c56d7dcc5990e6faf2ab38b371d2a6fd",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2017-01-02T12:55:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca38803aeb3e8475e90dc95f809e488e4d3d0ee0",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-12-30T09:31:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f191fb148bd024a55d66c1e5d3128e590671b25",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-12-28T09:14:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "24065a4de16b8a21799372b97ce09cf8b623d134",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-12-27T14:45:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebcd8a34b016589f0b1f9f9392012ed637fcd298",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-12-23T17:12:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e8bfa4c468b64b3b1cdf46da527ee4e493e0a63",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-12-16T16:23:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb02f800c2c3877a041a21726914765a93522294",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-12-15T13:22:28-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ed2755e4c87d9381ea29ae8925bbe6d8df2fa4c7",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-12-15T13:19:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4bbc9e08ad23bf7a988db8137666f9b20b1c6ca0",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-12-14T11:04:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "81bb71cd667ca679e590ed1cc646596941647bbc",
+    "Author": "Fran\u00e7ois Scala <github@arcenik.net>",
+    "Date": "2016-12-14T01:00:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8192364c5e25adf51e1126f9f78f7504cb26c7de",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-12-05T08:21:59-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "14510f0c84bcfc0b6f75d21733c031f967cd4b2f",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-11-29T11:37:38-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "942145e376908e9a09f27f822b5df66cf89f84bd",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-11-29T02:37:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "98542f4fd9e91061323b0a579c6b883b44f3a850",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-11-11T15:58:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3d12bdf64e42f61307a9c300117b86ba554396f0",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-11-11T15:56:45-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4fef03c3b0a201007e867bab387c6157ebe95e10",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-11-11T13:33:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a33d6fd13774443aba1854f8bdf48e986d49775",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-11-10T17:15:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e43001d6d6237b46e92e7b85f70d3b1bd324a07c",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-10-26T14:29:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ba81da08f2b14d9249d70d9151a27672494de83",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-10-26T10:34:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "83a158193f4784d107d8c04305fe94b9941b0e91",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-10-25T10:27:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "74edb58b15d93109e18cac7dabe9be43351d8629",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-10-24T16:07:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5369a0a9a4232d19df4149a6fb9022d232ea4b9d",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-10-24T14:10:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 13,
+        "deletes": 5,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "b1c10df16af1b51bd61af5a254af8e6c7f85bc95",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-10-18T00:55:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c190ecb91c35a830f4c81b66e7b96204a91de20",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-10-10T14:56:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "84d3631ceadc27c189ffa1ac2f336cf4fcd3a470",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-10-10T13:37:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92308d06d636a76fb003c8fb473bb47029ae1226",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-10-04T08:34:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 19,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 55,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b7cc9ad4154c6832902c1824e9a51de281e77675",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-10-04T08:35:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "08dddf2313bbbb809dceb861cb5c37aac0560506",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-30T14:46:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 14,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 17,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "612431dfc37c475fd7b024498563e3fb30d27da8",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-09-29T15:11:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "beef3626e92f6217ab359394d6d22757fa3d5cbf",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-09-29T08:30:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b38b17e27085dafdc6b39e522dbe8f7586221480",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-27T03:50:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 17,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "121c17183f0a58acfc521f611e5933a7d7bb393a",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-26T14:55:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 25,
+        "deletes": 7,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "c710193b238c5dda56db1e5db0fff068abcefa81",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-25T14:37:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 85,
+        "deletes": 15,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 64,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7837b8e8b8f101c70932b3990ad81f2232769760",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-21T14:42:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ini": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 615,
+        "deletes": 3,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "29e82de47af6d1f9c4a86c88819516f43c25e13f",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-20T14:51:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6a49003825764df155fdfe34dce811bf54a5eb9e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-20T14:46:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fc69a848bb64ef5f778176a0cb6f46bb7379f44e",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-20T14:42:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0be0b75daf7788e98654449baef677d64e1248b5",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-09-20T14:38:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4143b62a05171467c9e7d6eda0386bb84586ef08",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-20T14:38:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b417684478864c2b1bd1494e9467b369f2416d1d",
+    "Author": "requires.io <support@requires.io>",
+    "Date": "2016-09-20T14:31:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f40777a4ee64cc8989e1b49d8ce4f35cda714a4",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-20T14:29:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 23,
+        "deletes": 23,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "862e2fbf3394b4fb66ff215e336bc29fdfdccfba",
+    "Author": "Grzegorz \u015aliwi\u0144ski <g.sliwinski@clearcode.cc>",
+    "Date": "2016-09-20T14:12:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
   }
 ]
