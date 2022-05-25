@@ -148,8 +148,8 @@ class Query:
                     
                 
         
-    def add_commit_id(self, commit_id, repo_name):
-        self.commit_to_repo_map[commit_id] = repo_name
+    def add_commit_id(self, commit_id, repo_owner, repo_name):
+        self.commit_to_repo_map[commit_id] = RepoName(repo_owner, repo_name)
     def format_id_check_url(self, commit_id):
         rn = self.commit_to_repo_map[commit_id]
         return 'https://api.github.com/repos/'+rn.owner+'/'+rn.repo_name+'/commits/'+commit_id
