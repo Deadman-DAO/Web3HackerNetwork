@@ -6,14 +6,19 @@ out success bit
 )
 BEGIN
 	declare ts datetime default now();
+	declare exit handler for SQLEXCEPTION
+	begin
+        GET DIAGNOSTICS CONDITION 1 @p1 = RETURNED_SQLSTATE, @p2 = MESSAGE_TEXT;
+		call debug(CONCAT('Exception occurred in ReserveRepo ',@p1, ':', @p2));
+		set success = 0;
+	end;
+
 	set @repo_id = -1, success = 0;
 #	call debug(concat(repo_owner, repo_name, reserver_id));
 	select id into @repo_id from repo where owner = repo_owner and name = repo_name;
 #	call debug(concat('Repo ID = ',@repo_id));
 	if @repo_id > -1 then
-		insert ignore into repo_reserve (repo_id, tstamp, reserver) values (@repo_id, ts, reserver_id);
-		if row_count() > 0 then
-			set success = 1;
-		end if;
+		insert into repo_reserve (repo_id, tstamp, reserver) values (@repo_id, ts, reserver_id);
+		set success = 1;
 	end if; 
 END

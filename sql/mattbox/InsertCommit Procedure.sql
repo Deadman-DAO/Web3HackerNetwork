@@ -23,11 +23,11 @@ BEGIN
 
 	select -1 into alias_id;
 	select id into alias_id from w3hacknet.alias where md5 = author_hash;
-	if alias_id < 0 then
+	if ifnull(alias_id,-1) < 0 then
 		insert into alias (md5, name, count) values (author_hash, left(author_alias, 256), 1);
 		select LAST_INSERT_ID() into alias_id;
 	else
-		update w3hacknet.alias set count = count + 1 where id = alias_id;
+		update alias set count = count + 1 where id = alias_id;
 	END IF; 
 	
 	select c.id into commit_id from commit c where c.commit_id = commit_hash ; 
