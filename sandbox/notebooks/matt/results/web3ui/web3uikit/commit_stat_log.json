@@ -1,5 +1,337 @@
 [
   {
+    "commit": "a72f48a56ef549d72d9a4739af3add521fd2b6a5",
+    "Author": "GitHub CD bot <dmitrii@moralis.io>",
+    "Date": "2022-05-24T00:45:53-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a99a9dba4b0c69ebab864bb5a3d239e01ad3022d",
+    "Author": "BillyG83 <bgilmore83@hotmail.co.uk>",
+    "Date": "2022-05-23T14:45:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87cdfeac979e174232a1151a1e2c2f00ae7bc086",
+    "Author": "BillyG83 <bgilmore83@hotmail.co.uk>",
+    "Date": "2022-05-23T14:40:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dea298189e3ef86e7e6011039b76e0f490d86b47",
+    "Author": "BillyG83 <bgilmore83@hotmail.co.uk>",
+    "Date": "2022-05-23T14:21:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 59,
+        "deletes": 41,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a9f6d3b77e1d0a152a3229885c2269812aa1c6b2",
+    "Author": "locothedev <elias@moralis.io>",
+    "Date": "2022-05-23T12:51:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ef085a6e3407796d147dbc31de2acca8413d7b44",
+    "Author": "Ivan Liljeqvist <ivan@ivanontech.com>",
+    "Date": "2022-05-23T10:26:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "790c626f0061e685a675a389b41adfe8a4bc84c6",
+    "Author": "GitHub CD bot <dmitrii@moralis.io>",
+    "Date": "2022-05-23T10:16:58-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "407e21877e36f0a1d4915b5ffc624a4155867a0d",
+    "Author": "billgil <bgilmore83@hotmail.co.uk>",
+    "Date": "2022-05-23T09:55:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 90,
+        "deletes": 289,
+        "occurrences": 5
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 108,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ebb66bc1b9bc98f9dfac8990995d2e66f425123",
+    "Author": "Akinyemi Olumide Emmanuel <akinolu52@gmail.com>",
+    "Date": "2022-05-23T05:46:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "35731acf84dce8db8a460b811c7cd51fa995c99f",
+    "Author": "Smith Nkereuwem <smithnkereuwem2@gmail.com>",
+    "Date": "2022-05-23T01:20:16-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2e5f688e4da1f224bacbd02bc1731ea102ba0fe",
+    "Author": "GitHub CD bot <dmitrii@moralis.io>",
+    "Date": "2022-05-23T00:59:45-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b97713da44214fea93973bc5d7c3d391dd516b23",
+    "Author": "Rayyan Alam <rayyan5926439@gmail.com>",
+    "Date": "2022-05-22T10:09:31-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02043f43b108e4dbd509b12548d8cc631758a7e3",
+    "Author": "Dmitry Kapeliushnyi <78314301+Y0moo@users.noreply.github.com>",
+    "Date": "2022-05-20T04:09:44-07:00",
+    "orig_timezone": "UTC+07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c099e729b0dce2f6ad958ab7cde8fc776c9186af",
+    "Author": "Dmitry Kapeliushnyi <78314301+Y0moo@users.noreply.github.com>",
+    "Date": "2022-05-20T04:09:21-07:00",
+    "orig_timezone": "UTC+07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6fd6bb3623953de14709f79aa93f86f6a47a50f",
+    "Author": "GitHub CD bot <dmitrii@moralis.io>",
+    "Date": "2022-05-19T04:16:17-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "afa45924c7d96bb4b6ff59d30a3b428648adfbda",
+    "Author": "Y0moo <dmitrii@moralis.io>",
+    "Date": "2022-05-19T04:07:06-07:00",
+    "orig_timezone": "UTC+07:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7de72d1f4d0cbf8b10edbcafa1aa54d2e38aed1",
+    "Author": "GitHub CD bot <dmitrii@moralis.io>",
+    "Date": "2022-05-19T01:45:19-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "075d19167b25dc9e076069177d2bd87dfc468ea2",
+    "Author": "dani <martinelli.daniele7@gmail.com>",
+    "Date": "2022-05-19T01:05:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 20,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a502f5b6e41e1ab321d00f26e79df20dbd722935",
+    "Author": "GitHub CD bot <dmitrii@moralis.io>",
+    "Date": "2022-05-19T00:31:45-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "95e2d5b48bd84ecb9273e6bdc344c17e073906ec",
+    "Author": "dani <martinelli.daniele7@gmail.com>",
+    "Date": "2022-05-18T12:47:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1a688601c2e10b95687a3a0836db95222127fe4d",
+    "Author": "dani <martinelli.daniele7@gmail.com>",
+    "Date": "2022-05-18T12:28:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e7e0d44275201c7e26c2b38fef98883d1f3352d",
+    "Author": "Y0moo <dmitrii@moralis.io>",
+    "Date": "2022-05-18T05:59:41-07:00",
+    "orig_timezone": "UTC+07:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "550cbf5e3fbe196fafe4ff603ba2e78491cc3d81",
+    "Author": "GitHub CD bot <dmitrii@moralis.io>",
+    "Date": "2022-05-18T05:26:14-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a55c02b428c022359ebadbdfb9dc802e5a1d417",
+    "Author": "dani <martinelli.daniele7@gmail.com>",
+    "Date": "2022-05-18T05:10:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
     "commit": "938c78c053299c02d3393e2d2299cba9ea7caa57",
     "Author": "Smith Nkereuwem <smithnkereuwem2@gmail.com>",
     "Date": "2022-05-16T04:59:11-07:00",
@@ -9,6 +341,19 @@
         "inserts": 1,
         "deletes": 1,
         "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50cfaf7305c9dc24e92f7387c4a6403da64f27d8",
+    "Author": "Daniel <danielngozikac@gmail.com>",
+    "Date": "2022-05-13T08:45:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 2
       }
     }
   },

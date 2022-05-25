@@ -1,0 +1,5635 @@
+[
+  {
+    "commit": "b40a50e596d54501106dbc8052ae05a5ae47bfdb",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-11T16:44:22-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dc12f1746eaf15adb393c6e2e92d11eaa861d822",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T16:36:51-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "228c085dcdd756588381b7144e90d1b99efdcdcc",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T16:34:10-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "839753ac8a759908bc69da9abda27be28946c539",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-11T13:46:42-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6bdc775d0ee76ef1e7972fad627b3f371fc8bcac",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-11T13:40:35-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "281fa71d2fef68284f58acd1c1c5831ee2a4060e",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-11T13:39:21-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e41e80c5889b0837c764b67a503e4e53615f718",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T12:36:20-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "95b50b339d00815989c24b5b8e39cff7ecc0404d",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T12:00:19-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eaedadc9629ce0dd5a6897d9db6294f86cf46137",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T11:55:37-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d0f7a252f017a2ab6e9ed86308a5a340cca14fa",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T11:52:53-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4eade6966d25e5fa3492040f7bcfc35810062098",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T11:51:01-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "77758354fc1ade8faec01e298fef2b8a72e640b3",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T11:49:41-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7d907f926cca4bca86c20a64375f4fdac8b0ad9",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T11:47:11-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab0a82fad62d4275e4b0fd5bf26c58bb1815d7fa",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T11:43:49-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2b072231296f07e01d17f5bb5a6345cf150759a0",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T11:42:21-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 77,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61d4a08ed6abf1099c76f6c021ae6f592eb83d5f",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T11:31:34-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 2,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2fc7e8cca063ada4a1c34a883ea1aaf762b75afd",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2022-01-11T11:27:23-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 34,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31eb3cfaec8ca6c17df2e9acb3c2f3639a9832a2",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-07T09:24:31-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "809902ace216e26c2b9a194e75fd363e9045d33a",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-06T10:00:53-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78fdf393aac74e9857f43879152eb24ab8d69533",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-06T09:57:18-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a3d6c1e0ec4569fce4a4d9d461567732f0690726",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-06T09:57:07-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "18497f9bab9d03161dd13a81f19786dd8e2a0dc6",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-05T22:01:17-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a34dbcbe890940d435caad87a53747d94fe335b",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-05T21:42:59-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 30,
+        "deletes": 27,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "252f7ad2ce96e2be3a952fd15076fff715303b24",
+    "Author": "Brendt Wohlberg <brendt@ieee.org>",
+    "Date": "2022-01-05T21:41:35-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "006aec0c5dfbb947428642f6b8bd48025f53a000",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-10-13T12:41:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 182,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "37c0df7efff8a05740bee6c5c3f4bc50e3c0b38a",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-10-13T12:28:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0df34479ee867bf98b8ff50855554af23065f588",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-10-13T12:28:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0d31325af4fd6b1d866d2bc3f530d3da09a6558",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-09-30T14:26:00-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e36eb3f10811375a2dd9f5603a355086a51550d",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-09-10T14:01:29-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "14b531da9a2dd43051d7128665726d11f173951c",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-05-24T13:37:32-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe851cb968a93e07d3d598a805beffaae256e510",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-04-19T15:51:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4edc84a3e52bd0d285afd70273d6b3e00ca8baba",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-03-28T13:29:43-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de1d0139dad874f8a28524eb8581047f1b4b073a",
+    "Author": "Jack Maxwell <jack@ph-jhm110.op.ph.ic.ac.uk>",
+    "Date": "2019-03-27T11:27:41-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5fdca4379ab1fb9d269e3515f2601ea3e738a87b",
+    "Author": "Jack Maxwell <jack@ph-jhm110.op.ph.ic.ac.uk>",
+    "Date": "2019-03-27T11:22:14-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 196,
+        "deletes": 170,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "181188fe8321054fbdaed440317cb95110d1304c",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-03-22T16:00:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 43,
+        "deletes": 40,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d052f4c50a05e08aaaffb6e1be2aacbd50a17aa6",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-27T12:50:18-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 56,
+        "deletes": 25,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1198,
+        "deletes": 1138,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "848b41ec6a90e8ead242a2ac8bf31715c2db627c",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-03-22T13:42:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 464,
+        "deletes": 298,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "d417f3b3e43eefb3d80680a1e6ebfe9ee3c65ba9",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-03-22T13:14:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 146,
+        "deletes": 97,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "fe3319a74fe74a90f2ea123db3407d0e4e73aa95",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-03-22T13:07:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "cfg": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 144,
+        "deletes": 114,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "ef89a13c75c36b8a9c717b4f939918530324b820",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-03-20T17:45:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 28,
+        "deletes": 24,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8cfc249b074ce12ed40c99c38e8c7117a3677684",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-03-20T17:15:29-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 186,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6884477e2b5192a6a7dac2a3c7861ba74cddaac1",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-28T19:16:40-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 17,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "8ed8139d389a040f9defd5cf3df58f0df8debd93",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-28T17:17:11-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 32,
+        "deletes": 17,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "57da1494e8c4548360d50345692f981dbabac481",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-28T15:04:04-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 49,
+        "occurrences": 17
+      }
+    }
+  },
+  {
+    "commit": "682c743521a26f7b2defd4b87f8cb693b46fd8fb",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-27T11:35:39-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 42,
+        "deletes": 21,
+        "occurrences": 6
+      },
+      "bib": {
+        "inserts": 0,
+        "deletes": 17,
+        "occurrences": 1
+      },
+      "ipynb": {
+        "inserts": 39,
+        "deletes": 39,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 67,
+        "deletes": 59,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "d1451aaf19def9bd89254e2e2eb73131e616f693",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-27T10:49:59-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "45cf832d34f35133f5be49c1534f0d6eea538a20",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-27T08:44:26-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 37,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b49229f791ad50c1462b10c0fc241b116f60d87d",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-25T21:11:33-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "6d59b5a0478ec89e5bdfa8adeae0b3dba3b84613",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-10-25T19:01:49-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 75,
+        "deletes": 36,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "93e80f0b8c26eb5d6fb1e07ae7ca7c6b3f4f5357",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-10-24T14:58:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "bat": {
+        "inserts": 0,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c2332c5c49a42fa777e6ba09ad27a4fa2d808c3",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-20T13:43:37-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 4,
+        "deletes": 53,
+        "occurrences": 16
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a093d1d692ff632482bb941d26ac63df41feb47b",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-20T13:35:14-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 86,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e160c6e3c175b8e42977bf45095aa5b7a114db31",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-20T13:26:36-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "99d59296ff8c8e32283d86ee725719f60aca7dd4",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-20T13:25:50-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a1d3945ac9c004482edd540478230d2749ce443",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-20T13:06:36-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8738e08d1ca059a69b798c295e6e5b5bfc4a5e43",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-20T13:03:38-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "90c858caa0e294f3fef6e89c8d3069bfa7bcedb3",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2019-02-20T09:47:31-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 36,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "807f47ad9eea0ea9f582bf1ef5e9d3a809f8c13c",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2018-09-22T08:59:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "693686323f9c05cb0d4f6d4543f436954a652959",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-16T15:00:49-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5151dbfd8f182a2c143af8f28c7a1ac1fa4cc5ed",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-16T14:53:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dbb0f6ba6a1e5192e0ca00c925587e9de3dcb75b",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-16T14:06:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ded684d9fc4bee28199237958c1c636299f6057b",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-16T13:51:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "42814e9b7eab8031b6850409e3aae82a97d1d4ee",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-16T13:26:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a914fa746ac0bdebe367d0b8732c4d73b6037207",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-16T11:29:51-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5aa0f21977d08884459c4ba5ece3a0df747e9a13",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-09T12:01:55-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 30,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 36,
+        "deletes": 135,
+        "occurrences": 1
+      },
+      "npy": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fea9533a940609fa94a97c1ed4fc30d6121390f2",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-09T09:53:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 121,
+        "deletes": 108,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e3f80fb52a843ab341c2019747ed0ec120c2a82",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-08T17:21:29-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 50,
+        "deletes": 47,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b10230830227da1dd8c63fecb9b31cb8d9a23b03",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-08T15:04:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 23,
+        "deletes": 47,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "b8683159004fd6391cf0e5d60ae33140a10104e0",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-08-08T15:01:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "304397c6cd98b5eceb5cab63e9e729ed7a542a91",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-07-24T16:06:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 63,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7ec82492a08dcd52dd442141bf0991948325ca4",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-07-24T15:58:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "64c16009156a0cb7c47622efb8ae7968483dce80",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-07-24T15:54:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f2757f7deca99aa249c9c1f4c9450f7651d11aa4",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-07-24T15:53:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06a2e0e8959eb56f941ffbf21a92854d8ab9d29d",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-07-05T15:14:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 74,
+        "deletes": 172,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "368fd6d2b620e479e4ae18d6e38fb3ba7dd5b315",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-07-02T09:43:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 54,
+        "deletes": 34,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "py": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "d21e848a7f6edf93dd0676c84616e2cdc027b1aa",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-06-21T13:50:15-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a009ea6b374b091df95f8dbcf644fa439e237427",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-06-12T14:33:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 123,
+        "deletes": 252,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8063a2de240a7528643177807158d52f76500391",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-06-12T12:36:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "bib": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7cf8107c78522eef7e2c63a1d0be7b17628137d2",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-06-11T09:42:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 111,
+        "deletes": 62,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "6b2b56b1f43af8211f8e463c43c565fd50cc233f",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-06-06T14:40:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6fa6ed8b1095dc77c45ca7f3507e7870fd9552d5",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-06-04T08:16:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "573b6d4f553908a2a3e9f79baf73a0e16405e6f6",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-04-17T13:43:32-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 63,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "830bbbf21702ca122a8dc6d54fd56eea30ff71a7",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-04-17T13:35:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 106,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea38db6fa3281becb9773092b5f9567448d43356",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2018-04-17T13:31:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 38,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9063b32414d8007fcb14fd7a254a7e6ec9b9c41b",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-12-11T20:57:17-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a35cc49acd640e92d08126835ef550d4d31dfa7",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-14T09:08:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af67df12d324b515c2cf05d4200494314cadd7b8",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-14T08:37:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9125b920ec91dad2a45ba0c55e6688296037950d",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-14T08:19:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 30,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4342f164fc0ab4bbeef40299858e839d6bf9716",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-13T16:02:07-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be9c5d7fb8c4494905dc43dea481c1778c131e3c",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-13T14:26:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3fd2925c87b9e14e024ba926032c94f68e76fde4",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-13T14:00:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9dfe341a5c9ceec57ec5d9d516279b1f8a298fd",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-13T12:02:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a3f7d54845ab69a5b0d3acc45e381f44914f03d",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-10T10:23:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "59ecfa76351b94d0ba254d67809a44070744644f",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-07T11:40:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f8698f382e746409fee01d492629f0882157f37",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-05T15:31:51-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "089394bdd5b056761dc3b254d4765b66f997da2f",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-05T15:30:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a94b13b459c54841f5abf53efd9396775ca2cb1c",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-05T11:35:32-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 71,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "693163d34f7559bcd3ed74724c0e432f92a6ec3a",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-05T08:45:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe207d2db1b24fd092a855a9c5306faa4ad0cce6",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-07-05T08:01:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5f35cfb6e53473bef8f722a5ccc2b748593ee03",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-23T14:33:32-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "470583ec66f7c72394ed52b4d2eb5a9c1258fed9",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-22T08:07:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d67d963d81db635dac564985d1763a038559860",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-20T13:43:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6eaaec10351c3ac61b96f0ad5da384b2232a0265",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-20T13:42:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 47,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf91af79bbfb2a99a669d5e734ee47bd4a25086a",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-19T13:12:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bdccac935e4d7699b38e7e26d427e62e9704424",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-16T09:47:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 50,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "45b555de78647180b7ab54e5ac5e0bd6bfdcdbbe",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-15T09:23:49-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 30,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0affb32c2ad2e85b9089a4ba5a9d610130fa6040",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-15T08:21:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed0fa0eba9b34c6fc4bfefb899cf332eee6c9e10",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-14T15:23:37-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c9e3c040b656fa68ad509dedc6bb4ebb4eab024",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-14T15:20:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "69029007755434ca3aa9ac09a9856eec46d00ce3",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-14T15:15:49-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 49,
+        "deletes": 40,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fecd265c77cfcf7583a22adf1d30d6dc4854983d",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-14T11:19:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "352641c6d050dddd2b556dc4972b618c248f6913",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-13T13:44:57-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "523dacff70fbdcab331f36f2e2058bb9dbb221cb",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-13T09:46:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6ccf9f2e0a05636ba9879b1d6e2f4011e88e8c0",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-13T07:31:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e905b141969da2f40c4992467fdc0fbc787cc97f",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-13T07:29:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70cf349fc754c0961988dfd80ed8e3499219c479",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-12T14:22:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 284,
+        "deletes": 65,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a34cfd5e169d5a58335ad2e3c9c1adbd051f0579",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-09T13:35:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 77,
+        "deletes": 36,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "69ba7cdd0e8b09325eb1798bd5e97a03c030650c",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-09T08:54:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 54,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a119d2c0354843bc39e17946bb119274d058bca2",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-09T08:46:07-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 122,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e52860e71e2128dbc25ae9011d97f2d5762a22cf",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-09T08:45:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f92b4d0cbd270918e3280a66651fe0aa84bfef63",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-08T12:20:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 65,
+        "deletes": 52,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f893a79969de21c08ff7694f4481063edf7df46c",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-06-07T12:47:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 277,
+        "deletes": 55,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56a355afe9412b15ee2f9dce9ca6485a37159bff",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-31T14:43:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 107,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "341479830b54df876d09c9e0c3ffc9e68bf5db86",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-31T09:28:22-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e91d4ddf3780fcbce2d466c4d53e2dfa7c36096e",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-24T12:43:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 147,
+        "deletes": 312,
+        "occurrences": 5
+      },
+      "py": {
+        "inserts": 16,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a3987566b098b3d8a187b3616db88e85a70af76b",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-24T12:01:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 72,
+        "deletes": 58,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d62feacf009ad1c03a7ca60313ed4c379e026b0",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-24T11:34:10-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9ee452726d04a04989cd2f63df7e0df222d49009",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-24T09:02:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "90827b20b5f20fe2892d007bf0499dcc53e2bd56",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-24T08:12:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7597008345ec7278a04f751b62619600ebdebf03",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-23T14:26:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "728f288b89c00e87e6355ae468df6014217f0e7b",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-18T16:23:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 294,
+        "deletes": 294,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "092cbf3ba526513be9b682f1789896dc91f494e9",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-17T16:56:00-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 19,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "28b1b492c872bd2aaf7905f1a4be981db9520678",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-17T13:10:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 18,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b4f6e2a7c7306260e3464c0a3f071d77de132573",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-16T14:31:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a248cf924bf0ff65e6f5afa670d8c94a92d93cf4",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-16T12:24:00-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 65,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a68ddf888eee1b4b9aab3914c09980b417585aef",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-16T13:47:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 94,
+        "deletes": 95,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "18519649830d01093b8c84a6399b69d69974f201",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-16T13:06:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "656fbd7774d5a637e7e099d867743c467e742750",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-16T13:05:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fb1b6e24774061e9903f621147b988e31611cee4",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-16T12:51:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6aa0585469c9020753a9df40e628df51b5df59fa",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-15T08:49:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b28f2312ffb9d13ce7b3bb2ff83a0d8aa3dd7484",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-12T13:44:43-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 194,
+        "deletes": 213,
+        "occurrences": 6
+      },
+      "txt": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 5
+      },
+      "py": {
+        "inserts": 37,
+        "deletes": 32,
+        "occurrences": 4
+      },
+      "npy": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27a797a78d77790bad74b69d3f6b06acfa4439f7",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-12T13:40:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 113,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c1b3cc11464acd6f4c318c11d5b6a1908a6c36af",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-12T12:45:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 79,
+        "deletes": 63,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8965d41b09fc29e749b1a35d4224e6f30cb9c1f9",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-12T12:23:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9cec44c6803aae45eacafe5c7741a9cd3d625291",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-12T09:57:18-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6e1fd1c825eb9554d1e29d9c04471912cb0f894",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-11T17:30:29-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 26,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "71079b3e1ef7dea67b5f0c0b894941fdd510eaad",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-11T15:28:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 80,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e340a47b69307f0c956f18dce8086a3efcf8f38",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-11T07:49:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9254d8ff066810b7e1f1bdf3e714febe69e5f557",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-06T19:41:57-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b23d2a38f605e334086d2240c3de15a037babae2",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-05-05T09:49:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 115,
+        "deletes": 159,
+        "occurrences": 4
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 71,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fb0e42db89283475f7ac7466271fb6fa89963587",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-05-04T14:05:24-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1de3bdbaac5617bbd7a2900462c9f6317e439d0a",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-05-04T12:55:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 208,
+        "deletes": 113,
+        "occurrences": 4
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "2cd929f051b421721665229e82058821360a911d",
+    "Author": "carterbox <daniel.j.ching@gmail.com>",
+    "Date": "2017-01-24T19:37:32-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd66220ac32caaefc6bfb0ce2060c69479e0e1fe",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-05-04T12:36:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19a57e1a4637eb17a53e103ec80073b9a54b157d",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-03-17T03:20:47-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6093d711489373bce1d03eae5d0bb011f356e3fe",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-05-03T16:22:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 16,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 15,
+        "deletes": 16,
+        "occurrences": 1
+      },
+      "npy": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0fee29930d98aebec5ac9d536013004ee18128f9",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-05-03T15:40:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 55,
+        "deletes": 46,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "598d6aa145f45b602dc1dd211e5588ce98977e2f",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-05-03T14:28:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 355,
+        "occurrences": 10
+      },
+      "py": {
+        "inserts": 34,
+        "deletes": 41,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4d41fc7cda21e1ed80521f5216cb6a609bc664d",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-05-02T16:34:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 11,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ffe73f33fa9bb1dc771ae1ff36b3e18dde905ce8",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-02T14:03:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e71bce9a6a5fd929c6fec2eb5f9a8d63f9d4f8fd",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-05-02T14:00:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 30,
+        "deletes": 24,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "3152098438f661b6022f9d51ea257819e200293c",
+    "Author": "carterbox <carterbox@users.noreply.github.com>",
+    "Date": "2017-04-14T13:50:36-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 61,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "6183542ca2da9cc2e742261ba35033b994cdd39f",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-03-17T03:01:49-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 43,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "40d310f5b602a4d9b3432dc0e377eb0a74d83f64",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-03-19T00:46:40-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 53,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48ae1f454124f3ad855dea4439ef5db36ec8e95b",
+    "Author": "carterbox <daniel.j.ching@gmail.com>",
+    "Date": "2017-01-31T15:04:33-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2789ba1fa512509b6586023ae08386fde3923330",
+    "Author": "carterbox <daniel.j.ching@gmail.com>",
+    "Date": "2017-02-07T17:49:15-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f4f13b54260b54ffafb8a2a964d099e6fe02506c",
+    "Author": "carterbox <daniel.j.ching@gmail.com>",
+    "Date": "2017-02-07T17:46:30-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "26c1bea335f882979b0f4d83fd4cdd9d47e409d7",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-01-21T14:23:34-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e2f1fbd3f60bd244dbc28d542a34128e08b55a6a",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-01-21T15:41:17-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4da430436c3e7369eddebbfcc097e147cff6a3c7",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-01-20T15:21:39-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1307ec7cf368ab560ca8af8564a88e52a3964a9f",
+    "Author": "Daniel Ching <carterbox@users.noreply.github.com>",
+    "Date": "2017-01-20T15:20:42-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0e4b9a8bd6c9e89935df6e154ae3268b34d91351",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-01-12T00:07:32-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a25e9c2cbfe33f70f9265573ee1e5797f75e01c6",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-01-11T01:07:53-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 54,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "cdb8f43c7b1f896b9571545fad0ac859d190652d",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-01-10T23:42:00-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3d5a4d5e931a3f6f75601c8ed80e439cb68958b7",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2017-01-08T23:18:43-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1d67599b8f104ebded86bac98100dbf15e251a66",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-12-03T15:19:26-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c324de34e26a7af06fa82d23b31a953044164f9",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-12-03T15:14:34-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "py": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f65831957b156ceb6d1d3d24436c965d2378bd89",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-12-02T08:37:09-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c60de358bccb64783e09458326a403c4ae4d315",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-12-02T08:02:47-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 815,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 35
+      }
+    }
+  },
+  {
+    "commit": "dbd6f848f7a6c22950bf8702bce466d1ab3a2312",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-12-01T18:41:04-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9ea6439edccdb66552917ed667aaf76dec47d891",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-12-01T18:40:49-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1b4085997a6601a89bde3c8b6064edac8b225767",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-11-27T22:55:44-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 132,
+        "deletes": 95,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c078a55083f6e6e2067fee60e2d955f2b34681e",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-11-24T16:31:30-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 48,
+        "deletes": 17,
+        "occurrences": 10
+      },
+      "bib": {
+        "inserts": 29,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 118,
+        "deletes": 99,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "a1eba6d3915a413a1e04d6af3e878986dea6116b",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-11-22T22:24:01-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0e31aae3c080fc3cef1186427e59a307f6406d4",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-11-22T21:59:11-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 64,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "115934f774288b32b5a6f3fba58d38de9bcc9148",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-11-22T21:10:36-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "30a3bdd859f3b092988f15ccf32310e95094d806",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-11-13T10:24:24-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba183a143d9ec5bde13d6db84260e72a50a44dae",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-11-13T10:10:40-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 76,
+        "deletes": 76,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3111ca72988cec6f7b47b30fc6750f3efa902b3c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-11-13T00:46:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 34,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e10749674077743273865ce84b6aae01889337f9",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-10-28T20:51:19-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7852c410b1724034e3f7b880e1fa4c2950039a10",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-10-28T20:30:07-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5593a8a3ba0587a93fa73dc7584f2f2a30b950a7",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-10-28T20:21:32-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 101,
+        "deletes": 75,
+        "occurrences": 5
+      },
+      "py": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "36c168028dcb6ebdae5c3d9aa2849d80fa8f76bd",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-10-09T17:02:05-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 80,
+        "deletes": 45,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a9974b745ea6f0a164b96c2c29305740ad325bc1",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-10-08T22:01:30-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 202,
+        "deletes": 186,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "90a1ce8c14f71576a54c86a22d62e9633a8b2cf4",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-10-08T21:59:18-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b1c0c29f8d9a0f1701f3008e0f281bb7d830cf35",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-10-08T18:19:05-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 69,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e2ccbae28f15360669de3157cae3c1674814502b",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-10-08T13:13:17-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e924d31479a80cd69f931fb48c491400ae82068",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-16T15:35:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 71,
+        "deletes": 37,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "aa97661c2c8a163df5857854f9f2cf7f315588a3",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-16T13:38:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 21,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "222df7b6f5e8b38adc6cedb8bbb4d528f41019fc",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-16T13:05:24-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 67,
+        "deletes": 44,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0591bafe0f4ac2205010a793d12c32b979961a57",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-15T17:26:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 281,
+        "deletes": 269,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "1ce7634379ed98bed6c89f40a8b4360504cbad71",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-14T15:39:00-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 352,
+        "deletes": 341,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cb126579bec0888b6ebd6ae513fbe6a75ef8c23d",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-14T15:27:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed6f2f796b787bd20ccea3a72842f54761bad7b5",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-14T15:09:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 83,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 8,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9b0f5ab98d2125ad350bcce0fc4fad6df65b33e1",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-14T14:43:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 31,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "795535b6d124961cbc4a9f8d13466973e0923ac2",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-13T16:01:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 164,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1b17e20d0b5a066f3732006fcb511edef0b3850a",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-13T13:40:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 511,
+        "deletes": 350,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "83b293f8dc08fdf945c71729cbd7ae124effe255",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-13T13:37:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 105,
+        "deletes": 95,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0d77dfbd95d799dace114266d242b6a8727e7d6b",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-13T13:37:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7df28f41bf6418ab1f19e414db2cf467179a0383",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-12T18:13:40-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0052b689774a8b39043068e22f512c1f4ae617ca",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-12T18:11:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 25,
+        "deletes": 27,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "12c1b2ee9926a5848baabd43f55ee4f2271c231c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-12T18:08:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "098d3b86709396ae848c34f24be12a9b6f49e799",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-10T15:24:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ipynb": {
+        "inserts": 112,
+        "deletes": 49,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "c7db4c8ea1c3f8edcd5d800df15064a8741337d2",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-10T13:08:22-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd98cae354d3693fc27386b8754b9e47ad53ca8c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-10T12:17:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d521f8e00fa7845e5c2f962a3de6f1e64fecf140",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-09T13:38:07-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a80500514204b0bf0f1e0f9da583ec2d5125abb9",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-09T11:25:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ipynb": {
+        "inserts": 85,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 129,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34b482428123a1a10bd1a7f615cc6717570e9d56",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-09T10:35:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ipynb": {
+        "inserts": 217,
+        "deletes": 216,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "3264f333604c9199983ea1145dc2ec39c67df0a5",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-08T12:57:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ipynb": {
+        "inserts": 187,
+        "deletes": 165,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "ce1250c0767bdeb9844f7c45c7f1be318bc627f7",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-08T12:22:00-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 28,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d97801f1e95d7d2064642777d7084719bae678a7",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-07T14:24:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0e45ccb41796629a375dc8811c3570a53ed94ca8",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-07T14:01:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fa4d344b15d412f9ca974154a2a6d85778e17b42",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-06T16:48:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 124,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "19deb3ff0b85d08bcdaec64034616bcd766fc82d",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-06T10:12:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 64,
+        "deletes": 44,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "687e447e2db5f203d9bbe98f7d34c7c682697bbc",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-03T14:02:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1765c729b3afd9e019b1a13ca0b41ebe1efe5688",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-02T17:32:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 14,
+        "deletes": 101,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 73,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e549983b23fe82e41797bdf6908ae10624948d1",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-02T17:32:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 206,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb4c01c94047b5487b1ca897a21e3bcdb9f4182b",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-02T16:34:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f881b698018692dc6fa19b3be4529980ac36d32a",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-02T16:01:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 117,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d82db4975d5bfcf56f47c24fdbd4ed169f06fc0",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-02T16:01:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 64,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f3ccfd5e0e788a15c2373014be05615d014621c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-01T17:56:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0da7930d36ff59b7b6f33e1d39cfbb339655665a",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-01T17:54:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9d6e00aea74e40abc5846ef9523afbecfad3b60e",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-01T16:17:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 10,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "10f08897d3c16db49974ff9feeb5ddb6716dea2e",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-01T13:27:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 242,
+        "deletes": 11,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "127a018fd0e1cd327696292890c07cfaadd344c9",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-01T10:39:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fcca12eb2223069ae368d6e99add8eb7ca33a366",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-09-01T10:37:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c677c185d0fa8b51ec1496d8d3815ce72d274c33",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-31T17:51:55-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 46,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ecdcf78199dc091b4920c7d6f745fcfd36092551",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-31T16:09:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 36,
+        "deletes": 31,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "f6d53fcc676de13426a0897259245b6722dbee39",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-31T15:44:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d67155984aa3ae87f4c18d5001561839e5e80c37",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T17:31:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de4fca26ba063217da71f8aae22da3e1fcc01036",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T17:30:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 183,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "434042778affeb8b5764939b184a27bd540a3d46",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T17:09:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 138,
+        "deletes": 67,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "c76424dfad39330f962eb2ed9a293712219b6405",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T13:51:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 1067,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ab220b7ee91914b3ee659e531bbc00bc7116c3df",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T13:47:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02ffc902ec02526a6e3ea4273e15d6539ea8b163",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T13:01:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "01c7ffa75dafa48b713c2aec2c39994a298eda0f",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T12:28:10-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 58,
+        "deletes": 27,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6d6ae9179c40f8fa79caaf5b290a39767f1011e5",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T13:01:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4c820b15dfff14f9488ce2283f4935001b746b14",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T12:28:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 26,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "774056b67ea229f355d744200467d3be86911aca",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-08-30T10:36:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f82bf5e20e5cf0e5b0e4d0fcf193a68df4f1f6ca",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T10:06:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2d17b340e3125bf9f5975cac3751a288291b8a82",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-29T13:18:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 23,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "51dfad216937f4c27dd977cd976ec4f7b787bcc3",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-30T09:47:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d10eaaa17cd5b584d4d2a93ea24b37c1e23f9aa",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-29T15:29:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 50,
+        "deletes": 47,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d521c738826efb248936fecd00190eb0f4fd5598",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-29T15:17:03-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 32,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d15fd0f8b4f97b2941dfdd38d0dc178e1481db97",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-29T14:30:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "88688f5939728a36d1ebd00cb13482902802a736",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-29T13:18:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 23,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af29241a30668fa518f5199bd24558e3d66ecfc4",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-29T12:41:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2d62568fc85ed4f367ee9e905cbfa25e7e9ba244",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-26T17:18:37-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7cd1b716ef54c0f6e4da3e14cced1356b50745e",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-29T13:32:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3556688c786edda5768f197b7409269a1621cf75",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-29T13:18:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 23,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e9b991eb0fbe8ab7c18a5dbd3a14daa296a2f8b",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-29T12:41:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "db850929f2d22dd0a5088dc8b26a34159db905c7",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-08-26T21:07:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1ec9a0bdb8b42a0b80e4606032bda270976cc3e6",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-08-26T20:48:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "bib": {
+        "inserts": 50,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7734469b9d34f3e765bc4ea3cae7c3dd28d29960",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-08-26T19:41:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "425638ce5f2d7a2cb463afc26ee9919d4c5a4766",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-26T17:18:37-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cc27a09743e1ee8553b56047e52bdccfafea583a",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-08-26T16:48:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c60bb75335533a6af5e94d32fc2d2403c0255f71",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-08-26T16:47:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 152,
+        "deletes": 13,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "72accd8fc784dd1948ca09da423417263a982d66",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-08-26T15:23:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "124fce1ba57a2104477cdb045347bf5dce076bcf",
+    "Author": "Francesco De Carlo <decarlof@gmail.com>",
+    "Date": "2016-08-26T15:19:57-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "966ed44e7736d35ab75e1d7e1f7ce2abc40c9abb",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-26T13:30:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 103,
+        "deletes": 8,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "7798eb95d9f0e83849784886710494a223a64f4e",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-25T09:48:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 86,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a1ec5dad624760e0f07b318035fff3ec1416047a",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-24T13:07:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "16643718dea1c4fae452dc628e97479922ed3756",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-23T13:56:51-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1b62ad00a0a708a09ba690bbe5927e99cf29022f",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-22T16:34:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "91e464f4b3d2444ae354d5edddbda6c059906b22",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-22T16:24:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 210,
+        "deletes": 134,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "4d34c54bbf2c71723ecf718e63c8ddccc521068f",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-22T12:52:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 122,
+        "deletes": 10,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "7d098462f96b092026e38091bf49657b45acb3cb",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-22T08:40:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 35,
+        "deletes": 30,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a63342b51e6448c4ae6c4496b9740d53bf69283a",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-19T15:13:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 294,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4081b1a0193f42deeb942b79581ee5ac3e88b66e",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-19T11:54:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e69ea902b7ab42f3e423729c0846c02c94351a7",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-18T09:39:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a44467a8e6b66676c7c2e7f743663f682c395a8",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-17T19:07:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ae9a537c36c32b8c6ef4545e97e2b8d74bd0a57",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-17T19:06:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 30,
+        "deletes": 16,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "b266451d6cf1d1f36206a797712e7c432e3a550f",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-17T19:04:10-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 121,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4de302d15fff5ca8f28de693601d03fe52618389",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-17T12:35:55-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7482b23515dbfa73e8b18d34e7d3262ebeaad9d4",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-17T11:34:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 168,
+        "deletes": 45,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "e07d50548cb07e8b04acdbc94a1cc61d80983304",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-17T11:34:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7ddeb21894d3f68bb5e1526391a87d067edb19c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-17T11:16:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 90,
+        "deletes": 31,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a8c7285f84838e78fa8f51b3a3e2b82db3115e6e",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-17T08:29:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 59,
+        "deletes": 64,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be6198c6669b644fc8a02d1fb92d5fe23c30871c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-16T14:17:55-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "60e51602e21b8d73a9cef5570b1e1b8d4e280fec",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-16T13:17:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 26,
+        "deletes": 12,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "edc24af3a4f5acc3d9e13a5202deb927e9edbe4f",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-16T13:08:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 25,
+        "deletes": 31,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 212,
+        "deletes": 175,
+        "occurrences": 16
+      },
+      "yaml": {
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "926f721f5b1ab90898e3977a572ea06c02ffeb66",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-16T12:54:04-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 64,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c964b64f10cbe99a84e6a7cec1e989e47cf63892",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-16T09:15:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 359,
+        "deletes": 97,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce037bfacb4250301e213ff1f01e11a486a2b24e",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-16T07:19:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "533068fbfecfc7805cd6a5514a2e363a7a65968e",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-16T07:18:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 105,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8ac6f3ad90217d9755d20050bacd187390a883b7",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-16T06:41:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 318,
+        "deletes": 247,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "1cab67e0dfd0563607027a45015c83d249da01f2",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-15T15:43:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9240ef4b54e540d3030ee498fe3a1aa9919cb848",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-15T14:18:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 33,
+        "deletes": 19,
+        "occurrences": 3
+      },
+      "txt": {
+        "inserts": 277,
+        "deletes": 402,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "b97e01d31a4698d33a67875b946120e58c60872d",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-15T13:36:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 132,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d9856288bf803dd4a690a2ae1b64c946c2674474",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-12T11:21:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 79,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "69b9fa580021dd4362307ee72d60dc54e82fb656",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-12T11:20:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cc85233025875cabe0827d02e87c14f46d8bfcee",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-12T09:18:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c36986239a93f9ca33374902f34a486f7d507673",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-12T09:21:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "84566e209b1918bb0d6d342a423fe304a287907f",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-11T11:43:51-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 65,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4430fe78412bbb3f1a1eec86f9bba07ab323e3b2",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-11T11:43:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b4d363e3249c643ae17844a0c582239e307821a",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-11T08:45:40-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e63411882cd5f91f7aa2a47847049991f77f23e",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-10T13:38:22-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "03eaf3d5f5623f345a7bde316eb5c0afaf976dd0",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-10T10:38:04-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 102,
+        "deletes": 12,
+        "occurrences": 5
+      },
+      "txt": {
+        "inserts": 480,
+        "deletes": 0,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "b3e2bf85247bbc9551107ea73a1a4aa9f622088d",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-09T14:10:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 11,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "05c7cf93e1f726f42c74eea0c1e944d906658290",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-09T13:38:03-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 90,
+        "deletes": 20,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "0ca7e22d7856b8465729ae03bde56a1c72433ead",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-09T09:18:03-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 71,
+        "deletes": 49,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "31a82246854c514ae73b974687d98aab88e61597",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-09T08:19:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 129,
+        "deletes": 68,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78b5443072ea9485b722583c42f7da75c3298913",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T15:56:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6fc17e9070eea4265481500c0c7424bd3396bea",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T15:48:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0519e362f213d243b4e7f788d0f1e1b1824bd0a5",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T15:37:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56b78cf761a22d46c69f6b92ebc20183b67adf67",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T15:29:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "88250db037b5c2cc558b1c37ea1f53d73d307e19",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T15:24:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b61094fa8784e2cab948d80c41e8b33f1476ef39",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T15:20:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4b1989fbacc34183d29b5bbb6a751c901b8d9fbe",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T15:12:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7dde576f516a9690c651ae4c9b1c6f68bb375f10",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T15:07:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "75bb6eb3ef78c820582dbc666c31223af48ce6f7",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T14:35:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0fa77f72f1b6a90670f56873c44715e81635ffa8",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T14:35:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd7c2bbad023d70538095e7803f4f957b0fcaf32",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T13:42:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 97,
+        "deletes": 59,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8cca6176a22006426546a711252d5f96cd4b538a",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T09:07:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "747931bc27abc49fd04b683358ba68d2c2ed8aae",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-05T08:56:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 53,
+        "deletes": 45,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c85fc3c316e2fe8176b66382b7ad88ac4f06bb40",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-04T14:14:00-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f5da57efcd96f8094089a198b4dcff8dc01d0101",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-04T13:53:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 79,
+        "deletes": 21,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "446b323f5f69041b0e7b3efb4f727cf988ac550c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-04T07:28:31-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 35,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2d622766a56e457d1df9e2ffb6ac5bac574d8ea",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-03T15:07:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 66,
+        "deletes": 30,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d913ff5fd954f78900dbdae6d4e41bfe46cd6725",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-03T15:03:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 30,
+        "deletes": 27,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "19c5da3149237f24d2ea6348fba052fc15bf3a0d",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-03T10:59:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 90,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dc8d923c8ed0f42dc4f41bacb6b3df28d8654c38",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-03T10:01:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7fc6c4abc26c19de2a984fc3e85f62758620f740",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-03T07:25:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c959fc47195a342f1670fc1237dbf817aeeff3c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-03T07:24:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7dfb66d8497ed9e2b2bedbff73285b4df3193874",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-02T09:30:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 50,
+        "deletes": 22,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "b95d337edf0e1c2e4dfad39c7566463c5ebb71db",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-08-02T08:33:27-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 214,
+        "deletes": 87,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "574c82aa351834099b842d629fb013458d96a63a",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-08-01T11:38:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 26,
+        "deletes": 65,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "799e867d18c4f75d5422a620da60a16e97c7786c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-27T10:49:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c12438ec8211b18f97891447739e79da2a20ae64",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-27T10:48:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9b56ae24502a8ffbbfc928611dbefbf4e1b997c",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-26T10:11:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9ce727288ff0273ee7692d1b266448728559ce3",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-26T10:00:04-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 99,
+        "deletes": 116,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5f9ffeede2c9f8bcdde83bb39c9b24d0934956ff",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-25T15:29:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "431452d2cd976911513f00ac42fa56ab5cb494cf",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-25T09:55:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 128,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df22ef055a4367f93a2c501f96aaf7c9137139a5",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-25T08:28:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1eba5cb8b5051dffc9fa312ca516cc409ea8991",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-25T07:39:22-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 115,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab7949a497c75f4c27c9a31b51a4d7df192bf58e",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-22T16:31:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "95918b925de0239cd2b55577820968afa6bd2f16",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-22T16:09:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 88,
+        "deletes": 37,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "eb496257d39f7466ee71d107d1d7ebb758598805",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-22T16:09:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 81,
+        "deletes": 31,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "6ef7e457b7796913b3c74aef33343b81d618778f",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T13:08:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "98be86d4eda678cd006b5e3df4c5688842435211",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T13:04:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de19962703fc94c103fe2a189eb93b103f017ada",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T12:48:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cf3946055b19f968223d7619320f5a0d57f64873",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-21T15:16:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 71,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9ce6bfae211376cd8cd9bc89c64d342eea348da",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T10:59:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0741f666d53a79cd15b5a276ebdb1f4feb478d3b",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T10:55:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 279,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "dc3085a62f7950b75cfdbecff765a608571dbb5e",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T10:54:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 144,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "00a94884214dfe3eace1c0612f1dc7b916bfb5d2",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T10:52:15-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 89,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f0594baa8d84cf5f7f89ca61d1e496c84825ec15",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T10:51:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d54a041dc9d7734b1c7fe2f71e989590ffaf4ba1",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T10:49:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 31,
+        "deletes": 29,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "86c1c17cf793b85abd6be41dd8288630070de248",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T10:48:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 77,
+        "deletes": 32,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "075ff4a6723ecf57fe0079ade431ad0c5c97ab9e",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-22T10:46:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 131,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e4debf6331c86cdf37e81de34fbb3a66a3a05c7",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-22T08:06:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 106,
+        "deletes": 35,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a0e4794aeea03264714d97df2a8309dd096d0ec7",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-22T08:16:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7aecbb4c99fc69bc9bb6ae976a58a23aeebcfb8f",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-21T15:47:42-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 35,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15058c38cb6ef546baf94e4a71bd3e9582bcbce4",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-21T15:13:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 131,
+        "deletes": 105,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "724fdf6b77b65daf1f35c8cbee8f9fb42ada0e91",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-21T12:23:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9914945104b19a41f6714ee35df3c70c87a9b0a",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-21T11:04:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 100,
+        "deletes": 5,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "cc5e67da07de215aa1fa87401f1a99f17e2be917",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-21T09:39:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 217,
+        "deletes": 17,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "44cd407ace5430f9b8e368d113413bfea0c169a2",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-21T08:14:49-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 202,
+        "deletes": 209,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "335fa14948aa1db1c4e36623ab352d0c851c1a5e",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-20T07:29:43-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 31,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56fd542d4486b31de2e44d98c5a154ebaffa0f6c",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-19T14:27:31-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "169205a52b8cdee1a4e21ca880cfc926aa7ccf8d",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-19T14:25:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e4c74ca249182151846ee66240580ce29c23e07d",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-19T14:20:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 35,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "037f78a69027fef9790284dfdd21e7c9069fb60d",
+    "Author": "Daniel Ching <daniel.j.ching@gmail.com>",
+    "Date": "2016-07-19T14:06:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f56ddc6cf9aab9604ccb54fb14fc2e463ca73c0",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-19T13:26:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 180,
+        "deletes": 30,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dcaea8ff7abc72a9ec16199f7dd98b08f930e838",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-18T16:04:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab78afc635fe146e12504038d05682a70733ce46",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-18T16:02:40-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 35,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "14866ddb817920251e077b943eb1a8f487fad937",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-18T15:55:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa27d479ede3cab0ba1c8140002b874876c7c1b6",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-18T15:45:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 35,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13bf40930e3b31cdeb940ca12bfb9fda7c5955ed",
+    "Author": "dgursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-18T15:41:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 297,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "in": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "bat": {
+        "inserts": 271,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "sh": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 75,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "bib": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1059,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "yaml": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "318bae0c05bacba722e79b64bffbc7ef719d0302",
+    "Author": "Doga Gursoy <sparsedata@gmail.com>",
+    "Date": "2016-07-13T13:12:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 89,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92824f23510ce7d9f2a563061af07f83258da6b0",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T16:49:06-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8133993b035e85e0415045ae9188f9ede0a7a3d9",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T16:45:13-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 13,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a1afa5e859f8ed3ea9296c0d0f2d049830107a7f",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T16:35:16-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 66,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "7203341ca6a9921955d03fe5179cb1bfda57c0ca",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T03:16:29-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b4a3171c11c11ffb0e07d29b5b37db9475bb093",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T03:16:06-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "mat": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa944d1b4e92690a1cd5a017bb2280805b198802",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T03:14:55-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 88,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "71d6c9c712122c841988b998ee8828ad2eb7fd2f",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T01:42:56-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "41ec2dfd4d88d09719bff1a7455802b9b2ef0c0d",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T01:42:39-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "533de662237c9215e490fb1546c8e097e3b83611",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T01:42:24-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "86d9f4545b270f2b680c60122d269e7cda569c92",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2015-03-11T01:41:22-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 167,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a25ee6f56305a3092c79fd907793c026b8c08ec1",
+    "Author": "heldec <heldercro@gmail.com>",
+    "Date": "2015-03-03T14:53:17-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f73d2d6e2960130687207429e1bcc4ff67a2107",
+    "Author": "Helder <heldercro@gmail.com>",
+    "Date": "2014-09-03T15:20:05-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1ed458f1ac452d696536de968c16f695e8d5d292",
+    "Author": "Helder <heldercro@gmail.com>",
+    "Date": "2014-08-31T13:02:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 103,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f9207b956147a3ab0db2537d330df873a70ff33",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2014-05-29T03:41:35-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 21,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "482d852489595b52077e7af9863bafc2e18c481d",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2014-05-29T03:30:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 208,
+        "deletes": 51,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "3116c468811a54019d7490eceb4e5770015cdb96",
+    "Author": "Alex Izvorski <aizvorski@gmail.com>",
+    "Date": "2014-03-05T17:32:37-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 166,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]

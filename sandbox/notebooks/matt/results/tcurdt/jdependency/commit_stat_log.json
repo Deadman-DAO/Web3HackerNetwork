@@ -1,0 +1,4267 @@
+[
+  {
+    "commit": "70f4a039226a911be5a00f0b649ec22279e87ed2",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-20T15:14:11-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba8ee1feb6b9ece79d89825a2b21343f7c2ae719",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-20T15:14:13-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "81f45a40ed76e1070680276cfb347e34703537a8",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-21T14:41:36-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f83323701b66b9e3541951a540f4acadb9019e4",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-21T08:15:52-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7164254ec33e09ea3066c54215821ddc4c42a360",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-27T15:34:21-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ec0b05cc18a1ab6f37d0a11a10d04aa2254a2a58",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-05T04:39:59-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9717df66a67d3ce367668f8153ebc613e30a2eb",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-04T14:23:38-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6e05826d8bca0e61379c555b0bff12bf47f43c2",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-04T11:39:42-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c8ef2fc58c563afc816279a0e29f033b3ff9ca07",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-03T19:04:28-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a8f785acac4a5d006ef27f25e20f2190ec0b14c",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-04-03T19:04:25-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27af7842868e395082736f2c72e76e006b02ac61",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-03-29T11:34:17-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "028d8d4f84b69c88dc1b90f2e58385411a6c6f51",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-03-21T04:40:38-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ff1f05978f133ba44f9d63478b2d6ddadceb8730",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-03-21T04:40:35-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0637c1653e0114959255dc2fc24eb9cadec39528",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-03-11T09:11:14-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9daa0cf5ac0de70e0591dcbbe8097d16e0ac429e",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-03-01T11:27:23-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "0477fd29dfa6463d22581d9015d7f981914270ae",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-02-25T02:32:25-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "9c5efe0ca999a4b15cb7c0d4ab465c62487379e0",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-02-25T04:30:28-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56b33af95e7613e2e6234d471869296a2620ae0d",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-02-16T14:07:31-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9f85f08a915728f0bde30f3278c9ef02b5038cc",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2022-02-15T20:10:51-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bea90070148ff384e0c0e2470cd8a6ee9dad2046",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2022-02-15T18:09:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "676cf8f043699bd6382ae68ca3517a1acb5dc525",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-02-15T18:03:19-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "314489abcbda8fa0a4ab2a982dd431d6a5d60ed3",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-02-15T18:02:58-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4041c51717486c616c84d53f64e6ab2620b5f7e1",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-02-15T18:02:55-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "86de00e58819c38aa2fb84b4f48c98d9f7e26251",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-02-15T17:51:14-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "335d9d68e12e399189226fbb5d31891bb8220894",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2022-01-02T13:03:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e272628f4f75681ffc3e0004e14b824ff857b71",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-06-02T11:17:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f6f86b515c2b157fe598b9fd9d90ea934a67d60c",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-06-02T11:11:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "027120183bb3cb31e7b451ae0378aebffdefb2ac",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-06-02T10:55:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "18f77f2fd2ffe4967685037858a9527021db8526",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-06-02T10:47:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fda3a00260044db21602ed5cd499058edf859d96",
+    "Author": "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+    "Date": "2021-05-25T19:01:06-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be6ec6da04f8ab62c7ea2811d04263730be6f127",
+    "Author": "jmp <jasonpenilla2@me.com>",
+    "Date": "2021-05-12T17:02:42-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 34,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d5ef1e6e6f647ccf739dce10c1b1f75bda3b8ac9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-05-12T11:47:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 10,
+        "deletes": 12,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "73f5cfcd33f5fc90f5016cfe8c87e0a898781aa3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-03-18T02:43:09-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "16303510b80fd5d60648f66efe5dce06f75edaa8",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-14T19:05:36-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fa4bc686f54edd165b161ad9ed70aea9ae683046",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-10T08:44:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7e70db25a8917df4ce0a2489fee2bbba090008b",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-10T08:31:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 70,
+        "deletes": 65,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "111658a12b5327ce53564fe935b7dbb53ef697ef",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-10T06:03:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "601c3eabe606a5ac8d5bd3c3af2ed74b2490f79a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-10T06:03:02-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "034ed61b07d8943902e7917299e6b54a7f236ce0",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-10T05:40:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13de8027f76b198cc776794fc5e666a485800054",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-10T05:38:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d65bfdd111e66593be00835dd690d1bcfe2a2fa6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-10T04:36:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eaa1487b467c3ae7fee03c3c9881e901a7657287",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T18:34:18-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c5688b7e81d371737f631537df7d1ddcd452781",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T18:26:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d0c28624b029753f3e5dbd8a811efa341eb2dfd2",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T18:11:27-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1d8cf6ecdcc9167ff9ec815b89beff58ba44f25e",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T18:00:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9a3fa35a4e2e65128dbd0cc2548daea854f1e58",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T17:58:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "666c2f3e4f3be4389a3196043fb1e46d4eb3f96e",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T17:51:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a18b985d2bf4f572ccd03bbd522a041efed1ccf",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T17:49:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "089579c540b510ce6e5d326f5a8f241aa19f20db",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T17:47:38-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92da6701583095b50494dbfb2856916422af066b",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T17:43:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a8665f1aee60aeb5e304587716b5fb38c61219eb",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T17:40:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b295dfb28a85c3b5774e0d6cc8665508dda03893",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T16:59:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 32,
+        "deletes": 25,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 59,
+        "deletes": 30,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0d2433e7ddde52c66aa24aeaec10e71420b6da9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T16:28:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d009bb5dbbd08aa9f44f7b9c361c4f490803dc70",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T16:12:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 7,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "26cd5d5d4fba5e55c31acf21e277ec9b1802252a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T16:08:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8080df49b9e2089cfe257b822ee978ecf4504bf3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T15:59:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 14,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fe9b1af8e0a869c308d97be4d8d1f572f4a6bca4",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T13:26:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "515d20adc76efdde86dee229e6c76a0a9bd7c8d1",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T13:12:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f4709145b8176fbafc10dc4683d75966b97f5237",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-02-09T12:36:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e50a1b364121c12d7bc3e0493deca75fbec7bab",
+    "Author": "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+    "Date": "2021-02-07T19:00:52-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2329fc868ee5063cbe0434e8989435c4b9119455",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-01-02T06:02:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ad423aa81007145120c641868e380b09d0594381",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2021-01-02T06:02:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "22e886362cbaa9e41edad299c7c691c8f768a0b2",
+    "Author": "Sean C. Sullivan <github@seansullivan.com>",
+    "Date": "2020-12-27T13:29:13-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fcec7be6a6e15612db1bc10de0772efff1f76cf3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T20:05:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "162c6c695fd0f13bc612ed7d582b5901d004da51",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T20:00:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb2aaf7de8d137df3a864c4cc2154c0b3717aef3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T19:36:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 13,
+        "deletes": 21,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "795d2551b32ca3d2b364af1e98e8d99c20261c18",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T19:22:04-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 17,
+        "deletes": 27,
+        "occurrences": 4
+      },
+      "jar": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "02bf0bc86d50c2ddf1865552356b5dd83d510eaf",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T18:49:14-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 86,
+        "deletes": 140,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "43e66cd725c2dbd846b7377f749c5ce35194082f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T09:10:40-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 130,
+        "deletes": 78,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "25e24ae4314fb38193a69ec313700eab04b5d4b5",
+    "Author": "cl <clemens.landsberg@scoop-software.de>",
+    "Date": "2020-12-01T06:44:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 76,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "jar": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4abd1ffef45433467409b9968a7b531741b614a9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T07:30:47-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 11
+      }
+    }
+  },
+  {
+    "commit": "8627780db064fc0ff90e31ab37fe44f4b923e8c8",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T07:29:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 11,
+        "deletes": 25,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f06de5b3b7edfe214cb44d76386f41bbe98cf03a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T03:46:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 30,
+        "deletes": 21,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "77281aaf0739730d26585fac975d6ca3a5cb7185",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-12-01T03:29:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 60,
+        "deletes": 44,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e4cf00478d6db5bccdb978fbd1cb0e3c6ea7efba",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-11-30T16:00:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9e63dd536616046762370ed849d14ab9d1b2b792",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-11-30T15:56:28-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4a4a6e1c041f563d071ca765529a1db0687664bf",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-11-30T15:54:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 77,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "322d407a6b5a7397d687a8c80652c4be029922ec",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-11-27T09:07:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "461fb654884800eaf56a839b98cc7cad0fbebc57",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-11-27T08:55:56-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 124,
+        "deletes": 10,
+        "occurrences": 2
+      },
+      "jar": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d8f12cae98007d67f59109b6b1c4f0724b8b6647",
+    "Author": "kishorkunal-raj <mr.kishorkunal@gmail.com>",
+    "Date": "2020-10-22T05:40:14-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dcaa62e2f928d2f3a49149850028391a87887d23",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-10-16T10:04:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8975f6b98d1f16700d09e280dbffb77dbc115d8a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-10-16T09:56:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7092fc430e043a2a89999170f37fffbe4d932071",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-10-16T09:53:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "520b53d223f5a7dcecba5fb1acc9ef647093846f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-10-16T09:40:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "90745abb0403652e924eb0a76d4f78cbc9a015a1",
+    "Author": "rfscholte <rfscholte@apache.org>",
+    "Date": "2020-10-16T03:08:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f3d6c6f95641f6a35848ed6f659f78fce930b90e",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-09-22T03:07:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9aae5908d5e23352e4d3704da66f9b56407a367b",
+    "Author": "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+    "Date": "2020-09-21T19:01:01-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2712fa61c88a48051d283c7880312c3b6b562788",
+    "Author": "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+    "Date": "2020-09-09T19:01:21-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5efd264c61f3b3df6bbf8db9f51e15694371fb22",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-06-25T15:55:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "23104fcaddd64c1b5185293de4543c569e8d35c0",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-06-20T12:24:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "339fcb181dc9feac7c9215e86c0214d696ea7839",
+    "Author": "sullis <github@seansullivan.com>",
+    "Date": "2020-06-20T10:58:22-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c44be1749bd7e02bdb77e694ea70f77d931cebd4",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-06-20T10:52:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c2e760c533225d313c5ef8e1d1f14840591bf431",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-04-26T02:37:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "521d2ee855ddb9cdcd25ae55c018396bcf4043e1",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-29T04:52:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b13c2ed0cc34266c86f0a1c317910289cc8fc84c",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-29T04:36:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "953cfe60ab7c4e93502725bb8890c5de0241403f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-29T04:31:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 20,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3686312e5e1d327579690837225c774b5c66f052",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-27T16:58:10-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 16,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "46ac2a960620083367ed3ae0c2ca3697731c34ae",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-27T13:45:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9770859152b5c2855aed0d26ee3252b153bf4176",
+    "Author": "Sylwester Lachiewicz <slachiewicz@apache.org>",
+    "Date": "2020-03-27T13:30:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "358012cf175b5c94adab18af37d0637ab59b6631",
+    "Author": "Sylwester Lachiewicz <slachiewicz@apache.org>",
+    "Date": "2020-03-27T12:55:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ee00964a7c294aaa7c0efb493c7b85cadcf6337",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-27T11:59:14-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 9,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1e7aa1fd855161239355a204befc6e04b33341a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-27T10:45:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d31779ce1016721a2fbb89f1e7cfb8c4cacf8ab",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-27T10:39:18-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f3db29f72bfaabaa5f319af9791f6f76e36a4697",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-19T18:34:22-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "63eb2ead6f49bb8fb7200a5b70d6d17299a91e99",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-19T18:28:38-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7641fbf7c68ce8178517db82844f42e6984f3cee",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-03-19T18:02:27-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "286ca3be116d76595486544c734e7d347f94faa6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-09-11T05:57:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6e233125c48a0a977f9d443b154180b7341ecc2a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-09-11T05:22:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 10,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cf10e7c324ee824604ec4552c90f8d5e791cea9f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-09-10T16:34:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d52fc1732fe85f711a2cae60f7478735bf57ed81",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-09-10T16:31:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4057495d12883f9ed612c4eb38bb0aa83903fc24",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-09-10T16:11:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 29,
+        "deletes": 46,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9535662dc12695d3112070270f098dbf5d3a43a9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-09-10T16:10:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca0f4f51e73ec317754778f2f146bb9647dd5121",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-05-23T02:44:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 11
+      }
+    }
+  },
+  {
+    "commit": "ff8d2ad0c907cda1d66b6dc5e2955b9355d50aee",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-05-23T02:04:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6aca01154194a063b8e4798e78e3c676b7d8c951",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-05-23T01:55:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c1e8493c87b7ecdc3c91991068f51f6196279ad",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2019-05-23T01:52:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8b618d42523153cf073f847034e66dedc44b560d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-11-01T06:14:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "55ec1499c6c7982bbd0a22c1525a8935327e9848",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-31T19:39:34-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 18,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d7fce3338a2906b6e175ebbb6323eb0d47de911",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-31T18:48:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 78,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b28f4131a207f05519118938f138120cc0dcbe8d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-31T18:48:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 0,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2da60e7908262771874726ab300dd2df0c82ac1a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-31T18:48:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7564475c56eb0ff7dd30c87280b9c6065bdfd53d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-31T18:47:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c173f917c5531b6766e5a5c250fcbe8d72ffc5c1",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-21T07:30:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6dec66449e0fc478c62acf3f4ecfc16ea638718",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-21T07:30:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b46659b3d1ec20613522dccc69d11cc899268b5",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-21T07:29:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92e09ddd44dfa580f2f0ee93d13b5b06494624a7",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-21T07:29:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "262138cf96dd5c45b2b8d2cc0a82e934f1e5dde9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-21T06:02:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50224e9ab25db997e0281e4f658ed0be5b124752",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-21T06:00:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f1986d7cd663de146846d1e365b0d65e67758cc",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-19T14:23:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "791653bf167d16257ab39dfa30b05983ef8c0daa",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-16T11:43:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e0a35a285cd284353b53dc1064eddd56a4ab40db",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-16T10:28:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "71456870a42a9de3f55fb5cbba909f6600e6f4c7",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-16T10:27:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa0219559ac493bd596f89a1d3f1c3127a9c9de6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-16T06:02:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "83c8f9046fc20b55fc71851b14c946b9af8a70b9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-07T11:37:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e3cb5e09d6ff7644de3e39b984dcea9f68b649ab",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-07T11:36:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bd9e8f217d057875950d282985e68d049eb9b272",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-07T11:27:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "252c978b545842757834c1295d442de139cc972d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-07T11:15:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 56,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56dae1622ff5e00a912bc5c7920980a5c33366cd",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-07T09:39:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4978fb30d7bd4e94b6c6ce54a0b717c38c58f19d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-07T09:34:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "74dd34953a50f9fc7c8ab4b01c6cec64c96c15ed",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-07T09:22:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a77b07980a921aec85177bd145b4e58d35ccd70",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-10-07T08:56:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a5aeb96d15b60d9f446b927c7cb13225aaa9d30",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-08-04T05:20:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6b162daca5a2c62177b35b681a9ac1a64adcfb12",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-31T00:54:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1826e551908f3ad33b13fb2e74e399a8336749b",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-31T00:38:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "500915e55991402b75aa8678c089b77214dc27e4",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-26T15:15:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bc4de5787e38b3d0a26428bccc6f639c9a6adfcb",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-23T09:27:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a62e08da93cea929cb2ba72c304fdd76cd4f8512",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-23T09:20:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 10,
+        "deletes": 17,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ced3f5213a7a10382da1475fd0435f5b828263ea",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-23T06:26:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd5ed5c69512ff9db1f40dd462deb20f9dbcf21e",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-22T17:48:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4604efbc533224ca94926c893bc7b5cd0005e9b",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-22T17:42:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 57,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e38810a3c3ac4c782eb2c5717c3679fffcab76fc",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-22T16:37:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 19,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c7b84c49eb050b4e967bbde0185b41a1106afffa",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-21T16:20:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 34,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2cbb48d614c4c461ab12b19d4c8f0face579a480",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-19T05:40:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5374509c522cbee8d29e555f415402f8db48c662",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-19T05:34:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3d2a68e02a1abc471df316f029f8e69322b572e2",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-19T05:13:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 32,
+        "deletes": 21,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "c379f83fff3865d2249cc6edc3367759d4b6d8dc",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-18T15:58:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 212,
+        "deletes": 175,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "de513302f49c492bc2b4567f6e684729abe0f603",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-18T15:57:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf60995cf24a5f4dbbb9b266d5dd94ad67cd82a3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-18T06:58:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 285,
+        "deletes": 255,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2648479609106ae64e296710d8a9841e27fcdab6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-07-18T06:15:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 3,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 57,
+        "deletes": 48,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea1f64d969fa9eb59acb627299a9c8fe88a48957",
+    "Author": "Cause Chung <cuzfrog@139.com>",
+    "Date": "2018-07-07T19:31:31-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f82b0f55d62e6a46bb977c36416ff76727efda08",
+    "Author": "Cause Chung <cuzfrog@139.com>",
+    "Date": "2018-07-06T18:55:01-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 37,
+        "deletes": 29,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2410e2d39001696d3f6317c32d41da20abd17cf1",
+    "Author": "Cause Chung <cuzfrog@139.com>",
+    "Date": "2018-07-06T18:22:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 19,
+        "deletes": 36,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9d65620708ee1eebedef75225db8bb62963995af",
+    "Author": "Cause Chung <cuzfrog@139.com>",
+    "Date": "2018-07-06T17:58:29-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d9315aa031197e136453a40bf2c12a5a0bd5fa78",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-05-18T11:55:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a83c684862cc26f4a3e75026f35c42992672ff2a",
+    "Author": "Karl Heinz Marbaise <kama@soebes.de>",
+    "Date": "2018-03-24T11:32:10-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "784f87d7e24393044793220fc19dbdf34a1d3c2e",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-01-03T11:15:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cdc299e5180dcf5652217532a786f80bc33db72f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-01-02T16:01:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "964a97ebe230ec5f34e5eac21853c62984f42a13",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-01-02T16:01:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c426113cfb8276991e3cb66f7ca27105ddbb085c",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-12-27T12:58:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "3a01da9af2846f478ec65b2b6d058a3dac5d9926",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-12-27T12:58:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31e549f55f735a77094f60a903bc5eecfa4232e4",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-22T14:23:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e86b397ccb9654157050e40a9b26a51661d0ed45",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-22T14:16:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f914307626d61e0ffc9be24c818dabe2285d54f1",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T12:20:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "072e01c8c63e47377e8c5fc55001d0bd6615c045",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T12:20:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19b5d5164e765931ea2ba670a76d762172fb7692",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T09:05:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e296fc9b7a76d7fa1e4153a3ede76e544621df97",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T08:55:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 49,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "441af824769cd0fd484489ae52ada26681bc0f02",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T08:10:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "36d839692ac1b8ec950e05c20615ed2c9e0aebf1",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T08:09:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 43,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "49773292e3317309d71f74f2b6183cd1ad6d7d71",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T07:47:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cf4f3b5f08ae0c69fcba33ac6d6171cd938eb72d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T07:42:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 24,
+        "deletes": 24,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "7c3d1b6f4c16ad9ec3b801047e5d13bccbfceddb",
+    "Author": "Cause Chung <cuzfrog@139.com>",
+    "Date": "2018-07-07T19:31:31-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "033715494556ff346412c49527690bfe86de1593",
+    "Author": "Cause Chung <cuzfrog@139.com>",
+    "Date": "2018-07-06T18:55:01-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 37,
+        "deletes": 29,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe0d7bfc6ff9456c134d59bcb8bcb2d333c944e9",
+    "Author": "Cause Chung <cuzfrog@139.com>",
+    "Date": "2018-07-06T18:22:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 19,
+        "deletes": 36,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9ec82ff03c38aadeccf71370cca8f891b7ac41ee",
+    "Author": "Cause Chung <cuzfrog@139.com>",
+    "Date": "2018-07-06T17:58:29-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "485a1a261f1cc29722f6639d453055cc5d2a1d54",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-05-18T11:55:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e41705f9ce0ab5827bde21b293f3c08198897a18",
+    "Author": "Karl Heinz Marbaise <kama@soebes.de>",
+    "Date": "2018-03-24T11:32:10-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f1d24c871211b16804d6fbe722ada0ec494a9332",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-01-03T11:15:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "32d81094825376a66d73ae9ab9b641216db6db13",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-01-02T16:01:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "59f2e9b27ddc6fc250bb9ad9e96d2c30ea862d58",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2018-01-02T16:01:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27ed1e947b0ae2d69d56a86b4c0d327aabfbd8cf",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-12-27T12:58:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "22f806a370a6a9e29bdac080a572c0c14028cf15",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-12-27T12:58:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb98b520df8bdeaef23b7e275ed8c8bf885072e7",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-22T14:23:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b88e91fd4aa9591b7c525340bf68e7eda50a62b1",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-22T14:16:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e3070f3683b1ace65efac639891cc497bb058592",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T12:20:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f9c5554c60e70be5e1e3762c92f8450a759ed37e",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T12:20:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aed580f5dfcc81ef5f73f3eaecaf2180be104b44",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T09:05:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c3d530dce976e7ef650b4d19cf3ac2e356886c6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T08:55:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 49,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fae1f930a0d67db33f152edaf0827862f96a0842",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T08:10:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53f6959db6198e3efc931504cdba97ad3da7527f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T08:09:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 43,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c6d12b9dea14ef59e8946a7965e83eb49c6e8a3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T07:47:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5155f9426e56b4098cfa43a63c25b5ff8d5205c2",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2017-08-18T07:42:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 24,
+        "deletes": 24,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "7ba5ad8542bd04bc486a1115d1a36f69d2dd8e85",
+    "Author": "rfscholte <rfscholte@apache.org>",
+    "Date": "2017-08-04T13:45:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "jar": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1932024683b2065eeae22913d137abf1e31f1e1f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2015-11-15T09:08:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 10,
+        "occurrences": 2
+      },
+      "xml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 46,
+        "deletes": 58,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "5644e82ce10b95b9c86771f1b3dd4c961ab0b9dd",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2015-11-13T01:29:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 47,
+        "deletes": 41,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "24b94a39db9e49bf02ff5f796b113cbdf48c4792",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2015-03-07T18:48:18-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "xml": {
+        "inserts": 17,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 71,
+        "deletes": 40,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "313d95402eaa253aa83b21cd7edf8eca5a89880b",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2015-03-04T13:18:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4b4c720652b43b30864c40a41c42336e77bdcbcc",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2014-04-23T18:18:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "96def3fe33787f38d18be8a38c3807b2517bf743",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2014-04-23T18:11:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2f737c7b3ed44fc3ce1c15c573f322c5fa07aa6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2014-04-23T18:05:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a90db9e2acf96333564d4156443a5d87ac56a190",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2014-03-27T23:23:18-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "52761727de9ca48d2527e57859f6efca88e2870e",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:51:02-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bfbaec069ee19b0d4aea2407c472878e9d6a2075",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:50:56-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd8e122dcbfe53685a53bd00f679d62e70c9984c",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:48:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce03fffc9f1926b03b48e94f3a1d0b9b96f0f5e8",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:48:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 9,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "542d30b1f6ca8a04862acfcdd0dc0664cc0a4aba",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:46:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 247,
+        "deletes": 235,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5dd5d3128aa2e253b073253cb44580310c65bcf9",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:43:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "174af47b06025b63e76c74a7e2f104ba0956c8aa",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:42:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "adb3a9b68fa2b29aee2afb6a7db32c1d6ac601db",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:42:25-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4aeed3f50c05bc65bcbc383453c16d33de3d3163",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:37:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e843e4dc115c707cf94622b7d2c3934908b3559b",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:37:02-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "130f6b8a0bc0ecaa7a84ec33e40452a0f2d14259",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T10:36:28-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "releaseBackup": {
+        "inserts": 0,
+        "deletes": 273,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4db74210e09ab4aec4d3e7438a1a64be51c17d49",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-23T00:07:40-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 8,
+        "deletes": 44,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c515bea03e48a9332e9b2c35caa7c6e8de074f8f",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-21T12:54:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9497f0c9bbe2f7be47d64755415725c0546875fa",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-21T12:54:51-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "287773ab459703a484571340764a8500638f0af5",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-21T12:54:36-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "770d12549aa66bf905b1fcc1376572acdcaf6bcd",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-21T12:53:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "properties": {
+        "inserts": 0,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e7d0a954558edc5442bb77732f4484f461d72eb",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-21T12:52:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "releaseBackup": {
+        "inserts": 273,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "properties": {
+        "inserts": 14,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a5159bc059e7eb9dc766d338d491fcbadaf9c369",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-21T12:49:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2272449e37878165a3ebee0675f257762641b45e",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-21T12:49:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "properties": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3ab38160a2eabc9012907c34e5822ce7e8bb6a5f",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-21T12:41:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa3e9f43731f0a308b0fb648a467422758be9f2b",
+    "Author": "Kristian Rosenvold <krosenvold@apache.org>",
+    "Date": "2013-12-21T12:37:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 77,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "173dc605a49f38c1f68486210a8a1fdb47b0fac7",
+    "Author": "mbenson <gudnabrsam@gmail.com>",
+    "Date": "2011-12-12T15:03:52-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "60e0fe0801a32b24bae9961f67d4a07a03f58317",
+    "Author": "mbenson <gudnabrsam@gmail.com>",
+    "Date": "2011-12-12T12:27:59-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 62,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 249,
+        "deletes": 84,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "461f2be8bad01a37568fbb9397e69867d6492254",
+    "Author": "ntismb01 <mbenson@pgac.com>",
+    "Date": "2011-12-09T16:34:22-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "498441b670ff8fb67948ec18bf6fe1978de9ade1",
+    "Author": "ntismb01 <mbenson@pgac.com>",
+    "Date": "2011-12-09T13:07:19-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 59,
+        "deletes": 68,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "03324ac669a7896dbb13ab8f17e1cbc47c694031",
+    "Author": "ntismb01 <mbenson@pgac.com>",
+    "Date": "2011-12-09T11:49:43-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d9d058319593b66cf34ed17d61b0bdea1aecd98",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-02-09T16:12:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a2475b5b6a2c2dda18ca477626008b32da998a96",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-02-09T16:12:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b73b59fc66ff6eb754d408f1fc9d07623ed8211a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-02-09T14:44:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4847e8b9a4eeca3981a321e2021608d158f4dce3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-08T05:22:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "java": {
+        "inserts": 311,
+        "deletes": 311,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "452512e8ba5466facab351f11582024302b12db0",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-05T16:59:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eae384e510c7c4de1f8fe18ededc8e73f1f8d080",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-04T17:40:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "apt": {
+        "inserts": 0,
+        "deletes": 124,
+        "occurrences": 3
+      },
+      "xml": {
+        "inserts": 0,
+        "deletes": 37,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13f585404b51aae91502a61da8f7eef025d09db1",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-04T17:38:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "60496849a4479204a1530c9f47142665f951786f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-04T17:35:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 22,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b4e63bc54dec3465bcc8a80b1af1904283b9a9bc",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-04T17:33:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b88fc8490bf887d6c81c23a3e9252f52b55e8761",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-02T17:38:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 146,
+        "deletes": 113,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 103,
+        "deletes": 2357,
+        "occurrences": 46
+      },
+      "sh": {
+        "inserts": 0,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "jar": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "mf": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "properties": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "war": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d367767a2d01bab57f6721b057e2a6eecc0046d5",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2008-01-09T11:11:25-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e23a310a051271c0bd537f3aa88ded967db2d6e5",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2008-01-09T11:07:17-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 21,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 3,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "618d1ee2ce549af15c4a924a02fc2d74189f9710",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2008-01-08T18:40:37-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "78af3d2c49af18b97c33557a76a727af0af41223",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-10-28T14:03:53-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 532,
+        "deletes": 117,
+        "occurrences": 17
+      }
+    }
+  },
+  {
+    "commit": "4eca396d3a7627b41546ee0f70a125837bda0074",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-10-17T00:12:17-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "98632b0bf5fef008c59bedca51bb9d2901eca362",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-10-15T00:15:20-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 385,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "249d532eb7537973bb67577c7f86841364779a76",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-10-15T00:14:43-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 1327,
+        "deletes": 1152,
+        "occurrences": 39
+      }
+    }
+  },
+  {
+    "commit": "f6f2b84457ee96d6e9ddeb43e8c3f6d58e746bfa",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-06-23T14:04:57-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 8,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "bd38651b4ebbdc1b9936b837ad46fe546eff514e",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-06-23T13:56:17-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "508c76dca55b7ea868a267c11a540f3997716f2e",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-05-28T16:22:43-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 123,
+        "deletes": 186,
+        "occurrences": 15
+      }
+    }
+  },
+  {
+    "commit": "f3c9f5aeff96c4d566d95972b12d33217bf74a84",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-05-18T08:24:34-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 23,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "war": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4698b50600752f4f6f175d5f7a5c841435a1a4b9",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-05-16T10:21:23-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 305,
+        "deletes": 385,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "96b23c5562c1fcb6f19fa16354efd74fab232113",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-23T18:52:02-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9993307a2f87f27686b5aead3af0d3888de96980",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-23T18:51:51-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "85535aeadb4d8805d7a10f9eb7e1ea04b752d86c",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-22T02:20:33-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13bc814294a5d9f8f68b18c7cbfec2d81432c0fa",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-22T02:20:28-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9eec4a989559de44d429c8efc4ccd135f0ddc39d",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-20T16:07:18-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 78,
+        "deletes": 108,
+        "occurrences": 13
+      }
+    }
+  },
+  {
+    "commit": "202b5d8f3b91ea6aaf6ffcef6300db37e93fe212",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-20T09:08:28-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 173,
+        "deletes": 213,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "c6ee5875324270fff496112a7c4df83453e3a09c",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-18T09:10:49-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 58,
+        "deletes": 78,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "9a1b36f5379ae78a297625aa90da95a217d5e7d7",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-11T15:12:56-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 6,
+        "deletes": 10,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "242830e1d2a26f3a45841cd460b1981b5c2cda9d",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-11T13:58:09-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 555,
+        "deletes": 145,
+        "occurrences": 19
+      }
+    }
+  },
+  {
+    "commit": "0f061208f7c07de91ee54dcc2621d3a83fc3af5b",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-09T19:42:44-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 109,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "c153355b2683a6980a8d0ae8553491283ead87ad",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-08T15:59:03-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 75,
+        "deletes": 40,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "1ec7812f8f443fcdfa1955f1b18c524eda83f6b3",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-07T18:00:18-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 151,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e33fc35ddd51ddc3e42423044136693fb46fb405",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-03-07T17:10:47-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 109,
+        "deletes": 38,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8f59df2f9566218bc0281f1abbdbea5a508ec557",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-02-26T04:46:22-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "apt": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "721997239beb5ba8b41639b1fd46821b9c49efb0",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-02-22T12:33:21-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "txt": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8059a9764cb3ca9b77e5807238891994f6afaf5a",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-21T05:11:12-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "588a6bad4a2a963947edfc38f66f42b9c5c0f88b",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-15T15:49:55-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "txt => LICENSE": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "84698b058ab10ffbecd5b2fb8ac5b5f08f020c20",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-15T14:24:05-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "299980e9c7ebcbb96eddaf6bf80b5a3484656363",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-12T14:47:30-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4eca1939c38130ec61d6f9daf548ac8b36fdc62a",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-12T13:15:01-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "168d0cdfb78fa81dca277d8184e13b70088d3039",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-12T13:14:54-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "500e88506d4ba74f31bce625fa0d586cbd0ebd5e",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-12T13:14:19-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "apt": {
+        "inserts": 11,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f6251380caec86cffba4d8f520611a85ca292ef",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-12T13:10:20-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "281990384f559dcc75a30988002197fc9504950c",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-08T12:43:19-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "apt": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "262c5d3802dcdea65acad054b0d26eae818c74ac",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-08T11:57:33-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "apt": {
+        "inserts": 73,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "xml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "350b0662b043bcacb4ab335af0a503492edfc189",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2007-01-07T11:56:34-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b8a21fd4476fae2f543752197561aa82cbf1fa6",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-19T11:56:09-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce7d52f0a5d058e197bee30b1e1e2bdfde99523a",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-19T11:55:35-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bd82edf27729836858677cbda00d9538e8ec6a82",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-19T11:49:52-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 18,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "935405b7fad2f6485caed298b0a7cc30acbd3c7c",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-19T10:44:30-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "txt": {
+        "inserts": 201,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a225baa41919aae1822606e2d367e274c6af2bd4",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-19T10:43:20-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29da9792b17c3755f6ed457fc81a1e56d4d85c7f",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-19T10:33:56-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9cb7d313106857f46fef7dbdc2bcdef829c20b7",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-19T10:17:48-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 34,
+        "deletes": 51,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "108257551cd9c8f17a80aabe74c9d815cf837114",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-19T10:16:26-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9e67b29caa69f818ca74cbf3066a724eeba39dcd",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-17T18:10:16-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 61,
+        "deletes": 27,
+        "occurrences": 2
+      },
+      "apt": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6f129bf50114056cdf67b6a5c3f9103de69d7db4",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-12T23:53:47-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 52,
+        "deletes": 330,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "8c2dc53bb67e2fed7cd9c2ffd03043f4bc8f51b7",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-12T23:25:51-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 341,
+        "deletes": 395,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "9a6e32918e993dfc30aa2b47df172774dc2f45cd",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-12T09:26:02-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 617,
+        "deletes": 415,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "f259990adb0e89f92ed8ed3d1f738a0ad7131a4c",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-11T06:01:42-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 26,
+        "deletes": 44,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 128,
+        "deletes": 1,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "56ef56e3fe25740ea432815a891a7f0762adc095",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-05-09T07:03:16-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "019d0b8a70d5291396f9f24b378b9b19fa69b2fd",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-04-21T08:50:40-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "java": {
+        "inserts": 21,
+        "deletes": 7,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "c1d62cf88cbe0f361c7187ad9cb1e1f039c9baa8",
+    "Author": "tcurdt <tcurdt@577bcb78-dc11-0410-adeb-e78ecdd2e139>",
+    "Date": "2006-04-20T06:24:06-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  }
+]

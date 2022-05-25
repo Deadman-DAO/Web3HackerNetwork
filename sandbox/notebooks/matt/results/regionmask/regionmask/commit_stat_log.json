@@ -1,0 +1,6476 @@
+[
+  {
+    "commit": "ca820c4aa6d2a7b2a517954312bd4a33ea27c83b",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-05-06T08:01:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e9b037aedba84dfd5637943a6319e3033a4b63c",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-04-07T06:49:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 72,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1efc9d1b0e70a622ea6418d97353a2aadec0cd6e",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-03-16T14:55:06-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 45,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b244e8038d6e6f36bfe591c69cb833a6fedc4d9",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-03-09T08:30:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 38,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8cb9abcb29aef72a6e7c69c14a80f29d1aed2a9c",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-03-03T02:47:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 91,
+        "deletes": 93,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 4
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "tpl": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27b198fbe5fa7f6c83d0345b51f51e3daecec3a6",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-03-02T14:12:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "433584c508a9fb2b6215ddd6a1a91ce7c7dfd7c2",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2022-03-02T14:12:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "40005979ba1173bb4279c6f3c0f3d6a39f0eb609",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-03-02T13:51:40-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 13,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab70f9d5a886edbf373d82908a038d71adaa5666",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-03-01T17:01:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 82,
+        "deletes": 66,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8aaf9fe4e2ad4ad577517464e2e72ee0b64cb855",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-03-01T16:20:10-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 16,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 286,
+        "deletes": 13,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "ea109914c7f9818342f41eb2eb5c136258c16b42",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-03-01T15:50:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ipynb": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "ec46fc189bbc820f17dec77d1650c54765467d08",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-02-10T01:49:56-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 25,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "64b940c01d3af029de585d6e2781e88c62b414b6",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-02-10T01:35:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "40d682cd7bacac3435561cf7c6406d6a0f9342a4",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-02-09T16:09:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b97a4f6e920a6716267cb3e52267151fb97ee438",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-02-08T13:51:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "222f00bcff7a65b01f9e5ba4ee79a70dc6174cd8",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-02-03T08:54:29-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6b97a584016568b10d4fa3cbffe50ef6d414ac5",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-02-02T08:00:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c571186f62257d5ba0041aa6c4505b708c6605a",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-02-01T07:30:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 18,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ac90ae7a167207dd59a4837d1afb5bca4e0c4f03",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-02-01T06:02:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 451,
+        "deletes": 127,
+        "occurrences": 21
+      },
+      "rst": {
+        "inserts": 17,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "ipynb": {
+        "inserts": 448,
+        "deletes": 8,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "0dc3d112b88d89db6c4369252a088d7b162edc34",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-30T14:59:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "deaffbe8425f5c7973d34f26bd95d0710c3e7e55",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-27T15:06:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 106,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "667d92cd7c68166199348f7bd118baa2d5aadccd",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-27T14:46:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d09f0b3d2c73b86f4d96dab2b084623d269c8264",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-27T10:50:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 40,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f14aa559036b84eb1b249390b83067506149f479",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-26T10:57:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 90,
+        "deletes": 81,
+        "occurrences": 5
+      },
+      "yml": {
+        "inserts": 4,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 94,
+        "deletes": 103,
+        "occurrences": 6
+      },
+      "tpl": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d7c7f17bea98b51c3a673300949bc16cffff1c5",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-24T15:47:09-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 15,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4bf376d5b2f17b1e9b423f0c89b89001f39db20d",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-24T08:56:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 60,
+        "deletes": 51,
+        "occurrences": 6
+      },
+      "py": {
+        "inserts": 599,
+        "deletes": 393,
+        "occurrences": 7
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8fdf2be1d961710d43ec636dd592de68038e55fe",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-20T01:56:40-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 10,
+        "deletes": 12,
+        "occurrences": 4
+      },
+      "ipynb": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "880c8c47c122e0f9e51cce3e086e481a61c4d14e",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-10T18:00:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a04efa7ff93a02c33f46788571704129a626c662",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-10T17:58:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c084d8f168f916810657b47f19ea92441eba33f",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2022-01-10T17:56:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 93,
+        "deletes": 26,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "90827772d0d8b62628a8beffb8cd9df3cffdd003",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-12-07T09:15:51-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 110,
+        "deletes": 19,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8cf49080dd6333d6b733687a64c691e1be6ce436",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-11-26T10:30:52-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 209,
+        "deletes": 305,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "659baaaa16d0e46078522e78b6bdfe5699b386d0",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-11-26T02:57:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 28,
+        "deletes": 21,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3fab767a13bbafa7a8b720bc32ed58cec9040eb6",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-11-19T07:59:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 182,
+        "deletes": 67,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e677c3d49f9c73c0c6bf3332231a3bc7ac2999d3",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-11-10T13:41:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 300,
+        "deletes": 107,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "24e91c498d74240f38f59f287ebd93724879d704",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-11-08T07:54:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "43e478288700ff6da6b957b8342ae4e5ed4ceb85",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-10-06T09:09:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2d9b14a388174fbd6b479b0f9610f340c934695b",
+    "Author": "Aaron Spring <aaronspring@users.noreply.github.com>",
+    "Date": "2021-09-30T05:10:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 91,
+        "deletes": 20,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "32579ebda026725f33c58ebcb7a243d643342802",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-30T05:03:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e4ad0b26c79d6bc75810ef9e53670471e6f9989a",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-30T05:02:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 11,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b22c02c10b1ee2ea3ec29e426ad823360e30a39f",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-29T10:36:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "112a2d0393af325f09ea0909651bd5ecc83c958e",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-29T10:33:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 16,
+        "deletes": 10,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "0872147942af9070a6d33b4e417ecc8cf7320159",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2021-09-08T12:51:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 25,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c47cc00197c5c2f507540a88b10314d22ff7c5b9",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-08T12:46:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "895fe79d3c07d51d20872b9019636e86e5787371",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-08T06:39:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ef5f547ccf3decb04c1a055184b61e22a9d9dae8",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-08T06:37:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 13,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ff45d637d51c33ca898e8a50f9c70e8c1cdafae",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-08T05:54:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 34,
+        "deletes": 12,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ec010874e18e64d76bba92a088b061506029da84",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-08T00:18:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 18,
+        "deletes": 8,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "61022f14429fcf5fc91c4cd4d62764700df5b480",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-07T05:26:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ee733fa14d004e8087da701a618a34e4d8222989",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-06T06:41:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ff11d51b04dfe4a3c38d70a4e32c1dac5b7b976a",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-09-06T06:01:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 18,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 15,
+        "deletes": 13,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e59aaa94f07e1579033ef2436701a1fe99ff3659",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-31T07:18:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 142,
+        "deletes": 61,
+        "occurrences": 5
+      },
+      "yml": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 13,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 43,
+        "deletes": 31,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6af1037b2ebb1021d1dbcf50a6433eb25faad5d8",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-29T23:18:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "223b3645abbaf133f69139f330535bbfb2fcdc30",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-29T22:22:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2299f6422c99fa0a10d244413b595c86e25aaab1",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-29T21:34:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 20,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 27,
+        "deletes": 18,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 119,
+        "deletes": 90,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "3e50947d4f88252349e6980ede3b6917c7516fe3",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-29T04:32:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 102,
+        "deletes": 52,
+        "occurrences": 4
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c784fa940fdad357fbd6373a9556a43a2b01e63f",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-25T03:27:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 16,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3311c8c924b4afb717eff22e38ff8c02f6a1f268",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-25T00:47:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "94ad5aac8d93049c18c90879baf2c8b58512a149",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-24T09:51:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 64,
+        "deletes": 130,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "25bcd8e636606be618f635a93c0b309d48f5e590",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-24T03:18:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ca7a6cf04d91ea32678acb08bbfdbe4fc6507547",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-16T05:18:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 57,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "bbbf8d1f5502fa4c852c2968d70bb3c4e1966299",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-14T04:49:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 70,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 18,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 179,
+        "deletes": 28,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "4e0c27c49a3f4dcb4f15dabd39d954493ac59899",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-13T02:37:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 8,
+        "deletes": 12,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8718c6ac5b31d2cb155d3d5f05a587c19dc19cc",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-08-13T00:48:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f05862cbe8e2d6c9a22b8715e26277415cd0275b",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-07-29T07:43:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "in": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 9,
+        "deletes": 12,
+        "occurrences": 3
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a889680b3b6a9af1cf64d6d01c5e0541b4150d54",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-07-29T00:59:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 37,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 31,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a34ad2e05c3f1046d1ed783f8998cc57c257b157",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2021-07-28T05:08:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 26,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b27398e4dd246d542c0a82ecc35da60911edc9fd",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2021-07-28T05:07:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "454e76cfe65ebb663870a822ea73ad0d6ade37e0",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-07-28T04:55:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3993086fdb363a27cc3180d21a3e6e66b05e7228",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-07-28T04:16:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 111,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "07e4d3bf9401aec7011ed07a8d153a4bae46ab68",
+    "Author": "Julius Busecke <julius@ldeo.columbia.edu>",
+    "Date": "2021-07-28T02:05:57-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 11,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "63f3f7c2eabd42a106556a9192e106108767bea0",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-07-02T06:10:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 34,
+        "deletes": 43,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "9cfb4d831b89a9251bdc2162db8ea88f50e743a7",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-07-02T02:33:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 264,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 224,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "94d6c7f3729573dfed2e9193d3b01e80c2c60c50",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-06-15T12:43:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "rst": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "ipynb": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "139f0a14a45d5d8253b2c8f2f81ca713beb3e026",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-06-01T05:24:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 80,
+        "occurrences": 1
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ipynb": {
+        "inserts": 139,
+        "deletes": 112,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c0e6ac5f01880a2a1155968d6cfd6bbe4c17a56",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-05-31T09:04:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 41,
+        "deletes": 65,
+        "occurrences": 4
+      },
+      "ipynb": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1c6c89af668731c13b9460a1cd5cfdc7176bbee",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-05-28T07:57:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b68b2b1ffaf4faa4b8cb8bef4fd5e22448e5b7b6",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-05-17T14:54:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 14,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 28,
+        "occurrences": 3
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b95316b4c8301fdc1a5d0fe50a5d65ef9194d1cf",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-05-14T14:49:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 26,
+        "deletes": 44,
+        "occurrences": 7
+      },
+      "rst": {
+        "inserts": 18,
+        "deletes": 12,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f627658483e4a3ebc8faef09fe6ca0a594548ce7",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-05-14T08:59:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 72,
+        "deletes": 58,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "568eaf7cb88951b4d08e61d0b42b6df26b655396",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-05-14T08:29:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 26,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "97bb3974230a276bb98426275682c3026e132b6f",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-04-22T06:40:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "737b1805d8ebaaf5621f07b71f4b2d2c3f8c3606",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-04-22T03:00:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 36,
+        "deletes": 16,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "9370dddfab5a76ec17a98d257200eb0493f0bcdc",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2021-04-22T02:19:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5233881890efed3a8f03c1ac8efa036724c73a96",
+    "Author": "Aaron Spring <aaronspring@users.noreply.github.com>",
+    "Date": "2021-04-22T01:50:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 92,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "1dc7895a00a15d26ab37e65f17acc7037608d162",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2021-01-24T11:58:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89cbcef1dfa025feca2a4025d8ae11d8b8bfb343",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-01-22T15:08:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 19,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 38,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c36a776d6236e578a96c0c0b60546f1eac42fcb2",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2021-01-22T14:36:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "51118bc1239d4027d99caf203377327ccbf94f42",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-12-22T07:20:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 8
+      },
+      "rst": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 13
+      },
+      "cfg": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a70a0748478c04758be9f1a6b53c60c6b6743026",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-12-22T06:20:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 139,
+        "deletes": 47,
+        "occurrences": 6
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0efa511964d703bc6bddf1d763be9e9e0f33b282",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-11-24T08:05:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 83,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "52aec3585e027c59bf634ac4a854a2259ea44b2e",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-11-24T07:43:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 28,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 24,
+        "deletes": 55,
+        "occurrences": 16
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8335bb25bf2af67fa6d0b51d15fd4ce69bfdb03b",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-10-22T13:21:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 12,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6b28f988780f753e5c4527da67580c58ad5b91ef",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-10-22T06:38:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e49f870e6401220d90345363917f21f8c8409be4",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-10-18T08:32:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "cfg": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2101ef1cb27e0a0dbc8161fa1e798e1483135cc6",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-10-14T05:52:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be91c5af406dfea79510fe846f7ada7bb0fb8548",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-10-14T05:51:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 63,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "99e9e1bd98b1bd6f24fecb4e63e76b30b5566690",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-09-28T13:25:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "029a1faf8cd852eb7a42a68d7e1068a234dd824c",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-09-28T08:02:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 54,
+        "deletes": 114,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 18,
+        "deletes": 90,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "f8dc605c9a4f432ca8b9f7b9295cda5a43bfd74f",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-09-28T05:56:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 18,
+        "deletes": 320,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "f9f88cb5714b44b02fdd9f89a8e6f4288472ad2c",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-09-24T08:02:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 73,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "3f8a3bb440b143ed83ea19c009db3c4ed831edd9",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-09-24T02:45:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 23,
+        "deletes": 107,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "c6a69342823ee22ff4b04a494903c3d9a6b6a6a4",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-09-24T02:31:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf53a37502f15548c835a71da9da2fb56c19bfdb",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-09-21T11:50:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 31,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d90cc657891534d69b8f6944542d2cf7426ccd7b",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-09-21T10:21:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 20,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "110ac4f91e060d517957bed2f0f54d4a71d439b0",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-09-21T09:52:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "592dbb1fd407b443804414009869cf4cf1fad528",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-09-21T09:08:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 145,
+        "deletes": 135,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "41eba4434d384e049e9e0f9ad5a60c42a3977544",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-09-21T07:39:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 34,
+        "deletes": 38,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "6cf862b17fa0aeba947a1fa5984d2f7bfcf5f6fd",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-08-19T14:35:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 22,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a290a1bcfe8cfa0225c41278e84d5f8004f6859b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-08-19T14:35:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5633d18396c99336ccfc7ba2d380baad218e4950",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-08-19T14:27:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b151882f89618a8bfb563dce48933f132ac0ea84",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-08-19T14:14:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 9,
+        "deletes": 24,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "d046b458d3e5e7f4a3c3d1357e6b08761e91adea",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-08-19T08:13:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "zip": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4f3c0bdc2104680186bf96719064214765c80b46",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-30T13:05:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f04e97bd25cae53bb06e7d43942fd394e824de20",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-30T13:04:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 21,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "14490bb87b33ab4a96150fa990e9e7e2e09f0557",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-30T12:55:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03a5bf8f01dd67ed6c3fbea6f0915099803ea7a8",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-30T12:29:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b27194889e30e4040577631a2772e861ad907bc8",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-30T12:15:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1fa477fb63bd93c84771ad08a51701edc1578acb",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-30T12:14:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2cec490cec76b62b608cf68b83e59868f31a7d48",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-30T05:00:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8a92fb6d76a1c7970309babff98f9730b6faa917",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-07-29T00:41:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 18,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "655a188adbf3daa05ddebc8a16df3830a45e5572",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-07-28T15:07:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "cfg": {
+        "inserts": 13,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f99579b363aa1cc40128c2805d903d84b5fcc7c2",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-07-28T09:54:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 75,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 374,
+        "deletes": 1,
+        "occurrences": 6
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2b5e73b589a2050c59c8cf5401717037e3372afe",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-28T06:41:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "zip": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 395,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a50951232e84e1cf339e269fae81e634a7ba5b38",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-27T09:10:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9034dae0a2bedbeda96b0461071866ee25b8be4d",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-07-24T12:23:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 25,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 70,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "122f82438ce46021c039ef6977bea05f4a9c9066",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-24T06:16:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "zip": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c13f3855e2a08494f9639ab806bc240675027f0f",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-07-24T06:09:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "zip": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53ecf6de6d75ac87c6ebfd91b4cc2f1f4d20eed0",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-07-23T06:41:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 149,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 84,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f7e6b6d5eaf6283f6a9fb430970de2bbbc84afec",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-07-20T07:27:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0345d0d4c6a864626fc8e769270ac1d56e90c960",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-07-17T08:11:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "zip": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fed204981f1265ad9eb5fdc6097b575e8a486dee",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-06-17T04:14:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 28,
+        "deletes": 12,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 222,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "7b3920ef4e30273bf407b12f23aa663a2bf78848",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-06-16T11:54:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 21,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "dc77fa75b26d7f5bd9763ff081a851c3f99022b4",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-06-16T07:29:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e840eb0755b5dd69f5054138f68ce417de35fb41",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-06-16T07:28:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 1,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 155,
+        "deletes": 57,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1ea4a7bdfc2e73a509e40c20ddcf8a4525d99b11",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-06-15T06:25:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 79,
+        "deletes": 12,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "6842ba51d919f20a1c1ef4df66c2fea16471a0df",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-06-15T04:46:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 175,
+        "deletes": 167,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3db23c1839c87e92157caf4a91b04de4d51447d1",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-06-15T04:46:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 27,
+        "deletes": 15,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "6121f21bfbd5c224615500038e2abbf2412e99b7",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-06-15T02:35:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 118,
+        "deletes": 28,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "24b8fa6b43930ce51aafb8f2908ccd7c1a5c551c",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-06-12T09:56:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 36,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b5429473425695d138efe6c98b69495592641f7f",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-06-12T09:27:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 11,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 536,
+        "deletes": 153,
+        "occurrences": 9
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ipynb": {
+        "inserts": 621,
+        "deletes": 108,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f5974f19cdad6f94c3c8e9e7e2f154a10749f4ee",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-05-19T01:48:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bc1c93ce418114dc391caa0318819e8ff29d8a96",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-05-16T08:12:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 226,
+        "deletes": 32,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "9d34b20264cb2a6be23db35722ce17bdd4fb83b8",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-05-12T11:31:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "197b9448601f1ecbe4ea96d8a7f7ca80b90e7482",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-05-12T06:51:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 34,
+        "deletes": 2,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "5964f2ec780d280eb6ceaf353b9a4249b759f835",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-05-06T07:44:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 191,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 177,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f8265b9e8f730037ef1c5185dd643182f3b68b13",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-04-30T06:54:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 26,
+        "deletes": 8,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "1e82f19c3a207ab06d5311a1cc667a17b4c5e33a",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-04-30T06:08:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 73,
+        "deletes": 67,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "27c69ce1f93cd5bcf4903cca5718ae6f379d18e3",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-04-30T02:31:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c173ac919676c02004f0d998784099df007b179f",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-04-30T02:24:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 62,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 263,
+        "deletes": 73,
+        "occurrences": 7
+      },
+      "ipynb": {
+        "inserts": 271,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "574788bc7617705eebee63501549131b36c4612e",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-04-26T10:07:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 30,
+        "deletes": 37,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "35da3e463b8f04a7197a8ec059a8aeb37ab990c2",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-04-23T02:05:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5795115b61db6484b8f66b97bab84198d04005aa",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-04-23T01:05:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53f4ef4449bd05f4fabc2dc96c16889521067b71",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-04-16T08:45:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a843361e9e4096b38d07c1d48fc70deb7329b79",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-04-16T07:31:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 38,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 237,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "rst": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6309283af3c173594102b07a4653f1947d719795",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-04-06T13:27:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "797b0b411c59df8fd1684371b9107288df62acb5",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-03-29T13:38:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "11a36312e1717ee45a762bcc840a39bfd35e77e9",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-03-29T13:33:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 13,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "3ccf7482508cd942b0ed189b1dfc9ddb66714506",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-03-29T12:13:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1516517b0d22fde1e0768da97b0820161721e08b",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2020-03-29T09:44:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab09990c10aa5a71da7ccb5e0193ba1828fb8a8e",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-03-24T07:39:02-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd6ebda7a28bf78cc1feb06a7d35e82122c0e1db",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-03-24T07:20:06-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5baa7be063a34d052c797f013a009d7d2fdd40db",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-03-23T09:47:10-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "902e2738232ba5ba42cbd8d7867798d21b3b96c0",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-01-29T14:59:46-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "874a4b6c9d461f98eb03805f8d6bc49b939adb2d",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-01-29T14:53:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 0,
+        "deletes": 28,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "47409c2f083eaa8992bd67e1a9530c1a627682d5",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-01-29T14:52:47-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 23,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f66b0f0b2327a5a10a982b63b5e797e1a69abaa4",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2020-01-29T14:44:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5b5e9fbe8e836db1e152bb6cc1f623df5f624e6f",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-19T10:22:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "154880423974f0ac44c4d8e845b1addb9bd940a6",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-19T07:35:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "154bf56ffe673c0fdc5e12a569fcf480f3ed6e00",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-19T07:34:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "252886d9085e5a6daf4dc3e99ffa82070f47da13",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-19T07:14:09-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d4c0fe4c219d358480dc8848ac9744ddddb7632",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-19T07:11:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "50ce3401d64ded852b10758a60ea3d072fbe4b8f",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-19T07:06:09-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c809057742de369fbbb824a92939e39ca741b6ed",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-19T06:57:56-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c68590b66c12198a5bca59c7bf0b55e2008383b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-19T06:52:18-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 15,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9e84937309b1f7d984b2be79edf97c419c3aecf3",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-16T06:21:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 42,
+        "deletes": 66,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "558213ff3bb148cfa6f6137924025e5246652604",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-16T06:15:18-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "cfg": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "97790983f5920ad12acfa225b8acddd816fad03c",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-16T05:52:51-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 16,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47cebf00dcf77d57051037f0186ebaec2ee01acf",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-16T04:41:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d7e8821c46b7573a38683c0d04e44ae881a8f8a",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-16T04:38:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "644a5e4428a8b773a0ddf79acb509d8245c347fc",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T10:06:09-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 18,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "86f18263879b38c7a5723c0bd9a66d4005c1c611",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T09:20:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "753209c738f2d89f17c17bb87f77581e69ca1e86",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T08:47:56-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c50568c29f843e1b1004b7dc885258bc61e10322",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T08:47:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 15,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5d56bbcc261a450e3f01c860db1a08851aff2904",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T08:44:04-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 18,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4637dd6d15e7e72ccbf524f8ed1bf1266fe1d8bb",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T08:37:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "769173e570f2dfd42a2ee00850383e6cdbe4d3d7",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T08:36:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f66771f290ee428857e2c0308227d427670f02f",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T08:34:38-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 34,
+        "deletes": 228,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8d3e7e78de1744ba73d59ef644fe7b117495fdc8",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T08:11:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cb83a471375755847e63962a6e31a2af2cdc5027",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T08:07:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 22,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "43814d31a75d0441f94d31c8da60f5b4e7883735",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T07:56:22-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82ff9e84f7b494aa6d1f6629ca67af5277276003",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T07:47:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 221,
+        "deletes": 214,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8d6381ebb44a32701dc848cae55ef1d558e99b49",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-15T07:18:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 214,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5d37e3b43132f2a932308e882756d6d26ba36ab1",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-14T14:35:06-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5501d08b7508f66a3236f9c1e910f7ad7c82bf5d",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-14T14:34:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 8,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 441,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7bf8b871354f71dae5adb2802438adec117a9da1",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-11T12:45:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 31,
+        "deletes": 17,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 438,
+        "deletes": 75,
+        "occurrences": 5
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a076f9421f7a9e72757f392800cbd06469ffd71",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-11T12:26:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e500b6da2460833b2bd5c57ac8d632129acb98bb",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-03T17:16:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 73,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "047055d5b21cbb68db9ac379189b3b800d0b4c89",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-12-03T16:04:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 36,
+        "deletes": 25,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c5e0a4f6b6f294d9512a48de2996f99aa3b28d6b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-12-03T13:49:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "764aaee3984809913830bcb46029f5de9d1904c7",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-11-28T03:33:07-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 43,
+        "deletes": 28,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "132e24f017c1e4df6b40689868eabd6d4441ada2",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-11-28T03:20:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf27f2a6db4778e76cbb8eea9592cb2a69e4bb48",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-11-28T02:31:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6b7c45f79d1e84d3816aed602a2ed48350b11ed9",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-11-27T13:18:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "79620d94794b1f876135558b480ad9b036f9d681",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-11-27T12:48:59-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 29,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de98937207b27bfa6ded22d3d81cc834ae3c1f37",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-10-21T12:20:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 9,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 22,
+        "deletes": 18,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 134,
+        "deletes": 4,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "533fa7fe858983e2521803d99c5644bbd1053eb0",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-21T08:53:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 63,
+        "deletes": 60,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "26d06b1a84891fede8e8dd6bf9aa2820f5e82353",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-10-21T08:15:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 36,
+        "deletes": 11,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "4f066ace178bccd19aa2f525ba99b650bea7e827",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-10-16T15:58:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 28,
+        "deletes": 20,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 62,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "4ca76efe076f0a20140d7ed5c87cb17471e4f639",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-16T14:57:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 21,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92ce60983984dfce9ca8476efb5b60850d520f79",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-10-16T14:50:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 45,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 653,
+        "deletes": 214,
+        "occurrences": 12
+      }
+    }
+  },
+  {
+    "commit": "9bb703093bbbcac7b8a5e49610623458037c14f6",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-10-07T11:33:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9b299fcd6d52f6225830c09f5fc2edabf4648af8",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-10-07T11:31:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "42a187c69e0d8ee504f09f83405e21a7004a49d6",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-10-07T11:23:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ceca769c89eee1be076b95ef966b2499a142494",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-07T11:19:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 165,
+        "deletes": 155,
+        "occurrences": 12
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0004ca0cce569ea84872eafe88dc77746c78b6d9",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-07T11:08:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "cfg": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0614a3af5216fbc55f978a321666f7d52f868658",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2019-10-07T10:35:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ipynb": {
+        "inserts": 40,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 239,
+        "deletes": 45,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "5ab3eccbba1c32af54dca929cc5b4a6751444601",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-07T02:24:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f37188a65bf0b88b0e95b11a0987476808e3d8d8",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-05T03:22:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f367c15d642b922644d7e384c4c5080cef7e087",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-05T01:45:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c84b1294103b929243140ee99aa32310a01dcaa2",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-05T01:21:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 152,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "206e28d1c0b1cd9fac24ec2e2a9c83cc457b559c",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-05T01:20:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8b4b7581beec13fa33cc552ce8782f93bbf7285d",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-05T01:12:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "061edb652ee9d6cdb311f6d1101daf4034a498dc",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-03T02:45:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "add3a02ef671c2a70d3f8a228ef8728aed78ca63",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-03T01:22:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "151cf5e3d35f7960b90249e3440d48021888df3e",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-02T10:41:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fefb150b1f77377f393e4e0ef0ffb00ee7b6e0c3",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-02T10:41:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 2,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "590572aae436b12b04ae94f8d39fca88af2bd816",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-02T10:34:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 34,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5cbe49725ff1e10f1b3c8d124ee95627c4d3163d",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-02T09:09:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "bc781d4e6e05d3018ac21fbadb5e171d612e5401",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-02T09:00:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebb407cbdee7b701d470d303b189bb2844a5a4e8",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-02T08:39:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd73633911d9e60728882f70e883cd434b526684",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-02T08:36:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "456026b5976c2766aff557b70aafb2a87a1fcc7b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-02T08:35:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "08a0901fc7db3c62a66f7627af35809f5148df1b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-01T14:27:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba1d70f34e40ba2eb84a89c2e451cafd793eb18d",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-01T09:46:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a31fc5444fa89f032952259e231598b48392aa4a",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-01T09:05:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c5dc6c018fd85f317a0d2e9038cc4c2783731af",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-01T08:51:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d6b9474e3c63afafde434f96d05f8ca606fb6280",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-01T07:17:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "518041beb73d4761b89c72da9eeb8b4ea1e8873f",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-10-01T07:12:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9706979d54421b53554f0b0d8311ab856e476476",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T15:04:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tpl": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "080ea43da8b88f6617f226fac555274ffaea3acf",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T15:04:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bb51b55f0bda4679e219f6f439ec561f8d8524d7",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T15:03:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "22327f8320be23a16ccaf8f7a3baac76d0ebc581",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T14:28:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "634457eeb9ea7a2659adddd521ad602f85fc3fb1",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T14:17:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "83d2fa0263a8b1bd9bab67790999679c27bae77e",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T14:13:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b83e43b26935bd7e297e28f1cb69ad2cb5c00d7",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T14:13:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "68a664ffe5d05ff3d8c56711b208329edbfb8cfc",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T14:12:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7840d3baf9e0ff13c4489cee64ba74bbf33c5bbc",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T13:38:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f99b8dda840ef43d91f281670296aee33bfe667",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T13:37:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9f9c74864fc76c55e448b0c4a23f1f8ba6ab4b80",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T13:02:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "tpl": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0704caedf228e4a8c1112943b018cda804c49f1b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T12:58:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "17d39e1d9c36944d68b3bf9e4053112d05c82403",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T12:53:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 5,
+        "deletes": 15,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "af084f3508a19423313767d945c6e3939462a970",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T12:53:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tpl": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "16d4a357a32b67b3c6f292a190db473ebc390835",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T12:52:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "195c86a2a12d1b20ebd01704b61ab2847ae7415b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T11:35:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "337e0107d2021432bf904183d933a0744f2014ec",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T11:33:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "57c06fcd59c4343b09e9efe69a3054d5561461cb",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T11:27:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "38740aa5659c7bbd4232bd747a2534f30af81529",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T11:17:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53b86e5045d743fd399acfc6f60320313660b3f5",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-18T10:50:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e11dd532022e6759ea36542fc2227622674dfb20",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-16T08:09:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e368cd81f4160b60f8bf1197eb2acbf5212c3f6",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-16T07:51:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "537f9c0027c3bf5d3f8df6ef87f2c4bc327c7b13",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-16T07:24:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1d1b1018cab7429381d5cd1fe11fee9e160b9fb2",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-16T07:17:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "767ae1c459d5174a8e390f91c1b8bb652b369d3a",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-16T07:11:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "adbcd3dfd8feaf6de872563f0c5df1be883edef3",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-16T07:05:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ee5088dac755b27049fdb280d3e565403f421ece",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-13T11:09:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 634,
+        "deletes": 442,
+        "occurrences": 16
+      }
+    }
+  },
+  {
+    "commit": "c03b956a8f88b245cbd80055d0824a7cfa37abd8",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-13T11:02:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1dac3f51a7475beb0bb64f9831dadf3e08df48f0",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2019-09-13T09:55:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7375d8e6ff77ecefda4362a645a1f900c8764c1a",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-11-14T04:01:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "791b3d510b687d9dbb045db8ca353f1cbb627919",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-02T09:26:40-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab9ddb120710e18516b607e9da4458d1692f4987",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-02T09:24:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c2480d14c99200c96ad1572ce2d1bb3e425c847",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-02T07:44:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cbec229b0477df65866f5543af92f047272f9906",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-02T07:03:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3619d245cce20019b70d1ddadefbfbdd65491b4f",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-02T06:59:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebbd41ce22a90f6acd09e73ff1b77ecc575eb792",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-02T06:50:28-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 37,
+        "deletes": 53,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "d66da51ced87381a935962b54c501ac52dd6e77c",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-02T05:55:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ceac5242af3015385a47e67ae1fca3ed535adb71",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-02T04:46:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "560a23319c506f6b028e16e6d2a409f3a694ed54",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-02T04:44:52-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 90,
+        "deletes": 199,
+        "occurrences": 5
+      },
+      "tpl": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "76c215b3aa103ba1621dc4994c276553e0230f03",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-01T09:42:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d607206821b8110bbaec374140f030a5bab3fad9",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-01T09:41:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 18,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "23c1905bea547dfc69133f37d0816315b5212040",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2018-03-01T09:22:36-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a22f54693a12929587532aa9bfc67082f663fabf",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2017-11-22T03:53:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8676d7d34c8cee59ce738f50f5c3b3443ff32bf3",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-05T10:45:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 56,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "86f008ac8ab3e6fafcdf6e2eef9bc7c101f6a77e",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-05T08:22:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 93,
+        "deletes": 47,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2fb90b061f72cb70b6c5154cec8e238c90b3fc5d",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T10:30:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e793944314074de121e1e62c3bde366d7d53f691",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T10:10:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1651e7835aefa2f545ede902c43544d0e6b8041",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T09:39:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "83742f46d5da5fd31d18736a9ce0450b609baec3",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T06:47:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 16,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a3bbf0b13340a09b592d069fa41715cd8b79e93e",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T06:47:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29370bfe81f0cc6a0e555cec6c37b4c215a56d0e",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T06:18:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 190,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "79c0d209c060aeac2020379ba7866f1146263834",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T05:57:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9d0083b4e9c60eb21ea8ca9d5e67b9b2e5447c40",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T05:45:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8fd3b5dc452fe1dc6d4b67faa9665adceeb8fd4c",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T05:37:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "86906cbeaacf5e2b018abc86c4ecc783436faf7d",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T05:00:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "367098fd46d69cb6b3dc633d4ec179a9b645e6df",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T04:50:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c476eaac6a7b4f09d83242a173fd0785c89da003",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T02:43:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31fe27f7a2486581a5eba862490309a9ae498a4f",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T02:34:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34aaf8b32748877600a8b88e986bc7e1f2e30983",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T02:28:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "91e5631eaeb7ac4bb893747e4e8668874e6beb6c",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T02:07:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2a13f0b17771f838b81f6a55bdcf5993176c4afe",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-04T02:02:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7200e28f1851c1422d8ea0aeef2cf2b1e528c67",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-03T17:07:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce036613c954d7546fd8b502d60b46c8a0d1af54",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-03T16:49:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "74e385f6decd054be821d731b55a1e2f12bbd23e",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-10-03T16:33:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8a8ba1df917010a100a95e0e0e7844b00c128fec",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-10-03T16:12:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "990d33e5264f09d45b75ae93e25ca3277bcebb2e",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-10-03T16:06:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c631626f2a1d5b2fbfcbbf3fb30725028e63c04e",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-10-01T10:50:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a56674eaf44e232efe4d853259ee7f62818c8689",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-10-01T10:46:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4af7821ef0e09b9a84cf28455ca43d88f4a5aeb",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-10-01T10:44:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c088b1a22956b4a4d330258e79099c6f02df65f",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-20T06:14:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6de7d5f4d729af460f5f224679fbcde6a48443e4",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-20T02:36:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "79cf3dea8b0abfb1f77397d5e2f0b89b8f239f7e",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-20T02:33:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6916cb2d0879c1ccb6187cf268146be0b741f07",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-20T02:32:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 348,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5a7ad624c290f6f95a38c4e0fab471b05df9e0d1",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-16T08:12:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 111,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2dd8531ea7678e3239ff35bb7e32d22745de730a",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-16T07:45:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bb24e101a787cf7c64160530f00cde46684417d3",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-09-06T07:57:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c3cb360dc1a058df8d6464a7f6d679152d76097",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T15:48:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "207504ca4aadb4de0a265816a052129d1fd1dac9",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T15:36:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 28,
+        "deletes": 136,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f40a8836c0c4fc706776208f5425e6e1d2ab613b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T15:35:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tpl": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "003b61b446e5cc196f4cf9285e185e7d88d206f0",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T13:36:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c736649645f484bee63f25b6ead9753b7fbca34",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T13:17:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cfbc13f2bf9d4f1eb9bf2b683b2373b11e034b00",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T12:56:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2dd0fb4a7ef68e9c4a6cae981bf0c649f0f9499e",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-09-05T12:42:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "701027e77f2aa21a5616838f96809177a295c2da",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-09-05T12:41:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c40dea388f1e13d216feb13cbc960467253b17d3",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T12:35:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b1465b638a98161093698bf524d6a75ecdb8cb40",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T12:27:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 59,
+        "deletes": 321,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "29378946bd4e6f7b951324b39e097883d32a2274",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T09:17:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 254,
+        "deletes": 54,
+        "occurrences": 4
+      },
+      "tpl": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 15,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 8,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "60421f2292845bf85611b2be0ef3a0d6753abc92",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T09:03:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 563,
+        "occurrences": 4
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 11
+      }
+    }
+  },
+  {
+    "commit": "64a20b71513880f811c09c5194b1bec84f7ae44f",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T08:33:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c0a57582cc9635e29fa91916162e1037932cdb1",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T08:27:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7508483d8362b89b61717cd3711e61355238aa80",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-09-05T08:19:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21c672ca771e12bd0ee8d7faef5b5633e08074f6",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-16T02:10:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7680f06f5abfdd66c8d437a7b00e2788323c7c0",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-15T14:13:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9484a36b34a3e32c32f36c754cab9c9e3e3ed8d4",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-15T14:08:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "051e8551e36cbda0f2071b4bb0d040e7272c8ea6",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-15T14:07:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fcdc697fa7350e1caa71d967b73150512af55b3a",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-15T13:48:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "666576d60b2acf3c5e0a67b9dd30bdb569a06479",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-15T13:43:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6afc7c220778ad2c3b33aaa76231b79853235024",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-10T06:26:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aeb5f8e7b5db58fb22ff35dbb2c0666aa1e49a46",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T14:08:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "23f1dfdf8ae97d3e76ca7675e45897653089d82b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:57:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "97a0cf2b0591fe41ca75b4bdf1e139c2d6c6c268",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:50:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2516547300f288157b78a1938174fcb2d7572927",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:38:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "647235efa7236b780cfaf5621d1c4928c3311d7e",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:30:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e97d32cf4fc015411b4db64d57874069fdc0d7fe",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:29:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "019ee450c5e505345e78b2516d5e14373062c113",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:28:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 368,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "aacdd1f49b3e8b5edd8c579ec4ca59c5db53b601",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:27:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e5ace2587e1b25d3061950fbc09923d529ca9f4",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:27:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2564cb5105f4b6ac81c50aea41d8aa9a0ed935e2",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:26:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c89bf54d97beb5549270823d62a47bef8b7976c",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:26:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53748113c14d943a563a567a8eff7fd32d7dc187",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:25:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 19,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ef9057cf80d3f4227ad0178fdeb27909e1a4640f",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:24:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 60,
+        "deletes": 60,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "f602954d4fd04d261b8329cc5b09c3556b38de95",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:23:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "0d7aac7e9cc65fb73143da6a1c7d1657e1fe1805",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-08T13:21:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 98,
+        "deletes": 15,
+        "occurrences": 3
+      },
+      "tpl": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "36a0d7bb2a15c9efc7ffa7c6e03a90b5d3edafe5",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-05T12:10:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "90b1a257a485dd33fad4f01f3ccf973aed55d78c",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-04T03:52:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 42,
+        "deletes": 86,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5246b30b85b75359c53a97109e4f371d1c9fc34",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-04T03:44:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 81,
+        "deletes": 35,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89cee1c310bb6370bb731286b9e3d8f8e2ab1adb",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-03T13:52:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ce0cf75e58a9c156e104c6ddd8260e41d55b899",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-03T13:50:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a72c5fc812962a9fdacf717d369a93d98f007621",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-03T09:09:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 9,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "59c25cde2119934fd943542d76da30b58da0c09f",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-03T09:03:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "150c382ebe3aaa2bb8d6aee8d154c8271c13e2e3",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-03T08:47:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 101,
+        "deletes": 10,
+        "occurrences": 3
+      },
+      "ipynb": {
+        "inserts": 205,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "98899eb87eecfdd89886ac2b0e43aaaca951e6d1",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-03T05:25:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5984c4a188f0c7887332c9431c85b688517994e6",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-02T15:11:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03f8bc5fc30e781a11a3ccae0a12a61bfc4dfba7",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-02T15:03:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e0124b6fca7fc43e3bb6f5a491847a1dc07a7fd6",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-02T14:49:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe8a26e9c78d9c7e6c9df24ceeb36d646d7adedc",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-02T14:40:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70768b0e83e96ce67fd6cdea7585d093f3efd1e8",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-02T14:38:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "64292ee6df44f63806f8ad313c4ea126a486f6be",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-02T14:30:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3bb4522b44f2e88aa11c164b80350236434e4d3e",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-02T14:27:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c646822ea5faf2fd9f236c801c41cfd6d9dac22",
+    "Author": "Mathias Hauser <mathause@users.noreply.github.com>",
+    "Date": "2016-08-02T14:13:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 58,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "11a775ee2638b5fb847bfb0e311de169e39f8395",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-08-01T05:04:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "702b1fa189a3be7b494112250d662221a84a96d4",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-31T15:27:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f4a29265d81b98bc069f67d4c1a7bd59f10828d7",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-31T15:02:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4ee056e443d2cb81530433e99ecb5a12d34a9f7",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-31T15:01:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "75a643a996f1c52f4dd2421271f25a107847d49c",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-31T15:01:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ipynb": {
+        "inserts": 55,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "3475068e28b706bab4bf2cbff77c67799a26f92c",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-31T11:10:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b89219dea44f4f917705110d9180b4e1da71be38",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-31T09:45:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5da23f370bb5f0d06b0aba2ac56e6495657c5826",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-23T01:16:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0436c019145ee856cf65e6739b35471464970bf9",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-23T01:10:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cab88e6afd58b1203819f814f0be6a98e9778ef7",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-22T09:58:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 546,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "44468c1dfa99db0422bd51978865fbee010e29af",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-22T09:48:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ca00ad58d3c342b7d5b3bf7b48b22419e745561",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-22T09:40:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "81fbce966c15d73a316a6ed6b9ec52acb03ea48b",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-22T09:33:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "580ca714566b06316e1029018037a8e9c4168863",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-22T05:02:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "277c96da98cddfa71eb8a92bbd6db4041c62cc59",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-21T14:40:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 6,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ea6f62746cc4b09987200ae93c8c7ed693efaa03",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-21T10:51:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "baacdc9b7ed31150ff6ef1070fc940df353d3e47",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-21T10:28:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "818b912554c4387a89e41777f7ac37619f140a49",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-21T08:14:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ipynb": {
+        "inserts": 374,
+        "deletes": 170,
+        "occurrences": 3
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 172,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 65,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "b6e6ad06814cce9836b4c81ccad223c400b848a7",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-20T10:43:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 222,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "ipynb": {
+        "inserts": 955,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 269,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "bat": {
+        "inserts": 242,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tpl": {
+        "inserts": 94,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70d8a07c83aeb7f474521a63816d2bbeca699ca0",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-20T09:56:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 187,
+        "deletes": 5,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "cfad57da8bba11411608c43216754d80a13e2a23",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-20T02:47:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "848ca7063d25bbb4708eea81706c0a683e6bf961",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-20T02:45:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 68,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e08a14ba5f9883668ad36a4d8fa0d0e81ebc2069",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-20T01:58:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7bbbc9ea9555f7165934019b73a2459e93560b0",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-20T01:58:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "412eecaaaea2210d994f0b55e404001ec3fce5c4",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-20T01:57:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 8,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "8ca56839dfbf5ff452252d99bfc577d8fb4b28a6",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-20T00:57:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 13
+      }
+    }
+  },
+  {
+    "commit": "5d9ed51f4f8ff3d219083aec80eb30270406c546",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-19T12:11:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f86083a48b86b70021ab035c147d47925ca6d1d",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-19T12:06:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1470,
+        "deletes": 0,
+        "occurrences": 14
+      },
+      "txt": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ee00cf93168028eb30eae15fdd6f767dabc46915",
+    "Author": "Mathias Hauser <mathias.hauser@env.ethz.ch>",
+    "Date": "2016-07-19T12:04:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]

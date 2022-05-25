@@ -1,0 +1,6593 @@
+[
+  {
+    "commit": "8c98be57b818c3309e359233f47ae1df5832134f",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2022-02-13T07:45:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c5e079e93857a56f90e183a2230b2fa3d0e9523a",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2022-02-13T07:45:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e6fe3c97619deb8ab4198620f9a7eb79d98363dd",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2022-02-13T07:44:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "conf": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "rasi": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "9d894387455804430a12e6d8f5af708b35e76db0",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2022-02-13T07:42:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "add": {
+        "inserts": 61,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "518d5069f94c03427f694bb494ac1cd7d1339380",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-12-01T02:40:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 15,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4a9ce2f25624c12334db1a034c1531932d4f3459",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-11-27T13:07:28-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9b1c89ec841fa8224802f6eb62178ef5bbb815de",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-09-23T05:01:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3ef420dc3fb6e87a36107f786a4c72a93ed750bd",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-09-23T02:36:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2edb09c263ff37d6cd3f387187eccd26eb53b70",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-09-23T02:34:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rasi": {
+        "inserts": 181,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a1b10021c32855b56f106483ee233849cc4be88",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-09-11T01:49:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "vim": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "faf815f02b881c010193c3e72518cf31e4048ded",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-07-23T03:08:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "80ba71645220fde4516f5e73fdd6462aba29fdeb",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-07-13T13:15:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3d45ff0d00b64f89a9db4c80544ee42bc441c680",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-07-11T05:21:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 16,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fd5011f3d9c8effb7c056a7b9d623f60831fdef7",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-06-24T14:48:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 19,
+        "deletes": 8,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "50498a87647d48a30bfc9791bf9e523c539ebc5e",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-04-24T04:08:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "72303d69046b0bc25aeef5bab23806b4151d1ead",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-04-02T02:11:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "85610b6f1538eb1daa5588c492b604cf2bab0e6d",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-04-01T12:43:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9bee7c169f8d2c904aedbbc7d2237c314ab0e91b",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-30T13:10:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f5bd2ee732d7c8f4c999cfde8f09890a8a627b76",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-28T14:40:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "96b5c3d58f5ccad1b9f98723c7bbc3f13e239f95",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T12:23:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 34,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3601b0ca05e7117f132caccca02945294a57af9e",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T12:22:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c2854d41d5515b2d6f1e85f7af5f2dd51f3e856d",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T05:57:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bc10fa203c8269b0482a3fda74c134726183f8a0",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T05:40:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "bb16bd26ceb3e9258940b8c8a34d2dafc5a875af",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T05:33:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 34,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e3474502efeb2c3ece5500afaae17d149170e959",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T05:32:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "756067900269b55fe928b7f6c31c26bacbdeedc2",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T05:28:59-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e5101a2c681e87489df6dd60ade74baa7bef188",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T05:28:06-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 32,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c4100245cea36604a1b6b61aad98582b1feb18ef",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T05:27:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "service": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be5c13a62e4c528c43f14ad50142299c269e878c",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T05:16:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b87251c40610fe6599e9b9327f5d4999c764bbb6",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T05:15:52-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 22,
+        "deletes": 12,
+        "occurrences": 2
+      },
+      "yaml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 8,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ae4dee49b154561ff5f12f0e84e42b5786d9edd",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-26T04:27:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 1,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c237662a9b6ac7e543093045b767dcb9b53f7f80",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-22T01:38:10-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f90886f082795db8cd8be2e7caed378ebd200d98",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-03-16T02:22:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "vim": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7bcd15c34652736bff0f73ad62086719a7424b2",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-02-22T08:11:52-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "vim": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a42c7deaf63704dfeecfa9c293e7e498de436d32",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-01-26T15:35:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de9f2ab17d71eed88417a470bb8b746cb1683f16",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-01-26T15:35:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 18,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2670e8fbe7db2ca992c18f4926c844c58fde5949",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-01-26T15:35:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 113,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ed9f113de8ea1dcdc47d8f7c51cb3182bb1da17",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2021-01-26T15:34:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33b72c4e93be427860114754c9963e3142323df7",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-12-06T12:50:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 31,
+        "deletes": 13,
+        "occurrences": 6
+      },
+      "conf": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "vim": {
+        "inserts": 9,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a56cbe61a0a0fa34eeb69bb68cd09c3ea4d00ebe",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-07-30T00:02:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9757adf203d7ca7f049bf76f6a1289d3b4edbd46",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-07-30T00:02:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebb6eac5a2e0bb5766844b73cacf3fd28a72762b",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-07-18T04:01:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "380dbae3ae9e747c2955761c140c3f5e7727aa6e",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-06-29T23:26:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b931367434b02e14614c275fd23664d5f949a6fd",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-06-22T13:13:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa2306b504e597cc2496048499a90c9e3f4efb65",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-06-22T13:13:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c27b9c20070ec15d28ad18f59edba8d1f0ddb18",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-06-22T13:13:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9cf4e921760b0468dd009a015efe1cbd2a707253",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-06-22T13:13:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 10,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f392389b719124e45959107e38013aea3ae53d44",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-06-03T08:23:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "d787ba1f4a486f8d9824198c1b15e69a2095caf1",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-05-11T05:39:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eddbfbbf1c4e6c27036465abb1f9c016edbd5d34",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-05-11T05:38:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5ae3883340d1f6165c44b522de1de96cd47f6b04",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-05-11T05:38:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cfe2712307a62161a5fff1b8e11ef5487809f76d",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-04-30T06:28:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9d77b9d1c08bc44cd2666394406aa1371073687",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-04-10T05:14:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d180031b28a32a1ec7c0a501e96b2a528a68c8d9",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-04-10T05:13:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "2b23784f9b2fc16ac78cb13d7216d12b4a1feac2",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-02-22T08:55:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "885815f6a507bc625ecbc16d76527f10bc991eb1",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-02-14T07:45:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "39b7bfb7be3b50328ba9652a22b193d8854973f6",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-02-14T07:44:27-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a0bf46ff2e88615daed2ace5924b0d926758108d",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-02-14T07:44:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a9ed0551f61902282dd4f80a5b58da1919870ea4",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-02-14T07:44:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3a28e676c0d7bc59d7608094f7bd7f133598d545",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-02-14T07:43:27-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd7ece64fda6c551cc33496ff07947b535b60eb9",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-02-05T01:17:34-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "801a71b0d3d548d69c1bbe8f22d337cf969dc84e",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-02-05T01:07:53-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 22,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4241aad1322d06be21a174dc709efc037c2ee8ca",
+    "Author": "Alexis Sellier <self@cloudhead.io>",
+    "Date": "2020-02-05T01:07:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "conf": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "service": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 8,
+        "occurrences": 5
+      },
+      "hs": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf0c3d41b54fb7b98aada9ee1df5fa6bb6adc08c",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-11-26T03:16:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "service": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "caf201ad891fc58c4abf232ddb476366ccf33525",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-11-26T02:56:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "52fb82042063400316e1d01796b7737b54f99c7e",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-11-26T02:55:02-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53a20eac0123200625e4b15d0a60a32f7f1e5d41",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-11-08T16:29:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f5d13cb4d055ca1db4fcac6fd624d2db734c3472",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-11-08T16:28:28-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06213d699338c77b8c25cec17c113712abd1c791",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-10-03T09:07:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 20,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "3c2161a46735c911a05b0cf67a163081b7673cd9",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-10-02T06:36:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "vim": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9948fb12005783c5c9e1034382eb8c21f181ef95",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-21T05:40:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f7eeddda7058cb30d2d6cbd8dc16321fdfc75edd",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-21T05:38:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a44c246c1479ed2dcdcde9b5d087196a90cf498e",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-21T05:36:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "76d2ba6a2330130fd12f87cc8b36e97a0b529e16",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-21T05:31:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rules": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8d141322a263da1deef3dc49d9a85dc4b093772c",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-21T05:30:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87b05ca02831dbcac78d2129138d7fbb8df624a5",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-21T05:29:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5fe7e56c57223bf802deeb85b1bf16250bef0c83",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-21T05:29:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "630c909ba234a780631bb2a9f43fdacba02bea64",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-21T05:28:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a2529a446043774ae1196741efbd15bc103b899",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-17T14:12:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c1a3d83f3b83470426d2e4e58cadf758478dcbb",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-17T14:12:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c803df157036f2219d750185bf9ffe71d77c22dc",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-17T14:11:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1d391c98d6c6605838666152eb7c1dc24a90b99",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-17T13:53:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 10,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78b9b53a88235b67abc1c24029c6276dd94888e7",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-17T13:53:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "504385cf43636c3d51327e0a7b2a45d385876e86",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-17T13:52:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ac0212c34ec65ebe73974d83f287f633997431d",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-17T13:51:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "917e83f287b80ce9a4c2ba0f72d0b6bf41023818",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-17T13:50:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6e1175c6c8660fd4392ec4f489144fa805d92098",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-17T13:50:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 64,
+        "deletes": 47,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "143a872a18ebfa597ee53153e8cd28d645b08466",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-09-14T15:08:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "30ecd3ab19615058685d9d4f92ba58988a970563",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-08-05T04:22:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6aec6aa7d97afa11db6f4dbc741169bac530ca91",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-31T07:20:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 12,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d3fea22af727b162142158d9abe37a6fb47ebc85",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-24T02:41:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1a1b8c0ec8f59c5b88ce1e0899d3f3d43da99175",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-23T12:19:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "182514f70f081924dc66b9ef427f82aaff9ef3bc",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-12T09:57:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89892466b599314603fdaabb50e616bf04aafa97",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-10T11:01:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "42035310785345da0a958558e516d47b46d942f6",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-09T07:16:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "93182312206c62bf936f06dd2b6bd4a7a0a15bcf",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-09T07:15:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f1173f231a57e2640512c55a02486cee7bb6d898",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-09T07:14:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b6fd5c5785817b0ce0a18208dec6f132b8a7f438",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-09T06:14:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2fa2edf04fc747cd48e157b97778d054b15b06d",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-09T06:13:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7513e82e71885c21e08d63a5f3948e57d73c0892",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-07-01T04:51:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f7b92e8e2839e4074cb6ccb59a70279b5f98bde",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-06-01T09:26:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2292dbc6caf2619092d2ef61609fcd310794350",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-06-01T08:45:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "da15803bb7ea4451d8f8d3e3b446999b1f18d2c3",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-06-01T08:45:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 2299,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "336e3acfb42dc4db93c32861b093ab6952b01f40",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-05-29T10:39:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4c10e969a57d61d728531d20e12dc4743fe7ff41",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-05-28T12:53:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 27,
+        "deletes": 31,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fb467c7845d9b6ed900f3b366b9c6cfb1efaebe5",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-05-28T12:53:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 43,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "00b1866643ff1f735b17abeea8b3aad3e0d30282",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-05-28T03:18:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "822f37eb3233e1e0a492ab30ec737bf5a6f4bade",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-05-27T14:00:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 33,
+        "deletes": 26,
+        "occurrences": 4
+      },
+      "hs": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dedb469a6dd8d48272ee25ad2f8c404409c42334",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-05-21T03:47:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 597,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31575f455e35d15b017956841bcbf0259c321786",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-04-27T04:31:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f1ef1d1dd489afff0b4f32a4bbdb3929f1bdfbc1",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-04-27T04:31:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a80cec4ede79f8644f964c35b623418de4627d51",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-04-27T04:31:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 60,
+        "deletes": 40,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "40d3423f09237a78c4f2e9f6fb18d5c812affb34",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-04-27T04:29:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "abd742770f76c97d46a1460956b3bcc7eafd8840",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-04-24T00:51:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 31,
+        "deletes": 8,
+        "occurrences": 4
+      },
+      "hs": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c1bda479e25011a4f7beed23eb1b6515f7099b65",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-03-13T05:12:10-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cebb253d1a59b1bf2335c10c54f6a56f62970cd6",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-02-28T16:50:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61e361b27cebf2783b700b6a703e1d875573092b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-02-24T06:55:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02ce3dbeac01e7c85108f62cb1009577366f6ecb",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-02-14T03:39:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "a84c941ebb52b568acb26189ff932558dc2e0fa5",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-02-09T16:29:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 233,
+        "occurrences": 1
+      },
+      "theme": {
+        "inserts": 0,
+        "deletes": 675,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d58da3e0e251a42a67f2d02af13bbc8794cf0e2",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-02-09T16:28:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 24,
+        "deletes": 9,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "fdff143e4fc0f4bf173eaf6b67164ad0544552f9",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-02-09T16:08:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "service": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "prf": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d6e7ac9ed848ad7bdf603e57fcb0d2b222de0d46",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-02-09T15:27:27-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f0ee33d5dafc02d044426864cb4ac674e62adb38",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-02-09T15:27:06-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "hs": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7e23b546ee98a967c8d104d0a9e13144a77532b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-02-09T15:26:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "service": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "prf": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "18e75b9e116bc66c5b65b7a11edc07c86be04fbf",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2019-02-09T02:37:53-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 32,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a14355f67c9e90de4deaf12716d1b500601bccae",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-02-08T14:56:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9ee0f33fab9c6f1521c2d70a7d65518309138d7",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-02-08T14:18:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 79,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e863381582aeb45135d1ea7825de5bd04d92ee14",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-02-08T14:08:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8d4982c50fa64346b9bb71eccd2d5ac30dd05004",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-02-08T13:44:04-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca9229c1910b57c2fa7d89ce95b8b6338d3ac8c7",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2019-02-08T12:59:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5d7204fd8daf6160fb56c01f4a698161d649dd10",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-09-09T12:10:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 67,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4059b81fb84b1ff43459ba488478452ef81ad6db",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-08-26T13:45:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "theme": {
+        "inserts": 13,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1255ab89e2398136bb6a00cc150670c729b4043c",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-08-26T13:44:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "75d4df3c0f5e929d001d5daef50352d1158a0f95",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-08-26T13:40:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ec8f5208c20b2e8531fdc2648859a5cb78b80b9",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-07-15T06:10:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9e58ee2b4fab8403cc60f2981c1fea6a91e55b5",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-07-08T11:51:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 4
+      },
+      "hs": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e49134ce80eb9d181f71b9f42413465923aa5f7b",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-06-19T02:05:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 15,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "72026928390a556d16e03aa7c2e99556b7cc2b22",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-05-19T12:11:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bb3ca8b7026272765bce63f320c790a7503e41a",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-30T09:04:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 18,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bb29ce0f9b97879895092720d75c250c87dabdc",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-25T03:01:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48c0c39b6bf37bac8e492d242e62821242066f26",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-24T02:09:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "804f03bbc5ae191bef7b62689fd8fdbabaf85dd5",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-24T02:01:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "77c5dd41789ec355d932ea3b38c1c727a609db05",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-23T02:16:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 29,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c54f41ec2d92cbac5a964cd3fd860a1d51940f04",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-23T01:53:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "17c7fd90b05fb249f135963a57992b8d182d6ada",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-23T01:53:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f857b25bc0f9c018e7e6b9c2b2fb79bc7939284b",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-23T01:52:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "80879f91e22c88b0627b6f1252bbf0e5d4fe0d88",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-23T01:52:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ab417bbbcf1d43df4c176fedf033eaaebdb3b83",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-13T08:20:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "80cfa5e2e0f70988328539de799d88d794d064f8",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-02T01:59:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "047dd8bb47aad500a6b62af19a7b7ab0d912ae92",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-02T01:34:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "16f75d21e10cfd0530feb43c2ab0f8f327568ff7",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-04-02T01:34:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e599b75747cce56f4a661f06f57832de203971e5",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-03-30T04:06:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "684251ff6748d4b39f0f8066f0f79a0bfa7afdcb",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-02-22T12:30:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "742dfc6d0044b729456c07cfbcce7a335383982b",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-02-21T04:56:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7f1db4d30065d567fcbeb0ef4c233d824ab345e9",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-02-21T04:35:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8b986284e7d8fd54976d8ff1de3743002c73e9bf",
+    "Author": "Alexis Sellier <alexis@monadic.xyz>",
+    "Date": "2018-02-11T16:13:34-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "621b9e2d6d8e5e89f6e41609ef0a2f4b34ba0340",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2018-01-16T15:33:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8e7316d11a4aefa19e5aa6ef34084ce62723528",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2018-01-08T06:23:29-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "598b1d867bc7b528ca2935e4b644bfd4fa7d3aab",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2018-01-08T06:22:46-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6a448c8d0874109c162f03abcf2d9b15795da510",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2018-01-08T06:22:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "ad5d7f0311f15c133abc375972cbc7390d7c24e0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-11-08T06:40:22-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 18,
+        "deletes": 16,
+        "occurrences": 4
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "74134743c7c95b79d438a5cadcd27124531f58aa",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-10-27T09:39:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "476589d1a354087770b7a1a9140393c92ff08b0e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-10-27T09:21:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8a4fad837ac259288219b1282f4d25eed74edfb",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-10-01T12:26:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4002046b884785e56890e45e355a95cbeca43b75",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-09-16T05:42:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "46c74f35b877f5ac93a6cb8aee8b058849c9ab66",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-08-23T10:43:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5247762b5452f59263c7f04923eb4a0d7b50e8af",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-08-10T10:12:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "11aca26002211221e9cd3ace65d8cc81c47f4087",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-08-10T04:43:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df9504cf7829ecf07f09474e1e06d9df9e5982ce",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-08-10T04:43:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a54c0f3cf0c3b07f5b87b8831c24548bd4e1e13",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-08-10T04:42:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 24,
+        "deletes": 23,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b85d65d33a5cfb87e5d8a9d9270cd01e0deadeed",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-08-10T04:42:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5bc64b75ec3f4ef08ce5bda7de0127ceba20932c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-08-10T04:42:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f7d6965a4bcea960fcf211ae6639701bba26341",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-06-30T12:56:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "59af5308deba0d08ea61f6d5fcb5c83364491277",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-30T08:37:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f3349b0c4b8df50e8262749926c52fc42a29115",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-29T04:06:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be90ccc6c98f3d21f838646d80fbecde50dea0c3",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-29T04:06:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 18,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ab48f84910e528ffdb05886ec070ad20d06d0b7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-29T04:06:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56230c2ae684a57689d9161346dd4ce52d4914d1",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-22T07:48:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34599b2f17c17c4d74ab19cb6a4a75d8bf5a07f9",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-22T07:48:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6415d327488e0f8237acdc7f513f646f003852a5",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-22T07:47:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9f4bba367b173897b64aecb1ec62aa55339d3f4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-22T07:47:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6d58ff13a0799aa8254da42d4d9705c8f0ad4ab",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-22T07:47:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1fccb7449fc455f59ad54646ac2409d8a91a7b94",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-22T07:47:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5d91c26eab747553688c1a9e20377adb032f6c44",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-22T07:47:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e1a15d3fc20342be2cc95584612eb1eda18fbc7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-05-22T07:46:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "hs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a08431fc992799c915dd842db76bda003e0fd4f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-30T09:19:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8a4ae926662729fd8b3a47a87ddad5dcd7287f5",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-30T09:19:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b54efd6e994ccae9f310af169292339257d555ce",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-26T08:37:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8479448ac94cd2665722e8b6ad9a916b07ff1468",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-26T08:37:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c7703394b862cee04d024575162a2b669ed760e9",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-13T06:24:51-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7285b12e37c8161a363853d40b74375276c1b466",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-13T06:21:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "45ab76f237fa9197f473e19441c36936b53e350c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-13T06:20:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b62263bb1c3c2f9c0a9e2d13c1510293c7c625fd",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-07T12:28:29-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cfd383598c1e69b93ea67997c095e1642fb4c118",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-07T12:28:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1260631822b91a1024071d7801f5f8bf6906d460",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-05T15:37:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7609d4c68d2cc2b337a5381282bf83f1f2a02630",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-05T15:36:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21d06373c49382cf3950e103b2f1a8b1e19cc046",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-01T03:24:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "ce95b86c681502810bb6d3a9785a57bfc97630a0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-03-01T03:24:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0cf56f5a7904064a53fcce0416a176c861d0f628",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-26T14:33:52-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dc41f871e32a99b00a7497ae1e8f412de9f50c65",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-26T14:33:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5cf892ffa97c980c75b723fc45e38cbd9d9f6cac",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-26T14:33:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "979824d53dbb4f24406c7ceace4eeef0edc3f43c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T10:00:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "37e5ca28c8bd1d5aacc16e507ce7e9dedb2b7aeb",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T14:02:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "theme": {
+        "inserts": 672,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9fec8b33a9076b0792533635f3ba26d0b028d610",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T14:02:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e509b4c1cd0ec6052c42b30a10c0155cab0fe57c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T10:50:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 37,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5219698f2bd0ddbdc3c9fbb392de31e9f5aa9b13",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T10:49:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8cc37fdf722a017d580f0c49d9822175014f2348",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T10:49:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ef66d944aaec914682d07f7491684b9c12fd4e73",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T10:45:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 195,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab59b5ad04afb5c8e1efbd896456ceeb7da3fc91",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T10:43:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e8e0d2cba5bcec27ada4988869aa1af0fffb8b7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T07:24:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e6d761adb3b5e529d28ef98667260476611bb06a",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-22T07:24:27-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e8b3afadcd2b4e79483bba05ccf54b8956c017d0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-21T16:50:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "14c4d247c35fd8838af74485590ebcd620e1d2ec",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-02-21T16:50:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e75ec4e4c21ac62eed997cd4f10d808c92b9de91",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-01-13T12:22:25-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0527798a0dce6767986813fe201a490e18eac34f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2017-01-13T12:21:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a8dcfd281a02a30349d7f8f4555c8de3a1de7b63",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-20T14:18:48-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "999be084f18ba26aaf15a3e52f698c81f9d4c849",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-20T14:18:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4ef1f35980e51671bbac814a4556bf42c83de7dd",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-17T17:31:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1cb677484d72578c79b56a163b8833f1a0413bbc",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-17T15:11:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8d4692565806dac5f277ac4b189b83df762799cd",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-16T13:32:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fba286db1af697c50e619ffeedbbecce85f41c27",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-16T13:31:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dcf38888010a81569f05c11c885b062bf9996fd2",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-16T13:31:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de70bca3a3beb3df250a0dfd43139f1427928f99",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-16T13:31:04-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 17,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c9b2f5745e7c3e327c0d294a683e6a6115b8ccc8",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-16T13:30:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "799c18d82030f6ac9345f9904bbf8de70ce9b9de",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-16T13:29:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0526b4e6e8be456611706b9bcff905c52b0982e1",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-16T13:29:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c309c9483a11913d0ae1d4d33155961d388735f0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-11-16T13:28:59-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6df6333e18e545eca49d6e0302da6ff27f591d5c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-10-10T04:06:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d60fc928f6dead3117cf558cbfcc4fea097e2ac5",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-10-07T04:21:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87f8d15792285232341dc7a5c04ddf51063ee913",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-10-07T04:21:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cb6d7a13add82c9e1abd6c123f0a8af56b5f9ec8",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-10-02T07:20:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20bed1751ca4f80873b35a73969251d67cccc004",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-10-02T07:20:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b53db8117d107aa96cefaf524cd8d6251d1115ff",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-30T10:14:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e5b755ef1c40273afd97218ded5f30007948bfd",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-30T10:02:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "218b54bb2edf96b8dc72b28645131120dfac1e2d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-30T10:02:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ee487970302f204806e1256c481473d59d87c6e4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-26T16:32:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3cecb38d62abf088b45a04c5874d8dce7644599f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-26T16:32:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "493e1247e11fb41d7bd6d50ff9a36aa158455a5f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-19T11:40:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1a9aa64b49867432f68582696c350312a2f4325",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-12T13:09:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "861af9b8092cf34cc6d38f0fc29836ef6248c561",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-12T13:09:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1fc5a35b48a439c648ab3025b34806704a84e88b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-10T05:24:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e0d37380a78acf8345107d359d70a5a15934156e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-08T14:59:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c319842bceb8da9267cab127da888b7ef30e2fa",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-08T14:58:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "77bf6296cf7ba03958c52978ca8a16fb936ee0dd",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-06T17:02:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "65f7c5acbe1ec00c0c0d9411446bdadc0952f5ed",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-06T17:02:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca1e76a0873e56d82a2ec47f57cdb22d03081c0e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-06T17:01:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "05d5f1d13fce8a958e2a5b6ec7978ee3a8a2b644",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-06T11:50:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d10ca80e807f0986ec2552e4b3fa11e67792e5ed",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-06T11:50:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1ff660846c1bfd0c57ef6a5ed3ea4a0781b30709",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-05T05:39:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "549d1b8c3bbe955050dd6d391403e4ab4cc765de",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-05T05:37:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "88928b56ce45f03cfe694f9ddb3c72e69e59ebda",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-05T05:37:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9562d7986371efd57187215c401c97396b3a6753",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-05T05:36:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 90,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce15e69bcb77fb91208de22cad26278a81a27fb7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-05T05:36:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e16566b23ced98c0973f3d8ee0bb894c431f7ca",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-05T05:35:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b60308ae05740a2fdbd80b46a32b3e4866fc10c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-05T05:34:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4117747cee227024ce9b0253431766b16e082cb7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-04T05:13:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9b0c6cd5ab5921126c677cfb3b3a1e4e948e90c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-04T05:13:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "907688a9aaa847f21b4f13712a7d3693a1dcaef3",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-04T05:12:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f871df8dfe494c558ae3ec2289717fcb05a5bd1",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-04T05:12:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87cb6a3acbda4477d40858066c934f7cdd2c3b20",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-04T04:33:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ff645f5fb6cb1a5756b5dc1d44a09b47db87cc22",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-01T05:46:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 0,
+        "deletes": 105,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "10075c9a16af2f4b644e0a2b70717031dd18939d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-01T05:42:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "64d7068e08b7725a063eb64110f2d7f766f32c0e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-01T05:42:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21fad4fc88fdb5d9c63ea560eadacb2342d5c5f4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-09-01T05:42:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e127b6491962f9d3b999673a48ecb4fb4031a911",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-31T12:37:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "130d6e25602364df2470998c7ae3a5be6dd483c8",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-31T12:26:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fb2cfdc04507e179b2d18d67f7f829bfc71ea55e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-31T12:26:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3949a0ce2a12efadfb1765af99f9faa0eca66d6c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-31T12:25:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29febb7e7ce2dbc5f37d12923b5bfb3ed4f63040",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-31T12:25:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d9064406b3258ca837fd25b5537e13ff562b9ed4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-31T12:24:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d6704787d5f651bb5af70b27e89c394d9e81af4b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-30T08:01:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "242048ab603e4cceead6ab38fd758031e46c18e1",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-30T03:03:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54d82628957e4ca034e76a53b5976fee65e1c894",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-30T03:03:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "65d5a32bf7016a45941bbd16d789aa7d445575d0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-30T02:54:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c982c6f9d399ca783adf1c1f8c2fbce7dc20fd8",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-30T02:40:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d22b191420f87453fd4a968e16fd09908fff27d7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-30T02:40:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c1d2ba6ad51d1022316bd8554cda8ff5f7ee4627",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-30T02:16:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e60341d99f14bd5eedf3beb4d3d45935ddbd751e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-29T16:01:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "579961badfe2c53944cd4f35263e212f58718b35",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-29T15:25:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29e62f9a8fb537776c2eb77b7b0d98f7e87de19a",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-29T15:24:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a8b12993af76cd6c2ab90f075569195bd68e3cdb",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-29T15:24:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9ddd2161d143a288498711c4e58ca75b6ac01232",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-29T05:28:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 87,
+        "deletes": 173,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15306401eba541630519274d9db0cd97382ccadb",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-28T05:11:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ef53cbd71330c548cb3d8a452902b0ed4cd2f4ec",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-27T05:03:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "12a2e789265c91303be6b00c18f74d765e81a3ca",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-26T16:42:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 56,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "08e78d1a67fef97268640d79cda75d941005ae93",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-26T06:38:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bb098dcc4796c2cad150c7b79733052b435f800a",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-25T17:40:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "12262189a30289cb3140770d8aba291aeb843e7a",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-25T17:40:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7638a399e12d434a3af88bd3b2530a848c0b3887",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-25T17:40:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2db24dea110b6126f492c57f6f1c2647f4417ad4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-25T17:39:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b800c273db044bc4f6ee9a7beb995bac4cdddf6",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-25T17:38:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6b7374a849c1752f86ddca4265b7daa56fae254",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-25T05:51:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89b94f06527d8cc0ffd01c0bccdb2a66fccd33eb",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-24T08:34:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ac728ad0b7b58244bb6e086f0b37980f6927f88",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-24T08:34:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02ec232c0d3a8ce5a7343599f805079c961b5018",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-24T08:33:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f12f17e62691fb74154c85f487bd3f931d1a488",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-24T08:32:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3d624d725103e93e23f247460dad5084c4fb697a",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-24T07:46:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "247524a4e50f087c1d3df59340fa9b573e6248c9",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-24T07:24:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "016ec07795030e8c934ea35f5cd17e00567827d6",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-24T07:23:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "44d30ccfadc8cd2406451460dd1ffe896d226c2f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-24T07:22:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c8ced9f2f96f9ab612ac3d64b48a9d0e718215d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T17:21:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4f2a03011bb27b9edfe04ffc434a8cc32d2d096",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T17:09:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "46a322d36f223277bde001bdcf8000d641d6e6c9",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T17:08:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c115297ea7a75e907af4f75979ec51a8f564ce38",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T17:08:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f0503e775754ae89ff60d51e3c2319710ce2bff6",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T17:07:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a12556694698a9276402eddcd1745679f017c8fd",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T16:42:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a0a52a5c2ec34f48308e5c9c1071c62350b590e0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T16:42:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "52f07ef2f164e8779dd05796ac41abcc12e6c826",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T16:41:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5fafa22f274a220c572936e95694839cbb58d338",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T16:41:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4fb830f734f3ff2c964c04feef4e6d962ce73b4e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T09:19:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3cf5b9d7f23547c6e3bd7d2a8736769b6dc6abb2",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T09:19:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "26bb1f3be3b13d728d34afd0588d8a2a749581bf",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T09:07:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dfae7a50242d0c7cce309d035e284013b1fee49e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T09:07:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e8abc6a8446df295c71e4b29b370d2e983ddb91",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T09:01:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f60413b772d040647c558fcc61313c1cf5d87a11",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T09:01:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "887a675873f778456993930059bbfb11be2ae9c4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T09:00:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d468fa3d6e4b34357172bb56e5d2d7b8198ce282",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T08:59:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34d7e589c036dae0461e6990d849996faa1149b0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T04:15:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "79dff47633229932bf944ed5a1355e13afe9abef",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T04:12:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ded2628ad5fecb8cde375506d5a123a40add8903",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T04:12:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "951b80a8c7930dba5fc2e3ea8b2c9af777adec99",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T04:11:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9d3822c82954a6dcca97a3487c392e97c73a49a8",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T04:10:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2c5dae571ed5a5f3e15bd89f964f4533cb12a4d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T04:05:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ece521c6f2fe1480b42e58c152baa54002e7ac8",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-23T04:05:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34ed18a98601aaa1f185f5c4202fe16139e0166d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-22T08:51:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af352cce034f0f585020010ebf04fe761231deac",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-22T05:51:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1a83027c53b698acd5e75be861f2047334c02fb3",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-22T05:48:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe356199ef60c5908f551fe965f6466fa1395482",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-22T05:46:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c0478d185044fe0a49462a7222399165f584afcc",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-22T05:46:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "88e283ca6e79c3844167257197c0368791621028",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-22T05:06:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ba228bf053ae6712711f586ff5789509b0d9ff4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-22T05:05:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0731d663104e9474fe16943affe45aeea1e09c25",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-22T04:07:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4b374fcef736eac397d4568e59a964bfc11763b6",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T18:01:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "22652870021e52361d9223860fc55197561db838",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T17:42:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c26d1c508dacb7d2f57da9d71eb6a4872293969f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T17:28:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3bd897b8359e29e8c0c08abc29e2dfc593c76b96",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T14:54:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f3bdf7e5295aae25c0fcc954e2bd8d5362a0234",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T14:12:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "93e87b96ba52fc35805d30acb84c984f23100b9d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T14:11:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0376edb53f8381d25eb35b1a244d5621e745638a",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T14:10:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a3dcf1fa8232929e7db3806353803d7e9b75e990",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T14:01:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "23da208258b3a88e5f3c170c968b4256350328ff",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T14:00:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e83bdb77eb53f37885094c82b8db6f0db7284319",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T13:38:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "540fd9ce4299a3056827a8d1ccd9257ea2fd0ede",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T05:37:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b812830f0e206620453483eb71a0e506367ecf72",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T03:38:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "309d98159c602b1aa245c45ebb439702c664120f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T03:38:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b03365eb9af5793942cc540cb5daacb8fe119884",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T03:36:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f2ed09502a886e4526861c3da455fe5dde500a31",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T03:34:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2c65f9f577a2c537cf603f674c5e84241e7279e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T03:23:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19892879281cf3a290703bc990a16f5989346418",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T03:22:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fc6bb525c498ca68739c9ed3ee014f32aab420cc",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-21T03:22:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "214c552c582c5af390d05e35c66dd9726d614e35",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-20T15:42:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cdcef611c2021bc01546390650e37ff354ee008c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-20T13:21:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a447cd532f5950deb07429a401c4ad8e738b46b7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T08:07:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bd37a61ce5ee106d3db68c7c2f755277195ee0a3",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T08:07:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 31,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5ee92a41226d98bb014681ed5de25a740c4cb0b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T08:07:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd9a4e8ec8ba0ebffce180a2c81ef69f7ee69a03",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T08:06:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c301815800d727d266785b440458dafc1facf173",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T08:06:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9853ddf5ea437a103de4df5641560fc6977addc1",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T04:44:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e9b28cfa4a38884047b844fcb89455788471c38",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T03:27:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3903e85fa40777c3363b632be36d77ad8797531d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T03:26:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f607f8079e228a1ea2d3a8fdf6cc10b4e247f0a",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T03:26:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c04e16b505a2a7133810bd5ebd8f6bdc0239c02b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-19T03:26:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1354e9cc96d1ee165f86a4fa4de35c9794e20edc",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-18T05:14:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "22c8bccef6faa2079d6db0a9df33f2758f2bd367",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-18T05:12:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4997e4a06f5e6fcbaaa001f5809eec66295b0cf6",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-18T05:12:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "309219fdb1d6272517bf424a682cb4224b39c62f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-18T05:09:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 24,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e70333abb0ee546b71cb1b15b12b096925b4ab39",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-18T05:08:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7c25fbea7cc9f6705e566030524bf8a1392770f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-18T04:44:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 67,
+        "deletes": 34,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "bff029fa90b3dcedf508ab87eaf3dbc726027358",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-18T04:43:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1fba356e258e3ae959e9c3974d6c1d714d7080e4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-18T04:00:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2b2a13f8add8b7a959a1d4415aab0aa4c6cfafa5",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-17T15:16:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6688715c1dcd348c7027554ceece5c04c0dd47ff",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-17T15:16:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3f37d461077bc6527d5caf6ac69dc58f4f38cf4d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-17T12:08:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "436f50c391ab48a700c96f07ab4f4529e4eaf410",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-17T12:05:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2191661caa2a300e86385bc09f2282738135234d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-17T12:05:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89ee9efb1fb17b28d7757d821effa533f8b34bf4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-17T12:04:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9fbe9bcab8609b2d757bc668ee291692fa61162b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-17T12:04:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "91b7057776e0ed44388ea3b24d38bbf4a86deb57",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-17T07:11:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "923a6a85632d426ed20154a84852bab04b989291",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T11:42:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d0c19f2816cabfcc4dbab42d7a1f5b2d8e5c4bb6",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T11:41:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5059bd8a50c773d5cb48008c275ce80ffbb0a3dc",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T10:14:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c3992ff84abc720f5914c2e68fe6bb23f14995aa",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T09:50:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e79e508727b961ae4968e30ec9911dcfa85bf066",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T09:44:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eab84caf5c61f98bbd26a9d649d372ed888729fa",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T09:38:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6e00cbaa22cb2958169447fd77cc74dbe1004acb",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T09:38:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7bce14ee56691b384c93424e56c3393c74824f1",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T08:08:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c22b8826ae618d4522e9ceac660e4f81bd924aac",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T07:59:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 15,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "863a8cdd6916f77051bc5c14e5686703c5ca2ab9",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T07:50:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4ffa7dac1b737b4f30f19df7b56d0b4847f43662",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T07:48:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b85abd94a52e2be509135ddadcd1e356d30e769e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-16T07:48:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 30,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6cbf036e09c808573e68f5e523ce2d9f18cda42d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-15T07:02:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "833d3ba102d089fededb7ec79d017a0db3992b7e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-15T04:37:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c8638da42acf991e7661ed344a337a4d083ecf0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-14T16:31:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b299fe31c2783d2c6cf9a5361a753d9c62319a57",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-14T16:24:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "170e171642c1a745d69667a0a6bb350c027a8452",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-14T16:19:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3d3e0cec1d0ed4b19ef164e5e0fde6cb77e668f0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-14T05:09:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c5938ce65ee97c44a31f896221c3c8e6c33e21c4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-14T04:21:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "672cf489efa7ed7b540c14aa3e1f97b80199da2b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-14T04:21:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ffbec50e5e7368fa755414f0b8cd1f878d0f892",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-14T03:46:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b828fe704e1b7e6c28d7d80b21df9543363a7a46",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-13T12:30:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "452640c907694e4a7f80cf462df1c82db660ce2c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-13T04:38:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "015eab840ec547c7fe60d20fc262af6947b7de50",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-12T17:27:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 22,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "08959881cc2823f0d93d50b40c177fabae1ad74d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-12T16:17:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d906d49f5b5f7866b871248f981de9e216d8dfe3",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-12T16:17:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d21f92d82ce3e1f626a5a891cb9ae786ebe6e40d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-12T03:36:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6d3169346bd75620335f0710006ad6e807c00066",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-12T03:30:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 16,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f18e46ea1e0a3520d464def7b5646c9dbe31172d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T16:06:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a135739cb79b1f9abc4e8c78c3b97be2161cac7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T16:05:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 16,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca4e1b9716d62103f881c61447b99aea652a644a",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T16:05:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9cbd64a9c5010394c4b930151323779cb7157b4",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T15:56:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a741c6f18372e73f7503d4d838b225cb62fa0951",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T15:56:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3d522c31e3cceb7e53fc220af66ae4cf42ae1737",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T15:54:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c1d8bda752a8d7090dd7685e9be6b7a6b79de80",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T15:53:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a32c362e6ca15a5c7872bc8b67d7566433a3556d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T15:53:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6d311805120e7814b09148c325cd59d0a31e015",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T15:48:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c71afcdb0554d6783b3f86bcd1c9195cd394dd7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T15:48:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 39,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 77,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "diff": {
+        "inserts": 387,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0f95b96e14c3aacfdf43c917a2285f312d003e5",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T07:50:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70bf090f606aded41f27c414e7780a269e226c8b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T07:36:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 385,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae1fc955d99800269c42e317f3192a22fbbd0afc",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T05:37:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "40d6d26f311f63eaae35517762fea494cb00c4d7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T05:36:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6b39b6ad0cbbc7e90facb9eed766f48e1bb4152b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T05:06:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70cc0036a15d6a55fa2f5a8b2e1d5cbb00c070b0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T04:27:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "088fa6987e17d6fb7be8cbb4892ad30224cf364a",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T04:24:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b4a0151e8c20537ebe742e479a0d1fbbb8c1bf0c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-11T04:24:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8c53d20267f8068fdb2f3a6453630300bf2ee29",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-10T17:12:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d966d9ba08eb28f26dd1b050eb7bce10c59ee5e2",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-10T17:01:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f5f0b1257e2af6db8b2ca65548cbf4b1085c8464",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-10T16:36:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "149cd4d781ea743a6841bf889983b075431fde1e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-10T16:26:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ccf10f385b99bd80de048d46efcda4f98aac204f",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-10T16:26:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "213f54ffcbae223d660a65ce94ad0b35c4942d9e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-10T09:25:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3f55139b8e321b98c01928fa991660236c4d6a3b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-10T06:44:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "vim": {
+        "inserts": 492,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a64e80a23f21fc2cf1752a4f1ef80c81fdf0ed02",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-10T04:03:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "dca045706f6259b0d7c237d33e01f143a4990924",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T12:40:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "062bb76f66b27d42b368303a0d16ca8fe466ce27",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T12:34:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "76010370aae890e201994eac7cc49971e4c39ae5",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T11:21:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31d8a9a64dfbf44b6997f14716268ebe9281ff4e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T11:17:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "74f7566bb62fa186e75f88f66346fedb5b119282",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T11:16:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 21,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ad2d83dbbccb692f773366fc6c061a83d025ae85",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T11:01:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61103bad133ea3cbee3110a9f39729d698eeebbf",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T10:59:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6577ec15fee57e924fd4527fdab014b2bcd84563",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T10:58:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a1f5f17a298f0534e5d25499eb1b1ca7f6c73116",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T09:31:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c5286f1c7cc9470b0ce3066d40524e5606d441a1",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T09:28:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c83903f85b8d5a0f47d2afe53a9a95b3084b9819",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T09:03:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 18,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c332904ef14c6bdaef23e154f52ddbe261d7e71",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T07:22:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8022817f211f3b2ddc4b33dd99e939b93d27c15",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T07:18:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9431ca8dce74010cd96c87bcb300656c8bea3302",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T07:04:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ff57455fd233f530988c799b4abd93c03db4ae02",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-09T04:27:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 16,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c13111550516b460b312a47f9711fb5988a9ec1",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T10:05:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "42040101465a86a1bd31af1190a65bbf39e068fd",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T09:42:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dc14edee49eeca26a9f61af9bf6bca5a2141030d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T07:01:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 297,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "984efcc35ebf147924dba008a71f6c0bd482121b",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:46:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "65fd02f4d692a1fe1371e6fbf99699ebd4f64fd7",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:46:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c89a436c0b76d66f31e711cd3d3f5ed8cbbe3362",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:45:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 32,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f58025a9069af9d08df4ce2aa36b293e1110ba75",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:44:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b849fa15e979fedcbfa48812c3ed87f3d119c609",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:42:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47599b1de3d8839edbf6c38b0c35d02c6dbf1d4c",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:33:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e476f891acae79e9993885965737da21e40359f2",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:33:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6fb39e2cf84e3f355b7a2114b2aeea24714a5708",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:24:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "810fc5bff0c37ab587dcca4365b7d6f7daccde75",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:23:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "22042717ce2206eddd4372e8960b9a226acca740",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:23:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2cd8134eab77a7b0bc8406e4fbd2c37f3dd34c7e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:23:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "962f873adc66778d22428b6ea754eb71b50d82a0",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:22:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "51a9be039fa7c9e940fe6b9a692c9a01333c518d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:22:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "00516b1b8095238dd570e8e78b2efdac97980500",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:20:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7773fcf431e43704100ef3c0ccd4fc83827ea03e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:19:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a0ffb6f5e9825b9fd8e46c2119fba6c976de9a30",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:19:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c00edab669790166772149442773a6ce1d9d888",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:18:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fee883e57de153eae13b5e0d0b1f907c37d20c82",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:18:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "675319a55bb917028477be2fa976a14a78282622",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:17:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "956ade8f78569b39c7f5d8e5f8d82870eba1ec96",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:08:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8a062115dd334511b13413117594e4b979edd6ee",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:07:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6efb08d85fe0ff967577c427e58d97fe86fb9e6",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:06:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f6c6ab733ec3d56bba8c83d31e80f98697228ace",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:05:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de6008ddfe03fdcb9dfcf7c8a2ba48ff8fbc5c45",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:04:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f623db2e566f94867b497db53e63dbe91f400df",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:03:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da26c22e4ce3d83481a88338ac01c24bd852b927",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-08T06:03:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f0c40aebd900520b14ffa33e6b0f2ea1f64488d",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-07T16:57:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c2701596b3c55a3f75ca9236430a9dbced444c8",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-07T16:57:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c34afa78ccea2cb41865390d418f97c929e9db3",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2016-08-07T16:56:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b562c59c6c59ed01d46f481eaee232e8fb6f208e",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2014-06-24T04:35:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c5a5c5f295062e0defcb954f83d733949dc25f38",
+    "Author": "Alexis Sellier <alexis@cloudhead.io>",
+    "Date": "2014-06-24T04:34:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 23,
+        "deletes": 11,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "086a18add11294d0d9811abb3c2066a3343b5bef",
+    "Author": "cloudhead <alexis@cloudhead.io>",
+    "Date": "2013-08-24T10:51:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  }
+]

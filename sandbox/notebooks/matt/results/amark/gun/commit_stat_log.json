@@ -1,5 +1,77 @@
 [
   {
+    "commit": "c85cb4365d66c809a67c816eb945d9d13826e6c6",
+    "Author": "Bradley Matusiak <bmatusiak@gmail.com>",
+    "Date": "2022-05-24T14:08:18-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 44,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "210a5834c648b69eb6a4d155fd0bbae9e76a6073",
+    "Author": "Bradley Matusiak <bmatusiak@gmail.com>",
+    "Date": "2022-05-23T17:14:25-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "55682b6f4b9e789079f34493a077f96f82909c35",
+    "Author": "Mark Nadal <mark@gun.eco>",
+    "Date": "2022-05-18T18:36:35-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "904b2f8e7f46e89a75f0e4ddebe419a53f79b5d0",
+    "Author": "Mark Nadal <mark@gun.eco>",
+    "Date": "2022-05-18T18:10:36-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 53,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 108,
+        "deletes": 24,
+        "occurrences": 3
+      }
+    }
+  },
+  {
     "commit": "ced9cde41b2781ef3f89ffafd4417405eb473f8a",
     "Author": "Bradley Matusiak <bmatusiak@gmail.com>",
     "Date": "2022-05-15T18:07:35-07:00",

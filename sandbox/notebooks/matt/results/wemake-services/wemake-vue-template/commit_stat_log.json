@@ -1,0 +1,5080 @@
+[
+  {
+    "commit": "b6fc1317bb7edf2dfba953a65eecfa3228ead6cd",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2021-12-17T12:14:03-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7713121f8391863367f740cf59c9f87b0288ca90",
+    "Author": "Maksim Shcherbak <dragoonz@yandex.ru>",
+    "Date": "2021-04-18T08:15:58-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "vue": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 7,
+        "deletes": 12,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 7037,
+        "deletes": 10137,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fe9d599ad4b8e697a723d9d14f0c10c8b09a8d65",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-11-16T23:56:28-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4f7f50ea5e0375737626e0526851da5b84db0bf9",
+    "Author": "Shagit Ziganshin <theLastOfCats@pm.me>",
+    "Date": "2020-10-29T14:22:21-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0137bd0e5b81424fafdd680e72c4bbb6f0a3e2f5",
+    "Author": "straybro <german.malinovskiy@yandex.ru>",
+    "Date": "2020-07-07T01:23:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c2d527987d096c85c9806bd1c402425baa5842a7",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-05-25T02:38:31-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7a981277184dc1781f148f21ee0bdddb0fded24",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-05-24T01:12:12-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 3
+      },
+      "vue": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 17,
+        "deletes": 17,
+        "occurrences": 9
+      },
+      "json": {
+        "inserts": 2870,
+        "deletes": 5506,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a46e90f55c9bb22c73cb2a8536acf40ec960f8b6",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-05-23T05:43:27-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea62e6c405df31dab36afa728ef0070e2125bf67",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-05-13T06:30:03-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "554ea224ff4b4fa11cbdded884acf95e440b9843",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-05-13T06:29:30-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "32669c096e5fb8ccc0f57c35519c2a0471f5e41d",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-05-13T06:24:24-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2eee7cf6dc29ce2cb6a17102fc8bc08d081a8cc9",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-04-15T01:59:08-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8fab47051f62e52a486c8f9c6e9b039da308b6cd",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-03-31T08:48:25-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e6c4a607d7526389ebd79495d6e6c56d1a8b79c3",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-03-31T08:48:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89391f4ff069fffff6ce05f449e6cd90f603fd87",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-03-30T01:50:11-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 38,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "558836e74ad15f467331e0b9a1ae6ddcaefd0afc",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-03-30T01:49:55-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f310629e4296e60e24b649fb6da700c92661abaa",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-03-30T01:44:44-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3404c5eaaca58676e8292e8b1e38e2691e4b2141",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-03-30T01:36:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cbfec78c9fcde75968606f9cf81e912972efc5af",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-03-28T05:40:09-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f52d6925f2b4f7f68cf0190414420a425a3cc603",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-03-28T04:27:59-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c247acb88afd528fa45de997937ca5252fc0c72",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-03-28T04:18:07-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "878a56609df56e2b214e8ffde0a0cec4aa1e76cc",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-03-28T04:15:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 7674,
+        "deletes": 2769,
+        "occurrences": 4
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f30c681ca05c51b4cc36ac7cf754f363d273b86",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-03-21T13:56:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8dfb2b2b70af0712d627ee5ead88f88547e6e830",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-03-21T13:56:04-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e1d130e21f5c60978592b5e1bfc9767b92fd39a",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-03-13T14:09:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f6c58e65de2eed6e3647bde754899ce757fbc3c0",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-03-09T05:05:56-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 146,
+        "deletes": 200,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "46ce121ba8f81783f24bef41355808923d540ded",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-03-09T05:00:27-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 570,
+        "deletes": 470,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "e3a3c5bf6d37927efd87607ad129763d9a4f446d",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-01-23T16:01:48-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 74,
+        "deletes": 74,
+        "occurrences": 4
+      },
+      "noexttext": {
+        "inserts": 18,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "358e1b95dd4f86ba2016da77268235ddd704e7fb",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-01-23T14:46:03-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8cf8396f5ec2098257a358d633d9bf14ba2f9a7d",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2020-01-18T10:20:26-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a1b523f249561fe19b1d12a511133b7aad7d329",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-01-11T04:25:16-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea52031a353411d72c14bee5abc450720a199f9d",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-01-11T04:24:53-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1165ffb99cb8dcfbac023bdc63d43f2d655fa6fd",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2020-01-10T17:36:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 3358,
+        "deletes": 6205,
+        "occurrences": 4
+      },
+      "vue": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aedfddb452bfb15231d992f73d4088919ede579e",
+    "Author": "alza54 <expl0it@shellcode.team>",
+    "Date": "2019-12-25T05:05:14-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3fe3a87f41006c1d4bb736746644492d321d3be9",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-12-14T04:05:33-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6cd7f7532ef0f4ed6459b5b95f5d7df8fed22177",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-12-14T04:03:25-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 242,
+        "deletes": 62,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "10aaae1ae8c317cdc1822901605e9acb08463c3d",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-12-02T09:45:48-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f76cd5878404695672d77c64ffaa89e14969b9b",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-12-02T09:44:41-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 80,
+        "deletes": 51,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0495d169533fdc20825187d181219e5578d0c207",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-12-02T09:34:09-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "0feef0495f5143e4e87ccaf67f615bc79af9bd53",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-12-02T09:20:41-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 306,
+        "deletes": 855,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1f8e9f50ddf09cfa8076d7d7a5d0e5e5d20950ee",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-12-02T07:26:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "vue": {
+        "inserts": 17,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1008,
+        "deletes": 1142,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 52,
+        "deletes": 54,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e8280f6546ad3c62f20e92051ee7f1612b8be5c",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-12-02T02:51:42-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8012e694de21cc190dd1cce4e48f004a929bf41f",
+    "Author": "gmhabchi <gmhabchi@gmail.com>",
+    "Date": "2019-10-28T02:30:18-07:00",
+    "orig_timezone": "UTC+10:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bab9e1c03e591bebebd7db401a080e6ac4e8ae0f",
+    "Author": "alza54 <expl0it@shellcode.team>",
+    "Date": "2019-10-23T03:37:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e8b9b8d120873f3935bc70b45c9abd6ec1bd8b8c",
+    "Author": "Tiago Barrionuevo <42182417+tiagobar@users.noreply.github.com>",
+    "Date": "2019-10-09T01:21:21-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1a0c89b0e46d45d276085eb6db328c9994aac783",
+    "Author": "Roman <moltar@moltar.net>",
+    "Date": "2019-10-08T12:17:37-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 26,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a72565f113c48fd6cfb18195e9030c68874faeab",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2019-09-12T06:05:09-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8dc1bd4dd8052d2c126b2b4cf625c13d8b0f568c",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-09-04T04:08:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f2e3211b84e363b15a856c674b7434209c8db62",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-08-30T03:49:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15da8a78daeb7581e8cbb6698a71569e5e7ea47e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-08-30T03:43:32-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1985,
+        "deletes": 1304,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f4aa09792c0ff3dd45376659b49fd065a61b05eb",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-07-16T23:57:40-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 27,
+        "deletes": 34,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "bda31e97e8992e2adf4fc1a2b2faffc6b8a952c7",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-07-07T06:54:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "vue": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 23,
+        "deletes": 19,
+        "occurrences": 8
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8a3cde6edd36dce2346830c7c5ffdabd44649bd2",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-28T11:22:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0901431b380813b59d66dbc043072f827f6f36ea",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-28T11:17:44-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "55a792d0823722ef1a245e5f73cf4c0ab98688c8",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-28T10:48:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "vue": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4b4daf32af1ff183dd43b0f6b0895baa3019acb2",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-28T10:14:32-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 174,
+        "deletes": 16,
+        "occurrences": 3
+      },
+      "vue": {
+        "inserts": 13,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 13,
+        "deletes": 10,
+        "occurrences": 6
+      },
+      "md": {
+        "inserts": 29,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 10,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c777564b696673ef641a62c592d57c80bbb89d29",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-27T02:36:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 121,
+        "deletes": 7,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "5dd8f2ceb902dde7c40ce642211042447fd76ec8",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-26T16:53:49-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 78,
+        "deletes": 30,
+        "occurrences": 10
+      },
+      "vue": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c793c7355ed4e52dce80478c64db11e4d9ad983",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-26T16:06:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c33ab95b9a60a1f46afe1bb10829fbddcb0c7540",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-26T13:53:26-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 32,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "vue": {
+        "inserts": 31,
+        "deletes": 45,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 272,
+        "deletes": 159,
+        "occurrences": 20
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c9abd8dcc871b84c44b209193d1ca79fda7b68d",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-23T06:18:58-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "67416b1c5a1fb0dd4642809c183681a008c54826",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-23T03:39:30-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "55ede30d75cdbe86477ae887a37e13e412a7fe74",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-10T03:37:04-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4096d13230b9067629db5ac09cb6826e43fc29e8",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-07T08:37:39-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "787fbddac56a945b21257efe15443020ad0073a7",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-07T08:37:15-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 6
+      },
+      "json": {
+        "inserts": 872,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 5,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "00b18e0b238a0d3e7725ef4d7a9b31c9647c6b21",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-07T07:53:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e07058a2ca885035be84c5ae2ff81f1f4b245f53",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-06T00:45:15-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b49b5c0d04bb81ff8314862783663deebb2471d5",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-06T00:37:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 24,
+        "deletes": 9,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 44,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 28,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "41d23d8c70e771da4cfe97169affdc13b0fac16a",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-06-01T02:38:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e736afa50170f10416b34e95a300c1e1ec9bcabf",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-05-31T07:01:48-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 24,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e7bc2726f64a851c89527817564a0b9b1760fdb3",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-05-31T06:50:53-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a6ed83c13acbd105fa5017366888fabace014490",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-05-31T06:46:01-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "382418285c3aa8615f9e028724b4de4c2a88dad9",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-05-31T05:09:09-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 40,
+        "deletes": 31,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "39f8ada231988cff19c0f5e9b37ec9ea17f1dc14",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-05-31T04:59:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 6496,
+        "deletes": 3174,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "98a02786e1b59c5950c10a0ed10c757dbd09107a",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2019-05-21T05:02:00-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70c1de785666389473dd5a4a4e77c22ab7fc8289",
+    "Author": "kiddick <kiddick@users.noreply.github.com>",
+    "Date": "2019-05-16T03:04:31-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4653df65398ea30d926fdce345c3c5236b482cf8",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2019-05-07T10:25:31-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da358b22f8c48d6215536b153924f3c972fff102",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-04-23T08:31:37-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 19,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fc542a2045ace8f43f186f7d555b1d3067c5e41c",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-04-23T07:41:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c27981a3f289037572be28dad1e8e9097d46854",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-04-23T05:42:04-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b6162fa80c959c43ad7b027126ae467484c3a992",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-04-23T05:40:59-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 57,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 853,
+        "deletes": 131,
+        "occurrences": 4
+      },
+      "scss": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6e93d226d0177c3a1fcd8841e2dac41b6aedf538",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-04-19T02:32:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 47,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "250d4fdcf842876b5be574e7c6d83e48f31b974a",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2019-04-15T07:03:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "14997346e2154c393838e76436528488181d186d",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-04-15T03:10:41-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1fd1ac61ae09d7841766b1cc06d14cf60bdc2e9e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-04-15T03:07:28-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 39,
+        "deletes": 24,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 2910,
+        "deletes": 2959,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "622351163b48d4c1b6838407aa1ce5229a6865f3",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2019-04-07T21:02:56-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "827ca0aed024af3d12a80688b685d119e68ad995",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-31T04:33:52-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "967e22c3cf8823c26fd5ac3f646a8488e0ed1bdc",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-31T03:43:24-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 11,
+        "deletes": 4,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e6ea6c90033fd99f617a4fb378f26fcc21bc1c60",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-30T22:59:46-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df79e5d16c9d4cfcd6a9fdcae40571ddcc2c440d",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-30T22:40:27-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 38,
+        "deletes": 3,
+        "occurrences": 4
+      },
+      "ts": {
+        "inserts": 15,
+        "deletes": 7,
+        "occurrences": 5
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f3f61f066b4875284ed77528e4199182509435b1",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-30T06:04:51-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "903f4959a4e73830f9c01470cd6567ee8eccbb93",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-25T06:03:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c038407bc32b8b8f9d16ed27f8f46678808a9956",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-25T05:51:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 6,
+        "deletes": 9,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "28187ca88786649a00e98daadec3a04dab282f0e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-25T05:36:49-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 19,
+        "deletes": 51,
+        "occurrences": 4
+      },
+      "vue": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "ts": {
+        "inserts": 62,
+        "deletes": 84,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "27dcd1ec4e64aeb6e8894e6013f6d8f1685b2ec0",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-24T02:40:15-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "vue": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 11,
+        "deletes": 30,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20148ab25b22cb3d87ed3b78f12e12df251a6be0",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-24T02:04:37-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 27,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 30,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "955058138d10f35b6ccabe1f40c40e799a9cf9b4",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-22T11:00:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c1ada61a166eb5aa97c1333e483c2245769880e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-22T10:50:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 24,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "4f6d244c314b54f316528efd6373cf98d33ea485",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-22T09:52:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 82,
+        "deletes": 384,
+        "occurrences": 16
+      },
+      "json": {
+        "inserts": 1414,
+        "deletes": 127,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dad533903126662d6afbbf44bd6ce7389dbf4e99",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-22T02:49:01-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 77,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87adc23247266f1d4b874fb7d5307fdb935ea66c",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-22T02:04:23-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 50,
+        "deletes": 3,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 6,
+        "deletes": 28,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "290f4296a45d79daa309a8ca9d8f67cc4166db08",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-22T01:39:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ca879f187f4cd3eb69e9e1263ad2f7ef58beef0",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2019-03-22T01:34:00-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 24,
+        "deletes": 100,
+        "occurrences": 7
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 24380,
+        "deletes": 97,
+        "occurrences": 7
+      },
+      "vue": {
+        "inserts": 35,
+        "deletes": 57,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 27,
+        "deletes": 107,
+        "occurrences": 5
+      },
+      "ts": {
+        "inserts": 80,
+        "deletes": 78,
+        "occurrences": 15
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 82,
+        "deletes": 31,
+        "occurrences": 5
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 19919,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9bdb100ad085d75e532745fd22ec52f1e7d17178",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-09-08T06:22:25-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd18e327fa21312e48e363dd2cd68880f961140a",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-09-08T06:19:46-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "406ffa2320fa7b0fdc8986a2409185460bc57277",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-09-08T02:04:27-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 62,
+        "deletes": 78,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "11a4ff840d6762e76a7796004e5e8e97f188ff5c",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-08-07T12:38:25-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 10,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 57,
+        "deletes": 60,
+        "occurrences": 5
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a52b24ecdb09879634e743a193eabcaa423504f9",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-08-07T12:31:19-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 47,
+        "deletes": 41,
+        "occurrences": 4
+      },
+      "vue": {
+        "inserts": 49,
+        "deletes": 51,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 192,
+        "deletes": 172,
+        "occurrences": 15
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27753327a2e9b0ca3563e620bae411f7ed8d73c3",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-08-05T03:43:25-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ad06aaa3eff1ae6243b99041192c64ba309ed770",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-08-05T02:36:54-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d1b069f4b60f6b4f37b7a33e18e5a9e9f078eb0a",
+    "Author": "kirillvy <33430552+kirillvy@users.noreply.github.com>",
+    "Date": "2018-07-06T07:03:21-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "04fb565a518d668683078ec9c32cfa733da9c165",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-07-04T04:03:19-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f40a701a6e18269b78dc867dd4f3708d0cd3da4f",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-07-04T03:32:49-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce96bf18dc9146cea762d1b0ba070bfb154965ed",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2018-06-23T14:30:33-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 40,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "12387e09a25975fe115e42b660a855377acc53f8",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-19T00:34:55-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9ff8cfbcb6bf8aee1f74e240077b995c01007f28",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-18T12:51:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 22,
+        "deletes": 33,
+        "occurrences": 5
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e02ac0e5432cba3faaeb4b7fa5c9d261f643f995",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-12T01:20:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70fbd852f5f0cb307cda9f74552b0543961115b5",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-10T14:18:43-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 22,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15d36b3b08335f5794ad735d8808708e6a7eb657",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-10T13:48:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bab46f93037a592b53e7d4914c82b19d4eef3d20",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-10T09:50:25-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6e78a6d2a9e2505abaf4e90df9bb427ba98f190",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-10T08:49:14-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0080f98fe00c27720939a0920a2ab01ccb5bb6ed",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-10T08:43:07-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d8f01dabcd68089d320ee0a642ae01282120e3ba",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-10T08:36:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1d4324858cc46df181048a611f7ec02b22c104d8",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-06-03T03:27:51-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "94c41b2e7bf33d73626ce17f0d9f5093c1db4d81",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-31T07:19:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa5d8dde4bd841e7f975d03806eb2462249d8954",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2018-05-31T02:49:50-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7eab67179b2d5288f49e57aa8b4abcfecf722018",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-27T11:47:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0fc6e4ebd62b75f18c72cbd075a28e1bde36c275",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-27T09:53:07-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "afb1dc81431dc594a9a00d881a9317714558eb09",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-27T09:41:07-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 40,
+        "deletes": 39,
+        "occurrences": 5
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d1c6f9bc3279e7a0986c1a05346f1cf22ce86b1b",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-27T07:54:53-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6f7e66b95556f6fa06754492122cda71802a721",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-27T07:37:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15c0050cb26d2687abfad5e34fb83cce11bb2f5e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-27T07:19:43-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "vue": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 17,
+        "deletes": 39,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "01553056e0d0952fa4d381414f59eee74cf7aecc",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2018-05-27T06:45:44-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 35,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 233,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 91,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "598c6bbc52431ffe6a02828e2d543a6c66754b25",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2018-05-26T11:35:55-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "44906fed53345d6b589efa44b5c1ddc3d4e065bf",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T23:43:59-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bbf6005224d8aa4f22cd3d178cd9833a2d7c620e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T08:03:28-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "vue": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea52a2e270e3c4ca448c4381590239684f229fdc",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T07:14:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "760536c4992b11f013efab33ef260b035b6847ac",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T04:13:21-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19d5e2b37d3271e72a5d293717eca54fe6147e6e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T03:53:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 61,
+        "deletes": 63,
+        "occurrences": 15
+      }
+    }
+  },
+  {
+    "commit": "c88e8e687fab089d63b0abfc3b3c3effc4e2aaac",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T03:35:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 19,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "801df1e740526b784b17d3e8cb32de3ca8932868",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T03:20:43-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f9f1d497b7905ac1eef080a485aad1b9c462c4ea",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T03:12:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4aa1020922eba4dabc4058cff560a6f4d7229b67",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T03:02:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 82,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "json": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 74,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d723fdd81a72e9b6345b5a7e533f60d94988ef94",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-24T02:08:27-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 20,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b850da2e57c609e1b01bd30fedcf1d9335bc59ca",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-23T08:49:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7bf4b0c9c4ae7bc788dad7252ce79a81a913caaa",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-23T04:27:32-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ceb835a2ee9baf34fc8ddcb57ca7bcb7d7de1249",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-23T04:04:08-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 18,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1134cc0b4ecf457cefe27f46051185cf5bb5e71c",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-22T13:32:45-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 279,
+        "deletes": 160,
+        "occurrences": 15
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 737,
+        "deletes": 27,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ff1a553027d0a57a045ad562196e98c80f82b5fb",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-20T03:52:11-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27ae8b261216235c4c0940dc09e55471fd3539f0",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-20T01:01:27-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "290faf47b10c3071154ba698eedff3240df356ab",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-20T00:56:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "d5ada88c0a6c8b088ead45af90e2399fee34c5e6",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-20T00:36:24-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 153,
+        "deletes": 144,
+        "occurrences": 8
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "011f4c95001b6b5baa9620f8e0c3a448371f0f19",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-20T00:07:09-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 23,
+        "deletes": 3,
+        "occurrences": 4
+      },
+      "vue": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 26,
+        "deletes": 7,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea54e769d0ad2f40d0dfbcd18347d953e5823ac2",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-19T11:14:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 17,
+        "deletes": 22,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 41,
+        "deletes": 15,
+        "occurrences": 6
+      },
+      "lock": {
+        "inserts": 5,
+        "deletes": 104,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fdfbc3bf8c26b112c862e93f7dd0babde39f0623",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-19T06:41:41-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 17,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f39fc7ce841336ce4ff08d336fe25a4bdabedfa2",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-19T03:55:18-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5ffd2b554da699880593f221c309337283a7c547",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-19T03:44:59-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 60,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "sh": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 94,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 21,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 3055,
+        "deletes": 53,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ffb9c58823a14e33983fc119a0333793672a35f",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-19T02:44:45-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "469ec68a2a31b94b39fa606d3634aabd2093cb2a",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-19T02:06:44-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 103,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5d2533bf15b7d60f97a13a3caf557402010a6df4",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-19T01:48:50-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 47,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "vue": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1ed8ddc5b4443985c80bb12d07a64aafede812a5",
+    "Author": "kirillvy <33430552+kirillvy@users.noreply.github.com>",
+    "Date": "2018-05-18T06:01:00-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "vue": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 114,
+        "deletes": 77,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "305da235037ab5eed56b167e517e117758adbafb",
+    "Author": "Gregory Tereshko <gtrsh@users.noreply.github.com>",
+    "Date": "2018-05-17T05:36:00-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "199e65bdd01a4fbc369e49622e52bb4491ad2189",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-13T15:44:43-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "vue": {
+        "inserts": 67,
+        "deletes": 33,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 90,
+        "deletes": 38,
+        "occurrences": 2
+      },
+      "snap": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 42,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d14dc3477e884437af8bff23360223ca6016433",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-13T09:09:52-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 26,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b65c6c56088e626579e2d4a7044288c961d737f",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-13T09:09:39-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "snap": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6360bc08a72c240c8539ce6d088ef014614e09d4",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-13T08:44:33-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c55595c430ea93f3802cef5c3606ec301c45f307",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-13T08:35:29-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "vue": {
+        "inserts": 23,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 36,
+        "deletes": 26,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 26,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "03e8d45fb92e7c97008816a11c64f7860cc95e6f",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-13T07:27:21-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "224e43060f85394eff4c2e5e45289d9449eb8e3c",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-12T06:52:45-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fc94a62deb53c00a255067f3af7640318b8a6c27",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-12T05:29:18-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b4fad269a6eaf60c62784d3233240e5b97ef66cc",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-07T02:59:42-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 22,
+        "deletes": 27,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "65632009de30e00b8b1bd1ff568babc5d6fcb4c6",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-07T02:17:37-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "667b61e24c1eac8ccc2e9b70fd65f18bd9dcb9d2",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-07T02:11:28-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "95ebdc59fe7b317d55058b0af4356d9c1e290664",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-07T01:08:18-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "533d6dd11dcb77ce834785014a813786139e5444",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-07T01:01:27-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 17,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "150e172a224685fc131d478de35332a230321033",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T17:25:21-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bd15527e28b29dd16f0629400f95f3d472b78fc7",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T17:08:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 2,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d6eb81a89529ddd94e31e8b34887de65800c4dbe",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T16:33:00-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a8be8bef94e94905ce5ed153af9cd8072a2fc6a9",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T16:25:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9e02e3f915607b786627dc5f25924bfd57388173",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T16:22:18-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b328faef9aa9d1709836f0a9a53c66e16674a793",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T16:16:17-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 10,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8e8d716d43526708b4379e47b3a6178933d98821",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T15:18:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2a143197f1cac9475dfc76eb51d293a386778f5e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T12:06:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "snap": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a566726a1950f83a9f6ef2a7fa99ebb3d42524b0",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T11:56:54-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md => LICENSE": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 37,
+        "deletes": 18,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "vue": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2add019ce64b15826fc5788c6b76d46e41bd8f50",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T06:05:09-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 63,
+        "deletes": 43,
+        "occurrences": 8
+      }
+    }
+  },
+  {
+    "commit": "a2b1bb65b9eadcf94f3c57db6109721c55576104",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T05:25:53-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ab0d2ec6f5472e50ea79b4c0298210a0868e03b",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T05:19:53-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "558b591cb3a0bb0717c09f3a9449c863382b5aec",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T05:08:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9fa8b6149caa3faaafd9462a42192d05539b042",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T04:36:42-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "lock": {
+        "inserts": 3,
+        "deletes": 49,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c05bc19c876f318a37d14a8dea1e79425cc6f83e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T04:34:24-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 14,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cdc62f95fa5d5b305561d55f7b0366c4ca567595",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T02:45:15-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 16,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "vue": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 18,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "012ec1aae831b9278918569f0c545b3ea9f3eac4",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-06T01:56:53-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 29,
+        "deletes": 15,
+        "occurrences": 4
+      },
+      "vue": {
+        "inserts": 18,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5d49d3d7f9f4f9e0616297769ef43fee6f3ce947",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-05T04:23:12-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "sh": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3f5a43e3184d73abfb78dfd961fa9dc6645825f5",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-05T04:23:12-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "54a063d1a941783b0576cf193db562a8abe5f8fe",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-05T03:02:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "snap": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3953a77e6dd7ed264d4bf29645df16781df5e641",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-05T00:41:11-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 3
+      },
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 3
+      },
+      "lock": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ecd42458a2c42f0b2341675c3388d0e83a0a93d",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-02T06:35:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "596bda3fc6153f6192c9a4b960c630abaaac4430",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-02T06:28:51-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1a77a3dec14ed4148d99f8a195635b50adfdd4d",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-02T05:58:01-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "051c9d93ae6b2af231ed101ab9013d4a6dcdd5dc",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-02T03:04:31-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7f6e5e38ad938ccfa593c06c5b20c56906536d66",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-01T12:56:28-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e07c2620569ab749ef081b7241e62ed110e4d898",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-01T11:47:11-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 21,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce10c3e5baa74d8de4b95ac1654dab8763c3a32b",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-01T02:12:39-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae8459dbdf8bf143ade7cd481fa3f137df3e06d5",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-05-01T02:07:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 137,
+        "deletes": 15,
+        "occurrences": 4
+      },
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "vue": {
+        "inserts": 70,
+        "deletes": 24,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 26,
+        "deletes": 14,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6a154aa5aa5baf3c45e7199fc5ed84cfce9f57b",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-30T12:24:44-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "vue": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 81,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 920,
+        "deletes": 53,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c777f41ab2fe10c312e0aea95b70f266b5317e09",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-30T10:46:59-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 38,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "131995e3b60386e4aa248a4db5952877ae7b922c",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-30T08:59:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 266,
+        "deletes": 200,
+        "occurrences": 14
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c6e74302ac896bf42bfa4593d9b073562f8ec392",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-30T08:49:06-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5b2ed985aaa9384c4c17bb30c208fd326dce91c2",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2018-04-30T08:47:57-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "md": {
+        "inserts": 203,
+        "deletes": 262,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "eb7f2b63232b02e78296af2c638b8e9aa597c25e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-30T08:45:37-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "391a199ef2599cd32fb5cc5382f8c87480876a81",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-30T08:06:29-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "2fb3de28c03b3007ea8f0cddc0a8729ca38ff105",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-30T08:04:40-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 320,
+        "deletes": 6,
+        "occurrences": 10
+      },
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 8,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 1327,
+        "deletes": 82,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9fd7b398ce99dc2ca3739826e17ec1dacc1b3f2f",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-30T05:10:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 15,
+        "deletes": 2,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "08702d627cd6eb51a3c6eeb2fe4ceb1d9007c414",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-30T04:55:53-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 92,
+        "deletes": 75,
+        "occurrences": 15
+      },
+      "noexttext": {
+        "inserts": 136,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "txt": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a19ba95bd3e3aecd15ea67b4f8e8dc7e0b5e8991",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-29T08:05:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 369,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "675c7ada8e11b73cab7510137242ab65a7f2b9f8",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-28T05:38:22-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 23,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f86c83f4871e4e4cc46f6d21598047b8ab57c083",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-25T15:27:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c11403ebffc995317352d175218b92c97e51edb",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-25T15:20:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8fdc073650338b2f52c4669af161d1b435199e9f",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-25T15:19:19-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9d0788d70b602c25d5d74deff0551fd64ce75c2a",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-25T15:14:23-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca60f8ba1386fe5862cc8454d4689f19ac44bafd",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-24T21:45:46-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 18,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f54f9d1f86a61425f8207e047f8c8bfb287b8260",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-24T21:31:05-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "vue": {
+        "inserts": 18,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 4,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 1,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13844562c009ea07821a41ea14f7e652cabc1543",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-24T08:11:23-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70e57febc1d11d414c7d5943d5dfb9ec81a7e183",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-24T07:10:44-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c786d1490c3cd3e6810ce2d5f7a52cc27b858366",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-24T07:05:33-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0dd0cc5551df601471317da6b1c5ffb3fbe74af9",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-24T07:01:26-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47410c5cb4d7acfd2b6a5dcc79c4b6aa5f9191d0",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-24T06:55:16-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f04c60c28691e4605eca33d2fd32fd2e28407169",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-24T06:51:19-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fe4582586d41d7005e8435491a886bcea640ce15",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-24T06:13:15-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 11,
+        "occurrences": 3
+      },
+      "noexttext": {
+        "inserts": 15,
+        "deletes": 19,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 12,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "859221fd2e2b0228e1afb5d33a4750aff8f61288",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-17T06:41:39-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 14,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 90,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "yml": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "125eacc4e6da72c2b52b8f71cd78611a1b4e6ed6",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-16T05:46:51-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 73,
+        "deletes": 67,
+        "occurrences": 3
+      },
+      "vue": {
+        "inserts": 8,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0727843ae104e443b69071d27c5bd741e3786e2f",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-16T03:30:49-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bb814102ad9f80032240d9fdc1df21e5995fef1a",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-16T02:43:21-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "vue": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 133,
+        "deletes": 55,
+        "occurrences": 7
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1cc3a3a3ff8c5f71763d92ccfdb41cfda37cd7f4",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-16T01:48:27-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "vue": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 54,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 24,
+        "deletes": 32,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "01d72f44ebfd6944c98fa97a910b4e43d42eb173",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-15T05:20:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 7,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 21,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87028fa17755a5f5c5dce0df95d9df9b13677686",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-15T04:59:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 29,
+        "deletes": 4,
+        "occurrences": 3
+      },
+      "vue": {
+        "inserts": 108,
+        "deletes": 51,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 226,
+        "deletes": 188,
+        "occurrences": 12
+      },
+      "json": {
+        "inserts": 49,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 1509,
+        "deletes": 59,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5f1a59416c2f1c0f8d8e863325a6cb09f8d91c5",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-14T04:42:40-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "vue": {
+        "inserts": 9,
+        "deletes": 45,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 8,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 22,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 792,
+        "deletes": 38,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "95e167d14c2676266095a2151b34bf1dfc48a78e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-14T03:47:30-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f75f3f6df8210b3cb03e3e827fce42a4c8488b51",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-14T03:46:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1865,
+        "occurrences": 12
+      },
+      "vue": {
+        "inserts": 0,
+        "deletes": 215,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 81,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "6a203179e607e224b461fd6b99d68b905f8dd99b",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-11T07:34:23-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 17,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "vue": {
+        "inserts": 5,
+        "deletes": 73,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 545,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6542216690f5e204cbb9123d98d369b4122b5db9",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-04-11T06:59:15-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 286,
+        "occurrences": 10
+      },
+      "js": {
+        "inserts": 1924,
+        "deletes": 817,
+        "occurrences": 37
+      },
+      "vue": {
+        "inserts": 412,
+        "deletes": 136,
+        "occurrences": 9
+      },
+      "html": {
+        "inserts": 81,
+        "deletes": 25,
+        "occurrences": 4
+      },
+      "md": {
+        "inserts": 67,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 27,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 19,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 88,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 15,
+        "deletes": 133,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 1414,
+        "deletes": 4085,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cee8346afc0342d5822e7f49ca3bea1eb9930947",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-02-27T06:09:04-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c653e630c8d07ee58fc9ac81b5a367fb0c2bee5c",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2018-02-27T05:36:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 55,
+        "deletes": 23,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 168,
+        "deletes": 127,
+        "occurrences": 13
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 14,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aecc452206f295e4adb3bacbff4d48835490f68e",
+    "Author": "Frank Topel <info@connexo.de>",
+    "Date": "2018-02-08T06:41:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2844f21597eb18de75defaed8392386ac7f91203",
+    "Author": "Frank Topel <info@connexo.de>",
+    "Date": "2018-02-08T02:34:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d0196385b1f68ea33315864be819dc33b16bfbc",
+    "Author": "Nikita Sobolev <mail@sobolevn.me>",
+    "Date": "2017-11-16T02:06:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "adc69c63af5fe8c3e6ee68879d309e16f0198826",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-15T10:19:58-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cf606d77b4a5a7bbb7185d0e19c989b258600c7e",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-08T01:52:24-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "07dffffbe621e7ade55d8371f49e594c9aaddb56",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-08T01:28:02-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab6d17a4c49dd964f9c3f744b24f15e3fe2b0baf",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-08T01:26:08-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "778ef55b0add6892345688dd8591732f849cadfc",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-08T01:22:26-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 25,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 32,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 15,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "sh": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 29,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "lock": {
+        "inserts": 1450,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a357216b71b53904b34b5f2809693d8f378b4bf",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-07T08:54:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 199,
+        "deletes": 6,
+        "occurrences": 15
+      },
+      "md": {
+        "inserts": 53,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 29
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "vue": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ac93b59bbcbeff6b0c9edac8af8b8e49cf02221",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-04T05:14:59-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 40,
+        "deletes": 3,
+        "occurrences": 4
+      },
+      "yml": {
+        "inserts": 30,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 73,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a69bea5f40e02cc5fa7fddd5ff18c86335306318",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-02T22:33:37-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7bdef358b4db5a0b23f54142b9dbfacbc6952a39",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-02T03:19:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "69b78aab6e183ed167aa64b966a9d8df3cb9bedc",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-02T03:18:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 0,
+        "deletes": 50,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "24f82a5e382432ab5cd6a948bcc94727a4cfc4ab",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-11-02T03:18:09-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 95,
+        "deletes": 28,
+        "occurrences": 13
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "vue": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 24,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bd6a2029b99aaf73cf5222d1a15113955036eaa1",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-10-31T14:59:30-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 183,
+        "deletes": 60,
+        "occurrences": 8
+      },
+      "vue": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 398,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c4a36ebb1bbdf3f1386b86ad71b6c8c4b51e8a16",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-10-31T08:03:55-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "snap": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f2e4096e924480019aac34ae2abd95ee553e379a",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-10-31T07:16:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 59,
+        "deletes": 10,
+        "occurrences": 9
+      },
+      "vue": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "670f8b49b5b2a7cd4fde01d03e50f0fa13eae21b",
+    "Author": "sobolevn <mail@sobolevn.me>",
+    "Date": "2017-10-31T03:48:41-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 43,
+        "deletes": 12,
+        "occurrences": 6
+      },
+      "js": {
+        "inserts": 59,
+        "deletes": 48,
+        "occurrences": 10
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "vue": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  }
+]

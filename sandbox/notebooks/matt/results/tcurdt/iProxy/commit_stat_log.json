@@ -1,0 +1,1124 @@
+[
+  {
+    "commit": "dbcb83ab403568e052ba2084e41a3416298a0b79",
+    "Author": "Tom Harrington <tph@atomicbird.com>",
+    "Date": "2011-07-27T17:24:39-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d88fcf2dde1fcee70e59c11bab643f69a89ab125",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-10-03T15:12:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "422e2503d8f3c780e0b4e27a618829ff7ddf2119",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-10-03T15:02:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "639e70e1116e77603ad6535a8ed8b39500eff34a",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-10-03T14:44:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "875726b62488cfc336de956671dffc85757e9a56",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-10-03T14:43:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "437f697728fd4f32df73757804b9da8187168dd6",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-10-01T11:49:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6a54b2e27bd1d728c3d676f7be8e28c707fbf4f",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-10-01T05:07:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "052eac254923ee4a1a98c4c600b0c31aba396aa6",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-30T15:56:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02cffd6381d77ac1f8a1ff054c9f588059ed729d",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-29T00:36:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 111,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aeab078a77bcd0d5a9fb2eb00973b2fc63ea8931",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-27T23:58:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 3,
+        "deletes": 13,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 20,
+        "deletes": 144,
+        "occurrences": 2
+      },
+      "xib": {
+        "inserts": 31,
+        "deletes": 762,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6b7b2d443c930dc719c6b07ffff2eb00f96ca87b",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-27T17:39:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b493dbe1ca6663c3d75419662baa4f132e266d2",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-27T17:28:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 19,
+        "deletes": 15,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "841a3a93cb5180dd7e9b119c5e1c20d8ad9b87fe",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-27T17:15:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 43,
+        "deletes": 16,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f5f6a9fe2965537abfb7cb33fa83c61299a7c5fc",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-27T12:36:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 34,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c16878c9360f5c3412ca9ce2baa49c22dbae4d6b",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-27T12:24:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 151,
+        "deletes": 48,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 74,
+        "deletes": 17,
+        "occurrences": 3
+      },
+      "pch": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "550512dbd42710e55478715945972548628dd50a",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-27T04:06:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2a5999920dd2456f944523327a2395d11575492c",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-26T11:40:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 21,
+        "deletes": 10,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9d78be2d65c904e71a2b4262e5c8c906d350f32",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-26T11:34:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b75e1a7ede1527ab7c89f2395cbc78d64aa618fe",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-26T11:20:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e390a7da90e1526c7751913bacf7e120484b5733",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-26T11:19:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f01197f1acdd2ed0c868243f3dde7635ffe397c",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-26T11:16:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "39237048ae09100799de855c13a1047f2f912c67",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-26T11:14:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33d1099ff73437b426b2417005d48a9db11fbee7",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-09-25T16:14:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "674b014113c3d47264c916c5303191e26a344a61",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-09-25T16:07:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 6,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae64a44e0a7342fd573462c48c07ee0d06e127fe",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-09-25T15:50:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 145,
+        "deletes": 21,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b985b6f59c4a2054c3cc8821e7f27d129b149624",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-24T15:52:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "17d1443bcbcf5e19f45710c7964abbd1c3de66ce",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-24T15:46:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 66,
+        "deletes": 40,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a192f34a5e3a6a53f84addc8b04cff6018557f23",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-24T15:45:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 521,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f47576700476f817090aad67b48b2d535a598ce0",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-24T14:52:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 112,
+        "deletes": 61,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "059eccdd74873c3db989ab7eff579726ec9ca995",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-23T10:29:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 22,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "81e1e73500d7c8c1dbde984b24d5a4d2f9556fc8",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-23T10:28:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 161,
+        "deletes": 88,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 4,
+        "deletes": 58,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "575396e3808b3803d53616a606fa170ef5655bd1",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-22T18:02:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 27,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9b9c1f1f736f57bcda1179a57d73ddd2a4db0daf",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-22T18:01:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 103,
+        "deletes": 107,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 102,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3909d714143ab271fa0c3eeb4d263c63cc359a98",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-22T17:59:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0e34c25f12535b6ea96bab22573de31a656a0575",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-21T13:56:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "798cd1f322bac96111f994ab36a68fe21fbb3055",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-21T13:55:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 17,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d895fc91b828f630e0eb81e0286735f0b3c604c5",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-20T15:20:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 21,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c553cf9546e701d70e5e264f647a42b65dfa89f7",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-19T15:04:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 202,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 73,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 421,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "strings": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xib": {
+        "inserts": 4423,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "plist": {
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "55d9a69821d6ea635f1da02dcf5facef4f850f30",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-19T15:02:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da4fa0456b954563beb963bedefccedf05e41b70",
+    "Author": "J\u00e9r\u00f4me Lebel <jerome@fotonauts.com>",
+    "Date": "2010-09-17T19:41:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92e1b7eac5d89389f137d9bdff695358c43107d7",
+    "Author": "Nick Veys <nickveys@github>",
+    "Date": "2010-07-30T21:16:35-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "plist": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0eb3d0a40c8323664650134917fd4066c7d26a3f",
+    "Author": "Nick Veys <nickveys@github>",
+    "Date": "2010-07-30T21:16:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "plist": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c667df13369cf723d4d33c7084f0907f30c50565",
+    "Author": "Nick Veys <nickveys@github>",
+    "Date": "2010-07-24T13:12:47-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 10,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "763268815586433a50448cdda5c7e540c0fdf08f",
+    "Author": "Nick Veys <nickveys@github>",
+    "Date": "2010-07-24T13:12:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 10,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6c475253baada0ab4d6e17c18c46a8cfd0ce2d0",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-07-17T14:54:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 12,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b58842abd96559f863c36c50c84d3abc008bbbf5",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-06-04T15:07:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd17fca72307ad72960fec730ce65b83b42c09e8",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-06-04T15:05:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "m": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "pbxproj": {
+        "inserts": 21,
+        "deletes": 21,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "96c4ec2518278c277d3d42429757b706528849c4",
+    "Author": "Edward Patel <epatel@Paradox.local>",
+    "Date": "2010-05-29T15:07:38-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 29,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "xib": {
+        "inserts": 124,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 37,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d009e03a893b2e7d5024c7233f506673600697c4",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-05-18T09:34:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f89ee0da8ddb19b1b8dbd802689122d9c6a0d040",
+    "Author": "Edward Patel <epatel@Paradox.local>",
+    "Date": "2010-05-14T11:13:34-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "128192a3ca767621be4197f91b3a5fa867d88c61",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-28T11:25:36-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61bf925ee54677aea49080c03e18b7eac2c76407",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-25T18:16:47-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 23,
+        "deletes": 15,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 56,
+        "deletes": 99,
+        "occurrences": 3
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "pbxproj": {
+        "inserts": 30,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "062bc6b8be9776091ec44193cf03f3edcdf28a81",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-25T17:55:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "pbxproj": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e779eeafb98fb352c39c3272930d5b383bce646",
+    "Author": "Jon Maddox <jon@jonsthoughtsoneverything.com>",
+    "Date": "2010-01-22T14:45:42-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 71,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2012c8cd6dba216ba002d8f4c5df6615eec26d44",
+    "Author": "Jon Maddox <jon@jonsthoughtsoneverything.com>",
+    "Date": "2010-01-22T14:45:42-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 71,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e28e9b3d143fbb99103098fee397365bbdefb23",
+    "Author": "Jon Maddox <jon@jonsthoughtsoneverything.com>",
+    "Date": "2010-01-22T14:45:29-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 10,
+        "deletes": 80,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e4214070be9cc003e03291a69a6211c4bba3fb31",
+    "Author": "Jon Maddox <jon@jonsthoughtsoneverything.com>",
+    "Date": "2010-01-22T14:37:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 164,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "pbxproj": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4eb831c64ac48780b5b18ac9f80db1c0587a72d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-22T08:11:51-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7ee613526dc7e51e0ed79c67983a5dee72a586c6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-21T15:15:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "609126f895891f922532a29105b09a84e0511655",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-19T17:08:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7495,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "in": {
+        "inserts": 441,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "c": {
+        "inserts": 4601,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "guess": {
+        "inserts": 1400,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sub": {
+        "inserts": 1469,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "plist": {
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "srelay": {
+        "inserts": 66,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "8": {
+        "inserts": 225,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "conf": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 448,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "passwd": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c77de4d775354a042fd5fb553a91d18959a59eb9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-19T17:07:55-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "7p3": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a810cb39bbcd5b4c8dc07d979f2ea70db9b6458a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-19T13:18:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "10a445ea05269dc2e6f30a90d9167dc2687e693b",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-19T06:59:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9bb67e959a81c1246f8052fa7622d242593b6e43",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-13T19:00:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pch": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  }
+]

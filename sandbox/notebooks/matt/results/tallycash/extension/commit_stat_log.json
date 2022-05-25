@@ -1,5 +1,210 @@
 [
   {
+    "commit": "d284dae5c4aa7416816a8f51cda116ce01f4c7f7",
+    "Author": "Fred <gasolin@gmail.com>",
+    "Date": "2022-05-20T22:54:48-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "51b9f05a9c56470259c4618ccd83d45fa4fcf399",
+    "Author": "Fred <gasolin@gmail.com>",
+    "Date": "2022-05-20T22:52:31-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f65b75d76092c255d52cef7e67fdb55a244072bd",
+    "Author": "Fred <gasolin@gmail.com>",
+    "Date": "2022-05-20T22:49:41-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 94,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9df76f96a8317f6ea6e0e93f8cabf200f54c3dd",
+    "Author": "Fred <gasolin@gmail.com>",
+    "Date": "2022-05-06T07:39:28-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "03d1eeaa7ba70a7782018ebc808bb8e99d519339",
+    "Author": "Fred <gasolin@gmail.com>",
+    "Date": "2022-05-06T07:32:38-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 153,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "tsx": {
+        "inserts": 25,
+        "deletes": 21,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "00dadef9352a6284da22b863380decfac48fefa8",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-20T05:30:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bea7e58462f3200b15d65179e64bd0a7a5521b5",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-20T06:03:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f9917090b128a846ae4a67349e15b5f8f27ec7d0",
+    "Author": "Jagoda Berry Rybacka <jagoda.rybacka@tally.cash>",
+    "Date": "2022-05-20T04:19:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "51d40877ae1fc0b1f66bb5466f3350c15c70a290",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-19T16:05:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 15,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4bc63992c26d45aa2a8ae439a24f88b39bdfbafa",
+    "Author": "Jagoda Berry Rybacka <jagoda.rybacka@tally.cash>",
+    "Date": "2022-05-19T03:15:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 17,
+        "deletes": 16,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "3ee21d2f9e9219e53d5f7e57d5c47ae7bf1bbcb1",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-18T08:03:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 21,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed302e56084f6a1e938f13c78ddaac4e3f96fb56",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-18T06:06:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4f21adfe12825079f0a17fdebe2f68a5a268d08b",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-18T05:58:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 11,
+        "deletes": 8,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f0ba1b147087c0cd3029edbaf3556b3c2abc1b5d",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-17T13:19:07-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2397d75c42616f76430c444d9cc729950e12d0b3",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-17T08:50:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
     "commit": "fd5c047e21b0ea6147ffa5555f84daaed0e82d90",
     "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
     "Date": "2022-05-17T06:05:49-07:00",
@@ -8,6 +213,115 @@
       "ts": {
         "inserts": 0,
         "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d1608b342ecc148d42f2e572daccf43a6e9df68a",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-16T16:18:27-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 24,
+        "deletes": 109,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34d0f3d591a9b320182d7e4cdf60faed5396949f",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-16T16:17:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 20,
+        "deletes": 42,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe0b30939715eee6b8e705f9fc3d7381f1f82535",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-16T16:15:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 0,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3140977e2b2296ed1c60d09ee2e5fa5eb717e6eb",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-16T16:14:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 211,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3824744c948e7b23f021b422f1d89e1afd2c52c8",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T10:06:42-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 14,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ffffc42fb585f1eaf261d560bc8713af86dc0d83",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T09:13:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fcf4c5c1058ba38a845c74dfe83d5ff40bf597a7",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T09:00:31-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 16,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "010b0e77e0c039ede5d8d0c78b85a0811244354f",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T08:59:43-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 1,
         "occurrences": 1
       }
     }
@@ -39,6 +353,115 @@
     }
   },
   {
+    "commit": "5dd95a93418e433d944228d840a6fcade4ef8b81",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T07:17:55-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 9,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe52a38257be523cd0db02709b029a21ff6be196",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T07:12:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 28,
+        "deletes": 17,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b2400fdcd76f7dc542fa7c403e97f69ff5ad5f9d",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T07:12:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2c94aac72b3a50ce496695170eaecbd5293de17",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T06:54:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "def9a90c854614c48c7d629d60caaff5a4b00ad6",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T06:54:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 17,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4c80342116d40d11b988b4ea6d594dcc92504aa9",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-16T06:32:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a0458dfac2e82a279f43073a29e4afe45b31e6b7",
+    "Author": "Jagoda Berry Rybacka <jagoda.rybacka@tally.cash>",
+    "Date": "2022-05-16T03:48:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 7,
+        "deletes": 8,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a78f84500d69abe34400752b029b729ee7942e61",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-13T12:37:32-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
     "commit": "dceca22598a18df99eafcaa7d5366a13fb0c150d",
     "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
     "Date": "2022-05-13T12:33:15-07:00",
@@ -47,6 +470,19 @@
       "ts": {
         "inserts": 9,
         "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e38e3c0d3537d8d48b4e37335a2f1b4f2eb4b956",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-13T11:55:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
         "occurrences": 1
       }
     }
@@ -70,6 +506,19 @@
     }
   },
   {
+    "commit": "8a8847b105a580f5db12f877bfd3a71c4f7617fe",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-13T11:01:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
     "commit": "06f5287f49fb64f0a179479291c9433df613aec2",
     "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
     "Date": "2022-05-12T17:40:31-07:00",
@@ -79,6 +528,45 @@
         "inserts": 5,
         "deletes": 7,
         "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "6458676dd3c3e3e89901dccd7e6a5fa98bc7b7d7",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-12T13:32:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "034645ff5acf765161300adc571c3ac3f1705937",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-12T13:30:51-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8bae669f4a3523e0c146bc66ad4b2dc47a13845f",
+    "Author": "Antonio Salazar Cardozo <antonio@thesis.co>",
+    "Date": "2022-05-12T09:00:32-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
       }
     }
   },
@@ -101,6 +589,37 @@
     }
   },
   {
+    "commit": "a76c441a2c366ac83e54cc0f28da1ddbe782c8f0",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-11T13:59:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "10d3c387f8c9c6d05ee57fa0e416dd2fdcfbe18f",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-11T13:58:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 3
+      },
+      "tsx": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
     "commit": "ce6b51f45119c27bc6ffc2940e2f0e1f0afc62a9",
     "Author": "Wojciech Turek <wojciech.turek@tally.cash>",
     "Date": "2022-05-11T08:20:02-07:00",
@@ -109,6 +628,19 @@
       "ts": {
         "inserts": 59,
         "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8514afe5da1703b41a2fe8227e47d4d62192cac",
+    "Author": "0xDaedalus <0xDaedalus@users.noreply.github.com>",
+    "Date": "2022-05-11T07:59:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 3,
+        "deletes": 1,
         "occurrences": 1
       }
     }
@@ -146,6 +678,71 @@
         "inserts": 129,
         "deletes": 68,
         "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "73a4e7191b780bf04b27b372e8924a7555a22972",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-10T22:44:51-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9f3cf2b45930db9b7f1beaa02c9e5bb8872bf75",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-10T22:37:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8549c702c37a5a584b9992532fa0a7392ec6ee8f",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-10T22:36:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f8902b7909b90e7a7f029ef9023e3b28104afc7",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-10T22:35:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed38563170972cd4c2680cd29027b8cf1b75c4c9",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-10T22:32:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 2
       }
     }
   },
@@ -224,6 +821,32 @@
         "inserts": 4,
         "deletes": 4,
         "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "68cca7be193fd99093369a962e58b1e10e63d6a2",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-09T18:16:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 19,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e77635ec54e0a03314cdfcd7fa8f606f55aeb18",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-09T18:13:55-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 2
       }
     }
   },
@@ -484,6 +1107,68 @@
       "ts": {
         "inserts": 3,
         "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31bd70a13ae3ef21ea3f9b728a18add4eb168bbd",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-07T00:57:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f4003c4227e1c99beeddb08982de69650d9a30f",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-07T00:56:49-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 343,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47250af8dbfc7aab5b0e27f6650b71935d24f4e6",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-07T00:47:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 77,
+        "deletes": 55,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fa42cf22d35771729e3437e952bf3141e34f744f",
+    "Author": "Henry Boldizsar <henrymb67@gmail.com>",
+    "Date": "2022-05-07T00:46:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 20,
+        "deletes": 6,
         "occurrences": 1
       }
     }

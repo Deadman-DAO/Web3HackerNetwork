@@ -1,0 +1,572 @@
+[
+  {
+    "commit": "31cf10d6b75d7df48d817c9ca307f692fd59a331",
+    "Author": "Mike Taves <mwtoews@gmail.com>",
+    "Date": "2022-05-01T02:48:16-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "Rd": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "eea66929486f52cc65a158ee9061d4341c706b33",
+    "Author": "Mike Taves <mwtoews@gmail.com>",
+    "Date": "2022-04-30T18:47:51-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "R": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c4b4d97c8ff924f4b122e7aec400091165e1e004",
+    "Author": "Mike Taves <mwtoews@gmail.com>",
+    "Date": "2019-02-28T18:52:14-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ad4b632eca0b893522b2317a3f313c517fac799",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-06-06T16:43:26-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1bdfbba4135906c243fc100cb3834e4aab7fdb18",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-06-06T16:39:06-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1cdf9c0acc4b423b9f53d05cda9c3fd183cf5d8",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-06-01T23:44:08-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "37531eb04d571023348fec9c07037ef223d58a9f",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-06-01T23:19:49-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "880d9ca6ad12a969ceb4f837729b76f8be8de2ee",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-06-01T23:18:32-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "Rd": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "bfde5703d9028815c4457d964b30c9e3aad6ec93",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-06-01T23:18:14-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea3821c4ec07cf3c152312a2c6aa15f4ad224256",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-06-01T23:11:38-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "Rd": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "58a0a173e2dcdc2cefa45b06b6ec42fb62a2b1fe",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-06-01T23:10:26-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "Rd": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "90a21f64592b26e58f1ca8e29cfadc160b58191d",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-05-29T01:59:17-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "36125a852e0f6e5abb6316623ce6fc52487fd080",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-05-28T04:12:04-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "Rd": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "09afba8b10a0ea8315f0a967e9cd36b8054b4bb2",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-05-28T03:59:25-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c9fc223fd81c6ead571e09fb53fc206628766ed0",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-05-28T03:55:10-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c3f316f3647eeee423e6271a7c01738d87f4eb2c",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-05-28T01:39:22-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "R": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "97f4562ff8fea4a07504030750a800e4d039d4ac",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-05-27T04:20:29-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9d8bebc27710e9ad41936649bb124ed222f7473a",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-05-27T04:07:41-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "R": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54933a6d599227d9e0b5c421d1ea1af11f91dd33",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-05-27T03:52:03-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "Rd": {
+        "inserts": 35,
+        "deletes": 38,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "cf3fafc8388769f90f6390523b9c6518ea55263d",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2018-05-27T02:45:59-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 186,
+        "deletes": 179,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "4ebcb4a397d35a46a2e74980d741c3ea697861d0",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2015-02-15T16:59:38-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "411477b5d4067ae743b080d8f439849c9b133fa4",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2014-02-26T03:24:24-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "c": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "253bdc0015e7efe4c3b5c0048e68f658e89087a0",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2014-02-26T02:00:41-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "44c8c1d6082079aa05ca432db0fdf744a9cd99c8",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2013-06-21T03:29:41-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 75,
+        "deletes": 63,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7851b4c4bc45c572a5f86298ced8f2fb1371f335",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2013-06-20T23:49:20-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "R": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "Rd": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e39930f7e248c800c31f925f3dfda15c2a79eb8a",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2013-06-20T23:08:29-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 57,
+        "deletes": 34,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "R": {
+        "inserts": 7,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "rda": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "Rd": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e04c8499ad3157ff11f172838cf4616919bcd7c",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2013-06-20T01:32:30-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47b7e1531cba1560a7a3e765d92929b94c0a0c25",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2013-06-20T01:24:54-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 7,
+        "occurrences": 7
+      },
+      "rst": {
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "R": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 28
+      },
+      "rda": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "DLY": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "OUT": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "dat": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "st": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "Rd": {
+        "inserts": 8,
+        "deletes": 5,
+        "occurrences": 31
+      },
+      "gmo": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "po": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a942a0ad81a2d65df57811e0b43a974590e6c5a0",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2013-01-08T04:55:26-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 19,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "R": {
+        "inserts": 2470,
+        "deletes": 2487,
+        "occurrences": 28
+      },
+      "Rd": {
+        "inserts": 138,
+        "deletes": 209,
+        "occurrences": 27
+      }
+    }
+  },
+  {
+    "commit": "68df56e7c6d5ee22ac7090f71f5b00a1c37275c0",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2013-01-03T07:37:41-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 35,
+        "deletes": 22,
+        "occurrences": 7
+      },
+      "R": {
+        "inserts": 687,
+        "deletes": 688,
+        "occurrences": 10
+      },
+      "rda": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "DLY": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "OUT": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "dat": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "st": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "Rd": {
+        "inserts": 824,
+        "deletes": 831,
+        "occurrences": 31
+      },
+      "c": {
+        "inserts": 30,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    }
+  }
+]

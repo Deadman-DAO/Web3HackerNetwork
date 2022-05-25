@@ -1,0 +1,4459 @@
+[
+  {
+    "commit": "b8b47a38bbc899db89863242742f8dcdfbb6f12c",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2021-04-19T17:30:10-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c16304338f3755d20842c93dc7e275202d36a5c",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2021-04-19T17:27:52-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 26,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0de86a90c08d619d90828a93cfd139a79c74d092",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2021-04-19T17:24:19-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d074d2dedb67bbcd75807b7bd2e3858a291ed714",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2021-04-19T17:08:19-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 6,
+        "deletes": 53,
+        "occurrences": 4
+      },
+      "md": {
+        "inserts": 5,
+        "deletes": 88,
+        "occurrences": 3
+      },
+      "xml": {
+        "inserts": 0,
+        "deletes": 26,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 219
+      },
+      "textile": {
+        "inserts": 2,
+        "deletes": 176,
+        "occurrences": 4
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 2863,
+        "occurrences": 72
+      }
+    }
+  },
+  {
+    "commit": "cda8d29bc51e5ddda065b0102b19d5a9ee9bc7d6",
+    "Author": "Julian Y <jyap808@users.noreply.github.com>",
+    "Date": "2018-09-27T15:02:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33d73e28b4e30e6a629858bd2df31b53aae96315",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2017-03-05T14:18:35-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c539f8ad022ca42dab4e6aeb64a76586231d4266",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2016-09-14T14:15:37-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e8bb9105de1dae5ff3ff5436ae0fcea22989b663",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2016-03-03T03:17:57-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 100
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6cce314ab9043c31a2f0e9344339827ff43c1689",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2016-03-03T02:58:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 115,
+        "deletes": 115,
+        "occurrences": 78
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "ac0c224ad67d4cd5c95b8fbf35a9fb8caf3dad66",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2016-03-03T02:47:38-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 0,
+        "deletes": 25,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "633ffce72369d0f2dd9d0b8a0aa0cf2ed528d6a2",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2016-03-02T22:41:59-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f5c267fbba0d43078f0a18541149661ab7947125",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-12-30T12:07:45-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "72817db49fdd2ad0f66be62f2b638f1ecef23a14",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-12-30T12:07:18-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20c1daa17384228983515b60b448f49ecd81649f",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-12-06T13:23:28-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c84a00c6c4b1814757bd6a583e7ad936c3994dca",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-12-06T13:11:26-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9c2d2ce7469eac6f45ea2a3e4be9ed426f3ebff",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-11-26T15:05:24-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d9dd819126b7b637c4480674c359a333ce84d125",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-11-07T12:49:06-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dc491907f8c08811ccebe15bb15329b228e49e60",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-11-07T12:43:37-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8718b2b70119082e748f1198a4f60cb2796d44b",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-04-08T18:18:51-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2d2fccfed0d3c26164aac6c1c2278cbf2fb7d6f1",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-04-08T18:16:51-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "51d9091a4285eb52c7b3fab704aad6bfa131279b",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-03-21T19:28:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ccf84d17f63fdcf235a1511c37b041069e6e2f06",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2015-02-11T02:29:53-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "260288968c6983a0faa8248ac357bededdcccce4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-12-14T11:41:30-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bf2055fec7a35e92e276ceaded441d53c0deb10",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-10-25T01:18:01-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06b52c959bb00bda58b63a04e6a344f7381f86d5",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-10-23T13:13:08-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb2b7a6549a5cc56fd64b1bfd728335cb9ae2603",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-10-18T05:23:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a1935c8830ea71b4a49c291b856f19cedf97fdbe",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-10-04T20:17:34-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7a9b234bbe023a15ce685d26d20e15a2c3cc30d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-09-12T01:10:49-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "00377f3c55693f4aab332f80df69aae7715b73ec",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-09-12T01:08:46-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce0d338f49cd0e70c69c185a42c00aa91ff4d530",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-09-12T01:06:22-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02057cc57e070fa27bdcf2302a9bdb908431d64c",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-29T19:28:58-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5ea1d0e2d2aa5f4447880752e9fc5fb18de79625",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-09T12:49:13-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47184fa1849243dd00dd627053a0f41d4593cc76",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-04T17:47:59-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e3c1f7b2d7f8458a8a9c21cdf3549c166c857e4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T19:26:56-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "93ff99608a4c7ff4d207730d281f718fd62055a4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T18:56:27-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29f37d802e5e5e2002987bf9bf492e397a694f38",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T18:53:01-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4b41a859d5247b22e7132bfb48bd0603cb26935b",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T18:51:04-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "898fe36ee6510e806d6f3b8742ff3a4d89aa673e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T14:42:53-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "textile": {
+        "inserts": 26,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3b72784c399d036d903dfa4b7c9eb394d3cee68c",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T02:42:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba36dc49303383ff3dcb255e31e4f20a5353d4c1",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T02:41:23-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2b908b745496c2ff687c6027f1b230c01a3228b2",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T02:38:43-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "67a270f6486b37605755ec7b7e0bb0d85e7c0a35",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T02:16:58-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1486bd5b7cd7c57ca3571dd2757ff8f7cdda9b54",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T02:09:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 12,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "72eebca7ae516ef7b23d6a07da837b2f5fcb8278",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T01:56:28-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "45b2908856b42a60d15d910c2d38068c9c42d939",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-03T01:48:18-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 72,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5af3bf4e00b1a565ec38b69402f5f023a2d4059",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-02T17:15:45-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e05f8358d36bbab74d998d2897b9c91b0dab3004",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-02T16:46:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7703ecfbf88edd73422f9a849908dee18353f1cc",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-07-02T16:43:59-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca06b8a627030ecb1e24ddc5235d58d73c6f40e1",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-06-24T03:08:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "638be0772bf1c0b69c83c36e867559d6bd0b3e36",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2014-05-27T02:11:41-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 27,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9113a1a6c38dd8849a46c29b97f01b989149b5c8",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-12-18T01:48:02-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7f74a0580d869f4eb1af74a2bbdcd36d66a099ce",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-15T03:00:19-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 11,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c46844d84a02c21de63d6f2655f0e66c194d7fb",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-13T02:39:57-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6183574df47a80bc678ac944d7f17a2f74f452a0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-12T03:42:44-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f81aea8bf46e230f52fc2666618f7ff6c457464e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-11T01:59:13-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6426ee5b648a8cf14081fff7fdc20439f0a4f9d1",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-11T01:33:54-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 10,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "24ead53cc708cb5df3766bba3c649cced87c2d7c",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-11T01:33:43-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 887,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 216
+      },
+      "svg": {
+        "inserts": 2863,
+        "deletes": 0,
+        "occurrences": 72
+      }
+    }
+  },
+  {
+    "commit": "bae26153e7f0679edf65a83760b4a3f7f72822ff",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-10T23:37:20-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dfd03236022877e73347664d42d152e68603a4fa",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-10T23:16:05-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "289d04051bb5c68645c10ed7a64783046527a7a5",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-10T23:15:30-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "11445fbb69222609b3e306e5dadc04f472ec21e7",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-10T23:02:41-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "60f52e37ef162ab2d7273d37af050253eb5e3718",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-09T15:01:53-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3fd188ebdfda416d7b917a255fc12fc3de509702",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-09T04:35:25-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dcfec6a5161c04a0d46c5369beaba6f3c4e96dcd",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-09T04:30:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fc07916b3fbd2f1b30ac46820300816be7c6aefb",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-09T04:20:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 93,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 68,
+        "deletes": 61,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f70f8ccbc2e50376135bc0d41f5b2240f8a7f59d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-09T02:10:12-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "811156596738435cff93a44bf7423f3987e3449d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-10-09T01:55:47-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e2b5afcc988d42d70902c312b04eeb2b3923ecd",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-09-24T03:47:47-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 10,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dde5b0075132dd748036cd4cab9b71d8e26c0089",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-09-24T02:56:29-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f14c9f8c067ffbfbcdb4593c54a55b184ac53ef7",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-09-24T02:54:08-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0e65d4e3ac4f0350065bfffcb33988cf6adfd1b4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-09-24T02:37:16-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 90,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f07af849c93f97c5b5b2deca678debb74cd2fcd9",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-08-20T18:52:51-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9b62690650c78e1bc4447d081f5ba5adc98da937",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-08-16T14:42:12-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f7447869c10b1b5e68325a421cc603c0cbe543e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-08-11T23:55:45-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c28e421be64f90423c54ba8e175acfbd176be808",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-07-09T17:37:33-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2cc2fc09b66e3d5ad8e13b544f603c998e33a9e0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-03-27T01:05:43-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3262c24dc3e6deab2dc5d88c625c0a3fb5e24f54",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-03-27T00:56:18-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 73,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a23885f0718efdabdb3357917f96375b33ba9f7a",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-03-23T19:55:55-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1ab555b15946a67128fc8b9d424c58d5bbf0ee34",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-03-12T20:50:44-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e6d1879fd870daeeb21bf38ee278fba8e76d4832",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-02-21T02:28:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8d6dd9649a8332454cf847ad326f7a2159b5a4f1",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2013-01-19T05:49:06-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "91e7557dc3b89c89b9cb59d4204d6de421ca56a0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-08-11T14:59:29-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b20d0116aec30e125614888d80e9895c1b71e4c8",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-08-11T14:56:00-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 0,
+        "deletes": 51,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b686b4b4cb15f82c8ae94b72f9e6e98a28b87d45",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-06-25T01:15:23-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 5,
+        "deletes": 79,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "28e05767e12514706ec95a3922e8ed964bcd9013",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-06-25T01:01:01-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 258,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c78e455a5d8c624371cb4213c50dac8db4d7894",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-06-11T23:20:03-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "00581ea5ea7597f9efb087ade3f936c9a1347201",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-06-11T23:10:34-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f5ed1b7be671fd56c43c23eecbe382ef6fb9e8be",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-05-22T04:06:37-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6094a23e0a4dc1f9f986510ab9644f785c7a2a9",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-30T14:32:39-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9f4d7e20f3d741287e57e92c82dcada1d9e3c717",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-12T15:57:55-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e5806407a266d3588e6be3266fd894400659a9c4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-12T14:10:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c746ff68505f8b6a705d6fc6e001e02c154607b4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-12T12:47:38-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "28cb3a05974eae97433c91761811175165f73960",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-12T12:32:22-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3206f846e726914c4c1fd810e561b8882702d452",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-06T17:41:23-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "911ccf6a75c59d60c2659490129c34acf007a487",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-06T17:23:04-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8351f38735d90ed54227f4768c61d18c2dd05aee",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-06T17:13:26-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0fb46669f204d147ca4a6d34476cd1a4638a8d7",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-01T21:31:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e79ef5b9642bd2c290aa1b971731c48aa9d60576",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-01T21:25:25-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "655067e8e6a31b0602060a7671ae29338fc71687",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-01T20:12:09-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "671fb6e0aed8ca0693684ce903596b4afb42a3bc",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-03-01T12:15:56-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8fa97620769d4db53f9baa427811b2d755e13450",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-27T17:37:36-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e4e150e29c2f1dad33fbf6083c43e404e4bb92ec",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-26T02:39:37-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b293d659244df3b369cf51e3130b9c27a11ebef9",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-26T02:02:22-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f524982931739a3d7a812af8c7e71e0c5a4abfbe",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-26T01:31:47-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5efd0f4450e0d40d97d2b8c91403c9e64f62006a",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-25T05:39:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d880f9af0319b98ae1841d2da9b75bc2dcb5d26b",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-23T04:38:46-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f6e5ddb7be8f84165991329483347a44d60b09a3",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-22T13:50:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d3401aa3a539cde3274470e522e2a3967d0e876",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-21T03:46:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be43a5728c1aea1f2cda17808bd5572df29cdae8",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-19T02:24:27-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "baa6f2776e36e3ceb9c959fc7bee331044378404",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-17T13:05:04-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b3ebe1f4ecf3ff16db146c98905f04e783c9e5d9",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-17T03:13:05-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "956ab9d4ac013af394f55cbdb2a4724c7f031496",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-15T20:10:33-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a59952eb663f56f623440b595cfcd20fed44c291",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-15T12:23:50-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9afdbcc4751f1ab0a75b4807e5b8529cbbe431be",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-13T19:54:30-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a921c32bee62d81d411c7b677c9c74d9e07dfdb",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-13T19:49:49-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "46592fd6b7665e8dbedb62a60554d0922f889d6a",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-10T14:45:09-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf1957d243ddaf1772c105e92917756fb286ca6c",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-10T03:03:35-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ee9ead126c08fe56cc3a446ac3d8d557270feaf9",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-08T03:54:27-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "421af48c1d5fbf3f5e4ac67e80944ce27eec74d6",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-08T03:51:52-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "992e01e13e4ae1ed1206634d6155213b033f5fcf",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-08T03:05:29-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 65,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "195a8c6ed3509012cefb976c6c15506efc1b3bc4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-07T04:31:05-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fa9805b35959527d54ee06e29e3df9bf4ea34ef8",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-07T03:44:39-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a38cddb2604e24a82291cd2494e4f84190bae4da",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-07T03:32:06-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 13,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6259d5de34e7bf88d69c384d5e13e0954809d22",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-06T19:37:29-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6832ffeafff3aade5d8da67d820e21c953517e62",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-06T04:06:10-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f867a24f755195bf88cbda4562fad1eb2f346fc7",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-06T03:59:20-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 22,
+        "deletes": 23,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 778,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "4bed266060d010ef1f75187441bc6225eb0a5310",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-04T03:33:36-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 17,
+        "deletes": 22,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "153f273867731e3ba457512c932d8fdad8a3041f",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-03T13:56:38-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8a13dccb4629a89250e284ba6213fc832b02867",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-03T04:46:03-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 7,
+        "deletes": 19,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 39,
+        "deletes": 11,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "5435d223043baacdb370e746649d0bb5393e447e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-03T03:22:32-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "73f3bc56d4bf5e01750d872d3c0e6434622d9ab7",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-02T16:09:33-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e8ca7592bf7779b13c041a0f246ade9dbe4698af",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-02T15:41:11-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2086f01f25531128adc9f5db6315656187db97c7",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-02T14:57:43-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9c9386cb31c5296a43746dc232c7a7027c02c3bc",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-02T03:40:40-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b3c4a3409aaef48ce70032427819d10a7144887d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-02T02:27:36-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "222f771814cf8147ecdd521ac3af01f64ffba8e3",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-02T01:36:11-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f17bb44cbcb2d5bd84f3b684b16ec179ec15a48",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-02T00:37:32-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "351459cb898d837d30d9cda9dac56bf7560853ad",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-01T03:47:41-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c0b53a78d7a5dd82ec7abe2468b7220dda2ff69a",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-01T03:23:51-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dfef863c9f9fe81cedd72e017a4a4c7cb3a21226",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-01T03:00:54-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "86662802eed509a72c059fef942dfb6225c40917",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-02-01T02:38:27-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2693e88b786a88c4cc5309630a9fe07780e11d11",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-31T03:54:14-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "90bda366560e5584d643d29b5e20a69e4cef4ba3",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-31T02:28:59-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4dbcc6f2e3307dfaa4698295b1e2b0b26f7b1e51",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-31T00:08:47-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "44f9fd0a85ff2bf323878d1a45585ba0993e3db6",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-31T00:05:39-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c146d655e6538df1ca87124e0af4932b36f15472",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-30T19:02:08-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "18b484d6f18701ca0910ca1ab5b259df71aa8d03",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-30T03:23:59-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3dc6a0a901b1124525cc6f5f14d6a3f04389155c",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-29T04:36:01-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba6d8a086acfb85c8d23a4eabac42837924ee1e1",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-27T14:15:26-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eded95f3f23f79a45f1e61d068b1ab73372a7115",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-26T16:57:22-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f1cfcc40f70f026844338e62c0de2980f48b6b0d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-26T06:03:10-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae78fa790dcf5d7a6f28181c8649754c1e126b01",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-26T06:02:14-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "37d2674c4eec3636aeece441a683ad4484a1ae80",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-25T17:47:05-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1008d46a77c8f3458db8b756b837d55888200b6b",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-25T17:42:29-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a1869168a4653754edbdf14b05393ab3883407e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-25T12:48:49-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae3b8f3c0de9790082533ae09f841085ceac3761",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-25T12:40:40-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "35024c9d2199620b07d5e5fd307a262e1a186365",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-25T03:19:31-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "68c479c1172b8d4cb8e4ad8274c66ceada248104",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-25T03:17:37-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "032117b3311c5b45d0a8b6d20a1072f6883d2c41",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-24T22:27:57-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d15bd65a21733623edc5bf7cdead351cbd0f8b8c",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-24T22:25:00-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "668e5e0e5c3a756235ba07f7d8baecc722e86683",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-24T22:23:32-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7f5901d8d2d0468897bf5554a95c46bb5eabdcdd",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-24T18:11:39-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3621abccb7a8a4b3e3c5d869dbba36a93a63d558",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-23T17:14:58-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "635568011483eac0bb308491f9e56c5890141e3a",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-22T04:19:22-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5784006f80df97e009465a3410a97df952d33e1d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-21T14:20:49-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8aa9d75e6011cb9cd6b57091a0553fe562180188",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-20T18:50:22-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7508bb7511077d6fbfb074ec70e54cb73f47c264",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-20T18:48:44-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48bd2cf93c33c953b5dc8e0e61d972b221891c50",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-20T12:23:54-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0999f4802568985cd926d8919f70399c07188ece",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-20T12:23:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c4172a346458f31b52a17e4b79d5b3d42be87a2",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-20T12:13:49-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9039798e60a98f61f5fac0bf29915b404c9fe3b7",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-20T12:11:01-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f2e327b7aaba98fafbbdd11530200f2963b585e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-20T01:28:29-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c2aa9eabc3994df3531a4fb3c64c52ec5143a8b",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-19T18:03:24-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ddd5ceab14551d4bfb597e0648f37d08cba7cce6",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-19T17:05:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe4ca76a884762c52658a26d529d4f8f1ae0cba3",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-18T15:24:54-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2090f579b79cfbe33d0558f2583fb4326546391e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-18T04:33:43-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 27,
+        "deletes": 25,
+        "occurrences": 1
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b3254311fe4507361911810ee8aedba3588f2805",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-17T04:00:24-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "textile": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "adb9527554abe6348c2a31c51316b581c0a5bda0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-16T01:57:11-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e7845decd82d38bc3c7a6ba6837970e6711565bd",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-13T13:25:03-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "44c56656978f24fe6758844ab11698be9f03ba11",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-12T15:29:43-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c26338eceaf6f396a76d4bbdf38c9b4838d2ed14",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-12T14:53:36-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba839a9d49e2b584edab1a2463d80b28432c7cdc",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-12T14:51:57-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "49ecd6f3ba4db3b182ddbb744389dda677bd7078",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-12T11:59:33-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fec5c2aa4c4c159069870f10b6d568019728e9c5",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-12T11:57:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "155097f51f4d0f98a25ce572b6b6329b6e51be42",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-12T08:31:12-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "52adf270e27701dcd1126981208b05b691778d0f",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-11T20:04:51-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a787b5125aafecd066d8373d6bdadec4464bf48f",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-11T04:08:07-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d648fc894d1289a871f4e6a598d351645d1d4d92",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-11T03:09:59-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "974f913c502da7a03b6df2c1c70b242fb1000976",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-10T17:09:01-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 13,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 10,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b947484de0e5dafa2d79b286b3076ce6d109644",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-10T01:48:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f7466058ca46d344bcbd604ee9f615b8a5f8c0fd",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-09T23:21:49-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "41dd5fa5be7d3d2bd43a5644e7ed4d7985cc2d03",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-09T20:04:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8afb92faae09a9fba55933ee1ec0649e796c2cb1",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-06T13:13:59-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e21d91e7a34370a6da870eaa57eed10951eb40e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-06T03:00:14-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a037f801d415e091264cbf7a34e5dd096fcede42",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-06T02:55:29-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d28d5aef49130398caf561d47be3b30e51307ee9",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-05T13:26:06-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 54,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ee9dd6d5001979e084abca5e5d63cbdd57b20622",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-05T06:00:13-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cec00a4b9c65cc5b1278f7459d58dffda55c3c59",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-04T15:14:10-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "efcda2b1999654c765895239349a315190fd24a6",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-04T14:41:32-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8649af8064396bc64e51cc7749301644cafb74fa",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-04T14:06:23-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eee4f764e7c5f3ab315fcba092ca626e66e0de74",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-03T17:02:34-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f4ef37f981deec8a4c99c2b80b1249be012fda51",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-03T14:20:09-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af5431ac5f213f51b46f36d5df9d8e7783518602",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-03T14:19:01-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6a203583f84f4982be9ee266d3c748532e58e9e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-02T04:18:52-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a80aed8da5a3020bad67f9cb484291d21bc53d0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2012-01-02T04:17:24-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a7b5c27ae7a2f3640bde1e5cfce0f0cea9028a1",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-31T21:31:23-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "340324d68e79518195b2828c041ec52231c68eee",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-30T19:00:13-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "85654076a528f1f14592a323cfcbf0938d4d8551",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-30T18:16:10-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 18,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1928da9241e15dba74a466a3ed5d90efaa372760",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-30T18:02:11-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9198ca32afd20b8035444fe73e94e6d28627ec30",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-30T17:57:30-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "textile": {
+        "inserts": 26,
+        "deletes": 66,
+        "occurrences": 33
+      }
+    }
+  },
+  {
+    "commit": "18af957887221e05c2c2b4e87f3b39d11ea4c11d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-29T03:53:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f71fb52d12053b47974729c6b55754f7cafa1d72",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-28T18:24:14-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d976cbce56c3791b7a38c7843397b6031e71207f",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-28T18:18:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c3723e1eff67c9c152c6c9aad88a8a1b5b66cd86",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-28T14:59:26-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b48b570261a3c4f039efbd6892b2653985a6634d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-28T13:53:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 50,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f5a83cfcf87e1184e90b9536cc3d4fbc44a5a09d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-27T16:43:46-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "38a0486c268878cf59b6bdf8913d5e9a936aff08",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-25T12:06:59-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dc2c407186183388b7fc6535884ed9585873c7c8",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-23T13:41:00-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "afd5cb20d9af185894c0e0005cab388d5ab96323",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-23T13:06:56-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c9ce6987d1c5a375cfec6c847468049a9a1bb8e3",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-23T03:39:40-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "db7cebd8cb506106f01f814f9867e58ca1ad15d0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-22T03:29:02-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 9,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f4ed0b1637c115b959064867dbeac64b1cd9fd63",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-22T01:00:30-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "textile": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4ac36f47761db39be58980e2855e506c0b769869",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-21T20:09:23-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92dd46e0298966039074a402d8a8f4e9e3f51b46",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-20T17:13:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 13,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2f1679113e613dae6a8de8057fa36f062b3bd8b0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-20T17:01:12-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 15,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "3c68f0decd85ca588c8ddfdd5f94a1aa6654725e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-20T15:06:24-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5b9d6a3fb0026b92ebca4fbe30ce99ebbfb33154",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-20T15:01:53-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4fcd641f6fa1d812721430c0e2b4ac3b1c27f511",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-20T14:03:06-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78a33cf83e8e6fcbf284cf6c8d096eb7c24a8ed4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-20T03:59:20-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0dab465c3076f771926b5605659527ea01639acc",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-19T15:23:00-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e6275846f6ee4b22b133565a13c61abe54dffef",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-19T13:23:55-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e64ce7e667d6de6d95c0c49dac67ba830e9ae6d2",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-18T18:27:02-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3f6096e2a3f5470a1130698d141ad9de8e5a68be",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-18T02:03:55-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fbea9783e41d7cbdbf87d8224f36d8a7a3fbd2f0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-16T19:59:30-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1bc0c2c9925b8442b7d135f5acb41b07fd2d12c4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-15T05:28:04-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dcf97d969f56bc23a598367fbd3fbc8a3b266ace",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-15T05:23:50-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 42,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "88ddfecff1f9f5a5cb4f545a2aaea4b25041282b",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-14T13:15:40-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "926ede7591715aa2f4ee5b3dfc0913d43293d351",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-14T13:03:51-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13f62b5bdd97b2ffcfb8145b87c7dc5be950bced",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-13T13:52:24-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "37f7fd880e89c0950bd184f0bd4f7abf86dbe9d6",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-13T13:04:06-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebfd86bf3b75d7bb80742f8df1eec15298a31ce9",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-13T04:05:40-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "215b6c4e21b79456c4648dc3e509f333f1de20b9",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-13T00:14:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54c82b74897d25aa75d1238747df305ef2b6f744",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-12T19:30:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a18e06dbbef33e022b688eca36eb4868daeba60",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-12T02:00:31-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 24,
+        "deletes": 20,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2da7d8a3ecaf207922ce1b0265a99d68ee2d1225",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-12T01:54:18-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0e5269b93078f0116ffd085471f06634a217d049",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-12T01:33:06-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "52ed925d679bac39069f63f9f1142dd8624b324f",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-11T04:32:09-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bc2cfd0ea0d27773fa2f6e16578fef9d771fe8c4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-11T03:19:30-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "86c21d4e3b5312f27489791b986cae1f3296ba1d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-11T02:51:05-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f8650d8249c03c5e72aa457dd96f8b3a946cb031",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-11T02:45:23-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d0a10ddc9b056e6b87dfdbdf210163cb48df59b",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-11T02:30:50-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "400d30ee9b017754588fbe53259a59cff23c71a8",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-11T01:57:00-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 45,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "487bb13ffbeab976dc779bc6490ca66aaa8f5abf",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-10T04:03:01-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "07e8cbce339bfb002f24f32043a0a3f5d5c4c32b",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-10T02:39:12-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "textile": {
+        "inserts": 0,
+        "deletes": 27,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 42,
+        "deletes": 41,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1676cea54e62a9bd52ac3bb6c096b599d2c6d01",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-09T22:37:27-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3ee1d3b1fa097f6e8369231aa451d62aa54e44b4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-09T22:10:38-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "367d5c4ec5ac8d03aac918ddd6b1fb8b3e1d8b23",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-09T18:20:08-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 58,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "24757a8766b52e22b99dcad34cb7a0165b5d4399",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-09T17:09:37-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02118d4b2f2bf4915cee502d19482622daa3ee37",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-09T14:16:52-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "81e70497e33a51538afc29119f02dac4c79bbcbd",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-09T14:15:57-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df2847fdc1788d369e283592f772657a67afe392",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-09T14:08:04-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "textile": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f43ce2456fb3b3f860d91feff51e493625d0489",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-09T12:59:05-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a036048ab0ce2f72acdafc75afbbabcf00caab6e",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-08T04:01:15-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "564e3fe16083e056fb60fdd9724861a93b5e078a",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-08T03:59:24-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c033a385deb20a98cd586da6eced7006a10fdca1",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-08T03:50:35-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1ea147ace13407d91b25fd206abd8698bdf81a43",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-08T02:11:29-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ca45b9f2ee0ca8a22ae83332393bd2026f1b379",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-08T02:10:33-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa2306a21258ed85cfacf776f1e3185fff1dd896",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-08T02:05:37-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3776248bc951e4f936fe74f0ca4da247047cc49f",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-08T02:03:27-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "62e171d5df23753fe75405dfc9fa59495dbeb9ee",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-07T17:37:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19ea5bb27abf638dc2b2d9cf9eb24cc156ca10ea",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-07T14:20:31-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6dfa08ff4ea5d67954f4731dd9aa4340fdda7e28",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-07T14:03:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "665bee3be897ae8f876a4bec1e3162bcd02b1a09",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-07T13:12:21-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be442b832a0153a7a04840f3db77d92424b5fa72",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-06T23:24:17-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5db303ac9de0f88e504cafefcffcab85ee918387",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-06T17:03:09-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 0,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ad3a83ba91af4e4ced890dfb8fba441f7ff3367",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-06T16:57:00-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21da70ea0d87ae9a87d206316eeefef758cc7f1d",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-06T16:14:49-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "98bb61801caa096c7766bfec15a17d2b8dd41a26",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-05T17:52:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1d673af251170f910a4f85a738411309f1e5fca0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-05T17:32:19-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "textile": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "90eb2766124a44bc98786dfaf54ac16b7a8bddef",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-05T15:58:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "37052c5935c874a71d4ab255b2e823a1c530a568",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-05T14:39:27-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a343007d14509e1cad41668ba50058afc80ca8b4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-05T14:35:44-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "abc8630fcd014362e556428fd4fcbaf00391f1de",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-05T03:09:42-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02b7181c12b6c97b73be34dde77bb1306e4f87bd",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-05T03:04:10-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "textile": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e51f6da881ccc1ec220f0a893fb36f27f2e465ba",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-03T03:10:35-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f7104ee603b59924dcc26cf2e50422f0047f0a29",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-03T03:00:29-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9d1ea0d88d8221cd6f0f48c96544540802dbce43",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-02T18:32:10-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8bfc09dd13a2f8fe622fcf2440533d3f8092a2a",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-02T17:59:05-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c0fffe1a2a90ce3ababab15074292d6210cccd26",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-02T17:58:53-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ffc388f50fc2e84a245be86b82e32127c2355fdc",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-02T01:22:28-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c06e5a392d05ad876584dd0eb2ce7ffd9cbe5b6c",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-02T01:20:19-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 35,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d617da317a414829acad5c23e96833d9ab7ebddf",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-02T00:41:26-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d262589f41b7192f3826bdac8e45d05c80202959",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-01T20:03:57-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ce3a059e4a9c2c6cca6eb19fc0a7760ff51d372",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-01T19:43:02-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "textile": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b277a48bc764ad023009f260c4fceca99c8a48e3",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-01T18:20:20-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "737e41c84062f0d1fb447546d354724b64a759c7",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-01T16:59:46-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4886296ddc61a7cc6298037a625901464a088fa0",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-01T16:56:07-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33a5ae4be03b4d8c30205532afcd5c42cfd0b530",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-12-01T16:52:58-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 19,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "629f7dfed9fc09add0a53aa71bdb504779866fff",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-10-13T19:04:47-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "71e890de27e707e90d5ed6acb03c9aee403d5eae",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-10-13T18:57:09-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d42eb5c92ae027e021973205074e08d179323dcf",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-10-13T18:32:55-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "74278d99bf212fb0d42190e6a1e168de2959edc8",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-10-13T18:30:35-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 29,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6285c0d84196275042d7676f8faa3bc2a6cb5c46",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-10-13T04:27:56-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "10a02610ab8ff645c47e008de0e6524d4eb03538",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-10-11T17:42:56-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d3ebd8a2b874765c1f2b303320d4576c67c52633",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-10-11T17:40:44-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "textile": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9b12e9cac9dd206b9154b19f1911c2f5c3329109",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-10-11T17:15:50-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f8af13b22a98dd334a1d279f3873e8b744c93a5",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-10-01T06:58:00-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "html": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f60bbe923bca1ce4b8811f2e737f64cee707d53",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-09-30T18:51:36-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "textile": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b34527a37d4c4272adc93e54454521c3a2d854a4",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-09-30T18:36:15-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "textile": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "068586540178b97c01c6b130eb6bf177731054ea",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-09-30T18:12:48-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9763e53933f1056b46d6ab352e04d8d0831cda7",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-08-19T04:26:14-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "textile": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "64a1cfe93f8dff8666c922df828493c8fcd75b74",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-08-19T04:08:31-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cfa655fd9bc8bd9b5c740cdc350639684f2c1a28",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-08-19T04:06:16-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 77,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "xml": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 257,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "abcc1c01a5ef9cb299424a67fb1e0c810223dbe2",
+    "Author": "Julian Yap <julianokyap@gmail.com>",
+    "Date": "2011-08-18T19:44:13-07:00",
+    "orig_timezone": "UTC-10:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]

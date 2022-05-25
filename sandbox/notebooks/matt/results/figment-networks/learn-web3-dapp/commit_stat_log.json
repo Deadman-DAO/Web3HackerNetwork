@@ -1,5 +1,36 @@
 [
   {
+    "commit": "8632551ef82bcb2056154e9541550c1d2b7ddcbd",
+    "Author": "Rogan X <rogan@figment.io>",
+    "Date": "2022-05-20T11:26:47-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c63cae8bacb3e80659353ff5e7423c3223beaf3a",
+    "Author": "Rogan X <rogan@figment.io>",
+    "Date": "2022-05-19T22:28:08-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
     "commit": "bfa91fbdd2790e04dc61ef23d48de969c74d2a96",
     "Author": "Enyel Sequeira <50872387+enyelsequeira@users.noreply.github.com>",
     "Date": "2022-05-08T17:47:04-07:00",

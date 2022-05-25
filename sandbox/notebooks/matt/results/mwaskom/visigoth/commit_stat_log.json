@@ -1,0 +1,4433 @@
+[
+  {
+    "commit": "29e59f7b0a0cc7d9ae2ad52e492d1786ee563a34",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-28T12:17:03-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "57d6cf0d93df5e03baa3208499fdc08a8c184e09",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-28T12:15:36-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 52,
+        "deletes": 53,
+        "occurrences": 4
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d13e23fb82ba628c2091dcda600a5e4fe5b4085",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-28T11:58:19-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 23,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fd4f610bdb8b66c6cffabfee88482887e604f14e",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-28T10:05:40-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e9a54a324b7460f2e7b579a363cccb9c685fe2f9",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-21T11:11:43-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a6324873c5a1cf7ed3b518afb815ab271e49a36b",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-21T10:13:56-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d94166b6b13113f6ca36ec70c9f639e650b7d7d6",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-21T10:08:19-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 88,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e00d14f72f2e483c5723ccb14567a54d4ae476a",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-21T09:20:45-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "46ac119f8796c0713be2be74ee5ffcea4f990458",
+    "Author": "Michael Waskom <mwaskom@users.noreply.github.com>",
+    "Date": "2021-05-21T08:41:55-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d068daf7d2714ffb99a3c85418eae2802925e4e",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-21T08:30:13-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 10,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e96618f2f1c349a3520d5f7d5a4571546b991e5",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-20T15:58:53-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3a32849084d5aee7598d0eff9a2f7bf48b3a5b46",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-20T13:44:29-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7191124d69e7ff8845e84283af678b8ee3e7b7c7",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-20T13:37:56-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 43,
+        "deletes": 39,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e7ac260b2e713f3515a9000c45cfcdd2070c6202",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-20T13:20:23-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "72289e1a9c5af20d92af752d718e6d4dea7b8c73",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-20T13:18:05-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5202220f6bb6ee77f1f19b48be1500755f660c3a",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-20T13:16:07-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "342d2094b49cfb503eb504aed9f93978f1020941",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-20T13:16:01-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d1a51da10ecd951320d00cfbd489f87d1843008a",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-20T13:04:16-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "cc9b3c1b01b504137740ccb203be2c710623bf0e",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2021-05-20T12:52:15-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 26,
+        "deletes": 46,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "1fcee36a1edb3e8d07dea0741a99b0064632f463",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-07-11T08:49:42-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ebae4d01b131207571ed37e68189f50dc975fec",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-06-05T08:27:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "cfg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "810867a2a8d09a991a46116ed212177c999ddfbe",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-06-04T10:18:39-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 55,
+        "deletes": 15,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 24,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "597ae6abe453a76f35b58dc0a4e34cfee71c23b3",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-06-04T08:34:54-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7410851df255717ff9757024216b95261968cf73",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-06-03T07:43:27-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "600e7d335eced04d833802ddee09f75761c2fb1a",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-05-28T08:03:03-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de755bbba1c0c7c656450ffc21aef14f5dc98f18",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-05-28T07:50:59-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "in": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2356,
+        "deletes": 9,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "4e11e64d1d8743abc0cac784349e4ddc050011dd",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-05-28T07:44:32-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "09d097412479df4eb1876595d7ee913b3d5e0475",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-05-22T14:09:24-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 51,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 11,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7db24b2ae1782826801e8b6c8fb64c24c513db3b",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-05-22T14:08:48-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 63,
+        "deletes": 17,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "adb9fb1612861b8d8f1835ad9d23b3d38db60b43",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-05-22T10:27:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 29,
+        "deletes": 27,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "78be2d3a2773fbcbd09f65a74c7ae67b8cf6f2b7",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-10-09T12:38:27-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ef43d713eabe77e7038a3a5d496f0581fd0f878b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-10-04T11:07:53-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 8,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c1b5f6796a8e336ca5f36f0c34cd01c802c01065",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-09-14T17:43:13-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "py": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ec261433f40e0e0a31d11341bb1768da68215f8b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-09-14T07:48:21-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33e958484bd5709609a16c1d494b5d9856197c8f",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-09-14T07:48:10-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "401879fe2a15ae39c7a96a2c1ac20e925408c535",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-09-14T06:48:06-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 3,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8306ba78f1f0c7008cdf85fe764c1df2363caf64",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-09-14T06:47:58-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 22,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7027c5b67aee13eacf1ab9eaa58d8854a5e127bc",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-09-13T08:31:13-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 194,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 139,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 323,
+        "deletes": 9,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "c06bbe3caa24606e7efbf9753d009f91f22cbda6",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-19T13:08:52-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6a5aa34f69f221e757c43f0aa5662f1342ef86b8",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-19T12:47:40-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 55,
+        "deletes": 22,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "d231882857e3fe461df68f1014e9a46448c146ad",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-13T07:09:16-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0fe3e9bc7ed32086926fffa42e5b325985e34aa0",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-10T13:59:40-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 44,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7a6d577c3cea45687938c4809cb84922674a0978",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-09T14:11:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5582bb61135213ffd9bc39f135749534ca3e8bc6",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-09T14:05:51-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b71039018bbe0ab62f3509d97c01937639374d9c",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-09T14:04:56-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f5886adbfa45aa8ee859e7b479051d55ee1b0b8d",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-09T14:02:16-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c22ea757476890543f7a908ec49950cb367e8531",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-08T17:13:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f083181fa0e8767befff6793850190e6a51e2047",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-04-08T14:38:34-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8efbc19bd0e7c91ba7ebc62f6b742ca4f8698f23",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-02-22T10:52:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "12bc119c210774ff0776a1b17237d679206a269a",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-02-14T13:02:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd6221823d282d33d04d04239b36a452ae820f7a",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-02-14T12:02:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a4ec9dfc55e609cfbc0621f659cec0280a30eb2",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2019-02-14T11:58:57-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d9c76f7d40c65b41f719411e9571afb3ba59e4b",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-29T12:53:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "030ca5aafa95d3fc0c5b3f80571a490919225d41",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-29T12:40:31-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "527c5e88daa0022fc0a477a5f6f472a89217ed35",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-29T12:31:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d802103eb6b805de869ccc2c8ecd35606e13882c",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-29T12:30:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebd2db5ff43b97e5c9989f5734e473b91e8ecd7f",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-24T12:59:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a67254ec7249a71b47d200248b61c5791c51daeb",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-21T08:00:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "200622d9cab94a8cd1aa087b87fd5b9ee88287ae",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-20T15:50:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4eff510f39b5d259e44b308a9d745859f9b71ddf",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-20T14:36:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d5f89bb97f6ddbc5f9389778e653eb740208c9b7",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-20T14:36:00-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7656087963e4ae5a836c2712461b9d0fcd3cdc8f",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-20T14:34:42-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 49,
+        "deletes": 35,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "281e1ac4bcbe9d22e7b460fb8a618a4a447adb44",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-20T14:29:51-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2a639202cc9d3b30c07fc0ae3030e669b57d4b3",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-20T14:14:27-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e6659325991329a50f078d9009ecb409d0f4356c",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-20T13:13:10-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cae8da1595cd3a31cae14d8edb777e7ad7b8a72c",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-20T13:11:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 71,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "173aaa59d2eb4f25d29386a631ee5f53c9275827",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-20T12:37:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "22a8a5921cc809065240f2f17c72e4ec38c729f4",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T17:17:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9495957b7e374a1c2de6f9eba7d113c13506662d",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T17:01:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "61a8231a62084777931883972c93921af32444ad",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T15:30:42-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3a7a2f00b63693f37bc79ee631f336022ef58d0f",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T15:27:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b71a4a4ea42a744fe7400560ff91ba6e8dee2d1a",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T15:27:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c1ffabbba9e27bcb90589fb8c37700567719fb1",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T15:24:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 28,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "bc299914cdda831236a3e7eb50296be75f0ce090",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T15:12:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "4106a8664002594230441bad77b77e824e5ff2d6",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T15:02:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3626c41661b61a8b7d167afcabc35144dccec3a3",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T14:59:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "638f65ccdb2f0ee7b0ee4c03d34300302a5ccd8a",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T14:56:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "08cd8eddd308cdc1ef2ba5b49c582d1f053d0386",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T13:45:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "63bdd88d656e821ac67d9c8009690da4c8bcc5db",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-11-19T13:42:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "106ffb4f9c4a45285415d298f7967b487737e670",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-10-08T14:01:19-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50e09b8fe3bbd60c66b17087eebdb69f815616f5",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-10-08T13:46:48-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "66b605b942fdde87417033163332240b9c7ba8b6",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-09-28T08:23:17-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "wav": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e33fb5cb4ec37463fc6064afad34007592cf8e7",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-09-28T08:21:12-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "wav": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c453be998e3321450ddce3634da26a324f950903",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-09-22T09:06:17-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd396ab7eb672bc53cfca0985e9b28efc12054d7",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-09-22T09:02:30-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2463732a06cbb00f3f3541d19536cad37f225ec9",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-09-21T13:41:46-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4de01ee3b83b19f178913047a4b1163842f44763",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-09-21T10:56:17-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "59c2a04b3541527698ebd8448f1daf80e9278450",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-09-20T12:41:54-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "05e2d0da49bd9c8e7b8c4b71b7647ebf8fa5f301",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-09-20T12:39:32-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13f44baadb8f269a58bac00e506345dfeb4e3cf4",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-09-13T11:55:45-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4a70c8bf1a9345796729dfa850ebf61829531171",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-06-26T07:13:20-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3ddfee3569cd41852c316b351d6153a8b7699bd8",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-05-25T08:10:07-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "abd783605b8bcfabf06c5da4369433bee9e532e3",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-02-01T12:03:27-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19990c7c8aa1346c105f2df4c55fba2411489837",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-31T14:41:55-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9d7f180a6a58862a41ca958a3da0823fd48092e9",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-31T12:23:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 34,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "16788ec41bb6236ef0b99c6e238f1ed03e1e3853",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-31T09:47:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e0611cfd0fdc77f7f2a9520bb795110debc4bdd",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-31T09:42:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "wav": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "a2badfb81589a6f283fff738d518272add3b1dc6",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-31T09:33:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e4df6189f8d841b25ddb0b312f4912e988f255f1",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-31T09:27:31-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1bf4cfd28ffd4115344399fe0dfa4d2dc6823596",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-31T09:11:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d5bd72a7c35fe5f0b795b283f0fff2aba5003901",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-31T09:04:42-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 41,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "22a332db3872432bd0dc9ebd5b037623de2f2206",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-31T08:46:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 33,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "721160d6d9daa3d26db802cc4f2470792e5d3a71",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-30T17:32:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13938f19e8474ff30baaaab9035e361cf72c2144",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-30T14:50:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b5535824c88e3522296cdbca0a6554b6d4f5acc3",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-30T08:43:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "79cec1faba2b56d9ec7b29c52d23f2490b81d56c",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-30T08:34:00-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 34,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "415fc26fc18b3e73a0892a5ebf5500def416d750",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-30T08:14:18-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "afbd92e282851ccb2c4226d426acc4a78ad079a0",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-26T12:04:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3242059e87bf04b40616a8d9ee975c7eed0a9afd",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-25T13:14:04-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 107,
+        "deletes": 60,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e251e7b49c229be61429f1d5e382649e2d2134f8",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-22T14:22:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "16060897b53a6705b889f18b23ba29aef386994a",
+    "Author": "Michael Waskom <mwaskom@nyu.edu>",
+    "Date": "2018-01-22T14:17:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c68aeb542e626fdd72526dbc42c13565399428a2",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-11-14T17:15:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9f19145de8523e3a8a7955f077e065a298e0a439",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-11-14T17:03:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "37293ef70510303279707deb23c1703c067bff83",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-09-15T08:15:17-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e047e9319b9bda86deeaca5a6fcfa466ed69a00",
+    "Author": "kianilab.ps2 <kianilab@kianilabps2s-MacBook-Pro.local>",
+    "Date": "2017-09-13T12:49:09-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8adda3568dc74e1ee7f7ae50bff80dab880618e3",
+    "Author": "kianilab.ps2 <kianilab@kianilabps2s-MacBook-Pro.local>",
+    "Date": "2017-09-13T08:30:09-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "53bfb6ee686e4747be2f0f2eee227297443f1cdb",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-08-15T13:20:21-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8e7247dd10bbef0aee256f45375f6d9e944a4456",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-07-18T07:59:40-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f83c6a94ff91fbd854bd246fa925f70a9fcc723a",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-07-17T11:49:26-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "80b95660fbade3a2a02d77621b87e5f3837b6f7e",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-07-17T11:15:42-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c95ddc60c2c6bf80405b65781056ae35e3d5c76c",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-07-15T12:01:11-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a16350b23418ef09a3de9521ae8f111e58430af7",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-07-14T13:01:05-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "336089363ba1e2bb904e7395476a999020335e22",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-07-14T12:59:11-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 0,
+        "deletes": 52,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "577057b9307e0c35cfe71c06221267f76f330e49",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-07-14T12:54:34-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 20,
+        "deletes": 16,
+        "occurrences": 3
+      },
+      "yaml": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50198b73c0784789d0836e408b049cc4f82f1931",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-06-22T12:36:07-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4f7d94a68974e861d0ad28f1ecd57c2ee1c41037",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-06-22T12:33:28-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0a6e717d532e30a547f3541de034c10d65133f48",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-06-08T08:06:57-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f435c930e0c2dd4f59e21a926221c464b2cbae9d",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-06-06T08:33:38-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "104a892226641b5b266ca53363193c6b330afa83",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-06-05T11:15:05-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe08b1008c262143af8c72c04231f0d074b0de3c",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-06-02T14:10:45-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cdb003656b28cf17a53ebeafe99df54d60550554",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-26T13:13:55-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bce0f4384dde8060c2b36e52a6ea05d1ed71fc62",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-31T13:27:30-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6b9fc4703ea85e5806c4b5f1347c71e9177d37b0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-31T12:37:26-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de63fa492dffb3638978621fab6165e216f3cf4c",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-31T12:36:50-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "866a42b92409862035411f89c6090eb262fe666d",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-31T12:32:38-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2b3b5ad9b06c6ee71a521fd85f66615180a1803",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-31T12:05:22-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "66c81c8fba9c33dffd099f5296a0832a54f11d00",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-20T11:56:53-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 40,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "283bc9c3de8754756b927fedf07913919bc844f9",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-20T11:56:53-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 38,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "81c5e0613fc95a9d3da9d0d2103d87e1f3a80fe9",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-19T14:34:36-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "27bb64ee496b65e921b6baf7b8e3e9af61e2084d",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-12T08:58:46-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd6fbf76be0858ae958bd4c94ab4be2ea849e500",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-11T15:14:06-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "71751f02a8f1f75b4c39549124f866a78bb8da51",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-11T14:23:13-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f845bac5fde85807ea487318586f0b8841de72e8",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-11T14:01:39-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df88d456642b33161780bf93b59f10b3b3e310aa",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-11T12:49:23-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5598eed73ecd24284d0a040a07f198fb8185e50e",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-09T11:06:05-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 38,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6cba3ef5303e8bbe0be2e0f9ea672fc1451dc2ac",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-08T11:08:30-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 37,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "c11f5d469674daadc5a627b98595b8afc2201269",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-08T10:14:34-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 38,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "236b2d28c2bb43407a1913eab6623aeae00aff19",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-08T08:09:27-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "044b7695c4c27f78ccea3bf0cbdc3e9fad3e8ef0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-05-08T07:09:11-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4ffac5819692bd3e5c31723c09e45ba292a0394b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-04-12T18:08:12-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "79a2e790b4cf1854d16f09b4a8eacdf2a455e3f3",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-04-05T13:18:16-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "51380d6e69c00932a8fda5d15a0b3200dbb4c8b2",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-31T13:16:26-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a38493e4ac323a8eee4d2be75b893b4886d1d37b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-31T12:32:13-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3ef7fa96e20fe6314a9825f9e38129c7ba95dd6f",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-31T12:24:35-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe34f4e916ef696eb277d5a2c562038c9a4c40ca",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-31T11:57:35-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1033d18e01ce9dc94216547f12b7a1917cdc69fb",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-26T09:15:39-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 108,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d0d03cb2c11294b9bc9967e6c75f5ed513bbe284",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-24T13:03:02-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 76,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "298060b5a4d5f16c3cc018c1970da5bad8e462ca",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-24T07:59:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f75b49629cf97bcde8ba392604e22c083da8d9f",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-23T13:52:29-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "609c4d6c80042f0952b7a74aa921aaea03624d64",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-23T13:40:32-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "49b24a1959cb7fb2c49ef1c9b2c35ac9678a1594",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-18T13:03:58-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "defc143375c58f09bc4c79f417de917a274f5607",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-18T13:03:51-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a67b2564b2334aaa23cc95ada573060477bcd414",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-18T13:03:01-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "be0186f0d5d3f42864fa8c021ad8e01aafd5e121",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-18T12:59:17-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 46,
+        "deletes": 20,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "49615731d9b9f35df701c2719ee3580661821c31",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-17T13:49:15-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 127,
+        "deletes": 1,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "dfed3fb5bdd5bec2023e9903d5f5da5bfa0edbf5",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-17T13:16:52-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 68,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d50687ef5e16604d74c2f6742f85a4142b860da",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-17T10:51:47-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 62,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "66fe7f35c2e250197cfca42738224978b8d233c0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-10T15:10:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "01a6501acece2c3ed0d961e64627c0f282ada705",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-10T15:01:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "385048099431956dd6cf8809f37cf5964d44ef17",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-10T14:55:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f673158a5e0a64b2d50464d3eedb607c9cfb053b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-10T14:43:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2373efad24b38f7832abfef1fd015116a881b249",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-10T09:41:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8737359dd19bfe989e26ff842fb4aac6d7228895",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-07T14:20:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4097e0726487d16a7abc49ec074a392c347968b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-07T13:27:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3d82a631f436d2feec93495b8488599b21331305",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-06T09:06:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3312e1126dd4e642b036e365e99bcb72c1b3127c",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-06T08:26:03-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "281652b0d4e19d54eac820ae9fe5ff275abf0aea",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-03T14:56:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af4417503a385d2e28011b87fc4dedab52da8de9",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-03T14:54:40-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 69,
+        "deletes": 23,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "050c32248e541bd644acd54e63446aadd1d3a688",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-03T14:18:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2262a0a641c98c8f7ceed0eca65c888e24bea9bb",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-03T14:08:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1b0467a1c51af703e7d1c56b7f75a6f79203ccd5",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-03T10:06:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 89,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "cabe8b995e42cd38c4c16e4d7d03899c60997e87",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-03T09:26:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa62ad3d69a3345d66895b8c248f2f0ea91edca9",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-01T14:42:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48cccdcfb379fb79d54dcc78e0e9487dbf1faeb5",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-01T14:28:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebba9065db3db44ad5578c2dcca6f136d8ef88ff",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-01T14:27:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8d609303590831bd2c0ef75f9a8c54ec9037d66e",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-01T14:26:15-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f1c41ab2344ca3e9463654e1eb194eaeed94e9f6",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-01T14:25:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 21,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "e792ede7e316e69e0a022fb5cb92dc45155dde4a",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-01T12:24:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3847f57e5e2184a490b1e8e3cc2249f7a813b46c",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-03-01T12:21:57-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 8,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "2ea26a5b225a6b588ecb6d0e5b8a9243acde98b0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-28T08:26:49-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 8,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f6b625e239a804732b5b8a80508957bac0bcef13",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-27T11:31:32-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "0f80803f0757c3e1871f83ce7871cfa3e0a1c6e2",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-27T11:10:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "36c34531924f0d8f4df135f6523b94cab424950b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-24T14:30:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "01eeab7ebbe370aabd8f77b0e40a9f2ce12f34c7",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-24T14:30:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e61dd18f4c9309501a3625672a1dcd1245b48f73",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-24T14:29:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "65fc07714dfc163fa8befbebde492b1ee6829686",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-24T14:29:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d99662fcd9ec061f04aa30d468099c68e6f40f83",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-24T14:28:51-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e3bd3d09d7da619a2e2612a05c5c6d9f732c46a",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-24T14:28:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4aa0c704d52a654a122a46c77dd99b21f3830e9d",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-24T14:27:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "326db6ce1a6512f45fd1bde2dab2fabeab3c0899",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-24T14:27:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a49075db4309e3ad76708c4fd5d8a8e426356439",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-23T12:37:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cdd5dfc57341749ee1dc19c06b8aba305f07556f",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-23T12:37:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "97c998d79608995ea92b2812606ee89d06fac6fe",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-23T12:27:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "826246c9779855a8488a2f80994340338b98a9b8",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-23T12:21:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 2,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "7850bec3255f020ab2170751e15695f3a2d52fef",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-23T11:43:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "9ffda130468917af5ae38119f5356be75fe9e0c8",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-23T11:38:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 28,
+        "deletes": 40,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "b3e799d0572ec0e2b44fd471230fef89c0779a9a",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-23T11:36:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 39,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "c18dcbdcae66217e983be43efbcde3113dd16741",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-22T14:01:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 54,
+        "deletes": 10,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "571d5f7a0228cbb6d3e16483928c3ad29b672d85",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-22T09:08:37-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ada2a7455e517e151fa1cd97228252f60309942b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-22T08:46:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 65,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "317d485fcad3fc336f4bb5cf00d883b5b2cf1a4d",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T14:46:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 66,
+        "deletes": 37,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0af29d0ee73391f6dcf35dfd58c527f852293524",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T14:23:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 32,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b84f732add688a95acf7b4a655f68ac1c3fb63be",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T14:23:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "adfb74bf32380a7bf9aa767f166151318e4243c6",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T14:22:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b061f5e43de3e3bf1186039e7bd54149a3ccd13c",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T13:12:03-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61a8cf419fd972e2d5afe769194ee9f845ec7e19",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T13:06:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 55,
+        "deletes": 19,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "79670a6b57a0728f9bf1f65644caf3a573f292b9",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T12:16:10-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "98edb12d4219e23095c8222f952c4c216fda8195",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T12:14:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6575a90b918a85b6927c6f4849af72b1a4baad05",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T12:03:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "bf2e666dc23202b1e4e578522d203061a64316c5",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T09:49:24-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 76,
+        "deletes": 41,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6453e6afed0c7c82f3657eb37f872c099d0915b0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T09:27:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 51,
+        "deletes": 19,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "80c72de74d65f108284c77f4af51ba5cbf828221",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-21T08:47:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 26,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 93,
+        "deletes": 34,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "815c64a3ebfe742f7467bbb804118d87b46f2a35",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T14:38:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 61,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61cac11462d55cc7f95f3794b4514b2c4a2209f0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T14:06:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 12,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f014cc3508d7151b9bcf91b3662574ec2a82af6b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T13:52:42-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "153f60f0047f2a139344b7bf271c210b7a4eb780",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T13:47:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1cb704100fd0670b5c68b27d4eb58e8632e64424",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T13:06:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 59,
+        "deletes": 13,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "ebe674a202af7892565b26c8ff81025b58d8d450",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T12:44:10-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 48,
+        "deletes": 33,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "b9286392a3eb4cbe80d5fe7acc29dfa49ed39582",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T11:58:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 33,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4b25fa529d32183b73af1647364abe9b4e9c211",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T09:49:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 7,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "21108ab1589e0355df008b2c3fb4fa5702cab8da",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T09:39:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 16,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "68267e2aac2b28103796b4e74590c26f0662ec01",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-20T08:53:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 66,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "eacbce786d32c0b02ca72385ea129c41f44895e8",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-19T10:26:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 106,
+        "deletes": 28,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5ebfb895f562ebe6a0ec1a691263d2c08ad8104e",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-19T09:27:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 70,
+        "deletes": 44,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1a1dcfd08c8da8f11a4c6b1b017530aa4ecbf7b0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-17T14:43:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 81,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e81780fa7aff6e48925403eaa11034d805e239ed",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-17T14:02:18-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 82,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "da3c71bce63fa525c05e237163a18e4293cbdb61",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-17T13:10:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8e5f1d3cd94d66f8f48b3b43f639eb420c4cc56",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-17T13:02:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 136,
+        "deletes": 36,
+        "occurrences": 6
+      },
+      "noexttext": {
+        "inserts": 32,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d21fc91ccd37f2ed3cfe75a41d13826846d364fb",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-17T09:08:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 125,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "821852ac0a503dbced1138da73946799f10b9b6e",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-15T18:52:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 48,
+        "deletes": 17,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0ef0b8d033bbd60a07dc6c8c5d72df779c2b9abc",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-15T12:44:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d0fe5ae9c5b5e327a3b345d7e8512cd35290fbfe",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-15T12:19:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 214,
+        "deletes": 5,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "4d9d25c54aebe991e4087db88637067a71a1848f",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-15T11:39:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 58,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f9a0899fa3f84ef01ae50f442589538e8738c066",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-15T08:32:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a42daa1f22fe7e9b65236a65158a1b55384102cd",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-15T07:58:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2d4d557b6321f4c674e9255c78f83e33c7ac7c56",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T14:34:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 17,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "0dc2448617afb3a88af58eb621ec68ecd429074d",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T14:31:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 26,
+        "deletes": 11,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e84c7e75600ccb0ad4eaf987d57d066837dd92d8",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T14:17:31-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "fba762b2739c416e550def198101293f0be73494",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T13:25:43-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f166283dc3b5a3aa6b1bf16d8893e5345f37028",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T12:28:24-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 29,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "48fdf5b7cf7245d074c94fb00eefddfce3207377",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T08:50:32-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "496b90e46b8cc7c1a5fc604400b24c6c21ea1cb1",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T08:22:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4769fab09b652a8c36730a0a33fa7ff186358a44",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T08:17:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d6297372bcfb2b84a85b144528aa38fbb694b1b1",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T08:14:15-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "229e038d3445348094cc1c073bce8d8e5386e474",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T08:11:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "80ac20de2dd1e63f3021f92fe0a4aafce54169ab",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T08:11:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 38,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e64e8a4cd1f08b615c8360da81f0f306e90be492",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-14T08:00:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c1e6d4a6605ababdb5499960e85d01da544234b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-13T14:37:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e128a808b458932ac89122e53dacfd63162b48f5",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-13T14:35:29-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 9,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "4de11278b8465b9c112865497f054951c1c2d2dd",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-13T14:12:34-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 156,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "e2f0b19c09e303593fa61062a1c9c953cca2bdc8",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-13T14:02:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "72705fdb01c4889a6e712efa0447ca787047364c",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-13T13:32:57-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "825794eb6743bb7470b2b04dedac671a3bb0d6c0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-13T13:26:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 75,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "546b034c246430fe177f2e3de0cf2a0b21d7aa91",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-13T12:49:55-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 188,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4510902d6fec5c4d5b918d0059d2f3bb1aa8f69e",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-13T09:30:35-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 39,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7b30ded224252eeb8d47174787bdb1eeb3e524d0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-13T09:17:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "537c1d15c4b1e91593e605aa0b6c1f58bed2a37b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-08T08:13:49-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "db35a30d029dc3dad9f9a18513085d1e087e8c11",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-02-08T08:13:37-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df9f682abbb25152ffb8a2af92503eee20d22c3f",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-28T10:02:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "86ede574143eb7cac3b8cfa9cd09f76efbbd682f",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-27T09:22:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 21,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a5bb700ae261da4ecfb25b1c82a1d231c2e3e573",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-26T14:58:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 7,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "2d522fceb742cd098584fb57ad7d29e413211add",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-26T14:56:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21795c443a614bb8590c9c6ac39f73e84b4df2b5",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-26T14:56:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "24af2578c5c8f33109da6355f6cdbad86ad3e417",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-17T14:32:31-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 37,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b5a79dceaf200ba604d295f5cfbba0dcc879cc4f",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-13T14:31:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 5,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "769ba8711b400cf93b27cf16f93ab61e3277fc42",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T13:18:57-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "febc228c277d8bc5ce9cdb6e2c1ab891ffeba87e",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T12:50:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8efe5593774562d5f54b84c29a361b82a51d66f9",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T12:50:15-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "06ec75d8c21ed1afe563ecc7b5c55970e286532d",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T12:49:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c42d73bfa86424ab0c1c9704d6b9e0de2ba5c20f",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T12:49:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20aaf60e91564134438d82cca2f5aa8f607af772",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T12:48:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f272e9ceed63d5f8a1976f2dd76c458b9bb1768c",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T12:33:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "49161bd6caf1cdee8344cf71aef7b6ad5b99c5d4",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T12:13:30-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 43,
+        "deletes": 23,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "547077ef3181ab7d744ff4600d2049dcced9dd46",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T11:47:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "12aa401d8e71f8e852d0f3afa596ff7eca40138b",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T11:47:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 24,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8c6cf5326a7701d405f9f8ce7e7fe1c36549ebd5",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T09:31:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0c7c0acbb774e5b8639f28243747a9f0b1318756",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T09:31:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 58,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a3df81266462e2ade7bd0e5b2a75c73b8d89b9b0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T08:31:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d7d289b7f57afc89324259f1e7d3eacd08d1dbf4",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-12T07:37:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 26,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2ed00f952fae9fa746a0c4f6e7e68455c2620f77",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-11T14:21:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a9e947942a885efe96755d7a20f61ef9e71adb8",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T15:02:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c915f2f5beade70f8770df168bc609b76caa0547",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T15:02:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 135,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "439325926a29896936dc89ec9625dd7595ed57a4",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T13:42:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "281a98889230b2b6bf24886b6b427628aff9b0c7",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T12:45:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "68f57a94b14e86ae52d832b4ab82dfe16c93ac66",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T12:39:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 87,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1cefe0afc0c9544809fe126eff325fb5ef5a089e",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T12:39:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5daeee55a88e52ff68ff0bf4ab4f578b06331ed1",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T12:39:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 38,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b5aa047b364cd5f988e33c3f133315dbcd3580ca",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T12:23:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 187,
+        "deletes": 26,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "061144663fa3a25a98cf5f19db3dcd0d6f6c4c64",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T11:46:24-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yaml": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c3c5362970f34fe6be884935bc31451a6a3c7b44",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-10T11:45:17-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9bce47ec97fb2c1ab0910faa2e679b56d49256bd",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T14:43:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c85f1194aa014e888ab561741f2dae4a6a10f819",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T14:35:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 41,
+        "deletes": 13,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "601431b9b98512a500d2f17ce62e1fa11f647096",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T14:14:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "83dcfe7cf72b8f5e937025f19192df3151310591",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T14:13:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 28,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0f4579446c72367463e91095cc6ac07c7e0a384d",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T13:37:23-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 44,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c242a71357b8257482dd14fe340016954ebe358",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T13:20:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d62b9564a6ef0d0dab7fe709547436102cd2518",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T13:19:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33f4deffc8e7d4f69a6756199f9f7c5d534ce333",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T13:10:24-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 48,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1fe6ce6c9e91850c52cad95136fe5b9d7eb25046",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T13:09:54-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c1a3c32f9cb4e29dd4ee5c18ca8aaa111fe2a581",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T13:09:43-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 444,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "86b60a237d66dc7be60bbebd716367dd352ab541",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T09:56:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b5ee2f7b6a2c1fd133e971cf7d761740de7df736",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T09:42:08-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "wav": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "015883f67bbbc01630fa2c4af57e873dada2daf6",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T09:41:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 38,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b17a951955b24911552c93f604607711eeeac40",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T09:26:07-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1a784a2a9da2f1c7b429bd89228b6c64f2a31798",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T09:25:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 82,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34c60a59060f6ba2512b3bf79da257dfddf4deea",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T08:38:41-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 54,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5123fe073589687518bd5ea8c572cce09afb07b0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T08:38:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "7e187e4c2f91a3d7d326ec65f6e335f056eca5bd",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-09T08:38:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "88c15aa51f06f46908748d8f3f4c255c2eb567e0",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-06T14:07:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df5a3b0a800ad76c15084c81f0a4d1c3ea3980c9",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-06T09:55:31-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 219,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ff2086379e9e4c990631363ce60042226f92b773",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-06T09:55:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "84c6b2bcfce6bb1721f63b4edbb4364ad07c716c",
+    "Author": "mwaskom <mwaskom@stanford.edu>",
+    "Date": "2017-01-06T08:57:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 94,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]

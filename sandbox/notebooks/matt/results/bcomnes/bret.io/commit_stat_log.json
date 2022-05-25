@@ -1,0 +1,6565 @@
+[
+  {
+    "commit": "5711539bb036f73870e5c17b46176b3fe8d7e086",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-05-19T15:02:08-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21c421ad11dedcd2f684bece7c1e74b0d81434aa",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2022-05-19T15:00:21-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "137ed7e149fee45684aec4c3215536f720a4a8e8",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-05-14T13:55:03-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33472b566e09f08dae311e05cb22116fd6b9c0c0",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-05-10T08:08:41-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "75c044eee93110b43120295f7e2d740c41a56129",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-04-28T13:02:20-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "58323138fb9cd3659f1a0c0e0cacb163a99e0556",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-04-23T19:55:36-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fbd2cf15b7058e1a16c9ee714aa41f62f2ee1019",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-04-07T09:26:27-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "277a7434b070f606da9640142aec810743d88572",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-03-14T10:19:53-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "478d98170e0ba1ae5cee10269ee53eca74b27b3a",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-03-14T10:18:59-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50043a7a5fae0e6e4d2e9e32688bfb9cd2b317fa",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-02-11T17:00:23-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebc8ebda3614d9c78175644535b8ea24221253d0",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-02-11T16:13:24-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e4ee2a9a1dd638ddad3c16d4df8d1d233a2c0ad",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-02-11T16:12:51-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "068930ffc3533a693a8148193e210968d06416d3",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-02-10T22:48:06-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da9333f24625fb505effeb758eed88bf0c6b64d2",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2022-01-31T13:35:10-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "147d2262a083ecee7aeaffc17958ca35ed670bc4",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2022-01-29T23:27:11-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a74babd21e5e1e23bda85e18f9ec156de595c1b7",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2022-01-28T16:33:56-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "77ce348fdf82c77175e86c4fe5a86d037566710c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2022-01-21T22:57:24-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2e47b5c45c969c45db145c36162e09423d876a30",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2022-01-21T20:43:05-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c264ee49ac837bab7b3ea55dc3bf929ba0a0139",
+    "Author": "Bret <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2021-12-15T21:34:18-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4bf1fe3ac03d8e67b5dedde680a2dc79dad4a3b7",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-12-15T21:31:32-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "763e215e1da7d558804cea419a165b4a1af62742",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-10-16T19:03:12-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15121c224e90c1184185793a1a87c86e4f96068b",
+    "Author": "Bret <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2021-10-16T19:01:16-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8153729dc59277764e1339d375f1bf86887008cd",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-09-22T10:45:40-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3eda0b47cec1c4e226bc1d2247018e9cf239f8b0",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-09-05T14:18:08-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1fed5e726c6275e432b4a76a2176a3aaeb2bb27",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-09-05T14:16:29-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 9,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4e18bcaf23d81bcd444724452330159251d6cd73",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-09-05T14:07:08-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 43,
+        "deletes": 23,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a3295e46438f59dd1aa3e38d4a33b87aae1d1ac",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-09-05T13:27:12-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 100,
+        "deletes": 101,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5e2a792b3055c43be5e438dde0ea4b1e75eb16ca",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-09-03T09:28:45-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 15,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 32,
+        "deletes": 42,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "2a830c286f1f1e06ec59df8058b44053164bba6b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-09-02T09:17:21-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 13,
+        "deletes": 16,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "dc454f19bf051c14fa6a44547a75a5d4a82047d6",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-09-01T16:27:28-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "cjs": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 22,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "0776da9fbf8c4939556985500240dc9addc1243c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-09-01T16:31:58-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af186cae45dc3d73387c0e93f0ae6b0028199008",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-08-19T10:49:20-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8d3b3c512410ef9195a1a09a5c68682e80b744d1",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-08-19T10:46:42-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6df7c781735c171b77654b75777bb5536848c92",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-08-17T10:20:00-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 21,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "png": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "eps": {
+        "inserts": 932,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png\"": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "mp4\"": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "630b343f7c7f0751678c06efeb67681b2ef02e5b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-08-05T16:39:20-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 64,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "5ab2fc73a2b2cae177b75988ea21872ac642c263",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-08-04T11:26:15-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c1fe3362dee7a98a212abe5e56e668c333d5fdab",
+    "Author": "Bret <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2021-07-16T14:19:04-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a5c04511f9f65240e2fc927f65ee506c9f63f7fc",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-07-16T12:22:13-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "07968b7c559be73e6d8d899f72c2fd1c74550b52",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-07-16T12:11:49-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 300,
+        "deletes": 278,
+        "occurrences": 4
+      },
+      "jpeg": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 33,
+        "deletes": 18,
+        "occurrences": 17
+      },
+      "svg": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "jpg": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba49a6ec203d45696ae477e1c07489fb3b3d7242",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-03-15T08:50:42-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 59,
+        "deletes": 37,
+        "occurrences": 2
+      },
+      "jpeg": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "svg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89ff5fbc3b4c46b2dccd22bf24aba76d1bcab83a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-12-09T12:03:28-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d845ddc1155b800bd82e9bc977100d8d08265e68",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-12-09T12:00:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 251,
+        "deletes": 133,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c254c62607281e87abe313b460517a764c7feb28",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-12-08T17:01:51-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 133,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8ddf4817b753b835557ab598fbde0e2e0e2ec73",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-06-15T09:30:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f865e17044ec1331c14baa656c9cf0bdf4f246fd",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-06-02T14:41:32-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4b06234b69878beabce04c252dadb73c15916281",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-05-28T10:41:40-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "21e58adf7568443c73c56822030c49527b6e799a",
+    "Author": "Bret <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2021-03-19T09:31:20-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "097e2168ca307ae1ead80eadd3d7ae78b6e2b057",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2021-03-15T09:41:07-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 25,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "svg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "819ea3b47cf798d1e4236709a8e64a13439cff27",
+    "Author": "Bret <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2021-03-04T12:25:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 0,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1282f748c5c16762191d69a2e70f2276275be92e",
+    "Author": "Bret <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2021-01-17T11:21:16-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a08efb0e0c2939210ce3fb2d6a426e5351dabfd0",
+    "Author": "Bret <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2021-01-04T12:31:01-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02e9094fbf2d108267110358b8b827104442a1bf",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-12-08T10:32:49-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d64249fe03782895201d9cd4fee448f69e686232",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-12-08T10:32:43-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "41540d558b7e94b23311800d39b8634680302e9e",
+    "Author": "Bret <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-10-29T11:19:57-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "438d7292dd9738baf16423ca11c2fa2a28b6cdf2",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-10-27T09:58:23-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "49c3fccdffd433abeee9f32ee5775526938662fb",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-10-21T10:20:05-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8b8782731e05d4bd5a4c485eccbcf06fedd6c54b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-10-13T13:34:22-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b655777b4b2818bd2a0787367d23418ea7661064",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-10-05T08:35:26-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "99bc69688f2caecce3381ebd4fc6f2603b2e651c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-10-01T08:35:39-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce7e290c606c0a61bcc4b84fc077f28129c192ed",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-30T10:34:25-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f0c52d2b0d173890ba1c17f83843da6591eb76b8",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-09-30T09:01:24-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3a2be5dac886bcaf3e31a92e30339bed46312867",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-09-30T08:56:22-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13ee6801bf7f0de747153cd3a4a8c41bf23600c8",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-09-29T13:16:21-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03a1f1018914ad7bed72b3a4494f3684d8236428",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-29T13:06:50-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "daf3c953b9aa4f8ea66528903f469b9d20dd9223",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-29T13:01:42-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82aa0878959ba9bb0619655d6c81b34bea00ad8f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-16T19:47:26-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 717,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 81,
+        "deletes": 0,
+        "occurrences": 27
+      },
+      "mp4": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "svg": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56d47959af71230649ca7d3640ff9b92a217cc25",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-25T11:59:08-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b44fcae3c032c3bb65089e415d197e958ecdd380",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-16T08:42:50-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5199427b694f7902dd9edb9412ac4fb921c99cec",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-09-07T12:07:23-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f18d82c35e011464a67d59d3749538c564ae7d0",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-09-07T09:32:16-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89b83ef0fbeb0ce2030a0c9ea59b924ee3f15a7f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-06T13:09:59-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ec5d010fd118ffbad9ca47f33adbfbf078a2f1d3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-06T13:08:48-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d9620f2fc78856699a92cfca7acd0e7fae70905d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-06T12:53:41-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea8b29f4ea06afd73564648a29d5539d8eba6a54",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-09-06T12:50:43-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 16,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 48,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 55,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 15,
+        "deletes": 22,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3eb297f55543f523dc5a57ddd40d40ad384f6b03",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-08-15T16:46:03-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "142d09771962cb0c43dca49a3eecee8915354308",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-08-13T19:55:17-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e075dadb9711e0419e8414864299e0fb0c719e3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-08-13T19:46:25-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 18,
+        "deletes": 60,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6567c8aa874f9a5cc3b2b90c01fcd596ee24332b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-07-06T17:58:58-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bcbd5258b0765d16423f262ba6815f9cf68e91b1",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-07-06T17:08:10-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d6871bb65e35868a5b2e79e3a188a720cc26cd8e",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-06-11T12:34:14-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9812711eb09ec03dab20d3e948823a4b6119068b",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-06-11T12:33:28-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2464629a217c8282bda0d6dd732364336c42331c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-05-15T14:22:38-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29e7d1203492565872aa6cadde981343e0675339",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-05-13T16:52:10-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c895cf4de337978cd711f1a944f6b294824db1dd",
+    "Author": "greenkeeper[bot] <23040076+greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2020-04-24T15:07:42-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e7e01794dfe5260f5791928f1a2de6d031de5b3",
+    "Author": "greenkeeper[bot] <23040076+greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2020-04-21T21:11:35-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c2bf2c0e485963b1bce37c8da8035a032449761b",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-04-19T17:32:58-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4ccec364ecb03a4d2472af6afb68145dbdb39df3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-03-01T17:27:35-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 31,
+        "deletes": 22,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9b20b51e12cc3be23838895e5d23bc011408f32f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-03-01T17:10:10-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 18,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c754848f74668843060fea2500f3c97999cafa93",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-29T17:12:29-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "450bae0da7c1abd349350958400e0e7692388c20",
+    "Author": "Bret Comnes <166301+bcomnes@users.noreply.github.com>",
+    "Date": "2020-02-27T12:45:02-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "399120741059f3cd5fba7c2a56e331b215582273",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-26T15:07:09-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 45
+      },
+      "jpeg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "mp4": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1ca81b561e3e915a840b17a50ffdf81bac0edae2",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-20T10:29:36-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f8eb292ba59529e42dd315bfffd64b58f2cb7f70",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-17T21:35:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ba1f637cdb4c05ae2e122ea6b9ba8bba84ab24ba",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-17T21:23:55-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d43e547e8ef6f20276c706fe189d254c45a411d4",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-17T21:23:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f96560b16e9199a97c1be27e37ef04c6f052abe",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-13T12:07:23-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e61fb949db0738d3593422aba1b5798e53ea5ea9",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-13T11:55:56-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b007eb5c90b4d97d1cf85a8bf8207df613eb1294",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-13T11:50:08-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c211d327837ecfe2c2d05a722cefaa07e4c7ec91",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-13T11:26:39-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e472356d47e7c460cf4f47a880d2312479cd23c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-12T21:21:13-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fc298b40822e3357c4636f60c28a649d8fae4969",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-12T21:19:41-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "128bd52d231e474bf553de24fb4af4f7771832bb",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-12T21:08:07-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c5f30eed76a3e03e2cae368d09c5bc70535c45d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-12T21:04:07-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c89bf4943363825743878e24d8bda216fafb62b7",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-12T17:01:13-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cfa2b1694fbf10b9d677e104c7e25d4b1acb702d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-11T11:00:53-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3a9a93d28b1869f5e912e19358feabe1fc0ff0be",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-11T11:00:28-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd7baa95f5e277882c081bcd9e9d868253fd266c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-11T10:59:05-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "toml": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "830ae93023cab79a7e2df7f6d2bec2d8d01c05fa",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-11T10:08:18-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "64407eefdde8118c10ecfb23934e6f185d1bcc66",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-10T18:22:36-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "997f746b660495ffda0a7828c127891b12d29755",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-10T18:15:03-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "75c22e5337a595e126505a38bff4c66eb6bd6c4c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-10T15:41:48-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "421e79266a72487ed75fa3c4d0882968cb5d1dbd",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-10T15:39:17-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48ddd33c75238d32e1da2ea1fe61d0ed5be97453",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-10T15:23:29-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f7683f81d41c96825da31db68ff14db2bd55f341",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-02-10T13:39:11-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "410889662ceb78be842f05bdd89bf932236b9773",
+    "Author": "greenkeeper[bot] <23040076+greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2020-01-24T13:29:30-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab9284e5a0becfc36e51785b663398467cb0e039",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-01-16T16:05:48-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "16fa74cb6e8f1ab4282761d4b88da67e9a606002",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-01-16T16:03:03-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "282df932c4fed838a296834b9fa3051d5f181214",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-01-16T15:49:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da610a3f25c13c075da26bdc379f16847b3cf96e",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-01-16T15:27:46-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 17,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "jpeg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "68372844b3be5fd3270d3d32fb5d6a4d5fbf86b4",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-01-16T11:41:52-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "344682b17d9100a8aef724ccd542fd093127ded4",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-01-16T11:41:41-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fede6208dad8fdde10cb1df01b94222d324b8cbe",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-01-16T10:32:20-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "18bf3e806dbd942673002e3047c9e65ed522e194",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-01-16T10:31:01-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fb88a8f8326638012a62aeace4f47ff6230ff345",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2020-01-15T15:23:40-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ceca1da0e6bb4cc3d8dc00e7d01f7b8bff4036f8",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-11-14T14:25:54-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f2327c5a9b5beaaf225dd227e369d09bac58e783",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-10-31T14:04:39-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03c2cf3d8d048b3b178fa6457e159432736afbd5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-10-29T12:00:32-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "31bc2e169d4473b164e186d6b3d6d6ec30a2f2cd",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-10-29T08:27:55-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c873b49de0d62cd9408cd1b6c349441a82bf9fa8",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-10-29T08:26:26-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "75e24fc3fc21a42d0a8f8d835ddf59188e3ad9aa",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-10-29T08:21:56-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1052b1b6dfafe8bb99f470a8a1fe597712cf96b4",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-20T12:38:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 192,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "803a903d5629eafab41faf67856eea0ff7cf147a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-16T01:58:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2a9db6d5a899ee8abbf2795ab377cb3bce711a1",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-12T00:17:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "edce28490b265320ff528397d017c36a91689a68",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-12T00:15:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29a0d53a65db702b6687c025d0ebcc10c3ba7eca",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-12T00:14:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9932e691c8cd5712b5604607c56836e737fdf2db",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-11T11:19:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e3e90aa469f63f08befc6d4f782f60d1b59070fa",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-11T07:25:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "13e25b1b370e65370ebe68560ed9519721c80444",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-11T07:24:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6866fa78a19b2d60c2d4c963853e7d67ea7d94d6",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-11T07:23:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4fe184b9b0ffb744cf3f1ecc64878309d51d3d1a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-11T03:59:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f46844b4d880567a2b2ecfe85d01e22b70358df",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-11T00:50:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c27127d73b85dc3fb854c45af483bb377115db92",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-11T00:50:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "686399c7339fee70ac6e20f951644e6d14c0545c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-11T00:44:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 164,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4767a882177417447fe9bd60bda4563af1fda9d5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-10T11:40:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5394221b520f058b4014891d9cb3a9f635a10a5c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-10T11:33:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9907e75f0d94c144c1c814f1b85918da2c9c00fb",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-10T11:20:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "svg": {
+        "inserts": 11,
+        "deletes": 37,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d90b8ec7c6e18561e553db5237b165e5acf88133",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-10T11:09:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 9,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e3b15ad740edac78ec5716f19bc65ae1bd6d11d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-09-10T10:40:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 130,
+        "deletes": 38,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 2438,
+        "deletes": 0,
+        "occurrences": 7
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "7057a725fddf05cc09724b0f3f332c3ae4e83f21",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-08-26T12:50:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "601c2eaa9edcfbad76a06f5fe5c1b971d47bb5cc",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-08-26T12:48:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "toml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "50e0c2b07c8135de6a14ece7c4d6cf3342d48d6b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-08-26T12:44:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "894772f9678f97592f83426c58f6aba899ba4c6f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-08-26T04:22:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06a2a8576ac3a0fc820460278a555a0db6d6e3e7",
+    "Author": "greenkeeper[bot] <23040076+greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2019-08-19T14:31:03-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "380dfb82d47d77d3aeb490aae20a56ce8ff52fd1",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-08-16T00:56:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c4a32e27f4315455c2aa6d802fd2f023dd5e1a9",
+    "Author": "greenkeeper[bot] <23040076+greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2019-08-14T11:40:48-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c198f27872286dd1ba093b5babc970dfa91a0d6a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-08-14T03:34:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 11
+      },
+      "jpeg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e865038feb788c3c8db605a8ed08796152e3b231",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-08-14T00:10:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "244ea41c8040c5ac9046b191a531eab99c38cb72",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-08-14T00:01:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "66f604b3dae1bc015b87bb5af6cb39abf92f84b7",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-07-29T01:12:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78d515f513c135f4687ec365355dbdd5df08768a",
+    "Author": "greenkeeper[bot] <23040076+greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2019-07-29T00:37:50-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "948f1744000da7c5a2c485ddbfc5e57bacd57ee6",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-07-15T00:45:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a1942a2f25d40906ddc98d56eacfd9e97b77e90f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-07-15T00:33:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9721af3c5c5d9aedf6412516e0524a3d4612b86",
+    "Author": "greenkeeper[bot] <23040076+greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2019-07-11T14:39:44-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e3d095be3e63ffe46e5eea72257e7d40d3dfe227",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2019-05-29T00:35:19-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4df2a83b63567ab064a16a48a93283951d797f80",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-05-28T16:33:25-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7774877a388945f652e9732ef9d320dbcbcfa8b1",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-05-28T16:28:40-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3bf02ba6572cc6ff9919ab3de95a03e5dcb7dfdc",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-05-16T10:26:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "645ac50e8519b321b019653ae20185eec201b74d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-18T16:35:12-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "16bc6a0408d2d9cd1d88340e54ef93bcea26c2cc",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-17T12:51:27-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 58,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 10,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d700d85d863f676b0eb7757d31712ce3d5297800",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-12T14:02:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "toml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "42183994874b1b14a0e05de98624331cdab924b0",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-12T11:16:57-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "toml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1a4f463987550007e838f5e37bac87c4d3c74493",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-12T11:14:40-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "toml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "380bbb52fc069c12399ca6630d253e3d7d13c177",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-10T08:00:16-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "02d6a3e2e50c277095b24cba44a32c26b3d9fcbc",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-08T18:49:37-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54fe39c93107d633dbec2afe0a5ce1e12901c665",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-08T10:48:40-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f92ad2918ac960860bdd80d16c6cf788d037b3c3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-08T10:37:31-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed9e8c5bbefcbe470f6575c880c8e50b1eef6a90",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-08T10:04:26-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6c0edb187c692e6722db7e9a9483e1090f1686de",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-08T09:58:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 36,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "051fc921e5520f745536a2c5d0bb1cc84d153b11",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-06T16:58:49-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 146,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "4b90dacf6d22249906106d445027786c26cc2791",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-03T11:25:28-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "81e5f112c427bb8c1a8f00e6bb32f966bf0a3e4c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-03T11:17:40-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7aa11a1b36c2631b8769a53e439cb5d7d0cb6846",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-03T09:29:30-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "92d2235ce6c6e88eb8f29cbd63187532e12d6034",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-02T12:06:54-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b24c310ea0631a8e7c7b2ac3352b005fb232d899",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-02T10:17:52-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c13bf26a82dc563b8b154c43bf4dec823f4e13f5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-02T09:43:05-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3f4290f6a6ef8cccfe719614707dcf788c115890",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-02T09:18:17-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae4eb81e99099ba64e2e0c4713cde1feb9825e27",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-04-01T10:58:09-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2a55c6771ac53a26eb88bfb256564c44f77c03ee",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-31T09:17:16-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "254af6c23dc12cfd9d5541b57d6850380af0695b",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2019-03-31T09:09:06-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d168c2adae3aeb483c7a3b93e44bb1276823efcf",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-30T09:15:57-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1576c44cca7534b508d9ec1dfdedf58e101f69f8",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-30T09:10:47-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6621e831f0c0f50942dd8cb391385118d46f97a8",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-29T09:59:52-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "216c854abb3a25d4e32a9ba67ed35899ed38c60e",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-28T10:47:32-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c0810b72ed0541236612bb63cbf3b7ff1061a30",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-28T10:10:26-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "66f3d46b06847e677b0763532bca559ac3343f59",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-28T10:01:37-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56ea734fb86c30b81b23e3caca16c097b37d49c0",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-28T07:34:50-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4cc64f5548223e42761168cc36bc2c0541ad304f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-28T07:31:56-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "63ae0357c45b066dacb28851b79775c55a3a3657",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-27T13:06:36-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a521b343603dfad5890b25b4024ab3a8eeeea636",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-27T12:53:22-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 67,
+        "deletes": 40,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "jpeg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mp4": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4dea4a68bfd11796e003efb8d2cb381a2f5f7ba2",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-27T09:55:47-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 99,
+        "deletes": 25,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "mp4": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54924e7c4bb24a6f10e1009286045ba3f53db155",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-27T08:17:12-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0e4765065f1639c5558867c4494e37a7072fb593",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-25T10:08:35-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 30,
+        "deletes": 15,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "498f879d49749d9b6d3e3a84a93f4f39f10ab62d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-24T16:49:50-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "608a08a0d276899e66e404cab6a0a276c06a5219",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-24T16:34:30-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "404419b3ad5d817db93ab7f58a5a75abb537e3dc",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-24T16:18:38-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "08897de765d332f4f69c3a6dcb79345a045ccc36",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-24T16:18:28-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a665841100d493430f6b302b48b7bee567035a40",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-24T16:18:17-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 50,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c944ba422f1c64016abcc3da295fc1a8cae673f2",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-09-20T09:26:16-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 74,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "81231df568d9352ad81e084125b86e89fc5f63a5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-19T12:12:51-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b5f1974637c62f31693ba85be9566589d0624ead",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-18T20:41:45-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 41,
+        "deletes": 117,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e09310fc4dc46c7dee522926ff238ef746cdc365",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-03-11T10:25:20-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f84e4583e002d7dc7b991768552f9e2d3ac24814",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2019-02-28T04:33:57-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f1d2151bc499b7156a7bb0aa8c59b60dc58a1b6",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2019-02-26T14:57:46-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f1fd54dc1258355ea89f89a3c0bf681795cc0ed8",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2019-02-25T17:17:19-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "85071bef050de54cf09dba35b2ca74d591277ad5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2019-01-15T18:33:53-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "461529f30e3bd928365385d917a29562c706967a",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-12-21T08:43:50-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b297cda5e5243b94c6b0415790803e29dbfd94e9",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-11-26T11:53:14-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7fa4dbb0705951a995311541ee82f842ff9782c3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-11-26T11:51:57-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6fdd5052e4a87a95f6201c2efb891bc1f96854f6",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-11-16T14:07:48-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3b1ff42fcd4c14dbc67a4065a44501063dc91ff8",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-09-20T09:42:29-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c958bdd9ec6549f5dfe5e405e9a98c3118002e3f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-09-20T09:40:48-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae2c8d3e67092aee56ad223eb33181e3f2b1db91",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-09-20T09:37:31-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "54573c53b8a689e6f4e47886869753bd9852f6ec",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-09-20T09:27:51-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ff6872d243da9cfc35a7386ed0b58bbf0985ac40",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-08-18T13:28:25-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "39c9fdf9fc66d3c36d333fa1e50321697f697f13",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-08-16T10:11:55-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c2fb170ba1cdbed5cbe1a2700f08d2a61a52156b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-08-11T15:35:32-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 12,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "175e78942ef328a0910959e85ce50859a8325ead",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-08-11T11:29:57-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "64971942e62284fe067a6f0775e3b9b84b561c93",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-08-10T12:52:16-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "26abb3d1007935141108a6e83c118912e9dbfe1f",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-08-09T04:55:52-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a57448d7830de313340533ba99edb206bf8e6684",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-08-04T11:31:12-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "16a772799de29a91e26690584fa6f218e8b43303",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-07-20T14:01:03-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 16,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "91c7bb4bab6bef6c912dd380a9cf4c75d0a827bd",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-07-19T18:41:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f28a8b6fabbfae90b70d1bea9d02c9b37837eee8",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-07-18T15:02:49-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "36c6a83cd6bc0555c7b36a822e0862487b62553c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-07-17T11:34:59-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5fa3a5d3d57171d6c50a22caabca2a11d11428e4",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-07-16T15:28:00-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c28b51fec9001ee814b139cd6d6ae3bd9774901f",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-07-16T12:15:26-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "008f023000a6dbae68416c9109f8ae55716c0c88",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-06-12T09:13:05-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "59c02de1b4c4ec61b1edf462eccd540b57a8daef",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-05-26T20:13:22-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4e16206463c3dfdddfb004e95eb8d032d5b2ed05",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-05-20T10:20:57-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4cd92e5c8c15775e43645c169b89735b90f1fee1",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-05-20T10:19:37-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2b151b73a57e2547f33dc3c596b1dda2eaefd3bf",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-05-20T10:16:45-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bfc46a835089543b6e31e617c8ab6d6eccef119f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-05-20T10:12:54-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "580ceab6f491a9e05bfff8cd6d946eb21aa10e03",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-05-20T10:01:39-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f82c6935d9b697463c942f1385493b94b1cb90fb",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-05-20T09:59:49-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "605dd1b01d94a0596c26627aa3625c4c678d66b5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-05-20T09:55:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "324994de1490b2261d3cecd60a75a4653168817c",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-05-15T02:39:29-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "93dd10c14ec97264763492a487408528a854bd17",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T19:40:28-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0d7a8fe1cb5e7871ae04a674ca0f0161b77fea3a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T19:39:36-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9cf97348c9b32b7538956486cec147157b22e92",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T19:29:23-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a621298d20e6e2892243621f58b888bc705d4be",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T19:27:31-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c314daa6fee5b5225d6e648cacbc92849bba405d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T19:19:30-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bedacf587655cd17ad7ee2912e20af88500e8e9",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T19:16:19-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 39,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4f58c59dd7b3607b7a9a3afc5fd39aeaf72161f3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T18:25:54-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9b8c4d7c399870dc71ecbefb880ac76053e77a6",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T18:21:29-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "270ac8e2ee6457b4fdd2cd42bb762bafae53814f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T18:08:39-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da914acd77463cc96ba198b92be72beda29c3b22",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T18:05:19-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "84b24e0294d8c6ed59036b1512701ba2584a5c0d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T18:02:44-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "556c94a7bf06a5ad343f34ba6a5ac9e3b63586e0",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T17:58:24-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6b04aa0cd3cd1407a205bf8209e578fa1e9cc2f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T17:17:27-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1769b8d113cf1b7e1e63f6022c771267410972e",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T17:11:30-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "89d3b050db26e2a343c2a562261d933a6095f5c6",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T09:58:51-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "494cd7b7d01047effd8549845f7a4a209c1e993c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T08:39:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "090689e249d27662ec43cec6d4e881d860989eaf",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-17T08:36:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "88229d7cf8d1e757bc07679620aaf3be91a41602",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-16T18:53:01-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 117,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "49b9dc0d5b4dcfb285fdf611b3c4b74c55b80571",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-16T17:46:37-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "03f4e14455baef11fe57e37316fc5a2f440a6e82",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-15T21:23:10-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "86d764caab07c1cc10a9ad757eab12faca8e719f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-15T21:15:53-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "596b3d4dba2d11834f0d1234d7052ded7dc5fc01",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-14T19:14:45-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5d0341a808827a280e22113e837dc4560f33d7a3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-14T18:34:09-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "befd4447d601370be9e42fafeec1a3f677ae79d0",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-14T18:32:17-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1a05d7727d30406cb436cedfb851ae16502567f0",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-14T17:30:07-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a0d71512b4b77eb08bf17c4375a13591c2956761",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-14T16:39:02-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 16,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82194f8e1af4332edfcdf9fdca0a31557209300a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-12T15:53:02-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f0b3be333b1fd7197c8f5ebad09062ddc5307f6f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-11T09:36:46-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 78,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b71f501c2cbad6375521aabfc28838ad68545ff7",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-08T19:45:30-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4780d4c2493d557b5f5ee4a08dfe9c12aa494139",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-08T17:37:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 17,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de52f45c415a3b0dd6f8a1ad662369686fd2be1b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-04T17:34:05-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d94ffbd2d3773c3bc08611a945f7a240d45544ec",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-04-04T17:30:41-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 10,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 27,
+        "deletes": 16,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15ce623ac9027253a1ac5fc4e7f2473cb2d147e8",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-03-27T21:55:18-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "84e211ad390721cbe0ef2e948989c1074b754d4f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-16T17:56:53-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "190de00b20c3dd76a5c43ca0651abdbe2c46dc8f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-16T17:42:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 88,
+        "deletes": 19,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2eeb1195052bc2be127f1c7b46e144f4e8ac420d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-16T16:41:18-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c28af7d5fc02bb0b2cb55170eea1580e2fa99021",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-10T20:53:15-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bdd64bd031fa9fa70fe831933eb813098fc41cdd",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-10T13:47:33-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0a4717273e624c9beb9912e60b066ad059e1600b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-10T13:08:35-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 27,
+        "deletes": 32,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 37,
+        "deletes": 39,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9268d2a2f56688847c3e8f537a30589218a77e11",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-09T11:10:24-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2eef656fc10bdfc621b7d58eb0fb9ac3ec760077",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-08T21:43:01-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 146,
+        "deletes": 52,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 53,
+        "deletes": 70,
+        "occurrences": 2
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 11
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpeg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6fdf8eed1d53fd967cf0fabe22a6ee41f2052232",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-07T20:16:03-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "71156864d0d6742b3296891d2dbb11519d5d1f2f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-06T22:28:26-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 45,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "487fb137e6e632eb69ddf8236c18b23cbd1819f3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-07T20:20:38-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fcfa83c4b0091dbc7b770e869036a8140a8daa3f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-06T22:33:18-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1dd0370954dd020400a25ef9b849025e29dbd03c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-06T22:27:44-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c751178132f9ffe00dc4a3f1caf65affb176f71d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-03-06T21:51:59-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 43,
+        "deletes": 240,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 16,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9f7421fb25abb03503e751719e8f262ff3362137",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-02-25T14:06:37-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "24f5e65bf4c7b0abfde022ea1604013d5c0ed2c9",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-02-18T18:06:47-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a44093543367bc0742195829ebd213920fb1b51",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-02-17T15:34:01-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e127b0a1501f28612bb58454d1b1ab5f5a2eb6f9",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-02-11T17:10:41-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ffdea3961851eb00e5753260069db06a96c3ac9c",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-02-07T03:02:59-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "146614f4cce36d0416b77fd9843fd0f2a2a9ff9f",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-02-06T11:29:08-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "534fa003a707261867af21b4c0079a4cd8d447e4",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-02-01T12:58:37-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78972a25fe25f1415d12db5ddc85e0b0e707de24",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-01-28T13:04:17-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4db318f612192e96e4d691fdf05c2ef0494859b5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-01-22T14:09:36-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e96b27bfb20679367add3ad968487c7987c250ac",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-01-18T21:31:22-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "17ba7f774e093a92359c2a28ca3530860a9dff8a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-01-18T21:28:17-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ac29a12fe5a85287e5e14d6b023b0bafc84781b2",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2018-01-18T21:27:46-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e50e6dfbe44c4c48fd4913944a1ce0297bfda0d",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-01-15T07:53:10-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5d572d420672fbc8e62e221912deec75be8b6551",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2018-01-04T12:31:43-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4263d4549d08d06c1d3de3db7655667589987bc",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-10-31T06:10:03-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2ba080fcbc3bc69c4e7c5e9e9546dd3f699c9a33",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-09-25T12:56:13-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b5fcfd75506d631c0f14b298e0e1a71dae34bde",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-09-16T16:56:38-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6df60c1120b91698050d932304f64fc2f752e2b3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-09-11T09:05:08-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bea614dcbc37b43549855bce30143c2fe809718d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-09-09T15:09:56-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "edbb1c5591c1e4845a3e6537657daa57dca442f3",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-07-29T11:31:05-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0fd54f1475bc02f1e35da03ec4b3c20f36e2a630",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T20:52:02-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d1109155daa9c27747cea0f1f43cb1ed17fc3bc7",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T20:51:35-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29d1f8bd02dca00e5bbec75672261d6e25676fe4",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T20:50:00-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fbd054b85afa6cc746e70ca1c18f7b3d60d3a702",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T19:20:24-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f585499ba6f4d7e9c0767b1172201945c6de6d18",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T19:13:44-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0ccde6a36ba2fa7d894a58916e3d25a937dc35e",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T19:13:39-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1b94bc83cc1fe76e0cb423da17701dbb0b1e77b8",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T19:12:17-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "45013c8f3bd3bd57600f706a31a0392f58ad9420",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T19:11:51-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "86e9d1c9fed2018b81268874023b78f47173f89c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T19:11:04-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c2d95654ab93412a7401e0285d0f1fc9e44940a9",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T19:07:50-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 35,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5b4fb39989883f536b4c0e20697b956689f5f0f5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-06-27T18:53:08-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 4072,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd9926f28b6ac251af1139f68c5d59a6c1e731cc",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-06-07T07:26:23-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de325a229dd30aa53946346eaaf19d0589685ff3",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-06-05T02:50:48-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9524a3a6e1f26158227c0605e66bb7cae64aa25e",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-05-18T08:32:52-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d45ff61831fb5cbc6e56c00634a75601db156cb2",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-05-12T16:27:34-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7d14cbbe4e5335035f2fe7c04920603e5e4d97f",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-05-09T07:52:13-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9390d72e6682c5a53ca3f545b8ba963052811b2b",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-05-07T09:13:28-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "295dea041ff134b69b63c107da4d6a5061beddd4",
+    "Author": "greenkeeper[bot] <greenkeeper[bot]@users.noreply.github.com>",
+    "Date": "2017-05-07T04:40:32-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d63cb8639f199cd3f9c5bd8b54a041e9194cb4c5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-04-28T09:41:27-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c5823f96b11740110c96bc9556ebca047b0759d9",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-04-28T09:36:41-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 78,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 10
+      }
+    }
+  },
+  {
+    "commit": "7f966f1e4005e59cfc63ec5d519f3a7541de720b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-04-28T09:17:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 49,
+        "deletes": 196,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ec09ea09565d04c163ae695fe481741044e78b7f",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2017-04-21T09:22:39-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe3390845931e778ff1db1048d0c01a59f4feeb2",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-04-20T11:30:16-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6998a32472c013eec5e825c588ac0cdcc31a75ca",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-04-12T12:15:06-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1473f9c505285da600d30828511ed0ab0e521fbd",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2017-04-07T11:47:31-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "787b510c5b0f58d24264fed55c7752d742ae4077",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-04-06T19:31:14-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 13,
+        "deletes": 16,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 4220,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a87770f0f0a889f706583aa73248de3d43409da",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-04-06T12:53:29-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "80ab63da8fb1cc872d93277915f6f54e73de3138",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-03-30T11:07:07-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "937b6c4d4d3e588028c354d9158b80bcc46d47ef",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-03-30T11:01:49-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fb942b06f4cb76d9f9db7e07af5a54fd21c46532",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-03-30T10:50:04-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "103cdf665bac677a208ff604dcbed0bcf1e528f0",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-03-21T10:49:32-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9270c7614f266c30ff1046f888de4600bc7c310c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-03-21T09:50:54-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "76c77a55b23e942dd79bebbc203559112d59f3f5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-03-20T11:45:38-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c4c07c106aece1a1e7e736dbfebe0e7e168c0431",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-03-11T11:32:04-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ece46ee2c0e4e686834bfdee2d1e1b6bd0bbd9ac",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-03-02T17:53:16-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1073a5fd13e9f5f5b6a70e9adc822cf3f572f5ad",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2017-02-28T16:08:33-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "34734967c2df38b26938457313caf1bfa552218f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-02-23T11:16:02-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c5b54635878e4748d9d3a2a9654af599e4b0298",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-02-22T12:59:20-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bda6d40ffad2e933ea329de156e72104f08222bf",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-02-22T12:55:57-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c86c0f7dee673767c1797cbab07222d931fa7372",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-02-22T12:54:23-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 17,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "3a82000b45ed5c2109dfa7341250a74088de537f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-02-20T16:18:22-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b40874fee2e9cf3f2bd52e67eb7d30e1fc9cd7db",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-02-20T11:03:14-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 14,
+        "deletes": 18,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "aea3eec29ac28772f9c44104931fa0e215637437",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-02-20T10:53:45-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "119d39a15f86e2b8ae1249ad302700bcc4021336",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2017-02-13T21:26:27-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ab4bb05f475ac6dfbe51e082292b1076c1f6d64c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-01-27T18:27:09-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d34d0e3ff92b729f61329795d820b8f259e2753",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2017-01-16T15:04:27-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "714531ad1ccda1ea3a53d6857ac6847b0970cda8",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2017-01-11T16:10:12-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1b98403776c87c9fe6df2b0d2aea848717460dc8",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2016-12-31T08:51:29-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "141f9ac7fc85b06dacf51e0e7a4d98e20ccf0ecc",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-30T11:41:44-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "754559347784441ce5f0e2101da2523b68a0ab6c",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-22T21:23:49-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b6e69299aaec734886de90650696c6ae523d75ff",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-22T21:21:28-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "96fce536f897ca82ff64487b5e15fe081ad278c3",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-21T16:22:08-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f64bb0fca1dcad88a10f0f938a1110096e7c1b5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-21T16:13:08-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ca8a6cd5f9b05ab5aa545fcb218c87a6e3176d59",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-21T12:24:46-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b48df152de7dc5d02e7f6c6a5ad880d194880db5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-21T12:18:18-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f876d7e00b488de92392f9cda1e7de82e01feb5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-13T19:04:54-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4960dae2bc4b284ba433a3306726884f10417944",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-13T18:56:17-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "49a3869a4d1572b187b1b1e5e1ac865db3153190",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-12-13T18:49:44-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "291f31c60dc6024b6237590cd7497ebd780cc171",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2016-12-13T06:33:43-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5beb09dff678a2a1d96b89313f3e01b8b84bfd7b",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2016-12-02T18:47:49-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1afd380064683d75b7e4d336de7bd8d7ae00ba0b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-28T12:09:01-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b57451927036d56e9a44fc5a46250eda98f68eed",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-27T11:23:18-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7cfc14c2deb7142fd388b201fea0e941f6ceb87a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-22T10:40:50-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a23b44b8dc187bd79c82799926cd5459353973af",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-22T10:28:26-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 24,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b7816fec395248786ecf07c5741b9345028b4219",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-21T20:40:09-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6a9e773666bdec7ed770036aff9bf3dac091de3a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-21T20:37:56-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3a7cabd6884707bfe463c3004940f1711d5f1591",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-21T20:19:03-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 44,
+        "deletes": 33,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7882117e617eeed333f056d76ab3dbaba65366c2",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-18T12:05:18-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 22,
+        "deletes": 23,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1ffc5c082e4d9a444f92ee4819bf066ad743e39",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-14T11:27:38-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d1117b2da66db102a02ca283aed80e7dfc8ccc10",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-13T18:55:32-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 13,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c8f356e69e4ddf2bc17d571e9ef9ca918251cd9d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-13T18:50:52-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "858956ec947907473a842144758a41bc054ce18b",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-13T18:44:45-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9f0c73d5799e320990f18e2d42c31ca94d194bf",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-13T17:40:41-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 30,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4f72b7ec7a483e68b7e85a1626ac44eade264445",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-12T22:45:23-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6f3c8f4d486b89fd1b78485231d99fbd8b17442",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-10T17:16:47-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8c0e6d76cf584b1f42de84d79f77c25b23c46556",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-10T14:22:40-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cc524166d8bb5f6204c71ed132040a5543606aee",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-10T14:20:28-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bd811b7547320b2399e9d0e9176d23f339f3df42",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-10T14:19:26-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70079c65ff6356052cf56629fb22df7fd969fd9e",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-09T19:39:54-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ff7e36bed10da16e1352b5770564fcacef4baa78",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2016-11-09T19:27:12-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c6e71dbd2fb943ed00564f74d4804f3f352dd9c2",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-09T15:04:31-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aadff6f4c8b69bfe3e755175ab98fdf7ed3c14c0",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-09T00:08:34-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 11,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a03d64b5ec4d3cab6592fb3023c3e2fe54e1a540",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-08T23:50:03-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3fb7d73a5fca2366ee6fb56f370b6765b8b67c52",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-08T11:26:46-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "961ea57452b496bbbe8dc631645bd274ccfc59da",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-08T11:24:10-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 51,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3da1b4912802830a6afe179a270e883150185087",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-08T10:49:27-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e375dfe55d8b237ad90d52669e49c9d7ccd9c37",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-08T10:41:23-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7366e152448cc22ca46ec3359fec26a1f60b4459",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-08T10:35:28-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c21c2b816a09ca517e49ea6c1b96ad7c2eee5ce5",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-08T10:30:05-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 23,
+        "deletes": 19,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8a6ac1946a1720efd1ec49238658a44a91b94f0b",
+    "Author": "Nate Goldman <ungoldman@gmail.com>",
+    "Date": "2016-11-08T10:28:17-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b2f8703ce9266614217df45c3db91539374b1538",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-08T09:31:10-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b154fe95b814e7635462dc55132d04f51591c828",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-08T09:29:55-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa95ea348d60eb67299fe42b3d69262476e0d597",
+    "Author": "greenkeeperio-bot <support@greenkeeper.io>",
+    "Date": "2016-11-08T09:24:35-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6645af7184dff37ee031312058321edf9f03c4e4",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-07T23:38:49-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 177,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "6d7f02db6b4fc132286d741a3da936970d17a9c8",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-07T10:31:13-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a47248ae1af9047237d4a9fae7ba98b3d5d6ac9f",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-07T10:25:32-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 88,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "580f2f4f6b8d3fdc15fadac2bde9ec62b7d90f5a",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-06T18:22:51-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ec719a034c9ed0462d2d860575d7f985046f6830",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-06T17:58:12-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 10,
+        "deletes": 38,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "647f7bd3deb63348785294b55ce524d37a79f33d",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-05T22:06:07-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 61,
+        "deletes": 58,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 39,
+        "deletes": 41,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f3238ff916bb1b7311dc2a5a351379ea11220318",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-05T14:51:31-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ece4b71b95840fb75938c1ead719e7da8c87bec9",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-05T14:32:51-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "069ac0d2c1df26088f7a6fa448d93895aef79ee2",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-05T14:27:03-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d6af3f71b77792dfb681ecb237835df69bc4d024",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-04T21:25:54-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7c52a81dbf5a2cf7579bed2b222e8d0183830dea",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-04T21:23:31-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 59,
+        "deletes": 58,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1b43bdfa295a3e1719fc98d5a5e2fb0badd3242e",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-04T20:47:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 55,
+        "deletes": 125,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 37,
+        "deletes": 14,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 58,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "dcb0bd3f233f9704195fe47d179dbee708efe8ae",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-03T21:38:24-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 60,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "703d734711106489d59c81f96101bdfa652f9859",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-03T20:57:50-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 65,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 23,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2df52e80f86cdba6e2d986b0c36fbef781b6e75",
+    "Author": "Bret Comnes <bcomnes@gmail.com>",
+    "Date": "2016-11-03T19:43:54-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]

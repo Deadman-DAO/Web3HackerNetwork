@@ -1,0 +1,1156 @@
+[
+  {
+    "commit": "808fb55e7235a201ea862e02dab612b87787d5a4",
+    "Author": "devgs <devgs@ukr.net>",
+    "Date": "2021-11-19T07:26:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 60,
+        "deletes": 55,
+        "occurrences": 1
+      },
+      "rl": {
+        "inserts": 15,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "conf": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "pl": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "555d3b3671dbd896e8e107dea773d452e3334c65",
+    "Author": "devgs <devgs@ukr.net>",
+    "Date": "2021-11-18T09:15:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 89,
+        "deletes": 9,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "conf": {
+        "inserts": 24,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "pl": {
+        "inserts": 33,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "51cf45d3e9f51e02224af017b235d1d30fbf28fb",
+    "Author": "devgs <devgs@ukr.net>",
+    "Date": "2021-11-18T05:50:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 89,
+        "deletes": 58,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rl": {
+        "inserts": 19,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "pl": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bff10ba7314c201dec2ed8cbcf75d585ba4d433e",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2021-11-17T07:18:18-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "660ad956a960703558b9368a2474e85ab7a7d1df",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2020-12-23T20:14:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 39,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 34,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c79935a9de4ac3081d4c7eb811c8e98d9b71249a",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2020-10-24T11:51:46-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf8cb1785b8b05037a93be98765208492a49cbd3",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2020-10-24T11:32:19-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 6,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4bd3ede78fe6e4684048a9be0f105192719cb761",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2020-10-24T11:31:44-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "63bb823a1ed1b6f03b1bbd8ab3fe901129e3c272",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2020-10-24T09:59:14-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e8e396e147fa46e5d9b3f81f2f7013efe6863e43",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2020-10-24T08:44:42-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "763aa32cc083d37f68f7425d5a351e9293ef1084",
+    "Author": "Mikhail Nikitin <mikhail.nikitin@ispringsolutions.com>",
+    "Date": "2018-05-21T14:31:19-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5654bbef36b180d71c3cc83d71f0fce5db3bfae5",
+    "Author": "Mikhail Nikitin <mikhail.nikitin@ispringsolutions.com>",
+    "Date": "2018-05-21T09:11:32-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 17,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "255cf540ac53865df93e022bb8c20f1a1e9a54da",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-08T03:51:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 54,
+        "deletes": 35,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4d1e1b4c87dce730d8db224e0f82c4cac2bfbb36",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-08T03:16:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "67a13555a4f1305cfe08487bb4341218d1843aba",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-08T03:11:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a770e49e6f45d6ec06bca291df8dcfb836a6b70b",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-08T03:11:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8e6fff47501014395531c252afc0ada66fe9510",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-08T02:56:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 13,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "67072ad6e703a74088715ce03c32db6d228dfbcd",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-08T01:20:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "209f596b84d14916998d1ff9303b2055b8c235bd",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-08T01:18:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb3f28ce7d566dbec1095de44f5b821a387e295e",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-08T01:13:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 87,
+        "deletes": 116,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "pl": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "67273e3018791fb822d76f761e130d60fb231928",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-07T08:39:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f9871847860b1a51c837d2e45b0feab50a844d51",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-07T08:31:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 26,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19cd3ed5924df83e733f8029a84c90c377e09fb3",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-07T06:17:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb314e36c502b6d9b61a2f6147b099fb5e1e9a46",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-07T06:02:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 97,
+        "deletes": 62,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4fbda8f2be5eed421d65577282e58d32045e6e3",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-07T06:01:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d63a847e9015bce095b5b1554d5a9f61cbb98060",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-10-07T04:30:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 19,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5ae85b322cda18daf9cd01a81e3525dad2c3521d",
+    "Author": "Karl Southern <karl@theangryangel.co.uk>",
+    "Date": "2017-08-14T02:55:59-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "db733d7e9e02539aab3004184d540cbbb36532d7",
+    "Author": "Karl Southern <karl@theangryangel.co.uk>",
+    "Date": "2017-08-10T09:39:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7f9f8bed53a9599931caf505a655f8dc4c640a6",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-07-10T14:41:28-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "77f55394c0d58955bece5ce2db150a2efdad2139",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-07-10T14:28:06-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pl": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82cc22fcf9d97dffd6f86f0f764f1777ae0b788a",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-07-10T14:27:43-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8754275ec568c49a10d10e5567ac8b5942dd9cd4",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2017-07-10T14:11:32-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "markdown": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6943e6bc3b3d34db78485e47cb9f5045fcbeed8a",
+    "Author": "nanaya <me@myconan.net>",
+    "Date": "2016-05-29T23:06:55-07:00",
+    "orig_timezone": "UTC+09:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c859a3d963f9e79a651abaa428c0c766c103127",
+    "Author": "nanaya <me@myconan.net>",
+    "Date": "2016-05-29T23:06:21-07:00",
+    "orig_timezone": "UTC+09:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a24cabe2bd33a7c483cbeb3d250655e82e38799",
+    "Author": "Anthony Ryan <anthonyryan1@gmail.com>",
+    "Date": "2016-05-24T16:50:55-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f8b1e84c0c7fd928470d78bdc33bd69e66885e49",
+    "Author": "Anthony Ryan <anthonyryan1@gmail.com>",
+    "Date": "2016-05-03T15:24:35-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e85b88ed74cbcb1d51321342b103bcddf83fab73",
+    "Author": "Anthony Ryan <anthonyryan1@gmail.com>",
+    "Date": "2016-04-26T15:52:03-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 41,
+        "deletes": 51,
+        "occurrences": 1
+      },
+      "rl": {
+        "inserts": 10,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "374c795c7125ab603c67ae438f2e03250d148a81",
+    "Author": "Anthony Ryan <anthonyryan1@gmail.com>",
+    "Date": "2016-04-26T14:43:51-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9f68cba9b0dab030dbbd728961f440cf7e8b3e32",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2016-01-28T09:28:52-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f8a0c5cfb9c8fd7ec0445eb42a84e26892b506a7",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2016-01-27T02:58:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "30de3398529f99b36f966e132765b1a934be36f4",
+    "Author": "Anthony Ryan <anthonyryan1@gmail.com>",
+    "Date": "2015-05-07T13:06:27-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 4,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70c7056909f312fc11791bb957e332eced6f4c4f",
+    "Author": "Anthony Ryan <anthonyryan1@gmail.com>",
+    "Date": "2015-05-05T14:56:46-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f37c8b93872e1a9c3e75101b24c0e0ae4e4b80b",
+    "Author": "Anthony Ryan <anthonyryan1@gmail.com>",
+    "Date": "2015-02-13T08:40:03-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "markdown": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4db5ed961d747971a6922f0f0d9610b1dfd64698",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2015-02-13T08:34:21-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "rl": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a261a8a1eda1ab54a62e468e69f6ba85057e5ff",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2015-02-13T00:33:47-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 20,
+        "deletes": 18,
+        "occurrences": 1
+      },
+      "rl": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6b348cd0585d9600c319f37368a2cdfb5f363154",
+    "Author": "Manfred Rudigier <manfred.rudigier@omicron.at>",
+    "Date": "2014-04-11T05:11:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 112,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4b2979c4b5ebc72005b4744f9941a885dc1aee12",
+    "Author": "Manfred Rudigier <manfred.rudigier@omicron.at>",
+    "Date": "2014-03-25T07:41:28-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 103,
+        "deletes": 64,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ffc053dfce9aeb911134442527002a5b45d5a2f",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2014-02-20T22:18:09-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 11,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5547901547f6807472407bbdbbf2a304356e5bad",
+    "Author": "agathewiky <zetao.wei@gmail.com>",
+    "Date": "2014-02-20T02:02:50-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c69ff597e17808e57bee5b68162c56957043927",
+    "Author": "dup2 <zarkov@ncode.ch>",
+    "Date": "2013-09-19T15:33:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "pl": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6f71b118d7082f79aa258e20894d52afb575800c",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2013-04-28T09:02:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 26,
+        "deletes": 25,
+        "occurrences": 1
+      },
+      "rl": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3d1521108ca46f9550b0b2571bfe1fcdbd3fa29b",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2013-04-27T19:40:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 50,
+        "deletes": 28,
+        "occurrences": 1
+      },
+      "rl": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dc0991f646a00d542887ade6c2795fb48595a5c8",
+    "Author": "Vlad <frolvlad@gmail.com>",
+    "Date": "2013-03-21T16:09:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d8fc9c0c45617933dab59234120c11ed3b81a756",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2013-03-01T13:34:45-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dce4dd431200efd7be7b861d11ce4657ed1b7661",
+    "Author": "devgs <devgs@ukr.net>",
+    "Date": "2012-09-17T23:02:21-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 20,
+        "deletes": 20,
+        "occurrences": 1
+      },
+      "rl": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "22d2f386dbd23d0bcfeeaf05ef8b7844c585b599",
+    "Author": "devgs <devgs@ukr.net>",
+    "Date": "2012-04-12T06:30:39-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b5d336231ac281fe79e7ba79afc41bb3e3b6d3c9",
+    "Author": "Evan Miller <emmiller+github@gmail.com>",
+    "Date": "2012-03-17T13:13:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "67301a28e6e58c2be5b19ed715cd7397c89aacfd",
+    "Author": "Sam Smoot <ssmoot@gmail.com>",
+    "Date": "2012-01-17T20:38:43-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb9fa0f532fa2123c2b30c86c99431564178656a",
+    "Author": "Sam Smoot <ssmoot@gmail.com>",
+    "Date": "2012-01-11T21:04:50-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f8ba5038ef6a907533137a9327230296d6e203c3",
+    "Author": "Evan Miller <emmiller+github@gmail.com>",
+    "Date": "2011-11-13T09:49:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2657fc82541ba3222747b745d12ebf237f4150c3",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2010-12-31T19:21:42-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e646efab969d6b000932cfc680dfa3c40dc2b9f1",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2010-12-31T19:16:43-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03d59749f32f29b3bc5eb73f60d994cd6e21dbd9",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2010-12-31T19:16:14-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f3e6b0331cb00aa6e5c57c15b770fabc94d02da",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2010-12-31T19:14:29-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 23,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a1fe308941ac4e30560f1f3bdffc5607e36d4bc8",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2010-12-31T18:51:36-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 29,
+        "deletes": 28,
+        "occurrences": 1
+      },
+      "rl": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "30ac645c440a05a488ab8e8f96a74ab0d611716f",
+    "Author": "Antony Dovgal <tony@daylessday.org>",
+    "Date": "2010-11-14T15:19:21-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 13,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "46efeae00a28b8a7958ca16e2cfe154f73c6576e",
+    "Author": "Antony Dovgal <tony@daylessday.org>",
+    "Date": "2010-11-14T05:56:23-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 149,
+        "deletes": 32,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rl": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0eac32ab0bc9e7b81800b9ce0e7195769ea56b80",
+    "Author": "Antony Dovgal <tony@daylessday.org>",
+    "Date": "2010-11-13T12:54:20-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4dc7e01c0b5845f48cbf62337ba4990b47bb0d38",
+    "Author": "Evan Miller <emmiller@gmail.com>",
+    "Date": "2010-09-13T06:31:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4f61592b9481c4f9a160bd59dbe42204c7c3d7b2",
+    "Author": "Evan Miller <emiller@micawber.(none)>",
+    "Date": "2010-04-04T06:03:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "conf": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "db7c1e35c9b6062dc83586b49d323fd2e20f85c3",
+    "Author": "Evan Miller <emiller@micawber.(none)>",
+    "Date": "2010-02-20T19:18:06-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "911b447c2b96bf28cd89d59e00eae3774d8a7897",
+    "Author": "Evan Miller <emiller@micawber.(none)>",
+    "Date": "2010-01-26T20:19:46-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "c": {
+        "inserts": 442,
+        "deletes": 346,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 90,
+        "deletes": 28,
+        "occurrences": 2
+      },
+      "rl": {
+        "inserts": 38,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "conf": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "pl": {
+        "inserts": 76,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0cc6eb37d1ac36d3ce25ffaadcac1618e16642aa",
+    "Author": "Evan Miller <emiller@micawber.(none)>",
+    "Date": "2010-01-06T09:14:54-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 41,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]

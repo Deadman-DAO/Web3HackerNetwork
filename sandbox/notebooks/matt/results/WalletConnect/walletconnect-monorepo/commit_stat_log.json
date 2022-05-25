@@ -1,5 +1,370 @@
 [
   {
+    "commit": "d7d1293bfa0c22f4b611486faf517fd3e452aefc",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-24T06:36:45-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 40,
+        "deletes": 40,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "def68599b8300999f7a2c6dbe5225a6e3203ef09",
+    "Author": "Pedro Gomes <pedrogomes94@gmail.com>",
+    "Date": "2022-05-24T05:21:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aca7c9b8c2b326336f677348ca13d69c26e6be5e",
+    "Author": "Pedro Gomes <pedrogomes94@gmail.com>",
+    "Date": "2022-05-24T05:20:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 17,
+        "deletes": 17,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 233,
+        "deletes": 222,
+        "occurrences": 54
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 7
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d32fbda93c8411d63fcb1f3b85c8831726217ade",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-24T01:57:29-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 42,
+        "deletes": 42,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "9c25a0413d00e15d5eb38f3af498f917e7d4f58e",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-24T01:14:54-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 8,
+        "deletes": 67,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "8f85ee92789b9873e1d1f952316d0788053e05a2",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T09:12:14-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "9ba1f22b6291ca8a9ed83a4b3ddcf7eec886cfa5",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T08:41:19-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 9,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "fed94bc715ef4a69284de308bb8c3a82f685c6e0",
+    "Author": "Pedro Gomes <pedrogomes94@gmail.com>",
+    "Date": "2022-05-23T07:35:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "49285032782c79ff121d916dfeb7abe00e01298b",
+    "Author": "Pedro Gomes <pedrogomes94@gmail.com>",
+    "Date": "2022-05-23T07:23:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 32,
+        "deletes": 26,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "7f62e2ab1103e12e18fa7537ba4c0f1f9f1f35e5",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T06:47:28-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 42,
+        "deletes": 42,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "0e249a3398c80ef6fd41c04188410b196be4c5a3",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T06:34:55-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a3730163da17beef7e42109c55ebad8067b6d219",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T06:08:04-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 90,
+        "deletes": 87,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "b234c2e189122d926d28f1e5b42b83b0f80cd37a",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T04:55:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 32,
+        "deletes": 21,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "6666468061c0e665bf1bbb11299d2e70557a4f85",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T04:36:02-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 29,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "850662c0e0a4cc7d65ec15e25834cfd78dffbaf1",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T04:30:02-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c03e8d4d05b9ab25edd6360fcfecdc1a62bb926b",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T04:22:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1454,
+        "deletes": 1543,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "9d2bba9c5c10c0d404fed6a601f68bf1a9d24ae0",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T02:17:26-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 55,
+        "deletes": 6,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "aeb8478a0efdf1b3d7b955307ddfe61fcee7e06a",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-23T00:40:31-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "4963a7fce8dfc25fecd9d99625030b7af42169cb",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-20T01:05:46-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 40,
+        "deletes": 40,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "5808df0fedd50eabb9d7b0905a03677c5031d561",
+    "Author": "Ilja <IljaDaderko@users.noreply.github.com>",
+    "Date": "2022-05-20T01:02:16-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 30,
+        "deletes": 34,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "2c4a56d0e80a60c4a80a2d71328ed307f9ff82fb",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-20T00:24:45-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 30,
+        "deletes": 34,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5abf08b1bb4d569d664ee4368d3503b46be927c8",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-19T03:29:54-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8f03cc6190d764dfdc7124c33222c1b24a6f72a7",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-19T03:00:29-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 40,
+        "deletes": 40,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "d9a6948182e2480ec88788f36ee934fdcc84a648",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-19T01:52:53-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "0b2c3ec4f9fec9fd3fab375b08ba1836008f17df",
+    "Author": "Ilja <idaderko@gmail.com>",
+    "Date": "2022-05-19T01:38:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 34,
+        "deletes": 33,
+        "occurrences": 4
+      }
+    }
+  },
+  {
     "commit": "dcf168875f91c48939e5f2afbaeb1b5c404c18fe",
     "Author": "Pedro Gomes <pedrogomes94@gmail.com>",
     "Date": "2022-05-16T06:58:42-07:00",

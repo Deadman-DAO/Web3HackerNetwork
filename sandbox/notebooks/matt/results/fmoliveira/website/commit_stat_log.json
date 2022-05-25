@@ -1,0 +1,7814 @@
+[
+  {
+    "commit": "77e594b56a8c8683359bfaee078d1becdee7a0cb",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-08-26T17:57:50-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "176a28878beab9bc394a4cbcf2d45519b254865c",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-06-26T01:26:10-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0247940c8999f744eb350ffc67c4bb5b00514695",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-06-11T19:08:35-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3dc4136c793333bf6156f24945956925ab46608a",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-06-11T19:05:19-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1eb21cd9950a86cf6242e349c14949d380a481e0",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-05-29T16:09:32-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "njk": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 111,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29969b154458bf4c0f319eca5eb77ba39457e8d7",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-05-24T15:14:29-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "352330f77e543a5c26a10a4a6a57ed653c6aa9c5",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-05-24T15:14:07-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9595e387c2953443ea91ee3d3b55744e874015f",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-05-24T15:07:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d75bbf8fc954b231400a7b91afa763bdb245dea4",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-20T12:41:33-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1c8afdd226c20314d95b60abdd7b01e188f18883",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-17T19:41:00-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a150803a7da0ed41ce2a3ac34f27c5ec5edef2ac",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-13T06:24:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78313a9be12d0a5b676aea3196bd75aefa3a54b4",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-13T06:10:24-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03b6059f1f90ef993d7415b6c6b70642b22841b5",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-13T06:08:30-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3eb9ff26dfc60beecb97a8d74f31021049ccf891",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-13T05:54:47-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "toml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2d56e306b2e5a21cc0109d68adf821ce67d0fca9",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-13T05:37:07-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "39c61fd4787eccf3ed82a237e2172ce87f969be0",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T20:10:56-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "602a74cdbd3c7a6665ea76c70b65511d7af55f02",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T19:52:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "toml": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bd0ba6fa577f190d33ac9217c311af4ef3699df",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T19:42:41-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a3390c537b34d881cfb9d06b00552e839158cf7",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T19:39:51-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "94e48f763be00557ecd9967341231798ecd868dc",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T19:38:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8daeec13db977a61066a3f11ab01885be8d2f87d",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T19:27:14-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "4f500b065973ddd3ae5be22c5a7ccd94fed8d859",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T19:27:26-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 32,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd27929881f4f9faba3f032c807e8f690001bd05",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T18:49:01-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f3f555243ac02f37d5605ed2fe78d631cb36052",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T18:33:10-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 69,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bab2517ff6ecc0daa899a4f5555736d7fc9d870f",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T18:32:50-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "d6c5d87f044801b651b2792366234a659b2849c2",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T18:02:13-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "195da2463142dd3396e727ec3f38f1423b5505fc",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T17:58:32-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e93459221f53caaaf10e9de90fa8595ab084ce97",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-12T17:51:21-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a871ca2e3fc2563fd346bcd44eb2b383fe1740e5",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T21:00:21-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1f719ecce0cf24698ddbb07b11951aba76b0ab25",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T18:14:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ef7341902f25bcedfbff276608566a7e6acd66fc",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T18:12:05-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "541989d0cf39c189cb55fb371799a04f153c2fe4",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T18:04:10-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5a7f6f47c5ed2b3ba6509ae60883ba698bead18d",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T18:00:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "946791eb3c27c88b5f1d43317e6a409c1d5dc067",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T17:14:47-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "264cdeef5fcc59ebca713cc8bf3f4a2f9db31798",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T17:14:38-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 17,
+        "deletes": 11,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c3e9ff3b462a3d6458888f07f843093f72542f36",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T16:53:07-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6cad4aa48eb73e1d509190433909414fcfd87342",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T16:39:09-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7f461cbe02c6218bcc0bb8ed9aa5c0517a795a81",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T16:32:06-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "njk": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "74e69787f81510494fb1e8e3687fff6f8933f5b6",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T16:07:24-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "njk": {
+        "inserts": 23,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "382aa35f4ab740910fe59848cd02b512191515f6",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-02T13:44:01-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "njk": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 381,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5c97d981940ae5652bd7ea30b378ff3ce8826ed4",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-01T18:48:16-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "45193fdeafd262cc776dfcf333da9c41a674a45b",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-01T18:34:21-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "njk": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d36f39e5520fbb60ffd728e101a2f40de1935238",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-01T18:26:40-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "njk": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 15,
+        "deletes": 15,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "29eae9ffb19a8bec824fb93a318e7e66cda740f4",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-01T17:54:11-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "03adf0c2b6568bf8ae7354711e19004a79a1e5b0",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-01T17:33:17-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "njk": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 2311,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e8f96f24766858bd403f0fcee2083d93c66e937a",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-01T17:30:46-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 132,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cccb7e7a202e89d585f04c49045903e3b8cf06b1",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-01T17:27:10-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 96,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 512,
+        "occurrences": 15
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 79,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 36,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 0,
+        "deletes": 386,
+        "occurrences": 10
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 105,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 12287,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a53753c9b860225e2960f450dad1f6f2650d641",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-01T17:18:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d0efaa983f7bc564c3cd72eb0909d16d8de9f105",
+    "Author": "Filipe Oliveira <hi@fmoliveira.dev>",
+    "Date": "2021-04-01T15:49:23-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 14
+      }
+    }
+  },
+  {
+    "commit": "4e18bdc58e5e09738e6d61ac1d43fb36116d66b0",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-10-05T20:09:36-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 24,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cc2305df38ec3754338bd33afb974a13b632a340",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-09-15T21:36:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0de213bda516fa7f65b91bc74d37cd1def01eb17",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-08-01T23:42:16-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 45,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "616bdff672713b70aa2a6401f235f819ec6b08e8",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-08-01T23:21:20-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cf9bc9a0b4183897a478dbdaf4cc268d55c58501",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-19T10:13:09-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3079e65adc6305e16baa65c8c2686f6ce5546cc8",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T05:25:00-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8d4c83b621dd54f9592262b9aec897e309047729",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T05:19:58-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7f2a34b987ad73e6b1bb696586370c6c3b1ea07b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T05:04:43-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5058a833af86ecfe5ed1b6530133335edb13c34d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T05:02:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a8b2d079c58a88540cdfec8a028e61ce23825abe",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T04:52:08-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "298472409b53229fe4883779e6c60072867b874b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T04:47:51-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "65817ff7e59dfdd7b85d2d43044b2459e0b6bf38",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T04:45:54-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "4def59775b8e909a5eac4a77831f12f883c12a2a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T04:45:17-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "570f92f0c8f51999cc18bea618ed2ab9cf1d8c77",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T04:43:06-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4af7acacbe8d96ff7ca5b8aa7547bd9658d2b092",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T04:40:22-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29858480c7a2bf787b81210133845a81a00b30e1",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T04:38:18-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f8144c00033cc5472beb62fe40f0f50a29ba9e0f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T04:36:09-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82ef6c02e2b38f3851fd175903131aa1bd64368b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-18T04:32:47-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b8f5d3c7f24c5c7c75d6bd7cd5e17738812f9ad2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T20:01:22-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 16,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b72502d80cdc8f9bd6dcc1c64f6a955a0818fe7d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T19:44:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f11483afe83b39863bb13b63681a956e80a1f19d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T19:43:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 29,
+        "deletes": 10,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "811f82783d4cca3eb2c226867b8d15898a36ff03",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T19:38:08-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "faf0f262608315a82ccfd2a4c2d7e2a74a444b2b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T19:35:41-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c9e9d0381904aa683eb8817908ae87721e67ad8c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T19:33:20-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 61,
+        "deletes": 3,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "22596f0d09a36baa1f7fa5b02bc79966044df08e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T19:26:35-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 72,
+        "deletes": 2,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "6d31b932f4127e3fc3eb9203bb45a94cfb9a7e28",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T18:31:29-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "285487a11d506b2cb4dfdae5734bd89a3f1dc40a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T18:26:58-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "a5527389281a04b50362bf43d2e55273e6eca615",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T18:19:55-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "514404180d206c03c235713975c26b5eacd8f077",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T18:04:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f8bcd40c1bb49b871df4aaeb32599f682f9856a1",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T18:03:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1b2c8dfa460a314bfae297041883bb03dda2e547",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T18:03:38-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7984475c507e854f407902da59cc4e07eacf2e7",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T17:53:31-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0fbfce13f330e610a75d9308601ef035c4ebf0c8",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T17:52:38-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 15,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "56e2a046020cfc095724e7dab6278444d9ac5361",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T17:48:21-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 19,
+        "deletes": 17,
+        "occurrences": 6
+      },
+      "css": {
+        "inserts": 44,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa0dec54859b08ab3609d6ec38531f3a2c1996ec",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T17:06:04-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 55,
+        "deletes": 3,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "d8500106f02ad35d08e9ce89ebdc7db7eaf137d1",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T16:22:58-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 44,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 55,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "dcb2ce76a651819f30c53e2e1f0f67a3414a917f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T16:04:23-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 56,
+        "deletes": 2,
+        "occurrences": 3
+      },
+      "lock": {
+        "inserts": 642,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "73f7adcb252e5e12ba9b04edb6fb8482b644b952",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T15:34:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 20,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "b9d168f82808a83454b45f19defb6f7e7500092e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T15:23:07-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 37,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ab2a35bd72256d143facafd8217c42b18bc00be",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T14:25:08-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dfce58910956d47648834351e2390972118d80be",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T14:12:04-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 15,
+        "deletes": 2,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 190,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "52254961d6969fe008acdc7a7c5f6d54c2bff02a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T13:34:17-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 74,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 102,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 11465,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cf3ff5a8277f731ae75174ffcb8b982859e2c1a3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T13:21:27-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5245cba2e963f737f5f7ab927224ba2aae931113",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-17T13:09:47-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 94,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 71,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 17,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 14518,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6e01ace8c2e773c8bade30c531b85d8c6e6ce840",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-03T02:35:03-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dfe51b31782944f2f4a94af9f271db04ab55e0a3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-05-03T02:20:13-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 91,
+        "deletes": 80,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "a66afc87c635c1bd39030b346b35dcda9a69a3bb",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T07:54:08-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54a2e446615cb73d69952c038516dac664f93125",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T07:51:43-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31dde9ba72a0f3b928aaaafb632ee95015758edd",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T07:31:57-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "23b9a62cfbb11afaa2f062001e7a31ca672266da",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T07:30:56-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2f23776ae0b65f5c49c42c1f958d8f979015802d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T06:10:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1077c23d8cf1ea7c06a214d9e0d90aa499b3be9",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T06:07:19-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b857eaa18e9a827cd0e231edf134eb60e3df3097",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T05:21:40-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b1dc70a28a20b39627522c7a243ea21bf2dc210",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T04:59:11-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e44fed6324fd8a69c7dcc103ac1ea96e0e589c9",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T03:01:41-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6847d42c2ed8816bf394904d11f76ff4c577cc07",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T02:27:36-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4fb29912991415e34d126d5f07ff020d45243e6",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T02:25:23-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "081cb38149a3e79e469bb0918c70dd9f298480aa",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T02:25:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cef0ab6f7a43e09049f3c3796fa0786b3a883014",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T02:25:09-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2333ea74864ebc10d671ab947fa81f6eae383bcc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T02:22:47-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c5080c1acf5e2b4b618e4b1f4f9b4c99be1c45bb",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T02:22:14-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "mdx": {
+        "inserts": 69,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "83c7d260603b1639091f4d91fb943d375669fabc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T01:41:14-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0004f9af04b9d55f0d9f1debcc5ceb2f56b49bfc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T01:25:29-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 95,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "59dd723de5b1cdbff67e5405993a0cf56882fc93",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T01:23:28-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 66,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ee9c2e474f642d8736de3be8481adc7a38e52494",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T01:23:22-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "mdx": {
+        "inserts": 0,
+        "deletes": 41,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "77b23b23c8a1b18c9c97bcf082beda0197b15134",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T01:21:17-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 21,
+        "deletes": 28,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "40c09a3a03d0e33c016d0bd163cbe707bb181715",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T00:51:13-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 94,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 97,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mdx": {
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 65,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "json": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 14518,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4cbffb6007624130a50cf950161004c253b3db06",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-22T00:44:32-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 105,
+        "occurrences": 4
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 162,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 684,
+        "occurrences": 13
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 16621,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 612,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 114,
+        "occurrences": 1
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 13396,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "813fb7e86909791bc100be2e1d26ad56a8074c0e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-21T14:11:35-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 105,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "md": {
+        "inserts": 162,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 684,
+        "deletes": 0,
+        "occurrences": 13
+      },
+      "json": {
+        "inserts": 16621,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 612,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 114,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 13396,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a399af6d98f156c92caae2784c5751ad2f6a6a8",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-21T12:53:51-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 100,
+        "occurrences": 5
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 165,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 56,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 48,
+        "occurrences": 1
+      },
+      "tsx": {
+        "inserts": 0,
+        "deletes": 344,
+        "occurrences": 12
+      },
+      "ts": {
+        "inserts": 0,
+        "deletes": 22,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 12938,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "750dd257d36874d71d4ae7e6e972540deea02ac3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-21T12:42:05-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "804cc37a4a74aa3117266f306895aade1e7b9844",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-21T12:41:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 41,
+        "deletes": 48,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b2326ae9187af6b02700807612d1b3872fdecb24",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-21T12:39:45-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b60001931397305203482d5d807f2fc2c3311301",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-21T12:38:56-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 29,
+        "occurrences": 2
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "42bf51b45fc1c1c90ac9903fa90caa5e83b944ef",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-17T02:47:08-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "903413bc188bcb2606b26f73e82fc483d3aa16d9",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-17T02:36:40-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 19,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "e187b50e9d20a8a2604cd9567defb22301e9f6dc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T21:08:11-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 66,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29ebc6757a3f2ed295258c048d3424a3463bf15a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T21:00:25-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "svg": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "215315f2f25f15e8a41d2609192b13682a6ad094",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T21:00:20-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 42,
+        "deletes": 7,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "02cf1dc817728603b3539143577af23235375870",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T20:42:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 56,
+        "deletes": 8,
+        "occurrences": 4
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2005af712c1b5cf63aa65caa48b220a4d9c33498",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T20:32:05-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 11,
+        "deletes": 5,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "fd238b6bd073acb3293f8479f5997101e3324577",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T20:26:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 26,
+        "deletes": 7,
+        "occurrences": 6
+      },
+      "ts": {
+        "inserts": 1,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd902e9c13a01eedf543c183a5d024efb7f6202e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T20:20:38-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bc6b4c0e9284491a452127094accbbde1daadcb9",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T20:06:45-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 0,
+        "deletes": 57,
+        "occurrences": 3
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2dcd5f8308765686561b442873c81424dbe5c9af",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T20:02:27-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "15fe84e2ab70f96962db0b26768107012e3b1e21",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T20:01:18-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 87,
+        "deletes": 46,
+        "occurrences": 7
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 630,
+        "occurrences": 2
+      },
+      "ts": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b9c5accc41f0589f3737c263ef49177ada9559fe",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T20:00:48-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "ts": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "263d79b768d5d423fdaefd23a74470b3138d5edb",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T19:48:24-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa3bc24b1e6035c6cf20ff7040e5dae9a70e5528",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T19:34:16-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "ts": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1deb75a9569afd1582c25f657980d266343b05ee",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T19:30:40-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 109,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1efe378a7170feef8c7ed9e791295fc17572440d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T19:30:22-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 124,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9a04c70bd31b7530c13d30cb432a608eacd81ebb",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T18:54:26-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7eb035527833a53219afdf525e8e5e4d408dce9c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T18:47:33-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "be2451ee6d51c3fef9f8d14b81de91c1eaf8fd7e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T18:38:28-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "tsx": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "8ac474538e439901681d02a7d54ea88806c6b3da",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T18:27:39-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 42,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "909ec5aa17ed9b80f389863ce0f045b8e818b21e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T18:19:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 32,
+        "deletes": 2,
+        "occurrences": 4
+      },
+      "md": {
+        "inserts": 99,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 319,
+        "deletes": 0,
+        "occurrences": 11
+      },
+      "json": {
+        "inserts": 44,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 622,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 12662,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ac050aa670b8370793cc2ec31f2c1b94f757db72",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-04-16T18:15:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 35,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 162,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 684,
+        "occurrences": 13
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 16621,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 612,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 114,
+        "occurrences": 1
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 13396,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c883424212d3449174666d6fe6ecc27f66d71f07",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-02-17T04:16:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b0ec8fbc804cb775f30079eb8deb45cd1ca28b5c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-02-14T12:04:57-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "530001c072fc7fc4da23a63ac2ca48cc05f2474e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-02-11T11:43:50-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6721d125fd3aaf730ca71132e129218694933fb5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-02-07T04:19:07-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61637025f7009dca67141753d401a5302716ba09",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-02-06T21:29:33-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 66,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6be3ff5627321c682249ec63510e9d55344ecb3e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-02-06T20:21:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 82,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 80,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "47becacec1559c9f5a2fd0a09ea6c46abca2f136",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-02-06T20:18:20-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 107,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 6
+      }
+    }
+  },
+  {
+    "commit": "82afce069702fdd0b0006532e043fea7e18c6142",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-01-14T04:09:14-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "05b38653950b1b0140385c524667288d3b5276e5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2020-01-14T04:07:00-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ae3534713a31153ecd7656a02e50d077dd9791f6",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-12-19T14:42:11-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2deee1292e4673e1e5b4b4780c93a47b686f08c8",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-12-19T14:37:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 20,
+        "deletes": 45,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a088929948633b081b4bc44dfbbf2dcf817b4630",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-12-19T14:17:09-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 69,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e1397726fc8cf049fbf875648b4ecfd6cb20c18f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-12-19T14:10:32-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 29,
+        "deletes": 29,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 5249,
+        "deletes": 4207,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5f253bd79d713d5255f6344b6d23e80d13bcabc3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-11-01T10:41:25-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 69,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ba87751e0c26c57e85034516a1660c783dc2484",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-10-29T11:16:30-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a49895950c2f89fddd552b767eb7f3410578a89c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-05-13T20:23:27-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5ba83b27178762a741ebaca27cc7fcd2209f4a16",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-05-13T18:28:48-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 170,
+        "deletes": 30,
+        "occurrences": 5
+      },
+      "json": {
+        "inserts": 80,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "96e76081d4ae81c0819f3228bdefe991b263be1e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-28T15:29:56-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d708024c05dd331f1e25cb126873546d962d9a20",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-24T21:37:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "md": {
+        "inserts": 87,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4ab53a16b549ccafd6c8f86280edcfcc5b8c7920",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-24T19:40:48-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df2b8747d46a9bd5ddd4838ce1e80d92d4e73556",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-24T18:52:51-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8f8f92f82a254c687a0ffe8005d8501be21ef103",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-18T12:45:57-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cbf50d5ade89858d22bd4b0419b999b438d06f35",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-18T06:23:02-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f2b5ed4236d977ce55ad91cdfbbba513f78f855c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-18T06:21:36-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "62854b1f17284b0ca4a1e62cd2e870dab8e804b8",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T20:24:49-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c3725a63b154aa54928df1bea3c6bb7c8ba11bdf",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T20:14:54-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c26005d3ca7d15b605983a71073f750ac77e1d08",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T20:04:32-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a9c9ed56ab22fc748cb0b257bdcd1d38539e78d2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T19:53:16-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "10e8ce098f28313d2907917a5ac45089541253bf",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T19:33:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "48f2b151ea9a2a8ef8c180019c640f6d3d7b87b2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T19:25:58-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "850d89e39da866d82e6ab902473676a0a3ed882a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T19:22:53-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "580dee2efa4f9a638de075541a8768e92a4b4c82",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T19:22:31-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4832ca5a8429addf7a265b74d6a6d5bba9964f2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T17:08:00-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 112,
+        "deletes": 63,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 27,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ad6607aed2ac0ab1adff6b0f488ec5afb5947dc7",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T16:45:23-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 141,
+        "occurrences": 3
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "45022b42ba4da2b6d0be84417f60be5451a46833",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T16:24:13-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 82,
+        "deletes": 26,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 237,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 594,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "json": {
+        "inserts": 16613,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 12307,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "38123f54f34a7dac182fb2daac15a469de28a98c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-17T16:06:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "f9a28b9410a626d4841141f775f79eab2450f5a0",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-16T13:36:46-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e9e659706047df4c7732bc92b75212e66109d473",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-16T11:26:34-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 22,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ef8b848dcaf19c932466e8a0a323618fbf311302",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-16T11:23:46-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 80,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e26fdaf9d7e9373dde9d01054c166a988cca809",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-16T10:57:21-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 81,
+        "deletes": 75,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31baeaebcae7136b10538050996ea2f2d9d37c6b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-16T10:50:37-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4b9c439bbcccb7a7b67b5299e01cd114350617e2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T22:20:32-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 70,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 55,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7620457c1ad13907571f95bd8d3384f41bbe0b13",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T21:44:31-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 42,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a1fa9bcde1a6886dd315d72a517c8f06924463a5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T21:19:35-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 32,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2b8204276651fefdde8f9b24d7257a58dc26dfdb",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T21:02:25-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e43146ebccc76c1d0313727b5c6d04735a7e0e29",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T20:37:39-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3bd0b78786653320b46272b6a5ae04861eb2dbdc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T20:37:27-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5596e72a568a094de2de882754bf55ec1f498b8f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T20:36:51-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "758646c5310f939fa3f0a6598bd4cd375170d0c1",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T20:35:09-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dba1f79e688223703ea91aba1300d1b9657c4be7",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T20:23:18-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f273b4ce73d9169fe1d05c61bfe00249049fbfd7",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T20:15:03-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a678e94734f8000741531ccc6c8a3e51db7be50e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T20:12:11-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 357,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7227ea94de055146c993c2944500921336074f60",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T19:55:21-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 116,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 19,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 4656,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dd71e03ed4e0223b2ba2cd4e26c0f58a8a748472",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T19:55:20-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cbd469366ae2b9d894bad8fcc27281538a0a053d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T19:45:42-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "10ecf3b2beda10dbe576c5fa44c0e1a5e95034c3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T19:37:30-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 116,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 4656,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "49bc74a4d33f151ea174f3c9601d47a2d7b0be5a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T19:21:42-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 23,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 68,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 40,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 41,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 47,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 184,
+        "occurrences": 4
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 10139,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "43933e0aa0d9b800ee4f3035ac6ac4fcd96d92be",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T19:16:05-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 68,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 47,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 184,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "svg": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 10139,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f985a6881312ec3b24016a97c3fba8ab2396bfa9",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T17:14:45-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 91,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 96,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 322,
+        "occurrences": 11
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 15435,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 620,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 11350,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7e11e1cb0c17d9e761ee2865e1a2685ced10db49",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T17:05:51-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 91,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 96,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 322,
+        "deletes": 0,
+        "occurrences": 11
+      },
+      "json": {
+        "inserts": 15435,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 620,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 11350,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ce36bdfa3acbdf8611cb09e1fd3d2c7d905b76cc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2019-02-15T16:41:39-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 105,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 64,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 19,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 290,
+        "occurrences": 10
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 7285,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dca5cf464654d4c3c5fca9b934113e3fa2d7842b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-30T21:22:18-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d80c752540b31b513764a6db54c3d09c26d3b687",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-30T19:25:39-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5583c0b07188db8db295e604f8e6a8ca4e4b2d89",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-30T19:05:53-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 18,
+        "deletes": 11,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "229b4aaa79fb5dd9793decdd16eb3fc07380955a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-30T19:05:43-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "bf9b9d13b11f864b86bf56fc73f94f397bd423e6",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-30T18:17:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 11,
+        "deletes": 6,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "886861af75d62e666d824654c6d2c2502fd93d40",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-30T16:41:36-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "c1681335fdc548029bd720a065126db27267419a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T22:30:40-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 25,
+        "deletes": 19,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "d0139d4570415450a5d5b103132be3cbb5174b7a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T22:27:30-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 11,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1ea257e974367f6f66357d7246f8f3547f708bc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T22:13:06-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "67ee9fcbeff646ee2fc5c5f2296f81a53bc8bacc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T22:10:22-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3bea095e009fb2447c6f234fbb0823fcf10fbb5c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T22:05:33-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 106,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a4ab0a8f3e0dc01c2be8d26e2ed973926e2b6158",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T21:55:30-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 105,
+        "deletes": 6,
+        "occurrences": 9
+      }
+    }
+  },
+  {
+    "commit": "a9d904fc12be8435252f3f408548cdf1c704795f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T21:36:48-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cc61f4ea721a1079e0ebb766055bc9f1bbb7a526",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T21:32:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 23,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 33,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 43,
+        "deletes": 53,
+        "occurrences": 4
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a21a70e0952b817c767a5783ab3e209976b9785",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T21:20:26-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "28b2f08d28502bcf7113c99b83ff3c005447af5b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T21:10:56-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 26,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 155,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "svg": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 7184,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a02bb661303cebe7f26a604f28855466c97de827",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T21:07:21-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bbc46b3866f3cb2e15e0506711d47073eb4a3cd4",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T21:05:10-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 30,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "33f3b0107b35de7813746a3f4aee4a6de6dce55f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-04-29T21:04:53-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 0,
+        "deletes": 287,
+        "occurrences": 13
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 28,
+        "occurrences": 2
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 65,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 17,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 6
+      },
+      "markdown": {
+        "inserts": 0,
+        "deletes": 29,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 712,
+        "occurrences": 9
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 10,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 3644,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "b7e0da28c183f2b077d65d05f3ef799bd3dc9141",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2018-01-05T20:21:35-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "svg": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 43,
+        "deletes": 22,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fca19f7e40316ce4cf8c8540c17005f596ec7b73",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-09-16T18:10:20-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "949c0f0285463ab6ac169237485b1420c00f9b5b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-09-16T18:02:54-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "72671d152fe89f0da07c9d74b58b0f03967274a5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-09-16T17:55:27-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "svg": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 51,
+        "deletes": 21,
+        "occurrences": 2
+      },
+      "scss": {
+        "inserts": 122,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "5e2a9bcebc64e7d8f5a5fba1ce1b6c3f650ab9b6",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-09-16T16:48:00-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1e251c359fa5479f2e7bd699177454d39f69169a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-09-16T16:42:49-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 66,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 3644,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "54262649b85e69c36f00c6e841c0f10561e1b6ee",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-07-14T17:45:58-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b1ee2809f0bf4c9ca8b9ae07f8c89535e2bc505d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-07-14T17:44:24-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 29,
+        "deletes": 25,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "8284cf79c035f91c9c5925d5f07820f9b0e9bf9f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-07-14T17:20:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 4
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "47721ae6d762300e20378dc2b078aaa8a7db8f2a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-07-14T17:13:02-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "81d2bc08b26697d3deef84fb1d6e7fbfbe44150a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-07-14T17:07:38-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "779d54dd58efaaf2e3475ae6a43d1f03c1a6a78d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-07-14T17:03:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 9,
+        "deletes": 37,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "91463d0cbcb70ffda25fba4f9508771843da655d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-07-14T16:54:12-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 212,
+        "deletes": 0,
+        "occurrences": 11
+      },
+      "svg": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "scss": {
+        "inserts": 590,
+        "deletes": 0,
+        "occurrences": 5
+      }
+    }
+  },
+  {
+    "commit": "39da3059832ee3e73fd1221e2d28cfdf503d6eda",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-07-14T16:51:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 37,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 58,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 43,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "markdown": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "1e4098f2d65692f56464304893093a6383435937",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2017-07-14T16:50:57-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 87,
+        "occurrences": 2
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 145,
+        "occurrences": 14
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 104,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 566,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "47db7315ce3e15410685749707aaec1a46a80fdc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-12-29T20:29:10-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "09965a4e4c31188b9927f0bc6b522e61cedcd0c7",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-12-29T20:18:08-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 145,
+        "deletes": 0,
+        "occurrences": 14
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "html": {
+        "inserts": 104,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 560,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "7f328d86b4140f2f0b38da62418ecc56574373e1",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-12-29T18:39:35-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "339f75f61425b6e272db34f7bfcc8525ed5dc63f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-12-29T18:39:08-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 312,
+        "occurrences": 8
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 30,
+        "occurrences": 3
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 29,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 88,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 164,
+        "occurrences": 8
+      },
+      "rb": {
+        "inserts": 0,
+        "deletes": 64,
+        "occurrences": 2
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 479,
+        "occurrences": 6
+      },
+      "xml": {
+        "inserts": 0,
+        "deletes": 117,
+        "occurrences": 2
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 38,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2656b6a2570a50e76e1f56b406c068b6a94bda68",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-30T12:54:56-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f0a87a3f965e0716c320b14f18301481de7e3af8",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-30T12:25:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a7ed91deb843df8858f4aae03b05d27b0874a469",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-12T10:47:01-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 49,
+        "deletes": 36,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aa10fdf9d0f9d0864b33d86a3bba9cbc4ab5a566",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-12T09:17:56-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 82,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6ca94b1c8b533762cde4dd761876ed45655d84c5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-10T19:19:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 113,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "svg": {
+        "inserts": 38,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a232d6d0d198c3d069f0ae984988c285915f9b9d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-08T18:39:50-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf98956c1d252c6377ee7cd9c841191dd640eaa3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-08T18:31:08-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "rb": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "160fdfa81c445d788559f3f13e2dd28f9e72f62e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-08T18:24:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "rb": {
+        "inserts": 46,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b86f9fb07c8c2cec7995bd455ed212babe29cd77",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-08T18:10:27-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 87,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1ef535597a60306cd16bf9e8eff3366b256feb39",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-08T18:07:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d890978cfb2c0f9d22022bcd347f609464cc08b6",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-08T18:06:04-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "lock": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "acd0049824d34bd2a705930940d9fead9825f0e9",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-08T17:59:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "19bf5a86314c507b5c5c766b64314b4bf9531abf",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-08T17:59:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "772b4c045e9311cedd3eded4f50ae0a1ccd62da5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T19:36:48-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4362d539445eb285dd26ea57c6fe27f6b0d2d4a6",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T19:36:19-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5abf90ae060fa567013e0f297a49b72473c93221",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T19:33:38-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "91261f70e24075f6e65c96dfef2bd8c50bf77439",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T19:27:45-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e0dff5dc9884faec3456c963bad566f76fa5259",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T19:23:51-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "827ba9187bb1eb35f03c8a69aaa92f4060257ea2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T19:21:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c804298db892ee1e5bc4921b1791e60d2ff6c641",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T19:18:20-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb79c845ad5589fd1643a26ecf93e0508f73b03f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T17:19:46-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "affcea7cc0feced4a1f460a2eaa3123113613c7d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T17:19:08-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "339274b38cca483524482136a00c63c22055bdeb",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T17:14:01-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "38857769ecab3fa692bb709fafd6fe33e1974366",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T17:09:11-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ce4a4f58899a1c783734b0694a12332333a2bd6",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T17:08:33-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "de3af2910b6171e09204ee0a12f07a7ec02e1395",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-07T17:03:47-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 85,
+        "deletes": 19,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 124,
+        "deletes": 113,
+        "occurrences": 13
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "scss": {
+        "inserts": 473,
+        "deletes": 572,
+        "occurrences": 9
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "28b4ed8719a9f95f086aa9d77713fc3d833068de",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-04T20:08:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ebb432044005653817ee7dbe54b5524b451b58ee",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-04T20:00:46-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "208a8a7b262b62564379aef3627c9a22722a16db",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-04T20:00:10-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c8028262f5d9875f7b6c6e8672b7a9f96947f83",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-04T19:55:43-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "markdown": {
+        "inserts": 0,
+        "deletes": 25,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "38517dcc33103853956be36532992dfb0a535c84",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-04T19:39:14-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7d4af7bd68c7e66d57ed70e2e03f44c3c276af98",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-04T19:38:27-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8cf559575fdc440ea7a6c7ad877d2cda7ae6d28a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-04T19:38:01-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bec3ad6ff07ebf520ee2ed67609dd5d6b454f563",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-04T19:35:57-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "04414ca2ebf29cde1327a26a5a52533297de8778",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-03T19:20:41-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c3032d2a5465dab5b758ecd174bf5570b1b1e337",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-03T19:07:26-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 83,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2491fd320eb48eb4c82512e2de68bbae90920b98",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-03T19:07:16-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 151,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "svg": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "markdown": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 572,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "md": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7f7cf24c19afa25957d50a42c53b6c2500ed1a54",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-03T19:06:30-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 40,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 38,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2b588227149fbf78e09692eab1b05e2ebf012f95",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-03T17:41:57-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 20,
+        "occurrences": 3
+      },
+      "sh": {
+        "inserts": 0,
+        "deletes": 32,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 21,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 127,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 0,
+        "deletes": 85,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 240,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "87c1ee0fae82d365b290e8c36dab878a26d5638d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-03-02T17:31:43-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ff72ff40f4ca4b0c70ff2f57f40e5063a7b8f883",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T19:15:53-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "988364457cde09260ee4aab55c69a84f9a634b0b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T17:21:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 0,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f27f64d1c8efa2a98645f3e604c3c04679bbc55c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T17:18:01-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "06cfa77a19e9827afa750ede70d18efb97af2ba3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T17:13:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 8,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fd759b2fe004b006edcc84573b4978cdbe28913f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T17:06:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ad1730c6c04d7e9882ed7ade45d7e9a38176e24d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T17:04:31-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8ca04ddb10ae40ab07755f070803c56513e1d6ca",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:57:25-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "29f4c988a1daf69eaa7b162d25a787102ad7d8de",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:54:39-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fe17aa5990ddcb8e50d2d70ff2f34f5344c5110d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:54:29-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "804816789fbb682d3aeb1859d35e19c0a462f9d7",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:54:16-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "17cc3d23ac1498ca2f3c1303f3fd686ae17ff9fe",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:45:32-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ed82f709b7ad997be30ee9137ebcf9e7ab9e24ef",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:44:31-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "981547d12c0edab5329bad3ca3a68730ebb2a86f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:42:03-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e3d371642207136c0313d76b91d63814667fc011",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:36:43-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fcecd7d68366e0754893baee72de97e6e7d59022",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:31:23-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78d5e15801f1199b3764201c228ecbfadcd3ca9b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:24:58-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fbd61e9be237948cbbbf1b81cd7bd03dabb24836",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:22:41-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 0,
+        "deletes": 55,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 0,
+        "deletes": 32,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "77afca9b07f4604a49e423ab78e23c90ad5d8435",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:21:21-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 30,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 17,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 18,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3b257d566c7269af5078ea4063014522f03957e9",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T16:13:13-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 28,
+        "deletes": 16,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5301d1859843a1561acceab2aaa3d653a7f5274a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T15:52:10-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "styl": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "fca08acc9d392c6892470dedf71be24182ecab08",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T15:47:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 18,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 19,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0b1d17b8c2bf6670dcca6dbfeeb0dff7f6483361",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T15:40:39-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "4584ff6ba0f5e1f2705ade781327de2d6970c9a3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T14:31:45-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 44,
+        "deletes": 33,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 45,
+        "deletes": 46,
+        "occurrences": 5
+      },
+      "css": {
+        "inserts": 18,
+        "deletes": 40,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf821a1a88304bb46a44bbea4099797a7b1be24f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-25T02:47:45-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "styl": {
+        "inserts": 19,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "78e3dd4705a6b0d8d44c923367e01aeea08c50c3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-20T17:24:15-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 87,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 233,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 13,
+        "deletes": 21,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c331f5e590402eb454ad6cc7dcd285ddceffb79e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-20T17:04:07-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 71,
+        "deletes": 5,
+        "occurrences": 7
+      }
+    }
+  },
+  {
+    "commit": "0a6b390812d90ec1d83d9e17e16d1fe8568c3a2e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-13T19:33:06-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "styl": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2c333da13d3079240c9be03a46804f346b18cc55",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-13T19:11:08-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0e64187c52b65f47ff69e28a34511a13084fa11d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-13T19:01:29-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "20bc27badd5c826a93f3766f1aa63082336cc553",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-13T18:56:59-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "232a0d6e17005ecad29eab49e6e40a872cc116b3",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-13T18:56:52-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d4dadb0e2f8f30be8c5178b1a7204de2dbef7961",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-13T18:56:47-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 28,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 29
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 189,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6234f0407004856bbc07b41e9292dc0da8e7c8f7",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2016-02-09T16:38:32-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "530ae3ab73e9a7f113ba24aa874e17020f98993e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-11-03T19:27:32-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d2ae17d75b6cde75a56b34c570133a510fe7f6f5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-11-03T19:27:20-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e0d34020159b226d5ee4f3261d931add35df228",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-07T07:52:43-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 24,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0f31a0e06f024ff5ef51be924261d9719c9a6d9b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T11:28:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "aaa8cfa55813068ad314c0b276b65541cc90f16a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T11:27:48-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cb464fb17321c86901d6e0cfd79bb71ce95354d1",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T11:27:06-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3263ecaa706ff600666a7e9fe1ff5782f2ccc345",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T11:11:25-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9da6b30a8d7febacf4610f469a6f281d5aeda7bb",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T11:10:54-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "24d5c2d3312fb207fed0a9e2532f2f60dd3a667f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T11:09:59-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "235e45caa00081dda17d8cfd3d39910df82182fd",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T11:06:02-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "599b12a668bffcaf145aa164eb666a7a2ccbd27a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T11:02:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 15,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "22c4ac4a14134d9b9fd513f4f77fbf91e00375d6",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T10:56:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "61f2616511fcf96ef3a23acca6387bae448c45fd",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T09:59:07-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "089127a69e472eb3cd081e1731f473bb431a265d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T09:55:31-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "html": {
+        "inserts": 16,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7a365d4c31e38dda187baf943af702d5f7033931",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T09:26:36-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 19
+      },
+      "html": {
+        "inserts": 102,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1219e5f278730e30e62b1bb13b6bb579c58177e9",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T08:53:17-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 43,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "7067209685ebba8fad32135bd47e7dd41fb1686f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T08:35:53-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0ea0df68b5b517eb4e2ee58754fff727f7ae9ce2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T08:35:26-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ef112ab84173000750af51c630c52050e3d5ab56",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-09-05T08:34:09-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 49,
+        "occurrences": 3
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 104,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 33,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 185,
+        "occurrences": 6
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 2756,
+        "occurrences": 8
+      },
+      "ejs": {
+        "inserts": 0,
+        "deletes": 347,
+        "occurrences": 28
+      },
+      "styl": {
+        "inserts": 0,
+        "deletes": 1158,
+        "occurrences": 15
+      },
+      "otf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 414,
+        "occurrences": 1
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 425,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "3e58864658b0dcf68c2e4bc522ea125526c9ad17",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T21:27:58-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5bb91bed508e984630cadb4376b669268895248f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T21:22:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "eb17948d91bb60b87573550c834cfe25af89e7c8",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T21:22:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "31bad17920605245f72f7e598e86ac1cbbd8403c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T21:18:14-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "f16c9a7d2c15a1bf688036dea1d7f660e1c535e1",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T21:16:26-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 41,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 24,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 72,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 316,
+        "occurrences": 4
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 6929,
+        "occurrences": 3
+      },
+      "map": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 288,
+        "occurrences": 1
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff2": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 2537,
+        "occurrences": 4
+      },
+      "sh": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "73d39ee96cbb81a0db23dc743858e48f0375213c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T21:12:40-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 55,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e787a306a3b309c891e9fef0144ad6aaa2311756",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T21:05:59-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5da1e6c0f983fd69502a3c5cbb3265454b8da265",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T21:05:35-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 37,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "82a58806027a925994260fbe665341a3584837db",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T20:59:39-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 47,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "yml": {
+        "inserts": 104,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 32,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 158,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "js": {
+        "inserts": 2756,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "ejs": {
+        "inserts": 347,
+        "deletes": 0,
+        "occurrences": 28
+      },
+      "styl": {
+        "inserts": 1158,
+        "deletes": 0,
+        "occurrences": 15
+      },
+      "otf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 414,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "css": {
+        "inserts": 425,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "f51552307e47c1c617d19ce996246513d934510b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-23T20:33:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a251e58d81e81c635eef27b51ed8a78fe336969b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:46:47-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "65cd8515549642903609f7db4390ee07b2e0b792",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:46:09-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b10ec6f9e14328eb7e3898599bb049d583beb3e5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:46:09-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "81d9f459a58ed0317bcd239515c845b6d2894de8",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:45:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c260cf18f85ce08df720daced6074e2ab5d7135",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:45:37-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "01cfab7a9cd2db5779bbd6171fa56ef133426a03",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:44:56-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "efc138c94883c86babde97dfb76a9aa8c5740047",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:44:35-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3ad16769280b1cf2abd7f67cb84809a3d88ce116",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:43:00-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "faaebf36b70536493f59647464beb87b694737cb",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:42:01-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 16,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "9654ea5d4d0869e04cb133931ec48ee823088ec0",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:11:05-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "70cfb12a2e453cc289bbebb4d5647c4d3506626e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:10:32-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "bf782799661bb4aab1c266b1ec7f01ff8f5bc28c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:10:32-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "867981f9296a91bd14066205cdcd5a40c49ab9ae",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:08:29-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "dfe77230afe334b6f2893abae7c9f59ef5c5b239",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:08:18-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "efa9762e9a3ba05388872aea66a50ca45b82176f",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:05:38-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "c252f20591ec9a20d618e6e411ed62bb4168eef4",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:03:29-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "af7ba73dc0ce9e7af53a81afc182d9c208311c6d",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T11:01:38-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2e4af029867d1ad2e340e3ce745ad208666c7451",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T10:38:27-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 13,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ea4a045ecb24b7410895023a98f350218121bab2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T10:36:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "818e84daf93474157f5bfcb2d89518f044ae7ffe",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T10:25:50-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "map": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff2": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 11,
+        "deletes": 8,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "6b84dba3a08fca0e99fe90b89d7aaef1200dc163",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T10:21:57-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 80,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "adc7a758e80e2b5fea71cb862a7de85646f13038",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T10:21:09-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 86,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "657c48feaa865321008644cc74a3110fdbe0a756",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T10:18:12-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 79,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 18,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "97b61cb9ac735693eb966ddbbfd1dc2074cf9511",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-15T10:01:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 77,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 39,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "da3e018555bc0a2634dba3aa56472fa900a049e5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-14T17:55:45-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "1fc6e690f45126dbe98af765ea1f5faffec06cce",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-14T17:27:57-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cd45486c36beaf64103ff47d73f463c09a6a6369",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-14T17:26:29-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "map": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff2": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 77,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 17,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "290d6f6dba5398afbec01566d2ea1595de1e4754",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-14T17:20:41-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3c8d418b6d1c97c0d839d526662ce237b0e0a3de",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-12T19:50:25-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5000f37cb1acf0dfa3fffd0bbf4a08e7d5785471",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-12T19:41:26-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "3e2f5769b18f2bdb27dcea83601054bd082523cc",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-12T19:39:02-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 15,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 6929,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "map": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 288,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff2": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2466,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 76,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "26a3ccb67d496fb2376c53253f0b88c7281c1d94",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-12T19:32:28-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 39,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "cfc532b6384a08a34a2d35c7795a3e88b2466cad",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-12T19:28:11-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 54,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "ecbbab6889594bc077fd5f7b55756fae1627bf1c",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-12T19:24:17-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "8cd496004420ead54baac2c8a7b98062f7f43cd5",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-12T19:14:30-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 31,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 765,
+        "occurrences": 4
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 66,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 12
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 36,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "2d422a1a570d42e11b5cc44b974a0e34c60d3d34",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-05T17:26:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a0b9236975a11b5083f20fbd118a1801d889bb60",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-05-04T17:17:42-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 184,
+        "occurrences": 1
+      },
+      "cs": {
+        "inserts": 0,
+        "deletes": 35,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "config": {
+        "inserts": 0,
+        "deletes": 72,
+        "occurrences": 3
+      },
+      "php": {
+        "inserts": 0,
+        "deletes": 1204,
+        "occurrences": 5
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 544,
+        "occurrences": 2
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 230,
+        "occurrences": 1
+      },
+      "csproj": {
+        "inserts": 0,
+        "deletes": 137,
+        "occurrences": 1
+      },
+      "sln": {
+        "inserts": 0,
+        "deletes": 22,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "psd": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 77,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "4f7cf02cad06eda29e91125009f125bf36e00125",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-05T17:15:04-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "6674f6a6c0d0dfacc7d7cbf98d472c14ffad8214",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-05T17:12:22-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "a2124512c61a2626955823fd97499890bc0929e2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-08-05T17:02:50-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "644a5bfc1d5273295e6f0cabf57b35dc9eaba1de",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-05-06T16:39:27-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 23,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    }
+  },
+  {
+    "commit": "af9d1ec56a0bc204add0c2e4f372a532e3644b4a",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-05-05T19:16:03-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 4
+      }
+    }
+  },
+  {
+    "commit": "c4b817ef78f3e1fd0ed96ae4627e5b0f7c75467e",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2015-05-05T18:55:47-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 747,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "css": {
+        "inserts": 66,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 10
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 36,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e4cf3571121f828652f47869a2cf259fde407fd4",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-27T03:21:23-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 1113,
+        "deletes": 3,
+        "occurrences": 4
+      },
+      "csproj": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 47,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    }
+  },
+  {
+    "commit": "6fbc53bd0a78bab2a66b49d24bb60c5ee9ed37b4",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-27T02:25:40-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5099c3b629844ccc4b4247cd7f4d54e22d2b9427",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-24T18:20:28-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "csproj": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "95af75575a806ba77a622c97260905a618f8b649",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-24T18:08:45-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "csproj": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5e7b40abc44c79117dd314169f1fad44d73f53bf",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-24T17:34:54-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "php": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "e653ae809e7fec651d8945719f374cd898c508ca",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-24T02:57:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "d484aa0a43a4ea8ff991d0baca9ac0fe223e9658",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-24T02:40:59-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 12,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 17,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "df0cff9f927ababa3c2998208f50fee7cc1a95a2",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-24T02:26:22-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 19,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 18,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "psd": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b625a80e93a2be3db3cba5dc368932dd712e66f0",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-24T02:01:43-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 8,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 11,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "5aedefff4b2ed0084c4549789634edc10384f50b",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-23T09:06:24-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "csproj": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "0bec33b7b2588a1f23ec848df5d87cafcb8944b0",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-23T09:05:44-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 27,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 48,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "889986cfcbffb487aaedd43baf05530dcb3d48e6",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-23T08:14:01-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 35,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 72,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "54699c6766db4c3a123bbc8fce24864bc31281bd",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-23T05:04:02-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "csproj": {
+        "inserts": 15,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    }
+  },
+  {
+    "commit": "b50aac882103cbd9887bb5ab098f610897918704",
+    "Author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "Date": "2014-03-23T05:03:21-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 35,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 70,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "csproj": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 11
+      },
+      "php": {
+        "inserts": 51,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    }
+  }
+]
