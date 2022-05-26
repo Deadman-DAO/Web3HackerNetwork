@@ -5,7 +5,7 @@ import mariadb
 import time
 import hashlib
 from git import Repo, Git
-local_lib_dir = '../../../python/lib/'
+local_lib_dir = '.'
 sys.path.append(local_lib_dir)
 from datetime import datetime as datingdays
 from kitchen_sink_class import Query
