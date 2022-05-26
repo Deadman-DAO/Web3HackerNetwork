@@ -1,0 +1,8462 @@
+[
+  {
+    "commit": "d33f8c577b3afcc6152f8d6af44b4bb746b6bd06",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-13T03:52:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "d6d879900e2899b3f985317e9d0ba6e0bd46effa",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-13T03:52:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "4bf5326a63a0dd07de055339964d73a86cecb6a7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-13T03:47:52-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "75a2ee59da041a1f3ff0731d1eb894f8cf20f8a1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-13T03:47:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 13,
+        "occurrences": 4
+      }
+    },
+    "file_list": {
+      "pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      },
+      "pdf_decanter/pdf_renderer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 1
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 11
+      },
+      "pdf_decanter/tests/test_alpha.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "39f17313c825aafb01f6cd058de720478dae870a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-08T11:11:07-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/tests/test_pdftoppm_renderer.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "82a68fbd8403e7d22a931b8728024be1444041a1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-08T11:07:56-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 37,
+        "deletes": 11,
+        "occurrences": 2
+      },
+      "ppm": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdftoppm_renderer.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 11
+      },
+      "pdf_decanter/tests/test_on_white.ppm": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "pdf_decanter/tests/test_pdftoppm_renderer.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "0a5d83cdb0b5b8b4d7cd5a31f2efb32550c43e14",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-07T13:35:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "c0c0ea689f43973a8be7fff52e269c1f911ccecd",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-07T13:34:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "edbd188f7d2ef7023679995834de6a216132f4d1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-07T13:34:34-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "bb67eb6e4309c6739ab067b8bdf0f2a984ec7bb5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-07T13:34:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "pdf_decanter/tests/test_render_result.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "46af4f130fd8c05e4b65e14daa730c2e0216170e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-07T13:33:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "21cdfdbe389e74fe898ab1b340485bf7f028d279",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-07T13:32:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "17d6246d3796b4837d210d5595d13e3c54d1d8d5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-07T04:46:14-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 8
+      }
+    }
+  },
+  {
+    "commit": "8591e2381bd0a71df0e60d6c2f4b3c5d6829da36",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2019-03-06T10:27:34-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 25,
+        "occurrences": 8
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/bz2_pickle.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      },
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 5
+      },
+      "pdf_decanter/pdf_renderer.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 5
+      },
+      "pdf_decanter/pdftoppm_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "88d9002d044ac9846fb6ee72b10403b55001acaf",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2018-08-03T06:24:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 13,
+        "occurrences": 6
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 3
+      },
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      },
+      "pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "39c4af950e3772fb039ba406b2c78e1f381653a2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2018-08-03T06:23:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "06a57e5c06b89c62eeaa18fcf9dc0ef627348d36",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2018-08-03T06:20:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 6
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "pdf_decanter/pdftoppm_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "7cd5f99d2e57d3eb11772714cc00f3801594c993",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2018-08-03T06:18:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "8ebfae147bc6da8440dbc36d2522671ce358dde7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2018-08-03T06:17:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/bz2_pickle.py": {
+        "binary": 0,
+        "inserts": 15,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "4bbd78905d3be2f7dc5afd047950e23c66812a5d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2015-09-25T12:59:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 2
+      },
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "f7be17415f5dee9c347a8a531e189865dda596ae",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2015-01-23T08:34:28-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "bb5929f02ef074b01d96dffc7732f90d63bb64f7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2015-01-23T08:25:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "b081ac95f6b67505011c4af63fbab5106c28936b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2015-01-23T08:18:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "ec1a521893d0de2e405a46ad80c1e25e4ec92c8a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-28T06:11:45-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 14
+      },
+      "pdf_decanter/tests/test_render_result.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "7210fa59093404ac6e28f131476003e67de06fc3",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-28T01:31:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/tests/test_render_result.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "538744ca5e32561e56a68ccb4fe8cf712c26e200",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-28T01:31:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/tests/test_render_result.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "791d1ab38ce304bc0dc70d3106e4d88057bdf461",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-28T00:35:29-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      ".gitignore": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "81ed0eb1cfd36699d3bd4584237995aebb2cf00e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-27T14:59:38-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/tests/test_alpha.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "c0314286974fc1e5e79eb80e555bbbf0f25bef57",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-27T14:58:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/tests/test_alpha.py": {
+        "binary": 0,
+        "inserts": 20,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "ea72076a1e5d4625e10adb8d020016a9de59b192",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-27T13:40:52-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "1b277c0c853e1a10b10809959b77c528d7a5c809",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-27T04:50:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "35c0499885e628cded09c11b0f7dd822e9425dab",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-27T04:50:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "1ea14d0573871af400cca8d482669d56b50b3326",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-12-26T15:23:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "a9cac8dce49b2f40e126b80c36e894b52c1b99e7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-10-20T07:13:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "e38605fa27d15ee7ba7ce06021ec1111b30646c5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-10-16T02:53:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 13,
+        "occurrences": 13
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/bz2_pickle.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/pdf_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/pythonqt_workarounds.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/tests/__init__.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "92d2c68458382984cfa52bfb7c6b675f12775ebc",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-10-16T01:18:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "14a6da3d57a6882e62b387d0922ec866a496737f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-10-16T01:15:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "9a7fb9b208a2c894c4932b4d4ec6b7f4c7b53c75",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-10-12T12:24:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "681e44e28aa5b94966c877632504eebc8a75e38f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-10-12T12:19:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 17,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "42d7fd13306982fac0a1f3f294f5037063fec83f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-10-12T12:17:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 27,
+        "occurrences": 6
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 8
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 9
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      },
+      "pdf_decanter/tests/test_render_result.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "534fdee8d329640d09f56cc87119cff07d0aea9e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-10-11T10:45:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "a5bfe7fe9aa2cd220c65fcd5f1ba9b6cd6d087c2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-10-11T10:45:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "7cb8eb8e40210a60c895771e52cd4ac025b903cc",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-05-10T13:49:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 25,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "99399d9a85648c83fb0cb7c700a0e35f1328a4d9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-05-09T13:35:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 18
+      }
+    }
+  },
+  {
+    "commit": "00493ca67ca302028d48e9ef589a0a9702a3177c",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-05-09T10:29:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 22,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "fcc1488ea194ec49b0b4fd5da6feb0e759f55727",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-05-08T11:16:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "ee1cadce39879206c08e9bb3b5b627644cdf6b68",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-05-08T10:30:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 11
+      }
+    }
+  },
+  {
+    "commit": "75c82a1a9ab7ea6e4d2fe73b8481f66371f1f552",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-05-07T13:07:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "04831217a2ba1e73eb973ee122a72b3e5a890955",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-05-07T13:06:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "f52aed1ce640d6657defb56a17ed032783309f34",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-05-07T12:49:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "fe93f7f8911bf79902c62c37a161dd88b90a5fca",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-05-04T11:52:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "0d202adcae64d8417ac82524226efdbea455a95d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-30T11:58:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "c85433b26b788691ec31edce0bd3283fea509ff1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-30T03:52:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "fa5e0d0bd3b228d7d04a742e79b91c3b45409d7d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-30T03:52:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "3d3986632daa9cbc3b167ea914edc03883326335",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-30T03:51:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "c512f4c883c7df8e4d2cf8203332f562eede651e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-30T03:45:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 15,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "ae9101c3fa823f2e987ffd0bdb40f20c163c87c8",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-29T14:22:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "2aa0948fe1248b41dc10ab205ccf417ad11e8270",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-29T14:18:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "79556526802a04aee6262b05567b08a8d81fb2f3",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-29T12:45:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 8
+      }
+    }
+  },
+  {
+    "commit": "f944abbb77ba6ed0e24028b4f94a3f824e06a08f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-21T12:04:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "99ffde72d12bcf03ee87ed422275c6ead34a77e1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-20T22:55:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 182,
+        "deletes": 1,
+        "occurrences": 13
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/bz2_pickle.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 15,
+        "deletes": 1
+      },
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/pdf_renderer.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/pythonqt_workarounds.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/tests/__init__.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "2079bbbb30c4afedfc27e8465c7c57cef750c358",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2014-04-20T22:54:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 202,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "LICENSE": {
+        "binary": 0,
+        "inserts": 202,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "b625c89dd90e0b774b0cade3bae4d4b5e992ac48",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-12-01T00:30:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdf_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 1
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "9f897705fe2132394877c7905395137c5a38c026",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-30T07:58:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 22,
+        "deletes": 12
+      }
+    }
+  },
+  {
+    "commit": "ac5a6c105d1945210c82df3d04ebc15c19549240",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-30T07:41:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 30,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 30,
+        "deletes": 17
+      }
+    }
+  },
+  {
+    "commit": "fed5f2bc4cc5e612d4f22d2dd020ee6ecb7cda7b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-30T07:39:25-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "18e46bcd8e9086726d1f91bfb328cef563bf9fb3",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-30T06:14:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "b47fabe590cb2ea274929ceeb5894fc468711720",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-30T06:08:14-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 25,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "45ff801e56c6afd7f1ff1c9cb3025b2b7553447d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-30T06:01:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "1f9f898fbd91bed476f3607baacbd8032e32b9a9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-30T05:39:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "b810362321421501e281c4800536122bc26688a7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-07T00:22:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 17,
+        "deletes": 9
+      }
+    }
+  },
+  {
+    "commit": "43cda0eb28591ed8a63c38dd685714eb97d57c2b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-07T00:20:38-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 9
+      }
+    }
+  },
+  {
+    "commit": "780e8f3bb29f0b0217cbc31e07ba86b88e8ff10a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-06T22:04:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 43,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 26,
+        "deletes": 6
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 17,
+        "deletes": 6
+      }
+    }
+  },
+  {
+    "commit": "4f9c7ca06cbb977d55b73f1241f6b91aae239a83",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-08-19T07:29:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 119,
+        "deletes": 54,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 51,
+        "deletes": 32
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 54,
+        "deletes": 17
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "e57a0c1cb3aebe78dd29e7a91785816be651ec94",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-08-18T06:50:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 19,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 9
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 9
+      }
+    }
+  },
+  {
+    "commit": "f80abe891f7c4cb8d8067680b085f49eca87ebd8",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-30T05:23:18-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "af937445b7046afeb7feea80754387c82767b0e2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-06T22:01:45-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 20,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      },
+      "pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 14
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "8c0a79dbcf6f695cbde97fc1f45cdc51ca4a39bb",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-06T22:02:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 0
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "de2fd0b1e441dc76ad14d510b120120f95cc5433",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-05T23:42:07-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "789eaa8d97e1617d2599f023ef403f777d202fd9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-11-05T11:13:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "ffa442073ae685c0e6e9856b49b92a7ff1231315",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-15T22:06:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 40,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 40,
+        "deletes": 26
+      }
+    }
+  },
+  {
+    "commit": "a14b84e90c382b8b604687d32d68b76ec725ee42",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-08-18T07:00:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 26
+      }
+    }
+  },
+  {
+    "commit": "c702de08c25e73fdc521ae2f222e7a528362e484",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-15T13:13:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "2f0bfbb6ccb544a199f7ce469e62d51704d0242d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-15T01:15:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "ece94096e15bc94ab59edeca051a401478c4b6bb",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T12:28:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 6
+      }
+    }
+  },
+  {
+    "commit": "f5d038894f31dfc2199723a6cbefe873615fffd5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T12:25:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "87b95227f9b436ceaf668e81e6fc6621382ac3fc",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T12:24:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 26,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 26,
+        "deletes": 18
+      }
+    }
+  },
+  {
+    "commit": "31bbde04b4a5221aaf4ef4d9751b141f0bb2de53",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T01:49:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "7dcd6d214c08c4e8432aa781a83bbb6bf106022c",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T01:45:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 16
+      }
+    }
+  },
+  {
+    "commit": "a707bbea71d1aaf46348cfde6ff444b7e54bfa66",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-15T00:50:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "b15a96eb175273247cd933a8d4827783d4d88f09",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T12:43:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "4534c02b91c1a6859cbf36c6aad320e8054fcf1c",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T01:04:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 33,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 33,
+        "deletes": 26
+      }
+    }
+  },
+  {
+    "commit": "194a6f7524deeabfdb829e1f4dd25cbde1c1dbcf",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T01:03:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "eef9ce9ddd9906e7c492a9822a77c9fa06ac3be3",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T00:47:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "8cf4035808c8fabbc15b5ca01b4c889642e9777f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-14T00:23:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "2828c9576d43027fd350a03601e00d274fab0384",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-09-20T12:10:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "4ffb949bcad7f493d7780c76b0520436d96e5f8e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-09-19T12:59:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "9dc4d74713585cdbe3967158ab92c8b3554bdfb1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-09-19T12:58:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "ef35194aa959fb61305eb466e51360a46b0b8b66",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-09-19T12:58:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "2a3e7282192c8e12e84e3af9a5d9657ad4d32cf0",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-08-18T06:43:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 21,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 21,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "f5664b5c0f88d6489103be009e4a44c7bda387f4",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-08-18T06:32:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 1
+      },
+      "pdf_decanter/bz2_pickle.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "40eafe47e81148def4dd5a8c80f3e35fc32d8cd4",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-10-15T21:17:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "bb6f9529776ec764b4009e417c155c3d8cff395c",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-21T11:44:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 34,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 19,
+        "deletes": 27
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "28d664dc0599a9c1a40adc2d4c7ab65284a5126b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-21T02:37:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 3
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "13afa534b9ce3fa74ff15a1ba75a45871d57a949",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-21T01:16:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 0
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "c2bade729eb82cbe52195035d924baa1d7865144",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-20T18:52:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "d6ab28b2d3d462c9870551769e44406359b52562",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-18T10:11:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 65,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/tests/test_render_result.py": {
+        "binary": 0,
+        "inserts": 65,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "268faa9a87fec1144e3629bd98d3aabe471baacd",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-18T09:24:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 20,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 20
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      },
+      "pdf_decanter/pdf_renderer.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "bf482398567d64f68916951295dcfddec309f9b1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-18T08:44:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "364cdf7886e0ae92ac13985bdba4dfd756cc1bef",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-18T08:43:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 10
+      }
+    }
+  },
+  {
+    "commit": "e4040a7bdcb54f2871c86f6b3628e7d5b0c0a3b0",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T07:11:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 71,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 61,
+        "deletes": 4
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "e25e59e0f80dbcc51ad562a5358370c33e7d580c",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T05:50:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "2163a2d6c1e5d8e1e51431d7a3988944bec70668",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T05:40:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "2e872e8b37e71ba0561251f470fb9cfeda8f5c64",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T05:39:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 3
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 9
+      }
+    }
+  },
+  {
+    "commit": "1f3bfc7df7712779c33e278efaed33a39d3ca76c",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T05:24:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/tests/test_alpha.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "a970fffe63f227209b047a1d83016ff6b3fccffb",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T05:18:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 337,
+        "deletes": 324,
+        "occurrences": 4
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 6
+      },
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      },
+      "pdf_decanter/decomposer.py": {
+        "binary": 0,
+        "inserts": 329,
+        "deletes": 0
+      },
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 318
+      }
+    }
+  },
+  {
+    "commit": "2e20387e8763b658059c9d76e9bf9a095816f2b6",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T04:51:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "529fdfea56f8661a1f0d941be9da9a73643b4612",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T04:44:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "6a06e96f0df5587a1bac8ec084ee2f55c22c4819",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T02:14:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 0
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "8c3f280d36cdb2d0778bee014aca4170a771d35d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-17T02:14:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 0
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 16,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "127102763a0fb913fd6c06b0c313974929cdd18f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-07-08T10:50:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 4
+      },
+      "pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "c792e453a1aa963297a6403a31f41b693072e36e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-28T02:33:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 3
+      },
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 9
+      }
+    }
+  },
+  {
+    "commit": "17188aa1b823f63dbbf70aafce7aebc8bbcbbd51",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-24T22:27:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 6
+      },
+      "pdf_decanter/tests/test_alpha.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "e6d67f001350ce49268ca5a594facd5c31974227",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-24T22:10:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "d929fcf45e374c451861f06c2ef77c79f81a8a41",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-24T11:11:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "4b1d3a95b8b23ff53be98fc1ea3d62b9ef43d8b9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-24T10:57:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      ".gitignore": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "3a1e9d700b20c327aaf9aa71a1fd25faef8e883d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-24T10:52:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "be6318e17d59ca04a53611c9a0e420d75dcbf7eb",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-24T10:51:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "cd1d6d917dda5f5de6769574aaa4e695dde6ff2f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-24T10:50:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "26131b697128097da9a0382b9c20ef678c1f50b2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-24T10:49:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 38,
+        "deletes": 39,
+        "occurrences": 3
+      },
+      "xcf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      }
+    },
+    "file_list": {
+      "tests/test_alpha.py => pdf_decanter/alpha.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 39
+      },
+      "pdf_decanter/tests/__init__.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "{tests => pdf_decanter/tests}/test.xcf": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "{tests => pdf_decanter/tests}/test_alpha.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "pdf_decanter/tests/test_alpha.py": {
+        "binary": 0,
+        "inserts": 38,
+        "deletes": 0
+      },
+      "{tests => pdf_decanter/tests}/test_bg.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "{tests => pdf_decanter/tests}/test_on_bg.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "{tests => pdf_decanter/tests}/test_on_bg2.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "{tests => pdf_decanter/tests}/test_on_white.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "6b2d0a1b54ca36373a1f6b7f1f9f5b99dbcde8b1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-05-24T10:32:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xcf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "py": {
+        "inserts": 81,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "tests/test.xcf": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "tests/test_alpha.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "tests/test_alpha.py": {
+        "binary": 0,
+        "inserts": 81,
+        "deletes": 0
+      },
+      "tests/test_bg.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "tests/test_on_bg.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "tests/test_on_bg2.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "tests/test_on_white.png": {
+        "binary": 1,
+        "inserts": 0,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "065708ef93ccf84681b8f4bb5ee53c53a8f83dff",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-30T08:53:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 22
+      }
+    }
+  },
+  {
+    "commit": "39e2f96855c9cfb3ff06e77c62786180b3fbf34e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-30T08:41:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 19,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "e2112a01c5237eafbfd6046e5e52bcaec0c0cfa3",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-30T08:40:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "4fb0b3e1003ab42a9127857d8b09a47e4aaeacb9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-15T13:04:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "977023bd1ee760d57ac5d8010b73b94084e26171",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-15T13:03:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "ce15d22d63e678be1f12d7137cfc86ceeca76cad",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-15T13:03:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 6
+      }
+    }
+  },
+  {
+    "commit": "84f6b1f5a0d39adaf73f96e88e136c740e09b329",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-12T23:48:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "dee96b0d6331260d7a796bb5a2b4fd0f699eb0c4",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-12T23:47:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "7289dfd12d5a39dc947266312e348c8300994093",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-12T23:46:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "5aea7bc1e8dd8fdf995351b1f26dfd8379926c11",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-04-01T12:01:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "70038de787a0410466ef4d06e5458e74f137399f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-03-12T02:09:06-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "c3a11a7fe651f6335529b1342fa0701df17c24dd",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2013-03-12T02:07:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "f605f7fbd2fe0a06d3512814b6ad4d3b9749646f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-19T14:29:02-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "4890865b90005aa4942376aab4fcf04c243d2a37",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-14T03:30:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "95d5eec147789ff02ddfa2ca79205306323175fa",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-10T08:45:53-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "b708e6f7f50e05bb49a78f4fbb8c40053ec84369",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-10T08:08:51-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "549f9f6b1f8e99ab3283eeb69a427eacaf5ea433",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-10T08:07:51-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 5
+      },
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "55c549ecbfed93970e8cd1e8a0cdc46b3aa53666",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-06T13:50:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 20,
+        "deletes": 14
+      }
+    }
+  },
+  {
+    "commit": "8e188b4883cae44c4a368208055f583083a1ac90",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-06T13:48:37-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "de0797c4745ecedcf62c41a9ad69dff3ac7821dc",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-06T12:46:29-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 12
+      }
+    }
+  },
+  {
+    "commit": "b7854587945fb33aeaeb19cee61d2f665447d91c",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-05T09:28:47-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 18,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "523c52a6cd75f9e77ea6d58254c5712239dafa89",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-05T09:27:34-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "66995bc6a33a15409778fdd3ef05cb244d07c6f6",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-05T09:26:45-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "21a35aa259321f2b5a6e9e2f432caada227b33ee",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-05T09:26:17-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "c1902b42fd2bb692778c7af17888612d296437e2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-05T09:25:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 35,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 35,
+        "deletes": 11
+      }
+    }
+  },
+  {
+    "commit": "621d26b1dd8aa9a578c566a05a7b9b6e00212930",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-05T09:24:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "ef002bba0f4cea9711c4cbb988e6bff80b4b5b41",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-12-05T09:23:26-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 9
+      },
+      "pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "9a2b3e621d55e03420bb8ae3e1b930f13b29d143",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-24T13:42:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 32,
+        "deletes": 34,
+        "occurrences": 10
+      }
+    },
+    "file_list": {
+      "main.py": {
+        "binary": 0,
+        "inserts": 32,
+        "deletes": 0
+      },
+      "pdf_decanter.py => pdf_decanter/__init__.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 34
+      },
+      "bz2_pickle.py => pdf_decanter/bz2_pickle.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "dynqt.py => pdf_decanter/dynqt.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "pdf_infos.py => pdf_decanter/pdf_infos.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "pdftoppm_renderer.py => pdf_decanter/pdftoppm_renderer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "poppler_renderer.py => pdf_decanter/poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "presentation.py => pdf_decanter/presentation.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "pythonqt_workarounds.py => pdf_decanter/pythonqt_workarounds.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      },
+      "slide_renderer.py => pdf_decanter/slide_renderer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "3e377ac74a308cd382755bb1f978628eb34b67b8",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-24T13:11:14-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "af4e9228324954592cf8ad8986818ae987642ebd",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-24T13:10:59-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 27,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "83c30b32060f9f5f7caac4245cc699ed0042d164",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-23T23:33:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 31,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 27,
+        "deletes": 29
+      }
+    }
+  },
+  {
+    "commit": "4272c6b5fec7a700413f67ff9415aeaae6c4fd99",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-23T22:45:29-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 22,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "ec0cfc3de51d18ad362425a86d85b50f177e7b3c",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-23T12:37:06-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 39,
+        "deletes": 26,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 0
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 36,
+        "deletes": 26
+      }
+    }
+  },
+  {
+    "commit": "652953516d0b62330207f39c7f0c168ea75edad1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-22T12:10:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "29a4c40a56b062bc9206838d96503c50e1349ce8",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-22T12:09:56-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "208b07d6974648dd84672c772615bd530cf80b61",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-22T12:09:03-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "ede5163d635bd32674c02c5bf7dc84bed559ac99",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-22T12:08:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "3568fa7f197ea0bcbc82d836dcfa0cb1c78ec9ae",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-19T00:21:18-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "6e147985ab7a3e1c21528431741117a84e9feec9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-19T00:15:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "dynqt.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 0
+      },
+      "pythonqt_workarounds.py": {
+        "binary": 0,
+        "inserts": 17,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "a0490c5bbb80c332a961f2a1d238a2a19ba1efd5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-17T09:28:19-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "94f796c8487e8ebe1df42fbdea8a6fd6a4ce064b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-17T09:15:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "ac9e2d382f22e8dfa871215837aa9bf1b718e4c5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-17T09:14:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "23f8db92cad10805845cd954c7eec36e9e46925b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-17T09:13:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 53,
+        "deletes": 30,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "dynqt.py": {
+        "binary": 0,
+        "inserts": 23,
+        "deletes": 0
+      },
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 26,
+        "deletes": 26
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "88a37dbd49fa46c14d9a42ff84b0c2b303e862c6",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-17T09:08:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "dynqt.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "82ef21ea256eceec9f4f6e6c9ad6d0e59c3afe0d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-15T00:41:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "f1c5c30dc3382c5acd3fa1ba0642b625457b0052",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-15T00:36:30-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 22,
+        "deletes": 8
+      }
+    }
+  },
+  {
+    "commit": "8e1bd9cf8ca41424cd9e647688b8c036dea4e3d7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-14T12:13:53-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "73d921ca8efd70edeef1305fed2cd2382be99634",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-14T12:08:40-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "c2a31d7130353728d64252abb22a60e4b49cc719",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-14T12:08:23-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "806981048367dfed5ed1f196335a1d219b98f080",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-14T11:39:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "66508840c568d40e8f4ddd3b922b36a14f005b87",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-14T11:30:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "c2efec239530075331c38b63c4c3b8adfc9f83ab",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-14T11:29:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 19,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "0394a6e18d94977652b09d1e3435a24c3df76ab2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-14T09:58:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "4eb409797b8098e031d5ad3fca49a177547940ec",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-14T09:57:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "dynqt.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "6196f7c8fa907f373a5d8aa2330715b8486ce935",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-14T09:23:47-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "5c721334760a0598626ae008f7bc63409663f57a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-12T01:01:53-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "02814e9c2b6b182a2353cc8eac8e9918b11f86f7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-09T14:02:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "dynqt.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "fa2f430fc61988640cc05fea56de14264101b8c9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-09T01:43:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 23,
+        "deletes": 28
+      }
+    }
+  },
+  {
+    "commit": "9a619f701b6b0678b1b385b7e2db43caa32b427f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-08T11:39:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 15,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "02c34db350de53207fc753c100a3726084e851d4",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-08T11:38:45-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "f3b8adfa7cf8246a31f781966ea3367a87d13217",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-11-08T11:13:33-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "932f8eb3a872fecf52dd09f33e2b4bf40f4706ce",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-30T06:22:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 14,
+        "deletes": 8
+      }
+    }
+  },
+  {
+    "commit": "9eeefcf0b2572ad1d1769e32e5dc246bae41dc49",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-30T06:19:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 20,
+        "deletes": 22
+      }
+    }
+  },
+  {
+    "commit": "51d7bcb352bd7671d3f747f959ccbb1e2e74770b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-30T05:59:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 19,
+        "deletes": 8
+      }
+    }
+  },
+  {
+    "commit": "df9b6004fda94af7dc6139fc17f82f6d10fb440d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-30T05:45:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 68,
+        "deletes": 27,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 68,
+        "deletes": 27
+      }
+    }
+  },
+  {
+    "commit": "a4513b30a6a322797b64b59a272274528c2c6ce9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-30T05:44:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 9
+      }
+    }
+  },
+  {
+    "commit": "b42395fc99a7a91cf72b749c6542dbfa05cdf580",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-30T03:46:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 25,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 25
+      }
+    }
+  },
+  {
+    "commit": "b2de26d74c3f915de7c3df8b68dcfca6efe41413",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-30T03:45:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 19
+      }
+    }
+  },
+  {
+    "commit": "e4aea06da307ee26b2546eb06bd0a2d45f8f0b59",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-30T03:41:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "d61d942b71dafcf06cbcafcb411931d958c3be87",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-29T04:44:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      },
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 17,
+        "deletes": 0
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "8c613e610451b2d269d8cd32201fc0e4678d6498",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-29T04:44:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 50,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 49,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "e08ff926279db9f6c0db9178d19815a05bbc026d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-28T08:57:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 16,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "5baaebe4c8827331cda20aa4d9e6b0d2e6d8d74a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-28T08:55:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "5413a62f8e90e14414e308798731c6ab4429f559",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-28T08:51:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 16,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "c8af46c034fa3f4f9885c1a22f821d5ef42bbfae",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-28T08:24:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 29,
+        "deletes": 14
+      }
+    }
+  },
+  {
+    "commit": "2da7fcaf9a79e0d9eefcb688adbe837a1aec44f9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-28T08:23:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "c967e05120dd498f4a5a8e3ee5bb4793ddcd09f4",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-19T20:26:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 23,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "52d5b90dbc561eb53d82b40ce237329c10bd149a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-12T23:51:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "7a995b3dec52d5fdb6f8bb5573a33f3075dea973",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-11T06:11:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 21,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 21,
+        "deletes": 20
+      }
+    }
+  },
+  {
+    "commit": "d149521c6d7fc20dfca045406f1b53903a36311f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-11T01:56:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "f6175488f650d277c51ed0dbd066e3a1bfcbbdfd",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-11T01:52:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "df16540ad40e0869efb09dcc5d4181a436a73f6f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-10T10:14:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 112,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 1
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 104,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "8ccbcefdf94a985a3f0d63e1da1c46641446e134",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-08T08:42:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 18
+      }
+    }
+  },
+  {
+    "commit": "a4c547546dfbe91204259870066897166370def9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-08T08:10:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 15,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "47f6374957a3517c2993b383cb178a23936d633a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T11:36:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 15,
+        "deletes": 20
+      }
+    }
+  },
+  {
+    "commit": "d7188be2c453aa96138cc5d6d8c595a3535f999d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-07T08:13:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 15,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "f672d26b4c4d88ce392865622663019ea82b4e4a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-04T23:39:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 47,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 40
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "c4062684c772fa0a0c0070aab9df9381a4d8cd93",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-04T23:20:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 2
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "2835f121c41a2685d5fc6e0afd4a679782e4cfaf",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-21T00:58:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 19,
+        "deletes": 6
+      }
+    }
+  },
+  {
+    "commit": "f3e8224b35b56e178b87944f9c4011b3fac364ae",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-21T00:32:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 1
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "0f2e363cbaa246671bd1958e79aedc97a758037e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-20T11:05:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 35,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 35,
+        "deletes": 20
+      }
+    }
+  },
+  {
+    "commit": "ad6369b4a642c432382a45b34b923abb81c02e69",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-20T11:01:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 18,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 7
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 25,
+        "deletes": 11
+      }
+    }
+  },
+  {
+    "commit": "2a3e840cd375b11a4727a31b025e8744e286b87a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-20T01:02:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 27,
+        "deletes": 14
+      }
+    }
+  },
+  {
+    "commit": "a8cf236849eb6ba00ef1fc953dbb16cc1584c860",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-17T00:13:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 81,
+        "deletes": 84,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 0
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 75,
+        "deletes": 84
+      }
+    }
+  },
+  {
+    "commit": "7986403c5541e4c8e684cad7d4db5b277f7f87bf",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-07T13:42:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 21,
+        "deletes": 21,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 21,
+        "deletes": 21
+      }
+    }
+  },
+  {
+    "commit": "a9f31193bbce2679dbdbbc54620c159819ed1d45",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-07T13:34:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 14
+      }
+    }
+  },
+  {
+    "commit": "b806c6d27c5c2c6c295d8a1f1cd71e7dce31d3d2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-06T08:21:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "fe782b4e769634de90bdb2212c70be247db0ea10",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-06T08:21:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 10
+      }
+    }
+  },
+  {
+    "commit": "8d794de02c5c73b5692c57610dc2d2d96b48a8e3",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-06T03:23:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 2
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "9ca3cd1e8f68a95644371fc25b7ab0203b9e67d1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-04T03:43:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 23,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 12
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "9a9f164b526c514874f5c265b40bdd2bce85a010",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-03T09:41:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 16,
+        "deletes": 11
+      }
+    }
+  },
+  {
+    "commit": "3db8f726fa35cbd39057672f53bddb8431e0319d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-03T09:04:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 0
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "c4b97292bb3e6a5ef9f6aadccc2ab6c4c7c99eac",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-03T00:59:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 33,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 25,
+        "deletes": 2
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "6f3843e818e7ae2289f446c73b541e556e5c60ea",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-02T23:09:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "f16b5fe320db98aa14032a4195c27db75acc5810",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-08-02T06:54:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 40,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 40,
+        "deletes": 15
+      }
+    }
+  },
+  {
+    "commit": "ce158408a523bb39f03d83ba2c0603d40f056619",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-21T00:11:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "53bbecdcebc8c597534068472b6648a6929d16ec",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-21T00:08:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "95b3763ff2a557bbcaa51234d9bcd9b7a042b570",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-21T00:03:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 17,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "5ef6b4c9899292499fc15f5efe474ab68820b7e0",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-20T23:54:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 26,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 19
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "95c5408c556e58f24f7d4e23feb4f6beb2aefe79",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-20T23:53:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 19,
+        "deletes": 115,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 1
+      },
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 10
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 16,
+        "deletes": 90
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 15
+      }
+    }
+  },
+  {
+    "commit": "eefbb3e2f3897a8c7b4e0c727dfdd0ce233e6f3d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-25T05:39:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "fc8f81abad24d1923f25d0ca066f98e1b329ed89",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-09-20T00:01:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "ad1c3b2a081adfc342eee269381840218977ce93",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T11:36:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "2ca85b444d0dd040169a4527cdb1de7535a7dfc0",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T11:22:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 38,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 36
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "5a40c27a113ffe57b4331f7fd1917bfcb1609bf4",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T10:28:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 11
+      }
+    }
+  },
+  {
+    "commit": "0ed04d5b48d82d64221c57428dfb53954792fb3f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T10:24:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 22,
+        "deletes": 15
+      }
+    }
+  },
+  {
+    "commit": "913321f6f2814ffa2c71609033f7588d566a617e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T10:23:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "92e551306830042a1c909cf97dd0c1be0e8a5861",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T09:20:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 6
+      }
+    }
+  },
+  {
+    "commit": "9fccf9e95012d33ade9cd35e291aec0a50b498f8",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T08:58:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 30,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 29,
+        "deletes": 11
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "091e46a75fb3f8f04b59af71224e9f954cdc75b1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T03:15:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 17
+      }
+    }
+  },
+  {
+    "commit": "1270a13cdee64f168d153e7aa04a41dab0218b2e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T03:10:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 33,
+        "deletes": 31,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 33,
+        "deletes": 31
+      }
+    }
+  },
+  {
+    "commit": "fb405da52299d02b4957f69b8406a4eb81c72c92",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T03:10:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 1
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 8
+      }
+    }
+  },
+  {
+    "commit": "2d33f8d331d2c6d9a759ccdc4f66c71317480dac",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T02:54:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "53a7dc2a75321fc8353fe3a66e5c95ee9e406531",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T02:47:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 206,
+        "deletes": 204,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      },
+      "presentation.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 202
+      },
+      "slide_renderer.py": {
+        "binary": 0,
+        "inserts": 203,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "d15066a5ea331acaf8f09c456d43aa47a590621a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-18T02:43:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 3
+      },
+      "slide.py => presentation.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "f420de5838f69f4d346a4b781274c26690802124",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-17T21:05:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "251bbbd23a9f4458577fbe21065adce59119e5cc",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-17T00:35:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "24ea3061b7cc57e30fc2a0f6837f8c5762b07bae",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-17T00:35:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 39,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 39,
+        "deletes": 18
+      }
+    }
+  },
+  {
+    "commit": "6b5943a3e72c6f7d3437b446a4d50e551c4a8cdf",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-16T13:06:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "5d56fc3472614d57f7bbe316bcba4d0dd0506196",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-16T13:03:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "7cd82e00d315b7493657144b797812c7312cc537",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-16T12:40:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 34,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 2
+      },
+      "poppler_renderer.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "b0e3c7a53a7a7a92ee182743d664d6b42a7c1170",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-16T12:38:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "31abfb97540abc6a4959c591cf17d56c77e568f0",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-16T11:59:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 11,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 6
+      },
+      "presenter.py => pdf_decanter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "1e1e488ad5007d22a2dd6648971ecdcc7a0b9c39",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-15T05:22:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 17,
+        "deletes": 12
+      }
+    }
+  },
+  {
+    "commit": "c8d9be9a788bcc2e62c47e5d5505cbc57a26f26e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-15T05:08:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 18,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "f8f7c4359c35973e8e22f5cbf8a033cf4daeafab",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-12T09:44:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 3
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "1f40dc23d10a23848c2926cf5d1c21fec1ee62f0",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-12T09:36:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 45,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 45,
+        "deletes": 28
+      }
+    }
+  },
+  {
+    "commit": "1dd92e992f282ab8ab232a7441b00dead199cf18",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-11T23:16:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 20,
+        "deletes": 16
+      }
+    }
+  },
+  {
+    "commit": "1914b84864f1444f09e0d09f7a503a2eb9943121",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-11T23:04:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "3d07c2257d2c696b42f65d25166caca9ef9f5ff1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-10T21:07:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "7827aad1c2c351acce618307fa6f8edefdef997e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-10T12:48:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 17
+      }
+    }
+  },
+  {
+    "commit": "cebccd13f390f827e44e17de49bdb72e8e63cf45",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-10T11:19:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "3ebfff58d354dfa32a37279e8f285c89675f17bf",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-10T08:10:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 101,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 101,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "b6f39966d343b203ed9e4c84e3c2e95955f3267c",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-10T06:15:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "59aa813146801db4ee4f54373593153173fefd21",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-07-10T06:14:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "e40795da5222f9a8a24318ab6109275aa8168a1d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-06-21T21:08:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 8
+      }
+    }
+  },
+  {
+    "commit": "d87e1640dc984bd5716bcb2da9dbe5cfeabc4e84",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-06-21T11:56:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 73,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 3
+      },
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 73,
+        "deletes": 15
+      }
+    }
+  },
+  {
+    "commit": "2ed57a18397c67adbce4b1d7ddb5e4feeff5badd",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-06-19T12:54:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "f40103d9c3cdd6d9adb10b72db9770f04cd8c1d2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-06-19T12:53:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 22,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "c22cf80fb7f1d20caf7ce74b9d4463aa8fe75782",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-06-17T00:49:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "dynqt.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "b670bcb868adb16f09f2870e35f253b69142804d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-06-16T01:30:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 50,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "dynqt.py": {
+        "binary": 0,
+        "inserts": 50,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "fde2b675993c8dc82d9d4f4f09288d1ba0fff456",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-23T13:23:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 24,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "1329497650957436592c55d5bdf48fdc6a597065",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-22T12:51:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 23,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 23,
+        "deletes": 17
+      }
+    }
+  },
+  {
+    "commit": "6b3d1f58fc039c63d73a5434095d71448bb8a998",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-22T12:41:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 130,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "README.rst": {
+        "binary": 0,
+        "inserts": 130,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "b86c37934823858b0f7f474313bcd8923e78dc57",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-22T12:40:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 60,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "hdf5_cache.py": {
+        "binary": 0,
+        "inserts": 0,
+        "deletes": 60
+      }
+    }
+  },
+  {
+    "commit": "f0c4afe7edac54b2fb344b4f9b993ba1c1d8a2b1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-10T04:17:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 31,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 31,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "378d6bac7177526a019f4894a05b7826f4f018e0",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-10T04:13:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 15,
+        "deletes": 7
+      },
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "98f61ffd6cdc84131ba489b1a3aa34a0675af203",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-09T09:45:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 22,
+        "deletes": 16
+      }
+    }
+  },
+  {
+    "commit": "82389d9193fdfde3ec72e573f6a44a202f09540f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-05T01:25:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 9
+      }
+    }
+  },
+  {
+    "commit": "80c17e4691dbf0ce003be6e65b72ebbb96a52385",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T22:40:32-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "37150b12525cd8086e41ed1d9c21db60b9214e48",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T22:39:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "9f5791ba898ccf78110097564d690778a01f040f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T15:12:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 28,
+        "deletes": 19,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 6
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 27,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "59bcdc02f9eaefc21fe2387edbbe3aa4c93fb911",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T15:07:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 43,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 43,
+        "deletes": 22
+      }
+    }
+  },
+  {
+    "commit": "b28d9f6a2d09a6bd6afb2b8017f2e667689b3489",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T14:11:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "9a1b69c1afc6b97e6f3008d6b1ce52ab015b643a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T14:11:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "80123bae9a265f6116d326fa15bf5efacacf4ecb",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T11:50:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "19e147a5533034dcf1ce75e84c21108582928bb6",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T11:50:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "cbfe5f4f294d64cce6b4463720fba2627561ddf2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T11:47:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "695548a99abe1affe146d3a97f0606de407d80c9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T11:46:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 33,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "pdftoppm_renderer.py": {
+        "binary": 0,
+        "inserts": 25,
+        "deletes": 14
+      },
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "16b6fe7eefce612b8c25ad7e02a45473b09f5f1d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T10:49:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 67,
+        "deletes": 11,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 35,
+        "deletes": 2
+      },
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 29,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "229ca34a4f0f79d4a7456993c5c53932980fd462",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T09:07:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 98,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "pdf_infos.py": {
+        "binary": 0,
+        "inserts": 79,
+        "deletes": 0
+      },
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 1
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "149da9a09ee39b83a38482f5a954a29f6ea32f49",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T08:35:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "9a1a061cfcf85670d3d169fbb9c3a6c59cb40124",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-04T08:35:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "536dfdb80391b316c4b98d0c38fecde69b2e5509",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-03T16:03:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 27,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "847911f71ddd45cc20c41b20e7e1418bf8c6d1d3",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-02T14:36:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "e9122a8a0f53806afab4b2c9147a81690ab9c33b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-01T13:56:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "adf0626af63aadaab30149be092a6cb18c7be000",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-01T13:54:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "55932aa0b5b610d0a50fba51f4da52bcfc951ebc",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-05-01T13:15:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 25,
+        "deletes": 9
+      }
+    }
+  },
+  {
+    "commit": "31ec460696271b43999d234ab49684e2099d9762",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-30T04:13:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 33,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 33,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "840e3359fbd0dd7f22983fb98151f3e717652e7e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-30T04:12:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "6f2eaa8bd80282b8a690d2d1317d359d9cba999f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-30T04:11:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 6
+      }
+    }
+  },
+  {
+    "commit": "df4bf644cb2982c86c6bc98672eea27620fcf4db",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-27T09:23:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "353e4b042008d9a11815522564909d57e62dd16a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-24T07:00:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "c82b4e4c6acf8f52840f05f6c1ca15d19c5e92a5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-24T06:51:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "8de93f053814ea7af36b5dc2e8866813cbe6f3e5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-24T06:01:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 29,
+        "deletes": 25,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 29,
+        "deletes": 25
+      }
+    }
+  },
+  {
+    "commit": "f9a251a40f57d4fa0ae4dea1651826012bca933a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-23T18:57:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "0ca3cf8de4d0e06ce631f0198cd381083001e3ca",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-23T12:09:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "562a33ed8d60812b0bb8d0f3234e01d640749ad5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-23T02:38:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 15,
+        "deletes": 9
+      }
+    }
+  },
+  {
+    "commit": "408156d9b51791d1928576612d757fa265598294",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-21T22:00:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "274c72f9d042225d556295b6b7f1ac987a6dcfe2",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-21T21:49:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 8
+      }
+    }
+  },
+  {
+    "commit": "f18685fc35151beb4c8ba867a436226550295e88",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-21T12:22:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 0
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "bcd69067a844afad10c8448522eab39487952792",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-20T22:43:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 20,
+        "deletes": 31,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 16
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 15
+      }
+    }
+  },
+  {
+    "commit": "ab62a3cfc0f46ccb267dc52c989772f660405da1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-20T22:37:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "afcbafe6d2b7b885328b2406dee2d0588c9b3f70",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-20T22:12:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "1af48f30f1fa0ba2bf9f1d63bae75707b794a35d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-20T22:08:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 14
+      }
+    }
+  },
+  {
+    "commit": "b79951510a41852c4e54faee7115750b99fac985",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-20T22:06:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 30,
+        "deletes": 31,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "cache.py": {
+        "binary": 0,
+        "inserts": 30,
+        "deletes": 31
+      }
+    }
+  },
+  {
+    "commit": "1881f562061f5b72021538b97e3fa3749fc66f94",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-20T22:03:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "e067d2db8427dd675b786eb57825a4acaba0fb6a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-20T10:33:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "cb7b9d15b262d44db7b8a64e2a8962cb02eadbdf",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-20T06:08:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "1c7851b1ff9d0aa10097924cb101328d21d089f9",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-20T06:06:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "dynqt.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "42d522686cd26176cfd678a9265cdd827a07e9ac",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T13:31:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 46,
+        "deletes": 16,
+        "occurrences": 4
+      }
+    },
+    "file_list": {
+      "cache.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      },
+      "dynqt.py": {
+        "binary": 0,
+        "inserts": 23,
+        "deletes": 0
+      },
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 17,
+        "deletes": 9
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "1a68ab4003b16d844bb47109e8ba80eb3bf05d8d",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T12:29:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 17
+      }
+    }
+  },
+  {
+    "commit": "c4417a8679be24824bdc092958ea45da4e082711",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T12:14:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 26
+      }
+    }
+  },
+  {
+    "commit": "4951b8aed110a5752fe7e897b539deefff258002",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T12:07:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 30,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 12,
+        "deletes": 7
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 23
+      }
+    }
+  },
+  {
+    "commit": "c62b90e289cabfe6a67b738c74442a25fd94ba03",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T11:59:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 17,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 1
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 7,
+        "deletes": 16
+      }
+    }
+  },
+  {
+    "commit": "ebb1998e0157ab004eba8cff6880c4782519f7e5",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T11:56:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 18,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 4
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 14
+      }
+    }
+  },
+  {
+    "commit": "c911a0811f5119a1fea4899add909193d9c45031",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T11:52:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "dfa3728f8ca505ea2ac5a43a06f5b8617ee866dc",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T11:51:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "1499c914bb9df1c0b2aceff8c119a84dd7cf0541",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T11:40:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 35,
+        "deletes": 38,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "cache.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      },
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 12
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 21,
+        "deletes": 25
+      }
+    }
+  },
+  {
+    "commit": "e88358e641e9a984396cf1a40d35a7168537e085",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T10:30:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "87a130fa7cc51bd9a0c6214235c87cd9726f7bbc",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T10:28:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 19,
+        "deletes": 12
+      }
+    }
+  },
+  {
+    "commit": "37b312620a70658e54861ab9d3687f0aa7af4b1a",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T10:28:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 6
+      }
+    }
+  },
+  {
+    "commit": "5c3d3d9d829e752d37ce313a0fc670b6fb6acaf6",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T06:14:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 18,
+        "deletes": 24
+      }
+    }
+  },
+  {
+    "commit": "052013d66fd36a9df20e0c7f42ab2905ae62bcee",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T05:54:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 11,
+        "deletes": 6
+      }
+    }
+  },
+  {
+    "commit": "e527f9dc22b3fc9321aa2abb7b13948b671993b7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-19T05:44:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 32,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "cache.py": {
+        "binary": 0,
+        "inserts": 32,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "029862ae51bf1c845ae046332ad9c0d18994d5e4",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-18T12:35:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 66,
+        "deletes": 32,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 66,
+        "deletes": 32
+      }
+    }
+  },
+  {
+    "commit": "f8b2167ba40b05d5c4371335a2aa3bc8c14dbd7e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-18T12:34:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 37,
+        "deletes": 20,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 31,
+        "deletes": 10
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 6,
+        "deletes": 10
+      }
+    }
+  },
+  {
+    "commit": "06ee70e0d456d2f31468d3e7cbfd80d5d151b51b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-18T05:30:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "cfacf1b08ac351266a8a10b4ae8491fee7a8a00b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-18T05:29:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 13,
+        "deletes": 13
+      }
+    }
+  },
+  {
+    "commit": "02a17d33ecd5cb00733383a3d7af8ba09d26d820",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-18T05:03:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 88,
+        "deletes": 11,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 53,
+        "deletes": 11
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 35,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "713cd25dc587a841ea7ed1bfe2679e7183282e96",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-18T05:02:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "db70754ba08ce0ad5872bbc7170b51b41f072489",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-18T05:02:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 70,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 0
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 68,
+        "deletes": 16
+      }
+    }
+  },
+  {
+    "commit": "41d051c43ec93b60dd29f64e10468eadee4e466f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-18T04:59:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 2
+      }
+    }
+  },
+  {
+    "commit": "bbf68f012f12756b277d31089eba303981da2fa7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-17T09:13:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 50,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "slide.py": {
+        "binary": 0,
+        "inserts": 50,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "794dd8338358e8626ba6970056834f01a61da16f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-17T09:13:18-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 43,
+        "deletes": 15,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 24,
+        "deletes": 7
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 19,
+        "deletes": 8
+      }
+    }
+  },
+  {
+    "commit": "73d14e74bb799a83ff83a9f7a359e9b313afd589",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-17T09:11:53-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 94,
+        "deletes": 30,
+        "occurrences": 3
+      }
+    },
+    "file_list": {
+      "cache.py": {
+        "binary": 0,
+        "inserts": 42,
+        "deletes": 0
+      },
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 25,
+        "deletes": 24
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 27,
+        "deletes": 6
+      }
+    }
+  },
+  {
+    "commit": "7ecd8e70730432faae8c2093c80624989eb563ef",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-16T10:20:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "028b07fc1de0e548c065550186ed8839811aa965",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-16T10:20:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "126e5ef43230ca08ba916f2f92da6528877f0746",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-16T10:20:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 22,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "670970a1a7d25262d65b438722fc881ce0cf149f",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-16T08:42:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 66,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 66,
+        "deletes": 10
+      }
+    }
+  },
+  {
+    "commit": "0be83259c6d843897c51516c9b3a5856df36c1c1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-16T07:49:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 73,
+        "deletes": 23,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 68,
+        "deletes": 22
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "b705744c27efeec07940a5afbb5a9b69fd420ae7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-16T02:04:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "21f5c9709b7e9a08e0c145a15d39e3b0634d630b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-16T01:26:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 60,
+        "deletes": 56,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 5,
+        "deletes": 2
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 55,
+        "deletes": 54
+      }
+    }
+  },
+  {
+    "commit": "f68875815b9d61da0207aa34e1b279bd6400e26e",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-16T01:08:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 23,
+        "deletes": 17,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 20,
+        "deletes": 13
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 4
+      }
+    }
+  },
+  {
+    "commit": "787a4baac2c7b4a1c1109c33cde343b3eb72cf07",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-15T13:21:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 13,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 2
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "9998d0dfbd8b178347981a75a57dcee8367b86e0",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-15T12:58:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 64,
+        "deletes": 28,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 54,
+        "deletes": 25
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 10,
+        "deletes": 3
+      }
+    }
+  },
+  {
+    "commit": "bfa89faf549a8ec965a6decedd4c4b2d4dee3de8",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-14T13:30:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 57,
+        "deletes": 20,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 8,
+        "deletes": 20
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 49,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "48dba0a1b0f3dfc16c02d55a04f2d7e21796e0d1",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-14T13:28:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 2
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 9,
+        "deletes": 7
+      }
+    }
+  },
+  {
+    "commit": "2131a3675878d92b4fc9787de1f792d2129bc436",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-14T10:44:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "9658a58f93361f157e96b234dde16b38b3e3fdf7",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-14T03:03:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 3,
+        "deletes": 5
+      }
+    }
+  },
+  {
+    "commit": "37db3ae7e5923df6467cd16e619240751faf683b",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-14T02:25:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 4,
+        "deletes": 2
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 1,
+        "deletes": 1
+      }
+    }
+  },
+  {
+    "commit": "f28c770304fc89092fb99ee9d092153483387d48",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-14T02:17:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 180,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": {
+      ".gitignore": {
+        "binary": 0,
+        "inserts": 2,
+        "deletes": 0
+      },
+      "presenter.py": {
+        "binary": 0,
+        "inserts": 107,
+        "deletes": 0
+      },
+      "slide.py": {
+        "binary": 0,
+        "inserts": 73,
+        "deletes": 0
+      }
+    }
+  },
+  {
+    "commit": "7e26d06b0d1b293d9a4d901191b375beee7c1613",
+    "Author": "Hans Meine <hans_meine@gmx.net>",
+    "Date": "2012-04-14T02:14:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 44,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": {
+      "pdftoppm_renderer.py": {
+        "binary": 0,
+        "inserts": 44,
+        "deletes": 7
+      }
+    }
+  }
+]

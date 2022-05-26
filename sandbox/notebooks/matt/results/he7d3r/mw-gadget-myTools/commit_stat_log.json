@@ -1,0 +1,302 @@
+[
+  {
+    "commit": "6146d22f82aacad20b29633e3bde984255c526e6",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2021-08-07T14:25:27-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "d4c61f9c44f1a2d58d6d98d456306110da502b8c",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-12-14T07:16:40-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "2a835ecf8a7af61981f8abd83706d4d589af76ab",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-12-04T12:24:04-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "3a979d90de7031a455818cb967dac0ef8572b422",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-27T16:49:02-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 61,
+        "deletes": 61,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "ce88882912b514e201ac0f225c167cbc2b0fd16f",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-26T11:21:25-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".jshintrc",
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "624846a96852fb9d45a684b7fd8628b2ee28e481",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-20T07:22:28-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "c5dfd8e0f03420146dd8e2834983e7d6804dedd8",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-08-18T14:13:13-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "LICENSE",
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "b326b3a041142da513b9e6d1f45f7393fa48505e",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-10-21T08:10:56-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "53259808ecaae5ba1c6a85cc9ce8c8bd804af262",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-10-21T07:58:44-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "8ab7dc45f09506e9c83fbaf55f16101c7d155b0e",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-10-09T05:01:58-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 58,
+        "deletes": 49,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "327085b59bd0af8e0bfd1d4b850e3e36ab0ca590",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-10-09T05:01:09-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 17,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "3c1f742d670b26ea27cc9c3385d6bf1f50f575e2",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-09-27T07:04:30-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "98983a14a6cd41078d703e9738d99b4530a846b5",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-09-21T11:44:24-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "77acae61f7f6bd08038db04d8dc75f706269a288",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-07-06T11:37:49-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "5ac9f0bc14dea0fa90534f5a54979438ea15e792",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-04-12T10:57:27-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "fb6fae2180771383063b17c2783d40ba34b16736",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-02-16T14:14:14-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "145603aa8fbb0449426f9d7db895ed1d49291047",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-02-16T14:11:55-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  },
+  {
+    "commit": "b053405923491a762cc7922d49e6e142f6969ffc",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-02-16T14:09:26-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "js": {
+        "inserts": 12,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/myTools.js"
+    ]
+  }
+]

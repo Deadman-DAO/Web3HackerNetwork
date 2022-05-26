@@ -1,0 +1,3447 @@
+[
+  {
+    "commit": "382ff10cceadb6672a4258d58467e808e97af240",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-05-05T09:02:18-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json",
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "4b416a98f9253f26a5c6e1139774e560bba0b96e",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-05-01T09:27:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "changelog.md",
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "dbd909330ebc3721bc25e81a66679dea2e3731a3",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-05-01T09:14:52-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 164,
+        "deletes": 154,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "background.js",
+      "chrome.js",
+      "options.js",
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "fccfce85ea37546cf27e1b54f2b2254fc2bb8a8e",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-05-01T09:13:06-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 16,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js"
+    ]
+  },
+  {
+    "commit": "8ce9e1e57ec183c9217f46b678ba476698ecbb56",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-04-24T01:59:10-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 33,
+        "deletes": 8,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js",
+      "options.html",
+      "options.js",
+      "query.js"
+    ]
+  },
+  {
+    "commit": "2bdd04e298705b74e4c11dd10db0620dfeaa568e",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-04-24T02:03:50-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 34,
+        "deletes": 23,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js"
+    ]
+  },
+  {
+    "commit": "f6c8a0e3f19b7e16afe94f384373deae26664282",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-04-24T00:15:34-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 242,
+        "deletes": 226,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "options.html",
+      "popup.html"
+    ]
+  },
+  {
+    "commit": "18bb0ee67884cc1e74c1a175a0de7d3bd6941869",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-04-24T00:12:23-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 85,
+        "deletes": 63,
+        "occurrences": 7
+      },
+      "json": {
+        "inserts": 7,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "background.js",
+      "chrome.js",
+      "manifest.json",
+      "options.html",
+      "options.js",
+      "popup.html",
+      "popup.js",
+      "query.js",
+      "reddit.js",
+      "url.js"
+    ]
+  },
+  {
+    "commit": "8de343f62b622ec13672107f541be02370d7a8cd",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-02-20T04:38:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 0,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "js/package-lock.json"
+    ]
+  },
+  {
+    "commit": "cefb67a3ed0bd934a14601d80d644871559ddc5e",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-02-20T04:38:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "js/package-lock.json"
+    ]
+  },
+  {
+    "commit": "55e82a2009019f91e081c58beeb79654c1281e8a",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2022-02-20T04:28:28-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 21,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "js/package.json",
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "45105171ad5037aaf00ca3b9e8ae55dc0a043381",
+    "Author": "Adeel Hassan <AdeelH@users.noreply.github.com>",
+    "Date": "2021-08-23T01:37:34-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Privacy Policy.md"
+    ]
+  },
+  {
+    "commit": "19a101ec4eba263a1f8e20d7ee1ca8a74613c26e",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-08-22T07:55:23-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "changelog.md"
+    ]
+  },
+  {
+    "commit": "121f06d426ee6ba8634c6e2b5a67e0751c2f0d8f",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-08-22T07:51:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "changelog.md"
+    ]
+  },
+  {
+    "commit": "a2f4e2092e797fc5c4d5fbec4bee047611f615a2",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-08-22T07:41:07-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 13,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "changelog.md",
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "dee578af5e74af5881d5f6221f9d79083ec6c634",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-08-22T06:53:47-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "59edc29bbfb35cad2d50adf01d447d608b00c623",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-08-22T06:40:04-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "options.js"
+    ]
+  },
+  {
+    "commit": "01de401661164526503ef2a3064f27c7afb9496c",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-08-22T07:25:08-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 5,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "c13ded8853ed556865e931c985ed9c72f7be9dbe",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-08-22T07:16:16-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "30fc214f65435596201d0770363ba1243cf5cc59",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-08-22T04:37:08-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 14,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "33d621945ef71ceb0bca8f8b8e039083b893bb06",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-05-16T03:11:08-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "changelog.md",
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "0bbabc18fb0d57bd8b717d0a69b20d051d7f3736",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-05-09T06:32:43-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "2884c5773dc15857072bfdb6f5baadcc8a59d369",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-05-09T06:32:35-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "changelog.md"
+    ]
+  },
+  {
+    "commit": "44a8a5419d20ab85e1088aa8c4bd00e8aec577a9",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-05-09T06:27:18-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "js/handlebars.min.js"
+    ]
+  },
+  {
+    "commit": "61b84e246ba1e1d57e8d5542c68064cc267dbb50",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-01-25T21:20:37-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "changelog.md"
+    ]
+  },
+  {
+    "commit": "ff62c6bd62e04eba198f6f27f0f3da4e71a6f156",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-01-25T21:20:25-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "d2b7b1627564788bf4902cbc661c2b508ff42f09",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-01-25T21:20:12-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "7096fd06a2de8c862224a6a0bbe146746fc306c4",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-01-24T00:26:29-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "changelog.md"
+    ]
+  },
+  {
+    "commit": "eb4d603c5acab848309bbc6e9b4b9fcf64029a34",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-01-24T00:23:25-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "f752e5cc66a22de40ee4ccaa96926911ad53e38d",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-01-24T00:21:47-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 22,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/options.css",
+      "options.html"
+    ]
+  },
+  {
+    "commit": "73deb6cb728edfb53af96b150ff302597b46a101",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2021-01-24T00:05:22-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "b63ca67ff57f417f5cc18d73af887af0929007ae",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-09-20T04:46:10-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 76,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "changelog.md"
+    ]
+  },
+  {
+    "commit": "90fd2a9ab2ea6cefb5a60716a510490966d8bf59",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-09-20T04:32:42-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "bb05ef2d25ee2af4dc898044dec270855b39f56e",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-09-20T04:32:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "3c997079e4019c308567f37f24317299a031bc1e",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-09-20T04:31:01-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 5,
+        "deletes": 57,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "js/handlebars.min.js"
+    ]
+  },
+  {
+    "commit": "d65a39ece9c2b494c915ad267e42e8c80adc5032",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-09-20T04:30:31-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "dd0ee66bf49a036494a72598492cd43047a2aced",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-09-20T04:30:01-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 14,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "3849c899e9d3b744d0e999072ecbe587d4817d6b",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-09-20T04:23:04-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "6e28bc84b738a4c5020cfa1132a240919566c6ca",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-09-20T04:22:10-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "e409cd791790ad0a3d1d1d0a68caa3f640ca3e04",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-09-20T04:21:39-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "template.html"
+    ]
+  },
+  {
+    "commit": "cea6a7cc5b74a2868650895e763208a5420eced3",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-08-02T13:42:27-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "f5ec5a7f7930acf8c279025fc6c9c99317c7f2da",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-08-02T13:42:19-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "query.js"
+    ]
+  },
+  {
+    "commit": "031a20799d744309da9b10fc4a8d588f1d3c6839",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-08-02T13:40:48-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js"
+    ]
+  },
+  {
+    "commit": "487bcde17865dcd53b70985bbebbec577b44eaa8",
+    "Author": "Adeel Hassan <adeel_hassan93@hotmail.com>",
+    "Date": "2020-08-02T13:11:24-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "template.html"
+    ]
+  },
+  {
+    "commit": "bc8d264db9c97dab78ae1a08e683ec3cc1d786f1",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2018-05-12T07:53:08-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "fd29edf61495467eee5e63957e9ef3a9ec5dcbe4",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2018-05-12T07:51:15-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 15,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 15,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "options.html",
+      "options.js",
+      "popup.js",
+      "query.js",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "40072bab5030ef2fd96dd6f67dd7c0ed9dadb005",
+    "Author": "Adeel Hassan <AdeelH@users.noreply.github.com>",
+    "Date": "2018-01-30T12:17:03-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Privacy Policy.md"
+    ]
+  },
+  {
+    "commit": "52e0a26bcacb2d2cf1cfb5ff62916f8549b33170",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2018-01-30T12:15:20-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Privacy Policy.md"
+    ]
+  },
+  {
+    "commit": "765e8048a1dbc3de05ccc4f065aba4c92f15809f",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-30T11:31:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "4b64e01612d4425ab8658d6b2a5008cdbe5e0ab6",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-30T11:30:53-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/popup.css"
+    ]
+  },
+  {
+    "commit": "5ea012877ce2709d431fb1eb54f76db4f7e410ff",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-20T05:49:40-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "283f576f5d135be45631a1a94b28f4e0fe8e559a",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-19T06:03:22-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "de937cc3040b59ff69ea7c45e6ff74236b8e522f",
+    "Author": "Adeel Hassan <AdeelH@users.noreply.github.com>",
+    "Date": "2017-08-19T06:02:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "6b664096104ff6c2caf0d98c8deb340a3342e600",
+    "Author": "Adeel Hassan <AdeelH@users.noreply.github.com>",
+    "Date": "2017-08-19T05:59:32-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "e07e5e0719862b1f518bf88f54e1b1a750c3673f",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-19T05:48:16-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 45,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/popup.css",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "e97513e266c3fe0bb0dba0c7b668cbbd90f78205",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-19T04:55:43-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "template.html"
+    ]
+  },
+  {
+    "commit": "b39245f56fe4b761fc90035a0fe849c8d97472c3",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-19T04:54:31-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 17,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/popup.css"
+    ]
+  },
+  {
+    "commit": "bc393bc79257b02c60ee08c996a0fe3db065ba16",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-19T03:46:34-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.html",
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "e8842dfcc7e0a358a85375775e8663e6d67e9161",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-19T03:41:52-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "options.html"
+    ]
+  },
+  {
+    "commit": "34c382973180d9e79cca10cae637f06200cf830c",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-19T03:40:59-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "PNG": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "screenshots/1.png",
+      "screenshots/2.png",
+      "screenshots/xkcd.PNG",
+      "screenshots/youtube.PNG"
+    ]
+  },
+  {
+    "commit": "242c49cd3faed80677bc1e58be1cd55637491292",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-13T08:41:29-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "ef7f603e9e38a0cdc02860060cfbeecd22af7fff",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-13T08:37:31-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 18,
+        "deletes": 10,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "options.html",
+      "options.js",
+      "popup.js",
+      "query.js"
+    ]
+  },
+  {
+    "commit": "2a6476a9adee236aa239d1bb802731bb7d89779e",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-13T07:51:22-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 15,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "woff2": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 52,
+        "deletes": 7,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 70,
+        "deletes": 41,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/popup.css",
+      "fonts/glyphicons-halflings-regular.woff2",
+      "popup.js",
+      "query.js",
+      "reddit.js",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "a6cc8f610e701811f90d170abbc48acaa2b263a6",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-08-13T04:19:59-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 58,
+        "deletes": 18,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "css/popup.css",
+      "popup.html",
+      "popup.js",
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "eddb4934b5f5d3a0a397e07b2d94fe516dc0e0a0",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-07-07T01:44:48-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "8f737453fc1b7fed05c4cd3a0910596d70ab15f5",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-06-29T01:55:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js"
+    ]
+  },
+  {
+    "commit": "4b7b40eaebc0018040b9c4f61835276cf1cdcb1e",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-06-24T10:09:26-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "options.js"
+    ]
+  },
+  {
+    "commit": "52128b83e6e31c3cfbc5d6e00adadc926695b1a5",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-06-04T05:53:33-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "ed18e4b0e1d6443780a96ef35674ba0ed75be109",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-06-04T05:52:04-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "background.js",
+      "options.js"
+    ]
+  },
+  {
+    "commit": "f9342674114731467ec4f19dc889cc2b718491a0",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-06-03T11:12:30-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "86aedd490480697cdf4a58541b15b5264a4c8715",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-06-03T11:12:21-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "template.html"
+    ]
+  },
+  {
+    "commit": "5c5e3ba91738a9020375a72b3013565aaad2c9e4",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-05-31T05:08:08-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 9,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json",
+      "popup.js",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "a97096f51718b30e454f8d727aaa487ef2822278",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-05-31T04:22:23-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "a5125ad9377cb65f819e817d75ec798dcf6fc072",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-05-31T04:19:45-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/options.css"
+    ]
+  },
+  {
+    "commit": "f2ebe18657e94fd8e2d19f22fd15db85c3d792a6",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-05-31T04:18:18-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 34,
+        "deletes": 19,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 21,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js",
+      "options.html",
+      "options.js",
+      "query.js"
+    ]
+  },
+  {
+    "commit": "9edc336feb67eb91f75d08328b42ac78f198be65",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T11:17:14-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "513a344650cc62459d70202e894bad20718fdf64",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T11:16:51-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js"
+    ]
+  },
+  {
+    "commit": "d112e9ec56ee97160418a3b725b44c5ee66f205c",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T11:15:58-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "9cf3ed674046380f35e700aa6db8957e506daf7a",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T07:14:22-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 11,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js",
+      "options.html"
+    ]
+  },
+  {
+    "commit": "5463a7c72303d72554e02eacbef903e6e576d8c0",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T04:50:47-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js"
+    ]
+  },
+  {
+    "commit": "03c3fca649a7fff67d6c4fcea75220a45d048de1",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T04:41:45-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "0bd8d5e5006e116a7d0096479b0145f1398e97f5",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T04:40:49-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 11,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 10,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.html",
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "09248fba39fed42904c1e0acccfb4afd089564f8",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T04:39:37-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 20,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "3e1b51eb0b04c873d81b9afd52fdf278e7dc1040",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T04:37:23-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 54,
+        "deletes": 15,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 44,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js",
+      "css/options.css",
+      "options.html",
+      "options.js",
+      "query.js"
+    ]
+  },
+  {
+    "commit": "21578524d3e0fa596f6addc873ae711549ee847b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-03T04:24:12-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "url.js"
+    ]
+  },
+  {
+    "commit": "881132aa3b35ddbadd34fe607e12fc9d7ef0f110",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T05:27:14-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "query.js",
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "5e332d03d837b99aebbf61138e3d67fc14a7eb86",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T05:01:52-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "052175de52cb484b17d112a0c44356e6e42907ac",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T04:55:13-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "template.html"
+    ]
+  },
+  {
+    "commit": "c78478ab5bd737696dd74b581976c7f59302580d",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T04:54:31-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 34,
+        "deletes": 13,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js",
+      "manifest.json",
+      "popup.js",
+      "reddit.js",
+      "url.js"
+    ]
+  },
+  {
+    "commit": "17cea56a85b555aa89110fbf03ed410904fdce06",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T03:25:43-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 214,
+        "deletes": 157,
+        "occurrences": 6
+      },
+      "html": {
+        "inserts": 35,
+        "deletes": 7,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "background.js",
+      "chrome.js",
+      "options.html",
+      "options.js",
+      "popup.html",
+      "popup.js",
+      "query.js",
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "6b6eac6925347c528e745ff333d02efb47db6af5",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T01:05:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "e8f0f05059c45aa76b4879d59521ae5761ebc12f",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T00:43:08-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "url.js"
+    ]
+  },
+  {
+    "commit": "1e0db668d5fc37f008f9fcdfad48034efe059c0a",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T00:42:49-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "url.js"
+    ]
+  },
+  {
+    "commit": "493f86c636fd4290d2fdfc21abbb3a5fa958abf8",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T00:41:41-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "url.js"
+    ]
+  },
+  {
+    "commit": "cb3e12cdd9a06a1a9bd76feba0d839b71f56e46d",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-04-02T00:40:26-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 25,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "popup.html",
+      "popup.js",
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "ca9b6b23eb0af5fe07928e2abe975c3f09cf72e9",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-28T04:13:31-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "url.js"
+    ]
+  },
+  {
+    "commit": "df69efbbf38a75de0f47b6c31139368a2370bec5",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-28T03:56:16-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "manifest.json",
+      "reddit.js",
+      "url.js"
+    ]
+  },
+  {
+    "commit": "3c2df5e76dd61275a469c8b2e2c9cba3f261dff5",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-25T03:32:50-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 81,
+        "deletes": 4608,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "js/handlebars-v4.0.5.js",
+      "js/handlebars.min.js",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "78f4458e9af13819f9f46fcfcf8bd55caaa02c1e",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-25T03:13:38-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "2de7d2fe9664668c257722e55df6cc793bb1611b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-25T03:12:41-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "chrome.js",
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "7562039ca4033e8f56ee92d413a171f188cb4ae0",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-25T03:12:28-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "options.js"
+    ]
+  },
+  {
+    "commit": "e6b358e960e8807222172b7b14ba3700bcd0e0fb",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T13:32:06-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "a8a14341e3b8877bac5ecace8de089879fa4bbf4",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T13:29:05-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "options.js"
+    ]
+  },
+  {
+    "commit": "aeffa722e120bdff8f51712140c76a44f708faa1",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T13:25:52-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "options.js"
+    ]
+  },
+  {
+    "commit": "c50f030d89c1aa80bfc2ced99f94b02d7c2773cf",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T13:25:18-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 16,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "options.html"
+    ]
+  },
+  {
+    "commit": "512dc6bd7d12a79035b7010b12a88fabd855d14f",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T12:58:35-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 45,
+        "deletes": 11,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "chrome.js",
+      "options.html",
+      "options.js",
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "16086e3b96d3ad2732432675e31ee6600973f3f8",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T12:29:13-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 15,
+        "deletes": 12,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "chrome.js",
+      "options.html",
+      "options.js",
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "93547852d18edb91e1f85652c0fb9062f5388582",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T12:28:52-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 45,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 23,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/options.css",
+      "options.html",
+      "options.js"
+    ]
+  },
+  {
+    "commit": "cdf8696a08541cd2b1e2ecaa73505480c21731b8",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T12:25:55-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "chrome.js"
+    ]
+  },
+  {
+    "commit": "362f822ae93f5215ea05b6a9e96c069647551d96",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T12:25:41-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 13,
+        "deletes": 8,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "background.js",
+      "chrome.js",
+      "options.js"
+    ]
+  },
+  {
+    "commit": "c97e5079d10f6bc8d1aa9431e4996f49c65d2973",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T12:24:01-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 13,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js"
+    ]
+  },
+  {
+    "commit": "2351cab8ba744fdafe7b513d165ebc17643af044",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T12:20:13-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 19,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js"
+    ]
+  },
+  {
+    "commit": "6d357daa9727e6e8da86d31504eb1cdbec85639b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-23T12:18:45-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js"
+    ]
+  },
+  {
+    "commit": "d430ce006db7e3399b3442b9ca41439ffd9f7c52",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-19T09:34:57-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "f14073eb84e8ee9826eaf9cc18b1d2c2f441dcc8",
+    "Author": "Adeel Hassan <AdeelH@users.noreply.github.com>",
+    "Date": "2017-03-19T09:30:46-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "a62579fa8848bcd03e3bd5835e38eeb43ecd624d",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-19T09:15:48-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 136,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "background.js",
+      "chrome.js",
+      "css/options.css",
+      "manifest.json",
+      "options.html",
+      "options.js"
+    ]
+  },
+  {
+    "commit": "3e3431b0be9cba46bc6958e2dcd2958f15dae25e",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-19T09:12:42-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 14,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "css/{style.css => popup.css}",
+      "popup.html",
+      "popup.js",
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "f6961c759e5332c039e841623d93d682db51c0e4",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-19T09:09:52-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 58,
+        "deletes": 48,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "popup.js",
+      "reddit.js",
+      "url.js"
+    ]
+  },
+  {
+    "commit": "34bb6b06db1b70140c63dba26e9dc121320b78d0",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-03-19T01:21:14-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 71,
+        "deletes": 65,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "chrome.js",
+      "popup.html",
+      "popup.js",
+      "reddit.js"
+    ]
+  },
+  {
+    "commit": "1e86e86539ef199840f2af96a022f2716ff566b6",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-28T02:47:54-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "f248ba83c03e97a222829991d72108be31b71b87",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-28T02:05:24-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "e6fc06232b2bf5e395b6470cdc89086ec0b02459",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-26T07:32:00-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "04a681c8fbd8c8011fda6aa268e98ec9954469da",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-26T07:31:06-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "7f9b41f3e0903f26a8166c814e7ca714252a2415",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-26T07:30:29-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "e5dd8678097a6f0593ad3a47a129e260ee4180df",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-26T07:28:30-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.html"
+    ]
+  },
+  {
+    "commit": "dae907fb7d2bfd479c23cd2d063fbd5f205b2723",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-24T06:01:06-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 5,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "82f0a2837721079d76d10c99de894907f27939f5",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-23T13:18:15-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "69b8bcb167d53966a82a69d6e9cf997ce2e5c77d",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-23T13:16:32-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 39,
+        "deletes": 36,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "5eff8e8b728634eca677e05e988f13129a53ee7c",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-20T08:03:20-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "screenshots/1.png",
+      "screenshots/2.png"
+    ]
+  },
+  {
+    "commit": "a7f72e1e089373fd76da6762622706cfbc3cf083",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-20T08:01:22-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "screenshots/1.png",
+      "screenshots/2.png"
+    ]
+  },
+  {
+    "commit": "8963c9e823e4fff426896d125b446817697122c9",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-20T07:58:21-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "771cd1e33d1b1adedd36d6de63ef7ab52f5a1e4b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-20T07:38:25-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "4891959f0da1bddec5466343c79699c099b0e87b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-20T07:37:43-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 77,
+        "deletes": 32,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json",
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "68e82765aac9d61a5c6100e7e640dfca1d185cea",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T12:29:59-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css"
+    ]
+  },
+  {
+    "commit": "b3d53ca9e4a2fb1e4d0ba362350481da38500d1a",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T12:29:41-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "03364cccd3da1728f8fe0799e70bc5bac228b6de",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T12:28:40-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 3,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "d2dbb2fe9d4836fac629560468fa9db37f8b4140",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T11:19:00-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "default"
+    ]
+  },
+  {
+    "commit": "f36c098112435d8bd027b854f13567e9044a2160",
+    "Author": "Adeel Hassan <AdeelH@users.noreply.github.com>",
+    "Date": "2017-02-19T11:11:05-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "b639669334fe7fd0bfa68e81d14cc6ea86545d19",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:43:50-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "b76bafe76d2d733053887c5c3073e98426285c02",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:41:49-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css"
+    ]
+  },
+  {
+    "commit": "27bce1dfba7800a5e22f2847a602a2930f9bbdba",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:37:26-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css"
+    ]
+  },
+  {
+    "commit": "5151f2fd9e1326e5517e1d93b3fa5d4ff76caa53",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:33:35-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "screenshots/1.png",
+      "screenshots/2.png"
+    ]
+  },
+  {
+    "commit": "3716459c9734eda26cbe6bd6a9b61f76817683c2",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:33:20-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "template.html"
+    ]
+  },
+  {
+    "commit": "fa416c2a6ce34deea833e7cd0369c84c29d4d620",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:33:02-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css"
+    ]
+  },
+  {
+    "commit": "f2a64c0a0ac1e2d8cb0d0eeb68959fb6844dde4d",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:32:15-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css",
+      "popup.html"
+    ]
+  },
+  {
+    "commit": "71fcaffebacd5edd8e90665a1dec4e55b84c71a2",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:31:45-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 16,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css",
+      "popup.js",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "9cc20aff459917df851a385199ebee339018ee17",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:30:32-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "99c5ee948e842a0abe0da93be40e002c8ff338ee",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-19T05:28:45-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "5bcf790b9ad1a2b03f6d704050d3e8427a0da19f",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-14T22:04:15-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "9b01937058d0b6147621eea1d58ae44c46904a6c",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-14T07:51:41-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "669c047cac163c9f697de0d354159f0a9183ece8",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-14T07:48:09-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "1071b253a1afafaef731a1f5355f8167525b187b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-14T07:47:36-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "476ef74ef4a4ae59ea584bd50337a02b4dac6005",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-14T07:17:37-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "79d3af3c1ffa53bc5a20b20886f587d201cc6826",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-14T07:12:11-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 11,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "187d177e088b4634a47ad1ea401e8861efc4dc8d",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-14T07:11:53-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "7c497eac9db19b850460d8f414f0a061da60dd4e",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-14T07:11:30-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "eaa596103d278a86fc58b9768d8fad71053681b1",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-14T07:10:32-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.html",
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "6f8cdd6ac91de67415831d0c6776f93a5b0fcead",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-13T07:48:28-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "f7cde3651a1af3d8c523ec2d7c5beb00d5a387c8",
+    "Author": "Adeel Hassan <AdeelH@users.noreply.github.com>",
+    "Date": "2017-02-13T07:33:49-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "b003e5b2f14af58ffdccab601047ec525660ce92",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-13T07:31:21-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "f1ff1125632f432cdc43a45de89a40cda7c56c79",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-13T07:30:53-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "d2ec7c1da525357cceed871a0a8e518605b1f89a",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-13T07:30:25-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "promotional_image-440x280.png",
+      "screenshots/1.png",
+      "screenshots/2.png",
+      "screenshots/screenshot1.png"
+    ]
+  },
+  {
+    "commit": "ab8aca9dbd5d087c5874bdbe2b715885c3215d24",
+    "Author": "Adeel Hassan <AdeelH@users.noreply.github.com>",
+    "Date": "2017-02-12T12:04:52-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "9386779745d1b088539196e534b6b1b5dcc31f43",
+    "Author": "Adeel Hassan <AdeelH@users.noreply.github.com>",
+    "Date": "2017-02-12T11:30:49-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "56ee00784925e2cb233a4a0af4391469010160a5",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-12T11:25:38-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "ebc75d9d9311345bb91d76d6ec4d556df6d9e0af",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-12T11:25:19-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 52,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.html",
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "0a7253adbcfdd7385f375b05f5cb5178c05bde9b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-12T09:57:18-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "0677b1bc0f7a00372a99ad3e5ce31a687a0ce3c7",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-12T09:56:49-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "29852e8d579799e18cca6e312637448282af474b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2017-02-12T09:54:52-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 14,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css",
+      "template.html"
+    ]
+  },
+  {
+    "commit": "23defd0975238db8061d1f2552af88f86712ad8a",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-10-05T09:34:59-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "fc100728f1271623d47c1133e1632f35dbc0214b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-12T02:43:53-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "1b7cd6073ab125fec2fbbace7c82f2317a2e9a6a",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-12T02:43:27-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.html"
+    ]
+  },
+  {
+    "commit": "088a894d5fe9dc0c53ab65a4efd15ad9e0e402b1",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-12T02:42:38-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".jshintrc"
+    ]
+  },
+  {
+    "commit": "56c04853b283cbff5417c37e43e6459d988d5e19",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-11T07:08:00-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "icon-128.png",
+      "icon-16.png",
+      "icon.png => icon-256.png",
+      "icon-48.png",
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "9452736ca4a8fbe0254a077ea1be7ee393314ce1",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-11T05:21:52-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "9014c26e1fe14cc83baf95e7c0e9d58094765f32",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T10:20:47-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "manifest.json"
+    ]
+  },
+  {
+    "commit": "7d54b6f1cfb3ca6e778dc27dcf3f0fdc5fc79e91",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T09:44:55-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "License.md"
+    ]
+  },
+  {
+    "commit": "4e02be13e7d1d584d1941b0a8fd1c30781b2cb81",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T09:32:14-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "4a20596212d2fa4bbd42ef62728d5ea4a1c4e4d7",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T09:30:39-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.html",
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "ad65ffd73cea518d3bac96dc1fa7f1064ebc8c8b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T09:15:22-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "d28a25e05b4e122fb0c11f729fb48d02669d496b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T09:13:55-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "screenshots/screenshot1.png"
+    ]
+  },
+  {
+    "commit": "48bf300402bf524f3427b7b46e1bb859770fa864",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T09:13:19-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.html"
+    ]
+  },
+  {
+    "commit": "a4b766428b3dcc7efe9a9adcbacf41b275e9a293",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T09:06:54-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "5297179b035585a1bac84d8cb45fbd1e3fa76a3c",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T09:06:07-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "popup.js"
+    ]
+  },
+  {
+    "commit": "635000a15289772864863ea7fb413b91bcf03d0c",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T08:56:13-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "PNG": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "screenshots/Capture.PNG",
+      "screenshots/screenshot1.png"
+    ]
+  },
+  {
+    "commit": "276e9703c1cfe74a8dcaae187a8ae3a53b88f34b",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T08:55:55-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "template.html"
+    ]
+  },
+  {
+    "commit": "fd4927031e35ac9065139f873e77c89fdf356156",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T08:49:04-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "PNG": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "screenshots/Capture.PNG"
+    ]
+  },
+  {
+    "commit": "0e4065cbf8e0af6c21a9f9d6de4445c96639e7ea",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T08:46:34-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "9f15fd3ebee94db4ce39a59b5681b87da9a14e90",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T08:35:18-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "template.html"
+    ]
+  },
+  {
+    "commit": "40ee57547908aa7546d351a3f7f26423a97db9bf",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T08:34:51-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "css": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "css/style.css"
+    ]
+  },
+  {
+    "commit": "6882c61e3e3619665165c0a0a4ab0074f2d3c716",
+    "Author": "Adeel <adeel_hassan93@hotmail.com>",
+    "Date": "2016-09-09T08:31:41-07:00",
+    "orig_timezone": "UTC+05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  }
+]

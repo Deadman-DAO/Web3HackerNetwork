@@ -1,0 +1,5293 @@
+[
+  {
+    "commit": "a7306de99ddf946d9e47333f7a38f8da683abf30",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-11-18T09:06:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackReporter.m"
+    ]
+  },
+  {
+    "commit": "9e6c54d1dc2cacd1b4b6f52a8ee2747cd4a3bde2",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-11-11T12:34:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "xib": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Resources/{en.lproj => Base.lproj}/App.xib",
+      "Resources/{en.lproj => Base.lproj}/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "098807f4766558cbeedf591fccc108fd530fce20",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-11-08T09:39:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xib": {
+        "inserts": 72,
+        "deletes": 2016,
+        "occurrences": 8
+      },
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 3,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.md",
+      "Resources/ar.lproj/FeedbackReporter.xib",
+      "Resources/de.lproj/FeedbackReporter.xib",
+      "Resources/en.lproj/FeedbackReporter.xib",
+      "Resources/es.lproj/FeedbackReporter.xib",
+      "Resources/fr.lproj/FeedbackReporter.xib",
+      "Resources/hy.lproj/FeedbackReporter.xib",
+      "Resources/it.lproj/FeedbackReporter.xib",
+      "Resources/ru.lproj/FeedbackReporter.xib",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "91c4af9395b1ac679591d6979c93c76d1c823214",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-11-08T10:09:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "plist": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 34,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.md",
+      "Sources/App/Info.plist",
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "8c524da707beadd8e5a6483eafc00f3681ee629e",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-11-08T10:16:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.md"
+    ]
+  },
+  {
+    "commit": "ec666da37e4cff67fe20988807747c792b5de3b0",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-22T14:02:40-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 8
+      }
+    },
+    "file_list": [
+      "Resources/ar.lproj/FeedbackReporter.xib",
+      "Resources/de.lproj/FeedbackReporter.xib",
+      "Resources/en.lproj/FeedbackReporter.xib",
+      "Resources/es.lproj/FeedbackReporter.xib",
+      "Resources/fr.lproj/FeedbackReporter.xib",
+      "Resources/hy.lproj/FeedbackReporter.xib",
+      "Resources/it.lproj/FeedbackReporter.xib",
+      "Resources/ru.lproj/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "a1d5f851111cc22e4c2f2b89d8c734cc58888ace",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-21T15:14:10-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 18,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "xcscheme": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "FeedbackReporter.xcodeproj/xcshareddata/xcschemes/FeedbackReporter.xcscheme"
+    ]
+  },
+  {
+    "commit": "715a676e0de93fe27cdffa40239be74208da4b10",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-21T15:07:08-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 1,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "65788e4070dcc6dca2f50e7fd08ca6087b6a0c19",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-21T14:37:19-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 10,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "c381813c6764236be47a119f029a7c16f83c3b67",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-21T14:30:49-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 48,
+        "deletes": 48,
+        "occurrences": 8
+      }
+    },
+    "file_list": [
+      "Resources/ar.lproj/FeedbackReporter.xib",
+      "Resources/de.lproj/FeedbackReporter.xib",
+      "Resources/en.lproj/FeedbackReporter.xib",
+      "Resources/es.lproj/FeedbackReporter.xib",
+      "Resources/fr.lproj/FeedbackReporter.xib",
+      "Resources/hy.lproj/FeedbackReporter.xib",
+      "Resources/it.lproj/FeedbackReporter.xib",
+      "Resources/ru.lproj/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "a61098fd72839e7ae9d1b6f55cea613546d8ae48",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-05-27T19:29:17-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "ea8471097d0955a075889f1cbc697c8b59c1d292",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-21T11:42:15-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 418,
+        "deletes": 58,
+        "occurrences": 8
+      }
+    },
+    "file_list": [
+      "Resources/ar.lproj/FeedbackReporter.xib",
+      "Resources/de.lproj/FeedbackReporter.xib",
+      "Resources/en.lproj/FeedbackReporter.xib",
+      "Resources/es.lproj/FeedbackReporter.xib",
+      "Resources/fr.lproj/FeedbackReporter.xib",
+      "Resources/hy.lproj/FeedbackReporter.xib",
+      "Resources/it.lproj/FeedbackReporter.xib",
+      "Resources/ru.lproj/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "2e008e651e55ee576ea22204c85af974f305edfc",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-21T15:37:23-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 16,
+        "deletes": 16,
+        "occurrences": 8
+      }
+    },
+    "file_list": [
+      "Resources/ar.lproj/FeedbackReporter.xib",
+      "Resources/de.lproj/FeedbackReporter.xib",
+      "Resources/en.lproj/FeedbackReporter.xib",
+      "Resources/es.lproj/FeedbackReporter.xib",
+      "Resources/fr.lproj/FeedbackReporter.xib",
+      "Resources/hy.lproj/FeedbackReporter.xib",
+      "Resources/it.lproj/FeedbackReporter.xib",
+      "Resources/ru.lproj/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "4d4dee97630c9326e8cf0b39b71bf9d9e88c8d11",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-21T12:22:27-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 8
+      }
+    },
+    "file_list": [
+      "Resources/ar.lproj/FeedbackReporter.xib",
+      "Resources/de.lproj/FeedbackReporter.xib",
+      "Resources/en.lproj/FeedbackReporter.xib",
+      "Resources/es.lproj/FeedbackReporter.xib",
+      "Resources/fr.lproj/FeedbackReporter.xib",
+      "Resources/hy.lproj/FeedbackReporter.xib",
+      "Resources/it.lproj/FeedbackReporter.xib",
+      "Resources/ru.lproj/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "31f7375d8844355ed39397d56e24f60fd3cd0c97",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-07T19:52:31-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "35621e0ac13e346e7719f5178113d51d8b6306d5",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-07T14:12:11-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 20,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "bbb5b353ce9f05f8a2c0e65be9960d21733d2ece",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-07T14:09:22-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "275bacc3807ba6925ca9b4f436ee4d0ac34361a9",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-05-27T19:27:50-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "21611bf0091e7f0a9144177e3311bbd057a8d468",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2019-08-07T07:33:11-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/php/email/submitfeedback.php",
+      "Server/php/mantis/README.md",
+      "Server/php/mantis/config.php",
+      "Server/php/mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "3736dd1792cc9cf72540dfbffa30f5b5edf72c20",
+    "Author": "Adam Fedor <afedor@t1v.com>",
+    "Date": "2018-02-03T13:04:13-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "xcscheme": {
+        "inserts": 101,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/xcshareddata/xcschemes/FeedbackReporter.xcscheme"
+    ]
+  },
+  {
+    "commit": "21ff0bf80eebbf5838fa55dc13f4d29944c307fa",
+    "Author": "Phil Sulak <psulak@users.noreply.github.com>",
+    "Date": "2017-10-25T15:20:14-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "7fd6adb88c5f0a517f9d3398a9bd1053023bd70c",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-03T10:34:05-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 0,
+        "deletes": 21,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCrashLogFinder.m"
+    ]
+  },
+  {
+    "commit": "8d5a42cbeb610f416a1b4488638367cf9d1ddfdc",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-02T11:11:52-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConstants.h"
+    ]
+  },
+  {
+    "commit": "5429204861d3b6dfac9699f33b0d7d28ba4ea844",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-02T11:11:28-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 10,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 41,
+        "deletes": 22,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Documentation/Integration.md",
+      "Documentation/Server.md",
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.h"
+    ]
+  },
+  {
+    "commit": "71e9add88cf48872881bb754db2d72cb3473838b",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-02T11:07:01-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "0723bd3f396514f424cf1a14e293d71e021ecc20",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-02T09:12:18-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "1def9902e4d11ea7ddb2a5c2e414d83ccde16671",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-02T08:48:49-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCommand.m"
+    ]
+  },
+  {
+    "commit": "c568281dbbf59a0dd35bd745f5952f0b04671ae1",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T19:02:13-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/README.md"
+    ]
+  },
+  {
+    "commit": "99a1f498facffd37eabacd8e8b02ee61cf1df08d",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:53:44-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 53,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 22,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/README.md",
+      "Server/php/mantis/README.txt",
+      "Server/php/mantis/mantis.php",
+      "Server/php/mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "c9547d5ecdb9b5a00bb11a99450a864c17df1410",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:40:46-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/config.php",
+      "Server/php/mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "8882d5fee2d49b1d572e7e9b196b558e51f36ec2",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:27:07-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/mantis.php"
+    ]
+  },
+  {
+    "commit": "af59e77785be7bbe1a4f62475e0bc7ea9b31abb7",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:26:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "1eb19836feb6ab1a31c6c468b717e355761841fb",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:25:13-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "Server/php/mantis/config.php"
+    ]
+  },
+  {
+    "commit": "6ef3da4ddfaf05633b3806cc326367afea443862",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-10T19:17:05-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/mantis.php"
+    ]
+  },
+  {
+    "commit": "ed0ee1140d4b6c55ebe8950ff36d8ee71a58f5e7",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-10T19:15:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/config.php",
+      "Server/php/mantis/mantis.php",
+      "Server/php/mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "99282f32d6727f096d9fd9525b2ef5d4e8d4e90e",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-01T09:25:22-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 24,
+        "deletes": 9,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "HISTORY.md",
+      "README.md"
+    ]
+  },
+  {
+    "commit": "3a7d0d33c5d4f865474dd6e58bbf4071c7f8bb0c",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-01T09:28:50-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 0,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCrashLogFinder.m"
+    ]
+  },
+  {
+    "commit": "abacaf93110aa4300e6cfe3e13651b8e89e0282b",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-01T09:23:43-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "fe42c20669072eac966bf2061d3dba2a25580c9b",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-01T09:20:27-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 3,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "212d1d12df66d9d6de98292403cd236289c29474",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-01T09:18:09-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Documentation/Integration.md",
+      "Sources/App/AppController.m",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.h"
+    ]
+  },
+  {
+    "commit": "8868d8f705caaa64661b008bdb335b01123a9f1d",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-01T09:16:40-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 15,
+        "deletes": 18,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Tests/CommandTestCase.m"
+    ]
+  },
+  {
+    "commit": "648c7edf2b577cd0f6d363e9c9b06c2c9300aae6",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-01T08:53:00-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 5,
+        "deletes": 12,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "c55b27a896780a51025c980363779dfff408b3b1",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-01T07:56:56-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m",
+      "Sources/Main/FRApplication.m",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "2837b56520d57231a2569a8679dcb4465e25f64e",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-08-01T07:50:22-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 7,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "c78eda37ea7cb61afd495d13245ae1cfc9781d2e",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-28T11:04:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 31,
+        "deletes": 31,
+        "occurrences": 11
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRApplication.m",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRCrashLogFinder.m",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FRSystemProfile.m",
+      "Sources/Main/FRUploader.m",
+      "Sources/Main/NSMutableDictionary+Additions.m",
+      "Sources/Tests/CommandTestCase.m",
+      "Sources/Tests/UploaderTestCase.m"
+    ]
+  },
+  {
+    "commit": "67f19ddae426c538a7e3e746df376a0de2c2b4d5",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T19:02:13-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/README.md"
+    ]
+  },
+  {
+    "commit": "e50f338bd0e7b1e594bc3de0c2637134f2cac97a",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:53:44-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 53,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 22,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/README.md",
+      "Server/php/mantis/README.txt",
+      "Server/php/mantis/mantis.php",
+      "Server/php/mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "f31c31c2535002b33688d75d6bab7cd3f93852ce",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:40:46-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/config.php",
+      "Server/php/mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "7e2907af2cea00d898413944fe66d5e7d34ca511",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:27:07-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/mantis.php"
+    ]
+  },
+  {
+    "commit": "898d7cca6c13a3e688bbfd8b4365cda7e7a32cbc",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:26:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "27c863c791247a0d2dce5a5733cf7d271e6c153c",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-27T18:25:13-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "Server/php/mantis/config.php"
+    ]
+  },
+  {
+    "commit": "257798f998d6d4865c2d273d8dbe2b6c172e725f",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-10T19:17:05-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/mantis.php"
+    ]
+  },
+  {
+    "commit": "a0f7773cbf2697e4b11a121ef54e960c94a8eeec",
+    "Author": "Victor Yap <victor.yap@alumni.concordia.ca>",
+    "Date": "2017-07-10T19:15:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "Server/php/mantis/config.php",
+      "Server/php/mantis/mantis.php",
+      "Server/php/mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "5d16e5b95bf193a90aca7040355d8e5efd6e0015",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T15:28:30-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 1,
+        "deletes": 18,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRApplication.h",
+      "Sources/Main/FRApplication.m",
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "41e3f3e16bab265457cb9d1511bb277e3441f7f4",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T14:47:18-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 63,
+        "deletes": 25,
+        "occurrences": 11
+      },
+      "m": {
+        "inserts": 65,
+        "deletes": 28,
+        "occurrences": 11
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.h",
+      "Sources/App/AppController.m",
+      "Sources/Main/FRApplication.h",
+      "Sources/Main/FRApplication.m",
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.h",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRCrashLogFinder.h",
+      "Sources/Main/FRCrashLogFinder.m",
+      "Sources/Main/FRExceptionReportingApplication.h",
+      "Sources/Main/FRExceptionReportingApplication.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.h",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FRSystemProfile.h",
+      "Sources/Main/FRSystemProfile.m",
+      "Sources/Main/FRUploader.h",
+      "Sources/Main/FRUploader.m",
+      "Sources/Main/NSMutableDictionary+Additions.h",
+      "Sources/Main/NSMutableDictionary+Additions.m"
+    ]
+  },
+  {
+    "commit": "3303a8248d416492de526c533e6b7b82b40e9161",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T15:44:32-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRUploader.h",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "1f39c0bc21c42009cee0d59156882be2c6890485",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T14:12:04-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 0,
+        "deletes": 73,
+        "occurrences": 3
+      },
+      "m": {
+        "inserts": 13,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/Tests/CommandTestCase.h",
+      "Sources/Tests/CommandTestCase.m",
+      "Sources/Tests/SystemProfileTestCase.h",
+      "Sources/Tests/SystemProfileTestCase.m",
+      "Sources/Tests/UploaderTestCase.h",
+      "Sources/Tests/UploaderTestCase.m"
+    ]
+  },
+  {
+    "commit": "bec6fd232b6a09fec1f6b6f452c7351ce663a9c1",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T14:09:04-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 8,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 3,
+        "deletes": 127,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 0,
+        "deletes": 25,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/Main/FRExceptionReportingApplication.m",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/NSException+Callstack.h",
+      "Sources/Main/NSException+Callstack.m"
+    ]
+  },
+  {
+    "commit": "8cb0b2da6eda89704f5d010b233d2c5a514e7979",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T15:38:33-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Documentation/Integration.md",
+      "Documentation/Server.md",
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "7128750c55c973e7a0cf2a1a981c4521f864b7ab",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T10:21:21-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "m": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/ar.lproj/FeedbackReporter.xib",
+      "Resources/de.lproj/FeedbackReporter.xib",
+      "Resources/en.lproj/FeedbackReporter.xib",
+      "Resources/es.lproj/FeedbackReporter.xib",
+      "Resources/fr.lproj/FeedbackReporter.xib",
+      "Resources/hy.lproj/FeedbackReporter.xib",
+      "Resources/it.lproj/FeedbackReporter.xib",
+      "Resources/ru.lproj/FeedbackReporter.xib",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "b75392bba70f968098d78ce202dc6497cbb8e57b",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T10:15:52-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 40,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 149,
+        "deletes": 110,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.h",
+      "Sources/App/AppController.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "6ba98e217080c9aca54323b092e6c20175515d69",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T10:07:54-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 1169,
+        "deletes": 4823,
+        "occurrences": 9
+      }
+    },
+    "file_list": [
+      "Resources/ar.lproj/FeedbackReporter.xib",
+      "Resources/de.lproj/FeedbackReporter.xib",
+      "Resources/en.lproj/App.xib",
+      "Resources/en.lproj/FeedbackReporter.xib",
+      "Resources/es.lproj/FeedbackReporter.xib",
+      "Resources/fr.lproj/FeedbackReporter.xib",
+      "Resources/hy.lproj/FeedbackReporter.xib",
+      "Resources/it.lproj/FeedbackReporter.xib",
+      "Resources/ru.lproj/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "2c887729b9ac006a8a6b7d9abffc1c71ab44add3",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-10T09:04:06-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 4,
+        "deletes": 33,
+        "occurrences": 4
+      },
+      "m": {
+        "inserts": 72,
+        "deletes": 73,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.h",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FRUploader.h",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "693be3eb66927d140cc8550951d43ece7d836896",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T12:19:54-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 44,
+        "deletes": 49,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Tests/UploaderTestCase.m"
+    ]
+  },
+  {
+    "commit": "57d6b1813ac0233f4d90e1a81f6243ebdb7b372f",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T12:01:05-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/NSException+Callstack.m"
+    ]
+  },
+  {
+    "commit": "8d1cacd9fcfab5f5ca965c1bcd02fc655d6fe15c",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T11:50:28-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 27,
+        "deletes": 35,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "22c91c6d73520d031352562d09561e56a4c33a85",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T11:00:27-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 34,
+        "deletes": 34,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 108,
+        "deletes": 108,
+        "occurrences": 11
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/App/AppController.h",
+      "Sources/App/AppController.m",
+      "Sources/Main/FRApplication.m",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRExceptionReportingApplication.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FRSystemProfile.m",
+      "Sources/Main/FRUploader.m",
+      "Sources/Main/NSException+Callstack.m",
+      "Sources/Main/NSMutableDictionary+Additions.m"
+    ]
+  },
+  {
+    "commit": "72b22b512c2ce5e1765ff33c54ae31075fe5cf47",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T09:53:59-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 19,
+        "deletes": 19,
+        "occurrences": 4
+      },
+      "m": {
+        "inserts": 99,
+        "deletes": 99,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.h",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FRUploader.h",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "5a34e51286566199e2ef7b3ac1f4b342dd450d45",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T10:24:14-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 4,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.m"
+    ]
+  },
+  {
+    "commit": "22118ec15852a434e5cc34e74523c055df93f050",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T10:04:30-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRUploader.h",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "ef567c4aa85c1761d027fe6d38bfa15060ed37a6",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T10:47:56-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "d7bc166ce2705932fe50649781c1e7cd6c9d30f5",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T10:05:07-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "a44438355c5b4110fecd8954b2c4c513148f764a",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2017-07-06T09:36:21-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 9,
+        "deletes": 32,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 3
+      },
+      "m": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/Tests/CommandTestCase.h",
+      "Sources/Tests/CommandTestCase.m",
+      "Sources/Tests/SystemProfileTestCase.h",
+      "Sources/Tests/SystemProfileTestCase.m",
+      "Sources/Tests/UploaderTestCase.h"
+    ]
+  },
+  {
+    "commit": "f63bd1928760db788d14b014ad885bcfd4999a8e",
+    "Author": "fatData <ajandeer93@gmail.com>",
+    "Date": "2017-04-07T17:40:32-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "86f341a18f72d584c57b57db33d88e182c5ab603",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2014-08-18T14:13:15-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "4ca76985de1f227f177afc191a251896b64d455c",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2014-08-18T12:50:46-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConstants.h"
+    ]
+  },
+  {
+    "commit": "29d43d3f8dc4ec6b0f4b102571447bd6f6deec50",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2014-07-31T14:18:35-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "ea1f2ee06382d5c7d5707787d3a007a4255f9520",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2014-07-31T11:09:23-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 10,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "aaac42685a09e36c83b1ed2636e94af15600dc87",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2014-07-31T10:47:29-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "54078d8efba045524b9738fe87efa321b012f603",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2014-07-31T10:46:56-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "76bba2cf88f74a6a6febbe944d2307472bdfae59",
+    "Author": "Jan Wei\u00df <jan@geheimwerk.de>",
+    "Date": "2014-03-07T07:33:13-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Documentation/Integration.md",
+      "Documentation/Server.md"
+    ]
+  },
+  {
+    "commit": "929e434323563170e597d8a4a34283b8ae6a23a3",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2013-08-20T13:56:18-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Documentation/Integration.md",
+      "Sources/Main/FRApplication.m"
+    ]
+  },
+  {
+    "commit": "f7b67297ed08c3f74fc1d584d07d7f25cba9c9c1",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2013-08-20T11:19:53-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "pch": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FRLocalizedString.h",
+      "Sources/Main/FeedbackReporter.pch"
+    ]
+  },
+  {
+    "commit": "703c40b6c0eb6c29c664ca936163b7ec9d727bf0",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2013-08-20T09:03:58-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 37,
+        "deletes": 15,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "9cd13889b2e09c99ee1e09abdd6c0245776e6881",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2013-07-30T10:24:24-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "39273d874c5ca502d8258c39e87877638ec60ea7",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2013-07-30T10:22:20-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "6f5866a89ed63ceee98366f8ffcd7b9bba1869f9",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2013-07-30T10:17:57-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 3,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "cd3b71d50cee32b1b691fd58a6405ef6c949ab85",
+    "Author": "Vera Tkachenko <ivira@macpaw.com>",
+    "Date": "2013-04-25T07:06:51-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRExceptionReportingApplication.m"
+    ]
+  },
+  {
+    "commit": "138b12c7469ed8448daac4ed92e482ea0fb0a815",
+    "Author": "Vera Tkachenko <ivira@macpaw.com>",
+    "Date": "2013-04-25T06:47:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 0,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "04a368f0bf1a33222ffbba238757213b190691ee",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2013-03-25T13:28:39-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "4a1e37c98532d9d3d83ed213b230ae4643db06b9",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2013-03-25T13:28:16-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "db1c750cdd09e0dcc814e12433df7585be3a1aa2",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2013-03-25T13:27:59-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "91ed485a076d666c103e5f33cc8389cb8b3598d5",
+    "Author": "Ramon Huidobro <pudidis@gmail.com>",
+    "Date": "2013-02-11T12:30:12-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "f8f61d5c201de5fc10fc3d65d2e6f03347579b93",
+    "Author": "rob <sacbor@yahoo.com>",
+    "Date": "2012-11-25T23:51:22-07:00",
+    "orig_timezone": "UTC+11:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 21,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "f62546eb07e4082f5f23e804a94b7227990564bb",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-11-13T14:29:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCrashLogFinder.m"
+    ]
+  },
+  {
+    "commit": "ad19142c51850fcf9df1a41df82a98e9d2b26b23",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-30T12:26:57-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 121,
+        "deletes": 52,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/en.lproj/App.xib",
+      "Sources/App/AppController.h",
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "95de7bc5ad74f386128de0d1f98f07d3be41078f",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-30T12:26:31-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "6e39d6b076321570a9e85c56d0d53e9011576681",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-30T12:12:26-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 0,
+        "deletes": 9268,
+        "occurrences": 7
+      }
+    },
+    "file_list": [
+      "Resources/ar.lproj/App.xib",
+      "Resources/de.lproj/App.xib",
+      "Resources/es.lproj/App.xib",
+      "Resources/fr.lproj/App.xib",
+      "Resources/hy.lproj/App.xib",
+      "Resources/it.lproj/App.xib",
+      "Resources/ru.lproj/App.xib"
+    ]
+  },
+  {
+    "commit": "1ffb43466417f6fb47f2595953eed98b9549b683",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-27T10:01:53-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "79e40e6194e8fc9dbbadc461e07a6e7b7e397e62",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-27T10:00:36-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "1eaf6734f4b5707bf0bf3f0abbeb247b5ea574fd",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-21T14:02:52-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 2,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "xib": {
+        "inserts": 13135,
+        "deletes": 4056,
+        "occurrences": 8
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Resources/ar.lproj/FeedbackReporter.xib",
+      "Resources/de.lproj/FeedbackReporter.xib",
+      "Resources/en.lproj/FeedbackReporter.xib",
+      "Resources/es.lproj/FeedbackReporter.xib",
+      "Resources/fr.lproj/FeedbackReporter.xib",
+      "Resources/hy.lproj/FeedbackReporter.xib",
+      "Resources/it.lproj/FeedbackReporter.xib",
+      "Resources/ru.lproj/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "6adc187c3b473e208591012eccdbd06c8531c680",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-21T14:00:30-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 8,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "80ea90f2fb51c45a01217bddd022d01d5751c4c8",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-21T13:39:45-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "c79d64857be2e7400e8516f2ecbfaf06406a4de6",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:49:58-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "32c4c276dba217f4586d16e2aa4a25c59c76091d",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:49:28-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "461f1c5a51fbae86a11974173c62188442790b98",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:37:22-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRExceptionReportingApplication.m"
+    ]
+  },
+  {
+    "commit": "e884658c668a077f1f125746bed7b6afac076464",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:31:47-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "41dee2fde0300948d922fc0107a9f404a689e476",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:31:06-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "0fcd6bb16b5f88d385266a488d186cec7a0c6814",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:19:28-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "787c0f23d56359f69025c1d0d111963760daca1e",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:15:46-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "028112c02ad709ae9e686094378089402d776570",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:14:42-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "4bd5a1587384b9454f38818acc62889e01c499f4",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:12:17-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "6fa7aa2194e93340571929abd9084fae1fa149b7",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:10:15-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "0afb2d9b546ed6512a5c5806472ed27a8ddad0f0",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:08:04-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "4d015e4d275381983b5d251acc5e2e259924c23c",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T18:04:24-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 31,
+        "deletes": 63,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "e2169340a304ae8b36090479adc0381af1f58ac8",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T17:44:39-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "fb07c140f72bea41a3abf333ae4c569fc8d3b795",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T17:43:02-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "d35db77e0f387154be944bb6451e5068f20ae73a",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T17:41:43-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "ddfb47669b8f2a29e7a26289e8fdaf499d09e1c5",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T17:40:12-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "a41149fd73eb57e8c1cdaef865f2876a1d2b1fc3",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T17:36:18-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "3dcc353a44e9a0ef22d19a515dd8d80360e907e0",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2012-09-11T17:32:17-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "7add8fbd6d621b38226e64c81d923740fc90fe72",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2012-07-11T14:03:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "strings": {
+        "inserts": 78,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/pt-br.lproj/FeedbackReporter.strings"
+    ]
+  },
+  {
+    "commit": "52367682a7d317ff7e046e3ec7999113db83b2a4",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-09-19T13:03:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "3c9c784b25be741bb19a6fbb725c14542107165b",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-09-19T12:40:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 7
+      },
+      "h": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 8
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m",
+      "Sources/Main/FRApplication.h",
+      "Sources/Main/FRApplication.m",
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.h",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRCrashLogFinder.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.h",
+      "Sources/Main/FRUploader.h",
+      "Sources/Main/FRUploader.m",
+      "Sources/Tests/UploaderTestCase.h"
+    ]
+  },
+  {
+    "commit": "6928d296fe77635d29b0e508e02a887b3b321504",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-09-19T12:27:59-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "strings": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/de.lproj/FeedbackReporter.strings"
+    ]
+  },
+  {
+    "commit": "46f9864f663030e9eebdca8bbeab8f870542473a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-08-30T00:30:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 112,
+        "deletes": 112,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "2dfd8d5c2e0c4df3a6aaddc3822a50b548450b83",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-07-01T17:45:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "8236debdc9dcc667a5fba02a07a6d95c2a1391f0",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-07-01T17:22:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "e71095fbc4b9b8617b656e357da3af6801712fb4",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-07-01T15:49:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Documentation/Integration.md",
+      "Documentation/Server.md"
+    ]
+  },
+  {
+    "commit": "f681bff69f4efac4689b635eb611d26ca748cfac",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-07-01T15:48:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "5dc7a8d632c183cc64ea9ed9d6fad8a1289c2311",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-07-01T15:47:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Documentation/Integration.md",
+      "README.md"
+    ]
+  },
+  {
+    "commit": "5788feec72054c4668b629eab84ba57df4bd1f63",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-05-26T18:00:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 31,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/nodejs/feedbackreporter.js"
+    ]
+  },
+  {
+    "commit": "6d6d5c85633a42ecb40d019f2cccc5b285e2fd18",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-05-22T09:18:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "463202f02041e5a8762ad5a4444b7f5b1182acda",
+    "Author": "philippm <philipp@incrediblebee.com>",
+    "Date": "2011-04-12T04:42:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/Store and Email Link/submit.php"
+    ]
+  },
+  {
+    "commit": "649a735ba20f769c0f0099ab1bd51a84a4f6f656",
+    "Author": "philippm <philipp@incrediblebee.com>",
+    "Date": "2011-03-12T05:13:32-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 4,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "9a3156c30806cb52a9dcd1eb44572a927078c60f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-03-08T08:29:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.md"
+    ]
+  },
+  {
+    "commit": "1c8d069b97f9a936dbcf56a43c6e2e4550f616b6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-03-08T08:27:52-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "a4454e7de38357272279793fcb8149b0ac34045e",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-03-05T12:41:16-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.md"
+    ]
+  },
+  {
+    "commit": "62893a35aa9d9756a8b281c94a663859cf34b209",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-03-05T12:39:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "85da37ee85b656a0d789e0aa234b117241abd3f8",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-03-05T12:24:38-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.md"
+    ]
+  },
+  {
+    "commit": "9e0eef6cba2ab3de68fe2152bb66df07e2918d2f",
+    "Author": "Rick Fillion <rick@centrix.ca>",
+    "Date": "2011-03-05T12:01:33-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "39126f9fec4eee8bcf879a277d9f444791072d72",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2011-02-16T16:34:11-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "pbxproj": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "strings": {
+        "inserts": 69,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "HISTORY.md",
+      "Resources/Spanish.lproj/FeedbackReporter.strings"
+    ]
+  },
+  {
+    "commit": "34a6d773e79ec6d863d6b3098340ed5401b68353",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-12-16T10:49:37-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "ef79ffe594a550747a9eca28a5387552fb32c63f",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-12-16T10:47:52-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "icns": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/TemplateIcon.icns"
+    ]
+  },
+  {
+    "commit": "a6dd70c2904fc9f18c0fd501165eeaabdf54a1c2",
+    "Author": "Linas Valiukas <pypt@localhost>",
+    "Date": "2010-12-08T23:16:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "0aeeb23e74cc3ed6bc26a5c7851227e0a52ad31c",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-11-04T10:22:43-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 205,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/App.xib"
+    ]
+  },
+  {
+    "commit": "f333faf4ba4ba56034be408e7433a36cf529e954",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-23T16:19:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 114,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 23,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "DIST.txt",
+      "HISTORY.md",
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "79dbf3274b4295e8aa47e2a646742cd2e27c84d5",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-06-18T12:33:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "DIST.txt"
+    ]
+  },
+  {
+    "commit": "1d0300723cb363c04142a4f0da7dd21b88bea1ff",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-06-18T12:27:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "pem": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "dsa_pub.pem"
+    ]
+  },
+  {
+    "commit": "450202903a6b15866f7cfe448574acedf14cac21",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-06-18T12:11:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 11,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.txt",
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "5dcfd89ed314f5fee7db543c038b5340cf5086b2",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-06-18T11:55:41-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "strings": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/Russian.lproj/FeedbackReporter.strings"
+    ]
+  },
+  {
+    "commit": "b8506ee80d463647f4148bf849b09ddb6c6ca5e7",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-06-17T16:21:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "680d825fc33bd10783c6670fbfee10ea57fb8be3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-05-19T13:29:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "strings": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/German.lproj/FeedbackReporter.strings"
+    ]
+  },
+  {
+    "commit": "58206f9384a198aa515a65125395d9481fb407f7",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-04-13T11:31:56-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackReporter.h"
+    ]
+  },
+  {
+    "commit": "e799379cec6e365ba229ddc53131b22da2693d06",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-04-13T11:31:56-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackReporter.h"
+    ]
+  },
+  {
+    "commit": "e37741186f5a0c402cf2c1666b6fa1e55db3f5a3",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-04-09T15:55:57-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "9c97ed59dbc15c2c27ba985438a301aeec1023eb",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-04-09T15:55:57-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "d546021a6aa854f60c40003435796f43fa056d37",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-04-05T08:43:49-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 54,
+        "deletes": 52,
+        "occurrences": 7
+      },
+      "h": {
+        "inserts": 25,
+        "deletes": 11,
+        "occurrences": 5
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/App/AppController.m",
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.h",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRCrashLogFinder.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRUploader.h",
+      "Sources/Main/FRUploader.m",
+      "Sources/Tests/UploaderTestCase.h",
+      "Sources/Tests/UploaderTestCase.m"
+    ]
+  },
+  {
+    "commit": "a5ba332746893cc33b502af6d420cbceda2edba9",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-03-31T06:35:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/NSException+Callstack.h",
+      "Sources/Main/NSException+Callstack.m"
+    ]
+  },
+  {
+    "commit": "e0a63f2e7b0d30b2a2dac463e6fb4c00c06a26e7",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-03-30T09:38:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/NSException+Callstack.m"
+    ]
+  },
+  {
+    "commit": "42ccb13375d9ce0afca32a68e64e136e925eece9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-03-30T07:53:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRExceptionReportingApplication.m"
+    ]
+  },
+  {
+    "commit": "99b73c73c32ba2e6d1043452bedf568f9b2ecd88",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-03-30T07:24:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/NSException+Callstack.m"
+    ]
+  },
+  {
+    "commit": "c83b6ead869c44dbb60cb05014f555e4c1324973",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-03-30T07:06:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 73,
+        "deletes": 24,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "804dd70cb806573ad058fa00b468b50f2c3b68a9",
+    "Author": "Rowan Beentje <rowan@Nautilus.local>",
+    "Date": "2010-03-08T18:02:09-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/NSException+Callstack.m"
+    ]
+  },
+  {
+    "commit": "519011aed28d4418aefc5809b7191adf0d51215a",
+    "Author": "Rowan Beentje <rowan@Nautilus.local>",
+    "Date": "2010-03-13T15:50:37-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "m": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackReporter.m"
+    ]
+  },
+  {
+    "commit": "6b41fd157e02b0221adb83a22ba3373fb0ec7e94",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-03-06T06:50:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/Mantis/mantis.php"
+    ]
+  },
+  {
+    "commit": "2066cd69c989ef3a508c66ef56b3a6b6d07f2f8d",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-04T15:46:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "4a102a4b3ffd9c1f71c72f0f771cc52316de740a",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-04T15:37:44-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 17,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "611ea55745cfc59ab8e0332997d91500eaaa9e23",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-04T15:37:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 20,
+        "deletes": 42,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "5a9900382c9e800b735368a218da1d2403c49b87",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-04T13:13:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 10,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRApplication.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "b96c39aa32da03f59d4ff0d2e5b086ee8e0a814e",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-04T11:19:18-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 23,
+        "deletes": 14,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 5,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRApplication.m",
+      "Sources/Main/FRConstants.h"
+    ]
+  },
+  {
+    "commit": "56de69e0668a8d8f2878b7819991d6775cf3bc83",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-04T11:17:01-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "plist": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/Info.plist"
+    ]
+  },
+  {
+    "commit": "6974fe79eb765960d9b941f9ef56a8c437a96ae9",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-04T11:16:28-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "1f744cb73e7f2ace1772b7acf070fd533a66fd93",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-04T10:30:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackReporter.m"
+    ]
+  },
+  {
+    "commit": "7c2f13877b8e30afb1598662b7474f83f72293ae",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-03-04T10:16:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 16,
+        "deletes": 13,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRApplication.h",
+      "Sources/Main/FRApplication.m",
+      "Sources/Main/FRConstants.h"
+    ]
+  },
+  {
+    "commit": "f70bf01cf184039947a123d440a7f53f16b83ea7",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-03-04T00:57:01-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 29,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRApplication.h",
+      "Sources/Main/FRApplication.m"
+    ]
+  },
+  {
+    "commit": "c73d2d2ba0af182067721ee6b024378b384c84ed",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-03T08:57:00-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCrashLogFinder.m",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "e9901f72b9ddf953ce897b1b5938d204b9b297f3",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-03-02T15:16:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "4b6ec1c3953c2686dfd8693a3e6d40822088e260",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-02-19T14:33:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "36a4ea9d2e89ebc60ae9ec7d3258d280db9c15f3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-02-19T14:32:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "4de791bc138ba4128be18db6aa70c2598ac2e837",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-02-19T14:22:27-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 12,
+        "deletes": 9,
+        "occurrences": 3
+      },
+      "m": {
+        "inserts": 23,
+        "deletes": 16,
+        "occurrences": 5
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.h",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "631b4d0c6390ab17fd171496b02511874e1d7357",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-02-19T14:22:27-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 12,
+        "deletes": 9,
+        "occurrences": 3
+      },
+      "m": {
+        "inserts": 23,
+        "deletes": 16,
+        "occurrences": 5
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.h",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FRUploader.m"
+    ]
+  },
+  {
+    "commit": "6096f5cabfcbcf018abf5c7639b75a95b51af024",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-02-16T13:30:45-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 37,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "aa02d1332533cf30d9d5d0505664b92485d5d8a5",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-02-16T13:24:47-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 977,
+        "deletes": 550,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Resources/App.xib",
+      "Resources/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "53540ebc09eb55f6ffbd5c80222fb9dc798635e4",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-02-16T10:26:39-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 4
+      },
+      "m": {
+        "inserts": 61,
+        "deletes": 63,
+        "occurrences": 9
+      },
+      "pch": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.h",
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRCrashLogFinder.m",
+      "Sources/Main/FRExceptionReportingApplication.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRSystemProfile.m",
+      "Sources/Main/FRUploader.h",
+      "Sources/Main/FRUploader.m",
+      "Sources/Main/FeedbackReporter.pch",
+      "Sources/Main/NSException+Callstack.m",
+      "Sources/Main/NSMutableDictionary+Additions.m"
+    ]
+  },
+  {
+    "commit": "64a8f506240b7e096c6cfc50943daa55928778ec",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-02-16T13:30:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 37,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "080b1567c08da7b6b5a92c27dfc911b31d98445f",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-02-16T13:24:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 977,
+        "deletes": 550,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Resources/App.xib",
+      "Resources/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "4e6f6dd2ed9e86e4ecca4b6243f749cd5fcbad1b",
+    "Author": "Sean McBride <sean@rogue-research.com>",
+    "Date": "2010-02-16T10:26:39-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 4
+      },
+      "m": {
+        "inserts": 61,
+        "deletes": 63,
+        "occurrences": 9
+      },
+      "pch": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.h",
+      "Sources/Main/FRCommand.h",
+      "Sources/Main/FRCommand.m",
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRCrashLogFinder.m",
+      "Sources/Main/FRExceptionReportingApplication.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRSystemProfile.m",
+      "Sources/Main/FRUploader.h",
+      "Sources/Main/FRUploader.m",
+      "Sources/Main/FeedbackReporter.pch",
+      "Sources/Main/NSException+Callstack.m",
+      "Sources/Main/NSMutableDictionary+Additions.m"
+    ]
+  },
+  {
+    "commit": "d26f4d6e43e8aae42efa79c9c5902a78db5758a2",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-01-27T02:34:03-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRApplication.m",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "66021911efee88b8795734d6d44be92cb39029a7",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-19T18:22:36-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "3b3eb30ba80d0647334ae60185540d9350e13ef5",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-18T09:08:24-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 15,
+        "deletes": 18,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 10,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.xib",
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "ebf724d60773528b9e8fdc6d49856cc74b9c9636",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-18T09:03:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 13,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.m"
+    ]
+  },
+  {
+    "commit": "b7e7c98770a2bb60d6ef4bb9a49567653ade7352",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-18T08:53:38-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 0,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "44c7702e1b0db0432af9d7b08a10ac41efea3096",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-18T08:43:58-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 41,
+        "deletes": 41,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 11,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 13,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.xib",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "3af1dd808966ae55c8f3a774bfabff4668e4c417",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-01-15T12:10:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 18,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.xib",
+      "Sources/Main/FRFeedbackController.h"
+    ]
+  },
+  {
+    "commit": "b7c47ab15fb2867feaad8a5990b83b6190948a0d",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-01-15T10:02:16-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 54,
+        "deletes": 20,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/NSMutableDictionary+Additions.h",
+      "Sources/Main/NSMutableDictionary+Additions.m"
+    ]
+  },
+  {
+    "commit": "e4b22421c106a9abd2c294cfad68ef4245203796",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-01-15T09:41:35-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 1278,
+        "deletes": 1043,
+        "occurrences": 1
+      },
+      "plist": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 41,
+        "deletes": 27,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.xib",
+      "Sources/App/Info.plist",
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "ac3553c2d2daab66958923213fc6ee22eb06f2de",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-01-15T09:18:09-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 15,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "71bc0de6455eb370126802961215c49703270ba8",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-01-15T08:34:51-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "strings": {
+        "inserts": 14,
+        "deletes": 8,
+        "occurrences": 4
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 24,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Resources/Armenian.lproj/FeedbackReporter.strings",
+      "Resources/English.lproj/FeedbackReporter.strings",
+      "Resources/German.lproj/FeedbackReporter.strings",
+      "Resources/Italian.lproj/FeedbackReporter.strings",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.h",
+      "Sources/Main/FRFeedbackReporter.m"
+    ]
+  },
+  {
+    "commit": "ae779e3d9eac61c6d689d1c59b624981bd6d57ee",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-01-15T08:56:44-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "plist": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 7,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/Info.plist",
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "669232edc2dab9bb7477386569c9562a367786f4",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-01-15T07:21:50-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.h"
+    ]
+  },
+  {
+    "commit": "ab5ff6168fed1b3b0e6970326c3f7ed9a9c15944",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-01-14T07:17:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 14,
+        "deletes": 7,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCrashLogFinder.m",
+      "Sources/Main/FRFeedbackController.h",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRFeedbackReporter.m"
+    ]
+  },
+  {
+    "commit": "8a18c1fdf05ee13f694ae451c69632ec92cb0e8b",
+    "Author": "Christoph Priebe <christoph@zykloid.com>",
+    "Date": "2010-01-14T04:24:59-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "ebd083372b3357eafe1754ebb38abd72978955ac",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-12-15T10:45:34-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "strings": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Resources/Armenian.lproj/FeedbackReporter.strings",
+      "Resources/French.lproj/FeedbackReporter.strings"
+    ]
+  },
+  {
+    "commit": "01072c3d46cd4cbcdea3266f39c7ff2bb333081c",
+    "Author": "Vera Tkachenko <vera@tkachenko.kiev.ua>",
+    "Date": "2009-12-15T03:31:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m",
+      "Sources/Main/FRExceptionReportingApplication.m"
+    ]
+  },
+  {
+    "commit": "7e6dcf786ce2a62c79eb7b65a2c413f2a09b19b5",
+    "Author": "Vera Tkachenko <vera@tkachenko.kiev.ua>",
+    "Date": "2009-12-15T03:24:42-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 538,
+        "deletes": 59,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 22,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Resources/App.xib",
+      "Sources/App/AppController.h",
+      "Sources/App/AppController.m",
+      "Sources/Main/FRExceptionReportingApplication.m"
+    ]
+  },
+  {
+    "commit": "e93047037851f9c22552c8dff88b8f38610b2328",
+    "Author": "Vera Tkachenko <vera@tkachenko.kiev.ua>",
+    "Date": "2009-12-15T03:31:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 11,
+        "deletes": 11,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m",
+      "Sources/Main/FRExceptionReportingApplication.m"
+    ]
+  },
+  {
+    "commit": "74f41524c9797ac42ce3abc80638423761f97d94",
+    "Author": "Vera Tkachenko <vera@tkachenko.kiev.ua>",
+    "Date": "2009-12-15T03:24:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 538,
+        "deletes": 59,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 22,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Resources/App.xib",
+      "Sources/App/AppController.h",
+      "Sources/App/AppController.m",
+      "Sources/Main/FRExceptionReportingApplication.m"
+    ]
+  },
+  {
+    "commit": "c3ccbb034dd2419a5c7d3dbc7856656eb438164a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-10-12T13:40:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "strings": {
+        "inserts": 12,
+        "deletes": 12,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "Resources/Armenian.lproj/FeedbackReporter.strings",
+      "Resources/English.lproj/FeedbackReporter.strings",
+      "Resources/French.lproj/FeedbackReporter.strings"
+    ]
+  },
+  {
+    "commit": "2875228bdf925dfe8dfe136fa0914503f8a14b7e",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-10-12T11:40:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "strings": {
+        "inserts": 192,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "RELEASENOTES.html",
+      "Resources/Armenian.lproj/FeedbackReporter.strings",
+      "Resources/French.lproj/FeedbackReporter.strings",
+      "Resources/Italien.jproj/FeedbackReporter.strings"
+    ]
+  },
+  {
+    "commit": "ce011c70220ddefc7a9a1e227e11157cc85e8ae6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-09-29T09:08:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "4068e012fb3ec55428bccbe7b49006312e0e6879",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-09-29T08:54:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "DIST.txt"
+    ]
+  },
+  {
+    "commit": "e4d68ddaeb38b62512c655df392f8f5fa72570c4",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-09-29T08:52:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "DIST.txt"
+    ]
+  },
+  {
+    "commit": "dc43ee528f426942fd11ed5495e43905e289b743",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-09-29T08:51:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "DIST.txt"
+    ]
+  },
+  {
+    "commit": "1b805a06676f045dba3986154f662ce59ea1f37c",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-09-29T07:22:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 46,
+        "deletes": 30,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m",
+      "Sources/Main/FRFeedbackController.m",
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "6cbd29cdd8d0ac408c8e2fc08fdcfc1c1f138f9c",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-08-25T10:17:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 276,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "sh": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/Email/submitfeedback.php",
+      "Server/{ => Store and Email Link}/config.php",
+      "Server/{ => Store and Email Link}/errorlog.php",
+      "Server/{ => Store and Email Link}/feedback.sh",
+      "Server/{ => Store and Email Link}/show.php",
+      "Server/{ => Store and Email Link}/submit.php"
+    ]
+  },
+  {
+    "commit": "aa6b24f25ec3f62126f475fb75d24fbab1d89d1a",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-08-25T10:16:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRExceptionReportingApplication.m"
+    ]
+  },
+  {
+    "commit": "297d45ee67aa4975a620faeb2fc91e005e6a3557",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-07-04T07:01:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "af9bd6b0afe041f5f2e6f741da8de4897feb8c6d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-07-04T06:57:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 7,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "263c6d44d9ece2e6e93379d7dbc836d54e3c1860",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-06-01T11:45:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "c6cd50bf8a24259aa787701ef0d9f04c1642d05f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-05-12T11:09:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "php": {
+        "inserts": 238,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "Server/Mantis/README.txt",
+      "Server/Mantis/config.php",
+      "Server/Mantis/mantis.php",
+      "Server/Mantis/submit.php"
+    ]
+  },
+  {
+    "commit": "443300c21f6b7c5b70298edd861b4b2017a97b00",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-04-30T02:08:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 8,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "ebc805230fa548b294bae832afc0a40a773be999",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-04-30T01:56:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "b7ea19a04baace9e4b3137eb5ab99a15961bdf8d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-04-30T01:55:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "xib": {
+        "inserts": 39,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.xib"
+    ]
+  },
+  {
+    "commit": "f163ae080da7c8a9a3e57844ee5f75591dec98ef",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-04-27T01:13:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "803e2871ab79ea97d501bfa521488edf687a9caf",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-04-25T15:47:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "DIST.txt"
+    ]
+  },
+  {
+    "commit": "18fb37d0fa1aa3bcc81990023b35f48857544ddf",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-04-25T15:29:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 10,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/Main/FRConstants.h",
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "7aebeb404b002a21f2f8232bd22bcde104b63a72",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-04-23T11:12:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "337bc8a5da2a65ec54a36f32a26a470df292c42e",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-04-20T14:47:07-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 29,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRConsoleLog.m"
+    ]
+  },
+  {
+    "commit": "d0ed120dcf1ec6537593f0c6f93e22276cee4676",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-04-13T12:49:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 14,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRSystemProfile.m"
+    ]
+  },
+  {
+    "commit": "276941217e46df231a6298775d3540a070320db0",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-02-24T08:13:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 2,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "6668e33e7d6cccc77c1109fc0439ce9f7927dd4d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-02-24T07:32:50-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "10aaf37ff0e379292d87b57217ff7337c424cd8f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-02-24T07:29:25-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "5253c2275c1b2f3acad2f592c7325cfe2aa938bd",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-02-24T06:59:20-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj"
+    ]
+  },
+  {
+    "commit": "f3e0cc0c1bed89f98e08671d8d35ac211c6510a9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-02-11T18:00:09-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "6882038fb622707ce0fa4c562d27f851e9f72bfc",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-02-03T16:13:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "d40888cae84f20ccb46243ab3697a77b8b1394ad",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-02-03T16:11:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "352f31464936eaf7f7d25b6f855662ce52bbea2c",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-02-03T16:01:43-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "871e2699a590691aa18d88db9c2af213403a70a8",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-01-19T08:28:46-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRCrashLogFinder.m"
+    ]
+  },
+  {
+    "commit": "6bf45e0c917b750e0de418a0e555b881ce6e9433",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-01-02T02:55:54-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 4,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "RELEASENOTES.html"
+    ]
+  },
+  {
+    "commit": "ad8f5e98ba64f21f7f473bc1eb4a16bd04510294",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-01-02T02:55:35-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackController.m"
+    ]
+  },
+  {
+    "commit": "4595adf3472b70ec8f46f1575bfc14d78c469d49",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2009-01-02T02:55:08-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "strings": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/English.lproj/FeedbackReporter.strings"
+    ]
+  },
+  {
+    "commit": "c6bf63ee0e46239dfcb2f04c7f2a1be0ce3a0a28",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-12-08T15:27:45-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 71,
+        "deletes": 63,
+        "occurrences": 1
+      },
+      "xib": {
+        "inserts": 152,
+        "deletes": 121,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 9,
+        "deletes": 9,
+        "occurrences": 8
+      },
+      "m": {
+        "inserts": 68,
+        "deletes": 68,
+        "occurrences": 12
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Resources/FeedbackReporter.xib",
+      "Sources/Main/{Application.h => FRApplication.h}",
+      "Sources/Main/{Application.m => FRApplication.m}",
+      "Sources/Main/{Command.h => FRCommand.h}",
+      "Sources/Main/{Command.m => FRCommand.m}",
+      "Sources/Main/{ConsoleLog.h => FRConsoleLog.h}",
+      "Sources/Main/{ConsoleLog.m => FRConsoleLog.m}",
+      "Sources/Main/{Constants.h => FRConstants.h}",
+      "Sources/Main/{CrashLogFinder.h => FRCrashLogFinder.h}",
+      "Sources/Main/{CrashLogFinder.m => FRCrashLogFinder.m}",
+      "Sources/Main/{FeedbackController.h => FRFeedbackController.h}",
+      "Sources/Main/{FeedbackController.m => FRFeedbackController.m}",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/{SystemProfile.h => FRSystemProfile.h}",
+      "Sources/Main/{SystemProfile.m => FRSystemProfile.m}",
+      "Sources/Main/{Uploader.h => FRUploader.h}",
+      "Sources/Main/{Uploader.m => FRUploader.m}",
+      "Sources/Main/NSException+Callstack.m",
+      "Sources/Tests/CommandTestCase.m",
+      "Sources/Tests/SystemProfileTestCase.m",
+      "Sources/Tests/UploaderTestCase.m"
+    ]
+  },
+  {
+    "commit": "7c4c3d8dcedc71c4dfa29592cdfd021c0c62e093",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-10-21T02:21:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 10,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FeedbackController.m"
+    ]
+  },
+  {
+    "commit": "0bcc4dd311f31e655bae98236bc545dbce5b4682",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-10-09T14:21:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.txt"
+    ]
+  },
+  {
+    "commit": "cd4dc521a962263f3e83b0274f87fc5a39a4d4e0",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-08-09T14:53:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/App/AppController.m"
+    ]
+  },
+  {
+    "commit": "7f22024c2d971bbc00edcbd5a1b1b1462a710c4d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-08-09T14:12:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "plist": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/{feedback.php => submit.php}",
+      "Sources/App/Info.plist"
+    ]
+  },
+  {
+    "commit": "5d19ffdfcad3681abc7c27bbc3acd72b996e6cbe",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-08-09T08:48:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 2,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Tests/SystemProfileTestCase.m"
+    ]
+  },
+  {
+    "commit": "987056110f6ef9bdda321891c5e7a6dce8a7b704",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-08-08T13:53:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 14,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "pch": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FeedbackController.m",
+      "Sources/Main/{Localizable.h => FeedbackReporter.pch}"
+    ]
+  },
+  {
+    "commit": "1e4a5eca138d7a12442f83ea19dc3ca3ca49afcc",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-08-07T16:19:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 11,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "strings": {
+        "inserts": 52,
+        "deletes": 52,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "m": {
+        "inserts": 21,
+        "deletes": 26,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Resources/English.lproj/{Localizable.strings => FeedbackReporter.strings}",
+      "Resources/German.lproj/FeedbackReporter.strings",
+      "Resources/German.lproj/Localizable.strings",
+      "Sources/Main/Constants.h",
+      "Sources/Main/FRFeedbackReporter.m",
+      "Sources/Main/FeedbackController.m",
+      "Sources/Main/Localizable.h"
+    ]
+  },
+  {
+    "commit": "830fa92fc35a5cbf6965b515d69c1034ab688c07",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-08-07T14:47:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "strings": {
+        "inserts": 99,
+        "deletes": 1,
+        "occurrences": 4
+      },
+      "pbxproj": {
+        "inserts": 11,
+        "deletes": 23,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "English.lproj/InfoPlist.strings",
+      "English.lproj/Localizable.strings",
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Resources/English.lproj/Localizable.strings",
+      "Resources/German.lproj/Localizable.strings"
+    ]
+  },
+  {
+    "commit": "889bff3e43ec7e4880e1a4ca2e2429a06e6cf28b",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-08-03T07:45:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "nib": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 38,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.nib/classes.nib",
+      "Resources/FeedbackReporter.nib/info.nib",
+      "Resources/FeedbackReporter.nib/keyedobjects.nib",
+      "Sources/Main/FeedbackController.h",
+      "Sources/Main/FeedbackController.m"
+    ]
+  },
+  {
+    "commit": "63855ef8957a393a2aebd091b421f8b310395d04",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-07-23T13:38:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Constants.h => Sources/Main/Constants.h"
+    ]
+  },
+  {
+    "commit": "346449b569664354301ada906bc8ecc399317ab6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-07-20T10:08:56-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/Main/FRFeedbackReporter.m"
+    ]
+  },
+  {
+    "commit": "1a032ae8c0459e82bf7b8e61ca167268343d3e92",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-06-01T08:05:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 101,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/feedback.sh"
+    ]
+  },
+  {
+    "commit": "29326d2f1ad2914a1271ee19d938c94b611c47b3",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-31T17:10:54-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 3,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.txt"
+    ]
+  },
+  {
+    "commit": "2e449eceb25897bcc3968c6f7cfa8a1526dfe67d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-27T05:14:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "pbxproj": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 158,
+        "deletes": 65,
+        "occurrences": 4
+      },
+      "h": {
+        "inserts": 66,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "FeedbackReporter.xcodeproj/project.pbxproj",
+      "Sources/Main/FeedbackController.m",
+      "Sources/Main/SystemDiscovery.h",
+      "Sources/Main/SystemDiscovery.m",
+      "Sources/Tests/CommandTestCase.h",
+      "Sources/Tests/CommandTestCase.m",
+      "Sources/Tests/SystemDiscoveryTestCase.h",
+      "Sources/Tests/SystemDiscoveryTestCase.m"
+    ]
+  },
+  {
+    "commit": "944d6a4536e1972d7c54c517ec03dbfe4928da2d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-22T06:49:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "nib": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.nib/keyedobjects.nib"
+    ]
+  },
+  {
+    "commit": "1bd1fe8e55c1e9463b78c64c8087357a9fc131d6",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-19T14:37:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "DIST.txt"
+    ]
+  },
+  {
+    "commit": "fef708594380426acd1db46a8e9572b80ef060ac",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-19T14:35:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "DIST.txt"
+    ]
+  },
+  {
+    "commit": "cfd1cb988686ba0df3e733fe470a1da8276dfe69",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-15T13:44:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/CrashLogFinder.m"
+    ]
+  },
+  {
+    "commit": "013faa60bf47ece0a18eda1a18b8f948cdbf1f04",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-15T13:43:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/CrashLogFinder.m"
+    ]
+  },
+  {
+    "commit": "e51e99fe2f888e1e696c6e6ba108896d7114c383",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-15T11:56:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 12,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/FRFeedbackReporter.m"
+    ]
+  },
+  {
+    "commit": "17e92cb9cf911e7c05cdb387d90939764f1fb218",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-15T10:10:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "nib": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.nib/info.nib",
+      "Resources/FeedbackReporter.nib/keyedobjects.nib"
+    ]
+  },
+  {
+    "commit": "43633863fcdf7ffc81a06f82965b51f2abc5eda2",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-15T08:53:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/FeedbackController.m"
+    ]
+  },
+  {
+    "commit": "ceae4fe90bb2db9f763cf34e2c95610740306e17",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-15T02:11:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "nib": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 24,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.nib/classes.nib",
+      "Resources/FeedbackReporter.nib/info.nib",
+      "Resources/FeedbackReporter.nib/keyedobjects.nib",
+      "Sources/FeedbackController.h",
+      "Sources/FeedbackController.m"
+    ]
+  },
+  {
+    "commit": "8ba16080c612b7080f63d6885ffaafa88a4dbc3c",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-14T04:04:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "nib": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Resources/FeedbackReporter.nib/classes.nib",
+      "Resources/FeedbackReporter.nib/info.nib",
+      "Resources/FeedbackReporter.nib/keyedobjects.nib",
+      "Sources/FeedbackController.h",
+      "Sources/FeedbackController.m"
+    ]
+  },
+  {
+    "commit": "573b4b5b7ffbacfe24207fec1a6d48d68d32e920",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2008-05-11T12:05:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "php": {
+        "inserts": 90,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Server/upload.php"
+    ]
+  }
+]

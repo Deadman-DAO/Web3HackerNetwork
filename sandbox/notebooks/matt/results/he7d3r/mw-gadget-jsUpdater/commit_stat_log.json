@@ -1,0 +1,705 @@
+[
+  {
+    "commit": "a25c8004689f93971cb54d4e91ebbd226d735465",
+    "Author": "Helder Geovane Gomes de Lima <he7d3r@gmail.com>",
+    "Date": "2021-08-07T14:41:25-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "61e07c3bdcf3f3761976a64c444d39f87c15a118",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2019-09-14T07:09:13-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "test/suites/core.test.js"
+    ]
+  },
+  {
+    "commit": "8789088b4d0aac5853e271f151b8741008d4b8ec",
+    "Author": "Timo Tijhof <krinklemail@gmail.com>",
+    "Date": "2016-10-20T15:45:41-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "36f48395582a0f3d36625043d9b5721fa4bd2f7e",
+    "Author": "Timo Tijhof <krinklemail@gmail.com>",
+    "Date": "2016-08-19T17:21:07-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 21,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js",
+      "test/suites/core.test.js"
+    ]
+  },
+  {
+    "commit": "5ab3ed33f4ca438596337458806092d10be9fd7f",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2016-06-15T11:45:24-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "e9944a69e56398b0e848499e59757149030eb09f",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2016-06-15T06:37:54-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "a3955df1c928ba29b915b0eba558aa994cec06bf",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2016-04-11T05:00:22-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "5813d01b4d8808975ca70154eca0bcdb2017a68f",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2015-07-10T11:05:59-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 14,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js",
+      "test/suites/core.test.js"
+    ]
+  },
+  {
+    "commit": "5a4ac12b997827e403db73c85c4686226b26a090",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2015-07-08T17:03:30-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "ccf050fa77d45750f7e445cf19f47710803c9e38",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2015-06-27T20:19:41-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "20847c849ce154d7007caee3c3ba4d9f56ff8182",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2015-06-26T09:23:59-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "bd2dbb95069e54a38b5ee083cd80478f84769802",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2015-02-22T15:49:43-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "0fcacb1435470152fb265199939d21302e3ff1b1",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2015-01-19T12:04:08-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "a939c2033fa2d71fdfaa07ce2864c9ccf9bcc764",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-12-14T07:16:40-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "38c93362cc411dbff4d6b77a6175935c4e907b33",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-29T07:17:40-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 22,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js",
+      "test/suites/core.test.js"
+    ]
+  },
+  {
+    "commit": "e2ca17258a80b06e21355782afbc22dacfb12219",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-29T06:50:13-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 116,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "test/suites/core.test.js"
+    ]
+  },
+  {
+    "commit": "f95c429b98e2c189670aa948c517e13ffe6fbea0",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-28T10:43:31-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js",
+      "test/suites/core.test.js"
+    ]
+  },
+  {
+    "commit": "620050c7c0fff2c5d682c7a25dd6c4acd7356d56",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-27T16:49:00-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "0d0405ef32abda3bc24a5fcf6486ca3b056dd58c",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-26T11:21:25-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".jshintrc",
+      "src/jsUpdater.js",
+      "test/suites/core.test.js"
+    ]
+  },
+  {
+    "commit": "dd3cde33ab59dff7b34cbab45a60dc1a1ac2f942",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-20T09:51:34-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "033b0a4901443f2d8b2e6ba8a0ed82e03c1770c7",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-09-20T07:22:28-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "07635817f0c4bf225f7b0b32c2b89069de7ef49d",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-29T11:45:15-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "197c17fe7de8633df36ea2e74a6e7251257e727a",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-28T22:27:33-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "c1ec9f0a78c4b074122180468033dd37edc02e56",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-28T22:21:29-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "e53ab1d62c1b13e2ada69a9ccac3a0d37924c480",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-28T22:16:52-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "d3d56d4c86e2a3a741aaa0e2143da2fcb1218b51",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-28T22:15:48-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "d5cffe261ee2b63b86370f9070110435c1158f18",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-28T22:12:06-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 74,
+        "deletes": 19,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "1d7e8666ddadcfe174d14513c2b33d451adeab98",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-26T21:51:03-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "26cee7448206cadf725ba42ee20c810ccf44f8c4",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-26T21:24:21-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "d6718e47c26e130e443e852bbb9bb8f2cff70ed2",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-25T17:01:22-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "206eef53a1d9055280b95003731a2164d8c30852",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-07-16T10:05:46-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 11,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "852abb04e2ad53d1b7243a1a2de644cd9868245e",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-03-04T07:49:39-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "3a84a9903fa2f36a8962eac96426a002350c0241",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2014-02-28T14:26:47-07:00",
+    "orig_timezone": "UTC-03:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "153bff941f6cf9502f20d24315d1620b4ed5da76",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2013-11-13T14:23:32-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "9aa6a52d0a6ffd6309c79f3c4a52ccaaeeb266b2",
+    "Author": "Helder <he7d3r@gmail.com>",
+    "Date": "2012-11-06T22:16:33-07:00",
+    "orig_timezone": "UTC-02:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "ecaa2977c6e3da19f999ad5f7fef667d9f50766a",
+    "Author": "Timo Tijhof <krinklemail@gmail.com>",
+    "Date": "2012-08-03T23:34:38-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "test/index.html"
+    ]
+  },
+  {
+    "commit": "8e3817436f254104320f6a62a2c982b0248ad67a",
+    "Author": "Timo Tijhof <krinklemail@gmail.com>",
+    "Date": "2012-05-17T20:42:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 294,
+        "deletes": 133,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 19,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitmodules",
+      "src/jsUpdater.js",
+      "test/index.html",
+      "test/qunit",
+      "test/suites/core.test.js"
+    ]
+  },
+  {
+    "commit": "d8744265279bc61a6e80b14e324f7bf11f821e2c",
+    "Author": "Timo Tijhof <krinklemail@gmail.com>",
+    "Date": "2012-05-17T17:14:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md",
+      "jsUpdater.js => src/jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "73428a6621c67c9f21137d263f420fc08a68ce0e",
+    "Author": "Helder Wiki <helder.wiki@gmail.com>",
+    "Date": "2012-05-17T13:26:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 9,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "4305deae2169b81a3b429f6017a87928705a81b8",
+    "Author": "Timo Tijhof <krinklemail@gmail.com>",
+    "Date": "2012-02-27T16:00:00-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "9222cfe2a020ec36d435269e92ab10548f2ff641",
+    "Author": "Timo Tijhof <krinklemail@gmail.com>",
+    "Date": "2011-10-11T15:00:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 32,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "jsUpdater.js"
+    ]
+  },
+  {
+    "commit": "7f3faa3024ad915dd53e50cdde7eafb7dd7b18c2",
+    "Author": "Helder Wiki <helder.wiki@gmail.com>",
+    "Date": "2011-07-08T15:00:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 122,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "jsUpdater.js"
+    ]
+  }
+]

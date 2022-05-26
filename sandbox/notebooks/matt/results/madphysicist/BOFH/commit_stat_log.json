@@ -1,0 +1,462 @@
+[
+  {
+    "commit": "54a3d584439a94c7f32e6ce2d0dfc10d2a5a2ad7",
+    "Author": "Joseph Fox-Rabinovitz <madphysicist@users.noreply.github.com>",
+    "Date": "2022-01-09T18:19:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "1ac92b3fe342671b972cc2d800e8482afcbfa9d7",
+    "Author": "Joseph Fox-Rabinovitz <jfox2@carrastro.com>",
+    "Date": "2015-06-14T09:43:45-07:00",
+    "orig_timezone": "UTC+09:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "sh": {
+        "inserts": 30,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "bofh",
+      "install.sh"
+    ]
+  },
+  {
+    "commit": "32c85bd70fa046178751746f55ef6d9011471be7",
+    "Author": "Joseph Fox-Rabinovitz <jfox@carrastro.com>",
+    "Date": "2014-08-27T14:26:04-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "properties": {
+        "inserts": 0,
+        "deletes": 46,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "config/local.properties"
+    ]
+  },
+  {
+    "commit": "17e98becc3845fa66de788b3b64014172cf95235",
+    "Author": "Joseph Fox-Rabinovitz <jfox@carrastro.com>",
+    "Date": "2014-08-27T13:39:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "069562954cda5692a61fffb72da828dfbcb49673",
+    "Author": "Joseph Fox-Rabinovitz <jfox@carrastro.com>",
+    "Date": "2014-08-27T12:03:37-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "properties": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".classpath",
+      "build.xml",
+      "config/build.properties",
+      "config/local.ubuntu.properties"
+    ]
+  },
+  {
+    "commit": "11402fd2609e04682bea9bd3c4622f1a5b9efac3",
+    "Author": "Joseph Fox-Rabinovitz <jfox@carrastro.com>",
+    "Date": "2014-08-27T02:19:40-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "build.xml"
+    ]
+  },
+  {
+    "commit": "29c39154970e0631c76baec0b608783d0d4f91d8",
+    "Author": "Joseph Fox-Rabinovitz <jfox@carrastro.com>",
+    "Date": "2014-08-27T02:06:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "sh": {
+        "inserts": 95,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "install.sh"
+    ]
+  },
+  {
+    "commit": "4e6530aead0385cf75c55f1799f8f6cb765ea6b8",
+    "Author": "Joseph Fox-Rabinovitz <jfox@carrastro.com>",
+    "Date": "2014-08-27T01:58:24-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "build.xml"
+    ]
+  },
+  {
+    "commit": "478647dc4e786ba003100cf14d7700e33dbea6f5",
+    "Author": "Joseph Fox-Rabinovitz <jfox@carrastro.com>",
+    "Date": "2014-08-27T01:50:58-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "properties": {
+        "inserts": 46,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "config/local.properties"
+    ]
+  },
+  {
+    "commit": "727326baaeb86b111d5339a91d9710ac5a3b2226",
+    "Author": "Joseph Fox-Rabinovitz <jfox@carrastro.com>",
+    "Date": "2014-08-27T01:49:29-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "mf": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 193,
+        "deletes": 1198,
+        "occurrences": 6
+      },
+      "properties": {
+        "inserts": 108,
+        "deletes": 102,
+        "occurrences": 5
+      },
+      "md": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".classpath",
+      ".gitignore",
+      ".netbeans/manifest.mf",
+      ".netbeans/nb-build.xml",
+      ".netbeans/nbproject/build-impl.xml",
+      ".netbeans/nbproject/genfiles.properties",
+      ".netbeans/nbproject/project.properties",
+      ".netbeans/nbproject/project.xml",
+      "README.md",
+      "build.xml",
+      "build.properties => config/build.properties",
+      "config/local.arch.properties",
+      "config/local.ubuntu.properties",
+      "config/setup.xml",
+      "test/com/madphysicist/bofh/BOFHExcuseTest.java",
+      "test/testng.xml"
+    ]
+  },
+  {
+    "commit": "bc6ee052abad6079e82fd4d9839d295a72d100ff",
+    "Author": "Joseph Fox-Rabinovitz <jfoxrabinovitz@gmail.com>",
+    "Date": "2014-07-18T19:13:10-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 4
+      },
+      "java": {
+        "inserts": 8,
+        "deletes": 14,
+        "occurrences": 7
+      }
+    },
+    "file_list": [
+      "src/A",
+      "src/B",
+      "src/C",
+      "src/D",
+      "src/com/madphysicist/bofh/BOFHColumn.java",
+      "src/com/madphysicist/bofh/BOFHExcuse.java",
+      "src/com/madphysicist/bofh/BOFHExcuseGenerator.java",
+      "src/com/madphysicist/bofh/BOFHExcuseModel.java",
+      "src/com/madphysicist/bofh/BOFHMain.java",
+      "src/com/madphysicist/bofh/package-info.java",
+      "test/com/madphysicist/bofh/BOFHExcuseTest.java"
+    ]
+  },
+  {
+    "commit": "295e3521989b3f29783137e18dc1dcb9e43dc518",
+    "Author": "Joseph Fox-Rabinovitz <jfoxrabinovitz@gmail.com>",
+    "Date": "2014-05-21T08:53:16-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "java": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".classpath",
+      ".project",
+      "src/com/madphysicist/bofh/BOFHExcuse.java",
+      "src/com/madphysicist/bofh/BOFHExcuseModel.java"
+    ]
+  },
+  {
+    "commit": "3b1b3b1fb43d82a87b696aacb0b900bc8c541e81",
+    "Author": "madphysicist <do.not@spam.me>",
+    "Date": "2013-11-28T02:15:27-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "LICENSE"
+    ]
+  },
+  {
+    "commit": "d35d77426ba3e7db0b563b4a5a67e76c3f151952",
+    "Author": "Joseph Fox-Rabinovitz <jfoxrabinovitz@gmail.com>",
+    "Date": "2013-11-18T10:06:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "test/testng.xml"
+    ]
+  },
+  {
+    "commit": "576aaf4a229da6c40e3bccee4cbb5cd759412524",
+    "Author": "Joseph Fox-Rabinovitz <jfoxrabinovitz@gmail.com>",
+    "Date": "2013-11-15T20:01:12-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "test/testng.xml"
+    ]
+  },
+  {
+    "commit": "ec913074508ce6f170c427902f5b3220eb6c63f9",
+    "Author": "madphysicist <madphysicist@users.noreply.github.com>",
+    "Date": "2013-11-14T20:59:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "7580c21611e50c8e060ca1b226e810082d295a68",
+    "Author": "madphysicist <do.not@spam.me>",
+    "Date": "2013-11-14T20:53:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "build.xml"
+    ]
+  },
+  {
+    "commit": "edd64e4ee160eef33b0822e2788b78da539ae7dd",
+    "Author": "madphysicist <do.not@spam.me>",
+    "Date": "2013-11-14T20:40:53-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "mf": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 1119,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "properties": {
+        "inserts": 92,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".netbeans/manifest.mf",
+      ".netbeans/nb-build.xml",
+      ".netbeans/nbproject/build-impl.xml",
+      ".netbeans/nbproject/genfiles.properties",
+      ".netbeans/nbproject/project.properties",
+      ".netbeans/nbproject/project.xml",
+      "build.properties"
+    ]
+  },
+  {
+    "commit": "b7fdb7c6ae2dc3694052e22d8ddffb945d2b1cce",
+    "Author": "madphysicist <do.not@spam.me>",
+    "Date": "2013-11-14T00:59:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 336,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "properties": {
+        "inserts": 61,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "xml": {
+        "inserts": 286,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "wav": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "java": {
+        "inserts": 1300,
+        "deletes": 0,
+        "occurrences": 7
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "build.properties",
+      "build.xml",
+      "src/A",
+      "src/B",
+      "src/C",
+      "src/ClicketyClick.wav",
+      "src/D",
+      "src/TODOs",
+      "src/com/madphysicist/bofh/BOFHColumn.java",
+      "src/com/madphysicist/bofh/BOFHExcuse.java",
+      "src/com/madphysicist/bofh/BOFHExcuseGenerator.java",
+      "src/com/madphysicist/bofh/BOFHExcuseModel.java",
+      "src/com/madphysicist/bofh/BOFHMain.java",
+      "src/com/madphysicist/bofh/package-info.java",
+      "test/com/madphysicist/bofh/BOFHExcuseTest.java",
+      "test/testng.xml"
+    ]
+  },
+  {
+    "commit": "357a0c604eac11a3ff7fa02f8c38aff869f870bc",
+    "Author": "madphysicist <madphysicist@users.noreply.github.com>",
+    "Date": "2013-11-13T23:45:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  }
+]

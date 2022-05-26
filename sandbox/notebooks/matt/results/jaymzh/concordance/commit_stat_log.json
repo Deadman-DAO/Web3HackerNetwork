@@ -1,0 +1,3219 @@
+[
+  {
+    "commit": "aaf62906ecf886acbd313ad9e53fb63b3915b113",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2022-04-27T13:31:13-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "ReleaseChecklist.md"
+    ]
+  },
+  {
+    "commit": "e90c8b843b088f2f1ae58d5b9ca2f2e5a0ffef3f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2022-04-27T13:15:49-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ac": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "am": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Changelog",
+      "concordance/concordance.c",
+      "concordance/configure.ac",
+      "libconcord/Makefile.am",
+      "libconcord/bindings/python/libconcord.py",
+      "libconcord/bindings/python/setup.py",
+      "libconcord/configure.ac"
+    ]
+  },
+  {
+    "commit": "2693030fd89c67dfb6d2e88d77eb6af22196cef9",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2022-04-27T13:00:41-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 48,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 68,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "ReleaseChecklist",
+      "ReleaseChecklist.md"
+    ]
+  },
+  {
+    "commit": "605d9560f8caf0f8601bad72fb390950aa6b7946",
+    "Author": "Scott Talbert <swt@techie.net>",
+    "Date": "2022-01-20T14:38:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 26,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/ci-windows.yml"
+    ]
+  },
+  {
+    "commit": "5e92d520f9535974c600ff1751316c9bb3df79f9",
+    "Author": "Scott Talbert <swt@techie.net>",
+    "Date": "2022-01-19T21:34:31-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 32,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/ci-macos.yml"
+    ]
+  },
+  {
+    "commit": "32cff90ce8f620112d0a03d161de12a3c1ef6a82",
+    "Author": "Scott Talbert <swt@techie.net>",
+    "Date": "2022-01-19T18:42:20-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 33,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/ci-linux.yml"
+    ]
+  },
+  {
+    "commit": "22c65f7672d2bfb02704417dec49edbab81149a0",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2019-11-08T20:09:35-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ac": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "nsi": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "am": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Changelog",
+      "concordance/concordance.c",
+      "concordance/configure.ac",
+      "concordance/win/concordance.nsi",
+      "libconcord/Makefile.am",
+      "libconcord/bindings/python/libconcord.py",
+      "libconcord/bindings/python/setup.py",
+      "libconcord/configure.ac"
+    ]
+  },
+  {
+    "commit": "994ede411d7b6eeda422a93304029d826d26db18",
+    "Author": "Scott Talbert <swt@techie.net>",
+    "Date": "2019-03-01T00:26:21-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "h": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/remote_info.h"
+    ]
+  },
+  {
+    "commit": "89bcdeb2edabb464c18d2d5bccf1906a5e5ac17b",
+    "Author": "Scott Talbert <swt@techie.net>",
+    "Date": "2018-11-02T17:45:05-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "67f3734495b5e554ddedfd492e312be27018feed",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2018-06-08T18:26:35-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ac": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog",
+      "concordance/concordance.c",
+      "concordance/configure.ac",
+      "libconcord/bindings/python/setup.py",
+      "libconcord/configure.ac"
+    ]
+  },
+  {
+    "commit": "b446059529fd968eda95f91f92485538af59c793",
+    "Author": "Scott Talbert <swt@techie.net>",
+    "Date": "2018-05-11T22:36:30-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "nsi": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/win/concordance.nsi"
+    ]
+  },
+  {
+    "commit": "dd6242f61b0ca621aab3a47efcf3a4710fa3a20e",
+    "Author": "Scott Talbert <swt@techie.net>",
+    "Date": "2018-05-04T21:17:06-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/bindings/python/libconcord.py"
+    ]
+  },
+  {
+    "commit": "56537730f9782d2c08f791f51e129d8fefe0f8a7",
+    "Author": "Scott Talbert <swt@techie.net>",
+    "Date": "2017-08-03T20:33:35-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "c": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "cpp": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c",
+      "libconcord/lc_internal.h",
+      "libconcord/operationfile.cpp",
+      "libconcord/remote.cpp",
+      "libconcord/remote_z.cpp"
+    ]
+  },
+  {
+    "commit": "62396bf7bf25435ba4ac99714f1bac48873e8acf",
+    "Author": "Scott Talbert <swt@techie.net>",
+    "Date": "2015-08-09T17:30:59-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "cd3802cb9f29bf37f06a52d89ffbdc3dec9155a4",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2015-07-26T22:58:25-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 55,
+        "deletes": 55,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "6b436e3395b60342cb561490e0a3c6169f43d78b",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2015-07-26T22:50:37-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 29,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/README => README.md"
+    ]
+  },
+  {
+    "commit": "f324e52a511f6420f82b888bff2818571390d01e",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2015-04-06T20:32:28-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 16,
+        "deletes": 10,
+        "occurrences": 2
+      },
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ac": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "am": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Changelog",
+      "ReleaseChecklist",
+      "concordance/concordance.c",
+      "concordance/configure.ac",
+      "libconcord/Makefile.am",
+      "libconcord/bindings/python/libconcord.py",
+      "libconcord/bindings/python/setup.py",
+      "libconcord/configure.ac"
+    ]
+  },
+  {
+    "commit": "2e80e02b912a25f2fb9d8598d822f2a416df72c4",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2014-03-28T20:23:37-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog"
+    ]
+  },
+  {
+    "commit": "cbeb8f5448fb08dc40841b78feb01f02324e9bb9",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2014-03-23T18:53:44-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 34,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ac": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog",
+      "ReleaseChecklist",
+      "concordance/concordance.c",
+      "concordance/configure.ac",
+      "libconcord/bindings/python/setup.py",
+      "libconcord/configure.ac"
+    ]
+  },
+  {
+    "commit": "426eb68407871af23fbef113b76dfe126e133d79",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2014-03-17T22:47:54-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/web.cpp"
+    ]
+  },
+  {
+    "commit": "86aab5357895c7eeff08fd078c8b8154c4a031fb",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2014-03-16T19:13:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "mac": {
+        "inserts": 1,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/INSTALL.mac"
+    ]
+  },
+  {
+    "commit": "45ead61178109fe21f92c8a15e462f735fb264b7",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-06-23T16:31:10-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "xml": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.xml"
+    ]
+  },
+  {
+    "commit": "4a673881e88ee55a1957d9ce9418145a52965ef0",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-05-10T03:54:49-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "am": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Makefile.am"
+    ]
+  },
+  {
+    "commit": "b4ecf5d696e827c66660b3d8940f7972ccaaa7ec",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-05-05T20:17:33-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "mac": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/INSTALL.mac"
+    ]
+  },
+  {
+    "commit": "95503cdff90603af727f2b672853fad13b5d05c7",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-15T23:52:03-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog"
+    ]
+  },
+  {
+    "commit": "b816c9a33f03d01a9f5d5c25d4b214c30c989173",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-11T17:37:05-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "h": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/remote_info.h"
+    ]
+  },
+  {
+    "commit": "3dd62d08c148ec3f2e18af0dfd8b466bb723860c",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-10T21:32:21-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "linux": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/INSTALL.linux"
+    ]
+  },
+  {
+    "commit": "99284f8e08e094ccd5b6b41aa18347c968db130d",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-10T21:30:11-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "am": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 18,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog",
+      "libconcord/Makefile.am",
+      "libconcord/gen_udev_support",
+      "libconcord/remote_info.h"
+    ]
+  },
+  {
+    "commit": "e1364fab29456fd7a76eb9612e25cb8dda43917f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-10T21:18:43-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c",
+      "libconcord/bindings/python/libconcord.py"
+    ]
+  },
+  {
+    "commit": "23fae7bdba5d10a02894a2cd4df405aedeb0ce3f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-09T21:35:38-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "am": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ac": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog",
+      "concordance/Makefile.am",
+      "concordance/concordance.c",
+      "concordance/configure.ac"
+    ]
+  },
+  {
+    "commit": "91a2a0b0e2867875e9b20b0f37d3c943b16c9c23",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-09T21:32:16-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "am": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "ac": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Makefile.am",
+      "libconcord/bindings/python/libconcord.py",
+      "libconcord/bindings/python/setup.py",
+      "libconcord/configure.ac"
+    ]
+  },
+  {
+    "commit": "00fe369feb0abb394704ac0186780fb86090edbd",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-09T21:27:07-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "am": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Makefile.am"
+    ]
+  },
+  {
+    "commit": "c489a6d2bdc19862ed70e0cf772a454ddee03bf0",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-09T21:24:53-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 384,
+        "deletes": 92,
+        "occurrences": 5
+      },
+      "linux": {
+        "inserts": 45,
+        "deletes": 31,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 103,
+        "deletes": 29,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 66,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/consnoop.cpp",
+      "libconcord/INSTALL.linux",
+      "libconcord/gen_udev_support",
+      "libconcord/libusb/libusbhid.cpp",
+      "libconcord/remote.cpp",
+      "libconcord/remote_info.h",
+      "libconcord/usblan.cpp",
+      "libconcord/web.cpp"
+    ]
+  },
+  {
+    "commit": "8fa043d3c4807559b65d3e3404c4949266a93227",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-09T21:20:57-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 531,
+        "deletes": 686,
+        "occurrences": 1
+      },
+      "ac": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "am": {
+        "inserts": 29,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 149,
+        "deletes": 98,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c",
+      "concordance/configure.ac",
+      "libconcord/Makefile.am",
+      "libconcord/bindings/python/libconcord.py",
+      "libconcord/bindings/python/setup.py",
+      "libconcord/configure.ac"
+    ]
+  },
+  {
+    "commit": "639565191fcc4e0df144851ae35d72686ac7c042",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2013-04-09T21:17:06-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2750,
+        "deletes": 350,
+        "occurrences": 5
+      },
+      "h": {
+        "inserts": 415,
+        "deletes": 114,
+        "occurrences": 9
+      },
+      "sh": {
+        "inserts": 56,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "txt": {
+        "inserts": 117,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "libconcord/binaryfile.cpp",
+      "libconcord/binaryfile.h",
+      "libconcord/lc_internal.h",
+      "libconcord/libconcord.cpp",
+      "libconcord/libconcord.h",
+      "libconcord/operationfile.cpp",
+      "libconcord/operationfile.h",
+      "libconcord/protocol_z.h",
+      "libconcord/remote.h",
+      "libconcord/remote_mh.cpp",
+      "libconcord/remote_z.cpp",
+      "libconcord/start_concordance_dhcpd.sh",
+      "libconcord/start_concordance_dhcpd_wrapper.sh",
+      "libconcord/usblan.h",
+      "libconcord/web.h",
+      "libconcord/xml_headers.h",
+      "specs/protocol_mh.txt",
+      "specs/protocol_z.txt"
+    ]
+  },
+  {
+    "commit": "6b6f969deccca2b46fbe456c32e5b221442c7752",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2012-03-18T22:47:02-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/bindings/python/setup.py"
+    ]
+  },
+  {
+    "commit": "7c40c9ee878c70bdce9b69d0ec6c72210b4b52cb",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2012-03-18T22:41:00-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ac": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "Changelog",
+      "concordance/concordance.c",
+      "concordance/configure.ac",
+      "libconcord/configure.ac"
+    ]
+  },
+  {
+    "commit": "e48db47137f92f70045b8512e304f04224a8cf8e",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2012-03-15T00:09:45-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "libconcord/usblan.cpp",
+      "libconcord/web.cpp"
+    ]
+  },
+  {
+    "commit": "6ef8a44b998817aa665f2f9546ab22f14bc6d479",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2011-03-13T02:43:27-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "h": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/remote_info.h"
+    ]
+  },
+  {
+    "commit": "f45e025e60476cf8b0c4f685234e7bedd7d9382f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-08-14T14:17:04-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "am": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Makefile.am",
+      "libconcord/bindings/python/libconcord.py"
+    ]
+  },
+  {
+    "commit": "6489a1bf58cc30a3ac810b7b2336db3c3b33e752",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-08-14T09:34:22-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/bindings/python/libconcord.py"
+    ]
+  },
+  {
+    "commit": "54376245de79d091fbd710d447dccfced56e9a3e",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-08-14T09:32:36-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "ReleaseChecklist"
+    ]
+  },
+  {
+    "commit": "e11c3256a38bdc6ef7d22ffd1080c41d90bcbe1d",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-08-14T09:32:12-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/bindings/python/libconcord.py"
+    ]
+  },
+  {
+    "commit": "aac911ad826fee31bd8c427bdeab423fb94f9023",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-08-02T15:04:26-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/consnoop.cpp"
+    ]
+  },
+  {
+    "commit": "cee3551995e25d29e7432872470463e58a64f383",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-07-28T14:55:01-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 19,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/consnoop.cpp"
+    ]
+  },
+  {
+    "commit": "1c867e34bf4125b9b70a8d9677064b07061e5ef1",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-07-28T13:07:11-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 86,
+        "deletes": 62,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/consnoop.cpp"
+    ]
+  },
+  {
+    "commit": "a8a29cd1765a3b8644fee07beb046b9822f3f6a6",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-07-27T15:30:40-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/consnoop.cpp"
+    ]
+  },
+  {
+    "commit": "fe6ac246e960e04f6bf3f60dfca7af6363b45916",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-07-21T11:40:24-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "txt": {
+        "inserts": 15,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "specs/protocol_z.txt"
+    ]
+  },
+  {
+    "commit": "07082852d4c6e64ae113cfde387753243afbef80",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-07-20T03:12:25-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog"
+    ]
+  },
+  {
+    "commit": "22ad4a9153da01e98bc3ec799f5161d054e5a48c",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-07-18T08:33:41-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "specs/protocol_z.txt"
+    ]
+  },
+  {
+    "commit": "89b204ace3db70178551fa8f8a66036d263e2aac",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-07-17T14:07:46-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "txt": {
+        "inserts": 20,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "specs/protocol_z.txt"
+    ]
+  },
+  {
+    "commit": "d2ff9a919bbadac0bc4175dbb2bf97586f9a8ddd",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2010-07-15T04:57:46-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "specs/protocol.txt"
+    ]
+  },
+  {
+    "commit": "a0b9fff335bc2ced3750fe6e953f13a6630519a3",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2009-07-05T06:46:56-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c"
+    ]
+  },
+  {
+    "commit": "202d74310a16341f390ce7286c12a53623e14539",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2009-03-08T12:11:17-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "ReleaseChecklist"
+    ]
+  },
+  {
+    "commit": "cb06b6cf7e1ca395217649d72b07e21993c74df5",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2009-02-14T06:38:41-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog"
+    ]
+  },
+  {
+    "commit": "7218326e25784a1c1226cc08ffe406a48558068d",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2009-02-04T13:52:07-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog"
+    ]
+  },
+  {
+    "commit": "dec6c0d968362ced37cefd4ddad2d0b81fe6848d",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-08-13T13:07:39-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cpp": {
+        "inserts": 4,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog",
+      "libconcord/libconcord.cpp"
+    ]
+  },
+  {
+    "commit": "9074abe5a8e9411e9c180648f3a3906f3d166ba0",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-14T23:17:02-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c"
+    ]
+  },
+  {
+    "commit": "bee8f26149c94a7cee5d50f1421d9cd1c1e57cac",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-14T22:41:56-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c"
+    ]
+  },
+  {
+    "commit": "80e060f8ca70a737ee4e417a6e95e4cfe44597de",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-14T19:35:04-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog"
+    ]
+  },
+  {
+    "commit": "129ff34c582657cff8e2883e3367984007fc96b6",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-14T00:27:58-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 0,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.cpp"
+    ]
+  },
+  {
+    "commit": "d325c7e5cc7ec45621ee01d78ba0bc18ce2689ef",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-13T19:42:59-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/bindings/perl/README"
+    ]
+  },
+  {
+    "commit": "e7acebd1a3b699be95720cf6fc72f2da0a7c3e13",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-13T19:41:15-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog"
+    ]
+  },
+  {
+    "commit": "9773d3a7e7360b31b21830a7ca13493b499cf50f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-13T19:40:56-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Changelog"
+    ]
+  },
+  {
+    "commit": "9ad5208dcd4980fa34b6f438d15d286286dc77eb",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-13T19:01:32-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "1": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.1"
+    ]
+  },
+  {
+    "commit": "5a95f98404ab12aa0a7079ec54598c7fdabc4c84",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-13T18:55:46-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "am": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/Makefile.am"
+    ]
+  },
+  {
+    "commit": "fcbe23f75deeee60ffeca4210a9bbcfbc0d4fee4",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-13T18:51:33-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ac": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c",
+      "concordance/configure.ac",
+      "libconcord/configure.ac"
+    ]
+  },
+  {
+    "commit": "589512140e2047778773b282da39d4506989d289",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-13T18:43:44-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.cpp"
+    ]
+  },
+  {
+    "commit": "4874f34c23b36cab0ffa8e53fd53387aa54da621",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-13T18:38:27-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog => Changelog"
+    ]
+  },
+  {
+    "commit": "64719bcdfe471abaa049eb1e72bab8bdfdfefe0e",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-13T18:37:53-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 25,
+        "deletes": 25,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "c30ca0fdfef2620f5edab190f7f272c6cd459a5f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-11T01:36:44-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "a27890ab37f6807a320199d3142d638653834943",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-11T00:22:42-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "7368bc01ba72bda4a5596e24af72dec93f12acf2",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-10T22:08:54-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "windows": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "INSTALL.windows"
+    ]
+  },
+  {
+    "commit": "e4fe750f0a165fe5673faeb67569e30b965d341e",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-10T14:12:33-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "75325854ef9d64e18b7e7e7c6912290eaa1ca638",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-09T13:42:10-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "h": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/concordance.h"
+    ]
+  },
+  {
+    "commit": "d53eeec4e29ecce130d76392acbefc61b01ce697",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-07T21:58:03-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.cpp"
+    ]
+  },
+  {
+    "commit": "875f22e981b7642adccaf6d42aa6ec08210a2115",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-04T10:06:35-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/win/winhid.cpp"
+    ]
+  },
+  {
+    "commit": "2bb5b7839553e4717fe77c85fcf42e64e439fb7f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-04T02:17:43-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "8f7e7d405d545e028220dea19b4548c0666ba78d",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-04T02:00:39-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c"
+    ]
+  },
+  {
+    "commit": "a2e9945029e7c9f59c1e9a6854de90c180bcba30",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-04T01:57:42-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.cpp"
+    ]
+  },
+  {
+    "commit": "bf4a80f48f7004e963a36371b32fa8e60cd77a2b",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-03T22:22:02-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "d383ceb837b24fe23a61d903a8ab153cf92376cc",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-03T02:45:16-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c"
+    ]
+  },
+  {
+    "commit": "b53f819ac5e89caf9973e7a4886cfdb7eef6814d",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-02T19:31:48-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "888b9d2e0f216fcbb4716bebf3ff0a865aa50a19",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-01T11:48:48-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "am": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/Makefile.am"
+    ]
+  },
+  {
+    "commit": "f8dd2c5986db2d5de7a632ca80573783b194e618",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-01T01:14:05-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "4ce382fb37e4b17d341672f6c077ed3e2f429e06",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-01T01:10:13-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 144,
+        "deletes": 132,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.cpp"
+    ]
+  },
+  {
+    "commit": "1bf7e5dbae06015d5326641f979de5866cd2bd6b",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-04-01T00:56:55-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "fd00652e966fba7f2dcd175ed5741a0db8e1aa01",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-31T22:34:24-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "am": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/Makefile.am"
+    ]
+  },
+  {
+    "commit": "dc27572fca1f16ba41790fb17cf4063fdd40095b",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-31T22:32:59-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 1,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c"
+    ]
+  },
+  {
+    "commit": "50d917d0c79eabb3e8cb2a597872fd9eb96db90e",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-31T20:12:05-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/remote.cpp"
+    ]
+  },
+  {
+    "commit": "d95b15e0742c0d60ff85f22708dc2112dd763699",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-31T14:22:06-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.cpp"
+    ]
+  },
+  {
+    "commit": "0a0419fe0537920f18a418fba9eb3d7f3b317694",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-31T14:15:05-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c"
+    ]
+  },
+  {
+    "commit": "f62405d20684aab3d22d234680ea9dc106022495",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-30T18:40:36-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.h"
+    ]
+  },
+  {
+    "commit": "c9f9d93304a8d507e3ee979f6a794f3f669b1f6d",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-30T18:32:41-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "h": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.h"
+    ]
+  },
+  {
+    "commit": "e7b5673092c6ebb7e13ca51e87d5fb179fed06bb",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-30T16:22:40-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "3f647b7ea7e333742bb85f11cd5381a82c94e89c",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-30T15:05:13-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "d421ac6aa250d8f3889a4b586932a0271753c253",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-30T13:52:57-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "vcproj": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "concordance/win/concordance.vcproj",
+      "libconcord/win/libconcord_libusb.vcproj",
+      "libconcord/win/libconcord_winhid.vcproj"
+    ]
+  },
+  {
+    "commit": "43abfba3a9a42ed4e31acfcbc2cd6fc690d85504",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-30T03:09:57-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "def": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/win/libconcord.def"
+    ]
+  },
+  {
+    "commit": "edc66bb1110ea511ca9cbb6ea66418dc71864cda",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-30T03:07:11-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/web.cpp"
+    ]
+  },
+  {
+    "commit": "6d00019e18170e3adc5c2970305aa3fca1901755",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-30T03:01:46-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 43,
+        "deletes": 45,
+        "occurrences": 7
+      },
+      "h": {
+        "inserts": 41,
+        "deletes": 45,
+        "occurrences": 9
+      }
+    },
+    "file_list": [
+      "libconcord/libconcord.cpp",
+      "libconcord/libconcord.h",
+      "libconcord/protocol.h",
+      "libconcord/protocol_z.h",
+      "libconcord/remote.cpp",
+      "libconcord/remote.h",
+      "libconcord/remote_info.h",
+      "libconcord/remote_z.cpp",
+      "libconcord/usblan.cpp",
+      "libconcord/usblan.h",
+      "libconcord/web.cpp",
+      "libconcord/web.h",
+      "libconcord/win/usb_rtl.cpp",
+      "libconcord/win/usb_rtl.h",
+      "libconcord/win/winhid.cpp",
+      "libconcord/xml_headers.h"
+    ]
+  },
+  {
+    "commit": "e088dbf27b28beb01b7761c99d8996b9349c0dcc",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-29T14:56:32-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "50538ac43731b2b308a84c8178c51d51a4437164",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-29T14:55:54-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.c"
+    ]
+  },
+  {
+    "commit": "584a5e01842e030267096624156e19f1aef3e46f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-29T14:55:18-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "f4b3c0120c359e6962b7f8b2da90c40659721e43",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-28T00:34:02-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 0,
+        "deletes": 914,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp"
+    ]
+  },
+  {
+    "commit": "a3c5506ff1e3f2019afe15a2273146f1ef55cb77",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-26T22:56:45-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "windows": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "INSTALL.windows"
+    ]
+  },
+  {
+    "commit": "c1bd44279c6310900243c7d129a09488646dcf20",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-26T02:13:29-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/web.cpp"
+    ]
+  },
+  {
+    "commit": "9a6348a33189970bd6cda7b89e6fcc7bbe574cfa",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-25T19:00:39-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "1848ad097fd15b0eb04fd8d02fa158aa125ff4d6",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-25T18:53:18-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "0f1df3a85790b1be5705fb80991d943c7b7dd285",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-25T18:50:09-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "specs/protocol.txt"
+    ]
+  },
+  {
+    "commit": "ee480318dc304c0283762e42c78f903543184c97",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-25T18:48:08-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 6
+      }
+    },
+    "file_list": [
+      "libconcord/binaryfile.cpp",
+      "libconcord/libconcord.cpp",
+      "libconcord/remote.cpp",
+      "libconcord/remote_z.cpp",
+      "libconcord/usblan.cpp",
+      "libconcord/web.cpp"
+    ]
+  },
+  {
+    "commit": "8dea0614ebb581ff4bcd264eeb70ec346de5b6b9",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-25T18:45:27-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "txt => LICENSE": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/license.txt => LICENSE"
+    ]
+  },
+  {
+    "commit": "c9f595be0d0b42dac0308bb20851d92ff2e5c9a1",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-25T18:30:46-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "dsp": {
+        "inserts": 36,
+        "deletes": 35,
+        "occurrences": 4
+      },
+      "vcproj": {
+        "inserts": 186,
+        "deletes": 178,
+        "occurrences": 4
+      },
+      "dsw": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "sln": {
+        "inserts": 20,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/win/concordance.dsp",
+      "concordance/win/concordance.vcproj",
+      "consnoop/win/consnoop.dsp",
+      "consnoop/win/consnoop.vcproj",
+      "libconcord/win/libconcord_libusb.dsp",
+      "libconcord/win/libconcord_libusb.vcproj",
+      "libconcord/win/libconcord_winhid.dsp",
+      "libconcord/win/libconcord_winhid.vcproj",
+      "win/concordance.dsw",
+      "win/concordance.sln"
+    ]
+  },
+  {
+    "commit": "78983bbe908dba20eabb93c3450c14928acc15f6",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-13T00:08:53-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/Makefile"
+    ]
+  },
+  {
+    "commit": "ff79095f232df7d52804825abc02cbc96ca7acca",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-12T00:40:57-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/TODO"
+    ]
+  },
+  {
+    "commit": "bb3bc3348db48389a0b426dfb80aa5f98f2801a8",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-09T06:24:27-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "ba962588f5060bcf23886196a7415f7575ca9a19",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-02T21:38:36-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "am": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Makefile.am"
+    ]
+  },
+  {
+    "commit": "6b74bdb0ac2110ef6c3ca9fccb71ddc4655b9bcd",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-03-02T20:19:17-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp"
+    ]
+  },
+  {
+    "commit": "0fc417c6f9da8fd2f27357138a2b30363e4a16c8",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-29T03:01:05-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "dsp": {
+        "inserts": 26,
+        "deletes": 24,
+        "occurrences": 3
+      },
+      "vcproj": {
+        "inserts": 86,
+        "deletes": 83,
+        "occurrences": 3
+      },
+      "windows": {
+        "inserts": 8,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "dsw": {
+        "inserts": 53,
+        "deletes": 53,
+        "occurrences": 1
+      },
+      "sln": {
+        "inserts": 17,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/win/consnoop.dsp",
+      "consnoop/win/consnoop.vcproj",
+      "libconcord/INSTALL.windows",
+      "libconcord/win/harmony_libusb.dsp",
+      "libconcord/win/harmony_libusb.vcproj",
+      "libconcord/win/harmony_winhid.dsp",
+      "libconcord/win/harmony_winhid.vcproj",
+      "win/concordance.dsw",
+      "win/concordance.sln"
+    ]
+  },
+  {
+    "commit": "de5e4bde8e3b456db6f04f955dce1ce79a09557f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-21T19:15:03-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "h": {
+        "inserts": 7,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/concordance.h"
+    ]
+  },
+  {
+    "commit": "acac21ef516e146305306bdf076a3fe62edc702c",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-20T01:32:28-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp"
+    ]
+  },
+  {
+    "commit": "92a47302f308301b07bae4f411cb32b2fa6344d2",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-18T00:09:26-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/consnoop.cpp"
+    ]
+  },
+  {
+    "commit": "917f9a319cb832d36af05f46a0a2eff3f74e1877",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-16T16:45:19-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "dsp": {
+        "inserts": 100,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "vcproj": {
+        "inserts": 236,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/win/consnoop.dsp",
+      "consnoop/win/consnoop.vcproj"
+    ]
+  },
+  {
+    "commit": "4a76cd3eeecf3dfefdb5f995da7440a91a6032a0",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-16T16:42:15-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "358a9df51d0dd0a8082a7a633825b9121f4a6f48",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-16T16:30:43-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "dsp": {
+        "inserts": 44,
+        "deletes": 44,
+        "occurrences": 2
+      },
+      "vcproj": {
+        "inserts": 44,
+        "deletes": 44,
+        "occurrences": 2
+      },
+      "dsw": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "sln": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/win/harmony_libusb.dsp",
+      "libconcord/win/harmony_libusb.vcproj",
+      "libconcord/win/harmony_winhid.dsp",
+      "libconcord/win/harmony_winhid.vcproj",
+      "win/concordance.dsw",
+      "win/concordance.sln"
+    ]
+  },
+  {
+    "commit": "fe82dcc19febd32aafce762024debeb236e2e2c5",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-14T22:36:28-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 28,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/web.cpp"
+    ]
+  },
+  {
+    "commit": "dd70f19f92bf81c618c51c731784f63bde82a408",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-13T22:13:02-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "f93cf4a5f926758118c14c1fb40b28545b7e2424",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-13T22:10:38-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp"
+    ]
+  },
+  {
+    "commit": "f0a5cffbe9bcedf972b8ef69274f37d51a7b50e7",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-13T03:59:07-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/consnoop.cpp"
+    ]
+  },
+  {
+    "commit": "66ec3c9440a1a4cd9c5a8bff17c3b2d5783ca77c",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-12T19:48:23-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "specs/README"
+    ]
+  },
+  {
+    "commit": "2014dd97b8f2f6be85ca59dc4ecccaae405eb575",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-12T14:14:30-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/remote.cpp"
+    ]
+  },
+  {
+    "commit": "d17b04e78cca4aa85ee1b2003519d4cc5e9b9ef1",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-04T11:52:35-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "h": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/win/usb_rtl.h"
+    ]
+  },
+  {
+    "commit": "dbbbc3abf86c21bde48320faada83c4997060290",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-03T14:47:42-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/win/usb_rtl.cpp",
+      "libconcord/win/usb_rtl.h"
+    ]
+  },
+  {
+    "commit": "f47cc1e7572e37bcd50e466fae3df6db57a165d2",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-02T18:40:03-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "specs/README"
+    ]
+  },
+  {
+    "commit": "bd93a70c9d0aaec836e9f034cf272bdfe2889cf7",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-02T03:50:37-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 170,
+        "deletes": 139,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/remote.cpp"
+    ]
+  },
+  {
+    "commit": "9a13e2e1fd97605aa0e7dd91d2bfc704b30d7487",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-02T00:15:40-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "specs/README"
+    ]
+  },
+  {
+    "commit": "c8685367462c772621b706d9401f5121c3f372fa",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-02-02T00:05:35-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "beef0cae44343fb1f6c8801f095556caf221536e",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-01-31T00:27:54-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "325a9e826ccfe5c0170dadd28c74c7c1b54971a7",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-01-31T00:05:43-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 0,
+        "deletes": 126,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "consnoop/consnoop.cpp"
+    ]
+  },
+  {
+    "commit": "ae3b5c63ac465bf25e88c3499121c190fceda6e9",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-01-31T00:04:43-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "c": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 2
+      },
+      "cpp": {
+        "inserts": 681,
+        "deletes": 681,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 193,
+        "deletes": 193,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "concordance/win/getopt/getopt.c",
+      "consnoop/consnoop.cpp",
+      "libconcord/hid.h",
+      "libconcord/libusb/libusbhid.cpp",
+      "libconcord/libusb/win/libusb_dyn.c",
+      "libconcord/web.h",
+      "libconcord/win/usb_rtl.cpp",
+      "libconcord/win/usb_rtl.h"
+    ]
+  },
+  {
+    "commit": "9513ed88c3d2b107552e5bedf415e31f38ac5501",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2008-01-11T18:56:30-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp",
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "23b712cc88d6834182cb3273d137c073259bba63",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-12-16T17:36:11-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "linux": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/INSTALL.linux"
+    ]
+  },
+  {
+    "commit": "141f413690f2f8f932a5b1a7d0f7d5d932219588",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-12-02T19:25:14-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/README"
+    ]
+  },
+  {
+    "commit": "51dc72b5433d929af86ba300cc49252f56c0622f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-11-19T02:09:52-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/README"
+    ]
+  },
+  {
+    "commit": "6b0e0ba1b7490ba15d161101ec53d216c8d3ed4c",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-11-17T18:39:49-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 20,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/README"
+    ]
+  },
+  {
+    "commit": "365120ff68cd291a77375f96230dbb06785744d8",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-11-17T18:31:37-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "f440369c0e7b9bac81f0b6afea8864a3e8cac5e6",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-09-29T12:22:34-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/usblan.cpp"
+    ]
+  },
+  {
+    "commit": "e3b4b4b379b64aea24cfc3800d3150672d9ee5bb",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-08-31T16:37:32-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp",
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "09b82e4da2203c87f0562c9c2e5f62a09d7aea3f",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-08-31T16:12:31-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp",
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "6f6e0dfebea25f641efabd6053820aaec5780892",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-08-26T16:59:32-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "h": {
+        "inserts": 156,
+        "deletes": 156,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/xml_headers.h"
+    ]
+  },
+  {
+    "commit": "93ee6e30c84852e679a3830be84c565e514f0d62",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-08-19T23:45:54-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/README"
+    ]
+  },
+  {
+    "commit": "a3c6942c667ec1901a12cb4e5a8fa25d23a23710",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-08-19T00:15:25-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "linux": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/INSTALL.linux",
+      "libconcord/README"
+    ]
+  },
+  {
+    "commit": "0359e812c0db9e251e3fa2ba330d5cc944a00f1e",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-08-04T09:02:07-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 65,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/Changelog"
+    ]
+  },
+  {
+    "commit": "df8c0a7e0e3c8407b813175d8caa865dea367cf4",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-07-31T17:43:42-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 10,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp"
+    ]
+  },
+  {
+    "commit": "604421c4a259d0f841249ff734345c1b6c640f32",
+    "Author": "kevin_timmerman <>",
+    "Date": "2007-07-31T02:51:24-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 163,
+        "deletes": 65,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp",
+      "libconcord/remote.cpp",
+      "libconcord/remote_z.cpp"
+    ]
+  },
+  {
+    "commit": "da981228e23968b181928416f9976d3e40919c6a",
+    "Author": "kevin_timmerman <>",
+    "Date": "2007-07-31T00:17:17-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "h": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp",
+      "libconcord/remote.h"
+    ]
+  },
+  {
+    "commit": "9c62a3d9f43dd85f26a86a345ad9ab026c920af3",
+    "Author": "kevin_timmerman <>",
+    "Date": "2007-07-30T06:06:35-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/remote_z.cpp"
+    ]
+  },
+  {
+    "commit": "c037d2d157b3684272ce823fd6f81242ff913f25",
+    "Author": "kevin_timmerman <>",
+    "Date": "2007-07-30T05:38:15-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 631,
+        "deletes": 333,
+        "occurrences": 6
+      },
+      "h": {
+        "inserts": 87,
+        "deletes": 16,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp",
+      "libconcord/remote.cpp",
+      "libconcord/remote.h",
+      "libconcord/remote_z.cpp",
+      "libconcord/usblan.cpp",
+      "libconcord/usblan.h",
+      "libconcord/web.cpp",
+      "libconcord/win/winhid.cpp"
+    ]
+  },
+  {
+    "commit": "82277bfd96f3348353db154acc01552d37c8214e",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-07-28T19:05:46-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/README"
+    ]
+  },
+  {
+    "commit": "422f9a3a2516636ce8e75527501aecf2c20e7a52",
+    "Author": "kevin_timmerman <>",
+    "Date": "2007-07-28T18:46:56-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/web.cpp"
+    ]
+  },
+  {
+    "commit": "b533349b11483b42741846e9d12e21228b441353",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-07-28T14:50:18-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp"
+    ]
+  },
+  {
+    "commit": "d2917f4cdcb918f7a14568e02ce00b226b70b058",
+    "Author": "kevin_timmerman <>",
+    "Date": "2007-07-28T03:06:13-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 555,
+        "deletes": 191,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 279,
+        "deletes": 184,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp",
+      "libconcord/concordance.h",
+      "libconcord/remote.cpp",
+      "libconcord/remote.h",
+      "libconcord/remote_info.h",
+      "libconcord/remote_z.cpp"
+    ]
+  },
+  {
+    "commit": "2d47a8f1a4ae16d9e240c15ebe002f0a7b813dca",
+    "Author": "kevin_timmerman <>",
+    "Date": "2007-07-26T01:30:05-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 8,
+        "deletes": 16,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/remote.cpp"
+    ]
+  },
+  {
+    "commit": "01c1875859ae22914fe1f74fed331a5fcf7580ed",
+    "Author": "kevin_timmerman <>",
+    "Date": "2007-07-26T00:05:53-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 6,
+        "deletes": 8,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp",
+      "libconcord/remote.cpp"
+    ]
+  },
+  {
+    "commit": "19dff49e4a133275efe8918b297eae5b21401f0b",
+    "Author": "kevin_timmerman <>",
+    "Date": "2007-07-25T23:29:13-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1615,
+        "deletes": 1517,
+        "occurrences": 3
+      },
+      "h": {
+        "inserts": 175,
+        "deletes": 171,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp",
+      "libconcord/protocol.h",
+      "libconcord/remote.cpp",
+      "libconcord/remote.h",
+      "libconcord/web.cpp"
+    ]
+  },
+  {
+    "commit": "896c58baf92dba02a7ed82c128b1852e7c1aa464",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-07-24T13:27:06-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/concordance.cpp"
+    ]
+  },
+  {
+    "commit": "0db31cfc1699b43cf3ee8da3da8a4e7cbafe48da",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-07-24T12:59:25-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libusb/libusbhid.cpp"
+    ]
+  },
+  {
+    "commit": "5a2bef8a87b023fe1b67d88ea05369e87515804d",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-07-24T12:57:35-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "cpp": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/libusb/libusbhid.cpp"
+    ]
+  },
+  {
+    "commit": "03a4e2b387088f7fc469ea34464a37da9dd33305",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-07-23T13:29:16-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "c": {
+        "inserts": 1221,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "h": {
+        "inserts": 307,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "cpp": {
+        "inserts": 333,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "concordance/win/getopt/README",
+      "concordance/win/getopt/getopt.c",
+      "concordance/win/getopt/getopt.h",
+      "concordance/win/getopt/getopt1.c",
+      "concordance/win/getopt/getopt_int.h",
+      "consnoop/consnoop.cpp"
+    ]
+  },
+  {
+    "commit": "eef860e4664fe4eac2f1f237c1009c28b9d632a1",
+    "Author": "Phil Dibowitz <phil@ipom.com>",
+    "Date": "2007-07-23T13:10:12-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 44,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "libconcord/README"
+    ]
+  }
+]

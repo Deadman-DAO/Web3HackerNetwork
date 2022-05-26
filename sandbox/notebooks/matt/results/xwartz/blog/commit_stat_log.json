@@ -1,0 +1,6899 @@
+[
+  {
+    "commit": "9fd3aefc61970373987faeb7ffdc5d5789f2b421",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2022-04-11T18:35:03-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "lock": {
+        "inserts": 0,
+        "deletes": 13211,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "yarn.lock"
+    ]
+  },
+  {
+    "commit": "da3e168ed9d45b2f1a8ef2bce326546a96a1731d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2022-03-14T00:00:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 80,
+        "occurrences": 8
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 9,
+        "occurrences": 8
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 1678,
+        "occurrences": 19
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 58,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 7
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 1021,
+        "occurrences": 15
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "woff2": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 102
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".eslintrc.js",
+      ".prettierignore",
+      ".prettierrc",
+      ".travis.yml",
+      "CNAME",
+      "LICENSE",
+      "LICENSE-posts",
+      "LICENSE-website",
+      "README.md",
+      "gatsby-browser.js",
+      "gatsby-config.js",
+      "gatsby-node.js",
+      "i18n.js",
+      "package.json",
+      "{src/pages => posts}/beancount-best-practice/index.md",
+      "{src/pages => posts}/casperjs/index.md",
+      "{src/pages => posts}/ci-cd-for-react-native-app/images/build-trigger.png",
+      "{src/pages => posts}/ci-cd-for-react-native-app/images/ci.png",
+      "{src/pages => posts}/ci-cd-for-react-native-app/images/freestyle-project.png",
+      "{src/pages => posts}/ci-cd-for-react-native-app/images/github-plugin.png",
+      "{src/pages => posts}/ci-cd-for-react-native-app/images/github-pr-plugin.png",
+      "{src/pages => posts}/ci-cd-for-react-native-app/index.md",
+      "{src/pages => posts}/developmemt-guidelines/index.md",
+      "{src/pages => posts}/javascript-inheritance/index.md",
+      "{src/pages => posts}/redux-source-code-analysis/flow.gif",
+      "{src/pages => posts}/redux-source-code-analysis/index.md",
+      "{src/pages => posts}/start-up-from-new-mac/agnoster.png",
+      "{src/pages => posts}/start-up-from-new-mac/index.md",
+      "src/assets/icon.png",
+      "src/components/Footer.js",
+      "src/components/Layout.js",
+      "src/components/Panel.js",
+      "src/components/SEO.js",
+      "src/components/Signup.css",
+      "src/components/Signup.js",
+      "src/components/Toggle.css",
+      "src/components/Toggle.js",
+      "src/fonts/files/Cairo-Bold.ttf",
+      "src/fonts/files/Cairo-Regular.ttf",
+      "src/fonts/files/Vazir-Bold.eot",
+      "src/fonts/files/Vazir-Bold.ttf",
+      "src/fonts/files/Vazir-Bold.woff",
+      "src/fonts/files/Vazir-Bold.woff2",
+      "src/fonts/files/Vazir.eot",
+      "src/fonts/files/Vazir.ttf",
+      "src/fonts/files/Vazir.woff",
+      "src/fonts/files/Vazir.woff2",
+      "src/fonts/files/merriweather-300-c-ext.woff2",
+      "src/fonts/files/merriweather-300-c.woff2",
+      "src/fonts/files/merriweather-300-i-c-ext.woff2",
+      "src/fonts/files/merriweather-300-i-c.woff2",
+      "src/fonts/files/merriweather-300-i-l-ext.woff2",
+      "src/fonts/files/merriweather-300-i-l.woff2",
+      "src/fonts/files/merriweather-300-i-vi.woff2",
+      "src/fonts/files/merriweather-300-l-ext.woff2",
+      "src/fonts/files/merriweather-300-l.woff2",
+      "src/fonts/files/merriweather-300-vi.woff2",
+      "src/fonts/files/merriweather-400-c-ext.woff2",
+      "src/fonts/files/merriweather-400-c.woff2",
+      "src/fonts/files/merriweather-400-i-c-ext.woff2",
+      "src/fonts/files/merriweather-400-i-c.woff2",
+      "src/fonts/files/merriweather-400-i-l-ext.woff2",
+      "src/fonts/files/merriweather-400-i-l.woff2",
+      "src/fonts/files/merriweather-400-i-vi.woff2",
+      "src/fonts/files/merriweather-400-l-ext.woff2",
+      "src/fonts/files/merriweather-400-l.woff2",
+      "src/fonts/files/merriweather-400-vi.woff2",
+      "src/fonts/files/merriweather-700-c-ext.woff2",
+      "src/fonts/files/merriweather-700-c.woff2",
+      "src/fonts/files/merriweather-700-i-c-ext.woff2",
+      "src/fonts/files/merriweather-700-i-c.woff2",
+      "src/fonts/files/merriweather-700-i-l-ext.woff2",
+      "src/fonts/files/merriweather-700-i-l.woff2",
+      "src/fonts/files/merriweather-700-i-vi.woff2",
+      "src/fonts/files/merriweather-700-l-ext.woff2",
+      "src/fonts/files/merriweather-700-l.woff2",
+      "src/fonts/files/merriweather-700-vi.woff2",
+      "src/fonts/files/merriweather-900-c-ext.woff2",
+      "src/fonts/files/merriweather-900-c.woff2",
+      "src/fonts/files/merriweather-900-i-c-ext.woff2",
+      "src/fonts/files/merriweather-900-i-c.woff2",
+      "src/fonts/files/merriweather-900-i-l-ext.woff2",
+      "src/fonts/files/merriweather-900-i-l.woff2",
+      "src/fonts/files/merriweather-900-i-vi.woff2",
+      "src/fonts/files/merriweather-900-l-ext.woff2",
+      "src/fonts/files/merriweather-900-l.woff2",
+      "src/fonts/files/merriweather-900-vi.woff2",
+      "src/fonts/files/montserrat-400-c-ext.woff2",
+      "src/fonts/files/montserrat-400-c.woff2",
+      "src/fonts/files/montserrat-400-i-c-ext.woff2",
+      "src/fonts/files/montserrat-400-i-c.woff2",
+      "src/fonts/files/montserrat-400-i-l-ext.woff2",
+      "src/fonts/files/montserrat-400-i-l.woff2",
+      "src/fonts/files/montserrat-400-i-vi.woff2",
+      "src/fonts/files/montserrat-400-l-ext.woff2",
+      "src/fonts/files/montserrat-400-l.woff2",
+      "src/fonts/files/montserrat-400-vi.woff2",
+      "src/fonts/files/montserrat-500-c-ext.woff2",
+      "src/fonts/files/montserrat-500-c.woff2",
+      "src/fonts/files/montserrat-500-i-c-ext.woff2",
+      "src/fonts/files/montserrat-500-i-c.woff2",
+      "src/fonts/files/montserrat-500-i-l-ext.woff2",
+      "src/fonts/files/montserrat-500-i-l.woff2",
+      "src/fonts/files/montserrat-500-i-vi.woff2",
+      "src/fonts/files/montserrat-500-l-ext.woff2",
+      "src/fonts/files/montserrat-500-l.woff2",
+      "src/fonts/files/montserrat-500-vi.woff2",
+      "src/fonts/files/montserrat-600-c-ext.woff2",
+      "src/fonts/files/montserrat-600-c.woff2",
+      "src/fonts/files/montserrat-600-i-c-ext.woff2",
+      "src/fonts/files/montserrat-600-i-c.woff2",
+      "src/fonts/files/montserrat-600-i-l-ext.woff2",
+      "src/fonts/files/montserrat-600-i-l.woff2",
+      "src/fonts/files/montserrat-600-i-vi.woff2",
+      "src/fonts/files/montserrat-600-l-ext.woff2",
+      "src/fonts/files/montserrat-600-l.woff2",
+      "src/fonts/files/montserrat-600-vi.woff2",
+      "src/fonts/files/montserrat-700-c-ext.woff2",
+      "src/fonts/files/montserrat-700-c.woff2",
+      "src/fonts/files/montserrat-700-i-c-ext.woff2",
+      "src/fonts/files/montserrat-700-i-c.woff2",
+      "src/fonts/files/montserrat-700-i-l-ext.woff2",
+      "src/fonts/files/montserrat-700-i-l.woff2",
+      "src/fonts/files/montserrat-700-i-vi.woff2",
+      "src/fonts/files/montserrat-700-l-ext.woff2",
+      "src/fonts/files/montserrat-700-l.woff2",
+      "src/fonts/files/montserrat-700-vi.woff2",
+      "src/fonts/files/montserrat-800-c-ext.woff2",
+      "src/fonts/files/montserrat-800-c.woff2",
+      "src/fonts/files/montserrat-800-i-c-ext.woff2",
+      "src/fonts/files/montserrat-800-i-c.woff2",
+      "src/fonts/files/montserrat-800-i-l-ext.woff2",
+      "src/fonts/files/montserrat-800-i-l.woff2",
+      "src/fonts/files/montserrat-800-i-vi.woff2",
+      "src/fonts/files/montserrat-800-l-ext.woff2",
+      "src/fonts/files/montserrat-800-l.woff2",
+      "src/fonts/files/montserrat-800-vi.woff2",
+      "src/fonts/files/montserrat-900-c-ext.woff2",
+      "src/fonts/files/montserrat-900-c.woff2",
+      "src/fonts/files/montserrat-900-i-c-ext.woff2",
+      "src/fonts/files/montserrat-900-i-c.woff2",
+      "src/fonts/files/montserrat-900-i-l-ext.woff2",
+      "src/fonts/files/montserrat-900-i-l.woff2",
+      "src/fonts/files/montserrat-900-i-vi.woff2",
+      "src/fonts/files/montserrat-900-l-ext.woff2",
+      "src/fonts/files/montserrat-900-l.woff2",
+      "src/fonts/files/montserrat-900-vi.woff2",
+      "src/fonts/fonts-post.arabic.css",
+      "src/fonts/fonts-post.css",
+      "src/fonts/fonts-post.cyrillic-ext.css",
+      "src/fonts/fonts-post.cyrillic.css",
+      "src/fonts/fonts-post.latin-ext.css",
+      "src/fonts/fonts-post.persian.css",
+      "src/fonts/fonts-post.vietnamese.css",
+      "src/fonts/fonts-shared.css",
+      "src/fonts/fonts-shared.cyrillic-ext.css",
+      "src/fonts/fonts-shared.cyrillic.css",
+      "src/fonts/fonts-shared.latin-ext.css",
+      "src/fonts/fonts-shared.vietnamese.css",
+      "src/html.js",
+      "src/pages/404.js",
+      "src/pages/confirm.js",
+      "src/pages/thanks.js",
+      "src/templates/blog-index.js",
+      "src/templates/blog-post.js",
+      "src/utils/global.css",
+      "src/utils/helpers.js",
+      "src/utils/i18n.js",
+      "src/utils/typography.js",
+      "static/favicon.ico",
+      "static/robots.txt"
+    ]
+  },
+  {
+    "commit": "3c62e4c3bd8b7b0c809a188cf55099b840b10cf2",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-11-17T02:14:32-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/start-up-from-new-mac/index.md"
+    ]
+  },
+  {
+    "commit": "59bc4056b21ef7ccb992cd07028562ba0796dbed",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-11-04T05:43:08-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 110,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/start-up-from-new-mac/agnoster.png",
+      "src/pages/start-up-from-new-mac/index.md"
+    ]
+  },
+  {
+    "commit": "6af19693ba2a6a25e2b17b0ec646c48bdb6ddece",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-09-24T09:09:54-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 394,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/javascript-inheritance/index.md",
+      "src/pages/redux-source-code-analysis/flow.gif",
+      "src/pages/redux-source-code-analysis/index.md"
+    ]
+  },
+  {
+    "commit": "5aa64605e7a0f6678b892a10cc15a3f8eb8c9350",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-09-24T08:43:09-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 210,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/casperjs/index.md"
+    ]
+  },
+  {
+    "commit": "9038a326107173ca0bb821f9d0ffd92ed99b2363",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-08-01T07:43:29-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 271,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/javascript-inheritance/index.md"
+    ]
+  },
+  {
+    "commit": "80bc8406f1f4ea9bc60ec808e89120150a744fef",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-08-01T07:22:04-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "src/pages/beancount-best-practice/index.md",
+      "src/pages/ci-cd-for-react-native-app/index.md",
+      "src/pages/developmemt-guidelines/index.md"
+    ]
+  },
+  {
+    "commit": "514f83e3d73461ffa22689dd6f5da2e72d20d369",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-29T01:07:28-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 76,
+        "deletes": 48,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/beancount-best-practice/index.md"
+    ]
+  },
+  {
+    "commit": "98ab453fc9e51d7edbf70bf4ef777d5bf274d999",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-28T00:52:10-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "6be31d9d0a0697b43cc702e7949345d9b4b310f3",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-26T23:44:06-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/components/Footer.js",
+      "src/templates/blog-index.js",
+      "src/utils/global.css",
+      "src/utils/typography.js"
+    ]
+  },
+  {
+    "commit": "4ea542d677ed8d347ed5dd2d855e4414c4eb0c51",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-26T23:13:28-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "md": {
+        "inserts": 428,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/ci-cd-for-react-native-app/images/build-trigger.png",
+      "src/pages/ci-cd-for-react-native-app/images/ci.png",
+      "src/pages/ci-cd-for-react-native-app/images/freestyle-project.png",
+      "src/pages/ci-cd-for-react-native-app/images/github-plugin.png",
+      "src/pages/ci-cd-for-react-native-app/images/github-pr-plugin.png",
+      "src/pages/ci-cd-for-react-native-app/index.md"
+    ]
+  },
+  {
+    "commit": "2e7ac5bbb0811e03b0fcb9ac77210a923861690e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-09T18:45:13-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/utils/typography.js"
+    ]
+  },
+  {
+    "commit": "56c50060469e847e0cd86828c34f2c3cb62a8940",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-09T18:33:45-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 819,
+        "occurrences": 6
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 7
+      }
+    },
+    "file_list": [
+      "src/pages/automatically-update-with-travis-ci/index.md",
+      "src/pages/automatically-update-with-travis-ci/token.png",
+      "src/pages/chrome-debugger-nodejs/index.md",
+      "src/pages/chrome-sourcemap/1.png",
+      "src/pages/chrome-sourcemap/2.png",
+      "src/pages/chrome-sourcemap/index.md",
+      "src/pages/electron-with-hmr/erb.png",
+      "src/pages/electron-with-hmr/hmr-error.png",
+      "src/pages/electron-with-hmr/index.md",
+      "src/pages/javascript-inheritance/1.png",
+      "src/pages/javascript-inheritance/index.md",
+      "src/pages/url-encoding/encode.png",
+      "src/pages/url-encoding/index.md"
+    ]
+  },
+  {
+    "commit": "a9103c2d3bd44c991f0a459abac432c16d2f4cbd",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-09T08:49:09-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 819,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 7
+      }
+    },
+    "file_list": [
+      "src/pages/automatically-update-with-travis-ci/index.md",
+      "src/pages/automatically-update-with-travis-ci/token.png",
+      "src/pages/chrome-debugger-nodejs/index.md",
+      "src/pages/chrome-sourcemap/1.png",
+      "src/pages/chrome-sourcemap/2.png",
+      "src/pages/chrome-sourcemap/index.md",
+      "src/pages/electron-with-hmr/erb.png",
+      "src/pages/electron-with-hmr/hmr-error.png",
+      "src/pages/electron-with-hmr/index.md",
+      "src/pages/javascript-inheritance/1.png",
+      "src/pages/javascript-inheritance/index.md",
+      "src/pages/url-encoding/encode.png",
+      "src/pages/url-encoding/index.md"
+    ]
+  },
+  {
+    "commit": "4d8f67ce8648f133889aa1d632dd087dd1a0fd24",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-03T02:24:49-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/beancount-best-practice/index.md"
+    ]
+  },
+  {
+    "commit": "97173ab4d409c717fb15e3a2196093bd972332eb",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-03T02:16:03-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/developmemt-guidelines/index.md"
+    ]
+  },
+  {
+    "commit": "381e871970ac1ee7427dbdd95dee2d2f7ce74de3",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-07-03T02:05:26-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 184,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/developmemt-guidelines/index.md"
+    ]
+  },
+  {
+    "commit": "9a87dc9b082d0cde6338f3c85e4efb4af04b1fa2",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-03T06:54:49-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/beancount-best-practice/index.md"
+    ]
+  },
+  {
+    "commit": "e33a04a115c43060a994b35e5233448a7fa96454",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-02T20:25:30-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "js": {
+        "inserts": 0,
+        "deletes": 22,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "gatsby-node.js"
+    ]
+  },
+  {
+    "commit": "eed1d7f457a73e736a63c04eb1242a5845756541",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-02T20:22:26-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/beancount-best-practice/index.md"
+    ]
+  },
+  {
+    "commit": "381315586d06aed560d49466e9d6689b131e8023",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-02T08:13:08-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "package.json"
+    ]
+  },
+  {
+    "commit": "bc1a4bea8c92366231c9a081fca5dd83202dc222",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-02T08:02:17-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "b8fb932b9a01034373f5f00b3d67a0c49f8020e0",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-02T07:53:15-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "2e96c76fa20428352f26867b22adb94b6a29eacb",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-02T07:51:25-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 350,
+        "deletes": 809,
+        "occurrences": 2
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "src/pages/beancount-best-practice/index.md",
+      "src/pages/writing-resilient-components/index.md",
+      "src/pages/writing-resilient-components/useeffect.gif"
+    ]
+  },
+  {
+    "commit": "8d197907dba633625937978283827e7db346476b",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-02T07:27:34-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "README.md"
+    ]
+  },
+  {
+    "commit": "72b03eeaa5470da3cc358bc5ed1ebcab04680ca1",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-02T07:24:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 96,
+        "deletes": 13,
+        "occurrences": 8
+      },
+      "md": {
+        "inserts": 814,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "js": {
+        "inserts": 1693,
+        "deletes": 0,
+        "occurrences": 19
+      },
+      "json": {
+        "inserts": 70,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1021,
+        "deletes": 0,
+        "occurrences": 15
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "woff2": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 102
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 13211,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".eslintrc.js",
+      ".gitignore",
+      ".prettierignore",
+      ".prettierrc",
+      ".travis.yml",
+      "CNAME",
+      "LICENSE-posts",
+      "LICENSE-website",
+      "README.md",
+      "gatsby-browser.js",
+      "gatsby-config.js",
+      "gatsby-node.js",
+      "i18n.js",
+      "package.json",
+      "src/assets/icon.png",
+      "src/components/Footer.js",
+      "src/components/Layout.js",
+      "src/components/Panel.js",
+      "src/components/SEO.js",
+      "src/components/Signup.css",
+      "src/components/Signup.js",
+      "src/components/Toggle.css",
+      "src/components/Toggle.js",
+      "src/fonts/files/Cairo-Bold.ttf",
+      "src/fonts/files/Cairo-Regular.ttf",
+      "src/fonts/files/Vazir-Bold.eot",
+      "src/fonts/files/Vazir-Bold.ttf",
+      "src/fonts/files/Vazir-Bold.woff",
+      "src/fonts/files/Vazir-Bold.woff2",
+      "src/fonts/files/Vazir.eot",
+      "src/fonts/files/Vazir.ttf",
+      "src/fonts/files/Vazir.woff",
+      "src/fonts/files/Vazir.woff2",
+      "src/fonts/files/merriweather-300-c-ext.woff2",
+      "src/fonts/files/merriweather-300-c.woff2",
+      "src/fonts/files/merriweather-300-i-c-ext.woff2",
+      "src/fonts/files/merriweather-300-i-c.woff2",
+      "src/fonts/files/merriweather-300-i-l-ext.woff2",
+      "src/fonts/files/merriweather-300-i-l.woff2",
+      "src/fonts/files/merriweather-300-i-vi.woff2",
+      "src/fonts/files/merriweather-300-l-ext.woff2",
+      "src/fonts/files/merriweather-300-l.woff2",
+      "src/fonts/files/merriweather-300-vi.woff2",
+      "src/fonts/files/merriweather-400-c-ext.woff2",
+      "src/fonts/files/merriweather-400-c.woff2",
+      "src/fonts/files/merriweather-400-i-c-ext.woff2",
+      "src/fonts/files/merriweather-400-i-c.woff2",
+      "src/fonts/files/merriweather-400-i-l-ext.woff2",
+      "src/fonts/files/merriweather-400-i-l.woff2",
+      "src/fonts/files/merriweather-400-i-vi.woff2",
+      "src/fonts/files/merriweather-400-l-ext.woff2",
+      "src/fonts/files/merriweather-400-l.woff2",
+      "src/fonts/files/merriweather-400-vi.woff2",
+      "src/fonts/files/merriweather-700-c-ext.woff2",
+      "src/fonts/files/merriweather-700-c.woff2",
+      "src/fonts/files/merriweather-700-i-c-ext.woff2",
+      "src/fonts/files/merriweather-700-i-c.woff2",
+      "src/fonts/files/merriweather-700-i-l-ext.woff2",
+      "src/fonts/files/merriweather-700-i-l.woff2",
+      "src/fonts/files/merriweather-700-i-vi.woff2",
+      "src/fonts/files/merriweather-700-l-ext.woff2",
+      "src/fonts/files/merriweather-700-l.woff2",
+      "src/fonts/files/merriweather-700-vi.woff2",
+      "src/fonts/files/merriweather-900-c-ext.woff2",
+      "src/fonts/files/merriweather-900-c.woff2",
+      "src/fonts/files/merriweather-900-i-c-ext.woff2",
+      "src/fonts/files/merriweather-900-i-c.woff2",
+      "src/fonts/files/merriweather-900-i-l-ext.woff2",
+      "src/fonts/files/merriweather-900-i-l.woff2",
+      "src/fonts/files/merriweather-900-i-vi.woff2",
+      "src/fonts/files/merriweather-900-l-ext.woff2",
+      "src/fonts/files/merriweather-900-l.woff2",
+      "src/fonts/files/merriweather-900-vi.woff2",
+      "src/fonts/files/montserrat-400-c-ext.woff2",
+      "src/fonts/files/montserrat-400-c.woff2",
+      "src/fonts/files/montserrat-400-i-c-ext.woff2",
+      "src/fonts/files/montserrat-400-i-c.woff2",
+      "src/fonts/files/montserrat-400-i-l-ext.woff2",
+      "src/fonts/files/montserrat-400-i-l.woff2",
+      "src/fonts/files/montserrat-400-i-vi.woff2",
+      "src/fonts/files/montserrat-400-l-ext.woff2",
+      "src/fonts/files/montserrat-400-l.woff2",
+      "src/fonts/files/montserrat-400-vi.woff2",
+      "src/fonts/files/montserrat-500-c-ext.woff2",
+      "src/fonts/files/montserrat-500-c.woff2",
+      "src/fonts/files/montserrat-500-i-c-ext.woff2",
+      "src/fonts/files/montserrat-500-i-c.woff2",
+      "src/fonts/files/montserrat-500-i-l-ext.woff2",
+      "src/fonts/files/montserrat-500-i-l.woff2",
+      "src/fonts/files/montserrat-500-i-vi.woff2",
+      "src/fonts/files/montserrat-500-l-ext.woff2",
+      "src/fonts/files/montserrat-500-l.woff2",
+      "src/fonts/files/montserrat-500-vi.woff2",
+      "src/fonts/files/montserrat-600-c-ext.woff2",
+      "src/fonts/files/montserrat-600-c.woff2",
+      "src/fonts/files/montserrat-600-i-c-ext.woff2",
+      "src/fonts/files/montserrat-600-i-c.woff2",
+      "src/fonts/files/montserrat-600-i-l-ext.woff2",
+      "src/fonts/files/montserrat-600-i-l.woff2",
+      "src/fonts/files/montserrat-600-i-vi.woff2",
+      "src/fonts/files/montserrat-600-l-ext.woff2",
+      "src/fonts/files/montserrat-600-l.woff2",
+      "src/fonts/files/montserrat-600-vi.woff2",
+      "src/fonts/files/montserrat-700-c-ext.woff2",
+      "src/fonts/files/montserrat-700-c.woff2",
+      "src/fonts/files/montserrat-700-i-c-ext.woff2",
+      "src/fonts/files/montserrat-700-i-c.woff2",
+      "src/fonts/files/montserrat-700-i-l-ext.woff2",
+      "src/fonts/files/montserrat-700-i-l.woff2",
+      "src/fonts/files/montserrat-700-i-vi.woff2",
+      "src/fonts/files/montserrat-700-l-ext.woff2",
+      "src/fonts/files/montserrat-700-l.woff2",
+      "src/fonts/files/montserrat-700-vi.woff2",
+      "src/fonts/files/montserrat-800-c-ext.woff2",
+      "src/fonts/files/montserrat-800-c.woff2",
+      "src/fonts/files/montserrat-800-i-c-ext.woff2",
+      "src/fonts/files/montserrat-800-i-c.woff2",
+      "src/fonts/files/montserrat-800-i-l-ext.woff2",
+      "src/fonts/files/montserrat-800-i-l.woff2",
+      "src/fonts/files/montserrat-800-i-vi.woff2",
+      "src/fonts/files/montserrat-800-l-ext.woff2",
+      "src/fonts/files/montserrat-800-l.woff2",
+      "src/fonts/files/montserrat-800-vi.woff2",
+      "src/fonts/files/montserrat-900-c-ext.woff2",
+      "src/fonts/files/montserrat-900-c.woff2",
+      "src/fonts/files/montserrat-900-i-c-ext.woff2",
+      "src/fonts/files/montserrat-900-i-c.woff2",
+      "src/fonts/files/montserrat-900-i-l-ext.woff2",
+      "src/fonts/files/montserrat-900-i-l.woff2",
+      "src/fonts/files/montserrat-900-i-vi.woff2",
+      "src/fonts/files/montserrat-900-l-ext.woff2",
+      "src/fonts/files/montserrat-900-l.woff2",
+      "src/fonts/files/montserrat-900-vi.woff2",
+      "src/fonts/fonts-post.arabic.css",
+      "src/fonts/fonts-post.css",
+      "src/fonts/fonts-post.cyrillic-ext.css",
+      "src/fonts/fonts-post.cyrillic.css",
+      "src/fonts/fonts-post.latin-ext.css",
+      "src/fonts/fonts-post.persian.css",
+      "src/fonts/fonts-post.vietnamese.css",
+      "src/fonts/fonts-shared.css",
+      "src/fonts/fonts-shared.cyrillic-ext.css",
+      "src/fonts/fonts-shared.cyrillic.css",
+      "src/fonts/fonts-shared.latin-ext.css",
+      "src/fonts/fonts-shared.vietnamese.css",
+      "src/html.js",
+      "src/pages/404.js",
+      "src/pages/confirm.js",
+      "src/pages/thanks.js",
+      "src/pages/writing-resilient-components/index.md",
+      "src/pages/writing-resilient-components/useeffect.gif",
+      "src/templates/blog-index.js",
+      "src/templates/blog-post.js",
+      "src/utils/global.css",
+      "src/utils/helpers.js",
+      "src/utils/i18n.js",
+      "src/utils/typography.js",
+      "static/favicon.ico",
+      "static/robots.txt",
+      "yarn.lock"
+    ]
+  },
+  {
+    "commit": "d011bae050295cfd6ccbc64416df36b304bd105b",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2019-06-02T04:19:54-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 6
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 3760,
+        "occurrences": 38
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 94,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 45,
+        "occurrences": 3
+      },
+      "sketch": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 23
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 1610,
+        "occurrences": 1
+      },
+      "JPG": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "key\"": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 0,
+        "deletes": 2958,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CNAME",
+      "README.md",
+      "SUMMARY.md",
+      "_config.yml",
+      "db.json",
+      "eco.json",
+      "package.json",
+      "repost/index.md",
+      "scaffolds/draft.md",
+      "scaffolds/page.md",
+      "scaffolds/photo.md",
+      "scaffolds/post.md",
+      "sketch/pupa-logo.sketch",
+      "sketch/pupafm.sketch",
+      "source/_posts/2016/.DS_Store",
+      "source/_posts/2016/05/2016-05-24.md",
+      "source/_posts/2016/05/2016-05-24/new_year.png",
+      "source/_posts/2016/05/my-workflow-in-sublime.md",
+      "source/_posts/2016/06/.DS_Store",
+      "source/_posts/2016/06/about-blog.md",
+      "source/_posts/2016/06/auto-update-with-travis-ci.md",
+      "source/_posts/2016/06/auto-update-with-travis-ci/token.png",
+      "source/_posts/2016/06/auto-update-with-travis-ci/travis.svg",
+      "source/_posts/2016/06/chrome-sourcemap.md",
+      "source/_posts/2016/06/chrome-sourcemap/1.png",
+      "source/_posts/2016/06/chrome-sourcemap/2.png",
+      "source/_posts/2016/06/debugging-node-js-nightlies-with-chrome-devtools.md",
+      "source/_posts/2016/06/debugging-node-js-nightlies-with-chrome-devtools/debug.png",
+      "source/_posts/2016/06/debugging-node-js-nightlies-with-chrome-devtools/ill.png",
+      "source/_posts/2016/06/editorconfig.md",
+      "source/_posts/2016/06/editorconfig/ill.png",
+      "source/_posts/2016/06/electron-with-hmr.md",
+      "source/_posts/2016/06/electron-with-hmr/erb.png",
+      "source/_posts/2016/06/electron-with-hmr/hmr-error.png",
+      "source/_posts/2016/06/iterminal.md",
+      "source/_posts/2016/06/iterminal/iterm.png",
+      "source/_posts/2016/06/js-test-with-webpack-karma-mocha.md",
+      "source/_posts/2016/06/js-test-with-webpack-karma-mocha/ill.png",
+      "source/_posts/2016/06/js-unit-testing.md",
+      "source/_posts/2016/06/js-unit-testing/ill.png",
+      "source/_posts/2016/07/.DS_Store",
+      "source/_posts/2016/07/dali.md",
+      "source/_posts/2016/07/dali/1.JPG",
+      "source/_posts/2016/07/dali/2.JPG",
+      "source/_posts/2016/07/dali/3.JPG",
+      "source/_posts/2016/07/dali/4.JPG",
+      "source/_posts/2016/07/dali/5.JPG",
+      "source/_posts/2016/07/dali/6.JPG",
+      "source/_posts/2016/07/dali/7.JPG",
+      "source/_posts/2016/07/dali/8.JPG",
+      "source/_posts/2016/07/dali/9.JPG",
+      "source/_posts/2016/07/keng.md",
+      "source/_posts/2016/08/.DS_Store",
+      "source/_posts/2016/08/URI-encoding.md",
+      "source/_posts/2016/08/URI-encoding/encode.png",
+      "source/_posts/2016/08/javascript-inheritance.md",
+      "source/_posts/2016/08/javascript-inheritance/1.png",
+      "source/_posts/2016/08/jenkins-ci-unit-test.md",
+      "source/_posts/2016/08/jenkins-ci-unit-test/0.png",
+      "source/_posts/2016/08/jenkins-ci-unit-test/1.png",
+      "source/_posts/2016/08/jenkins-ci-unit-test/2.png",
+      "source/_posts/2016/08/jenkins-ci-unit-test/3.png",
+      "source/_posts/2016/08/jenkins-ci-unit-test/4.png",
+      "source/_posts/2016/08/jenkins-ci-unit-test/5.png",
+      "source/_posts/2016/08/jenkins-ci-unit-test/6.png",
+      "source/_posts/2016/08/jenkins-ci-unit-test/7.png",
+      "source/_posts/2016/08/jenkins-ci-unit-test/jenkins.png",
+      "source/_posts/2016/08/redux-src.md",
+      "source/_posts/2016/08/redux-src/flow.gif",
+      "source/_posts/2016/09/casperjs.md",
+      "source/_posts/2016/09/mock-server.md",
+      "source/_posts/2016/09/need-to-plan.md",
+      "source/_posts/2016/09/reduce-blog-load-time.md",
+      "source/_posts/2016/10/install-cocoapod-on-mac.md",
+      "source/_posts/2016/11/testing-a-react-native-app.md",
+      "source/_posts/2016/12/immutable-js.md",
+      "source/_posts/2016/12/testing-a-react-native-app-II.md",
+      "source/_posts/2017/01/2016-in-review.md",
+      "source/_posts/2017/02/debugging-react-native.md",
+      "source/about/index.md",
+      "source/story/index.md",
+      "source/story/rabbit.md",
+      "\"talk/js\\345\\215\\225\\345\\205\\203\\346\\265\\213\\350\\257\\225.key\"",
+      "themes/nuna",
+      "tools/index.md",
+      "yarn.lock"
+    ]
+  },
+  {
+    "commit": "4493145125bc0bc568894bd5fc7b764210e12f2f",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2018-07-06T20:48:22-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/.DS_Store"
+    ]
+  },
+  {
+    "commit": "e540246fe48610c66b8ed255e8e818b84bce1965",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2018-07-06T20:48:10-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/.DS_Store"
+    ]
+  },
+  {
+    "commit": "e38e4913fb0b500ba4dd597f58ccd91e9a034acc",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2018-07-06T20:47:54-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sketch/.DS_Store"
+    ]
+  },
+  {
+    "commit": "0732ce4d2abe8b81e848c09de80619988fdccf83",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2018-02-27T07:15:43-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/about/index.md"
+    ]
+  },
+  {
+    "commit": "a5271ddfc7ad83000bae0bae812e8fc32ed4fc79",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2018-02-27T07:07:52-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/about/index.md"
+    ]
+  },
+  {
+    "commit": "bdc3fe8d2da0b681a9bd677df6603d888f7aab56",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-04-27T08:44:13-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 60,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "source/story/index.md",
+      "source/story/rabbit.md"
+    ]
+  },
+  {
+    "commit": "e867c4bb24b7ff46c565d6ffb0e0738be375f954",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-03-05T19:10:15-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/story/index.md"
+    ]
+  },
+  {
+    "commit": "b0f49915903a4f2eb0c1d6bfd04a585757e74910",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-03-05T02:59:32-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 15,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/story/index.md"
+    ]
+  },
+  {
+    "commit": "558d8893ea3d32794d9d6caae7f988e1f216b63e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-03-05T02:01:26-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 34,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/story/index.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "f39cac9edac13aa60a1796f6363498d9a64f7b96",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-03-03T01:34:42-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "4654c23264e471c652f0123e8592cb9c92c4fb2e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-03-01T18:57:03-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2017/02/debugging-react-native.md"
+    ]
+  },
+  {
+    "commit": "293954cdd610cb48d4c9ff7316fcc52144c6da64",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-03-01T18:44:11-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "e5045fadcff949c79a54f8a289436b5a6a7106bf",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-03-01T09:00:40-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 100,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2017/02/debugging-react-native.md"
+    ]
+  },
+  {
+    "commit": "832805b3d3a3be597d0f9aa997a504462dd64e80",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-02-16T08:59:53-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/12/testing-a-react-native-app-II.md"
+    ]
+  },
+  {
+    "commit": "39d7af1aa66073c04c65be14ca882443c6c394a5",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-02-15T22:23:57-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "45c8cd4427141fc6ff56c608adb6550860779472",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-02-04T21:15:11-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "29a9f3c9fe1f3b7d1408fe5a6ce3ab538f268762",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-01-18T19:46:37-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 133,
+        "occurrences": 2
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/06/what-is-trunk-based-development.md",
+      "source/_posts/2016/06/what-is-trunk-based-development/what_is_trunk.jpg",
+      "source/_posts/2016/07/reading-http.md",
+      "source/_posts/2016/07/reading-http/code1.png",
+      "source/_posts/2016/07/reading-http/code2.png",
+      "source/_posts/2016/07/reading-http/code3.png",
+      "source/_posts/2016/07/reading-http/code4.png",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "79447b0be77739e02233968547e040ab6cd0f0e9",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-01-07T19:35:24-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 4,
+        "deletes": 9,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "lock": {
+        "inserts": 2958,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "package.json",
+      "themes/nuna",
+      "yarn.lock"
+    ]
+  },
+  {
+    "commit": "7e0f798e3d126861b54cf69cc65af3da3a4c32a2",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-01-07T18:30:47-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "package.json"
+    ]
+  },
+  {
+    "commit": "058c793d52519e424c74af5972051307a0396da4",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-01-07T18:23:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 37,
+        "deletes": 26,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2017/01/2016-in-review.md"
+    ]
+  },
+  {
+    "commit": "09d715431174b161a8593a0244b5a52dd6ed2ac4",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2017-01-07T10:16:39-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 94,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2017/01/2016-in-review.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "e1806d65f6ba0238e39c8d1d12abcadc2983c6e3",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-30T20:09:12-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016/09/mock-server.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "56df8e7e0184ef74f403678ef5b403bb6b34fd03",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-30T19:35:48-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/12/immutable-js.md",
+      "source/_posts/2016/12/testing-a-react-native-app-II.md"
+    ]
+  },
+  {
+    "commit": "0ec9d4d83e4296e1ef7b979e5ef874a1708b87ad",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-30T08:41:57-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/12/immutable-js.md"
+    ]
+  },
+  {
+    "commit": "49b351ef76a4dfa501fd47ae3368824dcc2a23eb",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-30T08:36:25-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 291,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json",
+      "source/_posts/2016/12/immutable-js.md",
+      "source/_posts/2016/12/testing-a-react-native-app-II.md",
+      "themes/nuna",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "469c82094c4663951fa2eae5a7e23cee5ab65340",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-25T01:57:08-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "package.json"
+    ]
+  },
+  {
+    "commit": "d2a418b1ab07bf81a5ce2e9e6c5d58d7ad97b273",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-05T03:39:10-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016/12/testing-a-react-native-app-II.md"
+    ]
+  },
+  {
+    "commit": "0927f42d932242923a7238dc2f7eca72510a9a5e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-05T03:38:44-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "fc7fc0c3ccacba3c7b7766761874b253140c8132",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-04T21:50:02-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/11/testing-a-react-native-app.md"
+    ]
+  },
+  {
+    "commit": "c0535b744166a174a5ad0e34da5f7b2e0b90e7c5",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-04T09:00:14-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/11/testing-a-react-native-app.md"
+    ]
+  },
+  {
+    "commit": "c3f6c6507bc9278105dd0e9801250ab3706c91e8",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-12-04T08:05:56-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 182,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016/11/testing-a-react-native-app.md"
+    ]
+  },
+  {
+    "commit": "5f6426398f7254822507441f4e0b99e95472164e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-10-14T09:49:44-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/10/install-cocoapod-on-mac.md"
+    ]
+  },
+  {
+    "commit": "366fbf7a42c5e83267aa42809959d40e0960e77e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-10-14T09:31:17-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 90,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016/10/install-cocoapod-on-mac.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "92b9e73985e050e249e2af4b6b17119b78959c8c",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-29T08:05:21-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 88,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016/09/reduce-blog-load-time.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "b9235104774c8b51b49678184dccf0ea6dd7de9c",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-28T09:00:25-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "CNAME",
+      "db.json"
+    ]
+  },
+  {
+    "commit": "b4c987d58cd264d6d0dbd22c32c6a56716ff8b4b",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-24T00:43:35-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 20,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "0903928753be54c98b9361098ca5044a47cfe16a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-24T00:11:51-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "db.json"
+    ]
+  },
+  {
+    "commit": "28007d2482a763c1c9360bea1488e7efd0fb5a10",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-23T23:44:17-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 7,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "README.md",
+      "_config.yml",
+      "db.json",
+      "package.json"
+    ]
+  },
+  {
+    "commit": "3fced7bcfa6d35b3cd47c934f6bb19d65fd3f2d8",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-21T09:10:11-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "db.json",
+      "source/_posts/2016/09/casperjs.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "33a7e812fe4b5e9c00fefe86f0b710231e668dbe",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-21T08:37:50-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/09/casperjs.md"
+    ]
+  },
+  {
+    "commit": "c48926026c969be0ed4e608046fcd14257efee16",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-20T09:39:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/09/casperjs.md"
+    ]
+  },
+  {
+    "commit": "53d67163dcbb2085521d2c9cd4c6362670799fd1",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-20T01:21:25-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 216,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016/09/casperjs.md",
+      "source/_posts/2016/09/mock-server.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "2e8e7610515582c42c188dd25db926b268601e2a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-19T09:38:19-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "ab405c2b799e4be6a6f71ed24218e33ae32efe57",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-17T08:52:15-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/09/mock-server.md"
+    ]
+  },
+  {
+    "commit": "bd31f3c6de60098302424616afda30f4d434d3cd",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-16T23:31:11-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json",
+      "eco.json",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "9360e62dd61bff2995fb951b87aae5e4c88c2e4f",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-16T10:47:24-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 187,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/09/mock-server.md"
+    ]
+  },
+  {
+    "commit": "b6f3d7745ecf2cbc59a04c44b0d19bee6c0cd609",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-16T10:47:17-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json"
+    ]
+  },
+  {
+    "commit": "830dc06b3f39a571c1ad85698ee2a9742486d9af",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-16T05:22:49-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "9e282764f57f5c91a48197cca41bb5e97cb6000a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-16T01:13:48-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "4a52c2f70c1b3a7ee8db487902e193c4aca835c1",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-13T09:36:00-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "72aa08ea492427f24c9dc5236e9f68a6caddfd93",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-08T09:20:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "86e66ba49b6fe7779e30f116930862eb1026c516",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-08T02:36:47-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "repost/index.md",
+      "themes/nuna",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "d693661480e2d7bdbeb1ec2367a71771e9b36807",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-05T22:28:54-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "e795fcf717af0355e83fb8260bc3a373a26cb3e0",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-05T01:42:00-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016/09/need-to-plan.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "7592a5ddbfb956fbeda0e44654aeb2568615812a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-05T00:09:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 36,
+        "deletes": 4,
+        "occurrences": 5
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016/08/URI-encoding.md",
+      "source/_posts/2016/08/javascript-inheritance.md",
+      "source/_posts/2016/08/redux-src.md",
+      "source/_posts/2016/09/need-to-plan.md",
+      "source/about/index.md",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "8daba1cd7007df75d50d5a80b0b3fc9e93836ad1",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-03T04:06:05-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "42b021c7460d06c0272af50a3c98c2cc0e5d0aa6",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-03T02:24:26-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml"
+    ]
+  },
+  {
+    "commit": "65ce56887e039a8090dd42d2ce4c0b1776bcdb02",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-03T02:23:55-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016/07/{2016-07-reading-http.md => reading-http.md}"
+    ]
+  },
+  {
+    "commit": "b0afab9157652060ace544dc2fe4e3179b0e1a7a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-03T02:07:45-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json",
+      "themes/nuna"
+    ]
+  },
+  {
+    "commit": "39f00068a7960d58afcb24bc147746e693956c34",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-03T01:20:42-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 8
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 19,
+        "deletes": 787,
+        "occurrences": 23
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 33
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 15
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "JPG": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "db.json",
+      "source/_posts/2016/.DS_Store",
+      "source/_posts/2016/05/2016-05-24.md",
+      "source/_posts/2016/05/2016-05-my-workflow-in-sublime/sublime.png",
+      "source/_posts/2016/05/2016-05-my-workflow-in-sublime/webstorm.png",
+      "source/_posts/2016/05/2016-05-package-doc.md",
+      "source/_posts/2016/05/{2016-05-my-workflow-in-sublime.md => my-workflow-in-sublime.md}",
+      "source/_posts/2016/06/.DS_Store",
+      "source/_posts/2016/06/2016-06-about-blog/illu.png",
+      "source/_posts/2016/06/2016-06-gg.md",
+      "source/_posts/2016/06/2016-06-gg/move.jpg",
+      "source/_posts/2016/06/2016-06-house.md",
+      "source/_posts/2016/06/2016-06-house/.DS_Store",
+      "source/_posts/2016/06/2016-06-house/1.jpg",
+      "source/_posts/2016/06/2016-06-house/10.jpg",
+      "source/_posts/2016/06/2016-06-house/11.jpg",
+      "source/_posts/2016/06/2016-06-house/12.jpg",
+      "source/_posts/2016/06/2016-06-house/2.jpg",
+      "source/_posts/2016/06/2016-06-house/3.jpg",
+      "source/_posts/2016/06/2016-06-house/4.jpg",
+      "source/_posts/2016/06/2016-06-house/5.jpg",
+      "source/_posts/2016/06/2016-06-house/6.jpg",
+      "source/_posts/2016/06/2016-06-house/7.jpg",
+      "source/_posts/2016/06/2016-06-house/8.jpg",
+      "source/_posts/2016/06/2016-06-house/9.jpg",
+      "source/_posts/2016/06/{2016-06-about-blog.md => about-blog.md}",
+      "source/_posts/2016/06/{2016-06-auto-update-with-travis-ci.md => auto-update-with-travis-ci.md}",
+      "source/_posts/2016/06/{2016-06-auto-update-with-travis-ci => auto-update-with-travis-ci}/token.png",
+      "source/_posts/2016/06/{2016-06-auto-update-with-travis-ci => auto-update-with-travis-ci}/travis.svg",
+      "source/_posts/2016/06/{2016-06-chrome-sourcemap.md => chrome-sourcemap.md}",
+      "source/_posts/2016/06/{2016-06-chrome-sourcemap => chrome-sourcemap}/1.png",
+      "source/_posts/2016/06/{2016-06-chrome-sourcemap => chrome-sourcemap}/2.png",
+      "source/_posts/2016/06/{2016-06-debugging-node-js-nightlies-with-chrome-devtools.md => debugging-node-js-nightlies-with-chrome-devtools.md}",
+      "source/_posts/2016/06/{2016-06-debugging-node-js-nightlies-with-chrome-devtools => debugging-node-js-nightlies-with-chrome-devtools}/debug.png",
+      "source/_posts/2016/06/{2016-06-debugging-node-js-nightlies-with-chrome-devtools => debugging-node-js-nightlies-with-chrome-devtools}/ill.png",
+      "source/_posts/2016/06/{2016-06-editorconfig.md => editorconfig.md}",
+      "source/_posts/2016/06/{2016-06-editorconfig => editorconfig}/ill.png",
+      "source/_posts/2016/06/{2016-06-electron-with-hmr.md => electron-with-hmr.md}",
+      "source/_posts/2016/06/{2016-06-electron-with-hmr => electron-with-hmr}/erb.png",
+      "source/_posts/2016/06/{2016-06-electron-with-hmr => electron-with-hmr}/hmr-error.png",
+      "source/_posts/2016/06/{2016-06-iterminal.md => iterminal.md}",
+      "source/_posts/2016/06/{2016-06-iterminal => iterminal}/iterm.png",
+      "source/_posts/2016/06/{2016-06-js-test-with-webpack-karma-mocha.md => js-test-with-webpack-karma-mocha.md}",
+      "source/_posts/2016/06/{2016-06-js-test-with-webpack-karma-mocha => js-test-with-webpack-karma-mocha}/ill.png",
+      "source/_posts/2016/06/{2016-06-js-unit-testing.md => js-unit-testing.md}",
+      "source/_posts/2016/06/{2016-06-js-unit-testing => js-unit-testing}/ill.png",
+      "source/_posts/2016/06/{2016-06-what-is-trunk-based-development.md => what-is-trunk-based-development.md}",
+      "source/_posts/2016/06/{2016-06-what-is-trunk-based-development => what-is-trunk-based-development}/what_is_trunk.jpg",
+      "source/_posts/2016/07/.DS_Store",
+      "source/_posts/2016/07/2016-07-dali/.DS_Store",
+      "source/_posts/2016/07/2016-07-do-have-the-faith-in-what-you-love.md",
+      "source/_posts/2016/07/2016-07-do-have-the-faith-in-what-you-love/o.jpg",
+      "source/_posts/2016/07/{2016-07-dali.md => dali.md}",
+      "source/_posts/2016/07/{2016-07-dali => dali}/1.JPG",
+      "source/_posts/2016/07/{2016-07-dali => dali}/2.JPG",
+      "source/_posts/2016/07/{2016-07-dali => dali}/3.JPG",
+      "source/_posts/2016/07/{2016-07-dali => dali}/4.JPG",
+      "source/_posts/2016/07/{2016-07-dali => dali}/5.JPG",
+      "source/_posts/2016/07/{2016-07-dali => dali}/6.JPG",
+      "source/_posts/2016/07/{2016-07-dali => dali}/7.JPG",
+      "source/_posts/2016/07/{2016-07-dali => dali}/8.JPG",
+      "source/_posts/2016/07/{2016-07-dali => dali}/9.JPG",
+      "source/_posts/2016/07/{2016-07-keng.md => keng.md}",
+      "source/_posts/2016/07/{2016-07-reading-http => reading-http}/code1.png",
+      "source/_posts/2016/07/{2016-07-reading-http => reading-http}/code2.png",
+      "source/_posts/2016/07/{2016-07-reading-http => reading-http}/code3.png",
+      "source/_posts/2016/07/{2016-07-reading-http => reading-http}/code4.png",
+      "source/_posts/2016/08/2016-08-javascript-inheritance/cover.png",
+      "source/_posts/2016/08/2016-08-javascript-inheritance/thumb.png",
+      "source/_posts/2016/08/2016-08-redux-src/cover.png",
+      "source/_posts/2016/08/2016-08-redux-src/thumb.png",
+      "source/_posts/2016/08/{2016-08-URI-encoding.md => URI-encoding.md}",
+      "source/_posts/2016/08/{2016-08-URI-encoding => URI-encoding}/encode.png",
+      "source/_posts/2016/08/{2016-08-javascript-inheritance.md => javascript-inheritance.md}",
+      "source/_posts/2016/08/{2016-08-javascript-inheritance => javascript-inheritance}/1.png",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test.md => jenkins-ci-unit-test.md}",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test => jenkins-ci-unit-test}/0.png",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test => jenkins-ci-unit-test}/1.png",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test => jenkins-ci-unit-test}/2.png",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test => jenkins-ci-unit-test}/3.png",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test => jenkins-ci-unit-test}/4.png",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test => jenkins-ci-unit-test}/5.png",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test => jenkins-ci-unit-test}/6.png",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test => jenkins-ci-unit-test}/7.png",
+      "source/_posts/2016/08/{2016-08-jenkins-ci-unit-test => jenkins-ci-unit-test}/jenkins.png",
+      "source/_posts/2016/08/{2016-08-redux-src.md => redux-src.md}",
+      "source/_posts/2016/08/{2016-08-redux-src => redux-src}/flow.gif",
+      "source/about/index.md",
+      "themes/nuna",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "0568976af1853b947b63179432158ed0690bb838",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:57:07-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 35,
+        "occurrences": 4
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 71,
+        "occurrences": 9
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 16
+      },
+      "yml": {
+        "inserts": 0,
+        "deletes": 34,
+        "occurrences": 3
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 1207,
+        "occurrences": 17
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 24,
+        "occurrences": 1
+      },
+      "jade": {
+        "inserts": 0,
+        "deletes": 303,
+        "occurrences": 15
+      },
+      "json": {
+        "inserts": 0,
+        "deletes": 40,
+        "occurrences": 1
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "scaffolds/post.md",
+      "source/_posts/.DS_Store",
+      "source/_posts/2016/.DS_Store",
+      "source/_posts/2016/08/2016-08-javascript-inheritance.md",
+      "source/_posts/2016/08/2016-08-javascript-inheritance/cover.png",
+      "source/_posts/2016/08/2016-08-javascript-inheritance/thumb.png",
+      "source/_posts/2016/08/2016-08-redux-src.md",
+      "source/_posts/2016/08/2016-08-redux-src/cover.png",
+      "source/_posts/2016/08/2016-08-redux-src/thumb.png",
+      "themes/nuna",
+      "themes/nuna/.DS_Store",
+      "themes/nuna/.editorconfig",
+      "themes/nuna/.eslintrc.js",
+      "themes/nuna/.gitignore",
+      "themes/nuna/LICENSE",
+      "themes/nuna/README.md",
+      "themes/nuna/_config.yml",
+      "themes/nuna/app/style/_partial/base.scss",
+      "themes/nuna/app/style/_partial/font.scss",
+      "themes/nuna/app/style/_partial/footer.scss",
+      "themes/nuna/app/style/_partial/header.scss",
+      "themes/nuna/app/style/_partial/hlight.scss",
+      "themes/nuna/app/style/_partial/mq.scss",
+      "themes/nuna/app/style/_partial/normalize.scss",
+      "themes/nuna/app/style/_partial/paginator.scss",
+      "themes/nuna/app/style/_partial/print.scss",
+      "themes/nuna/app/style/_partial/var.scss",
+      "themes/nuna/app/style/archive.scss",
+      "themes/nuna/app/style/home.scss",
+      "themes/nuna/app/style/main.scss",
+      "themes/nuna/app/style/page.scss",
+      "themes/nuna/app/style/photo.scss",
+      "themes/nuna/app/style/post.scss",
+      "themes/nuna/app/style/pupa.scss",
+      "themes/nuna/gulpfile.js",
+      "themes/nuna/languages/en.yml",
+      "themes/nuna/languages/zh-cn.yml",
+      "themes/nuna/layout/archive.jade",
+      "themes/nuna/layout/index.jade",
+      "themes/nuna/layout/mixins/page.jade",
+      "themes/nuna/layout/mixins/paginator.jade",
+      "themes/nuna/layout/mixins/photo.jade",
+      "themes/nuna/layout/mixins/post.jade",
+      "themes/nuna/layout/page.jade",
+      "themes/nuna/layout/partial/comment.jade",
+      "themes/nuna/layout/partial/copyright.jade",
+      "themes/nuna/layout/partial/head.jade",
+      "themes/nuna/layout/partial/header.jade",
+      "themes/nuna/layout/partial/layout.jade",
+      "themes/nuna/layout/partial/scripts.jade",
+      "themes/nuna/layout/photo.jade",
+      "themes/nuna/layout/post.jade",
+      "themes/nuna/package.json",
+      "themes/nuna/source/.DS_Store",
+      "themes/nuna/source/favicon.ico",
+      "themes/nuna/source/favicon.png",
+      "themes/nuna/source/logo.png",
+      "themes/nuna/source/style/main.css",
+      "themes/nuna/source/thumb/thumb-0.png",
+      "themes/nuna/source/thumb/thumb-1.png",
+      "themes/nuna/source/thumb/thumb-2.png",
+      "themes/nuna/source/thumb/thumb-3.png",
+      "themes/nuna/source/thumb/thumb-4.png",
+      "themes/nuna/source/thumb/thumb-5.png",
+      "themes/nuna/source/thumb/thumb-6.png",
+      "themes/nuna/source/thumb/thumb-7.png",
+      "themes/nuna/source/thumb/thumb-8.png",
+      "themes/nuna/source/thumb/thumb-9.png"
+    ]
+  },
+  {
+    "commit": "3b7470b5dedf9e932026e48b67e3a10e8d06e255",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:23:45-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "82189e99b204ee2e26975b80e1550902362be4e9",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:20:54-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "95a7cbd71b415a207954eb2442df14f6aa1129ba",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:18:35-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/.DS_Store"
+    ]
+  },
+  {
+    "commit": "a4928dbbf3e29769a474cf608c015a2d72479054",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:18:07-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".DS_Store",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "47ae4ffb3a0a7b84a57cf522d37fa456ee0524a4",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:14:47-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 287,
+        "occurrences": 9
+      },
+      "jade": {
+        "inserts": 0,
+        "deletes": 207,
+        "occurrences": 7
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "themes/.DS_Store",
+      "themes/nuna/.eslintrc.js",
+      "themes/nuna/app/style/_partial/base.scss",
+      "themes/nuna/app/style/_partial/footer.scss",
+      "themes/nuna/app/style/_partial/header.scss",
+      "themes/nuna/app/style/_partial/mq.scss",
+      "themes/nuna/app/style/_partial/paginator.scss",
+      "themes/nuna/app/style/_partial/var.scss",
+      "themes/nuna/app/style/archive.scss",
+      "themes/nuna/app/style/home.scss",
+      "themes/nuna/app/style/main.scss",
+      "themes/nuna/layout/index.jade",
+      "themes/nuna/layout/mixins/page.jade",
+      "themes/nuna/layout/mixins/photo.jade",
+      "themes/nuna/layout/mixins/post.jade",
+      "themes/nuna/layout/partial/head.jade",
+      "themes/nuna/layout/partial/header.jade",
+      "themes/nuna/layout/partial/layout.jade",
+      "themes/nuna/source/style/main.css"
+    ]
+  },
+  {
+    "commit": "af089555a30a960aaa6039ccb68100af81902264",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:04:55-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "scss": {
+        "inserts": 70,
+        "deletes": 8,
+        "occurrences": 11
+      },
+      "jade": {
+        "inserts": 61,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/nuna/app/style/_partial/base.scss",
+      "themes/nuna/app/style/_partial/font.scss",
+      "themes/nuna/app/style/_partial/footer.scss",
+      "themes/nuna/app/style/_partial/hlight.scss",
+      "themes/nuna/app/style/_partial/mq.scss",
+      "themes/nuna/app/style/_partial/page.scss",
+      "themes/nuna/app/style/_partial/photo.scss",
+      "themes/nuna/app/style/_partial/post.scss",
+      "themes/nuna/app/style/archive.scss",
+      "themes/nuna/app/style/home.scss",
+      "themes/nuna/app/style/main.scss",
+      "themes/nuna/layout/mixins/page.jade",
+      "themes/nuna/layout/mixins/photo.jade",
+      "themes/nuna/layout/mixins/post.jade",
+      "themes/nuna/layout/partial/head.jade",
+      "themes/nuna/layout/partial/layout.jade",
+      "themes/nuna/source/style/main.css"
+    ]
+  },
+  {
+    "commit": "7fc5adca444dd75140517fa3ec4460ea973f9b78",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:04:33-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 151,
+        "deletes": 267,
+        "occurrences": 14
+      },
+      "jade": {
+        "inserts": 78,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "themes/nuna/app/style/_partial/base.scss",
+      "themes/nuna/app/style/_partial/font.scss",
+      "themes/nuna/app/style/_partial/footer.scss",
+      "themes/nuna/app/style/_partial/header.scss",
+      "themes/nuna/app/style/_partial/mq.scss",
+      "themes/nuna/app/style/_partial/page.scss",
+      "themes/nuna/app/style/_partial/paginator.scss",
+      "themes/nuna/app/style/_partial/photo.scss",
+      "themes/nuna/app/style/_partial/post.scss",
+      "themes/nuna/app/style/_partial/posts.scss",
+      "themes/nuna/app/style/_partial/var.scss",
+      "themes/nuna/app/style/archive.scss",
+      "themes/nuna/app/style/home.scss",
+      "themes/nuna/app/style/main.scss",
+      "themes/nuna/layout/index.jade",
+      "themes/nuna/layout/mixins/page.jade",
+      "themes/nuna/layout/mixins/photo.jade",
+      "themes/nuna/layout/mixins/post.jade",
+      "themes/nuna/layout/partial/header.jade",
+      "themes/nuna/layout/partial/layout.jade",
+      "themes/nuna/source/style/main.css"
+    ]
+  },
+  {
+    "commit": "016a28f2714a7e27e419815f13581e1e608b4312",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:03:55-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 344,
+        "deletes": 3,
+        "occurrences": 9
+      },
+      "jade": {
+        "inserts": 68,
+        "deletes": 0,
+        "occurrences": 7
+      },
+      "css": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "themes/nuna/app/style/_partial/base.scss",
+      "themes/nuna/app/style/_partial/header.scss",
+      "themes/nuna/app/style/_partial/hlight.scss",
+      "themes/nuna/app/style/_partial/page.scss",
+      "themes/nuna/app/style/_partial/paginator.scss",
+      "themes/nuna/app/style/_partial/photo.scss",
+      "themes/nuna/app/style/_partial/post.scss",
+      "themes/nuna/app/style/_partial/posts.scss",
+      "themes/nuna/app/style/_partial/var.scss",
+      "themes/nuna/layout/index.jade",
+      "themes/nuna/layout/mixins/page.jade",
+      "themes/nuna/layout/mixins/photo.jade",
+      "themes/nuna/layout/mixins/post.jade",
+      "themes/nuna/layout/partial/head.jade",
+      "themes/nuna/layout/partial/header.jade",
+      "themes/nuna/layout/partial/layout.jade",
+      "themes/nuna/source/style/main.css"
+    ]
+  },
+  {
+    "commit": "e60d0835d2048f5d61bfec0292b5e6e6ce3dd253",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:03:39-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 4
+      },
+      "yml": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 10,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".DS_Store",
+      ".travis.yml",
+      "_config.yml",
+      "db.json",
+      "eco.json",
+      "scaffolds/post.md",
+      "source/_posts/2016/06/2016-06-about-blog.md",
+      "themes/.DS_Store",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "6a8f17312efc4c4887ca79f5ae2a558d705c7360",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-09-02T11:03:02-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json"
+    ]
+  },
+  {
+    "commit": "da4599b7f7a15d91f2a1266b1cb9ade775dc4464",
+    "Author": "feibai <feibai@mogujie.com>",
+    "Date": "2016-09-02T10:39:54-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 2,
+        "deletes": 7,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 308,
+        "deletes": 21,
+        "occurrences": 15
+      },
+      "jade": {
+        "inserts": 61,
+        "deletes": 45,
+        "occurrences": 5
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 11
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/nuna/.DS_Store",
+      "themes/nuna/_config.yml",
+      "themes/nuna/app/style/_partial/base.scss",
+      "themes/nuna/app/style/_partial/font.scss",
+      "themes/nuna/app/style/_partial/footer.scss",
+      "themes/nuna/app/style/_partial/hlight.scss",
+      "themes/nuna/app/style/_partial/mq.scss",
+      "themes/nuna/app/style/_partial/page.scss",
+      "themes/nuna/app/style/_partial/photo.scss",
+      "themes/nuna/app/style/_partial/post.scss",
+      "themes/nuna/app/style/archive.scss",
+      "themes/nuna/app/style/home.scss",
+      "themes/nuna/app/style/main.scss",
+      "themes/nuna/app/style/page.scss",
+      "themes/nuna/app/style/photo.scss",
+      "themes/nuna/app/style/post.scss",
+      "themes/nuna/app/style/pupa.scss",
+      "themes/nuna/layout/mixins/page.jade",
+      "themes/nuna/layout/mixins/photo.jade",
+      "themes/nuna/layout/mixins/post.jade",
+      "themes/nuna/layout/partial/head.jade",
+      "themes/nuna/layout/partial/layout.jade",
+      "themes/nuna/source/.DS_Store",
+      "themes/nuna/source/carrillo.png",
+      "themes/nuna/source/not-available.jpg",
+      "themes/nuna/source/style/main.css",
+      "themes/nuna/source/thumb/thumb-0.png",
+      "themes/nuna/source/thumb/thumb-1.png",
+      "themes/nuna/source/thumb/thumb-2.png",
+      "themes/nuna/source/thumb/thumb-3.png",
+      "themes/nuna/source/thumb/thumb-4.png",
+      "themes/nuna/source/thumb/thumb-5.png",
+      "themes/nuna/source/thumb/thumb-6.png",
+      "themes/nuna/source/thumb/thumb-7.png",
+      "themes/nuna/source/thumb/thumb-8.png",
+      "themes/nuna/source/thumb/thumb-9.png"
+    ]
+  },
+  {
+    "commit": "913b72a01f414e3e86b645e56b3965f0d794a483",
+    "Author": "feibai <feibai@mogujie.com>",
+    "Date": "2016-09-02T05:28:03-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "scss": {
+        "inserts": 244,
+        "deletes": 377,
+        "occurrences": 16
+      },
+      "jade": {
+        "inserts": 41,
+        "deletes": 40,
+        "occurrences": 8
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/nuna/app/style/_partial/archive.scss",
+      "themes/nuna/app/style/_partial/base.scss",
+      "themes/nuna/app/style/_partial/font.scss",
+      "themes/nuna/app/style/_partial/footer.scss",
+      "themes/nuna/app/style/_partial/header.scss",
+      "themes/nuna/app/style/_partial/mq.scss",
+      "themes/nuna/app/style/_partial/page.scss",
+      "themes/nuna/app/style/_partial/paginator.scss",
+      "themes/nuna/app/style/_partial/photo.scss",
+      "themes/nuna/app/style/_partial/post.scss",
+      "themes/nuna/app/style/_partial/posts.scss",
+      "themes/nuna/app/style/_partial/print.scss",
+      "themes/nuna/app/style/_partial/var.scss",
+      "themes/nuna/app/style/archive.scss",
+      "themes/nuna/app/style/home.scss",
+      "themes/nuna/app/style/main.scss",
+      "themes/nuna/layout/archive.jade",
+      "themes/nuna/layout/index.jade",
+      "themes/nuna/layout/mixins/page.jade",
+      "themes/nuna/layout/mixins/photo.jade",
+      "themes/nuna/layout/mixins/post.jade",
+      "themes/nuna/layout/partial/copyright.jade",
+      "themes/nuna/layout/partial/header.jade",
+      "themes/nuna/layout/partial/layout.jade",
+      "themes/nuna/source/style/main.css"
+    ]
+  },
+  {
+    "commit": "8b804693908f8e484c69985dd8e75bc0b0ca0313",
+    "Author": "feibai <feibai@mogujie.com>",
+    "Date": "2016-09-01T22:56:57-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 3
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 4,
+        "deletes": 6,
+        "occurrences": 1
+      },
+      "scss": {
+        "inserts": 70,
+        "deletes": 267,
+        "occurrences": 12
+      },
+      "js": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "jade": {
+        "inserts": 121,
+        "deletes": 105,
+        "occurrences": 12
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "package.json",
+      "themes/nuna/.editorconfig",
+      "themes/nuna/_config.yml",
+      "themes/nuna/app/style/_partial/base.scss",
+      "themes/nuna/app/style/_partial/font.scss",
+      "themes/nuna/app/style/_partial/header.scss",
+      "themes/nuna/app/style/_partial/{format.scss => hlight.scss}",
+      "themes/nuna/app/style/_partial/page.scss",
+      "themes/nuna/app/style/_partial/paginator.scss",
+      "themes/nuna/app/style/_partial/photo.scss",
+      "themes/nuna/app/style/_partial/post.scss",
+      "themes/nuna/app/style/_partial/posts.scss",
+      "themes/nuna/app/style/_partial/var.scss",
+      "themes/nuna/app/style/main.scss",
+      "themes/nuna/app/style/pupa.scss",
+      "themes/nuna/gulpfile.js",
+      "themes/nuna/layout/archive.jade",
+      "themes/nuna/layout/index.jade",
+      "themes/nuna/layout/mixins/page.jade",
+      "themes/nuna/layout/mixins/paginator.jade",
+      "themes/nuna/layout/mixins/photo.jade",
+      "themes/nuna/layout/mixins/post.jade",
+      "themes/nuna/layout/page.jade",
+      "themes/nuna/layout/partial/head.jade",
+      "themes/nuna/layout/partial/header.jade",
+      "themes/nuna/layout/partial/layout.jade",
+      "themes/nuna/layout/photo.jade",
+      "themes/nuna/layout/post.jade",
+      "themes/nuna/package.json",
+      "themes/nuna/source/style/main.css"
+    ]
+  },
+  {
+    "commit": "373e8cfee5ec26ab5ba8061ca74919c45e9aa21f",
+    "Author": "feibai <feibai@mogujie.com>",
+    "Date": "2016-08-31T19:47:43-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 71,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "md": {
+        "inserts": 32,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 41,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "scss": {
+        "inserts": 1250,
+        "deletes": 0,
+        "occurrences": 16
+      },
+      "js": {
+        "inserts": 23,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jade": {
+        "inserts": 270,
+        "deletes": 0,
+        "occurrences": 15
+      },
+      "json": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "ico": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/nuna/.DS_Store",
+      "themes/nuna/.editorconfig",
+      "themes/nuna/.eslintrc.js",
+      "themes/nuna/.gitignore",
+      "themes/nuna/LICENSE",
+      "themes/nuna/README.md",
+      "themes/nuna/_config.yml",
+      "themes/nuna/app/style/_partial/archive.scss",
+      "themes/nuna/app/style/_partial/base.scss",
+      "themes/nuna/app/style/_partial/font.scss",
+      "themes/nuna/app/style/_partial/footer.scss",
+      "themes/nuna/app/style/_partial/format.scss",
+      "themes/nuna/app/style/_partial/header.scss",
+      "themes/nuna/app/style/_partial/mq.scss",
+      "themes/nuna/app/style/_partial/normalize.scss",
+      "themes/nuna/app/style/_partial/page.scss",
+      "themes/nuna/app/style/_partial/paginator.scss",
+      "themes/nuna/app/style/_partial/photo.scss",
+      "themes/nuna/app/style/_partial/post.scss",
+      "themes/nuna/app/style/_partial/posts.scss",
+      "themes/nuna/app/style/_partial/print.scss",
+      "themes/nuna/app/style/main.scss",
+      "themes/nuna/app/style/pupa.scss",
+      "themes/nuna/gulpfile.js",
+      "themes/nuna/languages/en.yml",
+      "themes/nuna/languages/zh-cn.yml",
+      "themes/nuna/layout/archive.jade",
+      "themes/nuna/layout/index.jade",
+      "themes/nuna/layout/mixins/page.jade",
+      "themes/nuna/layout/mixins/paginator.jade",
+      "themes/nuna/layout/mixins/photo.jade",
+      "themes/nuna/layout/mixins/post.jade",
+      "themes/nuna/layout/page.jade",
+      "themes/nuna/layout/partial/comment.jade",
+      "themes/nuna/layout/partial/copyright.jade",
+      "themes/nuna/layout/partial/head.jade",
+      "themes/nuna/layout/partial/header.jade",
+      "themes/nuna/layout/partial/layout.jade",
+      "themes/nuna/layout/partial/scripts.jade",
+      "themes/nuna/layout/photo.jade",
+      "themes/nuna/layout/post.jade",
+      "themes/nuna/package.json",
+      "themes/nuna/source/.DS_Store",
+      "themes/nuna/source/carrillo.png",
+      "themes/nuna/source/favicon.ico",
+      "themes/nuna/source/favicon.png",
+      "themes/nuna/source/logo.png",
+      "themes/nuna/source/not-available.jpg",
+      "themes/nuna/source/style/main.css"
+    ]
+  },
+  {
+    "commit": "8812887c843548914ba6f028534dc9ecfb411fce",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-29T09:08:48-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "820b682285af966e8f7e3f95bcf34bee09c6ea31",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-28T19:28:57-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016/07/2016-07-dali.md",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "ee08cb95f702dc664e995007d21b77754b1a3e88",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-28T19:00:25-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 25
+      },
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 7
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 30
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 15
+      },
+      "JPG": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json",
+      "scaffolds/photo.md",
+      "source/_posts/.DS_Store",
+      "source/_posts/2016/.DS_Store",
+      "source/_posts/{ => 2016/05}/2016-05-24.md",
+      "source/_posts/{ => 2016/05}/2016-05-24/new_year.png",
+      "source/_posts/{ => 2016/05}/2016-05-my-workflow-in-sublime.md",
+      "source/_posts/{ => 2016/05}/2016-05-my-workflow-in-sublime/sublime.png",
+      "source/_posts/{ => 2016/05}/2016-05-my-workflow-in-sublime/webstorm.png",
+      "source/_posts/{ => 2016/05}/2016-05-package-doc.md",
+      "source/_posts/2016/06/.DS_Store",
+      "source/_posts/{ => 2016/06}/2016-06-about-blog.md",
+      "source/_posts/{ => 2016/06}/2016-06-about-blog/illu.png",
+      "source/_posts/{ => 2016/06}/2016-06-auto-update-with-travis-ci.md",
+      "source/_posts/{ => 2016/06}/2016-06-auto-update-with-travis-ci/token.png",
+      "source/_posts/{ => 2016/06}/2016-06-auto-update-with-travis-ci/travis.svg",
+      "source/_posts/{ => 2016/06}/2016-06-chrome-sourcemap.md",
+      "source/_posts/{ => 2016/06}/2016-06-chrome-sourcemap/1.png",
+      "source/_posts/{ => 2016/06}/2016-06-chrome-sourcemap/2.png",
+      "source/_posts/{ => 2016/06}/2016-06-debugging-node-js-nightlies-with-chrome-devtools.md",
+      "source/_posts/{ => 2016/06}/2016-06-debugging-node-js-nightlies-with-chrome-devtools/debug.png",
+      "source/_posts/{ => 2016/06}/2016-06-debugging-node-js-nightlies-with-chrome-devtools/ill.png",
+      "source/_posts/{ => 2016/06}/2016-06-editorconfig.md",
+      "source/_posts/{ => 2016/06}/2016-06-editorconfig/ill.png",
+      "source/_posts/{ => 2016/06}/2016-06-electron-with-hmr.md",
+      "source/_posts/{ => 2016/06}/2016-06-electron-with-hmr/erb.png",
+      "source/_posts/{ => 2016/06}/2016-06-electron-with-hmr/hmr-error.png",
+      "source/_posts/{ => 2016/06}/2016-06-gg.md",
+      "source/_posts/{ => 2016/06}/2016-06-gg/move.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house.md",
+      "source/_posts/{ => 2016/06}/2016-06-house/.DS_Store",
+      "source/_posts/{ => 2016/06}/2016-06-house/1.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/10.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/11.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/12.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/2.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/3.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/4.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/5.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/6.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/7.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/8.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-house/9.jpg",
+      "source/_posts/{ => 2016/06}/2016-06-iterminal.md",
+      "source/_posts/{ => 2016/06}/2016-06-iterminal/iterm.png",
+      "source/_posts/{ => 2016/06}/2016-06-js-test-with-webpack-karma-mocha.md",
+      "source/_posts/{ => 2016/06}/2016-06-js-test-with-webpack-karma-mocha/ill.png",
+      "source/_posts/{ => 2016/06}/2016-06-js-unit-testing.md",
+      "source/_posts/{ => 2016/06}/2016-06-js-unit-testing/ill.png",
+      "source/_posts/{ => 2016/06}/2016-06-what-is-trunk-based-development.md",
+      "source/_posts/{ => 2016/06}/2016-06-what-is-trunk-based-development/what_is_trunk.jpg",
+      "source/_posts/2016/07/.DS_Store",
+      "source/_posts/{ => 2016/07}/2016-07-dali.md",
+      "source/_posts/{ => 2016/07}/2016-07-dali/.DS_Store",
+      "source/_posts/{ => 2016/07}/2016-07-dali/1.JPG",
+      "source/_posts/{ => 2016/07}/2016-07-dali/2.JPG",
+      "source/_posts/{ => 2016/07}/2016-07-dali/3.JPG",
+      "source/_posts/{ => 2016/07}/2016-07-dali/4.JPG",
+      "source/_posts/{ => 2016/07}/2016-07-dali/5.JPG",
+      "source/_posts/{ => 2016/07}/2016-07-dali/6.JPG",
+      "source/_posts/{ => 2016/07}/2016-07-dali/7.JPG",
+      "source/_posts/{ => 2016/07}/2016-07-dali/8.JPG",
+      "source/_posts/{ => 2016/07}/2016-07-dali/9.JPG",
+      "source/_posts/{ => 2016/07}/2016-07-do-have-the-faith-in-what-you-love.md",
+      "source/_posts/{ => 2016/07}/2016-07-do-have-the-faith-in-what-you-love/o.jpg",
+      "source/_posts/{ => 2016/07}/2016-07-keng.md",
+      "source/_posts/{ => 2016/07}/2016-07-reading-http.md",
+      "source/_posts/{ => 2016/07}/2016-07-reading-http/code1.png",
+      "source/_posts/{ => 2016/07}/2016-07-reading-http/code2.png",
+      "source/_posts/{ => 2016/07}/2016-07-reading-http/code3.png",
+      "source/_posts/{ => 2016/07}/2016-07-reading-http/code4.png",
+      "source/_posts/2016/08/.DS_Store",
+      "source/_posts/{ => 2016/08}/2016-08-URI-encoding.md",
+      "source/_posts/{ => 2016/08}/2016-08-URI-encoding/encode.png",
+      "source/_posts/{ => 2016/08}/2016-08-javascript-inheritance.md",
+      "source/_posts/{ => 2016/08}/2016-08-javascript-inheritance/1.png",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test.md",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test/0.png",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test/1.png",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test/2.png",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test/3.png",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test/4.png",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test/5.png",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test/6.png",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test/7.png",
+      "source/_posts/{ => 2016/08}/2016-08-jenkins-ci-unit-test/jenkins.png",
+      "source/_posts/{ => 2016/08}/2016-08-redux-src.md",
+      "source/_posts/{ => 2016/08}/2016-08-redux-src/flow.gif",
+      "source/about/index.md"
+    ]
+  },
+  {
+    "commit": "b4700cea8ca83c66bf2ade26dc679a1f599eb30c",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-28T09:44:19-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "6b916f728c3b1eecc7232b6358178f354e941345",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-28T09:40:28-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 7
+      },
+      "md": {
+        "inserts": 28,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".DS_Store",
+      "sketch/.DS_Store",
+      "source/.DS_Store",
+      "source/_posts/.DS_Store",
+      "source/_posts/2016-06-house/.DS_Store",
+      "source/_posts/2016-07-dali/.DS_Store",
+      "source/about/index.md",
+      "themes/.DS_Store"
+    ]
+  },
+  {
+    "commit": "25da846b27ecee304e9aff4d4c96ac4d505df584",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-28T09:40:16-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 31,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "db.json",
+      "scaffolds/page.md",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "476d42ca45586436a4f43609b16962f2df38e329",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-24T22:23:32-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "tools/index.md"
+    ]
+  },
+  {
+    "commit": "d22c7d940e8c9d8d581aa8a16e1ac1f6398fa66e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-22T19:47:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "2741dae796035fe96f4a5be2f0459f540efe8a6f",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-22T19:01:50-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "b9e81e0eb86ddc758f8006a0436cc8a3a0fc2bd4",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-21T22:12:51-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-08-URI-encoding.md"
+    ]
+  },
+  {
+    "commit": "5a01bbe4153609d2af398f862d3a1c76b26aa45a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-21T22:12:05-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-08-URI-encoding.md"
+    ]
+  },
+  {
+    "commit": "d439f4cc3277eaceb977bfda7ba1a8fafd9d69dd",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-20T07:35:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-08-URI-encoding.md"
+    ]
+  },
+  {
+    "commit": "0c802bab523c58beb8fce8569466af8ecd6fba07",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-20T06:55:11-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-08-URI-encoding.md"
+    ]
+  },
+  {
+    "commit": "593cb0519b30442938f8dc3448b94e41286daa2d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-20T06:46:41-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 110,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "scaffolds/post.md",
+      "source/_posts/2016-08-URI-encoding.md",
+      "source/_posts/2016-08-URI-encoding/encode.png"
+    ]
+  },
+  {
+    "commit": "73af1bbce5771b021adf5a24f665af77ef44cdff",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-17T08:48:16-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 23,
+        "deletes": 2,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "db.json",
+      "eco.json",
+      "package.json"
+    ]
+  },
+  {
+    "commit": "e4fb42dac9990132794917affd32d55feea72508",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-17T08:39:38-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "0dbbeeb83269a919b6be4bd840ea25800ecc7e07",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-16T02:36:15-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json"
+    ]
+  },
+  {
+    "commit": "914be06a0503a5b9d8f30d0e0c9d8cc49abbfb96",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-16T01:58:14-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json"
+    ]
+  },
+  {
+    "commit": "9ba5efffcdb059aafbee30e8c9ab2928c07b3e97",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-16T01:33:54-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "13015c74eff6e574eb0f867b7868b12aaa0ee2ba",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-16T00:53:12-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "d40f60fe358f89d227d5c01224e43412748a122d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-16T00:15:03-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "db.json",
+      "package.json"
+    ]
+  },
+  {
+    "commit": "1fdb629c1ff4720d3bcbc0ccf2416ecda04f8ee0",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-10T01:38:40-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "7a5d7d1592681727455e61116990f01fd5be5c10",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-09T23:17:52-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 58,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-08-redux-src.md"
+    ]
+  },
+  {
+    "commit": "7b9a22d647e5f690d44059249c64e62f6b1665db",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-09T09:08:51-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 357,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "scaffolds/post.md",
+      "source/_posts/2016-08-redux-src.md",
+      "source/_posts/2016-08-redux-src/flow.gif"
+    ]
+  },
+  {
+    "commit": "c1c6a444a7e8708adc50cbe10c50226ed4e69b23",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-06T20:54:51-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-08-javascript-inheritance.md"
+    ]
+  },
+  {
+    "commit": "2c2f37fce441df6ebfce6abab06888d1a3223f0a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-04T00:23:45-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-08-javascript-inheritance.md"
+    ]
+  },
+  {
+    "commit": "b089253a373c0689d9687ba66f9e616143fe3c34",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-03T22:52:50-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 271,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-08-javascript-inheritance.md",
+      "source/_posts/2016-08-javascript-inheritance/1.png"
+    ]
+  },
+  {
+    "commit": "c54aac5c78a4c1c0b584cef15d44443acec6b26a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-03T09:21:03-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 77,
+        "deletes": 36,
+        "occurrences": 20
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-05-24.md",
+      "source/_posts/2016-05-my-workflow-in-sublime.md",
+      "source/_posts/2016-05-package-doc.md",
+      "source/_posts/2016-06-about-blog.md",
+      "source/_posts/2016-06-auto-update-with-travis-ci.md",
+      "source/_posts/2016-06-chrome-sourcemap.md",
+      "source/_posts/2016-06-debugging-node-js-nightlies-with-chrome-devtools.md",
+      "source/_posts/2016-06-editorconfig.md",
+      "source/_posts/2016-06-electron-with-hmr.md",
+      "source/_posts/2016-06-gg.md",
+      "source/_posts/2016-06-house.md",
+      "source/_posts/2016-06-iterminal.md",
+      "source/_posts/2016-06-js-test-with-webpack-karma-mocha.md",
+      "source/_posts/2016-06-js-unit-testing.md",
+      "source/_posts/2016-06-what-is-trunk-based-development.md",
+      "source/_posts/2016-07-dali.md",
+      "source/_posts/2016-07-do-have-the-faith-in-what-you-love.md",
+      "source/_posts/2016-07-keng.md",
+      "source/_posts/2016-07-reading-http.md",
+      "source/_posts/2016-08-jenkins-ci-unit-test.md",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "ad8fe6826e353966eb2fcfa4438e7411acca4fef",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-01T21:23:17-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-08-jenkins-ci-unit-test.md"
+    ]
+  },
+  {
+    "commit": "c1814b3a8715381f9614b87733e47e9fafbd3b43",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-08-01T21:00:40-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 73,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 9
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-08-jenkins-ci-unit-test.md",
+      "source/_posts/2016-08-jenkins-ci-unit-test/0.png",
+      "source/_posts/2016-08-jenkins-ci-unit-test/1.png",
+      "source/_posts/2016-08-jenkins-ci-unit-test/2.png",
+      "source/_posts/2016-08-jenkins-ci-unit-test/3.png",
+      "source/_posts/2016-08-jenkins-ci-unit-test/4.png",
+      "source/_posts/2016-08-jenkins-ci-unit-test/5.png",
+      "source/_posts/2016-08-jenkins-ci-unit-test/6.png",
+      "source/_posts/2016-08-jenkins-ci-unit-test/7.png",
+      "source/_posts/2016-08-jenkins-ci-unit-test/jenkins.png"
+    ]
+  },
+  {
+    "commit": "3fa8295ad368503013c4132a6ab74cade74ce4e4",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-25T08:06:20-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 20,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json",
+      "source/_posts/2016-07-reading-http.md",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "5222250dc1c8d5bba6417a5a4f652be011eba2cc",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-25T01:50:50-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json",
+      "source/_posts/2016-07-reading-http/code1.png",
+      "source/_posts/2016-07-reading-http/code2.png",
+      "source/_posts/2016-07-reading-http/code3.png",
+      "source/_posts/2016-07-reading-http/code4.png"
+    ]
+  },
+  {
+    "commit": "fa3aba4688eb214ade90ab72e8d8c9c5671560a4",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-22T07:51:53-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 16,
+        "deletes": 10,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-07-reading-http.md",
+      "source/_posts/2016-07-reading-tcp-ip.md"
+    ]
+  },
+  {
+    "commit": "ed66b53247ce0fe45df5e75ce1b1c1b4b465acb7",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-14T01:41:12-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "README.md",
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "837a7a5bb92501ac7e161107f549834a2890db47",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-14T01:36:46-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "0e546535d0b9e19511ee353592f512bc071bf2c0",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-13T23:27:12-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "SUMMARY.md",
+      "app/index.md",
+      "tools/index.md"
+    ]
+  },
+  {
+    "commit": "a980ec1af27e9ec2277d48f7526e6f9e1427558d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-11T20:03:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-07-keng.md"
+    ]
+  },
+  {
+    "commit": "e66c6b662c2e94a27c102f5f7adf3e281a9f6b7d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-11T19:47:08-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 17,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-07-keng.md"
+    ]
+  },
+  {
+    "commit": "350ceec9b6161e6f2a28d8eb2dc06df7945cd7f5",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-11T18:30:05-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 23,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-07-keng.md"
+    ]
+  },
+  {
+    "commit": "9ccb502db834757bf855760164efecbf6c723725",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-11T17:52:35-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-07-keng.md"
+    ]
+  },
+  {
+    "commit": "c6e83bbe6c7f9a5def89898a44831ee3b64d00c8",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-11T10:05:31-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 39,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-07-keng.md"
+    ]
+  },
+  {
+    "commit": "2657f473ba19376115a59cdcfbb330fd32183586",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-10T02:23:30-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 21,
+        "deletes": 5,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "scaffolds/post.md",
+      "source/_posts/2016-05-my-workflow-in-sublime.md",
+      "source/_posts/2016-06-js-test-with-webpack-karma-mocha.md",
+      "source/_posts/2016-07-reading-tcp-ip.md"
+    ]
+  },
+  {
+    "commit": "3ef021e9ea5da9eddb3872a85b1d370fc95192e1",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-08T23:54:08-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-debugging-node-js-nightlies-with-chrome-devtools.md",
+      "source/_posts/2016-07-dali.md"
+    ]
+  },
+  {
+    "commit": "49b8ee227d5e71364425c9f3061782b5fcc86eed",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-08T09:04:42-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "0e5d847f3de273aefdddbcfb1b984fab6c13a7bb",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-08T08:49:13-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-07-do-have-the-faith-in-what-you-love.md",
+      "source/_posts/2016-07-do-have-the-faith-in-what-you-love/o.jpg"
+    ]
+  },
+  {
+    "commit": "62ece0730e8b91c79d6b6e1686036201f5bd1514",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-04T08:51:29-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-07-dali.md"
+    ]
+  },
+  {
+    "commit": "f307966a46c7c188e59a8252a641068de534df1e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-07-04T08:30:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "JPG": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 9
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-07-dali.md",
+      "source/_posts/2016-07-dali/1.JPG",
+      "source/_posts/2016-07-dali/2.JPG",
+      "source/_posts/2016-07-dali/3.JPG",
+      "source/_posts/2016-07-dali/4.JPG",
+      "source/_posts/2016-07-dali/5.JPG",
+      "source/_posts/2016-07-dali/6.JPG",
+      "source/_posts/2016-07-dali/7.JPG",
+      "source/_posts/2016-07-dali/8.JPG",
+      "source/_posts/2016-07-dali/9.JPG"
+    ]
+  },
+  {
+    "commit": "24a33655a10545aee2fab4243bb07ab5c48b9ccf",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-24T22:11:27-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-debugging-node-js-nightlies-with-chrome-devtools.md"
+    ]
+  },
+  {
+    "commit": "43f406c022654aa8f35e760c0458b402bb8e4913",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-24T21:47:49-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 67,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-debugging-node-js-nightlies-with-chrome-devtools.md",
+      "source/_posts/2016-06-debugging-node-js-nightlies-with-chrome-devtools/debug.png",
+      "source/_posts/2016-06-debugging-node-js-nightlies-with-chrome-devtools/ill.png"
+    ]
+  },
+  {
+    "commit": "c78bab560cc1efa64d934adf1dde009bad856c55",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-24T19:40:49-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "a4263b3271266c2a403f51b854c576a5c944feaf",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-22T06:43:11-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-what-is-trunk-based-development.md"
+    ]
+  },
+  {
+    "commit": "c8b4e6f950887365c23e0d917019b54c317d3b88",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-22T01:47:12-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-05-24.md"
+    ]
+  },
+  {
+    "commit": "0340ef11877dbd740757fe049bdcb16819b78add",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-21T23:08:45-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "6c74296fcb0d777be97cabac86ed39b501386367",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-21T19:37:25-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 96,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-what-is-trunk-based-development.md",
+      "source/_posts/2016-06-what-is-trunk-based-development/what_is_trunk.jpg",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "112089423051081e4d750a2adf288fbb5dcb5985",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-19T18:48:20-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 124,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-editorconfig.md",
+      "source/_posts/2016-06-editorconfig/ill.png"
+    ]
+  },
+  {
+    "commit": "ab1be28fd42052cb07ac9b046fc2196b67246c6b",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-18T01:13:52-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "db.json",
+      "scaffolds/draft.md",
+      "scaffolds/photo.md",
+      "scaffolds/post.md"
+    ]
+  },
+  {
+    "commit": "dac80d947da407ce6b0fdc59afc863fc09edcb9f",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-17T19:37:49-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 9,
+        "deletes": 8,
+        "occurrences": 4
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-auto-update-with-travis-ci.md",
+      "source/_posts/2016-06-chrome-sourcemap.md",
+      "source/_posts/2016-06-electron-with-hmr.md",
+      "source/_posts/2016-06-js-test-with-webpack-karma-mocha.md"
+    ]
+  },
+  {
+    "commit": "8929ac4fd259af2046d1e439e3b787e90d5bf7f3",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-17T18:52:21-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 22,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-electron-with-hmr.md"
+    ]
+  },
+  {
+    "commit": "827b3c596356aecd9a89f46f988273e9a121458d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-16T19:32:00-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 15,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-chrome-sourcemap.md"
+    ]
+  },
+  {
+    "commit": "39ecd977932dbe23b6bf16339c37f8ec7690ff8a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-16T18:57:07-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-chrome-sourcemap.md"
+    ]
+  },
+  {
+    "commit": "7dc5a10844d581b80222bc83a396a718d1e40295",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-16T06:57:17-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 52,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-chrome-sourcemap.md",
+      "source/_posts/2016-06-chrome-sourcemap/1.png",
+      "source/_posts/2016-06-chrome-sourcemap/2.png"
+    ]
+  },
+  {
+    "commit": "ebe4243495c19b9c977abb5baaa57b22340b82a3",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-14T18:45:12-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-js-test-with-webpack-karma-mocha.md"
+    ]
+  },
+  {
+    "commit": "50ed5d2ff7332691e0fddee99524bc7c2c1e72d5",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-14T10:19:29-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-js-test-with-webpack-karma-mocha.md"
+    ]
+  },
+  {
+    "commit": "c3e20939a20ca03741be07e66129c0c29f564760",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-14T10:06:22-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 223,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-js-test-with-webpack-karma-mocha.md",
+      "source/_posts/2016-06-js-test-with-webpack-karma-mocha/ill.png"
+    ]
+  },
+  {
+    "commit": "cb143aeeeabdfb89d05e745c21b62743e4e8571d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-14T07:53:47-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 85,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-js-unit-testing.md",
+      "source/_posts/2016-06-js-unit-testing/ill.png"
+    ]
+  },
+  {
+    "commit": "3db021f4cabf6531f686632bcef3741a42e0c433",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-13T10:06:14-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "package.json",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "4079619b2c3f3c375519c5b0f71f75d6929375bb",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-13T07:34:38-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-iterminal.md"
+    ]
+  },
+  {
+    "commit": "eb82a822d654e1a9f795a02e396405fad39ed600",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-13T06:27:42-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "package.json"
+    ]
+  },
+  {
+    "commit": "1bedba29948fbd8a138c5275d4e8312b4829671e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-13T06:10:35-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "package.json"
+    ]
+  },
+  {
+    "commit": "3eeae66ae86b919a3e76a371518527385d06344f",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-13T06:07:52-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 52,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-about-blog.md",
+      "source/_posts/2016-06-about-blog/illu.png"
+    ]
+  },
+  {
+    "commit": "961030737d3a136282bcd9a4355321bf13795cdd",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-12T18:59:53-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 31,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-iterminal.md"
+    ]
+  },
+  {
+    "commit": "e9135f027fa4012f58e814f85fff52422f738198",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-12T18:42:00-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-auto-update-with-travis-ci.md"
+    ]
+  },
+  {
+    "commit": "35fdc4411bfaabc7d398823a69380cd4a0ecef7f",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-12T09:49:02-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json"
+    ]
+  },
+  {
+    "commit": "1e4b1b07714147b9c13e2611069a47f0583480a4",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-12T09:43:04-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 64,
+        "deletes": 1,
+        "occurrences": 3
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-auto-update-with-travis-ci.md",
+      "source/_posts/2016-06-gg.md",
+      "source/_posts/2016-06-gg/{cover.jpg => move.jpg}",
+      "source/_posts/2016-06-iterminal.md",
+      "source/_posts/2016-06-iterminal/iterm.png"
+    ]
+  },
+  {
+    "commit": "55ab52c6574b240e2425f821c3bddc7858da28a1",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-11T19:26:57-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".editorconfig",
+      "source/_posts/2016-05-my-workflow-in-sublime.md"
+    ]
+  },
+  {
+    "commit": "7facaa9855b09ff846c7dc400b50661fd323bf16",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-10T18:24:02-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-gg.md",
+      "source/_posts/2016-06-gg/cover.jpg"
+    ]
+  },
+  {
+    "commit": "0ba16a834e7929a728182df05918c41da71b8187",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-10T17:30:51-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".editorconfig"
+    ]
+  },
+  {
+    "commit": "3702f0128c715d3b0489055bf5c190127989dec7",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-06T06:07:12-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "public/.gitkeep"
+    ]
+  },
+  {
+    "commit": "f60606c55d35d918b9ec7ebec32707f033902c5f",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-06T05:53:19-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "public/.gitkeep"
+    ]
+  },
+  {
+    "commit": "b98a05a7c0dc01b1928a6783477f1c0440f93e84",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-06T05:51:18-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "db.json"
+    ]
+  },
+  {
+    "commit": "9e51f9b50c23139ebf82a2da6c7566e44d7b7b9e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-06T05:39:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "cb306f72c3e83587c0175b582aed0213f159cfc8",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-06T03:23:14-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 125,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-06-electron-with-hmr.md",
+      "source/_posts/2016-06-electron-with-hmr/erb.png",
+      "source/_posts/2016-06-electron-with-hmr/hmr-error.png"
+    ]
+  },
+  {
+    "commit": "3a0524cc3dace035b532d4ef683b971dd44a80f0",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T08:43:44-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "sketch": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sketch/pupa-logo.sketch"
+    ]
+  },
+  {
+    "commit": "5f0fadf8ec1b76432ceb1327cdc1ae7411a2433b",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T03:40:09-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 25,
+        "deletes": 26,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "db.json",
+      "source/_posts/2016-05-24.md",
+      "source/_posts/2016-05-package-doc.md"
+    ]
+  },
+  {
+    "commit": "9a5b101d479dec8a2e0b566358f9f177fd10a406",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T03:16:24-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "4e299f9d4969e1f72542e87603eae1a50773ce88",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T03:11:05-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "source/_posts/2016-06-auto-update-with-travis-ci.md"
+    ]
+  },
+  {
+    "commit": "369d8762a236358486c20210dc569b7aa7c0c953",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T03:05:41-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "ddff1d51ecdde2db3f8ae58a94d03c90534309c5",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T03:03:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "README.md",
+      "source/_posts/2016-06-auto-update-with-travis-ci.md"
+    ]
+  },
+  {
+    "commit": "654be083a7beffec5b3105bb6715dc070f4fee3c",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T03:00:09-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "source/_posts/2016-06-auto-update-with-travis-ci.md"
+    ]
+  },
+  {
+    "commit": "d621785395a6aadc2a2492ee73f02c4b0123dd3d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T02:45:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "2497cfd3599f535942b9db61cddd6760ae04d517",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T02:40:01-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "d7e4a032fa2b9673e0eb68cff7b4ba5e522f00aa",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T02:31:17-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "9e74d111e2f8fb98062f9b45e88bd40956f34a57",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T01:56:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "_config.yml",
+      "db.json",
+      "source/_posts/2016-06-auto-update-with-travis-ci.md"
+    ]
+  },
+  {
+    "commit": "651e9c17bfa496d9079ea39f32eb2467ac1623aa",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-05T00:14:53-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 146,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 1610,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "db.json",
+      "package.json",
+      "source/_posts/2016-06-auto-update-with-travis-ci.md",
+      "source/_posts/2016-06-auto-update-with-travis-ci/token.png",
+      "source/_posts/2016-06-auto-update-with-travis-ci/travis.svg"
+    ]
+  },
+  {
+    "commit": "49c58960e1a2e4a04425fa2e11fd5e21254e1990",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T23:07:40-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "c1839052943658241084adb7f62a7ecdef088452",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T22:29:13-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "a0a36d57a66f8e398dfa74e4038e88f7f0b0e4ce",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T21:57:53-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "32d5c16a128884fde1cf28f709399c049331648e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T21:35:05-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 16,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "_config.yml",
+      "package.json"
+    ]
+  },
+  {
+    "commit": "78ac3891dbb0a11c00b41cce25e8e6db52796db0",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T21:03:34-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "_config.yml"
+    ]
+  },
+  {
+    "commit": "0d330f57fe51ef1f06b1d181ea24f20ce0d1039a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T20:34:15-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git"
+    ]
+  },
+  {
+    "commit": "eb23e47731f4f210c8db285f2e626df485cb0742",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T10:10:08-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "f30b99126333fe500f0a5fd67becc08b5d71f72f",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T09:56:00-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "_config.yml"
+    ]
+  },
+  {
+    "commit": "3bd60d6ee918dee0d2c59ab741978b19d106e177",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T07:51:22-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "README.md",
+      "scaffolds/photo.md"
+    ]
+  },
+  {
+    "commit": "1f3383a0ccb7ca0439bf3a7d87c0d1a69bdc7e20",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-04T01:53:06-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "log": {
+        "inserts": 0,
+        "deletes": 24,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 12
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      ".gitignore",
+      "db.json",
+      "npm-debug.log",
+      "source/_posts/2016-06-house.md",
+      "source/_posts/2016-06-house/1.jpg",
+      "source/_posts/2016-06-house/10.jpg",
+      "source/_posts/2016-06-house/11.jpg",
+      "source/_posts/2016-06-house/12.jpg",
+      "source/_posts/2016-06-house/2.jpg",
+      "source/_posts/2016-06-house/3.jpg",
+      "source/_posts/2016-06-house/4.jpg",
+      "source/_posts/2016-06-house/5.jpg",
+      "source/_posts/2016-06-house/6.jpg",
+      "source/_posts/2016-06-house/7.jpg",
+      "source/_posts/2016-06-house/8.jpg",
+      "source/_posts/2016-06-house/9.jpg"
+    ]
+  },
+  {
+    "commit": "783b63ee8545495e98c769c30a69904d5e51f82e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-03T21:43:32-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "sketch": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sketch/pupafm.sketch"
+    ]
+  },
+  {
+    "commit": "9454955b4a88a43f7713173212efdc17cad2c7cd",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-06-03T06:39:22-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "key\"": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "\"talk/js\\345\\215\\225\\345\\205\\203\\346\\265\\213\\350\\257\\225.key\""
+    ]
+  },
+  {
+    "commit": "0229d01fc0e790ed3933f86d3ab85138caf49bfd",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-29T22:21:51-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "log": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "db.json",
+      "npm-debug.log",
+      "package.json",
+      "source/_posts/2016-05-my-workflow-in-sublime.md"
+    ]
+  },
+  {
+    "commit": "7bc27e42179231e649f10aea51844d39714406b2",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-24T03:56:03-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 711,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "source/_posts/2016-05-package-doc.md"
+    ]
+  },
+  {
+    "commit": "468006a0b689f7c045fb2b278b67aa4d7a15e298",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-11T19:06:12-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "1129aeb528ad0a656cdd4d8cfec38014ea4814c7",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-09T01:13:29-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 18,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "_config.yml",
+      "source/_posts/2016-05-24.md",
+      "source/_posts/2016-05-24/new_year.png"
+    ]
+  },
+  {
+    "commit": "5ae529e8c6fe5c53654bb13ef7066345df31ff1a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-08T09:04:38-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "db.json",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "01ad5c6c41dd2300c5d4b99ca32bba412c25fa94",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-02T18:46:11-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "db.json",
+      "source/_posts/2016-05-my-workflow-in-sublime.md"
+    ]
+  },
+  {
+    "commit": "35972e2715a9b59a273f7e6b2d5669ec694cc723",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-02T07:01:45-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "source/_posts/2016-05-my-workflow-in-sublime.md"
+    ]
+  },
+  {
+    "commit": "e2021afe5da2d0f39d6c6016b26871c9a2120a45",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-01T20:59:22-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "md": {
+        "inserts": 23,
+        "deletes": 17,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      ".gitignore",
+      "source/_posts/2016-05-my-workflow-in-sublime.md"
+    ]
+  },
+  {
+    "commit": "25d71b845c1c174f5365cb4781491bdc29874fdd",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-01T20:46:05-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "4756e1768daa99886775f35849d0b64917dbcbda",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-01T20:33:28-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "_config.yml"
+    ]
+  },
+  {
+    "commit": "cdbd3b3fa64051e9cecf6d7c0d16f11b1f774ef0",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-01T20:29:10-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 115,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "db.json",
+      "source/_posts/2016-05-my-workflow-in-sublime.md",
+      "source/_posts/2016-05-my-workflow-in-sublime/sublime.png",
+      "source/_posts/2016-05-my-workflow-in-sublime/webstorm.png"
+    ]
+  },
+  {
+    "commit": "a046256181fc90b110aaaf66a21693048d6441ac",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-05-01T02:51:05-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 6,
+        "deletes": 157,
+        "occurrences": 8
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 13,
+        "occurrences": 2
+      },
+      "html": {
+        "inserts": 0,
+        "deletes": 20,
+        "occurrences": 3
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "xml": {
+        "inserts": 0,
+        "deletes": 56,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 0,
+        "deletes": 426,
+        "occurrences": 4
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "scss": {
+        "inserts": 0,
+        "deletes": 11,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 149,
+        "occurrences": 2
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 12,
+        "occurrences": 5
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 2756,
+        "occurrences": 8
+      },
+      "ejs": {
+        "inserts": 0,
+        "deletes": 349,
+        "occurrences": 28
+      },
+      "styl": {
+        "inserts": 0,
+        "deletes": 1170,
+        "occurrences": 15
+      },
+      "otf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 414,
+        "occurrences": 1
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json",
+      "public/2016/04/29/hello-world/index.html",
+      "public/archives/index.html",
+      "public/assets/b-cover.jpg",
+      "public/assets/cover.jpg",
+      "public/atom.xml",
+      "public/css/apollo.css",
+      "public/favicon.png",
+      "public/index.html",
+      "public/scss/apollo.scss",
+      "public/sitemap.xml",
+      "source/_posts/hello-world.md",
+      "source/assets/b-cover.jpg",
+      "source/assets/cover.jpg",
+      "themes/apollo",
+      "themes/landscape/.npmignore",
+      "themes/landscape/Gruntfile.js",
+      "themes/landscape/LICENSE",
+      "themes/landscape/README.md",
+      "themes/landscape/_config.yml",
+      "themes/landscape/languages/default.yml",
+      "themes/landscape/languages/nl.yml",
+      "themes/landscape/languages/no.yml",
+      "themes/landscape/languages/ru.yml",
+      "themes/landscape/languages/zh-CN.yml",
+      "themes/landscape/languages/zh-TW.yml",
+      "themes/landscape/layout/_partial/after-footer.ejs",
+      "themes/landscape/layout/_partial/archive-post.ejs",
+      "themes/landscape/layout/_partial/archive.ejs",
+      "themes/landscape/layout/_partial/article.ejs",
+      "themes/landscape/layout/_partial/footer.ejs",
+      "themes/landscape/layout/_partial/google-analytics.ejs",
+      "themes/landscape/layout/_partial/head.ejs",
+      "themes/landscape/layout/_partial/header.ejs",
+      "themes/landscape/layout/_partial/mobile-nav.ejs",
+      "themes/landscape/layout/_partial/post/category.ejs",
+      "themes/landscape/layout/_partial/post/date.ejs",
+      "themes/landscape/layout/_partial/post/gallery.ejs",
+      "themes/landscape/layout/_partial/post/nav.ejs",
+      "themes/landscape/layout/_partial/post/tag.ejs",
+      "themes/landscape/layout/_partial/post/title.ejs",
+      "themes/landscape/layout/_partial/sidebar.ejs",
+      "themes/landscape/layout/_widget/archive.ejs",
+      "themes/landscape/layout/_widget/category.ejs",
+      "themes/landscape/layout/_widget/recent_posts.ejs",
+      "themes/landscape/layout/_widget/tag.ejs",
+      "themes/landscape/layout/_widget/tagcloud.ejs",
+      "themes/landscape/layout/archive.ejs",
+      "themes/landscape/layout/category.ejs",
+      "themes/landscape/layout/index.ejs",
+      "themes/landscape/layout/layout.ejs",
+      "themes/landscape/layout/page.ejs",
+      "themes/landscape/layout/post.ejs",
+      "themes/landscape/layout/tag.ejs",
+      "themes/landscape/package.json",
+      "themes/landscape/scripts/fancybox.js",
+      "themes/landscape/source/css/_extend.styl",
+      "themes/landscape/source/css/_partial/archive.styl",
+      "themes/landscape/source/css/_partial/article.styl",
+      "themes/landscape/source/css/_partial/comment.styl",
+      "themes/landscape/source/css/_partial/footer.styl",
+      "themes/landscape/source/css/_partial/header.styl",
+      "themes/landscape/source/css/_partial/highlight.styl",
+      "themes/landscape/source/css/_partial/mobile.styl",
+      "themes/landscape/source/css/_partial/sidebar-aside.styl",
+      "themes/landscape/source/css/_partial/sidebar-bottom.styl",
+      "themes/landscape/source/css/_partial/sidebar.styl",
+      "themes/landscape/source/css/_util/grid.styl",
+      "themes/landscape/source/css/_util/mixin.styl",
+      "themes/landscape/source/css/_variables.styl",
+      "themes/landscape/source/css/fonts/FontAwesome.otf",
+      "themes/landscape/source/css/fonts/fontawesome-webfont.eot",
+      "themes/landscape/source/css/fonts/fontawesome-webfont.svg",
+      "themes/landscape/source/css/fonts/fontawesome-webfont.ttf",
+      "themes/landscape/source/css/fonts/fontawesome-webfont.woff",
+      "themes/landscape/source/css/images/banner.jpg",
+      "themes/landscape/source/css/style.styl",
+      "themes/landscape/source/fancybox/blank.gif",
+      "themes/landscape/source/fancybox/fancybox_loading.gif",
+      "themes/landscape/source/fancybox/fancybox_loading@2x.gif",
+      "themes/landscape/source/fancybox/fancybox_overlay.png",
+      "themes/landscape/source/fancybox/fancybox_sprite.png",
+      "themes/landscape/source/fancybox/fancybox_sprite@2x.png",
+      "themes/landscape/source/fancybox/helpers/fancybox_buttons.png",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js",
+      "themes/landscape/source/fancybox/jquery.fancybox.css",
+      "themes/landscape/source/fancybox/jquery.fancybox.js",
+      "themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "themes/landscape/source/js/script.js",
+      "themes/phantom",
+      "themes/pupa"
+    ]
+  },
+  {
+    "commit": "2651398d81001a4b1e1efc0468dd48d6fa190bb9",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-29T10:53:00-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "db.json",
+      "public/2016/04/29/hello-world/index.html",
+      "public/archives/index.html",
+      "public/index.html"
+    ]
+  },
+  {
+    "commit": "7583b9b3f03e79e097a73bceeed02cdb4edd7160",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-29T10:49:42-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "yml": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "html": {
+        "inserts": 12,
+        "deletes": 4,
+        "occurrences": 3
+      },
+      "xml": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "_config.yml",
+      "db.json",
+      "public/2016/04/29/hello-world/index.html",
+      "public/archives/index.html",
+      "public/atom.xml",
+      "public/index.html"
+    ]
+  },
+  {
+    "commit": "d4c59fb49eef772d1b3347d3633aeda2e601082d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-29T10:19:19-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      ".gitignore",
+      "db.json"
+    ]
+  },
+  {
+    "commit": "b24f768666fe382e929d300b700a84c28ea54d2a",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-29T10:13:38-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 4,
+        "deletes": 1740,
+        "occurrences": 10
+      },
+      "yml": {
+        "inserts": 24,
+        "deletes": 13,
+        "occurrences": 1
+      },
+      "otf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "svg": {
+        "inserts": 0,
+        "deletes": 828,
+        "occurrences": 2
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "css": {
+        "inserts": 1,
+        "deletes": 3610,
+        "occurrences": 9
+      },
+      "json": {
+        "inserts": 9,
+        "deletes": 4,
+        "occurrences": 2
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 9
+      },
+      "js": {
+        "inserts": 0,
+        "deletes": 5372,
+        "occurrences": 12
+      },
+      "xml": {
+        "inserts": 56,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "scss": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".deploy_git",
+      "2016/04/29/hello-world/index.html",
+      "_config.yml",
+      "archives/2016/04/index.html",
+      "archives/2016/index.html",
+      "archives/index.html",
+      "css/fonts/FontAwesome.otf",
+      "css/fonts/fontawesome-webfont.eot",
+      "css/fonts/fontawesome-webfont.svg",
+      "css/fonts/fontawesome-webfont.ttf",
+      "css/fonts/fontawesome-webfont.woff",
+      "css/images/banner.jpg",
+      "css/style.css",
+      "db.json",
+      "fancybox/blank.gif",
+      "fancybox/fancybox_loading.gif",
+      "fancybox/fancybox_loading@2x.gif",
+      "fancybox/fancybox_overlay.png",
+      "fancybox/fancybox_sprite.png",
+      "fancybox/fancybox_sprite@2x.png",
+      "fancybox/helpers/fancybox_buttons.png",
+      "fancybox/helpers/jquery.fancybox-buttons.css",
+      "fancybox/helpers/jquery.fancybox-buttons.js",
+      "fancybox/helpers/jquery.fancybox-media.js",
+      "fancybox/helpers/jquery.fancybox-thumbs.css",
+      "fancybox/helpers/jquery.fancybox-thumbs.js",
+      "fancybox/jquery.fancybox.css",
+      "fancybox/jquery.fancybox.js",
+      "fancybox/jquery.fancybox.pack.js",
+      "index.html",
+      "js/script.js",
+      "package.json",
+      "public/2016/04/29/hello-world/index.html",
+      "public/archives/2016/04/index.html",
+      "public/archives/2016/index.html",
+      "public/archives/index.html",
+      "public/assets/b-cover.jpg",
+      "public/assets/cover.jpg",
+      "public/atom.xml",
+      "public/css/apollo.css",
+      "public/css/fonts/FontAwesome.otf",
+      "public/css/fonts/fontawesome-webfont.eot",
+      "public/css/fonts/fontawesome-webfont.svg",
+      "public/css/fonts/fontawesome-webfont.ttf",
+      "public/css/fonts/fontawesome-webfont.woff",
+      "public/css/images/banner.jpg",
+      "public/css/style.css",
+      "public/fancybox/blank.gif",
+      "public/fancybox/fancybox_loading.gif",
+      "public/fancybox/fancybox_loading@2x.gif",
+      "public/fancybox/fancybox_overlay.png",
+      "public/fancybox/fancybox_sprite.png",
+      "public/fancybox/fancybox_sprite@2x.png",
+      "public/fancybox/helpers/fancybox_buttons.png",
+      "public/fancybox/helpers/jquery.fancybox-buttons.css",
+      "public/fancybox/helpers/jquery.fancybox-buttons.js",
+      "public/fancybox/helpers/jquery.fancybox-media.js",
+      "public/fancybox/helpers/jquery.fancybox-thumbs.css",
+      "public/fancybox/helpers/jquery.fancybox-thumbs.js",
+      "public/fancybox/jquery.fancybox.css",
+      "public/fancybox/jquery.fancybox.js",
+      "public/fancybox/jquery.fancybox.pack.js",
+      "public/favicon.png",
+      "public/index.html",
+      "public/js/script.js",
+      "public/scss/apollo.scss",
+      "public/sitemap.xml",
+      "source/assets/b-cover.jpg",
+      "source/assets/cover.jpg",
+      "themes/apollo",
+      "themes/phantom"
+    ]
+  },
+  {
+    "commit": "44c2fc6461f20135c32c1f836643725687b329b5",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-29T06:18:43-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "_config.yml"
+    ]
+  },
+  {
+    "commit": "c226fe8e5ea51cb55dc6ee97214a904c5000eaee",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-29T06:15:59-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "html": {
+        "inserts": 874,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "otf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "svg": {
+        "inserts": 414,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "css": {
+        "inserts": 1805,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "json": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 3
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 4
+      },
+      "js": {
+        "inserts": 2686,
+        "deletes": 0,
+        "occurrences": 6
+      }
+    },
+    "file_list": [
+      "2016/04/29/hello-world/index.html",
+      "archives/2016/04/index.html",
+      "archives/2016/index.html",
+      "archives/index.html",
+      "css/fonts/FontAwesome.otf",
+      "css/fonts/fontawesome-webfont.eot",
+      "css/fonts/fontawesome-webfont.svg",
+      "css/fonts/fontawesome-webfont.ttf",
+      "css/fonts/fontawesome-webfont.woff",
+      "css/images/banner.jpg",
+      "css/style.css",
+      "db.json",
+      "fancybox/blank.gif",
+      "fancybox/fancybox_loading.gif",
+      "fancybox/fancybox_loading@2x.gif",
+      "fancybox/fancybox_overlay.png",
+      "fancybox/fancybox_sprite.png",
+      "fancybox/fancybox_sprite@2x.png",
+      "fancybox/helpers/fancybox_buttons.png",
+      "fancybox/helpers/jquery.fancybox-buttons.css",
+      "fancybox/helpers/jquery.fancybox-buttons.js",
+      "fancybox/helpers/jquery.fancybox-media.js",
+      "fancybox/helpers/jquery.fancybox-thumbs.css",
+      "fancybox/helpers/jquery.fancybox-thumbs.js",
+      "fancybox/jquery.fancybox.css",
+      "fancybox/jquery.fancybox.js",
+      "fancybox/jquery.fancybox.pack.js",
+      "index.html",
+      "js/script.js"
+    ]
+  },
+  {
+    "commit": "4160066466ed081ec5424779ffd70efcb74d9fec",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-29T06:06:22-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 222,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "json": {
+        "inserts": 29,
+        "deletes": 21,
+        "occurrences": 3
+      },
+      "html": {
+        "inserts": 874,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "otf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "eot": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "svg": {
+        "inserts": 828,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ttf": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "woff": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "jpg": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "css": {
+        "inserts": 2230,
+        "deletes": 0,
+        "occurrences": 7
+      },
+      "gif": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 6
+      },
+      "png": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 8
+      },
+      "js": {
+        "inserts": 5442,
+        "deletes": 0,
+        "occurrences": 14
+      },
+      "md": {
+        "inserts": 162,
+        "deletes": 0,
+        "occurrences": 5
+      },
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "ejs": {
+        "inserts": 349,
+        "deletes": 0,
+        "occurrences": 28
+      },
+      "styl": {
+        "inserts": 1170,
+        "deletes": 0,
+        "occurrences": 15
+      }
+    },
+    "file_list": [
+      "_config.yml",
+      "db.json",
+      "package.json",
+      "public/2016/04/29/hello-world/index.html",
+      "public/archives/2016/04/index.html",
+      "public/archives/2016/index.html",
+      "public/archives/index.html",
+      "public/css/fonts/FontAwesome.otf",
+      "public/css/fonts/fontawesome-webfont.eot",
+      "public/css/fonts/fontawesome-webfont.svg",
+      "public/css/fonts/fontawesome-webfont.ttf",
+      "public/css/fonts/fontawesome-webfont.woff",
+      "public/css/images/banner.jpg",
+      "public/css/style.css",
+      "public/fancybox/blank.gif",
+      "public/fancybox/fancybox_loading.gif",
+      "public/fancybox/fancybox_loading@2x.gif",
+      "public/fancybox/fancybox_overlay.png",
+      "public/fancybox/fancybox_sprite.png",
+      "public/fancybox/fancybox_sprite@2x.png",
+      "public/fancybox/helpers/fancybox_buttons.png",
+      "public/fancybox/helpers/jquery.fancybox-buttons.css",
+      "public/fancybox/helpers/jquery.fancybox-buttons.js",
+      "public/fancybox/helpers/jquery.fancybox-media.js",
+      "public/fancybox/helpers/jquery.fancybox-thumbs.css",
+      "public/fancybox/helpers/jquery.fancybox-thumbs.js",
+      "public/fancybox/jquery.fancybox.css",
+      "public/fancybox/jquery.fancybox.js",
+      "public/fancybox/jquery.fancybox.pack.js",
+      "public/index.html",
+      "public/js/script.js",
+      "scaffolds/draft.md",
+      "scaffolds/page.md",
+      "scaffolds/post.md",
+      "source/_posts/hello-world.md",
+      "themes/landscape/.npmignore",
+      "themes/landscape/Gruntfile.js",
+      "themes/landscape/LICENSE",
+      "themes/landscape/README.md",
+      "themes/landscape/_config.yml",
+      "themes/landscape/languages/default.yml",
+      "themes/landscape/languages/nl.yml",
+      "themes/landscape/languages/no.yml",
+      "themes/landscape/languages/ru.yml",
+      "themes/landscape/languages/zh-CN.yml",
+      "themes/landscape/languages/zh-TW.yml",
+      "themes/landscape/layout/_partial/after-footer.ejs",
+      "themes/landscape/layout/_partial/archive-post.ejs",
+      "themes/landscape/layout/_partial/archive.ejs",
+      "themes/landscape/layout/_partial/article.ejs",
+      "themes/landscape/layout/_partial/footer.ejs",
+      "themes/landscape/layout/_partial/google-analytics.ejs",
+      "themes/landscape/layout/_partial/head.ejs",
+      "themes/landscape/layout/_partial/header.ejs",
+      "themes/landscape/layout/_partial/mobile-nav.ejs",
+      "themes/landscape/layout/_partial/post/category.ejs",
+      "themes/landscape/layout/_partial/post/date.ejs",
+      "themes/landscape/layout/_partial/post/gallery.ejs",
+      "themes/landscape/layout/_partial/post/nav.ejs",
+      "themes/landscape/layout/_partial/post/tag.ejs",
+      "themes/landscape/layout/_partial/post/title.ejs",
+      "themes/landscape/layout/_partial/sidebar.ejs",
+      "themes/landscape/layout/_widget/archive.ejs",
+      "themes/landscape/layout/_widget/category.ejs",
+      "themes/landscape/layout/_widget/recent_posts.ejs",
+      "themes/landscape/layout/_widget/tag.ejs",
+      "themes/landscape/layout/_widget/tagcloud.ejs",
+      "themes/landscape/layout/archive.ejs",
+      "themes/landscape/layout/category.ejs",
+      "themes/landscape/layout/index.ejs",
+      "themes/landscape/layout/layout.ejs",
+      "themes/landscape/layout/page.ejs",
+      "themes/landscape/layout/post.ejs",
+      "themes/landscape/layout/tag.ejs",
+      "themes/landscape/package.json",
+      "themes/landscape/scripts/fancybox.js",
+      "themes/landscape/source/css/_extend.styl",
+      "themes/landscape/source/css/_partial/archive.styl",
+      "themes/landscape/source/css/_partial/article.styl",
+      "themes/landscape/source/css/_partial/comment.styl",
+      "themes/landscape/source/css/_partial/footer.styl",
+      "themes/landscape/source/css/_partial/header.styl",
+      "themes/landscape/source/css/_partial/highlight.styl",
+      "themes/landscape/source/css/_partial/mobile.styl",
+      "themes/landscape/source/css/_partial/sidebar-aside.styl",
+      "themes/landscape/source/css/_partial/sidebar-bottom.styl",
+      "themes/landscape/source/css/_partial/sidebar.styl",
+      "themes/landscape/source/css/_util/grid.styl",
+      "themes/landscape/source/css/_util/mixin.styl",
+      "themes/landscape/source/css/_variables.styl",
+      "themes/landscape/source/css/fonts/FontAwesome.otf",
+      "themes/landscape/source/css/fonts/fontawesome-webfont.eot",
+      "themes/landscape/source/css/fonts/fontawesome-webfont.svg",
+      "themes/landscape/source/css/fonts/fontawesome-webfont.ttf",
+      "themes/landscape/source/css/fonts/fontawesome-webfont.woff",
+      "themes/landscape/source/css/images/banner.jpg",
+      "themes/landscape/source/css/style.styl",
+      "themes/landscape/source/fancybox/blank.gif",
+      "themes/landscape/source/fancybox/fancybox_loading.gif",
+      "themes/landscape/source/fancybox/fancybox_loading@2x.gif",
+      "themes/landscape/source/fancybox/fancybox_overlay.png",
+      "themes/landscape/source/fancybox/fancybox_sprite.png",
+      "themes/landscape/source/fancybox/fancybox_sprite@2x.png",
+      "themes/landscape/source/fancybox/helpers/fancybox_buttons.png",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.css",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-buttons.js",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.css",
+      "themes/landscape/source/fancybox/helpers/jquery.fancybox-thumbs.js",
+      "themes/landscape/source/fancybox/jquery.fancybox.css",
+      "themes/landscape/source/fancybox/jquery.fancybox.js",
+      "themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "themes/landscape/source/js/script.js"
+    ]
+  },
+  {
+    "commit": "9a61f669fb486f6c6d3ece925c05df6db785dc40",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-18T07:18:36-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "1c59b29b1c52b136ab1bef670d081c3d282df253",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-10T06:51:16-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "fa989c175f3c9f5146da9cbb868c998f0d1ecbfa",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-04-08T09:03:59-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "fd6f5e5e7530a6232ebc638afb73cd9861ceee39",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-03-18T07:53:11-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "072c6c3beb4b86492be48810f85809c556a33f5d",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-03-15T07:52:30-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "SUMMARY.md",
+      "app.md => app/index.md",
+      "repost/index.md"
+    ]
+  },
+  {
+    "commit": "d36bbd35ed130f2a1279a59ebebeace6cbf282b0",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-03-09T23:38:37-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "app.md"
+    ]
+  },
+  {
+    "commit": "ef92e7753c0975502ddfe415bee2ad7543cb48f7",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-03-09T23:38:23-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "SUMMARY.md"
+    ]
+  },
+  {
+    "commit": "9233166d66403908b16428da2e5ec6acbbaabe4e",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-03-09T23:38:18-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "app.md"
+    ]
+  },
+  {
+    "commit": "733ad341a75cb17ade53731123d025a83aa5db51",
+    "Author": "xwartz <stddup@gmail.com>",
+    "Date": "2016-03-09T23:37:58-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "SUMMARY.md"
+    ]
+  },
+  {
+    "commit": "dee45a3273a1ad816b6bcb2b65fa98fdd0e87132",
+    "Author": "feibai <feibai@mogujie.com>",
+    "Date": "2016-03-09T21:55:49-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "README.md",
+      "SUMMARY.md",
+      "package.json"
+    ]
+  },
+  {
+    "commit": "295ba0562e86309f7e7e93797001eb018b21fd2f",
+    "Author": "feibai <feibai@mogujie.com>",
+    "Date": "2016-03-09T21:55:49-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "json": {
+        "inserts": 24,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "README.md",
+      "SUMMARY.md",
+      "package.json"
+    ]
+  }
+]

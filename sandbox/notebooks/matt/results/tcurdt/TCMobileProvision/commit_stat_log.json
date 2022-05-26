@@ -1,0 +1,164 @@
+[
+  {
+    "commit": "f576010256bd68661a38b8058915bb83f2b8acf9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2022-03-26T06:29:59-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "json": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "renovate.json"
+    ]
+  },
+  {
+    "commit": "8c407c1a614f0b4cff20f0cb3fb86404a0c86950",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-03-26T06:29:45-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "swift": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Package.swift"
+    ]
+  },
+  {
+    "commit": "8cbc5c32eaa2953371d7c3e3059e46b69bd08ee7",
+    "Author": "Renovate Bot <bot@renovateapp.com>",
+    "Date": "2022-03-26T04:46:02-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "json": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "renovate.json"
+    ]
+  },
+  {
+    "commit": "6e82a2eeb1df332455012577c70932a7cf60596c",
+    "Author": "David Muir <dfmuir@gmail.com>",
+    "Date": "2022-03-22T21:06:32-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "resolved": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "swift": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "Package.resolved",
+      "Package.swift",
+      "Sources/iOS/TCMobileProvision.m"
+    ]
+  },
+  {
+    "commit": "786ca8330c652a10c64c373ec926d92840d795c4",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2015-11-20T10:20:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.txt => README.md"
+    ]
+  },
+  {
+    "commit": "e6dd3e98ddbd20fc9a87bc648130d0bcab141915",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2015-02-20T16:30:15-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/iOS/TCMobileProvision.m"
+    ]
+  },
+  {
+    "commit": "28d19f6235de2e2e3f1fdf8671b129ddebb4fa6f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2015-02-20T16:19:14-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "m": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "Sources/iOS/TCMobileProvision.m"
+    ]
+  },
+  {
+    "commit": "14202a95d1df383ee12978665fbf3524b1272ad5",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2014-06-16T03:47:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "podspec": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "TCMobileProvision.podspec"
+    ]
+  },
+  {
+    "commit": "ba92189b5ad113ca63be9cd591dc2f4faabb4f7d",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2014-06-16T03:47:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.txt"
+    ]
+  }
+]

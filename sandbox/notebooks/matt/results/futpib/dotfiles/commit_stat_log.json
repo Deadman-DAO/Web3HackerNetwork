@@ -1,0 +1,1644 @@
+[
+  {
+    "commit": "de2e07d56687485ed647421061464277b9e99070",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2022-04-14T20:25:28-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".profile"
+    ]
+  },
+  {
+    "commit": "68a0fc74a590ea2e17f9d6d4945b47ce7c7eea76",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2022-04-14T20:22:49-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".profile"
+    ]
+  },
+  {
+    "commit": "64451ac91f4bbc720580ccb01e100e52b10d2448",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2022-02-03T07:50:05-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "desktop": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".local/share/applications/emacsclient-wrapper.desktop"
+    ]
+  },
+  {
+    "commit": "fa276f8eac48a1df6a3d97def709a402b6057217",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2022-02-03T07:44:13-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".local/bin/emacsclient-wrapper"
+    ]
+  },
+  {
+    "commit": "91ded2e19526b748f3a27f50458f9450db65fca8",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2022-02-03T07:39:51-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "profile": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".local/share/konsole/scrollback-unlimited.profile"
+    ]
+  },
+  {
+    "commit": "ab78e0699ac59a74e76839f5023aa076ab3fb6de",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2022-01-30T04:35:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".emacs",
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "0fb11f7e47559a65928c2c54390058a89aac9ff7",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-12-07T03:28:42-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "c85b8befaffafdf2d9e028bf6935ad0a40a7b25c",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-11-17T03:05:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".emacs",
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "7dca902c16eddb95f4fdbbb4ee965baea62e2ce7",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-11-16T09:15:02-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".profile"
+    ]
+  },
+  {
+    "commit": "0f690ba7b1b87156ba9f86118ca6c59aeb9ebc43",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-11-16T09:13:29-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".emacs",
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "718fd8345fa6b693fbca2e5d46672e6eb4861231",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-10-13T03:23:31-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "5a2bff46f15f9ad1a20365e1b1d979018d4a1232",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-09-27T08:52:04-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "41effe0e948f82143526294589b56a564dc5e986",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-09-01T09:51:18-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "rasi": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/rofi/config",
+      ".config/rofi/config.rasi",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "1f8073a251328d69b9f8f9ee8a5a237504f1211c",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-07-16T07:53:55-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "566623988eeed48f9a20654b554615c31f1b5e8b",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-07-06T03:04:24-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 24,
+        "deletes": 13,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".emacs",
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "e3ce3966deee5598858a707b1f568032fdac3e28",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-06-10T04:22:05-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "56e8440a8efdd20e674e1648a46a206aa6ea2772",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-05-18T02:12:48-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".emacs",
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "522fd38b4f43fb10b546b25683d4bf55986e321f",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-05-12T06:25:26-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 71,
+        "deletes": 35,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "211b254af6b1c24a74e0787a709fd58e8d7efa31",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-05-09T05:12:33-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".looking-glass-client.ini"
+    ]
+  },
+  {
+    "commit": "9cb62fe9714305a5d99c95a3ac3f27a313f07007",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2021-04-19T06:22:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "dd87bbd0edcd475bcce12a9029c8b3a9d880c112",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2020-09-16T16:33:58-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 20,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "99a9aa640eeab3da6e8cfb6503dc7121294e5e1d",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2020-09-16T16:33:22-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 25,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".bash_colors",
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "70697407cbb6c1f1d59331235881521c5bfd618d",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2020-08-23T09:25:43-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "0ceb4485419084a40736fd3838d7f9a1b5576424",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2020-08-23T09:23:13-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 103,
+        "occurrences": 2
+      },
+      "hs": {
+        "inserts": 0,
+        "deletes": 9,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/xmobar/xmobarrc",
+      ".gitignore",
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "6e9ea26b58f35c3bcf8df22c098ef0b4627da2d7",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2020-08-21T09:59:05-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/rofi/config"
+    ]
+  },
+  {
+    "commit": "ddcf984c90e3c3e0638258f77245a06baa5fe362",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2020-08-20T17:44:19-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "conf": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/mpv/mpv.conf"
+    ]
+  },
+  {
+    "commit": "175b65caffdb04b393929f46343a45b0ecb77dab",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2020-08-20T15:40:46-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "conf": {
+        "inserts": 0,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/{compton.conf => picom.conf}",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "1a2751152b1fc311236c6d4b8b8f70e73271e78f",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2020-08-20T15:37:04-07:00",
+    "orig_timezone": "UTC",
+    "fileTypes": {
+      "hs": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "6d8a9869b6e2f0dafe656bd7b3bd4c0b0bd47005",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-12-04T06:11:59-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "f0b82bee1d85cae3aad93e2b53bf8572a6829872",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2020-05-21T22:38:28-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "bd422fe02b1d0a465f72b9621909ec1eee78cab4",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-07-27T12:04:09-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".local/bin/chrome-headless"
+    ]
+  },
+  {
+    "commit": "3e0eefeb2a9b0a2f37524b01f55a0b4204329ad6",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-06-29T14:00:05-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bash_preexec"
+    ]
+  },
+  {
+    "commit": "f32dcd571047e1c2279df23649126c2f49ab77d5",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-05-13T06:39:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".bashrc",
+      ".profile"
+    ]
+  },
+  {
+    "commit": "5419881808d507d4cf6c27c449d1a30e5f61572f",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-05-06T04:38:54-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 24,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".emacs",
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "50ea33b46e277a9f6a032afdd7a17fbb97038596",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-05-06T04:37:40-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".profile"
+    ]
+  },
+  {
+    "commit": "fb1983b55f53a467dc70b7d794fb88a55070ced6",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-04-09T07:11:03-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 31,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".config/dolphinrc",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "6fbf5ab9a9415655ebbe6e2f6d51fd1ad075f665",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-04-06T08:24:39-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".config/systemmonitorrc",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "fb22e8d9ddb6139e8e21a5f339e63456932c9a06",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-03-19T12:23:20-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "4868db231bffa15430ad75549fcdea6c004416a6",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-01-27T03:37:03-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 23,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".local/bin/ffmpeg-mute"
+    ]
+  },
+  {
+    "commit": "d8ec30fed875b11a5de2b637555d6cd87304b210",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2019-01-03T12:34:20-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "cc17b91e8a02dbea2b7aa87575b10a86bece1129",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-11-18T11:44:24-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "adff1e4df9c96c52c61a69dcf43cc3eec9bdecf6",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-10-29T09:22:01-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".emacs",
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "9fc4a931941420b89ab5e38ce07149a475bfe7fc",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-29T08:04:46-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "5153665268fce772a3b1184e6ce65a11b0bfd1ed",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-29T08:03:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".profile"
+    ]
+  },
+  {
+    "commit": "794bf4566dc814467b2cc1800400d8a8a11c42f2",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-29T08:00:18-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".profile"
+    ]
+  },
+  {
+    "commit": "22ed669309bfed59bd538067060e003b23bb5f0a",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-14T15:30:48-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/klipperrc"
+    ]
+  },
+  {
+    "commit": "bb8d33f791f57208111f2e27738bd87f8b688c94",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-14T15:30:58-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "5de116d60457c3caa1c0541a5f0d411ee292ccab",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-04T00:26:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 7,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "57ecadf636b16b6878b01b118ebb327c6d5e7266",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-02T02:51:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "9b32424c665a66b583acefaab1755815eb833aad",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-02T02:50:29-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "0c877fe6bf18aba1349c0d719acd37c393a6c46f",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-02T02:50:11-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "76eb9cf47de39508b49937b80dc656e3d8eef395",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-07-02T02:49:43-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".XCompose"
+    ]
+  },
+  {
+    "commit": "1736bc0cbf207962930d322dde3c8294f7942c42",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-05-16T13:25:50-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".profile"
+    ]
+  },
+  {
+    "commit": "63a679c4bd929cbfff4a0da43b1da04eb143c5a5",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-03-15T13:14:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/mpv/mpv.conf",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "ab1affc634fd98de046eb71c1cd0e6e21413a730",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-03-15T13:13:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".xprofile"
+    ]
+  },
+  {
+    "commit": "1b5a1f95c195ab909f4fb91c1b1a990ea16136e3",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2018-01-22T11:14:39-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".XCompose"
+    ]
+  },
+  {
+    "commit": "83be3be6f5be74a794cabfd4e12ebccfa21f113c",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-24T03:24:16-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "599f2f42b0f563c50d953c3cfda6bc5860d2bea3",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-21T12:21:03-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "conf": {
+        "inserts": 233,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/compton.conf",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "682c3fd14f77ed7e4c00f449e40bb177714a2db6",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-17T13:00:34-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "840118a372aa75c0c154b134f3063bac997a1655",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-17T12:24:56-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".profile"
+    ]
+  },
+  {
+    "commit": "93007e93c41c145dcc1ab7bf0573e61a9c94cd54",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-17T09:57:53-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs.d/Cask"
+    ]
+  },
+  {
+    "commit": "1ff88a662ade3957da5d7e1e4db384ce2a3ce5f4",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-17T09:36:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/xmobar/xmobarrc"
+    ]
+  },
+  {
+    "commit": "45402f8a0c30a64b424bbdc9c381ae980d777424",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-07-03T08:06:29-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "fcec41835971bace8ae85f4cc5d54d54292c067c",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-14T11:19:32-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".vimrc"
+    ]
+  },
+  {
+    "commit": "57d91495b5037d5543c39a1e6440698b76daa996",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-11T11:33:57-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/xmobar/xmobarrc"
+    ]
+  },
+  {
+    "commit": "859d3ca31f93bf99e9ccbb0d7321951b3c8e9bb4",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-11T11:31:14-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "877d15d6c96ed7efa16981bc29634025cf915946",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-09-11T11:31:00-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "7fd2b71a3ade01b6fd553cd7fb677002ada18599",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-07-01T08:38:12-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "5bdbc7e2fc8138b7b4538d260167469d70981885",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-05-09T04:59:23-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "c6d20c7b2ae895781c7c9ec7a6791c540f65f9c5",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-05-06T05:07:16-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 72,
+        "deletes": 34,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      ".emacs",
+      ".emacs.d/Cask",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "487668abc2a31fd6b0afa6c7ec02a5328d16cd12",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-04-01T03:02:02-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "b7134e7cff3dcd33cce6614b617d9bc5a832e67e",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-03-31T12:58:35-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "0cafe6f573a37b0345a3e63dead715d7fa008386",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-03-31T12:58:18-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "1b9d3d064c5d6d65e8a379fcedda334a7131713c",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-03-31T12:58:01-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "fd7ec1c2ce64258108eee6baeff08c8962b493d0",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-03-31T12:55:46-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "f0b515a6f815a9ce1abc09ec3f0c34be38602af7",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-03-31T12:55:13-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "d4ef88e3e18dda4eef1560fd51d7120e53a2bc81",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2017-03-19T03:18:04-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 32,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "9db266059b1305ecd58db17f250bf2fdf1decadf",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-12-06T08:31:37-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "hs": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "2bdebce58de00ebfd5c62026504bb4d7a558c3df",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-12-06T08:31:14-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "4f092a76891391bdf2e8951fed2d1822f679c55a",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-12-06T08:30:58-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/xmobar/xmobarrc"
+    ]
+  },
+  {
+    "commit": "04f3875fa63d92e4f8cbbda79fa0f7a04f555ea7",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-12-06T08:30:23-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "7ed1b5e56c6618912f8a0173055bb711dac9110a",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-11-12T15:34:10-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "85b2c387f9dad94cecb438294c4fe2e577f44e7e",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-11-04T03:09:16-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "185326d6b60c4175ba2183079b4edcdb304ea9fa",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-11-04T03:05:38-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "1ce963ed143fa70ff2d6363d2628d3ab40142b69",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-11-04T03:05:12-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "56ae6702f4522baeddadd1caedfe25405485f5a9",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-11-04T03:04:50-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "ae8c4b5715db23f5ec78932cc5e3edf511448d0f",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-11-04T03:03:31-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "f5592490aa2b37be3382f430a8eef9cfaba4263a",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-11-04T03:02:23-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 30,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "f72dbd37673eb4e2c6ec32904556b72aed7a00c0",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-07-14T06:52:16-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/xmobar/xmobarrc"
+    ]
+  },
+  {
+    "commit": "d7339be08b96a8b6deacaed5b5b43be0737cfdd4",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-07-14T06:52:01-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".config/xmobar/xmobarrc"
+    ]
+  },
+  {
+    "commit": "a6602597c1d306d3b1fb20bc838ed20666f2ba0a",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-04-16T06:10:22-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 219,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".config/dunst/dunstrc",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "9f067f29e20ccde121d7cebbdfc287ff7b146e8c",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-04-16T06:06:40-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 102,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      ".config/xmobar/xmobarrc",
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "b7a10ffc3c04c15c84761892411ef338560b2382",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-04-16T06:03:36-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 14,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  },
+  {
+    "commit": "5d849b234e2b23ff5647460db31ad46c065ad869",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-04-16T06:02:47-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "fea795e45dfbad24797b0ad75413621b4c2e89c5",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-02-05T10:52:28-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "hs": {
+        "inserts": 153,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".xmonad/xmonad.hs"
+    ]
+  },
+  {
+    "commit": "625bce30572f347529fb39d9c252fca120c3b502",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-02-05T10:42:07-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 442,
+        "deletes": 0,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      ".bash_colors",
+      ".bash_preexec",
+      ".bashrc"
+    ]
+  },
+  {
+    "commit": "583bfaee0b020c9bc0a9521b1acc040140743800",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-01-31T02:28:39-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "e3cad540896a1236317421aba6010f7401b9e703",
+    "Author": "futpib <futpib@gmail.com>",
+    "Date": "2016-01-24T09:51:09-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 86,
+        "deletes": 72,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".emacs"
+    ]
+  }
+]

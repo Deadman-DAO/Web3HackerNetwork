@@ -1,0 +1,750 @@
+[
+  {
+    "commit": "6f0949c393b7778a96033716787d152ada32f705",
+    "Author": "Camilo QS <vxcamiloxv@disroot.org>",
+    "Date": "2021-08-02T19:20:38-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "4f2a750c1c11742d095f90e42c0ab31bc6a3a9cd",
+    "Author": "birlorg <bsd@birl.org>",
+    "Date": "2019-03-20T21:13:04-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 16,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "084e444699f91be42dbd8d285ec03719b67cc185",
+    "Author": "bmansurov <45986298+bmansurov@users.noreply.github.com>",
+    "Date": "2018-12-18T21:12:36-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 14,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "ade549cf015ea2a4139087023f3b4ead1f4d1944",
+    "Author": "Vincent Bernat <vincent@bernat.im>",
+    "Date": "2018-08-02T06:30:58-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "6309e8b206b481f16e585ea1333a7d044f17c3dc",
+    "Author": "Steve Purcell <steve@sanityinc.com>",
+    "Date": "2015-07-19T00:55:00-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "10958d5605d9ea000ae0748ccee70a4afd8a55c0",
+    "Author": "Yaroslav Shirokov <slava@github.com>",
+    "Date": "2014-07-23T01:18:12-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "cd0d79578eb856467e067fae3f7cc789f342f95d",
+    "Author": "Yaroslav Shirokov <slava@github.com>",
+    "Date": "2014-07-23T01:15:55-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "007e6ff69903cfd44d172a9d9d95987592cc08cb",
+    "Author": "Yaroslav Shirokov <slava@github.com>",
+    "Date": "2014-07-23T01:15:02-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "bf16cb341f7d4bda624f11f4c7b82cb27d040f9e",
+    "Author": "Yaroslav Shirokov <slava@github.com>",
+    "Date": "2014-07-23T01:13:41-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 28,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "16e92cd0cead64f0229e4d7bf97e6d5475b5a431",
+    "Author": "Yaroslav Shirokov <slava@github.com>",
+    "Date": "2014-07-23T01:09:13-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README => README.md"
+    ]
+  },
+  {
+    "commit": "12695324da50aabcd2fde16542238da1333805d8",
+    "Author": "Mike Skalnik <skalnik@github.com>",
+    "Date": "2014-07-22T14:19:56-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "e9cf7011185afeea640f8b15be8d2b4797350b7f",
+    "Author": "Yaroslav Shirokov <slava@github.com>",
+    "Date": "2014-02-26T19:22:00-07:00",
+    "orig_timezone": "UTC-08:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 20,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "LICENSE"
+    ]
+  },
+  {
+    "commit": "ebd83c38c3a981af6f5bbadb3de995b4577860fc",
+    "Author": "Ozan Sener <ozan@ozansener.com>",
+    "Date": "2012-07-29T01:24:14-07:00",
+    "orig_timezone": "UTC+03:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "a73f15db400d1bdd6db5688b16ad8766d4fabb9a",
+    "Author": "Jason Lewis <jason@woodhouse.lan>",
+    "Date": "2011-05-14T04:39:55-07:00",
+    "orig_timezone": "UTC+10:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "el": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README",
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "e08d506b9c931159b5fae30d3685a340b23f58f4",
+    "Author": "Jason Lewis <jason@woodhouse.lan>",
+    "Date": "2011-05-10T15:22:09-07:00",
+    "orig_timezone": "UTC+10:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "2b810537d0d815e302dadd492bfa52172d265aae",
+    "Author": "Jason Lewis <jason@woodhouse.lan>",
+    "Date": "2011-05-10T15:21:02-07:00",
+    "orig_timezone": "UTC+10:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "c4de65a37275dd4674604ed25e44651b2729435d",
+    "Author": "Jason Lewis <jason@woodhouse.lan>",
+    "Date": "2011-05-10T15:09:54-07:00",
+    "orig_timezone": "UTC+10:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 9,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "97dc890eb51a1a6f4e1748ee9458d3ea702be613",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-03-05T15:39:02-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "c0d070d070044a182fff4cd84c491f65cde009f8",
+    "Author": "Yaroslav Shirokov <slava@slavasaur.com>",
+    "Date": "2011-03-04T14:18:43-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "dd72bbd29fd186be3410e3234b78f5f415bcc5b6",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-28T16:40:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "2ec102149cc9e343ab3d41c166ae629da50eb04b",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-28T16:24:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "e8ccace4f3b0f044eb73004bed390a2f5ec45e74",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-28T16:20:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 16,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "8553acbf5d90b3e1a5c07aa5c8639595694d54b7",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-28T16:06:11-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "98504c93bcd6825b9c563c1db1852f3e5aabe0d6",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T03:52:29-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 14,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "d8356acb0631dcb8bf9d53711366c3fb21180698",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T03:18:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 11,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "dd02c05d2db2c4120155f09fad76a8608e296c07",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T03:05:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 23,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "f3191543013c102462be9514d1a6e203f5ddfd78",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T02:42:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README"
+    ]
+  },
+  {
+    "commit": "a62d3d6256e083965f84d978e26b64d117985dc2",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T02:39:18-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 62,
+        "deletes": 56,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "6fb380bb835e789f76a50379cd3813596c3f5f54",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T02:24:25-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "e3ba85b8d47f93ce60013e151f7923a58e170ecd",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T02:10:33-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 13,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "20469e5a92f84cdc0cd8878162363c89a1dfe845",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T01:58:50-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "el": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README",
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "7af6a34e7f9e06f34be641c115de52251479bf62",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T00:48:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 7,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "aeeb8a18a03923fcdece8a2ec45ea5a96eac17f1",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T00:40:40-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "3fc2e3c17533f759bb4d1341312f5466f829ee99",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T00:34:15-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README"
+    ]
+  },
+  {
+    "commit": "358b47b55050c60228fa9b5db21a56248fb544b7",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-27T00:18:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 20,
+        "deletes": 11,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "06e36d4b92ef0fb74858fba28bc612b7f5cfc21b",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-26T23:08:48-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 16,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "47c73a0ce0ff5623fa84eba7c318f46275c84ace",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-26T22:44:45-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 25,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "6777b24c9f13f0a115a2bcf62aff79154c522924",
+    "Author": "Yaroslav Shirokov <slava@slavasaur.com>",
+    "Date": "2011-02-24T23:51:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 23,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README"
+    ]
+  },
+  {
+    "commit": "f16ce295b4f0165d5eee4d000b3b5f89b5dc4eb6",
+    "Author": "Yaroslav Shirokov <slava@slavasaur.com>",
+    "Date": "2011-02-24T23:31:26-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "c78e3d939b314f6b67f24712b169579b4a5fc6c0",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-22T23:38:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "df20ad40eea3b088aa38f11487ceefee3556ee2f",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-22T23:24:05-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 16,
+        "deletes": 15,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "688f66fa109a3a75c347f89d3e0530e1790c59f1",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-22T23:22:16-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 16,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "d750926de805174a3389c37e1f8aad6d484c277a",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-22T23:13:18-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 67,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "5f55720fbcd26a211a98c658ad75fe2f795c8ebd",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-22T22:38:56-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "194bd67e5995e41d959f988c015aba49818b446b",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-22T22:34:06-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "el": {
+        "inserts": 24,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "znc.el"
+    ]
+  },
+  {
+    "commit": "d8d9cd70ba134b7fe886ea24ed7de87b9e218f92",
+    "Author": "Yaroslav Shirokov <slava@hackinggibsons.com>",
+    "Date": "2011-02-22T17:16:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README"
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "commit": "4abd21352df1a97b3eeeaccee36e46f84604ad71",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2020-01-17T03:24:05-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "2306e65df56f67709c451642296ebb21de61a51c",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-05T07:42:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "b967a313994e1cf2ddb824ed3a11c576e41c2637",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-05T07:40:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "004d75b796921cc25cb4b1b1ba254af74843dfd9",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-08-05T07:37:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 18,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.txt => README.md"
+    ]
+  },
+  {
+    "commit": "5388d35d4e37921c48f18d19c2e63327bc77f29f",
+    "Author": "Torsten Curdt <tcurdt@vafer.org>",
+    "Date": "2010-05-23T19:37:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "rb": {
+        "inserts": 104,
+        "deletes": 17,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "README.txt",
+      "src/main/ruby/dialplan.rb",
+      "src/test/ruby/dialplan_test.rb"
+    ]
+  }
+]

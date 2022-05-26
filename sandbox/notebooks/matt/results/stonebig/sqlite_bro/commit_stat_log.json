@@ -1,0 +1,2016 @@
+[
+  {
+    "commit": "5297d25c93343a293143311955f686d695839642",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2022-02-04T00:25:21-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "577807023264bf4364ad413211c1f156c4cfeea1",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2022-02-04T00:20:28-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "ddf26fd44071042faf2f5d60d24c86e9d8b12482",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-18T11:18:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 142,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "eede53bf9ca333c5080fa9b64fedfd39e7fe9b5b",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-15T07:24:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "GIF": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "docs/sqlite_bro.GIF"
+    ]
+  },
+  {
+    "commit": "d2f5667cb74792f1e83f5c2d8bf5a8f89b76e349",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-15T02:38:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 47,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "5b60d0c47e2efeee365c1af99ec1ff7710f2d232",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-14T04:30:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 18,
+        "deletes": 14,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "4dc98497702308a891227bf0807353930fcdad6b",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-14T03:13:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 46,
+        "deletes": 28,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "72be71049562d038cd8beadab04d83da1b0bb953",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-14T01:53:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 21,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "a0c4f7cce6f42a5b63cf6970239cba9ea5b8359a",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-10T11:14:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 95,
+        "deletes": 52,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "6d794f360d468aa5f729270dacffeaa2e83f4d1c",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-10T11:10:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 5,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "commit": "53bb6e1591dc10cae871ef98b53ce9fa7fef1768",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-10T01:45:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "commit": "8c6644916dd8cffa6e2273cc21f236c7a14378ff",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-10T01:43:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "commit": "b144cbd0f8f70a290839466b4858b75600620bc7",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-10T01:36:34-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "commit": "f68650bbb78a72c0ce031785edd6366c0f1ae00b",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-10T01:27:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "commit": "66be4dcb8da4964e5c6e57b3613397b31e2c4974",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T14:13:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 3,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst"
+    ]
+  },
+  {
+    "commit": "a68ec2545b84f37ba1aa9ff365ce558587512b07",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T14:07:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "9ac69b3ec8618838d5d9bb4045271a83bb381d07",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T14:06:57-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 36,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/tests/test_general.py"
+    ]
+  },
+  {
+    "commit": "f479df0b7807397d505e827df376835eb2b81438",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T13:18:44-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py",
+      "sqlite_bro/tests/test_general.py"
+    ]
+  },
+  {
+    "commit": "543eb204c35dc650f8854e76ae64383b1f503823",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T12:46:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 20,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "commit": "f1fb7ad573d77fcdec3ed09f5eaf25286ed47769",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T11:44:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "6ab3155e84cd586989ead08856aa2c8252767d70",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T08:20:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 848,
+        "deletes": 575,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "ef1eac775243f77173605dd76de70844d0454478",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T08:09:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "74845d845234a5fe57561e8ed0c7ed90ed4c1279",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T06:27:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "a3a5923fc83c23d43b488f16176b977fdd4c3925",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T06:22:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "2c0f79ef745127ab6fed4ee9bbdb7fba30acf4a2",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T06:18:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 51,
+        "deletes": 48,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py",
+      "sqlite_bro/tests/test_general.py"
+    ]
+  },
+  {
+    "commit": "0b6835c6455b815e162afb9aba63b7447ccae010",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T05:56:27-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/tests/test_general.py"
+    ]
+  },
+  {
+    "commit": "1021917d3b4a1084944e9d59f089b941fdda565b",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T05:48:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "b7138e2bdbdb36f65b9c4640b564766cb6ab0200",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T03:33:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "d6a44fe8da3a105a11b0027f6583595e24cb8641",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T03:22:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 13,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/tests/test_general.py"
+    ]
+  },
+  {
+    "commit": "8a2fb18170cf4e35071c53e49afe42763ab395a2",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T03:10:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "commit": "d011e97a7434955be693ac9eed5fc4b628140fa6",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T03:08:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "commit": "562d5b605cd416b45715af1d49284b827cb122e6",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T02:38:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "880f18aceb3158b9090d51ef5803d2cc18efb8f5",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-09T02:20:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 40,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "commit": "8a54d65b446d610aaba49c25575386e650485b57",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-08T15:19:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 13,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "d51a244059390695e98821e6db1bb6474c384de3",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-08T15:07:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 22,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "dc79d6ee40535d06dab3a483669d8c00a7e14f52",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-08T09:49:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "7b55c76d6b21f8fa03af32ece9c51c1712f98abb",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-08T09:29:46-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "baa98f7918c64f014ee1fb030b906f773b7059ca",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-08T09:25:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 10,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "cd7a207c43ade8b7470bc5b281c666ed6304817a",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-08T07:56:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "da64083ac6797eb0effeee63a12d5cdc0c5904a4",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-08T07:28:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 46,
+        "deletes": 47,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "e60631fefc25ac2f7403bcf93d542e1f48d9e036",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-08T06:21:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 64,
+        "deletes": 32,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "22e7a20bb0782fcb2777ebc3298cebcbf7fa51dc",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-08T05:32:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "b8c89a72b5c9e83c61b968be79574435a8e7e85f",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-07T01:29:49-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "0b7fd6a787552c178886c305ba0fff0d69961d1f",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-07T01:24:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "71f448f860218912b906c42acaccb517a3362c86",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-07T01:22:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "acfeff75af77072ca2e38ee24e6941054611f5c8",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T10:32:24-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "GIF": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.rst",
+      "docs/sqlite_bro_command_line.GIF"
+    ]
+  },
+  {
+    "commit": "d33332cee1a10d8cef892b35c87596b62d278a75",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T10:19:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "23a2daa582f013c1a8eb840d106934d9ff99e2f4",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T10:17:52-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 31,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "README.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "516b9e7000c4bbdfeeda0acb6f5e969a5479fece",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T07:30:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 24,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "35c2ea94bf86c31f041ab512476ceae8557d81ab",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T03:21:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "1c4377fa55de3a0719614d8dad81e714e82a1c62",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T03:18:08-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "cb75d9e63704b49c77c0fc4c2981884f0634d62d",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T03:14:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "007c8fa818d957e5a41c3aad80888005908b6465",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T03:08:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "aafd78cf8ad1b0404041786129f6e705503b199d",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T02:48:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "80a3dddd46fa58516198fce30a8e08c65e0ed8ac",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T02:22:51-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "89306ad3c525b9ee6536cbaaf3887745662f1632",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-08-01T02:07:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "98857b319a170d7c34135f6865c6fc53a2a9b52e",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-04-25T10:17:50-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 13,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "README.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "a63e8e89e6ca262b96de0c9d6b306bb8fd6068d1",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2021-04-20T13:30:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 41,
+        "deletes": 27,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "setup.py",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "dcbbd810d0cea2be40c5c56d02e312be350a81dd",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2019-06-16T06:16:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst"
+    ]
+  },
+  {
+    "commit": "45d1ac97dced666129d8976914ffcf74705bf0f0",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2019-06-16T06:08:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 29,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "7f3a2eb550fd5cef95c3396c56133c9e71eba268",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2019-05-02T05:25:26-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 12,
+        "deletes": 2,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "setup.py",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "25fe48d434648819484cf20dc3b4ad5fab6e8ca7",
+    "Author": "Xiang Wang <ramwin@qq.com>",
+    "Date": "2016-04-06T01:19:53-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.rst",
+      "requirements.txt"
+    ]
+  },
+  {
+    "commit": "5dc31ecd51fd08535ea82f2b98f6314b0c5ece78",
+    "Author": "Xiang Wang <ramwin@qq.com>",
+    "Date": "2016-04-06T01:11:48-07:00",
+    "orig_timezone": "UTC+08:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "requirements.txt"
+    ]
+  },
+  {
+    "commit": "872440bef4a555936152bb132b6822a096dc6388",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-08-13T10:21:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "c5c262d25f4534914f9f10c472c8782a3ae1e92b",
+    "Author": "Yuxiang Wang <yw5aj@virginia.edu>",
+    "Date": "2015-08-12T12:48:22-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "23af9842a9820b1057f843a9e9842a049eb5bf2d",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-05-24T11:17:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst"
+    ]
+  },
+  {
+    "commit": "d8b44467c682df264d1d26841481d5a562de8c9e",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-05-24T11:10:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 8,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "ab11618fe4502367b1fbf39e8b5d87203a25d86a",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-05-24T11:06:31-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "setup.py",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "43bc1ca20f6fc7fd5f699928e22bf2bf69ec89a7",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-04-16T02:23:16-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 10,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "README.rst",
+      "sqlite_bro/sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "892542379166e1447a579bb47e0c64b91d13a4ef",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-04-15T10:27:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro/tests/test_general.py"
+    ]
+  },
+  {
+    "commit": "dc1a41449524867596ce03a56d2b7540493898d0",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-04-15T10:17:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 26,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "sqlite_bro/tests/test_general.py"
+    ]
+  },
+  {
+    "commit": "7136e4586560c36a6279718d4a3e673b0704de02",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-04-15T05:57:22-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 5
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "setup.py",
+      "{tests => sqlite_bro}/__init__.py",
+      "sqlite_bro.py => sqlite_bro/sqlite_bro.py",
+      "sqlite_bro/tests/__init__.py",
+      "{tests => sqlite_bro/tests}/test_general.py"
+    ]
+  },
+  {
+    "commit": "94fab154290565d4427bb6138d468417073c1100",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-04-15T04:07:45-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "cb612d7e208603c18f3f9637874dc201f6c06a52",
+    "Author": "stonebig <stonebig>",
+    "Date": "2015-04-13T08:06:20-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "yml": {
+        "inserts": 57,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "ps1": {
+        "inserts": 188,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cmd": {
+        "inserts": 47,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "appveyor.yml",
+      "appveyor/install.ps1",
+      "appveyor/run_with_compiler.cmd",
+      "setup.py",
+      "tests/__init__.py",
+      "tests/test_general.py"
+    ]
+  },
+  {
+    "commit": "abeae3738cdaf3e3120d617adb5973da2e4139ec",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2014-11-04T14:32:57-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "MANIFEST.in"
+    ]
+  },
+  {
+    "commit": "a1863da8a959bc224d1959193edc7b96d0419a6d",
+    "Author": "stonebig <stonebig34@gmail.com>",
+    "Date": "2014-11-04T14:09:44-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "MANIFEST.in"
+    ]
+  },
+  {
+    "commit": "8702d02d225367ebc77ada32c12069926ff0b287",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-09-10T11:06:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "HISTORY.rst",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "0af027877e8cdd94be6568609b7ea59b50e3ac44",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-09-10T09:25:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 14,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "CHANGES.txt => HISTORY.rst",
+      "setup.cfg",
+      "setup.py",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "f5f0cfa087693a6e18e4cd4a71c2b44be22536cc",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-09-03T14:57:23-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "08be2cdd45a6ee38d619ee7adb7af4beb7e597ce",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-09-03T14:33:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 56,
+        "deletes": 50,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "48337e6085b3a43ca180db1f49539f95719e6ec5",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-09-03T14:09:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "e8122e05d12e77422a3adc55bab66dc84337cce4",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-09-03T14:00:03-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "46be1c12bcadd0536406ccf037c502f6dea847ae",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-09-03T13:46:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 11,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "e9fc0ab985f7cc0256f529009bf9f5c1a6208432",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-08-27T14:20:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "62dd336578cdcabd423ce49ee2c76c4803a09e71",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-08-27T14:17:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 86,
+        "deletes": 34,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "beea311b5e3860417acf18a780dac056049d0ca9",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-08-27T12:21:12-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 28,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "9e690d3f7929e2ce09c0e2f2a759afc1a37bfcee",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-08-27T12:01:39-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 62,
+        "deletes": 35,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "b5561e4a1bf12e4b8c369b2640bf41a7a37b5023",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-08-26T13:47:40-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 36,
+        "deletes": 31,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "e751dfe2ff48daf1729b186a691a031caa575d97",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-08-09T10:57:55-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 6,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "5e7df4ef52d4e444f63b99da690c3862aadad29f",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-08-09T10:52:30-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "4d669e866e96994578609219e5a2fd05e7ac2613",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-07-02T02:22:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 143,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "9b7b2818d6ccc6da5f37189f65270af443f614d2",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-07-02T02:21:35-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "0f5a22f027134d9bae1a1d007868e0fef3d7a8f5",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-07-02T02:19:13-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 0,
+        "deletes": 135,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 28,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "7b38e5206ea44b1924e1e13793d9539e204df208",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-07-02T01:58:33-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "7c6d532971c9962c0e5dcec0b80a1afae36e1db1",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-07-02T01:43:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 45,
+        "deletes": 40,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "7cf2316bbd47764d920d8f792462a4e584f705f2",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-30T13:46:36-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "4cbb72ce64db4cf956dd582c6d454bd0204167d4",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-30T13:38:42-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 47,
+        "deletes": 12,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "43263e262a5140654fc5b382cf77f07ac1000bd7",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-26T13:52:59-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "1ea51ee6ca7ab14083e7cf280edde27fe01c0f76",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-26T13:46:00-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 49,
+        "deletes": 27,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "bb68f3c1689ed9c4eeb4b2953caacba27606ba44",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-25T11:37:06-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 8,
+        "deletes": 7,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "3f7bb452127fe6021f1e6a7d16a7ed740c6e68fa",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-21T07:38:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "8ef21c694bdae0e7d9ff8de12c4c43e691f8d093",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-21T07:33:01-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "b0764bb54fc02f12bcad8935671d19bc597782ee",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-21T07:25:21-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "a26a4a8573e2461c0c16dd0e677811b27d6007cd",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-21T07:20:15-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "da3db1d486a275f35c013254348e1d4f826f6825",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-19T10:57:29-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 133,
+        "deletes": 120,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "f35036d349c044e0ba13a1f6825f0ebeae530d00",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-17T10:30:02-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "7a73cad657ea4784e66d56d6e2b90f0d7348b570",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-17T10:20:48-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 15,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "in": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "MANIFEST.in",
+      "setup.cfg",
+      "setup.py",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "1c7b60c2e1a0b3fdc5b8a0033fff371baa1c8a76",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-16T10:23:28-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "GIF": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 21,
+        "deletes": 22,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "docs/sqlite_bro.GIF",
+      "setup.cfg",
+      "setup.py",
+      "sqlite_bro.py"
+    ]
+  },
+  {
+    "commit": "189f7668778d4b6355b8e825465e714b69d9f26e",
+    "Author": "stonebig <stonebig..>",
+    "Date": "2014-06-14T23:54:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 87,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 57,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "GIF": {
+        "inserts": 0,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1359,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "README.md",
+      "README.rst",
+      "docs/sqlite_bro.GIF",
+      "setup.cfg",
+      "setup.py",
+      "sqlite_bro.py"
+    ]
+  }
+]

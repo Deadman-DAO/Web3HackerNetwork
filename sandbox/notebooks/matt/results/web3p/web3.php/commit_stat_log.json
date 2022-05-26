@@ -10,7 +10,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".github/workflows/php.yml"
+    ]
   },
   {
     "commit": "cc7d01e7eb8912c7fa46e1068034906846b15bd9",
@@ -23,7 +26,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "docker/php/Dockerfile-80"
+    ]
   },
   {
     "commit": "1d47285b8b4c1c1b220250301816b572a2586411",
@@ -36,7 +42,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/OptionalQuantityFormatterTest.php"
+    ]
   },
   {
     "commit": "7c46919e7d5551b75e901642f77f58f1e3353536",
@@ -54,7 +64,11 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "composer.json",
+      "phpunit.xml"
+    ]
   },
   {
     "commit": "91f4d2c40bce62dcebc6a03b9bc258b1ee5d95f7",
@@ -67,7 +81,60 @@
         "deletes": 51,
         "occurrences": 51
       }
-    }
+    },
+    "file_list": [
+      "test/unit/AddressFormatterTest.php",
+      "test/unit/AddressTypeTest.php",
+      "test/unit/AddressValidatorTest.php",
+      "test/unit/BigNumberFormatterTest.php",
+      "test/unit/BlockHashValidatorTest.php",
+      "test/unit/BooleanFormatterTest.php",
+      "test/unit/BooleanTypeTest.php",
+      "test/unit/BooleanValidatorTest.php",
+      "test/unit/BytesTypeTest.php",
+      "test/unit/CallValidatorTest.php",
+      "test/unit/ContractTest.php",
+      "test/unit/DynamicBytesTypeTest.php",
+      "test/unit/EthApiTest.php",
+      "test/unit/EthBatchTest.php",
+      "test/unit/EthTest.php",
+      "test/unit/EthabiTest.php",
+      "test/unit/FilterValidatorTest.php",
+      "test/unit/HexFormatterTest.php",
+      "test/unit/HexValidatorTest.php",
+      "test/unit/IdentityValidatorTest.php",
+      "test/unit/IntegerFormatterTest.php",
+      "test/unit/IntegerTypeTest.php",
+      "test/unit/NetApiTest.php",
+      "test/unit/NetBatchTest.php",
+      "test/unit/NetTest.php",
+      "test/unit/NonceValidatorTest.php",
+      "test/unit/NumberFormatterTest.php",
+      "test/unit/OptionalQuantityFormatterTest.php",
+      "test/unit/PersonalApiTest.php",
+      "test/unit/PersonalBatchTest.php",
+      "test/unit/PersonalTest.php",
+      "test/unit/PostFormatterTest.php",
+      "test/unit/PostValidatorTest.php",
+      "test/unit/QuantityFormatterTest.php",
+      "test/unit/QuantityValidatorTest.php",
+      "test/unit/ShhApiTest.php",
+      "test/unit/ShhBatchTest.php",
+      "test/unit/ShhFilterValidatorTest.php",
+      "test/unit/ShhTest.php",
+      "test/unit/SolidityTypeTest.php",
+      "test/unit/StrTypeTest.php",
+      "test/unit/StringFormatterTest.php",
+      "test/unit/StringValidatorTest.php",
+      "test/unit/TagValidatorTest.php",
+      "test/unit/TransactionFormatterTest.php",
+      "test/unit/TransactionValidatorTest.php",
+      "test/unit/UintegerTypeTest.php",
+      "test/unit/UtilsTest.php",
+      "test/unit/Web3ApiTest.php",
+      "test/unit/Web3BatchTest.php",
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "2ae840f538d2ea61758fa35b89a69eb302174d2c",
@@ -80,7 +147,10 @@
         "deletes": 7,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/TestCase.php"
+    ]
   },
   {
     "commit": "217851c62d684e9d18f8a671ecd96b0cc7255ab0",
@@ -93,7 +163,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".github/workflows/php.yml"
+    ]
   },
   {
     "commit": "7eb8a463662d87314c061d5bee1a007716e0b8f2",
@@ -106,7 +179,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".github/workflows/php.yml"
+    ]
   },
   {
     "commit": "dabb7262b52019517a68986ac14309236180632f",
@@ -119,7 +195,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "composer.json"
+    ]
   },
   {
     "commit": "bd40f1946acfc2345835159add1a1983b068a0ff",
@@ -142,7 +221,14 @@
         "deletes": 3,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "README.md",
+      "composer.json",
+      "test/unit/EthApiTest.php",
+      "test/unit/EthabiTest.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "199cb1d175651897a1904a3d670255583f929cd5",
@@ -155,7 +241,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "composer.json"
+    ]
   },
   {
     "commit": "a96e8865a80e7c3d129956e6be93ff4fec3e3249",
@@ -168,7 +257,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "d1582e3a7c105d68d8aa27ebfa637320c9083c3a",
@@ -181,7 +273,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".github/workflows/php.yml"
+    ]
   },
   {
     "commit": "9ed1b0d2ddfd76c9aa7cf493e510aff7f0811366",
@@ -194,7 +289,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "d4f747606fead81aca35f46d23fa38627205f8b4",
@@ -212,7 +310,11 @@
         "deletes": 3,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".travis.yml",
+      "README.md"
+    ]
   },
   {
     "commit": "292b579337638dddfc780708ec741a9c7b25af2d",
@@ -225,7 +327,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      ".travis.yml",
+      "docker/php/Dockerfile-74"
+    ]
   },
   {
     "commit": "dc66eb10642d83da32c33a11bb4f606e682e06ef",
@@ -238,7 +344,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "composer.json"
+    ]
   },
   {
     "commit": "4e0548a3ead1d0ec1fd2908d7223a067af9230b9",
@@ -251,7 +360,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "composer.json"
+    ]
   },
   {
     "commit": "d0289506dc0331b751cf6754d3afca304ff71011",
@@ -264,7 +376,11 @@
         "deletes": 3,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "0e303787ba4a66cb6c6b283fc978526fab282d4b",
@@ -277,7 +393,11 @@
         "deletes": 46,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "5e284d003719aa312badd0fdd61997a4011f5d36",
@@ -290,7 +410,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
   },
   {
     "commit": "d67367a2f2c70526f20459b96acbc24157721888",
@@ -303,7 +426,11 @@
         "deletes": 8,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/NewBlockFilter.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "b6fc44d9e3f6b56023b3ad11196d573fdded68d4",
@@ -316,7 +443,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "composer.json"
+    ]
   },
   {
     "commit": "10b000d3e55efc77b3bdfe965885104e15632e8e",
@@ -329,7 +459,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "docker/php/composer-setup.php"
+    ]
   },
   {
     "commit": "4779c7e7103608ccc21ec9e96d08c454ba5789df",
@@ -342,7 +475,11 @@
         "deletes": 3,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "2b5295533f3c76ec25d91bc22fd54b066cb601bb",
@@ -355,7 +492,12 @@
         "deletes": 57,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "src/Contracts/Ethabi.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "cd1bcf3a1794bcb07b52dd2ca8f11fab071350fa",
@@ -368,7 +510,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/contracts/issue125.sol",
+      "test/contracts/issue134.sol"
+    ]
   },
   {
     "commit": "d35ecef5f76383bf5920e8860f2b4854f2101bc7",
@@ -381,7 +527,11 @@
         "deletes": 7,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Bytes.php",
+      "src/Contracts/Types/DynamicBytes.php"
+    ]
   },
   {
     "commit": "b0b1841642f64d77c3c8a91f082ee15c42a31acb",
@@ -394,7 +544,10 @@
         "deletes": 8,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php"
+    ]
   },
   {
     "commit": "734dbebb766cba50f94b2bd8fc014320850fe5a3",
@@ -407,7 +560,11 @@
         "deletes": 52,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "9dd50567904aa7ee0c2b8d923dbe0d37c0b10cc6",
@@ -420,7 +577,11 @@
         "deletes": 54,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Personal.php"
+    ]
   },
   {
     "commit": "0ef6000be38ef0553d4be258f94d5daab533444d",
@@ -433,7 +594,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/DynamicBytes.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "51abbc2f5ed7410b53d8b415b79269ee41270d25",
@@ -446,7 +611,10 @@
         "deletes": 15,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Ethabi.php"
+    ]
   },
   {
     "commit": "0d415ce36058fc577e72449326f553d7a4300775",
@@ -459,7 +627,12 @@
         "deletes": 77,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Methods/Eth/GetCompilers.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "29ceef655203a35b102c20422117c71622a1fca8",
@@ -472,7 +645,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
   },
   {
     "commit": "54e18048e334e4d72b8e5e4b00f16bf4411752af",
@@ -485,7 +661,10 @@
         "deletes": 4,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php"
+    ]
   },
   {
     "commit": "70ac87df820478a3becca8f2f5e859694c75099f",
@@ -498,7 +677,10 @@
         "deletes": 17,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php"
+    ]
   },
   {
     "commit": "c81e4ee4e53e4d4d86c4521d62ad1017ea910a37",
@@ -511,7 +693,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "0f1b9183b046db7c019bfc5436137fb7fde1d9bb",
@@ -524,7 +709,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php"
+    ]
   },
   {
     "commit": "908d841bce5c183eeb5ae326bf2fe91ba0284edd",
@@ -537,7 +725,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php"
+    ]
   },
   {
     "commit": "6d59d3d3726b695fab38ff4c4fb0e6c76e2844a1",
@@ -550,7 +741,10 @@
         "deletes": 3,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "1a9784da3022b61f5acc530e566eb8c0c008e5d6",
@@ -563,7 +757,12 @@
         "deletes": 2,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Personal.php",
+      "src/RequestManagers/HttpRequestManager.php"
+    ]
   },
   {
     "commit": "16d341455d07929815ce003725f14750d143b79e",
@@ -576,7 +775,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Personal/LockAccount.php",
+      "src/Personal.php"
+    ]
   },
   {
     "commit": "ecafb1c5ec324eb4407d1267c785cac5ebf6fe9c",
@@ -589,7 +792,11 @@
         "deletes": 8,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/BytesTypeTest.php",
+      "test/unit/DynamicBytesTypeTest.php"
+    ]
   },
   {
     "commit": "ee9855fcbfad32989867d6eeefa39035f169e770",
@@ -602,7 +809,16 @@
         "deletes": 7,
         "occurrences": 7
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Address.php",
+      "src/Contracts/Types/Boolean.php",
+      "src/Contracts/Types/Bytes.php",
+      "src/Contracts/Types/DynamicBytes.php",
+      "src/Contracts/Types/Integer.php",
+      "src/Contracts/Types/Str.php",
+      "src/Contracts/Types/Uinteger.php"
+    ]
   },
   {
     "commit": "3d8a567054e1b3201603a632d9ea3d2bb6d40c1e",
@@ -615,7 +831,10 @@
         "deletes": 5,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php"
+    ]
   },
   {
     "commit": "80c8c783aeed62a9deb79fe193c380ff05a437b2",
@@ -628,7 +847,10 @@
         "deletes": 4,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "9521b2d167c5e5d588391d4a07ed9bd137668a43",
@@ -641,7 +863,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Ethabi.php"
+    ]
   },
   {
     "commit": "4eaebd48aa6626026ecb09a079f938651a4a7187",
@@ -654,7 +879,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthabiTest.php"
+    ]
   },
   {
     "commit": "5a54ce5903a402168bc1b781faab5d65fdb83cfb",
@@ -667,7 +895,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Str.php"
+    ]
   },
   {
     "commit": "85dc0600175d61a8516d5985c4ebf3c130b6e271",
@@ -680,7 +911,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php"
+    ]
   },
   {
     "commit": "fa9565043781dc8100f22c084a2ac322cda1dd9b",
@@ -693,7 +927,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "composer.json"
+    ]
   },
   {
     "commit": "6100a046c570ab3431c4aba7ff9e16732a4a42c3",
@@ -706,7 +943,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "f97d4c9397b18c798c6130bd0bfa2436947a3dc3",
@@ -719,7 +959,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php"
+    ]
   },
   {
     "commit": "a2a68dd51662fc7d415be220e4732db8138717be",
@@ -732,7 +975,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "5ede0c03e60a8cb7134e0a438cce57d59197dbc8",
@@ -745,7 +991,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "scripts/test.sh"
+    ]
   },
   {
     "commit": "209baec4b73cef64860baea5b49429c240efca3d",
@@ -758,7 +1007,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "scripts/test.sh"
+    ]
   },
   {
     "commit": "378e1ec90668c9b61348ceaa48445ffc1ef14bf3",
@@ -771,7 +1023,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "scripts/test.sh"
+    ]
   },
   {
     "commit": "706d0a77a079795340be0102c23a47bf29a3acc4",
@@ -784,7 +1039,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/HttpProviderTest.php"
+    ]
   },
   {
     "commit": "9aacaffff85449bf4033a10fd2af550b982666db",
@@ -797,7 +1055,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "d9b2dc3c6fe0c366b9a22b5b36321c0233c82f3a",
@@ -810,7 +1072,11 @@
         "deletes": 6,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "5a80fb4245e266efd6c8a552f72fdf55e9942a17",
@@ -823,7 +1089,11 @@
         "deletes": 8,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "3d134fba8eaa037312ff1ca75a097f13b0b2a625",
@@ -836,7 +1106,10 @@
         "deletes": 14,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "bbcaed31fe73b49f4f6811d0b88569d41316feda",
@@ -849,7 +1122,10 @@
         "deletes": 3,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php"
+    ]
   },
   {
     "commit": "ed0a0ac70cd6e11389ec9e3f3713f67169391938",
@@ -862,7 +1138,10 @@
         "deletes": 8,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/TransactionValidator.php"
+    ]
   },
   {
     "commit": "f60aad9abfd4cdf7a4bdd9875e57f886f3a6ebd0",
@@ -875,7 +1154,11 @@
         "deletes": 3,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/TransactionValidator.php",
+      "test/unit/TransactionValidatorTest.php"
+    ]
   },
   {
     "commit": "a1a707a96639c7a24179e40bc916dcce4e5730ce",
@@ -888,7 +1171,10 @@
         "deletes": 7,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/FilterValidator.php"
+    ]
   },
   {
     "commit": "fe80e112c61628a54d97a20b110f7020586ad3ee",
@@ -901,7 +1187,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/ShhFilterValidatorTest.php"
+    ]
   },
   {
     "commit": "7e8e4b5e5696976cf23ca50f618f2744e8e35a0d",
@@ -914,7 +1203,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PostValidatorTest.php"
+    ]
   },
   {
     "commit": "073a5feaf8c0a007d68ba6c0f52aa78139fc83d6",
@@ -927,7 +1219,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/FilterValidator.php",
+      "test/unit/FilterValidatorTest.php"
+    ]
   },
   {
     "commit": "0e49a2b31ea0027118014e9104194ea9fa9e00e5",
@@ -940,7 +1236,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/CallValidator.php",
+      "test/unit/CallValidatorTest.php"
+    ]
   },
   {
     "commit": "b9e02f5aa972b56f739a7f5ed041daa28642ee54",
@@ -953,7 +1253,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/TagValidatorTest.php"
+    ]
   },
   {
     "commit": "7fa8c95041f826eae56f27ae9956f8287106dba7",
@@ -966,7 +1269,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/StringValidatorTest.php"
+    ]
   },
   {
     "commit": "9d0f9621899a16fc0d2ed9bb481a3ea06906fca1",
@@ -979,7 +1285,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/QuantityValidator.php",
+      "test/unit/QuantityValidatorTest.php"
+    ]
   },
   {
     "commit": "a40ed1833fcf2c40587861aad9f074c548bcda17",
@@ -992,7 +1302,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/NonceValidatorTest.php"
+    ]
   },
   {
     "commit": "e4b75305a3b2d5314dc67194bd91b6ce667406dd",
@@ -1005,7 +1318,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/IdentityValidator.php",
+      "test/unit/IdentityValidatorTest.php"
+    ]
   },
   {
     "commit": "167844e5f8f0c806f4dcfbe8daff74ccbfa9f641",
@@ -1018,7 +1335,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/HexValidator.php",
+      "test/unit/HexValidatorTest.php"
+    ]
   },
   {
     "commit": "e5287d4a5414c65068d897a066da6fca4124b46b",
@@ -1031,7 +1352,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/BooleanValidatorTest.php"
+    ]
   },
   {
     "commit": "15459d67df539f954801310a58d5bf3030ac4ce7",
@@ -1044,7 +1368,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/BlockHashValidatorTest.php"
+    ]
   },
   {
     "commit": "f9e427326632fafe869dc20d6c34a63044f2298d",
@@ -1057,7 +1384,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/AddressValidatorTest.php"
+    ]
   },
   {
     "commit": "94d14ad6cb9d39bcb18df0398b3830720f3de1a2",
@@ -1070,7 +1400,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/RequestManager.php"
+    ]
   },
   {
     "commit": "a43d8bd921ae1d043b74e04112a97229eeadb53d",
@@ -1083,7 +1416,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "6f18ea8431589c724b1abc1b1552078526bb7168",
@@ -1096,7 +1432,12 @@
         "deletes": 6,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php",
+      "src/RequestManagers/RequestManager.php",
+      "test/unit/RequestManagerTest.php"
+    ]
   },
   {
     "commit": "b755295a71c1007b0a4c6b233cc567fcf3c522bc",
@@ -1109,7 +1450,12 @@
         "deletes": 10,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "examples/exampleBase.php",
+      "src/Formatters/BooleanFormatter.php",
+      "test/unit/BooleanFormatterTest.php"
+    ]
   },
   {
     "commit": "0ae29e04c5806c9a59f398116ca596c0ecdf9c2e",
@@ -1122,7 +1468,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
   },
   {
     "commit": "6f21731769e08c6ceccc7da7c9014c72a93012a2",
@@ -1135,7 +1484,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "b21a0227c1e4b92187a8b879562a762b1799d5a7",
@@ -1158,7 +1510,13 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "docker/docker-compose.yml",
+      "docker/php/Dockerfile-71",
+      "docker/php/Dockerfile-72",
+      "docker/php/composer-setup.php"
+    ]
   },
   {
     "commit": "f528660abb6b69eaf2bb29ae7254d50b39715f43",
@@ -1171,7 +1529,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/StringFormatterTest.php"
+    ]
   },
   {
     "commit": "b9f37af5c1d164c180b87d44cbcca2ad0dca3080",
@@ -1184,7 +1545,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/TransactionFormatterTest.php"
+    ]
   },
   {
     "commit": "200f8cbb7805e913438bed83032b9b8f6c1e8023",
@@ -1197,7 +1561,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/{IValidators.php => IValidator.php}",
+      "src/Validators/TagValidator.php"
+    ]
   },
   {
     "commit": "e5698c99ed74e2edafd15db059a3382589d17567",
@@ -1210,7 +1578,12 @@
         "deletes": 5,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/OptionalQuantityFormatter.php",
+      "src/Formatters/QuantityFormatter.php",
+      "test/unit/OptionalQuantityFormatterTest.php"
+    ]
   },
   {
     "commit": "a46bd2f029893298e13cd0a43d588d0a9e0bc72e",
@@ -1223,7 +1596,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PostFormatterTest.php"
+    ]
   },
   {
     "commit": "b5abc465df4c0b62b625d5052711b9405efd4e37",
@@ -1236,7 +1612,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/NumberFormatterTest.php"
+    ]
   },
   {
     "commit": "1b427bcb901dfbc2abc01b9bf301734893f7d4c3",
@@ -1249,7 +1628,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/HexFormatter.php",
+      "test/unit/HexFormatterTest.php"
+    ]
   },
   {
     "commit": "180e2d3cdbd39dd90bf9a6796eb807c2467821f8",
@@ -1262,7 +1645,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/BooleanFormatterTest.php"
+    ]
   },
   {
     "commit": "5989f167b34af3a64e25da5259eacb96ff62ba11",
@@ -1275,7 +1661,12 @@
         "deletes": 7,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "test/unit/BigNumberFormatterTest.php",
+      "test/unit/BooleanFormatterTest.php",
+      "test/unit/IntegerFormatterTest.php"
+    ]
   },
   {
     "commit": "76c54335d6efc309f409886158a6d091b2b7536d",
@@ -1288,7 +1679,11 @@
         "deletes": 4,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/AddressFormatter.php",
+      "test/unit/AddressFormatterTest.php"
+    ]
   },
   {
     "commit": "297db091f7e4bad8fd6993238be3b771301148b6",
@@ -1301,7 +1696,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/JSONRPCTest.php"
+    ]
   },
   {
     "commit": "725541a37f43b1777ed2c27620248008a5c3cb3e",
@@ -1314,7 +1712,19 @@
         "deletes": 11,
         "occurrences": 10
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Ethabi.php",
+      "src/Contracts/SolidityType.php",
+      "src/Contracts/Types/Address.php",
+      "src/Contracts/Types/Integer.php",
+      "src/Contracts/Types/Str.php",
+      "src/Contracts/Types/Uinteger.php",
+      "src/Formatters/AddressFormatter.php",
+      "src/Formatters/{Integer.php => IntegerFormatter.php}",
+      "test/unit/ContractTest.php",
+      "test/unit/IntegerFormatterTest.php"
+    ]
   },
   {
     "commit": "bb523cc04b518dfcd2a46e1e3b1f06c75846db7b",
@@ -1327,7 +1737,21 @@
         "deletes": 35,
         "occurrences": 12
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "src/Contracts/Ethabi.php",
+      "src/Contracts/SolidityType.php",
+      "src/Eth.php",
+      "src/Methods/JSONRPC.php",
+      "src/Net.php",
+      "src/Personal.php",
+      "src/Providers/Provider.php",
+      "src/RequestManagers/RequestManager.php",
+      "src/Shh.php",
+      "src/Utils.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "e9b03bcef4ca3d1b5fca765d1cd236c07bfaf481",
@@ -1340,7 +1764,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "49e19415b3433f035498e4aebcc290a7fabe2b36",
@@ -1353,7 +1780,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthApiTest.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "86b70f26c6763ff3aa32fb325f86faecae78db97",
@@ -1366,7 +1797,12 @@
         "deletes": 2,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "test/unit/NetApiTest.php",
+      "test/unit/NetTest.php",
+      "test/unit/PersonalTest.php"
+    ]
   },
   {
     "commit": "aead0b3c7585a6fb4a28863307d3138d4d6d5230",
@@ -1379,7 +1815,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalApiTest.php",
+      "test/unit/PersonalTest.php"
+    ]
   },
   {
     "commit": "82087c92ce845b2e1264f7439f2843341bcfacb6",
@@ -1392,7 +1832,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/ShhApiTest.php",
+      "test/unit/ShhTest.php"
+    ]
   },
   {
     "commit": "9e75e523bee309c38240be984c86659c4dbe02d0",
@@ -1405,7 +1849,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/Web3ApiTest.php",
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "718a913902bd21c9abe55a1d6ff910f6da6c1a18",
@@ -1418,7 +1866,11 @@
         "deletes": 15,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "b59a60f17e14921d6bca7f5113277c0dda9ea26c",
@@ -1431,7 +1883,11 @@
         "deletes": 3,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "9ad27c527e7776d8aab4296347531fa76444d51b",
@@ -1444,7 +1900,11 @@
         "deletes": 24,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "926ecca129f15d348ad1d3c5b8fbd3102f26ac56",
@@ -1457,7 +1917,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "b42709c64688beaf14aa9764d2199c075baf1535",
@@ -1470,7 +1933,10 @@
         "deletes": 12,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/EthMethod.php"
+    ]
   },
   {
     "commit": "5eb6015bf37805899b40b1976a8e13f044b32f1c",
@@ -1483,7 +1949,12 @@
         "deletes": 1,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/GetMessages.php",
+      "src/Shh.php",
+      "test/unit/ShhApiTest.php"
+    ]
   },
   {
     "commit": "27277d24246e34fc1c5ef38b9fdc1a05e391cedb",
@@ -1496,7 +1967,12 @@
         "deletes": 1,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/GetFilterChanges.php",
+      "src/Shh.php",
+      "test/unit/ShhApiTest.php"
+    ]
   },
   {
     "commit": "039556247079871a826bd870cba9b9fbd6697f63",
@@ -1509,7 +1985,12 @@
         "deletes": 2,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/UninstallFilter.php",
+      "src/Shh.php",
+      "test/unit/ShhApiTest.php"
+    ]
   },
   {
     "commit": "b39c22decdd471246d63e3e20beedb925aaa2710",
@@ -1522,7 +2003,12 @@
         "deletes": 1,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/NewFilter.php",
+      "src/Shh.php",
+      "test/unit/ShhApiTest.php"
+    ]
   },
   {
     "commit": "85a5a20570b225e812b2c9859af2ec8ce60d386b",
@@ -1535,7 +2021,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/ShhFilterValidator.php"
+    ]
   },
   {
     "commit": "078f2b1d80f3b8cfb4ac8915e22fee2a1f3ffbf3",
@@ -1548,7 +2037,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/ShhTest.php"
+    ]
   },
   {
     "commit": "c1ae5b7b2de8b892e475288501f63822dced2275",
@@ -1561,7 +2053,12 @@
         "deletes": 1,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/Post.php",
+      "src/Shh.php",
+      "test/unit/ShhApiTest.php"
+    ]
   },
   {
     "commit": "9f4614781eed1ea292299688a296c250aa9105a9",
@@ -1574,7 +2071,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/PostFormatter.php"
+    ]
   },
   {
     "commit": "8055ec04baa59de5dfa2fd797551cf4858d4af81",
@@ -1587,7 +2087,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/PostValidator.php"
+    ]
   },
   {
     "commit": "f5286c03987c5c41ef14551e3ba48ce123b9881d",
@@ -1600,7 +2103,12 @@
         "deletes": 1,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/AddToGroup.php",
+      "src/Shh.php",
+      "test/unit/ShhApiTest.php"
+    ]
   },
   {
     "commit": "f6a7ffebdba99f169e862915a1be0470d2cad12b",
@@ -1613,7 +2121,12 @@
         "deletes": 1,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/NewGroup.php",
+      "src/Shh.php",
+      "test/unit/ShhApiTest.php"
+    ]
   },
   {
     "commit": "647da46e09d319212ed06ef0a9f6602916d521c2",
@@ -1626,7 +2139,13 @@
         "deletes": 1,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/HasIdentity.php",
+      "src/Shh.php",
+      "test/unit/ShhApiTest.php",
+      "test/unit/ShhBatchTest.php"
+    ]
   },
   {
     "commit": "5d54bc29c3287c6143acc4b7d018f54d496a5dbe",
@@ -1639,7 +2158,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/IdentityValidator.php"
+    ]
   },
   {
     "commit": "2d394c825c7148ee492dadb8f962b64ad95ca565",
@@ -1652,7 +2174,13 @@
         "deletes": 0,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/NewIdentity.php",
+      "test/unit/ShhApiTest.php",
+      "test/unit/ShhBatchTest.php",
+      "test/unit/ShhTest.php"
+    ]
   },
   {
     "commit": "5e12df17a55efec397f42bc3cefe4ab75cc6d095",
@@ -1665,7 +2193,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Shh/Version.php"
+    ]
   },
   {
     "commit": "cca1b829037c635f8a38e09c8287739f18a074ee",
@@ -1678,7 +2209,12 @@
         "deletes": 0,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Shh.php",
+      "src/Web3.php",
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "ed5a17c256d345feef0c737dd985de4a099467f4",
@@ -1691,7 +2227,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "ed57c92446a51a35ba0fd790409e1d25c3790efb",
@@ -1704,7 +2243,11 @@
         "deletes": 13,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "4df52132d057f667e225fd5db13494825863c664",
@@ -1717,7 +2260,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/GetBlockByNumber.php"
+    ]
   },
   {
     "commit": "7091a604181af899840a1e38069a34deb360dc6c",
@@ -1730,7 +2276,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/EthMethod.php"
+    ]
   },
   {
     "commit": "a2ddc6fa8501330ff10d12ea43b20c6457cb136d",
@@ -1743,7 +2292,10 @@
         "deletes": 4,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php"
+    ]
   },
   {
     "commit": "63fea73d4c7281067edffb84f7fce9ef0a4e78ac",
@@ -1756,7 +2308,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "e130d4506856fed364b574bd22969d8bf4f1af4b",
@@ -1769,7 +2324,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/QuantityFormatter.php",
+      "test/unit/QuantityFormatterTest.php"
+    ]
   },
   {
     "commit": "b1318bb0d293e6fd1285d9e48b57e83cf3df4aa3",
@@ -1782,7 +2341,12 @@
         "deletes": 3,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "src/Contracts/Ethabi.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "12994a78843eeda3498870f04f219f32ec2dfd9f",
@@ -1795,7 +2359,10 @@
         "deletes": 4,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php"
+    ]
   },
   {
     "commit": "ee114fe7d11b37b4df7af6b684f832ec158d2d76",
@@ -1808,7 +2375,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "aae85b1ec57491fc0dcb9cf24304fee8e353d89b",
@@ -1821,7 +2391,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "bb43d040683a384480ce12ea86a513dd4280c454",
@@ -1834,7 +2407,11 @@
         "deletes": 14,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "c56642198acd7763ad6b40e6ffa76745603d9e69",
@@ -1847,7 +2424,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php"
+    ]
   },
   {
     "commit": "f45b34f33db930ee4f546914da351d0f9d565a66",
@@ -1860,7 +2440,12 @@
         "deletes": 15,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/NumberFormatter.php",
+      "src/Methods/EthMethod.php",
+      "src/Methods/Personal/UnlockAccount.php"
+    ]
   },
   {
     "commit": "d52a8ddfa0e5f875728f333ff55c094b7f209487",
@@ -1873,7 +2458,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "14afaf9428f06e0f437c2d3327e43cd687407a5e",
@@ -1886,7 +2474,20 @@
         "deletes": 35,
         "occurrences": 11
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Ethabi.php",
+      "src/Contracts/SolidityType.php",
+      "src/Contracts/Types/Address.php",
+      "src/Contracts/Types/Boolean.php",
+      "src/Contracts/Types/Bytes.php",
+      "src/Contracts/Types/DynamicBytes.php",
+      "src/Contracts/Types/Integer.php",
+      "src/Contracts/Types/Str.php",
+      "src/Contracts/Types/Uinteger.php",
+      "test/unit/EthabiTest.php",
+      "test/unit/SolidityTypeTest.php"
+    ]
   },
   {
     "commit": "cf9ac42696ef9339c4cba46b6e8fddaeab797f63",
@@ -1899,7 +2500,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "bac5cc8c312658b5f563efdccfde1338eecebefa",
@@ -1912,7 +2516,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "examples/personal.php"
+    ]
   },
   {
     "commit": "ee286e97847dbd868bc5df22a1c48b5734a9e881",
@@ -1925,7 +2532,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthabiTest.php"
+    ]
   },
   {
     "commit": "571cf7f7c5ab54a5c0c1e80668cebfa6282eeb77",
@@ -1938,7 +2548,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Ethabi.php"
+    ]
   },
   {
     "commit": "ae7f8983e5bfc6a3742905111746b63a7f1e5af8",
@@ -1951,7 +2564,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "17aad68b1301cc18597eee41fffa2c2acc1f7e0d",
@@ -1964,7 +2580,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "4ad0cb13c316b0d124845b38a94c68410fec5cc3",
@@ -1977,7 +2596,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "b16a8f9b9a809c38e24da13b9ac34b7fa8a2ba2d",
@@ -1990,7 +2612,11 @@
         "deletes": 3,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "ac5e46ba2a497aaaff8f01d785d99f5ea1a0ec83",
@@ -2003,7 +2629,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "scripts/test.sh"
+    ]
   },
   {
     "commit": "28b589608fc834112825118894cc16d6f106cb20",
@@ -2016,7 +2645,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "scripts/test.sh"
+    ]
   },
   {
     "commit": "b9b0b53d22dc4d506a30bbc60f364b7e6cd239ad",
@@ -2029,7 +2661,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
   },
   {
     "commit": "d65e0acd17696749647b032db51c9690f3f6d390",
@@ -2047,7 +2682,11 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".travis.yml",
+      "scripts/test.sh"
+    ]
   },
   {
     "commit": "0e7155334356046fa233791d69715a88af7df4d3",
@@ -2060,7 +2699,12 @@
         "deletes": 9,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "test/TestCase.php",
+      "test/unit/EthApiTest.php",
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "0a4060e6dd782fe3f66431d22df27e16de09cfe1",
@@ -2073,7 +2717,10 @@
         "deletes": 6,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "596a3599dec2c3e0174c546b053479c99db3e036",
@@ -2086,7 +2733,10 @@
         "deletes": 4,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "ad91024dfa5028f45cab5b2f0ea244b5f49d3205",
@@ -2099,7 +2749,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "a2d1ab535c46c784c215b7283c87e8ab4f9a3a81",
@@ -2112,7 +2765,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "ea150f79582086076d887b3695c75402b3e5c97a",
@@ -2125,7 +2781,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "5a9bd4f8c07dee6674cc6030ba58ad055524bd4d",
@@ -2138,7 +2797,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "a413aa4da4a65a1ace8c5603a5177f14a0326ca3",
@@ -2151,7 +2813,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/GetUncleCountByBlockNumber.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "f8d005dae1033b2c4adbb0fe3e96f3bf8d39657d",
@@ -2164,7 +2830,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/GetUncleCountByBlockHash.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "808134f19f744679d24ad5fd23f719468e03b0e8",
@@ -2177,7 +2847,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/GetBlockTransactionCountByNumber.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "3d8b0d32647748fa74f41519f3c6c464310bce8a",
@@ -2190,7 +2864,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/GetBlockTransactionCountByHash.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "b575e68a69cb3c1e8cbb45316e1f89ac02ab18dc",
@@ -2203,7 +2881,11 @@
         "deletes": 4,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/GetTransactionCount.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "52c1774c9c05b7c595aad9f2175a59ce78e0f56b",
@@ -2216,7 +2898,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/GetBalance.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "9aec83ed6ce347d31ec5811b2174a8ad09f798db",
@@ -2229,7 +2915,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/BlockNumber.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "828f554eb68d10f4b2a1ad8feb2fd673131cf4a5",
@@ -2242,7 +2932,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/GasPrice.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "04c5ac24f686acb9e11574c69daa0bf244a36c0e",
@@ -2255,7 +2949,11 @@
         "deletes": 6,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/Hashrate.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "7b5543138b2217f4dafa75894983c0b2d743176e",
@@ -2268,7 +2966,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/TestCase.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "bd00f0d79010b5a85865ae8368085a1c7e91f220",
@@ -2281,7 +2983,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
   },
   {
     "commit": "e7f2a2d3c0883ebc2ae0406883ecb336b984b96a",
@@ -2294,7 +2999,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "24e507472299b1af588843231a2a46f738842d14",
@@ -2307,7 +3015,11 @@
         "deletes": 29,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "b1129bb0669c3e2762a0bc1e3d211b951cf30be9",
@@ -2320,7 +3032,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/EstimateGas.php"
+    ]
   },
   {
     "commit": "90f0970cb8bfac32717ab29f829f3be3306decbe",
@@ -2333,7 +3048,12 @@
         "deletes": 16,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Personal.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "4d3ed88b7b92405237abcc4e8db05a68109c7b82",
@@ -2346,7 +3066,11 @@
         "deletes": 35,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/Boolean.php",
+      "test/unit/BooleanFormatterTest.php"
+    ]
   },
   {
     "commit": "2cbb1fe8603ccc64027afc08899eb8de3361d48a",
@@ -2359,7 +3083,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/TransactionFormatter.php"
+    ]
   },
   {
     "commit": "6afc41f65aac50e1b251ac3fcbf86bfef11afd8c",
@@ -2372,7 +3099,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/EthMethod.php"
+    ]
   },
   {
     "commit": "1513023aab79eb74122338b467dd77637d82f12d",
@@ -2385,7 +3115,54 @@
         "deletes": 123,
         "occurrences": 45
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Methods/Eth/Accounts.php",
+      "src/Methods/Eth/BlockNumber.php",
+      "src/Methods/Eth/Call.php",
+      "src/Methods/Eth/Coinbase.php",
+      "src/Methods/Eth/CompileLLL.php",
+      "src/Methods/Eth/CompileSerpent.php",
+      "src/Methods/Eth/CompileSolidity.php",
+      "src/Methods/Eth/EstimateGas.php",
+      "src/Methods/Eth/GasPrice.php",
+      "src/Methods/Eth/GetBalance.php",
+      "src/Methods/Eth/GetBlockByHash.php",
+      "src/Methods/Eth/GetBlockByNumber.php",
+      "src/Methods/Eth/GetBlockTransactionCountByHash.php",
+      "src/Methods/Eth/GetBlockTransactionCountByNumber.php",
+      "src/Methods/Eth/GetCode.php",
+      "src/Methods/Eth/GetCompilers.php",
+      "src/Methods/Eth/GetFilterChanges.php",
+      "src/Methods/Eth/GetFilterLogs.php",
+      "src/Methods/Eth/GetLogs.php",
+      "src/Methods/Eth/GetStorageAt.php",
+      "src/Methods/Eth/GetTransactionByBlockHashAndIndex.php",
+      "src/Methods/Eth/GetTransactionByBlockNumberAndIndex.php",
+      "src/Methods/Eth/GetTransactionByHash.php",
+      "src/Methods/Eth/GetTransactionCount.php",
+      "src/Methods/Eth/GetTransactionReceipt.php",
+      "src/Methods/Eth/GetUncleByBlockHashAndIndex.php",
+      "src/Methods/Eth/GetUncleByBlockNumberAndIndex.php",
+      "src/Methods/Eth/GetUncleCountByBlockHash.php",
+      "src/Methods/Eth/GetUncleCountByBlockNumber.php",
+      "src/Methods/Eth/GetWork.php",
+      "src/Methods/Eth/Hashrate.php",
+      "src/Methods/Eth/Mining.php",
+      "src/Methods/Eth/NewBlockFilter.php",
+      "src/Methods/Eth/NewFilter.php",
+      "src/Methods/Eth/NewPendingTransactionFilter.php",
+      "src/Methods/Eth/ProtocolVersion.php",
+      "src/Methods/Eth/SendRawTransaction.php",
+      "src/Methods/Eth/SendTransaction.php",
+      "src/Methods/Eth/Sign.php",
+      "src/Methods/Eth/SubmitHashrate.php",
+      "src/Methods/Eth/SubmitWork.php",
+      "src/Methods/Eth/Syncing.php",
+      "src/Methods/Eth/UninstallFilter.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "cf5288774cac1060cc2da7660c8db28b609abda0",
@@ -2398,7 +3175,15 @@
         "deletes": 4,
         "occurrences": 6
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Personal/ListAccounts.php",
+      "src/Methods/Personal/NewAccount.php",
+      "src/Methods/Personal/SendTransaction.php",
+      "src/Methods/Personal/UnlockAccount.php",
+      "src/Personal.php",
+      "test/unit/PersonalBatchTest.php"
+    ]
   },
   {
     "commit": "34647e7fdfd410536c113173520b4bf04ccc5467",
@@ -2411,7 +3196,11 @@
         "deletes": 14,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Web3.php",
+      "test/unit/Web3ApiTest.php"
+    ]
   },
   {
     "commit": "819608d5101aa3bc222656a5c8b3c9e67f4543ba",
@@ -2424,7 +3213,13 @@
         "deletes": 4,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Net/Listening.php",
+      "src/Methods/Net/PeerCount.php",
+      "src/Methods/Net/Version.php",
+      "src/Net.php"
+    ]
   },
   {
     "commit": "e6adbdd303281bfb5d6925464106c2a50ee9813e",
@@ -2437,7 +3232,14 @@
         "deletes": 6,
         "occurrences": 5
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Web3/ClientVersion.php",
+      "src/Methods/Web3/Sha3.php",
+      "src/Web3.php",
+      "test/unit/Web3ApiTest.php",
+      "test/unit/Web3BatchTest.php"
+    ]
   },
   {
     "commit": "2eefb14b6460775419566b0196926deb0d910b96",
@@ -2450,7 +3252,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/EthMethod.php"
+    ]
   },
   {
     "commit": "32bc7949fd31c7e66188a3f5bcd88311c333571e",
@@ -2463,7 +3268,10 @@
         "deletes": 334,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php"
+    ]
   },
   {
     "commit": "69eb1e87723b59d568587f274dfde0537e2c20cb",
@@ -2476,7 +3284,35 @@
         "deletes": 92,
         "occurrences": 26
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/Accounts.php",
+      "src/Methods/Eth/BlockNumber.php",
+      "src/Methods/Eth/Call.php",
+      "src/Methods/Eth/Coinbase.php",
+      "src/Methods/Eth/EstimateGas.php",
+      "src/Methods/Eth/GasPrice.php",
+      "src/Methods/Eth/GetBalance.php",
+      "src/Methods/Eth/GetBlockByHash.php",
+      "src/Methods/Eth/GetBlockByNumber.php",
+      "src/Methods/Eth/GetBlockTransactionCountByHash.php",
+      "src/Methods/Eth/GetBlockTransactionCountByNumber.php",
+      "src/Methods/Eth/GetCode.php",
+      "src/Methods/Eth/GetStorageAt.php",
+      "src/Methods/Eth/GetTransactionByBlockHashAndIndex.php",
+      "src/Methods/Eth/GetTransactionByBlockNumberAndIndex.php",
+      "src/Methods/Eth/GetTransactionByHash.php",
+      "src/Methods/Eth/GetTransactionCount.php",
+      "src/Methods/Eth/GetUncleCountByBlockHash.php",
+      "src/Methods/Eth/GetUncleCountByBlockNumber.php",
+      "src/Methods/Eth/Hashrate.php",
+      "src/Methods/Eth/Mining.php",
+      "src/Methods/Eth/ProtocolVersion.php",
+      "src/Methods/Eth/SendRawTransaction.php",
+      "src/Methods/Eth/SendTransaction.php",
+      "src/Methods/Eth/Sign.php",
+      "src/Methods/Eth/Syncing.php"
+    ]
   },
   {
     "commit": "32b494ea1b59f5c8a37de914e755dc6bf9a6ee20",
@@ -2489,7 +3325,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/BooleanFormatter.php"
+    ]
   },
   {
     "commit": "ba6d50b25bec1514d4c4a9acf43e824d2d6685a6",
@@ -2502,7 +3341,13 @@
         "deletes": 200,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Personal/ListAccounts.php",
+      "src/Methods/Personal/NewAccount.php",
+      "src/Methods/Personal/SendTransaction.php",
+      "src/Methods/Personal/UnlockAccount.php"
+    ]
   },
   {
     "commit": "ce217225a9554a16865e712b8c9600e56c89f004",
@@ -2515,7 +3360,11 @@
         "deletes": 92,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Web3/ClientVersion.php",
+      "src/Methods/Web3/Sha3.php"
+    ]
   },
   {
     "commit": "05a1a638cf402a92e1557007cb0248f9a4a60035",
@@ -2528,7 +3377,12 @@
         "deletes": 138,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Net/Listening.php",
+      "src/Methods/Net/PeerCount.php",
+      "src/Methods/Net/Version.php"
+    ]
   },
   {
     "commit": "fa63012c060089a81b8393b49c7a04ac055be78f",
@@ -2541,7 +3395,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/EthMethod.php"
+    ]
   },
   {
     "commit": "46189b795a26e392d769113e17b705c28123ff0c",
@@ -2554,7 +3411,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/OptionalQuantityFormatter.php"
+    ]
   },
   {
     "commit": "b9a8bccfb98f0e0a09ff17cebc84d9a5a96e6c5d",
@@ -2567,7 +3427,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthBatchTest.php"
+    ]
   },
   {
     "commit": "df143d7aeefa90e0e7319f59ac015b9f06fb286c",
@@ -2580,7 +3443,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/Syncing.php"
+    ]
   },
   {
     "commit": "26b6844f443d3643ee5124155ca2381a25904a29",
@@ -2593,7 +3459,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Eth/ProtocolVersion.php"
+    ]
   },
   {
     "commit": "2baac410deada0544891cdaf523d48e5943e933d",
@@ -2606,7 +3475,12 @@
         "deletes": 5,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "src/Formatters/{Address.php => AddressFormatter.php}",
+      "test/unit/AddressFormatterTest.php"
+    ]
   },
   {
     "commit": "e680f1adaf28026e014d613a9cc192be74bb64f5",
@@ -2619,7 +3493,15 @@
         "deletes": 70,
         "occurrences": 6
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Personal/ListAccounts.php",
+      "src/Methods/Personal/NewAccount.php",
+      "src/Methods/Personal/SendTransaction.php",
+      "src/Methods/Personal/UnlockAccount.php",
+      "src/Personal.php",
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "b48ac9f97f8f8e7e215bda79e715ddc9eb47b0a1",
@@ -2632,7 +3514,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/TransactionFormatter.php"
+    ]
   },
   {
     "commit": "b8e47737875b7f8acce979291e307254a48df6b1",
@@ -2645,7 +3530,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/HexFormatter.php"
+    ]
   },
   {
     "commit": "5288b150f72b8f0675610b33aa28d802d34bcc31",
@@ -2658,7 +3546,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/StringFormatter.php"
+    ]
   },
   {
     "commit": "a422d877b07168866973cc8aec1da469916d4237",
@@ -2671,7 +3562,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/QuantityFormatter.php"
+    ]
   },
   {
     "commit": "ee8db87fdf8554e8b98b12bede980e91e8d690e0",
@@ -2684,7 +3578,14 @@
         "deletes": 29,
         "occurrences": 5
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Net/PeerCount.php",
+      "src/Providers/HttpProvider.php",
+      "test/unit/NetApiTest.php",
+      "test/unit/NetBatchTest.php",
+      "test/unit/Web3ApiTest.php"
+    ]
   },
   {
     "commit": "2340db233be7032b31b8fda008f1199e44da8685",
@@ -2697,7 +3598,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/BigNumberFormatter.php"
+    ]
   },
   {
     "commit": "6c4e422bfda4464d2704d01fa084a26f79165817",
@@ -2710,7 +3614,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Net.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "8ed8d693624f52ecb06151bc8fad8dfc16a15940",
@@ -2723,7 +3631,11 @@
         "deletes": 45,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Web3/ClientVersion.php",
+      "src/Net.php"
+    ]
   },
   {
     "commit": "15506cc2b2d7ec80e24eb6f15fa77a989c05f037",
@@ -2736,7 +3648,12 @@
         "deletes": 0,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/Net/Listening.php",
+      "src/Methods/Net/PeerCount.php",
+      "src/Methods/Net/Version.php"
+    ]
   },
   {
     "commit": "1a55f03f88ee3535cb0f10713565e7dd6bc9988e",
@@ -2749,7 +3666,12 @@
         "deletes": 58,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Providers/HttpProvider.php",
+      "src/Providers/IProvider.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "917f08e74f2e3bb7fa91d3a8aabb62299dba25d9",
@@ -2762,7 +3684,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "48d00a26419c866bf0518f02745ab8579c47dbf0",
@@ -2775,7 +3700,14 @@
         "deletes": 0,
         "occurrences": 5
       }
-    }
+    },
+    "file_list": [
+      "src/Methods/IMethod.php",
+      "src/Methods/IRPC.php",
+      "src/Methods/JSONRPC.php",
+      "src/Methods/Web3/ClientVersion.php",
+      "src/Methods/Web3/Sha3.php"
+    ]
   },
   {
     "commit": "e6f7a58d3c0e59f5c878f8e0d1920b11b363c972",
@@ -2788,7 +3720,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/HexFormatter.php"
+    ]
   },
   {
     "commit": "6a6acc91eb0805b27284c3d20d0a0dccd09fbdc3",
@@ -2801,7 +3736,10 @@
         "deletes": 6,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "a9c06ee2ff9efe220554cd6cefef68246ddd90be",
@@ -2814,7 +3752,10 @@
         "deletes": 7,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "examples/sendTransaction.php"
+    ]
   },
   {
     "commit": "3999679f6aa905ab051ea1bec412634abb6e3406",
@@ -2827,7 +3768,10 @@
         "deletes": 14,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "examples/contractExample.php"
+    ]
   },
   {
     "commit": "06ba7df7ac2898a43ed4100aea665721f309d6bb",
@@ -2840,7 +3784,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "examples/accounts.php"
+    ]
   },
   {
     "commit": "50a6e4d2a9c17e19633a53039a52417fe4096e4c",
@@ -2853,7 +3800,14 @@
         "deletes": 387,
         "occurrences": 5
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthApiTest.php",
+      "test/unit/EthBatchTest.php",
+      "test/unit/NetBatchTest.php",
+      "test/unit/PersonalBatchTest.php",
+      "test/unit/Web3BatchTest.php"
+    ]
   },
   {
     "commit": "aec4403cc80ce0e441b03d033ea039d25e5bcdfb",
@@ -2866,7 +3820,11 @@
         "deletes": 22,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/NetApiTest.php",
+      "test/unit/NetBatchTest.php"
+    ]
   },
   {
     "commit": "e2fa0a2620848e2a19cc47238cdf3ca5f19e6cdd",
@@ -2879,7 +3837,10 @@
         "deletes": 5,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php"
+    ]
   },
   {
     "commit": "5eed308ccd91200c875e28ae7bee056572134a53",
@@ -2892,7 +3853,11 @@
         "deletes": 37,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalApiTest.php",
+      "test/unit/PersonalBatchTest.php"
+    ]
   },
   {
     "commit": "bdf87bdfb50e66afd8b97cec62e45487e0ba4c12",
@@ -2905,7 +3870,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php"
+    ]
   },
   {
     "commit": "d241b045874ff6ac5a60d295bff9bb7cb0bbab6e",
@@ -2918,7 +3886,11 @@
         "deletes": 22,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/Web3ApiTest.php",
+      "test/unit/Web3BatchTest.php"
+    ]
   },
   {
     "commit": "ff7f3ee78120831054a1d189f915305985414f7d",
@@ -2931,7 +3903,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php"
+    ]
   },
   {
     "commit": "3223d666106bcc64915ccb17aa27d8bb516f2a38",
@@ -2944,7 +3919,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "8765657975d6da64ccef6f7331311e8cc8804d0f",
@@ -2957,7 +3935,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/CallValidator.php"
+    ]
   },
   {
     "commit": "80e686dec9d39d2a2564970b71ec950e5159c93a",
@@ -2970,7 +3951,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/CallValidator.php"
+    ]
   },
   {
     "commit": "0f59ac92235b9abb60ba38e72ad98bcb006ef3f8",
@@ -2983,7 +3967,12 @@
         "deletes": 2,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Validators/CallValidator.php",
+      "test/unit/EthApiTest.php"
+    ]
   },
   {
     "commit": "af974a6bb4a44e483b2bd19a6f5908fbdd472fb8",
@@ -2996,7 +3985,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "examples/contractExample.php"
+    ]
   },
   {
     "commit": "08f8a3dd2692fad1658ec081c9396286a02cf2d8",
@@ -3009,7 +4001,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "a8be114c88bb318468119e1ea3d8ffb26ddad35b",
@@ -3022,7 +4017,10 @@
         "deletes": 6,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php"
+    ]
   },
   {
     "commit": "6c1a0e35fe630a71c43322277926412087738fd4",
@@ -3035,7 +4033,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "b7e73c47e4112d61b43db6b056e89c899413ed57",
@@ -3048,7 +4050,11 @@
         "deletes": 52,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "591e88d4cfbd7adcbadd8cfa1a278c843131e8dc",
@@ -3061,7 +4067,12 @@
         "deletes": 12,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "src/Validators/TransactionValidator.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "c67ec3ccaaf5a17c77550208fd6a4b5dc04b069b",
@@ -3074,7 +4085,12 @@
         "deletes": 9,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "src/Contracts/Ethabi.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "36ba7a7573a35fd0c986db50f4005e79b3aa3587",
@@ -3087,7 +4103,10 @@
         "deletes": 3,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Address.php"
+    ]
   },
   {
     "commit": "744e6750926335e2bab6584a8f4ff1f23a6c7281",
@@ -3100,7 +4119,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/Address.php"
+    ]
   },
   {
     "commit": "b833dfebb70fc9ffa7420b53d0b8786990e9c00d",
@@ -3113,7 +4135,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contract.php",
+      "test/unit/ContractTest.php"
+    ]
   },
   {
     "commit": "b87e836fc51a5f5217bb8065fbbf909462f94b87",
@@ -3126,7 +4152,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/TransactionValidator.php"
+    ]
   },
   {
     "commit": "214724ba107fed4d3e86008612ac86a6183c0cd2",
@@ -3139,7 +4168,13 @@
         "deletes": 4,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Net.php",
+      "src/Personal.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "b61d90216e9e1f26279b6358075596c5cc78717c",
@@ -3152,7 +4187,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "518a72b4227fdead0aaa1f18d9786a20bd688d7a",
@@ -3165,7 +4204,13 @@
         "deletes": 7,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Ethabi.php",
+      "src/Contracts/SolidityType.php",
+      "test/unit/EthabiTest.php",
+      "test/unit/SolidityTypeTest.php"
+    ]
   },
   {
     "commit": "51ece8f88746f65acaf664ec6ec5b0e377936b9b",
@@ -3178,7 +4223,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/Integer.php"
+    ]
   },
   {
     "commit": "264ad69e9d1f80229980652938f8f574c84f249b",
@@ -3191,7 +4239,17 @@
         "deletes": 0,
         "occurrences": 8
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Address.php",
+      "src/Contracts/Types/Boolean.php",
+      "src/Contracts/Types/Bytes.php",
+      "src/Contracts/Types/DynamicBytes.php",
+      "src/Contracts/Types/IType.php",
+      "src/Contracts/Types/Integer.php",
+      "src/Contracts/Types/Str.php",
+      "src/Contracts/Types/Uinteger.php"
+    ]
   },
   {
     "commit": "c4d2c6edfdde2d1e5663deb86a850a8572b12303",
@@ -3204,7 +4262,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "6476c6066c527c583406ada5fc895d03b8a2350e",
@@ -3217,7 +4278,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/Integer.php",
+      "test/unit/IntegerFormatterTest.php"
+    ]
   },
   {
     "commit": "0513bbe5606c41142b53185331f7c18e3d11ae9f",
@@ -3230,7 +4295,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "1766e37a6654e88af2ecb8b3446029162556e139",
@@ -3243,7 +4312,10 @@
         "deletes": 12,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "9e765ee0e85c47e8f5625ed4cdd02510bda2a83e",
@@ -3256,7 +4328,10 @@
         "deletes": 12,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "10a9a669879a3b691501beca85d90b73b0779eac",
@@ -3269,7 +4344,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "ab90423aab0396c9c3cc4666a985e609804c2cba",
@@ -3282,7 +4361,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "c6c5cc9251256375164cbec85bf0b1f5cfb3cab7",
@@ -3295,7 +4378,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/Boolean.php",
+      "test/unit/BooleanFormatterTest.php"
+    ]
   },
   {
     "commit": "7ba116e5a0553a543d26046a44370fd73b35a42a",
@@ -3308,7 +4395,12 @@
         "deletes": 0,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Formatters/Address.php",
+      "src/Formatters/IFormatter.php",
+      "test/unit/AddressFormatterTest.php"
+    ]
   },
   {
     "commit": "e10020d2dc233771365a59fa6da99ccaa115cd1c",
@@ -3321,7 +4413,11 @@
         "deletes": 5,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "d299725cdd84ce2e3f23c66f6666a2f96cdc4c45",
@@ -3334,7 +4430,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "c0e90debc85954fe665d01920b4d91b3cca29d50",
@@ -3347,7 +4447,16 @@
         "deletes": 7,
         "occurrences": 7
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Address.php",
+      "src/Contracts/Types/Boolean.php",
+      "src/Contracts/Types/Bytes.php",
+      "src/Contracts/Types/DynamicBytes.php",
+      "src/Contracts/Types/Integer.php",
+      "src/Contracts/Types/Str.php",
+      "src/Contracts/Types/Uinteger.php"
+    ]
   },
   {
     "commit": "d957484fdc41ae551bf25913fd10b23c559b141e",
@@ -3360,7 +4469,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/DynamicBytes.php",
+      "test/unit/DynamicBytesTypeTest.php"
+    ]
   },
   {
     "commit": "3907305f76a8bf0592f7098198b2e23041366c0d",
@@ -3373,7 +4486,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Uinteger.php",
+      "test/unit/UintegerTypeTest.php"
+    ]
   },
   {
     "commit": "152d956b3d3dcf9d6629e7474aaefac9ffef8214",
@@ -3386,7 +4503,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Str.php",
+      "test/unit/StrTypeTest.php"
+    ]
   },
   {
     "commit": "12470f3b901ae822535944dfd2939215dddb2a28",
@@ -3399,7 +4520,13 @@
         "deletes": 4,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Address.php",
+      "src/Contracts/Types/Boolean.php",
+      "src/Contracts/Types/Bytes.php",
+      "src/Contracts/Types/Integer.php"
+    ]
   },
   {
     "commit": "0042f0dd82c289edd59e856124d6e045137850fb",
@@ -3412,7 +4539,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Integer.php",
+      "test/unit/IntegerTypeTest.php"
+    ]
   },
   {
     "commit": "55c168736f6dcf416f1da72f5316bbae65b4253b",
@@ -3425,7 +4556,12 @@
         "deletes": 1,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Bytes.php",
+      "test/unit/{BoolTypeTest.php => BooleanTypeTest.php}",
+      "test/unit/BytesTypeTest.php"
+    ]
   },
   {
     "commit": "62a21e44552f704a5c040478f77e6a4a07e40082",
@@ -3438,7 +4574,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/Types/Boolean.php",
+      "test/unit/BoolTypeTest.php"
+    ]
   },
   {
     "commit": "0fa64aecd74c3687e8786b321fbe13c31ce0f368",
@@ -3451,7 +4591,13 @@
         "deletes": 0,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Contracts/SolidityType.php",
+      "src/Contracts/Types/Address.php",
+      "src/Contracts/Types/IType.php",
+      "test/unit/AddressTypeTest.php"
+    ]
   },
   {
     "commit": "b24139113daf45188231ead6bbc72329d8427b75",
@@ -3464,7 +4610,13 @@
         "deletes": 4,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Net.php",
+      "src/Personal.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "63a748e4dc0915db773875f30492c9180e25a066",
@@ -3477,7 +4629,11 @@
         "deletes": 10,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "7b6e35108f859d534efdd89c85cc1c5ee85de696",
@@ -3490,7 +4646,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "1e4c40883a184864b2330d4a70fd2ff98a17f340",
@@ -3503,7 +4662,10 @@
         "deletes": 5,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "59c1876818a9429864b738ffe22bf54ecaa718fb",
@@ -3516,7 +4678,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "0fc3e27651e0575eb750053a680228e8a951b96e",
@@ -3529,7 +4695,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthabiTest.php"
+    ]
   },
   {
     "commit": "e25e0cc3f1f26ac46dd87638fe7219e9157f09a0",
@@ -3542,7 +4711,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "afb0225721e310091a864aca78dcf8b19577bbe3",
@@ -3555,7 +4728,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "fbc85e74d06e534f7859103ab68e57d2b0a2bdd4",
@@ -3568,7 +4744,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "7c1755cc9c2b5a676c23e150a8a506d451c2da41",
@@ -3581,7 +4761,11 @@
         "deletes": 5,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "46c252a44e07a93009a3a9085997857a760747ec",
@@ -3594,7 +4778,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "d58e2e751c1c0c039dd14292fb601da5671d4d5d",
@@ -3612,7 +4800,12 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "composer.json",
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "fce712ddcd3d37dc3f46e72c51f18be5bcf79899",
@@ -3625,7 +4818,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "de192104926ca026867a4a7bea46907c32b426ad",
@@ -3638,7 +4835,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "adf3e45ccfaff2e43af036c008ba06c640697d3e",
@@ -3651,7 +4852,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "809ffc43877b588ed265b9af293eeb4c24161073",
@@ -3664,7 +4868,12 @@
         "deletes": 4,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "examples/accounts.php",
+      "examples/exampleBase.php",
+      "examples/sendTransaction.php"
+    ]
   },
   {
     "commit": "4d589b7870b0ea48341c29a3c2fccd2c9e6888ad",
@@ -3677,7 +4886,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "examples/accounts.php"
+    ]
   },
   {
     "commit": "11ffbf93d627fb7c6d865133288c9a30acd0b267",
@@ -3690,7 +4902,10 @@
         "deletes": 5,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Utils.php"
+    ]
   },
   {
     "commit": "02b30ee2d578576223231b27c0b0853e18eb06aa",
@@ -3708,7 +4923,12 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "composer.json",
+      "src/Utils.php",
+      "test/unit/UtilsTest.php"
+    ]
   },
   {
     "commit": "303c14a842974e673d8717d14a9d060083803c68",
@@ -3721,7 +4941,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalBatchTest.php"
+    ]
   },
   {
     "commit": "8578a7c1c41c0194180fa5ca818ed0884655f95c",
@@ -3734,7 +4957,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "125f48a6e5ad76b5145c1a6d802f9772b4ceda7a",
@@ -3747,7 +4973,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Personal.php",
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "e441831782050edd0b78aa654e43dc14e9671f74",
@@ -3760,7 +4990,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "9ed2b90fdbab6a63cf3a2329239da3894c6e60a1",
@@ -3773,7 +5006,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Personal.php",
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "a7a5646f2a62cc700218cf310fabcdcc3a047724",
@@ -3786,7 +5023,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Personal.php",
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "20e3dcde10dde99f42bcb5b1328ce005b83c046b",
@@ -3799,7 +5040,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalApiTest.php"
+    ]
   },
   {
     "commit": "4aa3e07576af96971c5f2665f7271dd99d6d15a3",
@@ -3812,7 +5056,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/PersonalTest.php"
+    ]
   },
   {
     "commit": "515a1bcbc4e7ab63dd521f95ca29e63924982d99",
@@ -3825,7 +5072,12 @@
         "deletes": 2,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Personal.php",
+      "src/Web3.php",
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "68333b5a1aba8b6451d7522d8a11b7436f8a5e7c",
@@ -3843,7 +5095,30 @@
         "deletes": 0,
         "occurrences": 20
       }
-    }
+    },
+    "file_list": [
+      "LICENSE",
+      "src/Eth.php",
+      "src/Net.php",
+      "src/Providers/HttpProvider.php",
+      "src/Providers/IProvider.php",
+      "src/Providers/Provider.php",
+      "src/RequestManagers/HttpRequestManager.php",
+      "src/RequestManagers/IRequestManager.php",
+      "src/RequestManagers/RequestManager.php",
+      "src/Validators/AddressValidator.php",
+      "src/Validators/BlockHashValidator.php",
+      "src/Validators/BooleanValidator.php",
+      "src/Validators/FilterValidator.php",
+      "src/Validators/HexValidator.php",
+      "src/Validators/IValidators.php",
+      "src/Validators/NonceValidator.php",
+      "src/Validators/QuantityValidator.php",
+      "src/Validators/StringValidator.php",
+      "src/Validators/TagValidator.php",
+      "src/Validators/TransactionValidator.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "5e90134dbc8133cd6a42442a62d4d27f84c9a2bc",
@@ -3856,7 +5131,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "4c32a35f11aeb1f7cf5af0e62183a60f60a5e4f5",
@@ -3869,7 +5147,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/ProviderTest.php"
+    ]
   },
   {
     "commit": "cdce5becf696db669ebf6c4b0d5c17a8acf8fde0",
@@ -3882,7 +5163,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/TestCase.php",
+      "test/unit/RequestManagerTest.php"
+    ]
   },
   {
     "commit": "f20839f8de06d46191d6f4018ab4f8b0dafb83cf",
@@ -3895,7 +5180,12 @@
         "deletes": 6,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Net.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "9efd3bc75546c79b4567368c2f4bca73a8820574",
@@ -3908,7 +5198,12 @@
         "deletes": 3,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Net.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "048b5a51051a2ab897dd20d82dcad04bbe9b415c",
@@ -3921,7 +5216,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/NetTest.php"
+    ]
   },
   {
     "commit": "5d19c4659c0b8ce44de44c444858eca21a12d95a",
@@ -3934,7 +5232,11 @@
         "deletes": 14,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/Web3ApiTest.php",
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "83ffda80c8f898a4b4f0e40b9c5692fd07e10c7f",
@@ -3947,7 +5249,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "d0835825d3b1c8224a800e748c54735d1324c84c",
@@ -3960,7 +5265,12 @@
         "deletes": 1116,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthApiTest.php",
+      "test/unit/EthBatchTest.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "cd28ad0e7d07d7ab0dde7ad2f7dd7e63c4248fef",
@@ -3973,7 +5283,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "phpunit.xml"
+    ]
   },
   {
     "commit": "841bd567802237be1793daa6debf82fa52a48454",
@@ -3986,7 +5299,14 @@
         "deletes": 109,
         "occurrences": 5
       }
-    }
+    },
+    "file_list": [
+      "test/unit/NetApiTest.php",
+      "test/unit/NetBatchTest.php",
+      "test/unit/NetTest.php",
+      "test/unit/Web3ApiTest.php",
+      "test/unit/Web3BatchTest.php"
+    ]
   },
   {
     "commit": "f1aebc65a68be6c414a169a5cb3b27ce6a2c3984",
@@ -3999,7 +5319,12 @@
         "deletes": 87,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "test/unit/Web3ApiTest.php",
+      "test/unit/Web3BatchTest.php",
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "07c394787d6f725559f87ec18b5fc0f421f38f1f",
@@ -4012,7 +5337,10 @@
         "deletes": 9,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "d1c5ae15d019b980c54aa453a5c1eca513992e10",
@@ -4025,7 +5353,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "1cc89bc04c424c0aa43319ddef1e6334a33ad54c",
@@ -4038,7 +5370,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/NetTest.php"
+    ]
   },
   {
     "commit": "b7ad62faaf82439280ec307221d65e0fce3b6c46",
@@ -4051,7 +5386,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Net.php",
+      "test/unit/NetTest.php"
+    ]
   },
   {
     "commit": "296d3442e056e81bf4aa433f3f01432b3f0403e9",
@@ -4064,7 +5403,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Net.php",
+      "test/unit/NetTest.php"
+    ]
   },
   {
     "commit": "65734f1d7ffc2d27370b2841b2f098775056ffd3",
@@ -4077,7 +5420,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/NetTest.php"
+    ]
   },
   {
     "commit": "a512883519ae18f8da713145bdc0cee16945cf16",
@@ -4090,7 +5436,12 @@
         "deletes": 0,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Net.php",
+      "src/Web3.php",
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "5957652db8330ee10cee062d52a90d9bf54b9449",
@@ -4103,7 +5454,28 @@
         "deletes": 0,
         "occurrences": 19
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Providers/HttpProvider.php",
+      "src/Providers/IProvider.php",
+      "src/Providers/Provider.php",
+      "src/RequestManagers/HttpRequestManager.php",
+      "src/RequestManagers/IRequestManager.php",
+      "src/RequestManagers/RequestManager.php",
+      "src/Validators/AddressValidator.php",
+      "src/Validators/BlockHashValidator.php",
+      "src/Validators/BooleanValidator.php",
+      "src/Validators/FilterValidator.php",
+      "src/Validators/HexValidator.php",
+      "src/Validators/IValidators.php",
+      "src/Validators/NonceValidator.php",
+      "src/Validators/QuantityValidator.php",
+      "src/Validators/StringValidator.php",
+      "src/Validators/TagValidator.php",
+      "src/Validators/TransactionValidator.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "c1ac5f42056affc7c38f642f585e778a0bb6d7c2",
@@ -4116,7 +5488,10 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php"
+    ]
   },
   {
     "commit": "8738aa8de1efc365d40b33adaa5d681b52e467c3",
@@ -4129,7 +5504,10 @@
         "deletes": 4,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "ec92ef84b790c504ce216f4c2cc989891fad4557",
@@ -4142,7 +5520,10 @@
         "deletes": 9,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "9a06702505f7a244320f99e8f9dd1cc45d2558ad",
@@ -4155,7 +5536,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "a34ad9216f8665ab65b0c7b56ec1837026b1a3c2",
@@ -4168,7 +5553,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "fdcb2a2d796e35136a81a4867e5711a38787aa1b",
@@ -4181,7 +5570,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/NonceValidator.php"
+    ]
   },
   {
     "commit": "5b47025afe6855ccc3bba8c1d7936ccc0df68db7",
@@ -4194,7 +5586,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "9b66125202b4d1fbf801eb814bcfbed864018abc",
@@ -4207,7 +5603,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "afb3fa52ffcfc577ea786e331fb5c74749c427de",
@@ -4220,7 +5620,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "4d701c80c2cbf98be226d246704101dcb960bd44",
@@ -4233,7 +5637,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "2cb693fffa6dfdd604506ed50116de8b52058d4b",
@@ -4246,7 +5654,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "851febf04879780c8c9f080352d9b3b00769a108",
@@ -4259,7 +5671,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "4a2d64c398cf796791f85bf7b68f15f5860d7aa3",
@@ -4272,7 +5688,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "1d29fd01388c3f0f9e0fa83f2634dea965d8f87c",
@@ -4285,7 +5705,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "cfd80212ba517e5c59469ebc40bf6bee9a2bd914",
@@ -4298,7 +5722,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/FilterValidator.php",
+      "src/Validators/StringValidator.php"
+    ]
   },
   {
     "commit": "1d02b8ba2e57a4986bafea00fd1fad3e9279476c",
@@ -4311,7 +5739,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "6095c9290026147a549b202176742e4c563a5ac3",
@@ -4324,7 +5756,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "60e52909ff64902bd83e41cdf1fe078b1d934d3f",
@@ -4337,7 +5773,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "630b7fc52a64046859f02b821f8865d1218b6b9f",
@@ -4350,7 +5790,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "24deddeadefc0843bae4f6ef259bba9cc3abe084",
@@ -4363,7 +5807,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "00afa82f0bb4d9d161b6050e9fba8120b6f71fd4",
@@ -4376,7 +5824,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "d5a2d4c0418b0462abe270722007939ddee00ba9",
@@ -4389,7 +5841,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "3b330384cd66669b3e6c13264e2d8df73a031cc7",
@@ -4402,7 +5858,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "f13217e44d2bcb230b48dbad07f81a00d594366a",
@@ -4415,7 +5875,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "8e4d9067f813fba72283d706cbf7623c9012ef7e",
@@ -4428,7 +5892,11 @@
         "deletes": 1,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "f48df7d2c787621b52b2908bb289be790c17816b",
@@ -4441,7 +5909,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "54159e3c6f1bb6cd277ac6a8ac0568c6979e080f",
@@ -4454,7 +5926,12 @@
         "deletes": 38,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "test/TestCase.php",
+      "test/unit/EthTest.php",
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "2fee27e6ca02d548a59bb244a3da14c4c3aa7784",
@@ -4467,7 +5944,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "113c71e27af7a0ade8a2a994e409ba484191fc1e",
@@ -4480,7 +5961,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/BooleanValidator.php"
+    ]
   },
   {
     "commit": "83a514ca652fb227e924ee8af9aff1e0a9517020",
@@ -4493,7 +5977,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "70d015961dcfa2521c002cf5788966ad3ad11ffc",
@@ -4506,7 +5994,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "bda39d4e3a6eac1b5f82481dd184a3e278498533",
@@ -4519,7 +6011,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "122bbf24fb8541f09c17504a80d29c2954fc30d0",
@@ -4532,7 +6028,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Validators/TransactionValidator.php"
+    ]
   },
   {
     "commit": "ea89fcbde7c30249c2d440bad06c2026f1c7e545",
@@ -4545,7 +6044,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "ff2c90c196b4ba91d9574c7a644f962b2fe35059",
@@ -4558,7 +6061,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "6f28fc79dcb5274fda6c667c30630a7e683f49e0",
@@ -4571,7 +6078,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "c957f3621732043cde163dcae1d64bbc0cc5858d",
@@ -4584,7 +6095,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "2772c30ed1674df81c00ff15ebf6c69832b6fccc",
@@ -4597,7 +6112,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "2f7a9f901b0e7a1d840040e2a3e492a45d63e8f3",
@@ -4610,7 +6129,13 @@
         "deletes": 9,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Validators/BlockHashValidator.php",
+      "src/Web3.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "6a95cdef152fc0132ef80e5d1ff940ae81f6bd4e",
@@ -4623,7 +6148,12 @@
         "deletes": 1,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Validators/QuantityValidator.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "d14b6c7ee159077a4907dde2dffa9d1ea39ceeff",
@@ -4636,7 +6166,11 @@
         "deletes": 2,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "9e868e4b5fdbc83613d57079014d70e67718fcf8",
@@ -4649,7 +6183,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "9a6ba5c92c58077269eaee91e76e846c709aad0b",
@@ -4662,7 +6200,13 @@
         "deletes": 32,
         "occurrences": 4
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Validators/TagValidator.php",
+      "src/Web3.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "bdfbace76b7bd2992c3accddacd94431250f4238",
@@ -4675,7 +6219,10 @@
         "deletes": 5,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "f3833e45b688c25f2b224464ce4ffe8320191a4f",
@@ -4688,7 +6235,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "d7276001f379f6310adef81449ae411b0d1a5f83",
@@ -4701,7 +6252,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "b87e3e9de87885103675be6bfa5a63a38e5f0fcf",
@@ -4714,7 +6269,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "d0a97a14721bef8d8577f8c50a4d6a02697413bc",
@@ -4727,7 +6286,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "5ba3ed1371a3759cc95a90c4729667897a4493f7",
@@ -4740,7 +6303,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "413c1abb689ad4e824a2322745dce96f53aa4e0d",
@@ -4753,7 +6320,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "44780a98217804cfe43ef25e69203e326d2ca501",
@@ -4766,7 +6337,11 @@
         "deletes": 0,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "864a7a1fb771913c3a594c953d4e5ae7a6328162",
@@ -4779,7 +6354,11 @@
         "deletes": 4,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "test/unit/EthTest.php",
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "d94d42b61e4a1883758c9e52ed06ffc243059904",
@@ -4792,7 +6371,12 @@
         "deletes": 4,
         "occurrences": 3
       }
-    }
+    },
+    "file_list": [
+      "src/Eth.php",
+      "src/Web3.php",
+      "test/unit/EthTest.php"
+    ]
   },
   {
     "commit": "5d33c2ade3953ca02481f2c64c52f59a3d0a915d",
@@ -4805,7 +6389,10 @@
         "deletes": 2,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "08146f97d8375174c062f841fd393b4a14cbc40f",
@@ -4818,7 +6405,11 @@
         "deletes": 4,
         "occurrences": 2
       }
-    }
+    },
+    "file_list": [
+      "src/RequestManagers/HttpRequestManager.php",
+      "src/Web3.php"
+    ]
   },
   {
     "commit": "e238a3596eecffe76f26714d810bbb2d508ce99b",
@@ -4836,7 +6427,11 @@
         "deletes": 1,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".travis.yml",
+      "composer.json"
+    ]
   },
   {
     "commit": "a9701d68c60be80ce675c18916a43767e7895d71",
@@ -4849,7 +6444,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "c290a2e5443a754ede94895037c0141337f114b5",
@@ -4862,7 +6460,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
   },
   {
     "commit": "ac21406fba886e784aaec3b6adb0f58a3674501c",
@@ -4875,7 +6476,10 @@
         "deletes": 3,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "test/unit/Web3Test.php"
+    ]
   },
   {
     "commit": "6b355e2537fa3189b2443e05810b58fa059b3832",
@@ -4888,7 +6492,10 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   },
   {
     "commit": "41887b35b0e7a1ffb0cc532b7071151e55272009",
@@ -4901,6 +6508,9 @@
         "deletes": 0,
         "occurrences": 1
       }
-    }
+    },
+    "file_list": [
+      "README.md"
+    ]
   }
 ]

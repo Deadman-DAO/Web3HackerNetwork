@@ -1,0 +1,1730 @@
+[
+  {
+    "commit": "d62b8ba894e53416b3b8caba6c6cdcc1d36c43bf",
+    "Author": "Mike Taves <mwtoews@gmail.com>",
+    "Date": "2022-05-20T10:12:07-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 23,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "README.rst"
+    ]
+  },
+  {
+    "commit": "b49d378012e5da6fa0c2e0550ded4f4b41f6f20b",
+    "Author": "Vincent Sarago <vincent.sarago@gmail.com>",
+    "Date": "2022-04-05T16:12:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "yml": {
+        "inserts": 71,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 6,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "ini": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".coveragerc",
+      ".github/codecov.yml",
+      ".github/workflows/ci.yml",
+      ".gitignore",
+      "affine/__init__.py",
+      "setup.py",
+      "tox.ini"
+    ]
+  },
+  {
+    "commit": "71942206ff5f151459262326633c3d451fc645ca",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2022-03-24T19:35:32-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "cc71282906f442fa8c203e44c185c68d798406ce",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2022-03-24T19:34:27-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 30,
+        "deletes": 3,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "78c20a0cfbb5ece3dfadc1a5550465936a4fa731",
+    "Author": "Denis Rykov <rykovd@gmail.com>",
+    "Date": "2021-02-12T08:44:31-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "d9d4050191b16dab3a26307596bedcce469a177f",
+    "Author": "Stuart Axon <stuaxo2@yahoo.com>",
+    "Date": "2020-07-22T13:56:39-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "2748b2ffc01bc5468e4fbf18fb7ac5b01520b2f1",
+    "Author": "Mike Taves <mwtoews@gmail.com>",
+    "Date": "2019-11-07T07:18:06-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.rst"
+    ]
+  },
+  {
+    "commit": "634e96bf03af60d0bafc5fe0c987d10b61d660f7",
+    "Author": "Michael Wess <michael.wess@boku.ac.at>",
+    "Date": "2019-11-04T21:24:42-07:00",
+    "orig_timezone": "UTC+01:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.rst"
+    ]
+  },
+  {
+    "commit": "36c208a313d65f5f22b3d95e7b240824e5582c54",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2019-09-04T15:21:16-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "d10d02a417a8416adecaf7195b560e0884197789",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2019-09-04T15:11:39-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 13,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 49,
+        "deletes": 26,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "992d457242ff456100db3a831162af413fa06de5",
+    "Author": "Mike Taves <mwtoews@gmail.com>",
+    "Date": "2019-05-10T07:41:36-07:00",
+    "orig_timezone": "UTC+12:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "ini": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "AUTHORS.txt",
+      "tox.ini"
+    ]
+  },
+  {
+    "commit": "8dce40a6c9061726e8a3aad2a9cfdf185c5d5bfd",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2018-12-20T16:39:27-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "AUTHORS.txt"
+    ]
+  },
+  {
+    "commit": "4f5b3cd7a0457d21789a2125f23b8fff1a55a07a",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2018-12-20T16:36:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "1dc1d448a28b0c15424ff1991df5a472d3766980",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2018-12-20T16:35:44-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "3d1a493ae070ec88c92bfc919e580fe25e65ac6f",
+    "Author": "Kirill Kouzoubov <Kirill888@gmail.com>",
+    "Date": "2018-12-20T16:32:44-07:00",
+    "orig_timezone": "UTC+11:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 8,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "b125a6397c2a0ff4d7587a43b8678ee5f54765ed",
+    "Author": "Sean C. Gillies <sean@mapbox.com>",
+    "Date": "2018-06-04T16:24:40-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "52781a11597519f9f1b9ca0debe05737a0951525",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2018-06-04T16:23:08-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 57,
+        "deletes": 37,
+        "occurrences": 3
+      },
+      "txt": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      ".travis.yml",
+      "affine/__init__.py",
+      "affine/tests/__init__.py",
+      "requirements.txt",
+      "setup.cfg",
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "58569bb4760b98763f61cae3e72ba92496faf70f",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2018-03-20T19:56:07-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "ed339ad9480d5c9d46b1d58f5f90beeae2fa6bff",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2018-03-20T19:55:24-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "49cc6d9892b991fa7f11c536dcbcf7aca627fd43",
+    "Author": "Nick Maxwell <nmaxwell@ara.com>",
+    "Date": "2018-02-27T19:30:10-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "6ea821726046f3813b158ce9523e5401075b6a68",
+    "Author": "Nick Maxwell <nmaxwell@ara.com>",
+    "Date": "2018-02-27T14:16:07-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "cec231d0aa6ab7c99009c06ce943e6e476e485ec",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-09T10:16:32-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "tox.ini"
+    ]
+  },
+  {
+    "commit": "49a169a6ca2128af0e9b8d31fa6c65b137d81e75",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:51:10-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 0,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "ee2a74bfda658f1f0fa4e20072882b1bb672e307",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:45:19-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "dc05da05cf944a65c6594e906eb30424824246f2",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:29:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "in": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "MANIFEST.in"
+    ]
+  },
+  {
+    "commit": "06248b1c612839c5d51d45c386808be1d8ec2b0e",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:20:09-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "b6577ffa161009271b1b1ffc9759212448770ce8",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:17:07-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "e2466d87fe81ad667af82fef43b8dda09c51d713",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:16:15-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "4363d0bca9dd055f32808ca8e351939f3f344aff",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:32:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "cfg": {
+        "inserts": 3,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "setup.cfg"
+    ]
+  },
+  {
+    "commit": "0579617537bf5e73f7fc783c39820e053d95d3da",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:11:46-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "6bb5dbbf8a2afd250ae8b1cf52a56bf20954b80a",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:32:03-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "5b774df23a7360177099817cab484425fccb8aa2",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:07:37-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore"
+    ]
+  },
+  {
+    "commit": "6b77ecbaea177b680f99da49807616f3dcdd5068",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:06:59-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 18,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "238317e9a99a56b02173ad6a2454e90a30c461b9",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:02:13-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 143,
+        "deletes": 148,
+        "occurrences": 1
+      },
+      "ini": {
+        "inserts": 0,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "affine/tests/test_transform.py",
+      "tox.ini"
+    ]
+  },
+  {
+    "commit": "155af8255705395ee8e8278d7f4daf8952837c87",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T17:36:49-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "3254ea1db3fc49bd63dcee9bb0b70cb387c4f6b9",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T18:30:43-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "5711fc554fe7e2ff7666f6c72aa8ffc94655b8eb",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2017-12-07T17:34:47-07:00",
+    "orig_timezone": "UTC-05:00",
+    "fileTypes": {
+      "cfg": {
+        "inserts": 2,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "setup.cfg"
+    ]
+  },
+  {
+    "commit": "d0420b4e4bd95d93c73d6cebb90caaad79654751",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2017-07-12T05:40:47-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 25,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CODE_OF_CONDUCT.txt"
+    ]
+  },
+  {
+    "commit": "5be9991cf861f5dc8971af791e9f48bfc70722cb",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2017-07-12T05:35:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 3,
+        "occurrences": 1
+      },
+      "txt": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "AUTHORS.txt",
+      "CHANGES.txt",
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "8d5516611646fb8e43c6b7b26721b4fb4f089969",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-23T07:19:37-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 16,
+        "deletes": 14,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "aa067428455eed3892f2f1d9bc703c74072a7d56",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-22T04:55:17-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 7,
+        "deletes": 6,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "cc15becc4909be9a75e0fb3b592fcc78c743514a",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-22T04:52:14-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 10,
+        "deletes": 6,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "297ad965275a64228025a9d68f6530895902b80c",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-22T01:05:10-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "a930be1b2169cf0a10ff1c24b068fc0074211606",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-22T01:03:04-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 6,
+        "deletes": 12,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "aa04e654ef126ebb1e2f9b4d4522b3144d1cd8d5",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-22T00:17:43-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 31,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "03e82ff1f1caf979d1a831f8add73906fb5d9ac2",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-21T06:45:05-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "916f4971c74dab25cd6c30e74f8d9e34d9e06d5b",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-20T09:23:38-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 25,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "5e53f79cb760b70fde45ad0a7afcba647b4feb02",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-20T09:06:09-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "86c8a9820e3932c5c63a95aae3333d35b8bcadfc",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-20T07:15:25-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 1,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "dd6b570252a86337c7694f8479a9d0123674f1f9",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-20T06:37:19-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 12,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "0e9e172ac8deb264d1c8c54f4262b263fb504bef",
+    "Author": "Juan Luis Cano Rodr\u00edguez <juanlu@satellogic.com>",
+    "Date": "2017-06-20T06:19:11-07:00",
+    "orig_timezone": "UTC+02:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "60fc42de982f3ad36851257475e9ea90c448a894",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-05-20T13:21:06-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "fc1be33fa29fa2889d7a81ff87f05227e12f1fb2",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-05-20T13:20:32-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "ceb67f712a5e8dea0e19a167cce5dd77bfbf940d",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-05-20T13:06:22-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 6,
+        "deletes": 2,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "AUTHORS.txt",
+      "CHANGES.txt",
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "5400df0c8ee31690cbb8eab5f970e7e5e28cef0c",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-05-16T12:01:01-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 37,
+        "deletes": 18,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "269e7d94475092a44d73a5f6ae1891294f6e2bef",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-05-16T10:22:27-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "23188e83583483ab67fee2b7448950f5f07d93fe",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-05-16T10:14:24-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 11,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "dde6be25aeb0f2acdeef496c769e2d8b118ca23e",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2016-05-15T15:36:46-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "tox.ini"
+    ]
+  },
+  {
+    "commit": "0cd1cf269879c561697f37cc9ac00a5276828c98",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-05-06T10:59:43-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/tests/test_rotation.py"
+    ]
+  },
+  {
+    "commit": "d8579de24cdd1b381678617953fd79fc49f87952",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-05-06T10:47:13-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 27,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/tests/test_rotation.py"
+    ]
+  },
+  {
+    "commit": "42296cd22f6ef8c05361562986c2fe34131f6407",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-04-08T12:26:04-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 3,
+        "occurrences": 2
+      },
+      "ini": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "affine/__init__.py",
+      "affine/tests/test_transform.py",
+      "tox.ini"
+    ]
+  },
+  {
+    "commit": "b7e3c59ec8c2516980fd2448642390f26bff5a46",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-04-07T16:36:05-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 19,
+        "deletes": 6,
+        "occurrences": 2
+      },
+      "ini": {
+        "inserts": 2,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py",
+      "tox.ini"
+    ]
+  },
+  {
+    "commit": "fcfbe8f9294611db4cc56956052e269fc35483cf",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-04-07T16:04:14-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 14,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "7c4741504f51f50f40f627400eb78a54d2c60c4c",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-04-07T15:57:27-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 50,
+        "deletes": 83,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "b225255dcd78e2eb1859922c88d7ed1ffb0bea88",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2016-04-06T09:43:46-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "ini": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "tox.ini"
+    ]
+  },
+  {
+    "commit": "cff24ca6c4a43c5273cf030c2d66f941a449ab12",
+    "Author": "Kevin Wurster <wursterk@gmail.com>",
+    "Date": "2015-06-01T16:45:49-07:00",
+    "orig_timezone": "UTC-04:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 37,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_pickle.py"
+    ]
+  },
+  {
+    "commit": "337dc724f7a4f73937120647ed6e07e6a3c5929d",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-11-13T16:10:57-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 3,
+        "deletes": 3,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt"
+    ]
+  },
+  {
+    "commit": "bdc1a930c6ceb11780a7e9f630dbb5c89eaff6a3",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-11-13T15:09:34-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 1,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml"
+    ]
+  },
+  {
+    "commit": "e317721d85232798b00a559fbd058dd2fabc6ffa",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-11-13T14:48:12-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "rst": {
+        "inserts": 6,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.rst"
+    ]
+  },
+  {
+    "commit": "2ba2e61f8f2b78ccbea5339d7a24a7d500b0ee8a",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2014-11-13T14:31:44-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 15,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 7,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".travis.yml",
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "0cf0edd140d3b19e0c8e3b149cc73892ecb9655a",
+    "Author": "Mike Toews <mwtoews@gmail.com>",
+    "Date": "2014-11-13T13:35:21-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 10,
+        "deletes": 9,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 253,
+        "deletes": 98,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "AUTHORS.txt",
+      "CHANGES.txt",
+      "README.rst",
+      "affine/__init__.py",
+      "affine/tests/test_transform.py",
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "83a0f161ef8eb12cfefdcfd1aced28e5de565343",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2014-11-13T11:45:23-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 0,
+        "deletes": 5,
+        "occurrences": 2
+      },
+      "rst": {
+        "inserts": 9,
+        "deletes": 10,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 99,
+        "deletes": 262,
+        "occurrences": 3
+      }
+    },
+    "file_list": [
+      "AUTHORS.txt",
+      "CHANGES.txt",
+      "README.rst",
+      "affine/__init__.py",
+      "affine/tests/test_transform.py",
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "709c50aea2b24514d600ee787bb003d1d9903f7e",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2014-11-13T03:03:53-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 9,
+        "deletes": 5,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "0c103f261ed46d4f7c38547112cae671ab3cc7e1",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2014-11-13T02:46:13-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 64,
+        "deletes": 48,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "d2c162861cd9c44a1bbdfc205bd5aa1ef29da354",
+    "Author": "mwtoews <mwtoews@gmail.com>",
+    "Date": "2014-11-06T04:27:25-07:00",
+    "orig_timezone": "UTC+13:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 5,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 61,
+        "deletes": 4,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "AUTHORS.txt",
+      "CHANGES.txt",
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "b06c79de01f4da0767dec80460c87084366e9c0c",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2014-10-20T11:54:55-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 11,
+        "deletes": 0,
+        "occurrences": 2
+      },
+      "py": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "AUTHORS.txt",
+      "CHANGES.txt",
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "19f608010793a6761b05539416035fc82c2cc653",
+    "Author": "Steven Ring <smr@southsky.com.au>",
+    "Date": "2014-10-19T23:20:49-07:00",
+    "orig_timezone": "UTC+11:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 17,
+        "deletes": 0,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "6f9b83bb5ef0813f3ef414dd05f2303a200df3a4",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-28T13:58:34-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 88,
+        "occurrences": 1
+      },
+      "rst": {
+        "inserts": 90,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 5,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md",
+      "README.rst",
+      "setup.py"
+    ]
+  },
+  {
+    "commit": "2cd14758722ba1444d9b5885bd118c5b1c41a900",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-27T16:37:33-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 5,
+        "deletes": 5,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "646dfa30849fbc6bbf731aa0f86ed6fa741198e0",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-27T16:33:49-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 33,
+        "deletes": 33,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "c017c96d494ffb9013f7f6326d4458c9267db461",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-27T16:31:29-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "txt": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 76,
+        "deletes": 12,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "CHANGES.txt",
+      "README.md",
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "ca4e42432ca63f87eb46b449790a1acfc217aa84",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2014-05-27T14:04:43-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "16070018eb8d353db4ed16b9be5c9ed47d5a521b",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-27T13:39:35-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "7051ada57cd2a92b00f100124b9dde53a419a3da",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-23T15:26:16-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 4,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "628e2d91973aa5ae8ea161235ce254e91dde44a3",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-23T15:25:12-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 1,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "a537f300dee2a831df0cd85caf6aaec1455a2a0c",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-23T15:23:49-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 17,
+        "deletes": 1,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "0ec2adc83baafaa3fade28b846ba59cf1ccfabc6",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2014-05-23T15:08:38-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 0,
+        "deletes": 4,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md"
+    ]
+  },
+  {
+    "commit": "93fb3a5b3e4c197d3a8b8f2dedbb70e15b7f8796",
+    "Author": "Sean Gillies <sean.gillies@gmail.com>",
+    "Date": "2014-05-23T15:07:29-07:00",
+    "orig_timezone": "UTC-07:00",
+    "fileTypes": {
+      "noexttext": {
+        "inserts": 54,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "md": {
+        "inserts": 4,
+        "deletes": 0,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      ".gitignore",
+      "README.md"
+    ]
+  },
+  {
+    "commit": "c53fec7142ff70feefcfb12e23a35cff2bd8166c",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-23T14:58:41-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "md": {
+        "inserts": 8,
+        "deletes": 0,
+        "occurrences": 1
+      },
+      "py": {
+        "inserts": 2,
+        "deletes": 2,
+        "occurrences": 1
+      }
+    },
+    "file_list": [
+      "README.md",
+      "affine/__init__.py"
+    ]
+  },
+  {
+    "commit": "76609058119d52df6107a3d94d9738792817babe",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-23T14:30:52-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 210,
+        "deletes": 143,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  },
+  {
+    "commit": "6d1023dd68c2ddab2660755da65a6b558dc733f5",
+    "Author": "Sean Gillies <sean@mapbox.com>",
+    "Date": "2014-05-23T14:03:59-07:00",
+    "orig_timezone": "UTC-06:00",
+    "fileTypes": {
+      "py": {
+        "inserts": 132,
+        "deletes": 127,
+        "occurrences": 2
+      }
+    },
+    "file_list": [
+      "affine/__init__.py",
+      "affine/tests/test_transform.py"
+    ]
+  }
+]
