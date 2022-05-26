@@ -1,5 +1,4 @@
-CREATE PROCEDURE w3hacknet.ResolveAliasViaPrimaryKey
-(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ResolveAliasViaPrimaryKey`(
 	in alias_pri_key int,
 	in in_github_userid char(64)
 )

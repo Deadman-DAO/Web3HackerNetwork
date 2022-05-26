@@ -6,7 +6,8 @@ CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`InsertCommit`(
 	author_alias varchar(1024),
 	date datetime, 
 	orig_timezone varchar(16),
-	file_types json)
+	file_types json,
+	file_listing json)
     MODIFIES SQL DATA
 BEGIN
 	declare alias_id int default -1;
@@ -20,6 +21,7 @@ BEGIN
 	declare deletes int default 0;
 	declare occurrences int default 0;
 	declare extension_set json;
+	declare new_commit_record bit default 0;
 
 	select -1 into alias_id;
 	select id into alias_id from w3hacknet.alias where md5 = author_hash;
@@ -34,6 +36,7 @@ BEGIN
 	if commit_id = -1 THEN
 		insert into commit (commit_id, alias_id, date, gmt_offset) values (commit_hash, alias_id, date, orig_timezone) ;
 		select LAST_INSERT_ID() into commit_id;
+		set new_commit_record = 1;
 	END IF;
 
 	select -1 into repo_id;
@@ -51,19 +54,20 @@ BEGIN
 
 	if repo_commit_id = -1 then
 		insert into repo_commit (commit_id, repo_id) select commit_id, repo_id;
-		/* no need to insert commit_stats if that repo_commit reference is already there */
-		select json_keys(file_types) into extension_set;
+		if new_commit_record then
+			/* no need to insert commit_stats if that repo_commit reference is already there */
+			select json_keys(file_types) into extension_set;
 			select json_value(extension_set, concat('$[',key_idx,']')) into extension;
- 		while key_idx < json_length(extension_set) do
-			select json_query(file_types, concat('$.',extension)) into val;
-			select json_value(val, '$.inserts') into inserts;
-			select json_value(val, '$.deletes') into deletes;
-			select json_value(val, '$.occurrences') into occurrences;
-			insert into commit_stats (commit_id, file_type, insert_count, delete_count, occurrence_count)
-				select commit_id, left(extension, 128), inserts, deletes, occurrences;
-				
-			set key_idx = key_idx + 1;
-		end WHILE;
+	 		while key_idx < json_length(extension_set) do
+				select json_query(file_types, concat('$.',extension)) into val;
+				select json_value(val, '$.inserts') into inserts;
+				select json_value(val, '$.deletes') into deletes;
+				select json_value(val, '$.occurrences') into occurrences;
+				insert into commit_stats (commit_id, file_type, insert_count, delete_count, occurrence_count)
+					select commit_id, left(extension, 128), inserts, deletes, occurrences;					
+				set key_idx = key_idx + 1;
+			end WHILE;
+		end if;
 	End IF;
 
 

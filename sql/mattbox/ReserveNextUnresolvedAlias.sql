@@ -1,10 +1,9 @@
-CREATE PROCEDURE w3hacknet.ReserveNextUnresolvedAlias
-(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReserveNextUnresolvedAlias`(
 	in reserver_user_id varchar(32),
-	out rslt_alias_id int,
 	out commit_sample_json JSON
 )
 BEGIN
+	declare rslt_alias_id int;
 	declare dt datetime;
 	declare _commit_id char(40);
 	declare halfway_point datetime;
@@ -33,7 +32,7 @@ BEGIN
 		  order by date DESC 
 		  limit 1;
 		#insert into JSON array
-		select json_insert(commit_sample_json, '$[0]', json_object('commit_id', _commit_id, 'owner', _repo_owner, 'name', _repo_name)) into commit_sample_json;
+		select json_insert(commit_sample_json, '$[0]', json_object('commit_id', _commit_id, 'owner', _repo_owner, 'name', _repo_name, 'alias_id', rslt_alias_id)) into commit_sample_json;
 
 		#now calculate a middle point and find a commit near there
 		select FROM_UNIXTIME( 
@@ -51,7 +50,7 @@ BEGIN
 		  limit 1;
 
 		#insert into JSON array
-		select json_insert(commit_sample_json, '$[1]', json_object('commit_id', _commit_id, 'owner', _repo_owner, 'name', _repo_name)) into commit_sample_json;
+		select json_insert(commit_sample_json, '$[1]', json_object('commit_id', _commit_id, 'owner', _repo_owner, 'name', _repo_name, 'alias_id', rslt_alias_id)) into commit_sample_json;
 
 		#Get the OLDEST commit
 		select c.commit_id, r.owner, r.name into _commit_id, _repo_owner, _repo_name from commit c 
@@ -61,6 +60,6 @@ BEGIN
 		  order by date ASC
 		  limit 1;
 		#insert into JSON array
-		select json_insert(commit_sample_json, '$[2]', json_object('commit_id', _commit_id, 'owner', _repo_owner, 'name', _repo_name)) into commit_sample_json;
+		select json_insert(commit_sample_json, '$[2]', json_object('commit_id', _commit_id, 'owner', _repo_owner, 'name', _repo_name, 'alias_id', rslt_alias_id)) into commit_sample_json;
 	end if;
 END
