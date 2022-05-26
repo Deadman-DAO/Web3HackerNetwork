@@ -5,6 +5,8 @@ import traceback, inspect, json
 from datetime import datetime as datingdays
 import time
 from pytz import timezone
+import hashlib
+import traceback
         
 class File:
     dir = None
@@ -135,8 +137,9 @@ class Comment(Requirement):
 class FileInfo:
     def __init__(self, extension):
         self.extension = extension
-        self.textLineCount = 0;
-        self.binByteCount= 0;
+        self.full_file_name = ''
+        self.textLineCount = 0
+        self.binByteCount= 0
         self.isBinary = False
         self.inserts = 0
         self.deletes = 0
@@ -275,15 +278,26 @@ class StatFileCommit(FileCommit):
         return validData
                         
 class NumStatFileCommit(FileCommit):
+    def __init__(self):
+        super().__init__()
+    def reset(self):
+        super().reset()
+        self.file_array = []
     def split(self, line):
         try:
             chunks = line.split('\t')
-            file_name_portion = chunks[2]
-            stats_portion = chunks[0]+' '+chunks[1]
-            if (chunks[0].isnumeric() or chunks[0] == '-') and (chunks[1].isnumeric() or chunks[0] == '-'):
-                return file_name_portion, stats_portion
-        except:
-            pass
+            file_name_portion = chunks[2] if len(chunks) > 2 else None
+            if file_name_portion is not None:
+                stats_portion = chunks[0]+' '+chunks[1]
+                if (chunks[0].isnumeric() or chunks[0] == '-') and (chunks[1].isnumeric() or chunks[0] == '-'):
+                    fi = FileInfo(hashlib.md5(file_name_portion.encode('utf-8')).hexdigest())
+                    if self.processStatistics(stats_portion, fi, None):
+                        fi.full_file_name = file_name_portion
+                        self.file_array.append(fi)
+                    return file_name_portion, stats_portion
+        except Exception as e:
+            print('Exception occured in NumStatFileCommit.split()', e)
+            traceback.print_exception(*sys.exc_info())
         return None, None
     def processStatistics(self, line, fi, ext):
         validData = False
@@ -302,7 +316,26 @@ class NumStatFileCommit(FileCommit):
         except:
             print('NumStatFileCommit Error parsing:',line)
         return validData
-        
+
+    def addResults(self, dictionary):
+        super().addResults(dictionary)
+        try:
+            file_list = dictionary.get('file_list')
+            if (file_list is None):
+                file_list = {}
+                dictionary['file_list'] = file_list
+            for fi in self.file_array:
+                sumDic = file_list.get(fi.full_file_name)
+                if sumDic is None:
+                    sumDic = {}
+                    file_list[fi.full_file_name] = sumDic
+                addIntValue(sumDic, 'binary', 1 if fi.isBinary else 0)
+                addIntValue(sumDic, 'inserts', fi.inserts)
+                addIntValue(sumDic, 'deletes', fi.deletes)
+        except Exception as e:
+            print('Error in NumStatFileCommit.addResult()', e)
+            traceback.print_exception(*sys.exc_info())
+                
 class Summary(Requirement):
     def __init__(self):
         self.reset()
