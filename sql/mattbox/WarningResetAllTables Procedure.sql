@@ -8,7 +8,9 @@ BEGIN
 	drop table if exists alias_reserve;
 	drop table if exists alias;
 	drop table if exists log;
+	drop table if exists db_update_queue;
 
+	call CreateDBUpdateQueueTable();
 	call createLogTable();
 
 	create table alias (id int not null AUTO_INCREMENT primary key, md5 char(32) not null, name varchar(256), count int default 0, github_user_id varchar(64) default null);
