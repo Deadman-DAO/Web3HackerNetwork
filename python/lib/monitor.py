@@ -22,11 +22,12 @@ class Tracker:
 
 
 monitor_timer_map = {}
-
+monitor_current_method = ''
 
 def timeit(func):
     @wraps(func)
     def timeit_wrapper(*args, **kwargs):
+        monitor_current_method = func.__name__;
         start_time = datingdays.now().timestamp()
         result = func(*args, **kwargs)
         end_time = datingdays.now().timestamp()
@@ -57,6 +58,8 @@ class Monitor:
                 method = self.kwargs.get(k)
                 t = concat(msg, ' ', k, ':', method())
                 msg = t
+            if len(monitor_timer_map) > 0:
+                msg = concat(msg, 'cur_meth:', monitor_current_method)
             print(msg)
             for t in monitor_timer_map.keys():
                 tm = monitor_timer_map.get(t)

@@ -39,6 +39,7 @@ class Cloner:
         self.database = None
         self.db_config = None
         self.numstat_req_set = NumstatRequirementSet()
+        self.current_repo = ''
 
     @timeit
     def establish_dirs(self, owner, repo_name):
@@ -72,6 +73,7 @@ class Cloner:
             self.cursor = self.database.cursor()
         return self.cursor
 
+
     @timeit
     def reserve_next_repo(self):
         owner = None
@@ -83,8 +85,11 @@ class Cloner:
             rslt = self.cursor.fetchone()
             owner = rslt[0]
             repo_name = rslt[1]
+        self.current_repo = owner+'.'+repo_name
         return owner, repo_name
 
+    def get_current_repo(self):
+        return self.current_repo
     @timeit
     def clone_pull_repo(self, url, repo_path, update_repo, json_stats_file_name):
         cache_date = None
@@ -187,7 +192,7 @@ class Cloner:
 def main():
     running = True
     cloner = Cloner()
-    m = Monitor(frequency=5,mem=mem_info)
+    m = Monitor(frequency=5,mem=mem_info,repo=get_current_repo)
     while running:
         du = disk_usage('.')
         free = du.free / (1024 * 1024)
