@@ -42,7 +42,6 @@ class Cloner:
 
     @timeit
     def establish_dirs(self, owner, repo_name):
-        self.set_current_state('mkdir')
         repo_dir = self.repo_base_dir + '/' + owner + '/' + repo_name
         rslt_dir = self.result_base_dir + '/' + owner + '/' + repo_name
         update = make_dir(repo_dir)
@@ -51,7 +50,6 @@ class Cloner:
 
     @timeit
     def cleanup(self, owner, repo_name):
-        self.set_current_state('rmdir')
         rmtree(self.repo_base_dir + '/' + owner + '/' + repo_name)
         rmtree(self.repo_base_dir + '/' + owner)
 
@@ -76,7 +74,6 @@ class Cloner:
 
     @timeit
     def reserve_next_repo(self):
-        self.set_current_state('resNextRepo')
         owner = None
         repo_name = None
 
@@ -90,7 +87,6 @@ class Cloner:
 
     @timeit
     def clone_pull_repo(self, url, repo_path, update_repo, json_stats_file_name):
-        self.set_current_state('cloneRepo')
         cache_date = None
         if not update_repo:
             Repo.clone_from(url, repo_path)
@@ -139,7 +135,6 @@ class Cloner:
 
     @timeit
     def gather_stats_for_repo(self, owner, repo_name):
-        self.set_current_state('gen_stat')
         repo = RepoName(owner, repo_name)
         print(datingdays.now().isoformat(), 'Processing', owner, repo_name)
         repo_path, result_path, update_repo = self.establish_dirs(owner, repo_name)
