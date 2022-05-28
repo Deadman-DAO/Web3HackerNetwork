@@ -192,7 +192,7 @@ class Cloner:
 def main():
     running = True
     cloner = Cloner()
-    m = Monitor(frequency=5,mem=mem_info,repo=get_current_repo)
+    m = Monitor(frequency=5,mem=mem_info,repo=cloner.get_current_repo)
     while running:
         du = disk_usage('.')
         free = du.free / (1024 * 1024)
