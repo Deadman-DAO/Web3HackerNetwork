@@ -12,6 +12,7 @@ def concat(*args):
         ret_val = ret_val + (n if isinstance(n, str) else str(n))
     return ret_val
 
+
 class Tracker:
     def __init__(self):
         self.call_count = 0
@@ -24,9 +25,12 @@ class Tracker:
 monitor_timer_map = {}
 monitor_current_method = ''
 
+
 def timeit(func):
     @wraps(func)
     def timeit_wrapper(*args, **kwargs):
+        global monitor_current_method
+        global monitor_timer_map
         monitor_current_method = func.__name__;
         start_time = datingdays.now().timestamp()
         result = func(*args, **kwargs)
@@ -49,6 +53,8 @@ class Monitor:
         self.thread.start()
 
     def run(self):
+        global monitor_current_method
+        global monitor_timer_map
         frequency = self.kwargs.pop('frequency', 5)
         running = True
         while running:
@@ -59,7 +65,7 @@ class Monitor:
                 t = concat(msg, ' ', k, ':', method())
                 msg = t
             if len(monitor_timer_map) > 0:
-                msg = concat(msg, 'cur_meth:', monitor_current_method)
+                msg = concat(msg, ' cur_meth:', monitor_current_method)
             print(msg)
             for t in monitor_timer_map.keys():
                 tm = monitor_timer_map.get(t)
