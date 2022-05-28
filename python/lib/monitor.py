@@ -5,6 +5,13 @@ from pytz import timezone
 from datetime import datetime as datingdays
 
 
+def concat(*args):
+    ret_val = ''
+    for n in args:
+        ret_val = ret_val + (n if isinstance(n, str) else str(n))
+    return ret_val
+
+
 class Monitor:
     def __init__(self, **kwargs):
         self.kwargs = kwargs
@@ -16,24 +23,25 @@ class Monitor:
         running = True
         while running:
             time.sleep(frequency)
-            msg = datingdays.now().strftime('%a %b %d %H:%M:%S.')
+            msg = datingdays.now().strftime('%a %b %d %H:%M:%S.%f')[:-4]+':'
             for k in self.kwargs.keys():
                 method = self.kwargs.get(k)
-                msg = msg + ' ' + k + ':' + method()
+                t = concat(msg, ' ', k, ':', method())
+                msg = t
             print(msg)
 
 
 def get_test_one():
-    return 'Hello'
+    return 1.23
 
 
 def get_test_two():
-    return 'Universe'
+    return tuple(['one', 2, 5.0])
 
 
 def main():
     m = Monitor(frequency=2, first=get_test_one, second=get_test_two)
-    time.sleep(20)
+    time.sleep(2000)
     print('Bye!')
 
 
