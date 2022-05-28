@@ -1,4 +1,5 @@
 import os
+import bz2
 import json
 import sys
 import mariadb
@@ -6,7 +7,7 @@ import time
 import hashlib
 import psutil
 from pytz import timezone
-from monitor import Monitor
+from monitor import Monitor, timeit
 from git import Repo, Git
 from os.path import exists
 from shutil import rmtree
@@ -39,17 +40,22 @@ class Cloner:
         self.db_config = None
         self.numstat_req_set = NumstatRequirementSet()
 
+    @timeit
     def establish_dirs(self, owner, repo_name):
+        self.set_current_state('mkdir')
         repo_dir = self.repo_base_dir + '/' + owner + '/' + repo_name
         rslt_dir = self.result_base_dir + '/' + owner + '/' + repo_name
         update = make_dir(repo_dir)
         make_dir(rslt_dir)
         return (repo_dir, rslt_dir, update)
 
+    @timeit
     def cleanup(self, owner, repo_name):
+        self.set_current_state('rmdir')
         rmtree(self.repo_base_dir + '/' + owner + '/' + repo_name)
         rmtree(self.repo_base_dir + '/' + owner)
 
+    @timeit
     def load_db_info(self):
         if self.db_config is None:
             with open('./db.cfg', 'r') as r:
@@ -68,7 +74,9 @@ class Cloner:
             self.cursor = self.database.cursor()
         return self.cursor
 
+    @timeit
     def reserve_next_repo(self):
+        self.set_current_state('resNextRepo')
         owner = None
         repo_name = None
 
@@ -80,7 +88,9 @@ class Cloner:
             repo_name = rslt[1]
         return owner, repo_name
 
+    @timeit
     def clone_pull_repo(self, url, repo_path, update_repo, json_stats_file_name):
+        self.set_current_state('cloneRepo')
         cache_date = None
         if not update_repo:
             Repo.clone_from(url, repo_path)
@@ -91,7 +101,7 @@ class Cloner:
             if exists(json_stats_file_name):
                 try:
                     cache_date = os.path.getmtime(json_stats_file_name)
-                    with open(json_stats_file_name) as j:
+                    with bz2.open(json_stats_file_name, 'rb') as j:
                         self.numstat_req_set.resultArray = json.load(j)
                 except Exception as e:
                     cache_date = None
@@ -99,6 +109,7 @@ class Cloner:
         print(datingdays.now().isoformat(), 'Repo cloned/pulled')
         return cache_date
 
+    @timeit
     def check_if_updates_are_necessary(self, cache_date, rep):
         need_stats = True
         if cache_date is not None:
@@ -126,11 +137,13 @@ class Cloner:
                 # Date:   Mon May 16 19:14:08 2022 +0200
         return need_stats
 
+    @timeit
     def gather_stats_for_repo(self, owner, repo_name):
+        self.set_current_state('gen_stat')
         repo = RepoName(owner, repo_name)
         print(datingdays.now().isoformat(), 'Processing', owner, repo_name)
         repo_path, result_path, update_repo = self.establish_dirs(owner, repo_name)
-        json_stats_file_name = result_path + '/commit_stat_log.json'
+        json_stats_file_name = result_path + '/commit_stat_log.json.bz2'
         numstat_req_set = NumstatRequirementSet()
         last_date = datingdays.fromisoformat('1972-12-26T03:23:01.123456-07:00')
 
@@ -150,10 +163,11 @@ class Cloner:
         else:
             print(datingdays.now().isoformat(), 'Skipping', repo_path, 'no changes found.')
 
-        with open(json_stats_file_name, 'w') as out:
+        with bz2.open(json_stats_file_name, 'wb') as out:
             out.write(json.dumps(numstat_req_set.resultArray, indent=2))
         return numstat_req_set
 
+    @timeit
     def store_results_to_database(self, owner, repo_name, numstat_req_set):
         print(datingdays.now().isoformat(), 'writing commit history to database')
         for n in numstat_req_set.resultArray:
@@ -168,6 +182,7 @@ class Cloner:
                                   json.dumps(n['fileTypes'])))
         print(datingdays.now().isoformat(), 'DONE writing commit history to database')
 
+    @timeit
     def store_marker_for_secondary_thread(self, owner, repo_name):
         print(datingdays.now().isoformat(), 'storing job for copying data to database in, well, the database')
         self.cursor.callproc('AddJobToUpdateQueue',
