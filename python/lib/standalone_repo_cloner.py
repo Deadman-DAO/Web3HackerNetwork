@@ -85,7 +85,8 @@ class Cloner:
             rslt = self.cursor.fetchone()
             owner = rslt[0]
             repo_name = rslt[1]
-        self.current_repo = owner+'.'+repo_name
+        if owner is not None and repo_name is not None:
+            self.current_repo = owner+'.'+repo_name
         return owner, repo_name
 
     def get_current_repo(self):
