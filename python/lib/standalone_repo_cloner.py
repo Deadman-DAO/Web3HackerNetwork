@@ -143,8 +143,10 @@ class Cloner:
         out.write('[\n')
         been_there = False
         for n in commit_array:
-            if not been_there:
+            if been_there:
                 out.write(',\n')
+            else:
+                been_there = True
             out.write(json.dumps(n, indent=2))
         out.write(']\n')
 
