@@ -6,6 +6,7 @@ import time
 from pytz import timezone
 import hashlib
 import traceback
+from monitor import timeit
 
 
 class File:
@@ -407,6 +408,7 @@ class Summary(Requirement):
 
 
 class RequirementSet:
+    @timeit
     def processDocument(self, multiLineString):
         for line in multiLineString.splitlines():
             self.testline(line)
