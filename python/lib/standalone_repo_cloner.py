@@ -145,7 +145,7 @@ class Cloner:
         for n in commit_array:
             if not been_there:
                 out.write(',\n')
-            out.write(json.dumps(n))
+            out.write(json.dumps(n, indent=2))
         out.write(']\n')
 
 
