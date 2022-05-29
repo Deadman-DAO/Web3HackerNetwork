@@ -102,7 +102,7 @@ class Cloner:
             if exists(json_stats_file_name):
                 try:
                     cache_date = os.path.getmtime(json_stats_file_name)
-                    with open(json_stats_file_name, 'r') as j:
+                    with bz2.open(json_stats_file_name, 'r') as j:
                         self.numstat_req_set.resultArray = json.load(j)
                 except Exception as e:
                     cache_date = None
@@ -154,7 +154,7 @@ class Cloner:
         repo = RepoName(owner, repo_name)
         print(datingdays.now().isoformat(), 'Processing', owner, repo_name)
         repo_path, result_path, update_repo = self.establish_dirs(owner, repo_name)
-        json_stats_file_name = result_path + '/commit_stat_log.json'
+        json_stats_file_name = result_path + '/commit_stat_log.json.bz2'
         numstat_req_set = NumstatRequirementSet()
         last_date = datingdays.fromisoformat('1972-12-26T03:23:01.123456-07:00')
 
@@ -174,7 +174,7 @@ class Cloner:
         else:
             print(datingdays.now().isoformat(), 'Skipping', repo_path, 'no changes found.')
 
-        with open(json_stats_file_name, 'w') as out:
+        with bz2.open(json_stats_file_name, 'w') as out:
             self.jsonize_it(out, numstat_req_set.resultArray)
         return numstat_req_set
 

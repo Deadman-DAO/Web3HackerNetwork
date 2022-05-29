@@ -24,6 +24,7 @@ class Tracker:
 
 monitor_timer_map = {}
 monitor_current_method = ''
+monitor_call_stack = []
 
 
 def timeit(func):
@@ -31,7 +32,9 @@ def timeit(func):
     def timeit_wrapper(*args, **kwargs):
         global monitor_current_method
         global monitor_timer_map
+        global monitor_call_stack
         monitor_current_method = func.__name__;
+        monitor_call_stack.insert(0, monitor_current_method)
         start_time = datingdays.now().timestamp()
         result = func(*args, **kwargs)
         end_time = datingdays.now().timestamp()
@@ -42,6 +45,8 @@ def timeit(func):
             monitor_timer_map[func.__name__] = t
         t.call_count += 1
         t.exec_time += total_time
+        monitor_call_stack.remove(monitor_call_stack[0])
+        monitor_current_method = monitor_call_stack[0] if len(monitor_call_stack > 0) else 'Unknown!'
         return result
     return timeit_wrapper
 
@@ -55,6 +60,7 @@ class Monitor:
     def run(self):
         global monitor_current_method
         global monitor_timer_map
+        global monitor_call_stack
         frequency = self.kwargs.pop('frequency', 5)
         running = True
         while running:
@@ -65,7 +71,7 @@ class Monitor:
                 t = concat(msg, ' ', k, ':', method())
                 msg = t
             if len(monitor_timer_map) > 0:
-                msg = concat(msg, ' cur_meth:', monitor_current_method)
+                msg = concat(msg, ' cur_meth:', monitor_current_method, '(', len(monitor_call_stack), ')')
             print(msg)
             for t in monitor_timer_map.keys():
                 tm = monitor_timer_map.get(t)
