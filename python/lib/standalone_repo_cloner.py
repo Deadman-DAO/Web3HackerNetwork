@@ -190,8 +190,8 @@ class Cloner:
                                   n['Author'],
                                   datingdays.fromisoformat(n['Date']),
                                   n['orig_timezone'],
-                                  json.dumps(n['fileTypes'],
-                                  json.dumps(n['file_list']))))
+                                  json.dumps(n['fileTypes']),
+                                  json.dumps(n['file_list'])))
         print(datingdays.now().isoformat(), 'DONE writing commit history to database')
 
     @timeit
