@@ -102,7 +102,7 @@ class Cloner:
             if exists(json_stats_file_name):
                 try:
                     cache_date = os.path.getmtime(json_stats_file_name)
-                    with bz2.open(json_stats_file_name, 'rb') as j:
+                    with open(json_stats_file_name, 'r') as j:
                         self.numstat_req_set.resultArray = json.load(j)
                 except Exception as e:
                     cache_date = None
@@ -139,11 +139,22 @@ class Cloner:
         return need_stats
 
     @timeit
+    def jsonize_it(self, out, commit_array):
+        out.write('[\n')
+        been_there = False
+        for n in commit_array:
+            if not been_there:
+                out.write(',\n')
+            out.write(json.dumps(n))
+        out.write(']\n')
+
+
+    @timeit
     def gather_stats_for_repo(self, owner, repo_name):
         repo = RepoName(owner, repo_name)
         print(datingdays.now().isoformat(), 'Processing', owner, repo_name)
         repo_path, result_path, update_repo = self.establish_dirs(owner, repo_name)
-        json_stats_file_name = result_path + '/commit_stat_log.json.bz2'
+        json_stats_file_name = result_path + '/commit_stat_log.json'
         numstat_req_set = NumstatRequirementSet()
         last_date = datingdays.fromisoformat('1972-12-26T03:23:01.123456-07:00')
 
@@ -163,8 +174,8 @@ class Cloner:
         else:
             print(datingdays.now().isoformat(), 'Skipping', repo_path, 'no changes found.')
 
-        with bz2.open(json_stats_file_name, 'wb') as out:
-            out.write(json.dumps(numstat_req_set.resultArray, indent=2))
+        with open(json_stats_file_name, 'w') as out:
+            self.jsonize_it(out, numstat_req_set.resultArray)
         return numstat_req_set
 
     @timeit
@@ -179,7 +190,8 @@ class Cloner:
                                   n['Author'],
                                   datingdays.fromisoformat(n['Date']),
                                   n['orig_timezone'],
-                                  json.dumps(n['fileTypes'])))
+                                  json.dumps(n['fileTypes'],
+                                  json.dumps(n['file_list']))))
         print(datingdays.now().isoformat(), 'DONE writing commit history to database')
 
     @timeit
