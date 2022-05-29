@@ -102,7 +102,7 @@ class Cloner:
             if exists(json_stats_file_name):
                 try:
                     cache_date = os.path.getmtime(json_stats_file_name)
-                    with bz2.open(json_stats_file_name, 'r') as j:
+                    with bz2.open(json_stats_file_name, 'rt') as j:
                         self.numstat_req_set.resultArray = json.load(j)
                 except Exception as e:
                     cache_date = None
@@ -174,7 +174,7 @@ class Cloner:
         else:
             print(datingdays.now().isoformat(), 'Skipping', repo_path, 'no changes found.')
 
-        with bz2.open(json_stats_file_name, 'w') as out:
+        with bz2.open(json_stats_file_name, 'wt') as out:
             self.jsonize_it(out, numstat_req_set.resultArray)
         return numstat_req_set
 
