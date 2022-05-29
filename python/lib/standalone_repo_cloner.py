@@ -184,11 +184,20 @@ class Cloner:
     def store_results_to_database(self, owner, repo_name, numstat_req_set):
         print(datingdays.now().isoformat(), 'writing commit history to database')
         for n in numstat_req_set.resultArray:
+            auth = n['Author']
+            safe_auth = 'Unsafe Format'
+            try:
+                safe_auth = auth.encode('utf-8')
+                auth_hash = hashlib.md5(safe_auth).hexdigest()
+            except Exception as e:
+                b = bytearray(auth, 'unicode-escape')
+                auth_hash = hashlib.md5(b).hexdigest()
+
             self.cursor.callproc('InsertCommit',
                                  (owner,
                                   repo_name,
                                   n['commit'],
-                                  hashlib.md5(n['Author'].encode('utf-8')).hexdigest(),
+                                  auth_hash,
                                   n['Author'],
                                   datingdays.fromisoformat(n['Date']),
                                   n['orig_timezone'],
