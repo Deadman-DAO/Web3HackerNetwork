@@ -46,7 +46,7 @@ def timeit(func):
         t.call_count += 1
         t.exec_time += total_time
         monitor_call_stack.remove(monitor_call_stack[0])
-        monitor_current_method = monitor_call_stack[0] if len(monitor_call_stack > 0) else 'Unknown!'
+        monitor_current_method = monitor_call_stack[0] if len(monitor_call_stack) > 0 else 'Unknown!'
         return result
     return timeit_wrapper
 
