@@ -1,11 +1,14 @@
 from datetime import datetime as datingdays
 from pytz import timezone
 
-_system_tz = timezone('UTC')
+_utc_tz = timezone('UTC')
+_local_tz = datingdays.now().astimezone().tzinfo
 
 
-def parse(date_str):
-    global _system_tz
+def parse(date_str, utc=True):
+    global _utc_tz
+    global _local_tz
+    tz = _utc_tz if utc else _local_tz
     date = None
     original_timezone = None
     if date_str.endswith('Z'):
@@ -14,7 +17,7 @@ def parse(date_str):
     try:
         date = datingdays.fromisoformat(date_str)
         original_timezone = str(date.tzinfo)
-        then = datingdays.now(_system_tz)
+        then = datingdays.now(tz)
         date = then - (then - date)
     except ValueError as ve:
         print('Error parsing date:',date_str)

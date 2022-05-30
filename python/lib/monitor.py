@@ -1,7 +1,7 @@
 import os
 import threading
 import time
-from pytz import timezone
+import psutil
 from datetime import datetime as datingdays
 from functools import wraps
 
@@ -25,6 +25,10 @@ class Tracker:
 monitor_timer_map = {}
 monitor_current_method = ''
 monitor_call_stack = []
+
+
+def mem_info():
+    return psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2
 
 
 def timeit(func):
