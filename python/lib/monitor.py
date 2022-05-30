@@ -4,6 +4,7 @@ import time
 import psutil
 from datetime import datetime as datingdays
 from functools import wraps
+from multiprocessing import Lock
 
 
 def concat(*args):
@@ -61,6 +62,14 @@ class Monitor:
         self.thread = threading.Thread(target=self.run, daemon=True)
         self.thread.start()
 
+    def set_new_kwargs(self, **kwargs):
+        self.kwargs = kwargs
+
+    def append_kwargs(self, **kwargs):
+        print('before', self.kwargs)
+        self.set_new_kwargs(**kwargs, **self.kwargs)
+        print('after', self.kwargs)
+
     def run(self):
         global monitor_current_method
         global monitor_timer_map
@@ -80,6 +89,28 @@ class Monitor:
             for t in monitor_timer_map.keys():
                 tm = monitor_timer_map.get(t)
                 print('\t', t, ' ', tm)
+
+
+singleton = None
+
+
+def get_singleton(**kwargs):
+    global singleton
+    if singleton is None:
+        singleton = Monitor(**kwargs)
+        print('Constructed NEW (singleton) Monitor instance')
+    else:
+        print('Appending kwargs to existing Monitor instance')
+        singleton.append_kwargs(**kwargs)
+        print(singleton.kwargs)
+    return singleton
+
+
+class MultiprocessMonitor:
+    def __init__(self, lock, **kwargs):
+        lock.acquire()
+        self.single = get_singleton(**kwargs)
+        lock.release()
 
 
 def get_test_one():

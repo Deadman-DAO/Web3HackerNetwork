@@ -3,7 +3,7 @@ import os
 import time
 import json
 from db_dependent_class import DBDependent
-from monitor import Monitor
+from monitor import MultiprocessMonitor
 from monitor import timeit
 from monitor import mem_info
 from socket import gethostname
@@ -11,11 +11,13 @@ from datetime import datetime as datingdays
 import iso_date_parser
 from pytz import timezone
 import requests
+import multiprocessing
 
 
 class AuthorCommitHistoryProcessor(DBDependent):
-    def __init__(self):
+    def __init__(self, git_lock):
         super().__init__()
+        self.git_lock = git_lock
         self.get_cursor()
         self.repo_counter = {}
         self.call_count = 0
@@ -42,19 +44,23 @@ class AuthorCommitHistoryProcessor(DBDependent):
         return self.total_count
 
     def format_user_url(self, user_id):
-        var = self.urlPrefix+"?q=author:"+user_id+'+author-date:<'+self.startDate.isoformat()+'&sort=author-date&order=desc&per_page=100&page=1'
+        var = self.urlPrefix + "?q=author:" + user_id + '+author-date:<' + self.startDate.isoformat() + '&sort=author-date&order=desc&per_page=100&page=1'
         return var
 
     def load_hacker_url(self, user_id, recurse_count=1):
         ret_val = None
-        resp = requests.get(self.format_user_url(user_id), headers=self.headers)
+        self.git_lock.acquire()
+        try:
+            resp = requests.get(self.format_user_url(user_id), headers=self.headers)
+        finally:
+            self.git_lock.release()
         if resp.status_code == 200:
             time.sleep(1)
             ret_val = resp.json()
         elif resp.status_code == 403:
-            print('Rate limit EXCEEDED.  Sleeping for a bit. (recursive_count=', recurse_count,')')
+            print('Rate limit EXCEEDED.  Sleeping for a bit. (recursive_count=', recurse_count, ')')
             time.sleep(recurse_count * 60)
-            ret_val = self.load_hacker_url(user_id, recurse_count+1)
+            ret_val = self.load_hacker_url(user_id, recurse_count + 1)
         else:
             print('Status code returned:', resp.status_code)
             req_headers = resp.request.headers
@@ -66,7 +72,7 @@ class AuthorCommitHistoryProcessor(DBDependent):
     @timeit
     def reserve_next_user(self):
         self.cursor.callproc(self.reserve_next_user_proc,
-                        (self.machine_name, None, None))
+                             (self.machine_name, None, None))
         if self.cursor.sp_outparams:
             tup = self.cursor.fetchone()
             self.user_id = tup[0]
@@ -85,7 +91,8 @@ class AuthorCommitHistoryProcessor(DBDependent):
 
     def main(self):
         self.running = True
-        m = Monitor(
+        m = MultiprocessMonitor(
+            self.git_lock,
             frequency=10,
             mem=mem_info,
             curjob=self.get_cur_job,
@@ -142,7 +149,7 @@ class AuthorCommitHistoryProcessor(DBDependent):
     def call_update_repo(self, owner_login, repo_name, commit_date, orig_time_zone, commit_hash, author_hash):
         self.cursor.callproc(self.add_update_repo_proc, (
             owner_login, repo_name, commit_date, orig_time_zone, commit_hash, author_hash)
-        )
+                             )
 
     @timeit
     def process_author(self):
@@ -167,13 +174,9 @@ class AuthorCommitHistoryProcessor(DBDependent):
                                           commit_date, orig_time_zone,
                                           n['sha'], self.alias_hash)
 
-                if self.total_count < 100 and self.incomplete_results == False:
+                if self.total_count < 100 and not self.incomplete_results:
                     done = True
 
 
-def main():
-    AuthorCommitHistoryProcessor().main()
-
-
 if __name__ == "__main__":
-    main()
+    AuthorCommitHistoryProcessor(multiprocessing.RLock()).main()
