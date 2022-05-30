@@ -1,13 +1,8 @@
-CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`InsertCommit`(
-	owner_id varchar(128), 
-	repo_name varchar(128), 
-	commit_hash char(40), 
-	author_hash char(32), 
-	author_alias varchar(1024),
-	date datetime, 
-	orig_timezone varchar(16),
-	file_types json,
-	file_listing json)
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`InsertCommit`(IN owner_id varchar(128), IN repo_name varchar(128),
+                                                    IN commit_hash char(40), IN author_hash char(32),
+                                                    IN author_alias varchar(1024), IN date datetime,
+                                                    IN orig_timezone varchar(16), IN file_types longtext,
+                                                    IN file_list longtext)
     MODIFIES SQL DATA
 BEGIN
 	declare alias_id int default -1;
@@ -48,26 +43,26 @@ BEGIN
 	
 	set repo_commit_id = -1;
     select rc.id into repo_commit_id from repo_commit rc where rc.commit_id = commit_Id and rc.repo_id = repo_id;
-	/* 
-	call debug(concat('commit_id=',commit_id,',repo_commit_id=',repo_commit_id)); 
-	 */
+	
 
 	if repo_commit_id = -1 then
 		insert into repo_commit (commit_id, repo_id) select commit_id, repo_id;
-		if new_commit_record then
-			/* no need to insert commit_stats if that repo_commit reference is already there */
-			select json_keys(file_types) into extension_set;
-			select json_value(extension_set, concat('$[',key_idx,']')) into extension;
-	 		while key_idx < json_length(extension_set) do
-				select json_query(file_types, concat('$.',extension)) into val;
-				select json_value(val, '$.inserts') into inserts;
-				select json_value(val, '$.deletes') into deletes;
-				select json_value(val, '$.occurrences') into occurrences;
-				insert into commit_stats (commit_id, file_type, insert_count, delete_count, occurrence_count)
-					select commit_id, left(extension, 128), inserts, deletes, occurrences;					
-				set key_idx = key_idx + 1;
-			end WHILE;
-		end if;
+	end if;
+
+	set @been_there = 0;
+	select count(*) into @been_there from commit_stats cs where cs.commit_id = commit_id;
+	if (@been_there < 1) and (file_types is not null) then
+		select json_keys(file_types) into extension_set;
+		select json_value(extension_set, concat('$[',key_idx,']')) into extension;
+ 		while key_idx < json_length(extension_set) do
+			select json_query(file_types, concat('$.',extension)) into val;
+			select json_value(val, '$.inserts') into inserts;
+			select json_value(val, '$.deletes') into deletes;
+			select json_value(val, '$.occurrences') into occurrences;
+			insert into commit_stats (commit_id, file_type, insert_count, delete_count, occurrence_count)
+				select commit_id, left(extension, 128), inserts, deletes, occurrences;					
+			set key_idx = key_idx + 1;
+		end WHILE;
 	End IF;
 
 

@@ -2,6 +2,7 @@ CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`WarningResetALLTables`(
 BEGIN
 	drop table if exists repo_reserve;
 	drop table if exists repo_commit;
+	drop table if exists repo_eval;
 	drop table if exists repo;
 	drop table if exists commit_stats ;
 	drop table if exists commit;
@@ -61,5 +62,7 @@ BEGIN
 	) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 
 	call CreateRepoReserveTable();
+
+	call CreateRepoEvalTable();
 
 END

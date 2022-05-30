@@ -7,8 +7,10 @@ BEGIN
 	declare repo_id int;
 	declare success bit;
 	select id, owner, name into repo_id, repo_owner, repo_name from (
-		select r.id, r.owner, r.name, (((max_date - min_date)/day_millies)-((now() - max_date)/day_millies))+commit_count 
+		select r.id, r.owner, r.name, 
+			(((((re.pushed_at  - re.created_at)/day_millies)-((now() - re.pushed_at)/day_millies))+commit_count)/(re.parallel_repo_count+1))+commit_count_last_year
 		  from repo r
+		join repo_eval re on re.repo_id = r.id
 		left join repo_reserve rr on rr.repo_id = r.id
 		where min_date is not null and rr.repo_id is null
 		order by 4 DESC 
