@@ -16,6 +16,7 @@ from socket import gethostname
 from datetime import datetime as datingdays
 from kitchen_sink_class import RepoName
 from commit_log_parser import NumstatRequirementSet
+from db_dependent_class import DBDependent
 
 
 def make_dir(dirName):
@@ -29,7 +30,7 @@ def mem_info():
     return psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2
 
 
-class Cloner:
+class Cloner(DBDependent):
     def __init__(self):
         self.repo_base_dir = './repos'
         self.result_base_dir = './results'
@@ -53,26 +54,6 @@ class Cloner:
     def cleanup(self, owner, repo_name):
         rmtree(self.repo_base_dir + '/' + owner + '/' + repo_name)
         rmtree(self.repo_base_dir + '/' + owner)
-
-    @timeit
-    def load_db_info(self):
-        if self.db_config is None:
-            with open('./db.cfg', 'r') as r:
-                self.db_config = json.load(r)
-
-    def get_cursor(self):
-        if self.database is None:
-            self.load_db_info()
-            self.database = mariadb.connect(
-                port=self.db_config['port'],
-                host=self.db_config['host'],
-                user=self.db_config['user'],
-                password=self.db_config['password'],
-                database=self.db_config['database'],
-                autocommit=(self.db_config['autocommit'] == 'true'))
-            self.cursor = self.database.cursor()
-        return self.cursor
-
 
     @timeit
     def reserve_next_repo(self):

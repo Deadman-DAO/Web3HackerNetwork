@@ -68,7 +68,7 @@ class Query:
     def __init__(self):
         self.MAX_LOOPS = 5
         self.urlPrefix = 'https://api.github.com/search/commits'
-        self.startDate = datingdays.now(timezone('US/Arizona'))
+        self.startDate = datingdays.now(timezone('UTC'))
         self.hackers = {}
         self.repos = {}
         self.aliases = {}
