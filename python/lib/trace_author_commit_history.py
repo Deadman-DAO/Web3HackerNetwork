@@ -8,7 +8,7 @@ from monitor import timeit
 from monitor import mem_info
 from socket import gethostname
 from datetime import datetime as datingdays
-from python.lib import iso_date_parser
+import iso_date_parser
 from pytz import timezone
 import requests
 
