@@ -5,10 +5,12 @@ _utc_tz = timezone('UTC')
 _local_tz = datingdays.now().astimezone().tzinfo
 
 
-def parse(date_str, utc=True):
+def parse(date_str, **kwargs):
     global _utc_tz
     global _local_tz
-    tz = _utc_tz if utc else _local_tz
+    tz = _utc_tz if 'local' not in kwargs else _local_tz
+    if 'tz' in kwargs:
+        tz = timezone(kwargs['tz'])
     date = None
     original_timezone = None
     if date_str.endswith('Z'):

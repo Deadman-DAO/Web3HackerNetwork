@@ -158,7 +158,7 @@ class AuthorCommitHistoryProcessor(DBDependent):
                     commit = n['commit']
                     com_auth = commit['author']
                     commit_date, orig_time_zone = iso_date_parser.parse(com_auth['date'])
-                    self.startDate, orig_time_zone = iso_date_parser.parse(com_auth['date'], False)
+                    self.startDate, orig_time_zone = iso_date_parser.parse(com_auth['date'], tz='US/Arizona')
                     repo = n['repository']
                     repo_name = repo['name']
                     repo_owner = repo['owner']
