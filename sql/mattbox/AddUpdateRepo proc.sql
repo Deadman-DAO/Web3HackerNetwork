@@ -1,7 +1,10 @@
 CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`addUpdateRepo`(
 in owner_name varchar(128),
 in repo_name varchar(128),
-in commit_date datetime)
+in commit_date datetime,
+in commit_tz varchar(16),
+in commit_hash char(40),
+in auth_hash char(32))
 BEGIN
 	declare _min_date datetime default null;
 	declare _max_date datetime default null;
@@ -26,4 +29,5 @@ select id, commit_count, min_date, max_date into repo_id, cnt, _min_date, _max_d
 				end
 		 where id = repo_id;
 	end if;
+	call insertCommit(owner_name, repo_name, commit_hash, auth_hash, null, commit_date, commit_tz, null, null);
 END
