@@ -60,7 +60,11 @@ class GitHubUserIDFinder(DBDependent):
     @timeit
     def retrieve_commit(self, author, repo_owner, repo_name, commit_hash, recurse_count=0):
         reply = None
-        url = format_id_check_url(repo_owner, repo_name, commit_hash)
+        try:
+            url = format_id_check_url(repo_owner, repo_name, commit_hash)
+        except TypeError as te:
+            print('Error forming fetch commit URL', author, repo_owner, repo_name, commit_hash, te)
+            return reply
 
         self.git_lock.acquire()
         try:
