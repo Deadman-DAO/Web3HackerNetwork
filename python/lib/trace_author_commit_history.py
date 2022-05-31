@@ -110,7 +110,7 @@ class AuthorCommitHistoryProcessor(DBDependent):
 
     @timeit
     def sleep_n_load(self):
-        time.sleep(2)  # Don't over stay our welcome - Can't exceed 3600/hr, let alone 5000
+        time.sleep(1)  # Don't over stay our welcome - Can't exceed 3600/hr, let alone 5000
         body = self.load_hacker_url(self.user_id)
         self.call_count += 1
         if self.call_count % 25 == 0:

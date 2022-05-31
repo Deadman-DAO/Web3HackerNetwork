@@ -66,9 +66,7 @@ class Monitor:
         self.kwargs = kwargs
 
     def append_kwargs(self, **kwargs):
-        print('before', self.kwargs)
         self.set_new_kwargs(**kwargs, **self.kwargs)
-        print('after', self.kwargs)
 
     def run(self):
         global monitor_current_method
@@ -102,7 +100,6 @@ def get_singleton(**kwargs):
     else:
         print('Appending kwargs to existing Monitor instance')
         singleton.append_kwargs(**kwargs)
-        print(singleton.kwargs)
     return singleton
 
 

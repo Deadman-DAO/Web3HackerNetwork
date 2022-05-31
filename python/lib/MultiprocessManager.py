@@ -4,6 +4,7 @@ import time
 from trace_author_commit_history import AuthorCommitHistoryProcessor
 from monitor import MultiprocessMonitor
 from monitor import timeit
+from GitHubUserIDFinder import GitHubUserIDFinder
 
 
 class ChildProcessContainer(threading.Thread):
@@ -44,7 +45,7 @@ class MultiprocessManager:
 
     def main(self):
         self.subprocesses.append(ChildProcessContainer(AuthorCommitHistoryProcessor(self.lock)))
-        self.subprocesses.append(ChildProcessContainer(TestClass(self.lock)))
+        self.subprocesses.append(ChildProcessContainer(GitHubUserIDFinder(self.lock)))
         for n in self.subprocesses:
             n.join()
 
