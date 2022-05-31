@@ -150,7 +150,9 @@ class AuthorCommitHistoryProcessor(DBDependent):
         self.cursor.callproc(self.add_update_repo_proc, (
             owner_login, repo_name, commit_date, orig_time_zone, commit_hash, author_hash)
                              )
-
+    @timeit
+    def call_update_repo_batch(self, array):
+        self.cursor.executemany('{ CALL w3hacknet.addUpdateRepo(?,?,?,?,?,?) }', array)
     @timeit
     def process_author(self):
         done = False
@@ -161,6 +163,7 @@ class AuthorCommitHistoryProcessor(DBDependent):
             self.body = self.sleep_n_load()
             cont_inue, done = self.evaluate_document()
             if cont_inue:
+                param_array = []
                 for n in self.array:
                     commit = n['commit']
                     com_auth = commit['author']
@@ -170,9 +173,11 @@ class AuthorCommitHistoryProcessor(DBDependent):
                     repo_name = repo['name']
                     repo_owner = repo['owner']
                     owner_login = repo_owner['login']
-                    self.call_update_repo(owner_login, repo_name,
-                                          commit_date, orig_time_zone,
-                                          n['sha'], self.alias_hash)
+                    param_array.append((owner_login, repo_name,
+                                        commit_date, orig_time_zone,
+                                        n['sha'], self.alias_hash))
+                if len(param_array) > 0:
+                    self.call_update_repo_batch(param_array)
 
                 if self.total_count < 100 and not self.incomplete_results:
                     done = True
