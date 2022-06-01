@@ -8,6 +8,7 @@ from datetime import datetime as datingdays
 import iso_date_parser
 from sys import settrace
 
+
 class Contributor:
     def __init__(self, login):
         self.login = login
@@ -54,7 +55,7 @@ class Investigator(DBDependent, GitHubClient):
     def form_activity_url(self):
         return ''.join((self.form_repo_url(), self.url_activity))
 
-#    @timeit
+    @timeit
     def reserve_new_repo(self):
         success = False
         self.get_cursor().callproc('ReserveNextRepoForEvaluation', [self.machine_name])
@@ -65,7 +66,7 @@ class Investigator(DBDependent, GitHubClient):
             success = True
         return success
 
-#    @timeit
+    @timeit
     def fetch_repo_info(self):  # Raises StopIteration Exception
         json = self.fetch_json_with_lock(self.form_repo_url())
         if json is None:
@@ -81,7 +82,7 @@ class Investigator(DBDependent, GitHubClient):
         self.network_count = fetch_json_value('network_count', json)
         self.subscribers_count = fetch_json_value('subscribers_count', json)
 
-#    @timeit
+    @timeit
     def fetch_contributor_info(self):
         json = self.fetch_json_with_lock(self.form_contributors_url())
         if json is None:
@@ -105,7 +106,7 @@ class Investigator(DBDependent, GitHubClient):
                     c.add_week(ts, ttl)
                     self.repo_contributor.add_week(ts, ttl)
 
-#    @timeit
+    @timeit
     def fetch_activity_info(self):
         json = self.fetch_json_with_lock(self.form_activity_url())
         if json is None:
@@ -124,7 +125,7 @@ class Investigator(DBDependent, GitHubClient):
             s += c.change_count
         return s
 
- #   @timeit
+    @timeit
     def write_results_to_database(self):
         array = (self.repo_owner,
                  self.repo_name,
@@ -154,8 +155,9 @@ class Investigator(DBDependent, GitHubClient):
 
         # extracts the line number
         line_no = frame.f_lineno
+        msg = datingdays.now().strftime('%a %b %d %H:%M:%S.%f')[:-4]+':'
 
-        print(f"A {event} encountered in \
+        print(msg, f"A {event} encountered in \
         {func_name}() at line number {line_no} ")
 
         return self.my_tracer

@@ -40,15 +40,16 @@ class GitHubClient:
                          str(self.overload_count)))
 
     def fetch_with_lock(self, url):
+        ret_val = None
         try:
             self.git_hub_lock.acquire()
             time.sleep(1)
-            return requests.get(url, headers=self.headers)
+            ret_val = requests.get(url, headers=self.headers)
         except Exception as e:
             print('Error encountered calling', url, e)
-            return None
         finally:
             self.git_hub_lock.release()
+        return ret_val
 
     def fetch_json_with_lock(self, url, recurse_count=0):
         json_ret_val = None
