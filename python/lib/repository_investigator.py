@@ -72,9 +72,9 @@ class Investigator(DBDependent, GitHubClient):
         if json is None:
             raise StopIteration('Restful Response did not form a parseable JSON document', self.form_repo_url())
 
-        self.created_at = iso_date_parser.parse(fetch_json_value('created_at', json))
-        self.updated_at = iso_date_parser.parse(fetch_json_value('updated_at', json))
-        self.pushed_at = iso_date_parser.parse(fetch_json_value('pushed_at', json))
+        self.created_at, _ = iso_date_parser.parse(fetch_json_value('created_at', json))
+        self.updated_at, _ = iso_date_parser.parse(fetch_json_value('updated_at', json))
+        self.pushed_at, _ = iso_date_parser.parse(fetch_json_value('pushed_at', json))
         self.homepage = fetch_json_value('homepage', json)
         self.size = fetch_json_value('size', json)
         self.watchers_count = fetch_json_value('watchers_count', json)
@@ -127,7 +127,7 @@ class Investigator(DBDependent, GitHubClient):
 
     @timeit
     def write_results_to_database(self):
-        array = [self.repo_owner,
+        array = (self.repo_owner,
                  self.repo_name,
                  self.created_at,
                  self.updated_at,
@@ -138,23 +138,13 @@ class Investigator(DBDependent, GitHubClient):
                  len(self.contributors),
                  self.sum(self.contributors),
                  self.sum([self.repo_last_year])
-                 ]
+                 )
         print(array)
         print(datingdays.fromtimestamp(self.repo_contributor.start_date),
               datingdays.fromtimestamp(self.repo_contributor.end_date),
               datingdays.fromtimestamp(self.repo_last_year.start_date),
               datingdays.fromtimestamp(self.repo_last_year.end_date))
-        self.get_cursor().callproc('EvaluateRepo', (self.repo_owner,
-                                                    self.repo_name,
-                                                    self.created_at,
-                                                    self.updated_at,
-                                                    self.pushed_at,
-                                                    self.homepage,
-                                                    self.size,
-                                                    self.watchers_count,
-                                                    len(self.contributors),
-                                                    self.sum(self.contributors),
-                                                    self.sum([self.repo_last_year])))
+        self.get_cursor().callproc('EvaluateRepo', array)
 
     @timeit
     def sleep_it_off(self):
