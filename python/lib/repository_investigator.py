@@ -65,7 +65,6 @@ class Investigator(DBDependent, GitHubClient):
             success = True
         return success
 
-
     @timeit
     def fetch_repo_info(self):  # Raises StopIteration Exception
         json = self.fetch_json_with_lock(self.form_repo_url())
@@ -81,7 +80,6 @@ class Investigator(DBDependent, GitHubClient):
         self.forks_count = fetch_json_value('forks_count', json)
         self.network_count = fetch_json_value('network_count', json)
         self.subscribers_count = fetch_json_value('subscribers_count', json)
-
 
     @timeit
     def fetch_contributor_info(self):
@@ -119,11 +117,12 @@ class Investigator(DBDependent, GitHubClient):
             if total > 0:
                 self.repo_last_year.add_week(ts, total)
 
-    def sum(self, contrib_array):
-        sum = 0
+    @staticmethod
+    def sum(contrib_array):
+        s = 0
         for c in contrib_array:
-            sum += c.change_count
-        return sum
+            s += c.change_count
+        return s
 
     @timeit
     def write_results_to_database(self):
@@ -139,11 +138,6 @@ class Investigator(DBDependent, GitHubClient):
                  self.sum(self.contributors),
                  self.sum([self.repo_last_year])
                  )
-        print(array)
-        print(datingdays.fromtimestamp(self.repo_contributor.start_date),
-              datingdays.fromtimestamp(self.repo_contributor.end_date),
-              datingdays.fromtimestamp(self.repo_last_year.start_date),
-              datingdays.fromtimestamp(self.repo_last_year.end_date))
         self.get_cursor().callproc('EvaluateRepo', array)
 
     @timeit
