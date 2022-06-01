@@ -68,7 +68,7 @@ class GitHubClient:
         elif reply.status_code == 202:
             self.incomplete_count += 1
             print('GitHub is "still working on"', url)
-            time.sleep(30*recurse_count)
+            time.sleep(30*(recurse_count+1))
             if recurse_count <= self.MAX_LOOPS:
                 json_ret_val = self.fetch_json_with_lock(url, recurse_count+1)
         elif reply.status_code == 200:
