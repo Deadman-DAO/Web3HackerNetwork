@@ -66,19 +66,17 @@ class GitHubUserIDFinder(DBDependent):
             print('Error forming fetch commit URL', author, repo_owner, repo_name, commit_hash, te)
             return reply
 
-        self.git_lock.acquire()
-        try:
+        with self.git_lock:
             time.sleep(1)  # wait a sec
             self.call_count += 1
             reply = requests.get(url, headers=self.headers)
-        finally:
-            self.git_lock.release()
+
         if reply is None:
             self.error_count += 1
             print('No response received from API call to GitHub', author, repo_owner, repo_name, commit_hash, recurse_count)
         elif reply.status_code == 422:
             self.error_count += 1
-            print('ERROR - Status code:', resp.status_code, 'encountered ', url)
+            print('ERROR - Status code:', reply.status_code, 'encountered ', url)
             reply = None
         elif reply.status_code == 403:
             self.overload_count += 1

@@ -11,7 +11,7 @@ from datetime import datetime as datingdays
 import iso_date_parser
 from pytz import timezone
 import requests
-from threading import Thread, Lock
+from threading import Lock
 
 
 class AuthorCommitHistoryProcessor(DBDependent):
@@ -49,11 +49,10 @@ class AuthorCommitHistoryProcessor(DBDependent):
 
     def load_hacker_url(self, user_id, recurse_count=1):
         ret_val = None
-        self.git_lock.acquire()
-        try:
+        with self.git_lock:
+            time.sleep(1)
             resp = requests.get(self.format_user_url(user_id), headers=self.headers)
-        finally:
-            self.git_lock.release()
+
         if resp.status_code == 200:
             time.sleep(1)
             ret_val = resp.json()
