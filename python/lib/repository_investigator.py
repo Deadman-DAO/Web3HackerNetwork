@@ -5,6 +5,7 @@ from git_hub_client import GitHubClient
 from git_hub_client import fetch_json_value
 from datetime import datetime as datingdays
 import iso_date_parser
+import json
 from threading import Lock
 
 
@@ -23,13 +24,91 @@ class Contributor:
             self.end_date = week_start_timestamp
 
 
+class ContributorFinder(DBDependent, GitHubClient):
+    def __init__(self, lock):
+        GitHubClient.__init__(self, lock)
+        DBDependent.__init__(self)
+        self.monitor = MultiprocessMonitor(lock, cont=self.get_completed_count)
+        self.running = True
+        self.success = False
+        self.repo_id = -1
+        self.repo_owner = None
+        self.repo_name = None
+        self.url_prefix = 'https://api.github.com/repos/'
+        self.url_contributors = '/stats/contributors'
+        self.contributors = None
+        self.repo_contributor = None
+        self.completed_count = 0
+
+    def form_repo_url(self):
+        return ''.join((self.url_prefix, self.repo_owner, '/', self.repo_name))
+
+    def form_contributors_url(self):
+        return ''.join((self.form_repo_url(), self.url_contributors))
+
+    @timeit
+    def get_next_repo(self):
+        self.success = False
+        self.get_cursor().callproc('ReserveRepoToDiscoverContributors', [self.machine_name])
+        result = self.cursor.fetchone()
+        if result is not None:
+            self.repo_id = result[0]
+            self.repo_owner = result[1]
+            self.repo_name = result[2]
+            self.success = True
+        return self.success
+
+    @timeit
+    def sleepy_time(self):
+        time.sleep(60)
+
+    @timeit
+    def fetch_contributor_info(self):
+        json = self.fetch_json_with_lock(self.form_contributors_url())
+        if json is None:
+            raise StopIteration('Restful Response did not form a parseable JSON document', self.form_contributors_url())
+        self.contributors = []
+        for contributor in json:
+            # JSON doc is an array of "contributor" objects
+            total = fetch_json_value('total', contributor)
+            author = fetch_json_value('author.login', contributor)
+            c = Contributor(author)
+            self.contributors.append(c)
+            weeks = fetch_json_value('weeks', contributor)
+            for w in weeks:
+                ts = fetch_json_value('w', w)
+                added = fetch_json_value('a', w)
+                deleted = fetch_json_value('d', w)
+                changed = fetch_json_value('c', w)
+                ttl = added+deleted+changed
+                if ttl > 0:
+                    c.add_week(ts, ttl)
+
+    @timeit
+    def update_database(self):
+        self.get_cursor().callproc('AddContributors',
+               [self.repo_id, json.dumps(self.contributors, default=lambda o: o.__dict__, sort_keys=True, indent=2)])
+        self.completed_count += 1
+
+    def get_completed_count(self):
+        return self.completed_count
+
+    def main(self):
+
+        while self.running:
+            if self.get_next_repo():
+                self.fetch_contributor_info()
+                self.update_database()
+            else:
+                self.sleepy_time()
+
+
 class Investigator(DBDependent, GitHubClient):
     def __init__(self, lock):
         GitHubClient.__init__(self, lock)
         DBDependent.__init__(self)
         self.repo_last_year = None
         self.url_prefix = 'https://api.github.com/repos/'
-        self.url_contributors = '/stats/contributors'
         self.url_activity = '/stats/commit_activity'
         self.repo_owner = ''
         self.repo_name = ''
@@ -42,14 +121,9 @@ class Investigator(DBDependent, GitHubClient):
         self.forks_count = None
         self.network_count = None
         self.subscribers_count = None
-        self.contributors = None
-        self.repo_contributor = None
 
     def form_repo_url(self):
         return ''.join((self.url_prefix, self.repo_owner, '/', self.repo_name))
-
-    def form_contributors_url(self):
-        return ''.join((self.form_repo_url(), self.url_contributors))
 
     def form_activity_url(self):
         return ''.join((self.form_repo_url(), self.url_activity))
@@ -82,34 +156,10 @@ class Investigator(DBDependent, GitHubClient):
         self.subscribers_count = fetch_json_value('subscribers_count', json)
 
     @timeit
-    def fetch_contributor_info(self):
-        json = self.fetch_json_with_lock(self.form_contributors_url())
-        if json is None:
-            raise StopIteration('Restful Response did not form a parseable JSON document', self.form_contributors_url())
-        self.contributors = []
-        self.repo_contributor = Contributor('contributor_counts')
-        for contributor in json:
-            # JSON doc is an array of "contributor" objects
-            total = fetch_json_value('total', contributor)
-            author = fetch_json_value('author.login', contributor)
-            c = Contributor(author)
-            self.contributors.append(c)
-            weeks = fetch_json_value('weeks', contributor)
-            for w in weeks:
-                ts = fetch_json_value('w', w)
-                added = fetch_json_value('a', w)
-                deleted = fetch_json_value('d', w)
-                changed = fetch_json_value('c', w)
-                ttl = added+deleted+changed;
-                if ttl > 0:
-                    c.add_week(ts, ttl)
-                    self.repo_contributor.add_week(ts, ttl)
-
-    @timeit
     def fetch_activity_info(self):
         json = self.fetch_json_with_lock(self.form_activity_url())
         if json is None:
-            raise StopIteration('Restful Response did not form a parseable JSON document', self.form_contributors_url())
+            raise StopIteration('Restful Response did not form a parseable JSON document', self.form_activity_url())
         self.repo_last_year = Contributor('last_year_activity')
         for week in json:
             total = fetch_json_value('total', week)
@@ -134,8 +184,6 @@ class Investigator(DBDependent, GitHubClient):
                  self.homepage,
                  self.size,
                  self.watchers_count,
-                 len(self.contributors),
-                 self.sum(self.contributors),
                  self.sum([self.repo_last_year])
                  )
         self.get_cursor().callproc('EvaluateRepo', array)
@@ -169,7 +217,6 @@ class Investigator(DBDependent, GitHubClient):
             if self.reserve_new_repo():
                 try:
                     self.fetch_repo_info()
-                    self.fetch_contributor_info()
                     self.fetch_activity_info()
                     self.write_results_to_database()
                 except StopIteration as si:
@@ -179,7 +226,8 @@ class Investigator(DBDependent, GitHubClient):
 
 
 if __name__ == "__main__":
-    Investigator(Lock()).main()
+    _lock = Lock()
+    Investigator(_lock).main()
 else:
     print(__name__)
 

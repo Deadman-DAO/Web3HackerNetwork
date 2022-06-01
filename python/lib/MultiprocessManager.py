@@ -4,6 +4,7 @@ from monitor import MultiprocessMonitor
 from monitor import timeit
 from GitHubUserIDFinder import GitHubUserIDFinder
 from repository_investigator import Investigator
+from repository_investigator import ContributorFinder
 from threading import Thread, Lock
 
 
@@ -47,6 +48,7 @@ class MultiprocessManager:
         self.subprocesses.append(ChildProcessContainer(AuthorCommitHistoryProcessor(self.lock)))
         self.subprocesses.append(ChildProcessContainer(GitHubUserIDFinder(self.lock)))
         self.subprocesses.append(ChildProcessContainer(Investigator(self.lock)))
+        self.subprocesses.append(ChildProcessContainer(ContributorFinder(self.lock)))
         for n in self.subprocesses:
             n.join()
 

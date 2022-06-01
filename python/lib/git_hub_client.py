@@ -26,17 +26,18 @@ class GitHubClient:
         self.overload_count = 0
         self.incomplete_count = 0
         self.good_reply_code_count = 0
-        self.MAX_LOOPS = 6
+        self.MAX_LOOPS_FOR_THROTTLING = 6
+        self.MAX_LOOPS_FOR_202_CONDITION = 3
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
             self.headers = {'Authorization': 'token %s' % self.token}
 
     def get_stats(self):
-        return ' '.join(('GEIO:',
-                         str(self.good_reply_code_count), ',',
-                         str(self.error_count), ',',
-                         str(self.incomplete_count), ',',
+        return ','.join(('GEIO:',
+                         str(self.good_reply_code_count),
+                         str(self.error_count),
+                         str(self.incomplete_count),
                          str(self.overload_count)))
 
     def fetch_with_lock(self, url):
@@ -60,19 +61,19 @@ class GitHubClient:
             print('Maximum calls/hour exceeded! Sleeping', recurse_count, 'minute(s)')
             print('Working on', url)
             time.sleep(60*recurse_count)
-            if recurse_count <= self.MAX_LOOPS:
+            if recurse_count <= self.MAX_LOOPS_FOR_THROTTLING:
                 json_ret_val = self.fetch_json_with_lock(url, recurse_count+1)
         elif reply.status_code == 202:
             self.incomplete_count += 1
             print('GitHub is "still working on"', url)
             time.sleep(30*(recurse_count+1))
-            if recurse_count <= self.MAX_LOOPS:
+            if recurse_count <= self.MAX_LOOPS_FOR_202_CONDITION:
                 json_ret_val = self.fetch_json_with_lock(url, recurse_count+1)
         elif reply.status_code == 200:
             try:
                 self.good_reply_code_count += 1
                 json_ret_val = reply.json()
-            except requests.exceptions.JSONDecodeError as e:
+            except Exception as e:
                 print('Error encountered parsing reply from',url,e)
         else:
             self.error_count += 1
