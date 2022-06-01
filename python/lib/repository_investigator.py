@@ -128,9 +128,9 @@ class Investigator(DBDependent, GitHubClient):
     def write_results_to_database(self):
         array = [self.repo_owner,
                  self.repo_name,
-                 datingdays.fromtimestamp(self.created_at),
-                 datingdays.fromtimestamp(self.updated_at),
-                 datingdays.fromtimestamp(self.pushed_at),
+                 self.created_at,
+                 self.updated_at,
+                 self.pushed_at,
                  self.homepage,
                  self.size,
                  self.watchers_count,
