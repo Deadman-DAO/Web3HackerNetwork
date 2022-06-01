@@ -5,6 +5,7 @@ from monitor import MultiprocessMonitor, timeit
 from git_hub_client import GitHubClient
 from git_hub_client import fetch_json_value
 from datetime import datetime as datingdays
+import iso_date_parser
 
 
 class Contributor:
@@ -71,9 +72,9 @@ class Investigator(DBDependent, GitHubClient):
         if json is None:
             raise StopIteration('Restful Response did not form a parseable JSON document', self.form_repo_url())
 
-        self.created_at = fetch_json_value('created_at', json)
-        self.updated_at = fetch_json_value('updated_at', json)
-        self.pushed_at = fetch_json_value('pushed_at', json)
+        self.created_at = iso_date_parser.parse(fetch_json_value('created_at', json))
+        self.updated_at = iso_date_parser.parse(fetch_json_value('updated_at', json))
+        self.pushed_at = iso_date_parser.parse(fetch_json_value('pushed_at', json))
         self.homepage = fetch_json_value('homepage', json)
         self.size = fetch_json_value('size', json)
         self.watchers_count = fetch_json_value('watchers_count', json)
