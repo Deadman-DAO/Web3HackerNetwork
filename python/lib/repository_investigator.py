@@ -141,8 +141,7 @@ class Investigator(DBDependent, GitHubClient):
                  )
         self.get_cursor().callproc('EvaluateRepo', array)
 
-#    @timeit
-    @staticmethod
+    @timeit
     def sleep_it_off(self):
         time.sleep(60)
 
@@ -163,7 +162,7 @@ class Investigator(DBDependent, GitHubClient):
         return self.my_tracer
 
     def main(self):
-        settrace(self.my_tracer)
+#        settrace(self.my_tracer)
         MultiprocessMonitor(
             self.git_hub_lock,
             eval=self.get_stats)
