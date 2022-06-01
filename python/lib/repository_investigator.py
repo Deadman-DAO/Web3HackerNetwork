@@ -6,18 +6,21 @@ from git_hub_client import GitHubClient
 from git_hub_client import fetch_json_value
 from datetime import datetime as datingdays
 
+
 class Contributor:
     def __init__(self, login):
         self.login = login
         self.change_count = 0
         self.start_date = datingdays.now().timestamp()
         self.end_date = 0
+
     def add_week(self, week_start_timestamp, count):
         self.change_count += count
         if self.start_date > week_start_timestamp:
             self.start_date = week_start_timestamp
         if self.end_date < week_start_timestamp:
             self.end_date = week_start_timestamp
+
 
 class Investigator(DBDependent, GitHubClient):
     def __init__(self, lock):
@@ -27,7 +30,6 @@ class Investigator(DBDependent, GitHubClient):
         self.url_prefix = 'https://api.github.com/repos/'
         self.url_contributors = '/stats/contributors'
         self.url_activity = '/stats/commit_activity'
-        self.lock = lock
         self.repo_owner = ''
         self.repo_name = ''
         self.created_at = None
@@ -39,7 +41,7 @@ class Investigator(DBDependent, GitHubClient):
         self.forks_count = None
         self.network_count = None
         self.subscribers_count = None
-        self.contributors = {}
+        self.contributors = None
         self.repo_contributor = None
 
     def form_repo_url(self):
@@ -116,15 +118,41 @@ class Investigator(DBDependent, GitHubClient):
             if total > 0:
                 self.repo_last_year.add_week(ts, total)
 
+    def sum(self, contrib_array):
+        sum = 0
+        for c in contrib_array:
+            sum += c.change_count
+        return sum
+
     @timeit
     def write_results_to_database(self):
-        print('Nearly there')
+        array = [self.repo_owner,
+                 self.repo_name,
+                 datingdays.fromtimestamp(self.created_at),
+                 datingdays.fromtimestamp(self.updated_at),
+                 datingdays.fromtimestamp(self.pushed_at),
+                 self.homepage,
+                 self.size,
+                 self.watchers_count,
+                 len(self.contributors),
+                 self.sum(self.contributors),
+                 self.sum([self.repo_last_year])
+                 ]
+        print(array)
+        print(datingdays.fromtimestamp(self.repo_contributor.start_date),
+              datingdays.fromtimestamp(self.repo_contributor.end_date),
+              datingdays.fromtimestamp(self.repo_last_year.start_date),
+              datingdays.fromtimestamp(self.repo_last_year.end_date))
+        self.get_cursor().callproc('EvaluateRepo', array)
 
     @timeit
     def sleep_it_off(self):
         time.sleep(60)
 
     def main(self):
+        m = MultiprocessMonitor(
+            self.git_hub_lock,
+            eval=self.get_stats)
         running = True
         while running:
             if self.reserve_new_repo():

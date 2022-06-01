@@ -24,13 +24,20 @@ class GitHubClient:
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
         self.error_count = 0
         self.overload_count = 0
+        self.incomplete_count = 0
         self.good_reply_code_count = 0
         self.MAX_LOOPS = 6
-        self.incomplete_count = 0
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
             self.headers = {'Authorization': 'token %s' % self.token}
+
+    def get_stats(self):
+        return ' '.join(('GEIO:',
+                         str(self.good_reply_code_count), ',',
+                         str(self.error_count), ',',
+                         str(self.incomplete_count), ',',
+                         str(self.overload_count)))
 
     def fetch_with_lock(self, url):
         try:
