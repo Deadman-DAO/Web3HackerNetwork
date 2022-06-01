@@ -1,6 +1,7 @@
 import multiprocessing
 import threading
 import time
+import sys
 from trace_author_commit_history import AuthorCommitHistoryProcessor
 from monitor import MultiprocessMonitor
 from monitor import timeit
