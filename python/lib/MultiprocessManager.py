@@ -42,7 +42,7 @@ class TestClass:
 
 class MultiprocessManager:
     def __init__(self):
-        self.lock = multiprocessing.RLock()
+        self.lock = multiprocessing.Lock()
         self.subprocesses = []
 
     def main(self):
