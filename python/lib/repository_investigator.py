@@ -127,7 +127,7 @@ class Investigator(DBDependent, GitHubClient):
 
     @timeit
     def write_results_to_database(self):
-        array = [self.repo_owner,
+        array = (self.repo_owner,
                  self.repo_name,
                  self.created_at,
                  self.updated_at,
@@ -138,7 +138,7 @@ class Investigator(DBDependent, GitHubClient):
                  len(self.contributors),
                  self.sum(self.contributors),
                  self.sum([self.repo_last_year])
-                 ]
+                 )
         print(array)
         print(datingdays.fromtimestamp(self.repo_contributor.start_date),
               datingdays.fromtimestamp(self.repo_contributor.end_date),
