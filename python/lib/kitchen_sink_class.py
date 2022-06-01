@@ -177,6 +177,7 @@ class Query:
 
     def stop_monitor(self):
         self.monitor_running = False
+
     def start_monitor(self):
         self.thread = threading.Thread(target=self.monitor_alias, daemon=False)
         self.thread.start()

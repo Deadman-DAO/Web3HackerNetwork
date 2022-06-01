@@ -1,10 +1,9 @@
 import os
-import threading
 import time
 import psutil
 from datetime import datetime as datingdays
 from functools import wraps
-from multiprocessing import Lock
+from multiprocessing import Process
 
 
 def concat(*args):
@@ -59,8 +58,8 @@ def timeit(func):
 class Monitor:
     def __init__(self, **kwargs):
         self.kwargs = kwargs
-        self.thread = threading.Thread(target=self.run, daemon=True)
-        self.thread.start()
+        self.process = Process(target=self.run, daemon=True)
+        self.process.start()
 
     def set_new_kwargs(self, **kwargs):
         self.kwargs = kwargs

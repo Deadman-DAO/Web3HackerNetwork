@@ -1,7 +1,5 @@
-import multiprocessing
-import threading
+from multiprocessing import Process, Lock
 import time
-import sys
 from trace_author_commit_history import AuthorCommitHistoryProcessor
 from monitor import MultiprocessMonitor
 from monitor import timeit
@@ -9,7 +7,7 @@ from GitHubUserIDFinder import GitHubUserIDFinder
 from repository_investigator import Investigator
 
 
-class ChildProcessContainer(threading.Thread):
+class ChildProcessContainer(Process):
     def __init__(self, managed_instance):
         super().__init__(target=self.run, daemon=False)
         self.managed_instance = managed_instance
@@ -42,7 +40,7 @@ class TestClass:
 
 class MultiprocessManager:
     def __init__(self):
-        self.lock = multiprocessing.Lock()
+        self.lock = Lock()
         self.subprocesses = []
 
     def main(self):

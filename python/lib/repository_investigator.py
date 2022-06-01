@@ -6,7 +6,6 @@ from git_hub_client import GitHubClient
 from git_hub_client import fetch_json_value
 from datetime import datetime as datingdays
 import iso_date_parser
-from sys import settrace
 
 
 class Contributor:
@@ -162,7 +161,6 @@ class Investigator(DBDependent, GitHubClient):
         return self.my_tracer
 
     def main(self):
-#        settrace(self.my_tracer)
         MultiprocessMonitor(
             self.git_hub_lock,
             eval=self.get_stats)
@@ -181,7 +179,7 @@ class Investigator(DBDependent, GitHubClient):
 
 
 if __name__ == "__main__":
-    Investigator(multiprocessing.RLock()).main()
+    Investigator(multiprocessing.Lock()).main()
 else:
     print(__name__)
 
