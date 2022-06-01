@@ -1,4 +1,3 @@
-import multiprocessing
 import time
 from db_dependent_class import DBDependent
 from monitor import MultiprocessMonitor, timeit
@@ -6,6 +5,7 @@ from git_hub_client import GitHubClient
 from git_hub_client import fetch_json_value
 from datetime import datetime as datingdays
 import iso_date_parser
+from threading import Lock
 
 
 class Contributor:
@@ -179,7 +179,7 @@ class Investigator(DBDependent, GitHubClient):
 
 
 if __name__ == "__main__":
-    Investigator(multiprocessing.Lock()).main()
+    Investigator(Lock()).main()
 else:
     print(__name__)
 

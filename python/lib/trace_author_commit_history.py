@@ -11,7 +11,7 @@ from datetime import datetime as datingdays
 import iso_date_parser
 from pytz import timezone
 import requests
-import multiprocessing
+from threading import Thread, Lock
 
 
 class AuthorCommitHistoryProcessor(DBDependent):
@@ -178,4 +178,4 @@ class AuthorCommitHistoryProcessor(DBDependent):
 
 
 if __name__ == "__main__":
-    AuthorCommitHistoryProcessor(multiprocessing.RLock()).main()
+    AuthorCommitHistoryProcessor(Lock()).main()

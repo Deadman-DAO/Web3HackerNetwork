@@ -3,10 +3,10 @@ import os
 import json
 import requests
 import time
-import multiprocessing
 from socket import gethostname
 from db_dependent_class import DBDependent
 from monitor import MultiprocessMonitor, timeit
+from threading import Lock
 
 
 def format_id_check_url(repo_owner, repo_name, commit_hash):
@@ -148,4 +148,4 @@ class GitHubUserIDFinder(DBDependent):
 
 
 if __name__ == "__main__":
-    GitHubUserIDFinder(multiprocessing.RLock()).main()
+    GitHubUserIDFinder(Lock()).main()
