@@ -104,9 +104,8 @@ def get_singleton(**kwargs):
 
 class MultiprocessMonitor:
     def __init__(self, lock, **kwargs):
-        lock.acquire()
-        self.single = get_singleton(**kwargs)
-        lock.release()
+        with lock:
+            self.single = get_singleton(**kwargs)
 
 
 def get_test_one():
