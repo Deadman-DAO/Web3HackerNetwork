@@ -54,7 +54,6 @@ class AuthorCommitHistoryProcessor(DBDependent):
             resp = requests.get(self.format_user_url(user_id), headers=self.headers)
 
         if resp.status_code == 200:
-            time.sleep(1)
             ret_val = resp.json()
         elif resp.status_code == 403:
             print('Rate limit EXCEEDED.  Sleeping for a bit. (recursive_count=', recurse_count, ')')

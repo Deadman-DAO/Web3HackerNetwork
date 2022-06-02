@@ -6,16 +6,7 @@ from GitHubUserIDFinder import GitHubUserIDFinder
 from repository_investigator import Investigator
 from repository_investigator import ContributorFinder
 from threading import Thread, Lock
-
-
-class ChildProcessContainer(Thread):
-    def __init__(self, managed_instance):
-        super().__init__(target=self.run, daemon=False)
-        self.managed_instance = managed_instance
-        self.start()
-
-    def run(self):
-        self.managed_instance.main()
+from child_process import ChildProcessContainer
 
 
 class TestClass:
@@ -45,10 +36,10 @@ class MultiprocessManager:
         self.subprocesses = []
 
     def main(self):
-        self.subprocesses.append(ChildProcessContainer(AuthorCommitHistoryProcessor(self.lock)))
-        self.subprocesses.append(ChildProcessContainer(GitHubUserIDFinder(self.lock)))
-        self.subprocesses.append(ChildProcessContainer(Investigator(self.lock)))
-        self.subprocesses.append(ChildProcessContainer(ContributorFinder(self.lock)))
+        self.subprocesses.append(ChildProcessContainer(AuthorCommitHistoryProcessor(self.lock), 'achp'))
+        self.subprocesses.append(ChildProcessContainer(GitHubUserIDFinder(self.lock), 'ghuif'))
+        self.subprocesses.append(ChildProcessContainer(Investigator(self.lock), 'inv'))
+        self.subprocesses.append(ChildProcessContainer(ContributorFinder(self.lock), 'contf'))
         for n in self.subprocesses:
             n.join()
 

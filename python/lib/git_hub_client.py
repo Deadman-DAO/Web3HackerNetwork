@@ -1,21 +1,16 @@
 import os
+import threading
 import sys
 from socket import gethostname
 import requests
 import time
+from datetime import datetime as dt
 
 
 def fetch_json_value(key, json):
-    cur_json = json
-    split = key.split('.')
-    if len(split) > 1:
-        for k in split:
-            cur_json = fetch_json_value(k, cur_json)
-        return cur_json
-    else:
-        if key in json:
-            return json[key]
-        raise StopIteration(''.join(('key ', key, ' not found.')))
+    if key in json:
+        return json[key]
+    raise StopIteration(''.join(('key ', key, ' not found.')))
 
 
 class GitHubClient:
@@ -28,6 +23,10 @@ class GitHubClient:
         self.good_reply_code_count = 0
         self.MAX_LOOPS_FOR_THROTTLING = 6
         self.MAX_LOOPS_FOR_202_CONDITION = 3
+        self.html_reply = None
+        self.json_reply = None
+        self.fetch_with_lock_reply = None
+        self.longest_wait = 0
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
@@ -41,43 +40,50 @@ class GitHubClient:
                          str(self.overload_count)))
 
     def fetch_with_lock(self, url):
-        ret_val = None
+        self.fetch_with_lock_reply = None
         with self.git_hub_lock:
             time.sleep(1)
-            ret_val = requests.get(url, headers=self.headers)
+            self.fetch_with_lock_reply = requests.get(url, headers=self.headers)
 
-        return ret_val
+        return self.fetch_with_lock_reply
 
     def fetch_json_with_lock(self, url, recurse_count=0):
-        json_ret_val = None
-        reply = self.fetch_with_lock(url)
+        self.json_reply = None
+        start_time = dt.now().timestamp()
+        with self.git_hub_lock:
+            elapsed = dt.now().timestamp() - start_time;
+            if elapsed > self.longest_wait:
+                self.longest_wait = elapsed
+                print('%0.3f new max time for thread ' % elapsed, threading.current_thread().name)
+            time.sleep(1)
+            self.html_reply = requests.get(url, headers=self.headers)
+            if self.html_reply is not None and self.html_reply.status_code == 200:
+                self.json_reply = self.html_reply.json()
 
-        if reply is None:
+        if self.html_reply is None:
             self.error_count += 1
             print('No response received from API call to GitHub', url)
-        elif reply.status_code == 403:
+        elif self.html_reply.status_code == 403:
             self.overload_count += 1
             # We've exceed our 5000 calls per hour!
             print('Maximum calls/hour exceeded! Sleeping', recurse_count, 'minute(s)')
             print('Working on', url)
-            time.sleep(60*recurse_count)
-            if recurse_count <= self.MAX_LOOPS_FOR_THROTTLING:
-                json_ret_val = self.fetch_json_with_lock(url, recurse_count+1)
-        elif reply.status_code == 202:
+            time.sleep(60*(recurse_count+1))
+            if recurse_count < self.MAX_LOOPS_FOR_THROTTLING:
+                self.json_reply = self.fetch_json_with_lock(url, recurse_count+1)
+        elif self.html_reply.status_code == 202:
             self.incomplete_count += 1
             print('GitHub is "still working on"', url)
             time.sleep(30*(recurse_count+1))
-            if recurse_count <= self.MAX_LOOPS_FOR_202_CONDITION:
-                json_ret_val = self.fetch_json_with_lock(url, recurse_count+1)
-        elif reply.status_code == 200:
-            try:
-                self.good_reply_code_count += 1
-                json_ret_val = reply.json()
-            except Exception as e:
-                print('Error encountered parsing reply from',url,e)
+            if recurse_count < self.MAX_LOOPS_FOR_202_CONDITION:
+                self.json_reply = self.fetch_json_with_lock(url, recurse_count+1)
+                print(hex(threading.current_thread().native_id),threading.current_thread().name,'returning ',
+                      'VALID' if self.json_reply is not None else 'JUNK', 'from post_202 fetch_json_with_lock')
+        elif self.html_reply.status_code == 200:
+            self.good_reply_code_count += 1
         else:
             self.error_count += 1
-            print('ERROR - Status code:', reply.status_code, 'encountered ', url)
+            print('ERROR - Status code:', self.html_reply.status_code, 'encountered ', url)
 
-        return json_ret_val
+        return self.json_reply
 

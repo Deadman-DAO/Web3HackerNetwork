@@ -1,9 +1,11 @@
 import os
+import threading
+
 import time
 import psutil
 from datetime import datetime as datingdays
 from functools import wraps
-from threading import Thread, Lock
+from threading import Thread, current_thread, Lock
 
 
 def concat(*args):
@@ -22,70 +24,111 @@ class Tracker:
         return concat('call_count:',self.call_count,' exec_time:', self.exec_time)
 
 
-monitor_timer_map = {}
-monitor_current_method = ''
-monitor_call_stack = []
+class MonitoredThread(object):
+    def __init__(self):
+        self.monitor_timer_map = {}
+        self.monitor_current_method = ''
+        self.monitor_call_stack = []
+        self.start_time = 0
+        self.result = None
+        self.end_time = 0
+        self.tracker = None
+
+
+monitored_thread_map = {}
+monitor_lock = None
 
 
 def mem_info():
-    return psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2
+    return str(psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2)
+
+
+def get_monitored_thread(thread_name=None):
+    global monitored_thread_map
+    _ct_name = current_thread().name if thread_name is None else thread_name
+    if _ct_name not in monitored_thread_map:
+        monitored_thread_map[_ct_name] = MonitoredThread()
+    return monitored_thread_map[_ct_name]
 
 
 def timeit(func):
     @wraps(func)
     def timeit_wrapper(*args, **kwargs):
-        global monitor_current_method
-        global monitor_timer_map
-        global monitor_call_stack
-        monitor_current_method = func.__name__;
-        monitor_call_stack.insert(0, monitor_current_method)
-        start_time = datingdays.now().timestamp()
-        result = func(*args, **kwargs)
-        end_time = datingdays.now().timestamp()
-        total_time = end_time - start_time
-        t = monitor_timer_map[func.__name__] if func.__name__ in monitor_timer_map  else None
-        if t is None:
-            t = Tracker()
-            monitor_timer_map[func.__name__] = t
-        t.call_count += 1
-        t.exec_time += total_time
-        monitor_call_stack.remove(monitor_call_stack[0])
-        monitor_current_method = monitor_call_stack[0] if len(monitor_call_stack) > 0 else 'Unknown!'
-        return result
+        global monitored_thread_map
+        global monitor_lock
+        mt = get_monitored_thread()
+        mt.monitor_current_method = func.__name__
+        mt.monitor_call_stack.insert(0, mt.monitor_current_method)
+        mt.start_time = datingdays.now().timestamp()
+        mt.result = func(*args, **kwargs)
+        mt.end_time = datingdays.now().timestamp()
+        mt.total_time = mt.end_time - mt.start_time
+        mt.tracker = mt.monitor_timer_map[func.__name__] if func.__name__ in mt.monitor_timer_map  else None
+        if mt.tracker is None:
+            mt.tracker = Tracker()
+            with monitor_lock:
+                mt.monitor_timer_map[func.__name__] = mt.tracker
+        mt.tracker.call_count += 1
+        mt.tracker.exec_time += mt.total_time
+        mt.monitor_call_stack.remove(mt.monitor_call_stack[0])
+        mt.monitor_current_method = mt.monitor_call_stack[0] if len(mt.monitor_call_stack) > 0 else 'Unknown!'
+        return mt.result
     return timeit_wrapper
 
 
 class Monitor:
     def __init__(self, **kwargs):
-        self.kwargs = kwargs
-        self.process = Thread(target=self.run, daemon=True)
+        global monitor_lock
+        if monitor_lock is None:
+            monitor_lock = Lock()
+        self.my_lock = monitor_lock
+        self.process_map = {}
+        self.add_thread(**kwargs)
+        self.process = Thread(target=self.run, daemon=True, name='Monitor')
         self.process.start()
+        self.start_time = datingdays.now().timestamp()
 
-    def set_new_kwargs(self, **kwargs):
-        self.kwargs = kwargs
+    def add_thread(self, **kwargs):
+        ct_name = current_thread().name
+        self.process_map[ct_name] = kwargs
+        global monitored_thread_map
+        monitored_thread_map[ct_name] = MonitoredThread()
 
-    def append_kwargs(self, **kwargs):
-        self.set_new_kwargs(**kwargs, **self.kwargs)
+    def calc_run_time(self):
+        cur_time = datingdays.now().timestamp()
+        return "%0.2f" % (cur_time - self.start_time)
 
     def run(self):
-        global monitor_current_method
-        global monitor_timer_map
-        global monitor_call_stack
-        frequency = self.kwargs.pop('frequency', 5)
+        global monitored_thread_map
+        global monitor_lock
+        specified_frequency = -1
+        for thread_name in self.process_map.keys():
+            ct_kwargs = self.process_map[thread_name]
+            if 'frequency' in ct_kwargs:
+                specified_frequency = ct_kwargs.pop('frequency')
+        frequency = specified_frequency if specified_frequency > 0 else 5
         running = True
         while running:
             time.sleep(frequency)
-            msg = datingdays.now().strftime('%a %b %d %H:%M:%S.%f')[:-4]+':'
-            for k in self.kwargs.keys():
-                method = self.kwargs.get(k)
-                t = concat(msg, ' ', k, ':', method())
-                msg = t
-            if len(monitor_timer_map) > 0:
-                msg = concat(msg, ' cur_meth:', monitor_current_method, '(', len(monitor_call_stack), ')')
-            print(msg)
-            for t in monitor_timer_map.keys():
-                tm = monitor_timer_map.get(t)
-                print('\t', t, ' ', tm)
+            print(''.join((datingdays.now().strftime('%a %b %d %H:%M:%S.%f')[:-4],
+                           ': mem(', mem_info(),
+                           ') runtime(', self.calc_run_time(), ')')))
+            with monitor_lock:
+                for thread_name in self.process_map.keys():
+                    ct_kwargs = self.process_map[thread_name]
+                    msg = ''.join(('   ', thread_name, ':'))
+                    for k in ct_kwargs.keys():
+                        method = ct_kwargs[k]
+                        msg = ''.join((msg, ' ', k, ':', str(method())))
+                        my_mt = get_monitored_thread(thread_name)
+                        if len(my_mt.monitor_timer_map) > 0:
+                            msg = ''.join((msg, ' cur_meth:',
+                                           my_mt.monitor_current_method, '(',
+                                           str(len(my_mt.monitor_call_stack)), ')'))
+                    print(msg)
+                    for _key in my_mt.monitor_timer_map.keys():
+                        _val = my_mt.monitor_timer_map[_key]
+                        print('\t', _key, ' ', _val)
 
 
 singleton = None
@@ -98,7 +141,7 @@ def get_singleton(**kwargs):
         print('Constructed NEW (singleton) Monitor instance')
     else:
         print('Appending kwargs to existing Monitor instance')
-        singleton.append_kwargs(**kwargs)
+        singleton.add_thread(**kwargs)
     return singleton
 
 
@@ -130,6 +173,7 @@ class Calculator:
 
 
 def main():
+    global monitored_thread_map
     m = Monitor(frequency=2, first=get_test_one, second=get_test_two)
     c = Calculator()
     c.calculate_something(100)
@@ -137,7 +181,7 @@ def main():
     c.calculate_something(2500)
     c.calculate_something(5000)
     c.calculate_something(10000)
-    print(monitor_timer_map)
+    print(monitored_thread_map)
     time.sleep(2000)
     print('Bye!')
 
