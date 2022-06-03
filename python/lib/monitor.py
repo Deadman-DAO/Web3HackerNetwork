@@ -116,15 +116,15 @@ class Monitor:
             with monitor_lock:
                 for thread_name in self.process_map.keys():
                     ct_kwargs = self.process_map[thread_name]
+                    my_mt = get_monitored_thread(thread_name)
                     msg = ''.join(('   ', thread_name, ':'))
                     for k in ct_kwargs.keys():
                         method = ct_kwargs[k]
                         msg = ''.join((msg, ' ', k, ':', str(method())))
-                        my_mt = get_monitored_thread(thread_name)
-                        if len(my_mt.monitor_timer_map) > 0:
-                            msg = ''.join((msg, ' cur_meth:',
-                                           my_mt.monitor_current_method, '(',
-                                           str(len(my_mt.monitor_call_stack)), ')'))
+                    if len(my_mt.monitor_timer_map) > 0:
+                        msg = ''.join((msg, ' cur_meth:',
+                                       my_mt.monitor_current_method, '(',
+                                       str(len(my_mt.monitor_call_stack)), ')'))
                     print(msg)
                     for _key in my_mt.monitor_timer_map.keys():
                         _val = my_mt.monitor_timer_map[_key]

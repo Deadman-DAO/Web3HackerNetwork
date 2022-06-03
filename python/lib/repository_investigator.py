@@ -78,8 +78,10 @@ class Investigator(DBDependent, GitHubClient):
     @staticmethod
     def sum(contrib_array):
         s = 0
-        for c in contrib_array:
-            s += c.change_count
+        if contrib_array is not None and len(contrib_array) > 0:
+            for c in contrib_array:
+                if c is not None:
+                    s += c.change_count if c.change_count is not None else 0
         return s
 
     @timeit
@@ -107,7 +109,10 @@ class Investigator(DBDependent, GitHubClient):
             if self.reserve_new_repo():
                 try:
                     self.fetch_repo_info()
-                    self.fetch_activity_info()
+                    try:
+                        self.fetch_activity_info()
+                    except StopIteration:
+                        print('Unable to retrieve last years totals - continuing on')
                     self.write_results_to_database()
                 except StopIteration as si:
                     print(si)

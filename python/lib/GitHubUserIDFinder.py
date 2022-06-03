@@ -7,16 +7,18 @@ from socket import gethostname
 from db_dependent_class import DBDependent
 from monitor import MultiprocessMonitor, timeit
 from threading import Lock
+from git_hub_client import GitHubClient
 
 
 def format_id_check_url(repo_owner, repo_name, commit_hash):
     return 'https://api.github.com/repos/'+repo_owner+'/'+repo_name+'/commits/'+commit_hash
 
 
-class GitHubUserIDFinder(DBDependent):
+class GitHubUserIDFinder(DBDependent, GitHubClient):
 
     def __init__(self, git_lock):
-        super().__init__()
+        GitHubClient.__init__(self, git_lock)
+        DBDependent.__init__(self)
         self.git_lock = git_lock
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
         self.get_cursor()
@@ -56,44 +58,6 @@ class GitHubUserIDFinder(DBDependent):
     def no_work_sleep(self):
         time.sleep(60)
 
-
-    @timeit
-    def retrieve_commit(self, author, repo_owner, repo_name, commit_hash, recurse_count=0):
-        reply = None
-        try:
-            url = format_id_check_url(repo_owner, repo_name, commit_hash)
-        except TypeError as te:
-            print('Error forming fetch commit URL', author, repo_owner, repo_name, commit_hash, te)
-            return reply
-
-        with self.git_lock:
-            time.sleep(1)  # wait a sec
-            self.call_count += 1
-            reply = requests.get(url, headers=self.headers)
-
-        if reply is None:
-            self.error_count += 1
-            print('No response received from API call to GitHub', author, repo_owner, repo_name, commit_hash, recurse_count)
-        elif reply.status_code == 422:
-            self.error_count += 1
-            print('ERROR - Status code:', reply.status_code, 'encountered ', url)
-            reply = None
-        elif reply.status_code == 403:
-            self.overload_count += 1
-            # We've exceed our 5000 calls per hour!
-            print('Maximum calls/hour exceeded! Sleeping', recurse_count, 'minute(s)')
-            print('Working on', commit_hash)
-            time.sleep(60*recurse_count)
-            if recurse_count <= self.MAX_LOOPS:
-                reply = self.retrieve_commit(author, repo_owner, repo_name, commit_hash, recurse_count+1)
-            else:
-                reply = None
-        elif reply.status_code == 200:
-            self.good_status_code_count += 1
-        else:
-            reply = None
-        return reply
-
     @timeit
     def call_resolve_sql_proc(self, author_id, github_user_id):
         try:
@@ -107,18 +71,18 @@ class GitHubUserIDFinder(DBDependent):
         idx = 0
         author_id = self.author_info[idx]['alias_id']
         while alias_not_found and idx < len(self.author_info):
-            info = self.retrieve_commit(author_id,
-                                        self.author_info[idx]['owner'],
-                                        self.author_info[idx]['name'],
-                                        self.author_info[idx]['commit_id'])
-            if info is not None:
-                j = info.json()
-                commit_details_block = j['author']
+            url = format_id_check_url(self.author_info[idx]['owner'],
+                                      self.author_info[idx]['name'],
+                                      self.author_info[idx]['commit_id'])
+            _json = self.fetch_json_with_lock(url)
+            if _json:
+                commit_details_block = _json['author']
                 if commit_details_block is not None and 'login' in commit_details_block.keys():
-                    committer = commit_details_block['login']
-                    self.call_resolve_sql_proc(author_id, committer)
+                    self.call_resolve_sql_proc(author_id, commit_details_block['login'])
                     self.try_counters[idx] += 1
                     alias_not_found = False
+            else:
+                print('Empty JSON block returned from', url)
             idx += 1
         if alias_not_found:
             self.fail_count += 1
@@ -134,10 +98,7 @@ class GitHubUserIDFinder(DBDependent):
         return rv
 
     def main(self):
-        m = MultiprocessMonitor(self.git_lock,
-                                gh_cc=self.get_call_count,
-                                gh_ca=self.get_cur_author,
-                                gh_fc=self.get_fail_count)
+        m = MultiprocessMonitor(self.git_lock, my=self.get_stats)
         while self.running:
             if self.reserve_next_author() is None:
                 self.no_work_sleep()

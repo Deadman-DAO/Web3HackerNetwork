@@ -4,7 +4,9 @@ import sys
 from socket import gethostname
 import requests
 import time
+import orjson
 from datetime import datetime as dt
+from monitor import mem_info, timeit
 
 
 def fetch_json_value(key, json):
@@ -27,6 +29,7 @@ class GitHubClient:
         self.json_reply = None
         self.fetch_with_lock_reply = None
         self.longest_wait = 0
+        self.stringy = None
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
@@ -39,26 +42,22 @@ class GitHubClient:
                          str(self.incomplete_count),
                          str(self.overload_count)))
 
-    def fetch_with_lock(self, url):
-        self.fetch_with_lock_reply = None
-        with self.git_hub_lock:
-            time.sleep(1)
-            self.fetch_with_lock_reply = requests.get(url, headers=self.headers)
-
-        return self.fetch_with_lock_reply
-
-    def fetch_json_with_lock(self, url, recurse_count=0):
+    @timeit
+    def fetch_json_with_lock(self, url, recurse_count=1):
         self.json_reply = None
         start_time = dt.now().timestamp()
+
         with self.git_hub_lock:
-            elapsed = dt.now().timestamp() - start_time;
+            elapsed = dt.now().timestamp() - start_time
             if elapsed > self.longest_wait:
                 self.longest_wait = elapsed
                 print('%0.3f new max time for thread ' % elapsed, threading.current_thread().name)
             time.sleep(1)
-            self.html_reply = requests.get(url, headers=self.headers)
+            self.html_reply = requests.get(url, headers=self.headers, stream=True)
             if self.html_reply is not None and self.html_reply.status_code == 200:
-                self.json_reply = self.html_reply.json()
+                c = self.html_reply.content
+                print("ContentSize:", len(c),'memory =', mem_info())
+                self.json_reply = orjson.loads(c)
 
         if self.html_reply is None:
             self.error_count += 1
@@ -68,17 +67,12 @@ class GitHubClient:
             # We've exceed our 5000 calls per hour!
             print('Maximum calls/hour exceeded! Sleeping', recurse_count, 'minute(s)')
             print('Working on', url)
-            time.sleep(60*(recurse_count+1))
+            time.sleep(60*recurse_count)
             if recurse_count < self.MAX_LOOPS_FOR_THROTTLING:
                 self.json_reply = self.fetch_json_with_lock(url, recurse_count+1)
         elif self.html_reply.status_code == 202:
             self.incomplete_count += 1
-            print('GitHub is "still working on"', url)
-            time.sleep(30*(recurse_count+1))
-            if recurse_count < self.MAX_LOOPS_FOR_202_CONDITION:
-                self.json_reply = self.fetch_json_with_lock(url, recurse_count+1)
-                print(hex(threading.current_thread().native_id),threading.current_thread().name,'returning ',
-                      'VALID' if self.json_reply is not None else 'JUNK', 'from post_202 fetch_json_with_lock')
+            print('GitHub is "still working on"', url, 'But we are not going to try again')
         elif self.html_reply.status_code == 200:
             self.good_reply_code_count += 1
         else:

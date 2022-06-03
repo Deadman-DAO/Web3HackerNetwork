@@ -95,13 +95,21 @@ class ContributorFinder(DBDependent, GitHubClient):
     def get_completed_count(self):
         return self.completed_count
 
+    @timeit
+    def error_sleep(self):
+        time.sleep(60)
+
     def main(self):
         self.monitor = MultiprocessMonitor(self.git_hub_lock, cont=self.get_completed_count, cin=self.get_stats)
 
         while self.running:
             if self.get_next_repo():
-                self.fetch_contributor_info()
-                self.update_database()
+                try:
+                    self.fetch_contributor_info()
+                    self.update_database()
+                except StopIteration as si:
+                    print("Error encountered in ContributorFinder MAIN", si)
+                    self.error_sleep()
             else:
                 self.sleepy_time()
 

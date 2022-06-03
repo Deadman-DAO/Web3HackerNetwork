@@ -12,11 +12,13 @@ import iso_date_parser
 from pytz import timezone
 import requests
 from threading import Lock
+from git_hub_client import GitHubClient, fetch_json_value
 
 
-class AuthorCommitHistoryProcessor(DBDependent):
+class AuthorCommitHistoryProcessor(DBDependent, GitHubClient):
     def __init__(self, git_lock):
-        super().__init__()
+        GitHubClient.__init__(self, git_lock)
+        DBDependent.__init__(self)
         self.git_lock = git_lock
         self.get_cursor()
         self.repo_counter = {}
@@ -44,28 +46,9 @@ class AuthorCommitHistoryProcessor(DBDependent):
         return self.total_count
 
     def format_user_url(self, user_id):
-        var = self.urlPrefix + "?q=author:" + user_id + '+author-date:<' + self.startDate.isoformat() + '&sort=author-date&order=desc&per_page=100&page=1'
+        var = self.urlPrefix + "?q=author:" + user_id + '+author-date:<' + self.startDate.isoformat() + \
+              '&sort=author-date&order=desc&per_page=100&page=1'
         return var
-
-    def load_hacker_url(self, user_id, recurse_count=1):
-        ret_val = None
-        with self.git_lock:
-            time.sleep(1)
-            resp = requests.get(self.format_user_url(user_id), headers=self.headers)
-
-        if resp.status_code == 200:
-            ret_val = resp.json()
-        elif resp.status_code == 403:
-            print('Rate limit EXCEEDED.  Sleeping for a bit. (recursive_count=', recurse_count, ')')
-            time.sleep(recurse_count * 60)
-            ret_val = self.load_hacker_url(user_id, recurse_count + 1)
-        else:
-            print('Status code returned:', resp.status_code)
-            req_headers = resp.request.headers
-            for n in req_headers.keys():
-                print('\t', n, req_headers[n])
-            print(json.dumps(resp.json(), indent=2))
-        return ret_val
 
     @timeit
     def reserve_next_user(self):
@@ -95,7 +78,8 @@ class AuthorCommitHistoryProcessor(DBDependent):
             mem=mem_info,
             curjob=self.get_cur_job,
             callcnt=self.get_call_count,
-            cmt_cnt=self.get_total_count)
+            cmt_cnt=self.get_total_count,
+            x=self.get_stats)
         while self.running:
             self.reserve_next_user()
             if self.user_id is None:
@@ -109,7 +93,8 @@ class AuthorCommitHistoryProcessor(DBDependent):
     @timeit
     def sleep_n_load(self):
         time.sleep(1)  # Don't over stay our welcome - Can't exceed 3600/hr, let alone 5000
-        body = self.load_hacker_url(self.user_id)
+        print(self.format_user_url(self.user_id))
+        body = self.fetch_json_with_lock(self.format_user_url(self.user_id))
         self.call_count += 1
         if self.call_count % 25 == 0:
             print(self.call_count, 'rest API calls made')
@@ -119,12 +104,12 @@ class AuthorCommitHistoryProcessor(DBDependent):
         cont_inue = True
         stop_looping = False
 
-        self.total_count = self.body['total_count']
         if self.body is None:
             print('Unable to load JSON')
             cont_inue = False
             stop_looping = True
         else:
+            self.total_count = self.body['total_count']
             if self.total_count == self.last_count:
                 print('Identical result set found.  Moving on.', self.total_count, self.last_count)
                 stop_looping = True
