@@ -67,7 +67,7 @@ class RepoCloner(DBDependent):
     @timeit
     def clone_it(self):
         self.repo_dir = make_dir('./'+self.owner+'/'+self.repo_name)
-        return_value = os.system('git clone '+self.format_url())
+        return_value = os.system('git clone '+self.format_url()+' | bzip2 -c >./'+self.owner+'/'+self.repo_name+'.gitlog.bz2')
         if return_value != 0:
             raise StopIteration('Error encountered - git clone exited with a value of '+str(return_value))
 
