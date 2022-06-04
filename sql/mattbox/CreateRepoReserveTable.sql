@@ -4,6 +4,7 @@ BEGIN
 
 	create table repo_reserve 
 		(
+			id int not null auto_increment primary key,
 			repo_id int unique not null, 
 			tstamp datetime, 
 			reserver varchar(128), 
