@@ -35,7 +35,7 @@ class RepoCloner(DBDependent):
         self.interrupt_event.set()
 
     def format_url(self):
-        return self.url_prefix+self.owner+'/'+self.repo_name+self.url_suffix
+        return self.url_prefix + self.owner + '/' + self.repo_name + self.url_suffix
 
     def get_numeric_disc_space(self):
         return disk_usage(self.repo_base_dir).free
@@ -61,16 +61,18 @@ class RepoCloner(DBDependent):
             self.repo_id = result[2]
         if self.owner is not None and self.repo_name is not None:
             found_one = True
-            self.current_repo = self.owner+'.'+self.repo_name
+            self.current_repo = self.owner + '.' + self.repo_name
         return found_one
 
     @timeit
     def clone_it(self):
-        self.repo_dir = make_dir('./'+self.owner+'/'+self.repo_name)
-        return_value = os.system('git -C ./'+self.owner+'/ clone '+self.format_url()+' | bzip2 -c >./'+
-                                 self.owner+'/'+self.repo_name+'.gitlog.bz2')
+        self.repo_dir = make_dir('./' + self.owner + '/' + self.repo_name)
+        cmd = str('git -C ./' + self.owner + '/ clone ' + self.format_url() + ' | bzip2 -c >./' +
+                  self.owner + '/' + self.repo_name + '.gitlog.bz2')
+        print(cmd)
+        return_value = os.system(cmd)
         if return_value != 0:
-            raise StopIteration('Error encountered - git clone exited with a value of '+str(return_value))
+            raise StopIteration('Error encountered - git clone exited with a value of ' + str(return_value))
 
     @timeit
     def release_job(self):
