@@ -1,5 +1,12 @@
 import json
 import mariadb
+import os
+
+
+def make_dir(dir_name):
+    if not os.path.isdir(dir_name) and not os.path.exists(dir_name):
+        os.makedirs(dir_name)
+    return os.path.abspath(dir_name)
 
 
 class DBDependent:

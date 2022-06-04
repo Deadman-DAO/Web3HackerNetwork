@@ -2,13 +2,11 @@ import os
 import bz2
 import json
 import sys
-import mariadb
 import time
 import hashlib
 import psutil
 from pytz import timezone
 from monitor import Monitor, timeit
-from git import Repo, Git
 from os.path import exists
 from shutil import rmtree
 from shutil import disk_usage
@@ -16,14 +14,7 @@ from socket import gethostname
 from datetime import datetime as datingdays
 from kitchen_sink_class import RepoName
 from commit_log_parser import NumstatRequirementSet
-from db_dependent_class import DBDependent
-
-
-def make_dir(dirName):
-    previously_existed = os.path.exists(dirName) and os.path.isdir(dirName)
-    if os.path.isdir(dirName) == False and os.path.exists(dirName) == False:
-        os.makedirs(dirName)
-    return previously_existed
+from db_dependent_class import DBDependent, make_dir
 
 
 def mem_info():

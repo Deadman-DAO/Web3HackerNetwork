@@ -116,4 +116,4 @@ class ContributorFinder(DBDependent, GitHubClient):
 
 if __name__ == "__main__":
     _lock = Lock()
-    ChildProcessContainer(ContributorFinder(_lock), 'cf1')
+    ChildProcessContainer(ContributorFinder(_lock), 'cf1').join()
