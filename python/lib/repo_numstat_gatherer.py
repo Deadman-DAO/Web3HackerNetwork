@@ -122,8 +122,8 @@ class RepoNumstatGatherer(DBDependent):
             str = json.dumps(list(self.author_map.values()),
                              default=lambda o: o.__dict__,
                              sort_keys=True, indent=2)
-            with open('./releaseRepoFromNumstat.params.json', 'wt') as w:
-                w.write(str)
+#            with open('./releaseRepoFromNumstat.params.json', 'wt') as w:
+#                w.write(str)
 
             self.cursor.callproc('ReleaseRepoFromNumstat', [self.repo_id,
                                                             self.machine_name,

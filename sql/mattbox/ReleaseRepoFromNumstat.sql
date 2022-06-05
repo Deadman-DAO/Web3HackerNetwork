@@ -20,6 +20,7 @@ BEGIN
 	declare _new_alias_id int;
 	declare _try_date datetime;
 	declare _auth_tran_count int default 0;
+	declare _commit_id char(40) default Null;
 
 	call debug(concat('json_length of _author_list is ', json_length(_author_list)));
 	while _key_idx < json_length(_author_list) DO
@@ -43,8 +44,22 @@ BEGIN
 			set _commit_key_idx = 0;
 			while _commit_key_idx < json_length(_commit_array) DO
 				set _commit = json_query(_commit_array, concat('$[',_commit_key_idx,']'));
-				insert into commit(commit_id, alias_id, date, gmt_offset)
-				 select json_value(_commit, '$.cid'), _new_alias_id, FROM_UNIXTIME(json_value(_commit, '$.dt')), json_value(_commit, '$.tz');
+				select json_value(_commit, '$.cid') into _commit_id;			
+				if exists(select id from commit where commit_id = _commit_id) THEN 
+					if exists(select * from alias where id = _new_alias_id and github_user_id is null) and 
+					   exists(select * from commit c join alias a on a.id = c.alias_id where c.commit_id = _commit_id and github_user_id is not null) THEN 
+					   /* Okay - does this *new* record still not have a github_user_id, 
+					    * *and* does the pre-existing commit record point to an alias that *does* have a github user Id
+					    * If all this is true, then copy the github user id.  Yikes!
+					    */
+						update alias set github_user_id = (select a.github_user_id from commit c join alias a on a.id = c.alias_id where c.commit_id = _commit_id)
+							where id = _new_alias_id;
+					end if;
+				else
+					insert into commit(commit_id, alias_id, date, gmt_offset)
+					 select _commit_id, _new_alias_id, FROM_UNIXTIME(json_value(_commit, '$.dt')), json_value(_commit, '$.tz');
+				end if;
+				set _commit_key_idx = _commit_key_idx + 1;
 			end while;
 		end if;
 		set _key_idx = _key_idx + 1;

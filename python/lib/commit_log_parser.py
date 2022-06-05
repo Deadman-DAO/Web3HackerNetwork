@@ -361,7 +361,7 @@ class NumStatFileCommit(FileCommit):
                     # binary file
                     fi.isBinary = True
                     validData = True
-                elif sa[0].isnumeric() and sa[1].isnumeric:
+                elif sa[0].isnumeric() and sa[1].isnumeric():
                     fi.isBinary = False
                     fi.inserts += int(sa[0])
                     fi.deletes += int(sa[1])
