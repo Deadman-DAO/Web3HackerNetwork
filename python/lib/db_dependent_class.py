@@ -33,7 +33,7 @@ class DBDependent:
                 user=self.db_config['user'],
                 password=self.db_config['password'],
                 database=self.db_config['database'],
-                autocommit=self.db_config['autocommit'])
+                autocommit=bool(self.db_config['autocommit']))
         if not self.cursor:
             self.cursor = self.database.cursor()
         return self.cursor
