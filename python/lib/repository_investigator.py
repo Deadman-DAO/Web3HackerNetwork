@@ -1,5 +1,4 @@
 from child_process import ChildProcessContainer
-
 from db_dependent_class import DBDependent
 from git_hub_client import fetch_json_value, GitHubClient
 from monitor import MultiprocessMonitor, timeit

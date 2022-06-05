@@ -1,5 +1,5 @@
 import json
-import mysql.connector
+import mysql.connector as dbcon
 import os
 
 
@@ -29,7 +29,7 @@ class DBDependent:
     def get_cursor(self):
         if self.database is None:
             self.load_db_info()
-            self.database = mysql.connect(
+            self.database = dbcon.connect(
                 port=self.db_config['port'],
                 host=self.db_config['host'],
                 user=self.db_config['user'],
