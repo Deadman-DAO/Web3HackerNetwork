@@ -112,7 +112,7 @@ class Investigator(DBDependent, GitHubClient):
         while running:
             if self.reserve_new_repo():
                 try:
-                    self.fetch_repo_info()
+#                   self.fetch_repo_info()
                     try:
                         pass
 #                        self.fetch_activity_info()
