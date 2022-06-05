@@ -1,5 +1,5 @@
 import json
-import mysql.connector as dbcon
+from mysql import connector as dbcon
 import os
 
 
