@@ -39,12 +39,15 @@ class Investigator(DBDependent, GitHubClient):
     @timeit
     def reserve_new_repo(self):
         success = False
-        self.get_cursor().callproc('ReserveNextRepoForEvaluation', [self.machine_name])
-        result = self.cursor.fetchone()
-        if result is not None:
-            self.repo_owner = result[0]
-            self.repo_name = result[1]
-            success = True
+        try:
+            self.get_cursor().callproc('ReserveNextRepoForEvaluation', [self.machine_name])
+            result = self.cursor.fetchone()
+            if result is not None:
+                self.repo_owner = result[0]
+                self.repo_name = result[1]
+                success = True
+        finally:
+            self.close_cursor()
         return success
 
     @timeit
