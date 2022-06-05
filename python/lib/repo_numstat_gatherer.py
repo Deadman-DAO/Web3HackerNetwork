@@ -69,7 +69,7 @@ class RepoNumstatGatherer(DBDependent):
         self.running = True
         self.thread = None
         self.interrupt_event = None
-        self.MINIMUM_THRESHOLD = 5 * (1024 ** 3)
+        self.MINIMUM_THRESHOLD = 1 * (1024 ** 3)
         self.repo_id = None
         self.url_prefix = 'https://github.com/'
         self.url_suffix = '.git'
@@ -200,5 +200,3 @@ class RepoNumstatGatherer(DBDependent):
 
 if __name__ == "__main__":
     RepoNumstatGatherer(Lock()).main()
-
-
