@@ -12,9 +12,10 @@ BEGIN
 		  from repo r
 		join repo_eval re on re.repo_id = r.id
 		left join repo_reserve rr on rr.repo_id = r.id
-		where min_date is not null and rr.repo_id is null
+		where rr.repo_id is null
 		  and r.repo_machine_name is NULL 
 		  and r.repo_dir is null
+		  and r.last_cloned_date is null
 		order by 4 DESC 
 		limit 1
 	) as x;

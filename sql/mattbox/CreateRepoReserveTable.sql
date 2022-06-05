@@ -8,7 +8,6 @@ BEGIN
 			repo_id int unique not null, 
 			tstamp datetime, 
 			reserver varchar(128), 
-			primary key (`repo_id`), 
 			foreign key (repo_id) references repo(id)
 		);
 	

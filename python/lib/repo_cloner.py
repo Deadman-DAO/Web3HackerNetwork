@@ -67,7 +67,7 @@ class RepoCloner(DBDependent):
     @timeit
     def clone_it(self):
         self.repo_dir = make_dir('./repos/' + self.owner + '/' + self.repo_name)
-        cmd = str('git -C ./repos/' + self.owner + '/ clone ' + self.format_url() + ' 2> /dev/null')
+        cmd = str('git -C ./repos/' + self.owner + '/ clone ' + self.format_url() + (' 2> /dev/null' if sys.platform != "win32" else ''))
         print(cmd)
         return_value = os.system(cmd)
         if return_value != 0:

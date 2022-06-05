@@ -7,7 +7,8 @@ from pytz import timezone
 import hashlib
 import traceback
 from monitor import timeit
-
+import bz2
+import json
 
 class File:
     dir = None
@@ -116,7 +117,10 @@ class ColonSplicer(Splicer):  # Ouch?
 
 class DateSplicer(Splicer):
     def __init__(self, matchIdx, matchValue, captureIndex, foundValue):
-        self.original_timezone = str(timezone(time.tzname[0]))
+        try:
+            self.original_timezone = str(timezone(time.tzname[0]))
+        except Exception as e:
+            self.original_timezone = timezone('US/Arizona')
         super().__init__(matchIdx, matchValue, captureIndex, foundValue)
 
     def add_results(self, dictionary):
@@ -132,7 +136,7 @@ class DateSplicer(Splicer):
             date = line[5:].strip()
             dt = datingdays.strptime(date, '%a %b %d %H:%M:%S %Y %z')
             self.original_timezone = str(dt.tzinfo)
-            system_tz = timezone(time.tzname[0])
+            system_tz = timezone(time.tzname[0] if sys.platform != "win32" else 'US/Arizona')
             then = datingdays.now(system_tz)
             then = then - (then - dt)
             self.foundValue = then.isoformat()
@@ -141,10 +145,10 @@ class DateSplicer(Splicer):
 
 class Blank(Requirement):
     def reset(self):
-        return;
+        return
 
     def add_results(self, dictionary):
-        return;
+        return
 
     def test_line(self, line):
         if (line is None):
@@ -197,6 +201,8 @@ def addIntValue(dictionary, key, intval):
 class FileCommit(Requirement):
     def __init__(self):
         self.reset()
+        self.extensionDic = {}
+        self.foundOneOrMoreLines = False
 
     def reset(self):
         self.extensionDic = {}
@@ -408,33 +414,54 @@ class Summary(Requirement):
 
 
 class RequirementSet:
-    @timeit
-    def processDocument(self, multiLineString):
-        for line in multiLineString.splitlines():
-            self.testline(line)
-
-    def getReqArray(self):
-        return self.reqArray;
-
-    @abstractmethod
-    def setup_requirements(self):
-        pass
-
     def __init__(self):
+        self.line_added = False
+        self.output_stream = None
         self.reqArray = []
         self.setup_requirements()
         self.reqIndex = 0
         self.dataMatchesFound = 0
         self.indexErrorDic = {}
         self.resultArray = []
+        self.resultDictionary = {}
+        self.finish_callback = None
         self.reset()
 
     def reset(self):
-        self.reqIndex = 0;
-        self.dataMatchesFound = 0;
+        self.reqIndex = 0
+        self.dataMatchesFound = 0
         self.resultDictionary = {}
         for req in self.getReqArray():
-            req.reset();
+            req.reset()
+
+    @timeit
+    def processDocument(self, multiLineString):
+        for line in multiLineString.splitlines():
+            self.testline(line)
+
+    def process_input_stream(self, in_stream):
+        _line = in_stream.readline()
+        while _line:
+            self.testline(_line)
+            _line = in_stream.readline()
+
+    @timeit
+    def process_file(self, in_file_name, out_file_name, callback=None):
+        with open(in_file_name, 'r', encoding='utf-8', errors='ignore') as in_str:
+            with bz2.open(out_file_name, 'wt') as out:
+                self.line_added = False
+                self.output_stream = out
+                self.finish_callback = callback
+                out.write('[\n')
+                self.process_input_stream(in_str)
+                out.write(']\n')
+
+    def getReqArray(self):
+        return self.reqArray
+
+    @abstractmethod
+    def setup_requirements(self):
+        pass
 
     def processResult(self, line, rslt):
         #        if (rslt != Result.failedMatch):
@@ -459,7 +486,17 @@ class RequirementSet:
             #            print('Game set match!')
             for req in self.reqArray:
                 req.add_results(self.resultDictionary)
-            self.resultArray.append(self.resultDictionary.copy())
+            if self.output_stream:
+                if self.line_added:
+                    self.output_stream.write(',\n')
+                else:
+                    self.line_added = True
+                json.dump(self.resultDictionary, self.output_stream, indent=2)
+            else:
+                self.resultArray.append(self.resultDictionary.copy())
+            if self.finish_callback:
+                self.finish_callback(self.resultDictionary)
+
             self.reset()
         elif (rslt == Result.lookForExtraComment):
             self.reqIndex = 4  # Go back to the stage that
