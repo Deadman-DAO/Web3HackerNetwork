@@ -123,7 +123,6 @@ class Investigator(DBDependent, GitHubClient):
 if __name__ == "__main__":
     _lock = Lock()
     subprocesses = [ChildProcessContainer(Investigator(_lock), 'inv')
-#                    ChildProcessContainer(ContributorFinder(_lock), 'cpc1')
                     ]
     for n in subprocesses:
         n.join()

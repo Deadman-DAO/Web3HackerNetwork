@@ -1,3 +1,4 @@
+from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent, make_dir
 from monitor import MultiprocessMonitor, timeit
 import os
@@ -109,4 +110,8 @@ class RepoCloner(DBDependent):
 
 
 if __name__ == "__main__":
-    RepoCloner(Lock()).main()
+    _lock = Lock()
+    subprocesses = [ChildProcessContainer(RepoCloner(_lock), 'RepoCloner')
+                    ]
+    for n in subprocesses:
+        n.join()

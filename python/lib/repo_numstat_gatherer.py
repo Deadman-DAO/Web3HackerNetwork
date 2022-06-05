@@ -1,3 +1,4 @@
+from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent, make_dir
 from monitor import MultiprocessMonitor, timeit
 from threading import Lock, Event
@@ -199,4 +200,11 @@ class RepoNumstatGatherer(DBDependent):
 
 
 if __name__ == "__main__":
-    RepoNumstatGatherer(Lock()).main()
+    _lock = Lock()
+    subprocesses = [ChildProcessContainer(RepoNumstatGatherer(_lock), 'RepoNumstatGatherer')
+                    #                    ChildProcessContainer(ContributorFinder(_lock), 'cpc1')
+                    ]
+    for n in subprocesses:
+        n.join()
+
+
