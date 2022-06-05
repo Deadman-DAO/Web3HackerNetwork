@@ -10,11 +10,10 @@ def make_dir(dir_name):
 
 
 class DBDependent:
-    def __init__(self, autocommit=True):
+    def __init__(self):
         self.db_config = None
         self.database = None
         self.cursor = None
-        self.autocommit = autocommit
 
     def load_db_info(self):
         if self.db_config is None:
@@ -33,9 +32,8 @@ class DBDependent:
                 host=self.db_config['host'],
                 user=self.db_config['user'],
                 password=self.db_config['password'],
-                database=self.db_config['database'])
-            if self.autocommit is not None:
-                self.database.autocommit = True
+                database=self.db_config['database'],
+                autocommit=self.db_config['autocommit'])
         if not self.cursor:
             self.cursor = self.database.cursor()
         return self.cursor
