@@ -34,6 +34,6 @@ class DBDependent:
                 password=self.db_config['password'],
                 database=self.db_config['database'],
                 autocommit=bool(self.db_config['autocommit']))
-        if not self.cursor:
+        if self.cursor is not None:
             self.cursor = self.database.cursor()
         return self.cursor
