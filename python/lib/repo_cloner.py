@@ -1,12 +1,12 @@
 from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent, make_dir
 from monitor import MultiprocessMonitor, timeit
+from shutil import disk_usage
+from socket import gethostname
+from threading import Lock
 import os
 import sys
-from socket import gethostname
 import threading
-from shutil import disk_usage
-from threading import Lock
 
 
 class RepoCloner(DBDependent):

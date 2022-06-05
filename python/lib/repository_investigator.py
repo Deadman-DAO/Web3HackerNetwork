@@ -1,12 +1,12 @@
-import time
-from db_dependent_class import DBDependent
-from monitor import MultiprocessMonitor, timeit
-from git_hub_client import GitHubClient
-from git_hub_client import fetch_json_value
-import iso_date_parser
-from threading import Lock
 from child_process import ChildProcessContainer
-from repo_contributor_finder import ContributorFinder, Contributor
+
+from db_dependent_class import DBDependent
+from git_hub_client import fetch_json_value, GitHubClient
+from monitor import MultiprocessMonitor, timeit
+from repo_contributor_finder import Contributor
+from threading import Lock
+import iso_date_parser
+import time
 
 
 class Investigator(DBDependent, GitHubClient):
@@ -86,17 +86,21 @@ class Investigator(DBDependent, GitHubClient):
 
     @timeit
     def write_results_to_database(self):
-        array = (self.repo_owner,
-                 self.repo_name,
-                 self.created_at,
-                 self.updated_at,
-                 self.pushed_at,
-                 self.homepage,
-                 self.size,
-                 self.watchers_count,
-                 self.sum([self.repo_last_year])
-                 )
-        self.get_cursor().callproc('EvaluateRepo', array)
+        self.get_cursor()
+        try:
+            array = (self.repo_owner,
+                     self.repo_name,
+                     self.created_at,
+                     self.updated_at,
+                     self.pushed_at,
+                     self.homepage,
+                     self.size,
+                     self.watchers_count,
+                     self.sum([self.repo_last_year])
+                     )
+            self.get_cursor().callproc('EvaluateRepo', array)
+        finally:
+            self.close_cursor()
 
     @timeit
     def sleep_it_off(self):

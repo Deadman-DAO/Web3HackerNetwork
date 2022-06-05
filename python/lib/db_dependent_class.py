@@ -23,6 +23,8 @@ class DBDependent:
     def close_cursor(self):
         self.cursor.close()
         self.cursor = None
+        self.database.close()
+        self.database = None
 
     def get_cursor(self):
         if self.database is None:
