@@ -84,7 +84,7 @@ class GitHubClient:
                 self.error_count += 1
                 print('ERROR - Status code:', self.html_reply.status_code, 'encountered ', url)
         finally:
-            requests.close()
+            self.html_reply.close()
 
         return self.json_reply
 
