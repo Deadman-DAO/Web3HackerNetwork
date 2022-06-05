@@ -112,10 +112,9 @@ class Investigator(DBDependent, GitHubClient):
         while running:
             if self.reserve_new_repo():
                 try:
-#                   self.fetch_repo_info()
+                    self.fetch_repo_info()
                     try:
-                        pass
-#                        self.fetch_activity_info()
+                        self.fetch_activity_info()
                     except StopIteration:
                         print('Unable to retrieve last years totals - continuing on')
                     self.write_results_to_database()
@@ -133,4 +132,3 @@ if __name__ == "__main__":
         n.join()
 else:
     print(__name__)
-

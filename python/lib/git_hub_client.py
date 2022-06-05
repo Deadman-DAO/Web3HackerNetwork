@@ -47,41 +47,44 @@ class GitHubClient:
         self.json_reply = None
         start_time = dt.now().timestamp()
 
-        with self.git_hub_lock:
-            elapsed = dt.now().timestamp() - start_time
-            if elapsed > self.longest_wait:
-                self.longest_wait = elapsed
-                print('%0.3f new max time for thread ' % elapsed, threading.current_thread().name)
-            time.sleep(1)
-            self.html_reply = requests.get(url, headers=self.headers, stream=True)
-            if self.html_reply is not None and self.html_reply.status_code == 200:
-                c = self.html_reply.content
-                fileName = threading.current_thread().name+'.json'
-                with open(fileName, 'wb') as w:
-                    w.write(c)
-                with open(fileName, 'rb') as r:
-                    my_bin = r.read()
-                self.json_reply = {}   # json.loads(my_bin)
+        try:
+            with self.git_hub_lock:
+                elapsed = dt.now().timestamp() - start_time
+                if elapsed > self.longest_wait:
+                    self.longest_wait = elapsed
+                    print('%0.3f new max time for thread ' % elapsed, threading.current_thread().name)
+                time.sleep(1)
+                self.html_reply = requests.get(url, headers=self.headers, stream=True)
+                if self.html_reply is not None and self.html_reply.status_code == 200:
+                    c = self.html_reply.content
+                    fileName = threading.current_thread().name+'.json'
+                    with open(fileName, 'wb') as w:
+                        w.write(c)
+                    with open(fileName, 'rb') as r:
+                        my_bin = r.read()
+                    self.json_reply = {}   # json.loads(my_bin)
 
-        if self.html_reply is None:
-            self.error_count += 1
-            print('No response received from API call to GitHub', url)
-        elif self.html_reply.status_code == 403:
-            self.overload_count += 1
-            # We've exceed our 5000 calls per hour!
-            print('Maximum calls/hour exceeded! Sleeping', recurse_count, 'minute(s)')
-            print('Working on', url)
-            time.sleep(60*recurse_count)
-            if recurse_count < self.MAX_LOOPS_FOR_THROTTLING:
-                self.json_reply = self.fetch_json_with_lock(url, recurse_count+1)
-        elif self.html_reply.status_code == 202:
-            self.incomplete_count += 1
-            print('GitHub is "still working on"', url, 'But we are not going to try again')
-        elif self.html_reply.status_code == 200:
-            self.good_reply_code_count += 1
-        else:
-            self.error_count += 1
-            print('ERROR - Status code:', self.html_reply.status_code, 'encountered ', url)
+            if self.html_reply is None:
+                self.error_count += 1
+                print('No response received from API call to GitHub', url)
+            elif self.html_reply.status_code == 403:
+                self.overload_count += 1
+                # We've exceed our 5000 calls per hour!
+                print('Maximum calls/hour exceeded! Sleeping', recurse_count, 'minute(s)')
+                print('Working on', url)
+                time.sleep(60*recurse_count)
+                if recurse_count < self.MAX_LOOPS_FOR_THROTTLING:
+                    self.json_reply = self.fetch_json_with_lock(url, recurse_count+1)
+            elif self.html_reply.status_code == 202:
+                self.incomplete_count += 1
+                print('GitHub is "still working on"', url, 'But we are not going to try again')
+            elif self.html_reply.status_code == 200:
+                self.good_reply_code_count += 1
+            else:
+                self.error_count += 1
+                print('ERROR - Status code:', self.html_reply.status_code, 'encountered ', url)
+        finally:
+            requests.close()
 
         return self.json_reply
 
