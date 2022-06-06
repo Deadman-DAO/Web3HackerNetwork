@@ -54,15 +54,17 @@ class RepoCloner(DBDependent):
         self.repo_name = None
 
         self.get_cursor()
-        self.cursor.callproc('ReserveNextRepo', (self.machine_name, None, None, None))
-        if self.cursor.sp_outparams:  # one or more inline results set ready
+        try:
+            self.cursor.callproc('ReserveNextRepo', (self.machine_name, None, None, None))
             result = self.cursor.fetchone()
             self.owner = result[0]
             self.repo_name = result[1]
             self.repo_id = result[2]
-        if self.owner is not None and self.repo_name is not None:
-            found_one = True
-            self.current_repo = self.owner + '.' + self.repo_name
+            if self.owner is not None and self.repo_name is not None:
+                found_one = True
+                self.current_repo = self.owner + '.' + self.repo_name
+        finally:
+            self.close_cursor()
         return found_one
 
     @timeit
