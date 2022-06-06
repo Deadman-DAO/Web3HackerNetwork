@@ -21,9 +21,11 @@ class DBDependent:
                 self.db_config = json.load(r)
 
     def close_cursor(self):
-        self.cursor.close()
+        if self.cursor:
+            self.cursor.close()
         self.cursor = None
-        self.database.close()
+        if self.database:
+            self.database.close()
         self.database = None
 
     def get_cursor(self):

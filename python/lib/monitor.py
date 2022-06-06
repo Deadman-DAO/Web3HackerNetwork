@@ -59,18 +59,20 @@ def timeit(func):
         mt.monitor_current_method = func.__name__
         mt.monitor_call_stack.insert(0, mt.monitor_current_method)
         mt.start_time = datingdays.now().timestamp()
-        mt.result = func(*args, **kwargs)
-        mt.end_time = datingdays.now().timestamp()
-        mt.total_time = mt.end_time - mt.start_time
-        mt.tracker = mt.monitor_timer_map[func.__name__] if func.__name__ in mt.monitor_timer_map  else None
-        if mt.tracker is None:
-            mt.tracker = Tracker()
-            with monitor_lock:
-                mt.monitor_timer_map[func.__name__] = mt.tracker
-        mt.tracker.call_count += 1
-        mt.tracker.exec_time += mt.total_time
-        mt.monitor_call_stack.remove(mt.monitor_call_stack[0])
-        mt.monitor_current_method = mt.monitor_call_stack[0] if len(mt.monitor_call_stack) > 0 else 'Unknown!'
+        try:
+            mt.result = func(*args, **kwargs)
+        finally:
+            mt.end_time = datingdays.now().timestamp()
+            mt.total_time = mt.end_time - mt.start_time
+            mt.tracker = mt.monitor_timer_map[func.__name__] if func.__name__ in mt.monitor_timer_map else None
+            if mt.tracker is None:
+                mt.tracker = Tracker()
+                with monitor_lock:
+                    mt.monitor_timer_map[func.__name__] = mt.tracker
+            mt.tracker.call_count += 1
+            mt.tracker.exec_time += mt.total_time
+            mt.monitor_call_stack.remove(mt.monitor_call_stack[0])
+            mt.monitor_current_method = mt.monitor_call_stack[0] if len(mt.monitor_call_stack) > 0 else 'Unknown!'
         return mt.result
     return timeit_wrapper
 

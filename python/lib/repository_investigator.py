@@ -41,10 +41,10 @@ class Investigator(DBDependent, GitHubClient):
         try:
             self.get_cursor().callproc('ReserveNextRepoForEvaluation', [self.machine_name])
             for goodness in self.get_cursor().stored_results():
-                result = goodness.fetchall()
+                result = goodness.fetchone()
                 if result is not None:
-                    self.repo_owner = result[0][0]
-                    self.repo_name = result[0][1]
+                    self.repo_owner = result[0]
+                    self.repo_name = result[1]
                     success = True
         finally:
             self.close_cursor()
