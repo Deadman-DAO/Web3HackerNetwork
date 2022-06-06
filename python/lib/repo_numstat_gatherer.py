@@ -103,12 +103,13 @@ class RepoNumstatGatherer(DBDependent):
         self.get_cursor()
         try:
             self.cursor.callproc('ReserveRepoForNumstat', [self.machine_name])
-            result = self.cursor.fetchone()
-            if result:
-                self.repo_id = result[0]
-                self.owner = result[1]
-                self.repo_name = result[2]
-                self.repo_dir = result[3]
+            for goodness in self.get_cursor().stored_results():
+                result = goodness.fetchone()
+                if result:
+                    self.repo_id = result[0]
+                    self.owner = result[1]
+                    self.repo_name = result[2]
+                    self.repo_dir = result[3]
             if self.owner is not None and self.repo_name is not None:
                 found_one = True
                 self.current_repo = self.owner + '.' + self.repo_name
