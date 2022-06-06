@@ -80,11 +80,11 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
 
     @timeit
     def idle_sleep(self):
-        self.interrupt_event.sleep(self.idle_wait)
+        self.interrupt_event.wait(self.idle_wait)
 
     @timeit
     def error_sleep(self):
-        time.sleep(self.error_wait)
+        self.interrupt_event.wait(self.error_wait)
 
     @timeit
     def main(self):
