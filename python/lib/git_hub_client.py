@@ -62,7 +62,7 @@ class GitHubClient:
                         w.write(c)
                     with open(fileName, 'rb') as r:
                         my_bin = r.read()
-                    self.json_reply = {}   # json.loads(my_bin)
+                    self.json_reply = json.loads(my_bin)
 
             if self.html_reply is None:
                 self.error_count += 1
