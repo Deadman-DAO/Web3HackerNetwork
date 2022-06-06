@@ -40,11 +40,12 @@ class Investigator(DBDependent, GitHubClient):
         success = False
         try:
             self.get_cursor().callproc('ReserveNextRepoForEvaluation', [self.machine_name])
-            result = self.cursor.fetchone()
-            if result is not None:
-                self.repo_owner = result[0]
-                self.repo_name = result[1]
-                success = True
+            for goodness in self.get_cursor().stored_results():
+                result = goodness.fetchall()
+                if result is not None:
+                    self.repo_owner = result[0][0]
+                    self.repo_name = result[0][1]
+                    success = True
         finally:
             self.close_cursor()
         return success
@@ -119,9 +120,10 @@ class Investigator(DBDependent, GitHubClient):
                         self.fetch_activity_info()
                     except StopIteration:
                         print('Unable to retrieve last years totals - continuing on')
-                    self.write_results_to_database()
                 except StopIteration as si:
                     print(si)
+                finally:
+                    self.write_results_to_database()
             else:
                 self.sleep_it_off()
 
