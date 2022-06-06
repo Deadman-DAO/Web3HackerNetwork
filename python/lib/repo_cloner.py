@@ -55,12 +55,11 @@ class RepoCloner(DBDependent):
 
         self.get_cursor()
         try:
-            self.cursor.callproc('ReserveNextRepo', (self.machine_name, None, None, None))
-            result = self.cursor.fetchone()
+            result = self.cursor.callproc('ReserveNextRepo', (self.machine_name, None, None, None))
             if result:
-                self.owner = result[0]
-                self.repo_name = result[1]
-                self.repo_id = result[2]
+                self.owner = result[1]
+                self.repo_name = result[2]
+                self.repo_id = result[3]
                 if self.owner is not None and self.repo_name is not None:
                     found_one = True
                     self.current_repo = self.owner + '.' + self.repo_name
