@@ -55,7 +55,7 @@ class Author:
 
 class RepoNumstatGatherer(DBDependent):
     def __init__(self, lock):
-        self.total_alias_processing_time = None
+        self.total_alias_processing_time = 0
         self.this_repo_commit_count = None
         self.lock = lock
         DBDependent.__init__(self)
