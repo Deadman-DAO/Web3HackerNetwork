@@ -55,11 +55,16 @@ class RepoCleanup(DBDrivenTaskProcessor):
         return self.closer
 
     def process_task(self):
-        print('Removing repo dir '+self.repo_owner+'/'+self.repo_name)
-        rmtree('./repos/'+self.repo_owner+'/'+self.repo_name, ignore_errors=True)
-        if len(os.listdir('./repos/'+self.repo_owner)) < 1:
-            print('Removing empty parent repo dir '+self.repo_owner)
-            os.rmdir('./repos/'+self.repo_owner)
+        target_dir = './repos/'+self.repo_owner+'/'+self.repo_name
+        print('Removing repo dir '+target_dir)
+
+        if os.path.isfile(target_dir):
+            rmtree(target_dir, ignore_errors=True)
+            if len(os.listdir('./repos/'+self.repo_owner)) < 1:
+                print('Removing empty parent repo dir '+self.repo_owner)
+                os.rmdir('./repos/'+self.repo_owner)
+        else:
+            print('Or not... Could NOT find '+target_dir)
 
 
 if __name__ == "__main__":
