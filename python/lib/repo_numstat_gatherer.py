@@ -129,7 +129,7 @@ class RepoNumstatGatherer(DBDependent):
         _min = datingdays.fromtimestamp(author.min_date)
         _max = datingdays.fromtimestamp(author.max_date)
         _start_time = time.time()
-        self.cursor.callproc('StoreForLater',
+        self.cursor.callproc('UpdateHacker',
                              [author.md5,
                               author.name_email,
                               author.commit_count,
