@@ -58,7 +58,7 @@ class RepoCleanup(DBDrivenTaskProcessor):
         target_dir = './repos/'+self.repo_owner+'/'+self.repo_name
         print('Removing repo dir '+target_dir)
 
-        if os.path.isfile(target_dir):
+        if os.path.isdir(target_dir):
             rmtree(target_dir, ignore_errors=True)
             if len(os.listdir('./repos/'+self.repo_owner)) < 1:
                 print('Removing empty parent repo dir '+self.repo_owner)
