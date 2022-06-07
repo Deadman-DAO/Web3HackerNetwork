@@ -4,11 +4,11 @@ from monitor import timeit
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 from child_process import ChildProcessContainer
 from shutil import rmtree
-
+from threading import Lock
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, lock):
+        super().__init__(lock)
         self.get_next = self.GetNextRepoForAnalysis(self)
         self.all_done = self.ReleaseRepo(self)
         self.repo_owner = None
@@ -70,4 +70,4 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
 
 if __name__ == "__main__":
-    ChildProcessContainer(RepoAnalyzer(), 'repo_analyzer').join()
+    ChildProcessContainer(RepoAnalyzer(Lock()), 'repo_analyzer').join()
