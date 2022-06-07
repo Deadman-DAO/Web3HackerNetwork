@@ -1,4 +1,4 @@
-CREATE PROCEDURE w3hacknet.ReserveRepoForNumstat(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReserveRepoForNumstat`(
 in machine_name varchar(64)
 )
 BEGIN

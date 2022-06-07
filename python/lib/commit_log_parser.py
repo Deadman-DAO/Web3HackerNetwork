@@ -439,6 +439,7 @@ class RequirementSet:
         for line in multiLineString.splitlines():
             self.testline(line)
 
+    @timeit
     def process_input_stream(self, in_stream):
         _line = in_stream.readline()
         while _line:

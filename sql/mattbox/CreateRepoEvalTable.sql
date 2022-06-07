@@ -1,4 +1,4 @@
-CREATE PROCEDURE w3hacknet.CreateRepoEvalTable()
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`CreateRepoEvalTable`()
 BEGIN
 	drop table if exists repo_eval;
 

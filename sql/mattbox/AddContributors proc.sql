@@ -1,4 +1,4 @@
-CREATE PROCEDURE w3hacknet.AddContributors(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`AddContributors`(
 in _repo_id int,
 in _json json
 )

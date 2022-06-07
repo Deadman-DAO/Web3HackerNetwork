@@ -1,5 +1,4 @@
-CREATE PROCEDURE w3hacknet.EvaluateRepo
-(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`EvaluateRepo`(
 	in _repo_owner varchar(128),
 	in _repo_name varchar(128),
 	in _created_at datetime,
@@ -8,8 +7,6 @@ CREATE PROCEDURE w3hacknet.EvaluateRepo
 	in _homepage varchar(256),
 	in _size int,
 	in _watchers int,
-	in _contributor_count int,
-	in _contributor_sum int,
 	in _commit_count_last_year int
 )
 BEGIN
@@ -28,8 +25,8 @@ BEGIN
 		group by outer_rc.repo_id
 		) as X;
 		
-		insert ignore into repo_eval (repo_id, created_at, updated_at, pushed_at, homepage, size, watchers, contributor_count, contributor_sum, commit_count_last_year, parallel_repo_count)
-		  values (_repo_id, _created_at, _updated_at, _pushed_at, _homepage, _size, _watchers, _contributor_count, _contributor_sum, _commit_count_last_year, _dupe_repo_count);
+		insert ignore into repo_eval (repo_id, created_at, updated_at, pushed_at, homepage, size, watchers, commit_count_last_year, parallel_repo_count)
+		  values (_repo_id, _created_at, _updated_at, _pushed_at, _homepage, _size, _watchers, _commit_count_last_year, _dupe_repo_count);
 		delete from repo_reserve where repo_id = _repo_id;
 	end if;
 

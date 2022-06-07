@@ -1,5 +1,4 @@
-CREATE PROCEDURE w3hacknet.GetNextDBUpdateJob
-(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`GetNextDBUpdateJob`(
 	in _machine_name varchar(64)
 )
 BEGIN

@@ -13,6 +13,7 @@ BEGIN
 
 	call CreateDBUpdateQueueTable();
 	call createLogTable();
+	call CreateHackerUpdateQueue();
 
 	create table alias (id int not null AUTO_INCREMENT primary key, md5 char(32) not null, name varchar(256), count int default 0, github_user_id varchar(64) default null);
 	create unique index aliasIdx on alias (md5);

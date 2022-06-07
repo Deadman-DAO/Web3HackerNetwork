@@ -1,4 +1,4 @@
-CREATE PROCEDURE w3hacknet.ReleaseRepoFromAnalysis(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReleaseRepoFromAnalysis`(
 	in _repo_id int
 )
 BEGIN

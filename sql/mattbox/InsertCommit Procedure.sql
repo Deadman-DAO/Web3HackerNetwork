@@ -17,14 +17,16 @@ BEGIN
 	declare occurrences int default 0;
 	declare extension_set json;
 	declare new_commit_record bit default 0;
+	declare alias_commit_count int default 0;
 
 	select -1 into alias_id;
-	select id into alias_id from w3hacknet.alias where md5 = author_hash;
+	select a.id, a.count into alias_id, alias_commit_count from alias a where md5 = author_hash;
 	if ifnull(alias_id,-1) < 0 then
 		insert into alias (md5, name, count) values (author_hash, left(author_alias, 256), 1);
 		select LAST_INSERT_ID() into alias_id;
 	else
-		update alias set count = count + 1 where id = alias_id;
+	
+		update alias set count = alias_commit_count + 1 where id = alias_id;
 	END IF; 
 	
 	select c.id into commit_id from commit c where c.commit_id = commit_hash ; 

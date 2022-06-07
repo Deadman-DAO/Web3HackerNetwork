@@ -11,7 +11,7 @@ import json
 import traceback
 import os
 import sys
-
+import time
 
 class Author:
     def __init__(self, result_set):
@@ -35,7 +35,6 @@ class Author:
         self.last_commit = None
         self.add_result_set(result_set)
 
-    @timeit
     def add_result_set(self, result_set):
         self.commit_count += 1
         commit_id = result_set['commit']
@@ -56,6 +55,8 @@ class Author:
 
 class RepoNumstatGatherer(DBDependent):
     def __init__(self, lock):
+        self.total_alias_processing_time = None
+        self.this_repo_commit_count = None
         self.lock = lock
         DBDependent.__init__(self)
         self.monitor = None
@@ -83,6 +84,9 @@ class RepoNumstatGatherer(DBDependent):
     def stop(self):
         self.running = False
         self.interrupt_event.set()
+
+    def get_total_alias_processing_time(self):
+        return self.total_alias_processing_time;
 
     def get_numeric_disc_space(self):
         return disk_usage(self.repo_base_dir).free
@@ -118,19 +122,41 @@ class RepoNumstatGatherer(DBDependent):
         return found_one
 
     @timeit
+    def store_alias_in_database(self, author):
+        _last_ten = json.dumps(author.last_ten,
+                                    default=lambda o: o.__dict__,
+                                    sort_keys=True)
+        _min = datingdays.fromtimestamp(author.min_date)
+        _max = datingdays.fromtimestamp(author.max_date)
+        _start_time = time.time()
+        self.cursor.callproc('StoreForLater',
+                             [author.md5,
+                              author.name_email,
+                              author.commit_count,
+                              _min,
+                              _max,
+                              _last_ten])
+        self.total_alias_processing_time += (time.time() - _start_time)
+        
+    @timeit
     def store_results_in_database(self):
         try:
             self.get_cursor()
-            str = json.dumps(list(self.author_map.values()),
-                             default=lambda o: o.__dict__,
-                             sort_keys=True, indent=2)
-#            with open('./releaseRepoFromNumstat.params.json', 'wt') as w:
-#                w.write(str)
+            _min_date = datingdays.now().timestamp()
+            _max_date = 0
+            for v in self.author_map.values():
+                self.store_alias_in_database(v)
+                if v.min_date < _min_date:
+                    _min_date = v.min_date
+                if v.max_date > _max_date:
+                    _max_date = v.max_date
 
             self.cursor.callproc('ReleaseRepoFromNumstat', [self.repo_id,
                                                             self.machine_name,
                                                             self.results_output_file,
-                                                            str])
+                                                            datingdays.fromtimestamp(_min_date),
+                                                            datingdays.fromtimestamp(_max_date),
+                                                            self.this_repo_commit_count])
         finally:
             self.close_cursor()
 
@@ -147,6 +173,7 @@ class RepoNumstatGatherer(DBDependent):
     def parse_logfile(self):
         numstat_req_set = NumstatRequirementSet()
         self.results_output_file = self.results_file+'.json.bz2'
+        self.this_repo_commit_count = 0
         numstat_req_set.process_file(self.results_file, self.results_output_file, self.commit_callback)
         os.remove(self.results_file)
         return numstat_req_set
@@ -179,7 +206,7 @@ class RepoNumstatGatherer(DBDependent):
         self.interrupt_event.wait(60)
 
     def main(self):
-        self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job)
+        self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job, alias_tm=self.get_total_alias_processing_time)
         self.interrupt_event = Event()
         while self.running:
             if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:

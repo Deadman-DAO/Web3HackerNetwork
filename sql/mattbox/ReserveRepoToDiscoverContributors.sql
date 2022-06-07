@@ -1,4 +1,4 @@
-CREATE PROCEDURE w3hacknet.ReserveRepoToDiscoverContributors(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReserveRepoToDiscoverContributors`(
 	in _reserver_user_id varchar(32)
 )
 BEGIN
