@@ -25,7 +25,7 @@ class RepoCloner(DBDependent):
         self.running = True
         self.thread = None
         self.interrupt_event = None
-        self.MINIMUM_THRESHOLD = 5 * (1024 ** 3)
+        self.MINIMUM_THRESHOLD = 10 * (1024 ** 3)
         self.repo_id = None
         self.url_prefix = 'https://github.com/'
         self.url_suffix = '.git'
@@ -92,6 +92,7 @@ class RepoCloner(DBDependent):
     def resource_sleep(self):
         self.interrupt_event.wait(60)
 
+    @timeit
     def main(self):
         self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job)
         self.interrupt_event = threading.Event()
@@ -99,7 +100,8 @@ class RepoCloner(DBDependent):
             if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
                 if self.reserve_next_repo():
                     try:
-                        self.clone_it()
+                        with self.lock:
+                            self.clone_it()
                     except Exception as e:
                         print('Error encountered', e)
                         self.error_sleep()

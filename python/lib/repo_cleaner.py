@@ -1,31 +1,17 @@
 import os
-
-from monitor import timeit
 from db_driven_task import DBDrivenTaskProcessor, DBTask
-from child_process import ChildProcessContainer
 from shutil import rmtree
 from threading import Lock
 
-class RepoAnalyzer(DBDrivenTaskProcessor):
-    def __init__(self, lock):
-        super().__init__(lock)
-        self.get_next = self.GetNextRepoForAnalysis(self)
-        self.all_done = self.ReleaseRepo(self)
-        self.repo_owner = None
-        self.repo_name = None
 
-        self.repo_id = None
-        self.repo_owner = None
-        self.repo_name = None
-        self.repo_dir = None
-        self.numstat_dir = None
+class RepoCleanup(DBDrivenTaskProcessor):
 
-    class GetNextRepoForAnalysis(DBTask):
+    class Fetcher(DBTask):
         def __init__(self, mom):
             self.mom = mom
 
         def get_proc_name(self):
-            return 'ReserveNextRepoForAnalysis'
+            return 'ReserveNextRepoForCleanup'
 
         def get_proc_parameters(self):
             return [self.mom.machine_name]
@@ -38,32 +24,48 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     self.mom.repo_owner = result[1]
                     self.mom.repo_name = result[2]
                     self.mom.repo_dir = result[3]
-                    self.mom.numstat_dir = result[4]
             return result
 
-    class ReleaseRepo(DBTask):
+    class Closer(DBTask):
         def __init__(self, mom):
             self.mom = mom
 
         def get_proc_name(self):
-            return 'ReleaseRepoFromAnalysis'
+            return 'ReleaseRepoAfterCleanup'
 
         def get_proc_parameters(self):
             return [self.mom.repo_id]
 
         def process_db_results(self, result_args):
-            print(result_args)
+            pass
+
+    def __init__(self, lock):
+        super().__init__(lock)
+        self.repo_id = None
+        self.repo_owner = None
+        self.repo_name = None
+        self.repo_dir = None
+        self.fetcher = self.Fetcher(self)
+        self.closer = self.Closer(self)
 
     def get_job_fetching_task(self):
-        return self.get_next
+        return self.fetcher
 
     def get_job_completion_task(self):
-        return self.all_done
+        return self.closer
 
-    @timeit
     def process_task(self):
-        print('I choose to do nothing!')
+        target_dir = './repos/'+self.repo_owner+'/'+self.repo_name
+        print('Removing repo dir '+target_dir)
+
+        if os.path.isdir(target_dir):
+            rmtree(target_dir, ignore_errors=True)
+            if len(os.listdir('./repos/'+self.repo_owner)) < 1:
+                print('Removing empty parent repo dir '+self.repo_owner)
+                os.rmdir('./repos/'+self.repo_owner)
+        else:
+            print('Or not... Could NOT find '+target_dir)
 
 
 if __name__ == "__main__":
-    RepoAnalyzer(Lock()).main()
+    RepoCleanup(Lock()).main()

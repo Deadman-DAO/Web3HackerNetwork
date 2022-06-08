@@ -7,7 +7,7 @@ BEGIN
 	declare _repo_id int;
 	declare success bit;
 
-	select id, owner, name from repo r
+	select r.id, r.owner, r.name from repo r
 		left join repo_reserve rr on rr.repo_id = r.id 
 		join repo_eval re on re.repo_id = r.id 
 		where rr.repo_id is null and re.repo_id  is not null and re.contributor_count is NULL 

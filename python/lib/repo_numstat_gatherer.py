@@ -122,34 +122,40 @@ class RepoNumstatGatherer(DBDependent):
         return found_one
 
     @timeit
-    def store_alias_in_database(self, author):
+    def build_batch_parameters(self, author, param_array):
         _last_ten = json.dumps(author.last_ten,
                                     default=lambda o: o.__dict__,
                                     sort_keys=True)
         _min = datingdays.fromtimestamp(author.min_date)
         _max = datingdays.fromtimestamp(author.max_date)
-        _start_time = time.time()
-        self.cursor.callproc('StoreForLater',
-                             [author.md5,
+        param_array.append([author.md5,
                               author.name_email,
                               author.commit_count,
                               _min,
                               _max,
-                              _last_ten])
-        self.total_alias_processing_time += (time.time() - _start_time)
-        
+                              _last_ten]);
+
     @timeit
     def store_results_in_database(self):
+        self.get_cursor()
         try:
             self.get_cursor()
             _min_date = datingdays.now().timestamp()
             _max_date = 0
+            param_array = []
+            _start_time = time.time()
             for v in self.author_map.values():
-                self.store_alias_in_database(v)
+                self.build_batch_parameters(v, param_array)
                 if v.min_date < _min_date:
                     _min_date = v.min_date
                 if v.max_date > _max_date:
                     _max_date = v.max_date
+            self.total_alias_processing_time += (time.time() - _start_time)
+            _start_time = time.time()
+            self.cursor.executemany(
+                '	insert into hacker_update_queue (md5, name_email, commit_count, min_date, max_date, commit_array)'+
+                ' values (%s, %s, %s, %s, %s, %s);', param_array)
+            self.total_alias_processing_time += (time.time() - _start_time)
 
             self.cursor.callproc('ReleaseRepoFromNumstat', [self.repo_id,
                                                             self.machine_name,
@@ -160,7 +166,6 @@ class RepoNumstatGatherer(DBDependent):
         finally:
             self.close_cursor()
 
-    @timeit
     def commit_callback(self, commit):
         author = commit['Author']
         if author in self.author_map:
@@ -205,6 +210,7 @@ class RepoNumstatGatherer(DBDependent):
     def resource_sleep(self):
         self.interrupt_event.wait(60)
 
+    @timeit
     def main(self):
         self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job, alias_tm=self.get_total_alias_processing_time)
         self.interrupt_event = Event()
@@ -213,8 +219,9 @@ class RepoNumstatGatherer(DBDependent):
                 self.author_map = {}
                 if self.reserve_next_repo():
                     try:
-                        self.generate_numstats()
-                        self.parse_logfile()
+                        with self.lock:
+                            self.generate_numstats()
+                            self.parse_logfile()
                     except Exception as e:
                         print('Error encountered', e)
                         traceback.print_exc()

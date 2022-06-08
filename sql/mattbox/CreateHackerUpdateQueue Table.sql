@@ -8,5 +8,6 @@ BEGIN
 				commit_count int,
 				min_date datetime,
 				max_date datetime,
-				commit_array json);
+				commit_array json,
+				completed bit default 0);
 END

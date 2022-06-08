@@ -35,8 +35,8 @@ class AuthorCommitHistoryProcessor(DBDependent, GitHubClient):
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
         self.urlPrefix = 'https://api.github.com/search/commits'
         self.startDate = datingdays.now(timezone('UTC'))
-        self.add_update_repo_proc = 'w3hacknet.addUpdateRepo'
-        self.reserve_next_user_proc = 'w3hacknet.reserveNextUser'
+        self.add_update_repo_proc = 'addUpdateRepo'
+        self.reserve_next_user_proc = 'reserveNextUser'
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
@@ -52,15 +52,12 @@ class AuthorCommitHistoryProcessor(DBDependent, GitHubClient):
 
     @timeit
     def reserve_next_user(self):
-        self.cursor.callproc(self.reserve_next_user_proc,
-                             (self.machine_name, None, None))
-        if self.cursor.sp_outparams:
-            tup = self.cursor.fetchone()
-            self.user_id = tup[0]
-            self.alias_hash = tup[1]
-        else:
-            self.user_id = None
-            self.alias_hash = None
+        self.cursor.callproc(self.reserve_next_user_proc, [self.machine_name])
+        for goodness in self.get_cursor().stored_results():
+            result = goodness.fetchone()
+            if result:
+                self.user_id = result[0]
+                self.alias_hash = result[1]
 
     def get_cur_job(self):
         return self.user_id if self.user_id is not None else 'None'
@@ -93,11 +90,7 @@ class AuthorCommitHistoryProcessor(DBDependent, GitHubClient):
     @timeit
     def sleep_n_load(self):
         time.sleep(1)  # Don't over stay our welcome - Can't exceed 3600/hr, let alone 5000
-        print(self.format_user_url(self.user_id))
         body = self.fetch_json_with_lock(self.format_user_url(self.user_id))
-        self.call_count += 1
-        if self.call_count % 25 == 0:
-            print(self.call_count, 'rest API calls made')
         return body
 
     def evaluate_document(self):

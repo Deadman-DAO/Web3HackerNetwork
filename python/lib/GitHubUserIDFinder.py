@@ -45,11 +45,12 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
     def reserve_next_author(self):
         rslt = None
         try:
-            self.cursor.callproc('ReserveNextUnresolvedAlias', (self.machine_name, None))
-            result_set = self.cursor.fetchone()
-            if result_set is not None and len(result_set) > 0:
-                self.author_info = json.loads(result_set[0])
-                rslt = self.author_info
+            self.cursor.callproc('ReserveNextUnresolvedAlias', [self.machine_name])
+            for goodness in self.get_cursor().stored_results():
+                result = goodness.fetchone()
+                if result:
+                    self.author_info = json.loads(result[0])
+                    rslt = self.author_info
         except Exception as e:
             print('Error occurred calling ReserveNextUnresolvedAlias', e)
         return rslt

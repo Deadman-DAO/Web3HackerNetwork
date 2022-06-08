@@ -20,5 +20,5 @@ BEGIN
     select last_insert_id() into _last_id;
 	select r.id, r.owner, r.name, r.repo_dir from repo r
 	   join repo_reserve rr on rr.repo_id = r.id 
-  	   where rr.id = last_id;
+  	   where rr.id = _last_id;
 END

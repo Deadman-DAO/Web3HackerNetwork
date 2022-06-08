@@ -1,9 +1,10 @@
 CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReserveNextUser`(
-in who_is_reserving varchar(64),
-out github_user varchar(64),
-out alias_hash char(32))
+in who_is_reserving varchar(64)
+)
 BEGIN
 	declare success bit;
+	declare github_user varchar(64) default null;
+	declare alias_hash char(32) default null;
 
 	select github_user_id, md5 into github_user, alias_hash from (
 		select a.github_user_id, a.md5,  a.count, max(c.date), min(c.date) from alias a
