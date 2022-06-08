@@ -1,6 +1,7 @@
 import json
 import mysql.connector
 import os
+from monitor import timeit
 
 
 def make_dir(dir_name):
@@ -14,6 +15,10 @@ class DBDependent:
         self.db_config = None
         self.database = None
         self.cursor = None
+
+    @timeit
+    def delay_repo_processing(self, _in_repo_id):
+        self.get_cursor().callproc('DelayAPICallsForRepo', [_in_repo_id])
 
     def load_db_info(self):
         if self.db_config is None:

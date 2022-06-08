@@ -64,16 +64,12 @@ class ContributorFinder(DBDependent, GitHubClient):
         time.sleep(60)
 
     @timeit
-    def delay_processing(self):
-        self.get_cursor().callproc('DelayAPICallsForRepo', [self.repo_id])
-
-    @timeit
     def fetch_contributor_info(self):
         update_database = False
         self.fetch_contributor_info_json = self.fetch_json_with_lock(self.form_contributors_url())
         if self.fetch_contributor_info_json is None:
             if self.html_reply.status_code == 202:
-                self.delay_processing()
+                self.delay_repo_processing(self.repo_id)
             else:
                 raise StopIteration('Restful Response did not form a parseable JSON document', self.form_contributors_url())
         else:

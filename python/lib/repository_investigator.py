@@ -15,8 +15,9 @@ class Investigator(DBDependent, GitHubClient):
         self.repo_last_year = None
         self.url_prefix = 'https://api.github.com/repos/'
         self.url_activity = '/stats/commit_activity'
-        self.repo_owner = ''
-        self.repo_name = ''
+        self.repo_owner = None
+        self.repo_name = None
+        self.repo_id = None
         self.created_at = None
         self.updated_at = None
         self.pushed_at = None
@@ -45,6 +46,7 @@ class Investigator(DBDependent, GitHubClient):
                 if result is not None:
                     self.repo_owner = result[0]
                     self.repo_name = result[1]
+                    self.repo_id = result[2]
                     success = True
         finally:
             self.close_cursor()
@@ -52,19 +54,25 @@ class Investigator(DBDependent, GitHubClient):
 
     @timeit
     def fetch_repo_info(self):
+        data_loaded = False
         self.fetch_repo_info_json = self.fetch_json_with_lock(self.form_repo_url())
         if self.fetch_repo_info_json is None:
-            raise StopIteration('Restful Response did not form a parseable JSON document', self.form_repo_url())
-
-        self.created_at, _ = iso_date_parser.parse(fetch_json_value('created_at', self.fetch_repo_info_json))
-        self.updated_at, _ = iso_date_parser.parse(fetch_json_value('updated_at', self.fetch_repo_info_json))
-        self.pushed_at, _ = iso_date_parser.parse(fetch_json_value('pushed_at', self.fetch_repo_info_json))
-        self.homepage = fetch_json_value('homepage', self.fetch_repo_info_json)
-        self.size = fetch_json_value('size', self.fetch_repo_info_json)
-        self.watchers_count = fetch_json_value('watchers_count', self.fetch_repo_info_json)
-        self.forks_count = fetch_json_value('forks_count', self.fetch_repo_info_json)
-        self.network_count = fetch_json_value('network_count', self.fetch_repo_info_json)
-        self.subscribers_count = fetch_json_value('subscribers_count', self.fetch_repo_info_json)
+            if self.html_reply.status_code == 202:
+                self.delay_repo_processing(self.repo_id)
+            else:
+                raise StopIteration('Restful Response did not form a parseable JSON document', self.form_repo_url())
+        else:
+            data_loaded = True
+            self.created_at, _ = iso_date_parser.parse(fetch_json_value('created_at', self.fetch_repo_info_json))
+            self.updated_at, _ = iso_date_parser.parse(fetch_json_value('updated_at', self.fetch_repo_info_json))
+            self.pushed_at, _ = iso_date_parser.parse(fetch_json_value('pushed_at', self.fetch_repo_info_json))
+            self.homepage = fetch_json_value('homepage', self.fetch_repo_info_json)
+            self.size = fetch_json_value('size', self.fetch_repo_info_json)
+            self.watchers_count = fetch_json_value('watchers_count', self.fetch_repo_info_json)
+            self.forks_count = fetch_json_value('forks_count', self.fetch_repo_info_json)
+            self.network_count = fetch_json_value('network_count', self.fetch_repo_info_json)
+            self.subscribers_count = fetch_json_value('subscribers_count', self.fetch_repo_info_json)
+        return data_loaded
 
     @timeit
     def fetch_activity_info(self):
@@ -114,16 +122,17 @@ class Investigator(DBDependent, GitHubClient):
         running = True
         while running:
             if self.reserve_new_repo():
+                write_results = True
                 try:
-                    self.fetch_repo_info()
-                    try:
+                    if self.fetch_repo_info():
                         self.fetch_activity_info()
-                    except StopIteration:
-                        print('Unable to retrieve last years totals - continuing on')
+                    else:
+                        write_results = False
                 except StopIteration as si:
                     print(si)
                 finally:
-                    self.write_results_to_database()
+                    if write_results:
+                        self.write_results_to_database()
             else:
                 self.sleep_it_off()
 
