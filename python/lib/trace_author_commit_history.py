@@ -90,11 +90,7 @@ class AuthorCommitHistoryProcessor(DBDependent, GitHubClient):
     @timeit
     def sleep_n_load(self):
         time.sleep(1)  # Don't over stay our welcome - Can't exceed 3600/hr, let alone 5000
-        print(self.format_user_url(self.user_id))
         body = self.fetch_json_with_lock(self.format_user_url(self.user_id))
-        self.call_count += 1
-        if self.call_count % 25 == 0:
-            print(self.call_count, 'rest API calls made')
         return body
 
     def evaluate_document(self):
