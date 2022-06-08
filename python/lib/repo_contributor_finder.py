@@ -64,26 +64,37 @@ class ContributorFinder(DBDependent, GitHubClient):
         time.sleep(60)
 
     @timeit
+    def delay_processing(self):
+        self.get_cursor().callproc('DelayAPICallsForRepo', [self.repo_id])
+
+    @timeit
     def fetch_contributor_info(self):
+        update_database = False
         self.fetch_contributor_info_json = self.fetch_json_with_lock(self.form_contributors_url())
         if self.fetch_contributor_info_json is None:
-            raise StopIteration('Restful Response did not form a parseable JSON document', self.form_contributors_url())
-        self.contributors = []
-        for contributor in self.fetch_contributor_info_json:
-            # JSON doc is an array of "contributor" objects
-            author_elem = fetch_json_value('author', contributor)
-            author = fetch_json_value('login', author_elem)
-            c = Contributor(author)
-            self.contributors.append(c)
-            weeks = fetch_json_value('weeks', contributor)
-            for w in weeks:
-                ts = fetch_json_value('w', w)
-                added = fetch_json_value('a', w)
-                deleted = fetch_json_value('d', w)
-                changed = fetch_json_value('c', w)
-                ttl = added+deleted+changed
-                if ttl > 0:
-                    c.add_week(ts, ttl)
+            if self.html_reply.status_code == 202:
+                self.delay_processing()
+            else:
+                raise StopIteration('Restful Response did not form a parseable JSON document', self.form_contributors_url())
+        else:
+            update_database = True
+            self.contributors = []
+            for contributor in self.fetch_contributor_info_json:
+                # JSON doc is an array of "contributor" objects
+                author_elem = fetch_json_value('author', contributor)
+                author = fetch_json_value('login', author_elem)
+                c = Contributor(author)
+                self.contributors.append(c)
+                weeks = fetch_json_value('weeks', contributor)
+                for w in weeks:
+                    ts = fetch_json_value('w', w)
+                    added = fetch_json_value('a', w)
+                    deleted = fetch_json_value('d', w)
+                    changed = fetch_json_value('c', w)
+                    ttl = added+deleted+changed
+                    if ttl > 0:
+                        c.add_week(ts, ttl)
+        return update_database
 
     @timeit
     def update_database(self):
@@ -106,8 +117,8 @@ class ContributorFinder(DBDependent, GitHubClient):
         while self.running:
             if self.get_next_repo():
                 try:
-                    self.fetch_contributor_info()
-                    self.update_database()
+                    if self.fetch_contributor_info():
+                        self.update_database()
                 except StopIteration as si:
                     print("Error encountered in ContributorFinder MAIN", si)
                     self.error_sleep()

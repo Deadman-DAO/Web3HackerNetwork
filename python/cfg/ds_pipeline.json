@@ -13,6 +13,11 @@
       "num_centers": 8
     }
   },
+  "matt_language_analyzer": {
+    "stats_dir": "active/results",
+    "stat_file_name": "log_numstat.out.json.bz2",
+    "compression": "bz2"
+  },
   "language_analyzer": {
     "stats_dir": "../../data/json_stats",
     "stat_file_name": "log_numstat.out.json.bz2",
