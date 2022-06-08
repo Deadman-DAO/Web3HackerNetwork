@@ -1,6 +1,5 @@
 CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReserveNextUnresolvedAlias`(
-	in reserver_user_id varchar(32),
-	out commit_sample_json JSON
+	in reserver_user_id varchar(32)
 )
 BEGIN
 	declare rslt_alias_id int;
@@ -9,21 +8,10 @@ BEGIN
 	declare halfway_point datetime;
 	declare _repo_owner varchar(128);
 	declare _repo_name varchar(128);
+	declare commit_sample_json JSON;
 	select now() into dt;
-/*
-	insert ignore alias_reserve (alias_id, tstamp, reserver)  
-		select X.id, dt, reserver_user_id from ( 
-			select a.id, a.md5, (max(c.date) - min(c.date))-(now() - max(c.date)) as sort_me from alias a
-			left join alias_reserve ar on ar.alias_id = a.id
-			join commit c on c.alias_id = a.id
-			where ar.alias_id is null and a.github_user_id  is null
-			and name not like '%[bot]%' and name not like '%-bot%'
-			group by a.id, a.md5
-			order by sort_me desc
-			limit 1
-		) as X;
-*/		
-	insert ignore alias_reserve (alias_id, tstamp, reserver)
+
+ 	insert ignore alias_reserve (alias_id, tstamp, reserver)
 		select X.id, dt, reserver_user_id from (
 			select a.id as id from alias a
 			 left join alias_reserve ar on ar.alias_id = a.id
@@ -73,4 +61,5 @@ BEGIN
 		
 		select json_insert(commit_sample_json, '$[2]', json_object('commit_id', _commit_id, 'owner', _repo_owner, 'name', _repo_name, 'alias_id', rslt_alias_id)) into commit_sample_json;
 	end if;
+	select commit_sample_json;
 END
