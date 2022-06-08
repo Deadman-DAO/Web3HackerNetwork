@@ -99,7 +99,8 @@ class RepoCloner(DBDependent):
             if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
                 if self.reserve_next_repo():
                     try:
-                        self.clone_it()
+                        with self.lock:
+                            self.clone_it()
                     except Exception as e:
                         print('Error encountered', e)
                         self.error_sleep()
