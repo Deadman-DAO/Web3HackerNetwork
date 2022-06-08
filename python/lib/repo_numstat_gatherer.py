@@ -210,6 +210,7 @@ class RepoNumstatGatherer(DBDependent):
     def resource_sleep(self):
         self.interrupt_event.wait(60)
 
+    @timeit
     def main(self):
         self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job, alias_tm=self.get_total_alias_processing_time)
         self.interrupt_event = Event()

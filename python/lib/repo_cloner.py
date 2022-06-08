@@ -92,6 +92,7 @@ class RepoCloner(DBDependent):
     def resource_sleep(self):
         self.interrupt_event.wait(60)
 
+    @timeit
     def main(self):
         self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job)
         self.interrupt_event = threading.Event()
