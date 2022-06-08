@@ -18,7 +18,7 @@ BEGIN
 		  and rr.repo_id is null 
 		  and re.repo_id is null
           and ifnull(r.delay_api_calls_until, _now) <= _now
-		  
+	      and ifnull(r.retry_count, 0) < 5		  
 		order by 4 DESC 
 		limit 1
 	) as x;

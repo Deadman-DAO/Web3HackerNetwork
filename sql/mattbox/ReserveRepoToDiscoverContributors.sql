@@ -13,6 +13,7 @@ BEGIN
 		join repo_eval re on re.repo_id = r.id 
 		where rr.repo_id is null and re.repo_id  is not null and re.contributor_count is NULL 
 		   and ifnull(r.delay_api_calls_until, _now) <= _now
+		   and ifnull(r.retry_count, 0) < 5
 		limit 1;
 	
 	call reserveRepo(_owner, _name, _reserver_user_id, success);
