@@ -1,12 +1,15 @@
+import bz2
 import os
 import json
 import hashlib
 from datetime import datetime
 
 def find_files(name, path):
+    # print(str(name) + ", " + str(path))
     result = []
     for root, dirs, files in os.walk(path):
         if name in files:
+            # print(str(root) + ", " + str(dirs) + ", " + str(files))
             result.append(os.path.join(root, name))
     return result
 
@@ -19,7 +22,14 @@ def parse_commits(commit_files, stat_file_name):
         first_part = path_parts[len(path_parts) - 3]
         second_part = path_parts[len(path_parts) - 2]
         project = first_part + '/' + second_part
-        in_stats = json.loads(open(file, 'r').read())
+        in_stats = {}
+        if stat_file_name.endswith("bz2"):
+            try:
+                in_stats = json.loads(bz2.open(file).read())
+            except:
+                next
+        else:
+            in_stats = json.loads(open(file, 'r').read())
         all_logs.append(in_stats)
         for commit in in_stats:
             commit['seen_in'] = [project]
