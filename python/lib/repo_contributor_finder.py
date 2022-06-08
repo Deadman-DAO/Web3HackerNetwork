@@ -50,12 +50,13 @@ class ContributorFinder(DBDependent, GitHubClient):
     def get_next_repo(self):
         self.success = False
         self.get_cursor().callproc('ReserveRepoToDiscoverContributors', [self.machine_name])
-        result = self.cursor.fetchone()
-        if result is not None:
-            self.repo_id = result[0]
-            self.repo_owner = result[1]
-            self.repo_name = result[2]
-            self.success = True
+        for goodness in self.get_cursor().stored_results():
+            result = goodness.fetchone()
+            if result:
+                self.repo_id = result[0]
+                self.repo_owner = result[1]
+                self.repo_name = result[2]
+                self.success = True
         return self.success
 
     @timeit
