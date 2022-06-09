@@ -1,16 +1,14 @@
 import sys
 import os
 import time
-import json
 from db_dependent_class import DBDependent
 from monitor import MultiprocessMonitor
 from monitor import timeit
 from monitor import mem_info
 from socket import gethostname
-from datetime import datetime as datingdays
+from datetime import datetime as datingdays, timedelta
 import iso_date_parser
 from pytz import timezone
-import requests
 from threading import Lock
 from git_hub_client import GitHubClient, fetch_json_value
 
@@ -108,9 +106,6 @@ class AuthorCommitHistoryProcessor(DBDependent, GitHubClient):
                 stop_looping = True
                 cont_inue = False
             self.last_count = self.total_count
-            if self.total_count > 20000:
-                print('Yikes!', self.total_count, ' seems like a few too many')
-                stop_looping = True
             self.incomplete_results = self.body['incomplete_results']
             self.array = self.body['items']
             if self.array is None or len(self.array) < 1:
@@ -141,6 +136,8 @@ class AuthorCommitHistoryProcessor(DBDependent, GitHubClient):
                     com_auth = commit['author']
                     commit_date, orig_time_zone = iso_date_parser.parse(com_auth['date'])
                     self.startDate, orig_time_zone = iso_date_parser.parse(com_auth['date'], tz='US/Arizona')
+                    ''' Skip a bit brother - move back in time 30 days and take another 100 samples '''
+                    self.startDate = self.startDate - timedelta(30)
                     repo = n['repository']
                     repo_name = repo['name']
                     repo_owner = repo['owner']
