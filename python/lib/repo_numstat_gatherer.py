@@ -13,6 +13,7 @@ import os
 import sys
 import time
 
+
 class Author:
     def __init__(self, result_set):
         self.name_email = result_set['Author']

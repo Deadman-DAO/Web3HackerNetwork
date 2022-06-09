@@ -340,6 +340,8 @@ class NumStatFileCommit(FileCommit):
             chunks = line.split('\t')
             file_name_portion = chunks[2] if len(chunks) > 2 else None
             if file_name_portion is not None:
+                if file_name_portion.endswith('\n'):
+                    file_name_portion = file_name_portion[:-1]
                 stats_portion = chunks[0] + ' ' + chunks[1]
                 if (chunks[0].isnumeric() or chunks[0] == '-') and (chunks[1].isnumeric() or chunks[0] == '-'):
                     fi = FileInfo(hashlib.md5(file_name_portion.encode('utf-8')).hexdigest())
