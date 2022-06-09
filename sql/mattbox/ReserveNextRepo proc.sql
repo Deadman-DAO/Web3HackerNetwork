@@ -8,7 +8,8 @@ BEGIN
 	declare success bit;
 	select id, owner, name into _repo_id, repo_owner, repo_name from (
 		select r.id, r.owner, r.name, 
-			(((((re.pushed_at  - re.created_at)/day_millies)-((now() - re.pushed_at)/day_millies))+commit_count)/(re.parallel_repo_count+1))+commit_count_last_year
+#			(((((re.pushed_at  - re.created_at)/day_millies)-((now() - re.pushed_at)/day_millies))-commit_count)/(re.parallel_repo_count+1))+commit_count_last_year
+		  re.`size` 
 		  from repo r
 		join repo_eval re on re.repo_id = r.id
 		left join repo_reserve rr on rr.repo_id = r.id
@@ -16,7 +17,7 @@ BEGIN
 		  and r.repo_machine_name is NULL 
 		  and r.repo_dir is null
 		  and r.last_cloned_date is null
-		order by 4 DESC 
+		order by 4 asc
 		limit 1
 	) as x;
 
