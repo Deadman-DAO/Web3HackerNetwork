@@ -229,9 +229,8 @@ class RepoNumstatGatherer(DBDependent):
                 self.author_map = {}
                 if self.reserve_next_repo():
                     try:
-                        with self.lock:
-                            self.generate_numstats()
-                            self.parse_logfile()
+                        self.generate_numstats()
+                        self.parse_logfile()
                     except Exception as e:
                         print('Error encountered', e)
                         traceback.print_exc()
