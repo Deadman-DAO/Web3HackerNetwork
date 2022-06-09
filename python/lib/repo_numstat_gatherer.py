@@ -221,7 +221,7 @@ class RepoNumstatGatherer(DBDependent):
         self.interrupt_event.wait(60)
 
     @timeit
-    def main(self):
+    def do_your_thing(self):
         self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job, alias_tm=self.get_total_alias_processing_time)
         self.interrupt_event = Event()
         while self.running:
@@ -241,6 +241,9 @@ class RepoNumstatGatherer(DBDependent):
                     self.idle_sleep()
             else:
                 self.resource_sleep()
+
+    def main(self):
+        self.do_your_thing()
 
 
 if __name__ == "__main__":

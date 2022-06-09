@@ -1,4 +1,4 @@
-import time
+import signal, traceback
 
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 
