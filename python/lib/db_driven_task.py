@@ -66,7 +66,11 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
 
     @timeit
     def complete_task(self):
-        return self.call_db_proc(self.get_job_completion_task())
+        proc = self.get_job_completion_task()
+        if proc:
+            return self.call_db_proc(proc)
+        else:
+            return None
 
     @abstractmethod
     def process_task(self):

@@ -1,4 +1,4 @@
-CREATE PROCEDURE w3hacknet.PostProcessHackerUpdate(
+CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`PostProcessHackerUpdate`(
 in max_records int)
 BEGIN
 	declare _id int;
@@ -10,7 +10,7 @@ BEGIN
 	declare _commit_array json;
 	declare _counter int default 0;
 
-	call debug('Creating temporary table');
+#	call debug('Creating temporary table');
 	drop temporary table if exists delq;
 	create temporary table delq (delq_id int);
 	create index WTFWTF2 on delq(delq_id);
@@ -20,7 +20,7 @@ BEGIN
 
 	insert into markq (markq_id) select id from hacker_update_queue huq where completed = 0 order by id limit max_records;
 
-	call debug('Looping through first N hacker_update_queue records');
+#	call debug('Looping through first N hacker_update_queue records');
 	while exists (select * from markq) DO
 		
 		select id, md5, name_email, commit_count, min_date, max_date, commit_array into _id, _md5, _nemail, _commit_count, _min_date, _max_date, _commit_array
@@ -33,11 +33,11 @@ BEGIN
 		delete from markq where markq_id = _id;
 		set _counter = _counter + 1; 
 	end while;
-	call debug('Done processing.  Now to delete HUQs');
+#	call debug('Done processing.  Now to delete HUQs');
 	delete from hacker_update_queue where id in (select delq_id from delq);
-	call debug('Done deleting HUQs.  Now to drop the temporary table.');
+#	call debug('Done deleting HUQs.  Now to drop the temporary table.');
 	drop temporary table if exists delq;
 	drop temporary table if exists markq;
-	call debug(concat('Finally done.  Returning # of records updated ', _counter));
+#	call debug(concat('Finally done.  Returning # of records updated ', _counter));
 	select _counter;
 END

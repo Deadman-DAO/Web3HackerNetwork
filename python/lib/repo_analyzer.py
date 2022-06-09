@@ -6,6 +6,7 @@ from child_process import ChildProcessContainer
 from shutil import rmtree
 from threading import Lock
 
+
 class RepoAnalyzer(DBDrivenTaskProcessor):
     def __init__(self, lock):
         super().__init__(lock)
