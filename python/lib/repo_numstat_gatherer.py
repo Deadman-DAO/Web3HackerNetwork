@@ -142,19 +142,28 @@ class RepoNumstatGatherer(DBDependent):
             self.get_cursor()
             _min_date = datingdays.now().timestamp()
             _max_date = 0
+            array_of_arrays = []
             param_array = []
+            array_of_arrays.append(param_array)
             _start_time = time.time()
+            _cnt = 0
             for v in self.author_map.values():
                 self.build_batch_parameters(v, param_array)
                 if v.min_date < _min_date:
                     _min_date = v.min_date
                 if v.max_date > _max_date:
                     _max_date = v.max_date
+                _cnt += 1
+                if _cnt % 100 == 0:
+                    param_array = []
+                    array_of_arrays.append(param_array)
+
             self.total_alias_processing_time += (time.time() - _start_time)
             _start_time = time.time()
-            self.cursor.executemany(
-                '	insert into hacker_update_queue (md5, name_email, commit_count, min_date, max_date, commit_array)'+
-                ' values (%s, %s, %s, %s, %s, %s);', param_array)
+            for sub_array in array_of_arrays:
+                self.cursor.executemany(
+                    '	insert into hacker_update_queue (md5, name_email, commit_count, min_date, max_date, commit_array)'+
+                    ' values (%s, %s, %s, %s, %s, %s);', sub_array)
             self.total_alias_processing_time += (time.time() - _start_time)
 
             self.cursor.callproc('ReleaseRepoFromNumstat', [self.repo_id,
