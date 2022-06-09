@@ -66,15 +66,18 @@ class ContributorFinder(DBDependent, GitHubClient):
     @timeit
     def fetch_contributor_info(self):
         update_database = False
+        self.contributors = []
         self.fetch_contributor_info_json = self.fetch_json_with_lock(self.form_contributors_url())
         if self.fetch_contributor_info_json is None:
             if self.html_reply.status_code == 202:
                 self.delay_repo_processing(self.repo_id)
+            elif self.html_reply.status_code == 404:
+                print('That repo is unreachable', self.form_contributors_url())
+                update_database = True
             else:
                 raise StopIteration('Restful Response did not form a parseable JSON document', self.form_contributors_url())
         else:
             update_database = True
-            self.contributors = []
             for contributor in self.fetch_contributor_info_json:
                 # JSON doc is an array of "contributor" objects
                 author_elem = fetch_json_value('author', contributor)
