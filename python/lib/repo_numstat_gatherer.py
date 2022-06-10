@@ -83,6 +83,7 @@ class RepoNumstatGatherer(DBDependent):
         self.results_output_file = None
 
     def stop(self):
+        print('RepoNumstatGatherer is Leaving!')
         self.running = False
         self.interrupt_event.set()
 
@@ -249,7 +250,6 @@ class RepoNumstatGatherer(DBDependent):
 if __name__ == "__main__":
     _lock = Lock()
     subprocesses = [ChildProcessContainer(RepoNumstatGatherer(_lock), 'RepoNumstatGatherer')
-                    #                    ChildProcessContainer(ContributorFinder(_lock), 'cpc1')
                     ]
     for n in subprocesses:
         n.join()

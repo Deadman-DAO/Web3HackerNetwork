@@ -11,12 +11,23 @@ import iso_date_parser
 from pytz import timezone
 from threading import Lock
 from git_hub_client import GitHubClient, fetch_json_value
+from db_driven_task import DBDrivenTaskProcessor
 
 
-class AuthorCommitHistoryProcessor(DBDependent, GitHubClient):
+class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
+
+    def get_job_fetching_task(self):
+        pass
+
+    def get_job_completion_task(self):
+        pass
+
+    def process_task(self):
+        pass
+
     def __init__(self, git_lock):
         GitHubClient.__init__(self, git_lock)
-        DBDependent.__init__(self)
+        DBDrivenTaskProcessor.__init__(self)
         self.git_lock = git_lock
         self.get_cursor()
         self.repo_counter = {}

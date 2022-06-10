@@ -7,21 +7,19 @@ BEGIN
 	declare alias_hash char(32) default null;
 
 	select github_user_id, md5 into github_user, alias_hash from (
-		select a.github_user_id, a.md5,  a.count, max(c.date), min(c.date) from alias a
-		join commit c on c.alias_id = a.id
+		select a.github_user_id, a.md5,  a.count from alias a
 		left join alias_reserve ar on ar.alias_id  = a.id
 		where github_user_id is not null
 		and github_user_id not like '%[bot]%'
 		and github_user_id not like '%-bot%'
 		and ar.reserver is null
-		group by a.github_user_id, a.md5, a.count
-		order by 4 desc, 3 desc 
+		and a.last_traced is null
+		order by a.id asc
 		limit 1 
 	) as X;
 	
 	call ReserveAlias(alias_hash, who_is_reserving, success);
-	if success = 0 then
-		select null into github_user;
-		select null into alias_hash;
+	if success then
+		select github_user, alias_hash;
 	end if;
 END

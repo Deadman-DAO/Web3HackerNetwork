@@ -1,10 +1,9 @@
 import json
-import traceback
 
 import mysql.connector
-import os, sys
+import os
 from monitor import timeit
-import signal
+from signal_handler import SignalHandler
 
 
 def make_dir(dir_name):
@@ -13,23 +12,13 @@ def make_dir(dir_name):
     return os.path.abspath(dir_name)
 
 
-class DBDependent:
+class DBDependent(SignalHandler):
     def __init__(self):
         self.db_config = None
         self.database = None
         self.cursor = None
         self.stack = None
-        signal.signal(signal.SIGUSR1 if sys.platform != "win32" else signal.SIGBREAK, self.print_stack)
-        signal.signal(signal.SIGINT, self.abort)
 
-    def print_stack(self, sig, frame):
-        self.stack = frame
-        print(traceback.format_stack(frame))
-
-    def abort(self, sig, fram):
-        print('Abort signal received.  Leaving.')
-        self.print_stack(sig, fram)
-        sys.exit(-1)
 
     @timeit
     def delay_repo_processing(self, _in_repo_id):

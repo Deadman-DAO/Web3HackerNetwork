@@ -1,9 +1,11 @@
 from threading import Lock
 from child_process import ChildProcessContainer
 from abc import abstractmethod
+from signal_handler import SignalHandler
 
 
-class MultiprocessManager:
+class MultiprocessManager(SignalHandler):
+
     def __init__(self):
         self.lock = Lock()
         self.subprocesses = []
@@ -13,6 +15,8 @@ class MultiprocessManager:
         pass
 
     def main(self):
+        self.set_signal_handlers()
+
         dic = self.get_process_list()
         for kick in dic:
             constructor = dic[kick]
