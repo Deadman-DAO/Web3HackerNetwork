@@ -8,7 +8,6 @@ import json
 from datetime import datetime as dt
 from monitor import mem_info, timeit
 
-
 def fetch_json_value(key, json):
     if key in json:
         return json[key]
@@ -16,8 +15,9 @@ def fetch_json_value(key, json):
 
 
 class GitHubClient:
-    def __init__(self, git_hub_lock):
-        self.git_hub_lock = git_hub_lock
+    def __init__(self, **kwargs):
+        self.kwargs = kwargs
+        self.web_lock = kwargs['web_lock'] if 'web_lock' in kwargs else threading.Lock()
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
         self.error_count = 0
         self.overload_count = 0
@@ -48,7 +48,7 @@ class GitHubClient:
         start_time = dt.now().timestamp()
 
         try:
-            with self.git_hub_lock:
+            with self.web_lock:
                 elapsed = dt.now().timestamp() - start_time
                 if elapsed > self.longest_wait:
                     self.longest_wait = elapsed

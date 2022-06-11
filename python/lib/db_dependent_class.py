@@ -13,16 +13,27 @@ def make_dir(dir_name):
 
 
 class DBDependent(SignalHandler):
-    def __init__(self):
+
+    def __init__(self, **kwargs):
+        SignalHandler().__init__()
         self.db_config = None
         self.database = None
         self.cursor = None
         self.stack = None
+        self.db_lock = kwargs['database_lock'] if 'database_lock' in kwargs else None
+        self.web_lock = kwargs['web_lock'] if 'web_lock' in kwargs else None
 
+    @timeit
+    def execute_procedure(self, method_name, params):
+        if self.db_lock:
+            with self.db_lock:
+                return self.get_cursor().callproc(method_name, params)
+        else:
+            return self.get_cursor().callproc(method_name, params)
 
     @timeit
     def delay_repo_processing(self, _in_repo_id):
-        self.get_cursor().callproc('DelayAPICallsForRepo', [_in_repo_id])
+        self.execute_procedure('DelayAPICallsForRepo', [_in_repo_id])
 
     def load_db_info(self):
         if self.db_config is None:

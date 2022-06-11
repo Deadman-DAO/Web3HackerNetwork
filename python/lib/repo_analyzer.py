@@ -8,8 +8,8 @@ from threading import Lock
 
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
-    def __init__(self, lock):
-        super().__init__(lock)
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.get_next = self.GetNextRepoForAnalysis(self)
         self.all_done = self.ReleaseRepo(self)
         self.repo_owner = None
@@ -67,4 +67,4 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
 
 if __name__ == "__main__":
-    RepoAnalyzer(Lock()).main()
+    RepoAnalyzer(web_lock=Lock()).main()

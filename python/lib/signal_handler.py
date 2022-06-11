@@ -5,20 +5,18 @@ import signal
 
 def print_stack(sig, frame):
     for thread_id, frame in sys._current_frames().items():
-        print('\n--- Stack for thread {t} ---'.format(t=thread_id))
+        print(dir(frame))
+        print('\n--- Stack for thread {t} {n}---'.format(t=thread_id, n=frame.name))
         traceback.print_stack(frame, file=sys.stdout)
 
 
-class SignalHandler(object):
-    def __init__(self):
-        super().__init__()
-
+class SignalHandler:
     def abort(self, sig, frame):
         print('Abort signal received.  Leaving.')
         print_stack(sig, frame)
         gpl = getattr(self, 'get_process_list')
         if gpl and callable(gpl):
-            for n in gpl(self):
+            for n in gpl():
                 stop_meth = getattr(n, 'stop')
                 if stop_meth and callable(stop_meth):
                     n.stop()

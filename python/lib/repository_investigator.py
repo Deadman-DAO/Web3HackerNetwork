@@ -9,9 +9,9 @@ import time
 
 
 class Investigator(DBDependent, GitHubClient):
-    def __init__(self, lock):
-        GitHubClient.__init__(self, lock)
-        DBDependent.__init__(self)
+    def __init__(self, **kwargs):
+        GitHubClient.__init__(self, **kwargs)
+        DBDependent.__init__(self, **kwargs)
         self.repo_last_year = None
         self.url_prefix = 'https://api.github.com/repos/'
         self.url_activity = '/stats/commit_activity'
@@ -40,7 +40,7 @@ class Investigator(DBDependent, GitHubClient):
     def reserve_new_repo(self):
         success = False
         try:
-            self.get_cursor().callproc('ReserveNextRepoForEvaluation', [self.machine_name])
+            self.execute_procedure('ReserveNextRepoForEvaluation', [self.machine_name])
             for goodness in self.get_cursor().stored_results():
                 result = goodness.fetchone()
                 if result is not None:
@@ -109,7 +109,7 @@ class Investigator(DBDependent, GitHubClient):
                      self.watchers_count,
                      self.sum([self.repo_last_year])
                      )
-            self.get_cursor().callproc('EvaluateRepo', array)
+            self.execute_procedure('EvaluateRepo', array)
         finally:
             self.close_cursor()
 
@@ -118,7 +118,7 @@ class Investigator(DBDependent, GitHubClient):
         time.sleep(60)
 
     def main(self):
-        MultiprocessMonitor(self.git_hub_lock, eval=self.get_stats)
+        MultiprocessMonitor(web_lock=self.web_lock, eval=self.get_stats)
         running = True
         while running:
             if self.reserve_new_repo():
@@ -139,7 +139,7 @@ class Investigator(DBDependent, GitHubClient):
 
 if __name__ == "__main__":
     _lock = Lock()
-    subprocesses = [ChildProcessContainer(Investigator(_lock), 'inv')
+    subprocesses = [ChildProcessContainer(Investigator(web_lock=_lock), 'inv')
                     ]
     for n in subprocesses:
         n.join()

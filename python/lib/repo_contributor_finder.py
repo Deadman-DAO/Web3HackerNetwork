@@ -24,9 +24,9 @@ class Contributor:
 
 
 class ContributorFinder(DBDependent, GitHubClient):
-    def __init__(self, lock):
-        GitHubClient.__init__(self, lock)
-        DBDependent.__init__(self)
+    def __init__(self, **kwargs):
+        GitHubClient.__init__(self, **kwargs)
+        DBDependent.__init__(self, **kwargs)
         self.running = True
         self.success = False
         self.repo_id = -1
@@ -49,7 +49,7 @@ class ContributorFinder(DBDependent, GitHubClient):
     @timeit
     def get_next_repo(self):
         self.success = False
-        self.get_cursor().callproc('ReserveRepoToDiscoverContributors', [self.machine_name])
+        self.execute_procedure('ReserveRepoToDiscoverContributors', [self.machine_name])
         for goodness in self.get_cursor().stored_results():
             result = goodness.fetchone()
             if result:
@@ -97,7 +97,7 @@ class ContributorFinder(DBDependent, GitHubClient):
 
     @timeit
     def update_database(self):
-        self.get_cursor().callproc('AddContributors',
+        self.execute_procedure('AddContributors',
                                    [self.repo_id, json.dumps(self.contributors,
                                                              default=lambda o: o.__dict__,
                                                              sort_keys=True, indent=2)])
@@ -111,7 +111,7 @@ class ContributorFinder(DBDependent, GitHubClient):
         time.sleep(60)
 
     def main(self):
-        self.monitor = MultiprocessMonitor(self.git_hub_lock, cont=self.get_completed_count, cin=self.get_stats)
+        self.monitor = MultiprocessMonitor(web_lock=self.web_lock, cont=self.get_completed_count, cin=self.get_stats)
 
         while self.running:
             if self.get_next_repo():
@@ -127,4 +127,4 @@ class ContributorFinder(DBDependent, GitHubClient):
 
 if __name__ == "__main__":
     _lock = Lock()
-    ChildProcessContainer(ContributorFinder(_lock), 'cf1').join()
+    ChildProcessContainer(ContributorFinder(web_lock=_lock), 'cf1').join()

@@ -10,9 +10,8 @@ import threading
 
 
 class RepoCloner(DBDependent):
-    def __init__(self, lock):
-        self.lock = lock
-        DBDependent.__init__(self)
+    def __init__(self, **kwargs):
+        DBDependent.__init__(self, **kwargs)
         self.monitor = None
         self.repo_base_dir = './repos'
         make_dir(self.repo_base_dir)
@@ -55,7 +54,7 @@ class RepoCloner(DBDependent):
 
         self.get_cursor()
         try:
-            result = self.cursor.callproc('ReserveNextRepo', (self.machine_name, None, None, None))
+            result = self.execute_procedure('ReserveNextRepo', (self.machine_name, None, None, None))
             if result:
                 self.owner = result[1]
                 self.repo_name = result[2]
@@ -78,7 +77,7 @@ class RepoCloner(DBDependent):
 
     @timeit
     def release_job(self):
-        self.get_cursor().callproc('ReleaseRepoFromCloning', (self.repo_id, self.machine_name, self.repo_dir))
+        self.execute_procedure('ReleaseRepoFromCloning', (self.repo_id, self.machine_name, self.repo_dir))
 
     @timeit
     def idle_sleep(self):
@@ -92,9 +91,8 @@ class RepoCloner(DBDependent):
     def resource_sleep(self):
         self.interrupt_event.wait(60)
 
-    @timeit
     def main(self):
-        self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job)
+        self.monitor = MultiprocessMonitor(web_lock=self.web_lock, ds=self.get_disc_space, curjob=self.get_current_job)
         self.interrupt_event = threading.Event()
         while self.running:
             if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
@@ -114,7 +112,7 @@ class RepoCloner(DBDependent):
 
 if __name__ == "__main__":
     _lock = Lock()
-    subprocesses = [ChildProcessContainer(RepoCloner(_lock), 'RepoCloner')
+    subprocesses = [ChildProcessContainer(RepoCloner(web_lock=Lock()), 'RepoCloner')
                     ]
     for n in subprocesses:
         n.join()

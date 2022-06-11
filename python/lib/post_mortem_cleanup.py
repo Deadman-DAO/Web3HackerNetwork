@@ -1,11 +1,11 @@
-import signal, traceback
+from threading import Lock
 
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 
 
 class PostMortemCleanerUpper(DBDrivenTaskProcessor, DBTask):
-    def __init__(self):
-        DBDrivenTaskProcessor.__init__(self)
+    def __init__(self, db_lock):
+        DBDrivenTaskProcessor.__init__(self, db_lock)
         self.count = None
 
     def get_job_fetching_task(self):
@@ -34,4 +34,4 @@ class PostMortemCleanerUpper(DBDrivenTaskProcessor, DBTask):
 
 
 if __name__ == '__main__':
-    PostMortemCleanerUpper().main()
+    PostMortemCleanerUpper(Lock()).main()

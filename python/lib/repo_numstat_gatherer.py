@@ -55,11 +55,10 @@ class Author:
 
 
 class RepoNumstatGatherer(DBDependent):
-    def __init__(self, lock):
+    def __init__(self, **kwargs):
         self.total_alias_processing_time = 0
         self.this_repo_commit_count = None
-        self.lock = lock
-        DBDependent.__init__(self)
+        DBDependent.__init__(self, **kwargs)
         self.monitor = None
         self.repo_base_dir = './repos'
         make_dir(self.repo_base_dir)
@@ -108,7 +107,7 @@ class RepoNumstatGatherer(DBDependent):
 
         self.get_cursor()
         try:
-            self.cursor.callproc('ReserveRepoForNumstat', [self.machine_name])
+            self.execute_procedure('ReserveRepoForNumstat', [self.machine_name])
             for goodness in self.get_cursor().stored_results():
                 result = goodness.fetchone()
                 if result:
@@ -168,7 +167,7 @@ class RepoNumstatGatherer(DBDependent):
                     ' values (%s, %s, %s, %s, %s, %s);', sub_array)
             self.total_alias_processing_time += (time.time() - _start_time)
 
-            self.cursor.callproc('ReleaseRepoFromNumstat', [self.repo_id,
+            self.execute_procedure('ReleaseRepoFromNumstat', [self.repo_id,
                                                             self.machine_name,
                                                             self.results_output_file,
                                                             datingdays.fromtimestamp(_min_date),
@@ -207,7 +206,7 @@ class RepoNumstatGatherer(DBDependent):
 
     @timeit
     def release_job(self):
-        self.get_cursor().callproc('ReleaseRepoFromNumstat', (self.repo_id, self.machine_name, self.repo_dir))
+        self.execute_procedure('ReleaseRepoFromNumstat', (self.repo_id, self.machine_name, self.repo_dir))
 
     @timeit
     def idle_sleep(self):
@@ -223,7 +222,8 @@ class RepoNumstatGatherer(DBDependent):
 
     @timeit
     def do_your_thing(self):
-        self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job, alias_tm=self.get_total_alias_processing_time)
+        self.monitor = MultiprocessMonitor(web_lock=self.web_lock, ds=self.get_disc_space, curjob=self.get_current_job,
+                                           alias_tm=self.get_total_alias_processing_time)
         self.interrupt_event = Event()
         while self.running:
             if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
@@ -249,7 +249,7 @@ class RepoNumstatGatherer(DBDependent):
 
 if __name__ == "__main__":
     _lock = Lock()
-    subprocesses = [ChildProcessContainer(RepoNumstatGatherer(_lock), 'RepoNumstatGatherer')
+    subprocesses = [ChildProcessContainer(RepoNumstatGatherer(web_lock=_lock), 'RepoNumstatGatherer')
                     ]
     for n in subprocesses:
         n.join()

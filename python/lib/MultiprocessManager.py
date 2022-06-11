@@ -7,7 +7,8 @@ from signal_handler import SignalHandler
 class MultiprocessManager(SignalHandler):
 
     def __init__(self):
-        self.lock = Lock()
+        self.web_lock = Lock()
+        self.db_lock = Lock()
         self.subprocesses = []
 
     @abstractmethod
@@ -20,7 +21,8 @@ class MultiprocessManager(SignalHandler):
         dic = self.get_process_list()
         for kick in dic:
             constructor = dic[kick]
-            self.subprocesses.append(ChildProcessContainer(constructor(self.lock), kick))
+            self.subprocesses.append(ChildProcessContainer(constructor(web_lock=self.web_lock,
+                                                                       database_lock=self.db_lock), kick))
         for n in self.subprocesses:
             n.join()
 

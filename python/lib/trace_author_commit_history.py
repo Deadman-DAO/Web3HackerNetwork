@@ -25,10 +25,9 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
     def process_task(self):
         pass
 
-    def __init__(self, git_lock):
-        GitHubClient.__init__(self, git_lock)
-        DBDrivenTaskProcessor.__init__(self)
-        self.git_lock = git_lock
+    def __init__(self, **kwargs):
+        GitHubClient.__init__(**kwargs)
+        DBDrivenTaskProcessor.__init__(**kwargs)
         self.get_cursor()
         self.repo_counter = {}
         self.call_count = 0
@@ -61,7 +60,7 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
 
     @timeit
     def reserve_next_user(self):
-        self.cursor.callproc(self.reserve_next_user_proc, [self.machine_name])
+        self.execute_procedure(self.reserve_next_user_proc, [self.machine_name])
         for goodness in self.get_cursor().stored_results():
             result = goodness.fetchone()
             if result:
@@ -79,7 +78,7 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
     def main(self):
         self.running = True
         m = MultiprocessMonitor(
-            self.git_lock,
+            web_lock=self.web_lock,
             frequency=10,
             mem=mem_info,
             curjob=self.get_cur_job,
@@ -128,7 +127,7 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
 
     @timeit
     def call_update_repo(self, owner_login, repo_name, commit_date, orig_time_zone, commit_hash, author_hash):
-        self.cursor.callproc(self.add_update_repo_proc, (
+        self.execute_procedure(self.add_update_repo_proc, (
             owner_login, repo_name, commit_date, orig_time_zone, commit_hash, author_hash)
                              )
     @timeit
@@ -161,4 +160,4 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
 
 
 if __name__ == "__main__":
-    AuthorCommitHistoryProcessor(Lock()).main()
+    AuthorCommitHistoryProcessor(web_lock=Lock()).main()

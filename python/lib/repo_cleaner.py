@@ -39,8 +39,8 @@ class RepoCleanup(DBDrivenTaskProcessor):
         def process_db_results(self, result_args):
             pass
 
-    def __init__(self, lock):
-        super().__init__(lock)
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.repo_id = None
         self.repo_owner = None
         self.repo_name = None
@@ -68,4 +68,4 @@ class RepoCleanup(DBDrivenTaskProcessor):
 
 
 if __name__ == "__main__":
-    RepoCleanup(Lock()).main()
+    RepoCleanup(web_lock=Lock()).main()

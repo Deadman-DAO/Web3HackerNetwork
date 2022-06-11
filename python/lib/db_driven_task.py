@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 from db_dependent_class import DBDependent
 from monitor import MultiprocessMonitor, timeit
-import time
 import sys
 import os
 from socket import gethostname
@@ -31,9 +30,8 @@ class DBTask(ABC):
 
 
 class DBDrivenTaskProcessor(ABC, DBDependent):
-    def __init__(self, lock=None, **kwargs):
-        DBDependent.__init__(self)
-        self.lock = lock if lock else Lock()
+    def __init__(self, **kwargs):
+        DBDependent.__init__(self, **kwargs)
         self.monitor = None
         self.running = True
         self.idle_wait = int(kwargs['idle_wait']) if 'idle_wait' in kwargs else 5
@@ -55,7 +53,8 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
         result = None
         try:
             c = self.get_cursor()
-            result = db_task.process_db_results(c.callproc(db_task.get_proc_name(), db_task.get_proc_parameters()))
+            result = db_task.process_db_results(
+                self.execute_procedure(db_task.get_proc_name(), db_task.get_proc_parameters()))
         finally:
             self.close_cursor()
         return result
@@ -94,7 +93,7 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
     def main(self):
         self.interrupt_event = threading.Event()
         print('Entering MAIN')
-        self.monitor = MultiprocessMonitor(self.lock)
+        self.monitor = MultiprocessMonitor(web_lock=self.web_lock)
         while self.running:
             try:
                 task = self.fetch_next_task()

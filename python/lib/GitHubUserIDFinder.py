@@ -16,12 +16,11 @@ def format_id_check_url(repo_owner, repo_name, commit_hash):
 
 class GitHubUserIDFinder(DBDependent, GitHubClient):
 
-    def __init__(self, git_lock):
-        GitHubClient.__init__(self, git_lock)
-        DBDependent.__init__(self)
-        self.git_lock = git_lock
+    def __init__(self, **kwargs):
+        GitHubClient.__init__(**kwargs)
+        DBDependent.__init__(self, **kwargs)
+        self.kwargs = kwargs
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
-        self.get_cursor()
         self.commit_set = None
         self.running = True
         self.call_count = 0
@@ -45,7 +44,7 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
     def reserve_next_author(self):
         rslt = None
         try:
-            self.cursor.callproc('ReserveNextUnresolvedAlias', [self.machine_name])
+            self.execute_procedure('ReserveNextUnresolvedAlias', [self.machine_name])
             for goodness in self.get_cursor().stored_results():
                 result = goodness.fetchone()
                 if result:
@@ -62,7 +61,7 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
     @timeit
     def call_resolve_sql_proc(self, author_id, github_user_id):
         try:
-            self.cursor.callproc('ResolveAliasViaPrimaryKey', (author_id, github_user_id))
+            self.execute_procedure('ResolveAliasViaPrimaryKey', (author_id, github_user_id))
         except Exception as e:
             print('Error encountered calling ResolveAliasViaPrimaryKey', e)
 
@@ -99,7 +98,7 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
         return rv
 
     def main(self):
-        m = MultiprocessMonitor(self.git_lock, my=self.get_stats)
+        m = MultiprocessMonitor(web_lock=self.web_lock, my=self.get_stats)
         while self.running:
             if self.reserve_next_author() is None:
                 self.no_work_sleep()
@@ -108,4 +107,5 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
 
 
 if __name__ == "__main__":
-    GitHubUserIDFinder(Lock()).main()
+    GitHubUserIDFinder(web_lock=Lock()).main()
+
