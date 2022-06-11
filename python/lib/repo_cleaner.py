@@ -40,7 +40,7 @@ class RepoCleanup(DBDrivenTaskProcessor):
             pass
 
     def __init__(self, **kwargs):
-        super().__init__(**kwargs)
+        super().__init__(self, **kwargs)
         self.repo_id = None
         self.repo_owner = None
         self.repo_name = None

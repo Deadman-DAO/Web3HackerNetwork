@@ -125,16 +125,18 @@ class RepoNumstatGatherer(DBDependent):
     @timeit
     def build_batch_parameters(self, author, param_array):
         _last_ten = json.dumps(author.last_ten,
-                                    default=lambda o: o.__dict__,
-                                    sort_keys=True)
+                               default=lambda o: o.__dict__,
+                               sort_keys=True)
         _min = datingdays.fromtimestamp(author.min_date)
         _max = datingdays.fromtimestamp(author.max_date)
         param_array.append([author.md5,
-                              author.name_email,
-                              author.commit_count,
-                              _min,
-                              _max,
-                              _last_ten]);
+                            author.name_email,
+                            author.commit_count,
+                            _min,
+                            _max,
+                            self.owner,
+                            self.repo_name,
+                            _last_ten])
 
     @timeit
     def store_results_in_database(self):
@@ -163,16 +165,16 @@ class RepoNumstatGatherer(DBDependent):
             _start_time = time.time()
             for sub_array in array_of_arrays:
                 self.cursor.executemany(
-                    '	insert into hacker_update_queue (md5, name_email, commit_count, min_date, max_date, commit_array)'+
-                    ' values (%s, %s, %s, %s, %s, %s);', sub_array)
+                    'insert into hacker_update_queue (md5, name_email, commit_count, min_date, max_date, repo_owner, repo_name, commit_array)' +
+                    ' values (%s, %s, %s, %s, %s, %s, %s, %s);', sub_array)
             self.total_alias_processing_time += (time.time() - _start_time)
 
             self.execute_procedure('ReleaseRepoFromNumstat', [self.repo_id,
-                                                            self.machine_name,
-                                                            self.results_output_file,
-                                                            datingdays.fromtimestamp(_min_date),
-                                                            datingdays.fromtimestamp(_max_date),
-                                                            self.this_repo_commit_count])
+                                                              self.machine_name,
+                                                              self.results_output_file,
+                                                              datingdays.fromtimestamp(_min_date),
+                                                              datingdays.fromtimestamp(_max_date),
+                                                              self.this_repo_commit_count])
         finally:
             self.close_cursor()
 
@@ -187,7 +189,7 @@ class RepoNumstatGatherer(DBDependent):
     @timeit
     def parse_logfile(self):
         numstat_req_set = NumstatRequirementSet()
-        self.results_output_file = self.results_file+'.json.bz2'
+        self.results_output_file = self.results_file + '.json.bz2'
         self.this_repo_commit_count = 0
         numstat_req_set.process_file(self.results_file, self.results_output_file, self.commit_callback)
         os.remove(self.results_file)
@@ -197,8 +199,8 @@ class RepoNumstatGatherer(DBDependent):
     def generate_numstats(self):
         rel_path = './results/' + self.owner + '/' + self.repo_name
         self.results_dir = make_dir(rel_path)
-        self.results_file = self.results_dir+'/log_numstat.out'
-        cmd = str('git -C '+self.repo_dir+' log --no-renames --numstat > '+self.results_file)
+        self.results_file = self.results_dir + '/log_numstat.out'
+        cmd = str('git -C ' + self.repo_dir + ' log --no-renames --numstat > ' + self.results_file)
         print(cmd)
         return_value = os.system(cmd)
         if return_value != 0:
@@ -253,5 +255,3 @@ if __name__ == "__main__":
                     ]
     for n in subprocesses:
         n.join()
-
-

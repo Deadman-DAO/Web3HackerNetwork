@@ -56,13 +56,7 @@ class GitHubClient:
                 time.sleep(1)
                 self.html_reply = requests.get(url, headers=self.headers, stream=True)
                 if self.html_reply is not None and self.html_reply.status_code == 200:
-                    c = self.html_reply.content
-                    fileName = threading.current_thread().name+'.json'
-                    with open(fileName, 'wb') as w:
-                        w.write(c)
-                    with open(fileName, 'rb') as r:
-                        my_bin = r.read()
-                    self.json_reply = json.loads(my_bin)
+                    self.json_reply = self.html_reply.json()
 
             if self.html_reply is None:
                 self.error_count += 1

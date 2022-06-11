@@ -4,6 +4,8 @@ in _name_email varchar(256),
 in _commit_count int,
 in _min_date datetime,
 in _max_date datetime,
+in _repo_owner varchar(128),
+in _repo_name  varchar(128),
 in _commit_array json
 )
 BEGIN
@@ -13,6 +15,8 @@ BEGIN
 	declare _commit json;
 	declare _commit_key_idx int default 0;
 	declare _commit_id char(40);
+	declare _repo_id int default -1;
+	declare _new_commit_pri_key int default -1;
 
 	if exists (select id from alias a where a.md5 = _md5) THEN 
 		select id into _alias_id from alias a where a.md5 = _md5;
@@ -46,6 +50,14 @@ BEGIN
 					else
 						insert into commit(commit_id, alias_id, date, gmt_offset)
 						 select _commit_id, _alias_id, FROM_UNIXTIME(json_value(_commit, '$.dt')), json_value(_commit, '$.tz');
+						select LAST_INSERT_ID() into _new_commit_pri_key;
+						select id into _repo_id from repo where owner = _repo_owner and name = _repo_name;
+						if _repo_id = -1 then
+							insert into repo (owner, name, commit_count, min_date, max_date) values (_repo_owner, _repo_name, _commit_count, _min_date, _max_date);
+							select LAST_INSERT_ID() into _repo_id;
+						end if;
+						insert into repo_commit (commit_id, repo_id) values (_new_commit_pri_key, _repo_id);
+							
 					end if;
 					set _commit_key_idx = _commit_key_idx + 1;
 				end while;

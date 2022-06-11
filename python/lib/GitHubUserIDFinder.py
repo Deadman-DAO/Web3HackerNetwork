@@ -17,7 +17,7 @@ def format_id_check_url(repo_owner, repo_name, commit_hash):
 class GitHubUserIDFinder(DBDependent, GitHubClient):
 
     def __init__(self, **kwargs):
-        GitHubClient.__init__(**kwargs)
+        GitHubClient.__init__(self, **kwargs)
         DBDependent.__init__(self, **kwargs)
         self.kwargs = kwargs
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()

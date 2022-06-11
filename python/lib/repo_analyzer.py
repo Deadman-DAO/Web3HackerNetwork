@@ -9,7 +9,7 @@ from threading import Lock
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
     def __init__(self, **kwargs):
-        super().__init__(**kwargs)
+        super().__init__(self, **kwargs)
         self.get_next = self.GetNextRepoForAnalysis(self)
         self.all_done = self.ReleaseRepo(self)
         self.repo_owner = None

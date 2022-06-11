@@ -8,6 +8,7 @@ BEGIN
 				commit_count int,
 				min_date datetime,
 				max_date datetime,
-				commit_array json,
-				completed bit default 0);
+				repo_owner varchar(128),
+				repo_name  varchar(128),
+				commit_array json);
 END

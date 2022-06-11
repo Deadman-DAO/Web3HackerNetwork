@@ -26,8 +26,8 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
         pass
 
     def __init__(self, **kwargs):
-        GitHubClient.__init__(**kwargs)
-        DBDrivenTaskProcessor.__init__(**kwargs)
+        GitHubClient.__init__(self, **kwargs)
+        DBDrivenTaskProcessor.__init__(self, **kwargs)
         self.get_cursor()
         self.repo_counter = {}
         self.call_count = 0
