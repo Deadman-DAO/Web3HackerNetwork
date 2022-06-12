@@ -201,7 +201,7 @@ class RepoNumstatGatherer(DBDependent):
         self.results_dir = make_dir(rel_path)
         self.results_file = self.results_dir + '/log_numstat.out'
         cmd = str('git -C ' + self.repo_dir + ' log --no-renames --numstat > ' + self.results_file)
-        print(cmd)
+        # print(cmd)
         return_value = os.system(cmd)
         if return_value != 0:
             raise StopIteration('Error encountered - git log --numstat exited with a value of ' + str(return_value))
