@@ -6,7 +6,7 @@ import signal
 def print_stack(sig, frame):
     for thread_id, frame in sys._current_frames().items():
         print(dir(frame))
-        print('\n--- Stack for thread {t} {n}---'.format(t=thread_id))
+        print('\n--- Stack for thread {t}---'.format(t=thread_id))
         traceback.print_stack(frame, file=sys.stdout)
 
 
