@@ -56,7 +56,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return [self.mom.repo_id]
 
         def process_db_results(self, result_args):
-            print(result_args)
+            return True
 
     def get_job_fetching_task(self):
         return self.get_next
@@ -66,7 +66,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
     @timeit
     def process_task(self):
-        print('I choose to do nothing!')
+        pass
 
 
 if __name__ == "__main__":
