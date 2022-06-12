@@ -1,7 +1,7 @@
 CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReleaseRepoFromNumstat`(	
 in _repo_id int,
 in _numstat_machine_name varchar(64),
-in _numstat_dir varchar(128),
+in _numstat_dir varchar(512),
 in _repo_min_date datetime,
 in _repo_max_date datetime,
 in _repo_commit_count int

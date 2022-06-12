@@ -1,7 +1,7 @@
 CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReleaseRepoFromCloning`(
 in _repo_id int,
 in _machine_name varchar(64),
-in _repo_dir varchar(128)
+in _repo_dir varchar(512)
 )
 BEGIN
 	declare dt datetime default now();
