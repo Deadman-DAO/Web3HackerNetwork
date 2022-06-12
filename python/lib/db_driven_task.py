@@ -23,7 +23,7 @@ class DBTask(ABC):
     @abstractmethod
     def process_db_results(self, result_args):
         """ given the db.callproc() return value go do your thing
-            return back any object for success, None for no further processing necessary,
+            ***return back*** any object for success, None for no further processing necessary,
             and raise Exception if trouble encountered
         """
         pass
@@ -52,7 +52,6 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
     def call_db_proc(self, db_task):
         result = None
         try:
-            c = self.get_cursor()
             result = db_task.process_db_results(
                 self.execute_procedure(db_task.get_proc_name(), db_task.get_proc_parameters()))
         finally:
@@ -89,11 +88,18 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
     def error_sleep(self):
         self.interrupt_event.wait(self.error_wait)
 
-    @timeit
+    @abstractmethod
+    def init(self):
+        """
+        get done here things like self.monitor.add_display_methods
+        """
+        pass
+
     def main(self):
         self.interrupt_event = threading.Event()
         print('Entering MAIN')
         self.monitor = MultiprocessMonitor(web_lock=self.web_lock)
+        self.init()
         while self.running:
             try:
                 task = self.fetch_next_task()

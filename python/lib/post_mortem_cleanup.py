@@ -4,9 +4,13 @@ from db_driven_task import DBDrivenTaskProcessor, DBTask
 
 
 class PostMortemCleanerUpper(DBDrivenTaskProcessor, DBTask):
+
     def __init__(self, **kwargs):
         DBDrivenTaskProcessor.__init__(self, **kwargs)
         self.count = None
+
+    def init(self):
+        pass
 
     def get_job_fetching_task(self):
         return self

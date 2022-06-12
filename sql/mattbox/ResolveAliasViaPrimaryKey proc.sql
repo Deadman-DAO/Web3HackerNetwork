@@ -4,4 +4,5 @@ CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ResolveAliasViaPrimaryK
 )
 BEGIN
 	update alias set github_user_id = in_github_userid where id = alias_pri_key;  
+	delete from alias_reserve where alias_id = alias_pri_key;
 END

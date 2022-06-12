@@ -6,6 +6,9 @@ from threading import Lock
 
 class RepoCleanup(DBDrivenTaskProcessor):
 
+    def init(self):
+        pass
+
     class Fetcher(DBTask):
         def __init__(self, mom):
             self.mom = mom

@@ -21,6 +21,9 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.repo_dir = None
         self.numstat_dir = None
 
+    def init(self):
+        pass
+
     class GetNextRepoForAnalysis(DBTask):
         def __init__(self, mom):
             self.mom = mom

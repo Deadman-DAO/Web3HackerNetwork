@@ -1,8 +1,6 @@
 import sys
 import os
 import time
-from db_dependent_class import DBDependent
-from monitor import MultiprocessMonitor
 from monitor import timeit
 from monitor import mem_info
 from socket import gethostname
@@ -11,19 +9,46 @@ import iso_date_parser
 from pytz import timezone
 from threading import Lock
 from git_hub_client import GitHubClient, fetch_json_value
-from db_driven_task import DBDrivenTaskProcessor
+from db_driven_task import DBDrivenTaskProcessor, DBTask
 
 
-class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
+class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient, DBTask):
+
+    class PostProcess(DBTask):
+        def __init__(self, mom):
+            self.mom = mom
+
+        def get_proc_name(self):
+            return 'releaseAlias'
+
+        def get_proc_parameters(self):
+            return [self.mom.alias_hash, self.mom.author_commit_count]
+
+        def process_db_results(self, result_args):
+            pass
+
+    def get_proc_name(self):
+        return self.reserve_next_user_proc
+
+    def get_proc_parameters(self):
+        return [self.machine_name]
+
+    def process_db_results(self, result_args):
+        for goodness in self.get_cursor().stored_results():
+            result = goodness.fetchone()
+            if result:
+                self.user_id = result[0]
+                self.alias_hash = result[1]
+        return result
 
     def get_job_fetching_task(self):
-        pass
+        return self
 
     def get_job_completion_task(self):
-        pass
+        return self.post_processor
 
     def process_task(self):
-        pass
+        self.process_author()
 
     def __init__(self, **kwargs):
         GitHubClient.__init__(self, **kwargs)
@@ -45,6 +70,8 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
         self.startDate = datingdays.now(timezone('UTC'))
         self.add_update_repo_proc = 'addUpdateRepo'
         self.reserve_next_user_proc = 'reserveNextUser'
+        self.post_processor = self.PostProcess(self)
+        self.author_commit_count = 0
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
@@ -58,48 +85,27 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
               '&sort=author-date&order=desc&per_page=100&page=1'
         return var
 
-    @timeit
-    def reserve_next_user(self):
-        self.execute_procedure(self.reserve_next_user_proc, [self.machine_name])
-        for goodness in self.get_cursor().stored_results():
-            result = goodness.fetchone()
-            if result:
-                self.user_id = result[0]
-                self.alias_hash = result[1]
-
     def get_cur_job(self):
         return self.user_id if self.user_id is not None else 'None'
 
-    @timeit
-    def play_dead(self, msg, n_sec):
-        print(msg)
-        time.sleep(n_sec)
-
-    def main(self):
-        self.running = True
-        m = MultiprocessMonitor(
-            web_lock=self.web_lock,
-            frequency=10,
-            mem=mem_info,
-            curjob=self.get_cur_job,
-            callcnt=self.get_call_count,
-            cmt_cnt=self.get_total_count,
-            x=self.get_stats)
-        while self.running:
-            self.reserve_next_user()
-            if self.user_id is None:
-                self.play_dead('No work today, sleeping', 60)
-            else:
-                self.process_author()
+    def init(self):
+        self.monitor.single.add_display_methods(mem=mem_info,
+                                         curjob=self.get_cur_job,
+                                         callcnt=self.get_call_count,
+                                         cmt_cnt=self.get_total_count,
+                                         x=self.get_stats)
 
     def get_call_count(self):
         return self.call_count
 
     @timeit
     def sleep_n_load(self):
+        time.sleep(1)
+        print(self.format_user_url(self.user_id))
         body = self.fetch_json_with_lock(self.format_user_url(self.user_id))
         return body
 
+    @timeit
     def evaluate_document(self):
         cont_inue = True
         stop_looping = False
@@ -110,6 +116,8 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
             stop_looping = True
         else:
             self.total_count = self.body['total_count']
+            if self.author_commit_count < 1:
+                self.author_commit_count = self.total_count
             if self.total_count == self.last_count:
                 print('Identical result set found.  Moving on.', self.total_count, self.last_count)
                 stop_looping = True
@@ -135,6 +143,7 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
         done = False
         self.last_count = -1
         self.reset_last_date()
+        self.author_commit_count = -1
 
         while not done:
             self.body = self.sleep_n_load()
@@ -146,7 +155,7 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient):
                     commit_date, orig_time_zone = iso_date_parser.parse(com_auth['date'])
                     self.startDate, orig_time_zone = iso_date_parser.parse(com_auth['date'], tz='US/Arizona')
                     ''' Skip a bit brother - move back in time 30 days and take another 100 samples '''
-                    self.startDate = self.startDate - timedelta(30)
+                    self.startDate = self.startDate - timedelta(days=30)
                     repo = n['repository']
                     repo_name = repo['name']
                     repo_owner = repo['owner']

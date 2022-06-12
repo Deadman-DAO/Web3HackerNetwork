@@ -99,6 +99,12 @@ class Monitor:
         global monitored_thread_map
         monitored_thread_map[ct_name] = MonitoredThread()
 
+    def add_display_methods(self, **kwargs):
+        ct_name = current_thread().name
+        ct_kwargs = self.process_map[ct_name] if ct_name in self.process_map else None
+        if ct_kwargs:
+            ct_kwargs.update(kwargs)
+
     def calc_run_time(self):
         cur_time = datingdays.now().timestamp()
         return "%0.2f" % (cur_time - self.start_time)
