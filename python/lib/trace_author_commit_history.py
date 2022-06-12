@@ -101,7 +101,7 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient, DBTask):
     @timeit
     def sleep_n_load(self):
         time.sleep(1)
-        print(self.format_user_url(self.user_id))
+        # print(self.format_user_url(self.user_id))
         body = self.fetch_json_with_lock(self.format_user_url(self.user_id))
         return body
 

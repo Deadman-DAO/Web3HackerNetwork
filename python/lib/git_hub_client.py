@@ -52,7 +52,7 @@ class GitHubClient:
                 elapsed = dt.now().timestamp() - start_time
                 if elapsed > self.longest_wait:
                     self.longest_wait = elapsed
-                    print('%0.3f new max time for thread ' % elapsed, threading.current_thread().name)
+                    # print('%0.3f new max time for thread ' % elapsed, threading.current_thread().name)
                 time.sleep(1)
                 self.html_reply = requests.get(url, headers=self.headers, stream=True)
                 if self.html_reply is not None and self.html_reply.status_code == 200:
