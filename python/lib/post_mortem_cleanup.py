@@ -11,7 +11,7 @@ class PostMortemCleanerUpper(DBDrivenTaskProcessor, DBTask):
         self.records_processed = 0
 
     def init(self):
-        self.monitor.singleton.add_display_methods(cleaned=self.get_records_processed)
+        self.monitor.single.add_display_methods(cleaned=self.get_records_processed)
 
     def get_job_fetching_task(self):
         return self
