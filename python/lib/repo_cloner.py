@@ -7,7 +7,7 @@ from threading import Lock
 import os
 import sys
 import threading
-
+import requests
 
 class RepoCloner(DBDependent):
     def __init__(self, **kwargs):
@@ -29,6 +29,10 @@ class RepoCloner(DBDependent):
         self.url_prefix = 'https://github.com/'
         self.url_suffix = '.git'
         self.repo_dir = None
+        with open('./web3.github.token', 'r') as f:
+            self.token = f.readline()
+            self.token = self.token.strip('\n')
+            self.headers = {'Authorization': 'token %s' % self.token}
 
     def stop(self):
         self.running = False
@@ -69,6 +73,12 @@ class RepoCloner(DBDependent):
     @timeit
     def clone_it(self):
         self.repo_dir = make_dir('./repos/' + self.owner + '/' + self.repo_name)
+        url = 'https://github.com/'+self.owner+'/'+self.repo_name+'.git'
+        html_reply = requests.get(url, headers=self.headers)
+        if html_reply.status_code != 200:
+            with open('./clone_it.err', 'wb') as wb:
+                wb.write(html_reply.content)
+            raise StopIteration('Reply code {rc} returned from {url} - pausing and skipping'.format(rc=html_reply.status_code, url=url))
         cmd = str('git -C ./repos/' + self.owner + '/ clone ' + self.format_url() + (' 2> /dev/null' if sys.platform != "win32" else ''))
         # print(cmd)
         return_value = os.system(cmd)

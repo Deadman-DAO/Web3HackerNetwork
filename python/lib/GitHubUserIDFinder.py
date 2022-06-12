@@ -1,7 +1,6 @@
 import sys
 import os
 import json
-import requests
 import time
 from socket import gethostname
 from db_dependent_class import DBDependent
