@@ -4,7 +4,6 @@ from monitor import MultiprocessMonitor, timeit
 import sys
 import os
 from socket import gethostname
-from threading import Lock
 import traceback
 import threading
 

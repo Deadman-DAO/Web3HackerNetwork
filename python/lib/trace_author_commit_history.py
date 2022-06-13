@@ -11,6 +11,19 @@ from threading import Lock
 from git_hub_client import GitHubClient, fetch_json_value
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 
+AZ = timezone('US/Arizona')
+MIN_DATE = datingdays.now(AZ)
+MAX_DATE = datingdays.fromtimestamp(0, AZ)
+
+
+class RepoCounter:
+    def __init__(self):
+        self.commit_count = 0
+        self.min_date = MIN_DATE
+        self.max_date = MAX_DATE
+        self.owner = None
+        self.name = None
+
 
 class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient, DBTask):
 
@@ -34,6 +47,7 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient, DBTask):
         return [self.machine_name]
 
     def process_db_results(self, result_args):
+        result = None
         for goodness in self.get_cursor().stored_results():
             result = goodness.fetchone()
             if result:
@@ -48,11 +62,15 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient, DBTask):
         return self.post_processor
 
     def process_task(self):
+        self.repo_map = {}
         self.process_author()
+        for counter in self.repo_map.values():
+            self.call_update_repo(counter)
 
     def __init__(self, **kwargs):
         GitHubClient.__init__(self, **kwargs)
         DBDrivenTaskProcessor.__init__(self, **kwargs)
+        self.max_call_count = 6
         self.get_cursor()
         self.repo_counter = {}
         self.call_count = 0
@@ -72,6 +90,7 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient, DBTask):
         self.reserve_next_user_proc = 'reserveNextUser'
         self.post_processor = self.PostProcess(self)
         self.author_commit_count = 0
+        self.repo_map = None
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
@@ -134,18 +153,20 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient, DBTask):
         self.startDate = datingdays.now(timezone('US/Arizona'))
 
     @timeit
-    def call_update_repo(self, owner_login, repo_name, commit_date, orig_time_zone, commit_hash, author_hash):
-        self.execute_procedure(self.add_update_repo_proc, (
-            owner_login, repo_name, commit_date, orig_time_zone, commit_hash, author_hash)
-                             )
+    def call_update_repo(self, counter):
+        self.execute_procedure(self.add_update_repo_proc,
+           (counter.owner, counter.name, counter.min_date, counter.max_date, counter.commit_count))
+
     @timeit
     def process_author(self):
         done = False
         self.last_count = -1
         self.reset_last_date()
         self.author_commit_count = -1
+        call_count = 0
 
-        while not done:
+        while not done and call_count < self.max_call_count:
+            call_count += 1
             self.body = self.sleep_n_load()
             cont_inue, done = self.evaluate_document()
             if cont_inue:
@@ -160,9 +181,15 @@ class AuthorCommitHistoryProcessor(DBDrivenTaskProcessor, GitHubClient, DBTask):
                     repo_name = repo['name']
                     repo_owner = repo['owner']
                     owner_login = repo_owner['login']
-                    self.call_update_repo(owner_login, repo_name,
-                                          commit_date, orig_time_zone,
-                                          n['sha'], self.alias_hash)
+                    key = repo_name+':'+owner_login
+                    if key not in self.repo_map:
+                        self.repo_map[key] = RepoCounter()
+                    counter = self.repo_map[key]
+                    counter.commit_count += 1
+                    counter.min_date = commit_date if commit_date < counter.min_date else counter.min_date
+                    counter.max_date = commit_date if commit_date > counter.max_date else counter.max_date
+                    counter.owner = owner_login
+                    counter.name = repo_name
 
                 if self.total_count < 100 and not self.incomplete_results:
                     done = True

@@ -16,6 +16,7 @@ BEGIN
 		numstat_dir varchar(512),
 		delay_api_calls_until datetime default null,
 		retry_count int default null,
+		last_updated datetime default null,
 	  PRIMARY KEY (`id`),
 	  UNIQUE KEY `repoIdx` (`owner`,`name`)		
 	);
