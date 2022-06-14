@@ -11,8 +11,7 @@ class GithubThreadMgr(MultiprocessManager):
         return {'achp ': AuthorCommitHistoryProcessor,
                 'ghuif': GitHubUserIDFinder,
                 'inv  ': Investigator,
-                'contf': ContributorFinder,
-                'hack ': PostMortemCleanerUpper}
+                'contf': ContributorFinder}
 
 
 if __name__ == "__main__":
