@@ -133,7 +133,7 @@ class RepoNumstatGatherer(DBDependent):
         _min = datingdays.fromtimestamp(author.min_date)
         _max = datingdays.fromtimestamp(author.max_date)
         param_array.append([author.md5,
-                            author.name_email,
+                            author.name_email[0:(len(author.name_email) if len(author.name_email) < 256 else 255)],
                             author.commit_count,
                             _min,
                             _max,
