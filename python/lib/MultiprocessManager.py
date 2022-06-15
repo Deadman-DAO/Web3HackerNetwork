@@ -1,6 +1,7 @@
-from threading import Lock
-from child_process import ChildProcessContainer
 from abc import abstractmethod
+from threading import Lock
+
+from child_process import ChildProcessContainer
 from signal_handler import SignalHandler
 
 
@@ -22,7 +23,7 @@ class MultiprocessManager(SignalHandler):
         for kick in dic:
             constructor = dic[kick]
             self.subprocesses.append(ChildProcessContainer(constructor(web_lock=self.web_lock,
-                                                                       database_lock=self.db_lock), kick))
+                                                                       database_lock=None), kick))
         for n in self.subprocesses:
             n.join()
 

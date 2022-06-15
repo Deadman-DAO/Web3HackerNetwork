@@ -1,14 +1,18 @@
-import os, enum;
+import bz2
+import enum
+import hashlib
+import json
+import os
+import traceback
 from abc import ABC, abstractmethod
-import sys
 from datetime import datetime as datingdays
+
+import sys
 import time
 from pytz import timezone
-import hashlib
-import traceback
+
 from monitor import timeit
-import bz2
-import json
+
 
 class File:
     dir = None
@@ -445,8 +449,26 @@ class RequirementSet:
     def process_input_stream(self, in_stream):
         _line = in_stream.readline()
         while _line:
+            if not isinstance(_line, str):
+                try:
+                    _line = _line.decode('utf-8')
+                except UnicodeDecodeError:
+                    try:
+                        _line = _line.decode('utf-16')
+                    except UnicodeDecodeError:
+                        _line = ''
             self.testline(_line)
             _line = in_stream.readline()
+
+    @timeit
+    def process_direct_stream(self, in_str, out_file_name, callback=None):
+        with bz2.open(out_file_name, 'wt') as out:
+            self.line_added = False
+            self.output_stream = out
+            self.finish_callback = callback
+            out.write('[\n')
+            self.process_input_stream(in_str)
+            out.write(']\n')
 
     @timeit
     def process_file(self, in_file_name, out_file_name, callback=None):

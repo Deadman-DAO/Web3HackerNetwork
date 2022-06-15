@@ -1,11 +1,13 @@
+import os
+import threading
+import traceback
 from abc import ABC, abstractmethod
+from socket import gethostname
+
+import sys
+
 from db_dependent_class import DBDependent
 from monitor import MultiprocessMonitor, timeit
-import sys
-import os
-from socket import gethostname
-import traceback
-import threading
 
 
 class DBTask(ABC):
@@ -38,6 +40,7 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
         self.interrupt_event = None
         self.success = None
+        self.close_every_cursor = False
 
     @abstractmethod
     def get_job_fetching_task(self):
@@ -55,7 +58,8 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
             result = db_task.process_db_results(
                 self.execute_procedure(db_task.get_proc_name(), db_task.get_proc_parameters()))
         finally:
-            self.close_cursor()
+            if self.close_every_cursor:
+                self.close_cursor()
         return result
 
     @timeit

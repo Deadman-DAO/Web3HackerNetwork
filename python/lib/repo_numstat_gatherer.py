@@ -1,6 +1,7 @@
 import hashlib
 import json
 import os
+import subprocess
 import traceback
 from datetime import datetime as datingdays
 from shutil import disk_usage
@@ -191,23 +192,29 @@ class RepoNumstatGatherer(DBDependent):
 
     @timeit
     def parse_logfile(self):
-        numstat_req_set = NumstatRequirementSet()
-        self.results_output_file = self.results_file + '.json.bz2'
-        self.this_repo_commit_count = 0
         numstat_req_set.process_file(self.results_file, self.results_output_file, self.commit_callback)
         os.remove(self.results_file)
         return numstat_req_set
 
     @timeit
     def generate_numstats(self):
-        rel_path = './results/' + self.owner + '/' + self.repo_name
+        numstat_req_set = NumstatRequirementSet()
+        rel_path = './repos/' + self.owner + '/' + self.repo_name
+        abs_path = os.path.abspath(rel_path)
         self.results_dir = make_dir(rel_path)
         self.results_file = self.results_dir + '/log_numstat.out'
+        self.results_output_file = self.results_file + '.json.bz2'
+        self.this_repo_commit_count = 0
         cmd = str('git -C ' + self.repo_dir + ' log --no-renames --numstat > ' + self.results_file)
         # print(cmd)
-        return_value = os.system(cmd)
-        if return_value != 0:
-            raise StopIteration('Error encountered - git log --numstat exited with a value of ' + str(return_value))
+        with subprocess.Popen(['git', '-C', abs_path, 'log', '--no-renames', '--numstat'], stdout=subprocess.PIPE) as proc:
+            numstat_req_set.process_direct_stream(proc.stdout, self.results_output_file, self.commit_callback)
+            try:
+                proc.wait(120)
+                return numstat_req_set
+            except subprocess.TimeoutExpired as te:
+                proc.kill()
+                raise StopIteration('Timed out waiting for child process to execute')
 
     @timeit
     def release_job(self):
@@ -246,7 +253,6 @@ class RepoNumstatGatherer(DBDependent):
                     try:
                         if self.validate_repo_dir():
                             self.generate_numstats()
-                            self.parse_logfile()
                             self.success = True
                     except Exception as e:
                         print('Error encountered', e)
