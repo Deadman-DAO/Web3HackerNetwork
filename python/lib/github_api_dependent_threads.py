@@ -3,7 +3,6 @@ from trace_author_commit_history import AuthorCommitHistoryProcessor
 from GitHubUserIDFinder import GitHubUserIDFinder
 from repository_investigator import Investigator
 from repo_contributor_finder import ContributorFinder
-from post_mortem_cleanup import PostMortemCleanerUpper
 
 
 class GithubThreadMgr(MultiprocessManager):

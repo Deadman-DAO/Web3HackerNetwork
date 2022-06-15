@@ -17,6 +17,8 @@ BEGIN
 		  and r.repo_machine_name is NULL 
 		  and r.repo_dir is null
 		  and r.last_cloned_date is null
+		  and ifnull(re.size, -1) > 10
+		  and r.failed_date is null
 		order by 4 asc
 		limit 1
 	) as x;

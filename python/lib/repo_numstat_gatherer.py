@@ -80,6 +80,7 @@ class RepoNumstatGatherer(DBDependent):
         self.results_dir = None
         self.author_map = {}
         self.results_output_file = None
+        self.success = None
 
     def stop(self):
         print('RepoNumstatGatherer is Leaving!')
@@ -122,7 +123,6 @@ class RepoNumstatGatherer(DBDependent):
             self.close_cursor()
         return found_one
 
-    @timeit
     def build_batch_parameters(self, author, param_array):
         _last_ten = json.dumps(author.last_ten,
                                default=lambda o: o.__dict__,
@@ -174,7 +174,8 @@ class RepoNumstatGatherer(DBDependent):
                                                               self.results_output_file,
                                                               datingdays.fromtimestamp(_min_date),
                                                               datingdays.fromtimestamp(_max_date),
-                                                              self.this_repo_commit_count])
+                                                              self.this_repo_commit_count,
+                                                              self.success])
         finally:
             self.close_cursor()
 
@@ -223,6 +224,14 @@ class RepoNumstatGatherer(DBDependent):
         self.interrupt_event.wait(60)
 
     @timeit
+    def validate_repo_dir(self):
+        return_val = False
+        dir_name = './repos/'+self.owner+'/'+self.repo_name
+        if os.path.isdir(dir_name) and os.path.exists(dir_name) and len(os.listdir(dir_name)) > 1:
+            return_val = True
+        return return_val
+
+    @timeit
     def do_your_thing(self):
         self.monitor = MultiprocessMonitor(web_lock=self.web_lock, ds=self.get_disc_space, curjob=self.get_current_job,
                                            alias_tm=self.get_total_alias_processing_time)
@@ -231,9 +240,12 @@ class RepoNumstatGatherer(DBDependent):
             if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
                 self.author_map = {}
                 if self.reserve_next_repo():
+                    self.success = False
                     try:
-                        self.generate_numstats()
-                        self.parse_logfile()
+                        if self.validate_repo_dir():
+                            self.generate_numstats()
+                            self.parse_logfile()
+                            self.success = True
                     except Exception as e:
                         print('Error encountered', e)
                         traceback.print_exc()

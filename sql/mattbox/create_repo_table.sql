@@ -17,6 +17,7 @@ BEGIN
 		delay_api_calls_until datetime default null,
 		retry_count int default null,
 		last_updated datetime default null,
+		failed_date datetime default null,
 	  PRIMARY KEY (`id`),
 	  UNIQUE KEY `repoIdx` (`owner`,`name`)		
 	);

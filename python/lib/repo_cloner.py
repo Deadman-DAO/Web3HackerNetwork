@@ -13,6 +13,7 @@ import requests
 class RepoCloner(DBDependent):
     def __init__(self, **kwargs):
         DBDependent.__init__(self, **kwargs)
+        self.success = None
         self.monitor = None
         self.repo_base_dir = './repos'
         make_dir(self.repo_base_dir)
@@ -88,7 +89,7 @@ class RepoCloner(DBDependent):
 
     @timeit
     def release_job(self):
-        self.execute_procedure('ReleaseRepoFromCloning', (self.repo_id, self.machine_name, self.repo_dir))
+        self.execute_procedure('ReleaseRepoFromCloning', (self.repo_id, self.machine_name, self.repo_dir, self.success))
 
     @timeit
     def idle_sleep(self):
@@ -108,8 +109,10 @@ class RepoCloner(DBDependent):
         while self.running:
             if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
                 if self.reserve_next_repo():
+                    self.success = False
                     try:
                         self.clone_it()
+                        self.success = True
                     except Exception as e:
                         print('Error encountered', e)
                         self.error_sleep()

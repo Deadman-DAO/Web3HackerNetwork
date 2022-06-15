@@ -37,6 +37,7 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
         self.error_wait = int(kwargs['error_wait']) if 'error_wait' in kwargs else 60
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
         self.interrupt_event = None
+        self.success = None
 
     @abstractmethod
     def get_job_fetching_task(self):
@@ -103,8 +104,10 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
             try:
                 task = self.fetch_next_task()
                 if task:
+                    self.success = False
                     try:
                         self.process_task()
+                        self.success = True
                     finally:
                         self.complete_task()
                 else:

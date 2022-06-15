@@ -15,7 +15,7 @@ BEGIN
 		commit_count = _repo_commit_count,
 		min_date = _repo_min_date,
 		max_date = _repo_max_date,
-		last_numstat_date = dt
+		last_analysis_date = null
 	 where id = _repo_id;
-	delete from repo_reserve where repo_id = _repo_id;	
+	update repo_reserve set tstamp = dt where repo_id = _repo_id;	
 END

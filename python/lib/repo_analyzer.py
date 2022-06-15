@@ -53,7 +53,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReleaseRepoFromAnalysis'
 
         def get_proc_parameters(self):
-            return [self.mom.repo_id]
+            return [self.mom.repo_id, self.mom.success]
 
         def process_db_results(self, result_args):
             return True
