@@ -1,17 +1,19 @@
-from child_process import ChildProcessContainer
+import hashlib
+import json
+import os
+import traceback
 from datetime import datetime as datingdays
-from db_dependent_class import DBDependent, make_dir
-from kitchen_sink_class import NumstatRequirementSet
-from monitor import MultiprocessMonitor, timeit
 from shutil import disk_usage
 from socket import gethostname
 from threading import Lock, Event
-import hashlib
-import json
-import traceback
-import os
+
 import sys
 import time
+
+from child_process import ChildProcessContainer
+from db_dependent_class import DBDependent, make_dir
+from kitchen_sink_class import NumstatRequirementSet
+from monitor import MultiprocessMonitor, timeit
 
 
 class Author:
@@ -174,7 +176,7 @@ class RepoNumstatGatherer(DBDependent):
                                                               self.results_output_file,
                                                               datingdays.fromtimestamp(_min_date),
                                                               datingdays.fromtimestamp(_max_date),
-                                                              self.this_repo_commit_count,
+                                                              self.this_repo_commit_count if self.this_repo_commit_count else 0,
                                                               self.success])
         finally:
             self.close_cursor()
