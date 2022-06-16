@@ -84,6 +84,7 @@ class RepoNumstatGatherer(DBDependent):
         self.author_map = {}
         self.results_output_file = None
         self.success = None
+        self.timeout_count = 0
 
     def stop(self):
         print('RepoNumstatGatherer is Leaving!')
@@ -197,24 +198,30 @@ class RepoNumstatGatherer(DBDependent):
         return numstat_req_set
 
     @timeit
+    def report_timeout(self, proc):
+        self.timeout_count += 1
+        proc.kill()
+        print("Timed out waiting for ", self.owner, "/", self.repo_name, " to execute numstat")
+
+    @timeit
     def generate_numstats(self):
         numstat_req_set = NumstatRequirementSet()
         rel_path = './repos/' + self.owner + '/' + self.repo_name
         abs_path = os.path.abspath(rel_path)
+        rel_path = './results/' + self.owner + '/' + self.repo_name
         self.results_dir = make_dir(rel_path)
         self.results_file = self.results_dir + '/log_numstat.out'
         self.results_output_file = self.results_file + '.json.bz2'
         self.this_repo_commit_count = 0
-        cmd = str('git -C ' + self.repo_dir + ' log --no-renames --numstat > ' + self.results_file)
         # print(cmd)
         with subprocess.Popen(['git', '-C', abs_path, 'log', '--no-renames', '--numstat'], stdout=subprocess.PIPE) as proc:
-            numstat_req_set.process_direct_stream(proc.stdout, self.results_output_file, self.commit_callback)
-            try:
-                proc.wait(120)
-                return numstat_req_set
-            except subprocess.TimeoutExpired as te:
-                proc.kill()
-                raise StopIteration('Timed out waiting for child process to execute')
+            numstat_req_set.setup_background_process(proc.stdout, self.results_output_file, self.commit_callback)
+            cpc = ChildProcessContainer(numstat_req_set, 'nmkid', numstat_req_set.why_cant_we_do_it_in_the_background)
+            cpc.join(timeout=180)
+            if cpc.is_alive() and cpc.is_running() and not proc.poll():
+                self.report_timeout(proc)
+                return None
+            return True
 
     @timeit
     def release_job(self):
@@ -251,8 +258,7 @@ class RepoNumstatGatherer(DBDependent):
                 if self.reserve_next_repo():
                     self.success = False
                     try:
-                        if self.validate_repo_dir():
-                            self.generate_numstats()
+                        if self.validate_repo_dir() and self.generate_numstats():
                             self.success = True
                     except Exception as e:
                         print('Error encountered', e)

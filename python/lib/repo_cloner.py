@@ -1,13 +1,15 @@
-from child_process import ChildProcessContainer
-from db_dependent_class import DBDependent, make_dir
-from monitor import MultiprocessMonitor, timeit
+import os
+import threading
 from shutil import disk_usage
 from socket import gethostname
 from threading import Lock
-import os
-import sys
-import threading
+
 import requests
+import sys
+
+from child_process import ChildProcessContainer
+from db_dependent_class import DBDependent, make_dir
+from monitor import MultiprocessMonitor, timeit
 
 
 class RepoCloner(DBDependent):
@@ -27,6 +29,8 @@ class RepoCloner(DBDependent):
         self.thread = None
         self.interrupt_event = None
         self.MINIMUM_THRESHOLD = 10 * (1024 ** 3)
+        self.RESTING_THRESHOLD = 15 * (1024 ** 3)
+        self.resting = False
         self.repo_id = None
         self.url_prefix = 'https://github.com/'
         self.url_suffix = '.git'
@@ -107,7 +111,8 @@ class RepoCloner(DBDependent):
         self.monitor = MultiprocessMonitor(web_lock=self.web_lock, ds=self.get_disc_space, curjob=self.get_current_job)
         self.interrupt_event = threading.Event()
         while self.running:
-            if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
+            if self.get_numeric_disc_space() >= self.RESTING_THRESHOLD if self.resting else self.MINIMUM_THRESHOLD:
+                self.resting = False
                 if self.reserve_next_repo():
                     self.success = False
                     try:
@@ -121,6 +126,7 @@ class RepoCloner(DBDependent):
                 else:
                     self.idle_sleep()
             else:
+                self.resting = True
                 self.resource_sleep()
 
 

@@ -575,3 +575,15 @@ class NumstatRequirementSet(RequirementSet):
 
     def __init__(self):
         super().__init__()
+        self.input_stream = None
+        self.output_file_name = None
+        self.commit_callback = None
+
+    def setup_background_process(self, input_stream, output_file_name, commit_callback):
+        self.input_stream = input_stream
+        self.output_file_name = output_file_name
+        self.commit_callback = commit_callback
+
+    @timeit
+    def why_cant_we_do_it_in_the_background(self):
+        self.process_direct_stream(self.input_stream, self.output_file_name, self.commit_callback)
