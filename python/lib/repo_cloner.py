@@ -2,6 +2,7 @@ import os
 import threading
 from shutil import disk_usage
 from socket import gethostname
+from subprocess import Popen, DEVNULL, TimeoutExpired
 from threading import Lock
 
 import requests
@@ -15,6 +16,7 @@ from monitor import MultiprocessMonitor, timeit
 class RepoCloner(DBDependent):
     def __init__(self, **kwargs):
         DBDependent.__init__(self, **kwargs)
+        self.timeout_counter = None
         self.success = None
         self.monitor = None
         self.repo_base_dir = './repos'
@@ -77,6 +79,12 @@ class RepoCloner(DBDependent):
         return found_one
 
     @timeit
+    def report_timeout(self, proc):
+        self.timeout_counter += 1
+        print('Terminating long running thread for ', self.owner, self.repo_name)
+        proc.kill()
+        
+    @timeit
     def clone_it(self):
         self.repo_dir = make_dir('./repos/' + self.owner + '/' + self.repo_name)
         url = 'https://github.com/'+self.owner+'/'+self.repo_name+'.git'
@@ -85,11 +93,14 @@ class RepoCloner(DBDependent):
             with open('./clone_it.err', 'wb') as wb:
                 wb.write(html_reply.content)
             raise StopIteration('Reply code {rc} returned from {url} - pausing and skipping'.format(rc=html_reply.status_code, url=url))
-        cmd = str('git -C ./repos/' + self.owner + '/ clone ' + self.format_url() + (' 2> /dev/null' if sys.platform != "win32" else ''))
+        cmd = ['git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
         # print(cmd)
-        return_value = os.system(cmd)
-        if return_value != 0:
-            raise StopIteration('Error encountered - git clone exited with a value of ' + str(return_value))
+        with Popen(cmd, stdout=DEVNULL, stderr=DEVNULL) as proc:
+            try:
+                proc.wait(timeout=180)
+            except TimeoutExpired:
+                if not proc.poll():
+                    self.report_timeout(proc)
 
     @timeit
     def release_job(self):
