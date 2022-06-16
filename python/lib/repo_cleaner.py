@@ -1,7 +1,9 @@
 import os
-from db_driven_task import DBDrivenTaskProcessor, DBTask
 from shutil import rmtree
 from threading import Lock
+
+from db_driven_task import DBDrivenTaskProcessor, DBTask
+from monitor import timeit
 
 
 class RepoCleanup(DBDrivenTaskProcessor):
@@ -57,6 +59,7 @@ class RepoCleanup(DBDrivenTaskProcessor):
     def get_job_completion_task(self):
         return self.closer
 
+    @timeit
     def process_task(self):
         target_dir = './repos/'+self.repo_owner+'/'+self.repo_name
 
