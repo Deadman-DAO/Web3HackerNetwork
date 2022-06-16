@@ -192,12 +192,6 @@ class RepoNumstatGatherer(DBDependent):
             self.author_map[author] = new_auth
 
     @timeit
-    def parse_logfile(self):
-        numstat_req_set.process_file(self.results_file, self.results_output_file, self.commit_callback)
-        os.remove(self.results_file)
-        return numstat_req_set
-
-    @timeit
     def report_timeout(self, proc):
         self.timeout_count += 1
         proc.kill()
@@ -206,18 +200,18 @@ class RepoNumstatGatherer(DBDependent):
     @timeit
     def generate_numstats(self):
         numstat_req_set = NumstatRequirementSet()
-        rel_path = './repos/' + self.owner + '/' + self.repo_name
-        abs_path = os.path.abspath(rel_path)
-        rel_path = './results/' + self.owner + '/' + self.repo_name
-        self.results_dir = make_dir(rel_path)
+        rel_repo_path = './repos/' + self.owner + '/' + self.repo_name
+        abs_repo_path = make_dir(rel_repo_path)
+        rel_result_path = './results/' + self.owner + '/' + self.repo_name
+        self.results_dir = make_dir(rel_result_path)
         self.results_file = self.results_dir + '/log_numstat.out'
         self.results_output_file = self.results_file + '.json.bz2'
         self.this_repo_commit_count = 0
         # print(cmd)
-        with subprocess.Popen(['git', '-C', abs_path, 'log', '--no-renames', '--numstat'], stdout=subprocess.PIPE) as proc:
+        with subprocess.Popen(['git', '-C', abs_repo_path, 'log', '--no-renames', '--numstat'], stdout=subprocess.PIPE) as proc:
             numstat_req_set.setup_background_process(proc.stdout, self.results_output_file, self.commit_callback)
             cpc = ChildProcessContainer(numstat_req_set, 'nmkid', numstat_req_set.why_cant_we_do_it_in_the_background)
-            cpc.join(timeout=180)
+            cpc.wait_for_it(180)
             if cpc.is_alive() and cpc.is_running() and not proc.poll():
                 self.report_timeout(proc)
                 return None
@@ -277,7 +271,14 @@ class RepoNumstatGatherer(DBDependent):
 
 if __name__ == "__main__":
     _lock = Lock()
-    subprocesses = [ChildProcessContainer(RepoNumstatGatherer(web_lock=_lock), 'RepoNumstatGatherer')
-                    ]
-    for n in subprocesses:
-        n.join()
+    cpc = None
+    try:
+        rng = RepoNumstatGatherer(web_lock=_lock)
+        cpc = ChildProcessContainer(rng, 'RepoNumstatGatherer')
+    except Exception as e:
+        print(e)
+        traceback.print_exc()
+
+    print(cpc)
+    if cpc:
+        cpc.join()

@@ -1,6 +1,8 @@
 import threading
 from threading import Thread
 
+import time
+
 
 class ChildProcessContainer(Thread):
 
@@ -11,6 +13,14 @@ class ChildProcessContainer(Thread):
         self.run_method = run_method if run_method else managed_instance.main
         self.running = True
         self.start()
+
+    def wait_for_it(self, seconds):
+        start_time = time.time()
+        while not self.thread and (time.time() - start_time) < seconds:
+            time.sleep(0.2)
+        if not self.thread:
+            raise StopIteration('ChildProcessContainer timed out waiting for thread to go "live"')
+        self.thread.join(seconds)
 
     def stop(self):
         stop_method = getattr(self.managed_instance, 'stop')
