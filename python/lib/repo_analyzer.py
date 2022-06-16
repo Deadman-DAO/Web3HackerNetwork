@@ -1,10 +1,9 @@
+import base64
 import os
-
-from monitor import timeit
-from db_driven_task import DBDrivenTaskProcessor, DBTask
-from child_process import ChildProcessContainer
-from shutil import rmtree
 from threading import Lock
+
+from db_driven_task import DBDrivenTaskProcessor, DBTask
+from monitor import timeit
 
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
@@ -20,6 +19,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.repo_name = None
         self.repo_dir = None
         self.numstat_dir = None
+        self.numstat = None
 
     def init(self):
         pass
@@ -53,7 +53,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReleaseRepoFromAnalysis'
 
         def get_proc_parameters(self):
-            return [self.mom.repo_id, self.mom.success]
+            return [self.mom.repo_id, self.mom.numstat, self.mom.success]
 
         def process_db_results(self, result_args):
             return True
@@ -66,7 +66,13 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
     @timeit
     def process_task(self):
-        pass
+        try:
+            if os.path.exists(self.numstat_dir):
+                with open(self.numstat_dir, 'rb') as r:
+                    self.numstat = r.read()
+                self.numstat = base64.b64encode(self.numstat)
+        except Exception as e:
+            print(e)
 
 
 if __name__ == "__main__":
