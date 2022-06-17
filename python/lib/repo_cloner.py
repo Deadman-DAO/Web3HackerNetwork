@@ -97,7 +97,7 @@ class RepoCloner(DBDependent):
         # print(cmd)
         with Popen(cmd, stdout=DEVNULL, stderr=DEVNULL) as proc:
             try:
-                proc.wait(timeout=180)
+                proc.wait(timeout=900)
             except TimeoutExpired:
                 if not proc.poll():
                     self.report_timeout(proc)
