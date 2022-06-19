@@ -2,7 +2,7 @@ import os
 import threading
 from shutil import disk_usage
 from socket import gethostname
-from subprocess import Popen, DEVNULL, TimeoutExpired
+from subprocess import TimeoutExpired, run
 from threading import Lock
 
 import requests
@@ -79,11 +79,10 @@ class RepoCloner(DBDependent):
         return found_one
 
     @timeit
-    def report_timeout(self, proc):
+    def report_timeout(self):
         self.timeout_counter += 1
         print('Terminating long running thread for ', self.owner, self.repo_name)
-        proc.kill()
-        
+
     @timeit
     def clone_it(self):
         self.repo_dir = make_dir('./repos/' + self.owner + '/' + self.repo_name)
@@ -95,12 +94,10 @@ class RepoCloner(DBDependent):
             raise StopIteration('Reply code {rc} returned from {url} - pausing and skipping'.format(rc=html_reply.status_code, url=url))
         cmd = ['git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
         # print(cmd)
-        with Popen(cmd, stdout=DEVNULL, stderr=DEVNULL) as proc:
-            try:
-                proc.wait(timeout=900)
-            except TimeoutExpired:
-                if not proc.poll():
-                    self.report_timeout(proc)
+        try:
+            run(cmd, timeout=900)
+        except TimeoutExpired:
+            self.report_timeout()
 
     @timeit
     def release_job(self):
