@@ -1,11 +1,12 @@
 import json
+import os
+from socket import gethostname
 
 import mysql.connector
-import os
 import sys
+
 from monitor import timeit
 from signal_handler import SignalHandler
-from socket import gethostname
 
 
 def make_dir(dir_name):
@@ -25,6 +26,7 @@ class DBDependent(SignalHandler):
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
         self.db_lock = kwargs['database_lock'] if 'database_lock' in kwargs else None
         self.web_lock = kwargs['web_lock'] if 'web_lock' in kwargs else None
+        self.git_lock = kwargs['git_lock'] if 'git_lock' in kwargs else None
 
     @timeit
     def execute_procedure(self, method_name, params):

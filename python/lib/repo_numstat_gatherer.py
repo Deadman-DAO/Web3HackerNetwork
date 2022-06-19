@@ -208,14 +208,15 @@ class RepoNumstatGatherer(DBDependent):
         self.results_output_file = self.results_file + '.json.bz2'
         self.this_repo_commit_count = 0
         # print(cmd)
-        with subprocess.Popen(['git', '-C', abs_repo_path, 'log', '--no-renames', '--numstat'], stdout=subprocess.PIPE) as proc:
-            numstat_req_set.setup_background_process(proc.stdout, self.results_output_file, self.commit_callback)
-            cpc = ChildProcessContainer(numstat_req_set, 'nmkid', numstat_req_set.why_cant_we_do_it_in_the_background)
-            cpc.wait_for_it(900)
-            if cpc.is_alive() and cpc.is_running() and not proc.poll():
-                self.report_timeout(proc)
-                return None
-            return True
+        with self.git_lock:
+            with subprocess.Popen(['git', '-C', abs_repo_path, 'log', '--no-renames', '--numstat'], stdout=subprocess.PIPE) as proc:
+                numstat_req_set.setup_background_process(proc.stdout, self.results_output_file, self.commit_callback)
+                cpc = ChildProcessContainer(numstat_req_set, 'nmkid', numstat_req_set.why_cant_we_do_it_in_the_background)
+                cpc.wait_for_it(900)
+                if cpc.is_alive() and cpc.is_running() and not proc.poll():
+                    self.report_timeout(proc)
+                    return None
+                return True
 
     @timeit
     def release_job(self):

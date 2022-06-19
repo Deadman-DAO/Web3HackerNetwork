@@ -1,11 +1,14 @@
 from MultiprocessManager import MultiprocessManager
-from repo_cloner import RepoCloner;
 from repo_analyzer import RepoAnalyzer
-from repo_numstat_gatherer import RepoNumstatGatherer
 from repo_cleaner import RepoCleanup
+from repo_cloner import RepoCloner;
+from repo_numstat_gatherer import RepoNumstatGatherer
 
 
-class ScalabelRepoTasks(MultiprocessManager):
+class ScalableRepoTasks(MultiprocessManager):
+    def __init__(self):
+        MultiprocessManager.__init__(self)
+
     def get_process_list(self):
         return {'clone': RepoCloner,
                 'nmst': RepoNumstatGatherer,
@@ -14,4 +17,4 @@ class ScalabelRepoTasks(MultiprocessManager):
 
 
 if __name__ == '__main__':
-    ScalabelRepoTasks().main()
+    ScalableRepoTasks().main()

@@ -95,7 +95,8 @@ class RepoCloner(DBDependent):
         cmd = ['git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
         # print(cmd)
         try:
-            run(cmd, timeout=900)
+            with self.git_lock:
+                run(cmd, timeout=900)
         except TimeoutExpired:
             self.report_timeout()
 
@@ -140,7 +141,7 @@ class RepoCloner(DBDependent):
 
 if __name__ == "__main__":
     _lock = Lock()
-    subprocesses = [ChildProcessContainer(RepoCloner(web_lock=Lock()), 'RepoCloner')
+    subprocesses = [ChildProcessContainer(RepoCloner(web_lock=Lock(), git_lock=Lock()), 'RepoCloner')
                     ]
     for n in subprocesses:
         n.join()
