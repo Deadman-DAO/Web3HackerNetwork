@@ -198,8 +198,19 @@ class RepoNumstatGatherer(DBDependent):
         print("Timed out waiting for ", self.owner, "/", self.repo_name, " to execute numstat")
 
     @timeit
-    def generate_numstats(self):
+    def execute_numstats(self, cmd):
         numstat_req_set = NumstatRequirementSet()
+        with subprocess.Popen(cmd, stdout=subprocess.PIPE) as proc:
+            numstat_req_set.setup_background_process(proc.stdout, self.results_output_file, self.commit_callback)
+            cpc = ChildProcessContainer(numstat_req_set, 'nmkid', numstat_req_set.why_cant_we_do_it_in_the_background)
+            cpc.wait_for_it(900)
+            if cpc.is_alive() and cpc.is_running() and not proc.poll():
+                self.report_timeout(proc)
+                return None
+            return True
+
+    @timeit
+    def generate_numstats(self):
         rel_repo_path = './repos/' + self.owner + '/' + self.repo_name
         abs_repo_path = make_dir(rel_repo_path)
         rel_result_path = './results/' + self.owner + '/' + self.repo_name
@@ -207,16 +218,13 @@ class RepoNumstatGatherer(DBDependent):
         self.results_file = self.results_dir + '/log_numstat.out'
         self.results_output_file = self.results_file + '.json.bz2'
         self.this_repo_commit_count = 0
+        cmd = ['git', '-C', abs_repo_path, 'log', '--no-renames', '--numstat']
         # print(cmd)
-        with self.git_lock:
-            with subprocess.Popen(['git', '-C', abs_repo_path, 'log', '--no-renames', '--numstat'], stdout=subprocess.PIPE) as proc:
-                numstat_req_set.setup_background_process(proc.stdout, self.results_output_file, self.commit_callback)
-                cpc = ChildProcessContainer(numstat_req_set, 'nmkid', numstat_req_set.why_cant_we_do_it_in_the_background)
-                cpc.wait_for_it(900)
-                if cpc.is_alive() and cpc.is_running() and not proc.poll():
-                    self.report_timeout(proc)
-                    return None
-                return True
+        if self.git_lock:
+            with self.git_lock:
+                return self.execute_numstats(cmd)
+        else:
+            return self.execute_numstats(cmd)
 
     @timeit
     def release_job(self):

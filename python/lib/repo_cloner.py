@@ -95,7 +95,10 @@ class RepoCloner(DBDependent):
         cmd = ['git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
         # print(cmd)
         try:
-            with self.git_lock:
+            if self.git_lock:
+                with self.git_lock:
+                    run(cmd, timeout=900)
+            else:
                 run(cmd, timeout=900)
         except TimeoutExpired:
             self.report_timeout()
