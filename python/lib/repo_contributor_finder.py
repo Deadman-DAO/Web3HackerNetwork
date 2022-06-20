@@ -1,11 +1,13 @@
+import json
 from datetime import datetime as datingdays
+from threading import Lock
+
+import time
+
+from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent
 from git_hub_client import GitHubClient, fetch_json_value
 from monitor import MultiprocessMonitor, timeit
-import time
-import json
-from threading import Lock
-from child_process import ChildProcessContainer
 
 
 class Contributor:
@@ -118,7 +120,7 @@ class ContributorFinder(DBDependent, GitHubClient):
                 try:
                     if self.fetch_contributor_info():
                         self.update_database()
-                except StopIteration as si:
+                except Exception as si:
                     print("Error encountered in ContributorFinder MAIN", si)
                     self.error_sleep()
             else:
