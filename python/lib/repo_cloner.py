@@ -84,6 +84,10 @@ class RepoCloner(DBDependent):
         print('Terminating long running thread for ', self.owner, self.repo_name)
 
     @timeit
+    def got_lock_now_cloning(self, cmd):
+        run(cmd, timeout=900)
+
+    @timeit
     def clone_it(self):
         self.repo_dir = make_dir('./repos/' + self.owner + '/' + self.repo_name)
         url = 'https://github.com/'+self.owner+'/'+self.repo_name+'.git'
@@ -97,9 +101,9 @@ class RepoCloner(DBDependent):
         try:
             if self.git_lock:
                 with self.git_lock:
-                    run(cmd, timeout=900)
+                    self.got_lock_now_cloning(cmd)
             else:
-                run(cmd, timeout=900)
+                self.got_lock_now_cloning(cmd)
         except TimeoutExpired:
             self.report_timeout()
 
