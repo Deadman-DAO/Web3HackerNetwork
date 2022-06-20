@@ -25,7 +25,7 @@ class MultiprocessManager(SignalHandler):
             constructor = dic[kick]
             self.subprocesses.append(ChildProcessContainer(constructor(web_lock=self.web_lock,
                                                                        database_lock=None,
-                                                                       git_lock=None), kick))
+                                                                       git_lock=self.git_lock), kick))
         for n in self.subprocesses:
             n.join()
 
