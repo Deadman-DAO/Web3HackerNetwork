@@ -120,7 +120,7 @@ class RepoCloner(DBDependent):
         self.monitor = MultiprocessMonitor(web_lock=self.web_lock, ds=self.get_disc_space, curjob=self.get_current_job)
         self.interrupt_event = threading.Event()
         while self.running:
-            if self.get_numeric_disc_space() >= self.RESTING_THRESHOLD if self.resting else self.MINIMUM_THRESHOLD:
+            if self.get_numeric_disc_space() >= (self.RESTING_THRESHOLD if self.resting else self.MINIMUM_THRESHOLD):
                 self.resting = False
                 if self.reserve_next_repo():
                     self.success = False
