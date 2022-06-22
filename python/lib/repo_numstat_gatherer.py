@@ -225,7 +225,7 @@ class RepoNumstatGatherer(DBDependent):
         self.results_output_file = self.results_file + '.json.bz2'
         self.this_repo_commit_count = 0
         cmd = ['git', '-C', abs_repo_path, 'log', '--no-renames', '--numstat']
-        # print(cmd)
+        print(cmd)
         self.numstat_start_time = time.time()
         if self.git_lock:
             with self.git_lock:
