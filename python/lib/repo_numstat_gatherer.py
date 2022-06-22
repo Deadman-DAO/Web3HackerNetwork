@@ -59,9 +59,11 @@ class Author:
 
 class RepoNumstatGatherer(DBDependent):
     def __init__(self, **kwargs):
+        DBDependent.__init__(self, **kwargs)
+        self.numstat_start_time = None
+        self.numstat_lock_acquired_time = None
         self.total_alias_processing_time = 0
         self.this_repo_commit_count = None
-        DBDependent.__init__(self, **kwargs)
         self.monitor = None
         self.repo_base_dir = './repos'
         make_dir(self.repo_base_dir)
@@ -92,7 +94,7 @@ class RepoNumstatGatherer(DBDependent):
         self.interrupt_event.set()
 
     def get_total_alias_processing_time(self):
-        return self.total_alias_processing_time;
+        return self.total_alias_processing_time
 
     def get_numeric_disc_space(self):
         return disk_usage(self.repo_base_dir).free
@@ -123,6 +125,7 @@ class RepoNumstatGatherer(DBDependent):
             if self.owner is not None and self.repo_name is not None:
                 found_one = True
                 self.current_repo = self.owner + '.' + self.repo_name
+                print(self.current_repo)
         finally:
             self.close_cursor()
         return found_one
@@ -194,16 +197,19 @@ class RepoNumstatGatherer(DBDependent):
     @timeit
     def report_timeout(self, proc):
         self.timeout_count += 1
+        expired = time.time() - self.numstat_start_time
+        time_with_lock = time.time() - self.numstat_lock_acquired_time
         proc.kill()
-        print("Timed out waiting for ", self.owner, "/", self.repo_name, " to execute numstat")
+        print("Timed out waiting for ", self.owner, "/", self.repo_name, " to execute numstat.", expired, 'total seconds waited.', time_with_lock, 'seconds lock held')
 
     @timeit
     def execute_numstats(self, cmd):
+        self.numstat_lock_acquired_time = time.time()
         numstat_req_set = NumstatRequirementSet()
         with subprocess.Popen(cmd, stdout=subprocess.PIPE) as proc:
             numstat_req_set.setup_background_process(proc.stdout, self.results_output_file, self.commit_callback)
             cpc = ChildProcessContainer(numstat_req_set, 'nmkid', numstat_req_set.why_cant_we_do_it_in_the_background)
-            cpc.wait_for_it(900)
+            cpc.wait_for_it(90)
             if cpc.is_alive() and cpc.is_running() and not proc.poll():
                 self.report_timeout(proc)
                 return None
@@ -220,6 +226,7 @@ class RepoNumstatGatherer(DBDependent):
         self.this_repo_commit_count = 0
         cmd = ['git', '-C', abs_repo_path, 'log', '--no-renames', '--numstat']
         # print(cmd)
+        self.numstat_start_time = time.time()
         if self.git_lock:
             with self.git_lock:
                 return self.execute_numstats(cmd)

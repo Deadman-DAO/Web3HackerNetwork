@@ -2,11 +2,12 @@ import os
 import threading
 from shutil import disk_usage
 from socket import gethostname
-from subprocess import TimeoutExpired, run
+from subprocess import TimeoutExpired, Popen
 from threading import Lock
 
 import requests
 import sys
+import time
 
 from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent, make_dir
@@ -37,6 +38,8 @@ class RepoCloner(DBDependent):
         self.url_prefix = 'https://github.com/'
         self.url_suffix = '.git'
         self.repo_dir = None
+        self.clone_started = None
+        self.lock_acquired = None
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
@@ -81,11 +84,23 @@ class RepoCloner(DBDependent):
     @timeit
     def report_timeout(self):
         self.timeout_counter += 1
-        print('Terminating long running thread for ', self.owner, self.repo_name)
+        expired = time.time() - self.clone_started
+        lock_time = time.time() - self.lock_acquired
+        print('Terminating long running thread for ', self.owner, self.repo_name, expired,
+              'seconds since start time.', lock_time, 'seconds since lock acquired.')
 
     @timeit
     def got_lock_now_cloning(self, cmd):
-        run(cmd, timeout=900)
+        success = False
+        self.lock_acquired = time.time()
+        try:
+            with Popen(cmd, shell=True) as proc:
+                proc.communicate(timeout=90)
+                success = True
+        except TimeoutExpired:
+            self.report_timeout()
+            proc.kill()
+        return success
 
     @timeit
     def clone_it(self):
@@ -95,17 +110,16 @@ class RepoCloner(DBDependent):
         if html_reply.status_code != 200:
             with open('./clone_it.err', 'wb') as wb:
                 wb.write(html_reply.content)
-            raise StopIteration('Reply code {rc} returned from {url} - pausing and skipping'.format(rc=html_reply.status_code, url=url))
+            raise StopIteration('Reply code {rc} returned from {url} - pausing and skipping'.
+                                format(rc=html_reply.status_code, url=url))
         cmd = ['git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
         # print(cmd)
-        try:
-            if self.git_lock:
-                with self.git_lock:
-                    self.got_lock_now_cloning(cmd)
-            else:
+        self.clone_started = time.time()
+        if self.git_lock:
+            with self.git_lock:
                 self.got_lock_now_cloning(cmd)
-        except TimeoutExpired:
-            self.report_timeout()
+        else:
+            self.got_lock_now_cloning(cmd)
 
     @timeit
     def release_job(self):
