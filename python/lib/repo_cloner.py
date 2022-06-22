@@ -17,7 +17,7 @@ from monitor import MultiprocessMonitor, timeit
 class RepoCloner(DBDependent):
     def __init__(self, **kwargs):
         DBDependent.__init__(self, **kwargs)
-        self.timeout_counter = None
+        self.timeout_counter = 0
         self.success = None
         self.monitor = None
         self.repo_base_dir = './repos'
