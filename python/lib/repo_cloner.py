@@ -112,7 +112,7 @@ class RepoCloner(DBDependent):
                 wb.write(html_reply.content)
             raise StopIteration('Reply code {rc} returned from {url} - pausing and skipping'.
                                 format(rc=html_reply.status_code, url=url))
-        cmd = ['git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
+        cmd = [('nice' if sys.platform != "win32" else ''),  'git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
         print(cmd)
         self.clone_started = time.time()
         if self.git_lock:
