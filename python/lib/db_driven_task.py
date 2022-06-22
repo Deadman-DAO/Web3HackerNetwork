@@ -55,6 +55,7 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
     def call_db_proc(self, db_task):
         result = None
         try:
+            print('Calling ', db_task.get_proc_name())
             result = db_task.process_db_results(
                 self.execute_procedure(db_task.get_proc_name(), db_task.get_proc_parameters()))
         finally:
