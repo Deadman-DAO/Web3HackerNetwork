@@ -94,7 +94,7 @@ class RepoCloner(DBDependent):
         success = False
         self.lock_acquired = time.time()
         try:
-            with Popen(cmd, shell=True) as proc:
+            with Popen(cmd) as proc:
                 proc.communicate(timeout=90)
                 success = True
         except TimeoutExpired:
