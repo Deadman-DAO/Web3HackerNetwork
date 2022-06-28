@@ -86,19 +86,25 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
         idx = 0
         author_id = self.author_info[idx]['alias_id']
         while alias_not_found and idx < len(self.author_info):
-            url = format_id_check_url(self.author_info[idx]['owner'],
-                                      self.author_info[idx]['name'],
-                                      self.author_info[idx]['commit_id'])
-            _json = self.fetch_json_with_lock(url)
-            if _json:
-                commit_details_block = _json['author']
-                if commit_details_block is not None and 'login' in commit_details_block.keys():
-                    self.call_resolve_sql_proc(author_id, commit_details_block['login'])
-                    self.try_counters[idx] += 1
-                    alias_not_found = False
+            owner = self.author_info[idx]['owner']
+            name = self.author_info[idx]['name']
+            hashish = self.author_info[idx]['commit_id']
+            if owner is not None and name is not None and hashish is not None:
+                url = format_id_check_url(owner,
+                                          name,
+                                          hashish)
+                _json = self.fetch_json_with_lock(url)
+                if _json:
+                    commit_details_block = _json['author']
+                    if commit_details_block is not None and 'login' in commit_details_block.keys():
+                        self.call_resolve_sql_proc(author_id, commit_details_block['login'])
+                        self.try_counters[idx] += 1
+                        alias_not_found = False
+                else:
+                    print('Empty JSON block returned from', url)
+                idx += 1
             else:
-                print('Empty JSON block returned from', url)
-            idx += 1
+                print('GitHubUserIDFinder Skipping this one: '+no_none(owner)+','+no_none(name)+','+no_none(hashish))
         if alias_not_found:
             self.fail_count += 1
             self.call_resolve_sql_proc(author_id, '<UNABLE_TO_RESOLVE>')
