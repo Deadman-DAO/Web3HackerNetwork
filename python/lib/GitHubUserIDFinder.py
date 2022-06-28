@@ -10,7 +10,14 @@ from threading import Lock
 from git_hub_client import GitHubClient
 
 
+def no_none(val):
+    return val if val is not None else 'None'
+
+
 def format_id_check_url(repo_owner, repo_name, commit_hash):
+    if repo_owner is None or repo_name is None or commit_hash is None:
+        raise Exception('Bad parameter to format_id_check_url: repo_owner = '+no_none(repo_owner)+' repo_name = '+
+                        no_none(repo_name)+' commit_hash = '+no_none(commit_hash))
     return 'https://api.github.com/repos/'+repo_owner+'/'+repo_name+'/commits/'+commit_hash
 
 
