@@ -20,7 +20,7 @@ class Tracker:
         self.exec_time = 0
 
     def __str__(self):
-        return concat('call_count:',self.call_count,' exec_time:', self.exec_time)
+        return concat('call_count:',self.call_count,' exec_time:', f'{(self.exec_time): 0.3f}')
 
 
 class MonitoredThread(object):

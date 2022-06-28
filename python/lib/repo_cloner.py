@@ -1,3 +1,4 @@
+import traceback
 import os
 import threading
 from shutil import disk_usage
@@ -30,7 +31,7 @@ class RepoCloner(DBDependent):
         self.repo_name = None
         self.running = True
         self.thread = None
-        self.interrupt_event = None
+        self.interrupt_event = threading.Event()
         self.MINIMUM_THRESHOLD = 10 * (1024 ** 3)
         self.RESTING_THRESHOLD = 15 * (1024 ** 3)
         self.resting = False
@@ -95,7 +96,7 @@ class RepoCloner(DBDependent):
         self.lock_acquired = time.time()
         try:
             with Popen(cmd) as proc:
-                proc.communicate(timeout=90)
+                proc.communicate(timeout=360)
                 success = True
         except TimeoutExpired:
             self.report_timeout()
@@ -112,7 +113,10 @@ class RepoCloner(DBDependent):
                 wb.write(html_reply.content)
             raise StopIteration('Reply code {rc} returned from {url} - pausing and skipping'.
                                 format(rc=html_reply.status_code, url=url))
-        cmd = [('nice' if sys.platform != "win32" else ''),  'git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
+        cmd = ['nice',  'git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
+        if sys.platform == "win32":
+            # Take out the first element of the cmd array as windows isn't "nice"
+            cmd = cmd[1:]
         print(cmd)
         self.clone_started = time.time()
         if self.git_lock:
@@ -131,6 +135,7 @@ class RepoCloner(DBDependent):
 
     @timeit
     def error_sleep(self):
+        self.close_cursor()
         self.interrupt_event.wait(60)
 
     @timeit
@@ -139,25 +144,30 @@ class RepoCloner(DBDependent):
 
     def main(self):
         self.monitor = MultiprocessMonitor(web_lock=self.web_lock, ds=self.get_disc_space, curjob=self.get_current_job)
-        self.interrupt_event = threading.Event()
         while self.running:
-            if self.get_numeric_disc_space() >= (self.RESTING_THRESHOLD if self.resting else self.MINIMUM_THRESHOLD):
-                self.resting = False
-                if self.reserve_next_repo():
-                    self.success = False
-                    try:
-                        self.clone_it()
-                        self.success = True
-                    except Exception as e:
-                        print('Error encountered', e)
-                        self.error_sleep()
-                    finally:
-                        self.release_job()
+            try:
+                if self.get_numeric_disc_space() >= (self.RESTING_THRESHOLD if self.resting else self.MINIMUM_THRESHOLD):
+                    self.resting = False
+                    if self.reserve_next_repo():
+                        self.success = False
+                        try:
+                            self.clone_it()
+                            self.success = True
+                        except Exception as e:
+                            print('Error encountered', e)
+                            traceback.print_exc()
+                            self.error_sleep()
+                        finally:
+                            self.release_job()
+                    else:
+                        self.idle_sleep()
                 else:
-                    self.idle_sleep()
-            else:
-                self.resting = True
-                self.resource_sleep()
+                    self.resting = True
+                    self.resource_sleep()
+            except Exception as anything:
+                print(anything)
+                traceback.print_exc()
+                self.error_sleep()
 
 
 if __name__ == "__main__":

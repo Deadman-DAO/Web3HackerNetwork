@@ -1,7 +1,8 @@
+import threading
 import sys
 import os
 import json
-import time
+import traceback
 from socket import gethostname
 from db_dependent_class import DBDependent
 from monitor import MultiprocessMonitor, timeit
@@ -31,6 +32,8 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
         self.good_status_code_count = 0
         self.overload_count = 0
         self.error_count = 0
+        self.error_wait = int(kwargs['error_wait']) if 'error_wait' in kwargs else 60
+        self.interrupt_event = threading.Event()
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
@@ -55,7 +58,13 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
 
     @timeit
     def no_work_sleep(self):
-        time.sleep(60)
+        self.close_cursor()
+        self.interrupt_event.wait(self.error_wait)
+
+    @timeit
+    def error_sleep(self):
+        self.close_cursor()
+        self.interrupt_event.wait(self.error_wait)
 
     @timeit
     def call_resolve_sql_proc(self, author_id, github_user_id):
@@ -99,10 +108,15 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
     def main(self):
         m = MultiprocessMonitor(web_lock=self.web_lock, my=self.get_stats)
         while self.running:
-            if self.reserve_next_author() is None:
-                self.no_work_sleep()
-            else:
-                self.resolve_it()
+            try:
+                if self.reserve_next_author() is None:
+                    self.no_work_sleep()
+                else:
+                    self.resolve_it()
+            except Exception as anything:
+                print(anything)
+                traceback.print_exc()
+                self.error_sleep()
 
 
 if __name__ == "__main__":
