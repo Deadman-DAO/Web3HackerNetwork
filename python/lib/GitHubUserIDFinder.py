@@ -105,6 +105,7 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
                 idx += 1
             else:
                 print('GitHubUserIDFinder Skipping this one: '+no_none(owner)+','+no_none(name)+','+no_none(hashish))
+                idx += 1
         if alias_not_found:
             self.fail_count += 1
             self.call_resolve_sql_proc(author_id, '<UNABLE_TO_RESOLVE>')
