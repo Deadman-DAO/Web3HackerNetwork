@@ -91,8 +91,7 @@ class ContributorFinder(DBDependent, GitHubClient):
                     ts = fetch_json_value('w', w)
                     added = fetch_json_value('a', w)
                     deleted = fetch_json_value('d', w)
-                    changed = fetch_json_value('c', w)
-                    ttl = added+deleted+changed
+                    ttl = added-deleted
                     if ttl > 0:
                         c.add_week(ts, ttl)
         return update_database
