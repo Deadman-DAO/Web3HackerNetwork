@@ -41,7 +41,7 @@ class RepoCloner(DBDependent):
         self.repo_dir = None
         self.clone_started = None
         self.lock_acquired = None
-        self.max_wait = find_argv_param('max_wait', 360)
+        self.max_wait = int(find_argv_param('max_wait', 360))
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')

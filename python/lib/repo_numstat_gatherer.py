@@ -88,7 +88,7 @@ class RepoNumstatGatherer(DBDependent):
         self.results_output_file = None
         self.success = None
         self.timeout_count = 0
-        self.max_wait = find_argv_param('max_wait', 360)
+        self.max_wait = int(find_argv_param('max_wait', 360))
 
     def stop(self):
         print('RepoNumstatGatherer is Leaving!')
