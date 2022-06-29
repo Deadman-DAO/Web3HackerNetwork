@@ -15,7 +15,7 @@ import time
 from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent, make_dir
 from kitchen_sink_class import NumstatRequirementSet
-from monitor import MultiprocessMonitor, timeit
+from monitor import MultiprocessMonitor, timeit, find_argv_param
 
 
 class Author:
@@ -88,6 +88,7 @@ class RepoNumstatGatherer(DBDependent):
         self.results_output_file = None
         self.success = None
         self.timeout_count = 0
+        self.max_wait = find_argv_param('max_wait', 360)
 
     def stop(self):
         print('RepoNumstatGatherer is Leaving!')
@@ -210,7 +211,7 @@ class RepoNumstatGatherer(DBDependent):
         with subprocess.Popen(cmd, stdout=subprocess.PIPE) as proc:
             numstat_req_set.setup_background_process(proc.stdout, self.results_output_file, self.commit_callback)
             cpc = ChildProcessContainer(numstat_req_set, 'nmkid', numstat_req_set.why_cant_we_do_it_in_the_background)
-            cpc.wait_for_it(360)
+            cpc.wait_for_it(self.max_wait)
             if cpc.is_alive() and cpc.is_running() and not proc.poll():
                 self.report_timeout(proc)
                 return None

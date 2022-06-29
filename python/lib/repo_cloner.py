@@ -12,7 +12,7 @@ import time
 
 from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent, make_dir
-from monitor import MultiprocessMonitor, timeit
+from monitor import MultiprocessMonitor, timeit, find_argv_param
 
 
 class RepoCloner(DBDependent):
@@ -41,6 +41,7 @@ class RepoCloner(DBDependent):
         self.repo_dir = None
         self.clone_started = None
         self.lock_acquired = None
+        self.max_wait = find_argv_param('max_wait', 360)
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
@@ -106,7 +107,7 @@ class RepoCloner(DBDependent):
                 d = self.Doer(proc)
                 print('Launching child process to go clone')
                 cpc = ChildProcessContainer(d, '?X?', d.do_it)
-                cpc.wait_for_it(360)
+                cpc.wait_for_it(self.max_wait)
                 if cpc.is_alive() and cpc.is_running() and not proc.poll():
                     self.report_timeout(proc)
                     return None

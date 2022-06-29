@@ -2,9 +2,19 @@ import os
 
 import time
 import psutil
+from sys import argv
 from datetime import datetime as datingdays
 from functools import wraps
 from threading import Thread, current_thread, Lock
+
+
+def find_argv_param(key, default_val=None):
+    ret_val = default_val
+    for n in argv:
+        kv = n.split('=')
+        if len(kv) > 1 and kv[0] == key:
+            ret_val = kv[1]
+    return ret_val
 
 
 def concat(*args):
