@@ -117,7 +117,7 @@ class RepoCloner(DBDependent):
         if sys.platform == "win32":
             # Take out the first element of the cmd array as windows isn't "nice"
             cmd = cmd[1:]
-        print(cmd)
+        # print(cmd)
         self.clone_started = time.time()
         if self.git_lock:
             with self.git_lock:

@@ -126,7 +126,7 @@ class RepoNumstatGatherer(DBDependent):
             if self.owner is not None and self.repo_name is not None:
                 found_one = True
                 self.current_repo = self.owner + '.' + self.repo_name
-                print(self.current_repo)
+                # print(self.current_repo)
         finally:
             self.close_cursor()
         return found_one
@@ -229,7 +229,7 @@ class RepoNumstatGatherer(DBDependent):
         if sys.platform == "win32":
             # Take out the first element of the cmd array as windows isn't "nice"
             cmd = cmd[1:]
-        print(cmd)
+        # print(cmd)
         self.numstat_start_time = time.time()
         if self.git_lock:
             with self.git_lock:
