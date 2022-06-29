@@ -107,7 +107,9 @@ class RepoCloner(DBDependent):
                 d = self.Doer(proc)
                 print('Launching child process to go clone')
                 cpc = ChildProcessContainer(d, '?X?', d.do_it)
+                print('Waiting for child process to complete')
                 cpc.wait_for_it(self.max_wait)
+                print('Returned from ChildProcessContainer.wait_for_it()')
                 if cpc.is_alive() and cpc.is_running() and not proc.poll():
                     self.report_timeout(proc)
                     return None
