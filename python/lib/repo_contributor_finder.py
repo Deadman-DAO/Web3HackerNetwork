@@ -111,7 +111,7 @@ class ContributorFinder(DBDependent, GitHubClient):
     @timeit
     def error_sleep(self):
         self.close_cursor()
-        time.sleep(60)
+        time.sleep(10)
 
     def main(self):
         self.monitor = MultiprocessMonitor(web_lock=self.web_lock, cont=self.get_completed_count, cin=self.get_stats)
