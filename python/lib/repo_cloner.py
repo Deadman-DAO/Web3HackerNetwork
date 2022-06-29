@@ -90,13 +90,26 @@ class RepoCloner(DBDependent):
         print('Terminating long running thread for ', self.owner, self.repo_name, expired,
               'seconds since start time.', lock_time, 'seconds since lock acquired.')
 
+    class Doer:
+        def __init__(self, proc):
+            self.proc = proc
+
+        def do_it(self):
+            self.proc.communicate()
+
     @timeit
     def got_lock_now_cloning(self, cmd):
         success = False
         self.lock_acquired = time.time()
         try:
             with Popen(cmd) as proc:
-                proc.communicate(timeout=360)
+                d = self.Doer(proc)
+                print('Launching child process to go clone')
+                cpc = ChildProcessContainer(d, '?X?', d.do_it)
+                cpc.wait_for_it(360)
+                if cpc.is_alive() and cpc.is_running() and not proc.poll():
+                    self.report_timeout(proc)
+                    return None
                 success = True
         except TimeoutExpired:
             self.report_timeout()
