@@ -67,19 +67,6 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         return self.all_done
 
     @timeit
-    def gather_project_stats(self):
-        ext_map = {}
-        try:
-            with bz2.open(self.numstat_dir, 'rt') as r:
-                obj = json.loads(r.read())
-            for elem in obj:
-                for file in elem['file_list']:
-                    for name in file.keys():
-                        print(name)
-        except Exception as e:
-            print(e)
-
-    @timeit
     def process_task(self):
         try:
             if os.path.exists(self.numstat_dir):
@@ -87,7 +74,6 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     self.numstat = r.read()
 
                 self.numstat = base64.b64encode(self.numstat)
-                self.gather_project_stats()
         except Exception as e:
             print(e)
 
