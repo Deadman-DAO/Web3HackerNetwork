@@ -1,4 +1,3 @@
-import threading
 import hashlib
 import json
 import os
