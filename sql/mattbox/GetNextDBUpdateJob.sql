@@ -1,5 +1,6 @@
-CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`GetNextDBUpdateJob`(
-	in _machine_name varchar(64)
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`GetNextDBUpdateJob` (
+IN _machine_name varchar(64)
 )
 BEGIN
 	declare ts datetime default now();
@@ -16,3 +17,5 @@ BEGIN
 	end if;
 		
 END
+/MANGINA/
+DELIMITER ;

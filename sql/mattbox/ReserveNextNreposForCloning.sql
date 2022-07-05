@@ -1,6 +1,7 @@
-CREATE PROCEDURE w3hacknet.ReserveNextNreposForCloning(
-in _machine_name varchar(128),
-in _max_repos int
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`ReserveNextNreposForCloning` (
+IN _machine_name varchar(128),
+IN _max_repos int(11)
 )
 BEGIN
 	declare _dt datetime default current_timestamp(3);
@@ -24,3 +25,5 @@ BEGIN
 	    and rr.tstamp = _dt;
 	
 END
+/MANGINA/
+DELIMITER ;

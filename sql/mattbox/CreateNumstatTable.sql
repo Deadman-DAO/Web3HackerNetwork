@@ -1,4 +1,5 @@
-CREATE PROCEDURE w3hacknet.CreateNumstatTable()
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`CreateNumstatTable`
 BEGIN
 	drop table if exists repo_numstat;
 
@@ -12,3 +13,5 @@ BEGIN
 	);
 	
 END
+/MANGINA/
+DELIMITER ;

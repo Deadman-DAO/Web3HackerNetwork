@@ -1,8 +1,9 @@
-CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReleaseRepoFromCloning`(
-in _repo_id int,
-in _machine_name varchar(64),
-in _repo_dir varchar(512),
-in _success bit
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`ReleaseRepoFromCloning` (
+IN _repo_id int(11),
+IN _machine_name varchar(64),
+IN _repo_dir varchar(512),
+IN _success bit(1)
 )
 BEGIN
 	declare dt datetime default now();
@@ -17,3 +18,5 @@ BEGIN
 	 where id = _repo_id;
 	update repo_reserve set tstamp = dt where repo_id = _repo_id;
 END
+/MANGINA/
+DELIMITER ;

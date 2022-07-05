@@ -1,5 +1,7 @@
-CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReserveNextRepoForAnalysis`(
-in _machine_name varchar(64))
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`ReserveNextRepoForAnalysis` (
+IN _machine_name varchar(64)
+)
 BEGIN
 	declare _dt datetime default now();
 	declare _last_id int;
@@ -14,3 +16,5 @@ BEGIN
 	  limit 1;
 
 END
+/MANGINA/
+DELIMITER ;
