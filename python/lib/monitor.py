@@ -2,9 +2,19 @@ import os
 
 import time
 import psutil
+from sys import argv
 from datetime import datetime as datingdays
 from functools import wraps
 from threading import Thread, current_thread, Lock
+
+
+def find_argv_param(key, default_val=None):
+    ret_val = default_val
+    for n in argv:
+        kv = n.split('=')
+        if len(kv) > 1 and kv[0] == key:
+            ret_val = kv[1]
+    return ret_val
 
 
 def concat(*args):
@@ -14,13 +24,34 @@ def concat(*args):
     return ret_val
 
 
+def align_columns(array_of_tuples, prefix=None):
+    try:
+        max_col_width = []
+        for row in array_of_tuples:
+            for idx in range(len(row)):
+                if len(max_col_width) <= idx:
+                    max_col_width.append(0)
+                if max_col_width[idx] < len(str(row[idx])):
+                    max_col_width[idx] = len(str(row[idx]))
+        for row in array_of_tuples:
+            line = prefix if prefix else ''
+            for idx in range(len(row)):
+                line += f'{row[idx]:>{max_col_width[idx]+1}}'
+            print(line)
+    except Exception as e:
+        print('WTF?', e)
+
+
 class Tracker:
     def __init__(self):
         self.call_count = 0
         self.exec_time = 0
 
     def __str__(self):
-        return concat('call_count:',self.call_count,' exec_time:', self.exec_time)
+        return concat('call_count:',self.call_count,' exec_time:', f'{self.exec_time: 0.3f}')
+
+    def tuple(self):
+        return 'call_count:', str(self.call_count), 'exec_time:', f'{self.exec_time: 0.3f}'
 
 
 class MonitoredThread(object):
@@ -127,33 +158,37 @@ class Monitor:
         running = True
         while running:
             time.sleep(frequency)
-            print(''.join((datingdays.now().strftime('%a %b %d %H:%M:%S.%f')[:-4],
-                           ': mem(', mem_info(),
-                           ') runtime(', self.calc_run_time(), ')')))
-            with monitor_lock:
-                for thread_name in self.process_map.keys():
-                    ct_kwargs = self.process_map[thread_name]
-                    my_mt = get_monitored_thread(thread_name)
-                    thread_id = self.thread_id_map[thread_name]
-                    msg = ''.join(('   ', thread_name, '[', str(thread_id), ']:'))
-                    remove_key_list = []
-                    for k in ct_kwargs.keys():
-                        method = ct_kwargs[k]
-                        if not callable(method):
-                            print(k, method, ' is NOT callable.  Removing it.')
-                            remove_key_list.append(k)
-                        else:
-                            msg = ''.join((msg, ' ', k, ':', str(method())))
-                    for remove in remove_key_list:
-                        ct_kwargs.pop(remove)
-                    if len(my_mt.monitor_timer_map) > 0:
-                        msg = ''.join((msg, ' cur_meth:',
-                                       my_mt.monitor_current_method, '(',
-                                       str(len(my_mt.monitor_call_stack)), ')'))
-                    print(msg)
-                    for _key in my_mt.monitor_timer_map.keys():
-                        _val = my_mt.monitor_timer_map[_key]
-                        print('\t', _key, ' ', _val)
+            try:
+                print(''.join((datingdays.now().strftime('%a %b %d %H:%M:%S.%f')[:-4],
+                               ': mem(', mem_info(),
+                               ') runtime(', self.calc_run_time(), ')')))
+                with monitor_lock:
+                    for thread_name in self.process_map.keys():
+                        ct_kwargs = self.process_map[thread_name]
+                        my_mt = get_monitored_thread(thread_name)
+                        thread_id = self.thread_id_map[thread_name]
+                        msg = ''.join(('   ', thread_name, '[', str(thread_id), ']:'))
+                        remove_key_list = []
+                        for k in ct_kwargs.keys():
+                            method = ct_kwargs[k]
+                            if not callable(method):
+                                print(k, method, ' is NOT callable.  Removing it.')
+                                remove_key_list.append(k)
+                            else:
+                                msg = ''.join((msg, ' ', k, ':', str(method())))
+                        for remove in remove_key_list:
+                            ct_kwargs.pop(remove)
+                        if len(my_mt.monitor_timer_map) > 0:
+                            msg = ''.join((msg, ' cur_meth:',
+                                           my_mt.monitor_current_method, '(',
+                                           str(len(my_mt.monitor_call_stack)), ')'))
+                        print(msg)
+                        array = []
+                        for _key in my_mt.monitor_timer_map.keys():
+                            array.append((_key,)+my_mt.monitor_timer_map[_key].tuple())
+                        align_columns(array, prefix='\t')
+            except Exception as e:
+                print('Monitor encountered error:', e)
 
 
 singleton = None

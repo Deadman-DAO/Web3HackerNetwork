@@ -1,5 +1,7 @@
-CREATE PROCEDURE w3hacknet.ReleaseRepoAfterCleanup(
-in _repo_id int)
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`ReleaseRepoAfterCleanup` (
+IN _repo_id int(11)
+)
 BEGIN
 	update repo 
 	   set 	repo_machine_name = null, 
@@ -10,3 +12,5 @@ BEGIN
 	delete from repo_reserve where repo_id = _repo_id;	
 	
 END
+/MANGINA/
+DELIMITER ;

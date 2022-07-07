@@ -14,7 +14,7 @@ import time
 from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent, make_dir
 from kitchen_sink_class import NumstatRequirementSet
-from monitor import MultiprocessMonitor, timeit
+from monitor import MultiprocessMonitor, timeit, find_argv_param
 
 
 class Author:
@@ -75,7 +75,7 @@ class RepoNumstatGatherer(DBDependent):
         self.repo_name = None
         self.running = True
         self.thread = None
-        self.interrupt_event = None
+        self.interrupt_event = Event()
         self.MINIMUM_THRESHOLD = 1 * (1024 ** 3)
         self.repo_id = None
         self.url_prefix = 'https://github.com/'
@@ -87,6 +87,7 @@ class RepoNumstatGatherer(DBDependent):
         self.results_output_file = None
         self.success = None
         self.timeout_count = 0
+        self.max_wait = int(find_argv_param('max_wait', 360))
 
     def stop(self):
         print('RepoNumstatGatherer is Leaving!')
@@ -94,7 +95,7 @@ class RepoNumstatGatherer(DBDependent):
         self.interrupt_event.set()
 
     def get_total_alias_processing_time(self):
-        return self.total_alias_processing_time
+        return f'{(self.total_alias_processing_time):0.3f}'
 
     def get_numeric_disc_space(self):
         return disk_usage(self.repo_base_dir).free
@@ -125,7 +126,7 @@ class RepoNumstatGatherer(DBDependent):
             if self.owner is not None and self.repo_name is not None:
                 found_one = True
                 self.current_repo = self.owner + '.' + self.repo_name
-                print(self.current_repo)
+                # print(self.current_repo)
         finally:
             self.close_cursor()
         return found_one
@@ -209,7 +210,7 @@ class RepoNumstatGatherer(DBDependent):
         with subprocess.Popen(cmd, stdout=subprocess.PIPE) as proc:
             numstat_req_set.setup_background_process(proc.stdout, self.results_output_file, self.commit_callback)
             cpc = ChildProcessContainer(numstat_req_set, 'nmkid', numstat_req_set.why_cant_we_do_it_in_the_background)
-            cpc.wait_for_it(90)
+            cpc.wait_for_it(self.max_wait)
             if cpc.is_alive() and cpc.is_running() and not proc.poll():
                 self.report_timeout(proc)
                 return None
@@ -224,8 +225,11 @@ class RepoNumstatGatherer(DBDependent):
         self.results_file = self.results_dir + '/log_numstat.out'
         self.results_output_file = self.results_file + '.json.bz2'
         self.this_repo_commit_count = 0
-        cmd = ['git', '-C', abs_repo_path, 'log', '--no-renames', '--numstat']
-        print(cmd)
+        cmd = ['nice', 'git', '-C', abs_repo_path, 'log', '--no-renames', '--numstat']
+        if sys.platform == "win32":
+            # Take out the first element of the cmd array as windows isn't "nice"
+            cmd = cmd[1:]
+        # print(cmd)
         self.numstat_start_time = time.time()
         if self.git_lock:
             with self.git_lock:
@@ -243,6 +247,7 @@ class RepoNumstatGatherer(DBDependent):
 
     @timeit
     def error_sleep(self):
+        self.close_cursor()
         self.interrupt_event.wait(60)
 
     @timeit
@@ -261,25 +266,29 @@ class RepoNumstatGatherer(DBDependent):
     def do_your_thing(self):
         self.monitor = MultiprocessMonitor(web_lock=self.web_lock, ds=self.get_disc_space, curjob=self.get_current_job,
                                            alias_tm=self.get_total_alias_processing_time)
-        self.interrupt_event = Event()
         while self.running:
-            if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
-                self.author_map = {}
-                if self.reserve_next_repo():
-                    self.success = False
-                    try:
-                        if self.validate_repo_dir() and self.generate_numstats():
-                            self.success = True
-                    except Exception as e:
-                        print('Error encountered', e)
-                        traceback.print_exc()
-                        self.error_sleep()
-                    finally:
-                        self.store_results_in_database()
+            try:
+                if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
+                    self.author_map = {}
+                    if self.reserve_next_repo():
+                        self.success = False
+                        try:
+                            if self.validate_repo_dir() and self.generate_numstats():
+                                self.success = True
+                        except Exception as xxx:
+                            print('Error encountered', xxx)
+                            traceback.print_exc()
+                            self.error_sleep()
+                        finally:
+                            self.store_results_in_database()
+                    else:
+                        self.idle_sleep()
                 else:
-                    self.idle_sleep()
-            else:
-                self.resource_sleep()
+                    self.resource_sleep()
+            except Exception as anything:
+                print(anything)
+                traceback.print_exc()
+                self.error_sleep()
 
     def main(self):
         self.do_your_thing()

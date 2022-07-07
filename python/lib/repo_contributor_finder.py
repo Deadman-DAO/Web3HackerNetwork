@@ -1,3 +1,4 @@
+import traceback
 import json
 from datetime import datetime as datingdays
 from threading import Lock
@@ -91,8 +92,7 @@ class ContributorFinder(DBDependent, GitHubClient):
                     ts = fetch_json_value('w', w)
                     added = fetch_json_value('a', w)
                     deleted = fetch_json_value('d', w)
-                    changed = fetch_json_value('c', w)
-                    ttl = added+deleted+changed
+                    ttl = added-deleted
                     if ttl > 0:
                         c.add_week(ts, ttl)
         return update_database
@@ -110,21 +110,27 @@ class ContributorFinder(DBDependent, GitHubClient):
 
     @timeit
     def error_sleep(self):
-        time.sleep(60)
+        self.close_cursor()
+        time.sleep(10)
 
     def main(self):
         self.monitor = MultiprocessMonitor(web_lock=self.web_lock, cont=self.get_completed_count, cin=self.get_stats)
 
         while self.running:
-            if self.get_next_repo():
-                try:
-                    if self.fetch_contributor_info():
-                        self.update_database()
-                except Exception as si:
-                    print("Error encountered in ContributorFinder MAIN", si)
-                    self.error_sleep()
-            else:
-                self.sleepy_time()
+            try:
+                if self.get_next_repo():
+                    try:
+                        if self.fetch_contributor_info():
+                            self.update_database()
+                    except Exception as si:
+                        print("Error encountered in ContributorFinder MAIN", si)
+                        self.error_sleep()
+                else:
+                    self.sleepy_time()
+            except Exception as anything:
+                print(anything)
+                traceback.print_exc()
+                self.error_sleep()
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
-CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`create_repo_table`()
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`create_repo_table`
 BEGIN
 	create table repo (
 		id int not null auto_increment,
@@ -23,3 +24,5 @@ BEGIN
 	);
 
 END
+/MANGINA/
+DELIMITER ;

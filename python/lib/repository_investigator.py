@@ -1,3 +1,5 @@
+import threading
+import traceback
 from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent
 from git_hub_client import fetch_json_value, GitHubClient
@@ -5,7 +7,6 @@ from monitor import MultiprocessMonitor, timeit
 from repo_contributor_finder import Contributor
 from threading import Lock
 import iso_date_parser
-import time
 
 
 class Investigator(DBDependent, GitHubClient):
@@ -29,6 +30,8 @@ class Investigator(DBDependent, GitHubClient):
         self.subscribers_count = None
         self.fetch_repo_info_json = None
         self.fetch_activity_info_json = None
+        self.error_wait = int(kwargs['error_wait']) if 'error_wait' in kwargs else 60
+        self.interrupt_event = threading.Event()
 
     def form_repo_url(self):
         return ''.join((self.url_prefix, self.repo_owner, '/', self.repo_name))
@@ -115,26 +118,37 @@ class Investigator(DBDependent, GitHubClient):
 
     @timeit
     def sleep_it_off(self):
-        time.sleep(60)
+        self.close_cursor()
+        self.interrupt_event.wait(self.error_wait)
+
+    @timeit
+    def error_sleep(self):
+        self.close_cursor()
+        self.interrupt_event.wait(self.error_wait)
 
     def main(self):
         MultiprocessMonitor(web_lock=self.web_lock, eval=self.get_stats)
         running = True
         while running:
-            if self.reserve_new_repo():
-                write_results = True
-                try:
-                    if self.fetch_repo_info():
-                        self.fetch_activity_info()
-                    else:
-                        write_results = False
-                except StopIteration as si:
-                    print(si)
-                finally:
-                    if write_results:
-                        self.write_results_to_database()
-            else:
-                self.sleep_it_off()
+            try:
+                if self.reserve_new_repo():
+                    write_results = True
+                    try:
+                        if self.fetch_repo_info():
+                            self.fetch_activity_info()
+                        else:
+                            write_results = False
+                    except StopIteration as si:
+                        print(si)
+                    finally:
+                        if write_results:
+                            self.write_results_to_database()
+                else:
+                    self.sleep_it_off()
+            except Exception as anything:
+                print(anything)
+                traceback.print_exc()
+                self.error_sleep()
 
 
 if __name__ == "__main__":

@@ -1,4 +1,6 @@
+import bz2
 import base64
+import json
 import os
 from threading import Lock
 
@@ -70,6 +72,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             if os.path.exists(self.numstat_dir):
                 with open(self.numstat_dir, 'rb') as r:
                     self.numstat = r.read()
+
                 self.numstat = base64.b64encode(self.numstat)
         except Exception as e:
             print(e)

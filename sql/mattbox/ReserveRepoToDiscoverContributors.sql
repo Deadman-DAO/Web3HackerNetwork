@@ -1,5 +1,6 @@
-CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReserveRepoToDiscoverContributors`(
-	in _reserver_user_id varchar(32)
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`ReserveRepoToDiscoverContributors` (
+IN _reserver_user_id varchar(32)
 )
 BEGIN
 	declare _owner varchar(128);
@@ -23,3 +24,5 @@ BEGIN
 	
 
 END
+/MANGINA/
+DELIMITER ;

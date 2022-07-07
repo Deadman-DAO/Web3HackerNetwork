@@ -38,7 +38,7 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
         self.idle_wait = int(kwargs['idle_wait']) if 'idle_wait' in kwargs else 5
         self.error_wait = int(kwargs['error_wait']) if 'error_wait' in kwargs else 60
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
-        self.interrupt_event = None
+        self.interrupt_event = threading.Event()
         self.success = None
         self.close_every_cursor = False
 
@@ -55,7 +55,7 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
     def call_db_proc(self, db_task):
         result = None
         try:
-            print('Calling ', db_task.get_proc_name())
+            # print('Calling ', db_task.get_proc_name())
             result = db_task.process_db_results(
                 self.execute_procedure(db_task.get_proc_name(), db_task.get_proc_parameters()))
         finally:
@@ -91,6 +91,7 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
 
     @timeit
     def error_sleep(self):
+        self.close_cursor()
         self.interrupt_event.wait(self.error_wait)
 
     @abstractmethod
@@ -101,7 +102,6 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
         pass
 
     def main(self):
-        self.interrupt_event = threading.Event()
         print('Entering MAIN')
         self.monitor = MultiprocessMonitor(web_lock=self.web_lock)
         self.init()
