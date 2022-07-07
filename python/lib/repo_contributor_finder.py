@@ -1,5 +1,5 @@
-import traceback
 import json
+import traceback
 from datetime import datetime as datingdays
 from threading import Lock
 
@@ -74,6 +74,8 @@ class ContributorFinder(DBDependent, GitHubClient):
         if self.fetch_contributor_info_json is None:
             if self.html_reply.status_code == 202:
                 self.delay_repo_processing(self.repo_id)
+            elif self.html_reply.status_code == 204:
+                print('Empty reply from GitHub for', self.form_contributors_url())
             elif self.html_reply.status_code == 404:
                 print('That repo is unreachable', self.form_contributors_url())
                 update_database = True

@@ -1,12 +1,14 @@
 import os
 import threading
-import sys
-from socket import gethostname
-import requests
-import time
-import json
 from datetime import datetime as dt
-from monitor import mem_info, timeit
+from socket import gethostname
+
+import requests
+import sys
+import time
+
+from monitor import timeit
+
 
 def fetch_json_value(key, json):
     if key in json:
@@ -72,6 +74,9 @@ class GitHubClient:
             elif self.html_reply.status_code == 202:
                 self.incomplete_count += 1
                 print('GitHub is "still working on"', url, 'But we are not going to try again')
+            elif self.html_reply.status_code == 204:
+                self.incomplete_count += 1
+                print('GitHub returned no data (204)', url)
             elif self.html_reply.status_code == 200:
                 self.good_reply_code_count += 1
             else:
