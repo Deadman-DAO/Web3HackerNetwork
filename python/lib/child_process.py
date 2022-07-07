@@ -29,11 +29,16 @@ class ChildProcessContainer(Thread):
             raise StopIteration('ChildProcessContainer timed out waiting for thread to go "live"')
 
         self.thread.join(seconds-(time.time()-init_time))
+        return self.thread.is_alive()
 
     def stop(self):
-        stop_method = getattr(self.managed_instance, 'stop', default=-1)
-        if stop_method and callable(stop_method):
-            stop_method(self.managed_instance)
+        self.running = False
+        try:
+            stop_method = getattr(self.managed_instance, 'stop', default=-1)
+            if stop_method and callable(stop_method):
+                stop_method(self.managed_instance)
+        except AttributeError:
+            pass
 
     def is_running(self):
         return self.running
