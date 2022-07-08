@@ -1,6 +1,6 @@
-import traceback
 import os
 import threading
+import traceback
 from shutil import disk_usage
 from socket import gethostname
 from subprocess import TimeoutExpired, Popen
@@ -88,6 +88,7 @@ class RepoCloner(DBDependent):
         self.timeout_counter += 1
         expired = time.time() - self.clone_started
         lock_time = time.time() - self.lock_acquired
+        self.kill_all_subprocesses()
         proc.kill()
         print('Terminating long running thread for ', self.owner, self.repo_name, expired,
               'seconds since start time.', lock_time, 'seconds since lock acquired.')
@@ -116,8 +117,8 @@ class RepoCloner(DBDependent):
                     return None
                 success = True
         except TimeoutExpired:
+            print('Timed out waiting for child process to complete')
             self.report_timeout()
-            proc.kill()
         return success
 
     @timeit

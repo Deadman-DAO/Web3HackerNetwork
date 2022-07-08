@@ -3,6 +3,7 @@ import os
 from socket import gethostname
 
 import mysql.connector
+import psutil
 import sys
 
 from monitor import timeit
@@ -27,6 +28,14 @@ class DBDependent(SignalHandler):
         self.db_lock = kwargs['database_lock'] if 'database_lock' in kwargs else None
         self.web_lock = kwargs['web_lock'] if 'web_lock' in kwargs else None
         self.git_lock = kwargs['git_lock'] if 'git_lock' in kwargs else None
+
+    @timeit
+    def kill_all_subprocesses(self):
+        pid = os.getpid()
+        me = psutil.Process(pid)
+        for child in me.children(recursive=True):
+            print(f'Killing child process {child.pid}')
+            child.kill()
 
     @timeit
     def execute_procedure(self, method_name, params):

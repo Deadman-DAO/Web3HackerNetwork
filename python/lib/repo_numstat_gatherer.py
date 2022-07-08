@@ -200,6 +200,7 @@ class RepoNumstatGatherer(DBDependent):
         self.timeout_count += 1
         expired = time.time() - self.numstat_start_time
         time_with_lock = time.time() - self.numstat_lock_acquired_time
+        self.kill_all_subprocesses()
         proc.kill()
         print("Timed out waiting for ", self.owner, "/", self.repo_name, " to execute numstat.", expired, 'total seconds waited.', time_with_lock, 'seconds lock held')
 
