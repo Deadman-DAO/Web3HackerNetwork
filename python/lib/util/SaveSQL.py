@@ -64,6 +64,7 @@ class SaveSQL(DBDependent):
             procedure = None
             procedure = procedure_map[proc_name] if proc_name in procedure_map.keys() else None
             with open('./'+proc_name+'.sql', 'wt') as w:
+                print('Processing', proc_name)
                 w.write("DELIMITER /MANGINA/\n")
                 w.write("create or replace procedure `w3hacknet`.`"+proc_name+"`"+(" (\n" if procedure else "()\n"))
                 if procedure:
