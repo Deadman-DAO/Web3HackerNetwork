@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`FillRepoJobQueueIfNecessary`
+create or replace procedure `w3hacknet`.`FillRepoJobQueueIfNecessary`()
 BEGIN
 	declare _current_job_q_size int;
 	declare _min_jobs int;

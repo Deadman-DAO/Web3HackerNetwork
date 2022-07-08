@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`CalcStats`
+create or replace procedure `w3hacknet`.`CalcStats`()
 BEGIN
 	declare tm datetime default now();
 	select count(*) into @alias_count from alias;

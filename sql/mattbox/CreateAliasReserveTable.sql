@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`CreateAliasReserveTable`
+create or replace procedure `w3hacknet`.`CreateAliasReserveTable`()
 BEGIN
 	drop table if exists alias_reserve;
 

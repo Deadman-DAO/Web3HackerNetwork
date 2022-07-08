@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`CreateLogTable`
+create or replace procedure `w3hacknet`.`CreateLogTable`()
 BEGIN
 	drop table if exists log;
 

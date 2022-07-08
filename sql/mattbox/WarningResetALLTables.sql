@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`WarningResetALLTables`
+create or replace procedure `w3hacknet`.`WarningResetALLTables`()
 BEGIN
 	drop table if exists repo_reserve;
 	drop table if exists repo_commit;

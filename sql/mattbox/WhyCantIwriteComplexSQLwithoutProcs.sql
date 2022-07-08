@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`WhyCantIwriteComplexSQLwithoutProcs`
+create or replace procedure `w3hacknet`.`WhyCantIwriteComplexSQLwithoutProcs`()
 BEGIN
 	declare _idx int default 1;
 	declare _rec_count int default 0;

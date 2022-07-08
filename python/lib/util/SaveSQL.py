@@ -1,5 +1,4 @@
 import sys
-import mysql.connector
 
 sys.path.append("../../python/lib")
 from db_dependent_class import DBDependent
@@ -52,7 +51,6 @@ class SaveSQL(DBDependent):
         c.execute(self.param_sql)
         for row in c.fetchall():
             proc_name = row[0]
-            procedure = None
             if proc_name in procedure_map.keys():
                 procedure = procedure_map[proc_name]
             else:
@@ -63,10 +61,11 @@ class SaveSQL(DBDependent):
         c.execute(self.source_sql)
         for row in self.get_cursor().fetchall():
             proc_name = row[0]
+            procedure = None
             procedure = procedure_map[proc_name] if proc_name in procedure_map.keys() else None
             with open('./'+proc_name+'.sql', 'wt') as w:
                 w.write("DELIMITER /MANGINA/\n")
-                w.write("create or replace procedure `w3hacknet`.`"+proc_name+"`"+(" (\n" if procedure else "\n"))
+                w.write("create or replace procedure `w3hacknet`.`"+proc_name+"`"+(" (\n" if procedure else "()\n"))
                 if procedure:
                     size = len(procedure.params)
                     for idx in range(0, size):
@@ -76,6 +75,7 @@ class SaveSQL(DBDependent):
                 w.write(row[1].replace('\r', ''))
                 w.write("\n/MANGINA/\n")
                 w.write("DELIMITER ;\n")
+        sys.exit(0)
 
 
 if __name__ == "__main__":

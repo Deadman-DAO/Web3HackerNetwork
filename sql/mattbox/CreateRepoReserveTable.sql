@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`CreateRepoReserveTable`
+create or replace procedure `w3hacknet`.`CreateRepoReserveTable`()
 BEGIN
 	drop table if exists repo_reserve;
 

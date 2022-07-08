@@ -10,7 +10,7 @@ BEGIN
 	declare repo_name varchar(128);
 	declare _now datetime default CURRENT_TIMESTAMP(3);
 
-	select id, owner, name into _repo_id, repo_owner, repo_name from (
+	 select id, owner, name into _repo_id, repo_owner, repo_name from (
 		select r.id, r.owner, r.name, (((max_date - min_date)/day_millies)-((now() - max_date)/day_millies))+commit_count 
 		  from repo r
 		left join repo_reserve rr on rr.repo_id = r.id

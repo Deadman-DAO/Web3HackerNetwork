@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`CreateStagedRepoJobQueue`
+create or replace procedure `w3hacknet`.`CreateStagedRepoJobQueue`()
 BEGIN
 	drop table if exists staged_repo_job_q;
 

@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`CreateNumstatTable`
+create or replace procedure `w3hacknet`.`CreateNumstatTable`()
 BEGIN
 	drop table if exists repo_numstat;
 

@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`CreateHackerUpdateQueue`
+create or replace procedure `w3hacknet`.`CreateHackerUpdateQueue`()
 BEGIN
 	drop table if exists hacker_update_queue;
 	create table hacker_update_queue(

@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`create_repo_table`
+create or replace procedure `w3hacknet`.`create_repo_table`()
 BEGIN
 	create table repo (
 		id int not null auto_increment,

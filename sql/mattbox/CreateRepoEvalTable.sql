@@ -1,5 +1,5 @@
 DELIMITER /MANGINA/
-create or replace procedure `w3hacknet`.`CreateRepoEvalTable`
+create or replace procedure `w3hacknet`.`CreateRepoEvalTable`()
 BEGIN
 	drop table if exists repo_eval;
 
