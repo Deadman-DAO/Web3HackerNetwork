@@ -9,6 +9,7 @@ BEGIN
 		repo_id int unique not null, 
 		tstamp datetime, 
 		numstat longblob, 
+		numstat_size int,
 		foreign key (repo_id) references repo(id)
 	);
 	
