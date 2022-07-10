@@ -35,7 +35,7 @@ class MultiprocessManager(SignalHandler):
         for kick in dic:
             constructor = dic[kick]
             self.subprocesses.append(ChildProcessContainer(constructor(web_lock=self.get_web_lock(),
-                                                                       database_lock=get_db_lock(),
+                                                                       database_lock=self.get_db_lock(),
                                                                        git_lock=self.get_git_lock()), kick))
         for n in self.subprocesses:
             n.join()
