@@ -30,8 +30,8 @@ class DBDependent(SignalHandler):
         self.git_lock = kwargs['git_lock'] if 'git_lock' in kwargs else None
 
     @timeit
-    def kill_all_subprocesses(self):
-        pid = os.getpid()
+    def kill_all_subprocesses(self, proc):
+        pid = proc.pid if proc.pid else os.getpid()
         me = psutil.Process(pid)
         for child in me.children(recursive=True):
             print(f'Killing child process {child.pid}')

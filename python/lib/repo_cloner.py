@@ -88,7 +88,7 @@ class RepoCloner(DBDependent):
         self.timeout_counter += 1
         expired = time.time() - self.clone_started
         lock_time = time.time() - self.lock_acquired
-        self.kill_all_subprocesses()
+        self.kill_all_subprocesses(proc)
         proc.kill()
         print('Terminating long running thread for ', self.owner, self.repo_name, expired,
               'seconds since start time.', lock_time, 'seconds since lock acquired.')
