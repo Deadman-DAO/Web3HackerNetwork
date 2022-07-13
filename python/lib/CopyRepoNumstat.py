@@ -28,7 +28,7 @@ class CopyRepoNumstat(DBDependent):
 
         self.from_cursor.execute(self.select_sql)
         count = 0
-        block_size = 10
+        block_size = 100
         array = []
         for row in self.from_cursor:
             array.append(row)
