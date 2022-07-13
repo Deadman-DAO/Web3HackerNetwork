@@ -29,11 +29,18 @@ class CopyRepoNumstat(DBDependent):
 
         self.from_cursor.execute(self.select_sql)
         count = 0
+        block_size = 10
+        array = []
         for row in self.from_cursor:
-            self.get_cursor().execute(self.insert_sql, row)
+            array.append(row)
+            if len(array) >= block_size:
+                self.get_cursor().executemany(self.insert_sql, array)
+                array = []
+
             count += 1
-            if count % 10 == 0:
+            if count % block_size == 0:
                 print(count, 'records copied')
+        print('FINAL: ', count, 'records copied')
 
 
 if __name__ == "__main__":
