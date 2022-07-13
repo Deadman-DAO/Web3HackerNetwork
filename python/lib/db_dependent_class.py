@@ -71,8 +71,7 @@ class DBDependent(SignalHandler):
                 user=self.db_config['user'],
                 password=self.db_config['password'],
                 database=self.db_config['database'],
-                autocommit=bool(self.db_config['autocommit']),
-                max_allowed_packet=1073741824)
+                autocommit=bool(self.db_config['autocommit']))
         if self.cursor is None:
             self.cursor = self.database.cursor()
         return self.cursor

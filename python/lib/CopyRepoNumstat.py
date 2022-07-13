@@ -23,8 +23,7 @@ class CopyRepoNumstat(DBDependent):
             user=self.from_db_config['user'],
             password=self.from_db_config['password'],
             database=self.from_db_config['database'],
-            autocommit=bool(self.from_db_config['autocommit']),
-            max_allowed_packet=1073741824)
+            autocommit=bool(self.from_db_config['autocommit']))
         self.from_cursor = self.from_dbase.cursor()
 
         self.from_cursor.execute(self.select_sql)
