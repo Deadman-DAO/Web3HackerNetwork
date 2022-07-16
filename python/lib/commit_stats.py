@@ -2,6 +2,7 @@ import bz2
 import os
 import json
 import hashlib
+import random
 from datetime import datetime
 
 def find_files(name, path):
@@ -50,6 +51,13 @@ def parse_commits(commit_files, stat_file_name):
             all_commits.append(commit)
     return all_commits
 
-def load_commit_stats(stat_file_name, path):
+def load_commit_stats(stat_file_name, path, start=0, quant=0):
+    random.seed(1)
     files = find_files(stat_file_name, path)
+    random.shuffle(files)
+    random.seed()
+    if (start >= 0 and quant > 0):
+        if (start + quant) > len(files):
+            quant = len(files) - start
+        files = files[slice(start, start+quant)]
     return parse_commits(files, stat_file_name)
