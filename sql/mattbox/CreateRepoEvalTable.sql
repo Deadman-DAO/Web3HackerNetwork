@@ -1,4 +1,5 @@
-CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`CreateRepoEvalTable`()
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`CreateRepoEvalTable`()
 BEGIN
 	drop table if exists repo_eval;
 
@@ -19,3 +20,5 @@ BEGIN
 		foreign key (repo_id) references repo(id)
 	);	
 END
+/MANGINA/
+DELIMITER ;

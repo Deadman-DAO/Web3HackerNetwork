@@ -1,14 +1,18 @@
-import os, enum;
+import bz2
+import enum
+import hashlib
+import json
+import os
+import traceback
 from abc import ABC, abstractmethod
-import sys
 from datetime import datetime as datingdays
+
+import sys
 import time
 from pytz import timezone
-import hashlib
-import traceback
+
 from monitor import timeit
-import bz2
-import json
+
 
 class File:
     dir = None
@@ -340,6 +344,8 @@ class NumStatFileCommit(FileCommit):
             chunks = line.split('\t')
             file_name_portion = chunks[2] if len(chunks) > 2 else None
             if file_name_portion is not None:
+                if file_name_portion.endswith('\n'):
+                    file_name_portion = file_name_portion[:-1]
                 stats_portion = chunks[0] + ' ' + chunks[1]
                 if (chunks[0].isnumeric() or chunks[0] == '-') and (chunks[1].isnumeric() or chunks[0] == '-'):
                     fi = FileInfo(hashlib.md5(file_name_portion.encode('utf-8')).hexdigest())
@@ -443,8 +449,26 @@ class RequirementSet:
     def process_input_stream(self, in_stream):
         _line = in_stream.readline()
         while _line:
+            if not isinstance(_line, str):
+                try:
+                    _line = _line.decode('utf-8')
+                except UnicodeDecodeError:
+                    try:
+                        _line = _line.decode('utf-16')
+                    except UnicodeDecodeError:
+                        _line = ''
             self.testline(_line)
             _line = in_stream.readline()
+
+    @timeit
+    def process_direct_stream(self, in_str, out_file_name, callback=None):
+        with bz2.open(out_file_name, 'wt') as out:
+            self.line_added = False
+            self.output_stream = out
+            self.finish_callback = callback
+            out.write('[\n')
+            self.process_input_stream(in_str)
+            out.write(']\n')
 
     @timeit
     def process_file(self, in_file_name, out_file_name, callback=None):
@@ -551,3 +575,15 @@ class NumstatRequirementSet(RequirementSet):
 
     def __init__(self):
         super().__init__()
+        self.input_stream = None
+        self.output_file_name = None
+        self.commit_callback = None
+
+    def setup_background_process(self, input_stream, output_file_name, commit_callback):
+        self.input_stream = input_stream
+        self.output_file_name = output_file_name
+        self.commit_callback = commit_callback
+
+    @timeit
+    def why_cant_we_do_it_in_the_background(self):
+        self.process_direct_stream(self.input_stream, self.output_file_name, self.commit_callback)

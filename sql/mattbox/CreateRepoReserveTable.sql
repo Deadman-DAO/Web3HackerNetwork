@@ -1,4 +1,5 @@
-CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`CreateRepoReserveTable`()
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`CreateRepoReserveTable`()
 BEGIN
 	drop table if exists repo_reserve;
 
@@ -12,3 +13,5 @@ BEGIN
 		);
 	
 END
+/MANGINA/
+DELIMITER ;

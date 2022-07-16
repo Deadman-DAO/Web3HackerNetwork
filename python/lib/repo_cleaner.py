@@ -1,10 +1,15 @@
 import os
-from db_driven_task import DBDrivenTaskProcessor, DBTask
 from shutil import rmtree
 from threading import Lock
 
+from db_driven_task import DBDrivenTaskProcessor, DBTask
+from monitor import timeit
+
 
 class RepoCleanup(DBDrivenTaskProcessor):
+
+    def init(self):
+        pass
 
     class Fetcher(DBTask):
         def __init__(self, mom):
@@ -39,8 +44,8 @@ class RepoCleanup(DBDrivenTaskProcessor):
         def process_db_results(self, result_args):
             pass
 
-    def __init__(self, lock):
-        super().__init__(lock)
+    def __init__(self, **kwargs):
+        DBDrivenTaskProcessor.__init__(self, **kwargs)
         self.repo_id = None
         self.repo_owner = None
         self.repo_name = None
@@ -54,18 +59,17 @@ class RepoCleanup(DBDrivenTaskProcessor):
     def get_job_completion_task(self):
         return self.closer
 
+    @timeit
     def process_task(self):
         target_dir = './repos/'+self.repo_owner+'/'+self.repo_name
-        print('Removing repo dir '+target_dir)
 
         if os.path.isdir(target_dir):
             rmtree(target_dir, ignore_errors=True)
             if len(os.listdir('./repos/'+self.repo_owner)) < 1:
-                print('Removing empty parent repo dir '+self.repo_owner)
                 os.rmdir('./repos/'+self.repo_owner)
         else:
             print('Or not... Could NOT find '+target_dir)
 
 
 if __name__ == "__main__":
-    RepoCleanup(Lock()).main()
+    RepoCleanup(web_lock=Lock()).main()

@@ -1,16 +1,14 @@
-from MultiprocessManager import MultiprocessManager
-from trace_author_commit_history import AuthorCommitHistoryProcessor
 from GitHubUserIDFinder import GitHubUserIDFinder
+from MultiprocessManager import MultiprocessManager
 from repository_investigator import Investigator
-from repo_contributor_finder import ContributorFinder
+from trace_author_commit_history import AuthorCommitHistoryProcessor
 
 
 class GithubThreadMgr(MultiprocessManager):
     def get_process_list(self):
-        return {'achp': AuthorCommitHistoryProcessor,
+        return {'achp ': AuthorCommitHistoryProcessor,
                 'ghuif': GitHubUserIDFinder,
-                'inv': Investigator,
-                'contf': ContributorFinder}
+                'inv  ': Investigator}
 
 
 if __name__ == "__main__":

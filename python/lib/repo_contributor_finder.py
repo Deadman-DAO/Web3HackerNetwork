@@ -1,11 +1,14 @@
+import json
+import traceback
 from datetime import datetime as datingdays
+from threading import Lock
+
+import time
+
+from child_process import ChildProcessContainer
 from db_dependent_class import DBDependent
 from git_hub_client import GitHubClient, fetch_json_value
 from monitor import MultiprocessMonitor, timeit
-import time
-import json
-from threading import Lock
-from child_process import ChildProcessContainer
 
 
 class Contributor:
@@ -24,9 +27,9 @@ class Contributor:
 
 
 class ContributorFinder(DBDependent, GitHubClient):
-    def __init__(self, lock):
-        GitHubClient.__init__(self, lock)
-        DBDependent.__init__(self)
+    def __init__(self, **kwargs):
+        GitHubClient.__init__(self, **kwargs)
+        DBDependent.__init__(self, **kwargs)
         self.running = True
         self.success = False
         self.repo_id = -1
@@ -49,7 +52,7 @@ class ContributorFinder(DBDependent, GitHubClient):
     @timeit
     def get_next_repo(self):
         self.success = False
-        self.get_cursor().callproc('ReserveRepoToDiscoverContributors', [self.machine_name])
+        self.execute_procedure('ReserveRepoToDiscoverContributors', [self.machine_name])
         for goodness in self.get_cursor().stored_results():
             result = goodness.fetchone()
             if result:
@@ -65,29 +68,40 @@ class ContributorFinder(DBDependent, GitHubClient):
 
     @timeit
     def fetch_contributor_info(self):
+        update_database = False
+        self.contributors = []
         self.fetch_contributor_info_json = self.fetch_json_with_lock(self.form_contributors_url())
         if self.fetch_contributor_info_json is None:
-            raise StopIteration('Restful Response did not form a parseable JSON document', self.form_contributors_url())
-        self.contributors = []
-        for contributor in self.fetch_contributor_info_json:
-            # JSON doc is an array of "contributor" objects
-            author_elem = fetch_json_value('author', contributor)
-            author = fetch_json_value('login', author_elem)
-            c = Contributor(author)
-            self.contributors.append(c)
-            weeks = fetch_json_value('weeks', contributor)
-            for w in weeks:
-                ts = fetch_json_value('w', w)
-                added = fetch_json_value('a', w)
-                deleted = fetch_json_value('d', w)
-                changed = fetch_json_value('c', w)
-                ttl = added+deleted+changed
-                if ttl > 0:
-                    c.add_week(ts, ttl)
+            if self.html_reply.status_code == 202:
+                self.delay_repo_processing(self.repo_id)
+            elif self.html_reply.status_code == 204:
+                print('Empty reply from GitHub for', self.form_contributors_url())
+            elif self.html_reply.status_code == 404:
+                print('That repo is unreachable', self.form_contributors_url())
+                update_database = True
+            else:
+                raise StopIteration('Restful Response did not form a parseable JSON document', self.form_contributors_url())
+        else:
+            update_database = True
+            for contributor in self.fetch_contributor_info_json:
+                # JSON doc is an array of "contributor" objects
+                author_elem = fetch_json_value('author', contributor)
+                author = fetch_json_value('login', author_elem)
+                c = Contributor(author)
+                self.contributors.append(c)
+                weeks = fetch_json_value('weeks', contributor)
+                for w in weeks:
+                    ts = fetch_json_value('w', w)
+                    added = fetch_json_value('a', w)
+                    deleted = fetch_json_value('d', w)
+                    ttl = added-deleted
+                    if ttl > 0:
+                        c.add_week(ts, ttl)
+        return update_database
 
     @timeit
     def update_database(self):
-        self.get_cursor().callproc('AddContributors',
+        self.execute_procedure('AddContributors',
                                    [self.repo_id, json.dumps(self.contributors,
                                                              default=lambda o: o.__dict__,
                                                              sort_keys=True, indent=2)])
@@ -98,23 +112,29 @@ class ContributorFinder(DBDependent, GitHubClient):
 
     @timeit
     def error_sleep(self):
-        time.sleep(60)
+        self.close_cursor()
+        time.sleep(10)
 
     def main(self):
-        self.monitor = MultiprocessMonitor(self.git_hub_lock, cont=self.get_completed_count, cin=self.get_stats)
+        self.monitor = MultiprocessMonitor(web_lock=self.web_lock, cont=self.get_completed_count, cin=self.get_stats)
 
         while self.running:
-            if self.get_next_repo():
-                try:
-                    self.fetch_contributor_info()
-                    self.update_database()
-                except StopIteration as si:
-                    print("Error encountered in ContributorFinder MAIN", si)
-                    self.error_sleep()
-            else:
-                self.sleepy_time()
+            try:
+                if self.get_next_repo():
+                    try:
+                        if self.fetch_contributor_info():
+                            self.update_database()
+                    except Exception as si:
+                        print("Error encountered in ContributorFinder MAIN", si)
+                        self.error_sleep()
+                else:
+                    self.sleepy_time()
+            except Exception as anything:
+                print(anything)
+                traceback.print_exc()
+                self.error_sleep()
 
 
 if __name__ == "__main__":
     _lock = Lock()
-    ChildProcessContainer(ContributorFinder(_lock), 'cf1').join()
+    ChildProcessContainer(ContributorFinder(web_lock=_lock), 'cf1').join()

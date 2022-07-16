@@ -1,8 +1,8 @@
+import threading
 import sys
 import os
 import json
-import requests
-import time
+import traceback
 from socket import gethostname
 from db_dependent_class import DBDependent
 from monitor import MultiprocessMonitor, timeit
@@ -10,18 +10,24 @@ from threading import Lock
 from git_hub_client import GitHubClient
 
 
+def no_none(val):
+    return val if val is not None else 'None'
+
+
 def format_id_check_url(repo_owner, repo_name, commit_hash):
+    if repo_owner is None or repo_name is None or commit_hash is None:
+        raise Exception('Bad parameter to format_id_check_url: repo_owner = '+no_none(repo_owner)+' repo_name = '+
+                        no_none(repo_name)+' commit_hash = '+no_none(commit_hash))
     return 'https://api.github.com/repos/'+repo_owner+'/'+repo_name+'/commits/'+commit_hash
 
 
 class GitHubUserIDFinder(DBDependent, GitHubClient):
 
-    def __init__(self, git_lock):
-        GitHubClient.__init__(self, git_lock)
-        DBDependent.__init__(self)
-        self.git_lock = git_lock
+    def __init__(self, **kwargs):
+        GitHubClient.__init__(self, **kwargs)
+        DBDependent.__init__(self, **kwargs)
+        self.kwargs = kwargs
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
-        self.get_cursor()
         self.commit_set = None
         self.running = True
         self.call_count = 0
@@ -33,6 +39,8 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
         self.good_status_code_count = 0
         self.overload_count = 0
         self.error_count = 0
+        self.error_wait = int(kwargs['error_wait']) if 'error_wait' in kwargs else 60
+        self.interrupt_event = threading.Event()
         with open('./web3.github.token', 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
@@ -45,7 +53,7 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
     def reserve_next_author(self):
         rslt = None
         try:
-            self.cursor.callproc('ReserveNextUnresolvedAlias', [self.machine_name])
+            self.execute_procedure('ReserveNextUnresolvedAlias', [self.machine_name])
             for goodness in self.get_cursor().stored_results():
                 result = goodness.fetchone()
                 if result:
@@ -57,12 +65,18 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
 
     @timeit
     def no_work_sleep(self):
-        time.sleep(60)
+        self.close_cursor()
+        self.interrupt_event.wait(self.error_wait)
+
+    @timeit
+    def error_sleep(self):
+        self.close_cursor()
+        self.interrupt_event.wait(self.error_wait)
 
     @timeit
     def call_resolve_sql_proc(self, author_id, github_user_id):
         try:
-            self.cursor.callproc('ResolveAliasViaPrimaryKey', (author_id, github_user_id))
+            self.execute_procedure('ResolveAliasViaPrimaryKey', (author_id, github_user_id))
         except Exception as e:
             print('Error encountered calling ResolveAliasViaPrimaryKey', e)
 
@@ -72,19 +86,26 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
         idx = 0
         author_id = self.author_info[idx]['alias_id']
         while alias_not_found and idx < len(self.author_info):
-            url = format_id_check_url(self.author_info[idx]['owner'],
-                                      self.author_info[idx]['name'],
-                                      self.author_info[idx]['commit_id'])
-            _json = self.fetch_json_with_lock(url)
-            if _json:
-                commit_details_block = _json['author']
-                if commit_details_block is not None and 'login' in commit_details_block.keys():
-                    self.call_resolve_sql_proc(author_id, commit_details_block['login'])
-                    self.try_counters[idx] += 1
-                    alias_not_found = False
+            owner = self.author_info[idx]['owner']
+            name = self.author_info[idx]['name']
+            hashish = self.author_info[idx]['commit_id']
+            if owner is not None and name is not None and hashish is not None:
+                url = format_id_check_url(owner,
+                                          name,
+                                          hashish)
+                _json = self.fetch_json_with_lock(url)
+                if _json:
+                    commit_details_block = _json['author']
+                    if commit_details_block is not None and 'login' in commit_details_block.keys():
+                        self.call_resolve_sql_proc(author_id, commit_details_block['login'])
+                        self.try_counters[idx] += 1
+                        alias_not_found = False
+                else:
+                    print('Empty JSON block returned from', url)
+                idx += 1
             else:
-                print('Empty JSON block returned from', url)
-            idx += 1
+                print('GitHubUserIDFinder Skipping this one: '+no_none(owner)+','+no_none(name)+','+no_none(hashish))
+                idx += 1
         if alias_not_found:
             self.fail_count += 1
             self.call_resolve_sql_proc(author_id, '<UNABLE_TO_RESOLVE>')
@@ -99,13 +120,19 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
         return rv
 
     def main(self):
-        m = MultiprocessMonitor(self.git_lock, my=self.get_stats)
+        m = MultiprocessMonitor(web_lock=self.web_lock, my=self.get_stats)
         while self.running:
-            if self.reserve_next_author() is None:
-                self.no_work_sleep()
-            else:
-                self.resolve_it()
+            try:
+                if self.reserve_next_author() is None:
+                    self.no_work_sleep()
+                else:
+                    self.resolve_it()
+            except Exception as anything:
+                print(anything)
+                traceback.print_exc()
+                self.error_sleep()
 
 
 if __name__ == "__main__":
-    GitHubUserIDFinder(Lock()).main()
+    GitHubUserIDFinder(web_lock=Lock()).main()
+

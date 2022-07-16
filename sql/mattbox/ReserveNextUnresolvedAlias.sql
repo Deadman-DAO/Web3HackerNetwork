@@ -1,5 +1,6 @@
-CREATE DEFINER=`matt`@`localhost` PROCEDURE `w3hacknet`.`ReserveNextUnresolvedAlias`(
-	in reserver_user_id varchar(32)
+DELIMITER /MANGINA/
+create or replace procedure `w3hacknet`.`ReserveNextUnresolvedAlias` (
+IN reserver_user_id varchar(32)
 )
 BEGIN
 	declare rslt_alias_id int;
@@ -63,3 +64,5 @@ BEGIN
 	end if;
 	select commit_sample_json;
 END
+/MANGINA/
+DELIMITER ;

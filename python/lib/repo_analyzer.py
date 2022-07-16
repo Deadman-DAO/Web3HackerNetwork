@@ -1,14 +1,16 @@
+import bz2
+import base64
+import json
 import os
-
-from monitor import timeit
-from db_driven_task import DBDrivenTaskProcessor, DBTask
-from child_process import ChildProcessContainer
-from shutil import rmtree
 from threading import Lock
 
+from db_driven_task import DBDrivenTaskProcessor, DBTask
+from monitor import timeit
+
+
 class RepoAnalyzer(DBDrivenTaskProcessor):
-    def __init__(self, lock):
-        super().__init__(lock)
+    def __init__(self, **kwargs):
+        DBDrivenTaskProcessor.__init__(self, **kwargs)
         self.get_next = self.GetNextRepoForAnalysis(self)
         self.all_done = self.ReleaseRepo(self)
         self.repo_owner = None
@@ -19,6 +21,10 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.repo_name = None
         self.repo_dir = None
         self.numstat_dir = None
+        self.numstat = None
+
+    def init(self):
+        pass
 
     class GetNextRepoForAnalysis(DBTask):
         def __init__(self, mom):
@@ -49,10 +55,10 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReleaseRepoFromAnalysis'
 
         def get_proc_parameters(self):
-            return [self.mom.repo_id]
+            return [self.mom.repo_id, self.mom.numstat, self.mom.success]
 
         def process_db_results(self, result_args):
-            print(result_args)
+            return True
 
     def get_job_fetching_task(self):
         return self.get_next
@@ -62,8 +68,15 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
     @timeit
     def process_task(self):
-        print('I choose to do nothing!')
+        try:
+            if os.path.exists(self.numstat_dir):
+                with open(self.numstat_dir, 'rb') as r:
+                    self.numstat = r.read()
+
+                self.numstat = base64.b64encode(self.numstat)
+        except Exception as e:
+            print(e)
 
 
 if __name__ == "__main__":
-    RepoAnalyzer(Lock()).main()
+    RepoAnalyzer(web_lock=Lock()).main()

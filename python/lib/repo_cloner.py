@@ -1,18 +1,25 @@
-from child_process import ChildProcessContainer
-from db_dependent_class import DBDependent, make_dir
-from monitor import MultiprocessMonitor, timeit
+import os
+import threading
+import traceback
 from shutil import disk_usage
 from socket import gethostname
+from subprocess import TimeoutExpired, Popen
 from threading import Lock
-import os
+
+import requests
 import sys
-import threading
+import time
+
+from child_process import ChildProcessContainer
+from db_dependent_class import DBDependent, make_dir
+from monitor import MultiprocessMonitor, timeit, find_argv_param
 
 
 class RepoCloner(DBDependent):
-    def __init__(self, lock):
-        self.lock = lock
-        DBDependent.__init__(self)
+    def __init__(self, **kwargs):
+        DBDependent.__init__(self, **kwargs)
+        self.timeout_counter = 0
+        self.success = None
         self.monitor = None
         self.repo_base_dir = './repos'
         make_dir(self.repo_base_dir)
@@ -24,12 +31,21 @@ class RepoCloner(DBDependent):
         self.repo_name = None
         self.running = True
         self.thread = None
-        self.interrupt_event = None
+        self.interrupt_event = threading.Event()
         self.MINIMUM_THRESHOLD = 10 * (1024 ** 3)
+        self.RESTING_THRESHOLD = 15 * (1024 ** 3)
+        self.resting = False
         self.repo_id = None
         self.url_prefix = 'https://github.com/'
         self.url_suffix = '.git'
         self.repo_dir = None
+        self.clone_started = None
+        self.lock_acquired = None
+        self.max_wait = int(find_argv_param('max_wait', 360))
+        with open('./web3.github.token', 'r') as f:
+            self.token = f.readline()
+            self.token = self.token.strip('\n')
+            self.headers = {'Authorization': 'token %s' % self.token}
 
     def stop(self):
         self.running = False
@@ -55,7 +71,7 @@ class RepoCloner(DBDependent):
 
         self.get_cursor()
         try:
-            result = self.cursor.callproc('ReserveNextRepo', (self.machine_name, None, None, None))
+            result = self.execute_procedure('ReserveNextRepo', (self.machine_name, None, None, None))
             if result:
                 self.owner = result[1]
                 self.repo_name = result[2]
@@ -68,17 +84,68 @@ class RepoCloner(DBDependent):
         return found_one
 
     @timeit
+    def report_timeout(self, proc):
+        self.timeout_counter += 1
+        expired = time.time() - self.clone_started
+        lock_time = time.time() - self.lock_acquired
+        self.kill_all_subprocesses(proc)
+        proc.kill()
+        print('Terminating long running thread for ', self.owner, self.repo_name, expired,
+              'seconds since start time.', lock_time, 'seconds since lock acquired.')
+
+    class Doer:
+        def __init__(self, proc):
+            self.proc = proc
+
+        def do_it(self):
+            self.proc.communicate()
+
+    @timeit
+    def got_lock_now_cloning(self, cmd):
+        success = False
+        self.lock_acquired = time.time()
+        try:
+            with Popen(cmd) as proc:
+                d = self.Doer(proc)
+                print('Launching child process to go clone')
+                cpc = ChildProcessContainer(d, '?X?', d.do_it)
+                print('Waiting for child process to complete')
+                cpc.wait_for_it(self.max_wait)
+                print('Returned from ChildProcessContainer.wait_for_it()')
+                if cpc.is_alive() and cpc.is_running() and not proc.poll():
+                    self.report_timeout(proc)
+                    return None
+                success = True
+        except TimeoutExpired:
+            print('Timed out waiting for child process to complete')
+            self.report_timeout()
+        return success
+
+    @timeit
     def clone_it(self):
         self.repo_dir = make_dir('./repos/' + self.owner + '/' + self.repo_name)
-        cmd = str('git -C ./repos/' + self.owner + '/ clone ' + self.format_url() + (' 2> /dev/null' if sys.platform != "win32" else ''))
-        print(cmd)
-        return_value = os.system(cmd)
-        if return_value != 0:
-            raise StopIteration('Error encountered - git clone exited with a value of ' + str(return_value))
+        url = 'https://github.com/'+self.owner+'/'+self.repo_name+'.git'
+        html_reply = requests.get(url, headers=self.headers)
+        if html_reply.status_code != 200:
+            with open('./clone_it.err', 'wb') as wb:
+                wb.write(html_reply.content)
+            raise StopIteration('Reply code {rc} returned from {url} - pausing and skipping'.
+                                format(rc=html_reply.status_code, url=url))
+        cmd = ['nice',  'git', '-C', './repos/' + self.owner + '/', 'clone', self.format_url()]
+        if sys.platform == "win32":
+            # Take out the first element of the cmd array as windows isn't "nice"
+            cmd = cmd[1:]
+        # print(cmd)
+        self.clone_started = time.time()
+        if self.git_lock:
+            with self.git_lock:
+                self.got_lock_now_cloning(cmd)
+        else:
+            self.got_lock_now_cloning(cmd)
 
     @timeit
     def release_job(self):
-        self.get_cursor().callproc('ReleaseRepoFromCloning', (self.repo_id, self.machine_name, self.repo_dir))
+        self.execute_procedure('ReleaseRepoFromCloning', (self.repo_id, self.machine_name, self.repo_dir, self.success))
 
     @timeit
     def idle_sleep(self):
@@ -86,36 +153,44 @@ class RepoCloner(DBDependent):
 
     @timeit
     def error_sleep(self):
+        self.close_cursor()
         self.interrupt_event.wait(60)
 
     @timeit
     def resource_sleep(self):
         self.interrupt_event.wait(60)
 
-    @timeit
     def main(self):
-        self.monitor = MultiprocessMonitor(self.lock, ds=self.get_disc_space, curjob=self.get_current_job)
-        self.interrupt_event = threading.Event()
+        self.monitor = MultiprocessMonitor(web_lock=self.web_lock, ds=self.get_disc_space, curjob=self.get_current_job)
         while self.running:
-            if self.get_numeric_disc_space() >= self.MINIMUM_THRESHOLD:
-                if self.reserve_next_repo():
-                    try:
-                        with self.lock:
+            try:
+                if self.get_numeric_disc_space() >= (self.RESTING_THRESHOLD if self.resting else self.MINIMUM_THRESHOLD):
+                    self.resting = False
+                    if self.reserve_next_repo():
+                        self.success = False
+                        try:
                             self.clone_it()
-                    except Exception as e:
-                        print('Error encountered', e)
-                        self.error_sleep()
-                    finally:
-                        self.release_job()
+                            self.success = True
+                        except Exception as e:
+                            print('Error encountered', e)
+                            traceback.print_exc()
+                            self.error_sleep()
+                        finally:
+                            self.release_job()
+                    else:
+                        self.idle_sleep()
                 else:
-                    self.idle_sleep()
-            else:
-                self.resource_sleep()
+                    self.resting = True
+                    self.resource_sleep()
+            except Exception as anything:
+                print(anything)
+                traceback.print_exc()
+                self.error_sleep()
 
 
 if __name__ == "__main__":
     _lock = Lock()
-    subprocesses = [ChildProcessContainer(RepoCloner(_lock), 'RepoCloner')
+    subprocesses = [ChildProcessContainer(RepoCloner(web_lock=Lock(), git_lock=Lock()), 'RepoCloner')
                     ]
     for n in subprocesses:
         n.join()

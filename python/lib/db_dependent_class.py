@@ -1,6 +1,13 @@
 import json
-import mysql.connector
 import os
+from socket import gethostname
+
+import mysql.connector
+import psutil
+import sys
+
+from monitor import timeit
+from signal_handler import SignalHandler
 
 
 def make_dir(dir_name):
@@ -9,11 +16,38 @@ def make_dir(dir_name):
     return os.path.abspath(dir_name)
 
 
-class DBDependent:
-    def __init__(self):
+class DBDependent(SignalHandler):
+
+    def __init__(self, **kwargs):
+        SignalHandler().__init__()
         self.db_config = None
         self.database = None
         self.cursor = None
+        self.stack = None
+        self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
+        self.db_lock = kwargs['database_lock'] if 'database_lock' in kwargs else None
+        self.web_lock = kwargs['web_lock'] if 'web_lock' in kwargs else None
+        self.git_lock = kwargs['git_lock'] if 'git_lock' in kwargs else None
+
+    @timeit
+    def kill_all_subprocesses(self, proc):
+        pid = proc.pid if proc.pid else os.getpid()
+        me = psutil.Process(pid)
+        for child in me.children(recursive=True):
+            print(f'Killing child process {child.pid}')
+            child.kill()
+
+    @timeit
+    def execute_procedure(self, method_name, params):
+        if self.db_lock:
+            with self.db_lock:
+                return self.get_cursor().callproc(method_name, params)
+        else:
+            return self.get_cursor().callproc(method_name, params)
+
+    @timeit
+    def delay_repo_processing(self, _in_repo_id):
+        self.execute_procedure('DelayAPICallsForRepo', [_in_repo_id])
 
     def load_db_info(self):
         if self.db_config is None:

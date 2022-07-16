@@ -52,7 +52,7 @@ class Cloner(DBDependent):
         repo_name = None
 
         self.get_cursor()
-        self.cursor.callproc('ReserveNextRepo', (self.machine_name, None, None))
+        self.execute_procedure('ReserveNextRepo', (self.machine_name, None, None))
         if self.cursor.sp_outparams:  # one or more inline results set ready
             rslt = self.cursor.fetchone()
             owner = rslt[0]
@@ -166,7 +166,7 @@ class Cloner(DBDependent):
                 b = bytearray(auth, 'unicode-escape')
                 auth_hash = hashlib.md5(b).hexdigest()
 
-            self.cursor.callproc('InsertCommit',
+            self.execute_procedure('InsertCommit',
                                  (owner,
                                   repo_name,
                                   n['commit'],
@@ -181,7 +181,7 @@ class Cloner(DBDependent):
     @timeit
     def store_marker_for_secondary_thread(self, owner, repo_name):
         print(datingdays.now().isoformat(), 'storing job for copying data to database in, well, the database')
-        self.cursor.callproc('AddJobToUpdateQueue',
+        self.execute_procedure('AddJobToUpdateQueue',
                              (self.machine_name, owner, repo_name))
 
 

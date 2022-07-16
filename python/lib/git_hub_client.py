@@ -1,12 +1,13 @@
 import os
 import threading
-import sys
-from socket import gethostname
-import requests
-import time
-import json
 from datetime import datetime as dt
-from monitor import mem_info, timeit
+from socket import gethostname
+
+import requests
+import sys
+import time
+
+from monitor import timeit
 
 
 def fetch_json_value(key, json):
@@ -16,8 +17,9 @@ def fetch_json_value(key, json):
 
 
 class GitHubClient:
-    def __init__(self, git_hub_lock):
-        self.git_hub_lock = git_hub_lock
+    def __init__(self, **kwargs):
+        self.kwargs = kwargs
+        self.web_lock = kwargs['web_lock'] if 'web_lock' in kwargs else threading.Lock()
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
         self.error_count = 0
         self.overload_count = 0
@@ -48,21 +50,15 @@ class GitHubClient:
         start_time = dt.now().timestamp()
 
         try:
-            with self.git_hub_lock:
+            with self.web_lock:
                 elapsed = dt.now().timestamp() - start_time
                 if elapsed > self.longest_wait:
                     self.longest_wait = elapsed
-                    print('%0.3f new max time for thread ' % elapsed, threading.current_thread().name)
+                    # print('%0.3f new max time for thread ' % elapsed, threading.current_thread().name)
                 time.sleep(1)
                 self.html_reply = requests.get(url, headers=self.headers, stream=True)
                 if self.html_reply is not None and self.html_reply.status_code == 200:
-                    c = self.html_reply.content
-                    fileName = threading.current_thread().name+'.json'
-                    with open(fileName, 'wb') as w:
-                        w.write(c)
-                    with open(fileName, 'rb') as r:
-                        my_bin = r.read()
-                    self.json_reply = json.loads(my_bin)
+                    self.json_reply = self.html_reply.json()
 
             if self.html_reply is None:
                 self.error_count += 1
@@ -78,6 +74,9 @@ class GitHubClient:
             elif self.html_reply.status_code == 202:
                 self.incomplete_count += 1
                 print('GitHub is "still working on"', url, 'But we are not going to try again')
+            elif self.html_reply.status_code == 204:
+                self.incomplete_count += 1
+                print('GitHub returned no data (204)', url)
             elif self.html_reply.status_code == 200:
                 self.good_reply_code_count += 1
             else:

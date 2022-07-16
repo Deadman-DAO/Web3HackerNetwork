@@ -1,13 +1,13 @@
+import os
+import threading
+import traceback
 from abc import ABC, abstractmethod
+from socket import gethostname
+
+import sys
+
 from db_dependent_class import DBDependent
 from monitor import MultiprocessMonitor, timeit
-import time
-import sys
-import os
-from socket import gethostname
-from threading import Lock
-import traceback
-import threading
 
 
 class DBTask(ABC):
@@ -24,22 +24,23 @@ class DBTask(ABC):
     @abstractmethod
     def process_db_results(self, result_args):
         """ given the db.callproc() return value go do your thing
-            return back any object for success, None for no further processing necessary,
+            ***return back*** any object for success, None for no further processing necessary,
             and raise Exception if trouble encountered
         """
         pass
 
 
 class DBDrivenTaskProcessor(ABC, DBDependent):
-    def __init__(self, lock=None, **kwargs):
-        DBDependent.__init__(self)
-        self.lock = lock if lock else Lock()
+    def __init__(self, **kwargs):
+        DBDependent.__init__(self, **kwargs)
         self.monitor = None
         self.running = True
         self.idle_wait = int(kwargs['idle_wait']) if 'idle_wait' in kwargs else 5
         self.error_wait = int(kwargs['error_wait']) if 'error_wait' in kwargs else 60
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
-        self.interrupt_event = None
+        self.interrupt_event = threading.Event()
+        self.success = None
+        self.close_every_cursor = False
 
     @abstractmethod
     def get_job_fetching_task(self):
@@ -54,10 +55,12 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
     def call_db_proc(self, db_task):
         result = None
         try:
-            c = self.get_cursor()
-            result = db_task.process_db_results(c.callproc(db_task.get_proc_name(), db_task.get_proc_parameters()))
+            # print('Calling ', db_task.get_proc_name())
+            result = db_task.process_db_results(
+                self.execute_procedure(db_task.get_proc_name(), db_task.get_proc_parameters()))
         finally:
-            self.close_cursor()
+            if self.close_every_cursor:
+                self.close_cursor()
         return result
 
     @timeit
@@ -66,7 +69,11 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
 
     @timeit
     def complete_task(self):
-        return self.call_db_proc(self.get_job_completion_task())
+        proc = self.get_job_completion_task()
+        if proc:
+            return self.call_db_proc(proc)
+        else:
+            return None
 
     @abstractmethod
     def process_task(self):
@@ -84,19 +91,28 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
 
     @timeit
     def error_sleep(self):
+        self.close_cursor()
         self.interrupt_event.wait(self.error_wait)
 
-    @timeit
+    @abstractmethod
+    def init(self):
+        """
+        get done here things like self.monitor.add_display_methods
+        """
+        pass
+
     def main(self):
-        self.interrupt_event = threading.Event()
         print('Entering MAIN')
-        self.monitor = MultiprocessMonitor(self.lock)
+        self.monitor = MultiprocessMonitor(web_lock=self.web_lock)
+        self.init()
         while self.running:
             try:
                 task = self.fetch_next_task()
                 if task:
+                    self.success = False
                     try:
                         self.process_task()
+                        self.success = True
                     finally:
                         self.complete_task()
                 else:
