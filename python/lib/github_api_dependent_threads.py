@@ -1,6 +1,6 @@
 from GitHubUserIDFinder import GitHubUserIDFinder
 from MultiprocessManager import MultiprocessManager
-from python.lib.post_mortem_cleanup import PostMortemCleanerUpper
+from post_mortem_cleanup import PostMortemCleanerUpper
 from repository_investigator import Investigator
 from trace_author_commit_history import AuthorCommitHistoryProcessor
 
