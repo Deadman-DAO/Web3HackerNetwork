@@ -1,11 +1,11 @@
 import os
-
-import time
-import psutil
-from sys import argv
 from datetime import datetime as datingdays
 from functools import wraps
 from threading import Thread, current_thread, Lock
+
+import psutil
+import time
+from sys import argv
 
 
 def find_argv_param(key, default_val=None):
@@ -212,40 +212,3 @@ class MultiprocessMonitor:
             self.single = get_singleton(**kwargs)
 
 
-def get_test_one():
-    return 1.23
-
-
-def get_test_two():
-    return tuple(['one', 2, 5.0])
-
-
-class Calculator:
-    @timeit
-    def calculate_something(self, num):
-        """
-        an example function that returns sum of all numbers up to the square of num
-        """
-        total = sum((x for x in range(0, num**2)))
-        return total
-
-    def __repr__(self):
-        return f'calc_object:{id(self)}'
-
-
-def main():
-    global monitored_thread_map
-    m = Monitor(frequency=2, first=get_test_one, second=get_test_two)
-    c = Calculator()
-    c.calculate_something(100)
-    print('one down')
-    c.calculate_something(2500)
-    c.calculate_something(5000)
-    c.calculate_something(10000)
-    print(monitored_thread_map)
-    time.sleep(2000)
-    print('Bye!')
-
-
-if __name__=="__main__":
-    main()

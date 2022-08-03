@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from shutil import rmtree
 from threading import Lock
 
@@ -61,14 +62,12 @@ class RepoCleanup(DBDrivenTaskProcessor):
 
     @timeit
     def process_task(self):
-        target_dir = './repos/'+self.repo_owner+'/'+self.repo_name
-
-        if os.path.isdir(target_dir):
-            rmtree(target_dir, ignore_errors=True)
-            if len(os.listdir('./repos/'+self.repo_owner)) < 1:
-                os.rmdir('./repos/'+self.repo_owner)
-        else:
-            print('Or not... Could NOT find '+target_dir)
+        target_dir = ['./repos/'+self.repo_owner+'/'+self.repo_name, './results/'+self.repo_owner+'/'+self.repo_name]
+        for dir in target_dir:
+            if os.path.isdir(dir):
+                rmtree(dir)
+                rmtree(Path(dir).parent)
+        self.closer.process_task()
 
 
 if __name__ == "__main__":

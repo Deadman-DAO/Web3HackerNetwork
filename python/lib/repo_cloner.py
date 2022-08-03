@@ -32,8 +32,8 @@ class RepoCloner(DBDependent):
         self.running = True
         self.thread = None
         self.interrupt_event = threading.Event()
-        self.MINIMUM_THRESHOLD = 10 * (1024 ** 3)
-        self.RESTING_THRESHOLD = 15 * (1024 ** 3)
+        self.MINIMUM_THRESHOLD = 7 * (1024 ** 3)
+        self.RESTING_THRESHOLD = 9 * (1024 ** 3)
         self.resting = False
         self.repo_id = None
         self.url_prefix = 'https://github.com/'
