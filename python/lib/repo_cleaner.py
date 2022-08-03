@@ -67,7 +67,6 @@ class RepoCleanup(DBDrivenTaskProcessor):
             if os.path.isdir(dir):
                 rmtree(dir)
                 rmtree(Path(dir).parent)
-        self.closer.process_task()
 
 
 if __name__ == "__main__":
