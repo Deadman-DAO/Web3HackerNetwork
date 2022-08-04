@@ -59,9 +59,18 @@ class RecoverAliases(RepoNumstatGatherer):
             try:
                 binary = base64.b64decode(str)
                 raw_numstat = bz2.decompress(binary)
-                numstat = json.loads(raw_numstat)
-                for commit in numstat:
-                    self.commit_callback(commit)
+                numstat = None
+                try:
+                    numstat = json.loads(raw_numstat)
+                except Exception as e:
+                    print(e, 'trying again with ] on the tail')
+                    ba = bytearray(raw_numstat)
+                    ba.append(93)
+                    numstat = json.loads(ba)
+
+                if numstat:
+                    for commit in numstat:
+                        self.commit_callback(commit)
             except Exception as e:
                 self.error_sleep(e)
 
