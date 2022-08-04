@@ -64,10 +64,6 @@ class RecoverAliases(RepoNumstatGatherer):
             except Exception as e:
                 self.error_sleep(e)
 
-    @timeit
-    def delete_processed_numstats(self):
-        self.get_cursor().execute(f'delete from repo_numstat where id <= {self.last_id}')
-
     def run(self):
         self.touche()
         running = True
@@ -84,7 +80,6 @@ class RecoverAliases(RepoNumstatGatherer):
             else:
                 self.close_cursor()
                 self.store_results_in_database()
-                self.delete_processed_numstats()
                 self.author_map = {}
 
 
