@@ -39,7 +39,7 @@ class RecoverAliases(RepoNumstatGatherer):
         self.bytes_rcvd = 0
 
     def get_bytes_rcvd(self):
-        return self.bytes_rcvd
+        return f'{self.bytes_rcvd/(1.0*1024**2): 0.3f}mb'
 
     @timeit
     def touche(self):
