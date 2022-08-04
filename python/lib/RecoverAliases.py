@@ -65,6 +65,7 @@ class RecoverAliases(RepoNumstatGatherer):
             except Exception as e:
                 self.error_sleep(e)
 
+    @timeit
     def run(self):
         self.touche()
         running = True
@@ -82,6 +83,7 @@ class RecoverAliases(RepoNumstatGatherer):
                 running = False
             else:
                 self.close_cursor()
+                print(f'Storing {len(self.author_map)} records')
                 self.store_results_in_database()
                 self.author_map = {}
 
