@@ -88,6 +88,7 @@ class RepoNumstatGatherer(DBDependent):
         self.success = None
         self.timeout_count = 0
         self.max_wait = int(find_argv_param('max_wait', 360))
+        self.release_numstats = True
 
     def stop(self):
         print('RepoNumstatGatherer is Leaving!')
@@ -172,18 +173,21 @@ class RepoNumstatGatherer(DBDependent):
             self.total_alias_processing_time += (time.time() - _start_time)
             _start_time = time.time()
             for sub_array in array_of_arrays:
+                print(f'Executing {len(sub_array)} inserts')
                 self.cursor.executemany(
                     'insert into hacker_update_queue (md5, name_email, commit_count, min_date, max_date, repo_owner, repo_name, commit_array)' +
                     ' values (%s, %s, %s, %s, %s, %s, %s, %s);', sub_array)
             self.total_alias_processing_time += (time.time() - _start_time)
-
-            self.execute_procedure('ReleaseRepoFromNumstat', [self.repo_id,
-                                                              self.machine_name,
-                                                              self.results_output_file,
-                                                              datingdays.fromtimestamp(_min_date),
-                                                              datingdays.fromtimestamp(_max_date),
-                                                              self.this_repo_commit_count if self.this_repo_commit_count else 0,
-                                                              self.success])
+            if self.release_numstats:
+                self.execute_procedure('ReleaseRepoFromNumstat', [self.repo_id,
+                                                                  self.machine_name,
+                                                                  self.results_output_file,
+                                                                  datingdays.fromtimestamp(_min_date),
+                                                                  datingdays.fromtimestamp(_max_date),
+                                                                  self.this_repo_commit_count if self.this_repo_commit_count else 0,
+                                                                  self.success])
+            else:
+                print(f'Batch processing took {time.time() - _start_time} seconds')
         finally:
             self.close_cursor()
 
