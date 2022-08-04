@@ -55,9 +55,9 @@ class RecoverAliases(RepoNumstatGatherer):
     def process_numstat(self, str):
         if str and len(str) > 0:
             self.bytes_rcvd += len(str)
-            binary = base64.b64decode(str)
-            raw_numstat = bz2.decompress(binary)
             try:
+                binary = base64.b64decode(str)
+                raw_numstat = bz2.decompress(binary)
                 numstat = json.loads(raw_numstat)
                 for commit in numstat:
                     self.commit_callback(commit)
