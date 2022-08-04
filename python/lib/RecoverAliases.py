@@ -48,7 +48,7 @@ class RecoverAliases(RepoNumstatGatherer):
 
     @timeit
     def error_sleep(self, e):
-        print('Error processing numstat:', e)
+        print(f'Error processing numstat {self.last_id}: {e}')
         time.sleep(2)
 
 
