@@ -37,6 +37,7 @@ class RecoverAliases(RepoNumstatGatherer):
         self.fetch_contributor_info_json = None
         self.alias_map = {}
         self.bytes_rcvd = 0
+        self.last_id = 0
 
     def get_bytes_rcvd(self):
         return f'{self.bytes_rcvd/(1.0*1024**2): 0.3f}mb'
@@ -66,9 +67,20 @@ class RecoverAliases(RepoNumstatGatherer):
 
     def run(self):
         self.touche()
-        self.get_cursor().execute("select numstat From repo_numstat where numstat is not null")
-        for row in self.cursor:
-            self.process_numstat(row[0])
+        running = True
+        while running:
+            print(f'String next query at {self.last_id}')
+            self.get_cursor().execute(f'select numstat, id From repo_numstat where numstat is not null and id > {self.last_id} order by id limit 1000')
+            cnt = 0
+            for row in self.cursor:
+                self.last_id = row[1]
+                self.process_numstat(row[0])
+                cnt += 1
+            if cnt == 0:
+                running = False
+            else:
+                self.close_cursor()
+
         self.store_results_in_database()
 
 
