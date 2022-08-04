@@ -15,6 +15,9 @@ def make_dir(dir_name):
         os.makedirs(dir_name)
     return os.path.abspath(dir_name)
 
+def mem_info():
+    return psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2
+
 
 class DBDependent(SignalHandler):
 

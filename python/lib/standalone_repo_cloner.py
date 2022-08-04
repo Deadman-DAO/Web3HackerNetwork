@@ -1,24 +1,21 @@
-import os
 import bz2
+import hashlib
 import json
+import os
+from datetime import datetime as datingdays
+from os.path import exists
+from shutil import disk_usage
+from shutil import rmtree
+from socket import gethostname
+
 import sys
 import time
-import hashlib
-import psutil
 from pytz import timezone
-from monitor import Monitor, timeit
-from os.path import exists
-from shutil import rmtree
-from shutil import disk_usage
-from socket import gethostname
-from datetime import datetime as datingdays
-from kitchen_sink_class import RepoName
+
 from commit_log_parser import NumstatRequirementSet
-from db_dependent_class import DBDependent, make_dir
-
-
-def mem_info():
-    return psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2
+from db_dependent_class import DBDependent, make_dir, mem_info
+from kitchen_sink_class import RepoName
+from monitor import Monitor, timeit
 
 
 class Cloner(DBDependent):
