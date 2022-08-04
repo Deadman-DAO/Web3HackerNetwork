@@ -35,7 +35,6 @@ class RecoverAliases(RepoNumstatGatherer):
         self.running = True
         self.monitor = Monitor(frequency=5,mem=mem_info,bytes_rcvd=self.get_bytes_rcvd)
         self.fetch_contributor_info_json = None
-        self.alias_map = {}
         self.bytes_rcvd = 0
         self.last_id = 0
 
@@ -81,8 +80,7 @@ class RecoverAliases(RepoNumstatGatherer):
             else:
                 self.close_cursor()
                 self.store_results_in_database()
-                self.alias_map = {}
-
+                self.author_map = {}
 
 
 if __name__ == '__main__':
