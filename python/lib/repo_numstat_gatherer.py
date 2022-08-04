@@ -173,7 +173,6 @@ class RepoNumstatGatherer(DBDependent):
             self.total_alias_processing_time += (time.time() - _start_time)
             _start_time = time.time()
             for sub_array in array_of_arrays:
-                print(f'Executing {len(sub_array)} inserts')
                 self.cursor.executemany(
                     'insert into hacker_update_queue (md5, name_email, commit_count, min_date, max_date, repo_owner, repo_name, commit_array)' +
                     ' values (%s, %s, %s, %s, %s, %s, %s, %s);', sub_array)
