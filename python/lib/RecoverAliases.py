@@ -80,8 +80,9 @@ class RecoverAliases(RepoNumstatGatherer):
                 running = False
             else:
                 self.close_cursor()
+                self.store_results_in_database()
+                self.alias_map = {}
 
-        self.store_results_in_database()
 
 
 if __name__ == '__main__':
