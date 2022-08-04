@@ -36,7 +36,7 @@ class PostMortemCleanerUpper(DBDrivenTaskProcessor, DBTask):
         for goodness in self.cursor.stored_results():
             result = goodness.fetchone()
             if result:
-                self.count = int(result[0])
+                self.count += int(result[0])
         self.records_processed += self.count
         return self.count > 0
 
