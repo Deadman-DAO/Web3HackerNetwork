@@ -1,12 +1,15 @@
 from threading import Lock
 
+from MultiprocessManager import MultiprocessManager
 from db_driven_task import DBDrivenTaskProcessor, DBTask
+from monitor import timeit
 
 
 class PostMortemCleanerUpper(DBDrivenTaskProcessor, DBTask):
 
     def __init__(self, **kwargs):
         DBDrivenTaskProcessor.__init__(self, **kwargs)
+        MultiprocessManager.__init__(self)
         self.count = None
         self.records_processed = 0
 
@@ -31,6 +34,7 @@ class PostMortemCleanerUpper(DBDrivenTaskProcessor, DBTask):
     def get_records_processed(self):
         return self.records_processed
 
+    @timeit
     def process_db_results(self, result_args):
         self.count = 0
         for goodness in self.cursor.stored_results():
@@ -42,4 +46,4 @@ class PostMortemCleanerUpper(DBDrivenTaskProcessor, DBTask):
 
 
 if __name__ == '__main__':
-    PostMortemCleanerUpper(Lock()).main()
+    PostMortemCleanerUpper(web_lock=Lock()).main()
