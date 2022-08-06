@@ -65,8 +65,8 @@ class RepoCleanup(DBDrivenTaskProcessor):
         target_dir = ['./repos/'+self.repo_owner+'/'+self.repo_name, './results/'+self.repo_owner+'/'+self.repo_name]
         for dir in target_dir:
             if os.path.isdir(dir):
-                rmtree(dir)
-                rmtree(Path(dir).parent)
+                rmtree(dir, ignore_errors=True)
+                rmtree(Path(dir).parent, ignore_errors=True)
 
 
 if __name__ == "__main__":

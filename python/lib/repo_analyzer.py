@@ -1,11 +1,63 @@
-import bz2
+import ast
 import base64
+import bz2
+import hashlib
 import json
 import os
+import traceback
+from abc import ABC, abstractmethod
 from threading import Lock
 
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 from monitor import timeit
+
+
+def add_to_map(map, key, value):
+    if key not in map:
+        map[key] = 0
+    map[key] += value
+
+class Analyzer(ABC):
+    @abstractmethod
+    def analyze(self, numstat_json, extension_map, filename_map, repo_dir, import_map):
+        pass
+
+
+class PythonAnalyzer(Analyzer):
+
+    def get_imports(self, obj, import_map):
+        print('Entering get_imports')
+        try:
+            for node in ast.walk(obj):
+                if isinstance(node, ast.Module):
+                    for b in node.body:
+                        if isinstance(b, ast.Import):
+                            for i in b.names:
+                                add_to_map(import_map, i.name, 1)
+                                if '.' in i.name:
+                                    add_to_map(import_map, i.name.split('.')[0], 1)
+                        if isinstance(b, ast.ImportFrom):
+                            add_to_map(import_map, b.module, 1)
+                            for n in b.names:
+                                add_to_map(import_map, b.module+'.'+n.name, 1)
+                            if '.' in b.module:
+                                add_to_map(import_map, b.module.split('.')[0], 1)
+        finally:
+            print('Exiting get_imports')
+
+    def analyze(self, numstat_json, extension_map, filename_map, repo_dir, import_map):
+        if 'py' in extension_map and extension_map['py'] > 0:
+            for filename in filename_map:
+                if filename.endswith('.py'):
+                    if os.path.exists(os.path.join(repo_dir, filename)):
+                        try:
+                            with open(os.path.join(repo_dir, filename), 'r') as f:
+                                contents = f.read()
+                                obj = ast.parse(contents, filename=filename)
+                                self.get_imports(obj, import_map)
+                        except Exception as e:
+                            print(e)
+                            print(traceback.format_exc())
 
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
@@ -22,6 +74,16 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.repo_dir = None
         self.numstat_dir = None
         self.numstat = None
+        self.numstat_raw = None
+        self.numstat_str = None
+        self.numstat_json = None
+        self.extension_map = None
+        self.filename_map = None
+        self.analysis_list = [PythonAnalyzer()]
+        self.import_map = {}
+        self.hacker_extension_map = {}
+        self.hacker_name_map = {}
+        self.stats_json = None
 
     def init(self):
         pass
@@ -55,7 +117,11 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReleaseRepoFromAnalysis'
 
         def get_proc_parameters(self):
-            return [self.mom.repo_id, self.mom.numstat, self.mom.success]
+            print('Entering get_proc_parameters')
+            try:
+                return [self.mom.repo_id, self.mom.numstat, self.mom.success, self.mom.stats_json]
+            finally:
+                print('Exiting get_proc_parameters')
 
         def process_db_results(self, result_args):
             return True
@@ -67,13 +133,59 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         return self.all_done
 
     @timeit
+    def parse_json(self):
+        self.numstat_str = bz2.decompress(self.numstat_raw)
+        self.numstat_json = json.loads(self.numstat_str)
+        self.extension_map = {}
+        self.filename_map = {}
+        self.hacker_extension_map = {}
+        self.hacker_name_map = {}
+        for commit in self.numstat_json:
+            author = commit['Author']
+            try:
+                author_md5 = hashlib.md5(author.encode('utf-8')).hexdigest()
+            except Exception as e:
+                print(e)
+                b = bytearray(author, 'unicode-escape')
+                author_md5 = hashlib.md5(b).hexdigest()
+            if author_md5 not in self.hacker_extension_map:
+                self.hacker_extension_map[author_md5] = {}
+                self.hacker_name_map[author_md5] = author
+            for key, val in commit['fileTypes'].items():
+                add_to_map(self.extension_map, key, val['occurrences'])
+                add_to_map(self.hacker_extension_map[author_md5], key, val['occurrences'])
+            for key, val in commit['file_list'].items():
+                add_to_map(self.filename_map, key, 1)
+
+    @timeit
+    def prepare_sql_params(self):
+        print('Preparing sql params')
+        try:
+            self.stats_json = {'hacker_extension_map': json.dumps(self.hacker_extension_map),
+                               'hacker_name_map': json.dumps(self.hacker_name_map),
+                               'extension_map': json.dumps(self.extension_map)}
+            self.stats_json = json.dumps(self.stats_json)
+        finally:
+            print('Exiting prepare_sql_params')
+
+    @timeit
     def process_task(self):
         try:
             if os.path.exists(self.numstat_dir):
+                self.extension_map = {}
+                self.hacker_name_map = {}
+                self.hacker_extension_map = {}
+                self.import_map = {}
                 with open(self.numstat_dir, 'rb') as r:
-                    self.numstat = r.read()
+                    self.numstat_raw = r.read()
 
-                self.numstat = base64.b64encode(self.numstat)
+                self.numstat = base64.b64encode(self.numstat_raw)
+                self.parse_json()
+                for analysis in self.analysis_list:
+                    analysis.analyze(self.numstat_json, self.extension_map,
+                                     self.filename_map, self.repo_dir, self.import_map)
+                self.prepare_sql_params()
+
         except Exception as e:
             print(e)
 
