@@ -22,7 +22,7 @@ BEGIN
 	if _current_job_q_size < _min_jobs and ifnull(_delay_expiration, _now) <= _now THEN 
 		select (_max_jobs - _current_job_q_size) into _limit;
 		insert into repo_job_q_filler_reservation values (666, _now, _randy);
-		/* if we get here, we've inserted the one and only (666) record into the reservation table */
+		
 		insert into staged_repo_job_q (repo_id, tstamp)  
 			select X.id, _now from 
 			(

@@ -40,10 +40,7 @@ BEGIN
 					if exists(select id from commit where commit_id = _commit_id) THEN 
 						if exists(select * from alias where id = _alias_id and github_user_id is null) and 
 						   exists(select * from commit c join alias a on a.id = c.alias_id where c.commit_id = _commit_id and github_user_id is not null) THEN 
-						   /* Okay - does this *new* record still not have a github_user_id, 
-						    * *and* does the pre-existing commit record point to an alias that *does* have a github user Id
-						    * If all this is true, then copy the github user id.  Yikes!
-						    */
+						   
 						   call debug(concat('Found an alternative ID for ', _md5, _name_email, _commit_key_idx));
 							update alias set github_user_id = (select a.github_user_id from commit c join alias a on a.id = c.alias_id where c.commit_id = _commit_id)
 								where id = _alias_id;

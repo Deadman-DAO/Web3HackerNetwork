@@ -14,7 +14,7 @@ BEGIN
 	declare _commit_array json;
 	declare _counter int default 0;
 
-#	call debug('Creating temporary table');
+
 	drop temporary table if exists delq;
 	create temporary table delq (delq_id int);
 	create index WTFWTF2 on delq(delq_id);
@@ -22,9 +22,9 @@ BEGIN
 	create temporary table markq (markq_id int);
 	create index WTFWTF3 on markq(markq_id);
 
-	insert into markq (markq_id) select id from hacker_update_queue huq order by id limit max_records;
+	insert into markq (markq_id) select id from hacker_update_queue huq 
+  		order by id limit max_records;
 
-#	call debug('Looping through first N hacker_update_queue records');
 	while exists (select * from markq) DO
 		
 		select id, md5, name_email, commit_count, min_date, max_date, commit_array, repo_owner, repo_name into 
@@ -38,12 +38,12 @@ BEGIN
 		delete from markq where markq_id = _id;
 		set _counter = _counter + 1; 
 	end while;
-#	call debug('Done processing.  Now to delete HUQs');
-	delete from hacker_update_queue where id in (select delq_id from delq);
-#	call debug('Done deleting HUQs.  Now to drop the temporary table.');
+
+#	update hacker_update_queue set deleteme = 1 where id in (select delq_id from delq);
+
 	drop temporary table if exists delq;
 	drop temporary table if exists markq;
-#	call debug(concat('Finally done.  Returning # of records updated ', _counter));
+
 	select _counter;
 END
 /MANGINA/

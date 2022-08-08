@@ -7,7 +7,6 @@ import os
 import traceback
 from abc import ABC, abstractmethod
 from threading import Lock
-
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 from monitor import timeit
 
@@ -16,6 +15,7 @@ def add_to_map(map, key, value):
     if key not in map:
         map[key] = 0
     map[key] += value
+
 
 class Analyzer(ABC):
     @abstractmethod
@@ -26,24 +26,23 @@ class Analyzer(ABC):
 class PythonAnalyzer(Analyzer):
 
     def get_imports(self, obj, import_map):
-        print('Entering get_imports')
-        try:
-            for node in ast.walk(obj):
-                if isinstance(node, ast.Module):
-                    for b in node.body:
-                        if isinstance(b, ast.Import):
-                            for i in b.names:
-                                add_to_map(import_map, i.name, 1)
-                                if '.' in i.name:
-                                    add_to_map(import_map, i.name.split('.')[0], 1)
-                        if isinstance(b, ast.ImportFrom):
-                            add_to_map(import_map, b.module, 1)
-                            for n in b.names:
+        for node in ast.walk(obj):
+            if isinstance(node, ast.Module):
+                for b in node.body:
+                    if isinstance(b, ast.Import):
+                        for i in b.names:
+                            add_to_map(import_map, i.name, 1)
+                            if '.' in i.name:
+                                add_to_map(import_map, i.name.split('.')[0], 1)
+                    if isinstance(b, ast.ImportFrom):
+                        add_to_map(import_map, b.module, 1)
+                        for n in b.names:
+                            if b.module and n and n.name:
                                 add_to_map(import_map, b.module+'.'+n.name, 1)
-                            if '.' in b.module:
-                                add_to_map(import_map, b.module.split('.')[0], 1)
-        finally:
-            print('Exiting get_imports')
+                            else:
+                                print("Null value found within PythonAnalyzer import mapping: ", b.module, n.name);
+                        if '.' in b.module:
+                            add_to_map(import_map, b.module.split('.')[0], 1)
 
     def analyze(self, numstat_json, extension_map, filename_map, repo_dir, import_map):
         if 'py' in extension_map and extension_map['py'] > 0:
@@ -56,8 +55,7 @@ class PythonAnalyzer(Analyzer):
                                 obj = ast.parse(contents, filename=filename)
                                 self.get_imports(obj, import_map)
                         except Exception as e:
-                            print(e)
-                            print(traceback.format_exc())
+                            print('Non-compilable (or pre-Python3) python code:', e)
 
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
@@ -117,11 +115,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReleaseRepoFromAnalysis'
 
         def get_proc_parameters(self):
-            print('Entering get_proc_parameters')
-            try:
-                return [self.mom.repo_id, self.mom.numstat, self.mom.success, self.mom.stats_json]
-            finally:
-                print('Exiting get_proc_parameters')
+            return [self.mom.repo_id, self.mom.numstat, self.mom.success, self.mom.stats_json]
 
         def process_db_results(self, result_args):
             return True
@@ -161,10 +155,10 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
     def prepare_sql_params(self):
         print('Preparing sql params')
         try:
-            self.stats_json = {'hacker_extension_map': json.dumps(self.hacker_extension_map),
-                               'hacker_name_map': json.dumps(self.hacker_name_map),
-                               'extension_map': json.dumps(self.extension_map)}
-            self.stats_json = json.dumps(self.stats_json)
+            self.stats_json = {'hacker_extension_map': self.hacker_extension_map,
+                               'hacker_name_map': self.hacker_name_map,
+                               'extension_map': self.extension_map}
+            self.stats_json = json.dumps(self.stats_json, ensure_ascii=False)
         finally:
             print('Exiting prepare_sql_params')
 

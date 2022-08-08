@@ -1,6 +1,6 @@
 DELIMITER /MANGINA/
 create or replace procedure `w3hacknet`.`debug` (
-IN message varchar(2048)
+IN message longblob
 )
 BEGIN 
  	declare tstamp datetime default current_timestamp(3);
