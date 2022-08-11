@@ -24,7 +24,7 @@ BEGIN
 	declare _extension_count int;
 	declare _count int;
 	
-	call debug('Starting ReleaseFromRepoAnalysis!');
+#	call debug('Starting ReleaseFromRepoAnalysis!');
 	update repo set last_analysis_date = dt, failed_date = case when _success then null else dt end
 	 where id = _repo_id;
 	update repo_reserve set tstamp = dt where repo_id = _repo_id;	
@@ -36,12 +36,12 @@ BEGIN
 	select json_query(_stats_json, '$.hacker_name_map') into _hacker_name_map;
 	select json_query	(_stats_json, '$.extension_map') into _repo_extension_map;
 	select json_keys(_hacker_name_map) into _keys;
-	call debug(concat('Hacker keys: ', _keys));
+#	call debug(concat('Hacker keys: ', _keys));
 	select json_length(_keys) into _array_size;
 	while idx < _array_size do
 		select json_value(_keys, concat('$[', idx, ']')) into _key;
 		select json_value(_hacker_name_map, concat('$.', _key)) into _val;
-		call debug(concat('md5 ', _key, ' -> ', _val));
+#		call debug(concat('md5 ', _key, ' -> ', _val));
 		insert into hacker_update_queue (md5, name_email) select _key, _val;
 		select id into _alias_pk from alias where md5 = _key;
 		select json_query(_hacker_extension_map, concat('$.', _key)) into _extension_set;
@@ -50,7 +50,7 @@ BEGIN
 		while _ext_idx < _extension_len do
 			select json_value(_extension_keys, concat('$[', _ext_idx, ']')) into _extension_val;
 			select json_value(_extension_set, concat('$.', _extension_val)) into _extension_count;
-			call debug(concat(_key, '->', _extension_val, _extension_count));
+#			call debug(concat(_key, '->', _extension_val, _extension_count));
 			call UpdateHackerExtensionCount(_alias_pk, _extension_val, _extension_count);
 			set _ext_idx = _ext_idx + 1;
 		end while;
@@ -62,6 +62,7 @@ BEGIN
 	while idx < _array_size do
 		select json_value(_keys, concat('$[', idx, ']')) into _key;
 		select json_value(_repo_extension_map, concat('$.', _key)) into _count;
+#		call debug(concat('Repo:', _repo_id,' key=',_key,', cnt=',_count));
 		call UpdateRepoExtensionCount(_repo_id, _key, _count);
 		set idx = idx + 1;
 	end while;
