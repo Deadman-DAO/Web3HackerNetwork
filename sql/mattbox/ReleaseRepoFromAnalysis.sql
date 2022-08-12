@@ -10,6 +10,8 @@ BEGIN
 	declare _hacker_extension_map longblob;
 	declare _hacker_name_map longblob;
 	declare _repo_extension_map longblob;
+	declare _repo_import_map longblob;
+	declare _import_map longblob;
 	declare _keys longblob;
 	declare idx int default 0;
 	declare _array_size int default 0;
@@ -20,6 +22,12 @@ BEGIN
 	declare _extension_keys longblob;
 	declare _extension_len int;
 	declare _ext_idx int default 0;
+	declare _import_set longblob;
+	declare _import_keys longblob;
+	declare _import_len int;
+	declare _imp_idx int default 0;
+	declare _import_count int;
+	declare _import_val varchar(256);
 	declare _extension_val varchar(64);
 	declare _extension_count int;
 	declare _count int;
@@ -34,7 +42,8 @@ BEGIN
 #	call debug(_stats_json);
 #	call debug(_hacker_extension_map);
 	select json_query(_stats_json, '$.hacker_name_map') into _hacker_name_map;
-	select json_query	(_stats_json, '$.extension_map') into _repo_extension_map;
+	select json_query(_stats_json, '$.extension_map') into _repo_extension_map;
+	select json_query(_stats_json, '$.import_map_map') into _repo_import_map;
 	select json_keys(_hacker_name_map) into _keys;
 #	call debug(concat('Hacker keys: ', _keys));
 	select json_length(_keys) into _array_size;
@@ -64,6 +73,23 @@ BEGIN
 		select json_value(_repo_extension_map, concat('$.', _key)) into _count;
 #		call debug(concat('Repo:', _repo_id,' key=',_key,', cnt=',_count));
 		call UpdateRepoExtensionCount(_repo_id, _key, _count);
+		set idx = idx + 1;
+	end while;
+	select json_keys(_repo_import_map) into _keys;
+	select json_length(_keys) into _array_size;
+	set idx = 0;
+	while idx < _array_size do
+		select json_value(_keys, concat('$[', idx, ']')) into _extension_val;
+		select json_query(_repo_import_map, concat('$.', _extension_val)) into _import_map;
+		select json_keys(_import_map) into _import_keys;
+		select json_length(_import_keys) into _import_len;
+		set _imp_idx = 0;
+		while _imp_idx < _import_len do
+			select json_value(_import_keys, concat('$[', _imp_idx, ']')) into _import_val;
+			select json_value(_import_map, concat('$.', _import_val)) into _import_count;
+			call UpdateRepoImportCount(_repo_id, _import_val, _extension_val, _import_count);
+			set _imp_idx = _imp_idx + 1;
+		end while;
 		set idx = idx + 1;
 	end while;
 END

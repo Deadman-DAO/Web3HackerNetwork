@@ -77,8 +77,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.numstat_json = None
         self.extension_map = None
         self.filename_map = None
-        self.analysis_list = [PythonAnalyzer()]
-        self.import_map = {}
+        self.analysis_map = {'py': PythonAnalyzer()}
+        self.import_map_map = {}
         self.hacker_extension_map = {}
         self.hacker_name_map = {}
         self.stats_json = None
@@ -157,7 +157,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         try:
             self.stats_json = {'hacker_extension_map': self.hacker_extension_map,
                                'hacker_name_map': self.hacker_name_map,
-                               'extension_map': self.extension_map}
+                               'extension_map': self.extension_map,
+                               'import_map_map': self.import_map_map}
             self.stats_json = json.dumps(self.stats_json, ensure_ascii=False)
         finally:
             print('Exiting prepare_sql_params')
@@ -169,15 +170,16 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 self.extension_map = {}
                 self.hacker_name_map = {}
                 self.hacker_extension_map = {}
-                self.import_map = {}
+                self.import_map_map = {}
                 with open(self.numstat_dir, 'rb') as r:
                     self.numstat_raw = r.read()
 
                 self.numstat = base64.b64encode(self.numstat_raw)
                 self.parse_json()
-                for analysis in self.analysis_list:
+                for ext, analysis in self.analysis_map.items():
+                    self.import_map_map[ext] = {}
                     analysis.analyze(self.numstat_json, self.extension_map,
-                                     self.filename_map, self.repo_dir, self.import_map)
+                                     self.filename_map, self.repo_dir, self.import_map_map[ext])
                 self.prepare_sql_params()
 
         except Exception as e:
