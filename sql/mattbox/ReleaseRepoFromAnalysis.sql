@@ -49,7 +49,7 @@ BEGIN
 	select json_length(_keys) into _array_size;
 	while idx < _array_size do
 		select json_value(_keys, concat('$[', idx, ']')) into _key;
-		select json_value(_hacker_name_map, concat('$.', _key)) into _val;
+		select json_value(_hacker_name_map, concat('$."', _key, '"')) into _val;
 #		call debug(concat('md5 ', _key, ' -> ', _val));
 		insert into hacker_update_queue (md5, name_email) select _key, _val;
 		select id into _alias_pk from alias where md5 = _key;
@@ -86,7 +86,9 @@ BEGIN
 		set _imp_idx = 0;
 		while _imp_idx < _import_len do
 			select json_value(_import_keys, concat('$[', _imp_idx, ']')) into _import_val;
-			select json_value(_import_map, concat('$.', _import_val)) into _import_count;
+			call debug(concat('ReleaseRepoFromAnalysis: idx', _imp_idx, ' key ', _import_val));
+			select json_value(_import_map, concat('$."', _import_val, '"')) into _import_count;
+			call debug(concat('ReleaseRepoFromAnalysis: _import_count=', ifnull(_import_count, -666)));
 			call UpdateRepoImportCount(_repo_id, _import_val, _extension_val, _import_count);
 			set _imp_idx = _imp_idx + 1;
 		end while;

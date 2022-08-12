@@ -10,7 +10,7 @@ BEGIN
 	call GetFileExtensionPK(_file_extension, _ext_pk);
 	select id into _import_pk from source_import si where si.name = _name;
 	if _import_pk < 1 then	
-		insert into source_import (name, extension_id) values (_name, _extPK);
+		insert into source_import (name, extension_id) values (_name, _ext_PK);
 		select LAST_INSERT_ID() into _import_pk;  
 	end if;
 END
