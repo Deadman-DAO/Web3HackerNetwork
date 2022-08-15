@@ -31,6 +31,13 @@ BEGIN
 	declare _extension_val varchar(64);
 	declare _extension_count int;
 	declare _count int;
+	declare _import_sub_map longblob;
+	declare _hacker_contributions float;
+	declare _hacker_cont_keys longblob;
+	declare _hacker_cont_keys_len int;
+	declare _hacker_cont_idx int;
+	declare _hacker_md5 char(32);
+
 	
 #	call debug('Starting ReleaseFromRepoAnalysis!');
 	update repo set last_analysis_date = dt, failed_date = case when _success then null else dt end
@@ -87,9 +94,26 @@ BEGIN
 		while _imp_idx < _import_len do
 			select json_value(_import_keys, concat('$[', _imp_idx, ']')) into _import_val;
 			call debug(concat('ReleaseRepoFromAnalysis: idx', _imp_idx, ' key ', _import_val));
-			select json_value(_import_map, concat('$."', _import_val, '"')) into _import_count;
-			call debug(concat('ReleaseRepoFromAnalysis: _import_count=', ifnull(_import_count, -666)));
+			select json_query(_import_map, concat('$."', _import_val, '"')) into _import_sub_map;
+			select json_value(_import_sub_map, '$.repo_count') into _import_count;
 			call UpdateRepoImportCount(_repo_id, _import_val, _extension_val, _import_count);
+			/* Now pull out the individual hacker contributions */
+			select json_query(_import_sub_map, '$.hackers') into _hacker_contributions;
+			select json_keys(_hacker_contributions) into _hacker_cont_keys;
+			select json_length(_hacker_cont_keys) into _hacker_cont_keys_len;
+			set _hacker_cont_idx = 0;
+			while _hacker_cont_idx < _hacker_cont_keys_len do
+				select json_value(_hacker_cont_keys, concat('$[', _hacker_cont_idx, ']')) into _hacker_md5;
+				set _alias_pk = -1;
+				select id into _alias_pk from alias where md5 = _hacker_md5;
+				if _alias_pk > 0 then
+					select json_value(_hacker_contributions, concat('$.', _hacker_md5)) into _hacker_contributions;
+					call UpdateHackerImportCount(_alias_pk, _import_val, _extension_val, _hacker_contributions);
+				else
+					call debug(concat('UpdateHackerImportCount NOT called because ', _hacker_md5, ' was not found in alias table'));
+				end if;
+				set _hacker_cont_idx = _hacker_cont_idx + 1;
+			end while;
 			set _imp_idx = _imp_idx + 1;
 		end while;
 		set idx = idx + 1;
