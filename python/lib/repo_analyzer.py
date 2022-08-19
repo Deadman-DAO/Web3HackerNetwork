@@ -21,9 +21,11 @@ def add_int_to_map(map, key, value):
 
 
 def add_int_key_value_submap_to_map(map, root_key, sub_key, value, init_value=0):
-    if root_key not in map:
+    if isinstance(root_key, int) or isinstance(sub_key, int):
+        print('Something is NOT right:' + str(root_key) + ' ' + str(sub_key))
+    if root_key not in map.keys():
         map[root_key] = {}
-    if sub_key not in map[root_key]:
+    if sub_key not in map[root_key].keys():
         map[root_key][sub_key] = init_value
     map[root_key][sub_key] += value
 
@@ -36,48 +38,58 @@ class Analyzer(ABC):
 
 class PythonAnalyzer(Analyzer):
 
-    def get_imports(self, obj, import_map, hacker_contribution_map):
+    def add_import(self, import_map, import_name, contributor_hash):
+        if import_name not in import_map:
+            import_map[import_name] = []
+        import_map[import_name].append(contributor_hash)
+        if '.' in import_name:
+            self.add_import(import_map, import_name.split('.')[0], contributor_hash)
+
+    def get_imports(self, obj, import_map, contributor_hash):
         for node in ast.walk(obj):
             if isinstance(node, ast.Module):
                 for b in node.body:
                     if isinstance(b, ast.Import):
                         for i in b.names:
-                            add_int_key_value_submap_to_map(import_map, i.name, 'repo_count', 1, 0)
-                            import_map[i.name]['hackers'] = hacker_contribution_map
-                            if '.' in i.name:
-                                add_int_key_value_submap_to_map(import_map, i.name.split('.')[0], 'repo_count', 1, 0)
-                                import_map[i.name.split('.')[0]]['hackers'] = hacker_contribution_map
+                            self.add_import(import_map, i.name, contributor_hash)
                     if isinstance(b, ast.ImportFrom):
-                        add_int_to_map(import_map, b.module, 1)
                         for n in b.names:
                             if b.module and n and n.name:
-                                add_int_key_value_submap_to_map(import_map, b.module + '.' + n.name, 'repo_count', 1, 0)
-                                import_map[b.module + '.' + n.name]['hackers'] = hacker_contribution_map
-                        else:
-                            print("Null value found within PythonAnalyzer import mapping: ", b.module, n.name)
-                        if '.' in b.module:
-                            add_int_key_value_submap_to_map(import_map, b.module.split('.')[0], 'repo_count', 1, 0)
-                            import_map[b.module.split('.')[0]]['hackers'] = hacker_contribution_map
+                                self.add_import(import_map, b.module + '.' + n.name, contributor_hash)
+                            else:
+                                print("Null value found within PythonAnalyzer import mapping: ", b.module, n.name)
 
     def analyze(self, numstat_json, extension_map, filename_map, repo_dir,
                 import_map, commit_to_hacker_map):
-        if 'py' in extension_map and len(extension_map['py']) > 0:
+        if 'py' in extension_map and extension_map['py'] > 0:
             bg = BlameGameRetriever(repo_dir, commit_to_hacker_map)
             for filename in filename_map:
                 if filename.endswith('.py'):
-                    if os.path.exists(os.path.join(repo_dir, filename)):
+                    qualified_filename = os.path.join(repo_dir, filename)
+                    if os.path.exists(qualified_filename):
                         try:
-                            with open(os.path.join(repo_dir, filename), 'r') as f:
+                            with open(qualified_filename, 'r') as f:
                                 contents = f.read()
 
                             if contents:
-                                line_no_map, hacker_contribution_map = bg.get_blame_game(filename)
-                                obj = ast.parse(contents, filename=filename)
-                                self.get_imports(obj, import_map, hacker_contribution_map)
-                                for auth in line_no_map.values():
-                                    add_int_to_map(hacker_contribution_map, auth, 1)
+                                hacker_contribution_map = bg.get_blame_game(filename)
+                                md5key = hashlib.md5(''.join((filename, json.dumps(hacker_contribution_map))).
+                                                     encode('utf-8')).hexdigest()
+                                try:
+                                    obj = ast.parse(contents, filename=filename)
+                                    if 'contributors' not in import_map:
+                                        import_map['contributors'] = {}
+                                    import_map['contributors'][md5key] = hacker_contribution_map
+                                    if 'imports' not in import_map:
+                                        import_map['imports'] = {}
+
+                                    self.get_imports(obj, import_map['imports'], md5key)
+                                except Exception as e:
+                                    print("Python source file didn't compile: ", filename, e)
+                                    continue
                         except Exception as e:
                             print('Non-compilable (or pre-Python3) python code:', e)
+                            traceback.print_exc()
 
 
 class BlameGameRetriever(SignalHandler):
@@ -88,41 +100,40 @@ class BlameGameRetriever(SignalHandler):
         self.stdout = None
         self.stderr = None
         self.commit_author_map = commit_author_map
+        self.max_wait = 60
 
-    def get_blame_game(self, filename) -> [dict, dict]:
-        line_no_map = {}
+    def get_blame_game(self, filename) -> dict:
         hacker_contribution_map = {}
         full_name = os.path.join(self.repo_dir, filename)
         if not os.path.exists(full_name):
             return None
-        cmd = ['nice',  'git', 'blame', '-l', full_name]
+        cmd = ['nice',  'git', '-C', self.repo_dir, 'blame', '-l', filename]
+
         if sys.platform == "win32":
             # Take out the first element of the cmd array as windows isn't "nice"
             cmd = cmd[1:]
         self.success, self.stdout, self.stderr = self.execute_os_cmd(cmd)
-        if self.success is not None and self.success is True:
+        if self.success is not None and self.success is True and self.stdout is not None:
             line_count = 0.0
+            self.stdout = self.stdout.decode('utf-8')
             for line in self.stdout.split('\n'):
                 words = line.split(' ')
-                if len(words) > 0 and len[words[0]] == 40:
+                if len(words) > 0 and len(words[0]) == 40:
                     line_count += 1
-                    who_when_line = line.substring(42).split(')')[0]
+                    who_when_line = line[42:].split(')')[0]
                     items = who_when_line.split(' ')
-                    if len(items) == 5:
-                        who = items[0]
-                        when = items[1]+'T'+items[2]
-                        line = int(items[4])
+                    if len(items) > 4:
+                        line = int(items[len(items) - 1])
                         if words[0] in self.commit_author_map:
                             # commit hash found in commit_author_map
                             # retrieving author's md5sum
                             author_hash = self.commit_author_map[words[0]]
-                            line_no_map[line] = author_hash
                             if author_hash not in hacker_contribution_map:
                                 hacker_contribution_map[author_hash] = 0
                             hacker_contribution_map[author_hash] += 1
-                for key in hacker_contribution_map:
-                    hacker_contribution_map[key] = hacker_contribution_map[key] / (line_count if line_count > 0 else 1.0)
-            return line_no_map, hacker_contribution_map
+            for key in hacker_contribution_map:
+                hacker_contribution_map[key] = hacker_contribution_map[key] / (line_count if line_count > 0 else 1.0)
+            return hacker_contribution_map
 
 '''
 ae0f28169a3da4300d6bf66a24fcfb9d6ff9df86 (enigmatt 2022-06-11 13:03:16 -0700 188)     RepoAnalyzer(web_lock=Lock()).main()
@@ -170,15 +181,19 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return [self.mom.machine_name]
 
         def process_db_results(self, result_args):
-            for goodness in self.mom.cursor.stored_results():
-                result = goodness.fetchone()
-                if result:
-                    self.mom.repo_id = int(result[0])
-                    self.mom.repo_owner = result[1]
-                    self.mom.repo_name = result[2]
-                    self.mom.repo_dir = result[3]
-                    self.mom.numstat_dir = result[4]
-            return result
+            print('Processing DB results - ENTER')
+            try:
+                for goodness in self.mom.cursor.stored_results():
+                    result = goodness.fetchone()
+                    if result:
+                        self.mom.repo_id = int(result[0])
+                        self.mom.repo_owner = result[1]
+                        self.mom.repo_name = result[2]
+                        self.mom.repo_dir = result[3]
+                        self.mom.numstat_dir = result[4]
+                return result
+            finally:
+                print('Processing DB results - EXIT')
 
     class ReleaseRepo(DBTask):
         def __init__(self, mom):
@@ -220,7 +235,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             if author_md5 not in self.hacker_extension_map:
                 self.hacker_extension_map[author_md5] = {}
                 self.hacker_md5_map[author_md5] = author
-                self.hacker_name_map[author] = author_md5
+                self.hacker_name_map[author_md5] = author
             commit_id = commit['commit']
             if commit_id not in self.commit_to_hacker_map:
                 self.commit_to_hacker_map[commit_id] = author_md5  # Are there ever more than one author per commit?
@@ -269,6 +284,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
         except Exception as e:
             print(e)
+            traceback.print_exc()
+
 
 
 if __name__ == "__main__":

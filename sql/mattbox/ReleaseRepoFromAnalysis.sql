@@ -11,12 +11,15 @@ BEGIN
 	declare _hacker_name_map longblob;
 	declare _repo_extension_map longblob;
 	declare _repo_import_map longblob;
+	declare _language_map longblob;
 	declare _import_map longblob;
 	declare _keys longblob;
 	declare idx int default 0;
 	declare _array_size int default 0;
-	declare _key char(32);
+	declare _key char(40);
 	declare _val varchar(128);
+	declare _email_key varchar(256);
+	declare _md5 char(32);
 	declare _alias_pk int;
 	declare _extension_set longblob;
 	declare _extension_keys longblob;
@@ -24,6 +27,7 @@ BEGIN
 	declare _ext_idx int default 0;
 	declare _import_set longblob;
 	declare _import_keys longblob;
+	declare _import_key varchar(256);
 	declare _import_len int;
 	declare _imp_idx int default 0;
 	declare _import_count int;
@@ -36,10 +40,20 @@ BEGIN
 	declare _hacker_cont_keys longblob;
 	declare _hacker_cont_keys_len int;
 	declare _hacker_cont_idx int;
-	declare _hacker_md5 char(32);
+	declare _hacker_md5 char(40);
+	declare _contributor_map longblob;
+	declare _contrib_hash_array longblob;
+	declare _contrib_array_len int;
+	declare _contrib_idx int;
+	declare _contributor_hash char(40);
+	declare _hacker_contrib_pct_map longblob;
+	declare _hacker_hash_array longblob;
+	declare _hacker_hash_len int;
+	declare _hacker_idx int;
+	declare _hacker_hash char(32);
+	declare _hacker_pct varchar(32);
 
 	
-#	call debug('Starting ReleaseFromRepoAnalysis!');
 	update repo set last_analysis_date = dt, failed_date = case when _success then null else dt end
 	 where id = _repo_id;
 	update repo_reserve set tstamp = dt where repo_id = _repo_id;	
@@ -54,24 +68,29 @@ BEGIN
 	select json_keys(_hacker_name_map) into _keys;
 #	call debug(concat('Hacker keys: ', _keys));
 	select json_length(_keys) into _array_size;
+#	call debug(concat('There are ', _array_size, ' hacker keys'));
+	set idx = 0;
 	while idx < _array_size do
-		select json_value(_keys, concat('$[', idx, ']')) into _key;
-		select json_value(_hacker_name_map, concat('$."', _key, '"')) into _val;
-#		call debug(concat('md5 ', _key, ' -> ', _val));
-		insert into hacker_update_queue (md5, name_email) select _key, _val;
-		select id into _alias_pk from alias where md5 = _key;
-		select json_query(_hacker_extension_map, concat('$.', _key)) into _extension_set;
+		select json_value(_keys, concat('$[', idx, ']')) into _md5;
+#		call debug(concat('The _md5 is ', ifnull(_md5,'Nada!')));
+		select json_value(_hacker_name_map, concat('$.', _md5)) into _email_key;
+#		call debug(concat('md5 ', ifnull(_md5, '<NULL>'), ' -> ', _email_key));
+		insert into hacker_update_queue (md5, name_email) select _md5, _email_key;
+		select id into _alias_pk from alias where md5 = _md5;
+		select json_query(_hacker_extension_map, concat('$.', _md5)) into _extension_set;
 		select json_keys(_extension_set) into _extension_keys;
 		select json_length(_extension_keys) into _extension_len;
+		set _ext_idx = 0;
 		while _ext_idx < _extension_len do
 			select json_value(_extension_keys, concat('$[', _ext_idx, ']')) into _extension_val;
 			select json_value(_extension_set, concat('$.', _extension_val)) into _extension_count;
-#			call debug(concat(_key, '->', _extension_val, _extension_count));
+			call debug(concat(_md5, '->', _extension_val, ' qty: ', _extension_count));
 			call UpdateHackerExtensionCount(_alias_pk, _extension_val, _extension_count);
 			set _ext_idx = _ext_idx + 1;
 		end while;
 		set idx = idx + 1;
 	end while;		
+#	call debug('Exiting hacker iteration loop');
 	select json_keys(_repo_extension_map) into _keys;
 	select json_length(_keys) into _array_size;
 	set idx = 0;
@@ -82,38 +101,52 @@ BEGIN
 		call UpdateRepoExtensionCount(_repo_id, _key, _count);
 		set idx = idx + 1;
 	end while;
-	select json_keys(_repo_import_map) into _keys;
-	select json_length(_keys) into _array_size;
+	#Now on to the import_map_map that contains a tree of:
+	#  lang.contributors.single_file_instance_hash->dict[hacker_hash]->float (percentage of contribution (0->1))
+	#  lang.imports.import_name->array_of_single_file_instance_hash
+	select json_keys(_repo_import_map) into _keys;  #language keys
+	select json_length(_keys) into _array_size; 	#How many different languages
+#	call debug(concat('Processing language-specific imports for ', _array_size, ' different languages'));
 	set idx = 0;
 	while idx < _array_size do
 		select json_value(_keys, concat('$[', idx, ']')) into _extension_val;
-		select json_query(_repo_import_map, concat('$.', _extension_val)) into _import_map;
+#		call debug(concat('Language extension: ', _extension_val));
+	    #_extension_val is the root analysis language (e.g. py or java)
+		select json_query(_repo_import_map, concat('$.', _extension_val)) into _language_map;
+		#_language_map now contains a contributor map and an imports map
+		select json_query(_language_map, '$.contributors') into _contributor_map;
+		select json_query(_language_map, '$.imports') into _import_map;
+	
 		select json_keys(_import_map) into _import_keys;
 		select json_length(_import_keys) into _import_len;
+		call debug(concat('Imports include ', _import_len, ' element(s)'));
 		set _imp_idx = 0;
 		while _imp_idx < _import_len do
-			select json_value(_import_keys, concat('$[', _imp_idx, ']')) into _import_val;
-			call debug(concat('ReleaseRepoFromAnalysis: idx', _imp_idx, ' key ', _import_val));
-			select json_query(_import_map, concat('$."', _import_val, '"')) into _import_sub_map;
-			select json_value(_import_sub_map, '$.repo_count') into _import_count;
-			call UpdateRepoImportCount(_repo_id, _import_val, _extension_val, _import_count);
-			/* Now pull out the individual hacker contributions */
-			select json_query(_import_sub_map, '$.hackers') into _hacker_contributions;
-			select json_keys(_hacker_contributions) into _hacker_cont_keys;
-			select json_length(_hacker_cont_keys) into _hacker_cont_keys_len;
-			set _hacker_cont_idx = 0;
-			while _hacker_cont_idx < _hacker_cont_keys_len do
-				select json_value(_hacker_cont_keys, concat('$[', _hacker_cont_idx, ']')) into _hacker_md5;
-				set _alias_pk = -1;
-				select id into _alias_pk from alias where md5 = _hacker_md5;
-				if _alias_pk > 0 then
-					select json_value(_hacker_contributions, concat('$.', _hacker_md5)) into _hacker_contributions;
-					call UpdateHackerImportCount(_alias_pk, _import_val, _extension_val, _hacker_contributions);
-				else
-					call debug(concat('UpdateHackerImportCount NOT called because ', _hacker_md5, ' was not found in alias table'));
-				end if;
-				set _hacker_cont_idx = _hacker_cont_idx + 1;
+			select json_value(_import_keys, concat('$[', _imp_idx, ']')) into _import_key;
+#			call debug(concat('Index ', _imp_idx, ' produces ', _import_key));
+			# Now _import_key is an import value like library.subset.thingy
+			# Within the json doc this key references an array of md5-hash contributor keys
+			select json_query(_import_map, concat('$."', _import_key, '"')) into _contrib_hash_array;
+			select json_length(_contrib_hash_array) into _contrib_array_len;
+			set _contrib_idx = 0;
+			while _contrib_idx < _contrib_array_len do
+				select json_value(_contrib_hash_array, concat('$[', _contrib_idx, ']')) into _contributor_hash;
+				select json_query(_contributor_map, concat('$."', _contributor_hash, '"')) into _hacker_contrib_pct_map;
+#				call debug(concat('Contributor_hash ', _contributor_hash, ' produces ', _hacker_contrib_pct_map));
+				select json_keys(_hacker_contrib_pct_map) into _hacker_hash_array;
+				select json_length(_hacker_hash_array) into _hacker_hash_len;
+				set _hacker_idx = 0;
+				while _hacker_idx < _hacker_hash_len do
+					select json_value(_hacker_hash_array, concat('$[', _hacker_idx, ']')) into _hacker_hash;
+#					call debug(concat('_hacker_hash ', _hacker_hash));
+					select json_value(_hacker_contrib_pct_map, concat('$."', _hacker_hash, '"')) into _hacker_pct;
+#					call debug(concat('Hacker hash ', _hacker_hash, ' ImportKey ', _import_key, ' extension ', _extension_val, ' hack Pct ', _hacker_pct));
+					call UpdateHackerImportCount(_hacker_hash, _import_key, _extension_val, cast(_hacker_pct as float));				
+					set _hacker_idx = _hacker_idx + 1;
+				end while;
+				set _contrib_idx = _contrib_idx + 1;
 			end while;
+		
 			set _imp_idx = _imp_idx + 1;
 		end while;
 		set idx = idx + 1;
