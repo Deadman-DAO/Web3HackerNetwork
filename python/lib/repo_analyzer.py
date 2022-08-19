@@ -6,7 +6,6 @@ import json
 import os
 import sys
 import traceback
-import typing
 from abc import ABC, abstractmethod
 from threading import Lock
 from db_driven_task import DBDrivenTaskProcessor, DBTask
@@ -181,19 +180,15 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return [self.mom.machine_name]
 
         def process_db_results(self, result_args):
-            print('Processing DB results - ENTER')
-            try:
-                for goodness in self.mom.cursor.stored_results():
-                    result = goodness.fetchone()
-                    if result:
-                        self.mom.repo_id = int(result[0])
-                        self.mom.repo_owner = result[1]
-                        self.mom.repo_name = result[2]
-                        self.mom.repo_dir = result[3]
-                        self.mom.numstat_dir = result[4]
-                return result
-            finally:
-                print('Processing DB results - EXIT')
+            for goodness in self.mom.cursor.stored_results():
+                result = goodness.fetchone()
+                if result:
+                    self.mom.repo_id = int(result[0])
+                    self.mom.repo_owner = result[1]
+                    self.mom.repo_name = result[2]
+                    self.mom.repo_dir = result[3]
+                    self.mom.numstat_dir = result[4]
+            return result
 
     class ReleaseRepo(DBTask):
         def __init__(self, mom):
@@ -247,15 +242,11 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
     @timeit
     def prepare_sql_params(self):
-        print('Preparing sql params')
-        try:
-            self.stats_json = {'hacker_extension_map': self.hacker_extension_map,
-                               'hacker_name_map': self.hacker_name_map,
-                               'extension_map': self.extension_map,
-                               'import_map_map': self.import_map_map}
-            self.stats_json = json.dumps(self.stats_json, ensure_ascii=False)
-        finally:
-            print('Exiting prepare_sql_params')
+        self.stats_json = {'hacker_extension_map': self.hacker_extension_map,
+                           'hacker_name_map': self.hacker_name_map,
+                           'extension_map': self.extension_map,
+                           'import_map_map': self.import_map_map}
+        self.stats_json = json.dumps(self.stats_json, ensure_ascii=False)
 
     @timeit
     def process_task(self):
