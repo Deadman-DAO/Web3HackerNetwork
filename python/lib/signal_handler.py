@@ -3,7 +3,6 @@ import sys
 import signal
 from subprocess import TimeoutExpired, Popen, PIPE
 from child_process import ChildProcessContainer
-import typing
 
 
 def print_stack(sig, frame):
@@ -51,11 +50,12 @@ class SignalHandler:
 
     def execute_os_cmd(self, cmd,
                        max_wait: int = None,
-                       report_timeout_proc: typing.Callable[[typing.ClassVar, Popen], None] = None) -> [bool, str, str]:
+                       report_timeout_proc=None) -> [bool, str, str]:
         success = False
         subprocedure = None
         max_wait = max_wait if max_wait is not None else self.max_wait
-        report_timeout_proc = report_timeout_proc if report_timeout_proc is not None else self.report_timeout
+        if report_timeout_proc is None:
+            report_timeout_proc = self.report_timeout
         d = None
         try:
             with Popen(cmd, stdout=PIPE, stderr=PIPE) as proc:
