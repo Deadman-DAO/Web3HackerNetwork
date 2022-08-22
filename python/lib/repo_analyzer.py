@@ -165,6 +165,9 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.hacker_extension_map = {}
         self.hacker_md5_map = None
         self.stats_json = None
+        self.cur_job = 'Starting...'
+        self.find_orphan_sql = None
+        self.hacker_name_map = None
 
     def init(self):
         pass
@@ -180,6 +183,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return [self.mom.machine_name]
 
         def process_db_results(self, result_args):
+            result = None
             for goodness in self.mom.cursor.stored_results():
                 result = goodness.fetchone()
                 if result:
@@ -188,6 +192,9 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     self.mom.repo_name = result[2]
                     self.mom.repo_dir = result[3]
                     self.mom.numstat_dir = result[4]
+                    self.mom.cur_job = result[1] + ':' + result[2]
+            if result is None:
+                self.mom.cur_job = 'Nada'
             return result
 
     class ReleaseRepo(DBTask):
@@ -276,7 +283,6 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         except Exception as e:
             print(e)
             traceback.print_exc()
-
 
 
 if __name__ == "__main__":

@@ -14,11 +14,8 @@ def no_none(val):
     return val if val is not None else 'None'
 
 
-def format_id_check_url(repo_owner, repo_name, commit_hash):
-    if repo_owner is None or repo_name is None or commit_hash is None:
-        raise Exception('Bad parameter to format_id_check_url: repo_owner = '+no_none(repo_owner)+' repo_name = '+
-                        no_none(repo_name)+' commit_hash = '+no_none(commit_hash))
-    return 'https://api.github.com/repos/'+repo_owner+'/'+repo_name+'/commits/'+commit_hash
+def format_id_check_url(commit_hash):
+    return 'https://api.github.com/search/commits?q=commit_id:'+commit_hash
 
 
 class GitHubUserIDFinder(DBDependent, GitHubClient):
@@ -86,20 +83,32 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
         idx = 0
         author_id = self.author_info[idx]['alias_id']
         while alias_not_found and idx < len(self.author_info):
-            owner = self.author_info[idx]['owner']
-            name = self.author_info[idx]['name']
             hashish = self.author_info[idx]['commit_id']
-            if owner is not None and name is not None and hashish is not None:
-                url = format_id_check_url(owner,
-                                          name,
-                                          hashish)
+            if hashish is not None:
+                url = format_id_check_url(hashish)
                 _json = self.fetch_json_with_lock(url)
                 if _json:
-                    commit_details_block = _json['author']
-                    if commit_details_block is not None and 'login' in commit_details_block.keys():
-                        self.call_resolve_sql_proc(author_id, commit_details_block['login'])
-                        self.try_counters[idx] += 1
-                        alias_not_found = False
+                    if 'items' in _json:
+                        for item in _json['items']:
+                            try:
+                                if 'author' in item:
+                                    github_user_id = None
+                                    if item['author'] is None:
+                                        if ('commit' in item and
+                                                item['commit'] is not None and
+                                                'author' in item['commit'] and
+                                                item['commit']['author'] is not None and
+                                                item['commit']['author']['name'] is not None):
+                                            github_user_id = item['commit']['author']['login']
+                                    else:
+                                        github_user_id = item['author']['login']
+                                    if github_user_id is not None:
+                                        self.call_resolve_sql_proc(author_id, github_user_id)
+                                        self.try_counters[idx] += 1
+                                        alias_not_found = False
+                                        break
+                            except Exception as e:
+                                print(e, json.dumps(item))
                 else:
                     print('Empty JSON block returned from', url)
                 idx += 1
@@ -120,7 +129,7 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
         return rv
 
     def main(self):
-        m = MultiprocessMonitor(web_lock=self.web_lock, my=self.get_stats)
+        m = MultiprocessMonitor(web_lock=self.web_lock, my=self.get_stats, cur_alias_pk=self.get_cur_author)
         while self.running:
             try:
                 if self.reserve_next_author() is None:

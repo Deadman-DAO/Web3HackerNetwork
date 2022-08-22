@@ -41,6 +41,7 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
         self.interrupt_event = threading.Event()
         self.success = None
         self.close_every_cursor = False
+        self.cur_job = None
 
     @abstractmethod
     def get_job_fetching_task(self):
@@ -51,6 +52,7 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
     def get_job_completion_task(self):
         """ Return an instance of DBTask for reporting job completion """
         pass
+
 
     def call_db_proc(self, db_task):
         result = None
@@ -101,9 +103,12 @@ class DBDrivenTaskProcessor(ABC, DBDependent):
         """
         pass
 
+    def get_cur_job(self):
+        return self.cur_job
+
     def main(self):
         print('Entering MAIN')
-        self.monitor = MultiprocessMonitor(web_lock=self.web_lock)
+        self.monitor = MultiprocessMonitor(web_lock=self.web_lock, cur_job=self.get_cur_job)
         self.init()
         while self.running:
             try:
