@@ -44,7 +44,7 @@ class PythonAnalyzer(Analyzer):
         if '.' in import_name:
             self.add_import(import_map, import_name.split('.')[0], contributor_hash)
 
-    def get_imports(self, obj, import_map, contributor_hash):
+    def get_imports(self, obj, import_map, contributor_hash, filename=None):
         for node in ast.walk(obj):
             if isinstance(node, ast.Module):
                 for b in node.body:
@@ -56,7 +56,7 @@ class PythonAnalyzer(Analyzer):
                             if b.module and n and n.name:
                                 self.add_import(import_map, b.module + '.' + n.name, contributor_hash)
                             else:
-                                print("Null value found within PythonAnalyzer import mapping: ", b.module, n.name)
+                                print("Null value found within PythonAnalyzer import mapping: ", filename, ':', b.module, n.name, b)
 
     def analyze(self, numstat_json, extension_map, filename_map, repo_dir,
                 import_map, commit_to_hacker_map):
@@ -82,7 +82,7 @@ class PythonAnalyzer(Analyzer):
                                     if 'imports' not in import_map:
                                         import_map['imports'] = {}
 
-                                    self.get_imports(obj, import_map['imports'], md5key)
+                                    self.get_imports(obj, import_map['imports'], md5key, filename=filename)
                                 except Exception as e:
                                     print("Python source file didn't compile: ", filename, e)
                                     continue
