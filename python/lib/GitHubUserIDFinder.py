@@ -99,14 +99,7 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
                     try:
                         if 'author' in item:
                             github_user_id = None
-                            if item['author'] is None:
-                                if ('commit' in item and
-                                        item['commit'] is not None and
-                                        'author' in item['commit'] and
-                                        item['commit']['author'] is not None and
-                                        item['commit']['author']['name'] is not None):
-                                    github_user_id = item['commit']['author']['login']
-                            else:
+                            if item['author'] is not None and item['author']['login'] is not None:
                                 github_user_id = item['author']['login']
                             if github_user_id is not None:
                                 self.call_resolve_sql_proc(author_id, github_user_id)
