@@ -113,7 +113,8 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
                                 self.try_counters[idx] += 1
                                 alias_not_found = False
                     except Exception as e:
-                        print(e, json.dumps(item))
+                        print(e, 'Error encountered calling ResolveAliasViaPrimaryKey')
+                        # print(e, json.dumps(item))
                 else:
                     print('Empty JSON block returned from', url)
                 idx += 1

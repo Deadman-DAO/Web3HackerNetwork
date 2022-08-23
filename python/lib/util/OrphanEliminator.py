@@ -1,3 +1,4 @@
+import datetime
 import sys
 from os.path import exists
 
@@ -39,13 +40,15 @@ class OrphanEliminator(DBDependent):
             cnt += 1
             if cnt % 100 == 0:
                 c.executemany(self.delete_sql, batch)
+                self.database.commit()
                 batch = []
-                print(cnt, 'commits deleted')
+                print(datetime.datetime.now().isoformat(), cnt, 'commits deleted')
         if len(batch) > 0:
             c.executemany(self.delete_sql, batch)
             cnt += len(batch)
             batch = []
-        print(f'{cnt} rows deleted')
+            print(datetime.datetime.now().isoformat(), cnt, 'commits deleted')
+        self.database.commit()
 
 
 if __name__ == '__main__':
