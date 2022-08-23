@@ -86,6 +86,7 @@ class PythonAnalyzer(Analyzer):
                                                      filename=filename, repo_dir=repo_dir)
                                 except Exception as e:
                                     print("Python source file didn't compile: ", filename, e)
+                                    traceback.print_exc()
                                     continue
                         except Exception as e:
                             print('Non-compilable (or pre-Python3) python code:', e)
@@ -233,6 +234,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 author_md5 = hashlib.md5(author.encode('utf-8')).hexdigest()
             except Exception as e:
                 print(e)
+                traceback.print_exc()
                 b = bytearray(author, 'unicode-escape')
                 author_md5 = hashlib.md5(b).hexdigest()
             if author_md5 not in self.hacker_extension_map:
@@ -284,6 +286,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         except Exception as e:
             print(e)
             traceback.print_exc()
+
 
 
 if __name__ == "__main__":
