@@ -114,6 +114,7 @@ class GitHubUserIDFinder(DBDependent, GitHubClient):
                                 alias_not_found = False
                     except Exception as e:
                         print(e, 'Error encountered calling ResolveAliasViaPrimaryKey')
+                        traceback.print_exc()
                         # print(e, json.dumps(item))
                 else:
                     print('Empty JSON block returned from', url)
