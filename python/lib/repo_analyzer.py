@@ -11,6 +11,8 @@ from threading import Lock
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 from monitor import timeit
 from signal_handler import SignalHandler
+from datetime import datetime as datingdays
+
 
 
 def add_int_to_map(map, key, value):
@@ -182,6 +184,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReserveNextRepoForAnalysis'
 
         def get_proc_parameters(self):
+            print(datingdays.now().isoformat(), 'Calling ReserveNextRepoForAnalysis', 'b47455b4a84eb638a33864dc466abc6f')
             return [self.mom.machine_name]
 
         def process_db_results(self, result_args):
@@ -195,6 +198,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     self.mom.repo_dir = result[3]
                     self.mom.numstat_dir = result[4]
                     self.mom.cur_job = result[1] + ':' + result[2]
+            print(datingdays.now().isoformat(), 'Returned from ReserveNextRepoForAnalysis', self.mom.repo_id, 'b47455b4a84eb638a33864dc466abc6f')
             if result is None:
                 self.mom.cur_job = 'Nada'
             return result
@@ -207,6 +211,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReleaseRepoFromAnalysis'
 
         def get_proc_parameters(self):
+            print(datingdays.now().isoformat(), 'Calling ReleaseRepoFromAnalysis', self.mom.repo_id, 'b47455b4a84eb638a33864dc466abc6f')
             return [self.mom.repo_id, self.mom.numstat, self.mom.success, self.mom.stats_json]
 
         def process_db_results(self, result_args):
