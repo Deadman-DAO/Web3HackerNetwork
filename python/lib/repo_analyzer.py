@@ -42,9 +42,15 @@ class PythonAnalyzer(Analyzer):
     def add_import(self, import_map, import_name, contributor_hash):
         if import_name not in import_map:
             import_map[import_name] = []
-        import_map[import_name].append(contributor_hash)
-        if '.' in import_name:
-            self.add_import(import_map, import_name.split('.')[0], contributor_hash)
+        been_there = False
+        for h in import_map[import_name]:
+            if h == contributor_hash:
+                been_there = True
+                break
+        if not been_there:
+            import_map[import_name].append(contributor_hash)
+            if '.' in import_name:
+                self.add_import(import_map, import_name.split('.')[0], contributor_hash)
 
     def get_imports(self, obj, import_map, contributor_hash, filename=None, repo_dir=None):
         for node in ast.walk(obj):
