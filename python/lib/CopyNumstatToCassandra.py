@@ -1,9 +1,9 @@
-from cassandra.cluster import Cluster
-from cassandra.auth import PlainTextAuthProvider
-import json
+import boto3
+import os
+import uuid
 from db_dependent_class import DBDependent
-from datetime import datetime as datingdays
 import base64
+
 
 class CopyCassandra(DBDependent):
     def __init__(self, **kwargs):
@@ -12,28 +12,27 @@ class CopyCassandra(DBDependent):
         self.maria_cfg = None
         self.duck = None
         self.from_dbase = None
-        self.cass_session = None
         self.cursor = None
-        self.fetch_sql = 'select n.repo_id, n.tstamp, n.numstat, r.owner, r.name from repo_numstat n join repo r on r.id = n.repo_id limit 1'
-        self.insert_sql = 'insert into repo_numstat (id,tstamp, numstat, owner, name) values (?, ?, ?, ?, ?)'
+        self.fetch_sql = 'select n.repo_id, n.tstamp, n.numstat, r.owner, r.name from repo_numstat n join repo r on r.id = n.repo_id where n.numstat is not null and length(n.numstat) > 0'
+        self.s3r = boto3.resource('s3')
+        self.bucket = self.s3r.Bucket('numstat-bucket')
 
     def main(self):
-        with open('./cassandra.cfg') as f:
-            self.cass_cfg = json.load(f)
-        ptap = PlainTextAuthProvider(username=self.cass_cfg['user'],password=self.cass_cfg['password'])
-        duck = Cluster(auth_provider=ptap)
-        self.cass_session = duck.connect()
+
         self.get_cursor().execute(self.fetch_sql)
+        cnt = 0
         for row in self.get_cursor():
-            tstamp_str = row[1].isoformat().replace('T', ' ')+'+0000'
-            print(row)
-            print(tstamp_str)
-            t = bytearray(row[2].decode())
-            print(t)
+            t = bytearray(row[2])
             ba = base64.b64decode(t)
-            print(ba)
-            params = [row[0], tstamp_str, ba, row[3], row[4]]
-            self.cass_session.execute(self.fetch_sql, params)
+            key = 'test/'+row[3]+'/'+row[4]+'/numstat.json.bz2'
+            file_name = ''.join(('./', str(uuid.uuid4())))
+            with open(file_name, 'wb') as w:
+                w.write(ba)
+            self.bucket.upload_file(file_name, key)
+            os.remove(file_name)
+            cnt += 1
+            if cnt % 10 == 0:
+                print(cnt, 'records processed.  Last one:', key)
 
 
 if __name__ == "__main__":
