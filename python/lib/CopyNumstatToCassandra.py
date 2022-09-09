@@ -25,14 +25,13 @@ class CopyCassandra(DBDependent):
         self.bucket = self.s3r.Bucket('numstat-bucket')
 
     def main(self):
-
         self.get_cursor().execute(self.fetch_sql, (self.start_id, self.end_id))
         cnt = 0
         for row in self.get_cursor():
             t = bytearray(row[2])
             try:
                 ba = base64.b64decode(t)
-                key = 'test/'+row[3]+'/'+row[4]+'/numstat.json.bz2'
+                key = 'repo/'+row[3]+'/'+row[4]+'/log_numstat.out.json.bz2'
                 file_name = ''.join(('./', str(uuid.uuid4())))
                 with open(file_name, 'wb') as w:
                     w.write(ba)

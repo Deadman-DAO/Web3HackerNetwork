@@ -1,7 +1,6 @@
 DELIMITER /MANGINA/
 create or replace procedure `w3hacknet`.`ReleaseRepoFromAnalysis` (
 IN _repo_id int(11),
-IN _numstat longblob,
 IN _success bit(1),
 IN _stats_json longblob
 )
@@ -52,13 +51,15 @@ BEGIN
 	declare _hacker_idx int;
 	declare _hacker_hash char(32);
 	declare _hacker_pct varchar(32);
+	declare _perf_track_id int;
 
 	
 	update repo set last_analysis_date = dt, failed_date = case when _success then null else dt end
 	 where id = _repo_id;
 	update repo_reserve set tstamp = dt where repo_id = _repo_id;	
-	insert into repo_numstat (repo_id, tstamp, numstat) values (_repo_id, dt, _numstat)
-		on DUPLICATE key update tstamp = dt, numstat = _numstat;
+	insert into import_performance_tracking (repo_id, success, stats_json, starttime)
+		select _repo_id, _success, _stats_json, dt;
+	select LAST_INSERT_ID() into _perf_track_id; 
 	select json_query(_stats_json, '$.hacker_extension_map') into _hacker_extension_map;
 #	call debug(_stats_json);
 #	call debug(_hacker_extension_map);
@@ -84,12 +85,14 @@ BEGIN
 		while _ext_idx < _extension_len do
 			select json_value(_extension_keys, concat('$[', _ext_idx, ']')) into _extension_val;
 			select json_value(_extension_set, concat('$.', _extension_val)) into _extension_count;
-			call debug(concat(_md5, '->', _extension_val, ' qty: ', _extension_count));
+#			call debug(concat(_md5, '->', _extension_val, ' qty: ', _extension_count));
 			call UpdateHackerExtensionCount(_alias_pk, _extension_val, _extension_count);
 			set _ext_idx = _ext_idx + 1;
 		end while;
 		set idx = idx + 1;
 	end while;		
+	update import_performance_tracking set hacker_name_map_size = _array_size, hacker_name_map_completion = CURRENT_TIMESTAMP(3)
+	 where id = _perf_track_id;
 #	call debug('Exiting hacker iteration loop');
 	select json_keys(_repo_extension_map) into _keys;
 	select json_length(_keys) into _array_size;
@@ -101,6 +104,9 @@ BEGIN
 		call UpdateRepoExtensionCount(_repo_id, _key, _count);
 		set idx = idx + 1;
 	end while;
+	update import_performance_tracking set extension_map_size = _array_size, extension_map_completion = CURRENT_TIMESTAMP(3)
+	 where id = _perf_track_id;
+
 	#Now on to the import_map_map that contains a tree of:
 	#  lang.contributors.single_file_instance_hash->dict[hacker_hash]->float (percentage of contribution (0->1))
 	#  lang.imports.import_name->array_of_single_file_instance_hash
@@ -119,7 +125,7 @@ BEGIN
 	
 		select json_keys(_import_map) into _import_keys;
 		select json_length(_import_keys) into _import_len;
-		call debug(concat('Imports include ', _import_len, ' element(s)'));
+#		call debug(concat('Imports include ', _import_len, ' element(s)'));
 		set _imp_idx = 0;
 		while _imp_idx < _import_len do
 			select json_value(_import_keys, concat('$[', _imp_idx, ']')) into _import_key;
@@ -130,6 +136,7 @@ BEGIN
 			select json_length(_contrib_hash_array) into _contrib_array_len;
 			set _contrib_idx = 0;
 			while _contrib_idx < _contrib_array_len do
+				call UpdateRepoImportCount(_repo_id, _import_key, _extension_val, 1);
 				select json_value(_contrib_hash_array, concat('$[', _contrib_idx, ']')) into _contributor_hash;
 				select json_query(_contributor_map, concat('$."', _contributor_hash, '"')) into _hacker_contrib_pct_map;
 #				call debug(concat('Contributor_hash ', _contributor_hash, ' produces ', _hacker_contrib_pct_map));
@@ -151,6 +158,9 @@ BEGIN
 		end while;
 		set idx = idx + 1;
 	end while;
+	update import_performance_tracking set import_map_map_size = _array_size, import_map_map_completion = CURRENT_TIMESTAMP(3), endtime = CURRENT_TIMESTAMP(3) 
+	 where id = _perf_track_id;
+
 END
 /MANGINA/
 DELIMITER ;

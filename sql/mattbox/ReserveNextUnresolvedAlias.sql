@@ -15,9 +15,10 @@ BEGIN
  	insert ignore alias_reserve (alias_id, tstamp, reserver)
 		select X.id, dt, reserver_user_id from (
 			select a.id as id from alias a
+			 join commit c on c.alias_id = a.id
 			 left join alias_reserve ar on ar.alias_id = a.id
 			 where a.github_user_id is null and ar.alias_id is null
-			 order by id
+			 order by id desc
 			 limit 1
 		) as X;
 	
