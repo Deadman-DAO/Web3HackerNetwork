@@ -282,9 +282,9 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 self.import_map_map = {}
                 with open(self.numstat_dir, 'rb') as r:
                     self.numstat_raw = r.read()
-                key = 'repo/'+self.mom.repo_owner+'/'+self.mom.repo_name+'/log_numstat.out.json.bz2'
+                key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/log_numstat.out.json.bz2'
                 try:
-                    self.mom.bucket.upload_file(self.mom.numstat_dir, key)
+                    self.bucket.upload_file(self.numstat_dir, key)
                 except Exception as e:
                     print('Error encountered calling S3.Bucket.upload_file: ', key, e)
 
