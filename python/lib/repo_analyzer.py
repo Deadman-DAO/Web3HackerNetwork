@@ -224,11 +224,6 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return [self.mom.repo_id, self.mom.success, self.mom.stats_json]
 
         def process_db_results(self, result_args):
-            key = 'repo/'+self.mom.repo_owner+'/'+self.mom.repo_name+'/log_numstat.out.json.bz2'
-            try:
-                self.mom.bucket.upload_file(self.mom.numstat_dir, key)
-            except Exception as e:
-                print('Error encountered calling S3.Bucket.upload_file: ', key, e)
             return True
 
     def get_job_fetching_task(self):
@@ -287,6 +282,11 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 self.import_map_map = {}
                 with open(self.numstat_dir, 'rb') as r:
                     self.numstat_raw = r.read()
+                key = 'repo/'+self.mom.repo_owner+'/'+self.mom.repo_name+'/log_numstat.out.json.bz2'
+                try:
+                    self.mom.bucket.upload_file(self.mom.numstat_dir, key)
+                except Exception as e:
+                    print('Error encountered calling S3.Bucket.upload_file: ', key, e)
 
                 self.numstat = base64.b64encode(self.numstat_raw)
                 self.parse_json()
