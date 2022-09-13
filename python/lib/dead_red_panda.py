@@ -16,24 +16,28 @@ class RedDeadPandademption(DBDependent):
         self.get_cursor()
         start_time = dt.now().timestamp()
         data_frame = []
-        self.get_cursor().execute("select md5, name_email, id from hacker_update_queue")
+        self.get_cursor().execute("select stats_json from import_performance_tracking ipt where repo_id = 397485")
         cnt = 0
         for row in self.get_cursor():
             cnt += 1
-            print(row[2])
-            data_frame.append([row[0], row[1]])
+            data_frame = json.loads(row[0])
         elapsed = dt.now().timestamp() - start_time
-        print(cnt, 'records loaded in ', elapsed)
+        print(cnt, 'record loaded in ', elapsed)
 
-        df = pd.DataFrame(data=data_frame, columns=['md5', 'name_email'])
+        df = pd.DataFrame(data=data_frame)
+        print(df.get('extension_map'))
+        elapsed = dt.now().timestamp() - start_time
+        print('Total execution time:', elapsed)
+
+        stupid_comment = """
         engine = create_engine("mariadb://{user}:{pw}@{host}/{db}".format(
             host=self.cfg['host'],
             db=self.cfg['database'],
             user=self.cfg['user'],
             pw=self.cfg['password']))
         df.to_sql('hacker_update_queue', engine, index=False, if_exists='append')
-        elapsed = dt.now().timestamp() - start_time
-        print('Total execution time:', elapsed)
+"""
+        # Does it really need to be *that* difficult to comment out a sectino?
 
 
 if __name__ == '__main__':
