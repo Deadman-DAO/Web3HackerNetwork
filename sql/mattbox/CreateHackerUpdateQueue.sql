@@ -11,7 +11,13 @@ BEGIN
 				max_date datetime,
 				repo_owner varchar(128),
 				repo_name  varchar(128),
-				commit_array json);
+				commit_array json,
+				file_extension varchar(64),
+				file_extension_count int,
+				import_lang_ext varchar(64),
+				import_name varchar(256),
+				import_contributions double
+	);
 END
 /MANGINA/
 DELIMITER ;

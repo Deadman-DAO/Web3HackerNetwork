@@ -39,7 +39,7 @@ BEGIN
 		set _counter = _counter + 1; 
 	end while;
 
-#	update hacker_update_queue set deleteme = 1 where id in (select delq_id from delq);
+
 
 	drop temporary table if exists delq;
 	drop temporary table if exists markq;

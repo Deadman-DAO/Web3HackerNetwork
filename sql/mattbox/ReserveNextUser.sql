@@ -11,6 +11,7 @@ BEGIN
 		select a.github_user_id, a.md5,  a.count from alias a
 		left join alias_reserve ar on ar.alias_id  = a.id
 		where github_user_id is not null
+		and github_user_id != '<UNABLE_TO_RESOLVE>'
 		and github_user_id not like '%[bot]%'
 		and github_user_id not like '%-bot%'
 		and ar.reserver is null

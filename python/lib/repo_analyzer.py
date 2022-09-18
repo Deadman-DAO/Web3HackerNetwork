@@ -1,3 +1,4 @@
+import boto3
 import ast
 import base64
 import bz2
@@ -178,6 +179,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.cur_job = 'Starting...'
         self.find_orphan_sql = None
         self.hacker_name_map = None
+        self.s3r = boto3.resource('s3')
+        self.bucket = self.s3r.Bucket('numstat-bucket')
 
     def init(self):
         pass
@@ -217,8 +220,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReleaseRepoFromAnalysis'
 
         def get_proc_parameters(self):
-            print(datingdays.now().isoformat(), 'Calling ReleaseRepoFromAnalysis', self.mom.repo_id, 'b47455b4a84eb638a33864dc466abc6f')
-            return [self.mom.repo_id, self.mom.numstat, self.mom.success, self.mom.stats_json]
+            print(datingdays.now().isoformat(), 'Calling ReleaseRepoFromAnalysis', self.mom.repo_id)
+            return [self.mom.repo_id, self.mom.success, self.mom.stats_json]
 
         def process_db_results(self, result_args):
             return True
@@ -279,6 +282,11 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 self.import_map_map = {}
                 with open(self.numstat_dir, 'rb') as r:
                     self.numstat_raw = r.read()
+                key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/log_numstat.out.json.bz2'
+                try:
+                    self.bucket.upload_file(self.numstat_dir, key)
+                except Exception as e:
+                    print('Error encountered calling S3.Bucket.upload_file: ', key, e)
 
                 self.numstat = base64.b64encode(self.numstat_raw)
                 self.parse_json()

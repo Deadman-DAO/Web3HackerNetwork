@@ -43,6 +43,11 @@ class SaveSQL(DBDependent):
           where SPECIFIC_SCHEMA = 'w3hacknet'
           order by specific_name, ordinal_position
         """
+        self.trigger_Sql = """
+        select 'create or replace trigger\n ', trigger_name, action_timing, event_manipulation, ' on ', event_object_table, 
+               ' for each row ', action_statement
+          from information_schema.TRIGGERS t 
+"""
         self.database = None
 
     def main(self):
@@ -76,6 +81,17 @@ class SaveSQL(DBDependent):
                 w.write(row[1].replace('\r', ''))
                 w.write("\n/MANGINA/\n")
                 w.write("DELIMITER ;\n")
+        c.execute(self.trigger_Sql)
+        for row in self.get_cursor().fetchall():
+            trigger_name = row[1]
+            with open('./'+trigger_name+'.sql', 'wt') as w:
+                print('Processing trigger: ', trigger_name)
+                w.write("DELIMITER /MANGINA/\n")
+                for n in row:
+                    w.write(n+"\n")
+                w.write("/MANGINA/\n")
+                w.write("DELIMITER ;\n")
+
         sys.exit(0)
 
 

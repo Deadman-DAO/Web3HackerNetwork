@@ -7,7 +7,12 @@ IN _min_date datetime,
 IN _max_date datetime,
 IN _repo_owner varchar(128),
 IN _repo_name varchar(128),
-IN _commit_array longtext
+IN _commit_array longtext,
+IN _file_extension varchar(64),
+IN _file_extension_count int(11),
+IN _import_lang_ext varchar(64),
+IN _import_name varchar(256),
+IN _import_contributions float
 )
 BEGIN
 	declare _alias_id int default null;
@@ -18,6 +23,7 @@ BEGIN
 	declare _commit_id char(40);
 	declare _repo_id int default -1;
 	declare _new_commit_pri_key int default -1;
+	declare _file_extension_pk int;
 
 	if exists (select id from alias a where a.md5 = _md5) THEN 
 		select id into _alias_id from alias a where a.md5 = _md5;
@@ -28,7 +34,7 @@ BEGIN
 		call debug(concat('New alias id is ', _alias_id));
 	end if;
 	
-	if exists (select * from alias a where a.id = _alias_id and a.github_user_id is null) THEN 
+	if _commit_array is not null and exists (select * from alias a where a.id = _alias_id and a.github_user_id is null) THEN 
 		select count(*) into _commit_count from commit c where c.alias_id = _alias_id;
 		if _commit_count < 3 then
 			set _commit_array_size = json_length(_commit_array);
@@ -61,6 +67,15 @@ BEGIN
 				end while;
 			end if;
 		end if;
+	end if;
+	if ifnull(_file_extension_count, -1) > 0 and _file_extension is not null then
+		call updateHackerExtensionCount(_alias_id, _file_extension, _file_extension_count);
+	end if;
+	if _import_lang_ext is not null and 
+	   _import_name is not null and 
+	   _import_contributions is not null 
+    THEN
+    	call UpdateHackerImportCount(_md5, _import_name, _import_lang_ext, _import_contributions);
 	end if;
 END
 /MANGINA/
