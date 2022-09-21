@@ -70,12 +70,14 @@ BEGIN
 	end if;
 	if ifnull(_file_extension_count, -1) > 0 and _file_extension is not null then
 		call updateHackerExtensionCount(_alias_id, _file_extension, _file_extension_count);
+		call updateRepoExtensionCount(_repo_id, _file_extension, _file_extension_count);
 	end if;
 	if _import_lang_ext is not null and 
 	   _import_name is not null and 
 	   _import_contributions is not null 
     THEN
     	call UpdateHackerImportCount(_md5, _import_name, _import_lang_ext, _import_contributions);
+        call UpdateRepoImportCount(_repo_id, _import_name, _import_lang_ext, _import_contributions);
 	end if;
 END
 /MANGINA/
