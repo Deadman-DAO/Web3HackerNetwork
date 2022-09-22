@@ -7,6 +7,9 @@ import psutil
 import time
 from sys import argv
 
+monitored_thread_map = {}
+monitor_lock = Lock()
+
 
 def find_argv_param(key, default_val=None):
     ret_val = default_val
@@ -65,8 +68,6 @@ class MonitoredThread(object):
         self.tracker = None
 
 
-monitored_thread_map = {}
-monitor_lock = None
 
 
 def mem_info():

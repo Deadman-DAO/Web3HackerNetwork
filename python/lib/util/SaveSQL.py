@@ -3,6 +3,24 @@ import sys
 sys.path.append("../../python/lib")
 from db_dependent_class import DBDependent
 
+'''
+ToDo - capture scheduled events
+e.g.
+   create or replace event cleanup_hacker_update_queue on schedule every 1 HOUR 
+   DO truncate hacker_update_queue
+
+creates one information_schema.events record
+
+select event_name, event_type, interval_value, interval_field, event_definition from information_schema.events 
+produces:
+    cleanup_hacker_update_queue	RECURRING	1	HOUR	truncate hacker_update_queue
+    
+Note: "set global event_scheduler=ON" must be executed to enable the scheduler
+appended /etc/mysql/my.cfg with:
+[mariadb]
+event_scheduler=ON    
+ 
+'''
 
 class Param:
     def __init__(self, row):
