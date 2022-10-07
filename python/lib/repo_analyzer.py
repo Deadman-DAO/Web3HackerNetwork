@@ -175,6 +175,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.filename_blame_map = None
         self.blame_game_retriever = None
         self.method_list = [execute_analysis]
+        self.import_map_map = {}
 
     def register_process_method(self, method_pointer):
         self.method_list.append(method_pointer)
@@ -239,7 +240,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.commit_to_hacker_map = {}
         self.hacker_file_map = {}
         self.filename_blame_map = {}
-        for commit in self.numstat_json:
+        for commit in self.numstat:
             author = commit['Author']
             try:
                 author_md5 = hashlib.md5(author.encode('utf-8')).hexdigest()

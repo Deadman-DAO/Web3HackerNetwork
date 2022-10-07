@@ -48,7 +48,7 @@ class ChildProcessContainer(Thread):
         try:
             self.thread = threading.current_thread()
             if self.params:
-                self.run_method(self.params)
+                self.run_method(*self.params)
             else:
                 self.run_method()
         finally:
