@@ -25,11 +25,16 @@ class ChildProcessContainer(Thread):
 
     def wait_for_it(self, seconds):
         init_time = time.time()
-        self.wait_for_it_to_start(seconds)
+
+        if not self.thread or self.thread.is_alive():
+            self.wait_for_it_to_start(seconds)
+
         if not self.thread:
             raise StopIteration('ChildProcessContainer timed out waiting for thread to go "live"')
 
-        self.thread.join(seconds-(time.time()-init_time))
+        if self.thread.is_alive():
+            self.thread.join(seconds-(time.time()-init_time))
+
         return self.thread.is_alive()
 
     def stop(self):
