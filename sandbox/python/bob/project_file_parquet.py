@@ -18,7 +18,6 @@ def do_things(owner, repo_name, numstat_object, repo_path):
         #print(commit)
         for file_path in commit['file_list']:
             file_entry = commit['file_list'][file_path]
-            file_metadata = dict()
             if file_path in project_files:
                 file_metadata = project_files[file_path]
                 file_metadata['num_commits'] += 1
@@ -29,6 +28,7 @@ def do_things(owner, repo_name, numstat_object, repo_path):
                 file_metadata['total_inserts'] += file_entry['inserts']
                 file_metadata['total_deletes'] += file_entry['deletes']
             else:
+                file_metadata = dict()
                 file_metadata['num_commits'] = 1
                 file_metadata['first_commit_date'] = commit['Date']
                 file_metadata['last_commit_date'] = commit['Date']
@@ -39,17 +39,17 @@ def do_things(owner, repo_name, numstat_object, repo_path):
     unique_files = list(project_files.keys())
     unique_files.sort()
     #print(unique_files)
-    print("owner\trepo_name\tfile_path\tnum_commits"
-          +"\tfirst_commit_date\tlast_commit_date"
-          +"\ttotal_inserts\ttotal_deletes\tbinary")
-    for file_path in unique_files:
-        meta = project_files[file_path]
-        print(owner+"\t"+repo_name+"\t"+file_path
-              +"\t"+str(meta['num_commits'])
-              +"\t"+str(meta['first_commit_date'])
-              +"\t"+str(meta['last_commit_date'])
-              +"\t"+str(meta['total_inserts'])
-              +"\t"+str(meta['total_deletes'])
-              +"\t"+str(meta['binary']))
+    # print("owner\trepo_name\tfile_path\tnum_commits"
+    #       +"\tfirst_commit_date\tlast_commit_date"
+    #       +"\ttotal_inserts\ttotal_deletes\tbinary")
+    # for file_path in unique_files:
+    #     meta = project_files[file_path]
+    #     print(owner+"\t"+repo_name+"\t"+file_path
+    #           +"\t"+str(meta['num_commits'])
+    #           +"\t"+str(meta['first_commit_date'])
+    #           +"\t"+str(meta['last_commit_date'])
+    #           +"\t"+str(meta['total_inserts'])
+    #           +"\t"+str(meta['total_deletes'])
+    #           +"\t"+str(meta['binary']))
 
 do_things(owner, repo_name, numstat_object, repo_path)
