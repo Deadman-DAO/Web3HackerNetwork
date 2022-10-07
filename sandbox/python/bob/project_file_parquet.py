@@ -1,6 +1,8 @@
 import bz2
 import json
+import datetime
 
+print(datetime.datetime.now())
 owner = 'apache'
 repo_name = 'ant'
 repo_path = '../../data/bob/numstat/'+owner+'/'+repo_name
@@ -11,6 +13,7 @@ with open(numstat_path, 'rb') as r:
 
 numstat_str = bz2.decompress(numstat_raw)
 numstat_object = json.loads(numstat_str)
+print(datetime.datetime.now())
 
 def do_things(owner, repo_name, numstat_object, repo_path):
     project_files = dict()
@@ -22,7 +25,7 @@ def do_things(owner, repo_name, numstat_object, repo_path):
                 file_metadata = project_files[file_path]
                 file_metadata['num_commits'] += 1
                 if commit['Date'] < file_metadata['first_commit_date']:
-                    file_metadata['last_commit_date'] = commit['Date']
+                    file_metadata['first_commit_date'] = commit['Date']
                 if commit['Date'] > file_metadata['last_commit_date']:
                     file_metadata['last_commit_date'] = commit['Date']
                 file_metadata['total_inserts'] += file_entry['inserts']
@@ -38,18 +41,19 @@ def do_things(owner, repo_name, numstat_object, repo_path):
                 project_files[file_path] = file_metadata
     unique_files = list(project_files.keys())
     unique_files.sort()
-    #print(unique_files)
-    # print("owner\trepo_name\tfile_path\tnum_commits"
-    #       +"\tfirst_commit_date\tlast_commit_date"
-    #       +"\ttotal_inserts\ttotal_deletes\tbinary")
-    # for file_path in unique_files:
-    #     meta = project_files[file_path]
-    #     print(owner+"\t"+repo_name+"\t"+file_path
-    #           +"\t"+str(meta['num_commits'])
-    #           +"\t"+str(meta['first_commit_date'])
-    #           +"\t"+str(meta['last_commit_date'])
-    #           +"\t"+str(meta['total_inserts'])
-    #           +"\t"+str(meta['total_deletes'])
-    #           +"\t"+str(meta['binary']))
+    print(unique_files)
+    print("owner\trepo_name\tfile_path\tnum_commits"
+          +"\tfirst_commit_date\tlast_commit_date"
+          +"\ttotal_inserts\ttotal_deletes\tbinary")
+    for file_path in unique_files:
+        meta = project_files[file_path]
+        print(owner+"\t"+repo_name+"\t"+file_path
+              +"\t"+str(meta['num_commits'])
+              +"\t"+str(meta['first_commit_date'])
+              +"\t"+str(meta['last_commit_date'])
+              +"\t"+str(meta['total_inserts'])
+              +"\t"+str(meta['total_deletes'])
+              +"\t"+str(meta['binary']))
 
 do_things(owner, repo_name, numstat_object, repo_path)
+print(datetime.datetime.now())
