@@ -8,12 +8,13 @@ from monitor import timeit
 
 class ChildProcessContainer(Thread):
 
-    def __init__(self, managed_instance, proc_name, run_method=None):
+    def __init__(self, managed_instance, proc_name, run_method=None, method_params=None):
         self.thread = None
         super().__init__(target=self.run, daemon=False, name=proc_name)
         self.managed_instance = managed_instance
         self.run_method = run_method if run_method else managed_instance.main
         self.running = True
+        self.params = method_params
         self.start()
 
     @timeit
@@ -46,6 +47,9 @@ class ChildProcessContainer(Thread):
     def run(self):
         try:
             self.thread = threading.current_thread()
-            self.run_method()
+            if self.params:
+                self.run_method(self.params)
+            else:
+                self.run_method()
         finally:
             self.running = False
