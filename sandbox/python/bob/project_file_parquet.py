@@ -6,6 +6,12 @@ import hashlib
 import numpy as np
 import pyarrow as pa
 import pyarrow.parquet as pq
+import pyarrow.fs as fs
+
+filesystem = fs.FileSystem.from_uri("s3://numstat-bucket/")
+print(str(filesystem))
+print(str(filesystem[0]))
+print(str(filesystem[0].get_file_info("numstat-bucket/repo")))
 
 print(datetime.datetime.now())
 owner = 'apache'
@@ -114,7 +120,6 @@ def do_things(owner, repo_name, numstat_object, repo_path):
     pq.write_to_dataset(explicit_table,
                         root_path='repo_file',
                         partition_cols=['partition_key'])
-    
 
 do_things(owner, repo_name, numstat_object, repo_path)
 print(datetime.datetime.now())
