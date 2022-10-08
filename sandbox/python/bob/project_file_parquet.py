@@ -8,10 +8,6 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import pyarrow.fs as fs
 
-filesystem = fs.FileSystem.from_uri("s3://numstat-bucket/")
-print(str(filesystem))
-print(str(filesystem[0]))
-print(str(filesystem[0].get_file_info("numstat-bucket/repo")))
 
 print(datetime.datetime.now())
 owner = 'apache'
@@ -32,7 +28,7 @@ def synthetic_partition_key(owner, repo_name):
     synthetic_key = key_hash[slice(0, 2)]
     return synthetic_key
 
-def do_things(owner, repo_name, numstat_object, repo_path):
+def extract_repo_file_data(owner, repo_name, numstat_object):
     repo_files = dict()
     synthetic_key = synthetic_partition_key(owner, repo_name)
     for commit in numstat_object:
@@ -58,10 +54,13 @@ def do_things(owner, repo_name, numstat_object, repo_path):
                 file_metadata['total_deletes'] = file_entry['deletes']
                 file_metadata['binary'] = file_entry['binary']
                 repo_files[file_path] = file_metadata
+    return repo_files
+
+def create_table(repo_files):
     unique_files = list(repo_files.keys())
     unique_files.sort()
-    
     count = len(unique_files)
+    synthetic_key = synthetic_partition_key(owner, repo_name)
     partition_key_array = [synthetic_key for i in range(count)]
     owner_array = [owner for i in range(count)]
     repo_name_array = [repo_name for i in range(count)]
@@ -117,12 +116,27 @@ def do_things(owner, repo_name, numstat_object, repo_path):
     ]
     explicit_schema = pa.schema(explicit_fields)
     explicit_table = inferred_table.cast(explicit_schema)
-    pq.write_to_dataset(explicit_table,
-                        root_path='repo_file',
-                        partition_cols=['partition_key'])
+    return explicit_table
 
-do_things(owner, repo_name, numstat_object, repo_path)
+def update_repo_files_parquet(owner, repo_name, numstat_object, repo_path):
+    repo_files = extract_repo_file_data(owner, repo_name, numstat_object)
+    
+    table = create_table(repo_files)
+    
+    s3fs = fs.FileSystem.from_uri("s3://")[0]
+    pq.write_to_dataset(table,
+                        root_path='numstat-bucket/data_pipeline/raw/repo_file',
+                        partition_cols=['partition_key'],
+                        filesystem=s3fs)
+
+update_repo_files_parquet(owner, repo_name, numstat_object, repo_path)
 print(datetime.datetime.now())
 
 table = pq.read_table("repo_file")
 print(table.to_pandas())
+
+# to delete the file, I had to use the full path:
+# $ aws s3 rm s3://numstat-bucket/data_pipeline/raw/repo_file/partition_key=e3/10330317b031417c8ef039acff04b420-0.parquet
+# when I just used the partition_key=e3 dir, it did not delete
+# ... duh - recursive :D
+# $ aws s3 rm --recursive s3://numstat-bucket/data_pipeline/raw/repo_file/partition_key=e3/
