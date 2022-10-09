@@ -1,3 +1,7 @@
+import boto3
+import bz2
+
+
 class RepoGrabber:
     def __init__(self):
         self.s3r = boto3.resource('s3')
