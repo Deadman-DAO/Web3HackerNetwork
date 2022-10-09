@@ -1,17 +1,14 @@
 import boto3
 import ast
-import base64
 import bz2
 import hashlib
 import json
 import os
-import sys
 import traceback
 from abc import ABC, abstractmethod
 from threading import Lock
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 from monitor import timeit
-from signal_handler import SignalHandler
 from datetime import datetime as datingdays
 from child_process import ChildProcessContainer
 from minimum_dependency_processor import execute_analysis
@@ -68,7 +65,7 @@ class PythonAnalyzer(Analyzer):
                             else:
                                 print("Null value found within PythonAnalyzer import mapping: ", filename, ':', b.module, n.name, b.lineno, repo_dir)
 
-    def analyze(self, extension_map, filename_map, repo_dir,
+    def analyze(self, numstat_json, extension_map, filename_map, repo_dir,
                 import_map, commit_to_hacker_map):
         if 'py' in extension_map and extension_map['py'] > 0:
             for filename in filename_map:
@@ -91,55 +88,6 @@ class PythonAnalyzer(Analyzer):
                         except Exception as e:
                             print('Non-compilable (or pre-Python3) python code:', e)
                             traceback.print_exc()
-
-
-class BlameGameRetriever(SignalHandler):
-    def __init__(self, repo_dir, commit_author_map):
-        SignalHandler().__init__()
-        self.repo_dir = repo_dir
-        self.success = False
-        self.stdout = None
-        self.stderr = None
-        self.commit_author_map = commit_author_map
-        self.max_wait = 60
-
-    def get_blame_game(self, filename) -> dict:
-        hacker_contribution_map = {}
-        full_name = os.path.join(self.repo_dir, filename)
-        if not os.path.exists(full_name):
-            return None
-        cmd = ['nice',  'git', '-C', self.repo_dir, 'blame', '-l', filename]
-
-        if sys.platform == "win32":
-            # Take out the first element of the cmd array as windows isn't "nice"
-            cmd = cmd[1:]
-        self.success, self.stdout, self.stderr = self.execute_os_cmd(cmd)
-        if self.success is not None and self.success is True and self.stdout is not None:
-            line_count = 0.0
-            self.stdout = self.stdout.decode('utf-8')
-            for line in self.stdout.split('\n'):
-                words = line.split(' ')
-                if len(words) > 0 and len(words[0]) == 40:
-                    line_count += 1
-                    who_when_line = line[42:].split(')')[0]
-                    items = who_when_line.split(' ')
-                    if len(items) > 4:
-                        line = int(items[len(items) - 1])
-                        if words[0] in self.commit_author_map:
-                            # commit hash found in commit_author_map
-                            # retrieving author's md5sum
-                            author_hash = self.commit_author_map[words[0]]
-                            if author_hash not in hacker_contribution_map:
-                                hacker_contribution_map[author_hash] = 0
-                            hacker_contribution_map[author_hash] += 1
-            for key in hacker_contribution_map:
-                hacker_contribution_map[key] = hacker_contribution_map[key] / (line_count if line_count > 0 else 1.0)
-            return hacker_contribution_map
-
-'''
-ae0f28169a3da4300d6bf66a24fcfb9d6ff9df86 (enigmatt 2022-06-11 13:03:16 -0700 188)     RepoAnalyzer(web_lock=Lock()).main()
-1234567890123456789012345678901234567890
-'''
 
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
@@ -251,30 +199,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 author_md5 = hashlib.md5(b).hexdigest()
             if author_md5 not in self.hacker_extension_map:
                 self.hacker_extension_map[author_md5] = {}
-                self.hacker_md5_map[author_md5] = author
+                self.hacker_name_map[author_md5] = author
                 self.hacker_file_map[author_md5] = {}
-            commit_id = commit['commit']
-            if commit_id not in self.commit_to_hacker_map:
-                self.commit_to_hacker_map[commit_id] = author_md5  # Are there ever more than one author per commit?
-            for key, val in commit['file_list'].items():
-                is_binary = val['binary']
-                array = key.split('.')
-                extension = array[len(array)-1]
-                if extension in commit['fileTypes']:
-                    add_int_to_map(self.hacker_extension_map[author_md5], extension, 1)
-                    add_int_to_map(self.extension_map, extension, 1)
-                    if is_binary == 0:
-                        self.hacker_file_map[author_md5][key] = 1
-                        self.filename_blame_map[key] = 1
-        self.blame_game_retriever = BlameGameRetriever(self.repo_dir, self.commit_to_hacker_map)
-        target_map = {}
-        for key in self.filename_blame_map:
-            target_map[key] = self.blame_game_retriever.get_blame_game(key)
-
-
-    @timeit
-    def blame_all_non_binary_files(self, root_dir, commit_auth_map) -> BlameGameRetriever :
-        bgr = BlameGameRetriever()
 
     @timeit
     def prepare_sql_params(self):
@@ -313,21 +239,13 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
                 # Do the same work we wore doing previously
                 # First iterate through the list of language-specific analyzers
-                self.parse_json()  # populates
-                for ext, analysis in self.analysis_map.items():
-                    self.import_map_map[ext] = {}
-                    analysis.analyze(self.extension_map,          # Extension -> count map
-                                     self.filename_map,           # Filename -> count map
-                                     self.repo_dir,               # Repo directory
-                                     self.import_map_map[ext],    # New Import map for this extension
-                                     # - analyze will add to this map
-                                     self.commit_to_hacker_map)   # Author lookup map via commit ID (for BlameGame)
-                    # - provided by parse_json()
+                self.parse_json()  # populates analysis_map
                 # Now build the parameters for the SQL call
                 self.prepare_sql_params()
 
                 # Join up with all the child processes
                 for kid in kid_list:
+                    print('Joining with child process: ', str(kid))
                     if kid.wait_for_it(60):
                         # We need something more graceful here, but for now, just kill and print a message
                         kid.kill()

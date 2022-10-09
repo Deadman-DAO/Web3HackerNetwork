@@ -1,6 +1,6 @@
 import boto3
 import bz2
-
+import json
 
 class RepoGrabber:
     def __init__(self):
