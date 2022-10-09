@@ -4,10 +4,15 @@ import datetime
 import dateutil.parser
 import hashlib
 import numpy as np
+import os
 import pyarrow as pa
 import pyarrow.parquet as pq
-import pyarrow.fs as fs
+import pyarrow.fs as pafs
 
+home_dir = os.path.expanduser("~")
+aws_credentials_path = home_dir+"/.aws/credentials"
+raw_path = "numstat-bucket/data_pipeline/raw"
+repo_file_path = raw_path+"/repo_file"
 
 print(datetime.datetime.now())
 owner = 'apache'
@@ -118,16 +123,31 @@ def create_table(repo_files):
     explicit_table = inferred_table.cast(explicit_schema)
     return explicit_table
 
-def update_repo_files_parquet(owner, repo_name, numstat_object, repo_path):
-    repo_files = extract_repo_file_data(owner, repo_name, numstat_object)
-    
-    table = create_table(repo_files)
-    
-    s3fs = fs.FileSystem.from_uri("s3://")[0]
+def update_parquet(owner, repo_name, table):
+    s3fs = pafs.S3FileSystem(access_key=enigmatt_access_key,
+                             secret_key=enigmatt_secret_key)
+    partition_key = synthetic_partition_key(owner, repo_name)
+    partition_path = repo_file_path+"/partition_key="+partition_key+"/"
+    # s3fs = fs.FileSystem.from_uri("s3://")[0]
+    # load existing dataset
+    dataset = pq.ParquetDataset(partition_path,
+                                filesystem=s3fs,
+                                partitioning="hive")
+    # select from existing where (owner != owner or repo_name != repo_name)
+    # append to table
+    # delete existing partition from S3
+    s3fs.delete_dir(partition_path)
+    # write merged partition dataset to S3
     pq.write_to_dataset(table,
                         root_path='numstat-bucket/data_pipeline/raw/repo_file',
                         partition_cols=['partition_key'],
                         filesystem=s3fs)
+
+def update_repo_files_parquet(owner, repo_name, numstat_object, repo_path):
+    repo_files = extract_repo_file_data(owner, repo_name, numstat_object)
+    table = create_table(repo_files)
+    update_parquet(owner, repo_name, table)
+    
 
 update_repo_files_parquet(owner, repo_name, numstat_object, repo_path)
 print(datetime.datetime.now())
