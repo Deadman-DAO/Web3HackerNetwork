@@ -43,7 +43,8 @@ def process_item( item, object_entry_point ):
         else:
             sub_key = obj['key']
             field_array = obj['field_array']
-            process_item(field_array, object_entry_point[sub_key])
+            process_item(obj, object_entry_point[key])
+
 
 def execute_analysis(owner=None, repo_name=None, numstat=None, repo_path=None):
     clone = list(entry)
