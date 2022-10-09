@@ -5,12 +5,14 @@ from repo_cloner import RepoCloner;
 from repo_numstat_gatherer import RepoNumstatGatherer
 import faulthandler
 import signal
+import sys
 
 
 class ScalableRepoTasks(MultiprocessManager):
     def __init__(self):
         MultiprocessManager.__init__(self)
-        faulthandler.register(signal.SIGUSR1)
+        if sys.platform != "win32":
+            faulthandler.register(signal.SIGUSR1)
 
     def get_process_list(self):
         return {'clone': RepoCloner,
