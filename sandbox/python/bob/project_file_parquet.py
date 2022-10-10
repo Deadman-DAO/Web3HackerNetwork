@@ -1,34 +1,27 @@
-import configparser
 import datetime
 import dateutil.parser
 import duckdb
 import hashlib
 import numpy as np
-import os
 import pyarrow as pa
 import pyarrow.parquet as pq
-import pyarrow.fs as pafs
 import sys
 
 sys.path.append("../../../python/lib")
 from aws_util import S3Util
 
-# home_dir = os.path.expanduser("~")
-# aws_credentials_path = home_dir+"/.aws/credentials"
-# raw_path = "numstat-bucket/data_pipeline/raw"
 bucket = "numstat-bucket"
 raw_path = "data_pipeline/raw"
 repo_file_path = raw_path+"/repo_file"
 
-print(datetime.datetime.now())
 owner = 'apache'
 repo_name = 'ant'
 # owner = 'cilium'
 # repo_name = 'cilium'
 
+print(datetime.datetime.now())
 s3_util = S3Util(profile="enigmatt")
 numstat_object = s3_util.get_numstat(owner, repo_name)
-
 print(datetime.datetime.now())
 
 def synthetic_partition_key(owner, repo_name):
@@ -41,7 +34,6 @@ def extract_repo_file_data(owner, repo_name, numstat_object):
     repo_files = dict()
     synthetic_key = synthetic_partition_key(owner, repo_name)
     for commit in numstat_object:
-        #print(commit)
         commit_date = dateutil.parser.isoparse(commit['Date'])
         for file_path in commit['file_list']:
             file_entry = commit['file_list'][file_path]
@@ -118,8 +110,8 @@ def create_table(repo_files):
         pa.field("repo_name", pa.string()),
         pa.field("file_path", pa.string()),
         pa.field("num_commits", pa.int64()),
-        pa.field("first_commit_date", pa.timestamp('us', tz='UTC')),#+00:00')),
-        pa.field("last_commit_date", pa.timestamp('us', tz='UTC')),#+00:00')),
+        pa.field("first_commit_date", pa.timestamp('us', tz='UTC')),
+        pa.field("last_commit_date", pa.timestamp('us', tz='UTC')),
         pa.field("total_inserts", pa.int64()),
         pa.field("total_deletes", pa.int64()),
         pa.field("binary", pa.int8()),
@@ -129,23 +121,12 @@ def create_table(repo_files):
     explicit_table = inferred_table.cast(explicit_schema)
     return explicit_table
 
-# def get_s3fs():
-#     credentials = configparser.ConfigParser()
-#     credentials.read(filenames=[aws_credentials_path])
-#     enigmatt_access_key = credentials.get("enigmatt", "aws_access_key_id")
-#     enigmatt_secret_key = credentials.get("enigmatt", "aws_secret_access_key")
-#     s3fs = pafs.S3FileSystem(access_key=enigmatt_access_key,
-#                              secret_key=enigmatt_secret_key)
-#     return s3fs
-
 def merge_existing(owner, repo_name, table):
     partition_key = synthetic_partition_key(owner, repo_name)
     legacy_dataset = pq.ParquetDataset(bucket + "/" + repo_file_path,
                                        filesystem=s3_util.pyarrow_fs(),
                                        partitioning="hive")
     legacy_table = legacy_dataset.read()
-    #print(str(legacy_table.to_pandas()))
-    
     sql = f"""SELECT *
                FROM legacy_table
                WHERE partition_key = '{partition_key}'
@@ -156,12 +137,6 @@ def merge_existing(owner, repo_name, table):
                  )"""
     duck_conn = duckdb.connect()
     other_repos_table = duck_conn.execute(sql).arrow()
-    print("other repos dataset:")
-    print(str(other_repos_table.to_pandas()))
-    print("this repo dataset:")
-    print(str(table.to_pandas()))
-    # die die die my darling
-    # append to table
     merged_table = pa.concat_tables([other_repos_table, table], promote=False)
     merged_table = merged_table.sort_by([('owner','ascending'),
                                          ('repo_name','ascending'),
@@ -171,16 +146,11 @@ def merge_existing(owner, repo_name, table):
 def update_parquet(owner, repo_name, table):
     s3fs = s3_util.pyarrow_fs()
     partition_key = synthetic_partition_key(owner, repo_name)
-    # load existing dataset
     partition_path = repo_file_path+f"/partition_key={partition_key}"
     if s3_util.path_exists(partition_path):
         print(f'Found existing dataset at {partition_path}')
         table = merge_existing(owner, repo_name, table)
         s3fs.delete_dir(f'{bucket}/{partition_path}')
-    else:
-        print(f'No existing dataset at {partition_path}, writing this:')
-        print(str(table.to_pandas()))
-    # write partition dataset to S3
     pq.write_to_dataset(table,
                         root_path='numstat-bucket/data_pipeline/raw/repo_file',
                         partition_cols=['partition_key'],
@@ -189,26 +159,18 @@ def update_parquet(owner, repo_name, table):
 def update_repo_files_parquet(owner, repo_name, numstat_object, repo_path="ignored"):
     repo_files = extract_repo_file_data(owner, repo_name, numstat_object)
     table = create_table(repo_files)
-    #print(str(table.to_pandas()))
     update_parquet(owner, repo_name, table)
 
 
 update_repo_files_parquet(owner, repo_name, numstat_object)
 print(datetime.datetime.now())
 
-s3fs = s3_util.pyarrow_fs()
-# duck_conn = duckdb.connect()
-legacy_dataset = pq.ParquetDataset(f'{bucket}/{repo_file_path}',
-                                   filesystem=s3fs,
-                                   partitioning="hive")
-legacy_table = legacy_dataset.read()#to_table()
+# s3fs = s3_util.pyarrow_fs()
+# legacy_dataset = pq.ParquetDataset(f'{bucket}/{repo_file_path}',
+#                                    filesystem=s3fs,
+#                                    partitioning="hive")
+# legacy_table = legacy_dataset.read()#to_table()
 
-print()
-print("What Was Written:")
-print(legacy_table.to_pandas())
-
-# to delete the file, I had to use the full path:
-# $ aws s3 rm s3://numstat-bucket/data_pipeline/raw/repo_file/partition_key=e3/10330317b031417c8ef039acff04b420-0.parquet
-# when I just used the partition_key=e3 dir, it did not delete
-# ... duh - recursive :D
-# $ aws s3 rm --recursive s3://numstat-bucket/data_pipeline/raw/repo_file/partition_key=e3/
+# print()
+# print("What Was Written:")
+# print(legacy_table.to_pandas())
