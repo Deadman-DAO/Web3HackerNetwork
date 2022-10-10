@@ -10,11 +10,11 @@ import pyarrow.parquet as pq
 import pyarrow.fs as pafs
 import sys
 
-sys.path.append("../matt/")
-from repo_grabber import RepoGrabber
+sys.path.append("../../../python/lib")
+from aws_util import S3Util
 
-home_dir = os.path.expanduser("~")
-aws_credentials_path = home_dir+"/.aws/credentials"
+# home_dir = os.path.expanduser("~")
+# aws_credentials_path = home_dir+"/.aws/credentials"
 raw_path = "numstat-bucket/data_pipeline/raw"
 repo_file_path = raw_path+"/repo_file"
 
@@ -25,7 +25,8 @@ repo_name = 'ant'
 owner = 'cilium'
 repo_name = 'cilium'
 
-numstat_object = RepoGrabber().get_numstat(owner, repo_name)
+s3_util = S3Util(profile="enigmatt")
+numstat_object = s3_util.get_numstat(owner, repo_name)
 
 print(datetime.datetime.now())
 
@@ -127,14 +128,14 @@ def create_table(repo_files):
     explicit_table = inferred_table.cast(explicit_schema)
     return explicit_table
 
-def get_s3fs():
-    credentials = configparser.ConfigParser()
-    credentials.read(filenames=[aws_credentials_path])
-    enigmatt_access_key = credentials.get("enigmatt", "aws_access_key_id")
-    enigmatt_secret_key = credentials.get("enigmatt", "aws_secret_access_key")
-    s3fs = pafs.S3FileSystem(access_key=enigmatt_access_key,
-                             secret_key=enigmatt_secret_key)
-    return s3fs
+# def get_s3fs():
+#     credentials = configparser.ConfigParser()
+#     credentials.read(filenames=[aws_credentials_path])
+#     enigmatt_access_key = credentials.get("enigmatt", "aws_access_key_id")
+#     enigmatt_secret_key = credentials.get("enigmatt", "aws_secret_access_key")
+#     s3fs = pafs.S3FileSystem(access_key=enigmatt_access_key,
+#                              secret_key=enigmatt_secret_key)
+#     return s3fs
 
 def read_partition_dataset(owner, repo_name, s3fs):
     partition_key = synthetic_partition_key(owner, repo_name)
@@ -145,7 +146,7 @@ def read_partition_dataset(owner, repo_name, s3fs):
     return dataset
 
 def update_parquet(owner, repo_name, table):
-    s3fs = get_s3fs()
+    s3fs = s3_util.pyarrow_fs()
     duck_conn = duckdb.connect()
     partition_key = synthetic_partition_key(owner, repo_name)
     partition_path = repo_file_path
