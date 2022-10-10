@@ -15,15 +15,16 @@ from aws_util import S3Util
 
 # home_dir = os.path.expanduser("~")
 # aws_credentials_path = home_dir+"/.aws/credentials"
-raw_path = "numstat-bucket/data_pipeline/raw"
+# raw_path = "numstat-bucket/data_pipeline/raw"
+bucket = "numstat-bucket"
+raw_path = "data_pipeline/raw"
 repo_file_path = raw_path+"/repo_file"
 
 print(datetime.datetime.now())
 owner = 'apache'
 repo_name = 'ant'
-#repo_name = 'kafka'
-owner = 'cilium'
-repo_name = 'cilium'
+# owner = 'cilium'
+# repo_name = 'cilium'
 
 s3_util = S3Util(profile="enigmatt")
 numstat_object = s3_util.get_numstat(owner, repo_name)
@@ -137,34 +138,23 @@ def create_table(repo_files):
 #                              secret_key=enigmatt_secret_key)
 #     return s3fs
 
-def read_partition_dataset(owner, repo_name, s3fs):
+def merge_existing(owner, repo_name, table):
     partition_key = synthetic_partition_key(owner, repo_name)
-    partition_path = repo_file_path
-    dataset = pq.ParquetDataset(partition_path,
-                                filesystem=s3fs,
-                                partitioning="hive")
-    return dataset
-
-def update_parquet(owner, repo_name, table):
-    s3fs = s3_util.pyarrow_fs()
-    duck_conn = duckdb.connect()
-    partition_key = synthetic_partition_key(owner, repo_name)
-    partition_path = repo_file_path
-    # s3fs = fs.FileSystem.from_uri("s3://")[0]
-    # load existing dataset
-    legacy_dataset = read_partition_dataset(owner, repo_name, s3fs)
-    legacy_table = legacy_dataset.read()#to_table()
+    legacy_dataset = pq.ParquetDataset(bucket + "/" + repo_file_path,
+                                       filesystem=s3_util.pyarrow_fs(),
+                                       partitioning="hive")
+    legacy_table = legacy_dataset.read()
     #print(str(legacy_table.to_pandas()))
     
-    # select from existing where (owner != owner or repo_name != repo_name)
     sql = f"""SELECT *
-                FROM legacy_table
-                WHERE partition_key = '{partition_key}'
-                  AND (
-                    owner != '{owner}'
-                    OR
-                    repo_name != '{repo_name}'
-                  )"""
+               FROM legacy_table
+               WHERE partition_key = '{partition_key}'
+                 AND (
+                   owner != '{owner}'
+                   OR
+                   repo_name != '{repo_name}'
+                 )"""
+    duck_conn = duckdb.connect()
     other_repos_table = duck_conn.execute(sql).arrow()
     print("other repos dataset:")
     print(str(other_repos_table.to_pandas()))
@@ -176,10 +166,22 @@ def update_parquet(owner, repo_name, table):
     merged_table = merged_table.sort_by([('owner','ascending'),
                                          ('repo_name','ascending'),
                                          ('file_path','ascending')])
-    # delete existing partition from S3
-    s3fs.delete_dir(partition_path)
-    # write merged partition dataset to S3
-    pq.write_to_dataset(merged_table,
+    return merged_table
+
+def update_parquet(owner, repo_name, table):
+    s3fs = s3_util.pyarrow_fs()
+    partition_key = synthetic_partition_key(owner, repo_name)
+    # load existing dataset
+    partition_path = repo_file_path+f"/partition_key={partition_key}"
+    if s3_util.path_exists(partition_path):
+        print(f'Found existing dataset at {partition_path}')
+        table = merge_existing(owner, repo_name, table)
+        s3fs.delete_dir(f'{bucket}/{partition_path}')
+    else:
+        print(f'No existing dataset at {partition_path}, writing this:')
+        print(str(table.to_pandas()))
+    # write partition dataset to S3
+    pq.write_to_dataset(table,
                         root_path='numstat-bucket/data_pipeline/raw/repo_file',
                         partition_cols=['partition_key'],
                         filesystem=s3fs)
@@ -194,9 +196,11 @@ def update_repo_files_parquet(owner, repo_name, numstat_object, repo_path="ignor
 update_repo_files_parquet(owner, repo_name, numstat_object)
 print(datetime.datetime.now())
 
-s3fs = get_s3fs()
-duck_conn = duckdb.connect()
-legacy_dataset = read_partition_dataset(owner, repo_name, s3fs)
+s3fs = s3_util.pyarrow_fs()
+# duck_conn = duckdb.connect()
+legacy_dataset = pq.ParquetDataset(f'{bucket}/{repo_file_path}',
+                                   filesystem=s3fs,
+                                   partitioning="hive")
 legacy_table = legacy_dataset.read()#to_table()
 
 print()
