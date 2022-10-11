@@ -1,7 +1,7 @@
 import datetime
 import dateutil.parser
 import duckdb
-import hashlib
+# import hashlib
 import numpy as np
 import pyarrow as pa
 import pyarrow.parquet as pq
@@ -9,6 +9,7 @@ import sys
 
 sys.path.append("../../../python/lib")
 from aws_util import S3Util
+import parquet_util as pq_util
 
 bucket = "numstat-bucket"
 raw_path = "data_pipeline/raw"
@@ -19,16 +20,16 @@ repo_file_path = raw_path+"/repo_file"
 # owner = 'cilium'
 # repo_name = 'cilium'
 
-def synthetic_partition_key(owner, repo_name):
-    partition_name = f'{owner}\t{repo_name}'
-    print(f'Partition Name: {partition_name}')
-    key_hash = hashlib.md5(partition_name.encode('utf-8')).hexdigest()
-    synthetic_key = key_hash[slice(0, 2)]
-    return synthetic_key
+# def synthetic_partition_key(owner, repo_name):
+#     partition_name = f'{owner}\t{repo_name}'
+#     print(f'Partition Name: {partition_name}')
+#     key_hash = hashlib.md5(partition_name.encode('utf-8')).hexdigest()
+#     synthetic_key = key_hash[slice(0, 2)]
+#     return synthetic_key
 
 def extract_repo_file_data(owner, repo_name, numstat_object):
     repo_files = dict()
-    synthetic_key = synthetic_partition_key(owner, repo_name)
+    synthetic_key = pq_util.repo_partition_key(owner, repo_name)
     for commit in numstat_object:
         commit_date = dateutil.parser.isoparse(commit['Date'])
         for file_path in commit['file_list']:
@@ -57,7 +58,7 @@ def create_table(repo_files, owner, repo_name):
     unique_files = list(repo_files.keys())
     unique_files.sort()
     count = len(unique_files)
-    synthetic_key = synthetic_partition_key(owner, repo_name)
+    synthetic_key = pq_util.repo_partition_key(owner, repo_name)
     partition_key_array = [synthetic_key for i in range(count)]
     owner_array = [owner for i in range(count)]
     repo_name_array = [repo_name for i in range(count)]
@@ -118,7 +119,7 @@ def create_table(repo_files, owner, repo_name):
     return explicit_table
 
 def merge_existing(owner, repo_name, table):
-    partition_key = synthetic_partition_key(owner, repo_name)
+    partition_key = pq_util.repo_partition_key(owner, repo_name)
     legacy_dataset = pq.ParquetDataset(bucket + "/" + repo_file_path,
                                        filesystem=s3_util.pyarrow_fs(),
                                        partitioning="hive")
@@ -141,7 +142,7 @@ def merge_existing(owner, repo_name, table):
 
 def update_parquet(owner, repo_name, table):
     s3fs = s3_util.pyarrow_fs()
-    partition_key = synthetic_partition_key(owner, repo_name)
+    partition_key = pq_util.repo_partition_key(owner, repo_name)
     partition_path = repo_file_path+f"/partition_key={partition_key}"
     if s3_util.path_exists(partition_path):
         print(f'Found existing dataset at {partition_path}')
@@ -166,7 +167,7 @@ def create_multiple_repo_files_parquet(numstat_path_list):
         owner = tail[slice(0,tail.index('/'))]
         tail = tail[slice(tail.index('/') + 1, len(tail))]
         repo_name = tail[slice(0,tail.index('/'))]
-        partition_key = synthetic_partition_key(owner, repo_name)
+        partition_key = pq_util.repo_partition_key(owner, repo_name)
         if partition_key not in partitions:
             partitions[partition_key] = list()
         partitions[partition_key].append(f'{owner}\t{repo_name}')
@@ -189,10 +190,10 @@ def create_multiple_repo_files_parquet(numstat_path_list):
             except:
                 None # broken nusmtat, skip this repo
         root_path = 'numstat-bucket/data_pipeline/raw/repo_file'
-        pq.write_to_dataset(table,
-                            root_path=root_path,
-                            partition_cols=['partition_key'],
-                            filesystem=s3fs)
+        # pq.write_to_dataset(table,
+        #                     root_path=root_path,
+        #                     partition_cols=['partition_key'],
+        #                     filesystem=s3fs)
 
 # print(datetime.datetime.now())
 # s3_util = S3Util(profile="enigmatt")
