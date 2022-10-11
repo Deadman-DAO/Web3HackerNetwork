@@ -14,19 +14,15 @@ bucket = "numstat-bucket"
 raw_path = "data_pipeline/raw"
 repo_file_path = raw_path+"/repo_file"
 
-owner = 'apache'
-repo_name = 'ant'
+# owner = 'apache'
+# repo_name = 'ant'
 # owner = 'cilium'
 # repo_name = 'cilium'
 
-print(datetime.datetime.now())
-s3_util = S3Util(profile="enigmatt")
-numstat_object = s3_util.get_numstat(owner, repo_name)
-print(datetime.datetime.now())
-
 def synthetic_partition_key(owner, repo_name):
-    partition_key = owner + "\t" + repo_name
-    key_hash = hashlib.md5(partition_key.encode('utf-8')).hexdigest()
+    partition_name = f'{owner}\t{repo_name}'
+    print(f'Partition Name: {partition_name}')
+    key_hash = hashlib.md5(partition_name.encode('utf-8')).hexdigest()
     synthetic_key = key_hash[slice(0, 2)]
     return synthetic_key
 
@@ -57,7 +53,7 @@ def extract_repo_file_data(owner, repo_name, numstat_object):
                 repo_files[file_path] = file_metadata
     return repo_files
 
-def create_table(repo_files):
+def create_table(repo_files, owner, repo_name):
     unique_files = list(repo_files.keys())
     unique_files.sort()
     count = len(unique_files)
@@ -158,12 +154,61 @@ def update_parquet(owner, repo_name, table):
 
 def update_repo_files_parquet(owner, repo_name, numstat_object, repo_path="ignored"):
     repo_files = extract_repo_file_data(owner, repo_name, numstat_object)
-    table = create_table(repo_files)
+    table = create_table(repo_files, owner, repo_name)
     update_parquet(owner, repo_name, table)
 
+def create_multiple_repo_files_parquet(numstat_path_list):
+    partitions = dict()
+    s3_util = S3Util(profile="enigmatt")
+    s3fs = s3_util.pyarrow_fs()
+    for path in numstat_path_list:
+        tail = path[slice(path.index('/') + 1, len(path))]
+        owner = tail[slice(0,tail.index('/'))]
+        tail = tail[slice(tail.index('/') + 1, len(tail))]
+        repo_name = tail[slice(0,tail.index('/'))]
+        partition_key = synthetic_partition_key(owner, repo_name)
+        if partition_key not in partitions:
+            partitions[partition_key] = list()
+        partitions[partition_key].append(f'{owner}\t{repo_name}')
+    for partition_key in partitions:
+        repo_keys = partitions[partition_key]
+        print(f'{partition_key}: '+str(len(repo_keys)))
+        table = None
+        for repo_key in repo_keys:
+            owner = repo_key[slice(0,repo_key.index('\t'))]
+            repo_name = repo_key[slice(repo_key.index('\t') + 1, len(repo_key))]
+            print(f'{owner}\t{repo_name}')
+            try:
+                numstat_object = s3_util.get_numstat(owner, repo_name)
+                repo_files = extract_repo_file_data(owner, repo_name, numstat_object)
+                if table == None:
+                    table = create_table(repo_files, owner, repo_name)
+                else:
+                    new_table = create_table(repo_files, owner, repo_name)
+                    table = pa.concat_tables([table, new_table], promote=False)
+            except:
+                None # broken nusmtat, skip this repo
+        root_path = 'numstat-bucket/data_pipeline/raw/repo_file'
+        pq.write_to_dataset(table,
+                            root_path=root_path,
+                            partition_cols=['partition_key'],
+                            filesystem=s3fs)
 
-update_repo_files_parquet(owner, repo_name, numstat_object)
-print(datetime.datetime.now())
+# print(datetime.datetime.now())
+# s3_util = S3Util(profile="enigmatt")
+# numstat_object = s3_util.get_numstat(owner, repo_name)
+# print(datetime.datetime.now())
+# update_repo_files_parquet(owner, repo_name, numstat_object)
+# print(datetime.datetime.now())
+
+numstat_path_list = list()
+with open('numstat-sorted.log', 'r') as f:
+    for line in f.readlines():
+        line = line.strip()
+        tail = line[slice(line.index('\t') + 1, len(line))]
+        numstat_path_list.append(tail)
+update_slice = slice(len(numstat_path_list) - 20000, len(numstat_path_list))
+create_multiple_repo_files_parquet(numstat_path_list[update_slice])
 
 # s3fs = s3_util.pyarrow_fs()
 # legacy_dataset = pq.ParquetDataset(f'{bucket}/{repo_file_path}',
