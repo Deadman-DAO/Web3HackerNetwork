@@ -11,12 +11,13 @@ import parquet_util as pq_util
 class FileHackerParquet:
     def update_repo(owner, repo_name, numstat_object, repo_path="ignored"):
         rfp = FileHackerParquet()
+        live_table = rfp.load_existing(owner, repo_name)
         raw_dataset = rfp.extract_data(owner,
                                        repo_name,
                                        numstat_object)
-        table = rfp.create_table(raw_dataset, owner, repo_name)
-        print(str(table.to_pandas()))
-        rfp.update_parquet(owner, repo_name, table)
+        new_table = rfp.create_table(raw_dataset, owner, repo_name)
+        merged_table = rfp.merge(owner, repo_name, live_table, new_table)
+        rfp.write_parquet(owner, repo_name, merged_table)
 
     def __init__(self,
                  aws_profile='w3hn-admin',
@@ -132,40 +133,50 @@ class FileHackerParquet:
         explicit_table = inferred_table.cast(explicit_schema)
         return explicit_table
 
-    def merge_existing(self, owner, repo_name, table):
-        partition_key = pq_util.repo_partition_key(owner, repo_name)
-        bucket_path = f'{self.bucket}/{self.dataset_path}'
-        legacy_dataset = pq.ParquetDataset(bucket_path,
-                                           filesystem=self.s3_util.pyarrow_fs(),
-                                           partitioning="hive")
-        legacy_table = legacy_dataset.read()
-        sql = f"""SELECT *
-                   FROM legacy_table
-                   WHERE partition_key = '{partition_key}'
-                     AND (
-                       owner != '{owner}'
-                       OR
-                       repo_name != '{repo_name}'
-                     )"""
-        duck_conn = duckdb.connect()
-        other_repos_table = duck_conn.execute(sql).arrow()
-        merged_table = pa.concat_tables([other_repos_table, table],
-                                        promote=False)
-        merged_table = merged_table.sort_by([('owner','ascending'),
-                                             ('repo_name','ascending'),
-                                             ('file_path','ascending')])
-        print(str(merged_table.to_pandas()))
-        return merged_table
-
-    def update_parquet(self, owner, repo_name, table):
-        s3fs = self.s3_util.pyarrow_fs()
+    def load_existing(self, owner, repo_name):
         partition_key = pq_util.repo_partition_key(owner, repo_name)
         partition_path = f'{self.dataset_path}/partition_key={partition_key}'
         if self.s3_util.path_exists(partition_path):
             print(f'Found existing dataset at {partition_path}')
-            table = self.merge_existing(owner, repo_name, table)
-            s3fs.delete_dir(f'{self.bucket}/{partition_path}')
+            partition_key = pq_util.repo_partition_key(owner, repo_name)
+            bucket_path = f'{self.bucket}/{self.dataset_path}'
+            fs = self.s3_util.pyarrow_fs()
+            legacy_dataset = pq.ParquetDataset(bucket_path,
+                                               filesystem=fs,
+                                               partitioning="hive")
+            return legacy_dataset.read()
+        else:
+            return None
+
+    def merge(self, owner, repo_name, live_table, new_table):
+        if live_table == None:
+            return new_table
+        else:
+            partition_key = pq_util.repo_partition_key(owner, repo_name)
+            sql = f"""SELECT *
+                       FROM live_table
+                       WHERE partition_key = '{partition_key}'
+                         AND (
+                           owner != '{owner}'
+                           OR
+                           repo_name != '{repo_name}'
+                         )"""
+            duck_conn = duckdb.connect()
+            other_table = duck_conn.execute(sql).arrow()
+            merged_table = pa.concat_tables([other_table, new_table],
+                                            promote=False)
+            merged_table = merged_table.sort_by([('owner','ascending'),
+                                                 ('repo_name','ascending'),
+                                                 ('file_path','ascending')])
+            return merged_table
+
+    def write_parquet(self, owner, repo_name, table):
+        s3fs = self.s3_util.pyarrow_fs()
         bucket_path = f'{self.bucket}/{self.dataset_path}'
+        partition_key = pq_util.repo_partition_key(owner, repo_name)
+        partition_path = f'{self.dataset_path}/partition_key={partition_key}'
+        s3fs.delete_dir(f'{self.bucket}/{partition_path}')
+        print(str(table.to_pandas()))
         pq.write_to_dataset(table,
                             root_path=bucket_path,
                             partition_cols=['partition_key'],
