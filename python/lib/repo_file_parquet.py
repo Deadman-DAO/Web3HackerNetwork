@@ -1,5 +1,6 @@
 import datetime
 import dateutil.parser
+import duckdb
 import numpy as np
 import pyarrow as pa
 import pyarrow.parquet as pq
@@ -8,10 +9,18 @@ from aws_util import S3Util
 import parquet_util as pq_util
 
 class RepoFileParquet:
+    def update_repo(owner, repo_name, numstat_object, repo_path="ignored"):
+        rfp = RepoFileParquet()
+        repo_files = rfp.extract_repo_file_data(owner,
+                                                 repo_name,
+                                                 numstat_object)
+        table = rfp.create_table(repo_files, owner, repo_name)
+        rfp.update_parquet(owner, repo_name, table)
+
     def __init__(self,
                  aws_profile='w3hn-admin',
                  bucket='deadmandao',
-                 raw_path='data_pipeline/raw'):
+                 raw_path='web3hackernetwork/data_pipeline/raw'):
         self.s3_util = S3Util(profile=aws_profile, bucket_name=bucket)
         self.bucket = bucket
         self.raw_path = raw_path
@@ -108,10 +117,14 @@ class RepoFileParquet:
         explicit_table = inferred_table.cast(explicit_schema)
         return explicit_table
 
-    def merge_existing(owner, repo_name, table):
+        self.bucket = bucket
+        self.raw_path = raw_path
+        self.repo_file_path = self.raw_path+'/repo_file'
+    def merge_existing(self, owner, repo_name, table):
         partition_key = pq_util.repo_partition_key(owner, repo_name)
-        legacy_dataset = pq.ParquetDataset(bucket + "/" + repo_file_path,
-                                           filesystem=s3_util.pyarrow_fs(),
+        bucket_path = f'{self.bucket}/{self.repo_file_path}'
+        legacy_dataset = pq.ParquetDataset(bucket_path,
+                                           filesystem=self.s3_util.pyarrow_fs(),
                                            partitioning="hive")
         legacy_table = legacy_dataset.read()
         sql = f"""SELECT *
@@ -129,6 +142,7 @@ class RepoFileParquet:
         merged_table = merged_table.sort_by([('owner','ascending'),
                                              ('repo_name','ascending'),
                                              ('file_path','ascending')])
+        print(str(merged_table.to_pandas()))
         return merged_table
 
     def update_parquet(self, owner, repo_name, table):
@@ -137,7 +151,7 @@ class RepoFileParquet:
         partition_path = self.repo_file_path+f"/partition_key={partition_key}"
         if self.s3_util.path_exists(partition_path):
             print(f'Found existing dataset at {partition_path}')
-            table = merge_existing(owner, repo_name, table)
+            table = self.merge_existing(owner, repo_name, table)
             s3fs.delete_dir(f'{self.bucket}/{partition_path}')
         repo_file_bucket_path = f'{self.bucket}/{self.repo_file_path}'
         pq.write_to_dataset(table,
@@ -145,10 +159,3 @@ class RepoFileParquet:
                             partition_cols=['partition_key'],
                             filesystem=s3fs)
 
-    def update_repo(self, owner, repo_name,
-                    numstat_object, repo_path="ignored"):
-        repo_files = self.extract_repo_file_data(owner,
-                                                 repo_name,
-                                                 numstat_object)
-        table = self.create_table(repo_files, owner, repo_name)
-        self.update_parquet(owner, repo_name, table)
