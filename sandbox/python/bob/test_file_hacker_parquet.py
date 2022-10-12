@@ -17,8 +17,8 @@ from file_hacker_parquet import FileHackerParquet
 
 owner = 'apache'
 repo_name = 'ant'
-# owner = 'cilium'
-# repo_name = 'cilium'
+owner = 'cilium'
+repo_name = 'cilium'
 
 print(datetime.datetime.now())
 s3_util = S3Util(profile="enigmatt")
