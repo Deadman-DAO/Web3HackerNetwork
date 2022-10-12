@@ -202,14 +202,14 @@ def create_multiple_repo_files_parquet(numstat_path_list):
 # update_repo_files_parquet(owner, repo_name, numstat_object)
 # print(datetime.datetime.now())
 
-numstat_path_list = list()
-with open('numstat-sorted.log', 'r') as f:
-    for line in f.readlines():
-        line = line.strip()
-        tail = line[slice(line.index('\t') + 1, len(line))]
-        numstat_path_list.append(tail)
-update_slice = slice(len(numstat_path_list) - 20000, len(numstat_path_list))
-create_multiple_repo_files_parquet(numstat_path_list[update_slice])
+# numstat_path_list = list()
+# with open('numstat-sorted.log', 'r') as f:
+#     for line in f.readlines():
+#         line = line.strip()
+#         tail = line[slice(line.index('\t') + 1, len(line))]
+#         numstat_path_list.append(tail)
+# update_slice = slice(len(numstat_path_list) - 20000, len(numstat_path_list))
+# create_multiple_repo_files_parquet(numstat_path_list[update_slice])
 
 # s3fs = s3_util.pyarrow_fs()
 # legacy_dataset = pq.ParquetDataset(f'{bucket}/{repo_file_path}',

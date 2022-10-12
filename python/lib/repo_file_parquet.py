@@ -24,7 +24,7 @@ class RepoFileParquet:
         self.s3_util = S3Util(profile=aws_profile, bucket_name=bucket)
         self.bucket = bucket
         self.raw_path = raw_path
-        self.repo_file_path = self.raw_path+'/repo_file'
+        self.dataset_path = self.raw_path+'/repo_file'
 
     def extract_repo_file_data(self, owner, repo_name, numstat_object):
         repo_files = dict()
@@ -117,12 +117,9 @@ class RepoFileParquet:
         explicit_table = inferred_table.cast(explicit_schema)
         return explicit_table
 
-        self.bucket = bucket
-        self.raw_path = raw_path
-        self.repo_file_path = self.raw_path+'/repo_file'
     def merge_existing(self, owner, repo_name, table):
         partition_key = pq_util.repo_partition_key(owner, repo_name)
-        bucket_path = f'{self.bucket}/{self.repo_file_path}'
+        bucket_path = f'{self.bucket}/{self.dataset_path}'
         legacy_dataset = pq.ParquetDataset(bucket_path,
                                            filesystem=self.s3_util.pyarrow_fs(),
                                            partitioning="hive")
@@ -148,14 +145,14 @@ class RepoFileParquet:
     def update_parquet(self, owner, repo_name, table):
         s3fs = self.s3_util.pyarrow_fs()
         partition_key = pq_util.repo_partition_key(owner, repo_name)
-        partition_path = self.repo_file_path+f"/partition_key={partition_key}"
+        partition_path = f'{self.dataset_path}/partition_key={partition_key}'
         if self.s3_util.path_exists(partition_path):
             print(f'Found existing dataset at {partition_path}')
             table = self.merge_existing(owner, repo_name, table)
             s3fs.delete_dir(f'{self.bucket}/{partition_path}')
-        repo_file_bucket_path = f'{self.bucket}/{self.repo_file_path}'
+        bucket_path = f'{self.bucket}/{self.dataset_path}'
         pq.write_to_dataset(table,
-                            root_path=repo_file_bucket_path,
+                            root_path=bucket_path,
                             partition_cols=['partition_key'],
                             filesystem=s3fs)
 
