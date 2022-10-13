@@ -9,8 +9,19 @@ from aws_util import S3Util
 import parquet_util as pq_util
 
 class RepoFileParquet:
+    # def update_repo(owner, repo_name, numstat_object, repo_path="ignored"):
+    #     pq_maker = RepoFileParquet()
+    #     synthetic_key= pq_util.repo_partition_key(owner, repo_name)
+    #     live_table = pq_maker.load_existing(synthetic_key)
+    #     raw_dataset = pq_maker.extract_data(owner,
+    #                                    repo_name,
+    #                                    numstat_object)
+    #     new_table = pq_maker.create_table(raw_dataset, owner, repo_name)
+    #     merged_table = pq_maker.merge(owner, repo_name, live_table, new_table)
+    #     pq_maker.write_parquet(owner, repo_name, merged_table)
+    
     def update_repo(owner, repo_name, numstat_object, repo_path="ignored"):
-        rfp = RepoFileParquet()
+        rfp = 
         repo_files = rfp.extract_repo_file_data(owner,
                                                  repo_name,
                                                  numstat_object)

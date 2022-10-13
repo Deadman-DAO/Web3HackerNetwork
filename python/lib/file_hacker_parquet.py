@@ -9,16 +9,39 @@ from aws_util import S3Util
 import parquet_util as pq_util
 
 class FileHackerParquet:
+    # ----------------------------------------------------
+    # Constants
+    # ----------------------------------------------------
+    PARTITION_KEY_FIELD = pa.field("partition_key", pa.string())
+    EXPLICIT_SCHEMA = pa.schema([
+            pa.field("owner", pa.string()),
+            pa.field("repo_name", pa.string()),
+            pa.field("owner_repo", pa.string()),
+            pa.field("file_path", pa.string()),
+            pa.field("author", pa.string()),
+            pa.field("commit_date", pa.timestamp('us', tz='UTC')),
+            # pa.field("num_commits", pa.int64()),
+            # pa.field("first_commit_date", pa.timestamp('us', tz='UTC')),
+            # pa.field("last_commit_date", pa.timestamp('us', tz='UTC')),
+            pa.field("total_inserts", pa.int64()),
+            pa.field("total_deletes", pa.int64()),
+            pa.field("binary", pa.int8()),
+            PARTITION_KEY_FIELD,
+        ])
+    
+    # ----------------------------------------------------
+    # Static API
+    # ----------------------------------------------------
     def update_repo(owner, repo_name, numstat_object, repo_path="ignored"):
-        rfp = FileHackerParquet()
+        pq_maker = FileHackerParquet()
         synthetic_key= pq_util.repo_partition_key(owner, repo_name)
-        live_table = rfp.load_existing(synthetic_key)
-        raw_dataset = rfp.extract_data(owner,
+        live_table = pq_maker.load_existing(synthetic_key)
+        raw_dataset = pq_maker.extract_data(owner,
                                        repo_name,
                                        numstat_object)
-        new_table = rfp.create_table(raw_dataset, owner, repo_name)
-        merged_table = rfp.merge(owner, repo_name, live_table, new_table)
-        rfp.write_parquet(owner, repo_name, merged_table)
+        new_table = pq_maker.create_table(raw_dataset, owner, repo_name)
+        merged_table = pq_maker.merge(owner, repo_name, live_table, new_table)
+        pq_maker.write_parquet(owner, repo_name, merged_table)
 
     def update_repos(repo_tuple_array):
         synth_dict = dict()
@@ -35,9 +58,10 @@ class FileHackerParquet:
             num = len(repo_tuple_list)
             print()
             print(f'processing {num} repos in synth key {key}')
-            live_table = fhp.load_existing(key)
-            if live_table != None:
-                print(f'finished reading the existing data')
+            # live_table = fhp.load_existing(key)
+            # if live_table != None:
+            #     print(f'finished reading the existing data')
+            new_table_tuples = list()
             for repo_tuple in repo_tuple_list:
                 owner = repo_tuple[0]
                 repo_name = repo_tuple[1]
@@ -46,10 +70,19 @@ class FileHackerParquet:
                 new_data = fhp.extract_data(owner, repo_name, numstat_object)
                 new_table = fhp.create_table(new_data, owner, repo_name)
                 # print(str(new_table.to_pandas()))
-                live_table = fhp.merge(owner, repo_name, live_table, new_table)
-                # print(str(live_table.to_pandas()))
-            fhp.write_parquet(owner, repo_name, live_table)
+                new_table_tuple = (owner, repo_name, new_table)
+                new_table_tuples.append(new_table_tuple)
+            print(f'merging old table with {len(repo_tuple_list)} new tables')
+            full_table = fhp.merge_batch(synthetic_key, new_table_tuples)
+            # def merge_batch(self, partition_key, new_table_tuples):
+            #     #(owner, repo_name, new_table)
+            #     live_table = fhp.merge(owner, repo_name, live_table, new_table)
+            #     # print(str(live_table.to_pandas()))
+            fhp.write_parquet(owner, repo_name, full_table)
 
+    # ----------------------------------------------------
+    # Instance Initialization
+    # ----------------------------------------------------
     def __init__(self,
                  aws_profile='w3hn-admin',
                  bucket='deadmandao',
@@ -59,6 +92,9 @@ class FileHackerParquet:
         self.raw_path = raw_path
         self.dataset_path = self.raw_path+'/file_hacker'
 
+    # ----------------------------------------------------
+    # Instance API
+    # ----------------------------------------------------
     def extract_data(self, owner, repo_name, numstat_object):
         raw_dataset = dict()
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
@@ -97,6 +133,7 @@ class FileHackerParquet:
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
         owner_array = [owner for i in range(count)]
         repo_name_array = [repo_name for i in range(count)]
+        owner_repo_array = [f'{owner}\t{repo_name}' for i in range(count)]
         file_path_array = ['' for i in range(count)]
         author_array = ['' for i in range(count)]
         commit_date_array = [datetime.datetime.now() for i in range(count)]
@@ -106,7 +143,7 @@ class FileHackerParquet:
         total_inserts_array = [0 for i in range(count)]
         total_deletes_array = [0 for i in range(count)]
         binary_array = [0 for i in range(count)]
-        partition_key_array = [synthetic_key for i in range(count)]
+        partition_key_array = [f'{synthetic_key}' for i in range(count)]
 
         for index in range(count):
             dict_key = unique_keys[index]
@@ -123,6 +160,7 @@ class FileHackerParquet:
 
         col_owner = pa.array(owner_array)
         col_repo_name = pa.array(repo_name_array)
+        col_owner_repo = pa.array(owner_repo_array)
         col_file_path = pa.array(file_path_array)
         col_author = pa.array(author_array)
         col_commit_date = pa.array(commit_date_array)
@@ -134,34 +172,19 @@ class FileHackerParquet:
         col_binary = pa.array(binary_array)
         col_partition_key = pa.array(partition_key_array)
 
-        data = [col_owner, col_repo_name, col_file_path, col_author,
+        data = [col_owner, col_repo_name, col_owner_repo, col_file_path, col_author,
                 col_commit_date,
                 # col_num_commits, col_first_commit_date, col_last_commit_date,
                 col_total_inserts, col_total_deletes, col_binary,
                 col_partition_key]
-        column_names = ["owner", "repo_name", "file_path", "author",
+        column_names = ["owner", "repo_name", "owner_repo", "file_path", "author",
                         "commit_date",
                         # "num_commits", "first_commit_date", "last_commit_date",
                         "total_inserts", "total_deletes", "binary",
                         "partition_key"]
         batch = pa.RecordBatch.from_arrays(data, column_names)
         inferred_table = pa.Table.from_batches([batch])
-        explicit_fields = [
-            pa.field("owner", pa.string()),
-            pa.field("repo_name", pa.string()),
-            pa.field("file_path", pa.string()),
-            pa.field("author", pa.string()),
-            pa.field("commit_date", pa.timestamp('us', tz='UTC')),
-            # pa.field("num_commits", pa.int64()),
-            # pa.field("first_commit_date", pa.timestamp('us', tz='UTC')),
-            # pa.field("last_commit_date", pa.timestamp('us', tz='UTC')),
-            pa.field("total_inserts", pa.int64()),
-            pa.field("total_deletes", pa.int64()),
-            pa.field("binary", pa.int8()),
-            pa.field("partition_key", pa.string()),
-        ]
-        explicit_schema = pa.schema(explicit_fields)
-        explicit_table = inferred_table.cast(explicit_schema)
+        explicit_table = inferred_table.cast(FileHackerParquet.EXPLICIT_SCHEMA)
         return explicit_table
 
     def load_existing(self, partition_key):
@@ -180,26 +203,81 @@ class FileHackerParquet:
         else:
             return None
 
+    def load_existing_for_batch(self, partition_key, owner_repos):
+        partition_path = f'{self.dataset_path}/partition_key={partition_key}'
+        if self.s3_util.path_exists(partition_path):
+            print(f'Found existing dataset at {partition_path}')
+            bucket_path = f'{self.bucket}/{partition_path}'
+            s3fs = self.s3_util.pyarrow_fs()
+            # partition_filter = ('partition_key', '=', partition_key)
+            owner_repo_filter = ('owner_repo', 'not in', owner_repos)
+            filters = [owner_repo_filter]# partition_filter, 
+            legacy_dataset = pq.ParquetDataset(bucket_path,
+                                               filesystem=s3fs,
+                                               partitioning="hive",
+                                               filters=filters)
+            print(str(datetime.datetime.now()))
+            print(f'about to read parquet')
+            table = legacy_dataset.read()
+            numrows = table.num_rows
+            print(f'existing table contains {numrows} rows after filtering')
+            if numrows == 0: return None
+            column = [partition_key for i in range(numrows)]
+            # print(str(column))
+            # print(f'{len(column)}')
+            # print(f'number of elements in column: {len(column)}')
+            key_field = FileHackerParquet.PARTITION_KEY_FIELD
+            table = table.add_column(table.num_columns, key_field, [column])
+            return table
+        else:
+            return None
+    
+    def merge_batch(self, partition_key, new_table_tuples):
+        #(owner, repo_name, new_table)
+        owner_repos = list()
+        tables = list()
+        for new_table_tuple in new_table_tuples:
+            owner_repo = f'{new_table_tuple[0]}\t{new_table_tuple[1]}'
+            owner_repos.append(owner_repo)
+            tables.append(new_table_tuple[2])
+        # print('new table sample')
+        # print(str(tables[0].schema))
+        live_table = self.load_existing_for_batch(partition_key, owner_repos)
+        if live_table != None:
+            print(str(live_table.to_pandas()))
+            print(str(live_table.schema))
+            if live_table != None and live_table.num_rows > 0:
+                tables.append(live_table)
+        merged_table = pa.concat_tables(tables, promote=False)
+        # merged_table = merged_table.sort_by([('owner','ascending'),
+        #                                      ('repo_name','ascending'),
+        #                                      ('file_path','ascending'),
+        #                                      ('author','ascending'),
+        #                                      ('commit_date','ascending')])
+        return merged_table
+
     def merge(self, owner, repo_name, live_table, new_table):
         if live_table == None:
             return new_table
         else:
             partition_key = pq_util.repo_partition_key(owner, repo_name)
+            owner_repo = f'{owner}\t{repo_name}'
             sql = f"""SELECT *
                        FROM live_table
                        WHERE partition_key = '{partition_key}'
-                         AND (
-                           owner != '{owner}'
-                           OR
-                           repo_name != '{repo_name}'
-                         )"""
+                         AND owner_repo != '{owner_repo}'"""
+            # (
+            #                owner != '{owner}'
+            #                OR
+            #                repo_name != '{repo_name}'
+            #              )"""
             duck_conn = duckdb.connect()
             other_table = duck_conn.execute(sql).arrow()
             merged_table = pa.concat_tables([other_table, new_table],
                                             promote=False)
-            merged_table = merged_table.sort_by([('owner','ascending'),
-                                                 ('repo_name','ascending'),
-                                                 ('file_path','ascending')])
+            # merged_table = merged_table.sort_by([('owner','ascending'),
+            #                                      ('repo_name','ascending'),
+            #                                      ('file_path','ascending')])
             return merged_table
 
     def write_parquet(self, owner, repo_name, table):
@@ -213,11 +291,13 @@ class FileHackerParquet:
         else:
             print(f'no path to delete at {self.bucket}/{partition_path}')
         print(f'writing {self.bucket}/{partition_path}')
-        print(str(table.to_pandas()))
+        # print(str(table.to_pandas()))
+        # print(str(table.schema))
         table.sort_by([('owner', 'ascending'),
                        ('repo_name', 'ascending'),
                        ('file_path', 'ascending'),
-                       ('author', 'ascending')])
+                       ('author', 'ascending'),
+                       ('commit_date','ascending')])
         pq.write_to_dataset(table,
                             root_path=bucket_path,
                             partition_cols=['partition_key'],
