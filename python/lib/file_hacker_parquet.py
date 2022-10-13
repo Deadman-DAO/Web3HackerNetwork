@@ -11,13 +11,42 @@ import parquet_util as pq_util
 class FileHackerParquet:
     def update_repo(owner, repo_name, numstat_object, repo_path="ignored"):
         rfp = FileHackerParquet()
-        live_table = rfp.load_existing(owner, repo_name)
+        synthetic_key= pq_util.repo_partition_key(owner, repo_name)
+        live_table = rfp.load_existing(synthetic_key)
         raw_dataset = rfp.extract_data(owner,
                                        repo_name,
                                        numstat_object)
         new_table = rfp.create_table(raw_dataset, owner, repo_name)
         merged_table = rfp.merge(owner, repo_name, live_table, new_table)
         rfp.write_parquet(owner, repo_name, merged_table)
+
+    def update_repos(repo_tuple_array):
+        synth_dict = dict()
+        for repo_tuple in repo_tuple_array:
+            owner = repo_tuple[0]
+            repo_name = repo_tuple[1]
+            synthetic_key = pq_util.repo_partition_key(owner, repo_name)
+            if synthetic_key not in synth_dict:
+                synth_dict[synthetic_key] = list()
+            synth_dict[synthetic_key].append(repo_tuple)
+        fhp = FileHackerParquet()
+        for key in synth_dict:
+            repo_tuple_list = synth_dict[key]
+            num = len(repo_tuple_list)
+            print()
+            print(f'processing {num} repos in synth key {key}')
+            live_table = fhp.load_existing(key)
+            for repo_tuple in repo_tuple_list:
+                owner = repo_tuple[0]
+                repo_name = repo_tuple[1]
+                numstat_object = repo_tuple[2]
+                print(f'adding {owner} {repo_name} to key {key}')
+                new_data = fhp.extract_data(owner, repo_name, numstat_object)
+                new_table = fhp.create_table(new_data, owner, repo_name)
+                # print(str(new_table.to_pandas()))
+                live_table = fhp.merge(owner, repo_name, live_table, new_table)
+                # print(str(live_table.to_pandas()))
+            fhp.write_parquet(owner, repo_name, live_table)
 
     def __init__(self,
                  aws_profile='w3hn-admin',
@@ -133,12 +162,10 @@ class FileHackerParquet:
         explicit_table = inferred_table.cast(explicit_schema)
         return explicit_table
 
-    def load_existing(self, owner, repo_name):
-        partition_key = pq_util.repo_partition_key(owner, repo_name)
+    def load_existing(self, partition_key):
         partition_path = f'{self.dataset_path}/partition_key={partition_key}'
         if self.s3_util.path_exists(partition_path):
             print(f'Found existing dataset at {partition_path}')
-            partition_key = pq_util.repo_partition_key(owner, repo_name)
             bucket_path = f'{self.bucket}/{self.dataset_path}'
             fs = self.s3_util.pyarrow_fs()
             legacy_dataset = pq.ParquetDataset(bucket_path,
@@ -175,10 +202,16 @@ class FileHackerParquet:
         bucket_path = f'{self.bucket}/{self.dataset_path}'
         partition_key = pq_util.repo_partition_key(owner, repo_name)
         partition_path = f'{self.dataset_path}/partition_key={partition_key}'
-        s3fs.delete_dir(f'{self.bucket}/{partition_path}')
+        if self.s3_util.path_exists(partition_path):
+            print(f'deleting {self.bucket}/{partition_path}')
+            s3fs.delete_dir(f'{self.bucket}/{partition_path}')
+        else:
+            print(f'no path to delete at {self.bucket}/{partition_path}')
+        print(f'writing {self.bucket}/{partition_path}')
         print(str(table.to_pandas()))
         pq.write_to_dataset(table,
                             root_path=bucket_path,
                             partition_cols=['partition_key'],
                             filesystem=s3fs)
+        print('write complete')
 
