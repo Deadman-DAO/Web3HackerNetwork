@@ -53,7 +53,7 @@ def multi_phile():
     keys = list(numstat_tuple_dict.keys())
     keys.sort()
     for partition_key in keys:
-        if partition_key < '01':
+        if partition_key < '13':
             print(f'skipping {partition_key}')
             continue
         else:
