@@ -53,11 +53,11 @@ def multi_phile():
     keys = list(numstat_tuple_dict.keys())
     keys.sort()
     for partition_key in keys:
-        if partition_key < '13':
+        if partition_key < '00':
             print(f'skipping {partition_key}')
             continue
         else:
-            print(f'{partition_key} is greater than 01')
+            print(f'{partition_key} is greater than threshold')
         print(datetime.datetime.now())
         numstat_tuple_list = numstat_tuple_dict[partition_key]
         repo_tuple_array = list()

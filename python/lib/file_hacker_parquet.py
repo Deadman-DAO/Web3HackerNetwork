@@ -36,6 +36,8 @@ class FileHackerParquet:
             print()
             print(f'processing {num} repos in synth key {key}')
             live_table = fhp.load_existing(key)
+            if live_table != None:
+                print(f'finished reading the existing data')
             for repo_tuple in repo_tuple_list:
                 owner = repo_tuple[0]
                 repo_name = repo_tuple[1]
@@ -168,9 +170,12 @@ class FileHackerParquet:
             print(f'Found existing dataset at {partition_path}')
             bucket_path = f'{self.bucket}/{self.dataset_path}'
             fs = self.s3_util.pyarrow_fs()
+            partition_filter = [('partition_key', '=', partition_key)]
             legacy_dataset = pq.ParquetDataset(bucket_path,
                                                filesystem=fs,
-                                               partitioning="hive")
+                                               partitioning="hive",
+                                               filters=partition_filter)
+            print(f'about to read parquet')
             return legacy_dataset.read()
         else:
             return None
@@ -209,6 +214,10 @@ class FileHackerParquet:
             print(f'no path to delete at {self.bucket}/{partition_path}')
         print(f'writing {self.bucket}/{partition_path}')
         print(str(table.to_pandas()))
+        table.sort_by([('owner', 'ascending'),
+                       ('repo_name', 'ascending'),
+                       ('file_path', 'ascending'),
+                       ('author', 'ascending')])
         pq.write_to_dataset(table,
                             root_path=bucket_path,
                             partition_cols=['partition_key'],
