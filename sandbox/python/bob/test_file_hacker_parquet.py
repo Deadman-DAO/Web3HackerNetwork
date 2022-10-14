@@ -5,11 +5,13 @@ import datetime
 # import pyarrow as pa
 # import pyarrow.parquet as pq
 import sys
+import threading
 
 sys.path.append("../../../python/lib")
 from aws_util import S3Util
 import parquet_util as pq_util
 from file_hacker_parquet import FileHackerParquet
+from repo_file_parquet import RepoFileParquet
 
 # bucket = "numstat-bucket"
 # raw_path = "data_pipeline/raw"
@@ -56,7 +58,7 @@ def multi_phile():
     keys = list(numstat_tuple_dict.keys())
     keys.sort()
     for partition_key in keys:
-        if partition_key < '00':
+        if partition_key < '00': #0b':
             print(f'skipping {partition_key}')
             continue
         else:
@@ -79,7 +81,22 @@ def multi_phile():
                 print(f'error reading numstat {owner} {repo_name}: {error}')
         print(datetime.datetime.now())
         if len(repo_tuple_array) > 0:
-            FileHackerParquet.update_repos(repo_tuple_array)
+            #x = threading.Thread(target=thread_function, args=(1,))
+            fh_thread = threading.Thread(target=update_file_hacker,
+                                         args=(repo_tuple_array,))#FileHackerParquet.update_repos(repo_tuple_array))
+            rf_thread = threading.Thread(target=update_repo_file,
+                                         args=(repo_tuple_array,))#(RepoFileParquet.update_repos(repo_tuple_array))
+            fh_thread.start()
+            rf_thread.start()
+            fh_thread.join()
+            rf_thread.join()
+
+def update_file_hacker(repo_tuple_array):
+    FileHackerParquet.update_repos(repo_tuple_array)
+
+def update_repo_file(repo_tuple_array):
+    RepoFileParquet.update_repos(repo_tuple_array)
+            
     # for numstat_tuple in numstat_tuples:
     #     try:
     #         now = datetime.datetime.now()
