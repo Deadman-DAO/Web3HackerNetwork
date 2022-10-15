@@ -20,8 +20,9 @@ import
 
 import ("seven_of_seven" )
 
-multiline potato multiline
+multiline_potato_multiline
+multiline_anything_potato_anything_multiline
 
 multiline
- potato 
+_potato_
 multiline
