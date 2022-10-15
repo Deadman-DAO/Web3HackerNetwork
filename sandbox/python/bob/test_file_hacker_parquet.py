@@ -37,9 +37,9 @@ def multi_phile():
     numstat_s3_util = S3Util(profile="enigmatt")
     start = datetime.datetime.now()
     numstat_tuple_dict = dict()
-    # nstat_log = 'nstat-medium-sample.log'
-    # nstat_log = 'nstat-medium-overlap-sample.log'
-    nstat_log = 'numstat-20kplus-reverse.log'
+    # nstat_log = 'data/nstat-medium-sample.log'
+    # nstat_log = 'data/nstat-medium-overlap-sample.log'
+    nstat_log = 'data/numstat-20kplus-reverse.log'
     with open(nstat_log, 'r') as f:
         lines = f.readlines()
         for line in lines:
