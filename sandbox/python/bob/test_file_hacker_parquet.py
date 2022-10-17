@@ -1,17 +1,15 @@
 import datetime
-# import dateutil.parser
-# import duckdb
-# import numpy as np
-# import pyarrow as pa
-# import pyarrow.parquet as pq
 import sys
 import threading
 
+relative_lib = "../../../python"
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
+from w3hn.dependency.file_hacker_commit import FileHackerParquet
+from w3hn.dependency.repo_file import RepoFileParquet
+
 sys.path.append("../../../python/lib")
-from aws_util import S3Util
-import parquet_util as pq_util
-from file_hacker_parquet import FileHackerParquet
-from repo_file_parquet import RepoFileParquet
+from lib.aws_util import S3Util
+import lib.parquet_util as pq_util
 
 # bucket = "numstat-bucket"
 # raw_path = "data_pipeline/raw"

@@ -16,7 +16,7 @@ class FileHackerParquet:
     
     COLUMN_NAMES = [
         "owner", "repo_name", "owner_repo",
-        "file_path", "author", "commit_date",
+        "file_path", "author", "commit", "commit_date",
         "total_inserts", "total_deletes", "binary",
         "partition_key"
     ]
@@ -29,6 +29,7 @@ class FileHackerParquet:
         pa.field("owner_repo", pa.string()),
         pa.field("file_path", pa.string()),
         pa.field("author", pa.string()),
+        pa.field("commit", pa.string()),
         pa.field("commit_date", pa.timestamp('us', tz='UTC')),
         pa.field("total_inserts", pa.int64()),
         pa.field("total_deletes", pa.int64()),
@@ -96,11 +97,12 @@ class FileHackerParquet:
         raw_dataset = dict()
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
         for commit in numstat_object:
+            commit_str = commit['commit']
             commit_date_str = commit['Date']
             author = commit['Author']
             for file_path in commit['file_list']:
                 file_entry = commit['file_list'][file_path]
-                dict_key = (file_path, author, commit_date_str)
+                dict_key = (file_path, author, commit_str, commit_date_str)
                 if dict_key in raw_dataset:
                     meta = raw_dataset[dict_key]
                     meta['total_inserts'] += file_entry['inserts']
@@ -125,6 +127,7 @@ class FileHackerParquet:
         
         file_paths = list()
         authors = list()
+        commits = list()
         commit_dates = list()
         total_insertss = list()
         total_deletess = list()
@@ -132,14 +135,16 @@ class FileHackerParquet:
         for dict_key, meta in raw_dataset.items():
             file_paths.append(dict_key[0])
             authors.append(dict_key[1])
-            commit_dates.append(dateutil.parser.isoparse(dict_key[2]))
+            commits.append(dict_key[2])
+            commit_dates.append(dateutil.parser.isoparse(dict_key[3]))
             total_insertss.append(meta['total_inserts'])
             total_deletess.append(meta['total_deletes'])
             binarys.append(meta['binary'])
 
         data = [
             pa.array(owners), pa.array(repo_names), pa.array(owner_repos),
-            pa.array(file_paths), pa.array(authors), pa.array(commit_dates),
+            pa.array(file_paths), pa.array(authors),
+            pa.array(commit), pa.array(commit_dates),
             pa.array(total_insertss), pa.array(total_deletess),
             pa.array(binarys), pa.array(partition_keys)
         ]
@@ -187,6 +192,8 @@ class FileHackerParquet:
         return merged_table
 
     def write_parquet(self, owner, repo_name, table):
+        print(table.to_pandas())
+        return
         s3fs = self.s3_util.pyarrow_fs()
         bucket_path = f'{self.bucket}/{self.dataset_path}'
         partition_key = pq_util.repo_partition_key(owner, repo_name)
