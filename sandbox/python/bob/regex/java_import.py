@@ -3,7 +3,7 @@ import json
 import sys
 
 sys.path.append("../../../../python/lib")
-from regex_java import JavaDependencyAnalyzer
+from dependency_java import JavaDependencyAnalyzer
 
 repos = list()
 owner = "apache"
