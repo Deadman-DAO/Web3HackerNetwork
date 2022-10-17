@@ -18,7 +18,7 @@ import
 	"six/of/seven"
 )
 
-import ("seven_of_seven" )
+import ("seven_of_seven" 
 
 multiline_potato_multiline
 multiline_anything_potato_anything_multiline

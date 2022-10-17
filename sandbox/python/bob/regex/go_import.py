@@ -3,7 +3,7 @@ import json
 import sys
 
 sys.path.append("../../../../python/lib")
-from regex_golang import GoDependencyAnalyzer
+from dependency_golang import GoDependencyAnalyzer
 
 repos = list()
 owner = "apache"
@@ -22,6 +22,8 @@ analyzer = GoDependencyAnalyzer()
 for path in paths:
     if (analyzer.matches(path)):
         dependencies = analyzer.get_dependencies(path)
+        # clean_dependencies = dependencies[i : where len(i) < 1000]
+        # clean_dependencies = dependencies[substr(i,0,1000)]
         if analyzer.language() not in repo_dict['dependencies']:
             repo_dict['dependencies'][analyzer.language()] = list()
         dep_dict = dict()
