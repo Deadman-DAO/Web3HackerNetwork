@@ -1,5 +1,6 @@
 import re
 
+
 class GoDependencyAnalyzer:
     def language(self):
         return "Go"
@@ -13,12 +14,12 @@ class GoDependencyAnalyzer:
         # capture single-line imports
         # side-effect: remove '//'-style comments
         full_source = ""
-        go_source = open(path, 'r')
-        for go_line in go_source:
-            go_line = re.sub("//.*", "", go_line)
-            deps = re.findall('import[^\"]*\"([^\"]*)\"', go_line)
-            depends.extend(deps)
-            full_source += go_line
+        with open(path, 'r') as go_source:
+            for go_line in go_source:
+                go_line = re.sub("//.*", "", go_line)
+                deps = re.findall('import[^\"]*\"([^\"]*)\"', go_line)
+                depends.extend(deps)
+                full_source += go_line
 
         # capture multi-line imports
         ptrn = "import[^\(]*\(([^\)]*)\)"
