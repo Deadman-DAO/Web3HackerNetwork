@@ -5,10 +5,10 @@ import numpy as np
 import pyarrow as pa
 import pyarrow.parquet as pq
 
-from aws_util import S3Util
-import parquet_util as pq_util
+from w3hn.aws.aws_util import S3Util
+import w3hn.hadoop.parquet_util as pq_util
 
-class RepoFileParquet:
+class RepoFileIngester:
 
     # ----------------------------------------------------
     # Constants
@@ -58,7 +58,7 @@ class RepoFileParquet:
             if synthetic_key not in synth_dict:
                 synth_dict[synthetic_key] = list()
             synth_dict[synthetic_key].append(repo_tuple)
-        pq_tool = RepoFileParquet()
+        pq_tool = RepoFileIngester()
         for key in synth_dict:
             repo_tuple_list = synth_dict[key]
             num = len(repo_tuple_list)
@@ -167,9 +167,9 @@ class RepoFileParquet:
             pa.array(total_insertss), pa.array(total_deletess),
             pa.array(binarys), pa.array(partition_keys)
         ]
-        batch = pa.RecordBatch.from_arrays(data, RepoFileParquet.COLUMN_NAMES)
+        batch = pa.RecordBatch.from_arrays(data, RepoFileIngester.COLUMN_NAMES)
         inferred_table = pa.Table.from_batches([batch])
-        explicit_table = inferred_table.cast(RepoFileParquet.EXPLICIT_SCHEMA)
+        explicit_table = inferred_table.cast(RepoFileIngester.EXPLICIT_SCHEMA)
         return explicit_table
 
     def load_existing_for_batch(self, partition_key, owner_repos):
@@ -191,7 +191,7 @@ class RepoFileParquet:
             print(f'repo/file old table has {numrows} rows after filter')
             if numrows == 0: return None
             column = [partition_key for i in range(numrows)]
-            key_field = RepoFileParquet.PARTITION_KEY_FIELD
+            key_field = RepoFileIngester.PARTITION_KEY_FIELD
             table = table.add_column(table.num_columns, key_field, [column])
             return table
         else:
@@ -211,6 +211,8 @@ class RepoFileParquet:
         return merged_table
 
     def write_parquet(self, owner, repo_name, table):
+        print(table.to_pandas())
+        return
         s3fs = self.s3_util.pyarrow_fs()
         bucket_path = f'{self.bucket}/{self.dataset_path}'
         partition_key = pq_util.repo_partition_key(owner, repo_name)

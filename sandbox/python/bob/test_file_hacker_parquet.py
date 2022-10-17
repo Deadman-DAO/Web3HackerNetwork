@@ -1,19 +1,14 @@
 import datetime
+import os
 import sys
 import threading
 
 relative_lib = "../../../python"
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
-from w3hn.dependency.file_hacker_commit import FileHackerParquet
-from w3hn.dependency.repo_file import RepoFileParquet
-
-sys.path.append("../../../python/lib")
-from lib.aws_util import S3Util
-import lib.parquet_util as pq_util
-
-# bucket = "numstat-bucket"
-# raw_path = "data_pipeline/raw"
-# file_hacker_path = raw_path+"/file_hacker"
+from w3hn.datapipe.ingest.file_hacker_commit import FileHackerCommitIngester
+from w3hn.datapipe.ingest.repo_file import RepoFileIngester
+from w3hn.aws.aws_util import S3Util
+import w3hn.hadoop.parquet_util as pq_util
 
 def single_phile():
     owner = 'apache'
@@ -81,52 +76,19 @@ def multi_phile():
         if len(repo_tuple_array) > 0:
             #x = threading.Thread(target=thread_function, args=(1,))
             fh_thread = threading.Thread(target=update_file_hacker,
-                                         args=(repo_tuple_array,))#FileHackerParquet.update_repos(repo_tuple_array))
+                                         args=(repo_tuple_array,))
             rf_thread = threading.Thread(target=update_repo_file,
-                                         args=(repo_tuple_array,))#(RepoFileParquet.update_repos(repo_tuple_array))
+                                         args=(repo_tuple_array,))
             fh_thread.start()
             rf_thread.start()
             fh_thread.join()
             rf_thread.join()
 
 def update_file_hacker(repo_tuple_array):
-    FileHackerParquet.update_repos(repo_tuple_array)
+    FileHackerCommitIngester.update_repos(repo_tuple_array)
 
 def update_repo_file(repo_tuple_array):
-    RepoFileParquet.update_repos(repo_tuple_array)
+    # RepoFileIngester.update_repos(repo_tuple_array)
+    None
             
-    # for numstat_tuple in numstat_tuples:
-    #     try:
-    #         now = datetime.datetime.now()
-    #         delta = now - start
-    #         per = delta / count
-    #         expected = per * len(lines)
-    #         print(f'{delta} {expected} loading numstat {count} of {len(lines)} for {owner} {repo_name}')
-    #         numstat_object = numstat_s3_util.get_numstat(owner, repo_name)
-    #         repo_tuple = (owner, repo_name, numstat_object)
-    #         repo_tuple_array.append(repo_tuple)
-    #     except Exception as error:
-    #         print(f'error reading numstat {owner} {repo_name}: {error}')
-    #         None # broken numstat, skip this repo
-    # FileHackerParquet.update_repos(repo_tuple_array)
-    
 multi_phile()
-
-# numstat_path_list = list()
-# with open('numstat-sorted.log', 'r') as f:
-#     for line in f.readlines():
-#         line = line.strip()
-#         tail = line[slice(line.index('\t') + 1, len(line))]
-#         numstat_path_list.append(tail)
-# update_slice = slice(len(numstat_path_list) - 20000, len(numstat_path_list))
-# create_multiple_repo_files_parquet(numstat_path_list[update_slice])
-
-# s3fs = s3_util.pyarrow_fs()
-# legacy_dataset = pq.ParquetDataset(f'{bucket}/{repo_file_path}',
-#                                    filesystem=s3fs,
-#                                    partitioning="hive")
-# legacy_table = legacy_dataset.read()#to_table()
-
-# print()
-# print("What Was Written:")
-# print(legacy_table.to_pandas())
