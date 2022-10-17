@@ -1,16 +1,21 @@
 import re
 import json
+import os
 import sys
 
-sys.path.append("../../../../python/lib")
-from dependency_java import JavaDependencyAnalyzer
+relative_lib = "../../../../python"
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
+from w3hn.dependency.java import JavaDependencyAnalyzer
 
 repos = list()
 owner = "apache"
 repo_name = "ant"
+
+sample_source_path = os.path.join(os.path.dirname(__file__), "../data")
 paths = [
-    '../data/JavaImport.java',
+    f'{sample_source_path}/JavaImport.java',
 ]
+
 repo_dict = dict()
 repo_dict['owner'] = owner
 repo_dict['repo_name'] = repo_name

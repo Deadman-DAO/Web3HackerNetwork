@@ -1,16 +1,21 @@
 import re
 import json
+import os
 import sys
 
-sys.path.append("../../../../python/lib")
-from dependency_scala import ScalaDependencyAnalyzer
+relative_lib = "../../../../python"
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
+from w3hn.dependency.scala import ScalaDependencyAnalyzer
 
 repos = list()
 owner = "apache"
 repo_name = "ant"
+
+sample_source_path = os.path.join(os.path.dirname(__file__), "../data")
 paths = [
-    '../data/ScalaImport.scala',
+    f'{sample_source_path}/ScalaImport.scala',
 ]
+
 repo_dict = dict()
 repo_dict['owner'] = owner
 repo_dict['repo_name'] = repo_name

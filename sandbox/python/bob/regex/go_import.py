@@ -1,17 +1,22 @@
 import re
 import json
+import os
 import sys
 
-sys.path.append("../../../../python/lib")
-from dependency_golang import GoDependencyAnalyzer
+relative_lib = "../../../../python"
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
+from w3hn.dependency.golang import GoDependencyAnalyzer
 
 repos = list()
 owner = "apache"
 repo_name = "ant"
+
+sample_source_path = os.path.join(os.path.dirname(__file__), "../data")
 paths = [
-    '../data/go_import.go',
-    '../data/other_go_import.go',
+    f'{sample_source_path}/go_import.go',
+    f'{sample_source_path}/other_go_import.go',
 ]
+
 repo_dict = dict()
 repo_dict['owner'] = owner
 repo_dict['repo_name'] = repo_name
