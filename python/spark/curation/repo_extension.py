@@ -39,7 +39,7 @@ extension_df.registerTempTable("repo_ext")
 # owner repo_name extension total_inserts total_deletes num_files total_commits
 
 summary_sql = """
-select js.owner, js.repo,
+select js.owner, js.repo_name,
 -- 1 	.js 	26752659 	6782193447 	35514 	matt 	
   js.total_inserts as js_inserts, js.total_deletes as js_deletes,
   js.num_files as js_files, js.total_commits as js_commits,
