@@ -35,116 +35,66 @@ group by owner, repo_name, substr(file_path, 1 + length(file_path) - position('.
 order by owner, repo_name, extension
 """
 extension_df = spark.sql(extension_sql)
-extension_df.registerTempTable("repo_ext")
+extension_df.coalesce(1).registerTempTable("repo_ext")
 # owner repo_name extension total_inserts total_deletes num_files total_commits
 
-summary_sql = """
+cols_tmpl = """  ifnull(@@ext@@.total_inserts, 0) as @@ext@@_inserts, ifnull(@@ext@@.total_deletes, 0) as @@ext@@_deletes,
+    ifnull(@@ext@@.num_files, 0) as @@ext@@_files, ifnull(@@ext@@.total_commits, 0) as @@ext@@_commits"""
+
+join_tmpl = """  left outer join repo_ext @@ext@@ on @@ext@@.owner = js.owner and @@ext@@.repo_name = js.repo_name"""
+
+and_tmpl = "  and @@ext@@.extension = '.@@ext@@'"
+
+def convert(tmpl, ext):
+    return tmpl.replace('@@ext@@', ext)
+
+summary_sql = f"""
 select js.owner, js.repo_name,
--- 1 	.js 	26752659 	6782193447 	35514 	matt 	
-  js.total_inserts as js_inserts, js.total_deletes as js_deletes,
-  js.num_files as js_files, js.total_commits as js_commits,
--- 7 	.py 	7744299 	2204378266 	30277 	matt 	
-  py.total_inserts as py_inserts, py.total_deletes as py_deletes,
-  py.num_files as py_files, py.total_commits as py_commits,
--- 9 	.c 	7107148 	3344883640 	16678 	matt 	
-  c.total_inserts as c_inserts, c.total_deletes as c_deletes,
-  c.num_files as c_files, c.total_commits as c_commits,
--- 10 	.java 	14416580 	2502998391 	9809 	bob 	done
-  java.total_inserts as java_inserts, java.total_deletes as java_deletes,
-  java.num_files as java_files, java.total_commits as java_commits,
--- 13 	.go 	11739795 	4664082430 	5782 	bob 	done
-  go.total_inserts as go_inserts, go.total_deletes as go_deletes,
-  go.num_files as go_files, go.total_commits as go_commits,
--- 16 	.ts 	5255447 	1137896274 	11218 	matt 	
-  ts.total_inserts as ts_inserts, ts.total_deletes as ts_deletes,
-  ts.num_files as ts_files, ts.total_commits as ts_commits,
--- 17 	.cpp 	4027283 	1589483149 	11263 	matt 	
-  cpp.total_inserts as cpp_inserts, cpp.total_deletes as cpp_deletes,
-  cpp.num_files as cpp_files, cpp.total_commits as cpp_commits,
--- 18 	.php 	6557862 	1316149573 	7282 	bob 	weird
-  php.total_inserts as php_inserts, php.total_deletes as php_deletes,
-  php.num_files as php_files, php.total_commits as php_commits,
--- 22 	.rb 	3048170 	348731047 	9426 	bob 	weird
-  rb.total_inserts as rb_inserts, rb.total_deletes as rb_deletes,
-  rb.num_files as rb_files, rb.total_commits as rb_commits,
--- 24 	.cs 	3475557 	623920043 	3972 	matt 	
-  cs.total_inserts as cs_inserts, cs.total_deletes as cs_deletes,
-  cs.num_files as cs_files, cs.total_commits as cs_commits,
--- 25 	.cc 	1352095 	619479180 	6673 	matt 	
-  cc.total_inserts as cc_inserts, cc.total_deletes as cc_deletes,
-  cc.num_files as cc_files, cc.total_commits as cc_commits,
--- 35 	.rs 	964655 	295521616 	2991 	bob 	hard
-  rs.total_inserts as rs_inserts, rs.total_deletes as rs_deletes,
-  rs.num_files as rs_files, rs.total_commits as rs_commits,
--- 38 	.tsx 	839036 	111013387 	3969 	matt 	
-  tsx.total_inserts as tsx_inserts, tsx.total_deletes as tsx_deletes,
-  tsx.num_files as tsx_files, tsx.total_commits as tsx_commits,
--- 54 	.scala 	926666 	123227766 	1414 	bob 	should be doable
-  scala.total_inserts as scala_inserts, scala.total_deletes as scala_deletes,
-  scala.num_files as scala_files, scala.total_commits as scala_commits,
--- 55 	.jsx 	345476 	51432270 	3575 	matt 	
-  jsx.total_inserts as jsx_inserts, jsx.total_deletes as jsx_deletes,
-  jsx.num_files as jsx_files, jsx.total_commits as jsx_commits
--- 1 	.js 	26752659 	6782193447 	35514 	matt 	
+{convert(cols_tmpl, 'js')},
+{convert(cols_tmpl, 'py')},
+{convert(cols_tmpl, 'c')},
+{convert(cols_tmpl, 'java')},
+{convert(cols_tmpl, 'go')},
+{convert(cols_tmpl, 'ts')},
+{convert(cols_tmpl, 'cpp')},
+{convert(cols_tmpl, 'php')},
+{convert(cols_tmpl, 'rb')},
+{convert(cols_tmpl, 'cs')},
+{convert(cols_tmpl, 'cc')},
+{convert(cols_tmpl, 'rs')},
+{convert(cols_tmpl, 'tsx')},
+{convert(cols_tmpl, 'scala')},
+{convert(cols_tmpl, 'jsx')}
 from repo_ext js
--- 7 	.py 	7744299 	2204378266 	30277 	matt 	
-join repo_ext py on py.owner = js.owner and py.repo_name = js.repo_name
--- 9 	.c 	7107148 	3344883640 	16678 	matt 	
-join repo_ext c on c.owner = js.owner and c.repo_name = js.repo_name
--- 10 	.java 	14416580 	2502998391 	9809 	bob 	done
-join repo_ext java on java.owner = js.owner and java.repo_name = js.repo_name
--- 13 	.go 	11739795 	4664082430 	5782 	bob 	done
-join repo_ext go on go.owner = js.owner and go.repo_name = js.repo_name
--- 16 	.ts 	5255447 	1137896274 	11218 	matt 	
-join repo_ext ts on ts.owner = js.owner and ts.repo_name = js.repo_name
--- 17 	.cpp 	4027283 	1589483149 	11263 	matt 	
-join repo_ext cpp on cpp.owner = js.owner and cpp.repo_name = js.repo_name
--- 18 	.php 	6557862 	1316149573 	7282 	bob 	weird
-join repo_ext php on php.owner = js.owner and php.repo_name = js.repo_name
--- 22 	.rb 	3048170 	348731047 	9426 	bob 	weird
-join repo_ext rb on rb.owner = js.owner and rb.repo_name = js.repo_name
--- 24 	.cs 	3475557 	623920043 	3972 	matt 	
-join repo_ext cs on cs.owner = js.owner and cs.repo_name = js.repo_name
--- 25 	.cc 	1352095 	619479180 	6673 	matt 	
-join repo_ext cc on cc.owner = js.owner and cc.repo_name = js.repo_name
--- 35 	.rs 	964655 	295521616 	2991 	bob 	hard
-join repo_ext rs on rs.owner = js.owner and rs.repo_name = js.repo_name
--- 38 	.tsx 	839036 	111013387 	3969 	matt 	
-join repo_ext tsx on tsx.owner = js.owner and tsx.repo_name = js.repo_name
--- 54 	.scala 	926666 	123227766 	1414 	bob 	should be doable
-join repo_ext scala on scala.owner = js.owner and scala.repo_name = js.repo_name
--- 55 	.jsx 	345476 	51432270 	3575 	matt 	
-join repo_ext jsx on jsx.owner = js.owner and jsx.repo_name = js.repo_name
--- 1 	.js 	26752659 	6782193447 	35514 	matt 	
+{convert(join_tmpl, 'py')}
+{convert(join_tmpl, 'c')}
+{convert(join_tmpl, 'java')}
+{convert(join_tmpl, 'go')}
+{convert(join_tmpl, 'ts')}
+{convert(join_tmpl, 'cpp')}
+{convert(join_tmpl, 'php')}
+{convert(join_tmpl, 'rb')}
+{convert(join_tmpl, 'cs')}
+{convert(join_tmpl, 'cc')}
+{convert(join_tmpl, 'rs')}
+{convert(join_tmpl, 'tsx')}
+{convert(join_tmpl, 'scala')}
+{convert(join_tmpl, 'jsx')}
 where js.extension = '.js'
--- 7 	.py 	7744299 	2204378266 	30277 	matt 	
-and py.extension = '.py'
--- 9 	.c 	7107148 	3344883640 	16678 	matt 	
-and c.extension = '.c'
--- 10 	.java 	14416580 	2502998391 	9809 	bob 	done
-and java.extension = '.java'
--- 13 	.go 	11739795 	4664082430 	5782 	bob 	done
-and go.extension = '.go'
--- 16 	.ts 	5255447 	1137896274 	11218 	matt 	
-and ts.extension = '.ts'
--- 17 	.cpp 	4027283 	1589483149 	11263 	matt 	
-and cpp.extension = '.cpp'
--- 18 	.php 	6557862 	1316149573 	7282 	bob 	weird
-and php.extension = '.php'
--- 22 	.rb 	3048170 	348731047 	9426 	bob 	weird
-and rb.extension = '.rb'
--- 24 	.cs 	3475557 	623920043 	3972 	matt 	
-and cs.extension = '.cs'
--- 25 	.cc 	1352095 	619479180 	6673 	matt 	
-and cc.extension = '.cc'
--- 35 	.rs 	964655 	295521616 	2991 	bob 	hard
-and rs.extension = '.rs'
--- 38 	.tsx 	839036 	111013387 	3969 	matt 	
-and tsx.extension = '.tsx'
--- 54 	.scala 	926666 	123227766 	1414 	bob 	should be doable
-and scala.extension = '.scala'
--- 55 	.jsx 	345476 	51432270 	3575 	matt 	
-and jsx.extension = '.jsx'
+{convert(and_tmpl, 'py')}
+{convert(and_tmpl, 'c')}
+{convert(and_tmpl, 'java')}
+{convert(and_tmpl, 'go')}
+{convert(and_tmpl, 'ts')}
+{convert(and_tmpl, 'cpp')}
+{convert(and_tmpl, 'php')}
+{convert(and_tmpl, 'rb')}
+{convert(and_tmpl, 'cs')}
+{convert(and_tmpl, 'cc')}
+{convert(and_tmpl, 'rs')}
+{convert(and_tmpl, 'tsx')}
+{convert(and_tmpl, 'scala')}
+{convert(and_tmpl, 'jsx')}
 order by js.owner, js.repo_name
 """
 
