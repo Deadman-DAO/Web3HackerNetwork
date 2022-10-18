@@ -1,4 +1,22 @@
+import sys
+from awsglue.transforms import *
+from awsglue.utils import getResolvedOptions
+from pyspark.context import SparkContext
+from awsglue.context import GlueContext
+from awsglue.job import Job
 
+## @params: [JOB_NAME]
+args = getResolvedOptions(sys.argv, ['JOB_NAME'])
+
+out_path = "s3://deadmandao/web3hackernetwork/data_pipeline/published/repo_extension"
+
+sc = SparkContext()
+glueContext = GlueContext(sc)
+spark = glueContext.spark_session
+
+repo_file = glueContext.create_dynamic_frame.from_catalog(database='w3hn', table_name='curated_repo_extension')
+repo_file.toDF().registerTempTable("curated_repo_extension")
+extension_sql = """
 select repo.owner, repo.repo_name,
   coalesce(js.total_inserts, 0) as js_inserts, coalesce(js.total_deletes, 0) as js_deletes,
     coalesce(js.num_files, 0) as js_files, coalesce(js.total_commits, 0) as js_commits,
@@ -64,4 +82,6 @@ from (
   left outer join curated_repo_extension jsx
     on jsx.owner = repo.owner and jsx.repo_name = repo.repo_name and jsx.extension = '.jsx'
 order by repo.owner, repo.repo_name
-
+"""
+out_df = spark.sql(extension_sql)
+out_df.coalesce(1).write.parquet(out_path)
