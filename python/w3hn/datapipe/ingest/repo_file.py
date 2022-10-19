@@ -204,15 +204,19 @@ class RepoFileIngester:
         for new_table_tuple in new_table_tuples:
             owner_repo = f'{new_table_tuple[0]}\t{new_table_tuple[1]}'
             owner_repos.append(owner_repo)
-            tables.append(new_table_tuple[2])
+            new_table = new_table_tuple[2]
+            tables.append(new_table)
+            print(f'repo_file new table rows: {new_table.num_rows}')
         live_table = self.load_existing_for_batch(partition_key, owner_repos)
+        print(f'repo_file old table rows: {live_table.num_rows}')
         if live_table != None: tables.append(live_table)
         merged_table = pa.concat_tables(tables, promote=False)
+        print(f'repo_file merged table rows: {merged_table.num_rows}')
         return merged_table
 
     def write_parquet(self, owner, repo_name, table):
-        print(table.to_pandas())
-        return
+        # print(table.to_pandas())
+        # return
         s3fs = self.s3_util.pyarrow_fs()
         bucket_path = f'{self.bucket}/{self.dataset_path}'
         partition_key = pq_util.repo_partition_key(owner, repo_name)

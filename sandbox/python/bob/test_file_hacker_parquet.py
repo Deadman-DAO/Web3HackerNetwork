@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import as_completed
 
 low_partition_limit = '05' # '00' for all
-high_partition_limit = '07' # 'ff' for all
+high_partition_limit = '05' # 'ff' for all
 # nstat_log = 'data/nstat-medium-sample.log'
 # nstat_log = 'data/nstat-medium-overlap-sample.log'
 # nstat_log = 'data/numstat-20kplus-reverse.log'
@@ -19,6 +19,13 @@ from w3hn.datapipe.ingest.file_hacker_commit import FileHackerCommitIngester
 from w3hn.datapipe.ingest.repo_file import RepoFileIngester
 from w3hn.aws.aws_util import S3Util
 import w3hn.hadoop.parquet_util as pq_util
+
+# repo/file found existing dataset web3hackernetwork/data_pipeline/raw/repo_file/partition_key=05
+# 2022-10-18 20:24:37.346562
+# repo/file about to read parquet
+# repo/file old table has 1156021 rows after filter
+# repo_file old table rows: 1156021
+# repo_file merged table rows: 1209923
 
 numstat_s3_util = S3Util(profile="enigmatt")
 
