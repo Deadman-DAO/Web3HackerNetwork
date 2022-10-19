@@ -6,8 +6,8 @@ import threading
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import as_completed
 
-low_partition_limit = '05' # '00' for all
-high_partition_limit = '05' # 'ff' for all
+low_partition_limit = '00' # '00' for all
+high_partition_limit = 'ff' # 'ff' for all
 # nstat_log = 'data/nstat-medium-sample.log'
 # nstat_log = 'data/nstat-medium-overlap-sample.log'
 # nstat_log = 'data/numstat-20kplus-reverse.log'
@@ -86,7 +86,8 @@ def multi_phile():
         with ThreadPoolExecutor(max_workers=10) as executor:
             threadmap = executor.map(load_numstat, numstat_tuple_list)
         for result in threadmap:
-            repo_tuple_array.append(result)
+            if result != None:
+                repo_tuple_array.append(result)
         print(datetime.datetime.now())
         if len(repo_tuple_array) > 0:
             #x = threading.Thread(target=thread_function, args=(1,))
