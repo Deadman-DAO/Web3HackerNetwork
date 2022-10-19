@@ -208,8 +208,9 @@ class RepoFileIngester:
             tables.append(new_table)
             print(f'repo_file new table rows: {new_table.num_rows}')
         live_table = self.load_existing_for_batch(partition_key, owner_repos)
-        print(f'repo_file old table rows: {live_table.num_rows}')
-        if live_table != None: tables.append(live_table)
+        if live_table != None:
+            tables.append(live_table)
+            print(f'repo_file old table rows: {live_table.num_rows}')
         merged_table = pa.concat_tables(tables, promote=False)
         print(f'repo_file merged table rows: {merged_table.num_rows}')
         return merged_table
