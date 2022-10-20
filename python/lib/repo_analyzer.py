@@ -3,16 +3,18 @@ import ast
 import bz2
 import hashlib
 import json
+import io
 import os
 import traceback
 from abc import ABC, abstractmethod
 from threading import Lock
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 from monitor import timeit
-from datetime import datetime as datingdays
-from child_process import ChildProcessContainer
-from minimum_dependency_processor import execute_analysis
-
+from python.lib.blame_game import BlameGameRetriever
+from python.w3hn.dependency.golang import GoDependencyAnalyzer
+from python.w3hn.dependency.scala import ScalaDependencyAnalyzer
+from python.w3hn.dependency.java import JavaDependencyAnalyzer
+from python.w3hn.dependency.python import PythonDependencyAnalyzer
 
 def add_int_to_map(map, key, value):
     if key not in map:
@@ -93,6 +95,7 @@ class PythonAnalyzer(Analyzer):
 class RepoAnalyzer(DBDrivenTaskProcessor):
     def __init__(self, **kwargs):
         DBDrivenTaskProcessor.__init__(self, **kwargs)
+        self.hacker_name_to_md5_map = None
         self.commit_to_hacker_map = None
         self.get_next = self.GetNextRepoForAnalysis(self)
         self.all_done = self.ReleaseRepo(self)
@@ -122,11 +125,15 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.hacker_file_map = None
         self.filename_blame_map = None
         self.blame_game_retriever = None
-        self.method_list = [execute_analysis]
         self.import_map_map = {}
-
-    def register_process_method(self, method_pointer):
-        self.method_list.append(method_pointer)
+        self.java_dependency_class_instance = JavaDependencyAnalyzer()
+        self.go_dependency_class_instance = GoDependencyAnalyzer()
+        self.python_dependency_class_instance = PythonDependencyAnalyzer()
+        self.scala_dependency_class_instance = ScalaDependencyAnalyzer()
+        self.dependency_method_map = {'.java': self.java_dependency_class_instance.get_dependencies,
+                                      '.go': self.go_dependency_class_instance.get_dependencies,
+                                      '.py': self.python_dependency_class_instance.get_dependencies,
+                                      '.scala': self.scala_dependency_class_instance.get_dependencies}
 
     def init(self):
         pass
@@ -139,7 +146,6 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReserveNextRepoForAnalysis'
 
         def get_proc_parameters(self):
-            print(datingdays.now().isoformat(), 'Calling ReserveNextRepoForAnalysis', 'b47455b4a84eb638a33864dc466abc6f')
             return [self.mom.machine_name]
 
         def process_db_results(self, result_args):
@@ -153,7 +159,6 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     self.mom.repo_dir = result[3]
                     self.mom.numstat_dir = result[4]
                     self.mom.cur_job = result[1] + ':' + result[2]
-            print(datingdays.now().isoformat(), 'Returned from ReserveNextRepoForAnalysis', self.mom.repo_id, 'b47455b4a84eb638a33864dc466abc6f')
             if result is None:
                 self.mom.cur_job = 'Nada'
             return result
@@ -166,7 +171,6 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             return 'ReleaseRepoFromAnalysis'
 
         def get_proc_parameters(self):
-            print(datingdays.now().isoformat(), 'Calling ReleaseRepoFromAnalysis', self.mom.repo_id)
             return [self.mom.repo_id, self.mom.success, self.mom.stats_json]
 
         def process_db_results(self, result_args):
@@ -188,8 +192,11 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.commit_to_hacker_map = {}
         self.hacker_file_map = {}
         self.filename_blame_map = {}
+        self.hacker_name_to_md5_map = {}
+
         for commit in self.numstat:
             author = commit['Author']
+            commit_id = commit['commit']
             try:
                 author_md5 = hashlib.md5(author.encode('utf-8')).hexdigest()
             except Exception as e:
@@ -201,13 +208,11 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 self.hacker_extension_map[author_md5] = {}
                 self.hacker_name_map[author_md5] = author
                 self.hacker_file_map[author_md5] = {}
-
+                self.hacker_name_to_md5_map[author] = author_md5
+            self.commit_to_hacker_map[commit_id] = author_md5
     @timeit
     def prepare_sql_params(self):
-        self.stats_json = {'hacker_extension_map': self.hacker_extension_map,
-                           'hacker_name_map': self.hacker_name_map,
-                           'extension_map': self.extension_map,
-                           'import_map_map': self.import_map_map}
+        self.stats_json = {'hacker_name_map': self.hacker_name_map}
         self.stats_json = json.dumps(self.stats_json, ensure_ascii=False)
 
     @timeit
@@ -225,35 +230,62 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 except Exception as e:
                     print('Error encountered calling S3.Bucket.upload_file: ', key, e)
 
-                # Spawn off all child processes on the list
-                # ChildProcessContainer has the basic mechanics for spawning off a child process,
-                # joining it, and handling exceptions
-                kid_list = []
-                for meth in self.method_list:
-                    kid_list.append(ChildProcessContainer(
-                            managed_instance=None,
-                            proc_name=None,
-                            run_method=meth,
-                            method_params=(self.repo_owner, self.repo_name, self.numstat, self.repo_dir)
-                    ))
+            self.parse_json()  # populates analysis_map
 
-                # Do the same work we wore doing previously
-                # First iterate through the list of language-specific analyzers
-                self.parse_json()  # populates analysis_map
+            repo_blame_map = {}
+            repo_dependency_map = {}
+            if os.path.exists(self.repo_dir):
+                for subdir, dirs, files in os.walk(self.repo_dir):
+                    for file in files:
+                        filename = os.path.join(subdir, file)
+                        relative_file_name = filename[len(self.repo_dir)+1:].replace(os.sep, '/')
+                        extension = os.path.splitext(filename)[1].lower()
+                        # print('Processing: ', filename, extension)
+                        if extension in self.dependency_method_map.keys():
+                            # First try and define the blame map - catching any errors
+                            try:
+                                self.blame_game_retriever = BlameGameRetriever(self.repo_dir)
+                                repo_blame_map[relative_file_name] = self.blame_game_retriever.get_blame_game(filename);
+                            except Exception as e:
+                                print(e)
+                                traceback.print_exc()
+                                print('Error encountered calling BlameGameRetriever.get_blame_game: ', filename)
+                            # Now take a similar approach to dependency analysis
+                            try:
+                                method = self.dependency_method_map[extension]
+                                if method and callable(method):
+                                    repo_dependency_map[relative_file_name] = method(filename)
+                            except Exception as e:
+                                print(e)
+                                traceback.print_exc()
+                                print('Error encountered calling dependency-discovery method: ', filename, str(self.dependency_method_map[extension]))
+                try:
+                    # first try and write the blame map to S3
+                    if len(repo_blame_map) > 0:
+                        blame_map_json = json.dumps(repo_blame_map, ensure_ascii=False)
+                        blame_map_zip = bz2.compress(blame_map_json.encode('utf-8'))
+                        key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/blame_map.json.bz2'
+                        self.bucket.upload_fileobj(io.BytesIO(blame_map_zip), key)
+                except Exception as e:
+                    print('Error encountered calling S3.Bucket.upload_file for blame map: ', self.repo_dir, e)
+
+                try:
+                    # Now try and do the same with the dependency map
+                    if len(repo_dependency_map) > 0:
+                        dependency_map_json = json.dumps(repo_dependency_map, ensure_ascii=False)
+                        dependency_map_zip = bz2.compress(dependency_map_json.encode('utf-8'))
+                        key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/dependency_map.json.bz2'
+                        self.bucket.upload_fileobj(io.BytesIO(dependency_map_zip), key)
+                except Exception as e:
+                    print('Error encountered calling S3.Bucket.upload_file for dependency map: ', self.repo_dir, e)
+
                 # Now build the parameters for the SQL call
                 self.prepare_sql_params()
-
-                # Join up with all the child processes
-                for kid in kid_list:
-                    print('Joining with child process: ', str(kid))
-                    if kid.wait_for_it(60):
-                        # We need something more graceful here, but for now, just kill and print a message
-                        kid.kill()
-                        print('Timed out waiting for child process to complete. Killing it.')
+            else:
+                print('Unable to locate repo directory: ', self.repo_dir)
 
         except Exception as e:
             print(e)
-            traceback.print_exc()
 
 
 if __name__ == "__main__":
