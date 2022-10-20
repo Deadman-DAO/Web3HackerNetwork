@@ -10,11 +10,14 @@ from abc import ABC, abstractmethod
 from threading import Lock
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 from monitor import timeit
-from python.lib.blame_game import BlameGameRetriever
-from python.w3hn.dependency.golang import GoDependencyAnalyzer
-from python.w3hn.dependency.scala import ScalaDependencyAnalyzer
-from python.w3hn.dependency.java import JavaDependencyAnalyzer
-from python.w3hn.dependency.python import PythonDependencyAnalyzer
+relative_lib = "../../python"
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
+
+from lib.blame_game import BlameGameRetriever
+from w3hn.dependency.golang import GoDependencyAnalyzer
+from w3hn.dependency.scala import ScalaDependencyAnalyzer
+from w3hn.dependency.java import JavaDependencyAnalyzer
+from w3hn.dependency.python import PythonDependencyAnalyzer
 
 def add_int_to_map(map, key, value):
     if key not in map:
