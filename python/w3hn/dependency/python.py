@@ -18,7 +18,7 @@ class PythonDependencyAnalyzer:
         with open(path, 'r') as source:
             for line in source:
                 line = re.sub("//.*", "", line)
-                deps = re.findall('(?m)^(?:from(?:[\s,]+)(\w+)(?:[\s,]+))?import[\s]+(\w+)(?:[\s]+as[\s]+\w+)?[\s]*$', line)
+                deps = re.findall('(?m)^(?:from(?:[\s,]+)([\w\.]+)(?:[\s,]+))?import[\s]+(\w+)(?:[\s]+as[\s]+\w+)?[\s]*$', line)
                 dependencies.extend(deps)
                 # full_source += line
 
