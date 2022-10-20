@@ -49,9 +49,9 @@ class BlameGameRetriever(SignalHandler):
                 for line in self.stdout.split('\n'):
                     array = re.findall('^[\^a-f0-9A-F]+\s+[^\(]*\((.*?) [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} ', line)
                     if len(array) > 1:
-                        print('Error:  More than one match found in line:  ', line)
+                        print('Error:  More than one match found in line:  ', line, filename, self.repo_dir)
                     elif len(array) < 1:
-                        print('Error:  No match found in line:  ', line)
+                        print('Error:  No match found in line:  ', line, filename, self.repo_dir)
                     else:
                         contribution_array.append(array[0])
             except Exception as e:
