@@ -18,15 +18,24 @@ class PythonDependencyAnalyzer:
         with open(path, 'r') as source:
             for line in source:
                 line = re.sub("//.*", "", line)
-                deps = re.findall('^(?:from(?:[\s,]+)([\w\.]+)(?:[\s,]+))?import\s+(\w+)(?:\s+as\s+\w+)?\s*$', line)
+                deps = re.findall('^(?:from(?:[\s,]+)([\w\.]+)(?:[\s,]+))?import\s+([\w, ]+)(?:\s+as\s+\w+)?\s*$', line)
                 if len(deps) == 1 and len(deps[0]) == 2:
                     deps = deps[0]
                     if deps[0] == '':
-                        deps = deps[1]
+                        dependencies.append(deps[1])
                     elif deps[1] == '':
-                        deps = deps[0]
+                        dependencies.append(deps[0])
                     else:
-                        deps = '.'.join((deps[0], deps[1]))
-                    dependencies.append(deps)
+                        if ',' in deps[1]:
+                            prefix = deps[0]
+                            postfixes = deps[1].split(',')
+                            for postfix in postfixes:
+                                postfix = postfix.strip()
+                                if ' as ' in postfix:
+                                    postfix = postfix[slice(0,postfix.index(' as '))]
+                                dependencies.append(f'{prefix}.{postfix}')
+                        else:
+                            concat = '.'.join((deps[0], deps[1]))
+                            dependencies.append(concat)
 
         return dependencies
