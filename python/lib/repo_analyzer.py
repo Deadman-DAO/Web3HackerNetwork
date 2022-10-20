@@ -10,6 +10,7 @@ from abc import ABC, abstractmethod
 from threading import Lock
 from db_driven_task import DBDrivenTaskProcessor, DBTask
 from monitor import timeit
+import sys
 relative_lib = "../../python"
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
 
