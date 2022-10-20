@@ -19,13 +19,14 @@ class PythonDependencyAnalyzer:
             for line in source:
                 line = re.sub("//.*", "", line)
                 deps = re.findall('^(?:from(?:[\s,]+)([\w\.]+)(?:[\s,]+))?import\s+(\w+)(?:\s+as\s+\w+)?\s*$', line)
-                if len(deps) == 2:
+                if len(deps) == 1 and len(deps[0]) == 2:
+                    deps = deps[0]
                     if deps[0] == '':
                         deps = deps[1]
                     elif deps[1] == '':
                         deps = deps[0]
                     else:
                         deps = '.'.join((deps[0], deps[1]))
-                    dependencies.extend(deps)
+                    dependencies.append(deps)
 
         return dependencies
