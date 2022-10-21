@@ -13,7 +13,8 @@ repo_name = "ant"
 
 sample_source_path = os.path.join(os.path.dirname(__file__), "../data")
 paths = [
-    f'{sample_source_path}/PythonImport.py',
+   f'{sample_source_path}/PythonImport.py',
+   f'{sample_source_path}/benchmark.py',
 ]
 
 repo_dict = dict()

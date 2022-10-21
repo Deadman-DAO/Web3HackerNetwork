@@ -1,31 +1,34 @@
+# ========= External Libraries =================
 import datetime
 import os
 import sys
 import threading
-
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import as_completed
+# ----------------------------------------------
 
-low_partition_limit = '00' # '00' for all
-high_partition_limit = 'ff' # 'ff' for all
-# nstat_log = 'data/nstat-medium-sample.log'
-# nstat_log = 'data/nstat-medium-overlap-sample.log'
-# nstat_log = 'data/numstat-20kplus-reverse.log'
-nstat_log = 'data/nstat-5k-20k.log'
-
-relative_lib = "../../../python"
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
+# ========== Project Root Path =================
+this_path = os.path.abspath(sys.path[0])
+project_dir = 'Web3HackerNetwork'
+w3hndex = this_path.index(project_dir)
+root_path = this_path[0:w3hndex + len(project_dir)]
+# ---------- Local Library Path ----------------
+sys.path.insert(0, f'{root_path}/python')
+# ---------- Local Libraries -------------------
 from w3hn.datapipe.ingest.file_hacker_commit import FileHackerCommitIngester
 from w3hn.datapipe.ingest.repo_file import RepoFileIngester
 from w3hn.aws.aws_util import S3Util
 import w3hn.hadoop.parquet_util as pq_util
+# ----------------------------------------------
 
-# repo/file found existing dataset web3hackernetwork/data_pipeline/raw/repo_file/partition_key=05
-# 2022-10-18 20:24:37.346562
-# repo/file about to read parquet
-# repo/file old table has 1156021 rows after filter
-# repo_file old table rows: 1156021
-# repo_file merged table rows: 1209923
+sample_path = f'{root_path}/sandbox/python/bob/data/'
+# nstat_log = f'{sample_path}/nstat-medium-sample.log'
+# nstat_log = f'{sample_path}/nstat-medium-overlap-sample.log'
+# nstat_log = f'{sample_path}/numstat-20kplus-reverse.log'
+nstat_log = f'{sample_path}/nstat-5k-20k.log'
+
+low_partition_limit = '00' # '00' for all
+high_partition_limit = 'ff' # 'ff' for all
 
 numstat_s3_util = S3Util(profile="enigmatt")
 
@@ -115,13 +118,13 @@ def load_numstat(numstat_tuple):
     return None
 
 def update_file_hacker(repo_tuple_array):
-    FileHackerCommitIngester.update_repos(repo_tuple_array)
-    # print(f'not running update_file_hacker on {len(repo_tuple_array)} repo_tuples')
+    #FileHackerCommitIngester.update_repos(repo_tuple_array)
+    print(f'not running update_file_hacker on {len(repo_tuple_array)} repo_tuples')
     None
 
 def update_repo_file(repo_tuple_array):
-    RepoFileIngester.update_repos(repo_tuple_array)
-    # print(f'not running update_repo_file on {len(repo_tuple_array)} repo_tuples')
+    #RepoFileIngester.update_repos(repo_tuple_array)
+    print(f'not running update_repo_file on {len(repo_tuple_array)} repo_tuples')
     None
             
 multi_phile()
