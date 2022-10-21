@@ -6,6 +6,7 @@ from threading import Thread, current_thread, Lock
 import psutil
 import time
 from sys import argv
+import traceback
 
 monitored_thread_map = {}
 monitor_lock = Lock()
@@ -188,6 +189,7 @@ class Monitor:
                         for _key in my_mt.monitor_timer_map.keys():
                             array.append((_key,)+my_mt.monitor_timer_map[_key].tuple())
                         align_columns(array, prefix='\t')
+                    traceback.print_stack()
             except Exception as e:
                 print('Monitor encountered error:', e)
 
