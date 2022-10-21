@@ -1,7 +1,9 @@
 import re
 
+from lib.monitor import timeit
+from w3hn.dependency.analyzer import DependencyAnalyzer
 
-class GoDependencyAnalyzer:
+class GoDependencyAnalyzer(DependencyAnalyzer):
     def language(self):
         return "Go"
 

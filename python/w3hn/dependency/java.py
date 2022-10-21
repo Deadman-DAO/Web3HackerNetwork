@@ -1,6 +1,9 @@
 import re
 
-class JavaDependencyAnalyzer:
+from lib.monitor import timeit
+from w3hn.dependency.analyzer import DependencyAnalyzer
+
+class JavaDependencyAnalyzer(DependencyAnalyzer):
     def language(self):
         return "Java"
 

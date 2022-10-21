@@ -1,6 +1,9 @@
 import re
 
-class PythonDependencyAnalyzer:
+from lib.monitor import timeit
+from w3hn.dependency.analyzer import DependencyAnalyzer
+
+class PythonDependencyAnalyzer(DependencyAnalyzer):
     def __init__(self):
         pass
 

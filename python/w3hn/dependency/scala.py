@@ -1,6 +1,9 @@
 import re
 
-class ScalaDependencyAnalyzer:
+from lib.monitor import timeit
+from w3hn.dependency.analyzer import DependencyAnalyzer
+
+class ScalaDependencyAnalyzer(DependencyAnalyzer):
     def language(self):
         return "Scala"
 

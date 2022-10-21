@@ -1,6 +1,9 @@
 import re
 
-class JavascriptDependencyAnalyzer:
+from lib.monitor import timeit
+from w3hn.dependency.analyzer import DependencyAnalyzer
+
+class JavascriptDependencyAnalyzer(DependencyAnalyzer):
     def __init__(self):
         pass
 
