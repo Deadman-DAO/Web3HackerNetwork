@@ -7,7 +7,8 @@ project_dir = 'Web3HackerNetwork'
 w3hndex = this_path.index(project_dir)
 root_path = this_path[0:w3hndex + len(project_dir)]
 # ---------- Local Library Path ----------------
-sys.path.insert(0, f'{root_path}/python')
+if f'{root_path}/python' not in sys.path:
+    sys.path.insert(0, f'{root_path}/python')
 # ---------- Local Libraries -------------------
 from w3hn.dependency.python import PythonDependencyAnalyzer
 # ----------------------------------------------
