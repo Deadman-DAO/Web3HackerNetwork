@@ -45,13 +45,15 @@ class BlameGameRetriever(SignalHandler):
             line_count = 0.0
             try:
                 self.stdout = self.stdout.decode('utf-8')
-
+                line_no = 0
                 for line in self.stdout.split('\n'):
+                    line_no += 1
                     array = re.findall('^[\^a-f0-9A-F]+\s+[^\(]*\((.*?) [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} ', line)
                     if len(array) > 1:
-                        print('Error:  More than one match found in line:  ', line, filename, self.repo_dir)
+                        print('Error:  More than one match found in line:  ', line_no, line, filename, self.repo_dir)
                     elif len(array) < 1:
-                        print('Error:  No match found in line:  ', line, filename, self.repo_dir)
+                        if len(line) > 0:
+                            print('Error:  No match found in line:  ', line_no, line, filename, self.repo_dir)
                     else:
                         contribution_array.append(array[0])
             except Exception as e:
@@ -60,4 +62,4 @@ class BlameGameRetriever(SignalHandler):
 
 
 if __name__ == '__main__':
-    print(str(BlameGameRetriever('.').get_blame_game('./blame_game.py')))
+    print(str(BlameGameRetriever('./repos/ds-push-assignment').get_blame_game('benchmark.py')))
