@@ -1,8 +1,4 @@
 import re
-import os
-import sys
-relative_lib = "../.."
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
 
 class PythonDependencyAnalyzer:
     def __init__(self):
@@ -21,7 +17,7 @@ class PythonDependencyAnalyzer:
         with open(path, 'r', errors='ignore') as source:
             for line in source:
                 line = re.sub("//.*", "", line)
-                deps = re.findall('^(?:from(?:[\s,]+)([\w\.]+)(?:[\s,]+))?import\s+([\w, ]+)(?:\s+as\s+\w+)?\s*$', line)
+                deps = re.findall('^(?:from(?:[\s,]+)([\w\.]+)(?:[\s,]+))?import\s+([\w\., ]+?)(?:\s+as\s+\w+)?\s*$', line)
                 if len(deps) == 1 and len(deps[0]) == 2:
                     deps = deps[0]
                     if deps[0] == '':
@@ -42,8 +38,3 @@ class PythonDependencyAnalyzer:
                             dependencies.append(concat)
 
         return dependencies
-
-
-if __name__ == '__main__':
-    file = sys.argv[1] if len(sys.argv) > 1 else '../../../data/samples/source/python/plugin.py'
-    print(PythonDependencyAnalyzer().get_dependencies(file))
