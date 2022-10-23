@@ -11,10 +11,10 @@ from threading import Lock, Event
 import sys
 import time
 
-from child_process import ChildProcessContainer
-from db_dependent_class import DBDependent, make_dir
-from kitchen_sink_class import NumstatRequirementSet
-from monitor import MultiprocessMonitor, timeit, find_argv_param
+from lib.child_process import ChildProcessContainer
+from lib.db_dependent_class import DBDependent, make_dir
+from lib.kitchen_sink_class import NumstatRequirementSet
+from lib.monitor import MultiprocessMonitor, timeit, find_argv_param
 
 
 class Author:

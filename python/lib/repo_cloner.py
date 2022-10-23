@@ -10,9 +10,9 @@ import requests
 import sys
 import time
 
-from child_process import ChildProcessContainer
-from db_dependent_class import DBDependent, make_dir
-from monitor import MultiprocessMonitor, timeit, find_argv_param
+from lib.child_process import ChildProcessContainer
+from lib.db_dependent_class import DBDependent, make_dir
+from lib.monitor import MultiprocessMonitor, timeit, find_argv_param
 
 
 class RepoCloner(DBDependent):

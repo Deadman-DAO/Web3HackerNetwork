@@ -3,8 +3,8 @@ from pathlib import Path
 from shutil import rmtree
 from threading import Lock
 
-from db_driven_task import DBDrivenTaskProcessor, DBTask
-from monitor import timeit
+from lib.db_driven_task import DBDrivenTaskProcessor, DBTask
+from lib.monitor import timeit
 
 
 class RepoCleanup(DBDrivenTaskProcessor):
