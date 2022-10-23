@@ -56,3 +56,12 @@ class S3Util(AWSUtil):
             numstat_bz2 = obj.get()['Body'].read()
             numstat = json.loads(bz2.decompress(numstat_bz2))
         return numstat
+
+    # arg: path: everything after s3://bucket-name/
+    #   example: 'web3hackernetwork/data_pipeline/curated/hacker_extension
+    def delete_recursive(self, path):
+        response = self.client.list_objects_v2(Bucket=self.bucket.name,
+                                               Prefix=path)
+        for object in response['Contents']:
+            print('Deleting', object['Key'])
+            self.client.delete_object(Bucket=self.bucket.name, Key=object['Key'])
