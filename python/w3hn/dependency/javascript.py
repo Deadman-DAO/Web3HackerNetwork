@@ -21,7 +21,7 @@ class JavascriptDependencyAnalyzer(DependencyAnalyzer):
         with open(path, 'r', errors='ignore') as source:
             for line in source:
                 line = re.sub("//.*", "", line[:-1])
-                print(line)
+                # print(line)
                 reqs = re.findall(require_pattern, line)
                 dependencies.extend(reqs)
                 imps = re.findall(import_pattern, line)
