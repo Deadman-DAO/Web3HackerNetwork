@@ -68,8 +68,6 @@ class MonitoredThread(object):
         self.tracker = None
 
 
-
-
 def mem_info():
     return str(psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2)
 

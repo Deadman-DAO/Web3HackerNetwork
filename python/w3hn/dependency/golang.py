@@ -9,7 +9,8 @@ class GoDependencyAnalyzer(DependencyAnalyzer):
 
     def matches(self, path):
         return path.endswith('.go')
-        
+
+    @timeit
     def get_dependencies(self, path):
         depends = list()
 

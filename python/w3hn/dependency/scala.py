@@ -10,6 +10,7 @@ class ScalaDependencyAnalyzer(DependencyAnalyzer):
     def matches(self, path):
         return path.endswith('.scala')
 
+    @timeit
     def get_dependencies(self, path):
         dependencies = list()
 

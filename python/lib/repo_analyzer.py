@@ -6,6 +6,7 @@ import io
 import os
 import traceback
 from threading import Lock
+from concurrent.futures import ThreadPoolExecutor
 from lib.db_driven_task import DBDrivenTaskProcessor, DBTask
 from lib.monitor import timeit
 from lib.blame_game import BlameGameRetriever
@@ -167,31 +168,39 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
             repo_blame_map = {}
             repo_dependency_map = {}
+            future_blame_result_map = {}
+            future_dependency_result_map = {}
             if os.path.exists(self.repo_dir):
-                for subdir, dirs, files in os.walk(self.repo_dir):
-                    for file in files:
-                        filename = os.path.join(subdir, file)
-                        relative_file_name = filename[len(self.repo_dir)+1:].replace(os.sep, '/')
-                        extension = os.path.splitext(filename)[1].lower()
-                        # print('Processing: ', filename, extension)
-                        for dep in self.dependency_list:
-                            if dep.matches(extension):
-                                # First try and define the blame map - catching any errors
-                                try:
-                                    self.blame_game_retriever = BlameGameRetriever(self.repo_dir)
-                                    repo_blame_map[relative_file_name] = \
-                                        self.blame_game_retriever.get_blame_game(filename)
-                                except Exception as e:
-                                    print(e)
-                                    traceback.print_exc()
-                                    print('Error encountered calling BlameGameRetriever.get_blame_game: ', filename)
-                                # Now take a similar approach to dependency analysis
-                                try:
-                                    repo_dependency_map[relative_file_name] = dep.get_dependencies(filename)
-                                except Exception as e:
-                                    print(e)
-                                    traceback.print_exc()
-                                    print('Error encountered calling dependency-discovery method: ', filename, str(dep))
+                with ThreadPoolExecutor() as exec:
+                    for subdir, dirs, files in os.walk(self.repo_dir):
+                        for file in files:
+                            filename = os.path.join(subdir, file)
+                            relative_file_name = filename[len(self.repo_dir)+1:].replace(os.sep, '/')
+                            extension = os.path.splitext(filename)[1].lower()
+                            # print('Processing: ', filename, extension)
+                            for dep in self.dependency_list:
+                                if dep.matches(extension):
+                                    # First try and define the blame map - catching any errors
+                                    try:
+                                        self.blame_game_retriever = BlameGameRetriever(self.repo_dir)
+                                        future_blame_result_map[relative_file_name] = \
+                                            exec.submit(self.blame_game_retriever.get_blame_game, filename)
+                                    except Exception as e:
+                                        print(e)
+                                        traceback.print_exc()
+                                        print('Error encountered calling BlameGameRetriever.get_blame_game: ', filename)
+                                    # Now take a similar approach to dependency analysis
+                                    try:
+                                        future_dependency_result_map[relative_file_name] = \
+                                            exec.submit(dep.get_dependencies, filename)
+                                    except Exception as e:
+                                        print(e)
+                                        traceback.print_exc()
+                                        print('Error encountered calling dependency-discovery method: ', filename, str(dep))
+                    for relative_file_name in future_blame_result_map.keys():
+                        repo_blame_map[relative_file_name] = future_blame_result_map[relative_file_name].result()
+                        repo_dependency_map[relative_file_name] = \
+                            future_dependency_result_map[relative_file_name].result()
                 try:
                     # first try and write the blame map to S3
                     if len(repo_blame_map) > 0:

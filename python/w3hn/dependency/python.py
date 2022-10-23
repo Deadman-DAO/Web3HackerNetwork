@@ -3,6 +3,7 @@ import re
 from lib.monitor import timeit
 from w3hn.dependency.analyzer import DependencyAnalyzer
 
+
 class PythonDependencyAnalyzer(DependencyAnalyzer):
     def __init__(self):
         pass
@@ -13,6 +14,7 @@ class PythonDependencyAnalyzer(DependencyAnalyzer):
     def matches(self, path):
         return path.endswith('.py')
 
+    @timeit
     def get_dependencies(self, path):
         dependencies = list()
 

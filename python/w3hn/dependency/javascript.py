@@ -3,6 +3,7 @@ import re
 from lib.monitor import timeit
 from w3hn.dependency.analyzer import DependencyAnalyzer
 
+
 class JavascriptDependencyAnalyzer(DependencyAnalyzer):
     def __init__(self):
         pass
@@ -13,6 +14,7 @@ class JavascriptDependencyAnalyzer(DependencyAnalyzer):
     def matches(self, path):
         return path.endswith(('.js', '.ts', '.jsx', '.tsx'))
 
+    @timeit
     def get_dependencies(self, path):
         dependencies = list()
 

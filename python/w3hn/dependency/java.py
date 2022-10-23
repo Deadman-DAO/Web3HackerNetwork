@@ -3,6 +3,8 @@ import re
 from lib.monitor import timeit
 from w3hn.dependency.analyzer import DependencyAnalyzer
 
+
+@timeit
 class JavaDependencyAnalyzer(DependencyAnalyzer):
     def language(self):
         return "Java"
