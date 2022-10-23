@@ -1,24 +1,20 @@
 import boto3
-import ast
 import bz2
 import hashlib
 import json
 import io
 import os
 import traceback
-from abc import ABC, abstractmethod
 from threading import Lock
-from db_driven_task import DBDrivenTaskProcessor, DBTask
-from monitor import timeit
-import sys
-relative_lib = "../../python"
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), relative_lib))
-
+from lib.db_driven_task import DBDrivenTaskProcessor, DBTask
+from lib.monitor import timeit
 from lib.blame_game import BlameGameRetriever
 from w3hn.dependency.golang import GoDependencyAnalyzer
 from w3hn.dependency.scala import ScalaDependencyAnalyzer
 from w3hn.dependency.java import JavaDependencyAnalyzer
 from w3hn.dependency.python import PythonDependencyAnalyzer
+from w3hn.dependency.javascript import JavascriptDependencyAnalyzer
+
 
 def add_int_to_map(map, key, value):
     if key not in map:
@@ -34,66 +30,6 @@ def add_int_key_value_submap_to_map(map, root_key, sub_key, value, init_value=0)
     if sub_key not in map[root_key].keys():
         map[root_key][sub_key] = init_value
     map[root_key][sub_key] += value
-
-
-class Analyzer(ABC):
-    @abstractmethod
-    def analyze(self, numstat_json, extension_map, filename_map, repo_dir, import_map_map, commit_to_hacker_map):
-        pass
-
-
-class PythonAnalyzer(Analyzer):
-
-    def add_import(self, import_map, import_name, contributor_hash):
-        if import_name not in import_map:
-            import_map[import_name] = []
-        been_there = False
-        for h in import_map[import_name]:
-            if h == contributor_hash:
-                been_there = True
-                break
-        if not been_there:
-            import_map[import_name].append(contributor_hash)
-            if '.' in import_name:
-                self.add_import(import_map, import_name.split('.')[0], contributor_hash)
-
-    def get_imports(self, obj, import_map, contributor_hash, filename=None, repo_dir=None):
-        for node in ast.walk(obj):
-            if isinstance(node, ast.Module):
-                for b in node.body:
-                    if isinstance(b, ast.Import):
-                        for i in b.names:
-                            self.add_import(import_map, i.name, contributor_hash)
-                    if isinstance(b, ast.ImportFrom):
-                        for n in b.names:
-                            if b.module and n and n.name:
-                                self.add_import(import_map, b.module + '.' + n.name, contributor_hash)
-                            else:
-                                print("Null value found within PythonAnalyzer import mapping: ", filename, ':', b.module, n.name, b.lineno, repo_dir)
-
-    def analyze(self, numstat_json, extension_map, filename_map, repo_dir,
-                import_map, commit_to_hacker_map):
-        if 'py' in extension_map and extension_map['py'] > 0:
-            for filename in filename_map:
-                if filename.endswith('.py'):
-                    qualified_filename = os.path.join(repo_dir, filename)
-                    if os.path.exists(qualified_filename):
-                        try:
-                            with open(qualified_filename, 'r') as f:
-                                contents = f.read()
-
-                            if contents:
-                                try:
-                                    obj = ast.parse(contents, filename=filename)
-                                    self.get_imports(obj, import_map['imports'], md5key,
-                                                     filename=filename, repo_dir=repo_dir)
-                                except Exception as e:
-                                    print("Python source file didn't compile: ", filename, e)
-                                    traceback.print_exc()
-                                    continue
-                        except Exception as e:
-                            print('Non-compilable (or pre-Python3) python code:', e)
-                            traceback.print_exc()
 
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
@@ -117,7 +53,6 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.numstat_json = None
         self.extension_map = None
         self.filename_map = None
-        self.analysis_map = {'py': PythonAnalyzer()}
         self.stats_json = None
         self.cur_job = 'Starting...'
         self.find_orphan_sql = None
@@ -130,14 +65,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.filename_blame_map = None
         self.blame_game_retriever = None
         self.import_map_map = {}
-        self.java_dependency_class_instance = JavaDependencyAnalyzer()
-        self.go_dependency_class_instance = GoDependencyAnalyzer()
-        self.python_dependency_class_instance = PythonDependencyAnalyzer()
-        self.scala_dependency_class_instance = ScalaDependencyAnalyzer()
-        self.dependency_method_map = {'.java': self.java_dependency_class_instance.get_dependencies,
-                                      '.go': self.go_dependency_class_instance.get_dependencies,
-                                      '.py': self.python_dependency_class_instance.get_dependencies,
-                                      '.scala': self.scala_dependency_class_instance.get_dependencies}
+        self.dependency_list = [JavaDependencyAnalyzer(), GoDependencyAnalyzer(), PythonDependencyAnalyzer(),
+                                ScalaDependencyAnalyzer(), JavascriptDependencyAnalyzer()]
 
     def init(self):
         pass
@@ -245,24 +174,24 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                         relative_file_name = filename[len(self.repo_dir)+1:].replace(os.sep, '/')
                         extension = os.path.splitext(filename)[1].lower()
                         # print('Processing: ', filename, extension)
-                        if extension in self.dependency_method_map.keys():
-                            # First try and define the blame map - catching any errors
-                            try:
-                                self.blame_game_retriever = BlameGameRetriever(self.repo_dir)
-                                repo_blame_map[relative_file_name] = self.blame_game_retriever.get_blame_game(filename);
-                            except Exception as e:
-                                print(e)
-                                traceback.print_exc()
-                                print('Error encountered calling BlameGameRetriever.get_blame_game: ', filename)
-                            # Now take a similar approach to dependency analysis
-                            try:
-                                method = self.dependency_method_map[extension]
-                                if method and callable(method):
-                                    repo_dependency_map[relative_file_name] = method(filename)
-                            except Exception as e:
-                                print(e)
-                                traceback.print_exc()
-                                print('Error encountered calling dependency-discovery method: ', filename, str(self.dependency_method_map[extension]))
+                        for dep in self.dependency_list:
+                            if dep.matches(extension):
+                                # First try and define the blame map - catching any errors
+                                try:
+                                    self.blame_game_retriever = BlameGameRetriever(self.repo_dir)
+                                    repo_blame_map[relative_file_name] = \
+                                        self.blame_game_retriever.get_blame_game(filename)
+                                except Exception as e:
+                                    print(e)
+                                    traceback.print_exc()
+                                    print('Error encountered calling BlameGameRetriever.get_blame_game: ', filename)
+                                # Now take a similar approach to dependency analysis
+                                try:
+                                    repo_dependency_map[relative_file_name] = dep.get_dependencies(filename)
+                                except Exception as e:
+                                    print(e)
+                                    traceback.print_exc()
+                                    print('Error encountered calling dependency-discovery method: ', filename, str(dep))
                 try:
                     # first try and write the blame map to S3
                     if len(repo_blame_map) > 0:

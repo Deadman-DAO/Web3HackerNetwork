@@ -1,5 +1,5 @@
-from monitor import MultiprocessMonitor, timeit
-from signal_handler import SignalHandler
+from lib.monitor import MultiprocessMonitor, timeit
+from lib.signal_handler import SignalHandler
 import os
 import sys
 import re

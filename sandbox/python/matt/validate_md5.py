@@ -1,13 +1,12 @@
 import sys
-local_lib_dir = '../python/lib/'
-sys.path.append(local_lib_dir)
-from db_dependent_class import DBDependent
+from lib.db_dependent_class import DBDependent
 import hashlib
 
 
 def synthetic_partition_key(owner, repo_name):
     partition_key = owner + "\t" + repo_name
     return hashlib.md5(partition_key.encode('utf-8')).hexdigest()
+
 
 class ValidateMD5(DBDependent):
     def __init__(self):

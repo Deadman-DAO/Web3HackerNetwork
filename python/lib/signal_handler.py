@@ -2,7 +2,7 @@ import traceback
 import sys
 import signal
 from subprocess import TimeoutExpired, Popen, PIPE
-from child_process import ChildProcessContainer
+from lib.child_process import ChildProcessContainer
 
 
 def print_stack(sig, frame):

@@ -3,7 +3,7 @@ from threading import Thread
 
 import time
 
-from monitor import timeit
+from lib.monitor import timeit
 
 
 class ChildProcessContainer(Thread):

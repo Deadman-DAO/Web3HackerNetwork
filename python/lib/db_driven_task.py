@@ -6,8 +6,8 @@ from socket import gethostname
 
 import sys
 
-from db_dependent_class import DBDependent
-from monitor import MultiprocessMonitor, timeit
+from lib.db_dependent_class import DBDependent
+from lib.monitor import MultiprocessMonitor, timeit
 
 
 class DBTask(ABC):

@@ -6,8 +6,8 @@ import mysql.connector
 import psutil
 import sys
 
-from monitor import timeit
-from signal_handler import SignalHandler
+from lib.monitor import timeit
+from lib.signal_handler import SignalHandler
 
 
 def make_dir(dir_name):
