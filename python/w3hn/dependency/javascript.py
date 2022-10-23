@@ -11,11 +11,7 @@ class JavascriptDependencyAnalyzer(DependencyAnalyzer):
         return "Javascript"
 
     def matches(self, path):
-        if path.endswith('.js'): return true
-        elif path.endswith('.ts'): return true
-        elif path.endswith('.jsx'): return true
-        elif path.endswith('.tsx'): return true
-        else: return false
+        return path.endswith(('.js', '.ts', '.jsx', '.tsx'))
 
     def get_dependencies(self, path):
         dependencies = list()
