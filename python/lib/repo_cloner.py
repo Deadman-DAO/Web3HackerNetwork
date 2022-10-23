@@ -26,7 +26,7 @@ class RepoCloner(DBDependent):
         self.machine_name = os.uname().nodename if sys.platform != "win32" else gethostname()
         self.database = None
         self.db_config = None
-        self.current_repo = ''
+        self.current_repo = None
         self.owner = None
         self.repo_name = None
         self.running = True
@@ -157,6 +157,7 @@ class RepoCloner(DBDependent):
                     else:
                         self.idle_sleep()
                 else:
+                    self.current_repo = 'waiting_for_disc_space'
                     self.resting = True
                     self.resource_sleep()
             except Exception as anything:
@@ -166,8 +167,4 @@ class RepoCloner(DBDependent):
 
 
 if __name__ == "__main__":
-    _lock = Lock()
-    subprocesses = [ChildProcessContainer(RepoCloner(web_lock=Lock(), git_lock=Lock()), 'RepoCloner')
-                    ]
-    for n in subprocesses:
-        n.join()
+    RepoCloner(web_lock=Lock(), git_lock=Lock()).main()
