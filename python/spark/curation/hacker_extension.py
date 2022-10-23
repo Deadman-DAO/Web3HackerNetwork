@@ -1,14 +1,39 @@
+import boto3
 import sys
+from awsglue.context import GlueContext
+from awsglue.job import Job
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
-from awsglue.context import GlueContext
-from awsglue.job import Job
+
+
+import logging
+root_logger = logging.getLogger()
+root_logger.setLevel(logging.INFO)
+handler = logging.StreamHandler(sys.stdout)
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+root_logger.addHandler(handler)
+root_logger.info("check")
+
+
+def delete_recursive(bucket, path):
+    root_logger.info(f'recursive delete: s3:// {bucket} / {path}')
+    session = boto3.session.Session()
+    boto3_s3 = session.client('s3')
+    response = boto3_s3.list_objects_v2(Bucket=bucket, Prefix=path)
+    for object in response['Contents']:
+        key = object['Key']
+        root_logger.info(f'deleting s3://{bucket}/{key}')
+        boto3_s3.delete_object(Bucket=bucket, Key=key)
 
 ## @params: [JOB_NAME]
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
 
-output_path = "s3://deadmandao/web3hackernetwork/data_pipeline/curated/hacker_extension"
+output_bucket = 'deadmandao'
+output_key = 'web3hackernetwork/data_pipeline/curated/hacker_extension'
+output_path = f's3://{output_bucket}/{output_key}'
 
 sc = SparkContext()
 glueContext = GlueContext(sc)
@@ -37,4 +62,10 @@ group by author, substr(file_path, 1 + length(file_path) - position('.' in rever
 order by author, extension
 """
 out_df = spark.sql(extension_sql)
+
+try:
+    delete_recursive('deadmandao', output_key)
+except Exception as e:
+    root_logger.error(str(e))
+
 out_df.coalesce(1).write.parquet(output_path)
