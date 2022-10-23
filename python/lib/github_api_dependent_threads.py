@@ -1,7 +1,7 @@
-from GitHubUserIDFinder import GitHubUserIDFinder
-from MultiprocessManager import MultiprocessManager
-from repository_investigator import Investigator
-from trace_author_commit_history import AuthorCommitHistoryProcessor
+from lib.GitHubUserIDFinder import GitHubUserIDFinder
+from lib.MultiprocessManager import MultiprocessManager
+from lib.repository_investigator import Investigator
+from lib.trace_author_commit_history import AuthorCommitHistoryProcessor
 
 
 class GithubThreadMgr(MultiprocessManager):
