@@ -1,8 +1,5 @@
 import sys
-import os
 from lib.monitor import timeit
-from lib.repo_analyzer import RepoAnalyzer
-import __init__
 
 print("Path:")
 for path in sys.path:

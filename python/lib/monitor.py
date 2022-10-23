@@ -214,6 +214,7 @@ def get_singleton(**kwargs):
 
 class MultiprocessMonitor:
     def __init__(self, **kwargs):
+        print('MultiprocessMonitor().__init__', kwargs)
         self.single = get_singleton(**kwargs)
 
 
