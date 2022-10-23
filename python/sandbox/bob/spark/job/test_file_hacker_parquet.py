@@ -13,13 +13,15 @@ project_dir = 'Web3HackerNetwork'
 w3hndex = this_path.index(project_dir)
 root_path = this_path[0:w3hndex + len(project_dir)]
 # ---------- Local Library Path ----------------
-sys.path.insert(0, f'{root_path}/python')
+# sys.path.insert(0, f'{root_path}/python')
 # ---------- Local Libraries -------------------
 from w3hn.datapipe.ingest.file_hacker_commit import FileHackerCommitIngester
 from w3hn.datapipe.ingest.repo_file import RepoFileIngester
 from w3hn.aws.aws_util import S3Util
 import w3hn.hadoop.parquet_util as pq_util
 # ----------------------------------------------
+
+TEST_MODE = True
 
 sample_path = f'{root_path}/sandbox/python/bob/data/'
 # nstat_log = f'{sample_path}/nstat-medium-sample.log'
@@ -118,13 +120,15 @@ def load_numstat(numstat_tuple):
     return None
 
 def update_file_hacker(repo_tuple_array):
-    #FileHackerCommitIngester.update_repos(repo_tuple_array)
-    print(f'not running update_file_hacker on {len(repo_tuple_array)} repo_tuples')
-    None
+    if TEST_MODE:
+        print(f'not running update_file_hacker on {len(repo_tuple_array)} repo_tuples')
+    else:
+        FileHackerCommitIngester.update_repos(repo_tuple_array)
 
 def update_repo_file(repo_tuple_array):
-    #RepoFileIngester.update_repos(repo_tuple_array)
-    print(f'not running update_repo_file on {len(repo_tuple_array)} repo_tuples')
-    None
+    if TEST_MODE:
+        print(f'not running update_repo_file on {len(repo_tuple_array)} repo_tuples')
+    else:
+        RepoFileIngester.update_repos(repo_tuple_array)
             
 multi_phile()
