@@ -6,7 +6,6 @@ from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 
-
 import logging
 root_logger = logging.getLogger()
 root_logger.setLevel(logging.INFO)
@@ -16,7 +15,6 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 root_logger.addHandler(handler)
 root_logger.info("check")
-
 
 def delete_recursive(bucket, path):
     root_logger.info(f'recursive delete: s3:// {bucket} / {path}')
