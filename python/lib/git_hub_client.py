@@ -7,7 +7,7 @@ import requests
 import sys
 import time
 
-from monitor import timeit
+from lib.monitor import timeit
 
 
 def fetch_json_value(key, json):

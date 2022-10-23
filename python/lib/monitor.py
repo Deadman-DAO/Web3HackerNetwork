@@ -5,10 +5,7 @@ from threading import Thread, current_thread, Lock
 
 import psutil
 import time
-import sys
 from sys import argv
-from sys import _current_frames
-import traceback
 
 monitored_thread_map = {}
 monitor_lock = Lock()

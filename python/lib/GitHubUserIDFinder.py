@@ -3,11 +3,11 @@ import sys
 import os
 import json
 import traceback
-from socket import gethostname
-from db_dependent_class import DBDependent
-from monitor import MultiprocessMonitor, timeit
 from threading import Lock
-from git_hub_client import GitHubClient
+from socket import gethostname
+from lib.db_dependent_class import DBDependent
+from lib.monitor import MultiprocessMonitor, timeit
+from lib.git_hub_client import GitHubClient
 
 
 def no_none(val):
