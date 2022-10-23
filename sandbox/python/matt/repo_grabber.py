@@ -2,6 +2,7 @@ import boto3
 import bz2
 import json
 
+
 class RepoGrabber:
     def __init__(self):
         self.s3r = boto3.resource('s3')
@@ -14,3 +15,7 @@ class RepoGrabber:
             numstat_bz2 = obj.get()['Body'].read()
             numstat = json.loads(bz2.decompress(numstat_bz2))
         return numstat
+
+
+if __name__ == '__main__':
+    print(RepoGrabber().get_numstat('almedinakerla', 'nodejs_react_test'))

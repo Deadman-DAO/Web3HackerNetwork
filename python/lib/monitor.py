@@ -192,14 +192,20 @@ class Monitor:
                 print('Monitor encountered error:', e)
 
 
+simpleton_lock = Lock()
 singleton = None
 
 
 def get_singleton(**kwargs):
     global singleton
+    global simpleton_lock
     if singleton is None:
-        singleton = Monitor(**kwargs)
-        print('Constructed NEW (singleton) Monitor instance')
+        with simpleton_lock:
+            if singleton is None:
+                singleton = Monitor(**kwargs)
+                print('Constructed NEW (singleton) Monitor instance')
+            else:
+                print('Simpleton locking prevented dual Monitor instances')
     else:
         print('Appending kwargs to existing Monitor instance')
         singleton.add_thread(**kwargs)
@@ -208,8 +214,6 @@ def get_singleton(**kwargs):
 
 class MultiprocessMonitor:
     def __init__(self, **kwargs):
-        self.lock = kwargs['web_lock'] if 'web_lock' in kwargs else Lock()
-        with self.lock:
-            self.single = get_singleton(**kwargs)
+        self.single = get_singleton(**kwargs)
 
 
