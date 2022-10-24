@@ -78,6 +78,8 @@ def get_monitored_thread(thread_name=None):
     _ct_name = current_thread().name if thread_name is None else thread_name
     if _ct_name not in monitored_thread_map:
         monitored_thread_map[_ct_name] = MonitoredThread()
+        if _ct_name.startswith('PREFIX_'):
+            get_singleton()
     return monitored_thread_map[_ct_name]
 
 
@@ -205,6 +207,7 @@ def get_singleton(**kwargs):
                 log.info('Constructed NEW (singleton) Monitor instance')
             else:
                 log.info('Simpleton locking prevented dual Monitor instances')
+                singleton.add_thread(**kwargs)
     else:
         log.info('Appending kwargs to existing Monitor instance')
         singleton.add_thread(**kwargs)

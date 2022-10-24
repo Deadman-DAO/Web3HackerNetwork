@@ -4,7 +4,6 @@ from lib.monitor import timeit
 from w3hn.dependency.analyzer import DependencyAnalyzer
 
 
-@timeit
 class JavaDependencyAnalyzer(DependencyAnalyzer):
     def language(self):
         return "Java"
@@ -12,6 +11,7 @@ class JavaDependencyAnalyzer(DependencyAnalyzer):
     def matches(self, path):
         return path.endswith('.java')
 
+    @timeit
     def get_dependencies(self, path):
         dependencies = list()
 

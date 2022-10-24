@@ -68,6 +68,11 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.import_map_map = {}
         self.dependency_list = [JavaDependencyAnalyzer(), GoDependencyAnalyzer(), PythonDependencyAnalyzer(),
                                 ScalaDependencyAnalyzer(), JavascriptDependencyAnalyzer()]
+        self.max_threads_key = 'REPO_ANALYZER_MAX_THREADS'
+        self.max_threads = os.environ[self.max_threads_key] if \
+            self.max_threads_key in os.environ.keys() and \
+              os.environ[self.max_threads_key] else None
+
 
     def init(self):
         pass
@@ -174,7 +179,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             future_blame_result_map = {}
             future_dependency_result_map = {}
             if os.path.exists(self.repo_dir):
-                with ThreadPoolExecutor() as exec:
+                with ThreadPoolExecutor(max_workers=self.max_threads, thread_name_prefix="PREFIX_repoAnalyzerThread_") as exec:
                     for subdir, dirs, files in os.walk(self.repo_dir):
                         for file in files:
                             filename = os.path.join(subdir, file)

@@ -55,7 +55,7 @@ class BlameGameRetriever(SignalHandler):
                         if len(line) > 0:
                             print('Error:  No match found in line:  ', line_no, line, filename, self.repo_dir)
                     else:
-                        contribution_array.append(array[0])
+                        contribution_array.append(array[0].strip() if array[0] else array[0])
             except Exception as e:
                 print('Error processing blame output:', e)
             return contribution_array
