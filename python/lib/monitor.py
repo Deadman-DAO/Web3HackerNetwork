@@ -6,6 +6,7 @@ from threading import Thread, current_thread, Lock
 import psutil
 import time
 from sys import argv
+from sandbox.matt.log_trial import clog as log
 
 monitored_thread_map = {}
 monitor_lock = Lock()
@@ -40,9 +41,9 @@ def align_columns(array_of_tuples, prefix=None):
             line = prefix if prefix else ''
             for idx in range(len(row)):
                 line += f'{row[idx]:>{max_col_width[idx]+1}}'
-            print(line)
+            log.info(line)
     except Exception as e:
-        print('WTF?', e)
+        log.warning(" ".join(('monitor.align_columns error:', e)))
 
 
 class Tracker:
@@ -148,17 +149,17 @@ class Monitor:
             if 'frequency' in ct_kwargs:
                 specified_frequency = ct_kwargs.pop('frequency')
             if 'web_lock' in ct_kwargs:
-                print('Removing web_lock')
+                log.info('Removing web_lock')
                 ct_kwargs.pop('web_lock')
             if 'database_lock' in ct_kwargs:
-                print('Removing database_lock')
+                log.info('Removing database_lock')
                 ct_kwargs.pop('database_lock')
         frequency = specified_frequency if specified_frequency > 0 else 5
         running = True
         while running:
             time.sleep(frequency)
             try:
-                print(''.join((datingdays.now().strftime('%a %b %d %H:%M:%S.%f')[:-4],
+                log.info(''.join((datingdays.now().strftime('%a %b %d %H:%M:%S.%f')[:-4],
                                ': mem(', mem_info(),
                                ') runtime(', self.calc_run_time(), ')')))
                 with monitor_lock:
@@ -171,7 +172,7 @@ class Monitor:
                         for k in ct_kwargs.keys():
                             method = ct_kwargs[k]
                             if not callable(method):
-                                print(k, method, ' is NOT callable.  Removing it.')
+                                log.info(" ".join((k, method, ' is NOT callable.  Removing it.')))
                                 remove_key_list.append(k)
                             else:
                                 msg = ''.join((msg, ' ', k, ':', str(method())))
@@ -181,13 +182,13 @@ class Monitor:
                             msg = ''.join((msg, ' cur_meth:',
                                            my_mt.monitor_current_method, '(',
                                            str(len(my_mt.monitor_call_stack)), ')'))
-                        print(msg)
+                        log.info(msg)
                         array = []
                         for _key in my_mt.monitor_timer_map.keys():
                             array.append((_key,)+my_mt.monitor_timer_map[_key].tuple())
                         align_columns(array, prefix='\t')
             except Exception as e:
-                print('Monitor encountered error:', e)
+                log.error(' '.join(('Monitor encountered error:', e)))
 
 
 simpleton_lock = Lock()
@@ -201,18 +202,18 @@ def get_singleton(**kwargs):
         with simpleton_lock:
             if singleton is None:
                 singleton = Monitor(**kwargs)
-                print('Constructed NEW (singleton) Monitor instance')
+                log.info('Constructed NEW (singleton) Monitor instance')
             else:
-                print('Simpleton locking prevented dual Monitor instances')
+                log.info('Simpleton locking prevented dual Monitor instances')
     else:
-        print('Appending kwargs to existing Monitor instance')
+        log.info('Appending kwargs to existing Monitor instance')
         singleton.add_thread(**kwargs)
     return singleton
 
 
 class MultiprocessMonitor:
     def __init__(self, **kwargs):
-        print('MultiprocessMonitor().__init__', kwargs)
+        log.info('MultiprocessMonitor().__init__')
         self.single = get_singleton(**kwargs)
 
 
