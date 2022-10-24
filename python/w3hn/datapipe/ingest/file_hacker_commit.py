@@ -42,8 +42,9 @@ class FileHackerCommitIngester:
     # ----------------------------------------------------
 
     # repo_tuple_array = [repo_tuple]
-    # repo_tuple = (owner, repo_name, numstat_object)
-    # example: [('apache', 'ant', json.loads(numstat_json))]
+    # repo_tuple = (owner, repo_name, blame_object, deps_object, numstat_object)
+    # example: [('apache', 'ant', json.loads(blame_json),
+    #            json.loads(deps_json), json.loads(numstat_json))]
     def update_repos(repo_tuple_array):
         synth_dict = dict()
         for repo_tuple in repo_tuple_array:
@@ -65,7 +66,7 @@ class FileHackerCommitIngester:
             for repo_tuple in repo_tuple_list:
                 owner = repo_tuple[0]
                 repo_name = repo_tuple[1]
-                numstat_object = repo_tuple[2]
+                numstat_object = repo_tuple[4]
                 new_data = pq_tool.extract_data(owner, repo_name, numstat_object)
                 new_table = pq_tool.create_table(new_data, owner, repo_name)
                 new_table_tuple = (owner, repo_name, new_table)
