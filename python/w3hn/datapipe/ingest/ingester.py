@@ -13,6 +13,9 @@ class Ingester(ABC):
     def extract_data(self, owner, repo_name,
                      blame_map=None, dependency_map=None, numstat=None):
         pass
+    @abstractmethod
+    def create_table(self, new_data, owner, repo_name):
+        pass
 
     # Same across entire raw tier. (or, if not, needs big rethink)
     PARTITION_KEY_FIELD = pa.field("partition_key", pa.string())

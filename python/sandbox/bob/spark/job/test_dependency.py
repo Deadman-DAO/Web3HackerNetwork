@@ -15,9 +15,10 @@ root_path = this_path[0:w3hndex + len(project_dir)]
 # ---------- Local Library Path ----------------
 # sys.path.insert(0, f'{root_path}/python')
 # ---------- Local Libraries -------------------
+from w3hn.datapipe.ingest.blame import BlameIngester
+from w3hn.datapipe.ingest.dependency import DependencyIngester
 from w3hn.datapipe.ingest.file_hacker_commit import FileHackerCommitIngester
 from w3hn.datapipe.ingest.repo_file import RepoFileIngester
-from w3hn.datapipe.ingest.dependency import DependencyIngester
 from w3hn.aws.aws_util import S3Util
 import w3hn.hadoop.parquet_util as pq_util
 # ----------------------------------------------
@@ -27,7 +28,7 @@ BLAME_JOB = 1
 DEPS_JOB = 2
 FILE_HACKER_JOB = 4
 REPO_FILE_JOB = 8
-JOBS = DEPS_JOB | FILE_HACKER_JOB | REPO_FILE_JOB # | BLAME_JOB
+JOBS = BLAME_JOB # | DEPS_JOB | FILE_HACKER_JOB | REPO_FILE_JOB #
 
 # JOBS_TO_CHECK = [[BLAME_JOB, update_blame],
 #                  [DEPS_JOB, update_dendency],
@@ -38,7 +39,7 @@ sample_path = f'{root_path}/python/sandbox/bob/data'
 deps_log = f'{sample_path}/deps-425.log'
 
 low_partition_limit = '00' # '00' for all
-high_partition_limit = '01' # 'ff' for all
+high_partition_limit = '02' # 'ff' for all
 
 json_s3_util = S3Util(profile="enigmatt")
 
