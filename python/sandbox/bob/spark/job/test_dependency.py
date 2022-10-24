@@ -23,12 +23,22 @@ import w3hn.hadoop.parquet_util as pq_util
 # ----------------------------------------------
 
 TEST_MODE = False
+BLAME_JOB = 1
+DEPS_JOB = 2
+FILE_HACKER_JOB = 4
+REPO_FILE_JOB = 8
+JOBS = DEPS_JOB | FILE_HACKER_JOB | REPO_FILE_JOB # | BLAME_JOB
+
+# JOBS_TO_CHECK = [[BLAME_JOB, update_blame],
+#                  [DEPS_JOB, update_dendency],
+#                  [FILE_HACKER_JOB, update_file_hacker],
+#                  [REPO_FILE_JOB, update_repo_file]]
 
 sample_path = f'{root_path}/python/sandbox/bob/data'
 deps_log = f'{sample_path}/deps-425.log'
 
 low_partition_limit = '00' # '00' for all
-high_partition_limit = 'ff' # 'ff' for all
+high_partition_limit = '01' # 'ff' for all
 
 json_s3_util = S3Util(profile="enigmatt")
 
@@ -56,13 +66,13 @@ def multi_phile():
     keys.sort()
     for partition_key in keys:
         if partition_key < low_partition_limit:
-            print(f'skipping {partition_key}')
+            # print(f'skipping {partition_key}')
             continue
         elif partition_key > high_partition_limit:
-            print(f'skipping {partition_key}')
+            # print(f'skipping {partition_key}')
             continue
         else:
-            print(f'{partition_key} is greater than threshold')
+            print(f'{partition_key} is in bounds, running')
         print(datetime.datetime.now())
         numstat_tuple_list = numstat_tuple_dict[partition_key]
         repo_tuple_array = list()
@@ -72,20 +82,32 @@ def multi_phile():
             if result != None:
                 repo_tuple_array.append(result)
         print(datetime.datetime.now())
+        print('starting threadpool for parquet update jobs')
         if len(repo_tuple_array) > 0:
-            #x = threading.Thread(target=thread_function, args=(1,))
-            fh_thread = threading.Thread(target=update_file_hacker,
-                                         args=(repo_tuple_array,))
-            rf_thread = threading.Thread(target=update_repo_file,
-                                         args=(repo_tuple_array,))
-            dep_thread = threading.Thread(target=update_dependency,
-                                          args=(repo_tuple_array,))
-            # fh_thread.start()
-            # rf_thread.start()
-            dep_thread.start()
-            # fh_thread.join()
-            # rf_thread.join()
-            dep_thread.join()
+            futures = list()
+            with ThreadPoolExecutor(max_workers=10) as executor:
+                if JOBS & BLAME_JOB:
+                    future = executor.submit(update_blame, repo_tuple_array)
+                    futures.append(future)
+                    print('blame job submitted')
+                if JOBS & DEPS_JOB:
+                    future = executor.submit(update_dependency, repo_tuple_array)
+                    futures.append(future)
+                    print('deps job submitted')
+                if JOBS & FILE_HACKER_JOB:
+                    future = executor.submit(update_file_hacker, repo_tuple_array)
+                    futures.append(future)
+                    print('file_hacker job submitted')
+                if JOBS & REPO_FILE_JOB:
+                    future = executor.submit(update_repo_file, repo_tuple_array)
+                    futures.append(future)
+                    print('repo_file job submitted')
+            for future in futures:
+                try:
+                    future.result()
+                except Exception as exc:
+                    raise exc
+                
 
 def load_numstat(numstat_tuple):
     owner = numstat_tuple[0]
@@ -93,32 +115,50 @@ def load_numstat(numstat_tuple):
     try:
         # print(f'reading numstat {count} of {len(numstat_tuple_list)}'
         #       f' for partition {partition_key} {owner} {repo_name}')
-        print(f'reading numstat for partition {owner} {repo_name}')
-        blame_object = None #json_s3_util.get_blame_map(owner, repo_name)
-        deps_object = json_s3_util.get_dependency_map(owner, repo_name)
-        numstat_object = None #json_s3_util.get_numstat(owner, repo_name)
+        blame_object = None
+        deps_object = None
+        numstat_object = None
+        if JOBS & BLAME_JOB:
+            print(f'reading blame for partition {owner} {repo_name}')
+            blame_object = json_s3_util.get_blame_map(owner, repo_name)
+        if JOBS & DEPS_JOB:
+            print(f'reading deps for partition {owner} {repo_name}')
+            deps_object = json_s3_util.get_dependency_map(owner, repo_name)
+        if JOBS & (FILE_HACKER_JOB | REPO_FILE_JOB):
+            print(f'reading numstat for partition {owner} {repo_name}')
+            numstat_object = json_s3_util.get_numstat(owner, repo_name)
         repo_tuple = (owner, repo_name, blame_object, deps_object, numstat_object)
         return repo_tuple
     except Exception as error:
-        print(f'error reading numstat {owner} {repo_name}: {error}')
+        print(f'error reading json {owner} {repo_name}: {error}')
     return None
 
-def update_file_hacker(repo_tuple_array):
+def update_blame(repo_tuple_array):
     if TEST_MODE:
-        print(f'not running update_file_hacker on {len(repo_tuple_array)} repo_tuples')
+        print(f'not running BLAME on {len(repo_tuple_array)} repo_tuples')
     else:
-        FileHackerCommitIngester.update_repos(repo_tuple_array)
+        print(f'running BLAME on {len(repo_tuple_array)} repo_tuples')
+        BlameIngester.update_repos(repo_tuple_array)
 
 def update_dependency(repo_tuple_array):
     if TEST_MODE:
-        print(f'not running update_file_hacker on {len(repo_tuple_array)} repo_tuples')
+        print(f'not running DEPS on {len(repo_tuple_array)} repo_tuples')
     else:
+        print(f'running DEPS on {len(repo_tuple_array)} repo_tuples')
         DependencyIngester.update_repos(repo_tuple_array)
+
+def update_file_hacker(repo_tuple_array):
+    if TEST_MODE:
+        print(f'not running FILE_HACKER on {len(repo_tuple_array)} repo_tuples')
+    else:
+        print(f'running FILE_HACKER on {len(repo_tuple_array)} repo_tuples')
+        FileHackerCommitIngester.update_repos(repo_tuple_array)
 
 def update_repo_file(repo_tuple_array):
     if TEST_MODE:
-        print(f'not running update_repo_file on {len(repo_tuple_array)} repo_tuples')
+        print(f'not running REPO_FILE on {len(repo_tuple_array)} repo_tuples')
     else:
+        print(f'running REPO_FILE on {len(repo_tuple_array)} repo_tuples')
         RepoFileIngester.update_repos(repo_tuple_array)
             
 multi_phile()
