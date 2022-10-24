@@ -49,13 +49,27 @@ class S3Util(AWSUtil):
         path_info = self.pyarrow_fs().get_file_info(bucket_path)
         return path_info.type != pafs.FileType.NotFound
 
+    # suffix should be something like 'dependency_map.json.bz2'
+    # or 'log_numstat.out.json.bz2' or 'blame_map.json.bz2'
+    def get_json_obj_from_bz2(self, owner, repo_name, suffix):
+        key = f'repo/{owner}/{repo_name}/{suffix}'
+        s3_obj = self.client.get_object(Bucket=self.bucket.name,Key=key)
+        compressed = s3_obj['Body'].read()
+        text = bz2.decompress(compressed)
+        obj = json.loads(text)
+        return obj
+
+    def get_blame_map(self, owner, repo_name):
+        suffix = 'blame_map.json.bz2'
+        return self.get_json_obj_from_bz2(owner, repo_name, suffix)
+    
+    def get_dependency_map(self, owner, repo_name):
+        suffix = 'dependency_map.json.bz2'
+        return self.get_json_obj_from_bz2(owner, repo_name, suffix)
+
     def get_numstat(self, owner, repo_name):
-        numstat = None
-        for obj in self.bucket.objects.filter(Prefix=f'repo/{owner}/{repo_name}/'):
-            obj = self.s3r.Object('numstat-bucket', obj.key)
-            numstat_bz2 = obj.get()['Body'].read()
-            numstat = json.loads(bz2.decompress(numstat_bz2))
-        return numstat
+        suffix = 'log_numstat.out.json.bz2'
+        return self.get_json_obj_from_bz2(owner, repo_name, suffix)
 
     # arg: path: everything after s3://bucket-name/
     #   example: 'web3hackernetwork/data_pipeline/curated/hacker_extension
