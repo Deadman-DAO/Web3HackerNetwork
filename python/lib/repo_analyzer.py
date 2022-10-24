@@ -163,6 +163,9 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     self.bucket.upload_file(self.numstat_dir, key)
                 except Exception as e:
                     print('Error encountered calling S3.Bucket.upload_file: ', key, e)
+            else:
+                print('Repo Analyzer unable to find local copy of repo directory: ', self.numstat_dir)
+                return
 
             self.parse_json()  # populates analysis_map
 
