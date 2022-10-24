@@ -1,7 +1,9 @@
 import re
+import os
 
 from lib.monitor import timeit
 from w3hn.dependency.analyzer import DependencyAnalyzer
+
 
 class GoDependencyAnalyzer(DependencyAnalyzer):
     def language(self):
@@ -12,6 +14,10 @@ class GoDependencyAnalyzer(DependencyAnalyzer):
 
     @timeit
     def get_dependencies(self, path):
+        disable = 'DISABLE_GO_DEPENDENCIES'
+        if disable in os.environ.keys() and os.environ[disable]:
+            return list()
+
         depends = list()
 
         # capture single-line imports
