@@ -30,7 +30,7 @@ def delete_recursive(bucket, path):
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
 sc = SparkContext()
 glue = GlueContext(sc)
-spark = glueContext.spark_session
+spark = glue.spark_session
 
 output_bucket = 'deadmandao'
 output_key = 'web3hackernetwork/data_pipeline/curated/repo_dependency'
