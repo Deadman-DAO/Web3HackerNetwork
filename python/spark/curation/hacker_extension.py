@@ -28,14 +28,13 @@ def delete_recursive(bucket, path):
 
 ## @params: [JOB_NAME]
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
+sc = SparkContext()
+glueContext = GlueContext(sc)
+spark = glueContext.spark_session
 
 output_bucket = 'deadmandao'
 output_key = 'web3hackernetwork/data_pipeline/curated/hacker_extension'
 output_path = f's3://{output_bucket}/{output_key}'
-
-sc = SparkContext()
-glueContext = GlueContext(sc)
-spark = glueContext.spark_session
 
 ## Dunno what this is for, the AWS example doesn't have it:
 ## https://github.com/aws-samples/aws-glue-samples/blob/master/examples/join_and_relationalize.py
@@ -62,7 +61,7 @@ order by author, extension
 out_df = spark.sql(extension_sql)
 
 try:
-    delete_recursive('deadmandao', output_key)
+    delete_recursive(output_bucket, output_key)
 except Exception as e:
     root_logger.error(str(e))
 
