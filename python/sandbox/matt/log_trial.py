@@ -2,7 +2,7 @@ import sys
 import logging
 
 #clog = logging.getLogger(name='__file__')
-clog = logging.getLogger()
+clog = logging.getLogger(name='(X)')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 clog.setLevel(logging.DEBUG)

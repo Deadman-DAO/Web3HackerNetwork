@@ -69,7 +69,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.dependency_list = [JavaDependencyAnalyzer(), GoDependencyAnalyzer(), PythonDependencyAnalyzer(),
                                 ScalaDependencyAnalyzer(), JavascriptDependencyAnalyzer()]
         self.max_threads_key = 'REPO_ANALYZER_MAX_THREADS'
-        self.max_threads = os.environ[self.max_threads_key] if \
+        self.max_threads = int(os.environ[self.max_threads_key]) if \
             self.max_threads_key in os.environ.keys() and \
               os.environ[self.max_threads_key] else None
 
