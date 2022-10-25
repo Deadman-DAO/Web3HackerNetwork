@@ -4,6 +4,9 @@ import pyarrow as pa
 import w3hn.hadoop.parquet_util as pq_util
 from w3hn.datapipe.ingest.ingester import Ingester
 
+from w3hn.log.log_init import logger
+log = logger('w3hn.datapipe.ingest.file_hacker_commit')
+
 class FileHackerCommitIngester(Ingester):
     
     # ----------------------------------------------------

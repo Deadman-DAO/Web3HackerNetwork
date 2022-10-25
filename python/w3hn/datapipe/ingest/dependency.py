@@ -1,8 +1,13 @@
 import dateutil.parser
+import logging
 import pyarrow as pa
+import sys
 
 import w3hn.hadoop.parquet_util as pq_util
 from w3hn.datapipe.ingest.ingester import Ingester
+
+from w3hn.log.log_init import logger
+log = logger(__file__)
 
 class DependencyIngester(Ingester):
 
@@ -65,8 +70,12 @@ class DependencyIngester(Ingester):
         deps_set = set()
         for file_path, libs in dependency_map.items():
             for lib in libs:
-                unique_key = f'{file_path}\t{lib}'
-                deps_set.add(unique_key)
+                if '\t' in lib:
+                    log.error(f'tab in dependency {owner} {repo_name} {file_path} {lib}')
+                    None
+                else:
+                    unique_key = f'{file_path}\t{lib}'
+                    deps_set.add(unique_key)
         sore_ted = list(deps_set)
         sore_ted.sort()
         return sore_ted

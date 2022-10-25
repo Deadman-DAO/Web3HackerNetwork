@@ -4,6 +4,9 @@ import pyarrow as pa
 import w3hn.hadoop.parquet_util as pq_util
 from w3hn.datapipe.ingest.ingester import Ingester
 
+from w3hn.log.log_init import logger
+log = logger(__file__)
+
 class BlameIngester(Ingester):
 
     # ----------------------------------------------------
@@ -62,12 +65,15 @@ class BlameIngester(Ingester):
         lines = dict()
         for file_path, val in blame_map.items():
             for user_pair, line_count in val.items():
-                (user_name, user_email) = user_pair.split('\t')
-                user_name = user_name.strip()
-                user_email = user_email.strip()
-                user_email = user_email[1:len(user_email)-1]
-                unique_key = f'{file_path}\t{user_name}\t{user_email}'
-                lines[unique_key] = line_count
+                if '\t' in user_pair:
+                    (user_name, user_email) = user_pair.split('\t')
+                    user_name = user_name.strip()
+                    user_email = user_email.strip()
+                    user_email = user_email[1:len(user_email)-1]
+                    unique_key = f'{file_path}\t{user_name}\t{user_email}'
+                    lines[unique_key] = line_count
+                else:
+                    log.error(f'cannot split on tab: {owner} {repo_name} "{user_pair}"')
         return lines
 
     def create_table(self, new_data, owner, repo_name):
