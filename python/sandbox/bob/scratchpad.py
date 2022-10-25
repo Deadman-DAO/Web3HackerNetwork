@@ -20,3 +20,13 @@ if not (JOBS & REPO_FILE_JOB):
     print('error: should not include repo_file_job')
 else:
     print('good')
+
+
+None
+# print(__file__)
+
+from w3hn.log.log_init import logger
+
+log = logger('foo.bar.baz')
+
+log.warning('logged')

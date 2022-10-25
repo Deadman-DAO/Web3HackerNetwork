@@ -28,18 +28,18 @@ BLAME_JOB = 1
 DEPS_JOB = 2
 FILE_HACKER_JOB = 4
 REPO_FILE_JOB = 8
-JOBS = BLAME_JOB # | DEPS_JOB | FILE_HACKER_JOB | REPO_FILE_JOB #
+JOBS = BLAME_JOB | DEPS_JOB # | FILE_HACKER_JOB | REPO_FILE_JOB #
 
 # JOBS_TO_CHECK = [[BLAME_JOB, update_blame],
 #                  [DEPS_JOB, update_dendency],
 #                  [FILE_HACKER_JOB, update_file_hacker],
 #                  [REPO_FILE_JOB, update_repo_file]]
 
-sample_path = f'{root_path}/python/sandbox/bob/data'
-deps_log = f'{sample_path}/deps-425.log'
+file_data_path = f'{root_path}/data/files'
+deps_log = f'{file_data_path}/dependency_map_files.txt'
 
 low_partition_limit = '00' # '00' for all
-high_partition_limit = '02' # 'ff' for all
+high_partition_limit = 'ff' # 'ff' for all
 
 json_s3_util = S3Util(profile="enigmatt")
 
