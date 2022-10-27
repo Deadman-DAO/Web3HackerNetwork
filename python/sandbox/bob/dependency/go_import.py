@@ -25,7 +25,7 @@ repos.append(repo_dict)
 
 analyzer = GoDependencyAnalyzer()
 for path in paths:
-    if (analyzer.matches(path)):
+    if analyzer.matches(path):
         dependencies = analyzer.get_dependencies(path)
         if analyzer.language() not in repo_dict['dependencies']:
             repo_dict['dependencies'][analyzer.language()] = list()

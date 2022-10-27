@@ -1,7 +1,7 @@
 from MultiprocessManager import MultiprocessManager
 from repo_analyzer import RepoAnalyzer
 from repo_cleaner import RepoCleanup
-from repo_cloner import RepoCloner;
+from repo_cloner import RepoCloner
 from repo_numstat_gatherer import RepoNumstatGatherer
 import faulthandler
 import signal

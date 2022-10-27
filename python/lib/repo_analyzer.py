@@ -17,6 +17,7 @@ from w3hn.dependency.python import PythonDependencyAnalyzer
 from w3hn.dependency.javascript import JavascriptDependencyAnalyzer
 
 
+
 def add_int_to_map(map, key, value):
     if key not in map:
         map[key] = 0
@@ -34,6 +35,9 @@ def add_int_key_value_submap_to_map(map, root_key, sub_key, value, init_value=0)
 
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
+    def init(self):
+        pass
+
     def __init__(self, **kwargs):
         DBDrivenTaskProcessor.__init__(self, **kwargs)
         self.hacker_name_to_md5_map = None
@@ -72,10 +76,6 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.max_threads = int(os.environ[self.max_threads_key]) if \
             self.max_threads_key in os.environ.keys() and \
               os.environ[self.max_threads_key] else None
-
-
-    def init(self):
-        pass
 
     class GetNextRepoForAnalysis(DBTask):
         def __init__(self, mom):
@@ -179,7 +179,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             future_blame_result_map = {}
             future_dependency_result_map = {}
             if os.path.exists(self.repo_dir):
-                with ThreadPoolExecutor(max_workers=self.max_threads, thread_name_prefix="PREFIX_repoAnalyzerThread_") as exec:
+                with ThreadPoolExecutor(max_workers=self.max_threads, thread_name_prefix="CHILDOF_repoAnalyzerThread_") as exec:
                     for subdir, dirs, files in os.walk(self.repo_dir):
                         for file in files:
                             filename = os.path.join(subdir, file)

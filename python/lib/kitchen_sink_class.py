@@ -5,18 +5,14 @@ for want of a better name, this Queue class has too much stuff embedded in it ri
 
 import requests
 import json
-import hashlib
-import os
 from datetime import datetime as datingdays
 import time
 from pytz import timezone
-from git import Repo, Git
 import sys
 import threading
 project_root_path = '../../..'
 python_lib_path = project_root_path + '/python/lib'
 sys.path.append(python_lib_path)
-from commit_log_parser import NumstatRequirementSet
 from os.path import exists
 
 def load_single_line_from_file(file_name):

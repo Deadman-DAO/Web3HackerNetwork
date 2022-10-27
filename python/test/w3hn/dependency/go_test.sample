@@ -7,7 +7,7 @@ import foobarbaz "three_of_seven"
 
 import (
 _  "four_of_seven" // nasty "quoted string" in a comment
-        
+
         "five_of_seven"
 )
 
@@ -18,7 +18,7 @@ import
 	"six/of/seven"
 )
 
-import ("seven_of_seven" 
+import ("seven_of_seven"
 
 multiline_potato_multiline
 multiline_anything_potato_anything_multiline
@@ -29,3 +29,4 @@ multiline
 
 
 permanently delete
+"last_guy")

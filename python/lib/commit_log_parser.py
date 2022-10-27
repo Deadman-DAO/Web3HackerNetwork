@@ -11,7 +11,7 @@ import sys
 import time
 from pytz import timezone
 
-from monitor import timeit
+from lib.monitor import timeit
 
 
 class File:
@@ -22,7 +22,7 @@ class File:
     def __init__(self, dir, fileName):
         self.dir = dir
         self.fileName = fileName
-        self.fullyQualified = dir + '/' + fileName;
+        self.fullyQualified = dir + '/' + fileName
 
 
 def add_files(fileList, directory):
@@ -30,7 +30,7 @@ def add_files(fileList, directory):
         for file in files:
             fileList.append(File(root, file))
         for subdir in dirs:
-            add_files(fileList, subdir);
+            add_files(fileList, subdir)
 
 
 class Result(enum.Enum):
