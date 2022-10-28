@@ -27,11 +27,15 @@ BEGIN
 			select X.id, _now from 
 			(
 			
-				select r.id, r.owner, r.name, re.commit_count_last_year , re.size, log(re.commit_count_last_year+1) as log_com, log(1+re.size) as log_size, log(1+re.commit_count_last_year)*log(1+re.size) as priority ,
+				select r.id, r.owner, r.name, re.commit_count_last_year , re.size, 
+					log(re.commit_count_last_year+1) as log_com, 
+					log(1+re.size) as log_size, 
+					log(1+re.commit_count_last_year)*log(1+re.size) as priority ,
 					RAND() as randy from repo r
 					join repo_eval re on re.repo_id = r.id 
 					left join repo_reserve rr on rr.repo_id = r.id
 					left join staged_repo_job_q srjq on srjq.repo_id = r.id
+					left join priority_repos pr on pr.repo_owner = r.owner and pr.repo_name = r.name
 					where rr.repo_id is null
 					  and srjq.id is null
 					  and r.repo_machine_name is NULL 
@@ -40,7 +44,7 @@ BEGIN
 					  and r.failed_date is null
 					  and re.size is not null
 			
-					order by priority desc
+					order by pr.id asc, priority desc
 					limit 15000
 					
 			) as X
