@@ -35,8 +35,10 @@ JOBS = BLAME_JOB | DEPS_JOB # | FILE_HACKER_JOB | REPO_FILE_JOB #
 #                  [FILE_HACKER_JOB, update_file_hacker],
 #                  [REPO_FILE_JOB, update_repo_file]]
 
+latest_file = 'dependency_map_files_new_2022-10-27.txt'
 file_data_path = f'{root_path}/data/files'
-deps_log = f'{file_data_path}/dependency_map_files.txt'
+deps_log = f'{file_data_path}/{latest_file}'
+
 
 low_partition_limit = '00' # '00' for all
 high_partition_limit = 'ff' # 'ff' for all
