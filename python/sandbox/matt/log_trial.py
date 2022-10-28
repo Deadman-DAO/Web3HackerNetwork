@@ -11,13 +11,13 @@ handler.setFormatter(formatter)
 handler.setLevel(logging.DEBUG)
 clog.addHandler(handler)
 
-clog.debug('Debuggification')
-clog.info('Info')
-clog.warning('The building is on fire!')
-clog.error('Error')
-clog.critical('PANIC!')
-clog.log(1234666, 'Spit this out mutha pho-kah')
-clog.error(("One", 2, "three"))
+# clog.debug('Debuggification')
+# clog.info('Info')
+# clog.warning('The building is on fire!')
+# clog.error('Error')
+# clog.critical('PANIC!')
+# clog.log(1234666, 'Spit this out mutha pho-kah')
+# clog.error(("One", 2, "three"))
 
 try:
     pass
