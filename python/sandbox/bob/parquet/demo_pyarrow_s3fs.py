@@ -23,3 +23,11 @@ print(str(info))
 s3fs.delete_dir(partition_path)
 
 # /repo_file/partition_key=e3/3ffcf541d971456d8d62dffdfdc6dec5-0.parquet
+
+# import pyarrow.parquet as pq
+
+# # using a URI -> filesystem is inferred
+# pq.read_table("s3://my-bucket/data.parquet")
+# # using a path and filesystem
+# s3 = fs.S3FileSystem(..)
+# pq.read_table("my-bucket/data.parquet", filesystem=s3)
