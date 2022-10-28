@@ -5,6 +5,7 @@ import configparser
 import json
 import os
 import pyarrow.fs as pafs
+import pyarrow.parquet as papq
 
 class AWSUtil:
     def __init__(self,
@@ -43,6 +44,12 @@ class S3Util(AWSUtil):
     def pyarrow_fs(self):
         return pafs.S3FileSystem(access_key=self.key_id,
                                  secret_key=self.secret)
+
+    # only suitable for small datasets (< 250 megs of part files total)
+    def read_parquet_table(self, path):
+        bucket_path = f'{self.bucket.name}/{path}'
+        fs = self.pyarrow_fs()
+        return papq.read_table(bucket_path, filesystem=fs)
 
     def path_exists(self, path):
         bucket_path = f"{self.bucket.name}/{path}/"
