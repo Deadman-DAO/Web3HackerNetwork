@@ -15,6 +15,6 @@ def logger(name):
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     handler.setFormatter(formatter)
     root_log.addHandler(handler)
-    for noisy in ['boto3', 'botocore', 'urllib3']:
+    for noisy in ['boto3', 'botocore', 'urllib3', 'matplotlib']:
         logging.getLogger(noisy).setLevel(logging.WARNING)
     return logging.getLogger(name=name)
