@@ -8,7 +8,7 @@ UPDATE
 hacker_import_association
  for each row 
 BEGIN 
-	call debug(concat('update_tstamp trigger called for alias ', new.alias_id, ' new id ', new.id));
+	call debug(concat('update_tstamp trigger called for alias ', new.alias_id, ' new id ', new.id, ' old id ', old.id));
 	set new.tstamp = now(3);
 END
 /MANGINA/

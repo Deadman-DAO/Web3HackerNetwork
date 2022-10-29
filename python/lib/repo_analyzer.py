@@ -40,6 +40,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
     def __init__(self, **kwargs):
         DBDrivenTaskProcessor.__init__(self, **kwargs)
+        self.repo_dependency_map = None
         self.hacker_name_to_md5_map = None
         self.commit_to_hacker_map = None
         self.get_next = self.GetNextRepoForAnalysis(self)
@@ -175,7 +176,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             self.parse_json()  # populates analysis_map
 
             repo_blame_map = {}
-            repo_dependency_map = {}
+            self.repo_dependency_map = {}
             future_blame_result_map = {}
             future_dependency_result_map = {}
             if os.path.exists(self.repo_dir):
@@ -207,7 +208,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                                         print('Error encountered calling dependency-discovery method: ', filename, str(dep))
                     for relative_file_name in future_blame_result_map.keys():
                         repo_blame_map[relative_file_name] = future_blame_result_map[relative_file_name].result()
-                        repo_dependency_map[relative_file_name] = \
+                        self.repo_dependency_map[relative_file_name] = \
                             future_dependency_result_map[relative_file_name].result()
                 try:
                     # first try and write the blame map to S3
@@ -221,8 +222,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
                 try:
                     # Now try and do the same with the dependency map
-                    if len(repo_dependency_map) > 0:
-                        dependency_map_json = json.dumps(repo_dependency_map, ensure_ascii=False)
+                    if len(self.repo_dependency_map) > 0:
+                        dependency_map_json = json.dumps(self.repo_dependency_map, ensure_ascii=False)
                         dependency_map_zip = bz2.compress(dependency_map_json.encode('utf-8'))
                         key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/dependency_map.json.bz2'
                         self.bucket.upload_fileobj(io.BytesIO(dependency_map_zip), key)

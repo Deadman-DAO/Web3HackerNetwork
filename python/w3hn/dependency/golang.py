@@ -1,5 +1,6 @@
 import re
 import os
+import traceback
 
 from lib.monitor import timeit
 from w3hn.dependency.analyzer import DependencyAnalyzer
@@ -48,10 +49,12 @@ class GoDependencyAnalyzer(DependencyAnalyzer):
                 if word.endswith(_close_paren):
                     self.import_started = False
                     self.import_paren_started = False
+                elif not self.import_paren_started:
+                    # done with this import
+                    self.import_started = False
             elif word.endswith(_close_paren):
                 self.import_started = False
                 self.import_paren_started = False
-            # any other word would be the label for this import - ignore it for now
         elif word == _import:
             if self.source_code_encountered:
                 raise Exception("'import' must be the first word on the line: ", word)
@@ -73,15 +76,22 @@ class GoDependencyAnalyzer(DependencyAnalyzer):
 
         self.__init__()
 
-        with open(path, 'rU') as go_source:
-            for go_line in go_source:
+        try:
+            with open(path, 'rU') as go_source:
                 try:
-                    go_line = re.sub("//.*", "", go_line) # Eliminates // comments until end of line
-                    self.source_code_encountered = False
-                    for word in re.split("(?:[\s])+", go_line):
-                        if len(word) > 0:
-                            self.analyze_word(word)
+                    last_line = None
+                    for go_line in go_source:
+                        last_line = go_line
+                        go_line = re.sub("//.*", "", go_line) # Eliminates // comments until end of line
+                        self.source_code_encountered = False
+                        for word in re.split("(?:[\s])+", go_line):
+                            if len(word) > 0:
+                                self.analyze_word(word)
                 except Exception as e:
-                    print(e, go_line)
-                    return None
+                    print(e, 'encountered processing file: ', path, 'line: ', last_line)
+
+        except Exception as e:
+            print(e, 'encountered opening file: ', path)
+            traceback.print_exception(e)
+
         return self.depends

@@ -1,7 +1,7 @@
 from lib.repo_cloner import RepoCloner
 from lib.repo_numstat_gatherer import RepoNumstatGatherer
 from lib.repo_analyzer import RepoAnalyzer
-from os import path
+import json
 
 class TestRepo:
     def __init__(self, repo_owner='u-root', repo_name='u-root', repo_id=341256):
@@ -41,6 +41,19 @@ class TestRepo:
         self.clone_it()
         self.numstat_it()
         self.analyze_it()
+        dependency_map_json = json.dumps(self.vag.repo_dependency_map, ensure_ascii=False)
+        with open('dependency_map.json', 'w') as f:
+            f.write(dependency_map_json)
+        freq_map = {}
+        for source_file, dependencies in self.vag.repo_dependency_map.items():
+            for d in dependencies:
+                if d not in freq_map:
+                    freq_map[d] = 0
+                freq_map[d] += 1
+
+        with open('freq.csv', 'w') as f:
+            for k, v in freq_map.items():
+                f.write(f'{k},{v}\n')
 
 
 if __name__ == '__main__':
