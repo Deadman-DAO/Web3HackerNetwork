@@ -35,7 +35,7 @@ JOBS = BLAME_JOB | DEPS_JOB # | FILE_HACKER_JOB | REPO_FILE_JOB #
 #                  [FILE_HACKER_JOB, update_file_hacker],
 #                  [REPO_FILE_JOB, update_repo_file]]
 
-latest_file = 'dependency_map_files_new_2022-10-27.txt'
+latest_file = 'dependency_map_files_new_2022-10-29.txt'
 file_data_path = f'{root_path}/data/files'
 deps_log = f'{file_data_path}/{latest_file}'
 
