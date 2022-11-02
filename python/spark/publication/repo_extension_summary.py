@@ -1,5 +1,3 @@
-job_name = 'publication_repo_extension_summary'
-
 # ----- BEGIN SPARK JOB BOILERPLATE --------------------------------
 import boto3
 import logging
@@ -7,8 +5,12 @@ import sys
 from pyspark.context import SparkContext
 from pyspark.sql import SparkSession
 
+job_name = sys.argv[0]
+if '--JOB_NAME' in sys.argv:
+    if len(sys.argv) > sys.argv.index('--JOB_NAME') + 1:
+        job_name = sys.argv[sys.argv.index('--JOB_NAME') + 1]
+
 pipeline_path = 'web3hackernetwork/data_pipeline'
-# args = getResolvedOptions(sys.argv, ['JOB_NAME'])
 sc = SparkContext()
 spark = SparkSession.builder.config("k1", "v1").getOrCreate()
 
