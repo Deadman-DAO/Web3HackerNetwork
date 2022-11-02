@@ -1,22 +1,60 @@
+job_name = 'publication_repo_extension_summary'
+
+# ----- BEGIN SPARK JOB BOILERPLATE --------------------------------
+import boto3
+import logging
 import sys
-from awsglue.transforms import *
-from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
-from awsglue.context import GlueContext
-from awsglue.job import Job
+from pyspark.sql import SparkSession
 
-## @params: [JOB_NAME]
-args = getResolvedOptions(sys.argv, ['JOB_NAME'])
-
-out_path = "s3://deadmandao/web3hackernetwork/data_pipeline/published/repo_extension"
-
+pipeline_path = 'web3hackernetwork/data_pipeline'
+# args = getResolvedOptions(sys.argv, ['JOB_NAME'])
 sc = SparkContext()
-glueContext = GlueContext(sc)
-spark = glueContext.spark_session
+spark = SparkSession.builder.config("k1", "v1").getOrCreate()
 
-repo_file = glueContext.create_dynamic_frame.from_catalog(database='w3hn', table_name='curated_repo_extension')
-repo_file.toDF().registerTempTable("curated_repo_extension")
-extension_sql = """
+def get_logger(name):
+    fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setLevel(logging.INFO)
+    handler.setFormatter(logging.Formatter(fmt))
+    logging.getLogger().setLevel(logging.WARNING)
+    logging.getLogger().addHandler(handler)
+    log = logging.getLogger(name=name)
+    log.setLevel(logging.INFO)
+    return log
+
+log = get_logger(f'{job_name}')
+
+def delete_recursive(bucket, prefix):
+    log.info(f'recursive delete: s3:// {bucket} / {prefix}')
+    boto3_s3 = boto3.session.Session().client('s3')
+    response = boto3_s3.list_objects_v2(Bucket=bucket, Prefix=prefix)
+    for object in response['Contents']:
+        key = object['Key']
+        log.info(f'deleting s3://{bucket}/{key}')
+        boto3_s3.delete_object(Bucket=bucket, Key=key)
+
+def register_table(spark, bucket, tier, name):
+    path = f's3://{bucket}/{pipeline_path}/{tier}/{name}'
+    table = f'{tier}_{name}'
+    log.info(f'registering {path} as table {table}')
+    df = spark.read.parquet(path)
+    df.registerTempTable(table)
+
+def insert_or_update(df, bucket, tier, name):
+    key = f'{pipeline_path}/{tier}/{name}'
+    try:
+        delete_recursive(bucket, key)
+    except Exception as e:
+        log.error(str(e))
+    url = f's3://{bucket}/{key}'
+    log.info(f'writing datset to {url}')
+    df.write.parquet(url)
+# ----- END SPARK JOB BOILERPLATE ----------------------------------
+
+register_table( spark, 'deadmandao', 'curated', 'repo_extension')
+
+out_sql = """
 select repo.owner, repo.repo_name,
   coalesce(js.total_inserts, 0) as js_inserts, coalesce(js.total_deletes, 0) as js_deletes,
     coalesce(js.num_files, 0) as js_files, coalesce(js.total_commits, 0) as js_commits,
@@ -83,5 +121,7 @@ from (
     on jsx.owner = repo.owner and jsx.repo_name = repo.repo_name and jsx.extension = '.jsx'
 order by repo.owner, repo.repo_name
 """
-out_df = spark.sql(extension_sql)
-out_df.coalesce(1).write.parquet(out_path)
+
+log.info(f'executing sql:\n{out_sql}')
+out_df = spark.sql(out_sql).coalesce(1)
+insert_or_update(out_df, 'deadmandao', 'published', 'repo_extension')
