@@ -1,53 +1,63 @@
+# ----- BEGIN SPARK JOB BOILERPLATE --------------------------------
 import boto3
-import sys
-from awsglue.context import GlueContext
-from awsglue.job import Job
-from awsglue.transforms import *
-from awsglue.utils import getResolvedOptions
-from pyspark.context import SparkContext
-
 import logging
-root_logger = logging.getLogger()
-root_logger.setLevel(logging.INFO)
-handler = logging.StreamHandler(sys.stdout)
-handler.setLevel(logging.INFO)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
-root_logger.addHandler(handler)
-root_logger.info("check")
+import sys
+from pyspark.context import SparkContext
+from pyspark.sql import SparkSession
 
-def delete_recursive(bucket, path):
-    root_logger.info(f'recursive delete: s3:// {bucket} / {path}')
-    session = boto3.session.Session()
-    boto3_s3 = session.client('s3')
-    response = boto3_s3.list_objects_v2(Bucket=bucket, Prefix=path)
+job_name = sys.argv[0]
+if '--JOB_NAME' in sys.argv:
+    if len(sys.argv) > sys.argv.index('--JOB_NAME') + 1:
+        job_name = sys.argv[sys.argv.index('--JOB_NAME') + 1]
+
+pipeline_path = 'web3hackernetwork/data_pipeline'
+sc = SparkContext()
+spark = SparkSession.builder.config("k1", "v1").getOrCreate()
+
+def get_logger(name):
+    fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setLevel(logging.INFO)
+    handler.setFormatter(logging.Formatter(fmt))
+    logging.getLogger().setLevel(logging.WARNING)
+    logging.getLogger().addHandler(handler)
+    log = logging.getLogger(name=name)
+    log.setLevel(logging.INFO)
+    return log
+
+log = get_logger(f'{job_name}')
+
+def delete_recursive(bucket, prefix):
+    log.info(f'recursive delete: s3:// {bucket} / {prefix}')
+    boto3_s3 = boto3.session.Session().client('s3')
+    response = boto3_s3.list_objects_v2(Bucket=bucket, Prefix=prefix)
     for object in response['Contents']:
         key = object['Key']
-        root_logger.info(f'deleting s3://{bucket}/{key}')
+        log.info(f'deleting s3://{bucket}/{key}')
         boto3_s3.delete_object(Bucket=bucket, Key=key)
 
-## @params: [JOB_NAME]
-args = getResolvedOptions(sys.argv, ['JOB_NAME'])
-sc = SparkContext()
-glue = GlueContext(sc)
-spark = glue.spark_session
+def register_table(spark, bucket, tier, name):
+    path = f's3://{bucket}/{pipeline_path}/{tier}/{name}'
+    table = f'{tier}_{name}'
+    log.info(f'registering {path} as table {table}')
+    df = spark.read.parquet(path)
+    df.registerTempTable(table)
 
-output_bucket = 'deadmandao'
-output_key = 'web3hackernetwork/data_pipeline/curated/hacker_dependency'
-output_path = f's3://{output_bucket}/{output_key}'
+def insert_or_update(df, bucket, tier, name):
+    key = f'{pipeline_path}/{tier}/{name}'
+    try:
+        delete_recursive(bucket, key)
+    except Exception as e:
+        log.error(str(e))
+    url = f's3://{bucket}/{key}'
+    log.info(f'writing datset to {url}')
+    df.write.parquet(url)
+# ----- END SPARK JOB BOILERPLATE ----------------------------------
 
-database = 'w3hn'
-deps_table = 'raw_dependency'
-blame_table = 'raw_blame'
-deps_df = glue.create_dynamic_frame.from_catalog(database=database,
-                                                 table_name=deps_table)
-blame_df = glue.create_dynamic_frame.from_catalog(database=database,
-                                                  table_name=blame_table)
-deps_df.toDF().registerTempTable(deps_table) #Register table for SparkSQL
-blame_df.toDF().registerTempTable(blame_table) #Register table for SparkSQL
+register_table(spark, 'deadmandao', 'raw', 'dependency')
+register_table(spark, 'deadmandao', 'raw', 'blame')
 
-# owner, repo_name, extension, dependency, file_count, partition_key
-sql = """
+out_sql = """
 WITH repo_extension AS (
   SELECT partition_key, owner_repo, file_path, dependency
   FROM raw_dependency
@@ -68,11 +78,6 @@ GROUP BY b.author, b.extension, e.dependency
 ORDER BY b.author, b.extension, e.dependency
 """
 
-out_df = spark.sql(sql)
-
-try:
-    delete_recursive(output_bucket, output_key)
-except Exception as e:
-    root_logger.error(str(e))
-
-out_df.coalesce(1).write.parquet(output_path)
+log.info(f'executing sql:\n{out_sql}')
+out_df = spark.sql(out_sql).coalesce(1)
+insert_or_update(out_df, 'deadmandao', 'curated', 'hacker_dependency')
