@@ -96,8 +96,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     self.mom.repo_id = int(result[0])
                     self.mom.repo_owner = result[1]
                     self.mom.repo_name = result[2]
-                    self.mom.repo_dir = result[3]
-                    self.mom.numstat_dir = result[4]
+                    self.mom.repo_dir = result[3] if result[3] else os.path.join('./repos/', self.mom.repo_owner, self.mom.repo_name)
+                    self.mom.numstat_dir = result[4] if result[4] else os.path.join('./results/', self.mom.repo_owner, self.mom.repo_name)
                     self.mom.cur_job = result[1] + ':' + result[2]
             if result is None:
                 self.mom.cur_job = 'Nada'
