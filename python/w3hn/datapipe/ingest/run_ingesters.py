@@ -61,7 +61,7 @@ def parse_s3_list(lines):
         owner = path_parts[1]
         repo_name = path_parts[2]
         file_type = path_parts[3]
-        key = f'{owner}\t{repo_name}'
+        key = (owner, repo_name)
         if key not in repos: repos[key] = dict()
         repo = repos[key]
         entry = {'date': date,
@@ -71,17 +71,29 @@ def parse_s3_list(lines):
         repo[file_type] = entry
     return repos
 
-def read_s3_list(file_path, old_lines=None):
-    repos = dict()
-    lines = set()
-    print(f'reading {file_path}')
-    with bz2.open(file_path, 'rt') as ls:
-        for line in ls.readlines():
-            line = line[:-1]
-            if old_lines is None or line not in old_lines:
-                lines.add(line)
-    return lines
+def diff_s3_list(old_lines, new_lines):
+    old_lines = set(old_lines)
+    diffed_lines = list()
+    for line in new_lines:
+        if line not in old_lines:
+            diffed_lines.append(line)
+    return diffed_lines
 
+s3_file_metadata_dir = 'web3hackernetwork/metadata/files'
+old_file = 'numstat_bucket_repo_files.5.log.bz2'
+new_file = 'numstat_bucket_repo_files.6.log.bz2'
+old_s3_ls_key = f'{s3_file_metadata_dir}/{old_file}'
+new_s3_ls_key = f'{s3_file_metadata_dir}/{new_file}'
+
+w3hn_s3_util = S3Util(profile='w3hn-admin', bucket_name='deadmandao')
+old_lines = w3hn_s3_util.get_text_lines_from_bz2(old_s3_ls_key)
+new_lines = w3hn_s3_util.get_text_lines_from_bz2(new_s3_ls_key)
+lines = diff_s3_list(old_lines, new_lines)
+for line in lines[1:10]:
+    print(line)
+print(f'num text lines: {len(lines)}')
+# print(f'{lines[1:10]}')
+exit()
 old_lines = read_s3_list(old_path)
 new_lines = read_s3_list(new_path, old_lines)
 print(f'old len: {len(old_lines)}, new len: {len(new_lines)}')
