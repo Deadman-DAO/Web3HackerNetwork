@@ -62,18 +62,18 @@ def insert_or_update(df, bucket, tier, name):
 register_table(spark, 'deadmandao', 'raw', 'file_hacker')
 
 out_sql = """
-select author,
-  substr(file_path, 1 + length(file_path) - position('.' in reverse(file_path))) as extension,
-  date_trunc('MM', commit_date) as year_month,
-  sum(total_inserts) as total_inserts,
-  sum(total_deletes) as total_deletes,
-  count(distinct(commit_date)) as num_commits,
-  count(distinct(file_path)) as num_files
-from raw_file_hacker
-where binary = 0
-and substr(file_path, 1 + length(file_path) - position('.' in reverse(file_path))) in ('.js', '.py', '.c', '.java', '.go', '.ts', '.cpp', '.php', '.rb', '.cs', '.cc', '.rs', '.tsx', '.scala', '.jsx')
-group by author, substr(file_path, 1 + length(file_path) - position('.' in reverse(file_path))), date_trunc('MM', commit_date)
-order by author, extension, year_month
+SELECT author,
+  substr(file_path, 1 + length(file_path) - position('.' in reverse(file_path))) AS extension,
+  date_trunc('MM', commit_date) AS year_month,
+  sum(total_inserts) AS total_inserts,
+  sum(total_deletes) AS total_deletes,
+  count(distinct(commit_date)) AS num_commits,
+  count(distinct(file_path)) AS num_files
+FROM raw_file_hacker
+WHERE binary = 0
+AND substr(file_path, 1 + length(file_path) - position('.' IN reverse(file_path))) IN ('.js', '.py', '.c', '.java', '.go', '.ts', '.cpp', '.php', '.rb', '.cs', '.cc', '.rs', '.tsx', '.scala', '.jsx')
+GROUP BY author, substr(file_path, 1 + length(file_path) - position('.' in reverse(file_path))), date_trunc('MM', commit_date)
+ORDER BY author, extension, year_month
 """
 
 log.info(f'executing sql:\n{out_sql}')
