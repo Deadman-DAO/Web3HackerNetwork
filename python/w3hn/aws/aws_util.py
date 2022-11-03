@@ -66,6 +66,11 @@ class S3Util(AWSUtil):
         obj = json.loads(text)
         return obj
 
+    def get_text_lines_from_bz2(self, key):
+        s3obj = self.client.get_object(Bucket=self.bucket.name,Key=key)
+        decompressed = bz2.decompress(s3obj['Body'].read()).decode()
+        return decompressed.split('\n')
+
     def get_blame_map(self, owner, repo_name):
         suffix = 'blame_map.json.bz2'
         return self.get_json_obj_from_bz2(owner, repo_name, suffix)
