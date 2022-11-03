@@ -1,6 +1,8 @@
 # ========= External Libraries =================
+import bz2
 import datetime
 import os
+import re
 import sys
 import threading
 from concurrent.futures import ThreadPoolExecutor
@@ -23,28 +25,67 @@ from w3hn.aws.aws_util import S3Util
 import w3hn.hadoop.parquet_util as pq_util
 # ----------------------------------------------
 
-TEST_MODE = False
+TEST_MODE = True
+FULL_REFRESH = False
 BLAME_JOB = 1
 DEPS_JOB = 2
 FILE_HACKER_JOB = 4
 REPO_FILE_JOB = 8
 JOBS = BLAME_JOB | DEPS_JOB | FILE_HACKER_JOB | REPO_FILE_JOB
 
-# JOBS_TO_CHECK = [[BLAME_JOB, update_blame],
-#                  [DEPS_JOB, update_dendency],
-#                  [FILE_HACKER_JOB, update_file_hacker],
-#                  [REPO_FILE_JOB, update_repo_file]]
-
-# latest_file = 'dependency_map_files_new_2022-10-29.txt'
-latest_file = '2022-10-30-full-dependency-list.log'
-# latest_file = 'foo.log'
-file_data_path = f'{root_path}/data/files'
-deps_log = f'{file_data_path}/{latest_file}'
+old_file = 'ls-numstat-bucket-repo-5.log.bz2'
+new_file = 'ls-numstat-bucket-repo-6.log.bz2'
 
 low_partition_limit = '00' # '00' for all
 high_partition_limit = 'ff' # 'ff' for all
 
+# latest_file = 'dependency_map_files_new_2022-10-29.txt'
+# latest_file = '2022-10-30-full-dependency-list.log'
+# latest_file = 'foo.log'
+file_data_path = f'{root_path}/data/files'
+# deps_log = f'{file_data_path}/{latest_file}'
+old_path = f'{file_data_path}/{old_file}'
+new_path = f'{file_data_path}/{new_file}'
+
 json_s3_util = S3Util(profile="enigmatt")
+
+def parse_s3_list(lines):
+    repos = dict()
+    for line in lines():
+        line_parts = re.split(' +', line)
+        date = line_parts[0]
+        time = line_parts[1]
+        size = line_parts[2]
+        path = line_parts[3]
+        path_parts = re.split('/', path)
+        owner = path_parts[1]
+        repo_name = path_parts[2]
+        file_type = path_parts[3]
+        key = f'{owner}\t{repo_name}'
+        if key not in repos: repos[key] = dict()
+        repo = repos[key]
+        entry = {'date': date,
+                 'time': time,
+                 'size': size,
+                 'path': path}
+        repo[file_type] = entry
+    return repos
+
+def read_s3_list(file_path, old_lines=None):
+    repos = dict()
+    lines = set()
+    print(f'reading {file_path}')
+    with bz2.open(file_path, 'rt') as ls:
+        for line in ls.readlines():
+            line = line[:-1]
+            if old_lines is None or line not in old_lines:
+                lines.add(line)
+    return lines
+
+old_lines = read_s3_list(old_path)
+new_lines = read_s3_list(new_path, old_lines)
+print(f'old len: {len(old_lines)}, new len: {len(new_lines)}')
+exit()
 
 def multi_phile():
     # repo_tuple_array = list()
