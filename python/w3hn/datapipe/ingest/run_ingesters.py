@@ -5,6 +5,7 @@ import os
 import re
 import sys
 import threading
+import traceback
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import as_completed
 # ----------------------------------------------
@@ -125,8 +126,9 @@ def load_json(file_path):
         json_obj = json_s3_util.get_json_obj_at_key(file_path)
         repo_tuple = (owner, repo_name, json_obj, json_obj, json_obj)
         return repo_tuple
-    except Exception as exc:
-        print(f'ERROR reading json {file_path}: {exc}')
+    except Exception:
+        print(f'ERROR reading json {file_path}')
+        traceback.print_exc(file=sys.stdout)
     return None
 
 def update(file_paths, ingesters):
@@ -142,7 +144,11 @@ def update(file_paths, ingesters):
             print(f'TEST_MODE: {type(ingester)} with {num_files} files')
         else:
             print(f'LIVE_MODE: {type(ingester)} with {num_files} files')
-            ingester.instance_update_repos(repo_tuple_array)
+            try:
+                ingester.instance_update_repos(repo_tuple_array)
+            except Exception:
+                print(f'ERROR in {type(ingester)}')
+                traceback.print_exc(file=sys.stdout)
         
 def multi_phile_2():
     update_partitions = get_update_partitions()
@@ -259,7 +265,7 @@ def load_numstat(numstat_tuple):
         repo_tuple = (owner, repo_name, blame_object, deps_object, numstat_object)
         return repo_tuple
     except Exception as error:
-        print(f'error reading json {owner} {repo_name}: {error}')
+        print(f'ERROR reading json {owner} {repo_name}: {error}')
     return None
 
 def update_blame(repo_tuple_array):
