@@ -72,6 +72,9 @@ class Ingester(ABC):
     # Instance API
     # ----------------------------------------------------
 
+    def instance_update_repos(self, repo_tuple_array):
+        Ingester.update_repos_using_ingester(self, repo_tuple_array)
+
     # This is common across all ingesters. Check the 'self.' refs to
     # ensure they can be pulled up.
     def load_existing_for_batch(self, partition_key, owner_repos):

@@ -57,9 +57,6 @@ class RepoFileIngester(Ingester):
     # Instance API
     # ----------------------------------------------------
 
-    def instance_update_repos(self, repo_tuple_array):
-        Ingester.update_repos_using_ingester(this, repo_tuple_array)
-
     def extract_data(self, owner, repo_name,
                      blame_map=None, dependency_map=None, numstat=None):
         raw_dataset = dict()

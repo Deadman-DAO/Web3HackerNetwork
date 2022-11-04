@@ -25,13 +25,13 @@ from w3hn.aws.aws_util import S3Util
 import w3hn.hadoop.parquet_util as pq_util
 # ----------------------------------------------
 
-TEST_MODE = True
+TEST_MODE = False
 FULL_REFRESH = False
 BLAME_JOB = 1
 DEPS_JOB = 2
 FILE_HACKER_JOB = 4
 REPO_FILE_JOB = 8
-JOBS = BLAME_JOB | DEPS_JOB | FILE_HACKER_JOB | REPO_FILE_JOB
+JOBS = BLAME_JOB # | DEPS_JOB | FILE_HACKER_JOB | REPO_FILE_JOB
 
 old_file = 'numstat_bucket_repo_files.5.log.bz2'
 new_file = 'numstat_bucket_repo_files.6.log.bz2'
@@ -106,60 +106,71 @@ def get_update_partitions():
         lines = diff_s3_list(old_lines, new_lines)
         repo_files = parse_s3_list(lines)
     return repo_files
-    # update_partitions = dict()
-    # for (key, repo) in repo_files.items():
-    #     owner = key[0]
-    #     repo_name = key[1]
-    #     partition_key = pq_util.repo_partition_key(owner, repo_name)
-    #     if partition_key not in update_partitions:
-    #         update_partitions[partition_key] = dict()
-    #     partition = update_partitions[partition_key]
-    #     for (file_type, entry_list) in repo.items():
-    #         if file_type not in partition: partition[file_type] = list()
-    #         partition[file_type].extend(entry_list)
-    # return update_partitions
 
-
+def update(args):
+    (file_paths, ingesters, put_pool, put_futures) = args
+    repo_tuple_array = list()
+    for file_path in file_paths:
+        path_parts = re.split('/', file_path)
+        owner = path_parts[1]
+        repo_name = path_parts[2]
+        file_type = path_parts[3]
+        json_obj = json_s3_util.get_json_obj_at_key(file_path)
+        repo_tuple = (owner, repo_name, json_obj, json_obj, json_obj)
+        repo_tuple_array.append(repo_tuple)
+    for ingester in ingesters:
+        if TEST_MODE:
+            print(f'TEST_MODE: not submitting {type(ingester)}')
+        else:
+            print(f'submitting {type(ingester)} ingester')
+            future = put_pool.submit(ingester.instance_update_repos,
+                                     repo_tuple_array)
+            put_futures.append(future)
+        
 def multi_phile_2():
     update_partitions = get_update_partitions()
-    with ThreadPoolExecutor(max_workers=10) as fetch_pool:
-        with ThreadPoolExecutor(max_workers=10) as put_pool:
+    fetch_futures = list()
+    put_futures = list()
+    with ThreadPoolExecutor(max_workers=10) as put_pool:
+        with ThreadPoolExecutor(max_workers=10) as fetch_pool:
             keys = list(update_partitions.keys())
             keys.sort()
             for update_key in keys:
                 (partition_key, file_type) = update_key
                 file_paths = update_partitions[update_key]
                 if file_type == 'blame_map.json.bz2':
-                    ingesters = [BlameIngester()]
-                    args = (file_paths, ingesters, put_pool)
-                    future = executor.submit(update, args)
+                    if JOBS & BLAME_JOB:
+                        ingesters = [BlameIngester()]
+                        args = (file_paths, ingesters, put_pool, put_futures)
+                        future = fetch_pool.submit(update, args)
+                        fetch_futures.append(future)
                 elif file_type == 'dependency_map.json.bz2':
-                    ingesters = [DependencyIngester()]
-                    args = (file_paths, ingesters, put_pool)
-                    future = executor.submit(update, args)
+                    if JOBS & DEPS_JOB:
+                        ingesters = [DependencyIngester()]
+                        args = (file_paths, ingesters, put_pool, put_futures)
+                        future = fetch_pool.submit(update, args)
+                        fetch_futures.append(future)
                 elif file_type == 'log_numstat.out.json.bz2':
-                    ingesters = [FileHackerCommitIngester(),
-                                 RepoFileIngester()]
-                    args = (file_paths, ingesters, put_pool)
-                    future = executor.submit(update, args)
+                    if JOBS & (FILE_HACKER_JOB | REPO_FILE_JOB):
+                        ingesters = [FileHackerCommitIngester(),
+                                     RepoFileIngester()]
+                        args = (file_paths, ingesters, put_pool, put_futures)
+                        future = fetch_pool.submit(update, args)
+                        fetch_futures.append(future)
                 else:
-                    log.error(f'unrecognized file type: {partition_key}, {file_type}, {update_key}, {file_paths}')
-                print(f'{partition_key}: {file_type}')
-                print(f'  {file_paths}')
-                
-            # for (partition_key, partition) in update_partitions:
-            #     if partition_key < low_partition_limit:
-            #         continue
-            #     elif partition_key > high_partition_limit:
-            #         continue
-            #     else:
-            #         print(f'{partition_key} is in bounds, running')
-            #     for (file_type, file_list) in partition:
-            #         print(f'{partition_key}')
-            #         print(f'{partition}')
-            #         fetch_pool
-        
-    exit()
+                    print(f'unrecognized file type: {partition_key}, {file_type}, {update_key}, {file_paths}')
+                # print(f'{partition_key}: {file_type}')
+                # print(f'  {file_paths}')
+        for future in fetch_futures:
+            try:
+                future.result()
+            except Exception as exc:
+                print(f'{exc}')
+    for future in put_futures:
+        try:
+            future.result()
+        except Exception as exc:
+            print(f'{exc}')
 
 def multi_phile():
     # repo_tuple_array = list()
