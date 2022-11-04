@@ -119,19 +119,21 @@ def get_update_partitions():
 def update(args):
     (file_paths, ingesters, put_pool, put_futures) = args
     repo_tuple_array = list()
+    partition_key = None
     for file_path in file_paths:
         path_parts = re.split('/', file_path)
         owner = path_parts[1]
         repo_name = path_parts[2]
+        if partition_key is None: partition_key = pq_util.repo_partition_key(owner, repo_name)
         file_type = path_parts[3]
         json_obj = json_s3_util.get_json_obj_at_key(file_path)
         repo_tuple = (owner, repo_name, json_obj, json_obj, json_obj)
         repo_tuple_array.append(repo_tuple)
     for ingester in ingesters:
         if TEST_MODE:
-            print(f'TEST_MODE: not submitting {type(ingester)}')
+            print(f'TEST_MODE: not submitting {type(ingester)} for partition {partition_key} with {len(file_paths)} files')
         else:
-            print(f'submitting {type(ingester)} ingester')
+            print(f'submitting {type(ingester)} for partition {partition_key} with {len(file_paths)} files')
             future = put_pool.submit(ingester.instance_update_repos,
                                      repo_tuple_array)
             put_futures.append(future)
@@ -149,20 +151,24 @@ def multi_phile_2():
                 file_paths = update_partitions[update_key]
                 if file_type == 'blame_map.json.bz2':
                     if JOBS & BLAME_JOB:
+                        print(f'loading blame jsons for partition {partition_key}')
                         ingesters = [BlameIngester()]
                         args = (file_paths, ingesters, put_pool, put_futures)
                         future = fetch_pool.submit(update, args)
                         fetch_futures.append(future)
                 elif file_type == 'dependency_map.json.bz2':
                     if JOBS & DEPS_JOB:
+                        print(f'loading dependency jsons for partition {partition_key}')
                         ingesters = [DependencyIngester()]
                         args = (file_paths, ingesters, put_pool, put_futures)
                         future = fetch_pool.submit(update, args)
                         fetch_futures.append(future)
                 elif file_type == 'log_numstat.out.json.bz2':
                     if JOBS & (FILE_HACKER_JOB | REPO_FILE_JOB):
-                        ingesters = [FileHackerCommitIngester(),
-                                     RepoFileIngester()]
+                        print(f'loading numstat jsons for partition {partition_key}')
+                        ingesters = list()
+                        if JOBS & FILE_HACKER_JOB: ingesters.append(FileHackerCommitIngester())
+                        if JOBS & REPO_FILE_JOB: ingesters.append(RepoFileIngester())
                         args = (file_paths, ingesters, put_pool, put_futures)
                         future = fetch_pool.submit(update, args)
                         fetch_futures.append(future)
