@@ -33,43 +33,42 @@ FILE_HACKER_JOB = 4
 REPO_FILE_JOB = 8
 JOBS = BLAME_JOB | DEPS_JOB | FILE_HACKER_JOB | REPO_FILE_JOB
 
-old_file = 'ls-numstat-bucket-repo-5.log.bz2'
-new_file = 'ls-numstat-bucket-repo-6.log.bz2'
+old_file = 'numstat_bucket_repo_files.5.log.bz2'
+new_file = 'numstat_bucket_repo_files.6.log.bz2'
 
-low_partition_limit = '00' # '00' for all
-high_partition_limit = 'ff' # 'ff' for all
+low_partition_limit = '02' # '00' for all
+high_partition_limit = '20' # 'ff' for all
 
+json_s3_util = S3Util(profile="enigmatt")
+w3hn_s3_util = S3Util(profile='w3hn-admin', bucket_name='deadmandao')
+
+s3_file_metadata_dir = 'web3hackernetwork/metadata/files'
+old_s3_ls_key = f'{s3_file_metadata_dir}/{old_file}'
+new_s3_ls_key = f'{s3_file_metadata_dir}/{new_file}'
+# old_file = 'ls-numstat-bucket-repo-5.log.bz2'
+# new_file = 'ls-numstat-bucket-repo-6.log.bz2'
 # latest_file = 'dependency_map_files_new_2022-10-29.txt'
 # latest_file = '2022-10-30-full-dependency-list.log'
 # latest_file = 'foo.log'
-file_data_path = f'{root_path}/data/files'
+# file_data_path = f'{root_path}/data/files'
 # deps_log = f'{file_data_path}/{latest_file}'
-old_path = f'{file_data_path}/{old_file}'
-new_path = f'{file_data_path}/{new_file}'
+# old_path = f'{file_data_path}/{old_file}'
+# new_path = f'{file_data_path}/{new_file}'
 
-json_s3_util = S3Util(profile="enigmatt")
+class LoadDataTask:
+    def __init__(self,
+                 ingesters,
+                 partition_key,
+                 file_keys):
+        self.ingesters = ingesters
+        self.partition_key = partition_key
+        self.file_keys = file_keys
 
-def parse_s3_list(lines):
-    repos = dict()
-    for line in lines():
-        line_parts = re.split(' +', line)
-        date = line_parts[0]
-        time = line_parts[1]
-        size = line_parts[2]
-        path = line_parts[3]
-        path_parts = re.split('/', path)
-        owner = path_parts[1]
-        repo_name = path_parts[2]
-        file_type = path_parts[3]
-        key = (owner, repo_name)
-        if key not in repos: repos[key] = dict()
-        repo = repos[key]
-        entry = {'date': date,
-                 'time': time,
-                 'size': size,
-                 'path': path}
-        repo[file_type] = entry
-    return repos
+    def run():
+        # read files from s3
+        # for ingester in self.ingesters:
+        #   run ingester
+        None
 
 def diff_s3_list(old_lines, new_lines):
     old_lines = set(old_lines)
@@ -79,25 +78,88 @@ def diff_s3_list(old_lines, new_lines):
             diffed_lines.append(line)
     return diffed_lines
 
-s3_file_metadata_dir = 'web3hackernetwork/metadata/files'
-old_file = 'numstat_bucket_repo_files.5.log.bz2'
-new_file = 'numstat_bucket_repo_files.6.log.bz2'
-old_s3_ls_key = f'{s3_file_metadata_dir}/{old_file}'
-new_s3_ls_key = f'{s3_file_metadata_dir}/{new_file}'
+def parse_s3_list(lines):
+    repo_files = dict()
+    for line in lines:
+        if line == '': continue
+        line_parts = re.split(' +', line)
+        # date = line_parts[0] # time = line_parts[1] # size = line_parts[2]
+        # entry = {'date': date, 'time': time, 'size': size, 'path': path}
+        path = line_parts[3]
+        path_parts = re.split('/', path)
+        owner = path_parts[1]
+        repo_name = path_parts[2]
+        file_type = path_parts[3]
+        partition_key = pq_util.repo_partition_key(owner, repo_name)
+        key = (partition_key, file_type)
+        if key not in repo_files: repo_files[key] = list()
+        repo_files[key].append(path)
+    return repo_files
 
-w3hn_s3_util = S3Util(profile='w3hn-admin', bucket_name='deadmandao')
-old_lines = w3hn_s3_util.get_text_lines_from_bz2(old_s3_ls_key)
-new_lines = w3hn_s3_util.get_text_lines_from_bz2(new_s3_ls_key)
-lines = diff_s3_list(old_lines, new_lines)
-for line in lines[1:10]:
-    print(line)
-print(f'num text lines: {len(lines)}')
-# print(f'{lines[1:10]}')
-exit()
-old_lines = read_s3_list(old_path)
-new_lines = read_s3_list(new_path, old_lines)
-print(f'old len: {len(old_lines)}, new len: {len(new_lines)}')
-exit()
+def get_update_partitions():
+    new_lines = w3hn_s3_util.get_text_lines_from_bz2(new_s3_ls_key)
+    repo_files = None
+    if FULL_REFRESH:
+        repo_files = parse_s3_list(new_lines)
+    else:
+        old_lines = w3hn_s3_util.get_text_lines_from_bz2(old_s3_ls_key)
+        lines = diff_s3_list(old_lines, new_lines)
+        repo_files = parse_s3_list(lines)
+    return repo_files
+    # update_partitions = dict()
+    # for (key, repo) in repo_files.items():
+    #     owner = key[0]
+    #     repo_name = key[1]
+    #     partition_key = pq_util.repo_partition_key(owner, repo_name)
+    #     if partition_key not in update_partitions:
+    #         update_partitions[partition_key] = dict()
+    #     partition = update_partitions[partition_key]
+    #     for (file_type, entry_list) in repo.items():
+    #         if file_type not in partition: partition[file_type] = list()
+    #         partition[file_type].extend(entry_list)
+    # return update_partitions
+
+
+def multi_phile_2():
+    update_partitions = get_update_partitions()
+    with ThreadPoolExecutor(max_workers=10) as fetch_pool:
+        with ThreadPoolExecutor(max_workers=10) as put_pool:
+            keys = list(update_partitions.keys())
+            keys.sort()
+            for update_key in keys:
+                (partition_key, file_type) = update_key
+                file_paths = update_partitions[update_key]
+                if file_type == 'blame_map.json.bz2':
+                    ingesters = [BlameIngester()]
+                    args = (file_paths, ingesters, put_pool)
+                    future = executor.submit(update, args)
+                elif file_type == 'dependency_map.json.bz2':
+                    ingesters = [DependencyIngester()]
+                    args = (file_paths, ingesters, put_pool)
+                    future = executor.submit(update, args)
+                elif file_type == 'log_numstat.out.json.bz2':
+                    ingesters = [FileHackerCommitIngester(),
+                                 RepoFileIngester()]
+                    args = (file_paths, ingesters, put_pool)
+                    future = executor.submit(update, args)
+                else:
+                    log.error(f'unrecognized file type: {partition_key}, {file_type}, {update_key}, {file_paths}')
+                print(f'{partition_key}: {file_type}')
+                print(f'  {file_paths}')
+                
+            # for (partition_key, partition) in update_partitions:
+            #     if partition_key < low_partition_limit:
+            #         continue
+            #     elif partition_key > high_partition_limit:
+            #         continue
+            #     else:
+            #         print(f'{partition_key} is in bounds, running')
+            #     for (file_type, file_list) in partition:
+            #         print(f'{partition_key}')
+            #         print(f'{partition}')
+            #         fetch_pool
+        
+    exit()
 
 def multi_phile():
     # repo_tuple_array = list()
@@ -218,4 +280,4 @@ def update_repo_file(repo_tuple_array):
         print(f'running REPO_FILE on {len(repo_tuple_array)} repo_tuples')
         RepoFileIngester.update_repos(repo_tuple_array)
             
-multi_phile()
+multi_phile_2()
