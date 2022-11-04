@@ -121,9 +121,13 @@ def load_json(file_path):
     owner = path_parts[1]
     repo_name = path_parts[2]
     file_type = path_parts[3]
-    json_obj = json_s3_util.get_json_obj_at_key(file_path)
-    repo_tuple = (owner, repo_name, json_obj, json_obj, json_obj)
-    return repo_tuple
+    try:
+        json_obj = json_s3_util.get_json_obj_at_key(file_path)
+        repo_tuple = (owner, repo_name, json_obj, json_obj, json_obj)
+        return repo_tuple
+    except Exception as exc:
+        print(f'ERROR reading json {file_path}: {exc}')
+    return None
 
 def update(file_paths, ingesters):
     futures = list()
