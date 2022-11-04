@@ -15,7 +15,7 @@ project_dir = 'Web3HackerNetwork'
 w3hndex = this_path.index(project_dir)
 root_path = this_path[0:w3hndex + len(project_dir)]
 # ---------- Local Library Path ----------------
-# sys.path.insert(0, f'{root_path}/python')
+sys.path.insert(0, f'{root_path}/python')
 # ---------- Local Libraries -------------------
 from w3hn.datapipe.ingest.blame import BlameIngester
 from w3hn.datapipe.ingest.dependency import DependencyIngester
@@ -31,13 +31,13 @@ BLAME_JOB = 1
 DEPS_JOB = 2
 FILE_HACKER_JOB = 4
 REPO_FILE_JOB = 8
-JOBS = DEPS_JOB | BLAME_JOB | FILE_HACKER_JOB | REPO_FILE_JOB
+JOBS = DEPS_JOB # | BLAME_JOB | FILE_HACKER_JOB | REPO_FILE_JOB
 
 old_file = 'numstat_bucket_repo_files.5.log.bz2'
 new_file = 'numstat_bucket_repo_files.6.log.bz2'
 
-low_partition_limit = '02' # '00' for all
-high_partition_limit = '20' # 'ff' for all
+low_partition_limit = '00' # '00' for all
+high_partition_limit = '03' # 'ff' for all
 
 json_s3_util = S3Util(profile="enigmatt")
 w3hn_s3_util = S3Util(profile='w3hn-admin', bucket_name='deadmandao')
@@ -80,6 +80,7 @@ def diff_s3_list(old_lines, new_lines):
 
 def parse_s3_list(lines):
     repo_files = dict()
+    file_count = 0
     for line in lines:
         if line == '': continue
         line_parts = re.split(' +', line)
@@ -90,18 +91,26 @@ def parse_s3_list(lines):
         owner = path_parts[1]
         repo_name = path_parts[2]
         file_type = path_parts[3]
+        if file_type == 'blame_map.json.bz2' and not (JOBS & BLAME_JOB): continue
+        if file_type == 'dependency_map.json.bz2' and not (JOBS & DEPS_JOB): continue
+        if file_type == 'log_numstat.out.json.bz2' and not (JOBS & (FILE_HACKER_JOB | REPO_FILE_JOB)): continue
         partition_key = pq_util.repo_partition_key(owner, repo_name)
-        key = (partition_key, file_type)
-        if key not in repo_files: repo_files[key] = list()
-        repo_files[key].append(path)
+        if partition_key >= low_partition_limit and partition_key <= high_partition_limit:
+            key = (partition_key, file_type)
+            if key not in repo_files: repo_files[key] = list()
+            repo_files[key].append(path)
+            file_count += 1
+    print(f'parse_s3_list found {file_count} files with {len(repo_files)} partition/type pairs')
     return repo_files
 
 def get_update_partitions():
     new_lines = w3hn_s3_util.get_text_lines_from_bz2(new_s3_ls_key)
     repo_files = None
     if FULL_REFRESH:
+        print(f'running full refresh from {new_s3_ls_key}')
         repo_files = parse_s3_list(new_lines)
     else:
+        print(f'running differential refresh from {old_s3_ls_key} and {new_s3_ls_key}')
         old_lines = w3hn_s3_util.get_text_lines_from_bz2(old_s3_ls_key)
         lines = diff_s3_list(old_lines, new_lines)
         repo_files = parse_s3_list(lines)

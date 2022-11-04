@@ -24,7 +24,7 @@ class Ingester(ABC):
         print(f'ingester update_repos_using_ingester [{len(repo_tuple_array)}]')
         synth_dict = dict()
         for repo_tuple in repo_tuple_array:
-            print(f'ingester entered repo_tuple loop')
+            # print(f'ingester entered repo_tuple loop')
             owner = repo_tuple[0]
             repo_name = repo_tuple[1]
             synthetic_key = pq_util.repo_partition_key(owner, repo_name)
@@ -112,7 +112,7 @@ class Ingester(ABC):
             owner_repos.append(owner_repo)
             new_table = new_table_tuple[2]
             tables.append(new_table)
-            print(f'{__file__}: new table rows: {new_table.num_rows}')
+            # print(f'{__file__}: new table rows: {new_table.num_rows}')
         live_table = self.load_existing_for_batch(partition_key, owner_repos)
         if live_table != None:
             tables.append(live_table)
