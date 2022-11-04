@@ -53,7 +53,7 @@ new_s3_ls_key = f'{s3_file_metadata_dir}/{new_file}'
 # file_data_path = f'{root_path}/data/files'
 # deps_log = f'{file_data_path}/{latest_file}'
 # old_path = f'{file_data_path}/{old_file}'
-# new_path = f'{file_data_path}/{new_file}'
+ # new_path = f'{file_data_path}/{new_file}'
 
 class LoadDataTask:
     def __init__(self,
@@ -116,76 +116,56 @@ def get_update_partitions():
         repo_files = parse_s3_list(lines)
     return repo_files
 
-def update(args):
-    (file_paths, ingesters, put_pool, put_futures) = args
+def load_json(file_path):
+    path_parts = re.split('/', file_path)
+    owner = path_parts[1]
+    repo_name = path_parts[2]
+    file_type = path_parts[3]
+    json_obj = json_s3_util.get_json_obj_at_key(file_path)
+    repo_tuple = (owner, repo_name, json_obj, json_obj, json_obj)
+    return repo_tuple
+
+def update(file_paths, ingesters):
+    futures = list()
+    with ThreadPoolExecutor(max_workers=10) as fetch_pool:
+        threadmap = fetch_pool.map(load_json, file_paths)
     repo_tuple_array = list()
-    partition_key = None
-    for file_path in file_paths:
-        path_parts = re.split('/', file_path)
-        owner = path_parts[1]
-        repo_name = path_parts[2]
-        if partition_key is None: partition_key = pq_util.repo_partition_key(owner, repo_name)
-        file_type = path_parts[3]
-        json_obj = json_s3_util.get_json_obj_at_key(file_path)
-        repo_tuple = (owner, repo_name, json_obj, json_obj, json_obj)
-        repo_tuple_array.append(repo_tuple)
+    for result in threadmap:
+        if result is not None: repo_tuple_array.append(result)
+    num_files = len(file_paths)
     for ingester in ingesters:
         if TEST_MODE:
-            print(f'TEST_MODE: not submitting {type(ingester)} for partition {partition_key} with {len(file_paths)} files')
+            print(f'TEST_MODE: {type(ingester)} with {num_files} files')
         else:
-            print(f'submitting {type(ingester)} for partition {partition_key} with {len(file_paths)} files')
-            future = put_pool.submit(ingester.instance_update_repos,
-                                     repo_tuple_array)
-            put_futures.append(future)
+            print(f'LIVE_MODE: {type(ingester)} with {num_files} files')
+            ingester.instance_update_repos(repo_tuple_array)
         
 def multi_phile_2():
     update_partitions = get_update_partitions()
-    fetch_futures = list()
-    put_futures = list()
-    with ThreadPoolExecutor(max_workers=10) as put_pool:
-        with ThreadPoolExecutor(max_workers=10) as fetch_pool:
-            keys = list(update_partitions.keys())
-            keys.sort()
-            for update_key in keys:
-                (partition_key, file_type) = update_key
-                file_paths = update_partitions[update_key]
-                if file_type == 'blame_map.json.bz2':
-                    if JOBS & BLAME_JOB:
-                        print(f'loading blame jsons for partition {partition_key}')
-                        ingesters = [BlameIngester()]
-                        args = (file_paths, ingesters, put_pool, put_futures)
-                        future = fetch_pool.submit(update, args)
-                        fetch_futures.append(future)
-                elif file_type == 'dependency_map.json.bz2':
-                    if JOBS & DEPS_JOB:
-                        print(f'loading dependency jsons for partition {partition_key}')
-                        ingesters = [DependencyIngester()]
-                        args = (file_paths, ingesters, put_pool, put_futures)
-                        future = fetch_pool.submit(update, args)
-                        fetch_futures.append(future)
-                elif file_type == 'log_numstat.out.json.bz2':
-                    if JOBS & (FILE_HACKER_JOB | REPO_FILE_JOB):
-                        print(f'loading numstat jsons for partition {partition_key}')
-                        ingesters = list()
-                        if JOBS & FILE_HACKER_JOB: ingesters.append(FileHackerCommitIngester())
-                        if JOBS & REPO_FILE_JOB: ingesters.append(RepoFileIngester())
-                        args = (file_paths, ingesters, put_pool, put_futures)
-                        future = fetch_pool.submit(update, args)
-                        fetch_futures.append(future)
-                else:
-                    print(f'unrecognized file type: {partition_key}, {file_type}, {update_key}, {file_paths}')
-                # print(f'{partition_key}: {file_type}')
-                # print(f'  {file_paths}')
-        for future in fetch_futures:
-            try:
-                future.result()
-            except Exception as exc:
-                print(f'{exc}')
-    for future in put_futures:
-        try:
-            future.result()
-        except Exception as exc:
-            print(f'{exc}')
+    keys = list(update_partitions.keys())
+    keys.sort()
+    for update_key in keys:
+        (partition_key, file_type) = update_key
+        file_paths = update_partitions[update_key]
+        if file_type == 'blame_map.json.bz2':
+            if JOBS & BLAME_JOB:
+                print(f'loading blame jsons for partition {partition_key}')
+                update(file_paths, [BlameIngester()])
+        elif file_type == 'dependency_map.json.bz2':
+            if JOBS & DEPS_JOB:
+                print(f'loading dependency jsons for partition {partition_key}')
+                update(file_paths, [DependencyIngester()])
+        elif file_type == 'log_numstat.out.json.bz2':
+            if JOBS & (FILE_HACKER_JOB | REPO_FILE_JOB):
+                print(f'loading numstat jsons for partition {partition_key}')
+                ingesters = list()
+                if JOBS & FILE_HACKER_JOB:
+                    ingesters.append(FileHackerCommitIngester())
+                if JOBS & REPO_FILE_JOB:
+                    ingesters.append(RepoFileIngester())
+                update(file_paths, ingesters)
+        else:
+            print(f'unrecognized file type: {partition_key}, {file_type}, {update_key}, {file_paths}')
 
 def multi_phile():
     # repo_tuple_array = list()
