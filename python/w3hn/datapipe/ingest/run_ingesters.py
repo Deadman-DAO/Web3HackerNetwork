@@ -25,13 +25,13 @@ from w3hn.aws.aws_util import S3Util
 import w3hn.hadoop.parquet_util as pq_util
 # ----------------------------------------------
 
-TEST_MODE = False
+TEST_MODE = True
 FULL_REFRESH = False
 BLAME_JOB = 1
 DEPS_JOB = 2
 FILE_HACKER_JOB = 4
 REPO_FILE_JOB = 8
-JOBS = BLAME_JOB # | DEPS_JOB | FILE_HACKER_JOB | REPO_FILE_JOB
+JOBS = DEPS_JOB | BLAME_JOB | FILE_HACKER_JOB | REPO_FILE_JOB
 
 old_file = 'numstat_bucket_repo_files.5.log.bz2'
 new_file = 'numstat_bucket_repo_files.6.log.bz2'
