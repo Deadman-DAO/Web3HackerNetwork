@@ -1,12 +1,25 @@
 import logging
 from logging.handlers import RotatingFileHandler as log_rfh
 import sys
+from threading import Lock
 import traceback
 
 import w3hn.log.log_init as log_init_alias
 
 initialized = False
 default_log_dir = '/opt/deadman/Web3HackerNetwork/log'
+
+log_init_lock = Lock()
+log_init_singleton = None
+
+def single_init(log_dir_path=default_log_dir):
+    global log_init_singleton
+    global log_init_lock
+    if log_init_singleton is None:
+        with log_init_lock:
+            if log_init_singleton is None:
+                log_init_singleton = True
+                log_init_alias.initialize(log_dir_path)
 
 # This will add a new handler, retaining existing handlers. Only call
 # this if you are the entry point of the program. If you are a library,
@@ -46,6 +59,7 @@ def initialize(log_dir_path=default_log_dir):
 def logger(name, log_dir_path=default_log_dir):
     # if not log_init_alias.initialized:
     #     initialize(log_dir_path)
+    log_init_alias.single_init(log_dir_path=log_dir_path)
     logging.getLogger('log_init').info(f'logger({name}, {log_dir_path})')
     return logging.getLogger(name=name)
 
