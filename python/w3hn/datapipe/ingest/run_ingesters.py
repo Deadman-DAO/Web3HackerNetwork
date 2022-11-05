@@ -16,7 +16,7 @@ project_dir = 'Web3HackerNetwork'
 w3hndex = this_path.index(project_dir)
 root_path = this_path[0:w3hndex + len(project_dir)]
 # ---------- Local Library Path ----------------
-sys.path.insert(0, f'{root_path}/python')
+# sys.path.insert(0, f'{root_path}/python')
 # ---------- Local Libraries -------------------
 from w3hn.aws.aws_util import S3Util
 from w3hn.datapipe.ingest.blame import BlameIngester
@@ -25,17 +25,13 @@ from w3hn.datapipe.ingest.file_hacker_commit import FileHackerCommitIngester
 from w3hn.datapipe.ingest.repo_file import RepoFileIngester
 import w3hn.hadoop.parquet_util as pq_util
 import w3hn.log.log_init as log_init
-# from w3hn.datapipe.ingest.run_ingesters import IngesterRunner
 # ----------------------------------------------
 
 class IngesterRunner:
-    # TEST_MODE = True
-    # FULL_REFRESH = False
     BLAME_JOB = 1
     DEPS_JOB = 2
     FILE_HACKER_JOB = 4
     REPO_FILE_JOB = 8
-    # JOBS = DEPS_JOB # | BLAME_JOB | FILE_HACKER_JOB | REPO_FILE_JOB
 
     def __init__(self,
                  new_file,
@@ -52,15 +48,18 @@ class IngesterRunner:
         self.new_file = new_file
         self.old_file = old_file
         self.test_mode = test_mode
-        if run_blame: self.jobs = self.jobs | IngesterRunner.BLAME_JOB
-        if run_deps: self.jobs = self.jobs | IngesterRunner.DEPS_JOB
-        if run_file_hacker: self.jobs = self.jobs | IngesterRunner.FILE_HACKER_JOB
-        if run_repo_file: self.jobs = self.jobs | IngesterRunner.REPO_FILE_JOB
-
-        self.json_s3_util = S3Util(profile="enigmatt",
-                                   bucket_name='numstat-bucket')
-        self.w3hn_s3_util = S3Util(profile='w3hn-admin',
-                                   bucket_name='deadmandao')
+        if run_blame:
+            self.jobs = self.jobs | IngesterRunner.BLAME_JOB
+        if run_deps:
+            self.jobs = self.jobs | IngesterRunner.DEPS_JOB
+        if run_file_hacker:
+            self.jobs = self.jobs | IngesterRunner.FILE_HACKER_JOB
+        if run_repo_file:
+            self.jobs = self.jobs | IngesterRunner.REPO_FILE_JOB
+        self.json_s3_util = \
+            S3Util(profile="enigmatt", bucket_name='numstat-bucket')
+        self.w3hn_s3_util = \
+            S3Util(profile='w3hn-admin', bucket_name='deadmandao')
         self.s3_file_metadata_dir = 'web3hackernetwork/metadata/files'
         self.old_s3_ls_key = f'{self.s3_file_metadata_dir}/{old_file}'
         self.new_s3_ls_key = f'{self.s3_file_metadata_dir}/{new_file}'
@@ -82,9 +81,6 @@ class IngesterRunner:
             if line == '': continue
             line_parts = re.split(' +', line)
             # date = line_parts[0] # time = line_parts[1] # size = line_parts[2]
-            # entry = {'date': date, 'time': time, 'size': size, 'path': path}
-            # size = line_parts[2]
-            # if size < 2000: continue
             path = line_parts[3]
             path_parts = re.split('/', path)
             owner = path_parts[1]
@@ -144,10 +140,11 @@ class IngesterRunner:
             if result is not None: repo_tuple_array.append(result)
         num_files = len(file_paths)
         for ingester in ingesters:
+            type_count_msg = f'{type(ingester)} with {num_files} files'
             if self.test_mode:
-                self.log.info(f'TEST_MODE: {type(ingester)} with {num_files} files')
+                self.log.info(f'TEST_MODE: {type_count_msg}')
             else:
-                self.log.info(f'LIVE_MODE: {type(ingester)} with {num_files} files')
+                self.log.info(f'LIVE_MODE: {type_count_msg}')
                 try:
                     ingester.instance_update_repos(repo_tuple_array)
                 except Exception:
