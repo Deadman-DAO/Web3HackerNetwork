@@ -10,6 +10,9 @@ from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import as_completed
 # ----------------------------------------------
 
+import w3hn.log.log_init as log_init
+log_init.logger(__file__)
+
 # ========== Project Root Path =================
 this_path = os.path.abspath(sys.path[0])
 project_dir = 'Web3HackerNetwork'
@@ -24,7 +27,6 @@ from w3hn.datapipe.ingest.dependency import DependencyIngester
 from w3hn.datapipe.ingest.file_hacker_commit import FileHackerCommitIngester
 from w3hn.datapipe.ingest.repo_file import RepoFileIngester
 import w3hn.hadoop.parquet_util as pq_util
-import w3hn.log.log_init as log_init
 # ----------------------------------------------
 
 class IngesterRunner:
@@ -189,7 +191,6 @@ class IngesterRunner:
 
 
 if __name__ == '__main__':
-    log_init.initialize()
     log = log_init.logger(__file__)
     parser = argparse.ArgumentParser(
         prog=f'python3 {__file__}',

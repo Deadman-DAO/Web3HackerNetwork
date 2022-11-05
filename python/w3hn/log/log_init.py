@@ -21,6 +21,13 @@ def single_init(log_dir_path=default_log_dir):
                 log_init_singleton = True
                 log_init_alias.initialize(log_dir_path)
 
+# Kind of just don't call this. It exists for single_init to call, and
+# also for in case you want to force add a new handler.
+# For most cases, just make sure the default dir exists and have your
+# entry point call log_init.logger before anyone else has a chance.
+#
+# I don't love this, feel free to fix it.
+# 
 # This will add a new handler, retaining existing handlers. Only call
 # this if you are the entry point of the program. If you are a library,
 # not the main entry point, you should just call "logger(...)".
