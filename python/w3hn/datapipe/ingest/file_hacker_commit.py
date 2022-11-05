@@ -61,12 +61,12 @@ class FileHackerCommitIngester(Ingester):
     # Instance API
     # ----------------------------------------------------
 
-    code_suffixes = ['.js', '.py', '.c', '.java', '.go', '.ts',
-                     '.cpp', '.php', '.rb', '.cs', '.cc', '.rs',
-                     '.tsx', '.scala', '.jsx']
-
     def extract_data(self, owner, repo_name,
                      blame_map=None, dependency_map=None, numstat=None):
+        code_suffixes = ['.js', '.py', '.c', '.java', '.go', '.ts',
+                         '.cpp', '.php', '.rb', '.cs', '.cc', '.rs',
+                         '.tsx', '.scala', '.jsx']
+
         raw_dataset = dict()
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
         for commit in numstat:
