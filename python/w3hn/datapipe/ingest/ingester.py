@@ -43,6 +43,7 @@ class Ingester(ABC):
                 owner = repo_tuple[0]
                 repo_name = repo_tuple[1]
                 numstat_object = repo_tuple[4]
+                print(f'{type(ingester)} extracting data from {owner} {repo_name}')
                 new_data = ingester.extract_data(owner,
                                                  repo_name,
                                                  blame_map=repo_tuple[2],
@@ -130,17 +131,18 @@ class Ingester(ABC):
         bucket_path = f'{self.bucket}/{self.dataset_path}'
         partition_key = pq_util.repo_partition_key(owner, repo_name)
         partition_path = f'{self.dataset_path}/partition_key={partition_key}'
-        if self.s3_util.path_exists(partition_path):
-            print(f'{__file__}: deleting {self.bucket}/{partition_path}')
-            s3fs.delete_dir(f'{self.bucket}/{partition_path}')
-        else:
-            print(f'{__file__}: no delete at {self.bucket}/{partition_path}')
         print(f'{__file__}: sorting')
         print(str(datetime.datetime.now()))
         table.sort_by([('owner', 'ascending'),
                        ('repo_name', 'ascending'),
                        ('file_path', 'ascending')])
         print(f'{__file__}: writing {self.bucket}/{partition_path}')
+        print(str(datetime.datetime.now()))
+        if self.s3_util.path_exists(partition_path):
+            print(f'{__file__}: deleting {self.bucket}/{partition_path}')
+            s3fs.delete_dir(f'{self.bucket}/{partition_path}')
+        else:
+            print(f'{__file__}: no delete at {self.bucket}/{partition_path}')
         print(str(datetime.datetime.now()))
         pq.write_to_dataset(table,
                             root_path=bucket_path,

@@ -87,6 +87,8 @@ def parse_s3_list(lines):
         line_parts = re.split(' +', line)
         # date = line_parts[0] # time = line_parts[1] # size = line_parts[2]
         # entry = {'date': date, 'time': time, 'size': size, 'path': path}
+        # size = line_parts[2]
+        # if size < 2000: continue
         path = line_parts[3]
         path_parts = re.split('/', path)
         owner = path_parts[1]
@@ -123,6 +125,7 @@ def load_json(file_path):
     repo_name = path_parts[2]
     file_type = path_parts[3]
     try:
+        print(f'loading {file_path}')
         json_obj = json_s3_util.get_json_obj_at_key(file_path)
         repo_tuple = (owner, repo_name, json_obj, json_obj, json_obj)
         return repo_tuple

@@ -61,6 +61,10 @@ class FileHackerCommitIngester(Ingester):
     # Instance API
     # ----------------------------------------------------
 
+    code_suffixes = ['.js', '.py', '.c', '.java', '.go', '.ts',
+                     '.cpp', '.php', '.rb', '.cs', '.cc', '.rs',
+                     '.tsx', '.scala', '.jsx']
+
     def extract_data(self, owner, repo_name,
                      blame_map=None, dependency_map=None, numstat=None):
         raw_dataset = dict()
@@ -70,6 +74,11 @@ class FileHackerCommitIngester(Ingester):
             commit_date_str = commit['Date']
             author = commit['Author']
             for file_path in commit['file_list']:
+                if '.' not in file_path: continue
+                extension_length = file_path[::-1].index('.') + 1
+                start_of_the_ending = len(file_path) - extension_length
+                extension = file_path[start_of_the_ending:]
+                if extension not in code_suffixes: continue
                 file_entry = commit['file_list'][file_path]
                 dict_key = (file_path, author, commit_str, commit_date_str)
                 if dict_key in raw_dataset:
