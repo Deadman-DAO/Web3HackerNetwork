@@ -3,7 +3,7 @@ from logging.handlers import RotatingFileHandler as log_rfh
 import sys
 import traceback
 
-import w3hn.log.log_init as log_init
+import w3hn.log.log_init as log_init_alias
 
 initialized = False
 default_log_dir = '/opt/deadman/Web3HackerNetwork/log'
@@ -15,7 +15,7 @@ default_log_dir = '/opt/deadman/Web3HackerNetwork/log'
 # Input Params:
 # log_dir_path = defaults to the default logging dir, None = write to stdout
 def initialize(log_dir_path=default_log_dir):
-    log_init.initalized = True
+    log_init_alias.initalized = True
     root_log = logging.getLogger()
     root_log.setLevel(logging.DEBUG)
     if log_dir_path is None:
@@ -44,15 +44,21 @@ def initialize(log_dir_path=default_log_dir):
 # name = the name of the logger, will be shown in the log
 # log_dir_path = defaults to the default logging dir, None = write to stdout
 def logger(name, log_dir_path=default_log_dir):
-    if not log_init.initialized:
+    if not log_init_alias.initialized:
         initialize(log_dir_path)
     logging.getLogger('log_init').info(f'logger({name}, {log_dir_path})')
     return logging.getLogger(name=name)
 
 if __name__ == '__main__':
-    log = logger(__file__, None)
+    log = log_init_alias.logger(__file__, None)
     log.warning("warning to stdout")
-    initialize('./')
+    log_init_alias.initialize('./')
     log.warning("warning to stdout and ./ file")
-    initialize()
+    log_init_alias.initialize()
     log.warning("warning to stdout, ./ file, and default file")
+    try:
+        a = 1/0
+    except:
+        log.exception("dividing by zero threw an exception")
+    log.info("the system didn't die, that exception was handled")
+
