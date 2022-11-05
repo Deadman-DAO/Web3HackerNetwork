@@ -15,6 +15,7 @@ default_log_dir = '/opt/deadman/Web3HackerNetwork/log'
 # Input Params:
 # log_dir_path = defaults to the default logging dir, None = write to stdout
 def initialize(log_dir_path=default_log_dir):
+    log_init.initalized = True
     root_log = logging.getLogger()
     root_log.setLevel(logging.DEBUG)
     if log_dir_path is None:
@@ -39,7 +40,6 @@ def initialize(log_dir_path=default_log_dir):
 # log_dir_path = defaults to the default logging dir, None = write to stdout
 def logger(name, log_dir_path=default_log_dir):
     if not log_init.initialized:
-        log_init.initialized = True
         initialize(log_dir_path)
     logging.getLogger('log_init').info(f'logger({name}, {log_dir_path})')
     return logging.getLogger(name=name)
