@@ -21,8 +21,13 @@ def initialize(log_dir_path=default_log_dir):
     if log_dir_path is None:
         handler = logging.StreamHandler(sys.stdout)
     else:
-        handler = log_rfh(f'{log_dir_path}/w3hn.log', mode='w', backupCount=10)
-        handler.doRollover()
+        log_path = f'{log_dir_path}/w3hn.log'
+        try:
+            handler = log_rfh(log_path, mode='a', backupCount=9)
+            handler.doRollover()
+        except:
+            handler = log_rfh(log_path, mode='w', backupCount=9)
+            handler.doRollover()
     handler.setLevel(logging.DEBUG)
     fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     formatter = logging.Formatter(fmt)
@@ -45,7 +50,7 @@ def logger(name, log_dir_path=default_log_dir):
     return logging.getLogger(name=name)
 
 if __name__ == '__main__':
-    log = logger('potato', None)
+    log = logger(__file__, None)
     log.warning("warning to stdout")
     initialize('./')
     log.warning("warning to stdout and ./ file")
