@@ -37,15 +37,15 @@ def initialize(log_dir_path=default_log_dir):
         logging.getLogger(noisy).setLevel(logging.WARNING)
     logging.getLogger('log_init').info(f'initialize({log_dir_path})')
 
-# This will not add a handler it has already been initialized.
+# This will not add a handler.
 # To explicitly add a new handler, call initialize.
 #
 # Input Params:
 # name = the name of the logger, will be shown in the log
 # log_dir_path = defaults to the default logging dir, None = write to stdout
 def logger(name, log_dir_path=default_log_dir):
-    if not log_init_alias.initialized:
-        initialize(log_dir_path)
+    # if not log_init_alias.initialized:
+    #     initialize(log_dir_path)
     logging.getLogger('log_init').info(f'logger({name}, {log_dir_path})')
     return logging.getLogger(name=name)
 
