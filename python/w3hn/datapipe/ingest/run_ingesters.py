@@ -166,7 +166,7 @@ class IngesterRunner:
                 subsample_size = len(file_paths) / self.subsample_count
                 leftx = subsample_size * self.subsample_index
                 rightx = subsample_size * (1 + self.subsample_index)
-                file_paths = file_paths[leftx, rightx]
+                file_paths = file_paths[int(leftx):int(rightx)]
             if file_type == 'blame_map.json.bz2':
                 if self.jobs & IngesterRunner.BLAME_JOB:
                     self.log.info(f'loading blame jsons for partition {partition_key}')
@@ -191,16 +191,15 @@ class IngesterRunner:
 if __name__ == '__main__':
     log_init.initialize()
     log = log_init.logger(__file__)
-
     parser = argparse.ArgumentParser(
         prog=f'python3 {__file__}',
         description='Kick off an ingest run.',
         epilog='This is my epilog. There are many like it, but this one is mine.'
     )
-    parser.add_argument('new_s3_ls_file.log.bz2',
+    parser.add_argument('new_s3_ls_file', #.log.bz2',
                         help='The name of the new s3 ls file.')
     parser.add_argument('-o', '--old_file',
-                        help='The name of the old s3 ls file. Implies update-only run.')
+                        help='The old s3 ls file. Implies update-only.')
     parser.add_argument('-a', '--active_mode',
                         help='Enables write to S3. Default is test-mode.',
                         action='store_true')
@@ -216,48 +215,29 @@ if __name__ == '__main__':
     parser.add_argument('-r', '--run_repo_file',
                         help='Run the Repo/File ingester.',
                         action='store_true')
-    parser.add_argument('-l', '--low_limit',
+    parser.add_argument('-l', '--low_limit', default='00',
                         help='The low partition limit (00 for all)')
-    parser.add_argument('-t', '--top_limit',
+    parser.add_argument('-t', '--top_limit', default='ff',
                         help='The high partiion limit (ff for all)')
     parser.add_argument('-c', '--subsample_count', type=int,
                         help='Split count for subsampling.')
     parser.add_argument('-i', '--subsample_index', type=int,
                         help='Index of the subsample split to run.')
     args = parser.parse_args()
-    # argument_list = sys.argv[1:]
-    # options = 'n:o:abdfrl:h:c:i:'
-    # long_options = [
-    #     'new_file=',
-    #     'old_file=',
-    #     'active_mode',
-    #     'run_blame',
-    #     'run_deps',
-    #     'run_file_hacker',
-    #     'run_repo_file',
-    #     'low_limit=',
-    #     'high_limit=',
-    #     'subsample_count=',
-    #     'subsample_index=',
-    # ]
-    # try:
-    #     arguments, values = getopt.getopt(argument_list, options, long_options)
-    # except:
-    #     raise
-    # for arg, val in arguments:
-    #     print(f'{arg}: {val}')
+    log.info(f'beginning ingest run with {args}')
     runner = IngesterRunner(
-        'numstat_bucket_repo_files.6.log.bz2',
-        old_file = 'numstat_bucket_repo_files.5.log.bz2',
-        test_mode = True,
-        run_blame = True,
-        run_deps = True,
-        run_file_hacker = True,
-        run_repo_file = True,
-        low_partition_limit = '00', # '00' for all
-        high_partition_limit = 'ff', # 'ff' for all
-        subsample_count = None,
-        subsample_index = None,
+        args.new_s3_ls_file, # 'numstat_bucket_repo_files.6.log.bz2',
+        old_file = args.old_file, # 'numstat_bucket_repo_files.5.log.bz2',
+        test_mode = not args.active_mode,
+        run_blame = args.run_blame,
+        run_deps = args.run_deps,
+        run_file_hacker = args.run_file_hacker,
+        run_repo_file = args.run_repo_file,
+        low_partition_limit = args.low_limit,
+        high_partition_limit = args.top_limit,
+        subsample_count = args.subsample_count,
+        subsample_index = args.subsample_index,
     )
-    exit()
     runner.multi_phile()
+    log.info(f'finished ingest run')
+
