@@ -11,8 +11,8 @@ parser = argparse.ArgumentParser(
 parser.add_argument('filename') # positional argument
 parser.add_argument('-c', '--count', # option that takes a value
                     help='explain what count does', type=int)
-parser.add_argument('-v', '--verbose', # on/off flag
-                    action='store_true',
+parser.add_argument('-v', '--verbose',
+                    action='store_true', # on/off flag
                     help='this is a switch that explains things using far too many words')
 
 args = parser.parse_args()

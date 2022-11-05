@@ -1,11 +1,11 @@
 # ========= External Libraries =================
+import argparse
 import bz2
 import datetime
 import os
 import re
 import sys
 import threading
-import traceback
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import as_completed
 # ----------------------------------------------
@@ -190,6 +190,62 @@ class IngesterRunner:
 
 if __name__ == '__main__':
     log_init.initialize()
+    log = log_init.logger(__file__)
+
+    parser = argparse.ArgumentParser(
+        prog=f'python3 {__file__}',
+        description='Kick off an ingest run.',
+        epilog='This is my epilog. There are many like it, but this one is mine.'
+    )
+    parser.add_argument('new_s3_ls_file.log.bz2',
+                        help='The name of the new s3 ls file.')
+    parser.add_argument('-o', '--old_file',
+                        help='The name of the old s3 ls file. Implies update-only run.')
+    parser.add_argument('-a', '--active_mode',
+                        help='Enables write to S3. Default is test-mode.',
+                        action='store_true')
+    parser.add_argument('-b', '--run_blame',
+                        help='Run the blame ingester.',
+                        action='store_true')
+    parser.add_argument('-d', '--run_deps',
+                        help='Run the dependency ingester.',
+                        action='store_true')
+    parser.add_argument('-f', '--run_file_hacker',
+                        help='Run the File/Hacker/Commit ingester.',
+                        action='store_true')
+    parser.add_argument('-r', '--run_repo_file',
+                        help='Run the Repo/File ingester.',
+                        action='store_true')
+    parser.add_argument('-l', '--low_limit',
+                        help='The low partition limit (00 for all)')
+    parser.add_argument('-t', '--top_limit',
+                        help='The high partiion limit (ff for all)')
+    parser.add_argument('-c', '--subsample_count', type=int,
+                        help='Split count for subsampling.')
+    parser.add_argument('-i', '--subsample_index', type=int,
+                        help='Index of the subsample split to run.')
+    args = parser.parse_args()
+    # argument_list = sys.argv[1:]
+    # options = 'n:o:abdfrl:h:c:i:'
+    # long_options = [
+    #     'new_file=',
+    #     'old_file=',
+    #     'active_mode',
+    #     'run_blame',
+    #     'run_deps',
+    #     'run_file_hacker',
+    #     'run_repo_file',
+    #     'low_limit=',
+    #     'high_limit=',
+    #     'subsample_count=',
+    #     'subsample_index=',
+    # ]
+    # try:
+    #     arguments, values = getopt.getopt(argument_list, options, long_options)
+    # except:
+    #     raise
+    # for arg, val in arguments:
+    #     print(f'{arg}: {val}')
     runner = IngesterRunner(
         'numstat_bucket_repo_files.6.log.bz2',
         old_file = 'numstat_bucket_repo_files.5.log.bz2',
@@ -203,4 +259,5 @@ if __name__ == '__main__':
         subsample_count = None,
         subsample_index = None,
     )
+    exit()
     runner.multi_phile()
