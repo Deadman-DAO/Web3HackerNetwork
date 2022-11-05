@@ -42,7 +42,9 @@ class IngesterRunner:
                  run_file_hacker = False,
                  run_repo_file = False,
                  low_partition_limit = '00',
-                 high_partition_limit = 'ff'):
+                 high_partition_limit = 'ff',
+                 subsample_count = None,
+                 subsample_index = None):
         self.log = log_init.logger(__file__)
         self.jobs = 0
         self.new_file = new_file
@@ -65,6 +67,8 @@ class IngesterRunner:
         self.new_s3_ls_key = f'{self.s3_file_metadata_dir}/{new_file}'
         self.low_partition_limit = low_partition_limit
         self.high_partition_limit = high_partition_limit
+        self.subsample_count = subsample_count
+        self.subsample_index = subsample_index
 
     def diff_s3_list(self, old_lines, new_lines):
         old_lines = set(old_lines)
@@ -157,6 +161,12 @@ class IngesterRunner:
         for update_key in keys:
             (partition_key, file_type) = update_key
             file_paths = update_partitions[update_key]
+            if self.subsample_count is not None \
+               and self.subsample_index is not None:
+                subsample_size = len(file_paths) / self.subsample_count
+                leftx = subsample_size * self.subsample_index
+                rightx = subsample_size * (1 + self.subsample_index)
+                file_paths = file_paths[leftx, rightx]
             if file_type == 'blame_map.json.bz2':
                 if self.jobs & IngesterRunner.BLAME_JOB:
                     self.log.info(f'loading blame jsons for partition {partition_key}')
@@ -177,21 +187,20 @@ class IngesterRunner:
             else:
                 self.log.warn(f'unrecognized file type: {partition_key}, {file_type}, {update_key}, {file_paths}')
 
+
 if __name__ == '__main__':
     log_init.initialize()
-    old_file = 'numstat_bucket_repo_files.5.log.bz2'
-    new_file = 'numstat_bucket_repo_files.6.log.bz2'
-    low_limit = '00' # '00' for all
-    high_limit = '03' # 'ff' for all
     runner = IngesterRunner(
-        new_file,
-        old_file = old_file,
+        'numstat_bucket_repo_files.6.log.bz2',
+        old_file = 'numstat_bucket_repo_files.5.log.bz2',
         test_mode = True,
-        low_partition_limit = low_limit,
-        high_partition_limit = high_limit,
         run_blame = True,
         run_deps = True,
         run_file_hacker = True,
-        run_repo_file = True
+        run_repo_file = True,
+        low_partition_limit = '00', # '00' for all
+        high_partition_limit = 'ff', # 'ff' for all
+        subsample_count = None,
+        subsample_index = None,
     )
     runner.multi_phile()
