@@ -8,6 +8,12 @@ import w3hn.log.log_init as log_init
 initialized = False
 default_log_dir = '/opt/deadman/Web3HackerNetwork/log'
 
+# This will add a new handler, retaining existing handlers. Only call
+# this if you are the entry point of the program. If you are a library,
+# not the main entry point, you should just call "logger(...)".
+#
+# Input Params:
+# log_dir_path = defaults to the default logging dir, None = write to stdout
 def initialize(log_dir_path=default_log_dir):
     root_log = logging.getLogger()
     root_log.setLevel(logging.DEBUG)
