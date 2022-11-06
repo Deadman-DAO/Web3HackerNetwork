@@ -61,15 +61,24 @@ class RepoFileIngester(Ingester):
 
     def extract_data(self, owner, repo_name,
                      blame_map=None, dependency_map=None, numstat=None):
+        code_suffixes = ['.js', '.py', '.c', '.java', '.go', '.ts',
+                         '.cpp', '.php', '.rb', '.cs', '.cc', '.rs',
+                         '.tsx', '.scala', '.jsx']
+
         raw_dataset = dict()
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
         for commit in numstat:
             commit_date = dateutil.parser.isoparse(commit['Date'])
             num_files = len(commit['file_list'])
             if num_files > 1000:
-                self.log.error(f'{num_files} in one commit in {owner} {repo}')
+                self.log.error(f'{num_files} in one commit in {owner} {repo_name}')
                 continue
             for file_path in commit['file_list']:
+                if '.' not in file_path: continue
+                extension_length = file_path[::-1].index('.') + 1
+                start_of_the_ending = len(file_path) - extension_length
+                extension = file_path[start_of_the_ending:]
+                if extension not in code_suffixes: continue
                 file_entry = commit['file_list'][file_path]
                 if file_path in raw_dataset:
                     meta = raw_dataset[file_path]
