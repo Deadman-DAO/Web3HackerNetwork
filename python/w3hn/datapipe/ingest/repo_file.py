@@ -4,6 +4,7 @@ import pyarrow as pa
 
 import w3hn.hadoop.parquet_util as pq_util
 from w3hn.datapipe.ingest.ingester import Ingester
+from w3hn.log.log_init import logger
 
 class RepoFileIngester(Ingester):
 
@@ -52,6 +53,7 @@ class RepoFileIngester(Ingester):
                  bucket='deadmandao',
                  raw_path='web3hackernetwork/data_pipeline/raw'):
         super().__init__(aws_profile, bucket, raw_path, 'repo_file')
+        self.log = logger(__self__)
 
     # ----------------------------------------------------
     # Instance API
@@ -65,7 +67,7 @@ class RepoFileIngester(Ingester):
             commit_date = dateutil.parser.isoparse(commit['Date'])
             num_files = len(commit['file_list'])
             if num_files > 1000:
-                log.error(f'{num_files} in one commit in {owner} {repo}')
+                self.log.error(f'{num_files} in one commit in {owner} {repo}')
                 continue
             for file_path in commit['file_list']:
                 file_entry = commit['file_list'][file_path]
