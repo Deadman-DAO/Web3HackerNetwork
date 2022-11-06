@@ -73,6 +73,10 @@ class FileHackerCommitIngester(Ingester):
             commit_str = commit['commit']
             commit_date_str = commit['Date']
             author = commit['Author']
+            num_files = len(commit['file_list'])
+            if num_files > 1000:
+                self.log.error(f'{num_files} in one commit in {owner} {repo_name}')
+                continue
             for file_path in commit['file_list']:
                 if '.' not in file_path: continue
                 extension_length = file_path[::-1].index('.') + 1
