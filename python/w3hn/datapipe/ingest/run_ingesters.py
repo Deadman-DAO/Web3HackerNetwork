@@ -153,8 +153,8 @@ class IngesterRunner:
                 self.log.info(f'LIVE_MODE: {type_count_msg}')
                 try:
                     ingester.instance_update_repos(repo_tuple_array)
-                except Exception:
-                    self.exception(f'ERROR in {type(ingester)}')
+                except:
+                    self.log.exception(f'ERROR in {type(ingester)}')
 
     def multi_phile(self):
         update_partitions = self.get_update_partitions()
