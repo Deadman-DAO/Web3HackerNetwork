@@ -63,6 +63,10 @@ class RepoFileIngester(Ingester):
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
         for commit in numstat:
             commit_date = dateutil.parser.isoparse(commit['Date'])
+            num_files = len(commit['file_list'])
+            if num_files > 1000:
+                log.error(f'{num_files} in one commit in {owner} {repo}')
+                continue
             for file_path in commit['file_list']:
                 file_entry = commit['file_list'][file_path]
                 if file_path in raw_dataset:
