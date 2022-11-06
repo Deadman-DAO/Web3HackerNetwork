@@ -53,7 +53,7 @@ class RepoFileIngester(Ingester):
                  bucket='deadmandao',
                  raw_path='web3hackernetwork/data_pipeline/raw'):
         super().__init__(aws_profile, bucket, raw_path, 'repo_file')
-        self.log = logger(__self__)
+        self.log = logger(__file__)
 
     # ----------------------------------------------------
     # Instance API
