@@ -33,16 +33,8 @@ def add_int_key_value_submap_to_map(map, root_key, sub_key, value, init_value=0)
         map[root_key][sub_key] = init_value
     map[root_key][sub_key] += value
 
-define_abort_method = None
-def abort_method():
-    if define_abort_method:
-        define_abort_method()
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
-    def init(self):
-        global define_abort_method
-        define_abort_method = self.interrupt
-
     def __init__(self, **kwargs):
         DBDrivenTaskProcessor.__init__(self, **kwargs)
         self.expire_time = None
