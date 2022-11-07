@@ -51,7 +51,7 @@ class RepoFileIngester(Ingester):
     def __init__(self,
                  aws_profile='w3hn-admin',
                  bucket='deadmandao',
-                 raw_path='web3hackernetwork/data_pipeline_v2/raw'):
+                 raw_path='web3hackernetwork/data_pipeline/raw'):
         super().__init__(aws_profile, bucket, raw_path, 'repo_file')
         self.log = logger(__file__)
 
@@ -67,7 +67,6 @@ class RepoFileIngester(Ingester):
 
         raw_dataset = dict()
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
-        synthetic_key = f'pk_{synthetic_key}'
         for commit in numstat:
             commit_date = dateutil.parser.isoparse(commit['Date'])
             num_files = len(commit['file_list'])
