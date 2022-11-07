@@ -9,7 +9,7 @@ from threading import Lock
 from time import time
 from concurrent.futures import ThreadPoolExecutor
 from lib.db_driven_task import DBDrivenTaskProcessor, DBTask
-from lib.monitor import timeit, timeit_with_timeout
+from lib.monitor import timeit
 from lib.blame_game import BlameGameRetriever
 from w3hn.dependency.golang import GoDependencyAnalyzer
 from w3hn.dependency.scala import ScalaDependencyAnalyzer
