@@ -35,6 +35,9 @@ def add_int_key_value_submap_to_map(map, root_key, sub_key, value, init_value=0)
 
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
+    def init(self):
+        pass
+
     def __init__(self, **kwargs):
         DBDrivenTaskProcessor.__init__(self, **kwargs)
         self.expire_time = None
