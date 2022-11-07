@@ -6,16 +6,16 @@ import io
 import os
 import traceback
 from threading import Lock
+from time import time
 from concurrent.futures import ThreadPoolExecutor
 from lib.db_driven_task import DBDrivenTaskProcessor, DBTask
-from lib.monitor import timeit
+from lib.monitor import timeit, timeit_with_timeout
 from lib.blame_game import BlameGameRetriever
 from w3hn.dependency.golang import GoDependencyAnalyzer
 from w3hn.dependency.scala import ScalaDependencyAnalyzer
 from w3hn.dependency.java import JavaDependencyAnalyzer
 from w3hn.dependency.python import PythonDependencyAnalyzer
 from w3hn.dependency.javascript import JavascriptDependencyAnalyzer
-
 
 
 def add_int_to_map(map, key, value):
@@ -33,13 +33,19 @@ def add_int_key_value_submap_to_map(map, root_key, sub_key, value, init_value=0)
         map[root_key][sub_key] = init_value
     map[root_key][sub_key] += value
 
+define_abort_method = None
+def abort_method():
+    if define_abort_method:
+        define_abort_method()
 
 class RepoAnalyzer(DBDrivenTaskProcessor):
     def init(self):
-        pass
+        global define_abort_method
+        define_abort_method = self.interrupt
 
     def __init__(self, **kwargs):
         DBDrivenTaskProcessor.__init__(self, **kwargs)
+        self.expire_time = None
         self.repo_dependency_map = None
         self.hacker_name_to_md5_map = None
         self.commit_to_hacker_map = None
@@ -150,6 +156,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 self.hacker_file_map[author_md5] = {}
                 self.hacker_name_to_md5_map[author] = author_md5
             self.commit_to_hacker_map[commit_id] = author_md5
+
     @timeit
     def prepare_sql_params(self):
         self.stats_json = {'hacker_name_map': self.hacker_name_map}
@@ -157,6 +164,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
     @timeit
     def process_task(self):
+        self.success = False
+        self.expire_time = time() + (60 * 30)
         try:
             if os.path.exists(self.numstat_dir):
                 with open(self.numstat_dir, 'rb') as r:
@@ -179,10 +188,13 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             self.repo_dependency_map = {}
             future_blame_result_map = {}
             future_dependency_result_map = {}
-            if os.path.exists(self.repo_dir):
+            if os.path.exists(self.repo_dir) and not self.expire_time < time():
                 with ThreadPoolExecutor(max_workers=self.max_threads, thread_name_prefix="CHILDOF_repoAnalyzerThread_") as exec:
                     for subdir, dirs, files in os.walk(self.repo_dir):
                         for file in files:
+                            if self.expire_time > time():
+                                print('Repo Analyzer process interrupted, terminating thread pool')
+                                return
                             filename = os.path.join(subdir, file)
                             relative_file_name = filename[len(self.repo_dir)+1:].replace(os.sep, '/')
                             extension = os.path.splitext(filename)[1].lower()
@@ -207,9 +219,13 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                                         traceback.print_exc()
                                         print('Error encountered calling dependency-discovery method: ', filename, str(dep))
                     for relative_file_name in future_blame_result_map.keys():
+                        if self.expire_time > time():
+                            print('Repo Analyzer process interrupted, terminating thread pool')
+                            return
                         repo_blame_map[relative_file_name] = future_blame_result_map[relative_file_name].result()
                         self.repo_dependency_map[relative_file_name] = \
                             future_dependency_result_map[relative_file_name].result()
+                    self.success = True
                 try:
                     # first try and write the blame map to S3
                     if len(repo_blame_map) > 0:
@@ -218,6 +234,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                         key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/blame_map.json.bz2'
                         self.bucket.upload_fileobj(io.BytesIO(blame_map_zip), key)
                 except Exception as e:
+                    self.success = False
                     print('Error encountered calling S3.Bucket.upload_file for blame map: ', self.repo_dir, e)
 
                 try:
@@ -228,6 +245,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                         key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/dependency_map.json.bz2'
                         self.bucket.upload_fileobj(io.BytesIO(dependency_map_zip), key)
                 except Exception as e:
+                    self.success = False
                     print('Error encountered calling S3.Bucket.upload_file for dependency map: ', self.repo_dir, e)
 
                 # Now build the parameters for the SQL call
@@ -237,6 +255,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
         except Exception as e:
             print(e)
+            self.success = False
 
 
 if __name__ == "__main__":
