@@ -51,7 +51,7 @@ class RepoFileIngester(Ingester):
     def __init__(self,
                  aws_profile='w3hn-admin',
                  bucket='deadmandao',
-                 raw_path='web3hackernetwork/data_pipeline/raw'):
+                 raw_path='web3hackernetwork/data_pipeline_v2/raw'):
         super().__init__(aws_profile, bucket, raw_path, 'repo_file')
         self.log = logger(__file__)
 
@@ -67,6 +67,7 @@ class RepoFileIngester(Ingester):
 
         raw_dataset = dict()
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
+        synthetic_key = f'pk_{synthetic_key}'
         for commit in numstat:
             commit_date = dateutil.parser.isoparse(commit['Date'])
             num_files = len(commit['file_list'])
@@ -138,68 +139,3 @@ class RepoFileIngester(Ingester):
         inferred_table = pa.Table.from_batches([batch])
         explicit_table = inferred_table.cast(RepoFileIngester.EXPLICIT_SCHEMA)
         return explicit_table
-
-    # def load_existing_for_batch(self, partition_key, owner_repos):
-    #     partition_path = f'{self.dataset_path}/partition_key={partition_key}'
-    #     if self.s3_util.path_exists(partition_path):
-    #         print(f'repo/file found existing dataset {partition_path}')
-    #         bucket_path = f'{self.bucket}/{partition_path}'
-    #         s3fs = self.s3_util.pyarrow_fs()
-    #         owner_repo_filter = ('owner_repo', 'not in', owner_repos)
-    #         filters = [owner_repo_filter]
-    #         legacy_dataset = pq.ParquetDataset(bucket_path,
-    #                                            filesystem=s3fs,
-    #                                            partitioning="hive",
-    #                                            filters=filters)
-    #         print(str(datetime.datetime.now()))
-    #         print(f'repo/file about to read parquet')
-    #         table = legacy_dataset.read()
-    #         numrows = table.num_rows
-    #         print(f'repo/file old table has {numrows} rows after filter')
-    #         if numrows == 0: return None
-    #         column = [partition_key for i in range(numrows)]
-    #         key_field = RepoFileIngester.PARTITION_KEY_FIELD
-    #         table = table.add_column(table.num_columns, key_field, [column])
-    #         return table
-    #     else:
-    #         return None
-
-    # def merge_batch(self, partition_key, new_table_tuples):
-    #     # tuple shape = (owner, repo_name, new_table)
-    #     owner_repos = list()
-    #     tables = list()
-    #     for new_table_tuple in new_table_tuples:
-    #         owner_repo = f'{new_table_tuple[0]}\t{new_table_tuple[1]}'
-    #         owner_repos.append(owner_repo)
-    #         new_table = new_table_tuple[2]
-    #         tables.append(new_table)
-    #         print(f'repo_file new table rows: {new_table.num_rows}')
-    #     live_table = self.load_existing_for_batch(partition_key, owner_repos)
-    #     if live_table != None:
-    #         tables.append(live_table)
-    #         print(f'repo_file old table rows: {live_table.num_rows}')
-    #     merged_table = pa.concat_tables(tables, promote=False)
-    #     print(f'repo_file merged table rows: {merged_table.num_rows}')
-    #     return merged_table
-
-    # def write_parquet(self, owner, repo_name, table):
-    #     # print(table.to_pandas())
-    #     # return
-    #     s3fs = self.s3_util.pyarrow_fs()
-    #     bucket_path = f'{self.bucket}/{self.dataset_path}'
-    #     partition_key = pq_util.repo_partition_key(owner, repo_name)
-    #     partition_path = f'{self.dataset_path}/partition_key={partition_key}'
-    #     if self.s3_util.path_exists(partition_path):
-    #         print(f'repo/file deleting {self.bucket}/{partition_path}')
-    #         s3fs.delete_dir(f'{self.bucket}/{partition_path}')
-    #     else:
-    #         print(f'repo/file no delete at {self.bucket}/{partition_path}')
-    #     print(f'repo/file writing {self.bucket}/{partition_path}')
-    #     table.sort_by([('owner', 'ascending'),
-    #                    ('repo_name', 'ascending'),
-    #                    ('file_path', 'ascending')])
-    #     pq.write_to_dataset(table,
-    #                         root_path=bucket_path,
-    #                         partition_cols=['partition_key'],
-    #                         filesystem=s3fs)
-    #     print('repo/file write complete')
