@@ -5,55 +5,9 @@ import re
 
 import w3hn.hadoop.parquet_util as pq_util
 from w3hn.aws.aws_util import S3Util
-
+from w3hn.data.bible import asv_constants
 from w3hn.log.log_init import logger
 log = logger(__file__)
-
-OT = ['Genesis', 'Exodus', 'Leviticus', 'Numbers',
-      'Deuteronomy', 'Joshua', 'Judges', 'Ruth', '1 Samuel',
-      '2 Samuel', '1 Kings', '2 Kings', '1 Chronicles',
-      '2 Chronicles', 'Ezra', 'Nehemiah', 'Esther', 'Job',
-      'Psalm', 'Proverbs', 'Ecclesiastes', 'Song of Solomon',
-      'Isaiah', 'Jeremiah', 'Lamentations', 'Ezekiel',
-      'Daniel', 'Hosea', 'Joel', 'Amos', 'Obadiah', 'Jonah',
-      'Micah', 'Nahum', 'Habakkuk', 'Zephaniah', 'Haggai',
-      'Zechariah', 'Malachi']
-
-NT = ['Matthew', 'Mark', 'Luke', 'John', 'Acts', 'Romans',
-      '1 Corinthians', '2 Corinthians', 'Galatians',
-      'Ephesians', 'Philippians', 'Colossians',
-      '1 Thessalonians', '2 Thessalonians', '1 Timothy',
-      '2 Timothy', 'Titus', 'Philemon', 'Hebrews', 'James',
-      '1 Peter', '2 Peter', '1 John', '2 John', '3 John',
-      'Jude', 'Revelation']
-
-SUBCATEGORIES = {
-    'moses school': ['Genesis', 'Exodus', 'Leviticus',
-                     'Numbers', 'Deuteronomy'],
-    'history': ['Joshua', 'Judges', 'Ruth', '1 Samuel',
-                '2 Samuel', '1 Kings', '2 Kings',
-                '1 Chronicles', '2 Chronicles', 'Ezra',
-                'Nehemiah', 'Esther', 'Job'],
-    'wisdom literature': ['Psalm', 'Proverbs',
-                          'Ecclesiastes', 'Song of Solomon'],
-    'major prophets': ['Isaiah', 'Jeremiah', 'Lamentations',
-                       'Ezekiel', 'Daniel'],
-    'minor prophets': ['Hosea', 'Joel', 'Amos', 'Obadiah',
-                       'Jonah', 'Micah', 'Nahum', 'Habakkuk',
-                       'Zephaniah', 'Haggai', 'Zechariah',
-                       'Malachi'],
-    'gospel': ['Matthew', 'Mark', 'Luke', 'John'],
-    'after ascension': ['Acts'],
-    'letters': [
-        'Romans', '1 Corinthians', '2 Corinthians', 'Galatians',
-        'Ephesians', 'Philippians', 'Colossians',
-        '1 Thessalonians', '2 Thessalonians', '1 Timothy',
-        '2 Timothy', 'Titus', 'Philemon', 'Hebrews', 'James',
-        '1 Peter', '2 Peter', '1 John', '2 John', '3 John',
-        'Jude'
-    ],
-    'apocalyptic literature': ['Revelation']
-}
 
 COLUMN_NAMES = ['religion', 'tome', 'version', 'category',
                 'subcategory', 'book', 'chapter', 'verse', 'text']
@@ -88,19 +42,23 @@ with bz2.open(asv_bzip_path, 'rt') as asv_in:
             text = parts[1]
             parts = re.findall('^(.*) ([0-9]*):([0-9]*)$', book_ch_verse)
             book = parts[0][0]
-            if book in OT:
-                testament = 'old testament'
+            if book == 'Psalm': book = 'Psalms'
+            if book in asv_constants.OT:
+                category = 'old testament'
+            elif book in asv_constants.NT:
+                category = 'new testament'
             else:
-                testament = 'new testament'
+                category = 'unknown'
             chapter = parts[0][1]
             verse = parts[0][2]
             # print(f'{book}\t{chapter}\t{verse}\t{text}')
             religions.append('protestant')
             tomes.append('bible')
             versions.append('asv')
-            categories.append(testament)
+            categories.append(category)
             book_subcategory = 'unknown'
-            for subcategory, member_books in SUBCATEGORIES.items():
+            subcat_book_map = asv_constants.SUBCATEGORY_BOOK_MAP
+            for subcategory, member_books in subcat_book_map.items():
                 if book in member_books:
                     # print(f'{book} = {subcategory}: {member_books}')
                     book_subcategory = subcategory
@@ -143,3 +101,4 @@ pq.write_to_dataset(table,
                     # partition_cols=['partition_key'],
                     filesystem=s3fs)
 log.info(f'write complete')
+
