@@ -87,10 +87,10 @@ class Ingester(ABC):
                                                filesystem=s3fs,
                                                partitioning="hive",
                                                filters=filters)
-            self.log.info(f'{__file__}: about to read parquet')
+            self.log.info(f'about to read parquet')
             table = legacy_dataset.read()
             numrows = table.num_rows
-            self.log.info(f'{__file__}: old table retained {numrows} rows')
+            self.log.info(f'old table retained {numrows} rows')
             if numrows == 0: return None
             column = [partition_key for i in range(numrows)]
             key_field = Ingester.PARTITION_KEY_FIELD
@@ -109,13 +109,13 @@ class Ingester(ABC):
             owner_repos.append(owner_repo)
             new_table = new_table_tuple[2]
             tables.append(new_table)
-            self.log.debug(f'{__file__}: new table rows: {new_table.num_rows}')
+            self.log.debug(f'new table rows: {new_table.num_rows}')
         live_table = self.load_existing_for_batch(partition_key, owner_repos)
         if live_table != None:
             tables.append(live_table)
-            self.log.debug(f'{__file__}: old table rows: {live_table.num_rows}')
+            self.log.debug(f'old table rows: {live_table.num_rows}')
         merged_table = pa.concat_tables(tables, promote=False)
-        self.log.debug(f'{__file__}: merged table rows: {merged_table.num_rows}')
+        self.log.debug(f'merged table rows: {merged_table.num_rows}')
         return merged_table
 
     # this is common across ingesters which include "file_path" as the
@@ -127,18 +127,18 @@ class Ingester(ABC):
         bucket_path = f'{self.bucket}/{self.dataset_path}'
         partition_key = pq_util.repo_partition_key(owner, repo_name)
         partition_path = f'{self.dataset_path}/partition_key={partition_key}'
-        self.log.debug(f'{__file__}: sorting')
+        self.log.debug(f'sorting')
         table.sort_by([('owner', 'ascending'),
                        ('repo_name', 'ascending'),
                        ('file_path', 'ascending')])
-        self.log.info(f'{__file__}: writing {self.bucket}/{partition_path}')
+        self.log.info(f'writing {self.bucket}/{partition_path}')
         if self.s3_util.path_exists(partition_path):
-            self.log.info(f'{__file__}: deleting {self.bucket}/{partition_path}')
+            self.log.info(f'deleting {self.bucket}/{partition_path}')
             s3fs.delete_dir(f'{self.bucket}/{partition_path}')
         else:
-            self.log.info(f'{__file__}: no delete at {self.bucket}/{partition_path}')
+            self.log.info(f'no delete at {self.bucket}/{partition_path}')
         pq.write_to_dataset(table,
                             root_path=bucket_path,
                             partition_cols=['partition_key'],
                             filesystem=s3fs)
-        self.log.info(f'{__file__}: write complete')
+        self.log.info(f'write complete')
