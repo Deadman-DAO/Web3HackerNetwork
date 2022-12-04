@@ -39,9 +39,7 @@ def read_parquet_table(profile, bucket, path):
 
 def index(request):
     pipeline_path = 'web3hackernetwork/data_pipeline'
-    dataset_path = f'{pipeline_path}/athena/targetable_hackers/20221129_052341_00041_9bdqq_998d7f1d-e656-47d1-bab5-7ea0acafeaa4'
     dataset_path = f'{pipeline_path}/web_data/repo_hacker/'
-    dataset_path = 'web3hackernetwork/data_pipeline/web_data/repo_hacker/'
     repo_hacker = read_parquet_table('w3hn-at-risk', 'deadmandao-at-risk', dataset_path)
     conn = duckdb.connect()
     sql = """
@@ -59,9 +57,9 @@ def index(request):
     owner_repos = '\n'.join(owner_repos)
     page = f"""
         <html>
-          <head><title>I'll be your commander.</title></head>
+          <head><title>Hacker Repositories</title></head>
           <body>
-            <h1>Hello, World!</h1>
+            Following are the repos for email hash fe8f9fd45b86a8756b6ed233d6f13d9a.
             <ul>
               {owner_repos}
             </ul>
