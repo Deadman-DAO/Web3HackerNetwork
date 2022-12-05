@@ -132,6 +132,12 @@ class Monitor:
         global monitored_thread_map
         monitored_thread_map[ct_name] = MonitoredThread()
 
+    def add_display_item(self, **kwargs):
+        ct_name = current_thread().name
+        ct_kwargs = self.process_map[ct_name] if ct_name in self.process_map else None
+        if ct_kwargs:
+            ct_kwargs.update(kwargs)
+
     def add_display_methods(self, **kwargs):
         ct_name = current_thread().name
         ct_kwargs = self.process_map[ct_name] if ct_name in self.process_map else None
@@ -218,5 +224,8 @@ class MultiprocessMonitor:
     def __init__(self, **kwargs):
         log.info('MultiprocessMonitor().__init__')
         self.single = get_singleton(**kwargs)
+
+    def add_display_item(self, **kwargs):
+        self.single.add_display_item(**kwargs)
 
 
