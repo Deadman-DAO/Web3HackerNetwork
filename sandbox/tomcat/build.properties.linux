@@ -1,0 +1,7 @@
+jdk.home=/opt/jdk
+tomcat.home=/opt/tomcat
+tomcat.bin=${tomcat.home}/bin
+wildfly.home=/opt/wildfly
+wildfly.bin=${wildfly.home}/bin
+start.domain=${wildfly.bin}/standalone.bat
+sleepy.time=1

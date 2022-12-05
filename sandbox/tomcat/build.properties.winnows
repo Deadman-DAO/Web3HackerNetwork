@@ -1,0 +1,7 @@
+jdk.home=m\:/Java/jdk-11.0.16.1
+tomcat.home=m\:/Java/apache-tomcat-10.1.2
+tomcat.bin=${tomcat.home}/bin
+wildfly.home=m\:/Java/wildfly-8.1.0.Final
+wildfly.bin=${wildfly.home}/bin
+start.domain=${wildfly.bin}/standalone.bat
+sleepy.time=1

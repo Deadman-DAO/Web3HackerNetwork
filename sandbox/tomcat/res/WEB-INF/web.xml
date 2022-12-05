@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <context-param>
+        <param-name>javax.faces.PROJECT_STAGE</param-name>
+        <param-value>Development</param-value>
+    </context-param>
+<!--    <context-param>-->
+<!--        <param-name>resteasy.providers</param-name>-->
+<!--        <param-value>paragon.services.agvc.IncomingFilter</param-value>-->
+<!--    </context-param>-->
+    <servlet>
+        <servlet-name>Faces Servlet</servlet-name>
+        <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>Initializer</servlet-name>
+        <servlet-class>deadmandao.services.Initializer</servlet-class>
+        <load-on-startup>100000</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Faces Servlet</servlet-name>
+        <url-pattern>*.xhtml</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+        <cookie-config>
+            <http-only>true</http-only>
+            <secure>true</secure>
+        </cookie-config>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>/index.html</welcome-file>
+    </welcome-file-list>
+    <security-constraint>
+        <display-name>protected</display-name>
+        <web-resource-collection>
+            <description/>
+            <url-pattern>/protected/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <description/>
+            <role-name>Executive</role-name>
+            <role-name>Developer</role-name>
+            <role-name>Operator</role-name>
+            <role-name>Monitor</role-name>
+            <role-name>Inventory</role-name>
+            <role-name>Picking</role-name>
+            <role-name>Receiving</role-name>
+        </auth-constraint>
+        <user-data-constraint>
+            <transport-guarantee>NONE</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
+    <login-config>
+        <auth-method>FORM</auth-method>
+        <realm-name>jdbcDomain</realm-name>
+        <form-login-config>
+            <form-login-page>/login.html</form-login-page>
+            <form-error-page>/error.html</form-error-page>
+        </form-login-config>
+    </login-config>
+    <security-role>
+        <description/>
+        <role-name>Developer</role-name>
+    </security-role>
+    <error-page>
+        <error-code>403</error-code>
+        <location>/sorry.xhtml</location>
+    </error-page>
+</web-app>

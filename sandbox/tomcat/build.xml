@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="w3hn" default="build">
+
+    <property file="build.properties"/>
+    <property name="dist" value="${user.dir}/dist"/>
+    <property name="deploy" value="${user.dir}/deploy"/>
+    <!-- Uncomment the following property if no tests compilation is needed -->
+    <!--
+    <property name="skip.tests" value="true"/>
+     -->
+
+    <!-- Compiler options -->
+
+    <property name="compiler.debug" value="on"/>
+    <property name="compiler.generate.no.warnings" value="off"/>
+    <property name="compiler.args" value=""/>
+    <property name="compiler.max.memory" value="700m"/>
+    <patternset id="ignored.files">
+        <exclude name="**/*.hprof/**"/>
+        <exclude name="**/*.pyc/**"/>
+        <exclude name="**/*.pyo/**"/>
+        <exclude name="**/*.rbc/**"/>
+        <exclude name="**/*~/**"/>
+        <exclude name="**/.DS_Store/**"/>
+        <exclude name="**/.bundle/**"/>
+        <exclude name="**/.git/**"/>
+        <exclude name="**/.hg/**"/>
+        <exclude name="**/.svn/**"/>
+        <exclude name="**/CVS/**"/>
+        <exclude name="**/RCS/**"/>
+        <exclude name="**/SCCS/**"/>
+        <exclude name="**/__pycache__/**"/>
+        <exclude name="**/_svn/**"/>
+        <exclude name="**/rcs/**"/>
+        <exclude name="**/vssver.scc/**"/>
+        <exclude name="**/vssver2.scc/**"/>
+    </patternset>
+    <patternset id="library.patterns">
+        <include name="*.zip"/>
+        <include name="*.apk"/>
+        <include name="*.war"/>
+        <include name="*.egg"/>
+        <include name="*.ear"/>
+        <include name="*.ane"/>
+        <include name="*.swc"/>
+        <include name="*.jar"/>
+    </patternset>
+    <patternset id="compiler.resources">
+        <exclude name="**/?*.java"/>
+        <exclude name="**/?*.form"/>
+        <exclude name="**/?*.class"/>
+        <exclude name="**/?*.groovy"/>
+        <exclude name="**/?*.scala"/>
+        <exclude name="**/?*.flex"/>
+        <exclude name="**/?*.kt"/>
+        <exclude name="**/?*.clj"/>
+        <exclude name="**/?*.aj"/>
+    </patternset>
+
+    <property name="jdk.bin" value="${jdk.home}/bin"/>
+    <path id="jdk.classpath">
+        <fileset dir="${jdk.home}">
+            <include name="jre/lib/charsets.jar"/>
+            <include name="jre/lib/deploy.jar"/>
+            <include name="jre/lib/javaws.jar"/>
+            <include name="jre/lib/jce.jar"/>
+            <include name="jre/lib/jfr.jar"/>
+            <include name="jre/lib/jfxrt.jar"/>
+            <include name="jre/lib/jsse.jar"/>
+            <include name="jre/lib/management-agent.jar"/>
+            <include name="jre/lib/plugin.jar"/>
+            <include name="jre/lib/resources.jar"/>
+            <include name="jre/lib/rt.jar"/>
+            <include name="jre/lib/ext/access-bridge-64.jar"/>
+            <include name="jre/lib/ext/dnsns.jar"/>
+            <include name="jre/lib/ext/jaccess.jar"/>
+            <include name="jre/lib/ext/localedata.jar"/>
+            <include name="jre/lib/ext/sunec.jar"/>
+            <include name="jre/lib/ext/sunjce_provider.jar"/>
+            <include name="jre/lib/ext/sunmscapi.jar"/>
+            <include name="jre/lib/ext/zipfs.jar"/>
+        </fileset>
+    </path>
+
+    <property name="project.jdk.home" value="${jdk.home}"/>
+    <property name="project.jdk.bin" value="${jdk.bin}"/>
+    <property name="project.jdk.classpath" value="jdk.classpath"/>
+
+
+    <!-- Project Libraries -->
+
+    <path id="library.lib.classpath">
+        <fileset dir="${basedir}/lib">
+            <patternset refid="library.patterns"/>
+        </fileset>
+    </path>
+
+    <!-- Modules -->
+
+
+
+
+
+
+    <!-- Module w3hn -->
+
+    <dirname property="module.w3hn.basedir" file="${ant.file}"/>
+
+
+    <property name="module.jdk.home.w3hn" value="${project.jdk.home}"/>
+    <property name="module.jdk.bin.w3hn" value="${project.jdk.bin}"/>
+    <property name="module.jdk.classpath.w3hn" value="${project.jdk.classpath}"/>
+
+    <property name="compiler.args.w3hn" value="-encoding windows-1252 ${compiler.args}"/>
+
+    <property name="w3hn.output.dir" value="${module.w3hn.basedir}/obj"/>
+    <property name="w3hn.testoutput.dir" value="${module.w3hn.basedir}/obj"/>
+    <property name="html.dir" value="${module.w3hn.basedir}/html"/>
+    <property name="webapp.dir" value="${module.w3hn.basedir}/webapp"/>
+    <property name="webinf.dir" value="${module.w3hn.basedir}/res/WEB-INF"/>
+
+    <path id="w3hn.module.bootclasspath">
+        <!-- Paths to be included in compilation bootclasspath -->
+    </path>
+
+    <path id="w3hn.module.production.classpath">
+        <path refid="${module.jdk.classpath.w3hn}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+    <path id="w3hn.runtime.production.module.classpath">
+        <pathelement location="${w3hn.output.dir}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+    <path id="w3hn.module.classpath">
+        <path refid="${module.jdk.classpath.w3hn}"/>
+        <pathelement location="${w3hn.output.dir}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+    <path id="w3hn.runtime.module.classpath">
+        <pathelement location="${w3hn.testoutput.dir}"/>
+        <pathelement location="${w3hn.output.dir}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+
+    <patternset id="excluded.from.module.w3hn">
+        <patternset refid="ignored.files"/>
+    </patternset>
+
+    <patternset id="excluded.from.compilation.w3hn">
+        <patternset refid="excluded.from.module.w3hn"/>
+    </patternset>
+
+    <path id="w3hn.module.sourcepath">
+        <dirset dir="${module.w3hn.basedir}">
+            <include name="src"/>
+        </dirset>
+    </path>
+
+    <macrodef name="jboss-cli">
+        <attribute name="command"/>
+        <sequential>
+            <java jar="${wildfly.home}/jboss-modules.jar" fork="true" failonerror="true">
+                <arg line="-mp ${wildfly.home}/modules org.jboss.as.cli" />
+                <arg value="--controller=${jboss.host}:${jboss.port}" />
+                <arg value="--connect" />
+                <arg value="@{command}"/>
+            </java>
+        </sequential>
+    </macrodef>
+
+
+    <target name="checkout">
+        <svn>
+            <checkout url="svn://10.69.42.222/w3hn" />
+        </svn>
+    </target>
+    <target name="jboss-deploy" description="Deploys dist/asrs.war">
+        <retry retrycount="3">
+            <jboss-cli command="deploy ./dist/asrs.war"/>
+        </retry>
+    </target>
+    <target name="jboss-undeploy" description="Undeploys WildFly">
+        <retry retrycount="3">
+            <jboss-cli command="undeploy asrs.war"/>
+        </retry>
+        <sleep seconds="${sleepy.time}"/>
+    </target>
+    <target name="stopWild" description="Stops Wildfly">
+        <retry retrycount="3">
+            <jboss-cli command="shutdown"/>
+        </retry>
+        <sleep seconds="${sleepy.time}"/>
+    </target>
+    <target name="startWild" description="Starts WildFly depending on start.domain.target">
+        <antcall target="${start.domain.target}"/>
+    </target>
+    <target name="startWildLocal" description="Starts WildFly Locally">
+        <exec executable="nohup" dir="${jboss.bin.dir}" spawn="true">
+            <arg value="${start.domain}"/>
+        </exec>
+        <sleep seconds="${sleepy.time}"/>
+    </target>
+    <target name="waitForWildToAutoStart" description="NoOp until system restarts service">
+        <sleep seconds="3"/>
+    </target>
+    <target name="buildAndDeploy" if="${necessary}">
+        <antcall target="storeRevisionNumber"/>
+        <!--    <antcall target="clean"/>-->
+        <antcall target="jar"/>
+        <antcall target="war"/>
+        <antcall target="jboss-undeploy"/>
+        <antcall target="stopWild"/>
+        <antcall target="startWild"/>
+        <antcall target="jboss-deploy"/>
+    </target>
+    <target name="cleanBuildAndDeploy" if="${necessary}">
+        <antcall target="storeRevisionNumber"/>
+        <antcall target="clean"/>
+        <antcall target="jar"/>
+        <antcall target="war"/>
+        <antcall target="jboss-undeploy"/>
+        <antcall target="stopWild"/>
+        <antcall target="startWild"/>
+        <antcall target="jboss-deploy"/>
+    </target>
+    <target name="doItDirty">
+        <antcall target="jar"/>
+        <antcall target="war"/>
+        <antcall target="jboss-undeploy"/>
+        <antcall target="stopWild"/>
+        <antcall target="startWild"/>
+        <antcall target="jboss-deploy"/>
+    </target>
+    <target name="forceBuild" description="Builds and deploys even if changes aren't found.">
+        <condition property="necessary">
+            <equals arg1="69" arg2="69"/>
+        </condition>
+        <antcall target="buildAndDeploy"/>
+    </target>
+
+    <target name="returnZero">
+        <fail if="${necessary}"/>
+    </target>
+    <target name="returnNonZero">
+        <condition property="necessary">
+            <equals arg1="69" arg2="69"/>
+        </condition>
+        <fail if="${necessary}"/>
+    </target>
+
+    <target name="compile.module.w3hn" depends="compile.module.w3hn.production,compile.module.w3hn.tests" />
+
+    <target name="compile.module.w3hn.production" >
+        <mkdir dir="${w3hn.output.dir}"/>
+        <javac destdir="${w3hn.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.w3hn}/javac">
+            <compilerarg line="${compiler.args.w3hn}"/>
+            <bootclasspath refid="w3hn.module.bootclasspath"/>
+            <classpath refid="w3hn.module.production.classpath"/>
+            <src refid="w3hn.module.sourcepath"/>
+            <patternset refid="excluded.from.compilation.w3hn"/>
+        </javac>
+
+        <copy todir="${w3hn.output.dir}">
+            <fileset dir="${module.w3hn.basedir}/src">
+                <patternset refid="compiler.resources"/>
+                <type type="file"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="compile.module.w3hn.tests" depends="compile.module.w3hn.production" unless="skip.tests"/>
+
+    <target name="clean.module.w3hn" >
+        <delete dir="${w3hn.output.dir}"/>
+        <delete dir="${w3hn.testoutput.dir}"/>
+        <delete dir="${dist}"/>
+    </target>
+
+    <target name="init" description="Build initialization (delete app.jar)">
+        <!-- Perform any build initialization in this target -->
+        <delete file="${dist}/app.jar"/>
+    </target>
+
+
+    <target name="clean" depends="clean.module.w3hn" description="cleanup all"/>
+
+    <target name="build" depends="init, compile.module.w3hn" description="build all modules"/>
+
+    <target name="jar" depends="build" description="jar it up">
+        <jar destfile="${dist}/app.jar" basedir="${user.dir}/obj"/>
+        <copy file="dist/app.jar" todir="../../distributor"/>
+    </target>
+
+
+    <target name="war" depends="jar" description="create war">
+        <war destfile="${dist}/w3hn.war" webxml="${webinf.dir}/web.xml">
+            <!--<war destfile="${dist}/asrs.war" needxmlfile="false">-->
+            <fileset dir="${html.dir}"/>
+            <fileset dir="${webapp.dir}"/>
+            <lib dir="${basedir}/deploylib"/>
+            <classes dir="${w3hn.output.dir}"/>
+            <webinf file="${webinf.dir}/jboss-web.xml"/>
+        </war>
+    </target>
+
+</project>
