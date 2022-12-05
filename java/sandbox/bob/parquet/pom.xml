@@ -1,0 +1,93 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.deadmandao</groupId>
+  <artifactId>parquet</artifactId>
+  <packaging>jar</packaging>
+  <version>3.0</version>
+  <name>parquet</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- <dependency> -->
+    <!--   <groupId>se.michaelthelin.spotify</groupId> -->
+    <!--   <artifactId>spotify-web-api-java</artifactId> -->
+    <!--   <version>2.0.1</version> -->
+    <!-- </dependency> -->
+    <!-- <!-\- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -\-> -->
+    <!-- <dependency> -->
+    <!--   <groupId>org.mariadb.jdbc</groupId> -->
+    <!--   <artifactId>mariadb-java-client</artifactId> -->
+    <!--   <version>2.2.3</version> -->
+    <!-- </dependency> -->
+    <!-- <dependency> -->
+    <!--   <groupId>mysql</groupId> -->
+    <!--   <artifactId>mysql-connector-java</artifactId> -->
+    <!--   <version>6.0.6</version> -->
+    <!-- </dependency> -->
+    <!-- <dependency> -->
+    <!--   <groupId>org.apache.spark</groupId> -->
+    <!--   <artifactId>spark-mllib_2.11</artifactId> -->
+    <!--   <version>2.3.0</version> -->
+    <!-- </dependency> -->
+    <!-- <dependency> -->
+    <!--   <groupId>org.apache.spark</groupId> -->
+    <!--   <artifactId>spark-sql_2.11</artifactId> -->
+    <!--   <version>2.3.0</version> -->
+    <!-- </dependency> -->
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <artifactSet>
+                <excludes>
+                  <!-- <exclude>classworlds:classworlds</exclude> -->
+                  <exclude>junit:junit</exclude>
+                  <!-- <exclude>jmock:*</exclude> -->
+                  <!-- <exclude>*:xml-apis</exclude> -->
+                  <!-- <exclude>org.apache.maven:lib:tests</exclude> -->
+                  <!-- <exclude>log4j:log4j:jar:</exclude> -->
+                  <exclude>org.apache.spark:*</exclude>
+                </excludes>
+              </artifactSet>
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <filters>
+            <filter>
+              <artifact>*:*</artifact>
+              <excludes>
+                <exclude>META-INF/*.SF</exclude>
+                <exclude>META-INF/*.DSA</exclude>
+                <exclude>META-INF/*.RSA</exclude>
+              </excludes>
+            </filter>
+          </filters>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
