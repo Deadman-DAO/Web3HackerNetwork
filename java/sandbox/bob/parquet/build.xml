@@ -1,0 +1,177 @@
+<project name="parquet" default="clean.dist" basedir=".">
+
+  <property name="dist.dir"             value="dist"/>
+  <property name="classes.dir"          value="build/classes"/>
+  <property name="lib.dir"              value="lib"/>
+  <property name="src.dir"              value="src"/>
+
+  <property name="dist.doc.dir"         value="${dist.dir}/doc"/>
+  <property name="dist.lib.dir"         value="${dist.dir}/lib"/>
+
+  <property name="test.dir"             value="test"/>
+  <property name="test.lib.dir"         value="${test.dir}/lib"/>
+  <property name="test.src.dir"         value="${test.dir}/src"/>
+  <property name="test.classes.dir"     value="${test.dir}/classes"/>
+  <property name="dist.test.dir"        value="${dist.dir}/test"/>
+
+  <property name="main.class"           value="com.deadmandao.parquet.Demo"/>
+  <property name="jar.local.file"       value="parquet.jar"/>
+  <property name="test.jar.local.file"  value="test-parquet.jar"/>
+  <property name="jar.file"             value="${dist.lib.dir}/${jar.local.file}"/>
+  <property name="test.jar.file"        value="${dist.test.dir}/${test.jar.local.file}"/>
+
+  <path id="compile.path">
+    <fileset dir="${lib.dir}"/>
+  </path>
+
+  <path id="jar.path">
+    <fileset dir="${dist.lib.dir}" excludes="${jar.local.file}"/>
+  </path>
+
+  <path id="test.compile.path">
+    <fileset dir="${dist.lib.dir}"/>
+    <fileset dir="${dist.test.dir}"/>
+  </path>
+
+  <path id="test.path">
+    <fileset dir="${dist.lib.dir}"/>
+    <fileset dir="${dist.test.dir}"/>
+  </path>
+
+  <path id="test.jar.path">
+    <fileset dir="${dist.lib.dir}"/>
+    <fileset dir="${dist.test.dir}"
+             excludes="${test.jar.local.file}"/>
+  </path>
+
+  <target name="build" depends="jar"/>
+
+  <target name="clean">
+    <mkdir dir="${dist.dir}"/>
+    <mkdir dir="${classes.dir}"/>
+    <delete dir="${dist.dir}"/>
+    <delete dir="${classes.dir}"/>
+    <mkdir dir="${test.classes.dir}"/>
+    <delete dir="${test.classes.dir}"/>
+  </target>
+
+  <target name="compile">
+    <mkdir dir="${classes.dir}"/>
+    <javac
+        srcdir="${src.dir}"
+        destdir="${classes.dir}"
+        classpathref="compile.path"
+        includeantruntime="false"
+        debug="on"
+        source="1.8"
+        target="1.8">
+      <compilerarg value="-Xlint:unchecked"/>
+      <compilerarg value="-Xlint:deprecation"/>
+    </javac>
+  </target>
+
+  <target name="copy.jars">
+    <mkdir dir="${dist.lib.dir}"/>
+    <copy todir="${dist.lib.dir}">
+      <fileset dir="${lib.dir}"/>
+    </copy>
+    <copy todir="${dist.test.dir}">
+      <fileset dir="${test.lib.dir}"/>
+    </copy>
+  </target>
+
+  <target name="jar" depends="compile, copy.jars">
+    <mkdir dir="${dist.lib.dir}"/>
+    <dirname property="main.project.dir" file="${ant.file}"/>
+    <!-- <dirname property="main.project.dir" file="${build.dir}"/> -->
+    <!-- <copy toDir="${dist.dir}/sample-keys"> -->
+    <!--   <fileset  dir="${build.dir}/sample-keys"> -->
+    <!--     <exclude name="**/.svn/**"/> -->
+    <!--   </fileset> -->
+    <!-- </copy> -->
+    <!-- <copy toDir="${dist.dir}/bin"> -->
+    <!--   <fileset  dir="${build.dir}/bin"> -->
+    <!--     <exclude name="**/.svn/**"/> -->
+    <!--   </fileset> -->
+    <!-- </copy> -->
+    <!-- <chmod file="${dist.dir}/bin/*sh" perm="554"/> -->
+    <echo>main.project.dir: ${main.project.dir}</echo>
+    <pathconvert property="manifest.classpath" pathsep=" " dirsep="/">
+      <map from="${main.project.dir}${file.separator}dist${file.separator}lib${file.separator}" to=""/>
+      <path refid="jar.path"/>
+    </pathconvert>
+    <echo>Main Jar Manifest Classpath: ${manifest.classpath}</echo>
+    <jar jarfile="${jar.file}" update="true">
+      <fileset dir="${classes.dir}"/>
+      <!-- <fileset dir="${res.dir}"/> -->
+      <manifest>
+        <attribute name="Class-Path" value="${manifest.classpath}"/>
+        <attribute name="Main-Class" value="${main.class}"/>
+<!--         com.mypoints.emp.search.preprocess.cell.CellPliPreprocessor"/> -->
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="test.compile" depends="jar">
+    <mkdir dir="${test.classes.dir}"/>
+    <javac
+        srcdir="${test.src.dir}"
+        destdir="${test.classes.dir}"
+        classpathref="test.compile.path"
+        debug="on"
+        source="1.8"
+        target="1.8">
+      <compilerarg value="-Xlint:unchecked"/>
+    </javac>
+  </target>
+
+  <target name="test.jar" depends="jar, test.compile">
+    <mkdir dir="${dist.test.dir}"/>
+    <dirname property="main.project.dir" file="${ant.file}"/>
+    <pathconvert property="test.manifest.classpath" pathsep=" " dirsep="/">
+      <map from="${main.project.dir}${file.separator}dist" to=".."/>
+      <path refid="test.jar.path"/>
+    </pathconvert>
+    <echo>Test Jar Manifest Classpath: ${test.manifest.classpath}</echo>
+    <jar jarfile="${test.jar.file}" update="true">
+      <fileset dir="${test.classes.dir}"/>
+      <manifest>
+        <attribute name="Class-Path" value="${test.manifest.classpath}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="test" depends="jar, test.jar">
+    <junit      printSummary="off"
+                fork="true"
+                failureProperty="test.failed">
+      <classpath refid="test.path"/>
+      <formatter type="brief" useFile="false"/>
+      <batchtest>
+        <fileset dir="${test.src.dir}">
+          <include name="**/*Test*.java"/>
+        </fileset>
+      </batchtest>
+    </junit>
+    <ant    inheritAll="true"
+            target="exit.on.test.failed"
+            dir="."/>
+  </target>
+
+  <target name="exit.on.test.failed" if="test.failed">
+    <fail>JUnit Test Failure</fail>
+  </target>
+
+  <target name="clean.dist" depends="clean, jar, test" description="full clean dist build and test"/>
+
+  <target name="javadoc" description="generate javadocs">
+    <delete dir="${dist.doc.dir}" />
+    <mkdir dir="${dist.doc.dir}" />
+    <javadoc packagenames="com.deadmandao.parquet"
+             defaultexcludes="yes"
+             classpathref="test.path"
+             sourcepath="${src.dir}"
+             destdir="${dist.doc.dir}"/>
+  </target>
+
+</project>
