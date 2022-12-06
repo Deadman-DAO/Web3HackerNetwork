@@ -85,6 +85,12 @@
             font-weight: bold;
             text-align: center;
         }
+        .invisible {
+            display: none;
+        }
+        .visible {
+            display: block;
+        }
     </style>
     <meta charset="UTF-8">
     <title>DeadmanDAO presents Web3HackerNetwork</title>
@@ -104,6 +110,10 @@
             <input type="reset" value="Clear"/>
         </div>
     </form>
+    <div class="lefty">
+        <table id="beenthere" class="invisible">
+        </table>
+    </div>
     <div class="debug-modal" id="debugModal" onclick="hideDebug()">
         <div class="debug-modal-content">
             <div class="geewhiz" id="DebugLabel">DebugInfo</div>

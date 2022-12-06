@@ -28,6 +28,16 @@ function search_by_email() {
     let email_hash = hex_md5(email);
     debug('Searching for '+email);
     $.get('/api/searchByEmail/?email_hash='+email_hash, function (rslt) {
+        pastReposTable = $('#beenthere');
+        while (pastReposTable.rows.length > 1) {
+            pastReposTable.deleteRow(1);
+        }
+        pastReposTable.append('<thead><tr><th>Repo Owner</th><th>Repo Name</th></tr></thead>');
+        rslt.projects.forEach(function (project) {
+            let row = pastReposTable.append('<tr><td>'+project.owner+'</td><td>'+project.name+'</td></tr>');
+        });
+        pastReposTable.removeClass('hidden');
+        pastReposTable.addClass('visible');
         debug(rslt);
     });
 }
