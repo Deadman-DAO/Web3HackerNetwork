@@ -1,6 +1,11 @@
-var winLoad = false;
-var jqLoad = false;
-var pageLoadedFired = false;
+let winLoad = false;
+let jqLoad = false;
+let pageLoadedFired = false;
+let forge = require('forge');
+require('md');
+require('baseN');
+require('util');
+require('md5');
 
 function firePageLoaded() {
     if (winLoad && jqLoad && !pageLoadedFired) {
@@ -23,10 +28,13 @@ function jqLoaded() {
 }
 
 function search_by_email() {
-    var email = document.getElementById("email").value;
+    let email = document.getElementById("email").value;
+    let md = forge.md.md5.create();
+    md.update(email)
+    let email_hash = md.digest().toHex();
     debug('Searching for '+email);
-    $.post('/api/searchByEmail', {
-        email: email
+    $.post('/api/searchByEmail/', {
+        email_hash: email_hash
     }, function (rslt) {
         debug(rslt);
     });
