@@ -27,17 +27,17 @@ function populate_table(table_id, data_array, columns) {
     let tableBody = table.find('tbody');
     tableBody.empty();
     data_array.forEach(function (row_data) {
-        let link = $('<a></a>').attr('href', 'https://github.com/'+row_data.owner+'/'+row_data.repo_name);
         let row = $('<tr></tr>');
         row.addClass('row');
         columns.forEach(function (cell_name) {
             let cell_data = row_data[cell_name];
             let cell = $('<td></td>');
             cell.text(cell_data);
+            let link = $('<a></a>').attr('href', 'https://github.com/'+row_data.owner+'/'+row_data.repo_name);
+            cell.appendChild(link);
             row.append(cell);
         });
-        link.append(row);
-        tableBody.append(link);
+        tableBody.append(row);
     });
     table.removeClass('invisible');
     table.addClass('visible')
