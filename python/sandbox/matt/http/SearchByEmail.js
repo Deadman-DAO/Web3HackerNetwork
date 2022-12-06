@@ -28,7 +28,7 @@ function search_by_email() {
     let email_hash = hex_md5(email);
     debug('Searching for '+email);
     $.get('/api/searchByEmail/?email_hash='+email_hash, function (rslt) {
-        pastReposTable = $('#beenthere');
+        pastReposTable = $('#beenthere')[0]; /* deref the jquery container object with [0]*/
         while (pastReposTable.rows.length > 1) {
             pastReposTable.deleteRow(1);
         }
