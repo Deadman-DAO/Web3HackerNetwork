@@ -39,8 +39,8 @@ function populate_table(table_id, data_array) {
         let repo_name = row_data['repo_name'];
         let owner_cell = $('<td></td>');
         let repo_cell = $('<td></td>');
-        owner_cell.addAttributes({'onclick': 'goToGitHub("'+owner+'")'});
-        repo_cell.addAttributes({'onclick': 'goToGitHub("'+owner+'", "'+repo_name+'")'});
+        owner_cell.attr('onclick', 'goToGitHub("'+owner+'")');
+        repo_cell.attr('onclick', 'goToGitHub("'+owner+'", "'+repo_name+'")');
         owner_cell.text(owner);
         repo_cell.text(repo_name);
         row.append(owner_cell);
