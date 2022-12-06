@@ -7,7 +7,7 @@ import os
 import pyarrow.fs as pafs
 import pyarrow.parquet as papq
 
-# pip install pyarrow boto3 duckdb pandas # logging
+# pip install boto3 duckdb pyarrow pandas # logging
 
 def read_parquet_table(profile, bucket, path):
     cred_path = os.path.expanduser("~")+"/.aws/credentials"
@@ -20,6 +20,7 @@ def read_parquet_table(profile, bucket, path):
 
 def index(request):
     email_hash = request.GET.get("email_hash")
+    email_hash_type = type(email_hash)
     # pipeline_path = 'web3hackernetwork/data_pipeline'
     # dataset_path = f'{pipeline_path}/athena/targetable_hackers/20221129_052341_00041_9bdqq_998d7f1d-e656-47d1-bab5-7ea0acafeaa4'
     # targetable = read_parquet_table('w3hn-admin', 'deadmandao', dataset_path)
