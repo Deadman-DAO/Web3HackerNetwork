@@ -38,7 +38,7 @@ function search_by_email() {
             let col = row.appendChild(document.createElement('td'));
             col.appendChild(document.createTextNode(project.owner));
             col = row.appendChild(document.createElement('td'));
-            col.appendChild(document.createTextNode(project.name));
+            col.appendChild(document.createTextNode(project.repo_name));
         });
         pastReposTableJQ.removeClass('hidden');
         pastReposTableJQ.addClass('visible');
