@@ -98,17 +98,21 @@
             text-align: left;
             width: 50%;
         }
+        .green
         .bottom_border {
             border-bottom: 2px solid greenyellow;
         }
         .row {
-            border-bottom: 1px dotted darkorange;
+            border-bottom: 1px ridge dimgrey;
         }
         .center_text {
             text-align: center;
         }
         .pointy {
             cursor: pointer;
+        }
+        .bright_green {
+            color: greenyellow;
         }
     </style>
     <meta charset="UTF-8">
@@ -133,7 +137,7 @@
     <div>
         <table id="beenthere" class="invisible lefty" data-header-count="2">
             <thead class="darkolivegreen">
-            <tr><th colspan="2" class="center_text red">GitHub Repositories Contributed To</tr>
+            <tr><th colspan="2" class="center_text bright_green">GitHub Repositories Contributed To</tr>
                 <tr class="bottom_border"><th>Repo Owner</th><th>Repo Name</th></tr>
             </thead>
             <tbody id="beentherebody"></tbody>
