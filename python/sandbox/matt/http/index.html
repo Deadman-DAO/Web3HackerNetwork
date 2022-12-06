@@ -117,8 +117,11 @@
         </div>
     </form>
     <div>
-        <table id="beenthere" class="invisible lefty">
-            <thead class="darkolivegreen"><tr><th>Repo Owner</th><th>Repo Name</th></tr></thead>
+        <table id="beenthere" class="invisible lefty" data-header-count="2">
+            <thead class="darkolivegreen">
+                <tr><th colspan 2>Repositories Contributed To</tr>
+                <tr><th>Repo Owner</th><th>Repo Name</th></tr>
+            </thead>
         </table>
     </div>
     <div class="debug-modal" id="debugModal" onclick="hideDebug()">
