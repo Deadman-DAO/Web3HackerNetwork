@@ -27,9 +27,7 @@ function search_by_email() {
     let email = document.getElementById("email").value;
     let email_hash = hex_md5(email);
     debug('Searching for '+email);
-    $.post('/api/searchByEmail/', {
-        email_hash: email_hash
-    }, function (rslt) {
+    $.get('/api/searchByEmail/?email_hash='+email_hash, function (rslt) {
         debug(rslt);
     });
 }
