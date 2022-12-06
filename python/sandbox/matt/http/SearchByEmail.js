@@ -34,7 +34,7 @@ function populate_table(table_id, data_array, columns) {
             let cell = $('<td></td>');
             cell.text(cell_data);
             let link = $('<a></a>').attr('href', 'https://github.com/'+row_data.owner+'/'+row_data.repo_name);
-            cell.appendChild(link);
+            cell.append(link);
             row.append(cell);
         });
         tableBody.append(row);
