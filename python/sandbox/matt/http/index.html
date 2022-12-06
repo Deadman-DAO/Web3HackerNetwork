@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .center {
+            text-align: center;
+            font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .darkolivegreen {
+            color: indianred;
+        }
+        .red {
+            color: darkolivegreen;
+        }
+        .medium {
+            font-size: 3em;
+            font-weight: bold;
+            line-height: 0.1;
+        }
+        .mild_bold {
+            font-size: 4em;
+            font-weight: bold;
+            line-height: 0.5;
+        }
+        .big_bold {
+            font-size: 5em;
+            font-weight: bold;
+        }
+        .black {
+            background-color: black;
+        }
+        .chocolate {
+            color: chocolate;
+        }
+        .white {
+            font-size: 1.5em;
+            color: wheat;
+            line-height: 1.0;
+            text-align: center;
+            font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .wider {
+
+        }
+        .debug-modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 7; /* Sit on top */
+            padding-top: 50px; /* Location of the box */
+            padding-left: 50px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+        }
+        .showDebug {
+            display: none;
+        }
+        .debug-modal-content {
+            background-color: rgba(255, 254, 60, 0.28);
+            margin: auto;
+            border: 1px solid black;
+            width: 515px;
+            height: 552px;
+            vertical-align: top;
+        }
+        .debug-div {
+            background-color: rgba(255, 255, 255, 0.65);
+            border: 5px solid #667d3f;
+            padding: 5px;
+            margin: auto;
+            height: 505px;
+            /*width: 45%;*/
+            /*height: 65%;*/
+        }
+        .geewhiz {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>DeadmanDAO presents Web3HackerNetwork</title>
+
+</head>
+<body class="black">
+    <div class="center">
+        <p class="darkolivegreen mild_bold" onclick="showDebug()">DeadmanDAO</p>
+        <p class="red medium">presents</p>
+        <p class="big_bold chocolate">Web3 Hacker Network</p>
+    </div>
+    <p class="medium white">Search by your email to see what you've been doing on GitHub<br/>(and might be doing in the future)</p>
+    <form action="search_by_email()">
+        <table class="center" role="presentation">
+            <tr>
+                <td>
+                    <input class="wider" type="text" name="email" id="email" placeholder="Enter your email here">
+                </td>
+            </tr>
+        </table>
+        <div class="center">
+            <input type="button" value="Search" id="clickMe" onclick="search_by_email()"/>
+            <input type="reset" value="Clear"/>
+        </div>
+    </form>
+    <div class="debug-modal" id="debugModal" onclick="hideDebug()">
+        <div class="debug-modal-content">
+            <div class="geewhiz" id="DebugLabel">DebugInfo</div>
+            <div class="debug-div">
+                <textarea cols="68" id="debugText" rows="33">Debug Text</textarea>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="jquery-ui.min.js" type="text/javascript"></script>
+    <script src="pageCommon.js" type="text/javascript"></script>
+    <script src="SearchByEmail.js" type="text/javascript"></script>
+</body>
+</html>
