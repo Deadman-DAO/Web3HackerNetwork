@@ -22,21 +22,29 @@ function jqLoaded() {
     debug("jQuery Loaded");
     firePageLoaded();
 }
-function populate_table(table_id, data_array, columns) {
+function goToGitHub(owner, repo_name) {
+    let url = 'https://github.com/'+owner+
+        ((repo_name != null && typeof(repo_name) !== 'undefined')  ? ('/'+repo_name) : '');
+    window.location.replace(url);
+}
+
+function populate_table(table_id, data_array) {
     let table = $(table_id);
     let tableBody = table.find('tbody');
     tableBody.empty();
     data_array.forEach(function (row_data) {
         let row = $('<tr></tr>');
         row.addClass('row');
-        columns.forEach(function (cell_name) {
-            let cell_data = row_data[cell_name];
-            let cell = $('<td></td>');
-            let link = $('<a></a>').attr('href', 'https://github.com/'+row_data.owner+'/'+row_data.repo_name);
-            link.text(cell_data);
-            cell.append(link);
-            row.append(cell);
-        });
+        let owner = row_data['owner'];
+        let repo_name = row_data['repo_name'];
+        let owner_cell = $('<td></td>');
+        let repo_cell = $('<td></td>');
+        owner_cell.addAttributes({'onclick': 'goToGitHub("'+owner+'")'});
+        repo_cell.addAttributes({'onclick': 'goToGitHub("'+owner+'", "'+repo_name+'")'});
+        owner_cell.text(owner);
+        repo_cell.text(repo_name);
+        row.append(owner_cell);
+        row.append(repo_cell)
         tableBody.append(row);
     });
     table.removeClass('invisible');
