@@ -92,10 +92,13 @@
             display: block;
         }
         .lefty {
-            border: 1px;
+            border: 1px solid greenyellow;
+            border-collapse: collapse;
             color: wheat;
-            border-color: forestgreen;
             text-align: left;
+        }
+        .center_text {
+            text-align: center;
         }
     </style>
     <meta charset="UTF-8">
@@ -119,7 +122,7 @@
     <div>
         <table id="beenthere" class="invisible lefty" data-header-count="2">
             <thead class="darkolivegreen">
-                <tr><th colspan="2">Repositories Contributed To</tr>
+                <tr><th colspan="2" class="center_text">Repositories Contributed To</tr>
                 <tr><th>Repo Owner</th><th>Repo Name</th></tr>
             </thead>
             <tbody id="beentherebody"></tbody>
