@@ -36,6 +36,8 @@ function populate_table(table_id, data_array, columns) {
         });
         tableBody.append(row);
     });
+    table.removeClass('invisible');
+    table.addClass('visible')
 }
 function search_by_email() {
     let email = document.getElementById("email").value;
