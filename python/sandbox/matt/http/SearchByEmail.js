@@ -1,12 +1,8 @@
 let winLoad = false;
 let jqLoad = false;
 let pageLoadedFired = false;
-let forge = require('forge');
-require('md');
-require('baseN');
-require('util');
-require('md5');
 
+debug('Loading SearchByEmail.js');
 function firePageLoaded() {
     if (winLoad && jqLoad && !pageLoadedFired) {
         debug("Both winLoad and jqLoad are set - Firing pageLoaded");
