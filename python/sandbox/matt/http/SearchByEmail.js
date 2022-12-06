@@ -32,8 +32,8 @@ function populate_table(table_id, data_array, columns) {
         columns.forEach(function (cell_name) {
             let cell_data = row_data[cell_name];
             let cell = $('<td></td>');
-            cell.text(cell_data);
             let link = $('<a></a>').attr('href', 'https://github.com/'+row_data.owner+'/'+row_data.repo_name);
+            link.text(cell_data);
             cell.append(link);
             row.append(cell);
         });
