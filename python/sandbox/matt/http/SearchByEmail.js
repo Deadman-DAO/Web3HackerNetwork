@@ -28,6 +28,7 @@ function populate_table(table_id, data_array, columns) {
     tableBody.empty();
     data_array.forEach(function (row_data) {
         let row = $('<tr></tr>');
+        row.addClass('row');
         columns.forEach(function (cell_name) {
             let cell_data = row_data[cell_name];
             let cell = $('<td></td>');
