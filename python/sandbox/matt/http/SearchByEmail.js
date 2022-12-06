@@ -22,13 +22,14 @@ function jqLoaded() {
     debug("jQuery Loaded");
     firePageLoaded();
 }
-function populate_table(table_id, data_array) {
+function populate_table(table_id, data_array, columns) {
     let table = $(table_id);
     let tableBody = table.find('tbody');
     tableBody.empty();
     data_array.forEach(function (row_data) {
         let row = $('<tr></tr>');
-        row_data.forEach(function (cell_data) {
+        columns.forEach(function (cell_name) {
+            let cell_data = row_data[cell_name];
             let cell = $('<td></td>');
             cell.text(cell_data);
             row.append(cell);
@@ -41,7 +42,7 @@ function search_by_email() {
     let email_hash = hex_md5(email);
     debug('Searching for '+email);
     $.get('/api/searchByEmail/?email_hash='+email_hash, function (rslt) {
-        populate_table('#beenthere', rslt.projects)
+        populate_table('#beenthere', rslt.projects, ['owner', 'repo_name'])
     });
 }
 
