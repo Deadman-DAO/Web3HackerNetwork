@@ -33,9 +33,12 @@ function search_by_email() {
         while (pastReposTable.rows.length > 1) {
             pastReposTable.deleteRow(1);
         }
-        pastReposTable.append('<thead><tr><th>Repo Owner</th><th>Repo Name</th></tr></thead>');
         rslt.projects.forEach(function (project) {
-            let row = pastReposTable.append('<tr><td>'+project.owner+'</td><td>'+project.name+'</td></tr>');
+            let row = pastReposTable.appendChild(document.createElement('tr'));
+            let col = row.appendChild(document.createElement('td'));
+            col.appendChild(document.createTextNode(project.owner));
+            col = row.appendChild(document.createElement('td'));
+            col.appendChild(document.createTextNode(project.name));
         });
         pastReposTableJQ.removeClass('hidden');
         pastReposTableJQ.addClass('visible');
