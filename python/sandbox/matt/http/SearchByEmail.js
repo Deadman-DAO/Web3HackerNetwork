@@ -25,9 +25,7 @@ function jqLoaded() {
 
 function search_by_email() {
     let email = document.getElementById("email").value;
-    let md = forge.md.md5.create();
-    md.update(email)
-    let email_hash = md.digest().toHex();
+    let email_hash = hex_md5(email);
     debug('Searching for '+email);
     $.post('/api/searchByEmail/', {
         email_hash: email_hash
