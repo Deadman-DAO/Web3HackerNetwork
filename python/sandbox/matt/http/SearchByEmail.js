@@ -40,7 +40,11 @@ function populate_table(table_id, data_array) {
         let owner_cell = $('<td></td>');
         let repo_cell = $('<td></td>');
         owner_cell.attr('onclick', 'goToGitHub("'+owner+'")');
+        owner_cell.addClass('pointy')
+        owner_cell.attr('title', 'Go to GitHub/'+owner);
         repo_cell.attr('onclick', 'goToGitHub("'+owner+'", "'+repo_name+'")');
+        repo_cell.addClass('pointy')
+        repo_cell.attr('title', 'Go to GitHub/'+owner+'/'+repo_name);
         owner_cell.text(owner);
         repo_cell.text(repo_name);
         row.append(owner_cell);
