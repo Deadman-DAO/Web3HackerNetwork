@@ -28,7 +28,8 @@ function search_by_email() {
     let email_hash = hex_md5(email);
     debug('Searching for '+email);
     $.get('/api/searchByEmail/?email_hash='+email_hash, function (rslt) {
-        pastReposTable = $('#beenthere')[0]; /* deref the jquery container object with [0]*/
+        pastReposTableJQ = $('#beenthere');
+        pastReposTable = pastReposTableJQ[0];
         while (pastReposTable.rows.length > 1) {
             pastReposTable.deleteRow(1);
         }
@@ -36,8 +37,8 @@ function search_by_email() {
         rslt.projects.forEach(function (project) {
             let row = pastReposTable.append('<tr><td>'+project.owner+'</td><td>'+project.name+'</td></tr>');
         });
-        pastReposTable.removeClass('hidden');
-        pastReposTable.addClass('visible');
+        pastReposTableJQ.removeClass('hidden');
+        pastReposTableJQ.addClass('visible');
         debug(rslt);
     });
 }
