@@ -25,7 +25,7 @@ function jqLoaded() {
 function goToGitHub(owner, repo_name) {
     let url = 'https://github.com/'+owner+
         ((repo_name != null && typeof(repo_name) !== 'undefined')  ? ('/'+repo_name) : '');
-    window.location.replace(url);
+    window.open(url, '_blank');
 }
 
 function populate_alias_table(table_id, data_array) {
