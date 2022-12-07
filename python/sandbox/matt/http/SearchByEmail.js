@@ -28,6 +28,26 @@ function goToGitHub(owner, repo_name) {
     window.location.replace(url);
 }
 
+function populate_alias_table(table_id, data_array) {
+    let table = $(table_id);
+    let tableBody = table.find('tbody');
+    tableBody.empty();
+    data_array.forEach(function (row_data) {
+        let row = $('<tr></tr>');
+        row.addClass('row');
+        let name = row_data['name'];
+        let domain = row_data['domain'];
+        let name_cell = $('<td></td>');
+        let domain_cell = $('<td></td>');
+        name_cell.attr('title', 'Hash '+row_data['hash']);
+        domain_cell.attr('title', 'Hash '+row_data['hash']);
+        row.append(name_cell);
+        row.append(domain_cell);
+        tableBody.append(row);
+    });
+    table.removeClass('invisible');
+    table.addClass('visible')
+}
 function populate_table(table_id, data_array) {
     let table = $(table_id);
     let tableBody = table.find('tbody');
@@ -59,8 +79,9 @@ function search_by_email() {
     let email_hash = hex_md5(email);
     debug('Searching for '+email);
     $.get('/api/searchByEmail/?email_hash='+email_hash, function (rslt) {
-        populate_table('#beenthere', rslt.projects)
-        populate_table('#mighttry', rslt.recommendations)
+        populate_table('#beenthere', rslt.projects);
+        populate_table('#mighttry', rslt.recommendations);
+        populate_alias_table('#alias', rslt.aliases);
     });
 }
 
