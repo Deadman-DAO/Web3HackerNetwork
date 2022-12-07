@@ -131,6 +131,9 @@
         .bright_green {
             color: greenyellow;
         }
+        .center {
+            margin: auto;
+        }
     </style>
     <meta charset="UTF-8">
     <title>DeadmanDAO presents Web3HackerNetwork</title>
@@ -152,19 +155,35 @@
     </div>
     <br/>
     <div>
-        <table id="beenthere" class="invisible lefty">
+        <table id="alias" class="center quarter">
             <thead class="darkolivegreen">
-            <tr><th colspan="2" class="center_text bright_green">GitHub Repositories Contributed To</tr>
-            <tr class="bottom_border"><th class="quarter">Repo Owner</th><th class="quarter">Repo Name</th></tr>
+                <tr>
+                    <th colspan="2" class="center_text bright_green">Other GitHub Identities</th>
+                </tr>
+                <tr>
+                    <th class="center_text">ID</th>
+                    <th class="center_text">Domain</th>
+                </tr>
             </thead>
-            <tbody id="beentherebody"></tbody>
+            <tbody></tbody>
         </table>
-        <table id="mighttry" class="invisible righty">
-            <thead class="darkolivegreen">
-            <tr><th colspan="2" class="center_text bright_green">GitHub Repositories You Might Be Interested In</tr>
-            <tr class="bottom_border"><th class="quarter">Repo Owner</th><th class="quarter">Repo Name</th></tr>
-            </thead>
-            <tbody id="mighttrybody"></tbody>
+    </div>
+    <div>
+        <table id="tableoftables" class="center">
+            <table id="beenthere" class="invisible lefty">
+                <thead class="darkolivegreen">
+                <tr><th colspan="2" class="center_text bright_green">GitHub Repositories Contributed To</tr>
+                <tr class="bottom_border"><th class="quarter">Repo Owner</th><th class="quarter">Repo Name</th></tr>
+                </thead>
+                <tbody id="beentherebody"></tbody>
+            </table>
+            <table id="mighttry" class="invisible righty">
+                <thead class="darkolivegreen">
+                <tr><th colspan="2" class="center_text bright_green">GitHub Repositories You Might Be Interested In</tr>
+                <tr class="bottom_border"><th class="quarter">Repo Owner</th><th class="quarter">Repo Name</th></tr>
+                </thead>
+                <tbody id="mighttrybody"></tbody>
+            </table>
         </table>
     </div>
     <div class="debug-modal" id="debugModal" onclick="hideDebug()">
