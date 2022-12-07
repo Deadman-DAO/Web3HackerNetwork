@@ -39,7 +39,9 @@ class Result(enum.Enum):
     oneOfManyMatches = 2  # Data gathered - keep on feeding me more lines
     endOfSet = 3  # contiguous set has ended - re-analyze this line
     gameSetMatch = 4  # Found end of data set - go spit out results
-    lookForExtraComment = 5
+    lookForExtraComment = 5 # Unsure of best case
+    doneWithComments = 6 # Found first commit line - reanalyze this line
+
 
 
 """
@@ -165,14 +167,17 @@ class Blank(Requirement):
 
 class Comment(Requirement):
     def reset(self):
-        self.comment = None;
+        self.comment = None
 
     def add_results(self, dictionary):
         return;
 
     def test_line(self, line):
         self.comment = line.strip()
-        return Result.matchedProgress
+        test_for_commit = line.split('\t')
+        if len(test_for_commit) > 2 and test_for_commit[0].isnumeric() and test_for_commit[1].isnumeric():
+            return Result.doneWithComments
+        return Result.oneOfManyMatches
 
 
 class FileInfo:
@@ -489,17 +494,16 @@ class RequirementSet:
         pass
 
     def processResult(self, line, rslt):
+        #print('State: '+str(self.reqIndex)+' Result: '+str(rslt)+' Line: '+line)
         #        if (rslt != Result.failedMatch):
         #            print('Processing['+str(self.reqIndex)+']: '+str(rslt));
         if (rslt == Result.failedMatch):
-            self.reset();
-            self.reqIndex = 0;
+            self.reset()
         elif (rslt == Result.matchedProgress):
             self.reqIndex += 1
             if (self.reqIndex >= len(self.reqArray)):
                 print('ERROR - Last element of RequirementSet cannot return Result.matchedProgress')
                 self.reset()
-                self.reqIndex = 0
         elif (rslt == Result.oneOfManyMatches):
             # Just keep reading until done
             self.dataMatchesFound += 1
@@ -517,6 +521,8 @@ class RequirementSet:
                 else:
                     self.line_added = True
                 json.dump(self.resultDictionary, self.output_stream, indent=2)
+                if self.resultDictionary['commit'] == '9e481dab6091e0438f571f1eba86555457b91005':
+                    print('Found it!')
             else:
                 self.resultArray.append(self.resultDictionary.copy())
             if self.finish_callback:
@@ -524,7 +530,10 @@ class RequirementSet:
 
             self.reset()
         elif (rslt == Result.lookForExtraComment):
-            self.reqIndex = 4  # Go back to the stage that
+            self.reqIndex = 3  # Go back to the stage that looks for comments
+            self.testline(line)
+        elif rslt == Result.doneWithComments:
+            self.reqIndex += 1
             self.testline(line)
         else:
             self.reqIndex = 0
@@ -567,9 +576,7 @@ class NumstatRequirementSet(RequirementSet):
         reqArray.append(SpaceSplicer(0, 'commit', 1, None))
         reqArray.append(ColonSplicer(0, 'Author', 1, None))
         reqArray.append(DateSplicer(0, 'Date', 1, None))
-        reqArray.append(Blank())
         reqArray.append(Comment())
-        reqArray.append(Blank())
         reqArray.append(NumStatFileCommit())
         reqArray.append(EndOfNumStat())
 
@@ -587,3 +594,8 @@ class NumstatRequirementSet(RequirementSet):
     @timeit
     def why_cant_we_do_it_in_the_background(self):
         self.process_direct_stream(self.input_stream, self.output_file_name, self.commit_callback)
+
+
+if __name__ == "__main__":
+    rs = NumstatRequirementSet()
+    rs.process_file('m:\\Projects\\new\\temp\\tensorflow\\numstat3.log', './numstat2.json')
