@@ -41,6 +41,8 @@ function populate_alias_table(table_id, data_array) {
         let domain_cell = $('<td></td>');
         name_cell.attr('title', 'Hash '+row_data['hash']);
         domain_cell.attr('title', 'Hash '+row_data['hash']);
+        name_cell.text(name);
+        domain_cell.text(domain);
         row.append(name_cell);
         row.append(domain_cell);
         tableBody.append(row);
