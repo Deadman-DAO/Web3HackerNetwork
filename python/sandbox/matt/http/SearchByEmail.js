@@ -64,6 +64,14 @@ function search_by_email() {
     });
 }
 
+function reset() {
+    $('#email').val('');
+    $('#beenthere').removeClass('visible');
+    $('#mighttry').removeClass('visible');
+    $('#beenthere').addClass('invisible');
+    $('#mighttry').addClass('invisible');
+}
+
 debug("Registering trigger for window.onload and jquery.document.read");
 window.onload = winLoaded;
 $(document).ready(function () {
