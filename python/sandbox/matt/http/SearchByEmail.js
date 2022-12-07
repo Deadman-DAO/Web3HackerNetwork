@@ -59,7 +59,8 @@ function search_by_email() {
     let email_hash = hex_md5(email);
     debug('Searching for '+email);
     $.get('/api/searchByEmail/?email_hash='+email_hash, function (rslt) {
-        populate_table('#beenthere', rslt.projects, ['owner', 'repo_name'])
+        populate_table('#beenthere', rslt.projects)
+        populate_table('#mighttry', rslt.recommendations)
     });
 }
 
