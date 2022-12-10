@@ -302,8 +302,17 @@ if __name__ == "__main__":
     _lock = Lock()
     cpc = None
     try:
-        rng = RepoNumstatGatherer(web_lock=_lock)
-        cpc = ChildProcessContainer(rng, 'RepoNumstatGatherer')
+        if sys.argv and len(sys.argv) > 2:
+            # If arguments provided attempt a single numstat generation
+            shelf = RepoNumstatGatherer(web_lock=_lock)
+            shelf.owner = sys.argv[1]
+            shelf.repo_name = sys.argv[2]
+            if shelf.validate_repo_dir():
+                shelf.generate_numstats()
+        else:
+            rng = RepoNumstatGatherer(web_lock=_lock)
+            cpc = ChildProcessContainer(rng, 'RepoNumstatGatherer')
+
     except Exception as e:
         print(e)
         traceback.print_exc()

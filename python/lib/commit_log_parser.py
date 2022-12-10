@@ -166,18 +166,24 @@ class Blank(Requirement):
 
 
 class Comment(Requirement):
+    def __init__(self):
+        self.comment = None
+
     def reset(self):
         self.comment = None
 
     def add_results(self, dictionary):
-        return;
+        dictionary['comment'] = self.comment
 
     def test_line(self, line):
-        self.comment = line.strip()
+        rslt = Result.oneOfManyMatches
         test_for_commit = line.split('\t')
         if len(test_for_commit) > 2 and test_for_commit[0].isnumeric() and test_for_commit[1].isnumeric():
-            return Result.doneWithComments
-        return Result.oneOfManyMatches
+            rslt = Result.doneWithComments
+        else:
+            self.comment = (self.comment + '\n' + line.strip()) if self.comment is not None else line.strip()
+
+        return rslt
 
 
 class FileInfo:
