@@ -10,6 +10,7 @@ BEGIN
 	declare _randy int default(RAND());
 	declare _recs_inserted int;
 	declare _limit int;
+	declare _max_priority_repo_id int;
 	declare exit handler for SQLEXCEPTION
 	begin
         GET DIAGNOSTICS CONDITION 1 @p1 = RETURNED_SQLSTATE, @p2 = MESSAGE_TEXT;
@@ -22,7 +23,7 @@ BEGIN
 	if _current_job_q_size < _min_jobs and ifnull(_delay_expiration, _now) <= _now THEN 
 		select (_max_jobs - _current_job_q_size) into _limit;
 		insert into repo_job_q_filler_reservation values (666, _now, _randy);
-		
+		select max(id) + 1 into _max_priority_repo_id from priority_repos;
 		insert into staged_repo_job_q (repo_id, tstamp)  
 			select X.id, _now from 
 			(
@@ -31,7 +32,9 @@ BEGIN
 					log(re.commit_count_last_year+1) as log_com, 
 					log(1+re.size) as log_size, 
 					log(1+re.commit_count_last_year)*log(1+re.size) as priority ,
-					RAND() as randy from repo r
+					RAND() as randy,
+					ifnull(pr.id, _max_priority_repo_id) as priority_insert			
+					from repo r
 					join repo_eval re on re.repo_id = r.id 
 					left join repo_reserve rr on rr.repo_id = r.id
 					left join staged_repo_job_q srjq on srjq.repo_id = r.id
@@ -44,11 +47,11 @@ BEGIN
 					  and r.failed_date is null
 					  and re.size is not null
 			
-					order by pr.id asc, priority desc
+					order by ifnull(pr.id, _max_priority_repo_id) asc, priority desc
 					limit 15000
 					
 			) as X
-			order by X.randy asc
+			order by X.priority_insert asc, X.randy asc
 			limit _limit;				
 			
 		select row_count() into _recs_inserted;
