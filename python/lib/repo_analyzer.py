@@ -222,6 +222,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     for relative_file_name in future_blame_result_map.keys():
                         if self.expire_time < time():
                             print('Repo Analyzer process interrupted, terminating thread pool')
+                            exec.shutdown(wait=False, cancel_futures=True)
                             return
                         repo_blame_map[relative_file_name] = future_blame_result_map[relative_file_name].result()
                         self.repo_dependency_map[relative_file_name] = \
