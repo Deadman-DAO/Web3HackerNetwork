@@ -38,7 +38,7 @@ class DBDependent(SignalHandler):
         pid = proc.pid if proc.pid else os.getpid()
         me = psutil.Process(pid)
         for child in me.children(recursive=True):
-            print(f'Killing child process {child.pid}')
+            print(f'Killing child process {child.pid}: {child.cmdline()}')
             child.kill()
 
     @timeit
