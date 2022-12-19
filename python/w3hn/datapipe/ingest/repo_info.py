@@ -17,6 +17,7 @@ class RepoInfoIngester(Ingester):
     EXPLICIT_SCHEMA = pa.schema([
         pa.field("owner", pa.string()),
         pa.field("repo_name", pa.string()),
+        pa.field("owner_repo", pa.string()),
         pa.field("repo_id", pa.int64()),
         pa.field("owner_id", pa.int64()),
         pa.field("owner_type", pa.string()),
