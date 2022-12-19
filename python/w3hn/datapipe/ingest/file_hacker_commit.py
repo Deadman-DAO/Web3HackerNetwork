@@ -103,7 +103,7 @@ class FileHackerCommitIngester(Ingester):
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
         owners = [owner for i in range(count)]
         repo_names = [repo_name for i in range(count)]
-        owner_repos = [f'{owner}\t{repo_name}' for i in range(count)]
+        owner_repos = [f'{owner}/{repo_name}' for i in range(count)]
         partition_keys = [f'{synthetic_key}' for i in range(count)]
         
         file_paths = list()
