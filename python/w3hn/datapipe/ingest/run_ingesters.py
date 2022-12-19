@@ -224,7 +224,7 @@ if __name__ == '__main__':
     parser.add_argument('-r', '--run_repo_file',
                         help='Run the Repo/File ingester.',
                         action='store_true')
-    parser.add_argument('-i', '--run_repo_info',
+    parser.add_argument('-I', '--run_repo_info',
                         help='Run the Repo Info ingester.',
                         action='store_true')
     parser.add_argument('-l', '--low_limit', default='00',
