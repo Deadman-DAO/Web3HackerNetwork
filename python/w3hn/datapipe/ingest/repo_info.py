@@ -61,7 +61,7 @@ class RepoInfoIngester(Ingester):
                  aws_profile='w3hn-admin',
                  bucket='deadmandao',
                  raw_path='web3hackernetwork/data_pipeline/raw'):
-        super().__init__(aws_profile, bucket, raw_path, 'blame')
+        super().__init__(aws_profile, bucket, raw_path, 'repo_info')
 
     # ----------------------------------------------------
     # Instance API
