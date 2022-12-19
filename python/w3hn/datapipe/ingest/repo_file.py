@@ -59,15 +59,14 @@ class RepoFileIngester(Ingester):
     # Instance API
     # ----------------------------------------------------
 
-    def extract_data(self, owner, repo_name,
-                     blame_map=None, dependency_map=None, numstat=None):
+    def extract_data(self, owner, repo_name, json_object):
         code_suffixes = ['.js', '.py', '.c', '.java', '.go', '.ts',
                          '.cpp', '.php', '.rb', '.cs', '.cc', '.rs',
                          '.tsx', '.scala', '.jsx']
 
         raw_dataset = dict()
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
-        for commit in numstat:
+        for commit in json_object:
             commit_date = dateutil.parser.isoparse(commit['Date'])
             num_files = len(commit['file_list'])
             if num_files > 1000:

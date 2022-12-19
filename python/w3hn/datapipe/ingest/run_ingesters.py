@@ -26,6 +26,7 @@ from w3hn.datapipe.ingest.blame import BlameIngester
 from w3hn.datapipe.ingest.dependency import DependencyIngester
 from w3hn.datapipe.ingest.file_hacker_commit import FileHackerCommitIngester
 from w3hn.datapipe.ingest.repo_file import RepoFileIngester
+from w3hn.datapipe.ingest.repo_info import RepoInfoIngester
 import w3hn.hadoop.parquet_util as pq_util
 # ----------------------------------------------
 
@@ -34,6 +35,7 @@ class IngesterRunner:
     DEPS_JOB = 2
     FILE_HACKER_JOB = 4
     REPO_FILE_JOB = 8
+    REPO_INFO_JOB = 16
 
     def __init__(self,
                  new_file,
@@ -43,6 +45,7 @@ class IngesterRunner:
                  run_deps = False,
                  run_file_hacker = False,
                  run_repo_file = False,
+                 run_repo_info = False,
                  low_partition_limit = '00',
                  high_partition_limit = 'ff',
                  subsample_count = None,
@@ -60,6 +63,8 @@ class IngesterRunner:
             self.jobs = self.jobs | IngesterRunner.FILE_HACKER_JOB
         if run_repo_file:
             self.jobs = self.jobs | IngesterRunner.REPO_FILE_JOB
+        if run_repo_info:
+            self.jobs = self.jobs | IngesterRunner.REPO_INFO_JOB
         self.json_s3_util = \
             S3Util(profile="enigmatt", bucket_name='numstat-bucket')
         self.w3hn_s3_util = \
@@ -131,7 +136,7 @@ class IngesterRunner:
         try:
             self.log.debug(f'loading {file_path}')
             json_obj = self.json_s3_util.get_json_obj_at_key(file_path)
-            repo_tuple = (owner, repo_name, json_obj, json_obj, json_obj)
+            repo_tuple = (owner, repo_name, json_obj)
             return repo_tuple
         except Exception:
             self.log.exception(f'ERROR reading json {file_path}')
@@ -186,6 +191,9 @@ class IngesterRunner:
                     if self.jobs & IngesterRunner.REPO_FILE_JOB:
                         ingesters.append(RepoFileIngester())
                     self.update(file_paths, ingesters)
+            elif file_type == 'repo_info.json.bz2':
+                if self.jobs & IngesterRunner.REPO_INFO_JOB:
+                    self.update(file_paths, [RepoInfoIngester()])
             else:
                 self.log.warn(f'unrecognized file type: {partition_key}, {file_type}, {update_key}, {file_paths}')
 
@@ -216,6 +224,9 @@ if __name__ == '__main__':
     parser.add_argument('-r', '--run_repo_file',
                         help='Run the Repo/File ingester.',
                         action='store_true')
+    parser.add_argument('-i', '--run_repo_info',
+                        help='Run the Repo Info ingester.',
+                        action='store_true')
     parser.add_argument('-l', '--low_limit', default='00',
                         help='The low partition limit (00 for all)')
     parser.add_argument('-t', '--top_limit', default='ff',
@@ -233,6 +244,7 @@ if __name__ == '__main__':
         run_blame = args.run_blame,
         run_deps = args.run_deps,
         run_file_hacker = args.run_file_hacker,
+        run_repo_info = args.run_repo_info,
         run_repo_file = args.run_repo_file,
         low_partition_limit = args.low_limit,
         high_partition_limit = args.top_limit,

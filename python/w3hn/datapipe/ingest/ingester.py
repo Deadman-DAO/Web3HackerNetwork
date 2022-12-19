@@ -1,18 +1,17 @@
 from abc import ABC, abstractmethod
 
-import datetime
 import pyarrow as pa
 import pyarrow.parquet as pq
 
 import w3hn.hadoop.parquet_util as pq_util
 from w3hn.aws.aws_util import S3Util
 import w3hn.log.log_init as log_init
+from collections import namedtuple
 
 class Ingester(ABC):
 
     @abstractmethod
-    def extract_data(self, owner, repo_name,
-                     blame_map=None, dependency_map=None, numstat=None):
+    def extract_data(self, owner, repo_name, json_object):
         pass
     @abstractmethod
     def create_table(self, new_data, owner, repo_name):
@@ -42,13 +41,9 @@ class Ingester(ABC):
             for repo_tuple in repo_tuple_list:
                 owner = repo_tuple[0]
                 repo_name = repo_tuple[1]
-                numstat_object = repo_tuple[4]
                 log.debug(f'{type(ingester)} extracting data from {owner} {repo_name}')
-                new_data = ingester.extract_data(owner,
-                                                 repo_name,
-                                                 blame_map=repo_tuple[2],
-                                                 dependency_map=repo_tuple[3],
-                                                 numstat=repo_tuple[4])
+                json_object = repo_tuple[2]
+                new_data = ingester.extract_data(owner, repo_name, json_object)
                 new_table = ingester.create_table(new_data, owner, repo_name)
                 new_table_tuple = (owner, repo_name, new_table)
                 new_table_tuples.append(new_table_tuple)

@@ -7,7 +7,7 @@ from w3hn.datapipe.ingest.ingester import Ingester
 from w3hn.log.log_init import logger
 log = logger(__file__)
 
-class BlameIngester(Ingester):
+class RepoInfoIngester(Ingester):
 
     # ----------------------------------------------------
     # Constants
@@ -15,13 +15,27 @@ class BlameIngester(Ingester):
 
     # Unique for each ingester.
     EXPLICIT_SCHEMA = pa.schema([
-        pa.field("owner", pa.string()),
+        pa.field("repo_id", pa.int64()),
         pa.field("repo_name", pa.string()),
-        pa.field("owner_repo", pa.string()),
-        pa.field("file_path", pa.string()),
-        pa.field("author_name", pa.string()),
-        pa.field("author_email", pa.string()),
-        pa.field("line_count", pa.int64()),
+        pa.field("owner", pa.string()),
+        pa.field("owner_id", pa.int64()),
+        pa.field("owner_type", pa.string()),
+        pa.field("created_at", pa.timestamp('us', tz='UTC')),
+        pa.field("updated_at", pa.timestamp('us', tz='UTC')),
+        pa.field("pushed_at", pa.timestamp('us', tz='UTC')),
+        pa.field("size", pa.int64()),
+        pa.field("stargazers_count", pa.int64()),
+        pa.field("watchers_count", pa.int64()),
+        pa.field("language", pa.string()),
+        pa.field("has_issues", pa.bool_()),
+        pa.field("forks_count", pa.int64()),
+        pa.field("open_issues_count", pa.int64()),
+        pa.field("license_key", pa.string()),
+        pa.field("license_name", pa.string()),
+        pa.field("license_spdx_id", pa.string()),
+        pa.field("license_url", pa.string()),
+        pa.field("network_count", pa.int64()),
+        pa.field("subscribers_count", pa.int64()),
         Ingester.PARTITION_KEY_FIELD,
     ])
     
@@ -34,7 +48,7 @@ class BlameIngester(Ingester):
     # example: [('apache', 'ant', json.loads(blame_json),
     #            json.loads(deps_json), json.loads(numstat_json))]
     def update_repos(repo_tuple_array):
-        ingester = BlameIngester()
+        ingester = RepoInfoIngester()
         Ingester.update_repos_using_ingester(ingester, repo_tuple_array)
     
     # ----------------------------------------------------
@@ -55,19 +69,36 @@ class BlameIngester(Ingester):
 
     # Unique for each ingester.
     def extract_data(self, owner, repo_name, json_object):
-        lines = dict()
-        for file_path, val in json_object.items():
-            for user_pair, line_count in val.items():
-                if '\t' in user_pair:
-                    (user_name, user_email) = user_pair.split('\t')
-                    user_name = user_name.strip()
-                    user_email = user_email.strip()
-                    user_email = user_email[1:len(user_email)-1]
-                    unique_key = f'{file_path}\t{user_name}\t{user_email}'
-                    lines[unique_key] = line_count
-                else:
-                    log.error(f'cannot split on tab: {owner} {repo_name} "{user_pair}"')
-        return lines
+        raw_dataset = dict()
+        synthetic_key = pq_util.repo_partition_key(owner, repo_name)
+        for repo in json_object:
+            meta = dict()
+            meta['repo_id'] = repo['id']
+            meta['repo_name'] = repo['name']
+            meta['owner'] = repo['owner']['login']
+            meta['owner_id'] = repo['owner']['id']
+            meta['owner_type'] = repo['owner']['type']
+            meta['created_at'] = dateutil.parser.isoparse(repo['created_at'])
+            meta['updated_at'] = dateutil.parser.isoparse(repo['updated_at'])
+            meta['pushed_at'] = dateutil.parser.isoparse(repo['pushed_at'])
+            meta['size'] = repo['size']
+            meta['stargazers_count'] = repo['stargazers_count']
+            meta['watchers_count'] = repo['watchers_count']
+            meta['language'] = repo['language']
+            meta['has_issues'] = repo['has_issues']
+            meta['forks_count'] = repo['forks_count']
+            meta['open_issues_count'] = repo['open_issues_count']
+            meta['license_key'] = repo['license']['key']
+            meta['license_name'] = repo['license']['name']
+            meta['license_spdx_id'] = repo['license']['spdx_id']
+            meta['license_url'] = repo['license']['url']
+            meta['network_count'] = repo['network_count']
+            meta['subscribers_count'] = repo['subscribers_count']
+            meta['partition_key'] = synthetic_key
+            raw_dataset['/'.join(owner, repo_name)] = meta
+
+        return raw_dataset
+
 
     def create_table(self, new_data, owner, repo_name):
         count = len(new_data)
@@ -93,7 +124,7 @@ class BlameIngester(Ingester):
             pa.array(paths), pa.array(author_names), pa.array(author_emails),
             pa.array(line_counts), pa.array(partition_keys)
         ]
-        batch = pa.RecordBatch.from_arrays(data, BlameIngester.EXPLICIT_SCHEMA.names)
+        batch = pa.RecordBatch.from_arrays(data, self.EXPLICIT_SCHEMA.names)
         inferred_table = pa.Table.from_batches([batch])
-        explicit_table = inferred_table.cast(BlameIngester.EXPLICIT_SCHEMA)
+        explicit_table = inferred_table.cast(self.EXPLICIT_SCHEMA)
         return explicit_table

@@ -65,10 +65,9 @@ class DependencyIngester(Ingester):
     # ----------------------------------------------------
 
     # Unique for each ingester.
-    def extract_data(self, owner, repo_name,
-                     blame_map=None, dependency_map=None, numstat=None):
+    def extract_data(self, owner, repo_name, json_object):
         deps_set = set()
-        for file_path, libs in dependency_map.items():
+        for file_path, libs in json_object.items():
             for lib in libs:
                 if '\t' in lib:
                     log.error(f'tab in dependency {owner} {repo_name} {file_path} {lib}')
