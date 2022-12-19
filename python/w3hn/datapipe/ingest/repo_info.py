@@ -63,7 +63,7 @@ class RepoInfoIngester(Ingester):
                  bucket='deadmandao',
                  raw_path='web3hackernetwork/data_pipeline/raw'):
         super().__init__(aws_profile, bucket, raw_path, 'repo_info',
-                         sort_by=['owner', 'repo_name'])
+                         sort_by=[('owner', 'ascending'), ('repo_name', 'ascending')])
 
     # ----------------------------------------------------
     # Instance API
