@@ -190,6 +190,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             future_blame_result_map = {}
             future_dependency_result_map = {}
             if os.path.exists(self.repo_dir) and self.expire_time > time():
+                print('Repo Analyzer processing repo: ', self.repo_owner, self.repo_name)
                 with ThreadPoolExecutor(max_workers=self.max_threads, thread_name_prefix="CHILDOF_repoAnalyzerThread_") as exec:
                     for subdir, dirs, files in os.walk(self.repo_dir):
                         for file in files:
@@ -219,6 +220,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                                         print(e)
                                         traceback.print_exc()
                                         print('Error encountered calling dependency-discovery method: ', filename, str(dep))
+                    print('Repo Analyzer thread pool completed, waiting for results: ', self.repo_owner, self.repo_name)
                     for relative_file_name in future_blame_result_map.keys():
                         if self.expire_time < time():
                             print('Repo Analyzer process interrupted, terminating thread pool')
