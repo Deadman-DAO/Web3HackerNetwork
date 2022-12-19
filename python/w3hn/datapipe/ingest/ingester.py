@@ -54,12 +54,15 @@ class Ingester(ABC):
     # ----------------------------------------------------
     # Instance Initialization
     # ----------------------------------------------------
-    def __init__(self, aws_profile, bucket, raw_path, path_suffix):
+    def __init__(self, aws_profile, bucket, raw_path, path_suffix, sort_by=[('owner', 'ascending'),
+                                                                            ('repo_name', 'ascending'),
+                                                                            ('file_path', 'ascending')]):
         self.log = log_init.logger(__file__)
         self.s3_util = S3Util(profile=aws_profile, bucket_name=bucket)
         self.bucket = bucket
         self.raw_path = raw_path
         self.dataset_path = f'{self.raw_path}/{path_suffix}'
+        self.sort_by = sort_by
     
     # ----------------------------------------------------
     # Instance API
@@ -123,9 +126,7 @@ class Ingester(ABC):
         partition_key = pq_util.repo_partition_key(owner, repo_name)
         partition_path = f'{self.dataset_path}/partition_key={partition_key}'
         self.log.debug(f'sorting')
-        table.sort_by([('owner', 'ascending'),
-                       ('repo_name', 'ascending'),
-                       ('file_path', 'ascending')])
+        table.sort_by(self.sort_by)
         self.log.info(f'writing {self.bucket}/{partition_path}')
         if self.s3_util.path_exists(partition_path):
             self.log.info(f'deleting {self.bucket}/{partition_path}')
