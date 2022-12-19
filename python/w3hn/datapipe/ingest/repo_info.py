@@ -15,9 +15,9 @@ class RepoInfoIngester(Ingester):
 
     # Unique for each ingester.
     EXPLICIT_SCHEMA = pa.schema([
-        pa.field("repo_id", pa.int64()),
-        pa.field("repo_name", pa.string()),
         pa.field("owner", pa.string()),
+        pa.field("repo_name", pa.string()),
+        pa.field("repo_id", pa.int64()),
         pa.field("owner_id", pa.int64()),
         pa.field("owner_type", pa.string()),
         pa.field("created_at", pa.timestamp('us', tz='UTC')),
@@ -72,9 +72,9 @@ class RepoInfoIngester(Ingester):
         raw_dataset = dict()
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
         meta = dict()
-        meta['repo_id'] = repo['id']
-        meta['repo_name'] = repo['name']
         meta['owner'] = repo['owner']['login'] if repo['owner'] else None
+        meta['repo_name'] = repo['name']
+        meta['repo_id'] = repo['id']
         meta['owner_id'] = repo['owner']['id'] if repo['owner'] else None
         meta['owner_type'] = repo['owner']['type'] if repo['owner'] else None
         meta['created_at'] = dateutil.parser.isoparse(repo['created_at'])
@@ -94,34 +94,46 @@ class RepoInfoIngester(Ingester):
         meta['network_count'] = repo['network_count']
         meta['subscribers_count'] = repo['subscribers_count']
         meta['partition_key'] = synthetic_key
-        raw_dataset['/'.join((owner, repo_name))] = meta
+        #raw_dataset['/'.join((owner, repo_name))] = meta
 
-        return raw_dataset
+        return meta
 
 
     def create_table(self, new_data, owner, repo_name):
-        count = len(new_data)
         synthetic_key = pq_util.repo_partition_key(owner, repo_name)
-        owners = [owner for i in range(count)]
-        repo_names = [repo_name for i in range(count)]
-        owner_repos = [f'{owner}/{repo_name}' for i in range(count)]
-        paths = list()
-        author_names = list()
-        author_emails = list()
-        line_counts = list()
-        partition_keys = [synthetic_key for i in range(count)]
-
-        for unique_key, line_count in new_data.items():
-            (file_path, author_name, author_email) = unique_key.split('\t')
-            paths.append(file_path)
-            author_names.append(author_name)
-            author_emails.append(author_email)
-            line_counts.append(line_count)
+        owners = [owner]
+        repo_names = [repo_name]
+        owner_repos = [f'{owner}/{repo_name}']
+        repo_ids = [new_data['repo_id']]
+        owner_ids = [new_data['owner_id']]
+        owner_types = [new_data['owner_type']]
+        created_ats = [new_data['created_at']]
+        updated_ats = [new_data['updated_at']]
+        pushed_ats = [new_data['pushed_at']]
+        sizes = [new_data['size']]
+        stargazers_counts = [new_data['stargazers_count']]
+        watchers_counts = [new_data['watchers_count']]
+        languages = [new_data['language']]
+        has_issuess = [new_data['has_issues']]
+        forks_counts = [new_data['forks_count']]
+        open_issues_counts = [new_data['open_issues_count']]
+        license_keys = [new_data['license_key']]
+        license_names = [new_data['license_name']]
+        license_spdx_ids = [new_data['license_spdx_id']]
+        license_urls = [new_data['license_url']]
+        network_counts = [new_data['network_count']]
+        subscribers_counts = [new_data['subscribers_count']]
+        partition_keys = [synthetic_key]
 
         data = [
             pa.array(owners), pa.array(repo_names), pa.array(owner_repos),
-            pa.array(paths), pa.array(author_names), pa.array(author_emails),
-            pa.array(line_counts), pa.array(partition_keys)
+            pa.array(repo_ids), pa.array(owner_ids), pa.array(owner_types),
+            pa.array(created_ats), pa.array(updated_ats), pa.array(pushed_ats),
+            pa.array(sizes), pa.array(stargazers_counts), pa.array(watchers_counts),
+            pa.array(languages), pa.array(has_issuess), pa.array(forks_counts),
+            pa.array(open_issues_counts), pa.array(license_keys), pa.array(license_names),
+            pa.array(license_spdx_ids), pa.array(license_urls), pa.array(network_counts),
+            pa.array(subscribers_counts), pa.array(partition_keys)
         ]
         batch = pa.RecordBatch.from_arrays(data, self.EXPLICIT_SCHEMA.names)
         inferred_table = pa.Table.from_batches([batch])
