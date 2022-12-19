@@ -74,9 +74,9 @@ class RepoInfoIngester(Ingester):
         meta = dict()
         meta['repo_id'] = repo['id']
         meta['repo_name'] = repo['name']
-        meta['owner'] = repo['owner']['login']
-        meta['owner_id'] = repo['owner']['id']
-        meta['owner_type'] = repo['owner']['type']
+        meta['owner'] = repo['owner']['login'] if repo['owner'] else None
+        meta['owner_id'] = repo['owner']['id'] if repo['owner'] else None
+        meta['owner_type'] = repo['owner']['type'] if repo['owner'] else None
         meta['created_at'] = dateutil.parser.isoparse(repo['created_at'])
         meta['updated_at'] = dateutil.parser.isoparse(repo['updated_at'])
         meta['pushed_at'] = dateutil.parser.isoparse(repo['pushed_at'])
@@ -87,10 +87,10 @@ class RepoInfoIngester(Ingester):
         meta['has_issues'] = repo['has_issues']
         meta['forks_count'] = repo['forks_count']
         meta['open_issues_count'] = repo['open_issues_count']
-        meta['license_key'] = repo['license']['key']
-        meta['license_name'] = repo['license']['name']
-        meta['license_spdx_id'] = repo['license']['spdx_id']
-        meta['license_url'] = repo['license']['url']
+        meta['license_key'] = repo['license']['key'] if repo['license'] else None
+        meta['license_name'] = repo['license']['name'] if repo['license'] else None
+        meta['license_spdx_id'] = repo['license']['spdx_id'] if repo['license'] else None
+        meta['license_url'] = repo['license']['url'] if repo['license'] else None
         meta['network_count'] = repo['network_count']
         meta['subscribers_count'] = repo['subscribers_count']
         meta['partition_key'] = synthetic_key
