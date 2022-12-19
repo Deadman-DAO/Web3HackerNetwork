@@ -14,12 +14,6 @@ class BlameIngester(Ingester):
     # ----------------------------------------------------
 
     # Unique for each ingester.
-    COLUMN_NAMES = [
-        'owner', 'repo_name', 'owner_repo', 'file_path',
-        'author_name', 'author_email', 'line_count', 'partition_key'
-    ]
-
-    # Unique for each ingester.
     EXPLICIT_SCHEMA = pa.schema([
         pa.field("owner", pa.string()),
         pa.field("repo_name", pa.string()),
@@ -100,7 +94,7 @@ class BlameIngester(Ingester):
             pa.array(paths), pa.array(author_names), pa.array(author_emails),
             pa.array(line_counts), pa.array(partition_keys)
         ]
-        batch = pa.RecordBatch.from_arrays(data, BlameIngester.COLUMN_NAMES)
+        batch = pa.RecordBatch.from_arrays(data, BlameIngester.EXPLICIT_SCHEMA.names)
         inferred_table = pa.Table.from_batches([batch])
         explicit_table = inferred_table.cast(BlameIngester.EXPLICIT_SCHEMA)
         return explicit_table
