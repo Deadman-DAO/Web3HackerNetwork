@@ -94,7 +94,7 @@ class RepoInfoIngester(Ingester):
         meta['network_count'] = repo['network_count']
         meta['subscribers_count'] = repo['subscribers_count']
         meta['partition_key'] = synthetic_key
-        raw_dataset['/'.join(owner, repo_name)] = meta
+        raw_dataset['/'.join((owner, repo_name))] = meta
 
         return raw_dataset
 
