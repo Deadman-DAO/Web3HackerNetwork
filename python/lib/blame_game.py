@@ -47,6 +47,7 @@ class HandlerType(Enum):
     SOURCE = '\t'
     HASH = 'h'
     MOM  = 'm'
+    BOUNDARY = 'b'
 
 class HackerTracker:
     def __init__(self, time_zone):
@@ -96,6 +97,14 @@ class SourceLine(LineHandler):
                 self.hacker_tracker_map[committer_key]. \
                     add_line(handler_map[HandlerType.HASH.value].get_commit_hash(), committer.epoch, True)
 
+
+class Boundary(LineHandler):
+    def __init__(self):
+        pass
+
+    def process_line(self, line, handler_map = None):
+        if "boundary" != line:
+            print('Blame boundary error:', line)
 
 class Commit(LineHandler):
     def __init__(self):
@@ -198,6 +207,7 @@ class BlameGameRetriever(SignalHandler):
                          HandlerType.SUMMARY.value: Summary(),
                          HandlerType.FILENAME.value: FileName(),
                          HandlerType.SOURCE.value: SourceLine(),
+                         HandlerType.BOUNDARY.value: Boundary(),
                          HandlerType.HASH.value: self.commit,
                          HandlerType.MOM.value: self}
 
