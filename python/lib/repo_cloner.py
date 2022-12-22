@@ -167,4 +167,11 @@ class RepoCloner(DBDependent):
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 2:
+        owner = sys.argv[1]
+        repo_name = sys.argv[2]
+        rc = RepoCloner(web_lock=Lock(), git_lock=Lock())
+        rc.owner = owner
+        rc.repo_name = repo_name
+        rc.clone_it()
     RepoCloner(web_lock=Lock(), git_lock=Lock()).main()

@@ -308,7 +308,10 @@ if __name__ == "__main__":
             shelf.owner = sys.argv[1]
             shelf.repo_name = sys.argv[2]
             if shelf.validate_repo_dir():
+                start_time = time.time()
                 shelf.generate_numstats()
+                end_time = time.time()
+                print('That took '+str(end_time-start_time)+' seconds')
         else:
             rng = RepoNumstatGatherer(web_lock=_lock)
             cpc = ChildProcessContainer(rng, 'RepoNumstatGatherer')

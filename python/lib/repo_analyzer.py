@@ -1,3 +1,5 @@
+import sys
+
 import boto3
 import bz2
 import hashlib
@@ -80,12 +82,11 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.import_map_map = {}
         self.dependency_list = [JavaDependencyAnalyzer(), GoDependencyAnalyzer(), PythonDependencyAnalyzer(),
                                 ScalaDependencyAnalyzer(), JavascriptDependencyAnalyzer()]
-        self.max_threads_key = 'REPO_ANALYZER_MAX_THREADS'
-        self.max_threads = int(os.environ[self.max_threads_key]) if \
-            self.max_threads_key in os.environ.keys() and \
-              os.environ[self.max_threads_key] else None
+        self.max_threads = self.get_env_var('REPO_ANALYZER_MAX_THREADS', default_val=None, wrapper_method=int)
+        self.max_blame_time = self.get_env_var('MAX_BLAME_TIME_IN_MINUTES', default_val=None, wrapper_method=int)
 
     class GetNextRepoForAnalysis(DBTask):
+
         def __init__(self, mom):
             self.mom = mom
 
@@ -166,7 +167,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
     @timeit
     def process_task(self):
         self.success = False
-        self.expire_time = time() + (60 * 30)
+        self.expire_time = time() + (self.max_blame_time * 60)
         try:
             if os.path.exists(self.numstat_dir):
                 with open(self.numstat_dir, 'rb') as r:
@@ -196,6 +197,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                         for file in files:
                             if self.expire_time < time():
                                 print('Repo Analyzer process interrupted, terminating thread pool')
+                                exec.shutdown(wait=False, cancel_futures=True)
                                 return
                             filename = os.path.join(subdir, file)
                             relative_file_name = filename[len(self.repo_dir)+1:].replace(os.sep, '/')
@@ -207,7 +209,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                                     try:
                                         self.blame_game_retriever = BlameGameRetriever(self.repo_dir)
                                         future_blame_result_map[relative_file_name] = \
-                                            exec.submit(self.blame_game_retriever.get_blame_game, filename)
+                                            exec.submit(self.blame_game_retriever.get_blame_game, relative_file_name)
                                     except Exception as e:
                                         print(e)
                                         traceback.print_exc()
@@ -233,7 +235,8 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 try:
                     # first try and write the blame map to S3
                     if len(repo_blame_map) > 0:
-                        blame_map_json = json.dumps(repo_blame_map, ensure_ascii=False)
+                        blame_map_json = json.dumps(repo_blame_map, ensure_ascii=False, sort_keys=True, indent=2,
+                                                    default=lambda o: o.__dict__ )
                         blame_map_zip = bz2.compress(blame_map_json.encode('utf-8'))
                         key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/blame_map.json.bz2'
                         self.bucket.upload_fileobj(io.BytesIO(blame_map_zip), key)
@@ -263,4 +266,19 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
 
 
 if __name__ == "__main__":
-    RepoAnalyzer(web_lock=Lock()).main()
+    if len(sys.argv) > 2:
+        repo_owner = sys.argv[1]
+        repo_name = sys.argv[2]
+        repo_dir = os.path.join('.', 'repos', repo_owner, repo_name)
+        if os.path.exists(repo_dir):
+            ra = RepoAnalyzer()
+            ra.repo_owner = repo_owner
+            ra.repo_name = repo_name
+            ra.repo_dir = repo_dir
+            ra.numstat_dir = os.path.join('.', 'results', repo_owner, repo_name, 'log_numstat.out.json.bz2')
+            ra.cur_job = repo_owner + '/' + repo_name
+            ra.process_task()
+        else:
+            print('Unable to locate repo directory: ', repo_dir)
+    else:
+        RepoAnalyzer(web_lock=Lock()).main()

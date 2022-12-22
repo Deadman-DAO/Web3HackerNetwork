@@ -1,5 +1,6 @@
 import traceback
 import sys
+import os
 import signal
 from subprocess import TimeoutExpired, Popen, PIPE
 from lib.child_process import ChildProcessContainer
@@ -71,3 +72,9 @@ class SignalHandler:
             print('Timed out waiting for child process to complete')
             report_timeout_proc(subprocedure)
         return success, d.stdout if d is not None else None, d.stderr if d is not None else None
+
+    def get_env_var(self, var_name, default_val=None, wrapper_method=None):
+        val = os.environ.get(var_name, default=default_val)
+        if val and wrapper_method and callable(wrapper_method):
+            val = wrapper_method(val)
+        return val
