@@ -220,7 +220,6 @@ class BlameGameRetriever(SignalHandler):
         cmd = ['nice',  'git', '-C', self.repo_dir, 'blame', blame_params, filename]
 
         if sys.platform == "win32" or not self.be_nice:
-            print('Naughty, not nice!')
             # Take out the first element of the cmd array as windows isn't "nice"
             cmd = cmd[1:]
         start_time = time.time()
