@@ -232,7 +232,9 @@ class BlameGameRetriever(SignalHandler):
                 lines = self.stdout.split('\n')
                 done = False
                 #print("Processing "+str(len(lines))+" lines")
+                line_no = 0
                 for line in lines:
+                    line_no += 1
                     test_split = line.split(' ')
                     if len(test_split[0]) == 40 and len(test_split) > 2 and self.is_hex(test_split[0]):
                         self.commit.process_line(line, self.exec_map)
@@ -244,7 +246,8 @@ class BlameGameRetriever(SignalHandler):
                     elif line[0] in self.exec_map:
                         self.exec_map[line[0]].process_line(line, self.exec_map)
                     else:
-                        print("Error - This line doesn't start with an expected character [a,c,p,s,f,<tab>]\n"+line)
+                        print("Error - This line doesn't start with an expected character [a,c,p,s,f,<tab>]\n"+line+
+                              f'\n FileName {filename} Line {line_no}')
                 more_time = time.time()
                 simpleton.report_performance(start_time, end_time, more_time)
 #                print(filename+ " took " + str(more_time - end_time) + " seconds to process the blame")

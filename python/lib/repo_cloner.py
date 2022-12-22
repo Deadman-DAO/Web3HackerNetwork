@@ -174,4 +174,5 @@ if __name__ == "__main__":
         rc.owner = owner
         rc.repo_name = repo_name
         rc.clone_it()
-    RepoCloner(web_lock=Lock(), git_lock=Lock()).main()
+    else:
+        RepoCloner(web_lock=Lock(), git_lock=Lock()).main()
