@@ -73,6 +73,14 @@ class SignalHandler:
             report_timeout_proc(subprocedure)
         return success, d.stdout if d is not None else None, d.stderr if d is not None else None
 
+    def boolean_damnit(self, val):
+        ret_val = False
+        if val and isinstance(val, str):
+            val = val.lower().strip()
+            if val == 'true':
+                ret_val = True
+        return ret_val
+
     def get_env_var(self, var_name, default_val=None, wrapper_method=None):
         val = os.environ.get(var_name, default=default_val)
         if val and wrapper_method and callable(wrapper_method):

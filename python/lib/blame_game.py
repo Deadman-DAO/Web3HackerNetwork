@@ -190,6 +190,7 @@ class BlameGameRetriever(SignalHandler):
         self.stderr = None
         self.max_wait = 60
         self.user_map = {}
+        self.be_nice = self.get_env_var('BE_NICE', 'True', self.boolean_damnit)
         self.commit = Commit()
         self.exec_map = {HandlerType.AUTHOR.value: Hacker('author'),
                          HandlerType.COMMITTER.value: Hacker('committer'),
@@ -218,7 +219,8 @@ class BlameGameRetriever(SignalHandler):
             return None
         cmd = ['nice',  'git', '-C', self.repo_dir, 'blame', blame_params, filename]
 
-        if sys.platform == "win32":
+        if sys.platform == "win32" or not self.be_nice:
+            print('Naughty, not nice!')
             # Take out the first element of the cmd array as windows isn't "nice"
             cmd = cmd[1:]
         start_time = time.time()
