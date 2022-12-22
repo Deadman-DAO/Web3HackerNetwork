@@ -83,7 +83,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.dependency_list = [JavaDependencyAnalyzer(), GoDependencyAnalyzer(), PythonDependencyAnalyzer(),
                                 ScalaDependencyAnalyzer(), JavascriptDependencyAnalyzer()]
         self.max_threads = self.get_env_var('REPO_ANALYZER_MAX_THREADS', default_val=None, wrapper_method=int)
-        self.max_blame_time = self.get_env_var('MAX_BLAME_TIME_IN_MINUTES', default_val=None, wrapper_method=int)
+        self.max_blame_time = self.get_env_var('MAX_BLAME_TIME_IN_MINUTES', default_val='30', wrapper_method=int)
 
     class GetNextRepoForAnalysis(DBTask):
 
