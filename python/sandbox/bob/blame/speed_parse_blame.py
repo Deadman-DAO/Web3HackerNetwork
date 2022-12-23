@@ -76,9 +76,8 @@ class BlameGameRetriever(): #SignalHandler):
                         'line_count':line_count
                     }
                     # print(f'{commit_id} {line_count} {name} {mail}')
-                    seek_commit_mode = False
+                    seek_commit_mode = True
                     gather_mode = False
-                    seek_end_mode = True
         committers = dict()
         for commit_id, commit in commits.items():
             name = commit['name']
