@@ -8,6 +8,7 @@ import sys
 
 from lib.monitor import timeit
 from lib.signal_handler import SignalHandler
+from sandbox.matt.log_trial import clog as log
 
 
 def make_dir(dir_name):
@@ -37,8 +38,11 @@ class DBDependent(SignalHandler):
     def kill_all_subprocesses(self, proc):
         pid = proc.pid if proc.pid else os.getpid()
         me = psutil.Process(pid)
+        log.error('Killing process tree: ' + str(me))
+        for n in me.cmdline():
+            log.error('\t'+n)
         for child in me.children(recursive=True):
-            print(f'Killing child process {child.pid}: {child.cmdline()}')
+            log.error(f'Killing child process {child.pid}: {child.cmdline()}')
             child.kill()
 
     @timeit
