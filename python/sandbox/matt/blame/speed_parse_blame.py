@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import as_completed
 
 def get_blame(repo_dir, file_path):
-    cmd = ['nice', 'git', '-C', repo_dir, 'blame', '--porcelain', file_path]
+    cmd = ['git', '-C', repo_dir, 'blame', '--porcelain', file_path]
     handler = SignalHandler()
     success, stdout, stderr = handler.execute_os_cmd(cmd)
     stdout = str(stdout)
@@ -49,7 +49,8 @@ class BlameGameRetriever(): #SignalHandler):
         commit_lines_regex = '^([0-9a-f]{40}) [0-9]+ [0-9]+ ([0-9]+)$'
         gather_name_regex = '^author (.*)$'
         gather_mail_regex = '^author-mail (.*)$'
-        text = get_blame(self.repo_dir, path)
+        relative_path = path.replace(self.repo_dir, '.')
+        text = get_blame(self.repo_dir, relative_path)
         lines = text.splitlines(False)
         seek_commit_mode = True
         gather_mode = False
@@ -100,7 +101,7 @@ class BlameGameRetriever(): #SignalHandler):
         return (path, committers)
 
     def do_it_with_files(self):
-        with ThreadPoolExecutor(max_workers=20) as executor:
+        with ThreadPoolExecutor(max_workers=1) as executor:
             threadmap = executor.map(self.do_it, self.paths[0:1000])
         for result in threadmap:
             print(f'{result}')
