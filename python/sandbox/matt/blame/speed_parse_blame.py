@@ -100,12 +100,16 @@ class BlameGameRetriever(): #SignalHandler):
             committers[author]['commit_count'] += 1
         return (path, committers)
 
-    def do_it_with_files(self):
-        with ThreadPoolExecutor(max_workers=1) as executor:
+    def do_it_with_files(self, max_workers=1):
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
             threadmap = executor.map(self.do_it, self.paths[0:1000])
-        for result in threadmap:
-            print(f'{result}')
+        # for result in threadmap:
+        #     print(f'{result}')
         
 if __name__ == '__main__':
     bgr = BlameGameRetriever()
-    bgr.do_it_with_files()
+    for n_threads in range(1,21):
+        start = perf_counter()
+        bgr.do_it_with_files(n_threads)
+        end = perf_counter()
+        print(f'Elapsed: {end-start} with {n_threads} threads')
