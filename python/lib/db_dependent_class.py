@@ -46,10 +46,14 @@ class DBDependent(SignalHandler):
             child.kill()
 
     @timeit
+    def got_lock_now_executing_proc(self, method_name, params):
+        return self.get_cursor().callproc(method_name, params)
+
+    @timeit
     def execute_procedure(self, method_name, params):
         if self.db_lock:
             with self.db_lock:
-                return self.get_cursor().callproc(method_name, params)
+                return self.got_lock_now_executing_proc(method_name, params)
         else:
             return self.get_cursor().callproc(method_name, params)
 

@@ -218,12 +218,10 @@ class BlameGameRetriever(SignalHandler):
         except ValueError:
             return False
 
-    @timeit
     def get_blame_game(self, filename):
         self.run_blame(filename, '--porcelain')
         return self.exec_map[HandlerType.SOURCE.value].hacker_tracker_map
 
-    @timeit
     def run_blame(self, filename, blame_params) -> dict:
         if not os.path.exists(os.path.join(self.repo_dir, filename)):
             return None

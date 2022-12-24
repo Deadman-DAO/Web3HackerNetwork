@@ -26,7 +26,7 @@ class ChildProcessContainer(Thread):
     def wait_for_it(self, seconds):
         init_time = time.time()
 
-        if not self.thread or self.thread.is_alive():
+        if not self.thread or not self.thread.is_alive():
             self.wait_for_it_to_start(seconds)
 
         if not self.thread:
