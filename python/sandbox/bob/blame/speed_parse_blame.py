@@ -18,10 +18,9 @@ def get_blame(repo_dir, file_path):
     stdout = re.sub('"$', '', stdout)
     stdout = stdout.replace('\\n', '\n')
     stdout = stdout.replace('\\t', '\t')
-    # print(stdout)
     return stdout
 
-class BlameGameRetriever(): #SignalHandler):
+class BlameGameRetriever():
     def __init__(self):
         self.repo_dir = \
             '/home/bob/projects/sample/pavanpoojary7/Sports-Tournaments'
@@ -31,14 +30,11 @@ class BlameGameRetriever(): #SignalHandler):
         with open(paths_file, 'rt') as paths_in:
             self.paths = [line.strip() for line in paths_in.readlines()]
         print(f'File Count: {len(self.paths)}')
-        # SignalHandler.__init__(self)
-
 
     def do_it(self, path):
-        #print(f'reading {path}')
-        commit_lines_regex = '^([0-9a-f]{40}) [0-9]+ [0-9]+ ([0-9]+)$'
-        gather_name_regex = '^author (.*)$'
-        gather_mail_regex = '^author-mail (.*)$'
+        commit_lines_regex = re.compile('^([0-9a-f]{40}) [0-9]+ [0-9]+ ([0-9]+)$')
+        gather_name_regex = re.compile('^author (.*)$')
+        gather_mail_regex = re.compile('^author-mail (.*)$')
         text = get_blame(self.repo_dir, path)
         lines = text.splitlines(False)
         seek_commit_mode = True
@@ -46,14 +42,12 @@ class BlameGameRetriever(): #SignalHandler):
         commits = dict()
         for line in lines:
             if seek_commit_mode:
-                commit_lines_matches = re.findall(commit_lines_regex, line)
+                commit_lines_matches = commit_lines_regex.findall(line)
                 if commit_lines_matches:
-                    # print(f'{matches}')
                     commit_id = commit_lines_matches[0][0]
                     line_count = int(commit_lines_matches[0][1])
                     if commit_id in commits:
                         commit = commits[commit_id]
-                        # print(f'{commit_id} {line_count} {committer}')
                         commit['line_count'] += line_count
                     else:
                         seek_commit_mode = False
@@ -62,20 +56,19 @@ class BlameGameRetriever(): #SignalHandler):
                         mail = None
             elif gather_mode:
                 if not name:
-                    name_matches = re.findall(gather_name_regex, line)
-                    if name_matches:
-                        name = name_matches[0]
+                    name_match = gather_name_regex.match(line)
+                    if name_match:
+                        name = name_match[0]
                 elif not mail:
-                    mail_matches = re.findall(gather_mail_regex, line)
-                    if mail_matches:
-                        mail = mail_matches[0]
+                    mail_match = gather_mail_regex.match(line)
+                    if mail_match:
+                        mail = mail_match[0]
                 if name and mail:
                     commits[commit_id] = {
                         'name':name,
                         'email':mail,
                         'line_count':line_count
                     }
-                    # print(f'{commit_id} {line_count} {name} {mail}')
                     seek_commit_mode = True
                     gather_mode = False
         committers = dict()
@@ -90,8 +83,10 @@ class BlameGameRetriever(): #SignalHandler):
         return (path, committers)
 
     def do_it_with_files(self):
-        with ThreadPoolExecutor(max_workers=20) as executor:
-            threadmap = executor.map(self.do_it, self.paths[0:1000])
+        paths = self.paths[0:1000]
+        print(f'processing {len(paths)} files')
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            threadmap = executor.map(self.do_it, paths)
         for result in threadmap:
             print(f'{result}')
         
