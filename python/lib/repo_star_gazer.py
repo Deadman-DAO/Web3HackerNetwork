@@ -62,7 +62,7 @@ class RepoStarGazer(DBDependent, GitHubClient):
         info = self.fetch_json_with_lock(self.format_url(repo_owner, repo_name))
         if info:
             self.save_repo_info(info, repo_owner, repo_name)
-            log.info('Saved info for %s/%s' % (repo_owner, repo_name))
+            log.critical('Saved info for %s/%s' % (repo_owner, repo_name))
 
 
     def do_it(self):
