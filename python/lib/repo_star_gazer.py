@@ -1,5 +1,4 @@
 import json
-import logging
 
 from db_dependent_class import DBDependent
 from git_hub_client import GitHubClient
@@ -56,7 +55,9 @@ class RepoStarGazer(DBDependent, GitHubClient):
         self.bucket.upload_fileobj(io.BytesIO(repo_info_zip), key)
         sgc = info['stargazers_count'] if 'stargazers_count' in info else 0
         wc = info['watchers_count'] if 'watchers_count' in info else 0
-        self.execute_procedure('SetRepoWatcherCount', [repo_owner, repo_name, sgc if sgc > wc else wc])
+        size = info['size'] if 'size' in info else 0
+        subscribers = info['subscribers_count'] if 'subscribers_count' in info else 0
+        self.execute_procedure('SetRepoWatcherCount', [repo_owner, repo_name, sgc if sgc > wc else wc, size, subscribers])
 
     def get_repo_info(self, repo_owner, repo_name):
         info = self.fetch_json_with_lock(self.format_url(repo_owner, repo_name))
