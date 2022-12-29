@@ -21,7 +21,7 @@ repo_file_path = raw_path+"/repo_file"
 # repo_name = 'cilium'
 
 # def synthetic_partition_key(owner, repo_name):
-#     partition_name = f'{owner}\t{repo_name}'
+#     partition_name = f'{owner}/{repo_name}'
 #     print(f'Partition Name: {partition_name}')
 #     key_hash = hashlib.md5(partition_name.encode('utf-8')).hexdigest()
 #     synthetic_key = key_hash[slice(0, 2)]
@@ -170,15 +170,15 @@ def create_multiple_repo_files_parquet(numstat_path_list):
         partition_key = pq_util.repo_partition_key(owner, repo_name)
         if partition_key not in partitions:
             partitions[partition_key] = list()
-        partitions[partition_key].append(f'{owner}\t{repo_name}')
+        partitions[partition_key].append(f'{owner}/{repo_name}')
     for partition_key in partitions:
         repo_keys = partitions[partition_key]
         print(f'{partition_key}: '+str(len(repo_keys)))
         table = None
         for repo_key in repo_keys:
-            owner = repo_key[slice(0,repo_key.index('\t'))]
-            repo_name = repo_key[slice(repo_key.index('\t') + 1, len(repo_key))]
-            print(f'{owner}\t{repo_name}')
+            owner = repo_key[slice(0,repo_key.index('/'))]
+            repo_name = repo_key[slice(repo_key.index('/') + 1, len(repo_key))]
+            print(f'{owner}/{repo_name}')
             try:
                 numstat_object = s3_util.get_numstat(owner, repo_name)
                 repo_files = extract_repo_file_data(owner, repo_name, numstat_object)

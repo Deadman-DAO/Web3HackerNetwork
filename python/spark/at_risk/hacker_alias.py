@@ -59,7 +59,7 @@ def insert_or_update(df, bucket, tier, name):
 # ----- END SPARK JOB BOILERPLATE ----------------------------------
 
 register_table( spark, 'deadmandao', 'athena', 'targetable_hackers')
-register_table( spark, 'deadmandao', 'curated', 'repo_hacker')
+register_table( spark, 'deadmandao', 'curated2', 'hacker_alias')
 
 out_sql = """
 WITH dupe_finder AS (

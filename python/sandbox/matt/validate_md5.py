@@ -4,7 +4,7 @@ import hashlib
 
 
 def synthetic_partition_key(owner, repo_name):
-    partition_key = owner + "\t" + repo_name
+    partition_key = owner + "/" + repo_name
     return hashlib.md5(partition_key.encode('utf-8')).hexdigest()
 
 

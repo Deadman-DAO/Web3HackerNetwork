@@ -13,7 +13,7 @@ import pyarrow.parquet as papq
 #   "owner": "GingerGabriela",
 #   "repo_name": "pruebaGitHub2",
 #   "partition_key": "pk81",
-#   "owner_repo": "GingerGabriela\tpruebaGitHub2",
+#   "owner_repo": "GingerGabriela/pruebaGitHub2",
 #   "author_name": "David Turner",
 #   "author_email_domain": "twosigma.com",
 #   "author_email_hash": "fe8f9fd45b86a8756b6ed233d6f13d9a"
@@ -22,7 +22,7 @@ import pyarrow.parquet as papq
 #   "owner": "aiven",
 #   "repo_name": "cassandra",
 #   "partition_key": "pk81",
-#   "owner_repo": "aiven\tcassandra",
+#   "owner_repo": "aiven/cassandra",
 #   "author_name": "Dave Brosius",
 #   "author_email_domain": "mebigfatguy.com",
 #   "author_email_hash": "c35777e0d2751654391d03ccdf67edc4"

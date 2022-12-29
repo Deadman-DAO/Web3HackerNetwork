@@ -103,7 +103,7 @@ class Ingester(ABC):
         owner_repos = list()
         tables = list()
         for new_table_tuple in new_table_tuples:
-            owner_repo = f'{new_table_tuple[0]}\t{new_table_tuple[1]}'
+            owner_repo = f'{new_table_tuple[0]}/{new_table_tuple[1]}'
             owner_repos.append(owner_repo)
             new_table = new_table_tuple[2]
             tables.append(new_table)
