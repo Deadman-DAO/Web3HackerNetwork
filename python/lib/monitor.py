@@ -76,10 +76,11 @@ def mem_info():
 def get_monitored_thread(thread_name=None):
     global monitored_thread_map
     _ct_name = current_thread().name if thread_name is None else thread_name
+    if _ct_name.startswith('CHILDOF_'):
+        _ct_name = _ct_name[8:_ct_name[8:].find('_')+8]
+
     if _ct_name not in monitored_thread_map:
         monitored_thread_map[_ct_name] = MonitoredThread()
-        if _ct_name.startswith('PREFIX_'):
-            get_singleton()
     return monitored_thread_map[_ct_name]
 
 

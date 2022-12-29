@@ -87,7 +87,7 @@ class RepoNumstatGatherer(DBDependent):
         self.results_output_file = None
         self.success = None
         self.timeout_count = 0
-        self.max_wait = int(find_argv_param('max_wait', 360))
+        self.max_wait = self.get_env_var('MAX_GIT_WAIT_SECONDS', default_val='360', wrapper_method=int)
         self.release_numstats = True
 
     def stop(self):
