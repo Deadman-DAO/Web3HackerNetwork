@@ -64,6 +64,8 @@ class RepoStarGazer(DBDependent, GitHubClient):
         if info:
             self.save_repo_info(info, repo_owner, repo_name)
             log.critical('Saved info for %s/%s' % (repo_owner, repo_name))
+        else:
+            self.execute_procedure('SetRepoWatcherCount', [repo_owner, repo_name, -1, -1, -1])
 
 
     def do_it(self):
