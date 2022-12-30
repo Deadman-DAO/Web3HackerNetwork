@@ -26,7 +26,7 @@ class RepoStarGazer(DBDependent, GitHubClient):
         return ''.join((self.url_prefix, repo_owner, '/', repo_name))
 
     def get_next_repo_from_database(self):
-        return self.execute_procedure('GetNextRepoForEval', [self.machine_name])[0]
+        return self.execute_procedure('GetNextRepoForEval', (self.machine_name, None, None, None))[1:]
 
     def load_input(self):
         if self.loaded_input is None:
