@@ -1,10 +1,9 @@
-from lib.monitor import MultiprocessMonitor, timeit
 from lib.signal_handler import SignalHandler
 import os
 import sys
 import time
 from abc import ABC, abstractmethod
-from datetime import datetime as datingdays, timedelta
+from datetime import datetime as datingdays
 import pytz
 from enum import Enum
 import traceback
@@ -56,31 +55,30 @@ class HackerTracker:
         self.commit_hash_map = {}
         self.time_zone = time_zone
         self.min_epoch = None
-        self.max_epoc = None
+        self.max_epoch = None
 
     def add_line(self, commit_hash, epoch, committer_only = False):
         self.lines_contributed += 1
         self.min_epoch = epoch if self.min_epoch is None else min(self.min_epoch, epoch)
-        self.max_epoc = epoch if self.max_epoc is None else max(self.max_epoc, epoch)
-        dic = self.author_hash_map
-        if committer_only:
-            dic = self.commit_hash_map
+        self.max_epoch = epoch if self.max_epoch is None else max(self.max_epoch, epoch)
+        dic = self.author_hash_map if not committer_only else self.commit_hash_map
 
-        if commit_hash in dic:
-            dic[commit_hash] += 1
-        else:
-            dic[commit_hash] = 1
+        if commit_hash not in dic:
+            dic[commit_hash] = dict(epoch=epoch, lines=0)
+
+        target_dict = dic[commit_hash]
+        target_dict['lines'] += 1
 
     def __str__(self):
         return f'lines contributed: {self.lines_contributed} commits made: {len(self.author_hash_map)}'
 
 class SourceLine(LineHandler):
     def __init__(self):
-        self.source = []
+        self.num_lines = 0
         self.hacker_tracker_map = {}
 
     def process_line(self, line, handler_map = None):
-        self.source.append(line)
+        self.num_lines += 1
         if handler_map:
             hacker = handler_map[HandlerType.AUTHOR.value]
             committer = handler_map[HandlerType.COMMITTER.value]
@@ -91,11 +89,10 @@ class SourceLine(LineHandler):
                 self.hacker_tracker_map[hacker_key] = HackerTracker(hacker.time_zone_str)
             self.hacker_tracker_map[hacker_key]. \
                 add_line(handler_map[HandlerType.HASH.value].get_commit_hash(), hacker.epoch)
-            if committer_key != hacker_key:
-                if committer_key not in self.hacker_tracker_map:
-                    self.hacker_tracker_map[committer_key] = HackerTracker(committer.time_zone_str)
-                self.hacker_tracker_map[committer_key]. \
-                    add_line(handler_map[HandlerType.HASH.value].get_commit_hash(), committer.epoch, True)
+            if committer_key not in self.hacker_tracker_map:
+                self.hacker_tracker_map[committer_key] = HackerTracker(committer.time_zone_str)
+            self.hacker_tracker_map[committer_key]. \
+                add_line(handler_map[HandlerType.HASH.value].get_commit_hash(), committer.epoch, True)
 
 
 class Boundary(LineHandler):
@@ -126,7 +123,7 @@ class Commit(LineHandler):
                 self.lines_within_commit = int(nums[2])
         except Exception as e:
             print(f'Error processing commit line: {line} error: {e}')
-            print(f'File name: {handler_map[HandlerType.FILENAME.value].file_name} line number: {len(handler_map[HandlerType.SOURCE.value].source)}')
+            print(f'File name: {handler_map[HandlerType.FILENAME.value].file_name} line number: {handler_map[HandlerType.SOURCE.value].num_lines}')
 
 class Summary(LineHandler):
     def __init__(self):
@@ -269,4 +266,5 @@ if __name__ == '__main__':
     map = BlameGameRetriever('../python/lib').get_blame_game('repo_numstat_gatherer.py')
     for key, val in map.items():
         print(key, val)
+    print(map)
 

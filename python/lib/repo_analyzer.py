@@ -84,6 +84,9 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                                 ScalaDependencyAnalyzer(), JavascriptDependencyAnalyzer()]
         self.max_threads = self.get_env_var('REPO_ANALYZER_MAX_THREADS', default_val=None, wrapper_method=int)
         self.max_blame_time = self.get_env_var('MAX_BLAME_TIME_IN_MINUTES', default_val='30', wrapper_method=int)
+        self.MAX_FILES_TO_BLAME = self.get_env_var('MAX_FILES_TO_BLAME', default_val='60000', wrapper_method=int)
+        self.error_message = None
+        self.timed_out = False
 
     class GetNextRepoForAnalysis(DBTask):
 
@@ -116,10 +119,10 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             self.mom = mom
 
         def get_proc_name(self):
-            return 'ReleaseRepoFromAnalysis'
+            return 'ReleaseRepoFromAnalysis2'
 
         def get_proc_parameters(self):
-            return [self.mom.repo_id, self.mom.success, self.mom.stats_json]
+            return [self.mom.repo_id, self.mom.success, self.mom.stats_json, self.mom.error_message, self.mom.timed_out]
 
         def process_db_results(self, result_args):
             return True
@@ -191,37 +194,50 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             future_blame_result_map = {}
             future_dependency_result_map = {}
             if os.path.exists(self.repo_dir) and self.expire_time > time():
-                print('Repo Analyzer processing repo: ', self.repo_owner, self.repo_name)
+                source_files = []
+                for subdir, dirs, files in os.walk(self.repo_dir):
+                    for file in files:
+                        filename = os.path.join(subdir, file)
+                        relative_file_name = filename[len(self.repo_dir)+1:].replace(os.sep, '/')
+                        extension = os.path.splitext(filename)[1].lower()
+                        for dep in self.dependency_list:
+                            if dep.matches(extension):
+                                source_files.append(dict(filename=filename, relative_file_name=relative_file_name, extension=extension))
+
+                size = len(source_files)
+                print('Repo Analyzer processing repo: ', self.repo_owner, self.repo_name, 'with', size, 'identified source files')
+                if size > self.MAX_FILES_TO_BLAME:
+                    print('Repo Analyzer skipping blame for repo: ', self.repo_owner, self.repo_name, 'due to too many files')
+                    self.error_message = 'Repo Analyzer skipping blame for repo: ' + self.repo_owner + '/' + self.repo_name + ' due to too many files (' + str(size) + ')'
+                    self.timed_out = True
+                    self.success = False
+                    return
+
                 with ThreadPoolExecutor(max_workers=self.max_threads, thread_name_prefix="CHILDOF_repoAnalyzerThread_") as exec:
-                    for subdir, dirs, files in os.walk(self.repo_dir):
-                        for file in files:
-                            if self.expire_time < time():
-                                print('Repo Analyzer process interrupted, terminating thread pool')
-                                exec.shutdown(wait=False, cancel_futures=True)
-                                return
-                            filename = os.path.join(subdir, file)
-                            relative_file_name = filename[len(self.repo_dir)+1:].replace(os.sep, '/')
-                            extension = os.path.splitext(filename)[1].lower()
-                            # print('Processing: ', filename, extension)
-                            for dep in self.dependency_list:
-                                if dep.matches(extension):
-                                    # First try and define the blame map - catching any errors
-                                    try:
-                                        self.blame_game_retriever = BlameGameRetriever(self.repo_dir)
-                                        future_blame_result_map[relative_file_name] = \
-                                            exec.submit(self.blame_game_retriever.get_blame_game, relative_file_name)
-                                    except Exception as e:
-                                        print(e)
-                                        traceback.print_exc()
-                                        print('Error encountered calling BlameGameRetriever.get_blame_game: ', filename)
-                                    # Now take a similar approach to dependency analysis
-                                    try:
-                                        future_dependency_result_map[relative_file_name] = \
-                                            exec.submit(dep.get_dependencies, filename)
-                                    except Exception as e:
-                                        print(e)
-                                        traceback.print_exc()
-                                        print('Error encountered calling dependency-discovery method: ', filename, str(dep))
+                    for dicky in source_files:
+                        filename = dicky['filename']
+                        relative_file_name = dicky['relative_file_name']
+                        extension = dicky['extension']
+                        # print('Processing: ', filename, extension)
+                        for dep in self.dependency_list:
+                            if dep.matches(extension):
+                                # First try and define the blame map - catching any errors
+                                try:
+                                    self.blame_game_retriever = BlameGameRetriever(self.repo_dir)
+                                    future_blame_result_map[relative_file_name] = \
+                                        exec.submit(self.blame_game_retriever.get_blame_game, relative_file_name)
+                                except Exception as e:
+                                    print(e)
+                                    traceback.print_exc()
+                                    print('Error encountered calling BlameGameRetriever.get_blame_game: ', filename)
+                                # Now take a similar approach to dependency analysis
+                                try:
+                                    future_dependency_result_map[relative_file_name] = \
+                                        exec.submit(dep.get_dependencies, filename)
+                                except Exception as e:
+                                    print(e)
+                                    traceback.print_exc()
+                                    print('Error encountered calling dependency-discovery method: ', filename, str(dep))
                     print('Repo Analyzer thread pool completed, waiting for results: ', self.repo_owner, self.repo_name)
                     for relative_file_name in future_blame_result_map.keys():
                         if self.expire_time < time():
