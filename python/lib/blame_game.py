@@ -58,7 +58,8 @@ class HackerTracker:
         self.max_epoch = None
 
     def add_line(self, commit_hash, epoch, committer_only = False):
-        self.lines_contributed += 1
+        if not committer_only:
+            self.lines_contributed += 1
         self.min_epoch = epoch if self.min_epoch is None else min(self.min_epoch, epoch)
         self.max_epoch = epoch if self.max_epoch is None else max(self.max_epoch, epoch)
         dic = self.author_hash_map if not committer_only else self.commit_hash_map
