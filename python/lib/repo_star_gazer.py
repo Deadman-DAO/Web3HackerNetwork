@@ -26,8 +26,7 @@ class RepoStarGazer(DBDependent, GitHubClient):
         return ''.join((self.url_prefix, repo_owner, '/', repo_name))
 
     def get_next_repo_from_database(self):
-        print('get_next_repo_from_database() not implemented yet')
-        return None
+        return self.execute_procedure('GetNextRepoForEval', [self.machine_name])[0]
 
     def load_input(self):
         if self.loaded_input is None:
@@ -59,11 +58,11 @@ class RepoStarGazer(DBDependent, GitHubClient):
         subscribers = info['subscribers_count'] if 'subscribers_count' in info else 0
         self.execute_procedure('SetRepoWatcherCount', [repo_owner, repo_name, sgc if sgc > wc else wc, size, subscribers])
 
-    def get_repo_info(self, repo_owner, repo_name):
+    def get_repo_info(self, repo_owner, repo_name, repo_id):
         info = self.fetch_json_with_lock(self.format_url(repo_owner, repo_name))
         if info:
             self.save_repo_info(info, repo_owner, repo_name)
-            log.critical('Saved info for %s/%s' % (repo_owner, repo_name))
+            log.critical('Saved info for %s/%s [%s]' % (repo_owner, repo_name, repo_id))
         else:
             self.execute_procedure('SetRepoWatcherCount', [repo_owner, repo_name, -1, -1, -1])
 
@@ -73,7 +72,7 @@ class RepoStarGazer(DBDependent, GitHubClient):
         while running:
             repo = self.get_next_repo()
             if repo:
-                self.get_repo_info(repo[0], repo[1])
+                self.get_repo_info(repo[0], repo[1], repo[2] if repo[2] else -1)
             else:
                 running = False
 
