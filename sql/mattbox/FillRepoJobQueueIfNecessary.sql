@@ -7,14 +7,14 @@ BEGIN
 	declare _sleep_time_if_empty_seconds int;
 	declare _delay_expiration datetime;
 	declare _now datetime default now(3);
-	declare _randy int default(RAND());
+	declare _randy int default(RAND()*999999999);
 	declare _recs_inserted int;
 	declare _limit int;
 	declare _max_priority_repo_id int;
 	declare exit handler for SQLEXCEPTION
 	begin
         GET DIAGNOSTICS CONDITION 1 @p1 = RETURNED_SQLSTATE, @p2 = MESSAGE_TEXT;
-		call debug(CONCAT('Exception occurred in FillRepoJobQueueIfNecessary ',@p1, ':', @p2, ' deleting repo_job_q_filler_reservation record'));
+		call debug(CONCAT('Exception occurred in FillRepoJobQueueIfNecessary ',@p1, ':', @p2, ' deleting repo_job_q_filler_reservation record (', _randy, ')'));
 		delete from repo_job_q_filler_reservation where singleton = 666 and tstamp = _now and ewenique = _randy;
 	end;
 
@@ -46,6 +46,7 @@ BEGIN
 					  and r.last_cloned_date is null
 					  and r.failed_date is null
 					  and re.size is not null
+					  and re.watchers > 3
 			
 					order by ifnull(pr.id, _max_priority_repo_id) asc, priority desc
 					limit 15000
@@ -55,8 +56,14 @@ BEGIN
 			limit _limit;				
 			
 		select row_count() into _recs_inserted;
+		if _recs_inserted < 1 then
+			update repo_job_q_settings set delay_expiration = now() + interval _sleep_time_if_empty_seconds second;
+		else
+			update repo_job_q_settings set delay_expiration = null, last_batch_tstamp = _now, last_batch_size_added = _recs_inserted;
+		end if;
 		call debug(concat('FillRepoJobQueueIfNecessary filled ', _recs_inserted, ' records'));
 		delete from repo_job_q_filler_reservation where singleton = 666 and tstamp = _now and ewenique = _randy;
+
 	end if;		
 	
 END

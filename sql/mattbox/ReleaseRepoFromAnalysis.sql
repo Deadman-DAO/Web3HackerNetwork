@@ -2,7 +2,9 @@ DELIMITER /MANGINA/
 create or replace procedure `w3hacknet`.`ReleaseRepoFromAnalysis` (
 IN _repo_id int(11),
 IN _success bit(1),
-IN _stats_json longblob
+IN _stats_json longblob,
+IN _error_message varchar(256),
+IN _timed_out bit(1)
 )
 BEGIN
 	declare dt datetime default current_timestamp(3);
@@ -57,8 +59,6 @@ BEGIN
 	update repo set last_analysis_date = dt, failed_date = case when _success then null else dt end
 	 where id = _repo_id;
 	update repo_reserve set tstamp = dt where repo_id = _repo_id;	
-	insert into import_performance_tracking (repo_id, success, stats_json, starttime)
-		select _repo_id, _success, _stats_json, dt;
 	select LAST_INSERT_ID() into _perf_track_id; 
 	select json_query(_stats_json, '$.hacker_extension_map') into _hacker_extension_map;
 
@@ -91,8 +91,6 @@ BEGIN
 		end while;
 		set idx = idx + 1;
 	end while;		
-	update import_performance_tracking set hacker_name_map_size = _array_size, hacker_name_map_completion = CURRENT_TIMESTAMP(3)
-	 where id = _perf_track_id;
 
 	select json_keys(_repo_extension_map) into _keys;
 	select json_length(_keys) into _array_size;
@@ -103,12 +101,7 @@ BEGIN
 
 		call UpdateRepoExtensionCount(_repo_id, _key, _count);
 		set idx = idx + 1;
-	end while;
-	update import_performance_tracking set extension_map_size = _array_size, extension_map_completion = CURRENT_TIMESTAMP(3)
-	 where id = _perf_track_id;
-
-	
-	
+	end while;	
 	
 	select json_keys(_repo_import_map) into _keys;  
 	select json_length(_keys) into _array_size; 	
@@ -158,8 +151,6 @@ BEGIN
 		end while;
 		set idx = idx + 1;
 	end while;
-	update import_performance_tracking set import_map_map_size = _array_size, import_map_map_completion = CURRENT_TIMESTAMP(3), endtime = CURRENT_TIMESTAMP(3) 
-	 where id = _perf_track_id;
 
 END
 /MANGINA/

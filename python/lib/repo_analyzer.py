@@ -119,7 +119,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             self.mom = mom
 
         def get_proc_name(self):
-            return 'ReleaseRepoFromAnalysis2'
+            return 'ReleaseRepoFromAnalysis'
 
         def get_proc_parameters(self):
             return [self.mom.repo_id, self.mom.success, self.mom.stats_json, self.mom.error_message, self.mom.timed_out]
