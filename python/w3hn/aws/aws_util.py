@@ -6,8 +6,10 @@ import json
 import os
 import pyarrow.fs as pafs
 import pyarrow.parquet as papq
+from lib.signal_handler import SignalHandler
 
-class AWSUtil:
+
+class AWSUtil(SignalHandler):
     def __init__(self,
                  profile="default",
                  key_id=None,
@@ -59,7 +61,7 @@ class S3Util(AWSUtil):
     # suffix should be something like 'dependency_map.json.bz2'
     # or 'log_numstat.out.json.bz2' or 'blame_map.json.bz2'
     def get_json_obj_from_bz2(self, owner, repo_name, suffix):
-        key = f'repo/{owner}/{repo_name}/{suffix}'
+        key = f'{self.get_s3_base_dir()}/{owner}/{repo_name}/{suffix}'
         s3_obj = self.client.get_object(Bucket=self.bucket.name,Key=key)
         compressed = s3_obj['Body'].read()
         text = bz2.decompress(compressed)

@@ -178,7 +178,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 self.numstat_json = bz2.decompress(self.numstat_raw)
                 self.numstat = json.loads(self.numstat_json)
 
-                key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/log_numstat.out.json.bz2'
+                key = self.get_s3_base_dir()+'/'+self.repo_owner+'/'+self.repo_name+'/log_numstat.out.json.bz2'
                 try:
                     self.bucket.upload_file(self.numstat_dir, key)
                 except Exception as e:
@@ -254,7 +254,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                         blame_map_json = json.dumps(repo_blame_map, ensure_ascii=False, sort_keys=True, indent=2,
                                                     default=lambda o: o.__dict__ )
                         blame_map_zip = bz2.compress(blame_map_json.encode('utf-8'))
-                        key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/blame_map.json.bz2'
+                        key = self.get_s3_base_dir()+'/'+self.repo_owner+'/'+self.repo_name+'/blame_map.json.bz2'
                         self.bucket.upload_fileobj(io.BytesIO(blame_map_zip), key)
                 except Exception as e:
                     self.success = False
@@ -265,7 +265,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     if len(self.repo_dependency_map) > 0:
                         dependency_map_json = json.dumps(self.repo_dependency_map, ensure_ascii=False)
                         dependency_map_zip = bz2.compress(dependency_map_json.encode('utf-8'))
-                        key = 'repo/'+self.repo_owner+'/'+self.repo_name+'/dependency_map.json.bz2'
+                        key = self.get_s3_base_dir()+'/'+self.repo_owner+'/'+self.repo_name+'/dependency_map.json.bz2'
                         self.bucket.upload_fileobj(io.BytesIO(dependency_map_zip), key)
                 except Exception as e:
                     self.success = False

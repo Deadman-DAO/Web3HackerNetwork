@@ -31,7 +31,7 @@ class CopyCassandra(DBDependent):
             t = bytearray(row[2])
             try:
                 ba = base64.b64decode(t)
-                key = 'repo/'+row[3]+'/'+row[4]+'/log_numstat.out.json.bz2'
+                key = self.get_s3_base_dir()+'/'+row[3]+'/'+row[4]+'/log_numstat.out.json.bz2'
                 file_name = ''.join(('./', str(uuid.uuid4())))
                 with open(file_name, 'wb') as w:
                     w.write(ba)

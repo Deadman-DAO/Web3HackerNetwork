@@ -86,3 +86,6 @@ class SignalHandler:
         if val and wrapper_method and callable(wrapper_method):
             val = wrapper_method(val)
         return val
+
+    def get_s3_base_dir(self):
+        return self.get_env_var('S3_BASE_DIR', default_val='repo', wrapper_method=None)

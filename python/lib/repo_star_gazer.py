@@ -50,7 +50,7 @@ class RepoStarGazer(DBDependent, GitHubClient):
         json.dumps(info)
         repo_info_json = json.dumps(info, ensure_ascii=False)
         repo_info_zip = bz2.compress(repo_info_json.encode('utf-8'))
-        key = 'repo/'+repo_owner+'/'+repo_name+'/repo_info.json.bz2'
+        key = self.get_s3_base_dir()+'/'+repo_owner+'/'+repo_name+'/repo_info.json.bz2'
         self.bucket.upload_fileobj(io.BytesIO(repo_info_zip), key)
         sgc = info['stargazers_count'] if 'stargazers_count' in info else 0
         wc = info['watchers_count'] if 'watchers_count' in info else 0
