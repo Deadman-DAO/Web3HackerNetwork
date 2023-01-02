@@ -40,7 +40,7 @@ class RepoCleanup(DBDrivenTaskProcessor):
             return 'ReleaseRepoAfterCleanup_v01'
 
         def get_proc_parameters(self):
-            return [self.mom.repo_id]
+            return [self.mom.repo_id, self.mom.machine_name]
 
         def process_db_results(self, result_args):
             pass
