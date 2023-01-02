@@ -7,6 +7,7 @@ BEGIN
 	declare _sleep_time_if_empty_seconds int;
 	declare _delay_expiration datetime;
 	declare _now datetime default now(3);
+	declare _after datetime default now(3);
 	declare _randy int default(RAND()*999999999);
 	declare _recs_inserted int;
 	declare _limit int;
@@ -46,7 +47,8 @@ BEGIN
 					  and r.last_cloned_date is null
 					  and r.failed_date is null
 					  and re.size is not null
-					  and re.watchers > 3
+					  and re.size < 800000
+					  and re.watchers > 9
 			
 					order by ifnull(pr.id, _max_priority_repo_id) asc, priority desc
 					limit 15000
@@ -61,7 +63,8 @@ BEGIN
 		else
 			update repo_job_q_settings set delay_expiration = null, last_batch_tstamp = _now, last_batch_size_added = _recs_inserted;
 		end if;
-		call debug(concat('FillRepoJobQueueIfNecessary filled ', _recs_inserted, ' records'));
+		select now(3) into _after;
+		call debug(concat('FillRepoJobQueueIfNecessary filled ', _recs_inserted, ' records in ', timestampdiff(second, _now, _after)));
 		delete from repo_job_q_filler_reservation where singleton = 666 and tstamp = _now and ewenique = _randy;
 
 	end if;		
