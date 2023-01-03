@@ -54,13 +54,14 @@ class Ingester(ABC):
     # ----------------------------------------------------
     # Instance Initialization
     # ----------------------------------------------------
-    def __init__(self, aws_profile, bucket, raw_path, path_suffix, sort_by=[('owner', 'ascending'),
-                                                                            ('repo_name', 'ascending'),
-                                                                            ('file_path', 'ascending')]):
+    def __init__(self, aws_profile, bucket, path_suffix, dp_version='v01',
+                 sort_by=[('owner', 'ascending'),
+                          ('repo_name', 'ascending'),
+                          ('file_path', 'ascending')]):
         self.log = log_init.logger(__file__)
         self.s3_util = S3Util(profile=aws_profile, bucket_name=bucket)
         self.bucket = bucket
-        self.raw_path = raw_path
+        self.raw_path = pq_util.raw_path(dp_version)
         self.dataset_path = f'{self.raw_path}/{path_suffix}'
         self.sort_by = sort_by
     

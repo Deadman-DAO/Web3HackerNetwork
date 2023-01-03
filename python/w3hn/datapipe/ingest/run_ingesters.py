@@ -41,7 +41,8 @@ class IngesterRunner:
                  new_file,
                  old_file = None,
                  test_mode = True,
-                 run_blame = False,
+                 run_blame_author = False,
+                 run_blame_committer = False,
                  run_deps = False,
                  run_file_hacker = False,
                  run_repo_file = False,
@@ -55,7 +56,9 @@ class IngesterRunner:
         self.new_file = new_file
         self.old_file = old_file
         self.test_mode = test_mode
-        if run_blame:
+        if run_blame_author:
+            self.jobs = self.jobs | IngesterRunner.BLAME_JOB
+        if run_blame_committer:
             self.jobs = self.jobs | IngesterRunner.BLAME_JOB
         if run_deps:
             self.jobs = self.jobs | IngesterRunner.DEPS_JOB
@@ -89,6 +92,7 @@ class IngesterRunner:
         repo_files = dict()
         file_count = 0
         for line in lines:
+            log.debug(f'considering including file: {line}')
             if line == '': continue
             line_parts = re.split(' +', line)
             # date = line_parts[0] # time = line_parts[1] # size = line_parts[2]
@@ -97,8 +101,11 @@ class IngesterRunner:
             owner = path_parts[1]
             repo_name = path_parts[2]
             file_type = path_parts[3]
+            log.debug(f'file type is "{file_type}"')
             if file_type == 'blame_map.json.bz2' \
-               and not (self.jobs & IngesterRunner.BLAME_JOB): continue
+               and not (self.jobs & IngesterRunner.BLAME_JOB):
+                log.debug('SKIP: this is a blame file, but BLAME_JOB is not set')
+                continue
             if file_type == 'dependency_map.json.bz2' \
                and not (self.jobs & IngesterRunner.DEPS_JOB): continue
             if file_type == 'log_numstat.out.json.bz2' \
@@ -212,8 +219,11 @@ if __name__ == '__main__':
     parser.add_argument('-a', '--active_mode',
                         help='Enables write to S3. Default is test-mode.',
                         action='store_true')
-    parser.add_argument('-b', '--run_blame',
-                        help='Run the blame ingester.',
+    parser.add_argument('-b', '--run_blame_author',
+                        help='Run the blame ingester for authors.',
+                        action='store_true')
+    parser.add_argument('-B', '--run_blame_committer',
+                        help='Run the blame ingester for committers.',
                         action='store_true')
     parser.add_argument('-d', '--run_deps',
                         help='Run the dependency ingester.',
@@ -227,10 +237,10 @@ if __name__ == '__main__':
     parser.add_argument('-I', '--run_repo_info',
                         help='Run the Repo Info ingester.',
                         action='store_true')
-    parser.add_argument('-l', '--low_limit', default='00',
-                        help='The low partition limit (00 for all)')
-    parser.add_argument('-t', '--top_limit', default='ff',
-                        help='The high partiion limit (ff for all)')
+    parser.add_argument('-l', '--low_limit', default='pk00',
+                        help='The low partition limit (pk00 for all)')
+    parser.add_argument('-t', '--top_limit', default='pkff',
+                        help='The high partiion limit (pkff for all)')
     parser.add_argument('-c', '--subsample_count', type=int,
                         help='Split count for subsampling.')
     parser.add_argument('-i', '--subsample_index', type=int,
@@ -241,7 +251,8 @@ if __name__ == '__main__':
         args.new_s3_ls_file, # 'numstat_bucket_repo_files.6.log.bz2',
         old_file = args.old_file, # 'numstat_bucket_repo_files.5.log.bz2',
         test_mode = not args.active_mode,
-        run_blame = args.run_blame,
+        run_blame_author = args.run_blame_author,
+        run_blame_committer = args.run_blame_committer,
         run_deps = args.run_deps,
         run_file_hacker = args.run_file_hacker,
         run_repo_info = args.run_repo_info,
