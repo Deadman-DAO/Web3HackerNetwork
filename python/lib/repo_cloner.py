@@ -13,6 +13,7 @@ import time
 from lib.child_process import ChildProcessContainer
 from lib.db_dependent_class import DBDependent, make_dir
 from lib.monitor import MultiprocessMonitor, timeit, find_argv_param
+from sandbox.matt.log_trial import clog as log
 
 
 class RepoCloner(DBDependent):
@@ -94,12 +95,12 @@ class RepoCloner(DBDependent):
               'seconds since start time.', lock_time, 'seconds since lock acquired.')
 
     @timeit
-    def got_lock_now_cloning(self, cmd):
+    def got_lock_now_cloning(self, cmd) -> (bool, str, str) :
         self.lock_acquired = time.time()
         return self.execute_os_cmd(cmd, max_wait=self.max_wait, report_timeout_proc=self.report_timeout)
 
     @timeit
-    def clone_it(self):
+    def clone_it(self) -> (bool, str, str):
         self.repo_dir = make_dir('./repos/' + self.owner + '/' + self.repo_name)
         url = 'https://github.com/'+self.owner+'/'+self.repo_name+'.git'
         html_reply = requests.get(url, headers=self.headers)
@@ -116,12 +117,13 @@ class RepoCloner(DBDependent):
         self.clone_started = time.time()
         if self.git_lock:
             with self.git_lock:
-                self.got_lock_now_cloning(cmd)
+                return self.got_lock_now_cloning(cmd)
         else:
-            self.got_lock_now_cloning(cmd)
+            return self.got_lock_now_cloning(cmd)
 
     @timeit
     def release_job(self):
+        log.info(f'Releasing job {self.current_repo} with success {self.success}')
         self.execute_procedure('ReleaseRepoFromCloning', (self.repo_id, self.machine_name, self.repo_dir, self.success))
 
     @timeit
@@ -146,14 +148,15 @@ class RepoCloner(DBDependent):
                     if self.reserve_next_repo():
                         self.success = False
                         try:
-                            self.clone_it()
-                            self.success = True
+                            self.success, _, _ = self.clone_it()
                         except Exception as e:
                             print('Error encountered', e)
                             traceback.print_exc()
                             self.error_sleep()
                         finally:
                             self.release_job()
+                            if not self.success:
+                                self.error_sleep()
                     else:
                         self.idle_sleep()
                 else:
@@ -173,6 +176,7 @@ if __name__ == "__main__":
         rc = RepoCloner(web_lock=Lock(), git_lock=Lock())
         rc.owner = owner
         rc.repo_name = repo_name
-        rc.clone_it()
+        a, b, c = rc.clone_it()
+        print(a, b, c)
     else:
         RepoCloner(web_lock=Lock(), git_lock=Lock()).main()

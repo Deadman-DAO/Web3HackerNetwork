@@ -51,9 +51,10 @@ class SignalHandler:
 
     def execute_os_cmd(self, cmd,
                        max_wait: int = None,
-                       report_timeout_proc=None) -> [bool, str, str]:
+                       report_timeout_proc=None) -> (bool, str, str):
         success = False
         subprocedure = None
+        terminated = False
         max_wait = max_wait if max_wait is not None else self.max_wait
         if report_timeout_proc is None:
             report_timeout_proc = self.report_timeout
@@ -65,9 +66,13 @@ class SignalHandler:
                 cpc = ChildProcessContainer(d, '#Signal_Handler#', d.do_it)
                 cpc.wait_for_it(max_wait)
                 if cpc.is_alive() and cpc.is_running() and not proc.poll():
+                    terminated = True
                     report_timeout_proc(proc)
-                    return success
+                    return success, None, None
                 success = True
+        except OSError as e:
+            print('Error executing command: ', cmd, ':', e)
+            return False, None, None
         except TimeoutExpired:
             print('Timed out waiting for child process to complete')
             report_timeout_proc(subprocedure)
