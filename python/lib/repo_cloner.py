@@ -179,6 +179,10 @@ if __name__ == "__main__":
         rc.repo_name = repo_name
         a, b, c = rc.clone_it()
         print(a, b, c)
+        if not a:
+            rc.release_job()
+            print('Sleeping for 60 seconds due to errors...')
+            rc.error_sleep()
         a, b, c = rc.clone_it()
         print(a, b, c)
     else:
