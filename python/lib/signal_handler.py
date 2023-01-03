@@ -68,11 +68,11 @@ class SignalHandler:
                 if cpc.is_alive() and cpc.is_running() and not proc.poll():
                     terminated = True
                     report_timeout_proc(proc)
-                    return success, None, None
+                    return success, 'wtf?', None
                 success = True
         except OSError as e:
             print('Error executing command: ', cmd, ':', e)
-            return False, None, None
+            return False, 'That is not right', None
         except TimeoutExpired:
             print('Timed out waiting for child process to complete')
             report_timeout_proc(subprocedure)

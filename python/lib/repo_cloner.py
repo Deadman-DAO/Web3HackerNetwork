@@ -174,8 +174,11 @@ if __name__ == "__main__":
         owner = sys.argv[1]
         repo_name = sys.argv[2]
         rc = RepoCloner(web_lock=Lock(), git_lock=Lock())
+        monitor = MultiprocessMonitor(web_lock=rc.web_lock, ds=rc.get_disc_space, curjob=rc.get_current_job)
         rc.owner = owner
         rc.repo_name = repo_name
+        a, b, c = rc.clone_it()
+        print(a, b, c)
         a, b, c = rc.clone_it()
         print(a, b, c)
     else:
