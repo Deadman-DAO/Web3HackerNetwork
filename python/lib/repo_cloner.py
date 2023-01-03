@@ -177,6 +177,7 @@ if __name__ == "__main__":
         monitor = MultiprocessMonitor(web_lock=rc.web_lock, ds=rc.get_disc_space, curjob=rc.get_current_job)
         rc.owner = owner
         rc.repo_name = repo_name
+        rc.repo_id = 158525
         a, b, c = rc.clone_it()
         print(a, b, c)
         if not a:
