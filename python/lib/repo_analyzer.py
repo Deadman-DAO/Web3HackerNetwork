@@ -18,6 +18,7 @@ from w3hn.dependency.scala import ScalaDependencyAnalyzer
 from w3hn.dependency.java import JavaDependencyAnalyzer
 from w3hn.dependency.python import PythonDependencyAnalyzer
 from w3hn.dependency.javascript import JavascriptDependencyAnalyzer
+from sandbox.matt.log_trial import clog as log
 
 
 def add_int_to_map(map, key, value):
@@ -69,10 +70,12 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.extension_map = None
         self.filename_map = None
         self.stats_json = None
+        self.watcher_count = None
         self.cur_job = 'Starting...'
         self.find_orphan_sql = None
         self.hacker_name_map = None
         self.s3r = boto3.resource('s3')
+        self.client = self.s3r.client('s3')
         self.bucket = self.s3r.Bucket('numstat-bucket')
         self.hacker_extension_map = None
         self.hacker_md5_map = None
@@ -87,6 +90,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.MAX_FILES_TO_BLAME = self.get_env_var('MAX_FILES_TO_BLAME', default_val='60000', wrapper_method=int)
         self.error_message = None
         self.timed_out = False
+        self.repo_needs_update = False
 
     class GetNextRepoForAnalysis(DBTask):
 
@@ -109,6 +113,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     self.mom.repo_name = result[2]
                     self.mom.repo_dir = result[3] if result[3] else os.path.join('./repos/', self.mom.repo_owner, self.mom.repo_name)
                     self.mom.numstat_dir = result[4] if result[4] else os.path.join('./results/', self.mom.repo_owner, self.mom.repo_name)
+                    self.mom.watcher_count = int(result[5])
                     self.mom.cur_job = result[1] + ':' + result[2]
             if result is None:
                 self.mom.cur_job = 'Nada'
@@ -119,10 +124,10 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
             self.mom = mom
 
         def get_proc_name(self):
-            return 'ReleaseRepoFromAnalysis'
+            return 'ReleaseRepoFromAnalysis_v01'
 
         def get_proc_parameters(self):
-            return [self.mom.repo_id, self.mom.success, self.mom.stats_json, self.mom.error_message, self.mom.timed_out]
+            return [self.mom.repo_id, self.mom.success, self.mom.stats_json, self.mom.error_message, self.mom.timed_out, self.mom.repo_needs_update]
 
         def process_db_results(self, result_args):
             return True
@@ -270,6 +275,27 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                 except Exception as e:
                     self.success = False
                     print('Error encountered calling S3.Bucket.upload_file for dependency map: ', self.repo_dir, e)
+
+                try:
+                    meta = set.client.list_objects_v2(Bucket=self.bucket_name, Prefix=self.get_s3_base_dir()+'/'+self.repo_owner+'/'+self.repo_name+'/')
+                    found_repo_info = False
+                    self.repo_needs_update = False
+                    if 'Contents' in meta:
+                        for obj in meta['Contents']:
+                            if obj['Key'] == 'repo_info.json.bz2':
+                                found_repo_info = True
+                                log.info(f'Found repo_info.json.bz2 for {self.repo_owner}/{self.repo_name}.  No need to add it.')
+                    if not found_repo_info:
+                        log.info(f'No repo_info.json.bz2 found for {self.repo_owner}/{self.repo_name}  Creating one with watchers = {self.watcher_count}')
+                        self.repo_needs_update = True
+                        repo_info = dict(watchers=self.watcher_count)
+                        repo_info_json = json.dumps(repo_info)
+                        repo_info_zip = bz2.compress(repo_info_json.encode('utf-8'))
+                        key = self.get_s3_base_dir()+'/'+self.repo_owner+'/'+self.repo_name+'/repo_info.json.bz2'
+                        self.bucket.upload_fileobj(io.BytesIO(repo_info_zip), key)
+                except Exception as e:
+                    self.success = False
+                    print('Error encountered calling S3.Bucket.upload_file for repo_info: ', self.repo_dir, e)
 
                 # Now build the parameters for the SQL call
                 self.prepare_sql_params()

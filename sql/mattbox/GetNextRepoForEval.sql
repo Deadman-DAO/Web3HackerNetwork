@@ -12,12 +12,21 @@ BEGIN
 		call debug(CONCAT('Exception in GetNextRepoForEval ',@p1, ':', @p2, ' machine: ', _machine_name));
 	end;
 	
-	select X.repo_id, X.owner, X.name into _repo_id, _owner, _name 
-	  From repos_staged_for_eval X
-	  left join repos_staged_for_eval_reserve res on res.repo_id = X.repo_id
-  	  where randy > rand() and res.repo_id is null
-      order by randy, X.repo_id	
+	select p.repo_id, r.owner, r.name into _repo_id, _owner, _name
+	  from priority_repos_staged_for_eval p
+	  join repo r on r.id = p.repo_id
+	  left join repos_staged_for_eval_reserve rsfe on rsfe.repo_id = p.repo_id
+	  where rsfe.repo_id is NULL 
 	  limit 1;
+	 
+ 	if _repo_id is null then
+		select X.repo_id, X.owner, X.name into _repo_id, _owner, _name 
+		  From repos_staged_for_eval X
+		  left join repos_staged_for_eval_reserve res on res.repo_id = X.repo_id
+	  	  where randy > rand() and res.repo_id is null
+	      order by randy, X.repo_id	
+		  limit 1;
+	 end if;
 	 
 	if _repo_id is not null then
 		insert into repos_staged_for_eval_reserve (repo_id, machine) values (_repo_id, _machine_name);

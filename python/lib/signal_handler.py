@@ -94,3 +94,4 @@ class SignalHandler:
 
     def get_s3_base_dir(self):
         return self.get_env_var('S3_BASE_DIR', default_val='repo', wrapper_method=None)
+

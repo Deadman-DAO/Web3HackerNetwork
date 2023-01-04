@@ -8,9 +8,11 @@ import bz2
 import io
 import threading
 from sandbox.matt.log_trial import clog as log
+from monitor import Monitor, timeit, mem_info
 
 class RepoStarGazer(DBDependent, GitHubClient):
     def __init__(self, **kwargs):
+        self.monitor = Monitor(frequency=5,mem=mem_info,repos_processed=self.get_repos_processed)
         self.web_lock = kwargs['web_lock'] if 'web_lock' in kwargs else threading.Lock()
         kwargs['web_lock'] = self.web_lock
         GitHubClient.__init__(self, **kwargs)
@@ -21,12 +23,16 @@ class RepoStarGazer(DBDependent, GitHubClient):
         self.formatted_url = None
         self.s3r = boto3.resource('s3')
         self.bucket = self.s3r.Bucket('numstat-bucket')
+        self.repo_count = 0
 
     def format_url(self, repo_owner, repo_name):
         return ''.join((self.url_prefix, repo_owner, '/', repo_name))
 
     def get_next_repo_from_database(self):
         return self.execute_procedure('GetNextRepoForEval', (self.machine_name, None, None, None))[1:]
+
+    def get_repos_processed(self):
+        return self.repo_count
 
     def load_input(self):
         if self.loaded_input is None:
@@ -37,6 +43,7 @@ class RepoStarGazer(DBDependent, GitHubClient):
                         self.loaded_input.append(line.strip().split(','))
         return self.loaded_input
 
+    @timeit
     def get_next_repo(self):
         if self.loaded_input is None and self.input_csv_file:
             self.load_input()
@@ -46,6 +53,7 @@ class RepoStarGazer(DBDependent, GitHubClient):
         else:
             return self.get_next_repo_from_database()
 
+    @timeit
     def save_repo_info(self, info, repo_owner, repo_name):
         json.dumps(info)
         repo_info_json = json.dumps(info, ensure_ascii=False)
@@ -57,7 +65,9 @@ class RepoStarGazer(DBDependent, GitHubClient):
         size = info['size'] if 'size' in info else 0
         subscribers = info['subscribers_count'] if 'subscribers_count' in info else 0
         self.execute_procedure('SetRepoWatcherCount', [repo_owner, repo_name, sgc if sgc > wc else wc, size, subscribers])
+        self.repo_count += 1
 
+    @timeit
     def get_repo_info(self, repo_owner, repo_name, repo_id):
         info = self.fetch_json_with_lock(self.format_url(repo_owner, repo_name))
         if info:
