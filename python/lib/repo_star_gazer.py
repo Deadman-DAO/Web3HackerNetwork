@@ -9,6 +9,7 @@ import io
 import threading
 from sandbox.matt.log_trial import clog as log
 from monitor import Monitor, timeit, mem_info
+from datetime import datetime as dt
 
 class RepoStarGazer(DBDependent, GitHubClient):
     def __init__(self, **kwargs):
@@ -28,6 +29,7 @@ class RepoStarGazer(DBDependent, GitHubClient):
     def format_url(self, repo_owner, repo_name):
         return ''.join((self.url_prefix, repo_owner, '/', repo_name))
 
+    @timeit
     def get_next_repo_from_database(self):
         return self.execute_procedure('GetNextRepoForEval', (self.machine_name, None, None, None))[1:]
 
@@ -64,7 +66,10 @@ class RepoStarGazer(DBDependent, GitHubClient):
         wc = info['watchers_count'] if 'watchers_count' in info else 0
         size = info['size'] if 'size' in info else 0
         subscribers = info['subscribers_count'] if 'subscribers_count' in info else 0
+        before = dt.now().timestamp()
         self.execute_procedure('SetRepoWatcherCount', [repo_owner, repo_name, sgc if sgc > wc else wc, size, subscribers])
+        time = dt.now().timestamp() - before
+        log.critical(f'Update took {time} seconds')
         self.repo_count += 1
 
     @timeit
