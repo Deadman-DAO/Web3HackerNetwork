@@ -50,9 +50,8 @@ class RepoFileIngester(Ingester):
     # ----------------------------------------------------
     def __init__(self,
                  aws_profile='w3hn-admin',
-                 bucket='deadmandao',
-                 raw_path='web3hackernetwork/data_pipeline/raw'):
-        super().__init__(aws_profile, bucket, raw_path, 'repo_file')
+                 bucket='deadmandao'):
+        super().__init__(aws_profile, bucket, 'repo_file')
         self.log = logger(__file__)
 
     # ----------------------------------------------------
