@@ -53,9 +53,8 @@ class FileHackerCommitIngester(Ingester):
     # ----------------------------------------------------
     def __init__(self,
                  aws_profile='w3hn-admin',
-                 bucket='deadmandao',
-                 raw_path='web3hackernetwork/data_pipeline/raw'):
-        super().__init__(aws_profile, bucket, raw_path, 'file_hacker')
+                 bucket='deadmandao'):
+        super().__init__(aws_profile, bucket, 'file_hacker')
 
     # ----------------------------------------------------
     # Instance API
