@@ -9,4 +9,4 @@ CREATE TABLE `commit` (
   KEY `wtf` (`alias_id`),
   KEY `idx` (`id`),
   CONSTRAINT `wtf` FOREIGN KEY (`alias_id`) REFERENCES `alias` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17572860 DEFAULT CHARSET=utf8mb4
+) ENGINE=InnoDB AUTO_INCREMENT=17572971 DEFAULT CHARSET=utf8mb4
