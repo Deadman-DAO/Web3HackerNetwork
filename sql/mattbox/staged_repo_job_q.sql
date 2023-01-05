@@ -4,4 +4,4 @@ CREATE TABLE `staged_repo_job_q` (
   `tstamp` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `repo_id` (`repo_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=592647 DEFAULT CHARSET=utf8mb4
+) ENGINE=InnoDB AUTO_INCREMENT=595716 DEFAULT CHARSET=utf8mb4

@@ -7,4 +7,4 @@ CREATE TABLE `repo_commit` (
   KEY `weirder` (`repo_id`),
   CONSTRAINT `weird` FOREIGN KEY (`commit_id`) REFERENCES `commit` (`id`),
   CONSTRAINT `weirder` FOREIGN KEY (`repo_id`) REFERENCES `repo` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16856442 DEFAULT CHARSET=utf8mb4
+) ENGINE=InnoDB AUTO_INCREMENT=16858441 DEFAULT CHARSET=utf8mb4
