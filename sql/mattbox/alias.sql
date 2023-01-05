@@ -8,4 +8,4 @@ CREATE TABLE `alias` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `aliasIdx` (`md5`),
   KEY `alias_github_user_id_IDX` (`github_user_id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=3417519 DEFAULT CHARSET=utf8mb4
+) ENGINE=InnoDB AUTO_INCREMENT=3417629 DEFAULT CHARSET=utf8mb4

@@ -14,4 +14,4 @@ CREATE TABLE `hacker_update_queue` (
   `import_name` varchar(256) DEFAULT NULL,
   `import_contributions` double DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17265 DEFAULT CHARSET=utf8mb4
+) ENGINE=InnoDB AUTO_INCREMENT=47724 DEFAULT CHARSET=utf8mb4

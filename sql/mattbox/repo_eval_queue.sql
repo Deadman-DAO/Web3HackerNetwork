@@ -8,4 +8,4 @@ CREATE TABLE `repo_eval_queue` (
   `inserted_at` datetime DEFAULT NULL,
   `xfer` tinyint(1) DEFAULT 0,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=277584 DEFAULT CHARSET=utf8mb4
+) ENGINE=InnoDB AUTO_INCREMENT=277611 DEFAULT CHARSET=utf8mb4

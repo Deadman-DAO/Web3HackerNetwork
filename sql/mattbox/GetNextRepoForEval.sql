@@ -26,6 +26,10 @@ BEGIN
 	  	  where randy > rand() and res.repo_id is null
 	      order by randy, X.repo_id	
 		  limit 1;
+	 else
+	 	insert into repos_staged_for_eval (repo_id, owner, name, randy, reserved_by)
+	 		select _repo_id, _owner, _name, rand(), _machine_name;
+	 	delete from priority_repos_staged_for_eval where repo_id = _repo_id;
 	 end if;
 	 
 	if _repo_id is not null then
