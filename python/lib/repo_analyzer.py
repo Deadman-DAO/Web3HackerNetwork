@@ -75,7 +75,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
         self.find_orphan_sql = None
         self.hacker_name_map = None
         self.s3r = boto3.resource('s3')
-        self.client = self.s3r.client('s3')
+        self.client = boto3.client('s3')
         self.bucket = self.s3r.Bucket('numstat-bucket')
         self.hacker_extension_map = None
         self.hacker_md5_map = None
