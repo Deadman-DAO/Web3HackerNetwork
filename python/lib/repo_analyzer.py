@@ -277,7 +277,7 @@ class RepoAnalyzer(DBDrivenTaskProcessor):
                     print('Error encountered calling S3.Bucket.upload_file for dependency map: ', self.repo_dir, e)
 
                 try:
-                    meta = set.client.list_objects_v2(Bucket=self.bucket_name, Prefix=self.get_s3_base_dir()+'/'+self.repo_owner+'/'+self.repo_name+'/')
+                    meta = self.client.list_objects_v2(Bucket=self.bucket_name, Prefix=self.get_s3_base_dir()+'/'+self.repo_owner+'/'+self.repo_name+'/')
                     found_repo_info = False
                     self.repo_needs_update = False
                     if 'Contents' in meta:
