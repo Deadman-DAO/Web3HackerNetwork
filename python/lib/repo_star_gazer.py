@@ -66,10 +66,7 @@ class RepoStarGazer(DBDependent, GitHubClient):
         wc = info['watchers_count'] if 'watchers_count' in info else 0
         size = info['size'] if 'size' in info else 0
         subscribers = info['subscribers_count'] if 'subscribers_count' in info else 0
-        before = dt.now().timestamp()
         self.execute_procedure('SetRepoWatcherCount', [repo_owner, repo_name, sgc if sgc > wc else wc, size, subscribers])
-        time = dt.now().timestamp() - before
-        log.critical(f'Update took {time} seconds')
         self.repo_count += 1
 
     @timeit
@@ -77,7 +74,6 @@ class RepoStarGazer(DBDependent, GitHubClient):
         info = self.fetch_json_with_lock(self.format_url(repo_owner, repo_name))
         if info:
             self.save_repo_info(info, repo_owner, repo_name)
-            log.critical('Saved info for %s/%s [%s]' % (repo_owner, repo_name, repo_id))
         else:
             self.execute_procedure('SetRepoWatcherCount', [repo_owner, repo_name, -1, -1, -1])
 
