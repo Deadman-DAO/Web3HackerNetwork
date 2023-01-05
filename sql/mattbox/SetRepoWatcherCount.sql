@@ -18,6 +18,7 @@ BEGIN
 		where e.owner = _repo_owner and e.name = _repo_name;
 	
 	if _repo_id is not null then
+		delete from priority_repos_staged_for_eval where repo_id = _repo_id;
 		delete from repos_staged_for_eval where repo_id = _repo_id;
 		delete from repos_staged_for_eval_reserve where repo_id = _repo_id;
 	end if;

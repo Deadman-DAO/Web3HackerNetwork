@@ -66,6 +66,12 @@ class SaveSQL(DBDependent):
                ' for each row ', action_statement
           from information_schema.TRIGGERS t 
 """
+        self.table_sql = """
+        select table_name from information_schema.tables where table_schema = 'w3hacknet';
+        """
+        self.table_detail_template_sql = """
+        SHOW CREATE TABLE {table_name}; 
+        """
         self.database = None
 
     def main(self):
@@ -110,6 +116,16 @@ class SaveSQL(DBDependent):
                 w.write("/MANGINA/\n")
                 w.write("DELIMITER ;\n")
 
+        c.execute(self.table_sql)
+        tables = []
+        for row in self.get_cursor().fetchall():
+            tables.append(row[0])
+        for table_name in tables:
+            with open('./'+table_name+'.sql', 'wt') as w:
+                print('Processing table: ', table_name)
+                c.execute(self.table_detail_template_sql.format(table_name=table_name))
+                for row in c.fetchall():
+                    w.write(row[1])
         sys.exit(0)
 
 
