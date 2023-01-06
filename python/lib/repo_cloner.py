@@ -125,6 +125,7 @@ class RepoCloner(DBDependent):
     def release_job(self):
         log.info(f'Releasing job {self.current_repo} with success {self.success}')
         self.execute_procedure('ReleaseRepoFromCloning', (self.repo_id, self.machine_name, self.repo_dir, self.success))
+        log.info(f'Returned from releasing job {self.current_repo} with success {self.success}')
 
     @timeit
     def idle_sleep(self):
