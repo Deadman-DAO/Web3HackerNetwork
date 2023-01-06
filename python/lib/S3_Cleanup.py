@@ -11,7 +11,7 @@ bucket_name = 'numstat-bucket'
 prefix = 'repo_v01/'
 
 # Set the maximum number of objects that you want to receive in each response
-max_keys = 100
+max_keys = 10000
 
 # Set the continuation token to an empty string to start listing objects
 continuation_token = None
