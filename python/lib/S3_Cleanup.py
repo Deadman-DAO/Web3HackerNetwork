@@ -70,7 +70,7 @@ class S3Cleanup(DBDependent):
                 if self.continuation_token is None:
                     self.running = False
                 else:
-                    print(f'Continuation token: {self.continuation_token} ({self.item_count} items, {self.repo_count} repos)')
+                    print(f'Continuation token: {self.continuation_token} {self.item_count} items, {self.repo_count} repos')
 
             with open('repo_bucket_contents.json', 'w') as f:
                 f.write(json.dumps(self.owner_map, indent=4))
