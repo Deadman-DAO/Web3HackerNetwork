@@ -93,3 +93,6 @@ class S3Cleanup(DBDependent):
 
         for key, value in count_map.items():
             print(f'{key} occurred {value} times')
+
+if __name__ == '__main__':
+    S3Cleanup().run()
