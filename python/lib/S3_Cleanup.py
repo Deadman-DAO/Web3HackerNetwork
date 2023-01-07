@@ -63,13 +63,13 @@ class S3Cleanup(DBDependent):
 
 
                 # Get the continuation token from the response, if there is one
-                continuation_token = response.get('NextContinuationToken', None)
+                self.continuation_token = response.get('NextContinuationToken', None)
 
                 # If there is no continuation token, we have reached the end of the list of objects
-                if continuation_token is None:
+                if self.continuation_token is None:
                     running = False
                 else:
-                    print(f'Continuation token: {continuation_token} ({self.item_count} items, {self.repo_count} repos)')
+                    print(f'Continuation token: {self.continuation_token} ({self.item_count} items, {self.repo_count} repos)')
 
             with open('repo_bucket_contents.json', 'w') as f:
                 f.write(json.dumps(self.owner_map, indent=4))
