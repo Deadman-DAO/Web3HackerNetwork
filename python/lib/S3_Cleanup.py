@@ -51,11 +51,8 @@ while running:
                 file_name = elems[3]
                 item_count += 1
                 if owner_repo in owner_map:
-                    files = owner_map[owner_repo].files
+                    files = owner_map[owner_repo]
                     files.append(file_name)
-                    if size(files) == 4:
-                        print('Eliminating ' + owner_repo + str(files))
-                        owner_map.pop(owner_repo)
                 else:
                     repo_count += 1
                     owner_map[owner_repo] = [file_name]
