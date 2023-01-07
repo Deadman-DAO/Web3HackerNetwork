@@ -70,13 +70,16 @@ while running:
     else:
         print(f'Continuation token: {continuation_token} ({item_count} items, {repo_count} repos)')
 
-del_list = []
-for owner_repo, file_list in owner_map.items():
-    if len(file_list) == 1 and 'repo_info.json.bz2' in file_list:
-        del_list.append(owner_repo)
-
-for owner_repo in del_list:
-    owner_map.pop(owner_repo)
+count_map = {}
+unique_map = {}
 
 for owner_repo, file_list in owner_map.items():
-    print(owner_repo, file_list)
+    dicky = str(file_list.__dict__)
+    if dicky in unique_map:
+        count_map[dicky] += 1
+    else:
+        count_map[dicky] = 1
+        unique_map[dicky] = file_list
+
+for key, value in count_map.items():
+    print(f'{key} occurred {value} times')
