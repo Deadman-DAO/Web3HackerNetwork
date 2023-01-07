@@ -24,6 +24,7 @@ class S3Cleanup(DBDependent):
             with open('./repo_bucket_contents.json', 'r') as f:
                 self.owner_map = json.loads(f.read())
         else:
+            print('File not found, loading from S3')
             while self.running:
                 # Call the list_objects_v2 method to list the objects in the bucket
                 if self.continuation_token is None:
@@ -67,7 +68,7 @@ class S3Cleanup(DBDependent):
 
                 # If there is no continuation token, we have reached the end of the list of objects
                 if self.continuation_token is None:
-                    running = False
+                    self.running = False
                 else:
                     print(f'Continuation token: {self.continuation_token} ({self.item_count} items, {self.repo_count} repos)')
 
