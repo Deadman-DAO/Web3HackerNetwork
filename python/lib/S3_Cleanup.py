@@ -94,5 +94,15 @@ class S3Cleanup(DBDependent):
         for key, value in count_map.items():
             print(f'{key} occurred {value} times')
 
+        match_key = "['blame_map.json.bz2', 'dependency_map.json.bz2', 'log_numstat.out.json.bz2']"
+        cnt = 0
+        for owner_repo, file_list in self.owner_map.items():
+            if str(file_list) == match_key:
+                self.execute_procedure('RequestPriorityRepoInfo', (owner_repo.split('/')))
+                cnt += 1
+                if cnt % 100 == 0:
+                    print(f'Processed {cnt} repos')
+
+
 if __name__ == '__main__':
     S3Cleanup().run()
