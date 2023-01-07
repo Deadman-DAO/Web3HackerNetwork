@@ -12,7 +12,6 @@ def print_stack(sig, frame):
         print('\n--- Stack for thread {t}---'.format(t=thread_id))
         traceback.print_stack(frame, file=sys.stdout)
 
-
 class SignalHandler:
     class Doer:
         def __init__(self, proc):

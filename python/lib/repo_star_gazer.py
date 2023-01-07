@@ -7,9 +7,7 @@ import boto3
 import bz2
 import io
 import threading
-from sandbox.matt.log_trial import clog as log
 from monitor import Monitor, timeit, mem_info
-from datetime import datetime as dt
 
 class RepoStarGazer(DBDependent, GitHubClient):
     def __init__(self, **kwargs):

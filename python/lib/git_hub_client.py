@@ -16,6 +16,13 @@ def fetch_json_value(key, json):
     raise StopIteration(''.join(('key ', key, ' not found.')))
 
 
+def ghc_get_env_var(var_name, default_val=None, wrapper_method=None):
+    val = os.environ.get(var_name, default=default_val)
+    if val and wrapper_method and callable(wrapper_method):
+        val = wrapper_method(val)
+    return val
+
+
 class GitHubClient:
     def __init__(self, **kwargs):
         self.kwargs = kwargs
@@ -32,7 +39,9 @@ class GitHubClient:
         self.fetch_with_lock_reply = None
         self.longest_wait = 0
         self.stringy = None
-        with open('./web3.github.token', 'r') as f:
+        self.token_file = ghc_get_env_var('GITHUB_TOKEN', default_val='./web3.github.token')
+        print(f'Using {self.token_file} for GitHub token.')
+        with open(self.token_file, 'r') as f:
             self.token = f.readline()
             self.token = self.token.strip('\n')
             self.headers = {'Authorization': 'token %s' % self.token}
