@@ -58,7 +58,7 @@ while running:
                         owner_map.pop(owner_repo)
                 else:
                     repo_count += 1
-                    owner_map[owner] = [file_name]
+                    owner_map[owner_repo] = [file_name]
 
 
     # Get the continuation token from the response, if there is one
