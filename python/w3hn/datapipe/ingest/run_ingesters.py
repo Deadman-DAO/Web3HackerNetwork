@@ -92,7 +92,7 @@ class IngesterRunner:
         repo_files = dict()
         file_count = 0
         for line in lines:
-            log.debug(f'considering including file: {line}')
+            # log.debug(f'considering including file: {line}')
             if line == '': continue
             line_parts = re.split(' +', line)
             # date = line_parts[0] # time = line_parts[1] # size = line_parts[2]
@@ -101,10 +101,10 @@ class IngesterRunner:
             owner = path_parts[1]
             repo_name = path_parts[2]
             file_type = path_parts[3]
-            log.debug(f'file type is "{file_type}"')
+            # log.debug(f'file type is "{file_type}"')
             if file_type == 'blame_map.json.bz2' \
                and not (self.jobs & IngesterRunner.BLAME_JOB):
-                log.debug('SKIP: this is a blame file, but BLAME_JOB is not set')
+                # log.debug('SKIP: this is a blame file, but BLAME_JOB is not set')
                 continue
             if file_type == 'dependency_map.json.bz2' \
                and not (self.jobs & IngesterRunner.DEPS_JOB): continue
