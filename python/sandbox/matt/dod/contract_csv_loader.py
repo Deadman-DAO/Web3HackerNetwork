@@ -1,7 +1,6 @@
 import csv
-from datetime import datetime
+from datetime import datetime as datingdays
 from lib.db_dependent_class import DBDependent
-
 class CSVLoader(DBDependent):
     def __init__(self, file_name):
         DBDependent.__init__(self)
@@ -14,11 +13,12 @@ class CSVLoader(DBDependent):
         self.EOF = '>>>WTF<<<'
 
     def parse_date(self, date_str):
-        for fmt in ['%Y-%m-%d %H:%M:%S', '%Y/%m/%d %H:%M:%S', '%m/%d/%Y %H:%M:%S', '%m/%d/%Y']:
+        date_formats = ['%Y-%m-%d %H:%M:%S', '%m/%d/%Y %I:%M:%S %p', '%m/%d/%Y %H:%M', '%m/%d/%y %H:%M:%S']
+        for date_format in date_formats:
             try:
-                return datetime.strptime(date_str, fmt)
+                return datingdays.strptime(date_str, date_format)
             except ValueError:
-                pass
+                continue
         return None
 
     def load_contract_list(self):
@@ -39,16 +39,20 @@ class CSVLoader(DBDependent):
                 else:
                     needed_params = []
                     for y, idx in enumerate(self.column_idx):
-                        value = line[idx]
+                        needed_params.append(line[idx])
                         if self.column_list[y] in self.date_fields:
-                            date = self.parse_date(value)
-                            if date is None:
-                                raise Exception(f'Error parsing date: {value}')
-                            value = date
-                        needed_params.append(value)
+                            date = self.parse_date(line[idx])
+                            if date:
+                                needed_params[-1] = date
+                            else:
+                                print(f"Error parsing date {line[idx]}")
                     batch.append(needed_params)
                     if len(batch) > 9:
-                        self.get_cursor().executemany(self.sql, batch)
+                        try:
+                            self.get_cursor().executemany(self.sql, batch)
+                            print("Batch of data successfully inserted into the database")
+                        except Exception as e:
+                            print(f"Error inserting data into the database: {e}")
                         batch = []
 
     def run(self):
