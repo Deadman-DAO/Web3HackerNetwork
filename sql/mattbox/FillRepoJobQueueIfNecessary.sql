@@ -51,7 +51,6 @@ BEGIN
 						where rr.repo_id is null
 						  and srjq.id is null
 						  and r.repo_machine_name is NULL 
-						  and r.repo_dir is null
 						  and r.last_cloned_date is null
 						  and r.failed_date is null
 						  and re.size is not null
