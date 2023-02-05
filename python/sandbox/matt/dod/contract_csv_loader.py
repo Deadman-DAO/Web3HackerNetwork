@@ -1,6 +1,9 @@
 import csv
-from datetime import datetime as datingdays
+from datetime import datetime
+from dateutil import parser
 from lib.db_dependent_class import DBDependent
+from lib.utils import md5_hash
+
 class CSVLoader(DBDependent):
     def __init__(self, file_name):
         DBDependent.__init__(self)
@@ -8,18 +11,17 @@ class CSVLoader(DBDependent):
         self.column_list = ['PostedDate', 'ArchiveDate', 'ResponseDeadLine', 'Type', 'BaseType', 'SetASideCode', 'SetASide', 'State', 'City', 'Link', 'Description']
         self.column_idx = []
         self.date_fields = ['PostedDate', 'ArchiveDate', 'ResponseDeadLine']
-        self.sql = 'insert into dod_contract (posted, archive, response_deadline, type, basetype, set_aside_code, set_aside, state, city, link, description) values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'
+        self.sql = 'insert ignore into dod_contract (posted, archive, response_deadline, type, basetype, set_aside_code, set_aside, state, city, link, description, md5) values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'
         self.running = True
         self.EOF = '>>>WTF<<<'
 
     def parse_date(self, date_str):
-        date_formats = ['%Y-%m-%d %H:%M:%S', '%m/%d/%Y %I:%M:%S %p', '%m/%d/%Y %H:%M', '%m/%d/%y %H:%M:%S']
-        for date_format in date_formats:
-            try:
-                return datingdays.strptime(date_str, date_format)
-            except ValueError:
-                continue
-        return None
+        if not date_str or date_str.strip() == '':
+            return None
+        try:
+            return parser.parse(date_str)
+        except Exception as e:
+            raise ValueError(f"Error parsing date {date_str}: {e}")
 
     def load_contract_list(self):
         with open(self.file_name, 'rt') as f:
@@ -38,22 +40,29 @@ class CSVLoader(DBDependent):
                     self.running = False
                 else:
                     needed_params = []
+                    md5 = None
                     for y, idx in enumerate(self.column_idx):
                         needed_params.append(line[idx])
+                        temp_val = line[idx]
+                        if y == self.column_list.index('Description'):
+                            md5 = md5_hash(temp_val)
                         if self.column_list[y] in self.date_fields:
-                            date = self.parse_date(line[idx])
-                            if date:
-                                needed_params[-1] = date
-                            else:
-                                print(f"Error parsing date {line[idx]}")
+                            needed_params[-1] = self.parse_date(temp_val)
+                    needed_params.append(md5)
                     batch.append(needed_params)
-                    if len(batch) > 9:
+                    if len(batch) > 100:
                         try:
                             self.get_cursor().executemany(self.sql, batch)
                             print("Batch of data successfully inserted into the database")
                         except Exception as e:
                             print(f"Error inserting data into the database: {e}")
                         batch = []
+            if len(batch) > 0:
+                try:
+                    self.get_cursor().executemany(self.sql, batch)
+                    print("Batch of data successfully inserted into the database")
+                except Exception as e:
+                    print(f"Error inserting data into the database: {e}")
 
     def run(self):
         self.load_contract_list()
